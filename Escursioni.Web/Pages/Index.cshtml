@@ -1,0 +1,74 @@
+@page
+@model Escursioni.Web.Pages.IndexModel
+
+<section>
+    <h1 class="page-title">Benvenuto nel mio diario di escursioni</h1>
+    <p class="page-subtitle">
+        Questo sito raccoglie le tracce delle mie uscite in montagna e nelle colline,
+        esportate dal mio profilo Wikiloc e pubblicate qui in modo più leggibile.
+    </p>
+
+    <section class="section">
+        <h2 style="font-size:1.2rem;margin-bottom:0.5rem;">Ultime escursioni</h2>
+        <div class="card-grid">
+            @foreach (var h in Model.UltimeEscursioni)
+            {
+                var cover = Escursioni.Web.Pages.IndexModel.CoverPath(h);
+                <article class="hike-card">
+                    @if (!string.IsNullOrWhiteSpace(cover))
+                    {
+                        <img src="~/@cover" alt="@h.Titolo" loading="lazy" />
+                    }
+                    <div class="hike-card-body">
+                        <h2 class="hike-card-title">
+                            <a asp-page="/Escursioni/Dettaglio"
+                               asp-route-id="@h.Id"
+                               asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)">
+                                @h.Titolo
+                            </a>
+                        </h2>
+                        <div class="hike-card-meta">
+                            @if (!string.IsNullOrWhiteSpace(h.Comune))
+                            {
+                                @($"{h.Comune}, {h.Provincia}")
+                            }
+                            else if (!string.IsNullOrWhiteSpace(h.Regione))
+                            {
+                                @h.Regione
+                            }
+                            @if (h.DataEscursione.HasValue)
+                            {
+                                <span> · @h.DataEscursione.Value.ToString("dd/MM/yyyy")</span>
+                            }
+                        </div>
+                        <div class="hike-card-desc">
+                            @{
+                                var txt = h.Descrizione ?? "";
+                                if (txt.Length > 140) txt = txt[..140] + "...";
+                            }
+                            @txt
+                        </div>
+                    </div>
+                    <div class="hike-card-footer">
+                        <span>
+                            @if (h.DistanzaKm.HasValue)
+                            {
+                                <span>@h.DistanzaKm.Value.ToString("0.0") km</span>
+                            }
+                            @if (h.DislivelloM.HasValue)
+                            {
+                                <span> · +@h.DislivelloM.Value m</span>
+                            }
+                        </span>
+                        <span>
+                            @if (!string.IsNullOrWhiteSpace(h.Difficolta))
+                            {
+                                <span class="badge">@h.Difficolta</span>
+                            }
+                        </span>
+                    </div>
+                </article>
+            }
+        </div>
+    </section>
+</section>

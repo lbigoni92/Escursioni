@@ -1,0 +1,43 @@
+using Escursioni.Web.Data;
+using Escursioni.Web.Models;
+using Escursioni.Web.Services;
+using Microsoft.EntityFrameworkCore;
+using Xunit;
+
+namespace Escursioni.Tests;
+
+public class HikeRepositoryTests
+{
+    private EscursioniDbContext CreateContext()
+    {
+        var options = new DbContextOptionsBuilder<EscursioniDbContext>()
+            .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+            .Options;
+
+        return new EscursioniDbContext(options);
+    }
+
+    [Fact]
+    public async Task GetLatestAsync_Returns_MostRecentFirst()
+    {
+        using var ctx = CreateContext();
+
+        ctx.Hikes.Add(new Hike
+        {
+            Titolo = "Giro vecchio",
+            DataEscursione = DateTime.UtcNow.AddDays(-5)
+        });
+        ctx.Hikes.Add(new Hike
+        {
+            Titolo = "Giro recente",
+            DataEscursione = DateTime.UtcNow
+        });
+        await ctx.SaveChangesAsync();
+
+        var repo = new HikeRepository(ctx);
+
+        var result = await repo.GetLatestAsync(10);
+
+        Assert.Equal("Giro recente", result.First().Titolo);
+    }
+}

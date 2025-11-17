@@ -1,0 +1,55 @@
+@page "/ricerca"
+@model Escursioni.Web.Pages.Search.IndexModel
+
+<section>
+    <h1 class="page-title">Ricerca nel sito</h1>
+    <p class="page-subtitle">
+        Cerca nel titolo, nella descrizione e nei luoghi delle escursioni.
+    </p>
+
+    <form method="get" class="form-row">
+        <input class="input-text" type="text" name="Q" value="@Model.Q" placeholder="Cerca una cima, un luogo, un sentiero..." />
+        <button class="btn" type="submit">Cerca</button>
+    </form>
+
+    @if (!string.IsNullOrWhiteSpace(Model.Q))
+    {
+        <p style="font-size:0.9rem;color:#9ca3af;margin-bottom:0.75rem;">
+            Risultati per: <strong>@Model.Q</strong> (@Model.Results.Count)
+        </p>
+    }
+
+    <div class="card-grid">
+        @foreach (var h in Model.Results)
+        {
+            <article class="hike-card">
+                <div class="hike-card-body">
+                    <h2 class="hike-card-title">
+                        <a asp-page="/Escursioni/Dettaglio"
+                           asp-route-id="@h.Id"
+                           asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)">
+                            @h.Titolo
+                        </a>
+                    </h2>
+                    <div class="hike-card-meta">
+                        @if (!string.IsNullOrWhiteSpace(h.Comune))
+                        {
+                            @($"{h.Comune}, {h.Provincia}")
+                        }
+                        else if (!string.IsNullOrWhiteSpace(h.Regione))
+                        {
+                            @h.Regione
+                        }
+                    </div>
+                    <div class="hike-card-desc">
+                        @{
+                            var txt = h.Descrizione ?? "";
+                            if (txt.Length > 140) txt = txt[..140] + "...";
+                        }
+                        @txt
+                    </div>
+                </div>
+            </article>
+        }
+    </div>
+</section>

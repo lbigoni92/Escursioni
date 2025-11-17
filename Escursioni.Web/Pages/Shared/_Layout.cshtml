@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Escursioni</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    @if (ViewData["MetaDescription"] is string md && !string.IsNullOrWhiteSpace(md))
+    {
+        <meta name="description" content="@md" />
+    }
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header class="top-bar">
+        <div class="top-bar-inner">
+            <a class="brand" asp-page="/Index">Escursioni</a>
+            <nav class="main-nav">
+                <a asp-page="/Index">Home</a>
+                <a asp-page="/Escursioni/Index">Escursioni</a>
+                <a asp-page="/Map/Index">Mappa</a>
+                <a asp-page="/Search/Index">Ricerca</a>
+                <a asp-page="/About">Chi sono</a>
+                <a asp-page="/Contact">Contatti</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="breadcrumb">
+        <a href="javascript:history.back()">← Torna alla pagina precedente</a>
+    </div>
+
+    <main class="page-container">
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <span>© @DateTime.Now.Year - Escursioni</span>
+            <span><a href="/feed/rss">Feed RSS</a></span>
+        </div>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,135 @@
+@page "/escursioni/{id:int}/{slug?}"
+@model Escursioni.Web.Pages.Escursioni.DettaglioModel
+
+@if (Model.Hike is null)
+{
+    <p>Escursione non trovata.</p>
+}
+else
+{
+    var h = Model.Hike;
+    var cover = Escursioni.Web.Pages.Escursioni.DettaglioModel.CoverPath(h);
+
+    <article>
+        <header class="section">
+            <h1 class="page-title">@h.Titolo</h1>
+            <p class="page-subtitle">
+                @if (!string.IsNullOrWhiteSpace(h.Comune))
+                {
+                    @($"{h.Comune}, {h.Provincia}")
+                }
+                else if (!string.IsNullOrWhiteSpace(h.Regione))
+                {
+                    @h.Regione
+                }
+                @if (h.DataEscursione.HasValue)
+                {
+                    <span> · @h.DataEscursione.Value.ToString("dd/MM/yyyy")</span>
+                }
+            </p>
+        </header>
+
+        <section class="detail-layout">
+            <div>
+                @if (!string.IsNullOrWhiteSpace(cover))
+                {
+                    <div class="detail-gallery section">
+                        <img src="~/@cover" alt="@h.Titolo" loading="lazy" />
+                    </div>
+                }
+
+                <section class="section">
+                    <h2 style="font-size:1.1rem;margin-bottom:0.4rem;">Descrizione</h2>
+                    @if (!string.IsNullOrWhiteSpace(h.DescrizioneHtml))
+                    {
+                        @Html.Raw(h.DescrizioneHtml)
+                    }
+                    else if (!string.IsNullOrWhiteSpace(h.Descrizione))
+                    {
+                        <p>@h.Descrizione</p>
+                    }
+                    else
+                    {
+                        <p>Nessuna descrizione dettagliata disponibile.</p>
+                    }
+                </section>
+
+                @if (h.Tags.Count > 0)
+                {
+                    <section class="section">
+                        <h2 style="font-size:1.05rem;margin-bottom:0.3rem;">Tag</h2>
+                        <div style="display:flex;flex-wrap:wrap;gap:0.35rem;">
+                            @foreach (var t in h.Tags)
+                            {
+                                <span class="badge">@t.Tag</span>
+                            }
+                        </div>
+                    </section>
+                }
+            </div>
+
+            <aside>
+                <section class="section">
+                    <h2 style="font-size:1.05rem;margin-bottom:0.4rem;">Dati tecnici</h2>
+                    <div class="detail-meta">
+                        <div class="detail-meta-item">
+                            <strong>Distanza</strong><br />
+                            @(h.DistanzaKm.HasValue? h.DistanzaKm.Value.ToString("0.0") + " km" : "-")
+                        </div>
+                        <div class="detail-meta-item">
+                            <strong>Dislivello</strong><br />
+                            @(h.DislivelloM.HasValue ? "+" + h.DislivelloM.Value + " m" : "-")
+                        </div>
+                        <div class="detail-meta-item">
+                            <strong>Quota min</strong><br />
+                            @(h.QuotaMinM.HasValue? h.QuotaMinM.Value + " m" : "-")
+                        </div>
+                        <div class="detail-meta-item">
+                            <strong>Quota max</strong><br />
+                            @(h.QuotaMaxM.HasValue? h.QuotaMaxM.Value + " m" : "-")
+                        </div>
+                        <div class="detail-meta-item">
+                            <strong>Tempo totale</strong><br />
+                            @(h.TempoHHMM ?? "-")
+                        </div>
+                        <div class="detail-meta-item">
+                            <strong>Difficoltà</strong><br />
+                            @(string.IsNullOrWhiteSpace(h.Difficolta) ? "-" : h.Difficolta)
+                        </div>
+                        <div class="detail-meta-item">
+                            <strong>Tipo di percorso</strong><br />
+                            @(string.IsNullOrWhiteSpace(h.TipoGiro) ? "-" : h.TipoGiro)
+                        </div>
+                        <div class="detail-meta-item">
+                            <strong>Attività</strong><br />
+                            @(string.IsNullOrWhiteSpace(h.Attivita) ? "-" : h.Attivita)
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 style="font-size:1.05rem;margin-bottom:0.4rem;">Traccia</h2>
+                    @if (h.CentroidLat.HasValue && h.CentroidLon.HasValue)
+                    {
+                        <p style="font-size:0.9rem;color:#9ca3af;">
+                            Centro approssimativo: @h.CentroidLat°, @h.CentroidLon°
+                        </p>
+                        <div class="map-frame">
+                            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=@(h.CentroidLon.Value - 0.01m),@(h.CentroidLat.Value - 0.01m),@(h.CentroidLon.Value + 0.01m),@(h.CentroidLat.Value + 0.01m)&amp;layer=mapnik&amp;marker=@h.CentroidLat,%20@h.CentroidLon"
+                                    style="border:0;width:100%;height:100%;"
+                                    loading="lazy">
+                            </iframe>
+                        </div>
+                    }
+                    else
+                    {
+                        <p>Coordinate non disponibili.</p>
+                    }
+                    <p style="margin-top:0.5rem;font-size:0.85rem;">
+                        Traccia originale: <a href="@h.Url" target="_blank" rel="noopener">apri su Wikiloc</a>
+                    </p>
+                </section>
+            </aside>
+        </section>
+    </article>
+}

@@ -1,0 +1,45 @@
+@page "/mappa"
+@model Escursioni.Web.Pages.Map.IndexModel
+
+@section Scripts {
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var map = L.map('map').setView([42.5, 12.5], 6);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 18
+            }).addTo(map);
+
+            var hikes = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(
+                Model.Escursioni.Select(h => new {
+                    id = h.Id,
+                    title = h.Titolo,
+                    lat = h.CentroidLat,
+                    lon = h.CentroidLon
+                })
+            ));
+
+            hikes.forEach(function (h) {
+                if (!h.lat || !h.lon) return;
+                var marker = L.marker([h.lat, h.lon]).addTo(map);
+                var url = '/escursioni/' + h.id + '/' +
+                    h.title.toLowerCase()
+                        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                        .replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+                marker.bindPopup('<a href="' + url + '">' + h.title + '</a>');
+            });
+        });
+    </script>
+}
+
+<section>
+    <h1 class="page-title">Mappa delle escursioni</h1>
+    <p class="page-subtitle">
+        Ogni marker rappresenta un'escursione esportata da Wikiloc.
+        Clicca sul punto per aprire il dettaglio.
+    </p>
+
+    <div id="map" class="map-frame"></div>
+</section>
