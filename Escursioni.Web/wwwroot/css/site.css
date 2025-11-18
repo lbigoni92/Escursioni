@@ -1,322 +1,231 @@
+﻿/* ==========================================================================
+   TEMA GENERALE
+   ========================================================================== */
+
 :root {
-  color-scheme: dark;
-  --bg: #020617;
-  --bg2: #020617;
-  --card-bg: #020617;
-  --border-subtle: #1e293b;
-  --accent: #22c55e;
-  --accent-soft: rgba(34,197,94,0.12);
-  --text-main: #e5e7eb;
-  --text-muted: #9ca3af;
-  --danger: #f97373;
+    color-scheme: dark;
+    --bg: #020617;
+    --bg-elevated: #020617;
+    --card-bg: #020617;
+    --border-subtle: #1e293b;
+    --accent: #22c55e;
+    --accent-soft: rgba(34,197,94,0.12);
+    --text-main: #e5e7eb;
+    --text-muted: #9ca3af;
+    --danger: #f97373;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: radial-gradient(circle at top, #0b1120 0, #020617 45%, #000 100%);
-  color: var(--text-main);
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: radial-gradient(circle at top, #0b1120 0, #020617 45%, #000 100%);
+    color: var(--text-main);
 }
 
-/* Top bar */
+/* ==========================================================================
+   NAVBAR / HEADER
+   ========================================================================== */
+
 .top-bar {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  backdrop-filter: blur(16px);
-  background: linear-gradient(to right, rgba(15,23,42,0.92), rgba(2,6,23,0.92));
-  border-bottom: 1px solid rgba(148,163,184,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(16px);
+    background: linear-gradient(to right, rgba(15,23,42,0.92), rgba(2,6,23,0.92));
+    border-bottom: 1px solid rgba(148,163,184,0.2);
 }
 
 .top-bar-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0.7rem 1.2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.7rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .brand {
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  font-size: 0.95rem;
-  color: var(--text-main);
-  text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    color: var(--text-main);
+    text-decoration: none;
 }
 
 .main-nav a {
-  margin-left: 1rem;
-  font-size: 0.85rem;
-  text-decoration: none;
-  color: var(--text-muted);
-  padding: 0.25rem 0.4rem;
-  border-radius: 999px;
+    margin-left: 1rem;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: var(--text-muted);
+    padding: 0.25rem 0.4rem;
+    border-radius: 999px;
 }
 
-.main-nav a:hover {
-  color: var(--accent);
-  background: rgba(15,23,42,0.9);
-}
+    .main-nav a:hover {
+        color: var(--accent);
+        background: rgba(15,23,42,0.9);
+    }
 
 /* Breadcrumb */
+
 .breadcrumb {
-  max-width: 1100px;
-  margin: 0.4rem auto 0;
-  padding: 0 1.2rem;
-  font-size: 0.8rem;
+    max-width: 1100px;
+    margin: 0.4rem auto 0;
+    padding: 0 1.2rem;
+    font-size: 0.8rem;
 }
 
-.breadcrumb a {
-  color: var(--text-muted);
-  text-decoration: none;
-}
+    .breadcrumb a {
+        color: var(--text-muted);
+        text-decoration: none;
+    }
 
-.breadcrumb a:hover {
-  color: var(--accent);
-}
+        .breadcrumb a:hover {
+            color: var(--accent);
+        }
 
-/* Layout container */
+/* ==========================================================================
+   LAYOUT PAGINA
+   ========================================================================== */
+
 .page-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 1.2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.2rem;
 }
 
-/* Typography */
+/* Titoli */
+
 .page-title {
-  font-size: 1.8rem;
-  margin-bottom: 0.3rem;
+    font-size: 1.9rem;
+    margin-bottom: 0.25rem;
 }
 
 .page-subtitle {
-  margin-top: 0;
-  margin-bottom: 1.2rem;
-  color: var(--text-muted);
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+    color: var(--text-muted);
 }
 
-/* Cards */
+/* Sezioni generiche */
+
+.section {
+    margin-bottom: 1.4rem;
+}
+
+/* ==========================================================================
+   CARD ESCURSIONI
+   ========================================================================== */
+
 .card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
 }
 
 .hike-card {
-  background: radial-gradient(circle at top, rgba(30,64,175,0.35), rgba(15,23,42,0.9));
-  border-radius: 1.1rem;
-  overflow: hidden;
-  border: 1px solid rgba(148,163,184,0.35);
-  display: flex;
-  flex-direction: column;
-  min-height: 220px;
-  box-shadow:
-    0 18px 45px rgba(15,23,42,0.9),
-    0 0 0 1px rgba(15,23,42,0.7);
+    background: radial-gradient(circle at top, rgba(30,64,175,0.35), rgba(15,23,42,0.9));
+    border-radius: 1.1rem;
+    overflow: hidden;
+    border: 1px solid rgba(148,163,184,0.35);
+    display: flex;
+    flex-direction: column;
+    min-height: 220px;
+    box-shadow: 0 18px 45px rgba(15,23,42,0.9), 0 0 0 1px rgba(15,23,42,0.7);
 }
 
-.hike-card img {
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-  display: block;
-}
+    .hike-card img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        display: block;
+    }
 
 .hike-card-body {
-  padding: 0.9rem 1rem 0.2rem;
-  flex: 1;
+    padding: 0.9rem 1rem 0.2rem;
+    flex: 1;
 }
 
 .hike-card-title {
-  font-size: 1rem;
-  margin: 0 0 0.15rem;
+    font-size: 1rem;
+    margin: 0 0 0.15rem;
 }
 
-.hike-card-title a {
-  color: var(--text-main);
-  text-decoration: none;
-}
+    .hike-card-title a {
+        color: var(--text-main);
+        text-decoration: none;
+    }
 
-.hike-card-title a:hover {
-  color: var(--accent);
-}
+        .hike-card-title a:hover {
+            color: var(--accent);
+        }
 
 .hike-card-meta {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  margin-bottom: 0.3rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 0.3rem;
 }
 
 .hike-card-desc {
-  font-size: 0.85rem;
-  color: #e5e7eb;
+    font-size: 0.85rem;
+    color: #e5e7eb;
 }
 
 .hike-card-footer {
-  padding: 0.4rem 1rem 0.8rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 0.8rem;
-  color: var(--text-muted);
+    padding: 0.4rem 1rem 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--text-muted);
 }
 
-/* Inputs & buttons */
-.form-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.input-text {
-  flex: 1;
-  min-width: 180px;
-  border-radius: 999px;
-  border: 1px solid rgba(148,163,184,0.6);
-  background: rgba(15,23,42,0.9);
-  color: var(--text-main);
-  padding: 0.45rem 0.9rem;
-  font-size: 0.9rem;
-}
-
-.input-text::placeholder {
-  color: #64748b;
-}
-
-.btn {
-  border-radius: 999px;
-  border: none;
-  padding: 0.45rem 0.9rem;
-  font-size: 0.9rem;
-  cursor: pointer;
-  background: radial-gradient(circle at top left, #22c55e, #16a34a);
-  color: #022c22;
-  font-weight: 600;
-  box-shadow: 0 12px 30px rgba(16,185,129,0.35);
-}
-
-.btn:hover {
-  filter: brightness(1.05);
-}
-
-/* Detail layout */
-.section {
-  margin-bottom: 1.4rem;
-}
+/* ==========================================================================
+   DETTAGLIO ESCURSIONE
+   ========================================================================== */
 
 .detail-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
-  gap: 1.4rem;
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    gap: 1.4rem;
 }
 
 .detail-meta {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.6rem;
-  font-size: 0.85rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.6rem;
+    font-size: 0.85rem;
 }
 
 .detail-meta-item {
-  padding: 0.6rem 0.7rem;
-  border-radius: 0.7rem;
-  background: rgba(15,23,42,0.9);
-  border: 1px solid rgba(148,163,184,0.35);
+    padding: 0.6rem 0.7rem;
+    border-radius: 0.7rem;
+    background: rgba(15,23,42,0.9);
+    border: 1px solid rgba(148,163,184,0.35);
 }
 
 .detail-gallery img {
-  width: 100%;
-  border-radius: 1rem;
-  border: 1px solid rgba(148,163,184,0.45);
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid rgba(148,163,184,0.45);
 }
 
-/* Map frame */
-.map-frame {
-  border-radius: 1rem;
-  border: 1px solid rgba(148,163,184,0.5);
-  overflow: hidden;
-  width: 100%;
-  height: 360px;
-  background: #020617;
-}
+/* ==========================================================================
+   FORM DI RICERCA / FILTRI
+   ========================================================================== */
 
-/* Badge */
-.badge {
-  display: inline-flex;
-  align-items: center;
-  border-radius: 999px;
-  padding: 0.1rem 0.6rem;
-  font-size: 0.75rem;
-  background: var(--accent-soft);
-  color: var(--accent);
-  border: 1px solid rgba(34,197,94,0.45);
-}
-
-.badge-soft {
-  background: rgba(148,163,184,0.15);
-  color: var(--text-muted);
-  border-color: rgba(148,163,184,0.6);
-}
-
-/* Footer */
-.footer {
-  border-top: 1px solid rgba(148,163,184,0.2);
-  margin-top: 2rem;
-}
-
-.footer-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0.7rem 1.2rem 1.2rem;
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-}
-
-.footer-inner a {
-  color: var(--text-muted);
-  text-decoration: none;
-}
-
-.footer-inner a:hover {
-  color: var(--accent);
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .detail-layout {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .top-bar-inner {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.4rem;
-  }
-
-  .main-nav {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .card-grid {
-    grid-template-columns: minmax(0, 1fr);
-  }
-}
-/* Layout form di ricerca */
+/* Riga principale dei filtri */
 .form-row--wrap {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.2rem;
+    gap: 1.5rem;
     align-items: flex-start;
     margin-bottom: 1.5rem;
 }
@@ -333,14 +242,14 @@ body {
 
 .form-field--inline {
     flex: 1 1 260px;
-    gap: 0.5rem;
 }
 
 .form-field--buttons {
     align-self: flex-end;
 }
 
-/* Label & field help */
+/* Label + aiuto */
+
 .form-field label,
 .filter-label {
     font-size: 0.8rem;
@@ -355,125 +264,33 @@ body {
     color: #6b7280;
 }
 
-/* Input base */
-.input-text {
-    border-radius: 999px;
-    border: 1px solid #374151;
-    padding: 0.5rem 0.9rem;
-    background: #020617;
-    color: #e5e7eb;
-    font-size: 0.9rem;
-}
+/* Input testo */
 
-/* Chip-style filters */
-.filter-chips {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-}
-
-.chip {
-    border-radius: 999px;
-    border: 1px solid #374151;
-    background: #020617;
-    color: #e5e7eb;
-    font-size: 0.8rem;
-    padding: 0.25rem 0.7rem;
-    cursor: pointer;
-    transition: background 0.15s ease, border-color 0.15s ease, transform 0.05s ease;
-}
-
-    .chip:hover {
-        background: #111827;
-        border-color: #4b5563;
-        transform: translateY(-1px);
-    }
-
-.chip--active {
-    background: #16a34a;
-    border-color: #16a34a;
-    color: #f9fafb;
-}
-
-/* Paginazione � giusto per sicurezza */
-.pagination {
-    margin-top: 1.5rem;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.9rem;
-}
-
-.pagination-link {
-    padding: 0.35rem 0.75rem;
-    border-radius: 999px;
-    border: 1px solid #374151;
-    text-decoration: none;
-    color: #e5e7eb;
-    background: #020617;
-}
-
-    .pagination-link:hover {
-        background: #111827;
-        border-color: #4b5563;
-    }
-
-.pagination-info {
-    color: #9ca3af;
-}
-/* Form layout */
-.form-row--wrap {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.form-field {
-    display: flex;
-    flex-direction: column;
-    gap: .25rem;
-}
-
-.form-field--wide {
-    flex: 1 1 260px;
-}
-
-.form-field--buttons {
-    align-self: flex-end;
-}
-
-/* Label */
-.form-field label {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: #9ca3af;
-    text-transform: uppercase;
-    letter-spacing: .05em;
-}
-
-/* Text input */
 .input-text {
     border-radius: 10px;
     border: 1px solid #374151;
+    padding: 0.55rem 0.85rem;
     background: #0f172a;
-    padding: .55rem .85rem;
     color: #f1f5f9;
-    font-size: .9rem;
+    font-size: 0.9rem;
 }
 
-/* Dropdown select */
+    .input-text::placeholder {
+        color: #64748b;
+    }
+
+/* Select */
+
 .input-select {
     border-radius: 10px;
     border: 1px solid #374151;
     background: #0f172a;
     color: #f1f5f9;
-    padding: .55rem .85rem;
-    font-size: .9rem;
+    padding: 0.55rem 0.85rem;
+    font-size: 0.9rem;
     appearance: none;
     background-image: linear-gradient(45deg, transparent 50%, #64748b 50%), linear-gradient(135deg, #64748b 50%, transparent 50%), linear-gradient(to right, #374151, #374151);
-    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5rem) .3rem;
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5rem) 0.3rem;
     background-size: 5px 5px, 5px 5px, 1px 2rem;
     background-repeat: no-repeat;
 }
@@ -481,7 +298,14 @@ body {
     .input-select:hover {
         border-color: #475569;
     }
-/* Riga compatta per filtri avanzati (difficolt� + ordina) */
+
+.input-select--compact {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
+}
+
+/* Riga compatta per filtri avanzati (es. difficoltà + ordinamento) */
+
 .filter-row-compact {
     display: flex;
     flex-wrap: wrap;
@@ -494,7 +318,8 @@ body {
     flex: 1 1 180px;
 }
 
-/* Label con pillolina di contesto */
+/* Label con pillola */
+
 .field-label-with-pill {
     display: flex;
     align-items: center;
@@ -530,14 +355,252 @@ body {
     background: radial-gradient(circle at top, rgba(15,23,42,0.9), rgba(15,23,42,0.6));
 }
 
-/* Variante compatta del select per filtri */
-.input-select--compact {
-    font-size: 0.85rem;
-    padding: 0.4rem 0.8rem;
+/* Chip-style filters */
+
+.filter-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
 }
 
-/* Responsive: stacka i due filtri in verticale su mobile */
+.chip {
+    border-radius: 999px;
+    border: 1px solid #374151;
+    background: #020617;
+    color: #e5e7eb;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.7rem;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease, transform 0.05s ease;
+}
+
+    .chip:hover {
+        background: #111827;
+        border-color: #4b5563;
+        transform: translateY(-1px);
+    }
+
+.chip--active {
+    background: #16a34a;
+    border-color: #16a34a;
+    color: #f9fafb;
+}
+
+/* Pulsanti */
+
+.btn {
+    border-radius: 999px;
+    border: none;
+    padding: 0.45rem 0.9rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    background: radial-gradient(circle at top left, #22c55e, #16a34a);
+    color: #022c22;
+    font-weight: 600;
+    box-shadow: 0 12px 30px rgba(16,185,129,0.35);
+}
+
+    .btn:hover {
+        filter: brightness(1.05);
+    }
+
+/* ==========================================================================
+   PAGINAZIONE
+   ========================================================================== */
+
+.pagination {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+
+.pagination-link {
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    border: 1px solid #374151;
+    text-decoration: none;
+    color: #e5e7eb;
+    background: #020617;
+}
+
+    .pagination-link:hover {
+        background: #111827;
+        border-color: #4b5563;
+    }
+
+.pagination-info {
+    color: #9ca3af;
+}
+.track-downloads {
+    margin-top: 0.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+/* Variante “secondaria” del bottone, più sobria */
+.btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+    border: 1px solid #4b5563;
+    background: #020617;
+    color: #e5e7eb;
+    text-decoration: none;
+    transition: background 0.15s ease, border-color 0.15s ease, transform 0.05s ease;
+}
+
+    .btn-secondary:hover {
+        background: #111827;
+        border-color: #9ca3af;
+        transform: translateY(-1px);
+    }
+
+/* ==========================================================================
+   MAPPA ESCURSIONI
+   ========================================================================== */
+
+/* Contenitore mappa più alto e ben visibile */
+#map,
+.map-frame {
+    width: 100%;
+    height: 72vh; /* ⬅ mappa alta */
+    max-height: 800px; /* limite sensato su schermi grandi */
+    border-radius: 12px;
+    margin-top: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(34,197,94,0.13), 0 10px 30px rgba(15,23,42,0.9);
+    border: 1px solid rgba(148,163,184,0.3);
+}
+
+/* Fix compatibilità Leaflet con tema scuro */
+.leaflet-container {
+    background: #1e293b !important;
+    font-size: 1rem;
+}
+
+/* Popup */
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background: #0f172a !important;
+    color: #e5e7eb !important;
+    border: 1px solid rgba(148,163,184,0.4);
+}
+
+/* Link dentro i popup (titolo escursione) */
+.leaflet-popup-content a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+    .leaflet-popup-content a:hover {
+        color: #22c55e;
+    }
+
+/* Controlli zoom */
+.leaflet-control-zoom a {
+    background: #1e293b !important;
+    color: #f8fafc !important;
+    border: 1px solid rgba(148,163,184,0.3) !important;
+}
+
+    .leaflet-control-zoom a:hover {
+        background: #334155 !important;
+    }
+
+/* Attribution */
+.leaflet-control-attribution {
+    background: rgba(15,23,42,0.8) !important;
+    color: #cbd5e1 !important;
+}
+
+/* ==========================================================================
+   BADGE / PICCOLI ELEMENTI
+   ========================================================================== */
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    padding: 0.1rem 0.6rem;
+    font-size: 0.75rem;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid rgba(34,197,94,0.45);
+}
+
+.badge-soft {
+    background: rgba(148,163,184,0.15);
+    color: var(--text-muted);
+    border-color: rgba(148,163,184,0.6);
+}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+.footer {
+    border-top: 1px solid rgba(148,163,184,0.2);
+    margin-top: 2rem;
+}
+
+.footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.7rem 1.2rem 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+    .footer-inner a {
+        color: var(--text-muted);
+        text-decoration: none;
+    }
+
+        .footer-inner a:hover {
+            color: var(--accent);
+        }
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+
 @media (max-width: 768px) {
+    .detail-layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .top-bar-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.4rem;
+    }
+
+    .main-nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    /* mappa un po' più bassa su mobile, ma comunque comoda */
+    #map,
+    .map-frame {
+        height: 65vh;
+    }
+
     .filter-row-compact {
         flex-direction: column;
     }

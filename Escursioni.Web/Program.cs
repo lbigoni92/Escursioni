@@ -1,5 +1,6 @@
 using Escursioni.Web.Data;
 using Escursioni.Web.Services;
+using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -30,8 +31,16 @@ using (var scope = app.Services.CreateScope())
     await bootstrap.RunAsync();
 }
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
+app.UseHttpsRedirection(); 
+var provider = new FileExtensionContentTypeProvider();
+provider.Mappings[".gpx"] = "application/gpx+xml";
+provider.Mappings[".kml"] = "application/vnd.google-earth.kml+xml";
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    ContentTypeProvider = provider,
+    ServeUnknownFileTypes = true
+});
 
 app.UseRouting();
 app.UseAuthorization();

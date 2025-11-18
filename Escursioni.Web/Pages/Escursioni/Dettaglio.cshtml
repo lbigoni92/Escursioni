@@ -1,5 +1,6 @@
 @page "/escursioni/{id:int}/{slug?}"
 @model Escursioni.Web.Pages.Escursioni.DettaglioModel
+@using System.Globalization
 
 @if (Model.Hike is null)
 {
@@ -28,6 +29,57 @@ else
                 }
             </p>
         </header>
+        <section class="section">
+            <h2 style="font-size:1.05rem;margin-bottom:0.4rem;">Traccia</h2>
+
+            @if (h.CentroidLat.HasValue && h.CentroidLon.HasValue)
+            {
+                var lat = h.CentroidLat.Value;
+                var lon = h.CentroidLon.Value;
+                var delta = 0.01m;
+
+                // valori bbox in formato "invariant" (con il punto)
+                var minLon = (lon - delta).ToString(CultureInfo.InvariantCulture);
+                var minLat = (lat - delta).ToString(CultureInfo.InvariantCulture);
+                var maxLon = (lon + delta).ToString(CultureInfo.InvariantCulture);
+                var maxLat = (lat + delta).ToString(CultureInfo.InvariantCulture);
+
+                var sLat = lat.ToString(CultureInfo.InvariantCulture);
+                var sLon = lon.ToString(CultureInfo.InvariantCulture);
+
+                <p style="font-size:0.9rem;color:#9ca3af;">
+                    Centro approssimativo: @lat° N, @lon° E
+                </p>
+
+                <div class="map-frame">
+                    <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=@minLon,@minLat,@maxLon,@maxLat&amp;layer=mapnik&amp;marker=@sLat,@sLon"
+                            style="border:0;width:100%;height:100%;"
+                            loading="lazy">
+                    </iframe>
+                </div>
+            }
+            else
+            {
+                <p>Coordinate non disponibili.</p>
+            }
+
+            <p style="margin-top:0.5rem;font-size:0.85rem;">
+                Traccia originale:
+                <a href="@h.Url" target="_blank" rel="noopener">apri su Wikiloc</a>
+            </p>
+
+            @* Download GPX/KML basati sul WikilocId *@
+            @if (h.WikilocId > 0)
+            {
+                var gpxUrl = Url.Content($"~/media/gpx/{h.WikilocId}.gpx");
+                var kmlUrl = Url.Content($"~/media/kml/{h.WikilocId}.kml");
+
+                <div class="track-downloads">
+                    <a href="@gpxUrl" class="btn-secondary" download>Scarica GPX</a>
+                    <a href="@kmlUrl" class="btn-secondary" download>Scarica KML</a>
+                </div>
+            }
+        </section>
 
         <section class="detail-layout">
             <div>
