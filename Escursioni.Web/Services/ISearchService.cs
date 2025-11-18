@@ -2,7 +2,23 @@ using Escursioni.Web.Models;
 
 namespace Escursioni.Web.Services;
 
+public class SearchResult
+{
+    public List<Hike> Items { get; set; } = new();
+    public int TotalCount { get; set; }
+}
+
 public interface ISearchService
 {
-    Task<List<Hike>> SearchAsync(string? query);
+    Task<SearchResult> SearchAsync(
+        string? q,
+        string? comune,
+        string? difficolta,
+        string? ordinaPer,
+        int page,
+        int pageSize
+    );
+
+    Task<IReadOnlyList<string>> GetComuniAsync();
+    Task<IReadOnlyList<string>> GetDifficoltaAsync();
 }

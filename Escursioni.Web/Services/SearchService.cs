@@ -1,37 +1,48 @@
 using Escursioni.Web.Data;
 using Escursioni.Web.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace Escursioni.Web.Services;
 
 public class SearchService : ISearchService
 {
-    private readonly EscursioniDbContext _db;
+    private readonly IHikeRepository _hikes;
 
-    public SearchService(EscursioniDbContext db)
+    public SearchService(IHikeRepository hikes)
     {
-        _db = db;
+        _hikes = hikes;
     }
 
-    public async Task<List<Hike>> SearchAsync(string? query)
-    {
-        var q = _db.Hikes.AsQueryable();
+    // Metodo interno che puoi usare altrove se vuoi il paging completo
+    public Task<PagedResult<Hike>> SearchPagedAsync(
+        string? q,
+        string? comune,
+        string? difficolta,
+        string? orderBy,
+        int page,
+        int pageSize)
+        => _hikes.SearchAsync(q, comune, difficolta, orderBy, page, pageSize);
 
-        if (!string.IsNullOrWhiteSpace(query))
+    // Implementazione dell'interfaccia ISearchService
+    public async Task<SearchResult> SearchAsync(
+        string? q,
+        string? comune,
+        string? difficolta,
+        string? ordinaPer,
+        int page,
+        int pageSize)
+    {
+        var paged = await _hikes.SearchAsync(q, comune, difficolta, ordinaPer, page, pageSize);
+
+        return new SearchResult
         {
-            var term = query.Trim().ToLowerInvariant();
-
-            q = q.Where(h =>
-                h.Titolo.ToLower().Contains(term) ||
-                ((h.Descrizione ?? "").ToLower().Contains(term)) ||
-                ((h.Comune ?? "").ToLower().Contains(term)) ||
-                ((h.Provincia ?? "").ToLower().Contains(term)) ||
-                ((h.Regione ?? "").ToLower().Contains(term))
-            );
-        }
-
-        return await q
-            .OrderByDescending(h => h.DataEscursione ?? h.CreatedAt)
-            .ToListAsync();
+            Items = paged.Items,
+            TotalCount = paged.TotalCount
+        };
     }
+
+    public Task<IReadOnlyList<string>> GetComuniAsync()
+        => _hikes.GetDistinctComuniAsync();
+
+    public Task<IReadOnlyList<string>> GetDifficoltaAsync()
+        => _hikes.GetDistinctDifficoltaAsync();
 }

@@ -1,4 +1,3 @@
-version: "3.9"
 
 services:
   db:
@@ -19,6 +18,7 @@ services:
       timeout: 5s
       retries: 5
 
+  # IMMAGINE "PUBBLICATA" (come prima, opzionale in sviluppo)
   web:
     build:
       context: .
@@ -35,3 +35,24 @@ services:
       - "8080:8080"
     volumes:
       - ./Escursioni.Web/wwwroot:/app/wwwroot:ro
+
+  # SERVIZIO DI SVILUPPO CON AUTO-RELOAD
+  web-dev:
+    image: mcr.microsoft.com/dotnet/sdk:8.0
+    container_name: escursioni_web_dev
+    depends_on:
+      db:
+        condition: service_healthy
+    working_dir: /src/Escursioni.Web
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_URLS: "http://+:8080"
+      ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=escursioni;Username=postgres;Password=postgres"
+    volumes:
+      # monta tutta la solution
+      - ./:/src
+      # (opzionale) cache NuGet per velocizzare restore:
+      # - ~/.nuget/packages:/root/.nuget/packages
+    command: ["dotnet", "watch", "run", "--no-launch-profile", "--urls", "http://0.0.0.0:8080"]
+    ports:
+      - "8080:8080"

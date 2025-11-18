@@ -1,28 +1,130 @@
-@page "/ricerca"
+﻿@page "/ricerca"
 @model Escursioni.Web.Pages.Search.IndexModel
 
 <section>
     <h1 class="page-title">Ricerca nel sito</h1>
     <p class="page-subtitle">
-        Cerca nel titolo, nella descrizione e nei luoghi delle escursioni.
+        Filtra per comune, difficoltà e testo libero.
     </p>
 
-    <form method="get" class="form-row">
-        <input class="input-text" type="text" name="Q" value="@Model.Q" placeholder="Cerca una cima, un luogo, un sentiero..." />
-        <button class="btn" type="submit">Cerca</button>
+    <form method="get" class="form-row form-row--wrap">
+
+        <!-- COMUNE -->
+        <div class="form-field form-field--wide">
+            <label for="comune">Comune</label>
+            <input id="comune"
+                   name="Comune"
+                   class="input-text"
+                   list="comuni-list"
+                   value="@Model.Comune"
+                   placeholder="Digita un comune (es. Livorno, Levigliani)..."
+                   autocomplete="off" />
+            <datalist id="comuni-list">
+                @foreach (var c in Model.ComuniDisponibili)
+                {
+                    <option value="@c"></option>
+                }
+            </datalist>
+        </div>
+
+        <!-- TESTO LIBERO -->
+        <div class="form-field form-field--wide">
+            <label for="q">Testo libero</label>
+            <input id="q"
+                   class="input-text"
+                   type="text"
+                   name="Q"
+                   value="@Model.Q"
+                   placeholder="Cerca cima, luogo, sentiero..." />
+        </div>
+
+        <!-- DIFFICOLTÀ -->
+        <div class="form-field">
+            <label for="difficolta">Difficoltà</label>
+            <select id="difficolta"
+                    name="Difficolta"
+                    class="input-select">
+                <option value="">Tutte</option>
+                @foreach (var d in Model.DifficoltaDisponibili)
+                {
+                    <option value="@d" selected="@(d == Model.Difficolta ? "selected" : null)">
+                        @d
+                    </option>
+                }
+            </select>
+        </div>
+
+        <!-- ORDINA PER -->
+        <div class="form-field">
+            <label for="ordina">Ordina per</label>
+            <select id="ordina"
+                    name="OrdinaPer"
+                    class="input-select">
+                <option value="data_desc" selected="@(string.IsNullOrEmpty(Model.OrdinaPer) || Model.OrdinaPer == "data_desc" ? "selected" : null)">
+                    Più recenti prima
+                </option>
+                <option value="data_asc" selected="@(Model.OrdinaPer == "data_asc" ? "selected" : null)">
+                    Più vecchie prima
+                </option>
+                <option value="nome_asc" selected="@(Model.OrdinaPer == "nome_asc" ? "selected" : null)">
+                    Nome (A → Z)
+                </option>
+                <option value="nome_desc" selected="@(Model.OrdinaPer == "nome_desc" ? "selected" : null)">
+                    Nome (Z → A)
+                </option>
+                <option value="comune_asc" selected="@(Model.OrdinaPer == "comune_asc" ? "selected" : null)">
+                    Comune (A → Z)
+                </option>
+                <option value="dislivello_desc" selected="@(Model.OrdinaPer == "dislivello_desc" ? "selected" : null)">
+                    Dislivello maggiore
+                </option>
+                <option value="distanza_desc" selected="@(Model.OrdinaPer == "distanza_desc" ? "selected" : null)">
+                    Distanza maggiore
+                </option>
+            </select>
+        </div>
+
+        <!-- QUANDO CAMBIO FILTRI RIPARTO DA PAGINA 1 -->
+        <input type="hidden" name="PageNumber" value="1" />
+
+        <div class="form-field form-field--buttons">
+            <button class="btn" type="submit">Cerca</button>
+        </div>
+
     </form>
 
-    @if (!string.IsNullOrWhiteSpace(Model.Q))
+    @if (Model.TotalCount > 0)
     {
-        <p style="font-size:0.9rem;color:#9ca3af;margin-bottom:0.75rem;">
-            Risultati per: <strong>@Model.Q</strong> (@Model.Results.Count)
+        <p class="search-summary">
+            Trovate @Model.TotalCount escursioni.
+            @if (!string.IsNullOrWhiteSpace(Model.Comune))
+            {
+                <span> Comune: <strong>@Model.Comune</strong>.</span>
+            }
+            @if (!string.IsNullOrWhiteSpace(Model.Difficolta))
+            {
+                <span> Difficoltà: <strong>@Model.Difficolta</strong>.</span>
+            }
+        </p>
+    }
+    else if (!string.IsNullOrWhiteSpace(Model.Q)
+    || !string.IsNullOrWhiteSpace(Model.Comune)
+    || !string.IsNullOrWhiteSpace(Model.Difficolta))
+    {
+        <p class="search-summary">
+            Nessun risultato per i filtri selezionati.
         </p>
     }
 
     <div class="card-grid">
         @foreach (var h in Model.Results)
         {
+            var cover = Escursioni.Web.Pages.IndexModel.CoverPath(h);
             <article class="hike-card">
+                @if (!string.IsNullOrWhiteSpace(cover))
+                {
+                    <img src="~/@cover" alt="@h.Titolo" loading="lazy" />
+                }
                 <div class="hike-card-body">
                     <h2 class="hike-card-title">
                         <a asp-page="/Escursioni/Dettaglio"
@@ -40,6 +142,14 @@
                         {
                             @h.Regione
                         }
+                        @if (!string.IsNullOrWhiteSpace(h.Difficolta))
+                        {
+                            <span> · @h.Difficolta</span>
+                        }
+                        @if (h.DataEscursione.HasValue)
+                        {
+                            <span> · @h.DataEscursione.Value.ToString("dd/MM/yyyy")</span>
+                        }
                     </div>
                     <div class="hike-card-desc">
                         @{
@@ -49,7 +159,59 @@
                         @txt
                     </div>
                 </div>
+                <div class="hike-card-footer">
+                    <span>
+                        @if (h.DistanzaKm.HasValue)
+                        {
+                            <span>@h.DistanzaKm.Value.ToString("0.0") km</span>
+                        }
+                        @if (h.DislivelloM.HasValue)
+                        {
+                            <span> · +@h.DislivelloM.Value m</span>
+                        }
+                    </span>
+                    <span>
+                        @if (!string.IsNullOrWhiteSpace(h.Difficolta))
+                        {
+                            <span class="badge">@h.Difficolta</span>
+                        }
+                    </span>
+                </div>          
             </article>
         }
     </div>
+
+    @if (Model.TotalPages > 1)
+    {
+        <nav class="pagination">
+            @if (Model.PageNumber > 1)
+            {
+                <a class="pagination-link" asp-page="./Index"
+                   asp-route-PageNumber="@(Model.PageNumber - 1)"
+                   asp-route-Q="@Model.Q"
+                   asp-route-Comune="@Model.Comune"
+                   asp-route-Difficolta="@Model.Difficolta"
+                   asp-route-OrdinaPer="@Model.OrdinaPer">« Pagina precedente</a>
+            }
+
+            <span class="pagination-info">
+                Pagina @Model.PageNumber di @Model.TotalPages
+            </span>
+
+            @if (Model.PageNumber < Model.TotalPages)
+            {
+                <a class="pagination-link" asp-page="./Index"
+                   asp-route-PageNumber="@(Model.PageNumber + 1)"
+                   asp-route-Q="@Model.Q"
+                   asp-route-Comune="@Model.Comune"
+                   asp-route-Difficolta="@Model.Difficolta"
+                   asp-route-OrdinaPer="@Model.OrdinaPer">Pagina successiva »</a>
+            }
+        </nav>
+    }
+
+    <nav class="back-nav">
+        <a asp-page="/Index">← Torna alla home</a> ·
+        <a asp-page="/Escursioni/Index">← Torna all'elenco escursioni</a>
+    </nav>
 </section>
