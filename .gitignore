@@ -58,7 +58,7 @@ project.lock.json
 ########################
 # Docker / runtime
 ########################
-docker/postgres-data/
+docker/
 
 # Se monti altri volumi locali, aggiungili qui
 # es:
