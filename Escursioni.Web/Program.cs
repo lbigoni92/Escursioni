@@ -4,6 +4,9 @@ using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 
+Console.WriteLine("[LOG] STARTING APP...");
+
+Console.WriteLine("[LOG] Creazione builder...");
 var builder = WebApplication.CreateBuilder(args);
 
 // Razor Pages
@@ -26,19 +29,32 @@ builder.Services.AddScoped<ISearchService, SearchService>();
 builder.Services.AddScoped<SeoService>();
 builder.Services.AddSingleton<DatabaseBootstrapService>();
 
+
+Console.WriteLine("[LOG] Build dell'app...");
 var app = builder.Build();
+
 
 if (!app.Environment.IsDevelopment())
 {
+    Console.WriteLine("[LOG] Ambiente produzione: handler errori e HSTS");
     app.UseExceptionHandler("/Error");
     app.UseHsts();
 }
-using (var scope = app.Services.CreateScope())
+else
 {
-    var bootstrap = scope.ServiceProvider.GetRequiredService<DatabaseBootstrapService>();
-    await bootstrap.RunAsync();
+    Console.WriteLine("[LOG] Ambiente sviluppo");
 }
 
+using (var scope = app.Services.CreateScope())
+{
+    Console.WriteLine("[LOG] Avvio DatabaseBootstrapService...");
+    var bootstrap = scope.ServiceProvider.GetRequiredService<DatabaseBootstrapService>();
+    await bootstrap.RunAsync();
+    Console.WriteLine("[LOG] Migrazioni DB completate.");
+}
+
+
+Console.WriteLine("[LOG] Configurazione middleware...");
 app.UseHttpsRedirection();
 app.UseResponseCompression();
 
@@ -57,9 +73,12 @@ app.UseStaticFiles(new StaticFileOptions
     }
 });
 
+Console.WriteLine("[LOG] Static files configurati.");
+
 app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
 
+Console.WriteLine("[LOG] Applicazione avviata. In ascolto sulle porte configurate.");
 app.Run();
