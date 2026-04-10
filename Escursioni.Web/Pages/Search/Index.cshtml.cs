@@ -8,7 +8,7 @@ namespace Escursioni.Web.Pages.Search;
 public class IndexModel : PageModel
 {
     private readonly ISearchService _search;
-    private const int PageSize = 6;
+    private const int PageSize = 8;
 
     public IndexModel(ISearchService search)
     {
@@ -40,6 +40,10 @@ public class IndexModel : PageModel
     public async Task OnGet()
     {
         ViewData["Title"] = "Ricerca";
+        var desc = "Cerca escursioni per comune, difficoltà o testo libero. Trova il percorso perfetto tra tutte le escursioni disponibili.";
+        var metaDesc = $"Ricerca - {desc}";
+        if (metaDesc.Length > 180) metaDesc = metaDesc[..180] + "...";
+        ViewData["MetaDescription"] = metaDesc;
 
         if (PageNumber < 1)
             PageNumber = 1;

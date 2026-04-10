@@ -1,0 +1,47 @@
+@page "/sitemap.xml"
+@using Escursioni.Web.Services
+@using Escursioni.Web.Pages.Escursioni
+@model Escursioni.Web.Pages.Feed.SitemapModel
+@{
+    Layout = null;
+    Response.ContentType = "application/xml; charset=utf-8";
+    var baseUrl = Model.BaseUrl;
+}<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>@baseUrl/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>@baseUrl/ricerca</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>@baseUrl/mappa</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>@baseUrl/chi-sono</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    <url>
+        <loc>@baseUrl/contatti</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    @foreach (var h in Model.Hikes)
+    {
+        var slug = IndexModel.MakeSlug(h.Titolo);
+        var lastmod = h.UpdatedAt.ToString("yyyy-MM-dd");
+    <url>
+        <loc>@baseUrl/escursioni/@h.Id/@slug</loc>
+        <lastmod>@lastmod</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    }
+</urlset>

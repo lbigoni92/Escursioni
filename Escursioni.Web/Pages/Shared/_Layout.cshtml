@@ -8,19 +8,57 @@
     {
         <meta name="description" content="@md" />
     }
+    @if (ViewData["CanonicalUrl"] is string canonical && !string.IsNullOrWhiteSpace(canonical))
+    {
+        <link rel="canonical" href="@canonical" />
+    }
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="@(ViewData["OgType"] ?? "website")" />
+    <meta property="og:title" content="@(ViewData["Title"] ?? "Escursioni")" />
+    @if (ViewData["MetaDescription"] is string ogDesc && !string.IsNullOrWhiteSpace(ogDesc))
+    {
+        <meta property="og:description" content="@ogDesc" />
+    }
+    @if (ViewData["OgImage"] is string ogImg && !string.IsNullOrWhiteSpace(ogImg))
+    {
+        <meta property="og:image" content="@ogImg" />
+    }
+    @if (ViewData["CanonicalUrl"] is string ogUrl && !string.IsNullOrWhiteSpace(ogUrl))
+    {
+        <meta property="og:url" content="@ogUrl" />
+    }
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:site_name" content="Escursioni" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="@(ViewData["Title"] ?? "Escursioni")" />
+    @if (ViewData["MetaDescription"] is string twDesc && !string.IsNullOrWhiteSpace(twDesc))
+    {
+        <meta name="twitter:description" content="@twDesc" />
+    }
+    @if (ViewData["OgImage"] is string twImg && !string.IsNullOrWhiteSpace(twImg))
+    {
+        <meta name="twitter:image" content="@twImg" />
+    }
+
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Vai al contenuto principale</a>
+
     <header class="top-bar">
         <div class="top-bar-inner">
             <a class="brand" asp-page="/Index">Escursioni</a>
-            <nav class="main-nav">
+            <nav class="main-nav" aria-label="Navigazione principale">
                 <a asp-page="/Index">Home</a>
                 <!--<a asp-page="/Escursioni/Index">Escursioni</a>-->
                 <a asp-page="/Map/Index">Mappa</a>
                 <a asp-page="/Search/Index">Ricerca</a>
                 <a asp-page="/About">Chi sono</a>
                 <a asp-page="/Contact">Contatti</a>
+                <button id="toggle-darkmode" style="margin-left:1.2rem;padding:0.3rem 0.8rem;border-radius:999px;border:1px solid #4b5563;background:var(--bg);color:var(--text-main);cursor:pointer;">🌓</button>
             </nav>
         </div>
     </header>
@@ -29,7 +67,7 @@
         <!-- <a href="javascript:history.back()">← Torna alla pagina precedente</a>-->
     </div>
 
-    <main class="page-container">
+    <main id="main-content" class="page-container" role="main">
         @RenderBody()
     </main>
 
@@ -41,5 +79,26 @@
     </footer>
 
     @RenderSection("Scripts", required: false)
+
+    <!-- JSON-LD Structured Data -->
+    @if (ViewData["JsonLd"] is string jsonLd && !string.IsNullOrWhiteSpace(jsonLd))
+    {
+        <script type="application/ld+json">@Html.Raw(jsonLd)</script>
+    }
+
+    <script>
+        // Dark mode toggle logic
+        const btn = document.getElementById('toggle-darkmode');
+        if (btn) {
+            btn.addEventListener('click', function() {
+                document.body.classList.toggle('light-mode');
+                localStorage.setItem('theme', document.body.classList.contains('light-mode') ? 'light' : 'dark');
+            });
+            // On load, set theme from localStorage
+            if (localStorage.getItem('theme') === 'light') {
+                document.body.classList.add('light-mode');
+            }
+        }
+    </script>
 </body>
 </html>

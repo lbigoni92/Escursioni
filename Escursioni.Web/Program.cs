@@ -1,5 +1,6 @@
 using Escursioni.Web.Data;
 using Escursioni.Web.Services;
+using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,6 +8,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Razor Pages
 builder.Services.AddRazorPages();
+
+// Response compression (GZIP)
+builder.Services.AddResponseCompression(options =>
+{
+    options.EnableForHttps = true;
+    options.Providers.Add<GzipCompressionProvider>();
+});
 
 // DbContext PostgreSQL
 builder.Services.AddDbContext<EscursioniDbContext>(options =>
@@ -31,7 +39,9 @@ using (var scope = app.Services.CreateScope())
     await bootstrap.RunAsync();
 }
 
-app.UseHttpsRedirection(); 
+app.UseHttpsRedirection();
+app.UseResponseCompression();
+
 var provider = new FileExtensionContentTypeProvider();
 provider.Mappings[".gpx"] = "application/gpx+xml";
 provider.Mappings[".kml"] = "application/vnd.google-earth.kml+xml";
@@ -39,7 +49,12 @@ provider.Mappings[".kml"] = "application/vnd.google-earth.kml+xml";
 app.UseStaticFiles(new StaticFileOptions
 {
     ContentTypeProvider = provider,
-    ServeUnknownFileTypes = true
+    ServeUnknownFileTypes = true,
+    OnPrepareResponse = ctx =>
+    {
+        // Cache static assets for 30 days
+        ctx.Context.Response.Headers["Cache-Control"] = "public, max-age=2592000";
+    }
 });
 
 app.UseRouting();

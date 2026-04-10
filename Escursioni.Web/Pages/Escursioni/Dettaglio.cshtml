@@ -1,6 +1,7 @@
 @page "/escursioni/{id:int}/{slug?}"
 @model Escursioni.Web.Pages.Escursioni.DettaglioModel
 @using System.Globalization
+@using System.Linq
 
 @if (Model.Hike is null)
 {
@@ -9,7 +10,7 @@
 else
 {
     var h = Model.Hike;
-    var cover = Escursioni.Web.Pages.Escursioni.DettaglioModel.CoverPath(h);
+    var galleryMedia = h.Media.OrderBy(m => m.Ordine).ToList();
 
     <article>
         <header class="section">
@@ -30,63 +31,56 @@ else
             </p>
         </header>
         <section class="section">
-            <h2 style="font-size:1.05rem;margin-bottom:0.4rem;">Traccia</h2>
-
-            @if (h.CentroidLat.HasValue && h.CentroidLon.HasValue)
+            <h2 style="font-size:1.05rem;margin-bottom:0.4rem;">Traccia su OpenStreetMap Ordina per
+</h2>
+            @if (h.WikilocId > 0)
             {
-                var lat = h.CentroidLat.Value;
-                var lon = h.CentroidLon.Value;
-                var delta = 0.01m;
-
-                // valori bbox in formato "invariant" (con il punto)
-                var minLon = (lon - delta).ToString(CultureInfo.InvariantCulture);
-                var minLat = (lat - delta).ToString(CultureInfo.InvariantCulture);
-                var maxLon = (lon + delta).ToString(CultureInfo.InvariantCulture);
-                var maxLat = (lat + delta).ToString(CultureInfo.InvariantCulture);
-
-                var sLat = lat.ToString(CultureInfo.InvariantCulture);
-                var sLon = lon.ToString(CultureInfo.InvariantCulture);
-
-                <p style="font-size:0.9rem;color:#9ca3af;">
-                    Centro approssimativo: @lat° N, @lon° E
-                </p>
-
-                <div class="map-frame">
-                    <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=@minLon,@minLat,@maxLon,@maxLat&amp;layer=mapnik&amp;marker=@sLat,@sLon"
-                            style="border:0;width:100%;height:100%;"
-                            loading="lazy">
-                    </iframe>
-                </div>
+                var gpxUrl = Url.Content($"~/media/gpx/{h.WikilocId}.gpx");
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous" />
+            <div id="leaflet-gpx-map" style="width:100%;height:400px;margin-bottom:1rem;"></div>
+            <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js" crossorigin="anonymous"></script>
+            <script src="/js/gpx-leaflet.js"></script>
+            <script>
+                window.gpxMapConfig = { gpxUrl: '@gpxUrl', elementId: 'leaflet-gpx-map' };
+            </script>
+            <div class="track-downloads" style="margin-top:0.5rem;">
+                <a href="@gpxUrl" class="btn-secondary" download>Scarica GPX</a>
+            </div>
             }
-            else
-            {
-                <p>Coordinate non disponibili.</p>
-            }
-
             <p style="margin-top:0.5rem;font-size:0.85rem;">
                 Traccia originale:
                 <a href="@h.Url" target="_blank" rel="noopener">apri su Wikiloc</a>
             </p>
-
-            @* Download GPX/KML basati sul WikilocId *@
-            @if (h.WikilocId > 0)
-            {
-                var gpxUrl = Url.Content($"~/media/gpx/{h.WikilocId}.gpx");
-                var kmlUrl = Url.Content($"~/media/kml/{h.WikilocId}.kml");
-
-                <div class="track-downloads">
-                    <a href="@gpxUrl" class="btn-secondary" download>Scarica GPX</a>
-                    <a href="@kmlUrl" class="btn-secondary" download>Scarica KML</a>
-                </div>
-            }
         </section>
 
         <section class="detail-layout">
             <div>
-                @if (!string.IsNullOrWhiteSpace(cover))
+                @if (galleryMedia.Count > 0)
                 {
                     <div class="detail-gallery section">
-                        <img src="~/@cover" alt="@h.Titolo" loading="lazy" />
+                        <div class="detail-carousel" data-carousel>
+                            <button type="button" class="detail-carousel-nav detail-carousel-nav--prev" data-carousel-prev aria-label="Immagine precedente">&lsaquo;</button>
+                            <div class="detail-carousel-track" data-carousel-track>
+                                @for (var index = 0; index < galleryMedia.Count; index++)
+                                {
+                                    var media = galleryMedia[index];
+                                    <div class="detail-carousel-slide @(index == 0 ? "is-active" : string.Empty)" data-carousel-slide>
+                                        <img src="~/@media.PathRelativo" alt="@($"{h.Titolo} - foto {index + 1}")" loading="lazy" />
+                                    </div>
+                                }
+                            </div>
+                            <button type="button" class="detail-carousel-nav detail-carousel-nav--next" data-carousel-next aria-label="Immagine successiva">&rsaquo;</button>
+                        </div>
+                        @if (galleryMedia.Count > 1)
+                        {
+                            <div class="detail-carousel-dots" data-carousel-dots>
+                                @for (var index = 0; index < galleryMedia.Count; index++)
+                                {
+                                    <button type="button" class="detail-carousel-dot @(index == 0 ? "is-active" : string.Empty)" data-carousel-dot data-slide-index="@index" aria-label="Vai alla foto @(index + 1)"></button>
+                                }
+                            </div>
+                        }
                     </div>
                 }
 
@@ -160,28 +154,85 @@ else
                 </section>
 
                 <section class="section">
-                    <h2 style="font-size:1.05rem;margin-bottom:0.4rem;">Traccia</h2>
-                    @if (h.CentroidLat.HasValue && h.CentroidLon.HasValue)
+                    <h2 style="font-size:1.05rem;margin-bottom:0.4rem;">Parcheggio / Partenza</h2>
+                    @if (h.WikilocId > 0)
                     {
-                        <p style="font-size:0.9rem;color:#9ca3af;">
-                            Centro approssimativo: @h.CentroidLat°, @h.CentroidLon°
+                        var gpxUrl = Url.Content($"~/media/gpx/{h.WikilocId}.gpx");
+                        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous" />
+                        <div id="leaflet-parking-map" style="width:100%;height:250px;margin-bottom:0.5rem;"></div>
+                        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js" crossorigin="anonymous"></script>
+                        <script src="/js/parking-leaflet.js"></script>
+                        <script>
+                            window.parkingMapConfig = {
+                                gpxUrl: '@gpxUrl',
+                                elementId: 'leaflet-parking-map',
+                                linkElementId: 'parking-google-maps-link'
+                            };
+                        </script>
+                        <p style="font-size:0.9rem;color:#9ca3af;">La posizione del parcheggio/partenza è la prima coordinata della traccia GPX.</p>
+                        <p style="margin-top:0.4rem;">
+                            <a id="parking-google-maps-link" class="btn-secondary" href="#" target="_blank" rel="noopener" style="display:none;">Apri parcheggio su Google Maps</a>
                         </p>
-                        <div class="map-frame">
-                            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=@(h.CentroidLon.Value - 0.01m),@(h.CentroidLat.Value - 0.01m),@(h.CentroidLon.Value + 0.01m),@(h.CentroidLat.Value + 0.01m)&amp;layer=mapnik&amp;marker=@h.CentroidLat,%20@h.CentroidLon"
-                                    style="border:0;width:100%;height:100%;"
-                                    loading="lazy">
-                            </iframe>
-                        </div>
                     }
                     else
                     {
                         <p>Coordinate non disponibili.</p>
                     }
-                    <p style="margin-top:0.5rem;font-size:0.85rem;">
-                        Traccia originale: <a href="@h.Url" target="_blank" rel="noopener">apri su Wikiloc</a>
-                    </p>
                 </section>
             </aside>
         </section>
     </article>
+
+    @section Scripts {
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                document.querySelectorAll('[data-carousel]').forEach(function (carousel) {
+                    var slides = Array.from(carousel.querySelectorAll('[data-carousel-slide]'));
+                    var dotsContainer = carousel.parentElement.querySelector('[data-carousel-dots]');
+                    var dots = dotsContainer ? Array.from(dotsContainer.querySelectorAll('[data-carousel-dot]')) : [];
+                    var currentIndex = 0;
+
+                    if (slides.length <= 1) {
+                        var prevSingle = carousel.querySelector('[data-carousel-prev]');
+                        var nextSingle = carousel.querySelector('[data-carousel-next]');
+                        if (prevSingle) prevSingle.style.display = 'none';
+                        if (nextSingle) nextSingle.style.display = 'none';
+                        return;
+                    }
+
+                    function render(index) {
+                        currentIndex = (index + slides.length) % slides.length;
+                        slides.forEach(function (slide, slideIndex) {
+                            slide.classList.toggle('is-active', slideIndex === currentIndex);
+                        });
+                        dots.forEach(function (dot, dotIndex) {
+                            dot.classList.toggle('is-active', dotIndex === currentIndex);
+                        });
+                    }
+
+                    var prev = carousel.querySelector('[data-carousel-prev]');
+                    var next = carousel.querySelector('[data-carousel-next]');
+
+                    if (prev) {
+                        prev.addEventListener('click', function () {
+                            render(currentIndex - 1);
+                        });
+                    }
+
+                    if (next) {
+                        next.addEventListener('click', function () {
+                            render(currentIndex + 1);
+                        });
+                    }
+
+                    dots.forEach(function (dot, dotIndex) {
+                        dot.addEventListener('click', function () {
+                            render(dotIndex);
+                        });
+                    });
+                });
+            });
+        </script>
+    }
 }

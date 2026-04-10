@@ -24,12 +24,25 @@ obj/
 ########################
 # ASP.NET / .NET
 ########################
-# User secrets
-**/appsettings.Development.json
 
+# Config sensibili
+**/appsettings.Development.json
+**/appsettings.json
+
+
+# Publish output
 # Publish output
 **/publish/
 **/artifacts/
+
+# Test output
+TestResults/
+coverage/
+
+# DB dump/backup
+*.bak
+*.sql
+*.dump
 
 # NuGet
 *.nupkg

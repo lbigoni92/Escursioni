@@ -3,7 +3,7 @@
    ========================================================================== */
 
 :root {
-    color-scheme: dark;
+    color-scheme: dark light;
     --bg: #020617;
     --bg-elevated: #020617;
     --card-bg: #020617;
@@ -15,10 +15,129 @@
     --danger: #f97373;
 }
 
+body.light-mode {
+    --bg: #f8fafc;
+    --bg-elevated: #fff;
+    --card-bg: #fff;
+    --border-subtle: #cbd5e1;
+    --accent: #16a34a;
+    --accent-soft: rgba(22,163,74,0.10);
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --danger: #dc2626;
+    background: radial-gradient(circle at top, #e0f2fe 0, #f8fafc 45%, #fff 100%);
+    color: var(--text-main);
+}
+
+body.light-mode .top-bar {
+    background: linear-gradient(to right, rgba(255,255,255,0.92), rgba(248,250,252,0.92));
+    border-bottom: 1px solid #cbd5e1;
+}
+
+body.light-mode .main-nav a {
+    color: var(--text-muted);
+}
+body.light-mode .main-nav a:hover {
+    color: var(--accent);
+    background: #e0f2fe;
+}
+body.light-mode .card-grid .hike-card {
+    background: radial-gradient(circle at top, #bbf7d0 0, #fff 100%);
+    border: 1px solid #cbd5e1;
+    box-shadow: 0 8px 24px #bbf7d0, 0 0 0 1px #cbd5e1;
+}
+body.light-mode .hike-card-title a {
+    color: var(--text-main);
+}
+body.light-mode .hike-card-title a:hover {
+    color: var(--accent);
+}
+body.light-mode .hike-card-meta {
+    color: var(--text-muted);
+}
+body.light-mode .hike-card-desc {
+    color: #334155;
+}
+body.light-mode .detail-meta-item {
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+}
+body.light-mode .detail-gallery img {
+    border: 1px solid #cbd5e1;
+}
+body.light-mode .badge {
+    background: #bbf7d0;
+    color: #16a34a;
+    border: 1px solid #bbf7d0;
+}
+body.light-mode .badge-soft {
+    background: #e0e7ef;
+    color: #64748b;
+    border-color: #cbd5e1;
+}
+body.light-mode .footer {
+    border-top: 1px solid #cbd5e1;
+}
+body.light-mode .footer-inner {
+    color: #64748b;
+}
+body.light-mode .footer-inner a {
+    color: #64748b;
+}
+body.light-mode .footer-inner a:hover {
+    color: #16a34a;
+}
+body.light-mode .leaflet-container {
+    background: #f1f5f9 !important;
+    color: #1e293b !important;
+}
+body.light-mode .leaflet-popup-content-wrapper,
+body.light-mode .leaflet-popup-tip {
+    background: #fff !important;
+    color: #1e293b !important;
+    border: 1px solid #cbd5e1;
+}
+body.light-mode .leaflet-popup-content a {
+    color: #16a34a;
+}
+body.light-mode .leaflet-popup-content a:hover {
+    color: #0e7490;
+}
+body.light-mode .leaflet-control-zoom a {
+    background: #f1f5f9 !important;
+    color: #1e293b !important;
+    border: 1px solid #cbd5e1 !important;
+}
+body.light-mode .leaflet-control-zoom a:hover {
+    background: #bae6fd !important;
+}
+body.light-mode .leaflet-control-attribution {
+    background: rgba(248,250,252,0.8) !important;
+    color: #64748b !important;
+}
+}
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+/* Skip-to-content link (accessibility) */
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    z-index: 999;
+    padding: 0.6rem 1.2rem;
+    background: var(--accent);
+    color: #022c22;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 0 0 0.5rem 0;
+}
+.skip-link:focus {
+    top: 0;
 }
 
 body {
@@ -124,9 +243,10 @@ body {
    CARD ESCURSIONI
    ========================================================================== */
 
+/* Mostra sempre 4 colonne su desktop, così 8 card sono sempre 2 righe */
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
 
@@ -217,6 +337,92 @@ body {
     border: 1px solid rgba(148,163,184,0.45);
 }
 
+.detail-carousel {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid rgba(148,163,184,0.45);
+    background: rgba(15,23,42,0.65);
+}
+
+.detail-carousel-track {
+    position: relative;
+    min-height: 320px;
+}
+
+.detail-carousel-slide {
+    display: none;
+}
+
+.detail-carousel-slide.is-active {
+    display: block;
+}
+
+.detail-carousel-slide img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    display: block;
+    border: 0;
+    border-radius: 0;
+}
+
+.detail-carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 42px;
+    height: 42px;
+    border-radius: 999px;
+    border: 1px solid rgba(148,163,184,0.45);
+    background: rgba(2,6,23,0.72);
+    color: #f8fafc;
+    cursor: pointer;
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+.detail-carousel-nav--prev {
+    left: 0.8rem;
+}
+
+.detail-carousel-nav--next {
+    right: 0.8rem;
+}
+
+.detail-carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.45rem;
+    margin-top: 0.7rem;
+}
+
+.detail-carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    border: 0;
+    background: rgba(148,163,184,0.45);
+    cursor: pointer;
+    padding: 0;
+}
+
+.detail-carousel-dot.is-active {
+    background: var(--accent);
+}
+
+body.light-mode .detail-carousel {
+    background: #ffffff;
+    border-color: #cbd5e1;
+}
+
+body.light-mode .detail-carousel-nav {
+    background: rgba(255,255,255,0.88);
+    color: #0f172a;
+    border-color: #cbd5e1;
+}
+
 /* ==========================================================================
    FORM DI RICERCA / FILTRI
    ========================================================================== */
@@ -289,9 +495,9 @@ body {
     padding: 0.55rem 0.85rem;
     font-size: 0.9rem;
     appearance: none;
-    background-image: linear-gradient(45deg, transparent 50%, #64748b 50%), linear-gradient(135deg, #64748b 50%, transparent 50%), linear-gradient(to right, #374151, #374151);
-    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5rem) 0.3rem;
-    background-size: 5px 5px, 5px 5px, 1px 2rem;
+    background-image: linear-gradient(45deg, transparent 50%, #64748b 50%), linear-gradient(135deg, #64748b 50%, transparent 50%);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px);
+    background-size: 5px 5px, 5px 5px;
     background-repeat: no-repeat;
 }
 
@@ -574,6 +780,12 @@ body {
 /* ==========================================================================
    RESPONSIVE
    ========================================================================== */
+
+@media (max-width: 1024px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 @media (max-width: 768px) {
     .detail-layout {
