@@ -49,14 +49,15 @@ public class SeoService
         var safeTitle = System.Text.Json.JsonEncodedText.Encode(hike.Titolo).ToString();
         var safeDesc = System.Text.Json.JsonEncodedText.Encode(desc).ToString();
 
-        var jsonLd = $@"{{
-  ""@context"": ""https://schema.org"",
-  ""@type"": ""Article"",
-  ""headline"": ""{safeTitle}"",
-  ""description"": ""{safeDesc}"",
-  ""datePublished"": ""{pubDate}"",
-  ""dateModified"": ""{modDate}"",
-  ""url"": ""{canonical}""";
+          var jsonLd = $@"{{
+      ""@context"": ""https://schema.org"",
+      ""@type"": ""Article"",
+      ""headline"": ""{safeTitle}"",
+      ""description"": ""{safeDesc}"",
+      ""author"": {{ ""@type"": ""Person"", ""name"": ""Luca Bigoni"" }},
+      ""datePublished"": ""{pubDate}"",
+      ""dateModified"": ""{modDate}"",
+      ""url"": ""{canonical}""";
 
         if (!string.IsNullOrWhiteSpace(cover))
         {

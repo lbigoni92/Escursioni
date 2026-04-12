@@ -17,9 +17,9 @@ public class IndexModel : PageModel
 
     public async Task OnGet()
     {
-        ViewData["Title"] = "Home";
-        var desc = "Scopri le mie escursioni in montagna con tracce GPS, foto e dettagli tecnici. Percorsi escursionistici in Toscana e non solo.";
-        var metaDesc = $"Home - {desc}";
+        ViewData["Title"] = "Luca Bigoni - Escursioni, trekking e natura";
+        var desc = "Sito ufficiale di Luca Bigoni: escursioni, trekking, natura, sentieri e avventure in montagna.";
+        var metaDesc = $"Luca Bigoni - {desc}";
         if (metaDesc.Length > 180) metaDesc = metaDesc[..180] + "...";
         ViewData["MetaDescription"] = metaDesc;
         UltimeEscursioni = await _repo.GetLatestAsync(8);
