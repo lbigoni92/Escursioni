@@ -23,6 +23,22 @@ public class EmailSender
 
     public async Task SendAsync(string to, string subject, string body)
     {
+        // Log parametri SMTP e indirizzi
+        Console.WriteLine($"[EmailSender] SMTP Host: {_smtpHost}, Port: {_smtpPort}, User: {_smtpUser}, From: {_from}, To: {to}");
+        Console.WriteLine($"[EmailSender] Subject: {subject}");
+
+        // Validazione indirizzi email
+        try
+        {
+            var fromAddr = new MailAddress(_from);
+            var toAddr = new MailAddress(to);
+        }
+        catch (FormatException ex)
+        {
+            Console.WriteLine($"[EmailSender] ERRORE formato indirizzo email: {ex.Message}");
+            throw new ArgumentException($"Indirizzo email non valido: {ex.Message}");
+        }
+
         using var client = new SmtpClient(_smtpHost, _smtpPort)
         {
             Credentials = new NetworkCredential(_smtpUser, _smtpPass),

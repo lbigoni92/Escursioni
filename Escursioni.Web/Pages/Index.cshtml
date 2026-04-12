@@ -21,7 +21,11 @@
                 <article class="hike-card">
                     @if (!string.IsNullOrWhiteSpace(cover))
                     {
-                        <img src="~/@cover" alt="@h.Titolo" loading="lazy" />
+                        <a asp-page="/Escursioni/Dettaglio"
+                           asp-route-id="@h.Id"
+                           asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)">
+                            <img src="~/@cover" alt="@h.Titolo" loading="lazy" />
+                        </a>
                     }
                     <div class="hike-card-body">
                         <h2 class="hike-card-title">

@@ -1,13 +1,4 @@
-﻿html, body {
-    height: 100%;
-}
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
+﻿/* ===================== ABOUT FLEX LAYOUT ===================== */
 .page-container {
     flex: 1 0 auto;
 }
@@ -55,7 +46,7 @@ body.light-mode .main-nav a {
     color: var(--text-muted);
 }
 body.light-mode .main-nav a:hover {
-    color: var(--accent);
+    color: #38bdf8;
     background: #e0f2fe;
 }
 body.light-mode .card-grid .hike-card {
@@ -67,7 +58,7 @@ body.light-mode .hike-card-title a {
     color: var(--text-main);
 }
 body.light-mode .hike-card-title a:hover {
-    color: var(--accent);
+    color: #38bdf8;
 }
 body.light-mode .hike-card-meta {
     color: var(--text-muted);
@@ -102,7 +93,7 @@ body.light-mode .footer-inner a {
     color: #64748b;
 }
 body.light-mode .footer-inner a:hover {
-    color: #16a34a;
+    color: #38bdf8;
 }
 body.light-mode .leaflet-container {
     background: #f1f5f9 !important;
@@ -118,7 +109,7 @@ body.light-mode .leaflet-popup-content a {
     color: #16a34a;
 }
 body.light-mode .leaflet-popup-content a:hover {
-    color: #0e7490;
+    color: #38bdf8;
 }
 body.light-mode .leaflet-control-zoom a {
     background: #f1f5f9 !important;
@@ -132,7 +123,7 @@ body.light-mode .leaflet-control-attribution {
     background: rgba(248,250,252,0.8) !important;
     color: #64748b !important;
 }
-}
+
 
 *,
 *::before,
@@ -205,7 +196,7 @@ body {
 }
 
     .main-nav a:hover {
-        color: var(--accent);
+        color: #38bdf8;
         background: rgba(15,23,42,0.9);
     }
 
@@ -770,29 +761,46 @@ body.light-mode .detail-carousel-nav {
    FOOTER
    ========================================================================== */
 
+
+html, body {
+    height: 100%;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.page-container {
+    flex: 1 0 auto;
+}
 .footer {
     border-top: 1px solid rgba(148,163,184,0.2);
     margin-top: 2rem;
+    flex-shrink: 0;
 }
-
 .footer-inner {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0.7rem 1.2rem 1.2rem;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
     font-size: 0.8rem;
     color: var(--text-muted);
 }
-
-    .footer-inner a {
-        color: var(--text-muted);
-        text-decoration: none;
-    }
-
-        .footer-inner a:hover {
-            color: var(--accent);
-        }
+.footer-inner a {
+    color: var(--text-muted);
+    text-decoration: none;
+}
+.footer-inner a:hover {
+    color: #38bdf8;
+}
+.footer-sep {
+    margin: 0 0.5rem;
+    color: #64748b;
+    font-size: 1.1em;
+}
 
 /* ==========================================================================
    RESPONSIVE

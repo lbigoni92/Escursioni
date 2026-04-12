@@ -1,15 +1,30 @@
 @page "/chi-sono"
 @model Escursioni.Web.Pages.AboutModel
+<link rel="stylesheet" href="~/css/about.css" />
 
 <section>
-    <h1 class="page-title">Chi è Luca Bigoni</h1>
+    <h1 class="page-title">Chi sono</h1>
     <p class="page-subtitle">
-        Scopri <strong>Luca Bigoni</strong>: escursionista, trekker e amante della natura.
+        Ciao! Sono <strong>Luca Bigoni</strong>, escursionista, trekker e amante della natura.
     </p>
 
-    <div style="max-width:420px;margin:1.5rem auto 2.2rem auto;text-align:center;">
-        <img src="~/media/images/ME/NordAltissimo.png" alt="Luca Bigoni Nord Altissimo" style="width:100%;height:auto;border-radius:18px;box-shadow:0 4px 24px #0002;" />
-        <div style="font-size:0.95rem;color:#64748b;margin-top:0.5rem;">Luca in vetta al Monte Altissimo (Apuane Settentrionali)</div>
+
+    <div class="about-flex">
+        <div class="about-img-col">
+            <img src="~/media/images/ME/NordAltissimo.png" alt="Luca Bigoni Nord Altissimo" width="220" height="330" />
+            <div class="about-img-caption">In vetta al Monte Altissimo (Apuane Settentrionali)</div>
+        </div>
+        <div class="about-text-col">
+            <p>
+                Sono appassionato di montagna, cammini e natura. In questo sito condivido le mie escursioni, le tracce GPS, le foto e tanti consigli utili per chi, come te, ama esplorare sentieri e vette.
+            </p>
+            <p>
+                Ogni descrizione nasce dalla mia esperienza personale: ti parlo direttamente, come se fossimo amici di cammino, per aiutarti a vivere al meglio ogni avventura.
+            </p>
+            <p>
+                I dati (distanze, dislivelli, tempi) sono raccolti tramite le mie tracce GPS e possono non essere perfetti: usali sempre con buon senso, controlla le condizioni aggiornate dei sentieri e pianifica le tue uscite in sicurezza.
+            </p>
+        </div>
     </div>
 
     <p>

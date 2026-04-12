@@ -36,17 +36,17 @@ else
             @if (h.WikilocId > 0)
             {
                 var gpxUrl = Url.Content($"~/media/gpx/{h.WikilocId}.gpx");
-            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous" />
-            <div id="leaflet-gpx-map" style="width:100%;height:400px;margin-bottom:1rem;"></div>
-            <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous" />
+                <div id="leaflet-gpx-map" style="width:100%;height:400px;margin-bottom:1rem;"></div>
+                <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js" crossorigin="anonymous"></script>
-            <script src="/js/gpx-leaflet.js"></script>
-            <script>
-                window.gpxMapConfig = { gpxUrl: '@gpxUrl', elementId: 'leaflet-gpx-map' };
-            </script>
-            <div class="track-downloads" style="margin-top:0.5rem;">
-                <a href="@gpxUrl" class="btn-secondary" download>Scarica GPX</a>
-            </div>
+                <script src="/js/gpx-leaflet.js"></script>
+                <script>
+                    window.gpxMapConfig = { gpxUrl: '@gpxUrl', elementId: 'leaflet-gpx-map' };
+                </script>
+                <div class="track-downloads" style="margin-top:0.5rem;">
+                    <a href="@gpxUrl" class="btn-secondary" download>Scarica GPX</a>
+                </div>
             }
             <p style="margin-top:0.5rem;font-size:0.85rem;">
                 Traccia originale:
@@ -183,56 +183,4 @@ else
             </aside>
         </section>
     </article>
-
-    @section Scripts {
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                document.querySelectorAll('[data-carousel]').forEach(function (carousel) {
-                    var slides = Array.from(carousel.querySelectorAll('[data-carousel-slide]'));
-                    var dotsContainer = carousel.parentElement.querySelector('[data-carousel-dots]');
-                    var dots = dotsContainer ? Array.from(dotsContainer.querySelectorAll('[data-carousel-dot]')) : [];
-                    var currentIndex = 0;
-
-                    if (slides.length <= 1) {
-                        var prevSingle = carousel.querySelector('[data-carousel-prev]');
-                        var nextSingle = carousel.querySelector('[data-carousel-next]');
-                        if (prevSingle) prevSingle.style.display = 'none';
-                        if (nextSingle) nextSingle.style.display = 'none';
-                        return;
-                    }
-
-                    function render(index) {
-                        currentIndex = (index + slides.length) % slides.length;
-                        slides.forEach(function (slide, slideIndex) {
-                            slide.classList.toggle('is-active', slideIndex === currentIndex);
-                        });
-                        dots.forEach(function (dot, dotIndex) {
-                            dot.classList.toggle('is-active', dotIndex === currentIndex);
-                        });
-                    }
-
-                    var prev = carousel.querySelector('[data-carousel-prev]');
-                    var next = carousel.querySelector('[data-carousel-next]');
-
-                    if (prev) {
-                        prev.addEventListener('click', function () {
-                            render(currentIndex - 1);
-                        });
-                    }
-
-                    if (next) {
-                        next.addEventListener('click', function () {
-                            render(currentIndex + 1);
-                        });
-                    }
-
-                    dots.forEach(function (dot, dotIndex) {
-                        dot.addEventListener('click', function () {
-                            render(dotIndex);
-                        });
-                    });
-                });
-            });
-        </script>
-    }
 }

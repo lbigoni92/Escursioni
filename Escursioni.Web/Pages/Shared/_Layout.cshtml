@@ -45,7 +45,19 @@
 
     <link rel="icon" type="image/x-icon" href="~/favicon.ico" />
     <link rel="manifest" href="~/manifest.json" />
+    <script>
+        // Applica subito il tema light-mode se salvato in localStorage
+        (function() {
+            try {
+                if (localStorage.getItem('theme') === 'light') {
+                    document.documentElement.classList.add('light-mode');
+                    document.body.classList.add('light-mode');
+                }
+            } catch (e) {}
+        })();
+    </script>
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/form.css" />
 </head>
 <body>
     <a href="#main-content" class="skip-link">Vai al contenuto principale</a>
@@ -69,14 +81,16 @@
         <!-- <a href="javascript:history.back()">← Torna alla pagina precedente</a>-->
     </div>
 
+
     <main id="main-content" class="page-container" role="main">
         @RenderBody()
     </main>
 
     <footer class="footer">
         <div class="footer-inner">
-            <span>© @DateTime.Now.Year - Escursioni</span>
-            <span><a href="/feed/rss">Feed RSS</a></span>
+            <div class="footer-copyright">© @DateTime.Now.Year - Escursioni</div>
+            <div class="footer-sep">·</div>
+            <div class="footer-rss"><a href="/feed/rss">Feed RSS</a></div>
         </div>
     </footer>
 

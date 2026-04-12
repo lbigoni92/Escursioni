@@ -13,13 +13,19 @@ public class ContactModel : PageModel
     public ContactModel(IConfiguration config)
     {
         _config = config;
-        var smtpSection = config.GetSection("Smtp");
+        // Leggi direttamente dalle variabili di ambiente
+        var smtpHost = config["Smtp:Host"] ?? Environment.GetEnvironmentVariable("SMTP_HOST") ?? "smtp.sendgrid.net";
+        var smtpPort = config["Smtp:Port"] ?? Environment.GetEnvironmentVariable("SMTP_PORT") ?? "587";
+        var smtpUser = Environment.GetEnvironmentVariable("SMTP_USER") ?? config["Smtp:User"];
+        var smtpPass = Environment.GetEnvironmentVariable("SMTP_PASS") ?? config["Smtp:Pass"];
+        var smtpFrom = Environment.GetEnvironmentVariable("SMTP_FROM") ?? config["Smtp:From"];
+
         _emailSender = new EmailSender(
-            smtpSection["Host"]!,
-            int.Parse(smtpSection["Port"]!),
-            smtpSection["User"]!,
-            smtpSection["Pass"]!,
-            smtpSection["From"]!
+            smtpHost!,
+            int.Parse(smtpPort!),
+            smtpUser!,
+            smtpPass!,
+            smtpFrom!
         );
     }
 
@@ -54,6 +60,11 @@ public class ContactModel : PageModel
         {
             var subject = $"Nuovo messaggio dal sito Escursioni da {Form.Name}";
             var body = $"Nome: {Form.Name}\nEmail: {Form.Email}\nMessaggio:\n{Form.Message}";
+
+            // Log indirizzi email e parametri SMTP
+            Console.WriteLine($"[Contact] Invio email. FROM: {_config["Smtp:From"]} | TO: luca.bigoni@live.it | SMTP_USER: {_config["Smtp:User"]}");
+            Console.WriteLine($"[Contact] Form.Email: {Form.Email}");
+
             await _emailSender.SendAsync("luca.bigoni@live.it", subject, body);
             SuccessMessage = "Messaggio inviato con successo! Ti risponderò appena possibile.";
             ModelState.Clear();
@@ -62,6 +73,7 @@ public class ContactModel : PageModel
         catch (Exception ex)
         {
             ErrorMessage = $"Errore nell'invio del messaggio: {ex.Message}";
+            Console.WriteLine($"[Contact] ERRORE invio email: {ex}");
         }
         return Page();
     }
