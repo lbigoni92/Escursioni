@@ -1,0 +1,39 @@
+services:
+
+  db:
+    image: postgres:16
+    container_name: escursioni_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: escursioni
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./docker/postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  web-dev:
+    build:
+      context: .
+      dockerfile: Escursioni.Web/Dockerfile.dev
+    container_name: escursioni_web_dev
+    depends_on:
+      db:
+        condition: service_healthy
+    working_dir: /src/Escursioni.Web
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_URLS: "http://+:8080"
+      ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=escursioni;Username=postgres;Password=postgres"
+    volumes:
+      - ./:/src
+      - ./Escursioni.Web/wwwroot:/src/Escursioni.Web/wwwroot
+    command: ["dotnet", "watch", "run", "--no-launch-profile", "--urls", "http://0.0.0.0:8080"]
+    ports:
+      - "8080:8080"

@@ -26,7 +26,7 @@ services:
   # SERVIZIO DI SVILUPPO .NET CON AUTO-RELOAD (dotnet watch)
   # ---------------------------------------------------------
   web-dev:
-    image: mcr.microsoft.com/dotnet/sdk:8.0
+    image: mcr.microsoft.com/dotnet/sdk:10.0
     container_name: escursioni_web_dev
     depends_on:
       db:

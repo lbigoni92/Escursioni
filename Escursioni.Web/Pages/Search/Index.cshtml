@@ -4,21 +4,23 @@
 <section>
     <h1 class="page-title">Ricerca nel sito</h1>
     <p class="page-subtitle">
-        Filtra per comune, difficoltà e testo libero.
+        Filtra per località, difficoltà e testo libero.
     </p>
 
     <form method="get" class="form-row form-row--wrap">
 
-        <!-- COMUNE -->
+        <!-- LOCALITÀ -->
         <div class="form-field form-field--wide">
-            <label for="comune">Comune</label>
+            <label for="comune">Località</label>
             <input id="comune"
                    name="Comune"
                    class="input-text"
                    list="comuni-list"
                    value="@Model.Comune"
-                   placeholder="Digita un comune (es. Livorno, Levigliani)..."
-                   autocomplete="off" />
+                   placeholder="Digita una località (es. Livorno, Levigliani)..."
+                   autocomplete="off"
+                   aria-describedby="comune-help" />
+            <small id="comune-help" class="field-help">Inizia a digitare per vedere i comuni disponibili.</small>
             <datalist id="comuni-list">
                 @foreach (var c in Model.ComuniDisponibili)
                 {
@@ -99,7 +101,7 @@
             Trovate @Model.TotalCount escursioni.
             @if (!string.IsNullOrWhiteSpace(Model.Comune))
             {
-                <span> Comune: <strong>@Model.Comune</strong>.</span>
+                <span> Località: <strong>@Model.Comune</strong>.</span>
             }
             @if (!string.IsNullOrWhiteSpace(Model.Difficolta))
             {

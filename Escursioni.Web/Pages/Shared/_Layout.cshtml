@@ -43,6 +43,8 @@
         <meta name="twitter:image" content="@twImg" />
     }
 
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico" />
+    <link rel="manifest" href="~/manifest.json" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
@@ -78,9 +80,17 @@
         </div>
     </footer>
 
+
     @RenderSection("Scripts", required: false)
 
     <!-- JSON-LD Structured Data -->
+   <script type="application/ld+json">
+{"@@context":"https://schema.org","@@type":"WebSite","name":"Luca Bigoni - Escursioni","url":"https://www.example.com/","potentialAction":{"@@type":"SearchAction","target":"https://www.example.com/Search/Index?query={search_term_string}","query-input":"required name=search_term_string"}}
+</script>
+
+<script type="application/ld+json">
+{"@@context":"https://schema.org","@@type":"Person","name":"Luca Bigoni","url":"https://www.example.com/","sameAs":["https://www.wikiloc.com/wikiloc/user.do?id=123456","https://www.facebook.com/luca.bigoni","https://www.instagram.com/luca.bigoni"]}
+</script>
     @if (ViewData["JsonLd"] is string jsonLd && !string.IsNullOrWhiteSpace(jsonLd))
     {
         <script type="application/ld+json">@Html.Raw(jsonLd)</script>

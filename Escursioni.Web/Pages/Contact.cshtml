@@ -12,8 +12,34 @@
         <strong><a href="mailto:@Model.ContactEmail">@Model.ContactEmail</a></strong>
     </p>
 
-    <p>
-        In futuro potrai integrare un form di contatto con protezione antispam (reCAPTCHA)
-        e invio tramite un servizio SMTP o API esterne.
-    </p>
+    <form method="post" class="contact-form" autocomplete="off">
+        <div class="form-field">
+            <label for="Name">Nome</label>
+            <input asp-for="Form.Name" class="input-text" placeholder="Il tuo nome" />
+            <span asp-validation-for="Form.Name" class="field-validation-error"></span>
+        </div>
+        <div class="form-field">
+            <label for="Email">Email</label>
+            <input asp-for="Form.Email" class="input-text" placeholder="La tua email" />
+            <span asp-validation-for="Form.Email" class="field-validation-error"></span>
+        </div>
+        <div class="form-field">
+            <label for="Message">Messaggio</label>
+            <textarea asp-for="Form.Message" class="input-text" rows="5" placeholder="Scrivi qui il tuo messaggio..."></textarea>
+            <span asp-validation-for="Form.Message" class="field-validation-error"></span>
+        </div>
+        <div class="form-field form-field--buttons">
+            <button class="btn" type="submit">Invia messaggio</button>
+        </div>
+        @if (Model.SuccessMessage != null)
+        {
+            <div class="form-success">@Model.SuccessMessage</div>
+        }
+        @if (Model.ErrorMessage != null)
+        {
+            <div class="form-error">@Model.ErrorMessage</div>
+        }
+    </form>
+
+    <partial name="Shared/_ValidationScriptsPartial" />
 </section>
