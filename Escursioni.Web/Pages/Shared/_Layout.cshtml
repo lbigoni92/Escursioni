@@ -65,7 +65,10 @@
     <header class="top-bar">
         <div class="top-bar-inner">
             <a class="brand" asp-page="/Index">Escursioni</a>
-            <nav class="main-nav" aria-label="Navigazione principale">
+            <button class="hamburger" id="hamburger-btn" aria-label="Apri menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="main-nav" id="main-nav" aria-label="Navigazione principale">
                 <a asp-page="/Index">Home</a>
                 <!--<a asp-page="/Escursioni/Index">Escursioni</a>-->
                 <a asp-page="/Map/Index">Mappa</a>
@@ -122,6 +125,20 @@
             if (localStorage.getItem('theme') === 'light') {
                 document.body.classList.add('light-mode');
             }
+        }
+    </script>
+
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.getElementById('hamburger-btn');
+        const mainNav = document.getElementById('main-nav');
+        if (hamburger && mainNav) {
+            hamburger.addEventListener('click', function() {
+                const open = !mainNav.classList.contains('is-open');
+                mainNav.classList.toggle('is-open');
+                hamburger.classList.toggle('is-open');
+                hamburger.setAttribute('aria-expanded', open);
+            });
         }
     </script>
 </body>
