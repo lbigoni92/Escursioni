@@ -1,21 +1,52 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
 )
 VALUES (
   94515950,
   'Passo di Dante - Eremo della Spelonca - Monte Penna',
-  'Il percorso parte da Santa Maria del giudice abbiamo parcheggiato davanti a una chiesa ma voi parcheggiate al parco pubblico, c''è più parcheggio (dista 200mt dalla chiesa), da li siamo arrivati a Passo di Dante.(Il suo appellativo è dovuto al fatto che è menzionato da Dante nel 33° canto della Divina Commedia vv 28-30“Questi pareva a me maestro e donno, cacciando il lupo e ‘ lupicini al monte per che i Pisan veder Lucca non ponno.”) Inseguito abbiamo proseguito prima in direzione di alcune ex cave e in seguito all'' Eremo della Spelonca(''eremo di San Giorgio o della Spelonca, è una chiesetta ad aula unica di origine medievale rirtrutturata più volte fino al XIX secolo. Il romitorio fu fondato nel 1190 dagli "eremiti neri" che non erano veri eremiti, ma piuttosto monaci che vivevano in comune come gli apostoli, in povertà, in luoghi piuttosto isolati, talvolta in contrasto con le istituzioni ecclesiastiche, dedicandosi all’assistenza religiosa della popolazione che viveva in questi luoghi e che aveva difficoltà a raggiungere le chiese.) Da li abbiamo fatto vari monti fino ad arrivare al moriglione di Penna dove abbiamo pranzato. In seguito abbiamo proseguito (su un sentiero non alla portata di tutti, fino al monte Penna). In fine abbiamo fatto il 116 per tornare alle macchine Non ci sono fontanelle Portate scarpe adeguate Se volete unirvi alle nostre escursioni ecco qualche info utile: Ci trovi su Facebook: https://www.facebook.com/LupusInTrekking Instagram : https://www.instagram.com/lupusintrekking/ WhatsApp al 3487020677',
-  'Il percorso parte da Santa Maria del giudice abbiamo parcheggiato davanti a una chiesa ma voi parcheggiate al parco pubblico, c''è più parcheggio (dista 200mt dalla chiesa), da li siamo arrivati a Passo di Dante.(Il suo appellativo è dovuto al fatto che è menzionato da Dante nel 33° canto della Divina Commedia vv 28-30“Questi pareva a me maestro e donno, cacciando il lupo e ‘ lupicini al monte per che i Pisan veder Lucca non ponno.”) <br> <br>Inseguito abbiamo proseguito prima in direzione di alcune ex cave e in seguito all'' Eremo della Spelonca(''eremo di San Giorgio o della Spelonca, è una chiesetta ad aula unica di origine medievale rirtrutturata più volte fino al XIX secolo. Il romitorio fu fondato nel 1190 dagli "eremiti neri" che non erano veri eremiti, ma piuttosto monaci che vivevano in comune come gli apostoli, in povertà, in luoghi piuttosto isolati, talvolta in contrasto con le istituzioni ecclesiastiche, dedicandosi all’assistenza religiosa della popolazione che viveva in questi luoghi e che aveva difficoltà a raggiungere le chiese.) <br> <br>Da li abbiamo fatto vari monti fino ad arrivare al moriglione di Penna dove abbiamo pranzato. <br> <br>In seguito abbiamo proseguito (su un sentiero non alla portata di tutti, fino al monte Penna). <br> <br>In fine abbiamo fatto il 116 per tornare alle macchine <br> <br>Non ci sono fontanelle <br> <br>Portate scarpe adeguate <br> <br>Se volete unirvi alle nostre escursioni ecco qualche info utile: <br>Ci trovi su Facebook: https://www.facebook.com/LupusInTrekking <br>Instagram : https://www.instagram.com/lupusintrekking/ <br>WhatsApp al 3487020677',
+  'Il percorso parte da Santa Maria del giudice abbiamo parcheggiato davanti a una chiesa ma voi parcheggiate al parco pubblico, c''è più parcheggio (dista 200mt dalla chiesa), da li siamo arrivati a Passo di Dante.(Il suo appellativo è dovuto al fatto che è menzionato da Dante nel 33° canto della Divina Commedia vv 28-30“Questi pareva a me maestro e donno, cacciando il lupo e lupicini al monte per che i Pisan veder Lucca non ponno.”) Inseguito abbiamo proseguito prima in direzione di alcune ex cave e in seguito all'' Eremo della Spelonca(''eremo di San Giorgio o della Spelonca, è una chiesetta ad aula unica di origine medievale rirtrutturata più volte fino al XIX secolo. Il romitorio fu fondato nel 1190 dagli "eremiti neri" che non erano veri eremiti, ma piuttosto monaci che vivevano in comune come gli apostoli, in povertà, in luoghi piuttosto isolati, talvolta in contrasto con le istituzioni ecclesiastiche, dedicandosi all’assistenza religiosa della popolazione che viveva in questi luoghi e che aveva difficoltà a raggiungere le chiese.) Da li abbiamo fatto vari monti fino ad arrivare al moriglione di Penna dove abbiamo pranzato. In seguito abbiamo proseguito (su un sentiero non alla portata di tutti, fino al monte Penna). In fine abbiamo fatto il 116 per tornare alle macchine Non ci sono fontanelle Portate scarpe adeguate',
+  '<h2 class="title">Passo di Dante - Eremo della Spelonca - Monte Penna</h2>
+
+<p>
+  Immergetevi in un''avventura indimenticabile attraverso un percorso ricco di storia, spiritualità e panorami mozzafiato. Questa escursione vi condurrà da Santa Maria del giudice, con il suo parcheggio davanti alla chiesa, a Passo di Dante, un luogo legato alla Divina Commedia di Dante Alighieri.
+</p>
+
+<h3>Itinerario Dettagliato:</h3>
+
+<ul>
+  <li>
+    <strong class="highlight">Partenza:** Parcheggio del Parco Pubblico (200mt dalla chiesa di Santa Maria del giudice).</li>
+  <li>
+    <strong class="highlight">Passo di Dante:**  Questo luogo prende il suo nome dal celebre poeta, menzionato nel 33° canto della Divina Commedia, dove Dante descrive un luogo simile.
+  </li>
+  <li>
+    <strong class="highlight">Ex Cave:** Proseguimento verso le ex cave, testimonianze di un passato minerario.
+  </li>
+  <li>
+    <strong class="highlight">Eremo della Spelonca:** Visita dell''Eremo di San Giorgio, un''antica chiesetta medievale (eremo degli "eremiti neri") fondata nel 1190, che offre un rifugio di pace e spiritualità. Questo complesso, attivo dal XIX secolo, ha ospitato monaci dediti all''assistenza religiosa della popolazione locale.
+  </li>
+  <li>
+    <strong class="highlight">Salita al Moriglione di Penna:** Variazioni di quota e sentieri con dislivelli impegnativi.
+  </li>
+  <li>
+    <strong class="highlight">Monte Penna:**  Raggiungimento del Monte Penna, con la sua cima che offre una vista panoramica spettacolare.
+  </li>
+  <li>
+    <strong class="highlight">Ritorno:** Percorso lungo il sentiero 116 per tornare al punto di partenza.
+  </li>
+</ul>
+
+<p>
+  <strong>Informazioni Importanti:</strong>
+</p>
+<ul>
+  <li>Non sono presenti fontanelle.</li>
+  <li>Portate scarpe adeguate per affrontare diversi tipi di terreno.</li>
+  <li>Sentiero non alla portata di tutti.</li>
+</ul>
+',
   'Tutte le Attività e Paesi',
   15.21,
   856,
@@ -26,7 +57,7 @@ VALUES (
   268,
   '04:28',
   2623,
-  'Medio',
+  'Facile',
   'Anello',
   NULL,
   'Italia',
@@ -42,7 +73,9 @@ VALUES (
   10.455625,
   'POINT(10.455625 43.779435)',
   '9ec098e27ae5a4e84078ebbc0100661244d3cad64a32d2855abdd83e92252cbd',
-  NOW(), NOW()
+  'Esplora il Passo di Dante e l''Eremo della Spelonca! Trekking al Monte Penna . Difficoltà media, panorama mozzafiato!',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +107,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -86,13 +120,12 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 94515950);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/94515950/cover.jpg', 0,
+SELECT id, 'cover', 'media/images/94515950/photo_22.jpg', 0,
        NULL,
        NULL,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_01.jpg', 1,
@@ -102,7 +135,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_01.jpg', 1,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_02.jpg', 2,
        NULL,
@@ -110,7 +142,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_02.jpg', 2,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_03.jpg', 3,
@@ -120,7 +151,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_03.jpg', 3,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_04.jpg', 4,
        NULL,
@@ -128,7 +158,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_04.jpg', 4,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_05.jpg', 5,
@@ -138,7 +167,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_05.jpg', 5,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_06.jpg', 6,
        NULL,
@@ -146,7 +174,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_06.jpg', 6,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_07.jpg', 7,
@@ -156,7 +183,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_07.jpg', 7,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_08.jpg', 8,
        NULL,
@@ -164,7 +190,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_08.jpg', 8,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_09.jpg', 9,
@@ -174,7 +199,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_09.jpg', 9,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_10.jpg', 10,
        NULL,
@@ -182,7 +206,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_10.jpg', 10,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_11.jpg', 11,
@@ -192,7 +215,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_11.jpg', 11,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_12.jpg', 12,
        NULL,
@@ -200,7 +222,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_12.jpg', 12,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_13.jpg', 13,
@@ -210,7 +231,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_13.jpg', 13,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_14.jpg', 14,
        NULL,
@@ -218,7 +238,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_14.jpg', 14,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_15.jpg', 15,
@@ -228,7 +247,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_15.jpg', 15,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_16.jpg', 16,
        NULL,
@@ -236,7 +254,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_16.jpg', 16,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_17.jpg', 17,
@@ -246,7 +263,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_17.jpg', 17,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_18.jpg', 18,
        NULL,
@@ -254,7 +270,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_18.jpg', 18,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_19.jpg', 19,
@@ -264,7 +279,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_19.jpg', 19,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_20.jpg', 20,
        NULL,
@@ -273,7 +287,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_20.jpg', 20,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_21.jpg', 21,
        NULL,
@@ -281,7 +294,6 @@ SELECT id, 'foto', 'media/images/94515950/photo_21.jpg', 21,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 94515950;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/94515950/photo_22.jpg', 22,

@@ -10,7 +10,10 @@
 else
 {
     var h = Model.Hike;
-    var galleryMedia = h.Media.OrderBy(m => m.Ordine).ToList();
+    var galleryMedia = h.Media
+        .OrderBy(m => m.Tipo == "cover" ? 0 : 1)
+        .ThenBy(m => m.Ordine)
+        .ToList();
 
     <article>
         <header class="section">
@@ -183,4 +186,6 @@ else
             </aside>
         </section>
     </article>
+
+    <script src="/js/carousel.js"></script>
 }

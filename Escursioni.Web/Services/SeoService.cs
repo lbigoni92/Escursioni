@@ -24,7 +24,10 @@ public class SeoService
             desc = StripHtml(hike.DescrizioneHtml);
         }
 
-        var metaDesc = $"{hike.Titolo} - {desc}".Trim();
+        // Use meta_descrizione if available, otherwise fallback to titolo + descrizione
+        var metaDesc = !string.IsNullOrWhiteSpace(hike.MetaDescrizione)
+            ? hike.MetaDescrizione
+            : $"{hike.Titolo} - {desc}".Trim();
         if (metaDesc.Length > 180)
             metaDesc = metaDesc[..180] + "...";
 

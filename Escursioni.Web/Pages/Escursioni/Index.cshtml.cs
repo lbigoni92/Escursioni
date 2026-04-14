@@ -49,5 +49,5 @@ public class IndexModel : PageModel
     }
 
     public static string? CoverPath(Hike h)
-        => h.Media.OrderBy(m => m.Ordine).FirstOrDefault()?.PathRelativo;
+        => (h.Media.FirstOrDefault(m => m.Tipo == "cover") ?? h.Media.OrderBy(m => m.Ordine).FirstOrDefault())?.PathRelativo;
 }

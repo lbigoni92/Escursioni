@@ -1,0 +1,616 @@
+@page "/edit/{FileName}"
+@using Escursioni.MigrationEditor.Services
+@inject MigrationParserService Parser
+@inject MetaDescriptionGenerator MetaGen
+@inject NavigationManager Nav
+@inject IJSRuntime JS
+@rendermode InteractiveServer
+@implements IDisposable
+
+<PageTitle>@_title</PageTitle>
+
+<div style="display:flex;flex-direction:column;height:calc(100vh - 3.5rem);overflow:hidden;">
+
+    @* Header *@
+    <div style="display:flex;align-items:center;gap:0.5rem;padding-bottom:0.2rem;flex-shrink:0;">
+        <a href="/" style="text-decoration:none;font-size:1rem;">←</a>
+        @if (_prevFile != null)
+        {
+            <a href="/edit/@Uri.EscapeDataString(_prevFile)" style="text-decoration:none;font-size:1.1rem;color:#007bff;" title="@_prevFile">◀</a>
+        }
+        else
+        {
+            <span style="font-size:1.1rem;color:#ccc;">◀</span>
+        }
+        <strong style="font-size:1rem;">@_title</strong>
+        @if (_nextFile != null)
+        {
+            <a href="/edit/@Uri.EscapeDataString(_nextFile)" style="text-decoration:none;font-size:1.1rem;color:#007bff;" title="@_nextFile">▶</a>
+        }
+        else
+        {
+            <span style="font-size:1.1rem;color:#ccc;">▶</span>
+        }
+        <span style="font-family:monospace;color:#999;font-size:0.7rem;margin-left:auto;">@FileName</span>
+        @if (!string.IsNullOrEmpty(_message))
+        {
+            <span style="background:#d4edda;color:#155724;padding:2px 8px;border-radius:3px;font-size:0.75rem;">✓ @_message</span>
+        }
+        <button @onclick="Save" style="padding:3px 12px;background:#28a745;color:#fff;border:none;border-radius:3px;cursor:pointer;font-size:0.8rem;font-weight:600;">Salva</button>
+        <button @onclick="Reload" style="padding:3px 12px;background:#6c757d;color:#fff;border:none;border-radius:3px;cursor:pointer;font-size:0.8rem;">Ricarica</button>
+    </div>
+
+    @if (_mf == null)
+    {
+        <p style="color:red;">File non trovato.</p>
+    }
+    else
+    {
+        <div style="display:flex;gap:0.6rem;flex:1;overflow:hidden;">
+
+            @* ─── LEFT: scrollable fields ─── *@
+            <div style="flex:2;overflow-y:auto;padding-right:0.3rem;">
+
+                @* SEO *@
+                @{ var colMeta = "meta_descrizione"; }
+                <fieldset style="border:2px solid #007bff;border-radius:4px;padding:0.3rem 0.5rem;margin-bottom:0.4rem;">
+                    <legend style="color:#007bff;font-weight:bold;font-size:0.75rem;padding:0 0.2rem;display:flex;align-items:center;gap:0.4rem;">
+                        SEO – Meta Descrizione
+                        <button @onclick="GenerateMetaDescription" disabled="@_metaLoading"
+                                style="padding:1px 8px;background:#6f42c1;color:#fff;border:none;border-radius:3px;cursor:pointer;font-size:0.7rem;font-weight:600;"
+                                title="Genera con AI dal titolo e descrizione">
+                            @if (_metaLoading)
+                            {
+                                <span>⏳ Generazione…</span>
+                            }
+                            else
+                            {
+                                <span>✨ Genera con AI</span>
+                            }
+                        </button>
+                        @if (!string.IsNullOrEmpty(_metaError))
+                        {
+                            <span style="color:red;font-size:0.65rem;font-weight:normal;">@_metaError</span>
+                        }
+                    </legend>
+                    <textarea rows="1" style="width:100%;padding:2px 4px;border:1px solid #ccc;border-radius:2px;font-size:0.8rem;"
+                              placeholder="~160 car. per motori di ricerca"
+                              value="@GetVal(colMeta)"
+                              @onchange="(e => SetValue(colMeta, e.Value?.ToString()))">@GetVal(colMeta)</textarea>
+                </fieldset>
+
+                @* Info generali + Dati tecnici side by side *@
+                <div style="display:flex;gap:0.4rem;margin-bottom:0.4rem;">
+                    <fieldset style="flex:1;border:1px solid #dee2e6;border-radius:4px;padding:0.25rem 0.4rem;">
+                        <legend style="font-weight:bold;font-size:0.7rem;padding:0 0.2rem;">Info generali</legend>
+                        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.15rem 0.4rem;">
+                            @foreach (var col in _groupGeneral)
+                            {
+                                <div>
+                                    <label style="display:block;font-size:0.65rem;color:#888;line-height:1;">@MigrationParserService.ColumnLabel(col)</label>
+                                    <input type="text" style="width:100%;padding:1px 3px;border:1px solid #ccc;border-radius:2px;font-size:0.8rem;"
+                                           value="@GetVal(col)" @onchange="(e => SetValue(col, e.Value?.ToString()))" />
+                                </div>
+                            }
+                        </div>
+                    </fieldset>
+                    <fieldset style="flex:1;border:1px solid #dee2e6;border-radius:4px;padding:0.25rem 0.4rem;">
+                        <legend style="font-weight:bold;font-size:0.7rem;padding:0 0.2rem;">Dati tecnici</legend>
+                        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.15rem 0.3rem;">
+                            @foreach (var col in _groupTechnical)
+                            {
+                                <div>
+                                    <label style="display:block;font-size:0.65rem;color:#888;line-height:1;">@MigrationParserService.ColumnLabel(col)</label>
+                                    @if (col == "difficolta")
+                                    {
+                                        <select style="width:100%;padding:1px 3px;border:1px solid #ccc;border-radius:2px;font-size:0.8rem;"
+                                                value="@GetVal(col)" @onchange="(e => SetValue(col, e.Value?.ToString()))">
+                                            <option value=""></option>
+                                            <option value="Facile">Facile</option>
+                                            <option value="Medio">Medio</option>
+                                            <option value="Difficile">Difficile</option>
+                                            <option value="Molto Difficile">Molto Difficile</option>
+                                        </select>
+                                    }
+                                    else
+                                    {
+                                        <input type="text" style="width:100%;padding:1px 3px;border:1px solid #ccc;border-radius:2px;font-size:0.8rem;"
+                                               value="@GetVal(col)" @onchange="(e => SetValue(col, e.Value?.ToString()))" />
+                                    }
+                                </div>
+                            }
+                        </div>
+                    </fieldset>
+                </div>
+
+                @* Descrizione *@
+                @{ var colDesc = "descrizione"; var colDescHtml = "descrizione_html"; }
+                <fieldset style="border:1px solid #dee2e6;border-radius:4px;padding:0.25rem 0.4rem;margin-bottom:0.4rem;">
+                    <legend style="font-weight:bold;font-size:0.7rem;padding:0 0.2rem;">Descrizione</legend>
+                    <div style="display:flex;gap:0.4rem;">
+                        <div style="flex:1;">
+                            <div style="display:flex;align-items:center;gap:0.3rem;">
+                                <label style="font-size:0.65rem;color:#888;">Testo</label>
+                                <button @onclick="ToggleDictation"
+                                        style="padding:0px 6px;background:@(_isDictating ? "#dc3545" : "#17a2b8");color:#fff;border:none;border-radius:3px;cursor:pointer;font-size:0.65rem;font-weight:600;"
+                                        title="Dettatura vocale in italiano">
+                                    @if (_isDictating)
+                                    {
+                                        <span>⏹ Stop</span>
+                                    }
+                                    else
+                                    {
+                                        <span>🎤 Dettatura</span>
+                                    }
+                                </button>
+                                @if (!string.IsNullOrEmpty(_dictationError))
+                                {
+                                    <span style="color:red;font-size:0.6rem;">@_dictationError</span>
+                                }
+                            </div>
+                            <textarea rows="2" style="width:100%;padding:2px 4px;border:1px solid @(_isDictating ? "#dc3545" : "#ccc");border-radius:2px;font-size:0.8rem;"
+                                      @bind="_descrizioneText" @bind:event="oninput" @bind:after="OnDescrizioneChanged"></textarea>
+                        </div>
+                        <div style="flex:1;">
+                            <div style="display:flex;align-items:center;gap:0.3rem;">
+                                <label style="font-size:0.65rem;color:#888;">HTML</label>
+                                <button @onclick="GenerateHtmlDescription" disabled="@_htmlLoading"
+                                        style="padding:0px 6px;background:#6f42c1;color:#fff;border:none;border-radius:3px;cursor:pointer;font-size:0.65rem;font-weight:600;"
+                                        title="Genera HTML con AI dalla descrizione testo">
+                                    @if (_htmlLoading)
+                                    {
+                                        <span>⏳</span>
+                                    }
+                                    else
+                                    {
+                                        <span>✨ Genera HTML</span>
+                                    }
+                                </button>
+                                @if (!string.IsNullOrEmpty(_htmlError))
+                                {
+                                    <span style="color:red;font-size:0.6rem;">@_htmlError</span>
+                                }
+                            </div>
+                            <textarea rows="2" style="width:100%;padding:2px 4px;border:1px solid #ccc;border-radius:2px;font-family:monospace;font-size:0.75rem;"
+                                      value="@GetVal(colDescHtml)" @onchange="(e => SetValue(colDescHtml, e.Value?.ToString()))">@GetVal(colDescHtml)</textarea>
+                        </div>
+                    </div>
+                    @if (!string.IsNullOrWhiteSpace(GetVal(colDescHtml)))
+                    {
+                        <div style="margin-top:0.3rem;border:1px solid #dee2e6;border-radius:3px;padding:0.4rem;background:#fff;font-size:0.8rem;max-height:200px;overflow-y:auto;">
+                            <label style="display:block;font-size:0.6rem;color:#aaa;margin-bottom:0.2rem;">Anteprima</label>
+                            @((MarkupString)GetVal(colDescHtml))
+                        </div>
+                    }
+                </fieldset>
+
+                @* Date + Coordinate + ReadOnly in una riga *@
+                <div style="display:flex;gap:0.4rem;margin-bottom:0.4rem;">
+                    <fieldset style="flex:1;border:1px solid #dee2e6;border-radius:4px;padding:0.25rem 0.4rem;">
+                        <legend style="font-weight:bold;font-size:0.7rem;padding:0 0.2rem;">Date</legend>
+                        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.15rem 0.3rem;">
+                            @foreach (var col in _groupDates)
+                            {
+                                <div>
+                                    <label style="display:block;font-size:0.65rem;color:#888;line-height:1;">@MigrationParserService.ColumnLabel(col)</label>
+                                    <input type="text" style="width:100%;padding:1px 3px;border:1px solid #ccc;border-radius:2px;font-size:0.8rem;"
+                                           value="@GetVal(col)" @onchange="(e => SetValue(col, e.Value?.ToString()))" />
+                                </div>
+                            }
+                        </div>
+                    </fieldset>
+                    <fieldset style="flex:1;border:1px solid #dee2e6;border-radius:4px;padding:0.25rem 0.4rem;">
+                        <legend style="font-weight:bold;font-size:0.7rem;padding:0 0.2rem;">Coordinate</legend>
+                        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.15rem 0.3rem;">
+                            @foreach (var col in _groupGeo)
+                            {
+                                <div>
+                                    <label style="display:block;font-size:0.65rem;color:#888;line-height:1;">@MigrationParserService.ColumnLabel(col)</label>
+                                    <input type="text" style="width:100%;padding:1px 3px;border:1px solid #ccc;border-radius:2px;font-size:0.8rem;"
+                                           value="@GetVal(col)" @onchange="(e => SetValue(col, e.Value?.ToString()))" />
+                                </div>
+                            }
+                        </div>
+                    </fieldset>
+                    <fieldset style="flex:0.7;border:1px solid #dee2e6;border-radius:4px;padding:0.25rem 0.4rem;opacity:0.6;">
+                        <legend style="font-weight:bold;font-size:0.7rem;padding:0 0.2rem;">Sola lettura</legend>
+                        <div style="display:grid;grid-template-columns:1fr;gap:0.15rem;">
+                            @foreach (var col in _groupReadOnly)
+                            {
+                                <div>
+                                    <label style="display:block;font-size:0.65rem;color:#888;line-height:1;">@MigrationParserService.ColumnLabel(col)</label>
+                                    <input type="text" disabled style="width:100%;padding:1px 3px;border:1px solid #e9ecef;border-radius:2px;background:#f8f9fa;color:#999;font-size:0.75rem;"
+                                           value="@GetVal(col)" />
+                                </div>
+                            }
+                        </div>
+                    </fieldset>
+                </div>
+
+            </div>
+
+            @* ─── RIGHT: map + media + SQL ─── *@
+            <div style="flex:1;min-width:300px;overflow-y:auto;">
+
+                @* Mappa GPX *@
+                @if (!string.IsNullOrEmpty(_gpxUrl))
+                {
+                    <div style="border:1px solid #dee2e6;border-radius:4px;padding:0.3rem;margin-bottom:0.4rem;">
+                        <div id="gpx-map" style="width:100%;height:280px;border-radius:3px;"></div>
+                    </div>
+                }
+                else
+                {
+                    <div style="border:1px solid #dee2e6;border-radius:4px;padding:0.5rem;margin-bottom:0.4rem;color:#999;font-size:0.8rem;">
+                        Nessun GPX per wikiloc_id @GetVal("wikiloc_id")
+                    </div>
+                }
+
+                @* Media *@
+                @if (_mf.MediaRows.Count > 0)
+                {
+                    <fieldset style="border:1px solid #dee2e6;border-radius:4px;padding:0.25rem 0.4rem;margin-bottom:0.4rem;">
+                        <legend style="font-weight:bold;font-size:0.7rem;padding:0 0.2rem;">Media (@_mf.MediaRows.Count)</legend>
+                        <div style="display:flex;flex-wrap:wrap;gap:0.4rem;max-height:320px;overflow-y:auto;padding:0.2rem;">
+                            @for (int i = 0; i < _mf.MediaRows.Count; i++)
+                            {
+                                var idx = i;
+                                var row = _mf.MediaRows[idx];
+                                var tipo = row.GetValueOrDefault("tipo") ?? "";
+                                var path = row.GetValueOrDefault("path_relativo") ?? "";
+                                var isCover = string.Equals(tipo, "cover", StringComparison.OrdinalIgnoreCase);
+                                var isFoto = string.Equals(tipo, "foto", StringComparison.OrdinalIgnoreCase);
+                                var imgUrl = "/" + path;
+
+                                <div style="position:relative;border:@(isCover ? "3px solid #ffc107" : "1px solid #dee2e6");border-radius:4px;overflow:hidden;width:120px;flex-shrink:0;">
+                                    @if (isFoto || isCover)
+                                    {
+                                        <img src="@imgUrl" alt="@path" loading="lazy"
+                                             style="width:120px;height:90px;object-fit:cover;display:block;" />
+                                    }
+                                    else
+                                    {
+                                        <div style="width:120px;height:90px;background:#f0f0f0;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#999;">
+                                            @tipo
+                                        </div>
+                                    }
+                                    <div style="padding:2px 4px;font-size:0.6rem;background:#f8f9fa;text-align:center;">
+                                        @if (isCover)
+                                        {
+                                            <span style="color:#ffc107;font-weight:bold;">⭐ Cover</span>
+                                        }
+                                        else if (isFoto)
+                                        {
+                                            <button @onclick="() => SetAsCover(idx)"
+                                                    style="padding:1px 6px;background:#ffc107;color:#333;border:none;border-radius:2px;cursor:pointer;font-size:0.6rem;font-weight:600;">
+                                                Imposta cover
+                                            </button>
+                                        }
+                                        else
+                                        {
+                                            <span style="color:#888;">@tipo</span>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </fieldset>
+                }
+
+                @* Anteprima Card *@
+                <fieldset style="border:1px solid #dee2e6;border-radius:4px;padding:0.25rem 0.4rem;margin-bottom:0.4rem;">
+                    <legend style="font-weight:bold;font-size:0.7rem;padding:0 0.2rem;">Anteprima Card</legend>
+                    <div style="display:flex;gap:0.6rem;">
+                        @* Dark mode *@
+                        <div style="flex:1;background:#0f172a;border-radius:8px;padding:0.5rem;">
+                            <div style="background:linear-gradient(135deg,#1e293b 0%,#253348 100%);border-radius:1.1rem;overflow:hidden;border:1px solid #334155;display:flex;flex-direction:column;min-height:180px;box-shadow:0 8px 24px rgba(15,23,42,0.25);max-width:260px;">
+                                @{ var coverRow = _mf.MediaRows.FirstOrDefault(r => string.Equals(r.GetValueOrDefault("tipo"), "cover", StringComparison.OrdinalIgnoreCase)); }
+                                @if (coverRow != null)
+                                {
+                                    <img src="/@(coverRow.GetValueOrDefault("path_relativo"))" alt="@GetVal("titolo")" loading="lazy"
+                                         style="width:100%;height:130px;object-fit:cover;display:block;" />
+                                }
+                                <div style="padding:0.6rem 0.7rem 0.15rem;flex:1;">
+                                    <div style="font-size:0.82rem;font-weight:600;margin:0 0 0.1rem;color:#e2e8f0;">@GetVal("titolo")</div>
+                                    <div style="font-size:0.68rem;color:#94a3b8;margin-bottom:0.2rem;">
+                                        @{
+                                            var loc = !string.IsNullOrWhiteSpace(GetVal("comune")) ? $"{GetVal("comune")}, {GetVal("provincia")}" : GetVal("regione");
+                                            var dataEsc = GetVal("data_escursione");
+                                        }
+                                        @loc
+                                        @if (!string.IsNullOrWhiteSpace(dataEsc))
+                                        {
+                                            <span> · @dataEsc</span>
+                                        }
+                                    </div>
+                                    <div style="font-size:0.72rem;color:#e5e7eb;">
+                                        @{
+                                            var desc = GetVal("descrizione");
+                                            if (desc.Length > 100) desc = desc[..100] + "…";
+                                        }
+                                        @desc
+                                    </div>
+                                </div>
+                                <div style="padding:0.3rem 0.7rem 0.5rem;display:flex;align-items:center;justify-content:space-between;font-size:0.68rem;color:#94a3b8;">
+                                    <span>
+                                        @if (!string.IsNullOrWhiteSpace(GetVal("distanza_km")))
+                                        {
+                                            <span>@GetVal("distanza_km") km</span>
+                                        }
+                                        @if (!string.IsNullOrWhiteSpace(GetVal("dislivello_m")))
+                                        {
+                                            <span> · +@GetVal("dislivello_m") m</span>
+                                        }
+                                    </span>
+                                    @if (!string.IsNullOrWhiteSpace(GetVal("difficolta")))
+                                    {
+                                        <span style="display:inline-flex;align-items:center;border-radius:999px;padding:0.05rem 0.45rem;font-size:0.65rem;background:rgba(147,197,253,0.15);color:#93c5fd;border:1px solid rgba(147,197,253,0.35);">@GetVal("difficolta")</span>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+
+                        @* Light mode *@
+                        <div style="flex:1;background:#f1f5f9;border-radius:8px;padding:0.5rem;">
+                            <div style="background:linear-gradient(135deg,#e3eef9 0%,#cde0f3 100%);border-radius:1.1rem;overflow:hidden;border:1px solid #9ec5e8;display:flex;flex-direction:column;min-height:180px;box-shadow:0 4px 16px rgba(74,159,229,0.14);max-width:260px;">
+                                @if (coverRow != null)
+                                {
+                                    <img src="/@(coverRow.GetValueOrDefault("path_relativo"))" alt="@GetVal("titolo")" loading="lazy"
+                                         style="width:100%;height:130px;object-fit:cover;display:block;" />
+                                }
+                                <div style="padding:0.6rem 0.7rem 0.15rem;flex:1;">
+                                    <div style="font-size:0.82rem;font-weight:600;margin:0 0 0.1rem;color:#1e293b;">@GetVal("titolo")</div>
+                                    <div style="font-size:0.68rem;color:#475569;margin-bottom:0.2rem;">
+                                        @loc
+                                        @if (!string.IsNullOrWhiteSpace(dataEsc))
+                                        {
+                                            <span> · @dataEsc</span>
+                                        }
+                                    </div>
+                                    <div style="font-size:0.72rem;color:#334155;">@desc</div>
+                                </div>
+                                <div style="padding:0.3rem 0.7rem 0.5rem;display:flex;align-items:center;justify-content:space-between;font-size:0.68rem;color:#475569;">
+                                    <span>
+                                        @if (!string.IsNullOrWhiteSpace(GetVal("distanza_km")))
+                                        {
+                                            <span>@GetVal("distanza_km") km</span>
+                                        }
+                                        @if (!string.IsNullOrWhiteSpace(GetVal("dislivello_m")))
+                                        {
+                                            <span> · +@GetVal("dislivello_m") m</span>
+                                        }
+                                    </span>
+                                    @if (!string.IsNullOrWhiteSpace(GetVal("difficolta")))
+                                    {
+                                        <span style="display:inline-flex;align-items:center;border-radius:999px;padding:0.05rem 0.45rem;font-size:0.65rem;background:#dceaf7;color:#3b82b8;border:1px solid #9ec5e8;">@GetVal("difficolta")</span>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+                @* SQL collapsible *@
+                <details style="border:1px solid #dee2e6;border-radius:4px;padding:0.25rem 0.4rem;">
+                    <summary style="font-weight:bold;font-size:0.7rem;cursor:pointer;">Anteprima SQL</summary>
+                    <pre style="background:#f5f5f5;padding:0.3rem;overflow:auto;max-height:200px;font-size:0.65rem;border:1px solid #ddd;border-radius:2px;margin:0.2rem 0 0;">@_preview</pre>
+                </details>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public string FileName { get; set; } = "";
+
+    private MigrationFile? _mf;
+    private string _message = "";
+    private string _preview = "";
+    private string _title = "";
+    private string? _gpxUrl;
+    private string? _prevFile;
+    private string? _nextFile;
+    private bool _metaLoading;
+    private string? _metaError;
+    private bool _htmlLoading;
+    private string? _htmlError;
+    private bool _isDictating;
+    private string? _dictationError;
+    private DotNetObjectReference<Edit>? _dotNetRef;
+
+    private string _descrizioneText = "";
+
+    private void OnDescrizioneChanged()
+    {
+        SetValue("descrizione", _descrizioneText);
+    }
+
+    private static readonly string[] _groupGeneral = ["titolo", "attivita", "regione", "provincia", "comune", "url"];
+    private static readonly string[] _groupTechnical = ["distanza_km", "dislivello_m", "quota_min_m", "quota_max_m",
+        "tempo_min", "tempo_hhmm", "tempo_mov_min", "tempo_mov_hhmm", "coordinate_count",
+        "difficolta", "tipo_giro", "superficie"];
+    private static readonly string[] _groupDates = ["data_escursione", "data_registrato", "data_caricato", "data_pubblicazione"];
+    private static readonly string[] _groupGeo = ["centroid_lat", "centroid_lon", "bbox", "geom"];
+    private static readonly string[] _groupReadOnly = ["wikiloc_id", "sha256_payload"];
+
+    protected override void OnInitialized() => LoadFile();
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender && !string.IsNullOrEmpty(_gpxUrl))
+        {
+            await JS.InvokeVoidAsync("initGpxMap", "gpx-map", _gpxUrl);
+        }
+    }
+
+    private void LoadFile()
+    {
+        _message = "";
+        var decoded = Uri.UnescapeDataString(FileName);
+        var migrations = Parser.ListMigrations();
+        var match = migrations.FirstOrDefault(m => m.FileName == decoded);
+        if (match != null)
+        {
+            _mf = Parser.Parse(match.FullPath);
+            _title = _mf.HikeValues.GetValueOrDefault("titolo") ?? decoded;
+            UpdatePreview();
+            var wid = _mf.HikeValues.GetValueOrDefault("wikiloc_id");
+            _gpxUrl = !string.IsNullOrEmpty(wid) ? $"/gpx/{wid}.gpx" : null;
+            _descrizioneText = _mf.HikeValues.GetValueOrDefault("descrizione") ?? "";
+        }
+
+        // Compute prev/next navigation
+        var idx = migrations.FindIndex(m => m.FileName == decoded);
+        _prevFile = idx > 0 ? migrations[idx - 1].FileName : null;
+        _nextFile = idx >= 0 && idx < migrations.Count - 1 ? migrations[idx + 1].FileName : null;
+    }
+
+    private void Reload() { LoadFile(); StateHasChanged(); }
+    private string GetVal(string col) => _mf?.HikeValues.GetValueOrDefault(col) ?? "";
+
+    private void SetValue(string col, string? val)
+    {
+        if (_mf == null) return;
+        _mf.HikeValues[col] = string.IsNullOrWhiteSpace(val) ? null : val;
+        UpdatePreview();
+    }
+
+    private void UpdatePreview()
+    {
+        if (_mf == null) return;
+        _preview = Parser.GenerateSql(_mf);
+    }
+
+    private void Save()
+    {
+        if (_mf == null) return;
+        Parser.Save(_mf);
+        _message = $"Salvato alle {DateTime.Now:HH:mm:ss}";
+        UpdatePreview();
+    }
+
+    private void SetAsCover(int photoIndex)
+    {
+        if (_mf == null) return;
+
+        var photo = _mf.MediaRows[photoIndex];
+
+        // Reset all existing cover rows to 'foto'
+        foreach (var row in _mf.MediaRows)
+        {
+            if (string.Equals(row.GetValueOrDefault("tipo"), "cover", StringComparison.OrdinalIgnoreCase))
+                row["tipo"] = "foto";
+        }
+
+        // Set the selected photo as cover
+        photo["tipo"] = "cover";
+
+        UpdatePreview();
+        var photoFileName = Path.GetFileName(photo.GetValueOrDefault("path_relativo") ?? "");
+        _message = $"Cover impostata: {photoFileName}";
+    }
+
+    private async Task GenerateMetaDescription()
+    {
+        if (_mf == null) return;
+        _metaLoading = true;
+        _metaError = null;
+        StateHasChanged();
+        try
+        {
+            var titolo = GetVal("titolo");
+            var descrizione = GetVal("descrizione");
+            if (string.IsNullOrWhiteSpace(titolo) && string.IsNullOrWhiteSpace(descrizione))
+            {
+                _metaError = "Compila titolo o descrizione prima di generare.";
+                return;
+            }
+            var result = await MetaGen.GenerateAsync(titolo, descrizione);
+            SetValue("meta_descrizione", result);
+        }
+        catch (Exception ex)
+        {
+            _metaError = $"Errore: {ex.Message}";
+        }
+        finally
+        {
+            _metaLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    private async Task GenerateHtmlDescription()
+    {
+        if (_mf == null) return;
+        _htmlLoading = true;
+        _htmlError = null;
+        StateHasChanged();
+        try
+        {
+            var titolo = GetVal("titolo");
+            var descrizione = GetVal("descrizione");
+            if (string.IsNullOrWhiteSpace(descrizione))
+            {
+                _htmlError = "Compila la descrizione testo prima di generare.";
+                return;
+            }
+            var result = await MetaGen.GenerateHtmlAsync(titolo, descrizione);
+            SetValue("descrizione_html", result);
+        }
+        catch (Exception ex)
+        {
+            _htmlError = $"Errore: {ex.Message}";
+        }
+        finally
+        {
+            _htmlLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    private async Task ToggleDictation()
+    {
+        _dictationError = null;
+        if (_isDictating)
+        {
+            await JS.InvokeVoidAsync("stopDictation");
+            _isDictating = false;
+        }
+        else
+        {
+            _dotNetRef ??= DotNetObjectReference.Create(this);
+            _isDictating = true;
+            await JS.InvokeVoidAsync("startDictation", _dotNetRef);
+        }
+    }
+
+    [JSInvokable]
+    public void OnDictationResult(string text)
+    {
+        if (_mf == null) return;
+        var separator = string.IsNullOrEmpty(_descrizioneText) ? "" : " ";
+        _descrizioneText += separator + text;
+        SetValue("descrizione", _descrizioneText);
+        InvokeAsync(StateHasChanged);
+    }
+
+    [JSInvokable]
+    public void OnDictationError(string error)
+    {
+        _dictationError = error;
+        InvokeAsync(StateHasChanged);
+    }
+
+    [JSInvokable]
+    public void OnDictationStopped()
+    {
+        _isDictating = false;
+        InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        _dotNetRef?.Dispose();
+    }
+}

@@ -1,21 +1,58 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
 )
 VALUES (
   92778135,
   'Passeggiata sul lungomare - Ardenza - Livorno',
   'Passeggiata lungomare di Livorno. Percorso molto semplice e alla portata di tutti sempre in piano tranne qualche discesa alle spiaggette, vi sono numerosi bar, fontanelle e ristoranti. Ci sono molti bei posti dove scattare foto, la passeggiata non presenta problemi e anche di sera è illuminata. Ottimo in Primavera o Autunno',
-  'Passeggiata lungomare di Livorno. <br> <br>Percorso molto semplice e alla portata di tutti sempre in piano tranne qualche discesa alle spiaggette, vi sono numerosi bar, fontanelle e ristoranti. <br> <br>Ci sono molti bei posti dove scattare foto, la passeggiata non presenta problemi e anche di sera è illuminata. <br> <br>Ottimo in Primavera o Autunno',
+  '<article class="hiking-detail">
+  <h2 class="hiking-title">Passeggiata sul lungomare - Ardenza - Livorno</h2>
+  <p>
+    Goditi una rilassante passeggiata lungo il lungomare di Livorno! Questo percorso, adatto a tutti, ti condurrà attraverso la pittoresca zona dell''Ardenza.
+  </p>
+  <img src="ardenza-lungomare.jpg" alt="Lungomare Ardenza - Livorno" width="800" height="600">
+
+  <h3>Dettagli dell''escursione</h3>
+  <p>
+    <strong>Difficoltà:</strong> Facile
+    <em class="note">
+      Perfetto per famiglie e principianti. Il percorso è prevalentemente pianeggiante, con alcune leggere discese alle spiaggette.
+    </em>
+  </p>
+  <p>
+    <strong>Distanza:</strong> Circa 5 km
+    <em class="note">
+      Il percorso è ben segnalato e facilmente percorribile.
+    </em>
+  </p>
+  <p>
+    <strong>Durata stimata:</strong> 2 - 3 ore
+  </p>
+  <p>
+    <strong>Altitudine:</strong> Quasi nessuna variazione di altitudine.
+  </p>
+  <h3>Caratteristiche del percorso</h3>
+  <ul>
+    <li>
+      Percorso prevalentemente pianeggiante con leggere discese.
+    </li>
+    <li>
+      Numerosi bar, fontanelle e ristoranti lungo il tragitto.
+    </li>
+    <li>
+      Splendidi punti panoramici e luoghi ideali per scattare fotografie.
+    </li>
+    <li>
+      La passeggiata è illuminata, rendendola adatta anche per le serate.
+    </li>
+  </ul>
+  <h3>Periodo consigliato</h3>
+  <p>
+    La passeggiata è particolarmente consigliata durante la Primavera e l''Autunno, quando le temperature sono più miti e il lungomare è più affascinante.
+  </p>
+</article>',
   'Tutte le Attività e Paesi',
   9.2,
   14,
@@ -26,7 +63,7 @@ VALUES (
   138,
   '02:18',
   1637,
-  'Medio',
+  'Facile',
   'Anello',
   NULL,
   'Italia',
@@ -42,7 +79,9 @@ VALUES (
   10.3112,
   'POINT(10.3112 43.522547)',
   '5ff645ff31b80d0fca2208791b2765d26ac805bf4f329e86916cb98fee663fb6',
-  NOW(), NOW()
+  'Passeggiata sul lungomare di Ardenza a Livorno: percorso facile, vista mare, bar e foto! Ideale in primavera e autunno.',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +113,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +133,6 @@ SELECT id, 'cover', 'media/images/92778135/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_01.jpg', 1,
        NULL,
@@ -101,7 +140,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_02.jpg', 2,
@@ -111,7 +149,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_03.jpg', 3,
        NULL,
@@ -119,7 +156,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_04.jpg', 4,
@@ -129,7 +165,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_05.jpg', 5,
        NULL,
@@ -137,7 +172,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_06.jpg', 6,
@@ -147,7 +181,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_07.jpg', 7,
        NULL,
@@ -155,7 +188,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_08.jpg', 8,
@@ -165,7 +197,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_09.jpg', 9,
        NULL,
@@ -173,7 +204,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_10.jpg', 10,
@@ -183,7 +213,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_11.jpg', 11,
        NULL,
@@ -191,7 +220,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_11.jpg', 11,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_12.jpg', 12,
@@ -201,7 +229,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_12.jpg', 12,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_13.jpg', 13,
        NULL,
@@ -209,7 +236,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_13.jpg', 13,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_14.jpg', 14,
@@ -219,7 +245,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_14.jpg', 14,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_15.jpg', 15,
        NULL,
@@ -227,7 +252,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_15.jpg', 15,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_16.jpg', 16,
@@ -237,7 +261,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_16.jpg', 16,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_17.jpg', 17,
        NULL,
@@ -245,7 +268,6 @@ SELECT id, 'foto', 'media/images/92778135/photo_17.jpg', 17,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92778135;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92778135/photo_18.jpg', 18,

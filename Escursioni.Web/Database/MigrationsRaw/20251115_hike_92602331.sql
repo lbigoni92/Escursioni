@@ -1,21 +1,33 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
 )
 VALUES (
   92602331,
   'Trekking cittadino - Livorno - Mare',
   'Camminata molto semplice in pianura per la mia città, per riprendermi da un infortunio al ginocchio. La camminata, prevede di passare da alcuni dei luoghi storici più importanti del centro città: Acquario di livorno Terrazza mascagni Gazzebo Fontana del Nettuno Monumento al marinaio Rotonda d''ardenza E'' adatta a tutte le persone, di tutte l''età, a famiglie, turisti ecc... ovviamente essendo in città ed essendo pochi chilometri non avete bisogno d''attrezzature, lungo il percorso ci sono diverse fontanelle, bar e ristoranti.',
-  'Camminata molto semplice in pianura per la mia città, per riprendermi da un infortunio al ginocchio. <br> <br>La camminata, prevede di passare da alcuni dei luoghi storici più importanti del centro città: <br>Acquario di livorno <br>Terrazza mascagni <br>Gazzebo <br>Fontana del Nettuno <br>Monumento al marinaio <br>Rotonda d''ardenza <br> <br>E'' adatta a tutte le persone, di tutte l''età, a famiglie, turisti ecc... ovviamente essendo in città ed essendo pochi chilometri non avete bisogno d''attrezzature, lungo il percorso ci sono diverse fontanelle, bar e ristoranti.',
+  '<article>
+  <h2 data-aos="fade-left">Trekking Cittadino - Livorno - Mare</h2>
+  <p data-aos="fade-right">
+    Dopo un periodo di riposo per un infortunio al ginocchio, ho deciso di rimetto in sesto le gambe con una passeggiata semplice e rilassante nella mia città. Questo trekking cittadino è un''ottima occasione per riscoprire il cuore di Livorno e ammirare i suoi luoghi storici più importanti.
+  </p>
+  <p data-aos="fade-up">
+    Questo percorso è pensato per essere accessibile a tutti, indipendentemente dall''età o dal livello di preparazione fisica. È perfetto per famiglie, turisti e chiunque voglia trascorrere una giornata all''aria aperta in modo facile e piacevole.
+  </p>
+  <h3 data-aos="fade-left">Itinerario</h3>
+  <ul data-aos="fade-right">
+    <li><strong data-aos="fade-up">Acquario di Livorno</strong>: Un''icona della città, dove potrete ammirare la ricca fauna marina.</li>
+    <li><em data-aos="fade-up">Terrazza Mascagni</em>: Godetevi una vista panoramica mozzafiato sul golfo di Livorno.</li>
+    <li><strong data-aos="fade-up">Gazzebo Fontana del Nettuno</strong>: Rilassatevi all''ombra di questa suggestiva fontana.</li>
+    <li><em data-aos="fade-up">Fontana del Nettuno</em>: Ammirate la bellezza di questa fontana storica.</li>
+    <li><strong data-aos="fade-up">Monumento al Marinaio</strong>: Un monumento dedicato alla tradizione marinara di Livorno.</li>
+    <li><em data-aos="fade-up">Rotonda d’Ardenza</em>:  Esplorate questa rotonda storica e ammirate l''architettura circostante.</li>
+  </ul>
+  <p data-aos="fade-left">
+    Il percorso si snoda lungo la pianura cittadina, con circa pochi chilometri di distanza e pochi dislivelli. Lungo il cammino troverete diverse fontanelle per idratarvi, bar e ristoranti dove fare una pausa. Non sono necessarie attrezzature particolari.
+  </p>
+</article>',
   'Tutte le Attività e Paesi',
   10.16,
   14,
@@ -42,7 +54,9 @@ VALUES (
   10.300393,
   'POINT(10.300393 43.54105)',
   'e026f22c0de2cc733a8db0e75ab7b68c309d1fa6b7e253b671aaf2a75421761c',
-  NOW(), NOW()
+  'Trekking cittadino a Livorno: mare, storia e relax! Percorso facile e accessibile per tutta la famiglia. Scopri i luoghi iconici di Livorno!',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +88,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -86,13 +101,12 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 92602331);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/92602331/cover.jpg', 0,
+SELECT id, 'cover', 'media/images/92602331/photo_04.jpg', 0,
        NULL,
        NULL,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92602331;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92602331/photo_01.jpg', 1,
@@ -102,7 +116,6 @@ SELECT id, 'foto', 'media/images/92602331/photo_01.jpg', 1,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92602331;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92602331/photo_02.jpg', 2,
        NULL,
@@ -111,7 +124,6 @@ SELECT id, 'foto', 'media/images/92602331/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92602331;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92602331/photo_03.jpg', 3,
        NULL,
@@ -119,7 +131,6 @@ SELECT id, 'foto', 'media/images/92602331/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 92602331;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/92602331/photo_04.jpg', 4,

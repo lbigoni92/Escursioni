@@ -1,0 +1,22 @@
+# Dockerfile per sviluppo Migration Editor (Blazor Server)
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+WORKDIR /src
+
+COPY Escursioni.MigrationEditor/Escursioni.MigrationEditor.csproj Escursioni.MigrationEditor/
+COPY Escursioni.sln ./
+RUN dotnet restore "Escursioni.MigrationEditor/Escursioni.MigrationEditor.csproj"
+
+COPY . .
+
+WORKDIR "/src/Escursioni.MigrationEditor"
+RUN dotnet publish "Escursioni.MigrationEditor.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
+WORKDIR /app
+
+COPY --from=build /app/publish .
+
+ENV ASPNETCORE_URLS=http://+:8081
+EXPOSE 8081
+
+ENTRYPOINT ["dotnet", "Escursioni.MigrationEditor.dll"]

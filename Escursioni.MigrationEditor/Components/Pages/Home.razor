@@ -1,0 +1,82 @@
+﻿@page "/"
+@using Escursioni.MigrationEditor.Services
+@inject MigrationParserService Parser
+@rendermode InteractiveServer
+
+<PageTitle>Migration Editor</PageTitle>
+
+<h1>Migration Editor</h1>
+<p>Totale migrazioni: <strong>@_migrations.Count</strong></p>
+
+<div style="margin-bottom:1rem;">
+    <input type="text" @bind="_filter" @bind:event="oninput" placeholder="Filtra per nome file..." style="padding:6px;width:400px;" />
+</div>
+
+<table style="width:100%;border-collapse:collapse;">
+    <thead>
+        <tr style="background:#eee;text-align:left;">
+            <th style="padding:6px;border:1px solid #ccc;">#</th>
+            <th style="padding:6px;border:1px solid #ccc;">File</th>
+            <th style="padding:6px;border:1px solid #ccc;">Titolo</th>
+            <th style="padding:6px;border:1px solid #ccc;">Regione</th>
+            <th style="padding:6px;border:1px solid #ccc;">Meta Desc.</th>
+            <th style="padding:6px;border:1px solid #ccc;">Azioni</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{int idx = 0;}
+        @foreach (var m in Filtered)
+        {
+            idx++;
+            var parsed = TryQuickParse(m);
+            <tr>
+                <td style="padding:6px;border:1px solid #ccc;">@idx</td>
+                <td style="padding:6px;border:1px solid #ccc;font-family:monospace;font-size:0.85rem;">@m.FileName</td>
+                <td style="padding:6px;border:1px solid #ccc;">@(parsed?.GetValueOrDefault("titolo") ?? "—")</td>
+                <td style="padding:6px;border:1px solid #ccc;">@(parsed?.GetValueOrDefault("regione") ?? "—")</td>
+                <td style="padding:6px;border:1px solid #ccc;">
+                    @{
+                        var meta = parsed?.GetValueOrDefault("meta_descrizione");
+                        if (string.IsNullOrWhiteSpace(meta))
+                        {
+                            <span style="color:#999;">mancante</span>
+                        }
+                        else
+                        {
+                            <span style="color:green;">✓</span>
+                        }
+                    }
+                </td>
+                <td style="padding:6px;border:1px solid #ccc;">
+                    <a href="/edit/@(System.Uri.EscapeDataString(m.FileName))">Modifica</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<MigrationFile> _migrations = new();
+    private readonly Dictionary<string, Dictionary<string, string?>> _quickCache = new();
+    private string _filter = "";
+
+    private IEnumerable<MigrationFile> Filtered => string.IsNullOrWhiteSpace(_filter)
+        ? _migrations
+        : _migrations.Where(m => m.FileName.Contains(_filter, StringComparison.OrdinalIgnoreCase));
+
+    protected override void OnInitialized()
+    {
+        _migrations = Parser.ListMigrations();
+        foreach (var m in _migrations)
+        {
+            var parsed = Parser.Parse(m.FullPath);
+            _quickCache[m.FileName] = parsed.HikeValues;
+        }
+    }
+
+    private Dictionary<string, string?>? TryQuickParse(MigrationFile m)
+    {
+        _quickCache.TryGetValue(m.FileName, out var vals);
+        return vals;
+    }
+}

@@ -1,21 +1,45 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
 )
 VALUES (
   96964761,
   'Vicopisano - Rocca della Verruca',
   'Partenza da Vicopisano, abbiamo parcheggiato nella piazza principale del paese (il sabato non potete parcheggiare). I sentieri sono molto molto semplici adatti a tutti, l''unica parte più difficile è la salita, che in un breve tratto presenta delle pietre alle quali si dev''essere attenti. Non vi sono fontane lungo il percorso Dalla verruca potrete vedere un panorama unico nel suo genere, La Rocca stessa non è tenuta benissimo ma è comunque un luogo storico più ogni Toscano dovrebbe vedere almeno una volta nella propria vita, la salita alla verruca comporta aiutarsi con le mani nel salire, ma ne vale la pena. Il ritorno non comporta difficoltà abbiamo fatto la direttissima dalla verruca a Vicopisano il percorso era molto molto semplice, percorribile anche in auto, vicino alla verruca vi sono anche i tavolini da picnic',
-  'Partenza da Vicopisano, abbiamo parcheggiato nella piazza principale del paese (il sabato non potete parcheggiare). <br> <br>I sentieri sono molto molto semplici adatti a tutti, l''unica parte più difficile è la salita, che in un breve tratto presenta delle pietre alle quali si dev''essere attenti. <br> <br> <br>Non vi sono fontane lungo il percorso <br> <br>Dalla verruca potrete vedere un panorama unico nel suo genere, La Rocca stessa non è tenuta benissimo ma è comunque un luogo storico più ogni Toscano dovrebbe vedere almeno una volta nella propria vita, la salita alla verruca comporta aiutarsi con le mani nel salire, ma ne vale la pena. <br> <br>Il ritorno non comporta difficoltà abbiamo fatto la direttissima dalla verruca a Vicopisano il percorso era molto molto semplice, percorribile anche in auto, vicino alla verruca vi sono anche i tavolini da picnic',
+  '<article class="hiking-details">
+  <h2 class="hiking-title">Vicopisano - Rocca della Verruca</h2>
+  <p>
+    Partenza da Vicopisano: abbiamo parcheggiato nella piazza principale del paese (il sabato non potete parcheggiare). Il percorso è molto semplice e adatto a tutti, l''unica parte più impegnativa è la salita, che in un breve tratto presenta delle pietre che richiedono attenzione.
+  </p>
+  <p>
+    Non ci sono fontane lungo il percorso. Dalla verruca potrete ammirare un panorama unico nel suo genere. La Rocca stessa non è tenuta in perfette condizioni, ma rimane comunque un luogo storico che ogni toscano dovrebbe visitare almeno una volta nella vita.
+  </p>
+  <p>
+    La salita alla verruca prevede l''utilizzo delle mani per superare alcuni tratti, ma il panorama e l''esperienza ne valgono la pena.
+  </p>
+  <h3 class="hiking-subtitle">Dettagli del Percorso</h3>
+  <ul class="hiking-details-list">
+    <li>
+      <strong>Difficoltà:</strong> Facile/Media (la salita è il punto più impegnativo)
+    </li>
+    <li>
+      <strong>Lunghezza:</strong> Circa 4 km (andata e ritorno)
+    </li>
+    <li>
+      <strong>Dislivello:</strong> Circa 250 metri
+    </li>
+    <li>
+      <strong>Tipo di Terreno:</strong> Sentiero semplice con tratti rocciosi
+    </li>
+    <li>
+      <strong>Punti di Interesse:</strong> Vista panoramica sulla Rocca della Verruca, panorama toscano, sito storico.
+    </li>
+  </ul>
+  <p>
+    Il ritorno è molto semplice e percorribile anche in auto. Abbiamo seguito una direttissima dalla verruca a Vicopisano.  Vicino alla verruca vi sono anche tavolini da picnic per godervi il panorama.
+  </p>
+</article>',
   'Tutte le Attività e Paesi',
   12.96,
   506,
@@ -42,7 +66,9 @@ VALUES (
   10.582933,
   'POINT(10.582933 43.699385)',
   '85e4c3d73e154c7a5cc5096e3e19f0e9eb2b9cbb73b8bb2709ca79f1f3294c9d',
-  NOW(), NOW()
+  'Escursioni Vicopisano: Rocca della Verruca. Sentiero facile, panorama mozzafiato toscano! Salita semplice con tratti rocciosi. Ideale per famiglie e principi...',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +100,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +120,6 @@ SELECT id, 'cover', 'media/images/96964761/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 96964761;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/96964761/photo_01.jpg', 1,
        NULL,
@@ -101,7 +127,6 @@ SELECT id, 'foto', 'media/images/96964761/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 96964761;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/96964761/photo_02.jpg', 2,
@@ -111,7 +136,6 @@ SELECT id, 'foto', 'media/images/96964761/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 96964761;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/96964761/photo_03.jpg', 3,
        NULL,
@@ -119,7 +143,6 @@ SELECT id, 'foto', 'media/images/96964761/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 96964761;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/96964761/photo_04.jpg', 4,
@@ -129,7 +152,6 @@ SELECT id, 'foto', 'media/images/96964761/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 96964761;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/96964761/photo_05.jpg', 5,
        NULL,
@@ -137,7 +159,6 @@ SELECT id, 'foto', 'media/images/96964761/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 96964761;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/96964761/photo_06.jpg', 6,
@@ -147,7 +168,6 @@ SELECT id, 'foto', 'media/images/96964761/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 96964761;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/96964761/photo_07.jpg', 7,
        NULL,
@@ -155,7 +175,6 @@ SELECT id, 'foto', 'media/images/96964761/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 96964761;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/96964761/photo_08.jpg', 8,
@@ -165,7 +184,6 @@ SELECT id, 'foto', 'media/images/96964761/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 96964761;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/96964761/photo_09.jpg', 9,
        NULL,
@@ -173,7 +191,6 @@ SELECT id, 'foto', 'media/images/96964761/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 96964761;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/96964761/photo_10.jpg', 10,
@@ -183,7 +200,6 @@ SELECT id, 'foto', 'media/images/96964761/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 96964761;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/96964761/photo_11.jpg', 11,
        NULL,
@@ -191,7 +207,6 @@ SELECT id, 'foto', 'media/images/96964761/photo_11.jpg', 11,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 96964761;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/96964761/photo_12.jpg', 12,
@@ -201,7 +216,6 @@ SELECT id, 'foto', 'media/images/96964761/photo_12.jpg', 12,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 96964761;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/96964761/photo_13.jpg', 13,
        NULL,
@@ -209,7 +223,6 @@ SELECT id, 'foto', 'media/images/96964761/photo_13.jpg', 13,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 96964761;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/96964761/photo_14.jpg', 14,

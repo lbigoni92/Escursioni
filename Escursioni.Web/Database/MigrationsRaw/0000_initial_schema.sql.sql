@@ -33,6 +33,7 @@ CREATE TABLE IF NOT EXISTS escursioni.hike (
   centroid_lon NUMERIC(9,6),
   geom TEXT,
   sha256_payload TEXT,
+  meta_descrizione TEXT,
   created_at TIMESTAMP DEFAULT NOW(),
   updated_at TIMESTAMP DEFAULT NOW()
 );
