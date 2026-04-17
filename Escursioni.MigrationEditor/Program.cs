@@ -12,6 +12,7 @@ builder.Services.AddHttpClient<MetaDescriptionGenerator>(client =>
 {
     client.Timeout = TimeSpan.FromMinutes(30);
 });
+builder.Services.AddSingleton<BulkGenerationService>();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()

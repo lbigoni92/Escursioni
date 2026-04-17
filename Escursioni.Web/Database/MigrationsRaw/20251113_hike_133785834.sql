@@ -1,15 +1,7 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
 )
 VALUES (
   133785834,
@@ -42,7 +34,9 @@ VALUES (
   10.395898,
   'POINT(10.395898 43.800883)',
   'b74c7c09fc5b1f999deeaf219b738a8eed1092378fd7298db51f7b434d7d07ee',
-  NOW(), NOW()
+  'Escursione notturna al Monte del Legnaio (Pisa)! Percorso facile, panorama mozzafiato e consigli utili per la tua avventura. Scopri la Toscana!',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +68,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +88,6 @@ SELECT id, 'cover', 'media/images/133785834/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 133785834;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/133785834/photo_01.jpg', 1,
        NULL,
@@ -101,7 +95,6 @@ SELECT id, 'foto', 'media/images/133785834/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 133785834;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/133785834/photo_02.jpg', 2,
@@ -111,7 +104,6 @@ SELECT id, 'foto', 'media/images/133785834/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 133785834;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/133785834/photo_03.jpg', 3,
        NULL,
@@ -119,7 +111,6 @@ SELECT id, 'foto', 'media/images/133785834/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 133785834;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/133785834/photo_04.jpg', 4,
@@ -129,7 +120,6 @@ SELECT id, 'foto', 'media/images/133785834/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 133785834;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/133785834/photo_05.jpg', 5,
        NULL,
@@ -138,7 +128,6 @@ SELECT id, 'foto', 'media/images/133785834/photo_05.jpg', 5,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 133785834;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/133785834/photo_06.jpg', 6,
        NULL,
@@ -146,7 +135,6 @@ SELECT id, 'foto', 'media/images/133785834/photo_06.jpg', 6,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 133785834;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/133785834/photo_07.jpg', 7,

@@ -54,6 +54,7 @@ public class EscursioniDbContext : DbContext
             entity.Property(h => h.GeomWkt).HasColumnName("geom");
             entity.Property(h => h.Sha256Payload).HasColumnName("sha256_payload");
             entity.Property(h => h.MetaDescrizione).HasColumnName("meta_descrizione");
+            entity.Property(h => h.TitoloSeo).HasColumnName("titolo_seo");
             entity.Property(h => h.CreatedAt).HasColumnName("created_at");
             entity.Property(h => h.UpdatedAt).HasColumnName("updated_at");
 

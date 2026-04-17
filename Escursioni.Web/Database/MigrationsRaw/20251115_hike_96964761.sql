@@ -7,39 +7,33 @@ VALUES (
   96964761,
   'Vicopisano - Rocca della Verruca',
   'Partenza da Vicopisano, abbiamo parcheggiato nella piazza principale del paese (il sabato non potete parcheggiare). I sentieri sono molto molto semplici adatti a tutti, l''unica parte più difficile è la salita, che in un breve tratto presenta delle pietre alle quali si dev''essere attenti. Non vi sono fontane lungo il percorso Dalla verruca potrete vedere un panorama unico nel suo genere, La Rocca stessa non è tenuta benissimo ma è comunque un luogo storico più ogni Toscano dovrebbe vedere almeno una volta nella propria vita, la salita alla verruca comporta aiutarsi con le mani nel salire, ma ne vale la pena. Il ritorno non comporta difficoltà abbiamo fatto la direttissima dalla verruca a Vicopisano il percorso era molto molto semplice, percorribile anche in auto, vicino alla verruca vi sono anche i tavolini da picnic',
-  '<article class="hiking-details">
-  <h2 class="hiking-title">Vicopisano - Rocca della Verruca</h2>
-  <p>
-    Partenza da Vicopisano: abbiamo parcheggiato nella piazza principale del paese (il sabato non potete parcheggiare). Il percorso è molto semplice e adatto a tutti, l''unica parte più impegnativa è la salita, che in un breve tratto presenta delle pietre che richiedono attenzione.
-  </p>
-  <p>
-    Non ci sono fontane lungo il percorso. Dalla verruca potrete ammirare un panorama unico nel suo genere. La Rocca stessa non è tenuta in perfette condizioni, ma rimane comunque un luogo storico che ogni toscano dovrebbe visitare almeno una volta nella vita.
-  </p>
-  <p>
-    La salita alla verruca prevede l''utilizzo delle mani per superare alcuni tratti, ma il panorama e l''esperienza ne valgono la pena.
-  </p>
-  <h3 class="hiking-subtitle">Dettagli del Percorso</h3>
-  <ul class="hiking-details-list">
-    <li>
-      <strong>Difficoltà:</strong> Facile/Media (la salita è il punto più impegnativo)
-    </li>
-    <li>
-      <strong>Lunghezza:</strong> Circa 4 km (andata e ritorno)
-    </li>
-    <li>
-      <strong>Dislivello:</strong> Circa 250 metri
-    </li>
-    <li>
-      <strong>Tipo di Terreno:</strong> Sentiero semplice con tratti rocciosi
-    </li>
-    <li>
-      <strong>Punti di Interesse:</strong> Vista panoramica sulla Rocca della Verruca, panorama toscano, sito storico.
-    </li>
-  </ul>
-  <p>
-    Il ritorno è molto semplice e percorribile anche in auto. Abbiamo seguito una direttissima dalla verruca a Vicopisano.  Vicino alla verruca vi sono anche tavolini da picnic per godervi il panorama.
-  </p>
-</article>',
+  '<h2>Vicopisano - Rocca della Verruca: Trekking e Escursione nella Toscana Incontaminata</h2>
+
+<h3>Il Percorso</h3>
+
+<p>Parti da <strong>Vicopisano</strong> per un''indimenticabile <strong>escursione trekking</strong> alla <strong>Rocca della Verruca</strong>. Il sentiero, di facile difficoltà, ti conduce attraverso un paesaggio montano toscano mozzafiato, ideale per famiglie e appassionati di <strong>trekking</strong> di ogni livello. La salita, seppur impegnativa in alcuni tratti, è gestibile grazie alla presenza di pietre ben distribuite, richiedendo semplicemente un''attenzione particolare. Questo <strong>sentiero</strong> offre un''opportunità unica per immergerti nella <strong>natura</strong> e scoprire le bellezze della <strong>montagna toscana</strong>.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<ul>
+  <li>Un <strong>trekking</strong> di circa 6 km (andata e ritorno) con un dislivello di circa 350 metri.</li>
+  <li>Un percorso adatti a tutti, con una sezione di salita più impegnativa.</li>
+  <li>Una vista panoramica unica dalla <strong>Rocca della Verruca</strong>, con scorci sulla campagna toscana e sulla valle sottostante.</li>
+  <li>Un''esperienza autentica nella <strong>Toscana</strong>, a contatto con la sua storia e la sua <strong>natura</strong> incontaminata.</li>
+</ul>
+
+<p>La <strong>Rocca della Verruca</strong>, sebbene non perfettamente conservata, rappresenta un importante sito storico e testimonia la ricca storia della regione. La salita richiede un po'' di agilità e l''utilizzo delle mani per superare alcuni tratti, ma la ricompensa è un panorama mozzafiato e un''esperienza di <strong>trekking</strong> indimenticabile.</p>
+
+<h3>Informazioni Utili</h3>
+
+<ul>
+  <li><strong>Punto di Partenza:</strong> Vicopisano (parcheggio disponibile in piazza principale, salvo sabato).</li>
+  <li><strong>Difficoltà:</strong> Facile/Media (salita impegnativa).</li>
+  <li><strong>Distanza:</strong> Circa 6 km.</li>
+  <li><strong>Dislivello:</strong> Circa 350 metri.</li>
+  <li><strong>Periodo Consigliato:</strong> Primavera/Estate/Autunno.</li>
+  <li><strong>Attenzione:</strong> Prestare attenzione ai tratti rocciosi durante la salita.  Ricorda, l''escursione alla <strong>Rocca della Verruca</strong> è un''esperienza che non dimenticherai facilmente, un vero gioiello per gli amanti del <strong>trekking</strong> e dell''escursionismo in <strong>sentieri Italia</strong>.</li>
+</ul>',
   'Tutte le Attività e Paesi',
   12.96,
   506,
@@ -66,7 +60,7 @@ VALUES (
   10.582933,
   'POINT(10.582933 43.699385)',
   '85e4c3d73e154c7a5cc5096e3e19f0e9eb2b9cbb73b8bb2709ca79f1f3294c9d',
-  'Escursioni Vicopisano: Rocca della Verruca. Sentiero facile, panorama mozzafiato toscano! Salita semplice con tratti rocciosi. Ideale per famiglie e principi...',
+  'Escursioni Vicopisano: Rocca della Verruca! Facile sentiero toscano con panorama mozzafiato. Salita semplice ma con tratti rocciosi. Un''esperienza imperdibile!',
   NOW(),
   NOW()
 )

@@ -1,21 +1,37 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   198605304,
   'Cascata dell''Acquapendente, Ponte Mediceo e Santuario di San Leonardo da Cardoso',
   'Percorso ad anello da Cardoso Il percorso, di circa 8.1 km, parte da Cardoso e tocca i seguenti punti di interesse: Cascata dell’Acquapendente (2.2 km) Ponte Mediceo (3.5 km) Santuario di San Leonardo (8.1 km) Difficoltà: Semplice, ma da affrontare con la giusta attenzione, come ogni sentiero montano. Descrizione del percorso: Si parte da Cardoso imboccando il Sentiero della Castagna, che conduce al Mulino del Frate e a un affascinante ponte medievale. Da qui è possibile scegliere se dirigersi subito verso la Scala Santa o visitarla successivamente (noi abbiamo optato per la seconda opzione per gestire meglio i tempi). La Scala Santa include un breve tratto attrezzato, ma la parte più suggestiva è il cammino lungo una via di lizza che costeggia il fiume. Dal ponte medievale, proseguiamo seguendo il sentiero 7, ben segnalato, verso le Cascate dell’Acquapendente. Il tratto presenta una salita moderata, mai troppo impegnativa, e vale assolutamente la pena affrontarla! Le cascate, alte almeno 50 metri, sono uno spettacolo maestoso: acque cristalline che rappresentano una delle meraviglie più belle delle Apuane, perfette anche per scatti memorabili. Continuando il percorso, raggiungiamo Orzale, dove potrete incontrare dei gattini adorabili (ben nutriti, non preoccupatevi!) che potrebbero chiedervi un po’ di cibo. Il cammino prosegue verso delle interessanti incisioni rupestri di pennati e, subito dopo, al Santuario di San Leonardo, un luogo affascinante che merita una visita. Non lontano dal santuario, troverete i resti di una suggestiva cava trasformata in lago. Un angolo unico, immerso nel monte, che vi lascerà senza fiato. Consiglio finale: Preparatevi a un’esperienza immersiva nella natura, con scorci unici e un’atmosfera rilassante. Non dimenticate di portare con voi una fotocamera per immortalare questi luoghi incantevoli!',
-  'Percorso ad anello da Cardoso <br> <br>Il percorso, di circa 8.1 km, parte da Cardoso e tocca i seguenti punti di interesse: <br> <br>Cascata dell’Acquapendente (2.2 km) <br>Ponte Mediceo (3.5 km) <br>Santuario di San Leonardo (8.1 km) <br>Difficoltà: Semplice, ma da affrontare con la giusta attenzione, come ogni sentiero montano. <br> <br>Descrizione del percorso: <br>Si parte da Cardoso imboccando il Sentiero della Castagna, che conduce al Mulino del Frate e a un affascinante ponte medievale. Da qui è possibile scegliere se dirigersi subito verso la Scala Santa o visitarla successivamente (noi abbiamo optato per la seconda opzione per gestire meglio i tempi). La Scala Santa include un breve tratto attrezzato, ma la parte più suggestiva è il cammino lungo una via di lizza che costeggia il fiume. <br> <br>Dal ponte medievale, proseguiamo seguendo il sentiero 7, ben segnalato, verso le Cascate dell’Acquapendente. Il tratto presenta una salita moderata, mai troppo impegnativa, e vale assolutamente la pena affrontarla! Le cascate, alte almeno 50 metri, sono uno spettacolo maestoso: acque cristalline che rappresentano una delle meraviglie più belle delle Apuane, perfette anche per scatti memorabili. <br> <br>Continuando il percorso, raggiungiamo Orzale, dove potrete incontrare dei gattini adorabili (ben nutriti, non preoccupatevi!) che potrebbero chiedervi un po’ di cibo. <br> <br>Il cammino prosegue verso delle interessanti incisioni rupestri di pennati e, subito dopo, al Santuario di San Leonardo, un luogo affascinante che merita una visita. <br> <br>Non lontano dal santuario, troverete i resti di una suggestiva cava trasformata in lago. Un angolo unico, immerso nel monte, che vi lascerà senza fiato. <br> <br>Consiglio finale: Preparatevi a un’esperienza immersiva nella natura, con scorci unici e un’atmosfera rilassante. Non dimenticate di portare con voi una fotocamera per immortalare questi luoghi incantevoli!',
+  '<h2>Trekking in Toscana: Cascata dell’Acquapendente, Ponte Mediceo e Santuario di San Leonardo da Cardoso</h2>
+
+<h3>Il Percorso – Escursione ad Anello nelle Apuane</h3>
+
+<p>
+Immergiti nella natura selvaggia delle Apuane con questa splendida <strong>escursione di trekking</strong>. Il sentiero ad anello da <strong>Cardoso</strong>, di circa <strong>8.1 km</strong>, ti porterà a scoprire la maestosa <strong>Cascata dell’Acquapendente</strong>, il suggestivo <strong>Ponte Mediceo</strong> e il pittoresco <strong>Santuario di San Leonardo da Cardoso</strong>. Questa <strong>trekking</strong> è adatta a tutti, con una difficoltà <strong>semplice</strong>, ma richiede sempre un’adeguata preparazione e attenzione, come per ogni <strong>sentiero montano</strong> nelle <strong>montagne toscane</strong>.
+</p>
+
+<h3>Cosa Aspettarsi – Un''Esperienza Naturale Incredibile</h3>
+
+<ul>
+  <li>Percorso ad anello di circa <strong>8.1 km</strong>.</li>
+  <li>Difficoltà: <strong>Semplice</strong>, ideale per <strong>escursioni</strong> di un giorno.</li>
+  <li>Magnifica vista sulle <strong>Apuane</strong> e sulla valle.</li>
+  <li>Possibilità di ammirare la bellezza della <strong>Cascata dell’Acquapendente</strong>, con le sue acque cristalline.</li>
+  <li>Scoperta del <strong>Ponte Mediceo</strong>, un importante testimonianza storica.</li>
+  <li>Visita del <strong>Santuario di San Leonardo da Cardoso</strong>, un luogo di culto affascinante.</li>
+  <li>Possibilità di avvistare la fauna locale, tra cui gattini adorabili.</li>
+</ul>
+
+<h3>Informazioni Utili – Dettagli per la Tua Escursione</h3>
+
+<p>
+Il percorso inizia da <strong>Cardoso</strong>, imboccando il <strong>Sentiero della Castagna</strong>.  La <strong>trekking</strong> ti guiderà attraverso un paesaggio variegato, passando per il <strong>Mulino del Frate</strong> e il <strong>Ponte Mediceo</strong>. Il tratto verso la <strong>Cascata dell’Acquapendente</strong> presenta una salita moderata, ma la ricompensa è una vista mozzafiato su questa meraviglia naturale.  Incontrerai anche le incisioni rupestri di pennati e un lago artificiale creato in una suggestiva cava.  Per un’<strong>escursione</strong> indimenticabile, prepara una buona scarpa da trekking, dell’acqua e un cappello.  Ricorda che l''ambiente naturale è prezioso: lascia ogni cosa al suo posto e rispetta la flora e la fauna locale.  Questa <strong>escursione in montagna</strong> è un''ottima opportunità per goderti la natura e rilassarti all''aria aperta.  Pianifica la tua <strong>trekking</strong> nelle <strong>montagne italiane</strong> e preparati a vivere un''esperienza unica.
+</p>',
   'Tutte le Attività e Paesi',
   11.17,
   1,
@@ -42,7 +58,10 @@ VALUES (
   10.315348,
   'POINT(10.315348 44.007078)',
   '77cbce096c31b3acec263fc169d9bc71e77d8a96bc7cb3a1e59de7a5e42abc87',
-  NOW(), NOW()
+  'Escursione Cascata Acquapendente, Ponte Mediceo & Santuario San Leonardo: Anello facile tra meraviglie Apuane! 🏞️',
+  'Trekking Acquapendente: Sentiero Cardoso, Cascate e Santuario',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +93,8 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +114,6 @@ SELECT id, 'cover', 'media/images/198605304/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_01.jpg', 1,
        NULL,
@@ -101,7 +121,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_02.jpg', 2,
@@ -111,7 +130,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_03.jpg', 3,
        NULL,
@@ -119,7 +137,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_04.jpg', 4,
@@ -129,7 +146,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_05.jpg', 5,
        NULL,
@@ -137,7 +153,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_06.jpg', 6,
@@ -147,7 +162,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_07.jpg', 7,
        NULL,
@@ -155,7 +169,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_08.jpg', 8,
@@ -165,7 +178,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_09.jpg', 9,
        NULL,
@@ -173,7 +185,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_10.jpg', 10,
@@ -183,7 +194,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_11.jpg', 11,
        NULL,
@@ -191,7 +201,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_11.jpg', 11,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_12.jpg', 12,
@@ -201,7 +210,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_12.jpg', 12,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_13.jpg', 13,
        NULL,
@@ -209,7 +217,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_13.jpg', 13,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_14.jpg', 14,
@@ -219,7 +226,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_14.jpg', 14,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_15.jpg', 15,
        NULL,
@@ -227,7 +233,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_15.jpg', 15,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_16.jpg', 16,
@@ -237,7 +242,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_16.jpg', 16,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_17.jpg', 17,
        NULL,
@@ -245,7 +249,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_17.jpg', 17,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_18.jpg', 18,
@@ -255,7 +258,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_18.jpg', 18,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_19.jpg', 19,
        NULL,
@@ -263,7 +265,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_19.jpg', 19,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_20.jpg', 20,
@@ -273,7 +274,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_20.jpg', 20,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_21.jpg', 21,
        NULL,
@@ -281,7 +281,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_21.jpg', 21,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_22.jpg', 22,
@@ -291,7 +290,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_22.jpg', 22,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_23.jpg', 23,
        NULL,
@@ -299,7 +297,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_23.jpg', 23,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_24.jpg', 24,
@@ -309,7 +306,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_24.jpg', 24,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_25.jpg', 25,
        NULL,
@@ -317,7 +313,6 @@ SELECT id, 'foto', 'media/images/198605304/photo_25.jpg', 25,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 198605304;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/198605304/photo_26.jpg', 26,

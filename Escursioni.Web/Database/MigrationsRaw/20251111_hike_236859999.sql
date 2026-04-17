@@ -1,21 +1,37 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   236859999,
   'Monte Cavallo da Rifugio Val Serenaia (Apuane)',
   'Introduzione: Percorso che parte dal Rifugio Val Serenaia (quota circa 1.060 m s.l.m.) situato nel''ominima Val Serenaia, una valle a «U» delle Alpi Apuane nella zona di Minucciano (LU) con meta la cima del Monte Cavallo (quota 1.895 m circa) attraverso un itinerario che presenta tratti escursionistici, brevi arrampicate e alcuni passaggi più esposti. Questo percorso è sicuramente impegnativo. Accesso e avvicinamento: L’avvicinamento iniziale segue il sentiero che conduce dal Rifugio Val Serenaia in direzione del campeggio. Il tratto non è particolarmente tecnico ma è composto da terreno friabile, e rocce umide (che rappresentano l’unica vera difficoltà della prima fase) inoltre è facile perdere il sentiero poiché i segni possono essere poco visibili. Tratto verso la cresta / attacco alla salita finale: Dal cartello posto poco sotto la Cima Nord del Monte Cavallo "Foce di Cardeto" si gira verso nord e si attraversa un delle rocce molto grosse fino a raggiungere un piccolo bosco. Da qui inizia lo sviluppo vero e proprio del tratto critico: -Il tratto pietroso tra il cartello e il bosco è calpestato, diretto, ma richiede attenzione poiché non sempre evidente, se come noi fate tutto all’interno del bosco avete probabilmente preso la variante errata sarebeb stato meglio invece di svoltare a destra per entrare subito in cresta, avete proseguito dritto, rendendo più difficile trovare l’attacco corretto. -La salita fino alla cresta si alterna tra tratti esposti (ma non estremi) e “scalinate” di primo/secondo grado, passaggi su roccia che richiedono buona mobilità, scarpe adeguate, e attenzione per la brina che avete trovato. Vetta e cresta del Monte Cavallo: Arrivando sulla cresta del Monte Cavallo Nord si apre il panorama (anche se nella vostra esperienza avete trovato nebbia). Dal punto più alto, la vista copre buona parte delle Alpi Apuane e in giornate limpide è notevole. Discesa e rientro: Dal Monte Cavallo Nord si scende verso la “seconda gobba” (vetta intermedia) e poi la “terza gobba”. I tratti di discesa richiedono cura: terreno scivoloso, sassi mobili, possibili rocce con brina o sottile ghiaccio. In un tratto avete incontrato un cavo d’acciaio, utile punto di riferimento: da lì dirigersi in cresta, non restare troppo “bassi” lungo il versante. Si prosegue verso Monte Cavallo Sud, si tocca la quarta gobba, dalla quale non è possibile scendere in verticale: è necessario tornare indietro fino al collegamento col sentiero principale. Il ritorno procede fino alla Forcella di Porta (e la sua grotta), poi al bivacco a Aronte, al Passo della Focolaccia, alla strada di cava, quindi di nuovo al sentiero di cava, fino a ricongiungersi al punto di partenza. Il ritorno è lungo e in discesa: l’avvicinamento all’inizio e l’uscita alla fine risultano meno “interessanti”, più monotoni e con dislivello anche nella parte finale, richiedendo buona concentrazione nonostante la fatica. Note tecniche e suggerimenti: Calzature da montagna con buona aderenza consigliate, poiché trovate brina e umidità. Evitare il percorso in giornate con pioggia recente o nebbia persistente: la traccia può divetare complicata da seguire. Mappa/gps consigliati: il tracciato non sempre è chiarissimo nei tratti pietrosi o boscosi. Considerare i passaggi in cresta come “alpinistici leggeri”: non richiedono arrampicata tecnica, ma richiedono attenzione e buon allenamento.',
-  'Introduzione: <br>Percorso che parte dal Rifugio Val Serenaia (quota circa 1.060 m s.l.m.) situato nel''ominima Val Serenaia, una valle a «U» delle Alpi Apuane nella zona di Minucciano (LU) con meta la cima del Monte Cavallo (quota 1.895 m circa) attraverso un itinerario che presenta tratti escursionistici, brevi arrampicate e alcuni passaggi più esposti. <br>Questo percorso è sicuramente impegnativo. <br> <br>Accesso e avvicinamento: <br>L’avvicinamento iniziale segue il sentiero che conduce dal Rifugio Val Serenaia in direzione del campeggio. Il tratto non è particolarmente tecnico ma è composto da terreno friabile, e rocce umide (che rappresentano l’unica vera difficoltà della prima fase) inoltre è facile perdere il sentiero poiché i segni possono essere poco visibili. <br> <br>Tratto verso la cresta / attacco alla salita finale: <br>Dal cartello posto poco sotto la Cima Nord del Monte Cavallo "Foce di Cardeto" si gira verso nord e si attraversa un delle rocce molto grosse fino a raggiungere un piccolo bosco. Da qui inizia lo sviluppo vero e proprio del tratto critico: <br> <br>-Il tratto pietroso tra il cartello e il bosco è calpestato, diretto, ma richiede attenzione poiché non sempre evidente, se come noi fate tutto all’interno del bosco avete probabilmente preso la variante errata sarebeb stato meglio invece di svoltare a destra per entrare subito in cresta, avete proseguito dritto, rendendo più difficile trovare l’attacco corretto. <br> <br>-La salita fino alla cresta si alterna tra tratti esposti (ma non estremi) e “scalinate” di primo/secondo grado, passaggi su roccia che richiedono buona mobilità, scarpe adeguate, e attenzione per la brina che avete trovato. <br> <br>Vetta e cresta del Monte Cavallo: <br>Arrivando sulla cresta del Monte Cavallo Nord si apre il panorama (anche se nella vostra esperienza avete trovato nebbia). Dal punto più alto, la vista copre buona parte delle Alpi Apuane e in giornate limpide è notevole. <br> <br>Discesa e rientro: <br>Dal Monte Cavallo Nord si scende verso la “seconda gobba” (vetta intermedia) e poi la “terza gobba”. I tratti di discesa richiedono cura: terreno scivoloso, sassi mobili, possibili rocce con brina o sottile ghiaccio. <br> <br>In un tratto avete incontrato un cavo d’acciaio, utile punto di riferimento: da lì dirigersi in cresta, non restare troppo “bassi” lungo il versante. <br> <br>Si prosegue verso Monte Cavallo Sud, si tocca la quarta gobba, dalla quale non è possibile scendere in verticale: è necessario tornare indietro fino al collegamento col sentiero principale. <br> <br>Il ritorno procede fino alla Forcella di Porta (e la sua grotta), poi al bivacco a Aronte, al Passo della Focolaccia, alla strada di cava, quindi di nuovo al sentiero di cava, fino a ricongiungersi al punto di partenza. <br> <br>Il ritorno è lungo e in discesa: l’avvicinamento all’inizio e l’uscita alla fine risultano meno “interessanti”, più monotoni e con dislivello anche nella parte finale, richiedendo buona concentrazione nonostante la fatica. <br> <br>Note tecniche e suggerimenti: <br>Calzature da montagna con buona aderenza consigliate, poiché trovate brina e umidità. <br>Evitare il percorso in giornate con pioggia recente o nebbia persistente: la traccia può divetare complicata da seguire. <br>Mappa/gps consigliati: il tracciato non sempre è chiarissimo nei tratti pietrosi o boscosi. <br> <br> <br>Considerare i passaggi in cresta come “alpinistici leggeri”: non richiedono arrampicata tecnica, ma richiedono attenzione e buon allenamento.',
+  '<h2>Monte Cavallo da Rifugio Val Serenaia (Apuane): Trekking Impegnativo in Montagna</h2>
+
+<h3>Il Percorso</h3>
+<p>Preparatevi per un’escursione indimenticabile sul <strong>Monte Cavallo</strong>, una meta ambita per gli amanti del <strong>trekking</strong> e dell’alpinismo leggero. Questo percorso, che parte dal <strong>Rifugio Val Serenaia</strong> (1.060 m s.l.m.) nella splendida <strong>Val Serenaia</strong>, è un vero e proprio banco di prova per chi desidera vivere appieno la bellezza delle <strong>Alpi Apuane</strong>. L''itinerario, che si snoda attraverso il cuore della montagna, offre una combinazione di tratti escursionistici, brevi arrampicate e passaggi esposti, garantendo un''esperienza di <strong>trekking</strong> impegnativa e gratificante. Scoprite la bellezza di questo <strong>sentiero</strong>, perfetto per gli <strong>escursionisti</strong> esperti e per chi cerca una <strong>gita in montagna</strong> avvincente.</p>
+<p>Il sentiero inizia con un approccio dal Rifugio Val Serenaia, un tratto non particolarmente tecnico ma che richiede attenzione a causa del terreno friabile e delle rocce umide. Seguire attentamente i segnali di sentiero, che a volte possono essere poco visibili, per evitare di perdere l''itinerario. Questo <strong>sentiero di trekking</strong> vi condurrà attraverso boschi e roccione, offrendovi viste mozzafiato sulle <strong>Alpi Apuane</strong>.</p>
+
+<h3>Cosa Aspettarsi</h3>
+<ul>
+  <li>Tratti escursionistici impegnativi</li>
+  <li>Brevi arrampicate (livello 1/2)</li>
+  <li>Passaggi esposti che richiedono attenzione</li>
+  <li>Viste panoramiche spettacolari sulle <strong>Alpi Apuane</strong></li>
+  <li>Possibilità di incontrare brina e umidità, quindi adeguarsi all''abbigliamento</li>
+</ul>
+<p>Questo <strong>sentiero di montagna</strong> è un''ottima opportunità per chi cerca una <strong>gita in montagna</strong> in <strong>Italia</strong>, mettendo alla prova la propria resistenza e abilità. Ricordatevi di preparare adeguatamente la vostra attrezzatura da <strong>trekking</strong> per affrontare al meglio questo percorso.</p>
+
+<h3>Informazioni Utili</h3>
+<ul>
+  <li><strong>Difficoltà:</strong> Impegnativo</li>
+  <li><strong>Distanza:</strong> Circa 16 km (andata e ritorno)</li>
+  <li><strong>Dislivello:</strong> Circa 835 m</li>
+  <li><strong>Punto di partenza:</strong> Rifugio Val Serenaia (1.060 m s.l.m.)</li>
+  <li><strong>Punto di arrivo:</strong> Cima del Monte Cavallo (1.895 m circa)</li>
+</ul>
+<p>La cima del <strong>Monte Cavallo</strong> vi regala una vista spettacolare sulle <strong>Alpi Apuane</strong>, un panorama da non perdere. Questo <strong>sentiero escursionistico</strong> è ideale per chi cerca una <strong>gita in montagna</strong> di lunga durata, ma richiede una buona preparazione fisica e mentale. Considerate i passaggi in cresta come “alpinistici leggeri”, non richiedono arrampicata tecnica, ma richiedono attenzione e buon allenamento. Ricordatevi di controllare le previsioni meteo prima di partire e di informarsi sulle condizioni del <strong>sentiero</strong>.</p>',
   'Tutte le Attività e Paesi',
   9.74,
   972,
@@ -42,7 +58,10 @@ VALUES (
   10.197986,
   'POINT(10.197986 44.133731)',
   '2bc5f6a4894a469c03f6092fbd4707708451bbfbf3193960ba148cf7d6b9b45a',
-  NOW(), NOW()
+  'Escursione Monte Cavallo Apuane: sfida con sentieri, roccia e panorami mozzafiato! Percorso impegnativo (1895m) da Rifugio Val Serenaia.',
+  'Trekking Monte Cavallo Apuane: Sentiero Rifugio Serenaia',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +93,8 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +114,6 @@ SELECT id, 'cover', 'media/images/236859999/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_01.jpg', 1,
        NULL,
@@ -101,7 +121,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_02.jpg', 2,
@@ -111,7 +130,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_03.jpg', 3,
        NULL,
@@ -119,7 +137,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_04.jpg', 4,
@@ -129,7 +146,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_05.jpg', 5,
        NULL,
@@ -137,7 +153,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_06.jpg', 6,
@@ -147,7 +162,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_07.jpg', 7,
        NULL,
@@ -155,7 +169,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_08.jpg', 8,
@@ -165,7 +178,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_09.jpg', 9,
        NULL,
@@ -173,7 +185,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_10.jpg', 10,
@@ -183,7 +194,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_11.jpg', 11,
        NULL,
@@ -191,7 +201,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_11.jpg', 11,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_12.jpg', 12,
@@ -201,7 +210,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_12.jpg', 12,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_13.jpg', 13,
        NULL,
@@ -209,7 +217,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_13.jpg', 13,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_14.jpg', 14,
@@ -219,7 +226,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_14.jpg', 14,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_15.jpg', 15,
        NULL,
@@ -227,7 +233,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_15.jpg', 15,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_16.jpg', 16,
@@ -237,7 +242,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_16.jpg', 16,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_17.jpg', 17,
        NULL,
@@ -245,7 +249,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_17.jpg', 17,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_18.jpg', 18,
@@ -255,7 +258,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_18.jpg', 18,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_19.jpg', 19,
        NULL,
@@ -263,7 +265,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_19.jpg', 19,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_20.jpg', 20,
@@ -273,7 +274,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_20.jpg', 20,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_21.jpg', 21,
        NULL,
@@ -281,7 +281,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_21.jpg', 21,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_22.jpg', 22,
@@ -291,7 +290,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_22.jpg', 22,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_23.jpg', 23,
        NULL,
@@ -299,7 +297,6 @@ SELECT id, 'foto', 'media/images/236859999/photo_23.jpg', 23,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 236859999;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/236859999/photo_24.jpg', 24,

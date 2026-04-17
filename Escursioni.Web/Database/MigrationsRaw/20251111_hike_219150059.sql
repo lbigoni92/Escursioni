@@ -1,21 +1,39 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   219150059,
   'La via delle erbe ~ Massaciuccoli – Tempio Hinduista, fiori di loto, lavanda, alpaca e Manipura',
   'Bellissimo percorso ad anello con partenza e arrivo presso il campo sportivo di Massaciuccoli (LU), ideale per una camminata culturale, naturalistica e rilassante. L’itinerario tocca diverse attrazioni della zona, facilmente accessibili e tutte collegate da sentieri semplici, adatti a tutti. Dal campo sportivo ci siamo diretti verso il Tempio Hinduista: un luogo unico e suggestivo, con ninfee, laghetti, statue in stile giapponese e numerosi pesci e animali acquatici. Dopo la visita, siamo passati a un vicino agriturismo hinduista, dove abbiamo trovato un altro piccolo tempio, statue del Buddha e animali ben curati. Proseguendo su un sentiero pianeggiante ci siamo avvicinati alla stazione di Migliarino, passando accanto all’allevamento di alpaca. All’andata non li abbiamo visti (era l’ora più calda della giornata), ma al ritorno li abbiamo trovati all’ombra, tranquilli e docili. A pochi passi si trova un’area con una coltivazione di fiori di loto, che consiglio vivamente di visitare nel periodo di piena fioritura (fino circa al 20 giugno). Il lago artificiale ospita anche gamberi rossi, ranocchie e altri piccoli animali. Il proprietario ci ha raccontato curiosità sul fiore di loto, che è completamente edibile e impiegato anche per ricavare tessuti e oggetti artigianali. La camminata ci ha portati poi a un circolo di pescatori, dove abbiamo pranzato (anche se quest’anno ci è stato chiesto un contributo di 5€ a persona). Dopo pranzo abbiamo raggiunto il campo di lavanda: accesso gratuito, ambiente profumatissimo e possibilità di acquistare prodotti locali. I proprietari sono molto cordiali e in estate organizzano anche eventi serali. Ultima tappa dell’escursione l’agriturismo Manipura, dove abbiamo potuto assaggiare miele e birra all’eucalipto — una vera sorpresa! Ottimi anche i dolci fatti in casa. Siamo rientrati alle auto nel primo pomeriggio, sotto il sole. Consigliamo cappello, crema solare e almeno una borraccia d’acqua, anche se non mancano fontane lungo il tragitto. Il percorso è tutto su sentieri semplici o sterrati facilmente percorribili, e chi preferisce può raggiungere le varie tappe anche in auto, grazie alla buona disponibilità di parcheggi. Durata totale: 5 ore con lunghe soste (stimabili 2h30'' senza soste) Difficoltà: Facile Lunghezza: ~10 km (Dislivello: trascurabile) Consigliato per: famiglie, escursionisti occasionali, appassionati di natura e cultura Periodo consigliato: giugno, durante la fioritura dei fiori di loto Note: evitare le ore più calde se non siete abituati a camminare sotto il sole',
-  'Bellissimo percorso ad anello con partenza e arrivo presso il campo sportivo di Massaciuccoli (LU), ideale per una camminata culturale, naturalistica e rilassante. L’itinerario tocca diverse attrazioni della zona, facilmente accessibili e tutte collegate da sentieri semplici, adatti a tutti. <br> <br>Dal campo sportivo ci siamo diretti verso il Tempio Hinduista: un luogo unico e suggestivo, con ninfee, laghetti, statue in stile giapponese e numerosi pesci e animali acquatici. Dopo la visita, siamo passati a un vicino agriturismo hinduista, dove abbiamo trovato un altro piccolo tempio, statue del Buddha e animali ben curati. <br> <br>Proseguendo su un sentiero pianeggiante ci siamo avvicinati alla stazione di Migliarino, passando accanto all’allevamento di alpaca. All’andata non li abbiamo visti (era l’ora più calda della giornata), ma al ritorno li abbiamo trovati all’ombra, tranquilli e docili. <br> <br>A pochi passi si trova un’area con una coltivazione di fiori di loto, che consiglio vivamente di visitare nel periodo di piena fioritura (fino circa al 20 giugno). Il lago artificiale ospita anche gamberi rossi, ranocchie e altri piccoli animali. Il proprietario ci ha raccontato curiosità sul fiore di loto, che è completamente edibile e impiegato anche per ricavare tessuti e oggetti artigianali. <br> <br>La camminata ci ha portati poi a un circolo di pescatori, dove abbiamo pranzato (anche se quest’anno ci è stato chiesto un contributo di 5€ a persona). Dopo pranzo abbiamo raggiunto il campo di lavanda: accesso gratuito, ambiente profumatissimo e possibilità di acquistare prodotti locali. I proprietari sono molto cordiali e in estate organizzano anche eventi serali. <br> <br>Ultima tappa dell’escursione l’agriturismo Manipura, dove abbiamo potuto assaggiare miele e birra all’eucalipto — una vera sorpresa! Ottimi anche i dolci fatti in casa. <br> <br>Siamo rientrati alle auto nel primo pomeriggio, sotto il sole. Consigliamo cappello, crema solare e almeno una borraccia d’acqua, anche se non mancano fontane lungo il tragitto. Il percorso è tutto su sentieri semplici o sterrati facilmente percorribili, e chi preferisce può raggiungere le varie tappe anche in auto, grazie alla buona disponibilità di parcheggi. <br> <br>Durata totale: 5 ore con lunghe soste (stimabili 2h30'' senza soste) <br>Difficoltà: Facile <br>Lunghezza: ~10 km (Dislivello: trascurabile) <br>Consigliato per: famiglie, escursionisti occasionali, appassionati di natura e cultura <br>Periodo consigliato: giugno, durante la fioritura dei fiori di loto <br>Note: evitare le ore più calde se non siete abituati a camminare sotto il sole',
+  '<h2>La via delle erbe ~ Massaciuccoli – Tempio Hinduista, fiori di loto, lavanda, alpaca e Manipura</h2>
+
+<h3>Il percorso</h3>
+<p>
+    Questo splendido <strong>sentiero di trekking</strong> a <strong>Massaciuccoli</strong>, in Lucchesia, offre un’esperienza unica per gli <strong>escursionisti</strong> alla ricerca di una <strong>camminata culturale</strong>, <strong>naturalistica</strong> e <strong>rilassante</strong>. L''itinerario ad anello, di circa 10 km, è perfetto per <strong>trekking</strong> in famiglia e per chi pratica <strong>escursioni</strong> occasionali, con un <em>dislivello trascurabile</em>, rendendolo accessibile anche ai principianti. Il percorso si snoda attraverso paesaggi mozzafiato, passando per un <strong>tempio hinduista</strong>, campi di lavanda, un <em>allevamento di alpaca</em> e aree dedicate alla coltivazione di <strong>fiori di loto</strong>.
+</p>
+
+<h3>Cosa aspettarsi</h3>
+<ul>
+    <li>Un’escursione immersa nella natura e nella cultura della Toscana</li>
+    <li>La possibilità di visitare un <strong>tempio hinduista</strong> con ninfee, pesci e animali acquatici</li>
+    <li>Un <em>incontro con le alpaca</em> e la possibilità di ammirare il loro comportamento</li>
+    <li>La visita di un <strong>campo di fiori di loto</strong>, particolarmente suggestivo durante la fioritura (fino al 20 giugno)</li>
+    <li>Un’esperienza aromatica nel <strong>campo di lavanda</strong>, con la possibilità di acquistare prodotti locali</li>
+    <li>Una degustazione di <strong>miele</strong> e <strong>birra all’eucalipto</strong> presso l''agriturismo Manipura</li>
+</ul>
+
+<h3>Informazioni utili</h3>
+<p>
+    La <strong>durata totale</strong> dell’escursione è di circa 5 ore, con soste, ma può essere ridotta a 2h30'' senza soste. La <strong>difficoltà</strong> è <strong>facile</strong>, adatta a <strong>famiglie</strong>, <strong>escursionisti occasionali</strong> e <strong>appassionati di natura</strong> e <strong>cultura</strong>. Il percorso è ideale da affrontare nel periodo di <strong>giugno</strong>, durante la <strong>fioritura dei fiori di loto</strong>. Si consiglia di indossare <strong>cappello</strong>, <strong>crema solare</strong> e di portare almeno una <strong>borraccia d’acqua</strong>, soprattutto durante le ore più calde. Il sentiero è costituito da <strong>sentieri semplici</strong> o sterrati, facilmente percorribili, e sono disponibili parcheggi nelle diverse tappe. <em>Contributo di 5€ richiesto al pranzo presso il circolo di pescatori.</em>
+</p>
+<p>
+    <strong>Periodo consigliato:</strong> Giugno - Luglio. <strong>Consigliato per:</strong> famiglie, escursionisti occasionali, appassionati di natura e cultura. <strong>Lunghezza:</strong> ~10 km. <strong>Difficoltà:</strong> Facile.
+</p>
+<p>
+    <strong>Note:</strong> Evitare le ore più calde se non siete abituati a camminare sotto il sole. Portare con sé un cappello, crema solare e acqua.
+</p>',
   'Tutte le Attività e Paesi',
   13.34,
   7,
@@ -42,7 +60,10 @@ VALUES (
   10.354048,
   'POINT(10.354048 43.848617)',
   'fee331bc180637249b5d606dbecda336710d505caa75bf80f3dc3a1525733927',
-  NOW(), NOW()
+  'Escursione Massaciuccoli: Tempio Hinduista, fiori di loto, alpaca e natura! Percorso facile e panoramico di 10km con agriturismi e panorami mozzafiato.',
+  'Trekking Massaciuccoli: Via Erbe, Tempio Hinduista & Natura',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +95,8 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +116,6 @@ SELECT id, 'cover', 'media/images/219150059/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_01.jpg', 1,
        NULL,
@@ -101,7 +123,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_02.jpg', 2,
@@ -111,7 +132,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_03.jpg', 3,
        NULL,
@@ -119,7 +139,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_04.jpg', 4,
@@ -129,7 +148,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_05.jpg', 5,
        NULL,
@@ -137,7 +155,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_06.jpg', 6,
@@ -147,7 +164,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_07.jpg', 7,
        NULL,
@@ -155,7 +171,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_08.jpg', 8,
@@ -165,7 +180,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_09.jpg', 9,
        NULL,
@@ -173,7 +187,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_10.jpg', 10,
@@ -183,7 +196,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_11.jpg', 11,
        NULL,
@@ -191,7 +203,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_11.jpg', 11,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_12.jpg', 12,
@@ -201,7 +212,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_12.jpg', 12,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_13.jpg', 13,
        NULL,
@@ -209,7 +219,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_13.jpg', 13,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_14.jpg', 14,
@@ -219,7 +228,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_14.jpg', 14,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_15.jpg', 15,
        NULL,
@@ -227,7 +235,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_15.jpg', 15,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_16.jpg', 16,
@@ -237,7 +244,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_16.jpg', 16,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_17.jpg', 17,
        NULL,
@@ -246,7 +252,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_17.jpg', 17,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_18.jpg', 18,
        NULL,
@@ -254,7 +259,6 @@ SELECT id, 'foto', 'media/images/219150059/photo_18.jpg', 18,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 219150059;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/219150059/photo_19.jpg', 19,

@@ -22,7 +22,7 @@
         {
             <span style="font-size:1.1rem;color:#ccc;">◀</span>
         }
-        <strong style="font-size:1rem;">@_title</strong>
+        <strong style="font-size:1rem;min-width:220px;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center;display:inline-block;">@_title</strong>
         @if (_nextFile != null)
         {
             <a href="/edit/@Uri.EscapeDataString(_nextFile)" style="text-decoration:none;font-size:1.1rem;color:#007bff;" title="@_nextFile">▶</a>
@@ -77,6 +77,34 @@
                               placeholder="~160 car. per motori di ricerca"
                               value="@GetVal(colMeta)"
                               @onchange="(e => SetValue(colMeta, e.Value?.ToString()))">@GetVal(colMeta)</textarea>
+                </fieldset>
+
+                @* Titolo SEO *@
+                @{ var colTitoloSeo = "titolo_seo"; }
+                <fieldset style="border:2px solid #17a2b8;border-radius:4px;padding:0.3rem 0.5rem;margin-bottom:0.4rem;">
+                    <legend style="color:#17a2b8;font-weight:bold;font-size:0.75rem;padding:0 0.2rem;display:flex;align-items:center;gap:0.4rem;">
+                        SEO – Titolo
+                        <button @onclick="GenerateSeoTitle" disabled="@_seoTitleLoading"
+                                style="padding:1px 8px;background:#17a2b8;color:#fff;border:none;border-radius:3px;cursor:pointer;font-size:0.7rem;font-weight:600;"
+                                title="Genera titolo SEO con AI">
+                            @if (_seoTitleLoading)
+                            {
+                                <span>⏳ Generazione…</span>
+                            }
+                            else
+                            {
+                                <span>✨ Genera con AI</span>
+                            }
+                        </button>
+                        @if (!string.IsNullOrEmpty(_seoTitleError))
+                        {
+                            <span style="color:red;font-size:0.65rem;font-weight:normal;">@_seoTitleError</span>
+                        }
+                    </legend>
+                    <input type="text" style="width:100%;padding:2px 4px;border:1px solid #ccc;border-radius:2px;font-size:0.8rem;"
+                           maxlength="65" placeholder="~60-65 car. titolo ottimizzato per Google"
+                           value="@GetVal(colTitoloSeo)"
+                           @onchange="(e => SetValue(colTitoloSeo, e.Value?.ToString()))" />
                 </fieldset>
 
                 @* Info generali + Dati tecnici side by side *@
@@ -413,6 +441,8 @@
     private string? _nextFile;
     private bool _metaLoading;
     private string? _metaError;
+    private bool _seoTitleLoading;
+    private string? _seoTitleError;
     private bool _htmlLoading;
     private string? _htmlError;
     private bool _isDictating;
@@ -509,6 +539,35 @@
         UpdatePreview();
         var photoFileName = Path.GetFileName(photo.GetValueOrDefault("path_relativo") ?? "");
         _message = $"Cover impostata: {photoFileName}";
+    }
+
+    private async Task GenerateSeoTitle()
+    {
+        if (_mf == null) return;
+        _seoTitleLoading = true;
+        _seoTitleError = null;
+        StateHasChanged();
+        try
+        {
+            var titolo = GetVal("titolo");
+            var descrizione = GetVal("descrizione");
+            if (string.IsNullOrWhiteSpace(titolo) && string.IsNullOrWhiteSpace(descrizione))
+            {
+                _seoTitleError = "Compila titolo o descrizione prima di generare.";
+                return;
+            }
+            var result = await MetaGen.GenerateSeoTitleAsync(titolo, descrizione);
+            SetValue("titolo_seo", result);
+        }
+        catch (Exception ex)
+        {
+            _seoTitleError = $"Errore: {ex.Message}";
+        }
+        finally
+        {
+            _seoTitleLoading = false;
+            StateHasChanged();
+        }
     }
 
     private async Task GenerateMetaDescription()

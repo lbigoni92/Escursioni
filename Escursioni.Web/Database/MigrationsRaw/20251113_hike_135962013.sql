@@ -1,15 +1,7 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
 )
 VALUES (
   135962013,
@@ -42,7 +34,9 @@ VALUES (
   10.3778,
   'POINT(10.3778 43.8856)',
   'b8a4a8056c6275611e3980d6f432013d5e1b86716dc1e767be47f7ffd61514b4',
-  NOW(), NOW()
+  'Esplora Fibialla: Geocaching divertente per famiglie! Percorso facile e gratuito tra mulini abbandonati e ruscellletti. Trova le geocache!',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +68,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +88,6 @@ SELECT id, 'cover', 'media/images/135962013/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 135962013;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/135962013/photo_01.jpg', 1,
        NULL,
@@ -101,7 +95,6 @@ SELECT id, 'foto', 'media/images/135962013/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 135962013;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/135962013/photo_02.jpg', 2,
@@ -111,7 +104,6 @@ SELECT id, 'foto', 'media/images/135962013/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 135962013;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/135962013/photo_03.jpg', 3,
        NULL,
@@ -120,7 +112,6 @@ SELECT id, 'foto', 'media/images/135962013/photo_03.jpg', 3,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 135962013;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/135962013/photo_04.jpg', 4,
        NULL,
@@ -128,7 +119,6 @@ SELECT id, 'foto', 'media/images/135962013/photo_04.jpg', 4,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 135962013;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/135962013/photo_05.jpg', 5,

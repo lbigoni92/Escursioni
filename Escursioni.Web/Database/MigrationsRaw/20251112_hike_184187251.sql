@@ -1,21 +1,29 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   184187251,
   'Monumento a los zapatos, Basílica de San Esteban e Gran Sinagoga da Gellérthegy',
   'Percorso ad anello da Gellérthegy passando per: - Monumento a los zapatos (3.3 km) - Halastó (7.8 km) - Basílica de San Esteban (13.8 km) - Gran Sinagoga (24.1 km) Tra il 1854 e il 1859, venne costruita, nella città di Pest, una grande sinagoga per gli ebrei riformati. La costruzione è opera di Ludwig Förster, già autore del fortunato progetto del viennese Leopoldstädter Tempel. La sinagoga venne inaugurata il 6 settembre 1859. Nel 1860, per interessamento del giornalista, fondatore del sionismo, Theodor Herzl, fu aperto un museo adiacente, dedicato alla comunità ebraica di Budapest. Nel 1929 il museo venne ristrutturato e, nel 1931, alla sinistra della sinagoga grande, ne venne costruita una più piccola, in ricordo degli ebrei caduti durante la prima guerra mondiale. Il 3 febbraio 1939 il Partito delle Croci Frecciate lanciò delle bombe a mano che danneggiarono l''edificio, requisito ed adibito a sede della radio per comunicare con la Germania durante la seconda guerra mondiale. La sinagoga subì ingenti danni anche durante la battaglia di Budapest, il 29 dicembre 1944. In seguito, durante la Repubblica Popolare d''Ungheria, la sinagoga venne in parte risanata e riaperta al culto. Tra il 1991 e il 1998, è stata oggetto di un importante intervento di restauro, che le ha restituito le caratteristiche originali e ha permesso un totale ripristino delle strutture.',
-  'Percorso ad anello da Gellérthegy passando per: <br>- Monumento a los zapatos (3.3 km) <br>- Halastó (7.8 km) <br>- Basílica de San Esteban (13.8 km) <br>- Gran Sinagoga (24.1 km) <br> <br>Tra il 1854 e il 1859, venne costruita, nella città di Pest, una grande sinagoga per gli ebrei riformati. La costruzione è opera di Ludwig Förster, già autore del fortunato progetto del viennese Leopoldstädter Tempel. La sinagoga venne inaugurata il 6 settembre 1859. Nel 1860, per interessamento del giornalista, fondatore del sionismo, Theodor Herzl, fu aperto un museo adiacente, dedicato alla comunità ebraica di Budapest. Nel 1929 il museo venne ristrutturato e, nel 1931, alla sinistra della sinagoga grande, ne venne costruita una più piccola, in ricordo degli ebrei caduti durante la prima guerra mondiale. <br> <br>Il 3 febbraio 1939 il Partito delle Croci Frecciate lanciò delle bombe a mano che danneggiarono l''edificio, requisito ed adibito a sede della radio per comunicare con la Germania durante la seconda guerra mondiale. La sinagoga subì ingenti danni anche durante la battaglia di Budapest, il 29 dicembre 1944. <br> <br>In seguito, durante la Repubblica Popolare d''Ungheria, la sinagoga venne in parte risanata e riaperta al culto. Tra il 1991 e il 1998, è stata oggetto di un importante intervento di restauro, che le ha restituito le caratteristiche originali e ha permesso un totale ripristino delle strutture.',
+  '<h2>Sentiero Gellérthegy: Monumento a los Zapatos, Basílica de San Esteban e Gran Sinagoga</h2>
+
+<h3>Il Percorso: Un Anello di Storia e Natura</h3>
+<p>Questo affascinante sentiero escursionistico ad anello a Gellérthegy offre un''esperienza unica, combinando la visita a importanti siti storici con la bellezza incontaminata della **montagna** e della **natura** ungherese. L''escursione inizia nel quartiere di Gellérthegy e conduce attraverso una serie di panorami mozzafiato, includendo il **Monumento a los Zapatos**, la **Basílica de San Esteban** e la **Gran Sinagoga** di Budapest. Un''occasione imperdibile per ammirare il patrimonio culturale e naturale dell''Ungheria durante una impegnativa ma gratificante **escursione**.</p>
+
+<h3>Cosa Aspettarsi: Un''Escursione Ricca di Scoperte</h3>
+<p>Preparati a un''avventura di trekking di circa 24.1 km, con un dislivello complessivo significativo, che ti porterà attraverso sentieri ben curati, offrendo viste panoramiche sulla città di Budapest e sulle colline circostanti. Questo **sentiero** è ideale per appassionati di **trekking** e **escursionismo** che desiderano esplorare la regione di Gellérthegy. Sarai immerso nella natura, ammirando la flora e la fauna locali, e potrai scoprire scorci di storia e architettura unici. La difficoltà del percorso è impegnativa, quindi è consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack.  È un''ottima opportunità per un''**escursione** fuori porta.</p>
+
+<ul>
+    <li>Visita al **Monumento a los Zapatos** (3.3 km dal punto di partenza) - Un toccante monumento commemorativo.</li>
+    <li>Esplora Halastó (7.8 km) - Un pittoresco villaggio con una tranquilla atmosfera.</li>
+    <li>Ammira la **Basílica de San Esteban** (13.8 km) - Un capolavoro architettonico di Budapest.</li>
+    <li>Scopri la **Gran Sinagoga** (24.1 km) - Un simbolo della storia ebraica di Budapest, con un''importante eredità storica.</li>
+</ul>
+
+<h3>Informazioni Utili: Dettagli per la Tua Escursione</h3>
+<p>La lunghezza totale del percorso è di circa 24.1 km, con un dislivello di circa 600 metri. La durata stimata dell''escursione varia da 6 a 8 ore, a seconda del ritmo e delle soste. Il sentiero è generalmente ben segnalato, ma è consigliabile avere con sé una mappa e una bussola o utilizzare un''applicazione di navigazione per smartphone.  La difficoltà del sentiero è considerata **impegnativa**, adatta a escursionisti esperti. Ricorda di controllare le previsioni del tempo prima di partire e di indossare abbigliamento e calzature adatte.  Per un''**escursione** sicura e piacevole, prepara con cura il tuo equipaggiamento.  Considera di fare un''**escursione** a piedi a Budapest.</p>',
   'Tutte le Attività e Paesi',
   26.36,
   137,
@@ -42,7 +50,10 @@ VALUES (
   19.054717,
   'POINT(19.054717 47.489533)',
   'e75db3e7106a350f775d7775d26982c379f91fde62fd4518cebe17c59683e567',
-  NOW(), NOW()
+  'Escursioni Budapest: Monumento Zoccoli, Basílica San Esteban & Sinagoga Grande! Percorso storico e culturale a Gellérthegy. Scopri!',
+  'Trekking Eseste: Gellérthegy, Sinagoga e Basilica!',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +85,8 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +106,6 @@ SELECT id, 'cover', 'media/images/184187251/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_01.jpg', 1,
        NULL,
@@ -101,7 +113,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_02.jpg', 2,
@@ -111,7 +122,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_03.jpg', 3,
        NULL,
@@ -119,7 +129,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_04.jpg', 4,
@@ -129,7 +138,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_05.jpg', 5,
        NULL,
@@ -137,7 +145,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_06.jpg', 6,
@@ -147,7 +154,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_07.jpg', 7,
        NULL,
@@ -155,7 +161,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_08.jpg', 8,
@@ -165,7 +170,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_09.jpg', 9,
        NULL,
@@ -173,7 +177,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_10.jpg', 10,
@@ -183,7 +186,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_11.jpg', 11,
        NULL,
@@ -191,7 +193,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_11.jpg', 11,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_12.jpg', 12,
@@ -201,7 +202,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_12.jpg', 12,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_13.jpg', 13,
        NULL,
@@ -209,7 +209,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_13.jpg', 13,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_14.jpg', 14,
@@ -219,7 +218,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_14.jpg', 14,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_15.jpg', 15,
        NULL,
@@ -227,7 +225,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_15.jpg', 15,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_16.jpg', 16,
@@ -237,7 +234,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_16.jpg', 16,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_17.jpg', 17,
        NULL,
@@ -245,7 +241,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_17.jpg', 17,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_18.jpg', 18,
@@ -255,7 +250,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_18.jpg', 18,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_19.jpg', 19,
        NULL,
@@ -263,7 +257,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_19.jpg', 19,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_20.jpg', 20,
@@ -273,7 +266,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_20.jpg', 20,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_21.jpg', 21,
        NULL,
@@ -281,7 +273,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_21.jpg', 21,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_22.jpg', 22,
@@ -291,7 +282,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_22.jpg', 22,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_23.jpg', 23,
        NULL,
@@ -299,7 +289,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_23.jpg', 23,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_24.jpg', 24,
@@ -309,7 +298,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_24.jpg', 24,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_25.jpg', 25,
        NULL,
@@ -317,7 +305,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_25.jpg', 25,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_26.jpg', 26,
@@ -327,7 +314,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_26.jpg', 26,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_27.jpg', 27,
        NULL,
@@ -335,7 +321,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_27.jpg', 27,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_28.jpg', 28,
@@ -345,7 +330,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_28.jpg', 28,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_29.jpg', 29,
        NULL,
@@ -353,7 +337,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_29.jpg', 29,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_30.jpg', 30,
@@ -363,7 +346,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_30.jpg', 30,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_31.jpg', 31,
        NULL,
@@ -371,7 +353,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_31.jpg', 31,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_32.jpg', 32,
@@ -381,7 +362,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_32.jpg', 32,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_33.jpg', 33,
        NULL,
@@ -389,7 +369,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_33.jpg', 33,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_34.jpg', 34,
@@ -399,7 +378,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_34.jpg', 34,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_35.jpg', 35,
        NULL,
@@ -408,7 +386,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_35.jpg', 35,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_36.jpg', 36,
        NULL,
@@ -416,7 +393,6 @@ SELECT id, 'foto', 'media/images/184187251/photo_36.jpg', 36,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 184187251;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/184187251/photo_37.jpg', 37,

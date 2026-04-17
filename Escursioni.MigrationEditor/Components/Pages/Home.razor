@@ -1,6 +1,8 @@
 ﻿@page "/"
 @using Escursioni.MigrationEditor.Services
 @inject MigrationParserService Parser
+@inject BulkGenerationService BulkService
+@implements IDisposable
 @rendermode InteractiveServer
 
 <PageTitle>Migration Editor</PageTitle>
@@ -8,18 +10,41 @@
 <h1>Migration Editor</h1>
 <p>Totale migrazioni: <strong>@_migrations.Count</strong></p>
 
-<div style="margin-bottom:1rem;">
+<div style="margin-bottom:1rem;display:flex;align-items:center;gap:1rem;">
     <input type="text" @bind="_filter" @bind:event="oninput" placeholder="Filtra per nome file..." style="padding:6px;width:400px;" />
+    <button @onclick="StartGeneration" disabled="@BulkService.IsRunning"
+            style="padding:6px 16px;background:#6f42c1;color:#fff;border:none;border-radius:4px;cursor:pointer;font-weight:600;font-size:0.85rem;white-space:nowrap;">
+        @if (BulkService.IsRunning)
+        {
+            var pct = BulkService.Total > 0 ? (int)((BulkService.Current - 1) * 100.0 / BulkService.Total + StepProgress()) : 0;
+            <span>⏳ @BulkService.Current/@BulkService.Total (@pct%) — @FormatCurrentStep()</span>
+        }
+        else if (!string.IsNullOrEmpty(BulkService.Message))
+        {
+            <span>✨ @BulkService.Message</span>
+        }
+        else
+        {
+            <span>✨ Genera Descrizione Html e Meta Desc.</span>
+        }
+    </button>
+    @if (!string.IsNullOrEmpty(BulkService.Error))
+    {
+        <span style="font-size:0.85rem;color:#721c24;background:#f8d7da;padding:4px 10px;border-radius:4px;">@BulkService.Error</span>
+    }
 </div>
 
 <table style="width:100%;border-collapse:collapse;">
     <thead>
         <tr style="background:#eee;text-align:left;">
             <th style="padding:6px;border:1px solid #ccc;">#</th>
+            <th style="padding:6px;border:1px solid #ccc;">Cover</th>
             <th style="padding:6px;border:1px solid #ccc;">File</th>
             <th style="padding:6px;border:1px solid #ccc;">Titolo</th>
-            <th style="padding:6px;border:1px solid #ccc;">Regione</th>
+            <th style="padding:6px;border:1px solid #ccc;">Titolo SEO</th>
             <th style="padding:6px;border:1px solid #ccc;">Meta Desc.</th>
+            <th style="padding:6px;border:1px solid #ccc;">Desc. HTML</th>
+            <th style="padding:6px;border:1px solid #ccc;">Regione</th>
             <th style="padding:6px;border:1px solid #ccc;">Azioni</th>
         </tr>
     </thead>
@@ -28,14 +53,51 @@
         @foreach (var m in Filtered)
         {
             idx++;
-            var parsed = TryQuickParse(m);
-            <tr>
+            var parsed = _parsedCache.TryGetValue(m.FileName, out var mf) ? mf.HikeValues : TryQuickParse(m);
+            var coverPath = TryGetCoverPath(m);
+            var isCurrentFile = BulkService.CurrentFileName == m.FileName;
+            <tr style="@(isCurrentFile ? "background:#fff8e1;" : "")">
                 <td style="padding:6px;border:1px solid #ccc;">@idx</td>
+                <td style="padding:6px;border:1px solid #ccc;text-align:center;">
+                    @if (!string.IsNullOrEmpty(coverPath))
+                    {
+                        <img src="/@coverPath" alt="cover" loading="lazy"
+                             style="width:60px;height:45px;object-fit:cover;border-radius:3px;" />
+                    }
+                    else
+                    {
+                        <span style="color:#ccc;font-size:0.75rem;">—</span>
+                    }
+                </td>
                 <td style="padding:6px;border:1px solid #ccc;font-family:monospace;font-size:0.85rem;">@m.FileName</td>
                 <td style="padding:6px;border:1px solid #ccc;">@(parsed?.GetValueOrDefault("titolo") ?? "—")</td>
-                <td style="padding:6px;border:1px solid #ccc;">@(parsed?.GetValueOrDefault("regione") ?? "—")</td>
                 <td style="padding:6px;border:1px solid #ccc;">
-                    @{
+                    @if (isCurrentFile && BulkService.CurrentStep == "titolo_seo")
+                    {
+                        <span class="spinner-border spinner-border-sm text-primary" role="status"></span>
+                        <span style="font-size:0.8rem;color:#6f42c1;margin-left:4px;">generando…</span>
+                    }
+                    else
+                    {
+                        var seo = parsed?.GetValueOrDefault("titolo_seo");
+                        if (string.IsNullOrWhiteSpace(seo))
+                        {
+                            <span style="color:#999;">mancante</span>
+                        }
+                        else
+                        {
+                            <span style="color:green;">✓</span>
+                        }
+                    }
+                </td>
+                <td style="padding:6px;border:1px solid #ccc;">
+                    @if (isCurrentFile && BulkService.CurrentStep == "meta_descrizione")
+                    {
+                        <span class="spinner-border spinner-border-sm text-primary" role="status"></span>
+                        <span style="font-size:0.8rem;color:#6f42c1;margin-left:4px;">generando…</span>
+                    }
+                    else
+                    {
                         var meta = parsed?.GetValueOrDefault("meta_descrizione");
                         if (string.IsNullOrWhiteSpace(meta))
                         {
@@ -48,6 +110,26 @@
                     }
                 </td>
                 <td style="padding:6px;border:1px solid #ccc;">
+                    @if (isCurrentFile && (BulkService.CurrentStep == "titolo_seo" || BulkService.CurrentStep == "meta_descrizione" || BulkService.CurrentStep == "descrizione_html"))
+                    {
+                        <span class="spinner-border spinner-border-sm text-primary" role="status"></span>
+                        <span style="font-size:0.8rem;color:#6f42c1;margin-left:4px;">in attesa…</span>
+                    }
+                    else
+                    {
+                        var html = parsed?.GetValueOrDefault("descrizione_html");
+                        if (string.IsNullOrWhiteSpace(html))
+                        {
+                            <span style="color:#999;">mancante</span>
+                        }
+                        else
+                        {
+                            <span style="color:green;">✓</span>
+                        }
+                    }
+                </td>
+                <td style="padding:6px;border:1px solid #ccc;">@(parsed?.GetValueOrDefault("regione") ?? "—")</td>
+                <td style="padding:6px;border:1px solid #ccc;">
                     <a href="/edit/@(System.Uri.EscapeDataString(m.FileName))">Modifica</a>
                 </td>
             </tr>
@@ -58,7 +140,10 @@
 @code {
     private List<MigrationFile> _migrations = new();
     private readonly Dictionary<string, Dictionary<string, string?>> _quickCache = new();
+    private readonly Dictionary<string, MigrationFile> _parsedCache = new();
     private string _filter = "";
+    private Timer? _refreshTimer;
+    private bool _disposed;
 
     private IEnumerable<MigrationFile> Filtered => string.IsNullOrWhiteSpace(_filter)
         ? _migrations
@@ -66,12 +151,38 @@
 
     protected override void OnInitialized()
     {
-        _migrations = Parser.ListMigrations();
-        foreach (var m in _migrations)
+        ReloadData();
+        // Poll every 1s to pick up background changes in real-time
+        _refreshTimer = new Timer(_ =>
         {
-            var parsed = Parser.Parse(m.FullPath);
-            _quickCache[m.FileName] = parsed.HikeValues;
+            if (_disposed) return;
+            try
+            {
+                InvokeAsync(() =>
+                {
+                    if (_disposed) return;
+                    if (BulkService.IsRunning)
+                        ReloadData();
+                    StateHasChanged();
+                });
+            }
+            catch (ObjectDisposedException) { }
+        }, null, TimeSpan.FromSeconds(1), TimeSpan.FromSeconds(1));
+    }
+
+    private void ReloadData()
+    {
+        try
+        {
+            _migrations = Parser.ListMigrations();
+            foreach (var m in _migrations)
+            {
+                var parsed = Parser.Parse(m.FullPath);
+                _quickCache[m.FileName] = parsed.HikeValues;
+                _parsedCache[m.FileName] = parsed;
+            }
         }
+        catch { /* file may be mid-write from background service */ }
     }
 
     private Dictionary<string, string?>? TryQuickParse(MigrationFile m)
@@ -79,4 +190,43 @@
         _quickCache.TryGetValue(m.FileName, out var vals);
         return vals;
     }
+
+    private string? TryGetCoverPath(MigrationFile m)
+    {
+        if (!_parsedCache.TryGetValue(m.FileName, out var parsed))
+            return null;
+        var coverRow = parsed.MediaRows
+            .FirstOrDefault(r => string.Equals(r.GetValueOrDefault("tipo"), "cover", StringComparison.OrdinalIgnoreCase));
+        return coverRow?.GetValueOrDefault("path_relativo");
+    }
+
+    private async Task StartGeneration()
+    {
+        if (!BulkService.TryStart()) return;
+        await BulkService.RunAsync();
+    }
+
+    public void Dispose()
+    {
+        _disposed = true;
+        _refreshTimer?.Dispose();
+    }
+
+    private string FormatCurrentStep() => BulkService.CurrentStep switch
+    {
+        "titolo_seo" => "Titolo SEO",
+        "meta_descrizione" => "Meta Descrizione",
+        "descrizione_html" => "Descrizione HTML",
+        _ => "…"
+    };
+
+    private double StepProgress() => BulkService.Total > 0
+        ? (BulkService.CurrentStep switch
+        {
+            "titolo_seo" => 0,
+            "meta_descrizione" => 1,
+            "descrizione_html" => 2,
+            _ => 0
+        }) * 100.0 / (BulkService.Total * 3)
+        : 0;
 }

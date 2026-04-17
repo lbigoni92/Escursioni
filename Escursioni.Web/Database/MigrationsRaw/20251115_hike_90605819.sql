@@ -1,15 +1,7 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
 )
 VALUES (
   90605819,
@@ -42,7 +34,9 @@ VALUES (
   10.512348,
   'POINT(10.512348 43.785107)',
   '2ccd5a138f125fe2b4ad8311d927af18349c9fae22f46e3e42a15bc0cc76769e',
-  NOW(), NOW()
+  'Esplora il Parco Nazionale dei Marsi: Vorno, Faeta e Santallago! Trek intenso e panoramico, sentieri CAI e neve a Santallago. Scopri!',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +68,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +88,6 @@ SELECT id, 'cover', 'media/images/90605819/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_01.jpg', 1,
        NULL,
@@ -101,7 +95,6 @@ SELECT id, 'foto', 'media/images/90605819/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_02.jpg', 2,
@@ -111,7 +104,6 @@ SELECT id, 'foto', 'media/images/90605819/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_03.jpg', 3,
        NULL,
@@ -119,7 +111,6 @@ SELECT id, 'foto', 'media/images/90605819/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_04.jpg', 4,
@@ -129,7 +120,6 @@ SELECT id, 'foto', 'media/images/90605819/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_05.jpg', 5,
        NULL,
@@ -137,7 +127,6 @@ SELECT id, 'foto', 'media/images/90605819/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_06.jpg', 6,
@@ -147,7 +136,6 @@ SELECT id, 'foto', 'media/images/90605819/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_07.jpg', 7,
        NULL,
@@ -155,7 +143,6 @@ SELECT id, 'foto', 'media/images/90605819/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_08.jpg', 8,
@@ -165,7 +152,6 @@ SELECT id, 'foto', 'media/images/90605819/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_09.jpg', 9,
        NULL,
@@ -173,7 +159,6 @@ SELECT id, 'foto', 'media/images/90605819/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_10.jpg', 10,
@@ -183,7 +168,6 @@ SELECT id, 'foto', 'media/images/90605819/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_11.jpg', 11,
        NULL,
@@ -191,7 +175,6 @@ SELECT id, 'foto', 'media/images/90605819/photo_11.jpg', 11,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_12.jpg', 12,
@@ -201,7 +184,6 @@ SELECT id, 'foto', 'media/images/90605819/photo_12.jpg', 12,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_13.jpg', 13,
        NULL,
@@ -210,7 +192,6 @@ SELECT id, 'foto', 'media/images/90605819/photo_13.jpg', 13,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_14.jpg', 14,
        NULL,
@@ -218,7 +199,6 @@ SELECT id, 'foto', 'media/images/90605819/photo_14.jpg', 14,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 90605819;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/90605819/photo_15.jpg', 15,

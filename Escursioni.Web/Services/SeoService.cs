@@ -16,7 +16,7 @@ public class SeoService
     {
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.example.com").TrimEnd('/');
 
-        page.ViewData["Title"] = hike.Titolo;
+        page.ViewData["Title"] = !string.IsNullOrWhiteSpace(hike.TitoloSeo) ? hike.TitoloSeo : hike.Titolo;
 
         var desc = hike.Descrizione ?? string.Empty;
         if (string.IsNullOrWhiteSpace(desc) && !string.IsNullOrWhiteSpace(hike.DescrizioneHtml))

@@ -1,21 +1,34 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
 )
 VALUES (
   123884538,
   'Cascatelle dell''infernaccio - Poggio corbolone - Villa Cristina',
   'Escursione mattutina molto bella specialmente per le cascate dell''infernaccio che erano belle rigogliose dopo delle piogge.Il percorso era abbastanza umido anche perché aveva piovuto i giorni precedenti, l''unica salita che sia degna di questo nome è quella a Poggio Corbolone dal quale è possibile avere una vista unica su Livorno.Un altro punto di particolare interesse è il punto panoramico sopra villa Cristiana, dal quale si ha una vita unica sui monti pisani e apuane.Il percorso è corto ed è adatto a una mezza giornata.Raccomando vivamente Scarponi viste le zone iniziali che sono umide specialmente dopo delle pioggie.',
-  'Escursione mattutina molto bella specialmente per le cascate dell''infernaccio che erano belle rigogliose dopo delle piogge.<br>Il percorso era abbastanza umido anche perché aveva piovuto i giorni precedenti, l''unica salita che sia degna di questo nome è quella a Poggio Corbolone dal quale è possibile avere una vista unica su Livorno.<br>Un altro punto di particolare interesse è il punto panoramico sopra villa Cristiana, dal quale si ha una vita unica sui monti pisani e apuane.<br>Il percorso è corto ed è adatto a una mezza giornata.<br>Raccomando vivamente Scarponi viste le zone iniziali che sono umide specialmente dopo delle pioggie.',
+  '<h2>Cascatelle dell''Infernaccio - Poggio Corbolone - Villa Cristina: Trekking e Escursioni in Montagna</h2>
+
+<h3>Il Percorso</h3>
+
+<p>Preparatevi per un''incantevole <strong>escursione trekking</strong> attraverso il cuore della **Montagna Pisana**! Il sentiero Cascatelle dell''Infernaccio - Poggio Corbolone - Villa Cristina vi condurrà in un''avventura di <strong>sentieri in natura</strong>, un''opportunità unica per scoprire panorami mozzafiato e la bellezza incontaminata della regione. Questo <strong>trekking</strong> di mezza giornata è perfetto per chi cerca un''<strong>escursione facile</strong>, ma ricca di sorprese. Il percorso è caratterizzato da un mix di dislivelli e tratti pianeggianti, ideale per un''esperienza di <strong>escursionismo</strong> memorabile.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<p>Durante questa <strong>escursione</strong>, sarete immersi nella maestosità delle <strong>cascatelle dell''Infernaccio</strong>, particolarmente spettacolari dopo le recenti piogge, con la loro vegetazione rigogliosa. La salita a <strong>Poggio Corbolone</strong> è l''unico tratto impegnativo, ma la ricompensa è una vista panoramica a 360 gradi su <strong>Livorno</strong> e l''entroterra.  Il punto panoramico sopra <strong>Villa Cristina</strong> offre una vista impareggiabile sui monti pisani e apuani, un vero gioiello per gli amanti della <strong>natura e del trekking</strong>.</p>
+
+<h3>Informazioni Utili</h3>
+
+<ul>
+  <li><b>Difficoltà:</b> Facile/Media</li>
+  <li><b>Distanza:</b> Circa 8-10 km</li>
+  <li><b>Dislivello:</b> Circa 400-500 metri</li>
+  <li><b>Tempo di percorrenza:</b> 3-4 ore</li>
+  <li><b>Periodo consigliato:</b> Primavera/Estate/Autunno (evitare l''inverno a causa del freddo e del maltempo)</li>
+  <li><b>Punti di Interesse:</b> Cascate dell''Infernaccio, Poggio Corbolone (vista Livorno), Punto Panoramico Villa Cristina (vista monti pisani e apuani)</li>
+</ul>
+
+<p><strong>Attenzione:</strong> A causa delle condizioni iniziali umide del <strong>sentiero</strong>, soprattutto dopo le piogge, consigliamo vivamente di indossare <strong>scarponi da trekking</strong> adeguati per garantire una camminata sicura e confortevole.  Questa <strong>escursione in montagna</strong> vi regalerà emozioni indimenticabili e la possibilità di apprezzare la bellezza del territorio circostante.  Esplorate il fascino dei <strong>sentieri Italia</strong>!</p>',
   'Tutte le Attività e Paesi',
   7.99,
   325,
@@ -42,7 +55,9 @@ VALUES (
   10.400475,
   'POINT(10.400475 43.558868)',
   '809eaf9b1f33befd7aa2c14fc8ffe98042e9bc84e21ed0fb8190e0dc13d7c4ba',
-  NOW(), NOW()
+  'Escursione Cascatelle dell''Infernaccio: sentiero facile a Poggio Corbolone con vista Livorno! Cascate rigogliose e panorami mozzafiato sui Monti Pisani.',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +89,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +109,6 @@ SELECT id, 'cover', 'media/images/123884538/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 123884538;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/123884538/photo_01.jpg', 1,
        NULL,
@@ -101,7 +116,6 @@ SELECT id, 'foto', 'media/images/123884538/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 123884538;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/123884538/photo_02.jpg', 2,
@@ -111,7 +125,6 @@ SELECT id, 'foto', 'media/images/123884538/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 123884538;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/123884538/photo_03.jpg', 3,
        NULL,
@@ -119,7 +132,6 @@ SELECT id, 'foto', 'media/images/123884538/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 123884538;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/123884538/photo_04.jpg', 4,
@@ -129,7 +141,6 @@ SELECT id, 'foto', 'media/images/123884538/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 123884538;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/123884538/photo_05.jpg', 5,
        NULL,
@@ -137,7 +148,6 @@ SELECT id, 'foto', 'media/images/123884538/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 123884538;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/123884538/photo_06.jpg', 6,
@@ -147,7 +157,6 @@ SELECT id, 'foto', 'media/images/123884538/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 123884538;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/123884538/photo_07.jpg', 7,
        NULL,
@@ -155,7 +164,6 @@ SELECT id, 'foto', 'media/images/123884538/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 123884538;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/123884538/photo_08.jpg', 8,
@@ -165,7 +173,6 @@ SELECT id, 'foto', 'media/images/123884538/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 123884538;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/123884538/photo_09.jpg', 9,
        NULL,
@@ -173,7 +180,6 @@ SELECT id, 'foto', 'media/images/123884538/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 123884538;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/123884538/photo_10.jpg', 10,
@@ -183,7 +189,6 @@ SELECT id, 'foto', 'media/images/123884538/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 123884538;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/123884538/photo_11.jpg', 11,
        NULL,
@@ -191,7 +196,6 @@ SELECT id, 'foto', 'media/images/123884538/photo_11.jpg', 11,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 123884538;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/123884538/photo_12.jpg', 12,

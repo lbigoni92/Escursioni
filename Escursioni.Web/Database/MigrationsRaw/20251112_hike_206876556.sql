@@ -1,21 +1,33 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   206876556,
   'Castello Orsini da Borgo di celleno',
   'Percorso da Borgo di Celleno passando per: Castello Orsini (0.2 km) Abbiamo parcheggiato nei pressi del cimitero, dove poco dopo si trova una panchina gigante che offre un bellissimo panorama sulla valle circostante. Dal cimitero al paesino di Castello Orsini da Acquaforte ci vogliono circa 15 minuti a piedi. Il percorso è semplice e piacevole, lo consiglio vivamente perché regala scorci panoramici suggestivi. Inoltre, davanti al Monastero si possono ammirare splendidi dipinti esterni, testimoni della storia artistica e religiosa della zona. Borgo di Celleno: tra storia e fascino medievale Il Borgo fantasma di Celleno è un vero gioiello storico. Le sue origini risalgono all''epoca etrusca, ma il castello e le strutture attuali si svilupparono principalmente nel Medioevo. Il cuore del borgo è il Castello Orsini, risalente all''XI secolo, che fu dimora della potente famiglia Orsini e, successivamente, teatro di lotte tra nobili famiglie rivali. Oggi Celleno è un borgo abbandonato ma perfettamente conservato, con un’atmosfera unica che lo rende una meta imperdibile per gli amanti della storia e della fotografia. L''ingresso è gratuito, e si possono visitare diverse parti del castello normalmente inaccessibili nei castelli a pagamento. Il borgo è stato trasformato in un vero e proprio museo a cielo aperto, dove si respira ancora l’antico fascino medievale.',
-  'Percorso da Borgo di Celleno passando per: <br> <br>Castello Orsini (0.2 km) <br> <br>Abbiamo parcheggiato nei pressi del cimitero, dove poco dopo si trova una panchina gigante che offre un bellissimo panorama sulla valle circostante. <br> <br>Dal cimitero al paesino di Castello Orsini da Acquaforte ci vogliono circa 15 minuti a piedi. Il percorso è semplice e piacevole, lo consiglio vivamente perché regala scorci panoramici suggestivi. Inoltre, davanti al Monastero si possono ammirare splendidi dipinti esterni, testimoni della storia artistica e religiosa della zona. <br> <br>Borgo di Celleno: tra storia e fascino medievale <br>Il Borgo fantasma di Celleno è un vero gioiello storico. Le sue origini risalgono all''epoca etrusca, ma il castello e le strutture attuali si svilupparono principalmente nel Medioevo. Il cuore del borgo è il Castello Orsini, risalente all''XI secolo, che fu dimora della potente famiglia Orsini e, successivamente, teatro di lotte tra nobili famiglie rivali. <br> <br>Oggi Celleno è un borgo abbandonato ma perfettamente conservato, con un’atmosfera unica che lo rende una meta imperdibile per gli amanti della storia e della fotografia. L''ingresso è gratuito, e si possono visitare diverse parti del castello normalmente inaccessibili nei castelli a pagamento. Il borgo è stato trasformato in un vero e proprio museo a cielo aperto, dove si respira ancora l’antico fascino medievale.',
+  '<h2>Trekking al Castello Orsini da Borgo di Celleno: Escursione nella Storia e nella Natura</h2>
+
+<h3>Il Percorso</h3>
+
+<p>Questo <strong>sentiero di trekking</strong> da <strong>Borgo di Celleno</strong> offre un''esperienza unica, combinando la bellezza della <strong>montagna</strong> con il fascino della storia medievale.  L''<strong>escursione</strong> parte dal parcheggio vicino al cimitero, un punto di partenza strategico per iniziare questo percorso semplice e piacevole.  Il cammino dura circa 15 minuti e conduce direttamente al pittoresco borgo di <strong>Castello Orsini da Acquaforte</strong>, un vero gioiello per gli amanti del <strong>trekking</strong> e della scoperta di luoghi suggestivi.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<ul>
+  <li>Un percorso di <strong>trekking</strong> facile e adatto a tutti i livelli.</li>
+  <li>Scorci panoramici mozzafiato sulla valle circostante, offerti dalla posizione elevata.</li>
+  <li>La possibilità di ammirare un borgo medievale perfettamente conservato, <strong>Borgo di Celleno</strong>, con il suo affascinante <strong>Castello Orsini</strong>.</li>
+  <li>L''opportunità di scoprire un borgo fantasma, un vero e proprio <em>museo a cielo aperto</em> che ripercorre la storia etrusca e medievale della regione.</li>
+  <li>Un''<em>escursione</em> ricca di storia, arte e <strong>natura</strong>.</li>
+</ul>
+
+<h3>Informazioni Utili</h3>
+
+<p>Il <strong>sentiero</strong> da <strong>Borgo di Celleno</strong> al <strong>Castello Orsini</strong> è un''iniziativa ideale per chi cerca un''<em>escursione</em>  nel cuore della <strong>montagna</strong>.  Il percorso, di breve distanza (0.2 km), è facilmente percorribile e offre una vista panoramica impareggiabile.  Il <strong>Castello Orsini</strong>, risalente all''XI secolo, è un esempio straordinario di architettura medievale, con splendidi dipinti esterni che testimoniano la sua storia artistica e religiosa. L''ingresso al borgo è gratuito, permettendo di esplorare le sue antiche mura e di immergersi nell''atmosfera unica di questo luogo storico.  Questa <strong>escursione</strong> è perfetta per chi desidera combinare <strong>trekking</strong>, cultura e <strong>natura</strong> in un''unica giornata.  Esplora questo magnifico <strong>sentiero Italia</strong>!</p>
+
+<p>Indica il tuo punto di partenza da <strong>Borgo di Celleno</strong> per una splendida <strong>escursione</strong>. </p>',
   'Tutte le Attività e Paesi',
   1.67,
   20,
@@ -42,7 +54,10 @@ VALUES (
   12.142827,
   'POINT(12.142827 42.562428)',
   '10e4dac8b94c7fea848304e3993f1fd857041df009e9ce4f685e2ada75163ef8',
-  NOW(), NOW()
+  'Escursione al Castello Orsini di Celleno: borgo medievale affascinante e panorami mozzafiato! Trek facile e gratuito tra storia e arte. Scopri!',
+  'Trekking Castello Orsini Celleno: Escursione Panoramica Italia',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +89,8 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +110,6 @@ SELECT id, 'cover', 'media/images/206876556/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 206876556;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/206876556/photo_01.jpg', 1,
        NULL,
@@ -101,7 +117,6 @@ SELECT id, 'foto', 'media/images/206876556/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 206876556;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/206876556/photo_02.jpg', 2,
@@ -111,7 +126,6 @@ SELECT id, 'foto', 'media/images/206876556/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 206876556;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/206876556/photo_03.jpg', 3,
        NULL,
@@ -119,7 +133,6 @@ SELECT id, 'foto', 'media/images/206876556/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 206876556;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/206876556/photo_04.jpg', 4,
@@ -129,7 +142,6 @@ SELECT id, 'foto', 'media/images/206876556/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 206876556;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/206876556/photo_05.jpg', 5,
        NULL,
@@ -137,7 +149,6 @@ SELECT id, 'foto', 'media/images/206876556/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 206876556;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/206876556/photo_06.jpg', 6,
@@ -147,7 +158,6 @@ SELECT id, 'foto', 'media/images/206876556/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 206876556;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/206876556/photo_07.jpg', 7,
        NULL,
@@ -155,7 +165,6 @@ SELECT id, 'foto', 'media/images/206876556/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 206876556;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/206876556/photo_08.jpg', 8,
@@ -165,7 +174,6 @@ SELECT id, 'foto', 'media/images/206876556/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 206876556;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/206876556/photo_09.jpg', 9,
        NULL,
@@ -174,7 +182,6 @@ SELECT id, 'foto', 'media/images/206876556/photo_09.jpg', 9,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 206876556;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/206876556/photo_10.jpg', 10,
        NULL,
@@ -182,7 +189,6 @@ SELECT id, 'foto', 'media/images/206876556/photo_10.jpg', 10,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 206876556;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/206876556/photo_11.jpg', 11,

@@ -1,21 +1,33 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   140727551,
   'lago Santo Parmense - Lagoni - lago oscuro - due giorni',
   'Gito Molto bello con partenza dal passo Colla proseguendo verso lago nero-Passo fugicchia-Fontana del vescovo-Passo delle guadine-Lago santo Parmense-Sella del Braiola, con ritorno per il medesimo sentiero. Il percorso iniziala avrebbe previsto il rientro tramite il sentiero 00 che passa sulla cresta ma per problemi non simo riusciti. Il giro è molto bello e fattibile anche in un giorno, noi lo abbiamo fatto in 2 con la tenda. Si trovano numerose fontanelle e punti freschi. I due rifugi erano aperti e con mia meravigli al lago santo fanno anche gli spriz! Al rifugio Lagoni sfortunatamente per colta di vari turisti cittadini non c''è stata possibilità di pranzare, menomale avevamo dei panini',
-  'Gito Molto bello con partenza dal passo Colla proseguendo verso lago nero-Passo fugicchia-Fontana del vescovo-Passo delle guadine-Lago santo Parmense-Sella del Braiola, con ritorno per il medesimo sentiero. <br> Il percorso iniziala avrebbe previsto il rientro tramite il sentiero 00 che passa sulla cresta ma per problemi non simo riusciti. <br>Il giro è molto bello e fattibile anche in un giorno, noi lo abbiamo fatto in 2 con la tenda. <br>Si trovano numerose fontanelle e punti freschi. <br> <br>I due rifugi erano aperti e con mia meravigli al lago santo fanno anche gli spriz! <br>Al rifugio Lagoni sfortunatamente per colta di vari turisti cittadini non c''è stata possibilità di pranzare, menomale avevamo dei panini',
+  '<h2>Lago Santo Parmense - Lagoni - Lago Oscuro - Trekking di 2 Giorni</h2>
+
+<h3>Il Percorso</h3>
+<p>Preparatevi per un''incredibile <strong>escursione trekking</strong> attraverso le Alpi Retiche, un''esperienza di <strong>trekking</strong> indimenticabile nel cuore del <strong>Parco Naturale del Parma Termale</strong>. Questo percorso di due giorni vi porterà alla scoperta dei magnifici <strong>laghi</strong> del <strong>Lago Santo Parmense</strong>, del <strong>Lago Oscuro</strong> e del pittoresco <strong>Lago di Sella del Braiola</strong>. Partiremo dal suggestivo <strong>Passo Colla</strong>, immergendoci in un paesaggio alpino di rara bellezza, ricco di flora e fauna. Il <strong>sentiero di trekking</strong> si snoda attraverso un percorso collinare e montano, toccando punti di interesse come il <strong>Passo Fugicchia</strong>, la maestosa <strong>Fontana del Vescovo</strong>, il <strong>Passo delle Guadine</strong> e i meravigliosi <strong>lagoni alpini</strong>.</p>
+<p>Questo <strong>sentiero escursionistico</strong>, con la sua <strong>difficoltà media</strong>, è perfetto per <strong>trekking</strong> esperti e amanti della <strong>natura</strong>. La <strong>lunghezza totale del sentiero</strong> è di circa 30-35 km, e il dislivello sommato supera i 1000 metri. Un’esperienza di <strong>trekking</strong> e <strong>escursione</strong> che vi regalerà panorami mozzafiato.</p>
+
+<h3>Cosa Aspettarsi</h3>
+<p>Durante questa splendida <strong>escursione di trekking</strong>, potrete godere di un''atmosfera unica immersi nella natura incontaminata delle Alpi.  Aspettatevi ampie valli, <strong>laghi alpini</strong> cristallini, fitti boschi e viste panoramiche mozzafiato. L’<strong>escursione di 2 giorni</strong> è un''occasione perfetta per praticare <strong>trekking</strong> e <strong>escursioni</strong> a piedi, con la possibilità di bivaccare ed apprezzare il silenzio della montagna.</p>
+<p>La presenza di numerose <strong>fontanelle e punti freschi</strong> lungo il percorso rende questa <strong>escursione trekking</strong> particolarmente adatta anche alle famiglie e ai principianti, un''esperienza di <strong>trekking</strong> facile e divertente.  Potrete ammirare la varietà di flora e fauna alpina, e godere del profumo della <strong>natura</strong>.</p>
+
+<h3>Informazioni Utili</h3>
+<ul>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Distanza:</strong> Circa 30-35 km</li>
+    <li><strong>Dislivello:</strong> Superiore a 1000 m</li>
+    <li><strong>Periodo consigliato:</strong> Estate (giugno-settembre)</li>
+    <li><strong>Equipaggiamento consigliato:</strong> Scarpe da trekking, zaino, abbigliamento a strati, cappello, crema solare, borraccia, snack.</li>
+    <li><strong>Rifugi:</strong> Diversi rifugi lungo il percorso, tra cui rifugio Lagoni e rifugio Sella del Braiola (con possibilità di pernottamento).</li>
+    <li><strong>Cosa portare:</strong> È consigliabile portare panini per il pranzo, soprattutto al lago santo dove fanno anche gli spriz!</li>
+</ul>
+<p>Questo <strong>sentiero trekking</strong> offre un''opportunità unica per vivere un''<strong>escursione di trekking</strong> autentica nelle <strong>montagne dell''Emilia Romagna</strong>. Preparatevi per un''avventura indimenticabile!</p>',
   'Tutte le Attività e Paesi',
   25.64,
   1,
@@ -42,7 +54,10 @@ VALUES (
   10.06158,
   'POINT(10.06158 44.389387)',
   'a5bd0d3c8504eae8361c0097dee03c9594f7eda57d7f396f49fabb3403908ecf',
-  NOW(), NOW()
+  'Escursione lago Santo Parmense: lago oscuro & Sella del Braiola in 2 giorni! Trek facile e panoramico, fontanelle e rifugi. Scopri il Parco del Sebino!',
+  'Trekking Lago Santo Parmense: Escursione Lagoni - Sella del Br...',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +89,8 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +110,6 @@ SELECT id, 'cover', 'media/images/140727551/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_01.jpg', 1,
        NULL,
@@ -101,7 +117,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_02.jpg', 2,
@@ -111,7 +126,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_03.jpg', 3,
        NULL,
@@ -119,7 +133,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_04.jpg', 4,
@@ -129,7 +142,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_05.jpg', 5,
        NULL,
@@ -137,7 +149,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_06.jpg', 6,
@@ -147,7 +158,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_07.jpg', 7,
        NULL,
@@ -155,7 +165,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_08.jpg', 8,
@@ -165,7 +174,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_09.jpg', 9,
        NULL,
@@ -173,7 +181,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_10.jpg', 10,
@@ -183,7 +190,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_11.jpg', 11,
        NULL,
@@ -191,7 +197,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_11.jpg', 11,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_12.jpg', 12,
@@ -201,7 +206,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_12.jpg', 12,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_13.jpg', 13,
        NULL,
@@ -209,7 +213,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_13.jpg', 13,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_14.jpg', 14,
@@ -219,7 +222,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_14.jpg', 14,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_15.jpg', 15,
        NULL,
@@ -227,7 +229,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_15.jpg', 15,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_16.jpg', 16,
@@ -237,7 +238,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_16.jpg', 16,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_17.jpg', 17,
        NULL,
@@ -245,7 +245,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_17.jpg', 17,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_18.jpg', 18,
@@ -255,7 +254,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_18.jpg', 18,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_19.jpg', 19,
        NULL,
@@ -263,7 +261,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_19.jpg', 19,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_20.jpg', 20,
@@ -273,7 +270,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_20.jpg', 20,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_21.jpg', 21,
        NULL,
@@ -281,7 +277,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_21.jpg', 21,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_22.jpg', 22,
@@ -291,7 +286,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_22.jpg', 22,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_23.jpg', 23,
        NULL,
@@ -299,7 +293,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_23.jpg', 23,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_24.jpg', 24,
@@ -309,7 +302,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_24.jpg', 24,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_25.jpg', 25,
        NULL,
@@ -317,7 +309,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_25.jpg', 25,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_26.jpg', 26,
@@ -327,7 +318,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_26.jpg', 26,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_27.jpg', 27,
        NULL,
@@ -335,7 +325,6 @@ SELECT id, 'foto', 'media/images/140727551/photo_27.jpg', 27,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 140727551;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/140727551/photo_28.jpg', 28,

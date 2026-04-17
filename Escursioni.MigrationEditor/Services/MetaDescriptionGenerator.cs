@@ -65,6 +65,55 @@ public class MetaDescriptionGenerator
         return text;
     }
 
+    public async Task<string> GenerateSeoTitleAsync(string titolo, string descrizione)
+    {
+        await EnsureModelAsync();
+
+        var prompt = $"""
+            Sei un esperto SEO per un sito di escursionismo e trekking in Italia.
+            Genera un titolo SEO ottimizzato di massimo 60 caratteri per la seguente escursione.
+            Il titolo deve:
+            - Contenere parole chiave principali (nome sentiero, luogo, tipo attività come trekking/escursione)
+            - Essere accattivante e invogliare al click nei risultati Google
+            - Essere diverso dal titolo originale, più ottimizzato per i motori di ricerca
+            Rispondi SOLO con il testo del titolo SEO, senza virgolette né spiegazioni.
+
+            Titolo originale: {titolo}
+            Descrizione: {descrizione}
+            """;
+
+        var body = new
+        {
+            model = _model,
+            messages = new[]
+            {
+                new { role = "user", content = prompt }
+            },
+            stream = false
+        };
+
+        var json = JsonSerializer.Serialize(body);
+        var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+        var response = await _http.PostAsync($"{_baseUrl}/api/chat", content);
+        response.EnsureSuccessStatusCode();
+
+        var result = await response.Content.ReadAsStringAsync();
+        using var doc = JsonDocument.Parse(result);
+
+        var text = doc.RootElement
+            .GetProperty("message")
+            .GetProperty("content")
+            .GetString() ?? "";
+
+        text = text.Trim().Trim('"', '«', '»');
+
+        if (text.Length > 65)
+            text = text[..62] + "...";
+
+        return text;
+    }
+
     private async Task EnsureModelAsync()
     {
         try
@@ -84,15 +133,25 @@ public class MetaDescriptionGenerator
         await EnsureModelAsync();
 
         var prompt = $"""
-            Sei un web designer esperto di escursionismo. Data la descrizione di un'escursione,
-            genera il contenuto HTML formattato per la pagina di dettaglio dell'escursione.
-            Usa tag semantici: <h2>, <h3>, <p>, <ul>/<li>, <strong>, <em>.
-            NON includere <html>, <head>, <body> né <style>. Solo il fragment HTML del contenuto.
-            Rendi il testo coinvolgente, ben strutturato e piacevole da leggere.
-            Rispondi SOLO con il codice HTML, senza spiegazioni, senza markdown, senza backtick.
+            Sei un esperto SEO e copywriter specializzato in trekking e sentieri escursionistici in Italia.
+            Genera un fragment HTML SEO-ottimizzato per la pagina di dettaglio di un sentiero da trekking.
 
-            Titolo: {titolo}
-            Descrizione: {descrizione}
+            REGOLE SEO IMPORTANTI:
+            - Usa UN SOLO <h2> come titolo principale del sentiero, contenente parole chiave (nome sentiero, luogo, tipo attività)
+            - Usa <h3> per le sotto-sezioni (es: 'Il percorso', 'Cosa aspettarsi', 'Informazioni utili')
+            - Usa <p> per paragrafi descrittivi ricchi di parole chiave naturali (trekking, escursione, sentiero, montagna, natura, ecc.)
+            - Usa <ul>/<li> per elenchi di caratteristiche o punti di interesse
+            - Usa <strong> per evidenziare parole chiave importanti (nomi di luoghi, difficoltà, distanza)
+            - Usa <em> per enfatizzare dettagli rilevanti
+            - Scrivi in modo naturale e coinvolgente, come una guida esperta che racconta il sentiero
+            - Includi naturalmente parole chiave long-tail relative a trekking, escursionismo, sentieri Italia
+            - Il testo deve invogliare l'utente a fare l'escursione e essere utile per il posizionamento Google
+            - NON includere <html>, <head>, <body>, <style>, <script>
+            - NON inserire nessun tag <img> o immagini di alcun tipo
+            - Rispondi SOLO con il codice HTML, senza spiegazioni, senza markdown, senza backtick
+
+            Titolo sentiero: {titolo}
+            Descrizione originale: {descrizione}
             """;
 
         var body = new

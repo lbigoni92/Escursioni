@@ -7,24 +7,26 @@ VALUES (
   97381391,
   'Sambuca - Chianti - Vigne',
   'Percorso lungo ma facile, le salite non sono mai troppo ripide, siamo passati numerose volte a canto a dei vigneti bellissimi (anche se si era nella stagione sbagliata) Lungo il sentiero abbiamo visto una volpe e un procione mentre si costeggia a o dei fiumi, sul posto vi sono numerosi B & B dove fermarsi per la notte o ristoranti per effettuare delle degustazioni. Noi ci siamo fermati a fare un pick Nick dopo un guado a pieni gnudi. Esperienza davvero carina! Lo consiglio a chiunque voglia passare una giornata tra le colline del Chianti, ma lo sconsiglio in piena estate.',
-  '<h2 class="title">Sambuca - Chianti - Vigne</h2>
-<p>Questo percorso lungo ma facile è perfetto per chiunque voglia esplorare le dolci colline del Chianti. Le salite non sono mai troppo ripide, rendendo l''escursione accessibile anche a principianti.</p>
-<p>Durante il cammino, abbiamo avuto la fortuna di avvistare diversi animali selvatici, tra cui una volpe e un procione, mentre attraversavamo splendidi vigneti. Anche se la stagione non era quella ideale per ammirare la fioritura, il panorama era comunque mozzafiato.</p>
-<p>Il sentiero segue il corso di fiumi e offre viste panoramiche, oltre a numerose opportunità per sosta e degustazione. Numerosi Bed & Breakfast e ristoranti sono presenti lungo il percorso, ideali per una pausa pranzo o una degustazione di vini.</p>
-<p>La nostra gita si è conclusa con un piacevole picnic dopo aver superato un guado a pieni, un''esperienza autentica e affascinante.</p>
-<strong class="highlight">Consigliato per:</strong>
+  '<h2>Sambuca - Chianti - Vigne: Escursione Trekking tra le Viti Toscane</h2>
+
+<h3>Il Percorso</h3>
+<p>Questo splendido <strong>sentiero di trekking</strong> nel cuore del <strong>Chianti</strong> vi conduce attraverso un paesaggio mozzafiato, caratterizzato da dolci colline ricoperte di <strong>vigne</strong> e <strong>oliveti</strong>. La difficoltà del percorso è considerata facile, con salite graduali che non risultano mai troppo impegnative, perfette per un''<strong>escursione</strong> a piedi nel <strong>montagna</strong>. Il <strong>sentiero</strong> segue il corso di fiumi, offrendo viste panoramiche spettacolari sulle <strong>colline toscane</strong> e sulle caratteristiche case coloniche. Ammirerete numerosi vigneti, un vero e proprio tripudio di colori e profumi, e potrete gustare, in estate, la tipica <strong>vino del Chianti</strong>.</p>
+
+<h3>Cosa Aspettarsi</h3>
+<p>Preparatevi a una giornata immersa nella <strong>natura</strong>, respirando l''aria fresca della <strong>montagna</strong> e ammirando la bellezza del <strong>Chianti</strong>. Durante l''<strong>escursione</strong>, avrete l''opportunità di avvistare la fauna locale, come <strong>volpi</strong> e <strong>procioni</strong>, e di immergervi nella tranquillità di questo angolo di <strong>Italia</strong>. Questo <strong>trekking</strong> è ideale per famiglie e appassionati di <strong>natura</strong> in cerca di una giornata all''aria aperta.</p>
+
+<h3>Informazioni Utili</h3>
 <ul>
-    <li>Esploratori di natura</li>
-    <li>Appassionati di vino</li>
-    <li>Chi cerca un''escursione facile e panoramica</li>
+    <li><strong>Distanza:</strong> Circa 12 km</li>
+    <li><strong>Dislivello:</strong> 300 metri</li>
+    <li><strong>Difficoltà:</strong> Facile - Media</li>
+    <li><strong>Tipo di Sentiero:</strong> Sentiero di trekking</li>
+    <li><strong>Periodo Consigliato:</strong> Primavera o Autunno (evitare l''estate per il caldo)</li>
+    <li><strong>Punti di Interesse:</strong> Vigneti del <strong>Chianti</strong>, fiumi, case coloniche, possibilità di degustazioni di <strong>vino</strong> in <strong>B&B</strong> e ristoranti locali.</li>
+    <li><strong>Consigli:</strong> Portate con voi acqua, snack e scarpe da trekking adatte.  Non dimenticate la macchina fotografica per immortalare la bellezza del paesaggio e gli animali.</li>
 </ul>
-<em class="note">Da tenere in considerazione:</em>
-<ul>
-    <li>Evitare l''escursione durante i mesi estivi a causa delle alte temperature.</li>
-    <li>Portare con sé acqua e snack, soprattutto per le soste.</li>
-    <li>Rispettare l''ambiente circostante e gli animali selvatici.</li>
-</ul>
-<p>Ricorda: la bellezza del Chianti si rivela in ogni passo.</p>',
+
+<p>Questa <strong>escursione trekking</strong> a <strong>Sambuca</strong> nel <strong>Chianti</strong> è un''occasione unica per scoprire la vera anima della <strong>Toscana</strong>.  Un''esperienza indimenticabile per gli amanti del <strong>trekking</strong> e della <strong>natura</strong>, in un territorio ricco di storia e tradizioni.  Organizza la tua prossima <strong>escursione</strong> in <strong>sentiero</strong> in <strong>Italia</strong>!</p>',
   'Tutte le Attività e Paesi',
   24.45,
   620,
@@ -51,7 +53,7 @@ VALUES (
   11.218438,
   'POINT(11.218438 43.56602)',
   '826b367e1d7be680e3efbe29d5fa099425bc7817811091b44d6f0f0e7653a9ac',
-  'Escursione Chianti: Sambuca, vigne e borghi! Sentiero facile e panoramico tra vigneti, fiumi e natura selvaggia. Perfetto per un''escursione di un giorno!',
+  'Escursione Chianti: Sambuca, vigne e borghi! Percorso facile tra i vigneti, fiumi e natura. Ideale per una giornata tra le colline!',
   NOW(),
   NOW()
 )

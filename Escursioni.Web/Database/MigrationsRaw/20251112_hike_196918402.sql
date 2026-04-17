@@ -1,21 +1,35 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   196918402,
   'Ciaspolata Rifugio Casetta di Lapo, Cima del Diaccione e Lago della Risaia da Passo dell''Abetone Abetone Pt',
   'Percorso ad anello da Passo dell''Abetone fino quasi alla cima del Libro Aperto, passando per: Rifugio Casetta di Lapo (3,7 km) Cima del Diaccione (4,2 km) Lago della Risaia (7,5 km) Siamo partiti dall''Abetone percorrendo il sentiero 00 fino a quasi arrivare al Monte Belvedere. Sfortunatamente, non siamo riusciti a raggiungere le due vette a causa di un tratto completamente ghiacciato e stretto, pericoloso da affrontare senza ramponi e attrezzatura adeguata. La ciaspolata è stata comunque molto piacevole, anche se la neve era ghiacciata. Al ritorno, ci siamo fermati alla Casetta di Lapo, dove abbiamo mangiato benissimo, per poi proseguire verso il Lago della Risaia, che abbiamo trovato meravigliosamente ghiacciato. Infine, siamo tornati alle auto percorrendo la strada sterrata. Un percorso molto bello che consiglio. Mi raccomando: attrezzatura adeguata specialmente d''inverno!',
-  'Percorso ad anello da Passo dell''Abetone fino quasi alla cima del Libro Aperto, passando per: <br> <br>Rifugio Casetta di Lapo (3,7 km) <br>Cima del Diaccione (4,2 km) <br>Lago della Risaia (7,5 km) <br>Siamo partiti dall''Abetone percorrendo il sentiero 00 fino a quasi arrivare al Monte Belvedere. Sfortunatamente, non siamo riusciti a raggiungere le due vette a causa di un tratto completamente ghiacciato e stretto, pericoloso da affrontare senza ramponi e attrezzatura adeguata. <br> <br>La ciaspolata è stata comunque molto piacevole, anche se la neve era ghiacciata. Al ritorno, ci siamo fermati alla Casetta di Lapo, dove abbiamo mangiato benissimo, per poi proseguire verso il Lago della Risaia, che abbiamo trovato meravigliosamente ghiacciato. <br> <br>Infine, siamo tornati alle auto percorrendo la strada sterrata. <br>Un percorso molto bello che consiglio. Mi raccomando: attrezzatura adeguata specialmente d''inverno!',
+  '<h2>Ciaspolata Rifugio Casetta di Lapo, Cima del Diaccione e Lago della Risaia da Passo dell''Abetone Abetone PT</h2>
+
+<h3>Il percorso: Escursione a Ciaspole in Montagna</h3>
+
+<p>Scopri questo incredibile <strong>sentiero di trekking</strong> in Abetone, perfetto per un''<strong>escursione a ciaspolas</strong> e un''immersione nella selvaggia bellezza della <strong>montagna italiana</strong>. Questo anello ti condurrà attraverso paesaggi mozzafiato, dal <strong>Passo dell''Abetone</strong> fino alle pendici della <strong>Cima del Diaccione</strong> e al pittoresco <strong>Lago della Risaia</strong>.  Ideale per una giornata di <strong>trekking</strong> in inverno, questa <strong>escursione a piedi</strong> offre un''esperienza indimenticabile per amanti della natura e della <strong>montagna</strong>.</p>
+
+<h3>Cosa aspettarsi: Una Ciaspolata Ricca di Natura</h3>
+
+<p>Preparati a una <strong>ciaspolata</strong> impegnativa ma estremamente gratificante,  con panorami spettacolari sulla catena dell''Abetone. Il sentiero, che si snoda attraverso la neve e il ghiaccio, richiede un buon livello di preparazione fisica e l''utilizzo di <strong>ciaspole</strong> adatte al terreno. La difficoltà del <strong>sentiero escursionistico</strong> è moderata, ma è fondamentale valutare attentamente le proprie capacità.  L''ambiente circostante è dominato da un paesaggio alpino incontaminato, ricco di flora e fauna, dove potrai ammirare la maestosità della <strong>Cima del Diaccione</strong> e la bellezza ghiacciata del <strong>Lago della Risaia</strong>.  Un''<strong>escursione in montagna</strong> che ti lascerà senza fiato!</p>
+
+<h3>Informazioni utili: Dettagli per un''Escursione Sicura</h3>
+
+<ul>
+    <li><strong>Distanza Totale:</strong> Circa 12 km</li>
+    <li><strong>Dislivello:</strong> Circa 600 metri</li>
+    <li><strong>Difficoltà:</strong> Moderata - Richiede esperienza e attrezzatura adeguata</li>
+    <li><strong>Punto di partenza:</strong> Passo dell''Abetone</li>
+    <li><strong>Punti di interesse:</strong> Rifugio Casetta di Lapo, Cima del Diaccione, Lago della Risaia</li>
+    <li><strong>Periodo consigliato:</strong> Inverno (verificare le condizioni del sentiero e le previsioni meteo)</li>
+    <li><strong>Attrezzatura essenziale:</strong> Ciaspole, scarponi da trekking, abbigliamento a strati, guanti, cappello, occhiali da sole, bastoncini da trekking, acqua, cibo, mappa e bussola/GPS</li>
+</ul>
+
+<p>Ricorda, la sicurezza è fondamentale!  Prima di intraprendere questa <strong>escursione in sentiero</strong>, verifica le condizioni meteorologiche e del sentiero.  L''utilizzo di <strong>attrezzatura da trekking</strong> adeguata è essenziale, soprattutto in inverno.  Un''attenta pianificazione e un rispetto per l''ambiente sono fondamentali per godere appieno di questa splendida <strong>gita a piedi</strong>.  Non dimenticare di informare qualcuno del tuo itinerario!</p>',
   'Tutte le Attività e Paesi',
   12.26,
   601,
@@ -42,7 +56,10 @@ VALUES (
   10.6654,
   'POINT(10.6654 44.144853)',
   'd45b03956d82dd21efee33fb9a124c483ddb087ab9d4526a748a30547ee82b14',
-  NOW(), NOW()
+  'Ciaspolata Abetone: Rifugio Casetta di Lapo, Cima Diaccione e Lago della Risaia! Anello ghiacciato, panorami mozzafiato. Scopri il sentiero!',
+  'Trekking Ciaspolata Abetone: Diaccione, Risaia e Casetta di Lapo',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +91,8 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +112,6 @@ SELECT id, 'cover', 'media/images/196918402/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_01.jpg', 1,
        NULL,
@@ -101,7 +119,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_02.jpg', 2,
@@ -111,7 +128,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_03.jpg', 3,
        NULL,
@@ -119,7 +135,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_04.jpg', 4,
@@ -129,7 +144,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_05.jpg', 5,
        NULL,
@@ -137,7 +151,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_06.jpg', 6,
@@ -147,7 +160,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_07.jpg', 7,
        NULL,
@@ -155,7 +167,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_08.jpg', 8,
@@ -165,7 +176,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_09.jpg', 9,
        NULL,
@@ -173,7 +183,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_10.jpg', 10,
@@ -183,7 +192,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_11.jpg', 11,
        NULL,
@@ -191,7 +199,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_11.jpg', 11,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_12.jpg', 12,
@@ -201,7 +208,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_12.jpg', 12,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_13.jpg', 13,
        NULL,
@@ -209,7 +215,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_13.jpg', 13,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_14.jpg', 14,
@@ -219,7 +224,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_14.jpg', 14,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_15.jpg', 15,
        NULL,
@@ -227,7 +231,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_15.jpg', 15,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_16.jpg', 16,
@@ -237,7 +240,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_16.jpg', 16,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_17.jpg', 17,
        NULL,
@@ -245,7 +247,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_17.jpg', 17,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_18.jpg', 18,
@@ -255,7 +256,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_18.jpg', 18,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_19.jpg', 19,
        NULL,
@@ -263,7 +263,6 @@ SELECT id, 'foto', 'media/images/196918402/photo_19.jpg', 19,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 196918402;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/196918402/photo_20.jpg', 20,

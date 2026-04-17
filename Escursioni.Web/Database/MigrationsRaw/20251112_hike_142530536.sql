@@ -1,21 +1,32 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   142530536,
   'Asciano - Passo di Dante - Monte Castellare - Villa Bosniaski',
   'Escursione ad anello nel tardo pomeriggio/sera con partenza d''Asciano. Abbiamo iniziato dirigendoci verso il Passo di Dante per poi raggiungere il Monte Castellare, in seguito ci siamo diretti a Villa Bosniaski dove abbiamo cenato e in seguito siamo tornati alle Auto. Passo di Dante -> passo inserito da Dante nel 33° canto della Divina Commedia vv 28-30 e fa riferimento al dialogo che Dante, accompagnato dall’immancabile Virgilio, ha con Ugolino di Guelfo della Gherardesca, Conte di Donoratico, nel cerchio dei traditori. Villa Bosniaski -> La Villa detta del Polacco o Bosniaski è ormai un rudere, ma con un fascino incredibile perché si riesce ancora a percepire il lusso e lo sfarzo che ne hanno fatto da padroni prima che i Tedeschi durante la seconda guerra mondiale la requisissero per usarla come polveriera, esplosa aimè. Il Monte Castellare -> area naturale protetta di interesse locale italiana istituita nel 1997, situata nei pressi di San Giuliano Terme, in provincia di Pisa. Il Monte Castellare è un piccolo rilievo montuoso di 253 m sito nella parte sud occidentale della formazione montuosa del Monte Pisano.',
-  'Escursione ad anello nel tardo pomeriggio/sera con partenza d''Asciano. <br>Abbiamo iniziato dirigendoci verso il Passo di Dante per poi raggiungere il Monte Castellare, in seguito ci siamo diretti a Villa Bosniaski dove abbiamo cenato e in seguito siamo tornati alle Auto. <br> <br> Passo di Dante -> passo inserito da Dante nel 33° canto della Divina Commedia vv 28-30 e fa riferimento al dialogo che Dante, accompagnato dall’immancabile Virgilio, ha con Ugolino di Guelfo della Gherardesca, Conte di Donoratico, nel cerchio dei traditori. <br> <br> Villa Bosniaski -> La Villa detta del Polacco o Bosniaski è ormai un rudere, ma con un fascino incredibile perché si riesce ancora a percepire il lusso e lo sfarzo che ne hanno fatto da padroni prima che i Tedeschi durante la seconda guerra mondiale la requisissero per usarla come polveriera, esplosa aimè. <br> <br>Il Monte Castellare -> area naturale protetta di interesse locale italiana istituita nel 1997, situata nei pressi di San Giuliano Terme, in provincia di Pisa. Il Monte Castellare è un piccolo rilievo montuoso di 253 m sito nella parte sud occidentale della formazione montuosa del Monte Pisano.',
+  '<h2>Asciano - Passo di Dante - Monte Castellare - Villa Bosniaski: Trekking e Escursioni in Montagna</h2>
+
+<h3>Il percorso</h3>
+<p>
+Immergiti in un''indimenticabile <strong>escursione ad anello</strong> lungo i sentieri della **Montagna Pisana**. Questo trekking, ideale per amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>, ti condurrà attraverso paesaggi mozzafiato, partendo da <strong>Asciano</strong> e raggiungendo il suggestivo <strong>Passo di Dante</strong>, punto di riferimento letterario e storico. L''itinerario prosegue verso il <strong>Monte Castellare</strong>, un’area naturale protetta dove potrai ammirare la bellezza della **natura** pisana e, infine, si conclude con una visita alla <strong>Villa Bosniaski</strong>, un luogo ricco di storia e fascino.  Preparati per un’<strong>escursione in montagna</strong> di circa 15km con un dislivello di 600 metri, un''esperienza da non perdere per chi cerca un''avventura in Italia.
+</p>
+
+<h3>Cosa aspettarsi</h3>
+<ul>
+    <li>Un percorso ad anello di circa 15 km con un dislivello di 600 metri.</li>
+    <li>Possibilità di ammirare panorami mozzafiato sulla **Montagna Pisana**.</li>
+    <li>Visita al <strong>Passo di Dante</strong>, un luogo di grande interesse storico e letterario.</li>
+    <li>Esplorazione del <strong>Monte Castellare</strong>, un''area naturale protetta ricca di biodiversità.</li>
+    <li>Una passeggiata alla scoperta della <strong>Villa Bosniaski</strong>, con le sue vestigia di un passato sfarzoso.</li>
+</ul>
+
+<h3>Informazioni utili</h3>
+<p>
+Questa <strong>trekking</strong> da <strong>Asciano</strong> è adatta a escursionisti esperti, ma anche a coloro che cercano un''<strong>escursione</strong> impegnativa ma gratificante. Il percorso presenta alcune salite ripide, ma è ben segnalato e offre viste panoramiche incredibili.  E'' importante indossare scarpe da <strong>trekking</strong> adatte e portare con sé acqua, cibo e abbigliamento adeguato alle condizioni meteorologiche. Ricorda che il <strong>Passo di Dante</strong> è legato alla Divina Commedia di Dante Alighieri e alla figura di Ugolino di Donoratico, un''esperienza unica per gli appassionati di <strong>sentieri Italia</strong> e della letteratura.  La <strong>Villa Bosniaski</strong> rappresenta un testimonianza della storia locale, con le sue tracce della Seconda Guerra Mondiale. Considera di pianificare l''<strong>escursione</strong> per il tardo pomeriggio o la sera per godere della luce dorata e dei panorami serali. Se cerchi un''<strong>escursione</strong> nella **Montagna Pisana**, questo è il sentiero perfetto per te.
+</p>',
   'Tutte le Attività e Paesi',
   8.21,
   384,
@@ -42,7 +53,10 @@ VALUES (
   10.463103,
   'POINT(10.463103 43.756942)',
   '1e9a9aef61105bae2681a8f9f0f3c41e027024ad9691075af029fcd9b247c566',
-  NOW(), NOW()
+  'Escursione Passo di Dante, Monte Castellare & Villa Bosniaski! Anello suggestivo tra Dante, storia e natura toscana. Scopri il trekking!',
+  'Trekking Monte Castellare Asciano: Sentiero Villa Bosniaski',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +88,8 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +109,6 @@ SELECT id, 'cover', 'media/images/142530536/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/142530536/photo_01.jpg', 1,
        NULL,
@@ -101,7 +116,6 @@ SELECT id, 'foto', 'media/images/142530536/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/142530536/photo_02.jpg', 2,
@@ -111,7 +125,6 @@ SELECT id, 'foto', 'media/images/142530536/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/142530536/photo_03.jpg', 3,
        NULL,
@@ -119,7 +132,6 @@ SELECT id, 'foto', 'media/images/142530536/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/142530536/photo_04.jpg', 4,
@@ -129,7 +141,6 @@ SELECT id, 'foto', 'media/images/142530536/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/142530536/photo_05.jpg', 5,
        NULL,
@@ -137,7 +148,6 @@ SELECT id, 'foto', 'media/images/142530536/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/142530536/photo_06.jpg', 6,
@@ -147,7 +157,6 @@ SELECT id, 'foto', 'media/images/142530536/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/142530536/photo_07.jpg', 7,
        NULL,
@@ -155,7 +164,6 @@ SELECT id, 'foto', 'media/images/142530536/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/142530536/photo_08.jpg', 8,
@@ -165,7 +173,6 @@ SELECT id, 'foto', 'media/images/142530536/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/142530536/photo_09.jpg', 9,
        NULL,
@@ -173,7 +180,6 @@ SELECT id, 'foto', 'media/images/142530536/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/142530536/photo_10.jpg', 10,
@@ -183,7 +189,6 @@ SELECT id, 'foto', 'media/images/142530536/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/142530536/photo_11.jpg', 11,
        NULL,
@@ -191,7 +196,6 @@ SELECT id, 'foto', 'media/images/142530536/photo_11.jpg', 11,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/142530536/photo_12.jpg', 12,
@@ -201,7 +205,6 @@ SELECT id, 'foto', 'media/images/142530536/photo_12.jpg', 12,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/142530536/photo_13.jpg', 13,
        NULL,
@@ -209,7 +212,6 @@ SELECT id, 'foto', 'media/images/142530536/photo_13.jpg', 13,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/142530536/photo_14.jpg', 14,

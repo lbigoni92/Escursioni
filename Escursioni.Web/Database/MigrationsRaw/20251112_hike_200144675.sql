@@ -1,21 +1,33 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   200144675,
   'Cascate della Strolla, Fonte del latte e Pieve della Nera da Prato d''Era',
   'Percorso ad anello da Prato d''Era passando per: - Cascate della Strolla (4.8 km) - Fonte del latte (6.3 km) - Pieve della Nera (7.6 km) Per questo sentiero abbiamo attraversato i seguenti sentieri: Prato d''Era- Via FrancigenaMare- Anello della Riserva Naturale Montenero (con deviazione alle cascate del torrente Strolla) il tratto Anello della Riserva Naturale Montenero contiene tutte le parti più interessanti di questo percorso infatti qua troviamo: Cascate della Strolla, Fonte del latte e Pieve della Nera da Prato d''Era e la magnifica croce di Montenero. 📍 I resti del Castello di Poggio Casalone 🏰 Un''antica fortezza medievale Sulla sommità del Poggio Casalone si trovano i resti di un castello medievale risalente al X secolo, un tempo conteso tra Volterra e San Gimignano. 🌄 Un sentiero panoramico Dalla Pieve è possibile seguire un breve percorso che regala splendide vedute sulla Valle dello Strolla e sul percorso natura. 🛡️ Un importante punto strategico Grazie alle rupi calcaree che lo circondavano, il castello aveva una posizione difensiva privilegiata e dominava il territorio circostante. 🏗️ Le tracce del passato Oggi rimangono visibili pochi resti della struttura, tra cui parti delle mura e un’antica cisterna d’acqua, ormai avvolta dalla vegetazione. 🛤️ Un crocevia di storia e commercio Il castello controllava importanti vie di comunicazione, come la Via Salaiola e la Via Francigena, ed era un punto nevralgico per la transumanza tra Garfagnana e Maremma. 📜 Un luogo ricco di storia I primi documenti che citano il castrum della Nigra risalgono al 1100. Nel 1210 il castello passò definitivamente sotto il dominio di Volterra. 📷 Da visitare e scoprire! Un luogo affascinante che racconta secoli di storia, immerso in un paesaggio suggestivo tutto da esplorare!',
-  'Percorso ad anello da Prato d''Era passando per: <br>- Cascate della Strolla (4.8 km) <br>- Fonte del latte (6.3 km) <br>- Pieve della Nera (7.6 km) <br> <br>Per questo sentiero abbiamo attraversato i seguenti sentieri: <br>Prato d''Era- Via FrancigenaMare- Anello della Riserva Naturale Montenero (con deviazione alle cascate del torrente Strolla) <br> <br>il tratto Anello della Riserva Naturale Montenero contiene tutte le parti più interessanti di questo percorso infatti qua troviamo: <br>Cascate della Strolla, Fonte del latte e Pieve della Nera da Prato d''Era e la magnifica croce di Montenero. <br> <br>📍 I resti del Castello di Poggio Casalone <br> <br>🏰 Un''antica fortezza medievale <br>Sulla sommità del Poggio Casalone si trovano i resti di un castello medievale risalente al X secolo, un tempo conteso tra Volterra e San Gimignano. <br> <br>🌄 Un sentiero panoramico <br>Dalla Pieve è possibile seguire un breve percorso che regala splendide vedute sulla Valle dello Strolla e sul percorso natura. <br> <br>🛡️ Un importante punto strategico <br>Grazie alle rupi calcaree che lo circondavano, il castello aveva una posizione difensiva privilegiata e dominava il territorio circostante. <br> <br>🏗️ Le tracce del passato <br>Oggi rimangono visibili pochi resti della struttura, tra cui parti delle mura e un’antica cisterna d’acqua, ormai avvolta dalla vegetazione. <br> <br>🛤️ Un crocevia di storia e commercio <br>Il castello controllava importanti vie di comunicazione, come la Via Salaiola e la Via Francigena, ed era un punto nevralgico per la transumanza tra Garfagnana e Maremma. <br> <br>📜 Un luogo ricco di storia <br>I primi documenti che citano il castrum della Nigra risalgono al 1100. Nel 1210 il castello passò definitivamente sotto il dominio di Volterra. <br> <br>📷 Da visitare e scoprire! <br>Un luogo affascinante che racconta secoli di storia, immerso in un paesaggio suggestivo tutto da esplorare!',
+  '<h2>Escursione Trekking: Cascate della Strolla, Fonte del Latte e Pieve della Nera da Prato d''Era</h2>
+
+<h3>Il Percorso</h3>
+
+<p>Immergiti in un''escursione indimenticabile attraverso le <strong>cascate della Strolla</strong>, la suggestiva <strong>Fonte del Latte</strong> e la pittoresca <strong>Pieve della Nera</strong>, partendo da <strong>Prato d''Era</strong>. Questo percorso ad anello di trekking offre un''esperienza unica nella natura selvaggia della Toscana, ideale per appassionati di <strong>escursioni</strong> e <strong>trekking</strong> alla scoperta di panorami mozzafiato.  Esplora i sentieri che si snodano tra la <strong>montagna</strong> e la <strong>natura</strong>, un vero e proprio viaggio nel cuore dell''Appennino toscano.  Scopri il fascino dei sentieri Italia, perfetti per una giornata all''aria aperta.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<ul>
+    <li>Un percorso ad anello di varia difficoltà, adatto a escursionisti esperti e amanti del trekking.</li>
+    <li>Attraversamento di <strong>cascate</strong> spettacolari e torrenti impetuosi.</li>
+    <li>Possibilità di ammirare la <strong>Fonte del Latte</strong>, un luogo di grande bellezza naturale.</li>
+    <li>Visita alla <strong>Pieve della Nera</strong>, un importante punto di interesse storico e culturale.</li>
+    <li>Panorama mozzafiato sulla <strong>Valle dello Strolla</strong> e sul territorio circostante.</li>
+</ul>
+
+<h3>Informazioni Utili</h3>
+
+<p>Questo sentiero ad anello collega diverse località e offre opportunità di scoperta.  Il percorso include un tratto dell''<strong>Anello della Riserva Naturale Montenero</strong>, noto per le sue parti più interessanti, che culminano con la visita alle <strong>cascate della Strolla</strong>, alla <strong>Fonte del Latte</strong> e alla <strong>Pieve della Nera</strong>.  Il percorso inizia e termina a <strong>Prato d''Era</strong>, percorsa anche dalla <strong>Via Francigena</strong>.  La distanza totale del sentiero è di circa 7.6 km con un dislivello di 630 metri.  È consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack.  Approfitta di questa opportunità per un''avventura in <strong>montagna</strong>, immergendoti nella bellezza della <strong>natura</strong>.</p>
+
+<p>Non perdere la visita ai resti del <strong>Castello di Poggio Casalone</strong>, un''antica fortezza medievale che domina il paesaggio, e al punto panoramico con la magnifica <strong>croce di Montenero</strong>, un luogo ideale per ammirare le viste panoramiche.  Esplora le tracce del passato e la sua importanza strategica per le antiche vie di comunicazione tra <strong>Garfagnana</strong> e <strong>Maremma</strong>.</p>',
   'Tutte le Attività e Paesi',
   13.62,
   518,
@@ -42,7 +54,10 @@ VALUES (
   10.893175,
   'POINT(10.893175 43.431835)',
   '79aeedda160de2c0f72153d72f3c93400ae8d6506b92181f28f4a8812dae0b5c',
-  NOW(), NOW()
+  'Escursioni Toscana: Cascate Strolla, Fonte del Latte e Pieve Nera da Prato d''Era. Anello panoramico tra storia e natura! 🏞️',
+  'Trekking Cascate Strolla & Pieve Nera da Prato d''Era',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +89,8 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +110,6 @@ SELECT id, 'cover', 'media/images/200144675/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_01.jpg', 1,
        NULL,
@@ -101,7 +117,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_02.jpg', 2,
@@ -111,7 +126,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_03.jpg', 3,
        NULL,
@@ -119,7 +133,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_04.jpg', 4,
@@ -129,7 +142,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_05.jpg', 5,
        NULL,
@@ -137,7 +149,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_06.jpg', 6,
@@ -147,7 +158,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_07.jpg', 7,
        NULL,
@@ -155,7 +165,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_08.jpg', 8,
@@ -165,7 +174,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_09.jpg', 9,
        NULL,
@@ -173,7 +181,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_10.jpg', 10,
@@ -183,7 +190,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_11.jpg', 11,
        NULL,
@@ -191,7 +197,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_11.jpg', 11,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_12.jpg', 12,
@@ -201,7 +206,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_12.jpg', 12,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_13.jpg', 13,
        NULL,
@@ -209,7 +213,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_13.jpg', 13,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_14.jpg', 14,
@@ -219,7 +222,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_14.jpg', 14,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_15.jpg', 15,
        NULL,
@@ -227,7 +229,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_15.jpg', 15,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_16.jpg', 16,
@@ -237,7 +238,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_16.jpg', 16,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_17.jpg', 17,
        NULL,
@@ -245,7 +245,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_17.jpg', 17,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_18.jpg', 18,
@@ -255,7 +254,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_18.jpg', 18,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_19.jpg', 19,
        NULL,
@@ -263,7 +261,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_19.jpg', 19,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_20.jpg', 20,
@@ -273,7 +270,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_20.jpg', 20,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_21.jpg', 21,
        NULL,
@@ -281,7 +277,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_21.jpg', 21,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_22.jpg', 22,
@@ -291,7 +286,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_22.jpg', 22,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_23.jpg', 23,
        NULL,
@@ -299,7 +293,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_23.jpg', 23,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_24.jpg', 24,
@@ -309,7 +302,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_24.jpg', 24,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_25.jpg', 25,
        NULL,
@@ -317,7 +309,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_25.jpg', 25,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_26.jpg', 26,
@@ -327,7 +318,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_26.jpg', 26,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_27.jpg', 27,
        NULL,
@@ -335,7 +325,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_27.jpg', 27,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_28.jpg', 28,
@@ -345,7 +334,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_28.jpg', 28,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_29.jpg', 29,
        NULL,
@@ -353,7 +341,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_29.jpg', 29,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_30.jpg', 30,
@@ -363,7 +350,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_30.jpg', 30,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_31.jpg', 31,
        NULL,
@@ -371,7 +357,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_31.jpg', 31,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_32.jpg', 32,
@@ -381,7 +366,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_32.jpg', 32,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_33.jpg', 33,
        NULL,
@@ -390,7 +374,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_33.jpg', 33,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_34.jpg', 34,
        NULL,
@@ -398,7 +381,6 @@ SELECT id, 'foto', 'media/images/200144675/photo_34.jpg', 34,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 200144675;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/200144675/photo_35.jpg', 35,

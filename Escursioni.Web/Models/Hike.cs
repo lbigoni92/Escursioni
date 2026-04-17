@@ -36,6 +36,7 @@ public class Hike
     public string? GeomWkt { get; set; }
     public string? Sha256Payload { get; set; }
     public string? MetaDescrizione { get; set; }
+    public string? TitoloSeo { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
 

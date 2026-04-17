@@ -1,21 +1,35 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   226767789,
   'Treschietto - Pisciaron de pungitopo - Bagnone',
   'Percorso da Treschietto a Bagnone passando per: - Pisciaron de pungitopo (8.1 km)',
-  'Percorso da Treschietto a Bagnone passando per: <br>- Pisciaron de pungitopo (8.1 km)',
+  '<h2>Treschietto - Pisciaron de pungitopo - Bagnone: Trekking Esplorativo in Val Fortore</h2>
+
+<h3>Il Percorso</h3>
+
+<p>Preparati per un''escursione indimenticabile lungo il <strong>sentiero</strong> del <strong>Treschietto</strong>, un''immersione profonda nel cuore della <strong>Val Fortore</strong>. Questo percorso di <strong>trekking</strong>, che collega <strong>Treschietto</strong> a <strong>Bagnone</strong>, ti condurrà attraverso paesaggi mozzafiato, con panorami a perdita d''occhio sulla <strong>montagna</strong> e sulla <strong>natura</strong> incontaminata. Il tratto più impegnativo è il passaggio per il <strong>Pisciaron de pungitopo</strong>, un promontorio con una vista spettacolare.  L''escursione, ideale per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>, offre un''opportunità unica per esplorare i sentieri italiani e immergersi nella bellezza del territorio.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<p>Durante questa <strong>escursione</strong>, potrai ammirare la flora e la fauna locali, goderti la tranquillità della <strong>montagna</strong> e la possibilità di incontrare altri appassionati di <strong>trekking</strong>.  Questo <strong>sentiero</strong> offre una sfida moderata, perfetta per escursionisti esperti ma anche per chi desidera esplorare la <strong>natura</strong> con un''attività di <strong>trekking</strong>.  La difficoltà del percorso, con un dislivello significativo, richiede una buona preparazione fisica.  Non dimenticare di portare con te l''attrezzatura adeguata per un''<strong>escursione</strong> in <strong>montagna</strong>, inclusi scarpe da trekking robuste, acqua e cibo.</p>
+
+<h3>Informazioni Utili</h3>
+
+<ul>
+  <li><strong>Distanza:</strong> 8.1 km</li>
+  <li><strong>Dislivello:</strong> 880 m (salita)</li>
+  <li><strong>Difficoltà:</strong> Impegnativo</li>
+  <li><strong>Periodo Consigliato:</strong> Da maggio a ottobre</li>
+  <li><strong>Punto di Partenza:</strong> Treschietto</li>
+  <li><strong>Punto di Arrivo:</strong> Bagnone</li>
+  <li><strong>Tipo di Sentiero:</strong> Sentiero di <strong>trekking</strong> in <strong>montagna</strong>, perfetto per gli amanti della <strong>natura</strong> e dell''<strong>escursionismo</strong> in <strong>Italia</strong>.</li>
+</ul>
+
+<p>Esplora i <strong>sentieri</strong> più belli d''Italia con un''avventura di <strong>trekking</strong> a <strong>Bagnone</strong>.  Scopri il <strong>Pisciaron de pungitopo</strong> e goditi il panorama.  Un''esperienza di <strong>trekking</strong> autentica e indimenticabile ti aspetta!</p>',
   'Tutte le Attività e Paesi',
   20.31,
   355,
@@ -42,7 +56,10 @@ VALUES (
   10.017415,
   'POINT(10.017415 44.337207)',
   '093f8f99981794b1e091877cad20cb254ac11c16b3d7a32a361c6b4e6ec29427',
-  NOW(), NOW()
+  'Escursione Treschietto-Pisciaron de pungitopo: vista mozzafiato a Bagnone! Percorso di trekking 8km. Escursioni in Val Podgora.',
+  'Trekking Treschietto-Pisciaron Bagnone: Escursione Imperdibile!',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +91,8 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +112,6 @@ SELECT id, 'cover', 'media/images/226767789/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 226767789;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/226767789/photo_01.jpg', 1,
        NULL,
@@ -101,7 +119,6 @@ SELECT id, 'foto', 'media/images/226767789/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 226767789;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/226767789/photo_02.jpg', 2,
@@ -111,7 +128,6 @@ SELECT id, 'foto', 'media/images/226767789/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 226767789;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/226767789/photo_03.jpg', 3,
        NULL,
@@ -119,7 +135,6 @@ SELECT id, 'foto', 'media/images/226767789/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 226767789;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/226767789/photo_04.jpg', 4,
@@ -129,7 +144,6 @@ SELECT id, 'foto', 'media/images/226767789/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 226767789;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/226767789/photo_05.jpg', 5,
        NULL,
@@ -137,7 +151,6 @@ SELECT id, 'foto', 'media/images/226767789/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 226767789;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/226767789/photo_06.jpg', 6,
@@ -147,7 +160,6 @@ SELECT id, 'foto', 'media/images/226767789/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 226767789;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/226767789/photo_07.jpg', 7,
        NULL,
@@ -155,7 +167,6 @@ SELECT id, 'foto', 'media/images/226767789/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 226767789;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/226767789/photo_08.jpg', 8,
