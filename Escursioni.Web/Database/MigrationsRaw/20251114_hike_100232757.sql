@@ -1,13 +1,35 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   100232757,
   'Marina di Pisa',
   'Il percorso sarebbe stato ad anello, se non fosse per il fatto che c''ha preso la pioggia e siamo scappati alla macchina.Il percorso in realtà non è niente di più di una passeggiata nella pineta, non so perché segni 400mt di dislivello, in realtà è tutto piano.La pineta presenta percorsi larghi e ben segnati, lo consiglio come passeggiata post abbuffata o come passeggiata domenicale.Non ci sono fontanelle.Non importa usare scarpe da trekking.',
-  'Il percorso sarebbe stato ad anello, se non fosse per il fatto che c''ha preso la pioggia e siamo scappati alla macchina.<br><br>Il percorso in realtà non è niente di più di una passeggiata nella pineta, non so perché segni 400mt di dislivello, in realtà è tutto piano.<br><br>La pineta presenta percorsi larghi e ben segnati, lo consiglio come passeggiata post abbuffata o come passeggiata domenicale.<br><br>Non ci sono fontanelle.<br>Non importa usare scarpe da trekking.',
+  '<h2>Escursione al Sentiero della Marina di Pisa: Trekking nella Pineta</h2>
+
+<h3>Il Percorso</h3>
+
+<p>Questo percorso di <em>trekking</em> si snoda all''interno della maestosa <strong>pineta della Marina di Pisa</strong>, offrendo un''esperienza rilassante e immersiva nella <em>natura</em>. Anche se inizialmente indicato come un anello, la breve ma intensa pioggia ci ha costretto a interrompere l''escursione, rivelando una passeggiata prevalentemente pianeggiante.  Questo <em>sentiero</em>, facilmente percorribile, è ideale per chi cerca una <em>escursione</em> di facile esecuzione nella <strong>montagna</strong> toscana, perfetta per una giornata di <em>trekking</em> o semplicemente per godersi la tranquillità del bosco.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<p>Preparati a una piacevole passeggiata attraverso un ambiente naturale protetto, ricco di biodiversità. La <strong>pineta</strong> offre percorsi ampi e ben mantenuti, ideali per famiglie e per chiunque cerchi una <em>escursione</em> <em>trekking</em> a basso impatto ambientale. Nonostante la segnaletica che indica un dislivello di 400 metri, il percorso è in realtà prevalentemente pianeggiante, rendendolo accessibile a tutti i livelli di preparazione.  Considera questo <em>sentiero</em> come una perfetta pausa dopo un pranzo abbondante o come una piacevole <em>passeggiata domenicale</em>.</p>
+
+<h3>Informazioni Utili</h3>
+
+<ul>
+    <li><b>Tipo di Percorso:</b> Passeggiata/<em>Trekking</em></li>
+    <li><b>Difficoltà:</b> Facile</li>
+    <li><b>Distanza:</b> Circa 400 metri (indicati)</li>
+    <li><b>Dislivello:</b>  Praticamente nullo</li>
+    <li><b>Tempo di Percorrenza:</b> Circa 1-2 ore</li>
+    <li><b>Punti di Interesse:</b> Pineta della Marina di Pisa, ambiente naturale protetto</li>
+    <li><b>Servizi:</b> Nessuna fontanella presente</li>
+</ul>
+
+<p>Indipendentemente dal tipo di scarpe scelte, questo <em>sentiero</em> nella <strong>Marina di Pisa</strong> rappresenta un''ottima opportunità per un''<em>escursione</em> all''aria aperta e per immergerti nella bellezza della <em>natura</em> toscana.  Ricorda di portare con te acqua e snack, soprattutto se prevedi una lunga <em>passeggiata</em>.</p>',
   'Tutte le Attività e Paesi',
   7.9,
   7,
@@ -34,7 +56,8 @@ VALUES (
   10.277847,
   'POINT(10.277847 43.672442)',
   '200c793fb4760fab456d03d8714ae3d5baeb4ca17303e5576d3f33cf26bcf199',
-  'Escursione a Marina di Pisa: passeggiata facile nella pineta! Percorso piano, ideale per una passeggiata domenicale o dopo pranzo. Scopri la pineta di Pisa!',
+  'Escursioni Pisa: Pineta di Marina di Pisa, facile passeggiata! Perfetta per famiglie e relax. Scopri il sentiero lineare di 400m.',
+  'Trekking Pineta di Marina di Pisa: Escursione Facile',
   NOW(),
   NOW()
 )
@@ -69,6 +92,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

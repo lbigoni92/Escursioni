@@ -1,21 +1,46 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   181130960,
   'Cascate del Piscio e ponte della Colombara',
   'Cascate del Piscio e ponte della Colombara Il percorso si divide in due parti. La prima parte nella parte che arriva al ponte della Colombaia, questa parte è molto corta ed è molto carina il ponte è stato restaurato di recente e accanto adesso vi è una fontana, noi abbiamo deciso di scendere e vedere anche la cascata da sotto il ponte state attenti se lo fate il percorso non è dei meglio tenuti. La seconda parte è quella principale che ci ha spinto ad arrivare fin qua, partendo dal paesino di pannocchia abbiamo deciso di intraprendere il sentiero che portava alle Cascate del piscio, Il sentiero è molto semplice e lineare difficile da perdersi l''unico bivio che si presenta è ben segnato e si deve girare a sinistra,in un paio di punti il sentiero presenta delle piccole frane ma niente che non si possa superare. Durante il percorso per la cascata si passa anche al vicino a un''altra cascata che mi sarebbe piaciuto visitare ma in meso non era messo benissimo e per questa volta ho deciso di passare oltre visto che la discesa sarebbe stata non proprio ortodossa arrivati alle cascate, vi sono numerosi posti dove sederci e fare un bagno è d''obbligo in quanto l''acqua è cristallina e le cascate meravigliose, torneremo sicuramente in questo posto.',
-  'Cascate del Piscio e ponte della Colombara <br>Il percorso si divide in due parti. <br>La prima parte nella parte che arriva al ponte della Colombaia, questa parte è molto corta ed è molto carina il ponte è stato restaurato di recente e accanto adesso vi è una fontana, noi abbiamo deciso di scendere e vedere anche la cascata da sotto il ponte state attenti se lo fate il percorso non è dei meglio tenuti. <br>La seconda parte è quella principale che ci ha spinto ad arrivare fin qua, partendo dal paesino di pannocchia abbiamo deciso di intraprendere il sentiero che portava alle Cascate del piscio, Il sentiero è molto semplice e lineare difficile da perdersi l''unico bivio che si presenta è ben segnato e si deve girare a sinistra,in un paio di punti il sentiero presenta delle piccole frane ma niente che non si possa superare. <br>Durante il percorso per la cascata si passa anche al vicino a un''altra cascata che mi sarebbe piaciuto visitare ma in meso non era messo benissimo e per questa volta ho deciso di passare oltre visto che la discesa sarebbe stata non proprio ortodossa arrivati alle cascate, vi sono numerosi posti dove sederci e fare un bagno è d''obbligo in quanto l''acqua è cristallina e le cascate meravigliose, torneremo sicuramente in questo posto.',
+  '<h2>Cascate del Piscio e Ponte della Colombara: Trekking e Escursioni in Montagna</h2>
+
+<h3>Il Percorso</h3>
+
+<p>
+Questo sentiero di <strong>trekking</strong> e <strong>escursione</strong> vi porterà alla scoperta delle spettacolari <strong>cascate del Piscio</strong> e del suggestivo <strong>ponte della Colombara</strong>. Il percorso è diviso in due parti: la prima, breve e affascinante, conduce al <strong>ponte restaurato</strong> con la sua <strong>fontana</strong>, mentre la seconda parte è la vera e propria <strong>escursione</strong> che vi condurrà alle <strong>cascate</strong>. 
+</p>
+
+<p>
+L''intero <strong>sentiero</strong> si snoda in modo semplice e lineare, facile da seguire, con un <em>unico bivio</em> ben segnalato che richiede una svolta a sinistra. Pur presentando alcune piccole <strong>frane</strong> in alcuni punti, il percorso è superabile senza difficoltà, rendendolo adatto anche a <strong>trekking</strong> di livello base e medio.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<p>
+Preparatevi ad un''esperienza immersa nella natura incontaminata, dove potrete ammirare la bellezza delle <strong>cascate</strong>, l''acqua cristallina e la fauna locale. L''<strong>escursione</strong> vi regalerà panorami mozzafiato e la possibilità di fare un bagno rinfrescante nelle pozze naturali. 
+</p>
+
+<p>
+Questo <strong>sentiero in montagna</strong> è perfetto per chi cerca un''<strong>escursione</strong> di un giorno, un''occasione per connettersi con la natura e vivere un''esperienza di <strong>trekking</strong> indimenticabile nel cuore dell''Italia. Ricordate di indossare scarpe da <strong>trekking</strong> adatte e di portare con voi acqua e snack per affrontare al meglio l''<strong>escursione</strong>.</p>
+
+<h3>Informazioni Utili</h3>
+
+<ul>
+    <li><strong>Località:</strong> Pannocchia</li>
+    <li><strong>Difficoltà:</strong> Facile/Media</li>
+    <li><strong>Distanza:</strong> Circa 5 km (andata e ritorno)</li>
+    <li><strong>Dislivello:</strong> Circa 200 metri</li>
+    <li><strong>Tipo di Sentiero:</strong> Sentiero di <strong>trekking</strong></li>
+    <li><strong>Punti di Interesse:</strong> Ponte della Colombara, Cascate del Piscio, Fontana, Cascate secondarie.</li>
+    <li><strong>Consigli:</strong>  Indossare scarpe da <strong>trekking</strong>, portare acqua e snack, fare attenzione alle frane, rispettare l''ambiente.</li>
+</ul>
+
+<p>
+Questo <strong>sentiero per escursioni</strong> è un''ottima opportunità per scoprire le bellezze naturali della regione e vivere un''esperienza di <strong>trekking</strong> emozionante e rigenerante. Non perdete l''occasione di visitare le <strong>cascate del Piscio</strong> e il <strong>ponte della Colombara</strong>! </p>',
   'Tutte le Attività e Paesi',
   5.89,
   242,
@@ -42,7 +67,10 @@ VALUES (
   9.959625,
   'POINT(9.959625 44.427482)',
   '052bbc48678b91280830de99e7c61dff2c059c4a548dac6528b5e571f7019b26',
-  NOW(), NOW()
+  'Escursioni Cascate Piscio & Ponte Colombara: sentiero facile, cascate spettacolari e immersione nell''acqua cristallina! Scopri il sentiero in Umbria.',
+  'Trekking Cascate Piscio: Ponte Colombara - Sentiero Facile',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +102,8 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +123,6 @@ SELECT id, 'cover', 'media/images/181130960/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_01.jpg', 1,
        NULL,
@@ -101,7 +130,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_02.jpg', 2,
@@ -111,7 +139,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_03.jpg', 3,
        NULL,
@@ -119,7 +146,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_04.jpg', 4,
@@ -129,7 +155,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_05.jpg', 5,
        NULL,
@@ -137,7 +162,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_06.jpg', 6,
@@ -147,7 +171,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_07.jpg', 7,
        NULL,
@@ -155,7 +178,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_08.jpg', 8,
@@ -165,7 +187,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_09.jpg', 9,
        NULL,
@@ -173,7 +194,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_10.jpg', 10,
@@ -183,7 +203,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_11.jpg', 11,
        NULL,
@@ -191,7 +210,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_11.jpg', 11,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_12.jpg', 12,
@@ -201,7 +219,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_12.jpg', 12,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_13.jpg', 13,
        NULL,
@@ -209,7 +226,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_13.jpg', 13,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_14.jpg', 14,
@@ -219,7 +235,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_14.jpg', 14,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_15.jpg', 15,
        NULL,
@@ -227,7 +242,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_15.jpg', 15,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_16.jpg', 16,
@@ -237,7 +251,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_16.jpg', 16,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_17.jpg', 17,
        NULL,
@@ -246,7 +259,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_17.jpg', 17,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_18.jpg', 18,
        NULL,
@@ -254,7 +266,6 @@ SELECT id, 'foto', 'media/images/181130960/photo_18.jpg', 18,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 181130960;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/181130960/photo_19.jpg', 19,

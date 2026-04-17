@@ -1,32 +1,49 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   115763698,
   'Via Ferrata del Monte Forato e Via Ferrata del Monte Procinto - FriendsInTrekking',
   'Partendo dal Rifugio dell''Alto Matanna abbiamo fatto : Ferrata del monte Procinto: La Via Ferrata del Monte Forato e Via Ferrata del Monte Procinto, in uno splendido anello. Il percorso è durato circa 10 ore, faticoso ma fattibilissimo se si è ben allenati. La ferrata del Monte Procinto è la ferrata più antica d''Italia e risale al 1893, poi ristrutturata più volte in seguito (ultima revisione nel 2020). La via è intitolata ad Aristide Bruni che salì nel 1879 per primo assieme ad altri questo singolare monte. La salita fu la prima salita documentata sebbene si creda che il Procinto fosse già stato salito da boscaioli locali. La via di salita venne convertita in percorso attrezzato col supporto del CAI di Firenze di cui Bruni era membro. Ferrata del monte Forato: La Ferrata è intitolata alla memoria di Renato Salvatori, vice presidente del CAI di Forte dei Marmi. La via fu installata nell''autunno del 1977, inaugurata nel 1978 e rinnovata nel 1998. Per fare entrambi i sentieri vige l''obbligo di: Abbigliamento Adeguato, Attrezzatura da ferrata e non soffrire di vertigini',
-  '<h2>Via Ferrata del Monte Forato e Via Ferrata del Monte Procinto - Trekking in Montagna a Firenze</h2>
+  '<h2>Via Ferrata del Monte Forato e Via Ferrata del Monte Procinto - Trekking in Montagna</h2>
 
 <h3>Il Percorso</h3>
 
-<p>Preparatevi per un''emozionante escursione in <strong>montagna</strong> che vi condurrà attraverso due delle più affascinanti <strong>vie ferrata</strong> d''Italia! Partendo dal <strong>Rifugio dell''Alto Matanna</strong>, intraprenderete un anello spettacolare che include la <strong>Via Ferrata del Monte Forato</strong> e la <strong>Via Ferrata del Monte Procinto</strong>. Questo <strong>trekking</strong> di circa 10 ore rappresenta una sfida gratificante, adatta a escursionisti ben allenati e appassionati di <strong>sentieri</strong> e <strong>naturale</strong>. Ammirerete panorami mozzafiato e la maestosità di questi iconici monti toscani, un''esperienza indimenticabile per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in Italia.</p>
+<p>
+Immergetevi in un''esperienza di <strong>trekking</strong> indimenticabile con il circuito che combina la <strong>Via Ferrata del Monte Procinto</strong> e la <strong>Via Ferrata del Monte Forato</strong>. Partendo dal suggestivo <strong>Rifugio dell''Alto Matanna</strong>, questo anello di circa 10 ore vi condurrà attraverso paesaggi mozzafiato della <strong>montagna toscana</strong>. 
+</p>
+
+<p>
+Questo <strong>sentiero escursionistico</strong> è un''avventura adatta a escursionisti esperti e ben allenati. La <strong>Via Ferrata del Monte Procinto</strong>, la più antica d''Italia (risalente al 1893), offre una sfida tecnica affascinante, mentre la <strong>Ferrata del Monte Forato</strong>, dedicata alla memoria di Renato Salvatori, rappresenta una sfida di <strong>trekking</strong> più impegnativa ma altrettanto gratificante.
+</p>
 
 <h3>Cosa Aspettarsi</h3>
 
 <ul>
-  <li><strong>Via Ferrata del Monte Procinto:</strong> La più antica <strong>via ferrata</strong> d''Italia, risalente al 1893, offre una sfida tecnica e storica. Questa <strong>via ferrata</strong>, intitolata ad <strong>Aristide Bruni</strong>, vi farà rivivere la prima salita documentata di questo monte e l''importanza del CAI di Firenze.</li>
-  <li><strong>Via Ferrata del Monte Forato:</strong> Intitolata a <strong>Renato Salvatori</strong>, questa <strong>via ferrata</strong> più recente, inaugurata nel 1978, presenta tratti tecnici impegnativi e panorami spettacolari.</li>
-  <li>Anello di circa 10 ore con un dislivello considerevole, adatto a escursionisti esperti.</li>
-  <li>Opportunità di ammirare la flora e la fauna tipiche della <strong>montagna</strong> toscana.</li>
+    <li>Percorso ad anello di circa 10 ore</li>
+    <li>Difficoltà: Difficile - Richiede esperienza di <strong>trekking</strong> e <strong>ferrata</strong></li>
+    <li>Distanza: Circa 12 km (linea base)</li>
+    <li>Altitudine: Dal Rifugio dell''Alto Matanna (1.633m)</li>
+    <li>Dislivello: Circa 800m di dislivello positivo</li>
+    <li>La <strong>Via Ferrata del Monte Procinto</strong> è la ferrata più antica d''Italia, con una storia ricca e affascinante.</li>
+    <li>La <strong>Ferrata del Monte Forato</strong> offre panorami spettacolari sulla valle sottostante.</li>
 </ul>
+
+<p>
+Godetevi la bellezza della <strong>natura</strong>, l''aria fresca di montagna e la sensazione di superare nuove sfide in questo incredibile <strong>sentiero trekking</strong>. 
+</p>
 
 <h3>Informazioni Utili</h3>
 
-<p>La <strong>Via Ferrata del Monte Procinto</strong> è la ferrata più antica d''Italia, ristrutturata nel 2020 e che risale al 1893.  La <strong>Ferrata del Monte Forato</strong> è stata installata nel 1977 e rinnovata nel 1998.  Questa <strong>escursione</strong> richiede una buona preparazione fisica e un''attrezzatura adeguata.  È fondamentale avere un''adeguata esperienza nelle <strong>vie ferrata</strong> e non soffrire di vertigini.  L''obbligo di <strong>abbigliamento adeguato</strong> e <strong>attrezzatura da ferrata</strong> è rispettato scrupolosamente.  Questo <strong>sentiero</strong> offre una fantastica opportunità per l''<strong>trekking</strong> nella splendida regione della Toscana.  Pianificate attentamente la vostra <strong>escursione</strong> per godervi appieno questa incredibile esperienza di <strong>sentiero</strong> e <strong>montagna</strong>.</p>
+<p>
+Per completare con successo questa <strong>escursione</strong>, è fondamentale essere in ottima forma fisica e possedere esperienza di <strong>trekking</strong> e <strong>ferrata</strong>. Vige l''obbligo di indossare <strong>abbigliamento adeguato</strong> e di utilizzare <strong>attrezzatura da ferrata</strong>. È inoltre essenziale non soffrire di <strong>vertigini</strong>. 
+</p>
 
-<p><em>Ricordatevi di verificare le condizioni meteo prima di partire e di informarvi sulle eventuali restrizioni o divieti.</em></p>',
+<p>
+Prima di intraprendere l''avventura, controllate sempre le condizioni meteorologiche e informatevi presso le autorità locali. Ricordate che la sicurezza è sempre la priorità.
+</p>',
   'Tutte le Attività e Paesi',
   12.93,
   2,
@@ -53,7 +70,8 @@ VALUES (
   10.345135,
   'POINT(10.345135 43.987495)',
   'e54ff7eae6d50a4849783c7347b203e4e07ed9e4d3cd7730c18a064b13697778',
-  'Via Ferrata Monte Forato & Monte Procinto: Anello spettacolare in Toscana! Ferrata storica, vista mozzafiato e adrenalina pura. Informazioni e prenotazioni!',
+  'Via Ferrata Monte Forato & Procinto: Anello spettacolare in Toscana! 10h di fatica per la ferrata più antica d''Italia. Prenota ora!',
+  'Trekking Via Ferrata Monte Procinto & Forato - Italia',
   NOW(),
   NOW()
 )
@@ -88,6 +106,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

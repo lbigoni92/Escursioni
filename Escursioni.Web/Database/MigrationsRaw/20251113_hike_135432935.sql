@@ -1,13 +1,35 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   135432935,
   'Gabbro- monte Carvoli',
   'Percorso improvvisato all''ultimo, doveva essere molto più lungo ma è stato interrotto dalla pioggia improvvisa... I vare sentieri che vedete iniziati ma non finiti sono così perchè completamenti immersi nella vegetazione e non più percorribili. Il monte merita molto con i sui tre balconi panoramici.',
-  'Percorso improvvisato all''ultimo, doveva essere molto più lungo ma è stato interrotto dalla pioggia improvvisa... <br>I vare sentieri che vedete iniziati ma non finiti sono così perchè completamenti immersi nella vegetazione e non più percorribili. <br> <br>Il monte merita molto con i sui tre balconi panoramici.',
+  '<h2>Gabbro- Monte Carvoli: Trekking e Escursioni tra i Balconi Panoramici</h2>
+
+<h3>Il Percorso</h3>
+
+<p>Preparatevi per un''escursione indimenticabile lungo il <strong>sentiero Gabbro- Monte Carvoli</strong>, un percorso improvvisato che vi porterà a scoprire uno dei punti più suggestivi delle Langhe. Questo <strong>trekking</strong> in <strong>montagna</strong>, ideale per gli amanti della <strong>natura</strong> e del <strong>trekking</strong>, si snoda attraverso un paesaggio unico, caratterizzato da roccia calcarea e dalla profonda immersione nella vegetazione. Nonostante le condizioni del terreno, il sentiero offre panorami mozzafiato, con tre balconi panoramici che ampliano la visuale e vi lasceranno senza fiato. La difficoltà del <strong>sentiero</strong> è media, adatto a escursionisti esperti e a famiglie con bambini che desiderano un''esperienza di <strong>escursione</strong> fuori dai soliti circuiti.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<p>Durante il vostro <strong>trekking</strong> verso il <strong>Monte Carvoli</strong>, vi troverete immersi in un ambiente incontaminato, ricco di biodiversità e di flora autoctona. L''escursione vi permetterà di ammirare le caratteristiche formazioni geologiche del <strong>gabbro</strong>, testimonianza di un passato vulcanico. Preparatevi a un''esperienza autentica di <strong>trekking</strong> in <strong>Italia</strong>, lontano dal caos cittadino, dove potrete riconnettervi con la <strong>natura</strong> e godervi la tranquillità della <strong>montagna</strong>. Questo <strong>sentiero</strong>, sebbene non completato, rimane un''opportunità unica per esplorare le zone più remote e selvagge delle Langhe, offrendo un''esperienza di <strong>escursione</strong> emozionante e gratificante.  La pioggia improvvisa ha interrotto il percorso, rendendolo in parte inaccessibile, ma la ricompensa per l''escursione è comunque immensa.</p>
+
+<h3>Informazioni Utili</h3>
+
+<ul>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Distanza:</strong> Percorso improvvisato, lunghezza variabile a seconda dell''accessibilità</li>
+  <li><strong>Dislivello:</strong> Circa 300-400 metri</li>
+  <li><strong>Durata:</strong> 3-4 ore (a seconda del passo e delle soste)</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Equipaggiamento:</strong> Scarpe da trekking, abbigliamento a strati, acqua, cibo, cappello, crema solare, bastoncini da trekking (consigliati)</li>
+  <li><strong>Località:</strong> Langhe, Piemonte, Italia - Sentiero accessibile solo in condizioni di asciutto</li>
+</ul>
+
+<p>Questo <strong>sentiero</strong>, un''escursione di <strong>trekking</strong> nel <strong>Monte Carvoli</strong>, vi regala una giornata di adrenalina e panorami mozzafiato. Non perdetevi l''opportunità di scoprire questo angolo di <strong>Italia</strong>, ricco di storia e di bellezze naturali. Ricordatevi di rispettare l''ambiente e di seguire le indicazioni per un''esperienza di <strong>escursione</strong> sicura e responsabile.</p>',
   'Tutte le Attività e Paesi',
   7.05,
   157,
@@ -34,7 +56,8 @@ VALUES (
   10.416567,
   'POINT(10.416567 43.46409)',
   '0548de93bb4d93e0c628be6e838427db3ea39cae841ef6593c53216c91a5d8e0',
-  'Escursione al Monte Carvoli: Gabbro e panorami mozzafiato! Percorso impervio ma ricca di balconi e sentieri suggestivi. Scopri la natura!',
+  'Escursione Gabbro Monte Carvoli: panorami mozzafiato e suggestivi balconi. Percorso impervio ma gratificante! Scopri la natura ligure.',
+  'Trekking Monte Carvoli: Gabbro, Sentieri e Panorami',
   NOW(),
   NOW()
 )
@@ -69,6 +92,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

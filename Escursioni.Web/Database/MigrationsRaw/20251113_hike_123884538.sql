@@ -1,34 +1,33 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   123884538,
   'Cascatelle dell''infernaccio - Poggio corbolone - Villa Cristina',
   'Escursione mattutina molto bella specialmente per le cascate dell''infernaccio che erano belle rigogliose dopo delle piogge.Il percorso era abbastanza umido anche perché aveva piovuto i giorni precedenti, l''unica salita che sia degna di questo nome è quella a Poggio Corbolone dal quale è possibile avere una vista unica su Livorno.Un altro punto di particolare interesse è il punto panoramico sopra villa Cristiana, dal quale si ha una vita unica sui monti pisani e apuane.Il percorso è corto ed è adatto a una mezza giornata.Raccomando vivamente Scarponi viste le zone iniziali che sono umide specialmente dopo delle pioggie.',
-  '<h2>Cascatelle dell''Infernaccio - Poggio Corbolone - Villa Cristina: Trekking e Escursioni in Montagna</h2>
+  '<h2>Cascatelle dell''Infernaccio – Poggio Corbolone – Villa Cristina: Escursione Trekking in Montagna</h2>
 
 <h3>Il Percorso</h3>
-
-<p>Preparatevi per un''incantevole <strong>escursione trekking</strong> attraverso il cuore della **Montagna Pisana**! Il sentiero Cascatelle dell''Infernaccio - Poggio Corbolone - Villa Cristina vi condurrà in un''avventura di <strong>sentieri in natura</strong>, un''opportunità unica per scoprire panorami mozzafiato e la bellezza incontaminata della regione. Questo <strong>trekking</strong> di mezza giornata è perfetto per chi cerca un''<strong>escursione facile</strong>, ma ricca di sorprese. Il percorso è caratterizzato da un mix di dislivelli e tratti pianeggianti, ideale per un''esperienza di <strong>escursionismo</strong> memorabile.</p>
+<p>Questa <strong>escursione trekking</strong> alla <strong>Cascatelle dell''Infernaccio</strong>, passando per <strong>Poggio Corbolone</strong> e raggiungendo <strong>Villa Cristina</strong>, offre un''esperienza indimenticabile nel cuore della natura toscana. Il sentiero è progettato per una <strong>mezza giornata di trekking</strong>, permettendo di ammirare paesaggi mozzafiato e godersi la tranquillità della <strong>montagna pisana</strong>. L''itinerario è prevalentemente in salita, con una sezione impegnativa verso <strong>Poggio Corbolone</strong>, ma le ricompense ne valgono ampiamente la pena. La <strong>sentiero</strong> permette di raggiungere punti panoramici unici e di immergersi nella bellezza selvaggia della regione.</p>
 
 <h3>Cosa Aspettarsi</h3>
-
-<p>Durante questa <strong>escursione</strong>, sarete immersi nella maestosità delle <strong>cascatelle dell''Infernaccio</strong>, particolarmente spettacolari dopo le recenti piogge, con la loro vegetazione rigogliosa. La salita a <strong>Poggio Corbolone</strong> è l''unico tratto impegnativo, ma la ricompensa è una vista panoramica a 360 gradi su <strong>Livorno</strong> e l''entroterra.  Il punto panoramico sopra <strong>Villa Cristina</strong> offre una vista impareggiabile sui monti pisani e apuani, un vero gioiello per gli amanti della <strong>natura e del trekking</strong>.</p>
+<p>Preparatevi a un''<strong>escursione in natura</strong> ricca di sorprese. Il sentiero vi condurrà attraverso boschi lussureggianti, cascate impetuose, e panorami spettacolari. L''umidità del terreno, dovuta alle recenti piogge, rende il percorso interessante e stimolante.  Non mancheranno le opportunità per ammirare la flora e la fauna locali, rendendo questa <strong>trekking</strong> un''esperienza educativa e rilassante. La vista da <strong>Poggio Corbolone</strong> e dal punto panoramico sopra <strong>Villa Cristina</strong> è semplicemente impagabile. È consigliabile prepararsi ad affrontare un''escursione in condizioni di umidità, soprattutto dopo piogge.</p>
 
 <h3>Informazioni Utili</h3>
-
 <ul>
-  <li><b>Difficoltà:</b> Facile/Media</li>
-  <li><b>Distanza:</b> Circa 8-10 km</li>
-  <li><b>Dislivello:</b> Circa 400-500 metri</li>
-  <li><b>Tempo di percorrenza:</b> 3-4 ore</li>
-  <li><b>Periodo consigliato:</b> Primavera/Estate/Autunno (evitare l''inverno a causa del freddo e del maltempo)</li>
-  <li><b>Punti di Interesse:</b> Cascate dell''Infernaccio, Poggio Corbolone (vista Livorno), Punto Panoramico Villa Cristina (vista monti pisani e apuani)</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Distanza:</strong> Circa 8-10 km</li>
+    <li><strong>Dislivello:</strong> Circa 400-500 metri</li>
+    <li><strong>Durata:</strong> Mezza giornata (4-5 ore)</li>
+    <li><strong>Periodo Consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Equipaggiamento Consigliato:</strong> Scarponi da trekking, bastoncini da trekking, abbigliamento a strati, acqua, cibo, cappello, crema solare</li>
+    <li><strong>Punto di Partenza:</strong>  A seconda del punto di partenza scelto, si raggiunge il sentiero attraverso diversi tratti, consultare mappe escursionistiche locali.</li>
+    <li><strong>Informazioni aggiuntive:</strong> È consigliabile verificare le condizioni meteo prima di partire e informarsi sulle eventuali restrizioni o chiusure del sentiero.  La <strong>sentiero escursionistica</strong> è un''ottima opportunità per praticare <strong>trekking</strong> in <strong>Italia</strong>.</li>
 </ul>
 
-<p><strong>Attenzione:</strong> A causa delle condizioni iniziali umide del <strong>sentiero</strong>, soprattutto dopo le piogge, consigliamo vivamente di indossare <strong>scarponi da trekking</strong> adeguati per garantire una camminata sicura e confortevole.  Questa <strong>escursione in montagna</strong> vi regalerà emozioni indimenticabili e la possibilità di apprezzare la bellezza del territorio circostante.  Esplorate il fascino dei <strong>sentieri Italia</strong>!</p>',
+<p>Questa <strong>escursione sentiero</strong> è ideale per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>, offrendo un''esperienza autentica nella <strong>natura italiana</strong>. Non perdetevi la bellezza delle <strong>cascate dell''Infernaccio</strong> e i panorami mozzafiato sulla <strong>Montagna Pisana</strong> e sugli <strong>Apuani</strong>. Ricordate di rispettare l''ambiente e di lasciare i sentieri puliti.  La <strong>trekking</strong> è un ottimo modo per esplorare la <strong>Montagna</strong> e godersi un''esperienza unica. </p>',
   'Tutte le Attività e Paesi',
   7.99,
   325,
@@ -55,7 +54,8 @@ VALUES (
   10.400475,
   'POINT(10.400475 43.558868)',
   '809eaf9b1f33befd7aa2c14fc8ffe98042e9bc84e21ed0fb8190e0dc13d7c4ba',
-  'Escursione Cascatelle dell''Infernaccio: sentiero facile a Poggio Corbolone con vista Livorno! Cascate rigogliose e panorami mozzafiato sui Monti Pisani.',
+  'Escursione Cascate dell''Infernaccio: Poggio Corbolone & Villa Cristina. Vista mozzafiato su Livorno e Monti Pisani. Percorso breve e facile. Scarponi consigl...',
+  'Trekking Cascate Infernaccio Poggio Corbolone: Vista Livorno',
   NOW(),
   NOW()
 )
@@ -90,6 +90,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

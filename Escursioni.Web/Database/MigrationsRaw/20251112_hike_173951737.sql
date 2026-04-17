@@ -1,21 +1,31 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   173951737,
   'Convento Di Nicosia, Monte Verruca e La Focetta da Caprona',
   'Percorso ad anello da Caprona passando per: - Convento Di Nicosia (2.1 km) - Fonte di Sant''Agata (2.4 km) - Monte Verruca (5.0 km) - La Focetta (8.1 km) Il Sentiero, passa sia dalla “Torre degli Upezzinghi" conosciuta anche come "torre di Caprona", caratteristica della zona in quanto costruita sullo sperone roccioso del monte che sovrasta il paese di Caprona sia dalla fortezza vicina conosciuta come, come la Rocca della Verruca. Il percorso è abbastanza facile da seguire anche se c''è qualche roccetta a cui prestare attenzione in vari tratti, specialmente nella salita alla Verruca, si deve prestare attenzione in caso di pioggia. I sentieri sono sempre abbastanza larghi e in alcuni tratti si piò camminare affiancati. Non ci sono fontanelle se non un paio nei primi 2 km ma nel nostro caso erano in secca, non prestateci troppo affidamento. Senieri: 143-139-La Focetta-145-139-arrivo -139 -focetta-strada bianca',
-  'Percorso ad anello da Caprona passando per: <br>- Convento Di Nicosia (2.1 km) <br>- Fonte di Sant''Agata (2.4 km) <br>- Monte Verruca (5.0 km) <br>- La Focetta (8.1 km) <br> <br>Il Sentiero, passa sia dalla “Torre degli Upezzinghi" conosciuta anche come "torre di Caprona", caratteristica della zona in quanto costruita sullo sperone roccioso del monte che sovrasta il paese di Caprona sia dalla fortezza vicina conosciuta come, come la Rocca della Verruca. <br> <br> <br>Il percorso è abbastanza facile da seguire anche se c''è qualche roccetta a cui prestare attenzione in vari tratti, specialmente nella salita alla Verruca, si deve prestare attenzione in caso di pioggia. <br> <br>I sentieri sono sempre abbastanza larghi e in alcuni tratti si piò camminare affiancati. <br> <br>Non ci sono fontanelle se non un paio nei primi 2 km ma nel nostro caso erano in secca, non prestateci troppo affidamento. <br> <br>Senieri: 143-139-La Focetta-145-139-arrivo -139 -focetta-strada bianca',
+  '<h2>Convento Di Nicosia, Monte Verruca e La Focetta da Caprona: Trekking in Toscana</h2>
+
+<h3>Il Percorso: Un Anello da Capitolo Storico</h3>
+<p>Questo <strong>trekking</strong> in Toscana vi condurrà attraverso un percorso ad anello mozzafiato, partendo da <strong>Caprona</strong> e toccando alcuni dei luoghi più iconici della zona.  L''<strong>escursione</strong>, di circa 8.1 km, è pensata per appassionati di <strong>trekking</strong> e <strong>sentieri</strong> che desiderano immergersi nella natura selvaggia della <strong>montagna toscana</strong>. Il percorso offre panorami spettacolari sul paesaggio collinare e sulle cime rocciose, un''esperienza indimenticabile per chi ama l''<strong>escursionismo</strong> in <strong>Italia</strong>. La difficoltà è media, con qualche tratto roccioso da affrontare, quindi è consigliabile indossare scarpe da trekking adatte.</p>
+
+<h3>Cosa Aspettarsi: Natura, Storia e Viste Panoramiche</h3>
+<p>Preparatevi a una giornata all''aria aperta tra la storia e la bellezza della natura. Il <strong>sentiero</strong> vi porterà attraverso il complesso monastico del <strong>Convento Di Nicosia</strong>, un luogo di grande interesse storico e architettonico. Ammirerete la <strong>Fonte di Sant''Agata</strong>, un''oasi di quiete e un''importante risorsa idrica per la zona. La salita al <strong>Monte Verruca</strong> vi ricompenserà con una vista a 360 gradi sulla campagna toscana. Infine, arriverete a <strong>La Focetta</strong>, un piccolo borgo alle pendici della <strong>Rocca della Verruca</strong>, dove potrete concludere la vostra <strong>escursione</strong> con una meritata pausa.</p>
+
+<h3>Informazioni Utili: Dettagli del Trekking</h3>
+<ul>
+    <li><b>Distanza Totale:</b> 8.1 km</li>
+    <li><b>Dislivello:</b> Circa 450 metri</li>
+    <li><b>Difficoltà:</b> Media</li>
+    <li><b>Punti di Interesse:</b> <strong>Convento Di Nicosia</strong>, <strong>Fonte di Sant''Agata</strong>, <strong>Monte Verruca</strong>, <strong>La Focetta</strong>, <strong>Torre degli Upezzinghi</strong> (Torre di Caprona), <strong>Rocca della Verruca</strong></li>
+    <li><b>Segnavia:</b> Il <strong>sentiero</strong> è ben segnalato, con numeri di riferimento: 143-139-La Focetta-145-139-arrivo -139 -focetta-strada bianca</li>
+    <li><b>Consigli:</b> Prestare attenzione in caso di pioggia, soprattutto durante la salita al <strong>Monte Verruca</strong>. Portare con sé acqua e snack, soprattutto durante i mesi estivi.  Verificare le condizioni meteorologiche prima di partire.</li>
+</ul>
+
+<p>Questo <strong>trekking</strong> è l''occasione perfetta per scoprire la bellezza selvaggia della <strong>Toscana</strong> e vivere un''<strong>escursione</strong> indimenticabile. Organizza subito la tua avventura!</p>',
   'Tutte le Attività e Paesi',
   11.12,
   585,
@@ -42,7 +52,10 @@ VALUES (
   10.50592,
   'POINT(10.50592 43.710542)',
   '5d57915de17a9fbbf5e958963a53cf2163aac3720f69da8b8061cc32e8ff82eb',
-  NOW(), NOW()
+  'Escursione Caprona: Convento Nicosia, Monte Verruca & La Focetta! Anello facile tra storia, natura e panorami mozzafiato. Trekking in Toscana!',
+  'Trekking Caprona: Nicosia, Verruca e La Focetta - Sentieri Italia',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +87,8 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +108,6 @@ SELECT id, 'cover', 'media/images/173951737/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 173951737;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/173951737/photo_01.jpg', 1,
        NULL,
@@ -101,7 +115,6 @@ SELECT id, 'foto', 'media/images/173951737/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 173951737;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/173951737/photo_02.jpg', 2,
@@ -111,7 +124,6 @@ SELECT id, 'foto', 'media/images/173951737/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 173951737;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/173951737/photo_03.jpg', 3,
        NULL,
@@ -119,7 +131,6 @@ SELECT id, 'foto', 'media/images/173951737/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 173951737;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/173951737/photo_04.jpg', 4,
@@ -129,7 +140,6 @@ SELECT id, 'foto', 'media/images/173951737/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 173951737;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/173951737/photo_05.jpg', 5,
        NULL,
@@ -137,7 +147,6 @@ SELECT id, 'foto', 'media/images/173951737/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 173951737;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/173951737/photo_06.jpg', 6,
@@ -147,7 +156,6 @@ SELECT id, 'foto', 'media/images/173951737/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 173951737;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/173951737/photo_07.jpg', 7,
        NULL,
@@ -155,7 +163,6 @@ SELECT id, 'foto', 'media/images/173951737/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 173951737;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/173951737/photo_08.jpg', 8,
@@ -165,7 +172,6 @@ SELECT id, 'foto', 'media/images/173951737/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 173951737;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/173951737/photo_09.jpg', 9,
        NULL,
@@ -173,7 +179,6 @@ SELECT id, 'foto', 'media/images/173951737/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 173951737;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/173951737/photo_10.jpg', 10,
@@ -183,7 +188,6 @@ SELECT id, 'foto', 'media/images/173951737/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 173951737;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/173951737/photo_11.jpg', 11,
        NULL,
@@ -191,7 +195,6 @@ SELECT id, 'foto', 'media/images/173951737/photo_11.jpg', 11,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 173951737;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/173951737/photo_12.jpg', 12,

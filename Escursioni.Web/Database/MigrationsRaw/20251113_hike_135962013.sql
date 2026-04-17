@@ -1,13 +1,37 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   135962013,
   'Fibialla -Geocaching',
   'Percorso nei pressi di Fibialla, alla ricerca di geocache, si passa su una strada privata quindi non è proprio un vero trekking . Vi sono dei mulini abbandonati e dei ruscelletti. La strada diventa ad un certo punto sterrato, è carino e adatto a famiglie va bene per persone alle prime armi, non richiede scarpe o attrezzature particolari. Su questo percorso sono presenti numerose geocache: https://www.geocaching.com/geocache/GC5WZBX https://www.geocaching.com/geocache/GC5WZB8 https://www.geocaching.com/geocache/GC4EM4K https://www.geocaching.com/geocache/GC5W0E4 https://www.geocaching.com/geocache/GC5W0DH https://www.geocaching.com/geocache/GC5W0DT https://www.geocaching.com/geocache/GC5WZ8Z https://www.geocaching.com/play/map?lat=43.8856&lng=10.3778&zoom=15&asc=true&sort=distance&st=N+43%C2%B0+53.021%27+E+10%C2%B0+22.884%27&ot=coords&ho=1',
-  'Percorso nei pressi di Fibialla, alla ricerca di geocache, si passa su una strada privata quindi non è proprio un vero trekking . <br> <br>Vi sono dei mulini abbandonati e dei ruscelletti. <br> <br>La strada diventa ad un certo punto sterrato, è carino e adatto a famiglie va bene per persone alle prime armi, non richiede scarpe o attrezzature particolari. <br> <br>Su questo percorso sono presenti numerose geocache: <br>https://www.geocaching.com/geocache/GC5WZBX <br>https://www.geocaching.com/geocache/GC5WZB8 <br>https://www.geocaching.com/geocache/GC4EM4K <br>https://www.geocaching.com/geocache/GC5W0E4 <br>https://www.geocaching.com/geocache/GC5W0DH <br>https://www.geocaching.com/geocache/GC5W0DT <br>https://www.geocaching.com/geocache/GC5WZ8Z <br> <br>https://www.geocaching.com/play/map?lat=43.8856&lng=10.3778&zoom=15&asc=true&sort=distance&st=N+43%C2%B0+53.021%27+E+10%C2%B0+22.884%27&ot=coords&ho=1',
+  '<h2 >Fibialla -Geocaching: Escursione Geocaching nella Montagna Toskana</h2>
+
+<h3 >Il Percorso</h3>
+
+<p>
+Immergiti nella natura selvaggia della **Montagna Toskana** con questa affascinante **escursione geocaching** a **Fibialla**. Il sentiero, perfetto per famiglie e principianti, inizia con una breve passeggiata su una strada privata e poi si trasforma in un percorso acciottolato, ideale per un''esperienza di **trekking** rilassante.  La sfida principale è la ricerca delle numerose **geocache** nascoste lungo il sentiero, rendendo questa **escursione** un''avventura intellettuale e fisica. La distanza totale del percorso è di circa 3-4 km, con un dislivello contenuto, adatto a chi cerca un''attività all''aria aperta nella regione Toscana.
+</p>
+
+<h3 >Cosa Aspettarsi</h3>
+
+<p>
+Preparati a scoprire paesaggi suggestivi caratterizzati da **mulini abbandonati** e pittoreschi **ruscelletti** che serpeggiano tra le colline. Il percorso, pur non essendo un vero e proprio **sentiero di trekking** impegnativo, offre panorami mozzafiato e l''opportunità di immergersi nella **natura** incontaminata della **Toscana**.  L''obiettivo principale è la ricerca delle **geocache**, un''attività divertente per tutte le età.  Questo **sentiero** è particolarmente adatto per chi cerca una **escursione** facile e accessibile, ideale per chi si avvicina al mondo del **trekking** o per famiglie con bambini. Ricorda, non sono necessarie scarpe o attrezzature specifiche, solo un''ottima compagnia e la voglia di esplorare!
+</p>
+
+<h3 >Informazioni Utili</h3>
+
+<ul>
+    <li><strong>Località:</strong> Fibialla, Toscana</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Tipo di attività:</strong> Geocaching, Trekking, Escursione</li>
+    <li><strong>Distanza:</strong> Circa 3-4 km</li>
+    <li><strong>Dislivello:</strong> Minimo</li>
+    <li><strong>Adatto a:</strong> Famiglie, Principianti, Amanti delle Geocache</li>
+    <li><strong>Geocache:</strong> Numerose **geocache** disponibili su <a href="https://www.geocaching.com/geocache/GC5WZBX">https://www.geocaching.com/geocache/GC5WZBX</a>, <a href="https://www.geocaching.com/geocache/GC5WZB8">https://www.geocaching.com/geocache/GC5WZB8</a>, <a href="https://www.geocaching.com/geocache/GC4EM4K">https://www.geocaching.com/geocache/GC4EM4K</a>, <a href="https://www.geocaching.com/geocache/GC5W0E4">https://www.geocaching.com/geocache/GC5W0E4</a>, <a href="https://www.geocaching.com/geocache/GC5W0DH">https://www.geocaching.com/geocache/GC5W0DH</a>, <a href="https://www.geocaching.com/geocache/GC5W0DT">https://www.geocaching.com/geocache/GC5W0DT</a>, <a href="https://www.geocaching.com/geocache/GC5WZ8Z">https://www.geocaching.com/geocache/GC5WZ8Z</a> e <a href="https://www.geocaching.com/play/map?lat=43.8856&lng=10.3778&zoom=15&asc=true&sort=distance&st=N+43%C2%B0+53.021%27+E+10%C2%B0+22.884%27&ot=coords&ho=1">https://www.geocaching.com/play/map?lat=43.8856&lng=10.3778&zoom=15&asc=true&sort=distance&st=N+43°+53.021′+E+10°+22.884′&ot=coords&ho=1</a></li>
+</ul>',
   'Tutte le Attività e Paesi',
   4.64,
   130,
@@ -34,7 +58,8 @@ VALUES (
   10.3778,
   'POINT(10.3778 43.8856)',
   'b8a4a8056c6275611e3980d6f432013d5e1b86716dc1e767be47f7ffd61514b4',
-  'Esplora Fibialla: Geocaching divertente per famiglie! Percorso facile e gratuito tra mulini abbandonati e ruscellletti. Trova le geocache!',
+  'Esplora Fibialla: Geocaching e natura! Percorso facile per famiglie, mulini abbandonati e tante geocache da scoprire!',
+  'Trekking Fibialla: Geocaching e Sentieri in Toscana',
   NOW(),
   NOW()
 )
@@ -69,6 +94,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

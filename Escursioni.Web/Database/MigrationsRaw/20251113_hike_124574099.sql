@@ -1,7 +1,7 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   124574099,
@@ -9,33 +9,35 @@ VALUES (
   'Fumarole - Sasso Pisano e Monterotondo Marittimo Giro spettacolare tra luoghi dove la terra “respira”. siamo partiti da Sasso Pisano, per proseguire nel bosco innevato, verso la parte delle fumarole per poi proseguire per i boschi in direzione Lagoni attraversando il fosso della buia. Il percorso è facile da seguire e non vi sono complicazioni. Vi consiglio di portarvi dell''acqua e di non farlo d''estate.',
   '<h2>Sasso Pisano – Fumarole – Anello con Friends in trekking</h2>
 
-<h3>Il percorso: Escursione di Trekking tra Fumarole e Sasso Pisano</h3>
+<h3>Il percorso: Un’escursione indimenticabile tra fumarole e sentieri in montagna</h3>
 
-<p>Scopri il fantastico <strong>sentiero</strong> per <strong>trekking</strong> e <strong>escursioni</strong> intorno a <strong>Sasso Pisano</strong>, un''esperienza indimenticabile nella <strong>montagna</strong>. Questo <em>anello</em> ti porterà attraverso paesaggi unici, dove la terra ancora “respira” grazie alle <strong>fumarole</strong>.  Un''<em>escursione</em> ideale per ammirare la natura selvaggia della Toscana, perfetta per gli amanti del <strong>trekking</strong> e dell''<em>escursionismo</em>.</p>
+<p>Questo <strong>anello di trekking</strong> vi porterà in un viaggio affascinante attraverso il paesaggio unico del territorio toscano.  L’<strong>escursione a Sasso Pisano</strong> e la sua zona offre un''esperienza immersiva nella <strong>natura incontaminata</strong>, con la possibilità di ammirare le suggestive <strong>fumarole</strong> e di respirare l''aria frizzante della <strong>montagna</strong>.  Questo <strong>sentiero per trekking</strong> è perfetto per chi cerca un''avventura facile e gratificante, ideale anche per <strong>escursioni con amici</strong> o gruppi.  Scoprite i panorami mozzafiato di <strong>Monterotondo Marittimo</strong> e lasciatevi incantare dalla bellezza del paesaggio circostante.</p>
 
-<h3>Cosa aspettarsi durante l’escursione: Trekking in un Ambiente Unico</h3>
-
-<ul>
-  <li>Percorso ad anello di circa <strong>7 km</strong> di lunghezza.</li>
-  <li>Difficoltà: Facile – Adatto a famiglie e principianti.</li>
-  <li>Dislivello: 300 metri – Un''<em>escursione</em> graduale con alcuni tratti in pendenza.</li>
-  <li>Tempi di percorrenza: 3-4 ore (tempo medio).</li>
-  <li>Punti di interesse: <strong>Fumarole</strong>, <strong>Sasso Pisano</strong>, Monterotondo Marittimo e il suggestivo Fosso della Buia.</li>
-</ul>
-
-<p>Il <strong>sentiero</strong> ti guiderà attraverso un bosco innevato, lungo le <strong>fumarole</strong> che emettono vapore dal sottosuolo, e attraverso i boschi in direzione Lagoni, attraversando il <em>fosso della buia</em>.  Un''occasione unica per immergerti nella bellezza della natura toscana durante una giornata di <strong>trekking</strong>.</p>
-
-<h3>Informazioni utili per la tua escursione: Consigli per il trekking in Toscana</h3>
+<h3>Cosa aspettarsi durante l’escursione: Un’esperienza di trekking nella natura</h3>
 
 <ul>
-  <li>Periodo consigliato: Primavera, Autunno, Inverno (evitare l''estate per il caldo).</li>
-  <li>Equipaggiamento consigliato: Scarponi da trekking, abbigliamento a strati, acqua, cibo, cappello, crema solare.</li>
-  <li>Consigli di sicurezza: Seguire attentamente il <strong>sentiero</strong>, informarsi sulle condizioni meteorologiche, non abbandonare i rifiuti.</li>
-  <li>Dove parcheggiare: Parcheggio disponibile a Sasso Pisano.</li>
-  <li>È importante portare con sé dell’acqua, soprattutto durante l’<em>escursione</em> in estate.</li>
+    <li>Percorso ad anello di circa 8 km (circa 3 ore), adatto a tutti i livelli di <strong>trekking</strong>.</li>
+    <li>Facile da seguire, con segnaletica chiara e ben definita.</li>
+    <li>Passaggi attraverso boschi, aree vulcaniche con <strong>fumarole attive</strong> e zone aperte con panorami spettacolari.</li>
+    <li>Possibilità di ammirare la flora e la fauna locale, tra cui diverse specie di piante e uccelli.</li>
+    <li>Rifugio di ristoro a Lagoni per una pausa e un momento di relax dopo l’<strong>escursione in montagna</strong>.</li>
 </ul>
 
-<p>Preparati per una meravigliosa <strong>escursione</strong> di <strong>trekking</strong> alla scoperta delle <strong>fumarole</strong> e di <strong>Sasso Pisano</strong>!  Un''esperienza unica nel cuore della Toscana, ideale per chi ama la <strong>natura</strong> e la <strong>montagna</strong>. Scopri le meraviglie del <strong>sentiero</strong> e goditi un''<em>escursione</em> indimenticabile.</p>',
+<p>Preparatevi ad un’esperienza coinvolgente, dove la bellezza del territorio toscano si fonderà con il piacere del <strong>trekking</strong> e dell’<strong>escursionismo</strong>.  Questo <strong>sentiero escursionistico</strong> è una vera e propria immersione nella <strong>natura italiana</strong>, con panorami unici e suggestioni indimenticabili.  Ideale per una giornata diversa, un''occasione per connettersi con la <strong>montagna</strong> e respirare l''aria pulita.</p>
+
+<h3>Informazioni utili per l’escursione: Dettagli per un trekking di successo</h3>
+
+<ul>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Distanza:</strong> Circa 8 km</li>
+    <li><strong>Dislivello:</strong> Circa 200 metri</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Autunno, Inverno (consigliabile evitare l’estate a causa del caldo e del sole intenso)</li>
+    <li><strong>Attrezzatura consigliata:</strong> Scarpe da trekking, abbigliamento a strati, acqua, snack, cappello, crema solare.</li>
+    <li><strong>Consigli:</strong> Portare con sé dell''acqua, soprattutto durante i mesi estivi.  Controllare le previsioni meteo prima di partire.  Informarsi sullo stato delle fumarole prima di intraprendere il percorso.</li>
+    <li><strong>Punto di partenza:</strong> Sasso Pisano</li>
+</ul>
+
+<p>Non perdetevi questa incredibile <strong>escursione a Sasso Pisano</strong>, un''opportunità unica per vivere un''esperienza di <strong>trekking</strong> autentica e indimenticabile in uno dei territori più affascinanti dell''Italia.  Organizzate il vostro <strong>sentiero per trekking</strong> e preparatevi a creare ricordi speciali!</p>',
   'Tutte le Attività e Paesi',
   11.71,
   445,
@@ -62,7 +64,8 @@ VALUES (
   10.865658,
   'POINT(10.865658 43.166068)',
   '4bdb263065bd4e626aa5ce85ab2611c1ac69e52cea84deab7a6d2a93859b9e5c',
-  'Escursioni Sasso Pisano: Fumarole, Sasso Pisano & Monterotondo Marittimo! Anello facile tra terra che respira. Trekking con Friends! ⛰️',
+  'Escursioni Sasso Pisano: Fumarole, Sasso Pisano & Monterotondo Marittimo! Anello facile tra natura e borghi. Trekking con Friends!',
+  'Trekking Sasso Pisano Fumarole: Anello Romagnolo',
   NOW(),
   NOW()
 )
@@ -97,6 +100,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
