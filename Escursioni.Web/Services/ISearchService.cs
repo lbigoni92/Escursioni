@@ -16,7 +16,8 @@ public interface ISearchService
         string? difficolta,
         string? ordinaPer,
         int page,
-        int pageSize
+        int pageSize,
+        int raggioKm = 0
     );
 
     Task<IReadOnlyList<string>> GetComuniAsync();

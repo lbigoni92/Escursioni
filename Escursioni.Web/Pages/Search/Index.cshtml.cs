@@ -28,6 +28,9 @@ public class IndexModel : PageModel
     public string? OrdinaPer { get; set; }
 
     [BindProperty(SupportsGet = true)]
+    public int RaggioKm { get; set; } = 0;
+
+    [BindProperty(SupportsGet = true)]
     public int PageNumber { get; set; } = 1;
 
     public int TotalCount { get; set; }
@@ -52,13 +55,37 @@ public class IndexModel : PageModel
         ComuniDisponibili = (await _search.GetComuniAsync()).ToList();
         DifficoltaDisponibili = (await _search.GetDifficoltaAsync()).ToList();
 
+        // Le due modalità sono mutuamente esclusive:
+        // - Se c'è un Comune → ricerca per località (ignora Q/Difficolta)
+        // - Altrimenti → ricerca per testo libero (ignora Comune/RaggioKm)
+        string? searchQ, searchComune, searchDifficolta, searchOrdinaPer;
+        int searchRaggioKm;
+
+        if (!string.IsNullOrWhiteSpace(Comune))
+        {
+            searchComune = Comune;
+            searchRaggioKm = RaggioKm;
+            searchQ = null;
+            searchDifficolta = null;
+            searchOrdinaPer = "distanza_asc";
+        }
+        else
+        {
+            searchQ = Q;
+            searchDifficolta = Difficolta;
+            searchOrdinaPer = OrdinaPer;
+            searchComune = null;
+            searchRaggioKm = 0;
+        }
+
         var result = await _search.SearchAsync(
-            Q,
-            Comune,
-            Difficolta,
-            OrdinaPer,
+            searchQ,
+            searchComune,
+            searchDifficolta,
+            searchOrdinaPer,
             page: PageNumber,
-            pageSize: PageSize
+            pageSize: PageSize,
+            raggioKm: searchRaggioKm
         );
 
         Results = result.Items;

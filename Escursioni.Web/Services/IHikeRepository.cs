@@ -11,7 +11,8 @@ public interface IHikeRepository
         string? difficolta,
         string? orderBy,
         int page,
-        int pageSize);
+        int pageSize,
+        int raggioKm = 0);
 
     Task<IReadOnlyList<string>> GetDistinctComuniAsync();
     Task<IReadOnlyList<string>> GetDistinctDifficoltaAsync();

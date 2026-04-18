@@ -7,10 +7,12 @@ namespace Escursioni.Web.Services;
 public class HikeRepository : IHikeRepository
 {
     private readonly EscursioniDbContext _db;
+    private readonly GeocodingService _geocoding;
 
-    public HikeRepository(EscursioniDbContext db)
+    public HikeRepository(EscursioniDbContext db, GeocodingService geocoding)
     {
         _db = db;
+        _geocoding = geocoding;
     }
     public async Task<PagedResult<Hike>> SearchAsync(
      string? q,
@@ -18,22 +20,79 @@ public class HikeRepository : IHikeRepository
      string? difficolta,
      string? orderBy,
      int page,
-     int pageSize)
+     int pageSize,
+     int raggioKm = 0)
     {
         var query = _db.Hikes
             .Include(h => h.Media) // se hai la navigation; altrimenti puoi rimuovere
             .AsQueryable();
 
-        // filtro per comune: input libero + suggerimenti dal datalist
+        // filtro per comune: con ricerca di prossimità se raggioKm > 0
+        decimal? centerLat = null, centerLon = null;
+
         if (!string.IsNullOrWhiteSpace(comune))
         {
             var comuneLower = comune.Trim().ToLower();
-            query = query.Where(h =>
-                h.Comune != null &&
-                h.Comune.ToLower().StartsWith(comuneLower));
+
+            // Se il raggio non è stato specificato, default a 20 km per ricerca geografica
+            if (raggioKm <= 0)
+                raggioKm = 20;
+
+            // 1) Geocodifica la città via Nominatim per ottenere il centro reale
+            var geo = await _geocoding.GeocodeAsync(comune.Trim());
+            if (geo != null)
+            {
+                centerLat = geo.Lat;
+                centerLon = geo.Lon;
+            }
+            else
+            {
+                // 2) Fallback: centroide medio delle escursioni nel comune nel DB
+                var comuneCenter = await _db.Hikes
+                    .Where(h => h.Comune != null &&
+                                h.Comune.ToLower() == comuneLower &&
+                                h.CentroidLat.HasValue && h.CentroidLon.HasValue)
+                    .GroupBy(_ => 1)
+                    .Select(g => new
+                    {
+                        Lat = g.Average(h => h.CentroidLat!.Value),
+                        Lon = g.Average(h => h.CentroidLon!.Value)
+                    })
+                    .FirstOrDefaultAsync();
+
+                if (comuneCenter != null)
+                {
+                    centerLat = comuneCenter.Lat;
+                    centerLon = comuneCenter.Lon;
+                }
+            }
+
+            if (centerLat.HasValue && centerLon.HasValue)
+            {
+                // Bounding box approssimativo per pre-filtrare (1° lat ≈ 111 km)
+                var deltaLat = (decimal)raggioKm / 111m;
+                var deltaLon = (decimal)raggioKm / (111m * (decimal)Math.Cos((double)centerLat * Math.PI / 180));
+
+                var minLat = centerLat - deltaLat;
+                var maxLat = centerLat + deltaLat;
+                var minLon = centerLon - deltaLon;
+                var maxLon = centerLon + deltaLon;
+
+                query = query.Where(h =>
+                    h.CentroidLat.HasValue && h.CentroidLon.HasValue &&
+                    h.CentroidLat >= minLat && h.CentroidLat <= maxLat &&
+                    h.CentroidLon >= minLon && h.CentroidLon <= maxLon);
+            }
+            else
+            {
+                // Nessuna coordinata trovata, fallback a match esatto sul nome comune
+                query = query.Where(h =>
+                    h.Comune != null &&
+                    h.Comune.ToLower() == comuneLower);
+            }
         }
 
-        // filtro per difficolt�
+        // filtro per difficolt�
         if (!string.IsNullOrWhiteSpace(difficolta))
         {
             query = query.Where(h => h.Difficolta == difficolta);
@@ -53,6 +112,10 @@ public class HikeRepository : IHikeRepository
 
         // ordinamento
         orderBy ??= "data_desc";
+
+        // Se ricerca per prossimità e nessun ordinamento esplicito, ordina per distanza
+        if (centerLat.HasValue && centerLon.HasValue && orderBy == "data_desc" && raggioKm > 0)
+            orderBy = "distanza_asc";
 
         query = orderBy switch
         {
@@ -81,7 +144,12 @@ public class HikeRepository : IHikeRepository
                 .OrderByDescending(h => h.DistanzaKm)
                 .ThenByDescending(h => h.Id),
 
-            _ => query // default: pi� recenti prima
+            "distanza_asc" when centerLat.HasValue && centerLon.HasValue => query
+                .OrderBy(h => (h.CentroidLat!.Value - centerLat.Value) * (h.CentroidLat!.Value - centerLat.Value)
+                            + (h.CentroidLon!.Value - centerLon.Value) * (h.CentroidLon!.Value - centerLon.Value))
+                .ThenBy(h => h.Id),
+
+            _ => query // default: più recenti prima
                 .OrderByDescending(h => h.DataEscursione ?? h.DataPubblicazione ?? h.DataCaricato ?? h.CreatedAt)
                 .ThenByDescending(h => h.Id),
         };

@@ -19,8 +19,9 @@ public class SearchService : ISearchService
         string? difficolta,
         string? orderBy,
         int page,
-        int pageSize)
-        => _hikes.SearchAsync(q, comune, difficolta, orderBy, page, pageSize);
+        int pageSize,
+        int raggioKm = 0)
+        => _hikes.SearchAsync(q, comune, difficolta, orderBy, page, pageSize, raggioKm);
 
     // Implementazione dell'interfaccia ISearchService
     public async Task<SearchResult> SearchAsync(
@@ -29,9 +30,10 @@ public class SearchService : ISearchService
         string? difficolta,
         string? ordinaPer,
         int page,
-        int pageSize)
+        int pageSize,
+        int raggioKm = 0)
     {
-        var paged = await _hikes.SearchAsync(q, comune, difficolta, ordinaPer, page, pageSize);
+        var paged = await _hikes.SearchAsync(q, comune, difficolta, ordinaPer, page, pageSize, raggioKm);
 
         return new SearchResult
         {

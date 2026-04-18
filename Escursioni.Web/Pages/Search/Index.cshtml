@@ -4,92 +4,122 @@
 <section>
     <h1 class="page-title">Ricerca nel sito</h1>
     <p class="page-subtitle">
-        Filtra per località, difficoltà e testo libero.
+        Cerca per località oppure per testo libero.
     </p>
 
-    <form method="get" class="form-row form-row--wrap">
+    <form method="get" id="search-form">
 
-        <!-- LOCALITÀ -->
-        <div class="form-field form-field--wide">
-            <label for="comune">Località</label>
-            <input id="comune"
-                   name="Comune"
-                   class="input-text"
-                   list="comuni-list"
-                   value="@Model.Comune"
-                   placeholder="Digita una località (es. Livorno, Levigliani)..."
-                   autocomplete="off"
-                   aria-describedby="comune-help" />
-            <datalist id="comuni-list">
-                @foreach (var c in Model.ComuniDisponibili)
-                {
-                    <option value="@c"></option>
-                }
-            </datalist>
+        <!-- ═══ MODALITÀ 1: PER LOCALITÀ ═══ -->
+        <div class="search-mode @(string.IsNullOrWhiteSpace(Model.Q) && string.IsNullOrWhiteSpace(Model.Difficolta) ? "search-mode--active" : "")"
+             id="mode-localita">
+            <div class="search-mode-header">
+                <label class="search-mode-radio">
+                    <input type="radio" name="SearchMode" value="localita"
+                           @(string.IsNullOrWhiteSpace(Model.Q) && string.IsNullOrWhiteSpace(Model.Difficolta) ? "checked" : "") />
+                    <span>Cerca per località</span>
+                </label>
+            </div>
+            <div class="search-mode-body">
+                <div class="form-row form-row--wrap">
+                    <div class="form-field form-field--wide">
+                        <label for="comune">Località</label>
+                        <div class="autocomplete-wrap">
+                            <input id="comune"
+                                   name="Comune"
+                                   class="input-text"
+                                   value="@Model.Comune"
+                                   placeholder="Digita una località (es. Livorno, Levigliani)..."
+                                   autocomplete="off" />
+                            <ul id="comune-suggestions" class="autocomplete-list"></ul>
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="raggio">Raggio</label>
+                        <select id="raggio"
+                                name="RaggioKm"
+                                class="input-select">
+                            <option value="10" selected="@(Model.RaggioKm == 10 ? "selected" : null)">10 km</option>
+                            <option value="20" selected="@(Model.RaggioKm == 20 || Model.RaggioKm == 0 ? "selected" : null)">20 km</option>
+                            <option value="30" selected="@(Model.RaggioKm == 30 ? "selected" : null)">30 km</option>
+                            <option value="50" selected="@(Model.RaggioKm == 50 ? "selected" : null)">50 km</option>
+                            <option value="100" selected="@(Model.RaggioKm == 100 ? "selected" : null)">100 km</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!-- TESTO LIBERO -->
-        <div class="form-field form-field--wide">
-            <label for="q">Testo libero</label>
-            <input id="q"
-                   class="input-text"
-                   type="text"
-                   name="Q"
-                   value="@Model.Q"
-                   placeholder="Cerca cima, luogo, sentiero..." />
+        <!-- ═══ MODALITÀ 2: TESTO LIBERO ═══ -->
+        <div class="search-mode @(!string.IsNullOrWhiteSpace(Model.Q) || !string.IsNullOrWhiteSpace(Model.Difficolta) ? "search-mode--active" : "")"
+             id="mode-testo">
+            <div class="search-mode-header">
+                <label class="search-mode-radio">
+                    <input type="radio" name="SearchMode" value="testo"
+                           @(!string.IsNullOrWhiteSpace(Model.Q) || !string.IsNullOrWhiteSpace(Model.Difficolta) ? "checked" : "") />
+                    <span>Cerca per testo libero</span>
+                </label>
+            </div>
+            <div class="search-mode-body">
+                <div class="form-row form-row--wrap">
+                    <div class="form-field form-field--wide">
+                        <label for="q">Testo libero</label>
+                        <input id="q"
+                               class="input-text"
+                               type="text"
+                               name="Q"
+                               value="@Model.Q"
+                               placeholder="Cerca cima, luogo, sentiero..." />
+                    </div>
+                    <div class="form-field">
+                        <label for="difficolta">Difficoltà</label>
+                        <select id="difficolta"
+                                name="Difficolta"
+                                class="input-select">
+                            <option value="">Tutte</option>
+                            @foreach (var d in Model.DifficoltaDisponibili)
+                            {
+                                <option value="@d" selected="@(d == Model.Difficolta ? "selected" : null)">
+                                    @d
+                                </option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="ordina">Ordina per</label>
+                        <select id="ordina"
+                                name="OrdinaPer"
+                                class="input-select">
+                            <option value="data_desc" selected="@(string.IsNullOrEmpty(Model.OrdinaPer) || Model.OrdinaPer == "data_desc" ? "selected" : null)">
+                                Più recenti
+                            </option>
+                            <option value="data_asc" selected="@(Model.OrdinaPer == "data_asc" ? "selected" : null)">
+                                Più vecchie
+                            </option>
+                            <option value="nome_asc" selected="@(Model.OrdinaPer == "nome_asc" ? "selected" : null)">
+                                Nome (A → Z)
+                            </option>
+                            <option value="nome_desc" selected="@(Model.OrdinaPer == "nome_desc" ? "selected" : null)">
+                                Nome (Z → A)
+                            </option>
+                            <option value="comune_asc" selected="@(Model.OrdinaPer == "comune_asc" ? "selected" : null)">
+                                Comune (A → Z)
+                            </option>
+                            <option value="dislivello_desc" selected="@(Model.OrdinaPer == "dislivello_desc" ? "selected" : null)">
+                                Dislivello maggiore
+                            </option>
+                            <option value="distanza_desc" selected="@(Model.OrdinaPer == "distanza_desc" ? "selected" : null)">
+                                Distanza maggiore
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!-- DIFFICOLTÀ -->
-        <div class="form-field">
-            <label for="difficolta">Difficoltà</label>
-            <select id="difficolta"
-                    name="Difficolta"
-                    class="input-select">
-                <option value="">Tutte</option>
-                @foreach (var d in Model.DifficoltaDisponibili)
-                {
-                    <option value="@d" selected="@(d == Model.Difficolta ? "selected" : null)">
-                        @d
-                    </option>
-                }
-            </select>
-        </div>
-
-        <!-- ORDINA PER -->
-        <div class="form-field">
-            <label for="ordina">Ordina per</label>
-            <select id="ordina"
-                    name="OrdinaPer"
-                    class="input-select">
-                <option value="data_desc" selected="@(string.IsNullOrEmpty(Model.OrdinaPer) || Model.OrdinaPer == "data_desc" ? "selected" : null)">
-                    Più recenti  
-                </option>
-                <option value="data_asc" selected="@(Model.OrdinaPer == "data_asc" ? "selected" : null)">
-                    Più vecchie 
-                </option>
-                <option value="nome_asc" selected="@(Model.OrdinaPer == "nome_asc" ? "selected" : null)">
-                    Nome (A → Z)
-                </option>
-                <option value="nome_desc" selected="@(Model.OrdinaPer == "nome_desc" ? "selected" : null)">
-                    Nome (Z → A)
-                </option>
-                <option value="comune_asc" selected="@(Model.OrdinaPer == "comune_asc" ? "selected" : null)">
-                    Comune (A → Z)
-                </option>
-                <option value="dislivello_desc" selected="@(Model.OrdinaPer == "dislivello_desc" ? "selected" : null)">
-                    Dislivello maggiore
-                </option>
-                <option value="distanza_desc" selected="@(Model.OrdinaPer == "distanza_desc" ? "selected" : null)">
-                    Distanza maggiore
-                </option>
-            </select>
-        </div>
-
-        <!-- QUANDO CAMBIO FILTRI RIPARTO DA PAGINA 1 -->
         <input type="hidden" name="PageNumber" value="1" />
 
-        <div class="form-field form-field--buttons">
-            <button class="btn" type="submit">Cerca</button>
+        <div class="form-field form-field--buttons" style="margin-top:1.25rem;">
+            <button class="btn" type="submit">🔍 Cerca</button>
         </div>
 
     </form>
@@ -100,7 +130,12 @@
             Trovate @Model.TotalCount escursioni.
             @if (!string.IsNullOrWhiteSpace(Model.Comune))
             {
-                <span> Località: <strong>@Model.Comune</strong>.</span>
+                <span> Località: <strong>@Model.Comune</strong></span>
+                @if (Model.RaggioKm > 0)
+                {
+                    <span> (entro @Model.RaggioKm km)</span>
+                }
+                <span>.</span>
             }
             @if (!string.IsNullOrWhiteSpace(Model.Difficolta))
             {
@@ -196,7 +231,8 @@
                    asp-route-Q="@Model.Q"
                    asp-route-Comune="@Model.Comune"
                    asp-route-Difficolta="@Model.Difficolta"
-                   asp-route-OrdinaPer="@Model.OrdinaPer">« Pagina precedente</a>
+                   asp-route-OrdinaPer="@Model.OrdinaPer"
+                   asp-route-RaggioKm="@Model.RaggioKm">« Pagina precedente</a>
             }
 
             <span class="pagination-info">
@@ -210,9 +246,176 @@
                    asp-route-Q="@Model.Q"
                    asp-route-Comune="@Model.Comune"
                    asp-route-Difficolta="@Model.Difficolta"
-                   asp-route-OrdinaPer="@Model.OrdinaPer">Pagina successiva »</a>
+                   asp-route-OrdinaPer="@Model.OrdinaPer"
+                   asp-route-RaggioKm="@Model.RaggioKm">Pagina successiva »</a>
             }
         </nav>
     }
 
 </section>
+
+@section Scripts {
+<script>
+(function () {
+    // === SEARCH MODE LOGIC ===
+    var radios = document.querySelectorAll('input[name="SearchMode"]');
+    var modeLocalita = document.getElementById('mode-localita');
+    var modeTesto = document.getElementById('mode-testo');
+    var comuneInput = document.getElementById('comune');
+    var raggioSelect = document.getElementById('raggio');
+    var qInput = document.getElementById('q');
+    var difficoltaSelect = document.getElementById('difficolta');
+    var ordinaSelect = document.getElementById('ordina');
+
+    function activateMode(mode) {
+        if (mode === 'localita') {
+            modeLocalita.classList.add('search-mode--active');
+            modeTesto.classList.remove('search-mode--active');
+            qInput.value = '';
+            difficoltaSelect.value = '';
+            ordinaSelect.value = 'data_desc';
+            comuneInput.disabled = false;
+            raggioSelect.disabled = false;
+            qInput.disabled = true;
+            difficoltaSelect.disabled = true;
+            ordinaSelect.disabled = true;
+        } else {
+            modeTesto.classList.add('search-mode--active');
+            modeLocalita.classList.remove('search-mode--active');
+            comuneInput.value = '';
+            raggioSelect.value = '20';
+            qInput.disabled = false;
+            difficoltaSelect.disabled = false;
+            ordinaSelect.disabled = false;
+            comuneInput.disabled = true;
+            raggioSelect.disabled = true;
+            closeSuggestions();
+        }
+    }
+
+    radios.forEach(function (r) {
+        r.addEventListener('change', function () { activateMode(this.value); });
+    });
+
+    var checked = document.querySelector('input[name="SearchMode"]:checked');
+    if (checked) {
+        activateMode(checked.value);
+    } else {
+        document.querySelector('input[name="SearchMode"][value="localita"]').checked = true;
+        activateMode('localita');
+    }
+
+    [comuneInput, raggioSelect].forEach(function (el) {
+        el.addEventListener('focus', function () {
+            document.querySelector('input[name="SearchMode"][value="localita"]').checked = true;
+            activateMode('localita');
+        });
+    });
+    [qInput, difficoltaSelect, ordinaSelect].forEach(function (el) {
+        el.addEventListener('focus', function () {
+            document.querySelector('input[name="SearchMode"][value="testo"]').checked = true;
+            activateMode('testo');
+        });
+    });
+
+    // === AUTOCOMPLETE COMUNI ===
+    var sugList = document.getElementById('comune-suggestions');
+    var comuni = null;
+    var highlightIdx = -1;
+
+    function loadComuni(cb) {
+        if (comuni) return cb();
+        fetch('/data/comuni-italiani.json')
+            .then(function (r) { return r.json(); })
+            .then(function (data) { comuni = data; cb(); })
+            .catch(function () { comuni = []; cb(); });
+    }
+
+    function closeSuggestions() {
+        sugList.innerHTML = '';
+        sugList.style.display = 'none';
+        highlightIdx = -1;
+    }
+
+    function renderSuggestions(matches) {
+        sugList.innerHTML = '';
+        highlightIdx = -1;
+        if (!matches.length) { sugList.style.display = 'none'; return; }
+        matches.forEach(function (m, i) {
+            var li = document.createElement('li');
+            li.className = 'autocomplete-item';
+            li.setAttribute('data-value', m.n);
+            li.innerHTML = '<strong>' + escHtml(m.n) + '</strong> <span class="autocomplete-prov">(' + escHtml(m.s) + ') ' + escHtml(m.p) + '</span>';
+            li.addEventListener('mousedown', function (e) {
+                e.preventDefault();
+                comuneInput.value = m.n;
+                closeSuggestions();
+            });
+            sugList.appendChild(li);
+        });
+        sugList.style.cssText = 'display:block; position:absolute; top:100%; left:0; right:0; z-index:200;';
+    }
+
+    function escHtml(s) {
+        var d = document.createElement('div');
+        d.appendChild(document.createTextNode(s));
+        return d.innerHTML;
+    }
+
+    var debounceTimer;
+    comuneInput.addEventListener('input', function () {
+        var val = comuneInput.value.trim().toLowerCase();
+        clearTimeout(debounceTimer);
+        if (val.length < 2) { closeSuggestions(); return; }
+        debounceTimer = setTimeout(function () {
+            loadComuni(function () {
+                var matches = [];
+                // Prima i comuni che iniziano con il testo, poi quelli che lo contengono
+                var starts = [], contains = [];
+                for (var i = 0; i < comuni.length; i++) {
+                    var nl = comuni[i].n.toLowerCase();
+                    if (nl.indexOf(val) === 0) starts.push(comuni[i]);
+                    else if (nl.indexOf(val) > 0) contains.push(comuni[i]);
+                    if (starts.length + contains.length >= 15) break;
+                }
+                matches = starts.concat(contains).slice(0, 15);
+                renderSuggestions(matches);
+            });
+        }, 150);
+    });
+
+    comuneInput.addEventListener('keydown', function (e) {
+        var items = sugList.querySelectorAll('.autocomplete-item');
+        if (!items.length) return;
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            highlightIdx = Math.min(highlightIdx + 1, items.length - 1);
+            updateHighlight(items);
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            highlightIdx = Math.max(highlightIdx - 1, 0);
+            updateHighlight(items);
+        } else if (e.key === 'Enter' && highlightIdx >= 0) {
+            e.preventDefault();
+            comuneInput.value = items[highlightIdx].getAttribute('data-value');
+            closeSuggestions();
+        } else if (e.key === 'Escape') {
+            closeSuggestions();
+        }
+    });
+
+    function updateHighlight(items) {
+        items.forEach(function (it, i) {
+            it.classList.toggle('autocomplete-item--active', i === highlightIdx);
+        });
+        if (highlightIdx >= 0 && items[highlightIdx]) {
+            items[highlightIdx].scrollIntoView({ block: 'nearest' });
+        }
+    }
+
+    comuneInput.addEventListener('blur', function () {
+        setTimeout(closeSuggestions, 200);
+    });
+})();
+</script>
+}

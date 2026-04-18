@@ -1,13 +1,31 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   102949526,
   'Calignaia - Spiaggia Sonnino - Poggio delle Monachine - Castellaccio',
   'Buongiorno! Il percorso è quasi sempre bene segnato e facile tranne nella prima parte per arrivare al poggio delle Monachine, in quel tratto era un pò pieno d''arbusti e stretto. Al chilometro 8.4 si fa una discesa , che per chi è abituato alla montagna, non è difficile ma sennò prestate attenzione , si scivola. La parte che merita di più? Il Poggio delle Monachine che è sicuramente il punto più panoramico di tutta la zona sa li si ha una visuale su tutto il romito, merita davvero! Non usate scarpe aperte, e potate acqua non vi sono fontanelle!',
-  'Buongiorno! <br>Il percorso è quasi sempre bene segnato e facile tranne nella prima parte per arrivare al poggio delle Monachine, in quel tratto era un pò pieno d''arbusti e stretto. <br> <br>Al chilometro 8.4 si fa una discesa , che per chi è abituato alla montagna, non è difficile ma sennò prestate attenzione , si scivola. <br> <br>La parte che merita di più? Il Poggio delle Monachine che è sicuramente il punto più panoramico di tutta la zona sa li si ha una visuale su tutto il romito, merita davvero! <br> <br>Non usate scarpe aperte, e potate acqua non vi sono fontanelle!',
+  '<h2>Calignaia - Spiaggia Sonnino - Poggio delle Monachine - Castellaccio: Trekking Panoramico in Calabria</h2>
+
+<h3>Il Percorso: Un''Esplorazione di Sentieri Incredibili</h3>
+<p>Preparatevi per un''entusiasmante <strong>escursione di trekking</strong> lungo la <strong>Calignaia</strong>, un percorso suggestivo che vi condurrà attraverso paesaggi mozzafiato della Calabria. Questo sentiero, di circa 13 chilometri, è ideale per <strong>trekking</strong> ed <strong>escursioni</strong>, offrendo una combinazione unica di costa e montagna. Il sentiero è generalmente ben segnato, sebbene la prima parte possa essere leggermente più impegnativa, con arbusti e tratti stretti.  La <strong>Calignaia</strong> è un''ottima opportunità per immergervi nella <strong>natura calabrese</strong> e scoprire i suoi segreti.</p>
+
+<h3>Cosa Aspettarsi: Un''Avventura Ricca di Scoperte</h3>
+<p>Durante questa <strong>escursione in montagna</strong>, potrete ammirare panorami spettacolari, scorrere sulla splendida <strong>spiaggia di Sonnino</strong> e raggiungere il <strong>Poggio delle Monachine</strong>, il punto più panoramico del percorso.  La discesa al chilometro 8.4 richiede un''attenzione particolare, soprattutto per chi non è abituato alla <strong>montagna</strong>, data la potenziale superficie scivolosa.  La difficoltà del sentiero è moderata,  ma è fondamentale indossare scarpe da trekking adatte e prepararsi adeguatamente.</p>
+
+<h3>Informazioni Utili: Pianificate il Vostro Trekking</h3>
+<ul>
+  <li><b>Distanza:</b> Circa 13 km</li>
+  <li><b>Difficoltà:</b> Moderata (con tratti più impegnativi nella prima parte e discesa al chilometro 8.4)</li>
+  <li><b>Tipo di Percorso:</b> Sentiero <strong>trekking</strong>, adatto anche a <strong>escursioni</strong> occasionali</li>
+  <li><b>Punti di Interesse:</b> <strong>Poggio delle Monachine</strong> (vista panoramica), <strong>Castellaccio</strong></li>
+  <li><b>Accessibilità:</b> Iniziando da <strong>Sonnino</strong>, il sentiero offre un''esperienza accessibile a molti.</li>
+  <li><b>Consigli:</b> Indossate scarpe da <strong>trekking</strong> robuste, portate acqua a sufficienza (non ci sono fontanelle) e siate consapevoli della potenziale superficie scivolosa durante la discesa.  Non utilizzate scarpe aperte.</li>
+</ul>
+
+<p>Questo affascinante <strong>sentiero in Calabria</strong> vi regalerà un''indimenticabile <strong>escursione</strong> tra la costa e la <strong>montagna</strong>.  Organizzate il vostro <strong>trekking</strong> lungo la <strong>Calignaia</strong> e preparatevi a vivere un''esperienza unica!</p>',
   'Tutte le Attività e Paesi',
   11.21,
   452,
@@ -34,7 +52,8 @@ VALUES (
   10.35485,
   'POINT(10.35485 43.465625)',
   '55b92aad061b5b250fb6e298248ab3026edd0193494ea7b0e464c96cb2160950',
-  'Escursione Calignaia: Spiaggia, Poggio delle Monachine e Castellaccio! Vista mozzafiato sul Romito. Percorso facile ma con tratti tecnici. Scarpe chiuse e ac...',
+  'Escursione Calignaia: Spiagge, panorami mozzafiato e Castellaccio! Percorso facile e panoramico tra Poggio delle Monachine e Romito. #escursioni #calignaia #...',
+  'Trekking Castellaccio: Escursione Calignaia Poggio Monachine!',
   NOW(),
   NOW()
 )
@@ -69,6 +88,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

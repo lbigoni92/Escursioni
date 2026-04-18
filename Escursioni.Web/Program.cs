@@ -24,6 +24,8 @@ builder.Services.AddDbContext<EscursioniDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Servizi / repository (accesso DB solo tramite interfacce)
+builder.Services.AddHttpClient<GeocodingService>();
+builder.Services.AddSingleton<GeocodingService>();
 builder.Services.AddScoped<IHikeRepository, HikeRepository>();
 builder.Services.AddScoped<ISearchService, SearchService>();
 builder.Services.AddScoped<SeoService>();
