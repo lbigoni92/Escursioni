@@ -1,7 +1,7 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   91571972,
@@ -18,7 +18,7 @@ VALUES (
   25,
   '00:25',
   237,
-  'Medio',
+  'Facile',
   'Anello',
   NULL,
   'Italia',
@@ -35,6 +35,7 @@ VALUES (
   'POINT(10.499638 42.934217)',
   'c1a79841165814baf8b7b9237a8d67f74ea4ec0f36b8dc60c140376dc4f7e1fa',
   'Escursione a Salivoli: Punta Falcone, sentiero facile e affascinante! Osservatorio, bunker WWII & calette per il pranzo. Natura e storia ti aspettano!',
+  NULL,
   NOW(),
   NOW()
 )
@@ -69,6 +70,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -81,7 +83,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 91571972);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/91571972/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/91571972/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -105,7 +107,7 @@ SELECT id, 'foto', 'media/images/91571972/photo_02.jpg', 2,
 FROM escursioni.hike WHERE wikiloc_id = 91571972;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/91571972/photo_03.jpg', 3,
+SELECT id, 'cover', 'media/images/91571972/photo_03.jpg', 3,
        NULL,
        NULL,
        NULL,

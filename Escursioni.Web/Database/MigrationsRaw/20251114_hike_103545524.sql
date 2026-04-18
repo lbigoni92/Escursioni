@@ -36,7 +36,7 @@ VALUES (
   NULL,
   NULL,
   1790,
-  'Medio',
+  'Difficile',
   'Anello',
   NULL,
   'Italia',

@@ -1,13 +1,39 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   87371988,
   'montemagno Calci',
   'Percorso alla portata di tutti. Non vi sono difficoltà d''alcun tipo, se non in forma può risultare impegnativo il tratto finale della salita. Sentieri: 141 -139 - 143 Il panorama che si vede dalla rocca è meraviglioso, si vede da Livorno a Massa',
-  'Percorso alla portata di tutti. <br>Non vi sono difficoltà d''alcun tipo, se non in forma può risultare impegnativo il tratto finale della salita. <br> <br> Sentieri: 141 -139 - 143 <br> <br>Il panorama che si vede dalla rocca è meraviglioso, si vede da Livorno a Massa',
+  '<h2>Sentiero Montemagno Calci: Trekking e Escursioni in Montagna</h2>
+
+<h3>Il Percorso</h3>
+
+<p>Il <strong>sentiero Montemagno Calci</strong> è un''escursione ideale per tutti, un''ottima opportunità per immergersi nella bellezza della <strong>montagna</strong> e della <strong>natura</strong>. Questo <strong>trekking</strong>, situato a <strong>Calci</strong>, offre un''esperienza indimenticabile per appassionati di <strong>escursionismo</strong> e <strong>sentieri</strong>. Il percorso è ben segnalato e presenta un dislivello accessibile, rendendolo perfetto anche per i principianti. Inizialmente, il <strong>sentiero</strong> si snoda attraverso una fitta vegetazione, offrendo la possibilità di ammirare la flora locale e la fauna alpina. Il tratto finale, pur rimanendo impegnativo, è un''opportunità per mettere alla prova la propria resistenza e godere di una vista mozzafiato.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<p>Durante l''<strong>escursione</strong> al <strong>Montemagno Calci</strong>, potrete assistere a un panorama a 360 gradi che spazia da <strong>Livorno</strong> a <strong>Massa</strong>, una vista che vi lascerà senza fiato. Il punto più alto del sentiero offre una vista panoramica sulla pianura circostante e sulle colline circostanti.  La difficoltà del <strong>sentiero</strong> non è elevata, ma il tratto finale presenta una pendenza più ripida che richiede un minimo di preparazione fisica. Preparatevi a camminare in un ambiente naturale incontaminato, ammirando la bellezza selvaggia della <strong>montagna</strong> italiana.</p>
+
+<p>Questo <strong>sentiero</strong> è un''ottima scelta per chi cerca un''<strong>escursione</strong> facile e divertente, un''opportunità per scoprire la bellezza della <strong>natura</strong> e del paesaggio toscano.  Potrete godervi la tranquillità della <strong>montagna</strong>, lontano dal caos della città, e respirare aria fresca e pulita.</p>
+
+<h3>Informazioni Utili</h3>
+
+<ul>
+  <li><strong>Nome Sentiero:</strong> Montemagno Calci</li>
+  <li><strong>Luogo:</strong> Calci, Toscana</li>
+  <li><strong>Difficoltà:</strong> Facile/Media (tratto finale impegnativo)</li>
+  <li><strong>Distanza:</strong> Circa 6 km (andata e ritorno)</li>
+  <li><strong>Dislivello:</strong> Circa 400 metri</li>
+  <li><strong>Sentieri Collegati:</strong> 141 - 139 - 143</li>
+  <li><strong>Punto di Rientro:</strong>  Rientro tramite lo stesso sentiero</li>
+  <li><strong>Periodo Consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Consigli:</strong> Scarpe da trekking adatte, acqua, snack, cappello, crema solare, mappa.</li>
+</ul>
+
+<p>La cima del <strong>Montemagno Calci</strong> offre una vista spettacolare e la possibilità di ammirare la maestosità della natura. Un''esperienza da non perdere per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>Italia</strong>.</p>',
   'Tutte le Attività e Paesi',
   10.44,
   476,
@@ -34,7 +60,8 @@ VALUES (
   10.51131,
   'POINT(10.51131 43.71621)',
   '66584e41b07ddcc236197c0cc5075aa8d95695c12a7de0a9c046d7eceb710181',
-  'Escursione al Monte Magno Calci: vista mozzafiato su Livorno & Massa! Facile percorso 141m, ideale per tutti. Goditi la roccia e l''aria fresca!',
+  'Escursione Montemagno Calci: vista mozzafiato su Livorno e Massa! Facile percorso ad anello, ideale per famiglie e principianti. Scopri il panorama!',
+  'Trekking Montemagno Calci: Vista Panoramica e Facile Escursione',
   NOW(),
   NOW()
 )
@@ -69,6 +96,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

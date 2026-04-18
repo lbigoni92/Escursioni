@@ -1,13 +1,32 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   87377309,
   'Chioma - Montenero - Castellaccio',
   'Ottimo per chi vuole fare una bella camminata lungo la costa toscana si vedono scorci stupendi del mare che vanno da Castel boccale fin tutto il romito. Tranne per il sentiero chiamato Tzunami il resto è facile e perfettamente percorribile da tutti. Vi consiglio di mettere i pantaloni lunghi ci sono dei rovi, ma per il resto è una bella camminata specialmente quando si arriva a montenero dove possiamo vedere il famoso santuario e il monumento a Ciano',
-  'Ottimo per chi vuole fare una bella camminata lungo la costa toscana si vedono scorci stupendi del mare che vanno da Castel boccale fin tutto il romito. <br> <br>Tranne per il sentiero chiamato Tzunami il resto è facile e perfettamente percorribile da tutti. <br> <br>Vi consiglio di mettere i pantaloni lunghi ci sono dei rovi, ma per il resto è una bella camminata specialmente quando si arriva a montenero dove possiamo vedere il famoso santuario e il monumento a Ciano',
+  '<h2>Chioma - Montenero - Castellaccio: Trekking Costiero in Toscana</h2>
+
+<h3>Il percorso</h3>
+<p>Questo fantastico <em>sentiero di trekking</em> offre un''esperienza indimenticabile lungo la costa toscana. Partendo da <strong>Chioma</strong>, si sale verso <strong>Montenero</strong>, un luogo ricco di storia e spiritualità, dominato dal suggestivo <strong>santuario</strong>. Il percorso prosegue poi fino al <strong>Castellaccio</strong>, un''imponente formazione rocciosa che si erge maestosa verso il mare. L''<em>escursione</em> è adatta a tutti, con una difficoltà generalmente facile e un''atmosfera naturale che vi conquisterà. La bellezza del <em>trekking</em> in <strong>montagna</strong> è completa con una vista mozzafiato sulla costa, da <strong>Castel Boccale</strong> fino al <strong>Romito</strong>.</p>
+
+<h3>Cosa aspettarsi</h3>
+<p>Preparatevi a una <em>bella camminata</em> attraverso paesaggi spettacolari. Il <em>sentiero</em> si snoda tra la macchia mediterranea, offrendo la possibilità di ammirare scorci incantevoli del mare. È consigliabile indossare <strong>pantaloni lunghi</strong> per proteggersi dai rovi presenti in alcune zone. L''<em>escursione</em> è particolarmente piacevole quando si raggiunge <strong>Montenero</strong> e si può ammirare il monumento a Ciano.  L''atmosfera di questa <em>trekking</em> è rilassante e immersiva nella <strong>natura</strong>.  Una fantastica <em>escursione</em> per tutti gli amanti del <em>trekking</em> e del <em>sentiero</em> in <strong>Italia</strong>.</p>
+
+<h3>Informazioni utili</h3>
+<ul>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Distanza:</strong> Circa 8-10 km (il percorso può variare leggermente)</li>
+    <li><strong>Dislivello:</strong> Circa 300-400 metri</li>
+    <li><strong>Tempi di percorrenza:</strong> 3-4 ore (a seconda del ritmo)</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Attenzione:</strong> Portare acqua, scarpe da trekking adatte e protezioni solari.</li>
+    <li><strong>Punti di interesse:</strong> Santuario di Montenero, monumento a Ciano, vista panoramica sulla costa toscana</li>
+</ul>
+
+<p>Scoprite la bellezza della <strong>Toscana</strong> con questa splendida <em>escursione</em>. Un''occasione perfetta per un''<em>escursione</em> di <em>trekking</em> in <strong>montagna</strong>, tra panorami mozzafiato e sentieri ben tracciati.  Perfetto per un''<em>escursione</em> di <em>trekking</em> in <strong>Italia</strong>, questo <em>sentiero</em> vi regalerà emozioni indimenticabili.  Non perdete l''occasione di vivere una fantastica <em>trekking</em> sulla costa toscana!</p>',
   'Tutte le Attività e Paesi',
   21.26,
   695,
@@ -18,7 +37,7 @@ VALUES (
   NULL,
   NULL,
   5952,
-  'Medio',
+  'Facile',
   'Anello',
   NULL,
   'Italia',
@@ -34,7 +53,8 @@ VALUES (
   10.367171,
   'POINT(10.367171 43.462525)',
   '8e9a1648fcef75197005ff1426369673edcaf9f6f94df21e3cdc2eede55720df',
-  'Escursione Chioma Montenero Castellaccio: sentiero costiero toscano, vista mare spettacolare e Santuario di Montenero. Facile camminata!',
+  'Escursioni Chioma Montenero Castellaccio: sentiero costa Toscana, vista mare, santuario e Ciano. Facile e panoramico! 🏞️🇮🇹',
+  'Trekking Chioma Montenero Castellaccio: Escursione Toscana',
   NOW(),
   NOW()
 )
@@ -69,6 +89,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

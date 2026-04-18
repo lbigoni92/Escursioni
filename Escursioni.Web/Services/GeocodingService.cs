@@ -31,7 +31,9 @@ public class GeocodingService
         try
         {
             var encoded = Uri.EscapeDataString(key);
-            var url = $"https://nominatim.openstreetmap.org/search?q={encoded},Italia&format=jsonv2&limit=1&accept-language=it";
+            // Usa query strutturata con city= per evitare che Nominatim restituisca
+            // la provincia invece del comune (es. Livorno provincia vs Livorno città)
+            var url = $"https://nominatim.openstreetmap.org/search?city={encoded}&country=Italia&format=jsonv2&limit=1&accept-language=it";
 
             var request = new HttpRequestMessage(HttpMethod.Get, url);
             request.Headers.Add("User-Agent", "Escursioni.Web/1.0");

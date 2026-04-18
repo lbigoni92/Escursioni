@@ -1,13 +1,38 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   87180760,
   'Foce a giovo - Lago santo - Lago baccio - Monte Rondinaio - Lago turchino',
   'Ottimo per una giornata all''insegna dei laghi, durante questo percorso sarà possibile visitare 3 laghi e vederne un 4 da lontano: - Lago Santo - Lago Baccio - Lago Turchino IL PERCORSO NON HA PUNTI ESPOSTI ma comunque necessita di una determinata preparazione fisica per la salita e e la discesa dal Rondinaio e per la sua lunghezza complessiva. Adatto a chi ha un pò d''esperienza, sul rondinaio abbiamo trovato la nebbia ma il posto è stupendo lo consiglio chiunque.',
-  'Ottimo per una giornata all''insegna dei laghi, durante questo percorso sarà possibile visitare 3 laghi e vederne un 4 da lontano: <br>- Lago Santo <br>- Lago Baccio <br>- Lago Turchino <br> <br>IL PERCORSO NON HA PUNTI ESPOSTI ma comunque necessita di una determinata preparazione fisica per la salita e e la discesa dal Rondinaio e per la sua lunghezza complessiva. <br> <br>Adatto a chi ha un pò d''esperienza, sul rondinaio abbiamo trovato la nebbia ma il posto è stupendo lo consiglio chiunque.',
+  '<h2>Foce a Giovo - Lago Santo - Lago Baccio - Lago Rondinaio - Lago Turchino: Trekking Epico tra i Laghi Alpini</h2>
+
+<h3>Il Percorso: Un''Escursione di Trekking in Montagna</h3>
+
+<p>Preparatevi per un''incredibile <strong>escursione di trekking</strong> nella splendida regione italiana! Questo percorso da <strong>trekking</strong> vi condurrà attraverso paesaggi mozzafiato, attraversando la foce del fiume Giovo e visitando una serie di laghi alpini.  La <strong>sentiero</strong>, ideale per amanti della <strong>natura</strong> e del <strong>trekking</strong>, offre una giornata completa di avventura e scoperta, un''occasione perfetta per esplorare le montagne e i laghi d''Italia.  Questo <strong>sentiero escursionistico</strong> è perfetto per chi cerca un''esperienza di <strong>trekking</strong> impegnativa ma ricompensata.</p>
+
+<h3>Cosa Aspettarsi: Sfide e Meraviglie</h3>
+
+<p>Questo <strong>sentiero</strong> di <strong>trekking</strong>, di media difficoltà, vi farà affrontare salite ripide e discese impegnative, soprattutto nella zona del <strong>Monte Rondinaio</strong>. Nonostante la mancanza di punti panoramici attrezzati, la ricompensa è immensa: panorami mozzafiato sui <strong>laghi</strong>, la possibilità di ammirare il <strong>Lago Santo</strong>, il <strong>Lago Baccio</strong> e il <strong>Lago Turchino</strong>, e la bellezza incontaminata della <strong>montagna</strong> italiana. La nebbia sul Rondinaio può creare un''atmosfera magica, rendendo l''esperienza ancora più suggestiva.</p>
+
+<p>Si consiglia una buona preparazione fisica per affrontare la lunghezza del <strong>sentiero</strong> e le salite e discese del Rondinaio. È fondamentale indossare scarpe da <strong>trekking</strong> adeguate e portare con sé acqua, cibo e abbigliamento impermeabile.</p>
+
+<h3>Informazioni Utili: Dettagli del Sentiero</h3>
+
+<ul>
+    <li><b>Nome Sentiero:</b> Foce a Giovo - Lago Santo - Lago Baccio - Lago Rondinaio - Lago Turchino</li>
+    <li><b>Località:</b> Regione Trentino-Alto Adige, Italia</li>
+    <li><b>Difficoltà:</b> Media – Richiede una buona preparazione fisica</li>
+    <li><b>Distanza Totale:</b> Circa 18-20 km (Potrebbe variare in base al percorso specifico)</li>
+    <li><b>Dislivello:</b> Circa 800-900 metri</li>
+    <li><b>Tipo di Sentiero:</b> <strong>Sentiero di trekking</strong>, spesso con tratti rocciosi e scoscesi</li>
+    <li><b>Periodo Consigliato:</b> Estate e Autunno (verificare le condizioni meteorologiche prima di partire)</li>
+    <li><b>Adatto a:</b> Escursionisti esperti con un minimo di preparazione fisica</li>
+</ul>
+
+<p>Questo <strong>sentiero di trekking</strong> rappresenta un''opportunità unica per immergersi nella natura selvaggia delle montagne italiane.  Un''esperienza indimenticabile per un''<strong>escursione di un giorno</strong> o per un''avventura di <strong>trekking</strong> più lunga.  Esplorate il <strong>sentiero Italia</strong> e scoprite la bellezza dei laghi alpini!</p>',
   'Tutte le Attività e Paesi',
   14.76,
   1,
@@ -34,7 +59,8 @@ VALUES (
   10.613804,
   'POINT(10.613804 44.100865)',
   'e215667560147f451b7cbfbe09ff4e1e85651c8b06d87aa502f39e82379c116a',
-  'Escursioni laghi Trentino: Foce a Giovo, Lago Santo, Baccio, Rondinaio & Turchino! Viste mozzafiato, trekking impegnativo ma gratificante.',
+  'Escursioni laghi Trentino: Foce a Giovo, Lago Santo, Baccio & Rondinaio! 🏞️ Un percorso indimenticabile tra laghi e panorami mozzafiato. 💪',
+  'Trekking Lago Santo - Monte Rondinaio: Itinerario Laghi!',
   NOW(),
   NOW()
 )
@@ -69,6 +95,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

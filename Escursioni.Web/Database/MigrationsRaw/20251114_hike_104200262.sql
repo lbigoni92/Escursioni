@@ -1,13 +1,29 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   104200262,
   'Sovana - Etrusche - Vie Cave',
   'Le Vie Cave, chiamate anche “tagliate”, sono una creazione ancora poco conosciuta degli Etruschi. Questi affascinanti percorsi viari scavati a cielo aperto nelle colline di tufo non hanno raffronti in altre civiltà del mondo antico. Per questo sono sono state fatte numerose ipotesi sulla loro reale funzione: canali per convogliare le acque piovane dai pianori alle valli, semplici vie di comunicazione, passaggi strategici studiati contro i nemici, sentieri cerimoniali e così via… In primis abbiamo visitato il paese, molto carino e pieno di gatti bellissimi in seguiti siamo scesi per la via che costeggia il cimitero arrivando al primo percorso, dove abbiamo vito, quelle che sono le vie cave più belle con alcune tombe che meritano davvero d''essere viste. In secondo luogo abbiamo visitato il parco archeologico luogo tenuto d''incanto che consiglio per il biglietto pagato la modica ci fra di 5 euro... la più bella ? sempre e indiscutibilmente la prima Via Cava di San Sebastiano. Se quella del Cavone è la più larga tra le Vie Cave, quella di San Sebastiano è la più profonda (fino a venticinque metri) e questo la rende particolarmente suggestiva. Si entra all’improvviso in un ambiente buio tra due pareti strette e verticali di roccia, da cui si intravede solo una striscia di cielo parzialmente coperto dagli alberi.',
-  'Le Vie Cave, chiamate anche “tagliate”, sono una creazione ancora poco conosciuta degli Etruschi. <br> <br>Questi affascinanti percorsi viari scavati a cielo aperto nelle colline di tufo non hanno raffronti in altre civiltà del mondo antico. Per questo sono sono state fatte numerose ipotesi sulla loro reale funzione: canali per convogliare le acque piovane dai pianori alle valli, semplici vie di comunicazione, passaggi strategici studiati contro i nemici, sentieri cerimoniali e così via… <br> <br>In primis abbiamo visitato il paese, molto carino e pieno di gatti bellissimi in seguiti siamo scesi per la via che costeggia il cimitero arrivando al primo percorso, dove abbiamo vito, quelle che sono le vie cave più belle con alcune tombe che meritano davvero d''essere viste. <br> <br>In secondo luogo abbiamo visitato il parco archeologico luogo tenuto d''incanto che consiglio per il biglietto pagato la modica ci fra di 5 euro... <br> <br>la più bella ? sempre e indiscutibilmente la prima Via Cava di San Sebastiano. <br> <br>Se quella del Cavone è la più larga tra le Vie Cave, quella di San Sebastiano è la più profonda (fino a venticinque metri) e questo la rende particolarmente suggestiva. Si entra all’improvviso in un ambiente buio tra due pareti strette e verticali di roccia, da cui si intravede solo una striscia di cielo parzialmente coperto dagli alberi.',
+  '<h2>Sovana - Etrusche - Vie Cave: Trekking e Sentieri Esplorativi nella Val d''Arbia</h2>
+
+<h3>Il Percorso</h3>
+<p>Immergiti in un''escursione indimenticabile lungo le <strong>Vie Cave</strong> di <strong>Sovana</strong>, un''occasione unica per scoprire le tracce di una civiltà misteriosa. Questo <strong>sentiero di trekking</strong> ti condurrà attraverso le colline di tufo, dove gli antichi <strong>Etruschi</strong> hanno creato percorsi unici, ancora oggi in gran parte sconosciuti. L''escursione, di difficoltà moderata, offre la possibilità di ammirare paesaggi mozzafiato e di addentrarti nella <strong>natura</strong> della <strong>Val d''Arbia</strong>, in Toscana.  Questa <strong>escursione di un giorno</strong> è perfetta per gli amanti del trekking e dell''archeologia che desiderano vivere un''esperienza autentica tra le <strong>vie cave</strong>.</p>
+
+<h3>Cosa Aspettarsi</h3>
+<ul>
+    <li>Esplorazione di antichi percorsi <strong>Etruschi</strong>, chiamate <strong>Vie Cave</strong>.</li>
+    <li>Possibilità di valutare diverse ipotesi sulla loro funzione: canali d''acqua, vie di comunicazione, passaggi strategici, sentieri cerimoniali.</li>
+    <li>Ammirazione di <strong>tombe etrusche</strong> e resti archeologici.</li>
+    <li>Un''escursione nella <strong>montagna</strong>, tra panorami suggestivi.</li>
+    <li>Un''esperienza immersiva nella <strong>natura</strong> toscana e nella sua ricca storia.</li>
+</ul>
+
+<h3>Informazioni Utili</h3>
+<p>Questo <strong>sentiero di trekking</strong> si snoda attraverso il territorio comunale di <strong>Sovana</strong>, un paese ricco di storia e tradizioni. La lunghezza del percorso è di circa 5 km, con un dislivello di circa 200 metri. L''escursione richiede una buona preparazione fisica e l''utilizzo di scarpe da trekking adatte.  La difficoltà è classificata come moderata, adatta a escursionisti esperti.  Il punto di partenza è facilmente raggiungibile in auto o con i mezzi pubblici.  Ricorda di indossare abbigliamento e scarpe adatte al trekking e di portare con te acqua e cibo.  <em>Consigliamo di prenotare la visita al Parco Archeologico di Sovana, dove si trova la Via Cava di San Sebastiano, la più suggestiva delle Vie Cave.</em>  Il biglietto del parco archeologico costa circa 5 euro ed è un''ottima opportunità per approfondire la conoscenza della civiltà etrusca.  <em>In alternativa, potrai godere della semplice bellezza del paesaggio e delle <strong>vie cave</strong> senza visitare il parco archeologico.</em></p>
+<p>Ideale per una giornata di <strong>trekking</strong> in Toscana, un''avventura tra l''antico e la natura.  Scopri le meraviglie delle <strong>Vie Cave</strong> e lasciati affascinare dalla storia degli <strong>Etruschi</strong>!</p>',
   'Tutte le Attività e Paesi',
   7.91,
   319,
@@ -18,7 +34,7 @@ VALUES (
   NULL,
   NULL,
   1086,
-  'Medio',
+  'Facile',
   'Anello',
   NULL,
   'Italia',
@@ -34,7 +50,8 @@ VALUES (
   11.645977,
   'POINT(11.645977 42.657643)',
   '85c054b25ebc1c1a0f06740eaa5e96f68d1246e03c47f0a02e4180c4638d5443',
-  'Esplora le misteriose Vie Cave degli Etruschi a Sovana! Percorsi unici, tombe suggestive e panorami mozzafiato. Trekking indimenticabile!',
+  'Esplora le misteriose Vie Cave Etrusche a Sovana! Sentieri unici, tombe suggestive e panorami mozzafiato. Trekking in Toscana!',
+  'Trekking Sovana: Vie Cave Etrusche - Escursione in Italia',
   NOW(),
   NOW()
 )
@@ -69,6 +86,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -81,7 +99,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 104200262);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/104200262/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/104200262/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -217,7 +235,7 @@ SELECT id, 'foto', 'media/images/104200262/photo_16.jpg', 16,
 FROM escursioni.hike WHERE wikiloc_id = 104200262;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/104200262/photo_17.jpg', 17,
+SELECT id, 'cover', 'media/images/104200262/photo_17.jpg', 17,
        NULL,
        NULL,
        NULL,

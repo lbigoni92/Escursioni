@@ -1,13 +1,28 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   106910190,
   'Orrido di Botri',
   'Percorso molto bello, la traccia.. m''ero scordato di chiuderla e quindi bhe... ha registrato fino a metà tragitto per casa, il percorso per il suo totale sono 8 KM. Molto facile lo consiglio a chiunque abbia una buona mobilitazione. La. Senzazione più bella mi è stata data dal fatto che l''ho fatto di Luglio, c''erano 18 gradi e il fresco dell'' acqua ai piedi faceva tornare in forze. Il percorso è lungo un fiume e ci si bagna i piedi fino ai polpacci o fino alla vita dipende da quanto è in piena il fiume, quando sono andato io era abbastanza in secca. E'' possibile farlo con visite guidate(22 a testa) o in autonomia (GRATUITO ma prenotate). Lo consiglio anche se ora hanno interrotto l''ultimo tratto "la piscina"',
-  'Percorso molto bello, la traccia.. m''ero scordato di chiuderla e quindi bhe... ha registrato fino a metà tragitto per casa, il percorso per il suo totale sono 8 KM. <br>Molto facile lo consiglio a chiunque abbia una buona mobilitazione. <br> <br>La. Senzazione più bella mi è stata data dal fatto che l''ho fatto di Luglio, c''erano 18 gradi e il fresco dell'' acqua ai piedi faceva tornare in forze. <br> <br>Il percorso è lungo un fiume e ci si bagna i piedi fino ai polpacci o fino alla vita dipende da quanto è in piena il fiume, quando sono andato io era abbastanza in secca. <br> <br>E'' possibile farlo con visite guidate(22 a testa) o in autonomia (GRATUITO ma prenotate). <br> <br>Lo consiglio anche se ora hanno interrotto l''ultimo tratto "la piscina"',
+  '<h2>Orrido di Botri: Trekking e Escursione nel Cuore del Parco Nazionale d''Abruzzo, Lazio e Molise</h2>
+
+<h3>Il Percorso</h3>
+<p>Questo fantastico <strong>sentiero di trekking</strong> nel <strong>Orrido di Botri</strong>, situato nel cuore del <strong>Parco Nazionale d''Abruzzo, Lazio e Molise</strong>, è un''esperienza indimenticabile per gli amanti della <strong>natura</strong> e del <strong>trekking</strong>. Il percorso di circa <strong>8 km</strong> segue il corso del fiume, offrendo panorami mozzafiato e la possibilità di immergersi nella frescura dell''acqua. L''escursione, accessibile a tutti, è ideale per una giornata di <strong>escursione</strong> in <strong>montagna</strong>, perfetta per chi cerca un''esperienza di <strong>trekking</strong> facile e piacevole.</p>
+
+<h3>Cosa Aspettarsi</h3>
+<ul>
+    <li>Un percorso di circa <strong>8 km</strong>, adatto a tutti i livelli di preparazione fisica.</li>
+    <li>Un''esperienza di <strong>trekking</strong> immersa nella natura selvaggia del <strong>Parco Nazionale d''Abruzzo, Lazio e Molise</strong>.</li>
+    <li>La possibilità di <strong>fare il bagno nei piedi</strong>, godendo della frescura dell''acqua e della natura incontaminata.</li>
+    <li>Un''escursione di <strong>trekking</strong> con panorami spettacolari sull''<strong>orrido</strong> e sulle montagne circostanti.</li>
+</ul>
+
+<h3>Informazioni Utili</h3>
+<p>Il <strong>sentiero dell''Orrido di Botri</strong> è un''ottima opzione per un''<strong>escursione</strong> di un giorno. È possibile affrontarlo in autonomia, gratuitamente, ma è consigliabile prenotare la visita guidata a <strong>22€ a persona</strong>. Il percorso è lungo un fiume e, a seconda del livello dell''acqua, si possono bagnare i piedi fino alla vita.  È importante verificare le condizioni del fiume prima di intraprendere l''<strong>escursione di trekking</strong>, in quanto il fiume può essere in piena durante i periodi di pioggia.  L''accesso all''ultimo tratto "la piscina" è stato interrotto, ma il percorso fino a questo punto rimane comunque una bellissima esperienza di <strong>trekking</strong> in <strong>montagna</strong>.</p>
+<p>Questo <strong>sentiero di trekking</strong> nel <strong>Orrido di Botri</strong> offre un''opportunità unica per esplorare la bellezza del <strong>Parco Nazionale d''Abruzzo, Lazio e Molise</strong> e godere di un''esperienza di <strong>natura</strong> e relax in <strong>montagna</strong>.  Preparatevi per una splendida giornata di <strong>trekking</strong>!</p>',
   'Tutte le Attività e Paesi',
   66.44,
   2,
@@ -34,7 +49,8 @@ VALUES (
   10.601293,
   'POINT(10.601293 44.083557)',
   'e778b1857cdd616a8f02edc29fac5f22ce4baff6e06d7e738f6078b06adecf7c',
-  'Esplora l''Orrido di Botri: facile escursione di 8km lungo il fiume! Bagni piedi, fresco d''acqua e vista mozzafiato. Visita guidata o gratuita! 🏞️',
+  'Esplora l''Orrido di Botri: sentiero facile e fresco d''acqua! 8km di bellezza tra fiume e cascate. Bagno dei piedi e vista mozzafiato! Escursioni guida o grat...',
+  'Trekking Orrido Botri: Sentiero Facile in Toscana',
   NOW(),
   NOW()
 )
@@ -69,6 +85,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

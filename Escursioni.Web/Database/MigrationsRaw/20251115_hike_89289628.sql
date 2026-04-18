@@ -1,7 +1,7 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   89289628,
@@ -18,7 +18,7 @@ VALUES (
   212,
   '03:32',
   2465,
-  'Medio',
+  'Facile',
   'Anello',
   NULL,
   'Italia',
@@ -35,6 +35,7 @@ VALUES (
   'POINT(10.360628 43.836188)',
   '759f4c86de14abf155cdbda5a128274539009a82b13c41cbe578ff0b4f944c77',
   'Escursione Lago di Massaciuccoli: Anello panoramico tra natura, rovine romane e avifauna. Sentiero facile, viste mozzafiato!',
+  NULL,
   NOW(),
   NOW()
 )
@@ -69,6 +70,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -81,7 +83,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 89289628);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/89289628/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/89289628/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -241,7 +243,7 @@ SELECT id, 'foto', 'media/images/89289628/photo_19.jpg', 19,
 FROM escursioni.hike WHERE wikiloc_id = 89289628;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/89289628/photo_20.jpg', 20,
+SELECT id, 'cover', 'media/images/89289628/photo_20.jpg', 20,
        NULL,
        NULL,
        NULL,

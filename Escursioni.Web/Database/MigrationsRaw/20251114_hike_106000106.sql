@@ -1,13 +1,31 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   106000106,
   'Livorno - Sambuca - Valle Benedetta - Lucciole',
   'La partenza stata dal parcheggio a fianco della "via del radar" ove via un''enorme parcheggio gratuito. Il percorso è iniziato alle 19 del pomeriggio dove abbiamo fatto la prima parte con il sole, quando siamo arrivati a 1/3 del percorso, abbiamo potuto vedere un punto panoramico stupendo; da qua avevamo la possibilità di vedere dai Monte serra, fino alle Apuane. Abbiamo proseguito il percorso al cala sole, fino ad arrivare all''incrocio chiamato “il Crocione”, da qua siamo tornati indietro verso il Molino e abbiamo immediatamente girato a sinistra e abbiamo cominciato questo sentiero in notturna,; com''è calato il sole le lucciole hanno preso a illuminare il percorso, è stata un''esperienza unica e grazie alla luna piena riuscivamo a vedere queste chiaramente il sentiero anche di notte; sentiero che abbiamo proseguito fino ad arrivare all''Eremo della Sambuca, dove abbiamo cenato verso le 21:00. Dall''eremo abbiamo proseguito fino a un enorme pratone dove ci siamo stesi a vedere le stelle e la visuale era stupenda... le foto non rendono bene quel che abbiamo visto, e dopo un po’ di riposo abbiamo proseguito sulla strada fino a tornare alle macchine.',
-  'La partenza stata dal parcheggio a fianco della "via del radar" ove via un''enorme parcheggio gratuito. <br> <br>Il percorso è iniziato alle 19 del pomeriggio dove abbiamo fatto la prima parte con il sole, quando siamo arrivati a 1/3 del percorso, abbiamo potuto vedere un punto panoramico stupendo; da qua avevamo la possibilità di vedere dai Monte serra, fino alle Apuane. <br> <br>Abbiamo proseguito il percorso al cala sole, fino ad arrivare all''incrocio chiamato “il Crocione”, da qua siamo tornati indietro verso il Molino e abbiamo immediatamente girato a sinistra e abbiamo cominciato questo sentiero in notturna,; com''è calato il sole le lucciole hanno preso a illuminare il percorso, è stata un''esperienza unica e grazie alla luna piena riuscivamo a vedere queste chiaramente il sentiero anche di notte; sentiero che abbiamo proseguito fino ad arrivare all''Eremo della Sambuca, dove abbiamo cenato verso le 21:00. <br> <br>Dall''eremo abbiamo proseguito fino a un enorme pratone dove ci siamo stesi a vedere le stelle e la visuale era stupenda... le foto non rendono bene quel che abbiamo visto, e dopo un po’ di riposo abbiamo proseguito sulla strada fino a tornare alle macchine.',
+  '<h2>Livorno - Sambuca - Valle Benedetta - Lucciole: Trekking Notturno tra Montagna e Natura</h2>
+
+<h3>Il Percorso</h3>
+<p>Questo fantastico <strong>sentiero di trekking</strong> a <strong>Livorno</strong> offre un''esperienza indimenticabile, un''escursione notturna attraverso paesaggi mozzafiato. Il percorso inizia da un comodo <strong>parcheggio gratuito</strong>, vicino alla “via del radar”, e si snoda attraverso la splendida <strong>Valle Benedetta</strong> fino al punto di riferimento delle <strong>lucciole</strong>. L''escursione, di circa 8 km, è adatta a escursionisti esperti che amano il <strong>trekking in montagna</strong> e l''esplorazione della <strong>natura</strong>.</p>
+<p>Il percorso include una prima parte sotto il sole, con una spettacolare vista sui <strong>Monte Serra</strong> e le <strong>Apuane</strong>, un punto panoramico a circa 1/3 del cammino. Successivamente, si prosegue al calar della sera, sfruttando la magia delle <strong>lucciole</strong> che illuminano il <strong>sentiero</strong>.</p>
+
+<h3>Cosa Aspettarsi</h3>
+<ul>
+    <li>Un''escursione notturna immersa nella <strong>natura</strong> e nell''oscurità.</li>
+    <li>L''opportunità di ammirare le splendide <strong>lucciole</strong>, un''esperienza magica e unica.</li>
+    <li>Viste panoramiche mozzafiato sui <strong>Monti Serra</strong> e sulle <strong>Apuane</strong>.</li>
+    <li>Un <strong>sentiero</strong> ben definito, adatto a <strong>trekking</strong> e <strong>escursioni</strong>.</li>
+    <li>Un''escursione di circa 8 km, adatta a escursionisti esperti.</li>
+</ul>
+
+<h3>Informazioni Utili</h3>
+<p>Il <strong>sentiero</strong> da <strong>Livorno</strong> a <strong>Sambuca</strong> e <strong>Valle Benedetta</strong> e <strong>Lucciole</strong> è un''eccellente opzione per chi cerca un''avventura notturna e un contatto diretto con la <strong>natura</strong>. La difficoltà del <strong>sentiero</strong> è media, richiede un buon livello di preparazione fisica e una scarpa da <strong>trekking</strong> adeguata. Il percorso termina in un ampio pratone dove è possibile ammirare le stelle e godere della vista.</p>
+<p>Partenza dal <strong>parcheggio</strong> a fianco della “via del radar”. Il punto di partenza è facilmente raggiungibile in auto.  La durata dell''escursione è di circa 4-5 ore, a seconda del ritmo e delle soste. È consigliabile informarsi sulle condizioni meteorologiche prima di intraprendere il <strong>sentiero</strong>.</p>
+<p>Per ulteriori informazioni e dettagli sul <strong>trekking</strong> in <strong>Italia</strong>, consulta le nostre guide per l''esplorazione dei <strong>sentieri</strong> e delle <strong>montagne</strong>.</p>',
   'Tutte le Attività e Paesi',
   9.89,
   329,
@@ -18,7 +36,7 @@ VALUES (
   NULL,
   NULL,
   327,
-  'Medio',
+  'Facile',
   'Anello',
   NULL,
   'Italia',
@@ -34,7 +52,8 @@ VALUES (
   10.413151,
   'POINT(10.413151 43.522496)',
   '188d7773fe435a47932d5f349f313307d6801a69fdf4ae92610a6857e35410f9',
-  'Escursione notturna a Livorno: Valle Benedetta & Lucciole! Panorami mozzafiato, stelle e Eremo della Sambuca. Trek facile e suggestivo!',
+  'Escursione notturna a Livorno: Sambuca, Lucciole e panorami mozzafiato! Trekking in luna piena tra sentieri e stelle. Scopri di più!',
+  'Trekking Notturno Lucciole Valle Benedetta - Sambuca Livorno',
   NOW(),
   NOW()
 )
@@ -69,6 +88,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

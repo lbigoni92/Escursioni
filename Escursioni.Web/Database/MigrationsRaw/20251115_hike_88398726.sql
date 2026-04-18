@@ -1,7 +1,7 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   88398726,
@@ -35,6 +35,7 @@ VALUES (
   'POINT(10.363922 43.924668)',
   '6bb8d64c3d5261d4cc24e081acde235ea83aa8a2eb6841128f756c1e63d0c68a',
   'Escursioni Torcigliano: Prana, Campo All''orzo e Baite! Vetta panoramica, sentieri facili e vista mozzafiato. Scopri il percorso!',
+  NULL,
   NOW(),
   NOW()
 )
@@ -69,6 +70,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -81,7 +83,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 88398726);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/88398726/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/88398726/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -193,7 +195,7 @@ SELECT id, 'foto', 'media/images/88398726/photo_13.jpg', 13,
 FROM escursioni.hike WHERE wikiloc_id = 88398726;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/88398726/photo_14.jpg', 14,
+SELECT id, 'cover', 'media/images/88398726/photo_14.jpg', 14,
        NULL,
        NULL,
        NULL,

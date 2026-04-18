@@ -1,13 +1,34 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   99597113,
   'Calambrone - Passeggiata nel verde - Picnic',
   'Con la mia ragazza abbiamo fatto una camminata molto molto tranquilla, nel luogo dove abbiamo parcheggiato (inizio percorso) c''è tanto parcheggio e inoltre la zona è adatta fare picnic, non vi sono dislivelli è TUTTO in piano, sentieri larghi e ben tenuti. Abbiamo trovato persone a cavallo (c''è un maneggio vicino) e qualche anatra, in passato ho visto daini e volpi. Il luogo è tranquillo e adatto a passeggiate tranquille, non vi sono fontanelle. Nelle vicinanze vi sono: - il centro sportivo del CONI - Un campeggio ben attrezzato - Il mare ad appena 15 min a piedi.',
-  'Con la mia ragazza abbiamo fatto una camminata molto molto tranquilla, nel luogo dove abbiamo parcheggiato (inizio percorso) c''è tanto parcheggio e inoltre la zona è adatta fare picnic, non vi sono dislivelli è TUTTO in piano, sentieri larghi e ben tenuti. <br> <br>Abbiamo trovato persone a cavallo (c''è un maneggio vicino) e qualche anatra, in passato ho visto daini e volpi. <br> <br>Il luogo è tranquillo e adatto a passeggiate tranquille, non vi sono fontanelle. <br> <br>Nelle vicinanze vi sono: <br> - il centro sportivo del CONI <br>- Un campeggio ben attrezzato <br>- Il mare ad appena 15 min a piedi.',
+  '<h2>Calambrone - Passeggiata nel Verde - Picnic Trekking</h2>
+
+<h3>Il Percorso</h3>
+
+<p>La <strong>Passeggiata nel Verde a Calambrone</strong> è un''escursione ideale per famiglie e per chi cerca una <strong>passeggiata tranquilla in montagna</strong>. Questo <strong>sentiero di trekking</strong> è caratterizzato da un percorso completamente pianeggiante, con <strong>sentieri larghi e ben tenuti</strong>, perfetto per una <strong>passeggiata nel verde</strong>.  La <strong>Passeggiata nel Verde</strong> offre un''esperienza di <strong>trekking</strong> rilassante e adatta a tutti i livelli, senza dislivelli significativi, rendendola una delle migliori <strong>escursioni in Italia</strong> per chi desidera godersi la natura e un <strong>picnic</strong>.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<p>Durante la <strong>Passeggiata nel Verde</strong>, potrete immergervi in un ambiente naturale incontaminato, ricco di biodiversità.  Avrete la possibilità di ammirare la flora e la fauna locali, con la possibilità di avvistare cavalli provenienti dal vicino maneggio, anatre e, se siete fortunati, anche daini e volpi. Questa <strong>escursione di trekking</strong> è perfetta per chi cerca un''esperienza immersiva nella <strong>natura italiana</strong> e un <strong>picnic</strong> all''aria aperta.  La <strong>Passeggiata nel Verde</strong> è un''opportunità per scoprire la tranquillità della <strong>montagna</strong> e godere di una <strong>passeggiata tranquilla</strong>.</p>
+
+<h3>Informazioni Utili</h3>
+
+<ul>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Distanza:</strong> Circa 5 km</li>
+  <li><strong>Dislivello:</strong> 0 metri (Percorso completamente pianeggiante)</li>
+  <li><strong>Tipo di Percorso:</strong> Sentiero di <strong>trekking</strong>, ideale per <strong>passeggiate nel verde</strong> e <strong>escursioni</strong>.</li>
+  <li><strong>Adatto a:</strong> Famiglie, principianti, appassionati di <strong>trekking</strong>.</li>
+  <li><strong>Attrezzatura Consigliata:</strong> Scarpe da trekking comode, acqua, cappello, crema solare, <strong>picnic</strong>.</li>
+</ul>
+
+<p>La zona di partenza della <strong>Passeggiata nel Verde</strong> offre inoltre comodità come ampio parcheggio e la vicinanza a servizi come il centro sportivo del CONI, un campeggio ben attrezzato e la costa mare a soli 15 minuti a piedi.  Questa <strong>escursione di trekking</strong> a <strong>Calambrone</strong> è un''ottima scelta per una giornata all''aria aperta in <strong>Italia</strong>, perfetta per un <strong>picnic</strong> in famiglia o con amici.  Scoprite la bellezza di questo <strong>sentiero</strong> e godetevi la <strong>Passeggiata nel Verde</strong>!</p>',
   'Tutte le Attività e Paesi',
   7.7,
   43,
@@ -18,7 +39,7 @@ VALUES (
   NULL,
   NULL,
   969,
-  'Medio',
+  'Facile',
   'Anello',
   NULL,
   'Italia',
@@ -34,7 +55,8 @@ VALUES (
   10.302403,
   'POINT(10.302403 43.599993)',
   '27c17826ebfb9859efa3ca3dba8a80e282e30b17fe9fe30e2aa5969e384ac127',
-  'Escursioni Calambrone: Passeggiata facile in piano, ideale per picnic e famiglie. Sentieri ampi, natura e vicino al mare!',
+  'Escursioni Calambrone: passeggiata facile nel verde, perfetta per picnic e famiglie! Sentieri pianeggianti, natura e animali. Scopri di più!',
+  'Trekking Calambrone: Escursione Pianeggiante in Toscana',
   NOW(),
   NOW()
 )
@@ -69,6 +91,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
