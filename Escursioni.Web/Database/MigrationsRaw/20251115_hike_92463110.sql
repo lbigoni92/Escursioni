@@ -1,54 +1,31 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   92463110,
   'Lago della Gherardesca',
   'Noto anche con i nomi "lago di Sesto" (icino ad esso sorgeva un castello che prese il nome dalla sesta pietra miliare esistita sulla vicina strada maestra che da Lucca guida nel Valdarno inferiore) o "lago di Bientina" Durante la Seconda Guerra Mondiale, nel 1941, fu costruito un campo di concentramento per più di 3000 prigionieri inglesi, civili, politici, ebrei: il P.G n° 60, in una località detta “Il Pollino”. Classica passeggiata per amanti del le fotografie, passeggiate con ik cane o pic nik con la famiglia. Ci passano anche a cavallo. Vi sono numerosi punti per fare foto a uccelli di vario tipo. Lungo il percorso possiamo trovare anche un monumento alla memoria. Non ci sono fontanelle Consiglio scarponcini se ha piovuto di recente',
-  '<article class="hiking-details">
-  <h2 data-aos="fade-up">Lago della Gherardesca</h2>
-  <img src="placeholder-lake.jpg" alt="Lago della Gherardesca" data-aos="zoom-in">
+  '<h2>Trekking Lago della Gherardesca: Escursione e Sentiero nella Val d''Arno</h2>
 
-  <p data-aos="fade-up">
-    Il Lago della Gherardesca, conosciuto anche come "lago di Sesto" o "lago di Bientina", offre un''esperienza di escursione affascinante. La sua storia è intrisa di eventi tragici come la costruzione del P.G n° 60, un campo di concentramento per oltre 3000 prigionieri durante la Seconda Guerra Mondiale, situato nella località “Il Pollino”.
-  </p>
+<h3>Il Percorso</h3>
+<p>Immergiti in un''escursione indimenticabile lungo il sentiero che conduce al pittoresco <strong>Lago della Gherardesca</strong>, un gioiello nascosto nella splendida regione Toscana. Questo classico <strong>sentiero di trekking</strong> è perfetto per appassionati di <strong>escursioni</strong> e amanti della <strong>montagna</strong> e della <strong>natura</strong>. Il percorso offre una camminata rilassante attraverso paesaggi mozzafiato, con panorami sulle colline circostanti e il lago stesso.  Adatto a famiglie, a chi ama le <strong>passeggiate con il cane</strong> o per un piacevole <strong>picnic</strong>, questo <strong>sentiero di trekking</strong> ti regalerà momenti di tranquillità e bellezza.</p>
 
-  <h3 data-aos="fade-up">Dettagli dell''Escursione</h3>
-  <ul data-aos="fade-up">
-    <li>
-      <strong>Difficoltà:</strong> Facile - Media
-    </li>
-    <li>
-      <strong>Lunghezza:</strong> Circa 8-10 km
-    </li>
-    <li>
-      <strong>Dislivello:</strong> Circa 200 metri
-    </li>
-    <li>
-      <strong>Tempo di percorso:</strong> 3 - 4 ore
-    </li>
-    <li>
-      <strong>Periodo consigliato:</strong> Primavera, Estate, Autunno
-    </li>
-  </ul>
+<h3>Cosa Aspettarsi</h3>
+<p>Preparati ad ammirare la bellezza naturale del <strong>Lago della Gherardesca</strong>, un lago di origine antica circondato da una vegetazione rigogliosa.  Il sentiero è ben segnalato, ma si consiglia di indossare scarpe da trekking, soprattutto dopo la pioggia, per garantire una camminata sicura e confortevole.  Avrai l''opportunità di scattare fotografie di splendidi uccelli e di ammirare il <strong>monumento alla memoria</strong> che omaggia le storie del passato. Questa <strong>escursione nel cuore della Toscana</strong> è un''occasione unica per scoprire un angolo di paradiso e immergerti nella tranquillità della natura.  Un''esperienza ideale per un''<strong>escursione mattutina</strong> o un''<strong>passeggiata serale</strong>.</p>
 
-  <p data-aos="fade-up">
-    Questo percorso è ideale per amanti della fotografia, passeggiate con il cane, picnic in famiglia, ed anche per chi desidera provare l''equitazione. Numerosi punti panoramici offrono la possibilità di immortalare la fauna locale, in particolare gli uccelli.  Non mancano, inoltre, un monumento alla memoria.
-  </p>
+<h3>Informazioni Utili</h3>
+<ul>
+    <li><b>Difficoltà:</b> Facile - Media</li>
+    <li><b>Distanza:</b> Circa 6 - 8 km (il percorso può variare leggermente)</li>
+    <li><b>Dislivello:</b> Circa 150 - 200 metri</li>
+    <li><b>Tempi di percorrenza:</b> 2 - 3 ore (a seconda del ritmo)</li>
+    <li><b>Punti di Interesse:</b> Lago della Gherardesca, <strong>monumento alla memoria</strong>, punti panoramici, osservazione degli uccelli.</li>
+    <li><b>Consigli:</b> Scarponcini da trekking consigliati, acqua, snack, protezione solare, macchina fotografica per immortalare i panorami.</li>
+</ul>
 
-  <p data-aos="fade-up">
-    <em style="font-style: italic;">Consigli:</em> Non sono presenti fontanelle lungo il percorso, quindi è consigliabile portare con sé acqua e cibo sufficienti. Se di recente è piovuto, è opportuno indossare scarponcini da trekking per una maggiore aderenza.
-  </p>
-
-  <h3 data-aos="fade-up">Punti di Interesse</h3>
-  <p data-aos="fade-up">
-    *   Punti panoramici per la fotografia di uccelli.
-    *   Monumento alla Memoria.
-    *   Il P.G n° 60 (Il Pollino) - Luogo significativo per la storia del territorio.
-  </p>
-</article>',
+<p>Durante la Seconda Guerra Mondiale, l''area del <strong>Lago della Gherardesca</strong> era sede del P.G n° 60, un campo di prigionia per prigionieri di guerra e civili. Un luogo che invita alla riflessione e alla memoria.  Esplora il sentiero e scopri la storia di questo luogo, godendo al contempo della bellezza del paesaggio.  Un''<strong>escursione significativa</strong> per tutti gli amanti del <strong>trekking in Italia</strong>.</p>',
   'Tutte le Attività e Paesi',
   3.52,
   7,
@@ -75,7 +52,8 @@ VALUES (
   10.60673,
   'POINT(10.60673 43.780647)',
   'e5a198f1169cfa7f2f35020eae8a4a689dadc76750700342aac1a41e3388e74f',
-  'Lago della Gherardesca: Escursioni & Natura a Sesto all''Olmo. Foto, cani & relax! Campo di prigionia storico. Scopri il percorso!',
+  'Esplora il Lago della Gherardesca: sentiero classico, natura e foto di uccelli! Picnic, cani e storia del PG 60. Scopri di più!',
+  'Trekking Lago Gherardesca: Escursione Sesto, Bientina',
   NOW(),
   NOW()
 )
@@ -110,6 +88,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

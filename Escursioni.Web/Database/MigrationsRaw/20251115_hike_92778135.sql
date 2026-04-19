@@ -1,58 +1,29 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   92778135,
   'Passeggiata sul lungomare - Ardenza - Livorno',
   'Passeggiata lungomare di Livorno. Percorso molto semplice e alla portata di tutti sempre in piano tranne qualche discesa alle spiaggette, vi sono numerosi bar, fontanelle e ristoranti. Ci sono molti bei posti dove scattare foto, la passeggiata non presenta problemi e anche di sera è illuminata. Ottimo in Primavera o Autunno',
-  '<article class="hiking-detail">
-  <h2 class="hiking-title">Passeggiata sul lungomare - Ardenza - Livorno</h2>
-  <p>
-    Goditi una rilassante passeggiata lungo il lungomare di Livorno! Questo percorso, adatto a tutti, ti condurrà attraverso la pittoresca zona dell''Ardenza.
-  </p>
-  <img src="ardenza-lungomare.jpg" alt="Lungomare Ardenza - Livorno" width="800" height="600">
+  '<h2>Passeggiata sul lungomare - Ardenza - Livorno: Escursione Trekking Lungo la Costa</h2>
 
-  <h3>Dettagli dell''escursione</h3>
-  <p>
-    <strong>Difficoltà:</strong> Facile
-    <em class="note">
-      Perfetto per famiglie e principianti. Il percorso è prevalentemente pianeggiante, con alcune leggere discese alle spiaggette.
-    </em>
-  </p>
-  <p>
-    <strong>Distanza:</strong> Circa 5 km
-    <em class="note">
-      Il percorso è ben segnalato e facilmente percorribile.
-    </em>
-  </p>
-  <p>
-    <strong>Durata stimata:</strong> 2 - 3 ore
-  </p>
-  <p>
-    <strong>Altitudine:</strong> Quasi nessuna variazione di altitudine.
-  </p>
-  <h3>Caratteristiche del percorso</h3>
-  <ul>
-    <li>
-      Percorso prevalentemente pianeggiante con leggere discese.
-    </li>
-    <li>
-      Numerosi bar, fontanelle e ristoranti lungo il tragitto.
-    </li>
-    <li>
-      Splendidi punti panoramici e luoghi ideali per scattare fotografie.
-    </li>
-    <li>
-      La passeggiata è illuminata, rendendola adatta anche per le serate.
-    </li>
-  </ul>
-  <h3>Periodo consigliato</h3>
-  <p>
-    La passeggiata è particolarmente consigliata durante la Primavera e l''Autunno, quando le temperature sono più miti e il lungomare è più affascinante.
-  </p>
-</article>',
+<h3>Il percorso</h3>
+<p>La <strong>Passeggiata sul Lungomare Ardenza a Livorno</strong> è un’escursione <em>trekking</em> di facile percorrenza, ideale per famiglie e per chiunque voglia godersi una piacevole giornata a contatto con la natura e il mare. Questo sentiero, appartenente al Parco Naturale della Maremma, offre una splendida vista sulla costa e permette di ammirare i caratteristici panorami della zona. La <strong>passeggiata lungo l''Ardenza</strong> è un percorso lineare, principalmente in piano, con alcune leggere discese per raggiungere le spiaggette, perfette per una pausa rinfrescante.  Si tratta di un’ottima <em>escursione</em> per scoprire la bellezza del territorio circostante e le sue tradizioni.</p>
+
+<h3>Cosa aspettarsi</h3>
+<ul>
+    <li>Un percorso pianeggiante, perfetto per <strong>trekking</strong> di tutti i livelli</li>
+    <li>Discese graduali per raggiungere le spiaggette dell''Ardenza</li>
+    <li>Numerosi punti panoramici per ammirare il mare e la costa</li>
+    <li>Presenza di bar, fontanelle e ristoranti lungo il percorso, per rifornimenti e pause</li>
+    <li>Un’ottima opportunità per praticare <em>escursioni</em> naturalistiche e fotografiche</li>
+</ul>
+
+<h3>Informazioni utili</h3>
+<p>La <strong>Passeggiata Ardenza a Livorno</strong> è un percorso facile da raggiungere e da percorrere. È un’<em>escursione</em> di circa 5 chilometri, ideale per una giornata all''aria aperta.  La difficoltà è minima, adatta a tutti.  È consigliabile indossare scarpe da trekking comode e portare con sé acqua e protezione solare, soprattutto in estate.  L''illuminazione serale rende il percorso piacevole anche al tramonto.  È un’opportunità per vivere un’esperienza unica di <strong>trekking</strong> e scoperta della natura maremmana.  Ricorda di controllare le previsioni meteo prima di partire per la tua <em>escursione</em>!</p>
+<p>Esplora i sentieri della costa toscana e organizza la tua prossima <strong>passeggiata trekking</strong> lungo l’Ardenza!</p>',
   'Tutte le Attività e Paesi',
   9.2,
   14,
@@ -79,7 +50,8 @@ VALUES (
   10.3112,
   'POINT(10.3112 43.522547)',
   '5ff645ff31b80d0fca2208791b2765d26ac805bf4f329e86916cb98fee663fb6',
-  'Passeggiata sul lungomare di Ardenza a Livorno: percorso facile, vista mare, bar e foto! Ideale in primavera e autunno.',
+  'Passeggiata sul lungomare di Ardenza a Livorno: percorso facile, perfetto per famiglie e amanti della natura. Foto, relax e illuminazione serale!',
+  'Trekking Ardenza Livorno: Escursione Lungomare Facile',
   NOW(),
   NOW()
 )
@@ -114,6 +86,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

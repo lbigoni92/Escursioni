@@ -968,6 +968,15 @@ body {
     color: #64748b;
     font-size: 1.1em;
 }
+.footer-social {
+    display: flex;
+    gap: 0.6rem;
+}
+.footer-social a {
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
+}
 
 /* ==========================================================================
    RESPONSIVE

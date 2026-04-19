@@ -43,7 +43,9 @@
         <meta name="twitter:image" content="@twImg" />
     }
 
-    <link rel="icon" type="image/x-icon" href="~/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="~/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="~/favicon.svg" />
     <link rel="manifest" href="~/manifest.json" />
     <script>
         // Applica subito il tema light-mode se salvato in localStorage
@@ -94,6 +96,12 @@
             <div class="footer-copyright">© @DateTime.Now.Year - Escursioni</div>
             <div class="footer-sep">·</div>
             <div class="footer-rss"><a href="/feed/rss">Feed RSS</a></div>
+            <div class="footer-sep">·</div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/luca-bigoni/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">in</a>
+                <a href="https://www.instagram.com/lbigoni/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">ig</a>
+                <a href="https://www.facebook.com/luca.bigoni1/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">fb</a>
+            </div>
         </div>
     </footer>
 
@@ -102,11 +110,11 @@
 
     <!-- JSON-LD Structured Data -->
    <script type="application/ld+json">
-{"@@context":"https://schema.org","@@type":"WebSite","name":"Luca Bigoni - Escursioni","url":"https://www.example.com/","potentialAction":{"@@type":"SearchAction","target":"https://www.example.com/Search/Index?query={search_term_string}","query-input":"required name=search_term_string"}}
+{"@@context":"https://schema.org","@@type":"WebSite","name":"Luca Bigoni - Escursioni","url":"https://escursioni.onrender.com/","potentialAction":{"@@type":"SearchAction","target":"https://escursioni.onrender.com/ricerca?Q={search_term_string}","query-input":"required name=search_term_string"}}
 </script>
 
 <script type="application/ld+json">
-{"@@context":"https://schema.org","@@type":"Person","name":"Luca Bigoni","url":"https://www.example.com/","sameAs":["https://www.wikiloc.com/wikiloc/user.do?id=123456","https://www.facebook.com/luca.bigoni","https://www.instagram.com/luca.bigoni"]}
+{"@@context":"https://schema.org","@@type":"Person","name":"Luca Bigoni","url":"https://escursioni.onrender.com/","sameAs":["https://www.linkedin.com/in/luca-bigoni/","https://www.instagram.com/lbigoni/","https://www.facebook.com/luca.bigoni1/"]}
 </script>
     @if (ViewData["JsonLd"] is string jsonLd && !string.IsNullOrWhiteSpace(jsonLd))
     {

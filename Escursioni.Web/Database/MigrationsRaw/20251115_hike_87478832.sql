@@ -7,7 +7,31 @@ VALUES (
   87478832,
   'San rossore camminata',
   'La camminata è adatta a persone d''ogni età Possibile farla con qualsiasi tipo di scarpe (se piove mettete quelle chiuse per il fango) All''interno del parco è possibile vedere uccelli; daini e ungulati. Un panorama tutto toscano all''interno di una riserva nautale tra le più belle al mondo, è possibile farlo anche a cavallo o in carrozza. Lo consiglio per pick nik domenicali o braciate con gli amici. SIATE RISPETTOSI DELL''AMBIENTE !',
-  'La camminata è adatta a persone d''ogni età <br> <br>Possibile farla con qualsiasi tipo di scarpe (se piove mettete quelle chiuse per il fango) <br> <br> All''interno del parco è possibile vedere uccelli; daini e ungulati. <br> <br>Un panorama tutto toscano all''interno di una riserva nautale tra le più belle al mondo, è possibile farlo anche a cavallo o in carrozza. <br> <br>Lo consiglio per pick nik domenicali o braciate con gli amici. <br> <br>SIATE RISPETTOSI DELL''AMBIENTE !',
+  '<h2>San Rossore Camminata: Trekking nella Riserva Naturale Toscana</h2>
+
+<h3>Il Percorso</h3>
+<p>
+La <strong>San Rossore camminata</strong> è un’escursione imperdibile per gli amanti del trekking e della natura, situata all’interno del prestigioso <strong>Parco Naturale Regionale di San Rossore</strong>, una delle più belle <strong>riserve naturali</strong> in Italia. Questo <strong>sentiero di trekking</strong> offre un''esperienza unica di immersione nella <strong>montagna toscana</strong>, un vero e proprio gioiello di biodiversità, ideale per un <strong>gita in montagna</strong> o un''<strong>escursione</strong> a piedi. Il percorso è progettato per essere accessibile a persone di <strong>ogni età</strong>, con possibilità di adattamento al tipo di scarpe indossate, consigliato l''utilizzo di scarpe chiuse in caso di pioggia per affrontare il <strong>fango</strong>.
+</p>
+
+<h3>Cosa Aspettarsi</h3>
+<p>
+Durante la <strong>San Rossore camminata</strong>, avrete l’opportunità di ammirare un paesaggio mozzafiato, tipico della <strong>Toscana</strong>, protetto da un’area <strong>riserva nautale</strong>. Potrete avvistare una ricca fauna selvatica, tra cui diverse specie di <strong>uccelli</strong>, <strong>daini</strong> e altri <strong>ungulati</strong>. La <strong>natura</strong> si rivelerà in tutta la sua bellezza, offrendo un''esperienza di <strong>trekking</strong> rilassante e rigenerante. La <strong>camminata</strong> è perfetta per un <strong>picnic domenicale</strong> o per godersi una <strong>braciata con gli amici</strong> all''aria aperta.
+</p>
+
+<h3>Informazioni Utili</h3>
+<ul>
+    <li><strong>Difficoltà:</strong> Facile/Media</li>
+    <li><strong>Distanza:</strong> Percorso variabile a seconda della zona all''interno del parco</li>
+    <li><strong>Altitudine:</strong> Varia, con alcuni tratti in salita</li>
+    <li><strong>Durata:</strong> Circa 2-4 ore (a seconda del percorso scelto e del ritmo)</li>
+    <li><strong>Attrezzatura consigliata:</strong> Scarpe da trekking adatte, abbigliamento a strati, acqua, snack, cappello, crema solare</li>
+    <li><strong>Informazioni aggiuntive:</strong> È possibile effettuare la <strong>San Rossore camminata</strong> anche a cavallo o in <strong>carrozza</strong>, per un''esperienza più ricca e suggestiva. Ricordate, SIATE RISPETTOSI DELL''AMBIENTE !</li>
+</ul>
+
+<p>
+Scoprite la magia del <strong>trekking</strong> e dell''<strong>escursionismo</strong> nel cuore della <strong>riserva di San Rossore</strong>, un''occasione unica per immergervi nella <strong>natura toscana</strong> e vivere un’indimenticabile <strong>camminata</strong> tra le <strong>montagne</strong>.  Esplorate questo splendido <strong>sentiero Italia</strong>!
+</p>',
   'Tutte le Attività e Paesi',
   6.78,
   7,
@@ -34,8 +58,8 @@ VALUES (
   10.320219,
   'POINT(10.320219 43.728834)',
   '07ef0e62bd2141f55cbfffc30d821d128db9e33a6f02c416dd6cab6627967d2d',
-  'Escursioni a San Rossore: camminate, natura, animali e panorami toscani! Picnic, bracchette e attività a cavallo. Scopri il Parco Naturale!',
-  NULL,
+  'Escursioni nel Parco del San Rossore: natura toscana, animali, panorami mozzafiato & pic-nic! Cammina, a cavallo o in carrozza! 🐴🌳',
+  'Trekking San Rossore: Escursioni e Sentieri Toscana',
   NOW(),
   NOW()
 )

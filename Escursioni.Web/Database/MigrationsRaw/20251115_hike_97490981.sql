@@ -1,37 +1,35 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   97490981,
   'Montenero - Ciano',
   'Il percorso è molto semplice da fare, secondo me con un allungata al vecchio faro li vicino, oppure proseguendo verso il Castellaccio. Qua visitiamo il santuario di Montenero è il monumento a Ciano, dietro il monumento parte un sentiero secondario immerso nella natura, pieno di asparagi.',
-  '<h2>Montenero - Ciano: Escursione Trekking nella Tuscia Viterbese</h2>
+  '<h2>Montenero - Ciano: Trekking e Escursioni nella Montagna Toscana</h2>
 
 <h3>Il Percorso</h3>
 
-<p>Preparati per un’<em>escursione</em> indimenticabile lungo il sentiero <strong>Montenero - Ciano</strong>, un percorso semplice ed accessibile che ti condurrà alla scoperta dei panorami mozzafiato della Tuscia Viterbese. Questo <em>sentiero di trekking</em> è perfetto per famiglie e per chi cerca un’<em>escursione</em> nella <strong>montagna</strong> senza particolari difficoltà. Il sentiero parte da <strong>Montenero</strong>, un borgo medievale immerso nella natura, e si snoda attraverso la campagna fino ad arrivare al borgo di <strong>Ciano</strong>, un luogo ricco di storia e tradizioni.  Puoi scegliere di completare l’escursione con un’<em>escursione</em> aggiuntiva al vecchio faro o proseguire verso il Castellaccio, per un''esperienza completa nella splendida regione della <strong>montagna</strong>.</p>
+<p>Preparati per un''incredibile <strong>escursione trekking</strong> lungo il <strong>sentiero</strong> che collega <strong>Montenero</strong> a <strong>Ciano</strong>, un''esperienza immersa nel cuore della <strong>montagna toscana</strong>. Questo percorso, considerato molto semplice, offre un''ottima opportunità per un''<strong>escursione a piedi</strong> di facile fruizione, perfetto per famiglie e principianti. Il sentiero si snoda attraverso paesaggi mozzafiato, offrendo scorci panoramici sulla campagna circostante e sulla maestosa catena montuosa. Potrai ammirare la bellezza della <strong>natura italiana</strong> e respirare l''aria fresca di montagna.</p>
 
 <h3>Cosa Aspettarsi</h3>
 
-<p>Durante questo <em>trekking</em>, sarai immerso in un paesaggio unico, dominato dalla maestosità del Monte <strong>Montenero</strong>.  La flora e la fauna locale ti sorprenderanno con la loro ricchezza e varietà. L''<em>escursione</em> offre la possibilità di ammirare panorami spettacolari sulla campagna circostante e di respirare l''aria fresca e pulita della <strong>montagna</strong>.  Sarai immerso nella natura incontaminata, un vero e proprio angolo di paradiso per gli amanti del <em>trekking</em> e dell’<em>escursionismo</em>.</p>
-
-<p>Un momento clou dell’<em>escursione</em> sarà la visita al <strong>Santuario di Montenero</strong>, un luogo di culto storico e architettonico, e del monumento dedicato a <strong>Ciano</strong>, testimonianza del ricco passato del borgo. Inoltre,  l''<em>escursione</em> offre la possibilità di scoprire un sentiero secondario immerso nella natura, ricco di asparagi, una vera delizia per il palato!</p>
+<p>Durante la tua <strong>trekking</strong> a <strong>Montenero - Ciano</strong>, potrai aspettarti un percorso ben tracciato, adatto anche a chi non ha molta esperienza in <strong>escursionismo</strong>. Il sentiero è immerso nella natura, offrendo l''opportunità di ammirare la flora e la fauna locale.  La dislivello è contenuto, rendendo l''<strong>escursione</strong> accessibile a tutti. Potrai inoltre, con un''aggiunta di sforzo,  visitare il <strong>vecchio faro</strong> e proseguire verso il <strong>Castellaccio</strong>.  Un''ulteriore scoperta è rappresentata dal sentiero secondario che parte dal monumento a <strong>Ciano</strong>, offrendo un''immersione totale nella <strong>natura toscana</strong> e la possibilità di avvistare gli <strong>asparagus</strong> (se di stagione).</p>
 
 <h3>Informazioni Utili</h3>
 
 <ul>
-  <li><strong>Difficoltà:</strong> Facile</li>
-  <li><strong>Distanza:</strong> Circa 6 km</li>
-  <li><strong>Dislivello:</strong> Circa 300 metri</li>
-  <li><strong>Tempo di percorrenza:</strong> 2-3 ore (a seconda del ritmo)</li>
-  <li><strong>Tipo di percorso:</strong> Sentiero di trekking</li>
-  <li><strong>Ideale per:</strong> Famiglie, principianti, amanti della natura e del <em>trekking</em></li>
-  <li><strong>Punti di interesse:</strong> <strong>Santuario di Montenero</strong>, monumento a <strong>Ciano</strong>, vecchio faro, Castellaccio, sentiero immerso nella natura, possibilità di osservare asparagi.</li>
+  <li><strong>Distanza:</strong> Circa 6-8 km (a seconda del percorso scelto)</li>
+  <li><strong>Difficoltà:</strong> Facile - Media</li>
+  <li><strong>Dislivello:</strong> Circa 300-400 metri</li>
+  <li><strong>Periodo Consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di Partenza:</strong> Montenero (Parco Naturale della Maremma Toscana)</li>
+  <li><strong>Punto di Arrivo:</strong> Ciano (Comune di Ciano)</li>
+  <li><strong>Attrezzatura Consigliata:</strong> Scarpe da trekking, abbigliamento a strati, acqua, snack, mappa, bussola/GPS</li>
 </ul>
 
-<p>Non perdere l’occasione di vivere un’<em>escursione</em> indimenticabile lungo il sentiero <strong>Montenero - Ciano</strong>, un’esperienza unica alla scoperta della bellezza della Tuscia Viterbese.  Organizza il tuo <em>trekking</em> e preparati a vivere un’avventura nella <strong>montagna</strong>! </p>',
+<p>Scopri di più sulle <strong>escursioni in Italia</strong> e approfitta di questa splendida occasione per un''<strong>escursione a Montenero e Ciano</strong>. Un''esperienza indimenticabile tra <strong>sentieri di trekking</strong> e panorami mozzafiato!</p>',
   'Tutte le Attività e Paesi',
   2.69,
   108,
@@ -58,7 +56,8 @@ VALUES (
   10.343522,
   'POINT(10.343522 43.491427)',
   '12608bd332d3ed5ebca4fc5f9e3cacb97b6903450ea4a468d5fb219298fdfd75',
-  'Escursione al Montenero: vista mozzafiato, santuario e Ciano! Facile da percorrere, con possibilità di allungare il sentiero. Scopri la natura!',
+  'Escursione al Montenero: vista mozzafiato su Ciano e Castellaccio! Sentieri facili e natura incontaminata. Scopri il santuario e il monumento a Ciano.',
+  'Trekking Montenero Ciano: Sentiero Facile & Viste Panoramiche',
   NOW(),
   NOW()
 )
@@ -93,6 +92,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

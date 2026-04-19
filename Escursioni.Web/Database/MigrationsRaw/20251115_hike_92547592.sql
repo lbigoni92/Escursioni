@@ -1,49 +1,35 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   92547592,
   'Trekking cittadino - Livorno - Centro',
   'Camminata molto semplice per la mia città, per riprendermi da un infortunio al ginocchio. La camminata, prevede di passare da alcuni dei luoghi storici più importanti del centro città: Fortezza Nuova Fortezza Vecchia Bottini dell''olio Monumento 4 mori Mercato centrale Porta stoica ex cantiere Luigi Orlando E'' adatta a tutte le persone, di tutte l''età, a famiglie, turisti ecc... ovviamente essendo in città ed essendo pochi chilometri non avete bisogno d''attrezzature, lungo il percorso ci sono diverse fontanelle, bar e ristoranti.',
-  '<h2 class="title">Trekking Cittadino - Livorno - Centro</h2>
+  '<h2>Trekking Cittadino - Livorno - Centro</h2>
 
-<p>
-  Riscopri la tua città con questa passeggiata semplice e rilassante! Questa escursione è stata pensata per permetterti di riprenderti da un infortunio al ginocchio, ma è adatta a tutti: famiglie, turisti, amanti della natura... chiunque voglia una pausa dalla frenesia della vita quotidiana.
-</p>
+<h3>Il Percorso</h3>
 
-<h3>Dettagli dell''Escursione</h3>
+<p>Questo <em>trekking</em> urbano a <strong>Livorno</strong> offre un’esperienza unica per chi desidera immergersi nella storia e nella bellezza della città. Il percorso, di circa 5 chilometri, si snoda attraverso il cuore del centro storico, permettendo di ammirare da vicino alcuni dei luoghi più importanti di <strong>Livorno</strong>. L’escursione è progettata per essere una camminata semplice e rilassante, ideale per chiunque voglia ritrovare il contatto con la natura, anche in un contesto urbano.  Preparatevi a scoprire il fascino di questo <em>sentiero</em> dedicato alla scoperta di <strong>Livorno</strong>.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<p>Preparatevi a una piacevole <em>escursione</em> a piedi nel centro di <strong>Livorno</strong>. Il <em>sentiero</em> è completamente pianeggiante, rendendolo adatto a tutti i livelli di preparazione fisica.  Potrete ammirare architetture storiche,  la vivacità del mercato centrale e la tranquillità di questo <em>trekking</em> cittadino.  L''<em>escursione</em> è perfetta per famiglie, gruppi di amici e turisti che desiderano esplorare la città in modo attivo e divertente.  La distanza del percorso è di circa 5 km e permette di vivere un''esperienza di <em>trekking</em> indimenticabile nel cuore di <strong>Livorno</strong>.</p>
+
+<h3>Informazioni Utili</h3>
 
 <ul>
-  <li><strong>Difficoltà:</strong> Molto Facile</li>
-  <li><strong>Distanza:</strong> Circa 3-5 km (a seconda del percorso scelto)</li>
-  <li><strong>Durata:</strong> Circa 1.5 - 2.5 ore</li>
-  <li><strong>Altitudine:</strong> Quasi nulla (piani)</li>
-  <li><strong>Adatto a:</strong> Tutti (età, livelli di fitness, famiglie, turisti)</li>
+    <li>**Difficoltà:** Facile</li>
+    <li>**Distanza:** Circa 5 km</li>
+    <li>**Durata:** Circa 1,5 - 2 ore</li>
+    <li>**Punti di Interesse:** Fortezza Nuova, Fortezza Vecchia, Bottini dell’olio, Monumento 4 Mori, Mercato Centrale, Porta Stoica, ex Cantiere Luigi Orlando</li>
+    <li>**Adatto a:** Tutti, famiglie, turisti, persone con infortuni</li>
+    <li><strong>Servizi lungo il percorso:</strong> Fontanelle, bar, ristoranti</li>
+    <li>L’<em>escursione</em> a piedi è un''ottima opportunità per apprezzare la ricchezza del patrimonio storico-artistico di <strong>Livorno</strong> e per godere della sua atmosfera unica.</li>
 </ul>
 
-<p>
-  Il percorso ti guiderà attraverso alcuni dei luoghi storici più importanti del centro di Livorno. Ammira la <em class="landmark">Fortezza Nuova</em> e la <em class="landmark">Fortezza Vecchia</em>, poi visita il suggestivo <em class="landmark">Mercato Centrale</em> e il famoso <em class="landmark">Monumento ai 4 Mori</em>.
-</p>
-
-<p>
-  Incontrerai anche: <em class="landmark">Bottini dell''olio</em>, il <em class="landmark">Museo di Livorno - Luigi Orlando (ex cantiere)</em> e la <em class="landmark">Porta Stoica</em>.
-</p>
-
-<p>
-  <strong>Consigli Utili:</strong>
-</p>
-<ul>
-  <li>L''escursione è adatta a chiunque, senza bisogno di attrezzatura specifica.</li>
-  <li>Sono presenti diverse fontanelle e punti di ristoro lungo il percorso (bar e ristoranti).</li>
-  <li>Indossa scarpe comode e porta con te una bottiglia d''acqua.</li>
-  <li>Rispettare l''ambiente e gli altri escursionisti.</li>
-</ul>
-
-<p>
-  Goditi questa piacevole passeggiata e lasciati conquistare le bellezze di Livorno!
-</p>',
+<p>Questa <em>escursione</em> a <strong>Livorno</strong> è un’occasione per fare <em>trekking</em> in città, un’esperienza rilassante e gratificante per tutta la famiglia.  Un’immersione nel cuore di <strong>Livorno</strong>, tra storia e natura.  Scoprite questo magnifico <em>sentiero</em>!</p>',
   'Tutte le Attività e Paesi',
   7.19,
   27,
@@ -70,7 +56,8 @@ VALUES (
   10.305487,
   'POINT(10.305487 43.551285)',
   '503369d892d9c9fbd976f5d6e516e42b22ea7f2ea45d03855efe8ff7c584ae53',
-  'Esplora Livorno in città! Trekking facile nel centro storico: Fortezza Nuova, Bottini e molto altro. Perfetto per famiglie e turisti!',
+  'Esplora Livorno: trekking cittadino facile e suggestivo! Scopri storia, arte e belvedere a pochi passi. Perfetto per famiglie e turisti!',
+  'Trekking Città di Livorno: Escursione Facile Centro Storico',
   NOW(),
   NOW()
 )
@@ -105,6 +92,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

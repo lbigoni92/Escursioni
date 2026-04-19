@@ -1,7 +1,7 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   98392430,
@@ -9,30 +9,28 @@ VALUES (
   'Il percorso non presenta difficoltà se non qualche Pietro e o qualche albero caduto, ad oggi è segnato molto bene. È un sentiero ad anello molto facile alla portata di chiunque abbia una minima dimestichezza coi monti. Non ci sono fontanelle,vi consiglio e scarpe da trekking. Passiamo vicino a dei punti panoramici subito a inizio percorso, in seguito proseguiamo per via della Sambuca e arriviamo a un bel prato e, dove abbiamo improvvisato un pik Nick, dopo pochi minuti arriviamo alla a buca. Alla Sambuca troviamo dei tavolini dove pranzare. Siamo proseguiti su un sentiero sulla sinistra del ponte, fino ad arrivare a un guado in secca e da li, abbiamo preso il sentiero d''Achille per 5km. Dopo il prato e abbiamo improvvisato un piccolo fuori pista, se seguite il sentiero, continuate sul sentiero principale.
 
 ',
-  '<h2>Valle Benedetta - Eremo Sambuca - Sentiero d''Achille: Trekking Facile nella Valle d''Aosta</h2>
+  '<h2>Valle Benedetta - Eremo Sambuca - Sentiero d''Achille: Trekking e Escursioni in Montagna</h2>
 
 <h3>Il Percorso</h3>
 
-<p>Questo fantastico <strong>sentiero d''escursione</strong> nella **Valle Benedetta** vi condurrà alla scoperta di uno dei luoghi più suggestivi della **Valle d''Aosta**. Il percorso ad anello, noto anche come <strong>sentiero d''Achille</strong>, è progettato per essere accessibile a tutti, offrendo un''esperienza di <strong>trekking</strong> indimenticabile immersi nella natura incontaminata.  Inizieremo con una salita facile, superando alcuni <em>Pietra</em> e qualche ostacolo naturale, per poi ammirare panorami mozzafiato durante la nostra <strong>escursione</strong>.</p>
-
-<p>Il <strong>sentiero d''Achille</strong>, di circa 5 km, si snoda attraverso boschi di conifere, prati alpini e panorami a picco sulla **Valle Benedetta**, offrendo opportunità fotografiche uniche.  L''itinerario è ben segnalato, sebbene sia consigliabile indossare scarpe da trekking adatte per affrontare brevi tratti con ciottoli e radici.</p>
+<p>Questo <strong>sentiero d''escursione</strong> in <strong>Valle Benedetta</strong>, nella zona dell''<strong>Eremo Sambuca</strong>, offre un''esperienza unica per gli amanti del <strong>trekking</strong> e della <strong>natura</strong>. Il percorso ad anello, di difficoltà <strong>facile</strong>, è perfetto per chiunque abbia una minima dimestichezza con i <strong>monti</strong> e desideri un''<strong>escursione</strong> in un ambiente naturale incontaminato. Il <strong>sentiero</strong> è ben segnalato, ma è consigliabile indossare scarpe da <strong>trekking</strong> adatte, soprattutto per superare eventuali <strong>pietre</strong> o alberi caduti. Il percorso inizia con alcuni punti panoramici, proseguendo attraverso la <strong>Sambuca</strong> fino a un bel prato, dove è possibile pranzare ai tavolini predisposti. La discesa avviene lungo un sentiero sulla sinistra del ponte e prosegue fino al <strong>sentiero d''Achille</strong>, un''immersione nel cuore della <strong>montagna</strong> italiana.</p>
 
 <h3>Cosa Aspettarsi</h3>
 
 <ul>
-  <li><strong>Distanza Totale:</strong> Circa 10 km (incluso il sentiero d''Achille)</li>
-  <li><strong>Difficoltà:</strong> Facile – Adatto a famiglie e principianti</li>
-  <li><strong>Dislivello:</strong> Circa 400 metri</li>
-  <li><strong>Punti di Interesse:</strong> Punti panoramici, <strong>Eremo Sambuca</strong>, prato alpino, <strong>Nick</strong> (punto di sosta improvvisato),  guado sul fiume e <strong>sentiero d''Achille</strong>.</li>
+  <li>Un <strong>sentiero ad anello</strong> di circa 12 km (con l''aggiunta del sentiero d''Achille).</li>
+  <li>Difficoltà: <strong>Facile</strong> – Adatto a principianti e famiglie.</li>
+  <li>Distanza: Circa 12 km (in totale, inclusa l''estensione con il sentiero d''Achille).</li>
+  <li>Tempi di percorrenza: Circa 4-5 ore (a seconda del ritmo e delle soste).</li>
+  <li>Paesaggi mozzafiato: Viste panoramiche sulla <strong>Valle Benedetta</strong>, la <strong>Sambuca</strong> e la <strong>montagna</strong> circostante.</li>
+  <li>Punti di interesse: <strong>Eremo Sambuca</strong>, bel prato, <strong>punto panoramico</strong> iniziale, <strong>guado</strong> e il suggestivo <strong>sentiero d''Achille</strong>.</li>
 </ul>
 
-<p>Potrete godere di un''autentica esperienza di <strong>trekking</strong> in un ambiente naturale protetto, perfetto per chi cerca una giornata all''aria aperta e lontana dal caos cittadino.  La possibilità di pranzare all''<strong>Eremo Sambuca</strong> rende questa <strong>escursione</strong> ancora più piacevole e rilassante.</p>
+<p>Preparatevi ad un''<strong>escursione</strong> immersiva nella natura, con la possibilità di ammirare la flora e la fauna locali. Ricordate di portare con voi acqua, snack e un buon paio di scarpe da <strong>trekking</strong> per godervi appieno questa splendida <strong>escursione</strong>.</p>
 
 <h3>Informazioni Utili</h3>
 
-<p>Il <strong>sentiero</strong> è situato nella **Valle Benedetta**, un''area protetta che offre paesaggi spettacolari.  La maggior parte del percorso è facilmente accessibile, ma è importante essere preparati fisicamente e portare con sé acqua, snack e abbigliamento adeguato.  E'' consigliabile indossare scarpe da trekking robuste e, data la presenza di alcuni tratti rocciosi, è consigliabile utilizzare bastoncini da trekking.</p>
-
-<p>Ricordatevi di rispettare l''ambiente circostante, non abbandonate rifiuti e seguite le indicazioni dei sentieri per preservare la bellezza di questa meravigliosa <strong>natura</strong>.  Questa <strong>escursione</strong> lungo il <strong>sentiero</strong> è un''occasione unica per immergervi nella tranquillità della **montagna** e godervi la bellezza della **Valle Benedetta**.</p>',
+<p>Il <strong>sentiero</strong> si trova in <strong>Valle Benedetta</strong>, in una zona facilmente raggiungibile.  È consigliabile informarsi sulle condizioni del <strong>sentiero</strong> prima di intraprendere l''<strong>escursione</strong>, soprattutto in caso di maltempo.  La segnaletica è presente ma è sempre consigliabile avere con sé una mappa e una bussola o un GPS per orientarsi correttamente durante l''<strong>trekking</strong>.  Questo <strong>sentiero</strong> rappresenta una fantastica opportunità per un''<strong>escursione</strong> in <strong>Italia</strong>, immersi nella bellezza della <strong>natura</strong>. Se cercate un''<strong>escursione facile</strong> e panoramica, il <strong>sentiero</strong> Valle Benedetta – Eremo Sambuca – sentiero d’Achille è la scelta ideale per il vostro prossimo <strong>trekking</strong>.</p>',
   'Tutte le Attività e Paesi',
   10.57,
   331,
@@ -59,7 +57,8 @@ VALUES (
   10.413185,
   'POINT(10.413185 43.522865)',
   'd582cec3aeec7afa9eb3c4254647c722d0f39c2bd1ed2abb527232e4ad8601e8',
-  'Escursioni Valle Benedetta: sentiero d''Achille e Eremo Sambuca! Anello facile tra panorami mozzafiato e natura selvaggia. Trekking in Trentino!',
+  'Escursione Valle Benedetta: sentiero d''Achille e Eremo Sambuca! Facile anello in montagna, panorami mozzafiato e praterie incontaminate. Trekking facile e di...',
+  'Trekking Valle Benedetta: Sentiero Achille - Eremo Sambuca',
   NOW(),
   NOW()
 )
@@ -94,6 +93,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

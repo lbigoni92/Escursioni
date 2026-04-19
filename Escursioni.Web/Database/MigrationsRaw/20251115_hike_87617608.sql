@@ -7,7 +7,30 @@ VALUES (
   87617608,
   'Eremo di san Viviano',
   'Eremo di San Viviano o San Viano (Eremo del Beato Viviano) m. 900 s.l.m. Il percorso è semplice e ben segnato noi l''abbiamo fatto in pomeridiana in 3 ore, carino da fare. Quest''estate era chiuso per restauro ma adesso ri è aperto, se passate in zona lo consiglio. Li parte anche un breve tratto EE esposto che consiglio di fare, porta a un punto panoramico bellissimo con vista su tutta la valle con Lago di Vagli. L''eremo di San Viviano o Viano è un suggestivo edificio scavato nella roccia viva a strapiombo della valle di Arnetola luogo di vita e di preghiera dell''eremita Viviano. Il piccolo santuario di San Viviano o Viano rappresenta una singolare cappella d''abri (sotto roccia) in area apuana. Situato a breve distanza da Campocatino, domina il Fosso della Tambura e la Valle di Arnetola.',
-  'Eremo di San Viviano o San Viano (Eremo del Beato Viviano) m. 900 s.l.m. <br>Il percorso è semplice e ben segnato noi l''abbiamo fatto in pomeridiana in 3 ore, carino da fare. <br>Quest''estate era chiuso per restauro ma adesso ri è aperto, se passate in zona lo consiglio. <br> <br>Li parte anche un breve tratto EE esposto che consiglio di fare, porta a un punto panoramico bellissimo con vista su tutta la valle con Lago di Vagli. <br> <br>L''eremo di San Viviano o Viano è un suggestivo edificio scavato nella roccia viva a strapiombo della valle di Arnetola luogo di vita e di preghiera dell''eremita Viviano. <br>Il piccolo santuario di San Viviano o Viano rappresenta una singolare cappella d''abri (sotto roccia) in area apuana. Situato a breve distanza da Campocatino, domina il Fosso della Tambura e la Valle di Arnetola.',
+  '<h2>Eremo di San Viviano: Trekking e Escursioni in Montagna Toscana</h2>
+
+<h3>Il Percorso di Trekking al Santuario di San Viviano</h3>
+
+<p>Immergiti nella bellezza selvaggia della <strong>Toscana</strong> con questa splendida <strong>escursione</strong> al <strong>Eremo di San Viviano</strong>, un''esperienza di <strong>trekking</strong> autentica e indimenticabile. Il sentiero, di difficoltà semplice e ben segnalato, ti conduce attraverso un paesaggio montano mozzafiato, perfetto per <strong>escursionisti</strong> di ogni livello. Questo <strong>sentiero di trekking</strong> ti permette di esplorare la ricca natura dell''area e di ammirare panorami unici.</p>
+
+<p>L''itinerario, di circa 3 ore percorsa, è ideale per una <strong>gita in montagna</strong> in pomeriggio. Il percorso offre una facile accessibilità, rendendolo una scelta perfetta per famiglie e appassionati di <strong>trekking</strong> alla ricerca di un''esperienza rilassante e gratificante in <strong>montagna</strong>.</p>
+
+<h3>Cosa Aspettarsi Durante l''Escursione al Santuario</h3>
+
+<ul>
+  <li>Un percorso semplice e ben segnalato, adatto a <strong>escursionisti</strong> di tutti i livelli.</li>
+  <li>La possibilità di ammirare panorami mozzafiato sulla <strong>Valle di Arnetola</strong> e il <strong>Lago di Vagli</strong>.</li>
+  <li>L''opportunità di visitare l''<strong>Eremo del Beato Viviano</strong>, un luogo di preghiera e spiritualità immerso nella natura.</li>
+  <li>Un breve tratto EE (Escursionistico) esposto, ideale per i più esperti, che conduce a un punto panoramico privilegiato.</li>
+</ul>
+
+<p>Questo <strong>sentiero escursionistico</strong> offre un''immersione completa nella <strong>natura</strong>, con la possibilità di osservare la flora e la fauna locale. L''<strong>Eremo di San Viviano</strong> è un esempio unico di architettura scavata nella roccia e rappresenta una tappa fondamentale per gli amanti del <strong>trekking</strong> e della <strong>montagna</strong> in <strong>Italia</strong>.</p>
+
+<h3>Informazioni Utili per il Trekking al Santuario</h3>
+
+<p>L''<strong>Eremo di San Viviano</strong>, situato a m. 900 s.l.m. vicino a <strong>Campocatino</strong>, domina il <strong>Fosso della Tambura</strong> e la <strong>Valle di Arnetola</strong>. È un luogo suggestivo, dove potrai trovare pace e tranquillità durante la tua <strong>escursione</strong>.  Ricorda che l''eremo è accessibile ed aperto, perfetto per un''esperienza di <strong>trekking</strong> di una giornata.</p>
+
+<p>Questo <strong>sentiero</strong> offre una fantastica opportunità per un''<strong>escursione</strong> nella zona, ideale per chi cerca un''esperienza di <strong>trekking</strong> in <strong>montagna</strong>, con una distanza di circa 3 ore di cammino.  Esplora il fascino del <strong>sentiero Italia</strong> e scopri i segreti del <strong>Eremo di San Viviano</strong>!</p>',
   'Tutte le Attività e Paesi',
   5.49,
   702,
@@ -34,8 +57,8 @@ VALUES (
   10.268383,
   'POINT(10.268383 44.117711)',
   '670dcc6acf5ac0c390fd34f090af95297eb506d4804358efeea8e1f7bab8246f',
-  'Esplora l''Eremo di San Viviano: sentiero facile, vista mozzafiato sul Lago di Vagli e sulla Valle d''Arnetola! Un''esperienza unica in Toscana.',
-  NULL,
+  'Esplora l''Eremo di San Viviano: un''oasi di pace e spiritualità in Val d''Arnetola! Escursione facile e panoramica con vista Lago di Vagli. ⛰️',
+  'Trekking Eremo San Viviano: Sentiero Panorami Valle Arnetola',
   NOW(),
   NOW()
 )

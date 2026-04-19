@@ -319,9 +319,12 @@
     });
 
     // === AUTOCOMPLETE COMUNI ===
-    var sugList = document.getElementById('comune-suggestions');
     var comuni = null;
     var highlightIdx = -1;
+
+    function getSugList() {
+        return document.getElementById('comune-suggestions');
+    }
 
     function loadComuni(cb) {
         if (comuni) return cb();
@@ -332,12 +335,16 @@
     }
 
     function closeSuggestions() {
+        var sugList = getSugList();
+        if (!sugList) return;
         sugList.innerHTML = '';
         sugList.style.display = 'none';
         highlightIdx = -1;
     }
 
     function renderSuggestions(matches) {
+        var sugList = getSugList();
+        if (!sugList) return;
         sugList.innerHTML = '';
         highlightIdx = -1;
         if (!matches.length) { sugList.style.display = 'none'; return; }
@@ -385,6 +392,8 @@
     });
 
     comuneInput.addEventListener('keydown', function (e) {
+        var sugList = getSugList();
+        if (!sugList) return;
         var items = sugList.querySelectorAll('.autocomplete-item');
         if (!items.length) return;
         if (e.key === 'ArrowDown') {

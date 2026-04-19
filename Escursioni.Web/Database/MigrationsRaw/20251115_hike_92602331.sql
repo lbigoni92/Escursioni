@@ -1,33 +1,40 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   92602331,
   'Trekking cittadino - Livorno - Mare',
   'Camminata molto semplice in pianura per la mia città, per riprendermi da un infortunio al ginocchio. La camminata, prevede di passare da alcuni dei luoghi storici più importanti del centro città: Acquario di livorno Terrazza mascagni Gazzebo Fontana del Nettuno Monumento al marinaio Rotonda d''ardenza E'' adatta a tutte le persone, di tutte l''età, a famiglie, turisti ecc... ovviamente essendo in città ed essendo pochi chilometri non avete bisogno d''attrezzature, lungo il percorso ci sono diverse fontanelle, bar e ristoranti.',
-  '<article>
-  <h2 data-aos="fade-left">Trekking Cittadino - Livorno - Mare</h2>
-  <p data-aos="fade-right">
-    Dopo un periodo di riposo per un infortunio al ginocchio, ho deciso di rimetto in sesto le gambe con una passeggiata semplice e rilassante nella mia città. Questo trekking cittadino è un''ottima occasione per riscoprire il cuore di Livorno e ammirare i suoi luoghi storici più importanti.
-  </p>
-  <p data-aos="fade-up">
-    Questo percorso è pensato per essere accessibile a tutti, indipendentemente dall''età o dal livello di preparazione fisica. È perfetto per famiglie, turisti e chiunque voglia trascorrere una giornata all''aria aperta in modo facile e piacevole.
-  </p>
-  <h3 data-aos="fade-left">Itinerario</h3>
-  <ul data-aos="fade-right">
-    <li><strong data-aos="fade-up">Acquario di Livorno</strong>: Un''icona della città, dove potrete ammirare la ricca fauna marina.</li>
-    <li><em data-aos="fade-up">Terrazza Mascagni</em>: Godetevi una vista panoramica mozzafiato sul golfo di Livorno.</li>
-    <li><strong data-aos="fade-up">Gazzebo Fontana del Nettuno</strong>: Rilassatevi all''ombra di questa suggestiva fontana.</li>
-    <li><em data-aos="fade-up">Fontana del Nettuno</em>: Ammirate la bellezza di questa fontana storica.</li>
-    <li><strong data-aos="fade-up">Monumento al Marinaio</strong>: Un monumento dedicato alla tradizione marinara di Livorno.</li>
-    <li><em data-aos="fade-up">Rotonda d’Ardenza</em>:  Esplorate questa rotonda storica e ammirate l''architettura circostante.</li>
-  </ul>
-  <p data-aos="fade-left">
-    Il percorso si snoda lungo la pianura cittadina, con circa pochi chilometri di distanza e pochi dislivelli. Lungo il cammino troverete diverse fontanelle per idratarvi, bar e ristoranti dove fare una pausa. Non sono necessarie attrezzature particolari.
-  </p>
-</article>',
+  '<h2>Trekking Cittadino - Livorno - Mare: Escursione Facile sul Lungomare</h2>
+
+<h3>Il Percorso</h3>
+
+<p>
+Questo <strong>trekking cittadino a Livorno</strong> è progettato per offrire un''esperienza di <strong>escursione</strong> rilassante e accessibile a tutti. Il percorso si snoda lungo la pianura costiera, attraversando i punti più significativi del centro storico di <strong>Livorno</strong>, rendendolo una perfetta attività per chi desidera scoprire la città in modo attivo e alla scoperta della sua ricca storia.  L''<strong>escursione a piedi</strong> è ideale per chi cerca un''attività di <strong>trekking</strong> facile e divertente, anche per famiglie e turisti.
+</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<p>
+Preparatevi a una piacevole passeggiata in un ambiente urbano ricco di fascino.  Il <strong>sentiero</strong> offre scorci mozzafiato sul <strong>mare di Toscana</strong>, con la sua sabbia dorata e le onde che si infrangono sulla costa.  Potrete ammirare i monumenti storici di <strong>Livorno</strong>, inclusi l''<strong>Acquario di Livorno</strong>, la <strong>Terrazza Mascagni</strong> e la suggestiva <strong>Fontana del Nettuno</strong>.  L''<strong>escursione di trekking</strong> è adatta a tutti i livelli e offre un''esperienza unica nel cuore della città.
+</p>
+
+<h3>Informazioni Utili</h3>
+
+<ul>
+  <li><strong>Difficoltà:</strong> Molto Facile</li>
+  <li><strong>Distanza:</strong> Circa 5-7 km (il percorso esatto può variare leggermente)</li>
+  <li><strong>Durata:</strong> Circa 2-3 ore</li>
+  <li><strong>Adatto a:</strong> Famiglie, turisti, persone di tutte le età e livelli di fitness</li>
+  <li><strong>Punti di Interesse:</strong> Acquario di Livorno, Terrazza Mascagni, Gazzebo, Fontana del Nettuno, Monumento al Marinaio, Rotonda d''Ardenza</li>
+  <li><strong>Servizi lungo il percorso:</strong> Diverse fontanelle, bar e ristoranti per ricaricare le energie</li>
+</ul>
+
+<p>
+Questa <strong>escursione a Livorno</strong> è un''ottima opportunità per immergervi nella bellezza della città e godervi una giornata all''aria aperta.  Che siate residenti o visitatori, il <strong>sentiero</strong> offre un''esperienza indimenticabile per tutti gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>.  Esplorate il <strong>sentiero cittadino</strong> di <strong>Livorno</strong> e scoprite le sue meraviglie!
+</p>',
   'Tutte le Attività e Paesi',
   10.16,
   14,
@@ -54,7 +61,8 @@ VALUES (
   10.300393,
   'POINT(10.300393 43.54105)',
   'e026f22c0de2cc733a8db0e75ab7b68c309d1fa6b7e253b671aaf2a75421761c',
-  'Trekking cittadino a Livorno: mare, storia e relax! Percorso facile e accessibile per tutta la famiglia. Scopri i luoghi iconici di Livorno!',
+  'Trekking cittadino a Livorno: mare, storia e relax! Percorso facile e panoramico tra Acquario, Terrazza Mascagni e Monumento al Marinaio. Perfetto per tutti!',
+  'Trekking Livorno Mare: Percorso Cittadino Facile',
   NOW(),
   NOW()
 )
@@ -89,6 +97,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

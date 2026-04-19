@@ -1,13 +1,38 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   87617094,
   'Grosseto Riserva Naturale',
   'Uno spettacolo tutto toscano, fu una dell''esperienze che mi porto più nel cuore, non per i paesaggi spettacolari, no per i bellissimi posti ma per la compagnia, fu una delle camminate che mi hanno lasciato di più il segno nel cuore. Il tragitto è semplice, siamo sempre stati sul sentiero che era ben segnato nn potete perdervi, il dislivello è infimo appena 100 mt, e non sono richieste scarpe particolari. Portatevi l''acqua non ci sono fontane ma c''è un bar vicino al parcheggio, lo sconsiglio d''estate, faceva veramente caldo nei punti esposti al sole, meglio farlo in primavera o autunno. Contattate il parco prima d''avventurarvi, magari i percorsi sono chiusi in quel periodo, è una riserva naturale.',
-  'Uno spettacolo tutto toscano, fu una dell''esperienze che mi porto più nel cuore, non per i paesaggi spettacolari, no per i bellissimi posti ma per la compagnia, fu una delle camminate che mi hanno lasciato di più il segno nel cuore. <br> <br>Il tragitto è semplice, siamo sempre stati sul sentiero che era ben segnato nn potete perdervi, il dislivello è infimo appena 100 mt, e non sono richieste scarpe particolari. <br> <br>Portatevi l''acqua non ci sono fontane ma c''è un bar vicino al parcheggio, lo sconsiglio d''estate, faceva veramente caldo nei punti esposti al sole, meglio farlo in primavera o autunno. <br> <br>Contattate il parco prima d''avventurarvi, magari i percorsi sono chiusi in quel periodo, è una riserva naturale.',
+  '<h2>Grosseto Riserva Naturale: Escursione Trekking nella Toscana Incontaminata</h2>
+
+<h3>Il Percorso: Sentiero Facile per Ammirare la Natura Toscana</h3>
+<p>
+La <strong>Grosseto Riserva Naturale</strong> offre un''esperienza di <strong>trekking</strong> indimenticabile, perfetta per chi cerca una <strong>escursione</strong> facile e immersiva nella <strong>natura toscana</strong>. Questo <strong>sentiero</strong>, ben segnalato, si snoda attraverso un paesaggio mozzafiato, ideale per una giornata all''aria aperta. Il percorso è progettato per essere accessibile a tutti, con un dislivello minimo di soli 100 metri, il che lo rende perfetto anche per famiglie e principianti.  La <strong>Grosseto Riserva Naturale</strong> è un vero gioiello per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in Italia.
+</p>
+
+<h3>Cosa Aspettarsi: Panorami, Natura e Tranquillità</h3>
+<p>
+Preparatevi ad ammirare panorami spettacolari sulla campagna toscana, con colline dolci e vigneti che si estendono a perdita d''occhio. Questo <strong>sentiero</strong> è un''occasione unica per riconnettersi con la natura, respirare l''aria fresca della <strong>montagna</strong> e godere della tranquillità della <strong>Riserva Naturale</strong>.  La <strong>Grosseto Riserva Naturale</strong> è particolarmente suggestiva in primavera e autunno, quando le temperature sono più miti e i colori della natura sono al culmine.  Puntate su un''<strong>escursione</strong> per scoprire la bellezza della Toscana.
+</p>
+
+<h3>Informazioni Utili per la Vostra Escursione</h3>
+<ul>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Distanza:</strong> Circa 5 km</li>
+    <li><strong>Dislivello:</strong> 100 metri</li>
+    <li><strong>Periodo Consigliato:</strong> Primavera o Autunno (evitare l''estate a causa del caldo)</li>
+    <li><strong>Consigli:</strong> Portatevi acqua, cappello, crema solare e scarpe da trekking leggere.</li>
+    <li><strong>Parco:</strong> Contattate il **Parco della Riserva Naturale di Grosseto** prima della vostra <strong>escursione</strong> per verificare la disponibilità dei <strong>sentieri</strong> e eventuali chiusure.</li>
+    <li><strong>Servizi:</strong>  Un bar si trova vicino al parcheggio, ma è consigliabile portarne con sé una scorta di acqua, specialmente durante i mesi estivi.</li>
+</ul>
+
+<p>
+La <strong>Grosseto Riserva Naturale</strong> vi aspetta per un''esperienza di <strong>trekking</strong> autentica e rigenerante.  Scoprite la bellezza della <strong>Toscana</strong> attraverso questo affascinante <strong>sentiero</strong>. Organizzate la vostra <strong>escursione</strong> oggi stesso!
+</p>',
   'Tutte le Attività e Paesi',
   4.77,
   133,
@@ -34,7 +59,8 @@ VALUES (
   11.098581,
   'POINT(11.098581 42.663172)',
   '93d274f2765f7b08ce61f8f87f84ea817d7f381479858245492a701d429d050f',
-  'Escursioni Grosseto: Riserva Naturale! Sentiero facile 100mt, paesaggi toscani mozzafiato. Ideale primavera/autunno. Scopri il percorso!',
+  'Escursioni Grosseto: Riserva Naturale! Trek facile 100m, paesaggi toscani mozzafiato. Ideale primavera/autunno. Scopri il sentiero!',
+  'Trekking Escursione Grosseto Riserva Naturale 100mt',
   NOW(),
   NOW()
 )
@@ -69,6 +95,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

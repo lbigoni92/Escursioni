@@ -1,32 +1,36 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   97809994,
   'Direttissima Moriglione di Penna - Monte Penna',
   'Direttissima verso il Moriglione di Penna. Il percorso è classificato come sentiero EE e presenta alcuni punti "leggermente esposti" non consigliabile a chi soffre di vertigini. Se dev''essere onesto non è stata faticoso per la salita ma lo è stato nella discesa considerando che si scivolava per il terreno secco. Il panorama merita sicuramente ve lo consiglio. Molto bella la salita, ci si deve aiutare obbligatoriamente con le mani, con degli scorci davvero carini, meglio se vi portate dei guanti con le dita non coperte. La discesa è stata impegnativa e si procedeva molto lentamente in quanto le rocce erano abbastanza appuntite, si cammina su roccia e no su terreno, percorso non adatto a chi è alle prime esperienze. Tempo in movimento 3.5 ore ma fattibile anche in meno.',
-  '<h2>Direttissima Moriglione di Penna – Monte Penna: Escursione Trekking in Montagna</h2>
+  '<h2>Direttissima Moriglione di Penna - Monte Penna: Trekking e Escursione in Montagna</h2>
 
-<h3>Il Percorso – Sentiero EE in Calabria</h3>
-<p>Preparati per una fantastica <strong>escursione trekking</strong> lungo la <strong>Direttissima Moriglione di Penna – Monte Penna</strong>, un sentiero EE che ti condurrà alla cima del <strong>Monte Penna</strong>. Questo <strong>sentiero in Calabria</strong> offre una sfida gratificante per gli escursionisti esperti, con panorami mozzafiato sulla costa ionica e sull''entroterra. L''<strong>escursione di trekking</strong> è caratterizzata da un''altitudine considerevole, rendendola un''esperienza indimenticabile per gli amanti della <strong>natura</strong> e delle <strong>montagne</strong>.</p>
+<h3>Il Percorso</h3>
 
-<h3>Cosa Aspettarsi – Difficoltà e Sfide</h3>
-<p>Questo <strong>sentiero di trekking</strong> presenta una difficoltà moderata, classificato come sentiero EE. Pur non essendo particolarmente faticoso in salita, la <strong>discesa</strong> può essere impegnativa, soprattutto a causa del terreno roccioso e secco che presenta alcune zone leggermente esposte, non adatte a chi soffre di vertigini.  Ti consigliamo di indossare scarpe da trekking adatte e di portare con te acqua e cibo sufficienti. <em>Porta con te dei guanti da lavoro con le dita non coperte per la salita, dove l''arrampicata con le mani è obbligatoria.</em></p>
+<p>Questa <strong>direttissima</strong> vi porterà direttamente al magnifico <strong>Moriglione di Penna</strong>, un''escursione impegnativa ma ricca di soddisfazioni.  Il sentiero EE si snoda attraverso il cuore della <strong>Montagna Maggiore</strong>, offrendo un''esperienza di <strong>trekking</strong> autentica e immersiva nella <strong>natura</strong> italiana.  Preparatevi a una salita intensa e a una discesa tecnica, un''occasione unica per scoprire panorami mozzafiato e la bellezza selvaggia del territorio.</p>
 
-<h3>Informazioni Utili – Dettagli dell’Escursione</h3>
+<h3>Cosa Aspettarsi</h3>
+
+<p>Il <strong>sentiero</strong> è classificato come EE, il che significa che presenta alcune difficoltà.  Ci sono alcuni tratti con pendenze e alcuni punti con esposizione, non consigliati a chi soffre di <strong>vertigini</strong>. La salita, anche se impegnativa, non è eccessivamente faticosa, mentre la discesa, a causa del terreno roccioso e secco, può risultare più lenta e richiedere attenzione.  Questo <strong>trekking</strong> in montagna è un''esperienza intensa che vi metterà alla prova, ma che vi ricompenserà con panorami indimenticabili.</p>
+
+<p>È importante notare che il percorso è prevalentemente su <strong>roccia</strong>, con tratti dove è necessario utilizzare le mani per garantire la sicurezza.  Si consiglia vivamente di portare con sé dei <strong>guanti</strong> per proteggere le mani durante la salita. La discesa, in particolare, richiede attenzione e un buon equilibrio, data la natura appuntita delle rocce.</p>
+
+<h3>Informazioni Utili</h3>
+
 <ul>
-    <li><strong>Distanza:</strong> Circa 6 km</li>
-    <li><strong>Dislivello:</strong> 650 metri</li>
-    <li><strong>Tempo Totale:</strong> 3.5 ore (circa) – fattibile anche in meno</li>
-    <li><strong>Difficoltà:</strong> Sentiero EE – Moderata</li>
-    <li><strong>Tipo di Sentiero:</strong> <strong>Trekking</strong>, <strong>Escursione</strong> in <strong>Montagna</strong></li>
-    <li><strong>Punti di Interesse:</strong> Moriglione di Penna, panorami sulla costa ionica, scorci panoramici sull’entroterra calabrese.</li>
-    <li><strong>Consigli:</strong> Indossare scarpe da trekking adatte, guanti da lavoro con dita non coperte, bere molta acqua, stare attenti durante la discesa.</li>
+  <li><b>Difficoltà:</b> EE (Escursionistico)</li>
+  <li><b>Distanza:</b> Circa 6 km (andata e ritorno)</li>
+  <li><b>Tempo di percorrenza stimato:</b> 3.5 - 4.5 ore (a seconda del ritmo)</li>
+  <li><b>Dislivello:</b> Circa 600 metri</li>
+  <li><b>Periodo consigliato:</b> Estate/Autunno (verificare condizioni meteo)</li>
+  <li><b>Equipaggiamento consigliato:</b> Scarpe da trekking, zaino, acqua, snack, cappello, crema solare, guanti (consigliati), kit di primo soccorso</li>
 </ul>
 
-<p>Non perdere l''occasione di vivere un''indimenticabile <strong>escursione sentiero</strong> nella <strong>montagna calabrese</strong>. La <strong>Direttissima Moriglione di Penna – Monte Penna</strong> ti aspetta per una giornata di <strong>trekking</strong> all''insegna della <strong>natura</strong> e della scoperta!</p>',
+<p>Questa <strong>escursione in sentiero</strong> è una splendida opportunità per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> nella <strong>Montagna Maggiore</strong>.  Non perdete l''occasione di ammirare il <strong>panorama</strong> mozzafiato del <strong>Monte Penna</strong> e del <strong>Moriglione</strong>. Ricorda, la sicurezza è fondamentale: valuta attentamente le tue capacità e le condizioni del sentiero prima di partire.  Un''esperienza da non perdere per chi cerca <strong>sentieri Italia</strong> autentici.</p>',
   'Tutte le Attività e Paesi',
   6.68,
   600,
@@ -53,7 +57,8 @@ VALUES (
   10.460793,
   'POINT(10.460793 43.782757)',
   '3b521d456b504101ef778e1df8cd1fd03f051d04f26f442a8c3787664fc7ea0b',
-  'Escursione Moriglione di Penna: sentiero EE panoramico e suggestivo. Salita impegnativa, discesa rocciosa. Vista mozzafiato!',
+  'Escursione Moriglione Penna: sentiero EE con vista mozzafiato! Salita impegnativa, discesa tecnica. Scopri il panorama e consigli utili.',
+  'Trekking Monte Penna: Sentiero EE Moriglione Penna!',
   NOW(),
   NOW()
 )
@@ -88,6 +93,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

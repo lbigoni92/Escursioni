@@ -35,3 +35,34 @@
         max-width: 320px;
     }
 }
+
+/* ===================== ABOUT SOCIAL ===================== */
+.about-social {
+    margin-top: 2.5rem;
+}
+.about-social h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+.about-social-links {
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+}
+.about-social-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background: var(--bg-card, #1e293b);
+    color: var(--text-main, #e2e8f0);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s, transform 0.15s;
+}
+.about-social-links a:hover {
+    background: var(--accent, #38bdf8);
+    color: #fff;
+    transform: translateY(-2px);
+}

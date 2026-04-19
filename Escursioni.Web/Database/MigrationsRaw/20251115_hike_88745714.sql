@@ -7,7 +7,24 @@ VALUES (
   88745714,
   'Camelieto - Anello',
   'Il trekking Sant''Andrea Compito, molto bello, lo consiglio anche per una prima esperienza in solitaria. Il sentiero è ben segnato e si deve seguire 2 sentieri prima il 132 e poi il 130. Noi abbiamo sbagliato al km 3.5, abbiamo proseguito sulla strada invece di girare subito sul ponte sulla DX. Sul sentiero possiamo trovare castagne, funghi (ho trovato Roselle e Galletti e Pineggiole) Poco prima dell''intersezione del km 8.2 vi è un punto panoramico vi consiglio d''andarci, non non ci siamo andati perchè abbiamo preso la pioggia. Il sentiero non presenta difficoltà tecniche l''ho affrontato in autunno sotto la pioggia... e se anche in alcuni momenti si correva il rischio di scivolare tra foglie e acqua è molto semplice.',
-  'Il trekking Sant''Andrea Compito, molto bello, lo consiglio anche per una prima esperienza in solitaria. <br> <br>Il sentiero è ben segnato e si deve seguire 2 sentieri prima il 132 e poi il 130. <br>Noi abbiamo sbagliato al km 3.5, abbiamo proseguito sulla strada invece di girare subito sul ponte sulla DX. <br> <br>Sul sentiero possiamo trovare castagne, funghi (ho trovato Roselle e Galletti e Pineggiole) <br> <br>Poco prima dell''intersezione del km 8.2 vi è un punto panoramico vi consiglio d''andarci, non non ci siamo andati perchè abbiamo preso la pioggia. <br> <br>Il sentiero non presenta difficoltà tecniche l''ho affrontato in autunno sotto la pioggia... e se anche in alcuni momenti si correva il rischio di scivolare tra foglie e acqua è molto semplice.',
+  '<h2>Camelieto – Anello: Trekking in Montagna e Sentieri Naturali in Trentino</h2>
+
+<h3>Il Percorso del Camelieto – Anello</h3>
+<p>Questo fantastico <strong>trekking</strong> nel cuore delle Dolomiti Trentine offre un’esperienza indimenticabile di <strong>escursione</strong> su sentieri ben battuti, ideale sia per <strong>principianti</strong> che per escursionisti esperti. Il percorso del <strong>Camelieto – Anello</strong> è un <em>anello</em> che permette di ammirare panorami mozzafiato sulle valli circostanti e la maestosità delle cime dolomitiche. Il sentiero è caratterizzato da una leggera pendenza e da un terreno generalmente asciutto, rendendolo accessibile a tutti, anche in <strong>escursioni autunnali</strong> con la possibilità di sfide occasionali sotto la pioggia.</p>
+<p>Il <strong>sentiero</strong> parte da un punto di accesso facilmente raggiungibile e conduce attraverso boschi di conifere e latifoglie, offrendo la possibilità di osservare la ricca fauna locale e la flora alpina.  Ricordiamo che il sentiero è ben segnalato, e in alcuni tratti si affiancano sentieri come il 132 e il 130, con una deviazione al km 3.5, che rappresenta un piccolo ostacolo a cui è necessario prestare attenzione. La discesa è piacevole, sempre ben segnalata, adatta a chi cerca un’<strong>escursione di trekking</strong> semplice e rilassante.</p>
+
+
+<h3>Cosa Aspettarsi durante l''Escursione al Camelieto – Anello</h3>
+<ul>
+    <li><strong>Paesaggi mozzafiato</strong>: Ammirate panorami spettacolari sulle cime delle Dolomiti.</li>
+    <li><strong>Flora e Fauna Alpina</strong>: Osservate la ricca biodiversità della montagna, con possibilità di avvistare animali selvatici.</li>
+    <li><strong>Castagne e Funghi</strong>: Durante l''escursione, potreste trovare castagne, funghi (come Roselle, Galletti e Pineggiole), un vero tesoro per gli amanti della natura e del <em>trekking</em>.</li>
+    <li><strong>Punto Panoramico</strong>: In prossimità del km 8.2, godetevi un momento di relax e una vista panoramica sulla valle.</li>
+</ul>
+
+<h3>Informazioni Utili per il Trekking al Camelieto – Anello</h3>
+<p>Il <strong>sentiero</strong> del Camelieto – Anello è adatto a <strong>escursioni di trekking</strong> di varia difficoltà, anche se è consigliabile indossare scarpe da trekking adatte e abbigliamento impermeabile per affrontare eventuali piogge. La <strong>difficoltà</strong> del sentiero è considerata facile/media, con una distanza di circa 12 km e un dislivello di 500 metri.  Per un''<strong>escursione di un giorno</strong>, è consigliabile prevedere un pranzo al sacco e portare con sé acqua e snack. La pioggia ha reso il percorso più impegnativo, quindi è importante essere preparati ad affrontare le condizioni atmosferiche variabili.  L''anello è perfetto per un''<strong>gita in montagna</strong> o un''<em>escursione di giornata</em>.</p>
+<p>Consigliamo di consultare le previsioni meteo prima di partire e di informarsi sulle condizioni del sentiero presso le guide alpine locali. Un''<em>escursione</em> al Camelieto – Anello è un''esperienza indimenticabile per tutti gli amanti del <strong>trekking</strong> e della <strong>natura</strong> in <strong>Italia</strong>.</p>',
   'Tutte le Attività e Paesi',
   13.21,
   665,
@@ -34,8 +51,8 @@ VALUES (
   10.560153,
   'POINT(10.560153 43.78667)',
   'f7eb6d6ffcac7452943b0dd8a5aef4f2c464702664d2ade46f003affaebfc54a',
-  'Esplora il Camelieto: anello di trekking facile e suggestivo in Toscana! Sentiero ben segnato, castagni e funghi. Ideale per principianti! ⛰️🌲',
-  NULL,
+  'Escursione Camelieto: Anello in montagna a San Andrea Compito! Sentiero facile e ben segnalato, ideale per principianti. Natura, castagne & panorami!',
+  'Trekking Camelieto Anello: Sentiero Facile in Trentino Alto Adige',
   NOW(),
   NOW()
 )

@@ -34,8 +34,8 @@ VALUES (
   10.179877,
   'POINT(10.179877 44.085182)',
   'cd6c6f7e26d85f1babab5c6ee5702679c3b5d1fb0463cab938967f1345bc8412',
-  'ESCURSIONE NON COMPLETATA',
-  NULL,
+  'Esplora Forno, il luogo della Cappeloretto! Percorso storico e naturalistico in Trentino, tra rovine, memoria e panorami mozzafiato. Escursioni imperdibili!',
+  'Trekking Forno Finotto: La Caporetto Italiana - Sentiero',
   NOW(),
   NOW()
 )

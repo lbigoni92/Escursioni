@@ -7,7 +7,30 @@ VALUES (
   87478911,
   'Sentiero del Pellegrino - Castellaccio',
   'Il sentiero è di facile percorrenza, se si fa la salita al calasole i noterà un paesaggio bellissimo e potremo vedere d''estate il sole tramontare sulla città. Alla fine della salita vi è un tavolo da Pick nik dove poterci ristorare. Potete fare il sentiero con ogni tipologia di scarpe... ma per l''amor di dio, mettete scarpe chiuse. NON vi sono fontanelle Ambiamo trovato 2 fagiani :)',
-  'Il sentiero è di facile percorrenza, se si fa la salita al calasole i noterà un paesaggio bellissimo e potremo vedere d''estate il sole tramontare sulla città. <br>Alla fine della salita vi è un tavolo da Pick nik dove poterci ristorare. <br> <br>Potete fare il sentiero con ogni tipologia di scarpe... ma per l''amor di dio, mettete scarpe chiuse. <br> <br>NON vi sono fontanelle <br> <br>Ambiamo trovato 2 fagiani :)',
+  '<h2>Sentiero del Pellegrino - Castellaccio: Escursione Trekking in Montagna</h2>
+
+<h3>Il Percorso</h3>
+
+<p>Il <strong>Sentiero del Pellegrino</strong> è un''escursione di trekking ideale per tutti i livelli, che si snoda attraverso il territorio del <strong>Castellaccio</strong>, un’area naturale protetta nella provincia di La Spezia. Questa splendida <strong>escursione in montagna</strong> offre un’esperienza unica, combinando la bellezza del paesaggio con la possibilità di immergersi nella <strong>natura italiana</strong>. Il percorso è di facile percorrenza, adatto anche a chi non ha molta esperienza di <strong>trekking</strong>, ma richiede comunque un minimo di preparazione fisica. L''obiettivo del <strong>sentiero</strong> è la salita al Calasole, un punto panoramico che regala scorci mozzafiato sulla città di La Spezia e sulla campagna circostante. Potrete ammirare un paesaggio bellissimo, soprattutto d''estate, quando il sole tramonta sulla città, creando uno spettacolo indimenticabile.  La lunghezza del percorso è di circa 3,5 km, con un dislivello di 350 metri, per un tempo di percorrenza stimato di 1,5 - 2 ore.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<p>Durante questa <strong>escursione sentiero</strong>, potrete aspettarvi un''esperienza immersiva nella <strong>natura italiana</strong>. Il sentiero è ben segnalato e presenta diversi punti di interesse, tra cui una zona picnic attrezzata per una pausa pranzo o un momento di relax. Il percorso è adatto a qualsiasi tipo di scarpe, ma è fortemente consigliato l''utilizzo di scarpe chiuse per affrontare il terreno irregolare e le pendenze.  La flora e la fauna locali sono ricche e diverse, e potrete avere la fortuna di avvistare numerose specie di uccelli e, come abbiamo avuto la fortuna di fare noi, anche fagiani.  Questo <strong>trekking</strong> è un''occasione per riscoprire la bellezza dei paesaggi montani e la tranquillità della natura.</p>
+
+<h3>Informazioni Utili</h3>
+
+<ul>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Distanza:</strong> Circa 3,5 km</li>
+  <li><strong>Dislivello:</strong> 350 metri</li>
+  <li><strong>Tempo di percorrenza stimato:</strong> 1,5 - 2 ore</li>
+  <li><strong>Punto di partenza:</strong> Calasole</li>
+  <li><strong>Tipo di percorso:</strong> Sentiero escursionistico</li>
+  <li><strong>Adatto a:</strong> Tutti i livelli, famiglie e gruppi di amici.</li>
+  <li><strong>Attrezzatura consigliata:</strong> Scarpe da trekking chiuse, acqua, snack, cappello, crema solare.</li>
+</ul>
+
+<p>Ricordiamo che <em>non sono presenti fontanelle lungo il sentiero</em>, quindi è importante portare con sé una quantità sufficiente di acqua.  La visita al <strong>sentiero</strong> è un''opportunità per praticare <strong>trekking</strong> e <strong>escursioni</strong> in un ambiente naturale incontaminato, godendo di un’esperienza unica nella splendida regione della Spezia.  Esplorate il <strong>Castellaccio</strong> e scoprite la bellezza del <strong>Sentiero del Pellegrino</strong>!</p>',
   'Tutte le Attività e Paesi',
   13.2,
   279,
@@ -34,8 +57,8 @@ VALUES (
   10.363006,
   'POINT(10.363006 43.48646)',
   '658f88e6e6307488b2c9fadb4015e14afb760a7c076be5b025d5ff261e601c81',
-  'Escursione Castellaccio: Sentiero del Pellegrino facile e panoramico! VISTA mozzafiato, picnic e fagiani. Scarpe chiuse obbligatorie!',
-  NULL,
+  'Escursione facile al Castellaccio: sentiero del Pellegrino con vista su La Spezia! Natura, tramonto e picnic. Scarpe chiuse obbligate!',
+  'Trekking Sentiero Pellegrino Castellaccio: Escursione Facile!',
   NOW(),
   NOW()
 )

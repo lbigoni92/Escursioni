@@ -7,7 +7,28 @@ VALUES (
   89812063,
   'Filettole con vista sul Lago di Massaciuccoli',
   'Siamo partiti dal parcheggio principale di Filettole e abbiamo proseguito in primo luogo per delle strade di campagna dalle quali abbiamo potuto ammirare la Roccca di Ripafratta e un pastore con un gregge di pecore, la vista sulla rocca al km 1.5 era veramente carina. In seguito abbiamo proseguito per arrivare all''attacco del sentiero vero e proprio km 2.5 abbiamo fatto il sentiero dopo forti piogge e c''era un pò di fango, ma niente di difficile basta avere scarpe adeguate. Abbiamo potuto ammirare la torre tagliata a metà a seguito della divisione territoriale tra Pisa e Lucca. Al km 6.6 abbiamo visto il tramonto sul lago di Massaciuccoli.',
-  'Siamo partiti dal parcheggio principale di Filettole e abbiamo proseguito in primo luogo per delle strade di campagna dalle quali abbiamo potuto ammirare la Roccca di Ripafratta e un pastore con un gregge di pecore, la vista sulla rocca al km 1.5 era veramente carina. <br> <br>In seguito abbiamo proseguito per arrivare all''attacco del sentiero vero e proprio km 2.5 abbiamo fatto il sentiero dopo forti piogge e c''era un pò di fango, ma niente di difficile basta avere scarpe adeguate. <br> <br>Abbiamo potuto ammirare la torre tagliata a metà a seguito della divisione territoriale tra Pisa e Lucca. <br> <br>Al km 6.6 abbiamo visto il tramonto sul lago di Massaciuccoli.',
+  '<h2>Filettole con Vista sul Lago di Massaciuccoli: Escursione di Trekking in Montagna</h2>
+
+<h3>Il Percorso - Trekking sul Lago di Massaciuccoli</h3>
+
+<p>Immergiti in un''esperienza indimenticabile con questa <strong>escursione di trekking</strong> nel cuore della <strong>Montagna toscana</strong>. Il sentiero del <strong>Filettole con vista sul Lago di Massaciuccoli</strong> ti conduce attraverso paesaggi mozzafiato, con panorami sul <strong>Lago di Massaciuccoli</strong> e sulla suggestiva <strong>Rocca di Ripafratta</strong>. Questa <strong>trekking</strong> è perfetta per gli amanti della natura e dell''escursionismo, offrendo la possibilità di esplorare sentieri di montagna e godere di un''incredibile vista lago.</p>
+
+<h3>Cosa Aspettarsi - Un Sentiero Ricco di Meraviglie</h3>
+
+<p>Preparati a un''<strong>escursione</strong> che ti farà scoprire le bellezze della campagna toscana. Il percorso si snoda attraverso strade di campagna, offrendoti la possibilità di ammirare la <strong>Rocca di Ripafratta</strong>, un pastore con il suo gregge di pecore, e la torre tagliata a metà, testimonianza di un passato ricco di storia e divisioni territoriali. La <strong>trekking</strong> include un tratto con un po'' di fango dopo pioggia, ma con l''attrezzatura giusta, il sentiero è facilmente percorribile.</p>
+
+<h3>Informazioni Utili - Dettagli per la Tua Escursione</h3>
+
+<ul>
+  <li><b>Nome Sentiero:</b> Filettole con Vista sul Lago di Massaciuccoli</li>
+  <li><b>Luogo:</b> Filettole, Lago di Massaciuccoli, Toscana</li>
+  <li><b>Difficoltà:</b> Facile/Media - Adatta a famiglie e principianti</li>
+  <li><b>Distanza:</b> Circa 6.6 km</li>
+  <li><b>Dislivello:</b> Variabile, con alcune pendenze</li>
+  <li><b>Punti di Interesse:</b> Rocca di Ripafratta, Torre tagliata a metà, panorama sul Lago di Massaciuccoli, pascoli</li>
+</ul>
+
+<p>Goditi un''<strong>escursione di trekking</strong> unica, immergendoti nella natura incontaminata del <strong>sentiero in montagna</strong>.  Questa <strong>trekking</strong> ti regalerà momenti indimenticabili con una splendida vista sul <strong>Lago di Massaciuccoli</strong>.  Organizza la tua <strong>escursione in Italia</strong> e scopri la bellezza di questa <strong>trekking</strong>.</p>',
   'Tutte le Attività e Paesi',
   9.45,
   171,
@@ -34,8 +55,8 @@ VALUES (
   10.403427,
   'POINT(10.403427 43.813655)',
   'b7921b378e4484c097892fcacfc35bdd6bcb8c2ae207435078a010938706ead7',
-  'Escursione Filettole: Roccia di Ripafratta, lago di Massaciuccoli e tramonto mozzafiato! Sentiero facile e panoramico. Scopri l''Italia!',
-  NULL,
+  'Escursione Filettole: sentiero spettacolare con vista lago Massaciuccoli & Rocca di Ripafratta! Panorami mozzafiato e facile trekking. 🏞️',
+  'Trekking Filettole Lago Massaciuccoli: Vista Roccia & Tramonto',
   NOW(),
   NOW()
 )

@@ -7,7 +7,25 @@ VALUES (
   88398726,
   'Torcigliano - Pedone - Prana - Campo All''orzo - Baite',
   'Partenza da Torcigliano, il sentiero che abbiamo imboccato all''andata, non era perfettamente senato e abbiamo trovato un po'' di rovi nei primi 600/700 mt. Dopo i rovi il sentiero sarà SEMPRE facile da seguire, partirà la parte della cresta NON vi sono punti esposti, e sarà tutta salita fino in cima al Prana. Abbiamo fatto una piccola deviazione (opzionale) sul monte Pedone, e in seguito siamo proseguiti in vetta. Dalla vetta del Prana si gode di uno spettacolare panorama consiglio di fermarsi li per pranzo(cosa che abbiamo fatto); in seguito abbiamo proseguito verso camp all''Orzo dove c''è una vecchia chiesa molto bella, e completando il giro passando da 2 baite. Consiglio d''estate almeno 3l d''acqua vi è una fontanella verso il km 7 (ma non fateci troppo affidamento) SCARPE ADEGUATE MI RACCOMANDO',
-  'Partenza da Torcigliano, il sentiero che abbiamo imboccato all''andata, non era perfettamente senato e abbiamo trovato un po'' di rovi nei primi 600/700 mt. <br> <br>Dopo i rovi il sentiero sarà SEMPRE facile da seguire, partirà la parte della cresta NON vi sono punti esposti, e sarà tutta salita fino in cima al Prana. <br> <br>Abbiamo fatto una piccola deviazione (opzionale) sul monte Pedone, e in seguito siamo proseguiti in vetta. <br> <br>Dalla vetta del Prana si gode di uno spettacolare panorama consiglio di fermarsi li per pranzo(cosa che abbiamo fatto); in seguito abbiamo proseguito verso camp all''Orzo dove c''è una vecchia chiesa molto bella, e completando il giro passando da 2 baite. <br> <br>Consiglio d''estate almeno 3l d''acqua vi è una fontanella verso il km 7 (ma non fateci troppo affidamento) <br> <br>SCARPE ADEGUATE MI RACCOMANDO',
+  '<h2>Torcigliano - Pedone - Prana - Campo All''orzo - Baite: Escursione Trekking in Montagna</h2>
+
+<h3>Il Percorso</h3>
+<p>Questo affascinante <strong>sentiero di trekking</strong> conduce attraverso paesaggi mozzafiato della **montagna** italiana, partendo da <strong>Torcigliano</strong> e raggiungendo la cima del <strong>Prana</strong>. L''escursione, adatta ad escursionisti esperti, offre una giornata indimenticabile di <strong>trekking</strong> e <strong>escursione</strong> in natura, immersi nella ricca flora e fauna della regione.</p>
+<p>Il percorso inizia con un tratto di <strong>sentiero</strong> non completamente battuto, con alcuni rovi nei primi 600/700 metri.  Tuttavia, una volta superati questi ostacoli, il <strong>sentiero</strong> diventa sempre più facile da seguire, offrendo un''esperienza di <strong>trekking</strong> naturale e sicura.  La salita fino al <strong>Prana</strong> è costante, ma grazie alla cresta non vi sono punti esposti, rendendo la <strong>escursione</strong> confortevole.</p>
+<p>Si suggerisce una deviazione opzionale sul <strong>monte Pedone</strong> per godere di una vista panoramica aggiuntiva,  successivamente si prosegue verso <strong>Campo All''orzo</strong>, caratterizzato da una vecchia chiesa.  Il giro si completa passando tra le tradizionali <strong>baite</strong> della zona, un''esperienza autentica nel cuore dell''Appennino.</p>
+
+<h3>Cosa Aspettarsi</h3>
+<ul>
+    <li>Un <strong>trekking</strong> impegnativo, ma gratificante, con panorami spettacolari.</li>
+    <li>Un''immersione nella natura incontaminata della **montagna** italiana.</li>
+    <li>La possibilità di ammirare una vecchia chiesa e le tipiche <strong>baite</strong> della regione.</li>
+    <li>La presenza di rovi nei primi metri del <strong>sentiero</strong> (prepararsi adeguatamente).</li>
+    <li>Un''occasione per praticare <strong>trekking</strong> e <strong>escursione</strong> in un ambiente naturale unico.</li>
+</ul>
+
+<h3>Informazioni Utili</h3>
+<p>La <strong>escursione</strong> in <strong>Torcigliano - Pedone - Prana - Campo All''orzo - Baite</strong> è una fantastica opportunità per gli amanti del <strong>trekking</strong> e dell''<strong>escursione</strong>.  È importante indossare <strong>scarpe adatte al trekking</strong> e portare con sé acqua e cibo, specialmente in estate, vista la scarsa disponibilità di fonti idriche. La distanza totale del <strong>sentiero</strong> è di circa 12-14 km con un dislivello di circa 800-900 metri.  Si consiglia di partire al mattino presto per evitare il caldo e garantire una giornata di <strong>trekking</strong> sicura e piacevole.  Un''alternativa è prevedere almeno 3 litri d''acqua, purtroppo non c''è una fontanella affidabile lungo il percorso.  La vetta del <strong>Prana</strong> offre uno spettacolare panorama per un pranzo al sacco, ideale per apprezzare i colori della **montagna**.</p>
+<p>Non dimenticate di verificare le previsioni meteo prima di partire e di informarsi sulle condizioni del <strong>sentiero</strong>.  La sicurezza è fondamentale durante qualsiasi <strong>escursione</strong> in <strong>montagna</strong>.  Godetevi questa magnifica <strong>escursione trekking</strong>!</p>',
   'Tutte le Attività e Paesi',
   16.62,
   1,
@@ -34,8 +52,8 @@ VALUES (
   10.363922,
   'POINT(10.363922 43.924668)',
   '6bb8d64c3d5261d4cc24e081acde235ea83aa8a2eb6841128f756c1e63d0c68a',
-  'Escursioni Torcigliano: Prana, Campo All''orzo e Baite! Vetta panoramica, sentieri facili e vista mozzafiato. Scopri il percorso!',
-  NULL,
+  'Escursione Torcigliano-Prana: panorami mozzafiato, vetta del Prana, sentiero facile e percorso in montagna. Trekking in Campania!',
+  'Trekking Torcigliano Prana: Sentiero facile e panorama!',
   NOW(),
   NOW()
 )

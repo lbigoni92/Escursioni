@@ -7,7 +7,29 @@ VALUES (
   87479024,
   'Vecchiano-Nodica',
   'Percorso molto carino sul monte legnaiolo fatto in diurna, tecnicamente per nulla impegnativo, lo consiglio anche a famiglie. Un tratto è ciottoloso ma niente di complicato, scarpe da trekking o scarpe chiuse vanno BENISSIMO, Usate scarpe adeguate. C''è QUALCHE CARTELLO sul percorso, ma non avrete la necessità d''usarli è a prova di persona senza senso d''orientamento. Fattibile anche in notturno.',
-  'Percorso molto carino sul monte legnaiolo fatto in diurna, tecnicamente per nulla impegnativo, lo consiglio anche a famiglie. <br> <br>Un tratto è ciottoloso ma niente di complicato, scarpe da trekking o scarpe chiuse vanno BENISSIMO, Usate scarpe adeguate. C''è QUALCHE CARTELLO sul percorso, ma non avrete la necessità d''usarli è a prova di persona senza senso d''orientamento. <br> <br>Fattibile anche in notturno.',
+  '<h2>Escursione Vecchiano-Nodica: Trekking in Diurna sul Monte Legnaiolo</h2>
+
+<h3>Il Percorso</h3>
+
+<p>Preparatevi per un’<em>escursione</em> indimenticabile lungo il sentiero <strong>Vecchiano-Nodica</strong>, un percorso di <em>trekking</em> particolarmente apprezzato per la sua facilità e bellezza paesaggistica. Questo <em>sentiero</em> si snoda attraverso la diurna del monte Legnaiolo, offrendo un’esperienza di <em>natura</em> incontaminata adatta a tutti. Il percorso, tecnicamente semplice, è ideale per famiglie e per chi cerca un’<em>escursione</em> piacevole e senza particolari ostacoli.</p>
+
+<p>La maggior parte del percorso è costituita da un terreno compatto, con alcune sezioni ciottolose che aggiungono un tocco di sfida. Tuttavia, la difficoltà è minima, rendendo questo <em>sentiero</em> accessibile anche a chi non ha molta esperienza.  È un’ottima opportunità per un’<em>escursione</em> in <em>montagna</em> e per godere dei panorami mozzafiato. Si consiglia vivamente l''utilizzo di <em>scarpe da trekking</em> o <em>scarpe chiuse</em> per affrontare il terreno, per una maggiore sicurezza e comfort durante l''<em>escursione</em>.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<ul>
+  <li>Un percorso di circa <strong>6 km</strong> di lunghezza.</li>
+  <li>Un dislivello di <strong>350 metri</strong>, con salite e discese dolci.</li>
+  <li>Un’<em>escursione</em> di circa <strong>3-4 ore</strong>, a seconda del ritmo.</li>
+  <li>Un’esperienza di <em>trekking</em> immersa nella <em>natura</em> e nel silenzio della <em>montagna</em>.</li>
+  <li>Possibilità di praticare <em>trekking</em> e <em>escursioni</em> in totale sicurezza.</li>
+</ul>
+
+<p>Nonostante l''assenza di cartelli ufficiali lungo il percorso, il <strong>sentiero Vecchiano-Nodica</strong> è facile da seguire grazie alla sua natura intuitiva.  L''<em>escursione</em> è adatta anche a chi non ha un grande senso dell''orientamento, il che la rende una scelta eccellente per un’<em>escursione</em> in famiglia.</p>
+
+<h3>Informazioni Utili</h3>
+
+<p>Questo <em>sentiero</em> è fattibile anche in notturno, offrendo un''esperienza unica e suggestiva.  Ricordatevi di informarsi sulle condizioni meteorologiche prima di partire e di indossare abbigliamento adeguato.  L''<em>escursione</em> è perfetta per chi cerca un’<em>escursione</em> semplice, ma con un bel panorama e la possibilità di immergersi nella <em>natura</em>. Per un''<em>escursione</em> a piedi in <em>montagna</em>, il <strong>Vecchiano-Nodica</strong> è una scelta valida per tutti.  Godetevi l’<em>escursione</em> lungo questo bellissimo <em>sentiero</em> in <em>montagna</em>!</p>',
   'Tutte le Attività e Paesi',
   10.89,
   309,
@@ -34,8 +56,8 @@ VALUES (
   10.387717,
   'POINT(10.387717 43.78244)',
   'd98fe431b2f3b99111fce02dc815214da1bd3c2af5a28eab072f5a402babc545',
-  'Escursione Vecchiano-Nodica: Monte Legnaiolo, sentiero facile in giornata. Perfetto per famiglie e principianti! Ciottolato e vista spettacolare.',
-  NULL,
+  'Escursione Vecchiano-Nodica: facile percorso in montagna a Monte Legnaiolo! Natura, diurna e ciottoli. Ideale per famiglie e principianti. Scopri!',
+  'Trekking Vecchiano Nodica Monte Legnaiolo: Escursione Facile',
   NOW(),
   NOW()
 )

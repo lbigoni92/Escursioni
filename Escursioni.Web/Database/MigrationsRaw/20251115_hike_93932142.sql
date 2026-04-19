@@ -1,39 +1,36 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   93932142,
   'Pizzorne - Monte Scarpiglione',
   'il percorso è facile da seguire e prevalentemente ben segnato, vi sono molti cartelli che indicano i sentieri da prendere. All''inizio abbiamo parcheggiato al parcheggio di un ristorante, ma vi è parcheggio anche poco più su, dove troviamo il cimitero. Il primo tratto l''abbiamo fatto su strada (non è trafficata) e si gode di un panorama unico su tutta la piana Lucchese. al km 1.2 inizia il vero sentiero e sarà molto facile fino al km 6.3 dove ci sarà 700metri di pettatina. Abbaiamo fatto una tappa al km7.8 al punto in cui ci si più lanciare col parapendio... un altro punto unico e fantastico. Proseguito fino al paesino di Pizzorne in maniera tranquilla il paese è tristemente deserto... ma carino da vedere La strada del ritorno è facile... ma molo carina, forse qua si toccano i tratti più carini del percorso. Punto più bello? Il monte Scarpiglione dove possiamo trovare una croce. Portate acqua (vi sono fontane ma portatela) scarpe adatte alla stagione e divertitevi',
-  '<article class="hiking-detail">
-  <h2 data-hiking-id="123">Pizzorne - Monte Scarpiglione</h2>
-  <p>
-    Questo percorso è un''escursione facile da seguire, prevalentemente ben segnalata, con numerosi cartelli che indicano i sentieri. All''inizio, abbiamo parcheggiato al parcheggio di un ristorante, ma è disponibile anche un parcheggio più in alto, vicino al cimitero.
-  </p>
-  <p>
-    Il primo tratto è stato compiuto su strada (non trafficata), offrendo un panorama unico sulla piana Lucchese. A partire dal km 1.2, il sentiero si fa più evidente e facile fino al km 6.3, dove si trova una breve "pettatina" di 700 metri.
-  </p>
-  <p>
-    Abbiamo fatto una tappa al km 7.8, in un punto in cui si lancia col parapendio – un altro punto eccezionale! Proseguendo, abbiamo raggiunto il paese di Pizzorne, un luogo tranquillo e, purtroppo, deserto, ma dal fascino particolare.
-  </p>
-  <p>
-    Il ritorno è facile, ma la strada che ci ha riportato è particolarmente carina e forse offre i tratti più belli del percorso.
-  </p>
-  <p>
-    <strong>Punto Saliente:</strong> Il Monte Scarpiglione, dove potrete ammirare una croce.
-  </p>
-  <ul class="hiking-details">
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Lunghezza:</strong> Circa 10 km</li>
-    <li><strong>Dislivello:</strong> Circa 400 metri</li>
-    <li><strong>Punti di Interesse:</strong> Panorama sulla piana Lucchese, punto di parapendio, paese abbandonato di Pizzorne, Monte Scarpiglione con croce.</li>
-  </ul>
-  <p>
-    <strong>Consigli:</strong> Portate sempre con voi acqua (anche se ci sono fontane), scarpe adatte alla stagione e preparatevi a divertirvi!
-  </p>
-</article>',
+  '<h2>Pizzorne - Monte Scarpiglione: Trekking e Escursioni in Montagna</h2>
+
+<h3>Il Percorso</h3>
+
+<p>Preparatevi per un''entusiasmante <strong>escursione a Pizzorne - Monte Scarpiglione</strong>, un sentiero perfetto per amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>montagna</strong>. Questo percorso di facile difficoltà, ideale per famiglie e principianti, vi condurrà attraverso paesaggi mozzafiato della <strong>Piana Lucchese</strong>, offrendo viste panoramiche uniche. L''<strong>itinerario</strong> inizia da un parcheggio vicino a un ristorante, oppure da un punto di ristoro leggermente più in alto, dove si trova anche un cimitero. Il primo tratto si snoda lungo una strada tranquilla, consentendovi di godere immediatamente di un panorama spettacolare.  A partire dal km 1.2, il sentiero si consolida, diventando un percorso ben definito e agevole fino al km 6.3, dove si trova una breve "pettatina" di circa 700 metri.</p>
+
+<p>Un momento particolare del <strong>sentiero</strong> è il punto di accesso al parapendio a km 7.8, un luogo suggestivo e insolito, perfetto per catturare un''immagine indimenticabile.  La discesa si conclude nel pittoresco paese di <strong>Pizzorne</strong>, un luogo tranquillo e un po'' desolato, ma ricco di fascino. Il ritorno è altrettanto piacevole, con tratti panoramici che vi faranno apprezzare appieno la bellezza della zona.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<ul>
+  <li><strong>Difficoltà:</strong> Facile – Adatto a tutti i livelli.</li>
+  <li><strong>Distanza:</strong> Circa 12 km (possibile variazione a seconda del punto di partenza).</li>
+  <li><strong>Dislivello:</strong> Circa 300 metri.</li>
+  <li><strong>Tempi di percorrenza:</strong> Circa 3-4 ore.</li>
+  <li><strong>Paesaggi:</strong> Vista panoramica sulla Piana Lucchese, boschi, sentieri montani.</li>
+  <li><strong>Punti di interesse:</strong>  Accesso al parapendio, croce sul <strong>Monte Scarpiglione</strong>, il paese abbandonato di Pizzorne.</li>
+</ul>
+
+<p>Non dimenticate di portare con voi acqua e scarpe da trekking adatte alla stagione, per godervi appieno questa meravigliosa <strong>escursione in Italia</strong>. Approfittate delle fontane lungo il percorso per rinfrescarsi, ma considerate di portare sempre con voi una fonte d''acqua extra.</p>
+
+<h3>Informazioni Utili</h3>
+
+<p>Il sentiero <strong>Pizzorne - Monte Scarpiglione</strong> offre un''esperienza di <strong>trekking</strong> autentica e coinvolgente.  È un''occasione perfetta per immergervi nella natura, respirare l''aria fresca di montagna e ammirare panorami mozzafiato.  Questa <strong>escursione</strong> a <strong>sentiero</strong> è ideale per chi cerca un''attività all''aria aperta, lontano dal caos cittadino. Esplorate la splendida <strong>montagna</strong> e il piccolo borgo di Pizzorne per una giornata indimenticabile.  La combinazione di facile accessibilità e bellezza naturale lo rende un punto di riferimento per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>Italia</strong>.</p>',
   'Tutte le Attività e Paesi',
   18.15,
   921,
@@ -60,7 +57,8 @@ VALUES (
   10.60415,
   'POINT(10.60415 43.906063)',
   'bc970223438268c7d3012a74f499b187bcafcf7318e0e5ba157d0c9bb2770e34',
-  'Escursioni Pizzorne Monte Scarpiglione: panorama Lucchese, parapendio e borgo deserto! Sentiero facile e ben segnalato. Scopri il sentiero perfetto!',
+  'Escursione Pizzorne Monte Scarpiglione: panorama Lucchese, parapendio e borgo deserto! Sentiero facile e ben segnalato, ideale per famiglie. ⛰️🚶‍♂️',
+  'Trekking Monte Scarpiglione Pizzorne: Escursione Facile Italia',
   NOW(),
   NOW()
 )
@@ -95,6 +93,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

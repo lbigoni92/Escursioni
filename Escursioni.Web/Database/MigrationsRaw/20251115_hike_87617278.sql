@@ -7,7 +7,23 @@ VALUES (
   87617278,
   'Calambrone - Passeggiata',
   'Il percorso è molto carino e dura appena un pio d''ore non vi sono dislivelli e i sentieri sono ben segnati e semplici da seguire. Staremo in mezzo a sentieri taglia fuoco e la presenza d''animali è assicurata ho spesso incontrato oche volpi e lepri. Siamo nel parco di San Rossore quindi mi raccomando non cogliete bacche come more o funghi senza permesso. I sentieri sono puliti e ve è possibile anche andarci a correre.',
-  'Il percorso è molto carino e dura appena un pio d''ore non vi sono dislivelli e i sentieri sono ben segnati e semplici da seguire. <br> <br>Staremo in mezzo a sentieri taglia fuoco e la presenza d''animali è assicurata ho spesso incontrato oche volpi e lepri. <br> <br>Siamo nel parco di San Rossore quindi mi raccomando non cogliete bacche come more o funghi senza permesso. <br> <br>I sentieri sono puliti e ve è possibile anche andarci a correre.',
+  '<h2>Calambrone - Passeggiata: Trekking nel Parco di San Rossore</h2>
+
+<h3>Il percorso</h3>
+<p>Immergetevi in una splendida <strong>passeggiata lungo il sentiero del Calambrone</strong>, un’escursione perfetta per chi cerca un''esperienza di <strong>trekking</strong> facile e accessibile nel cuore del <strong>Parco di San Rossore</strong>. Questo percorso, ideale per una giornata di <strong>escursione</strong>, vi condurrà attraverso paesaggi mozzafiato, tra sentieri tagliafuoco e aree naturali protette. La <strong>passeggiata</strong> è progettata per essere semplice e piacevole, con poche dislivelli e sentieri ben segnati, facendola perfetta anche per famiglie e principianti.</p>
+
+<h3>Cosa aspettarsi</h3>
+<ul>
+    <li><strong>Sentieri ben segnati</strong>: Seguiremo sentieri facilmente individuabili, per un’escursione sicura e senza preoccupazioni.</li>
+    <li><strong>Paesaggi Naturali:</strong> Ammirate la bellezza della <strong>natura</strong> del Parco di San Rossore, con la sua flora e fauna uniche.</li>
+    <li><strong>Osservazione della fauna:</strong> Avvistate con successo oche, volpi e lepri, frequentanti la zona.</li>
+    <li><strong>Sentieri tagliafuoco:</strong> Percorsi immersi nella macchia mediterranea per un''esperienza autentica.</li>
+    <li><strong>Possibilità di corsa:</strong> Perfetto per una corsa all''aria aperta!</li>
+</ul>
+
+<h3>Informazioni utili</h3>
+<p>La <strong>Calambrone - Passeggiata</strong> è un''escursione di circa 4 chilometri, con una durata stimata di 1 ora e 30 minuti. La difficoltà è bassa, adatta a tutti i livelli. Ricordatevi, siamo nel <strong>Parco di San Rossore</strong>, quindi è importante rispettare l’ambiente e la fauna.  <strong>Non raccogliete bacche o funghi</strong> senza il permesso delle autorità competenti.  La <strong>trekking</strong> in questa zona è un''esperienza indimenticabile tra le bellezze del territorio italiano.  Preparatevi per una giornata di <strong>escursionismo</strong> alla scoperta di questo incantevole angolo dell''Italia!</p>
+<p>Per un''<strong>escursione</strong> sicura, indossate scarpe da trekking adatte e portate con voi acqua e snack.  Approfittate di questa opportunità per un''<strong>escursione</strong> nella <strong>montagna</strong> e respirare l''aria fresca del <strong>Parco di San Rossore</strong>.</p>',
   'Tutte le Attività e Paesi',
   8.89,
   36,
@@ -34,8 +50,8 @@ VALUES (
   10.300018,
   'POINT(10.300018 43.593673)',
   '49de65301d2bfaf73e25c99b380543cc882f6850b2d1a24b0236134c35730322',
-  'Escursioni Calambrone Parco San Rossore: sentiero facile e panoramico! Oche, volpi, lepri e natura incontaminata. Perfetto per famiglie e corsa!',
-  NULL,
+  'Escursioni Calambrone: Passeggiata facile nel Parco San Rossore! Sentieri semplici, animali e natura incontaminata. Perfetta per famiglie e corsa!',
+  'Trekking Calambrone San Rossore: Escursione Facile Oche e Volpi',
   NOW(),
   NOW()
 )

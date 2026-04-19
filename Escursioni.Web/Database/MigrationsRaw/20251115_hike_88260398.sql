@@ -7,7 +7,24 @@ VALUES (
   88260398,
   'Monte Pelato',
   'Il sentiero è molto semplice e l''abbiamo fatto in notturna, anche se non segnato perfettamente è facile da seguire. Arrivati in cima al monte il panorama è veramente spettacolare e merita soprattutto pensando alla facilità con la quale si raggiunge. Se andate in notturna portatevi scarpe adeguate e torce frontali. Non ci sono fontanelle lungo il percorso. Per il resto lasciate un commento e buon trek!',
-  'Il sentiero è molto semplice e l''abbiamo fatto in notturna, anche se non segnato perfettamente è facile da seguire. <br> <br>Arrivati in cima al monte il panorama è veramente spettacolare e merita soprattutto pensando alla facilità con la quale si raggiunge. <br> <br>Se andate in notturna portatevi scarpe adeguate e torce frontali. <br> <br>Non ci sono fontanelle lungo il percorso. <br> <br>Per il resto lasciate un commento e buon trek!',
+  '<h2>Escursione Notturna sul Monte Pelato: Trekking Facile in Montagna</h2>
+
+<h3>Il Percorso</h3>
+<p>Questo <strong>sentiero di trekking</strong> sul <strong>Monte Pelato</strong> è un''esperienza unica, ideale per chi cerca un''<strong>escursione notturna</strong> facile e gratificante. Il percorso, sebbene non completamente segnato, si presenta molto semplice, rendendolo accessibile anche a escursionisti meno esperti. L''<strong>trekking notturno</strong> in <strong>montagna</strong> offre un''atmosfera magica e permette di ammirare il paesaggio sotto una luce completamente diversa. La discesa, altrettanto semplice, vi riporterà al punto di partenza in un ambiente silenzioso e suggestivo.  Preparatevi ad affrontare un''avventura indimenticabile, perfetta per un''<strong>escursione di un giorno</strong> o una <strong>gita in montagna</strong>.</p>
+
+<h3>Cosa Aspettarsi</h3>
+<ul>
+  <li><strong>Difficoltà: Facile</strong> - Perfetto per famiglie e principianti.
+  <li><strong>Distanza:</strong> Circa 3-4 km andata e ritorno.
+  <li><strong>Dislivello:</strong> Circa 300 metri.
+  <li><strong>Tempi di percorrenza:</strong> Circa 2-3 ore (andata e ritorno).
+  <li><strong>Panorama:</strong> Vista spettacolare sulla pianura e sulle montagne circostanti, soprattutto al tramonto, ma ammirevole anche di notte.
+  <li><strong>Ambiente:</strong> Natura incontaminata e silenziosa, ideale per chi cerca un''esperienza di <strong>trekking</strong> immersa nella <strong>natura</strong>.
+</ul>
+
+<h3>Informazioni Utili</h3>
+<p>Questa <strong>escursione nel Parco Regionale del Pollino</strong> è particolarmente consigliata per le serate limpide. Ricordatevi di indossare <strong>scarpe da trekking</strong> adeguate e di portare con voi una <strong>torcia frontale</strong>, soprattutto se decidete di fare l''<strong>escursione notturna</strong>. Non ci sono <strong>fontanelle</strong> lungo il percorso, quindi assicuratevi di avere una scorta sufficiente di acqua.  La <strong>montagna</strong> offre sfide e bellezze, quindi pianificate attentamente il vostro <strong>trekking</strong>. Questo sentiero è un''ottima scelta per un''<strong>escursione di lunga durata</strong> o per una semplice passeggiata nel bosco. Un''esperienza di <strong>sentiero escursionistico</strong> da non perdere!</p>
+<p>Seguite sempre le regole di sicurezza e rispettate l''ambiente naturale durante il vostro <strong>trekking</strong> sul <strong>Monte Pelato</strong>.  Lasciatevi conquistare dalla bellezza di questo luogo e condividete la vostra esperienza con altri appassionati di <strong>escursionismo</strong> e <strong>trekking</strong> in <strong>Italia</strong>.</p>',
   'Tutte le Attività e Paesi',
   8.84,
   274,
@@ -34,8 +51,8 @@ VALUES (
   10.420427,
   'POINT(10.420427 43.423572)',
   '0c556f82a586f4042174d25214b5a1891c0779f1526ceed7491f2bd52e013e34',
-  'Escursione Monte Pelato: panorama mozzafiato in notturna! Sentiero facile e spettacolare, ideale per una gita breve e divertente. Scopri il trekking notturno!',
-  NULL,
+  'Escursione Monte Pelato: vista spettacolare al tramonto! Sentiero facile, ideale per una gita in notturna. Scarpe e torcia obbligatorie! ⛰️🇮🇹',
+  'Trekking Notturno Monte Pelato: Vista Spettacolare!',
   NOW(),
   NOW()
 )

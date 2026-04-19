@@ -7,7 +7,29 @@ VALUES (
   87478884,
   'Forato da Stazzema',
   'Partenza da Stazzema - al parcheggio (costo 3 euro) Il sentiero è bello e si passa vicino a delle cappelle poste per il pellegrinaggio. Si segue il sentiero fino a foce di petrosciana; da li s''imbocca il sentiero 110 e s''arriva al monte forato, un paio di punti possono dare problemi a chi ha problemi con l''altezze, ma niente di complesso. Abbiamo pranzato sul Forato e vista la croce, in seguito siamo scesi sul 12 e tornati a Stazzema. Sentiero molto bello lo consiglio ma portatevi scarpe adeguate',
-  'Partenza da Stazzema - al parcheggio (costo 3 euro) <br>Il sentiero è bello e si passa vicino a delle cappelle poste per il pellegrinaggio. <br>Si segue il sentiero fino a foce di petrosciana; da li s''imbocca il sentiero 110 e s''arriva al monte forato, un paio di punti possono dare problemi a chi ha problemi con l''altezze, ma niente di complesso. <br> <br>Abbiamo pranzato sul Forato e vista la croce, in seguito siamo scesi sul 12 e tornati a Stazzema. <br> <br>Sentiero molto bello lo consiglio ma portatevi scarpe adeguate',
+  '<h2>Forato da Stazzema: Trekking e Escursione in Montagna</h2>
+
+<h3>Il Percorso</h3>
+
+<p>L''escursione al <strong>Forato da Stazzema</strong> è un''esperienza indimenticabile per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>montagna</strong>. Il percorso inizia direttamente dal piccolo paese di <strong>Stazzema</strong>, partendo dal parcheggio dove è previsto un costo di 3 euro.  La <strong>sentiero</strong> si snoda attraverso un paesaggio vario, con tratti piuttosto facili e altri più impegnativi, offrendo un''opportunità unica per immergersi nella <strong>natura</strong> incontaminata della Toscana.  L''escursione culmina con una vista mozzafiato dalla cima del <strong>Monte Forato</strong>, raggiungibile dopo aver seguito il <strong>sentiero</strong> che si inerpica lungo il pendio.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<p>Preparatevi per una giornata all''aria aperta, immersi nel profumo della <strong>montagna</strong> e nella bellezza del paesaggio. Il <strong>sentiero</strong> presenta una <strong>difficoltà</strong> media, con alcuni tratti ripidi che richiedono un buon passo e un''adeguata preparazione fisica.  Sarà possibile ammirare le caratteristiche <strong>cappelle</strong> lungo il percorso, testimonianza di un antico <strong>pellegrinaggio</strong>.  Un momento culminante sarà il pranzo sulla cima del <strong>Monte Forato</strong>, con una vista panoramica impareggiabile sulla valle e sulla <strong>Petrosciana</strong>.  Potrebbero esserci punti dove l''altezza potrebbe creare disagio, quindi è importante valutare attentamente le proprie condizioni fisiche.</p>
+
+<h3>Informazioni Utili</h3>
+
+<ul>
+    <li><strong>Distanza Totale:</strong> Circa 7 km</li>
+    <li><strong>Dislivello:</strong> Circa 400 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Tipo di Sentiero:</strong> Sentiero di <strong>trekking</strong></li>
+    <li><strong>Punti di Interesse:</strong> <strong>Cappelle</strong> di <strong>pellegrinaggio</strong>, cima del <strong>Monte Forato</strong>, vista sulla <strong>Petrosciana</strong></li>
+    <li><strong>Periodo Consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Equipaggiamento Consigliato:</strong> Scarpe da <strong>trekking</strong> adeguate, acqua, cibo, cappello, crema solare, mappa del <strong>sentiero</strong>.</li>
+</ul>
+
+<p>Questa <strong>escursione</strong> nel cuore della <strong>Toscana</strong> offre un''occasione unica per praticare <strong>trekking</strong> e godersi la <strong>natura</strong>.  Esplorate il <strong>sentiero</strong> del <strong>Forato da Stazzema</strong> e lasciatevi conquistare dalla sua bellezza.</p>',
   'Tutte le Attività e Paesi',
   14.53,
   1,
@@ -34,8 +56,8 @@ VALUES (
   10.338317,
   'POINT(10.338317 44.001784)',
   '4fe490347dc8126b2b6084a76882bf09befdc9c05f951c9d5abc83b352876ba8',
-  'Escursione al Monte Forato da Stazzema: vista mozzafiato, sentiero facile e pellegrinaggio tra cappelle. Ideale per trekking in Toscana!',
-  NULL,
+  'Escursione al Monte Forato da Stazzema: sentiero panoramico, cappelle e vista mozzafiato. Ideale permtrekking, costo parcheggio 3€!',
+  'Trekking Forato da Stazzema: Escursione in Versilia',
   NOW(),
   NOW()
 )

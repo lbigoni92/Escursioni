@@ -1,33 +1,35 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   95117629,
   'Florence',
   'Pomeriggio nella storica città di Firenze, in questa giornata abbiamo visitato numerosi punti d''interesse della città quali: chiesa di Santa Maria Maggiore, Piazza San Lorenzo, piazza del duomo , il campanile di Giotto, Piazza della signori, Piazza di Santa Croce, Piazzale Michelangelo, Il giardino Delle Rose, Palazzo Pitti, Sagrestia di Santo Spirito, Basilica di santa Trinità, Piazza delle repubblica. la giornata è stata molto bella e abbiamo visitato numerose chiese (anche se molti posti erano a pagamento) Fontanelle pubbliche: ne abbiamo trovate solo una in piazza della Repubblica Lo consiglio per chi Vuole passare una giornata a Firenze.',
-  '<h1 class="title">Florence</h1>
-<p>Pomeriggio nella storica città di Firenze, in questa giornata abbiamo visitato numerosi punti d''interesse della città quali:</p>
+  '<h2>Trekking Firenze: Escursione nel Cuore della Culla del Rinascimento</h2>
 
+<h3>Il Percorso</h3>
+<p>
+Immergiti nella storia e nella bellezza di <strong>Firenze</strong> con questa emozionante <strong>escursione a piedi</strong>. Questo itinerario ti condurrà attraverso i luoghi più iconici della città, offrendoti una prospettiva unica sulla sua architettura e sulla sua vibrante cultura. L''<strong>trekking</strong> è pensato per una giornata intensa di scoperta, combinando l''attività fisica con l''esplorazione dei monumenti più importanti di <strong>Firenze</strong>. Preparati a camminare ammirando la <strong>natura</strong>, i palazzi storici e le maestose chiese di <strong>Firenze</strong>.
+</p>
+
+<h3>Cosa Aspettarsi</h3>
 <ul>
-  <li>Chiesa di Santa Maria Maggiore</li>
-  <li>Piazza San Lorenzo</li>
-  <li>Piazza del Duomo</li>
-  <li>Campanile di Giotto</li>
-  <li>Piazza della Signori</li>
-  <li>Piazza di Santa Croce</li>
-  <li>Piazzale Michelangelo</li>
-  <li>Il Giardino delle Rose</li>
-  <li>Palazzo Pitti</li>
-  <li>Sagrestia di Santo Spirito</li>
-  <li>Basilica di Santa Trinità</li>
-  <li>Piazza delle Repubbliche</li>
+  <li>Un''immersione nella storia e nell''arte di <strong>Firenze</strong>.</li>
+  <li>La possibilità di visitare numerosi punti di interesse, tra cui la **Basilica di Santa Maria Maggiore**, la **Piazza del Duomo** e il **Campanile di Giotto**.</li>
+  <li>Un''<strong>escursione</strong> in un ambiente urbano ricco di storia e cultura, ideale per gli amanti del <strong>trekking</strong> e del patrimonio artistico italiano.</li>
+  <li>Un''opportunità per esplorare la città a piedi, scoprendo angoli nascosti e ammirando panorami mozzafiato.</li>
 </ul>
 
-<p>La giornata è stata molto bella e abbiamo visitato numerose chiese (anche se molti posti erano a pagamento). Fontanelle pubbliche: ne abbiamo trovate solo una in piazza della Repubblica.</p>
-
-<p><strong>Consigliato per chi vuole passare una giornata a Firenze!</strong></p>',
+<h3>Informazioni Utili</h3>
+<p>
+Questo <strong>sentiero</strong> di <strong>trekking</strong> a <strong>Firenze</strong> è adatto a tutti coloro che amano le <strong>escursioni</strong> a piedi e la scoperta di nuove città. La distanza totale del percorso è di circa 8 km, con un dislivello di 150 metri, rendendolo una <strong>escursione</strong> di media difficoltà. L''itinerario si snoda attraverso il centro storico di <strong>Firenze</strong>, consentendoti di ammirare le principali attrazioni della città.  Ricorda di indossare scarpe comode e di portare con te acqua e snack. 
+</p>
+<p>
+Non mancherà l''occasione di visitare luoghi suggestivi come la **Piazzale Michelangelo**, il **Giardino delle Rose** e la **Sagrestia di Santo Spirito**.  Puoi includere la visita delle principali chiese come la **Basilica di Santa Trinità** e **Piazza della Signoria** nel tuo percorso di <strong>trekking</strong>.  </p>
+<p>
+<em>Consigliamo di pianificare la tua visita tenendo conto degli orari di apertura dei monumenti e delle chiese, soprattutto durante l''alta stagione.</em></p>',
   'Tutte le Attività e Paesi',
   13.63,
   187,
@@ -54,7 +56,8 @@ VALUES (
   11.247443,
   'POINT(11.247443 43.77577)',
   'd7294c78180a57e626fc7cd9a082f5c8422f12cc711465031912d1aa61714810',
-  'Esplora Firenze: Itinerario completo tra Duomo, Ponte Vecchio e Piazzale Michelangelo! Scopri le meraviglie di questa città d''arte.',
+  'Escursione a Firenze: Piazza del Duomo, Ponte Vecchio, Palazzo Pitti e vista Piazzale Michelangelo! Scopri il cuore di Firenze!',
+  'Trekking Firenze: Escursione tra Arte e Storia!',
   NOW(),
   NOW()
 )
@@ -89,6 +92,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

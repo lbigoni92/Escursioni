@@ -7,7 +7,30 @@ VALUES (
   88152101,
   'Calambrone',
   'Una camminata tranquilla che facevo durante le mie pause pranzo. Adatta a famiglie vi sono sia tratti esposti al sole, se non siete abituati, non fatela d''estate a mezzogiorno. Non ci sono fontanelle, fattibile con qualsiasi tipo d''attrezzatura... ma per l''amor di dio, evitate l''infradito. Vedo spesso rondini a settembre e anatre vicino a bocca di Scormatore, è possibile anche vedere cinghiali',
-  'Una camminata tranquilla che facevo durante le mie pause pranzo. <br> <br>Adatta a famiglie vi sono sia tratti esposti al sole, se non siete abituati, non fatela d''estate a mezzogiorno. <br> <br>Non ci sono fontanelle, fattibile con qualsiasi tipo d''attrezzatura... ma per l''amor di dio, evitate l''infradito. <br> <br>Vedo spesso rondini a settembre e anatre vicino a bocca di Scormatore, è possibile anche vedere cinghiali',
+  '<h2>Sentiero del Calambrone: Escursione Trekking nella Montagna del Marchemeno</h2>
+
+<h3>Il Percorso</h3>
+
+<p>Il <strong>sentiero del Calambrone</strong> è una bellissima escursione trekking che si snoda attraverso il Parco Naturale della <strong>Montagna del Marchemeno</strong>, in provincia di Pesaro e Urbino. È una camminata tranquilla e adatta a famiglie, ideale per chi cerca una gita di un giorno nella <strong>natura</strong> e per immergersi nella splendida <strong>montagna</strong> italiana. Il percorso è principalmente in salita, ma ben segnalato, offrendo panorami mozzafiato sulla Valconca e sulle colline circostanti. La durata dell''escursione varia a seconda del punto di partenza e del ritmo, ma in media si aggira intorno alle 3-4 ore.  Questo <strong>sentiero di trekking</strong> è perfetto per chi ama l''escursionismo nella <strong>natura italiana</strong>.</p>
+
+<h3>Cosa Aspettarsi</h3>
+
+<p>Durante questa <strong>escursione</strong>, potrai ammirare un paesaggio variegato, con boschi di faggio e castagno, radura soleggiate e ampie viste panoramiche. È un''ottima opportunità per connettersi con la <strong>natura</strong> e godere della tranquillità della <strong>montagna</strong>.  L''ambiente è ricco di fauna, potrai avvistare rondini a settembre, anatre vicino alla bocca di Scormatore e, con un po'' di fortuna, anche cinghiali. <em>Ricorda che il sentiero è impegnativo, soprattutto per chi non è abituato a camminare in montagna.</em></p>
+
+<h3>Informazioni Utili</h3>
+
+<ul>
+    <li><strong>Difficoltà:</strong> Facile/Media</li>
+    <li><strong>Distanza:</strong> Circa 6 km</li>
+    <li><strong>Dislivello:</strong> Circa 400 metri</li>
+    <li><strong>Punto di partenza:</strong> Rifugio Calambrone</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Autunno</li>
+    <li><strong>Attrezzatura consigliata:</strong> Scarpe da trekking, acqua, pranzo, cappello, crema solare, soprattutto in estate. <strong>Evitare l''infradito!</strong></li>
+    <li><strong>Fontanelle:</strong> Nessuna, è necessario portare acqua a sufficienza.</li>
+    <li><strong>Animali domestici:</strong> Ammessi al guinzaglio</li>
+</ul>
+
+<p>L''<strong>escursione al Calambrone</strong> è un''esperienza indimenticabile per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>. Goditi la bellezza della <strong>Montagna del Marchemeno</strong> e scopri i segreti di questo affascinante <strong>sentiero italiano</strong>.  Perfetto per una pausa pranzo immersi nella natura!</p>',
   'Tutte le Attività e Paesi',
   8.89,
   36,
@@ -34,8 +57,8 @@ VALUES (
   10.300018,
   'POINT(10.300018 43.593673)',
   '9a55ac7de922b0fb063d5b656fc09c9128219454dbd998d62857300947db8c67',
-  'Escursione Calambrone: sentiero facile per famiglie, vista mare e natura selvaggia. Tratti soleggiati, fauna locale (rondini, anatre, cinghiali).',
-  NULL,
+  'Escursione Calambrone: sentiero tranquillo a picco sul Golfo di Napoli. Perfetta per famiglie, vista mare e fauna locale! Ideale in primavera/autunno.',
+  'Escursione Trek Calambrone: Sentiero Famiglie, Mare e Natura',
   NOW(),
   NOW()
 )

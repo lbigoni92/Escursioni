@@ -1,40 +1,40 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   97480494,
   'Montenero - Vecchio faro',
   'Percorso ovviamente molto semplice, appena un chilometro, ma è interessante dal punto di vista storico, qua possiamo ammirare il vecchio faro di Livorno anche se oramai è un disuso. Il farò oramai è in stato di abbandono, e si trova vicino alla funicolare, ed è dietro a una delle più belle ville di Livorno',
-  '<h2>Montenero - Vecchio Faro: Escursione Facile tra Storia e Natura a Livorno</h2>
+  '<h2>Montenero - Vecchio Faro: Escursione Trekking Facile a Livorno</h2>
 
 <h3>Il Percorso</h3>
 
-<p>Questo <strong>sentiero di trekking</strong> a <strong>Montenero</strong> offre un''esperienza breve ma ricca, ideale per una <strong>escursione</strong> di un solo chilometro. Il percorso è progettato per essere facilmente accessibile, rendendolo perfetto anche per i principianti o per chi cerca una <strong>trekking</strong> rilassante. Partendo dalla stazione della <strong>funicolare di Montenero</strong>, il sentiero si snoda dolcemente attraverso la campagna, offrendo panorami mozzafiato sulla città di <strong>Livorno</strong> e sul mare.</p>
-
-<p>L''escursione si concentra sull''ammirazione del <strong>vecchio faro</strong>, un testimone del passato industriale di <strong>Livorno</strong>. La strada è poco impegnativa ed è una perfetta occasione per immergersi nella <strong>natura</strong> e nella <strong>montagna</strong> circostante.  Sarà un''esperienza indimenticabile per chi ama il <strong>trekking</strong> e le <strong>escursioni</strong> in <strong>Italia</strong>.</p>
+<p>
+Immergetevi in un''<em>escursione trekking</em> di facile difficoltà lungo il sentiero che collega <strong>Montenero</strong> al caratteristico <strong>Vecchio Faro</strong> di Livorno. Questo breve percorso, appena un chilometro, vi condurrà attraverso una natura incontaminata, offrendo al contempo un''occasione unica per scoprire un importante sito storico.  La <em>trekking</em> è pensata per tutti, dai principianti ai famiglie, offrendo un''esperienza autentica di <em>sentiero</em> nella <em>montagna</em> di Livorno.
+</p>
 
 <h3>Cosa Aspettarsi</h3>
 
-<ul>
-  <li>Distanza: 1 chilometro (andata e ritorno)</li>
-  <li>Difficoltà: Molto Facile - Adatto a tutti</li>
-  <li>Durata: Circa 1 ora</li>
-  <li>Altitudine: Salita e discesa di circa 100 metri</li>
-  <li>Punto di interesse principale: Il <strong>vecchio faro di Livorno</strong>, un sito storico di grande interesse.</li>
-  <li>Ampiamente immersi nella <strong>natura</strong> e nei paesaggi della <strong>montagna</strong>.</li>
-</ul>
-
-<p>L''ambiente circostante è un paesaggio rurale con coltivazioni e vigneti, arricchito dalla presenza del mare.  Potrete godere della tranquillità della <strong>montagna</strong>, lontano dal caos della città, durante questa piacevole <strong>escursione</strong>.</p>
+<p>
+Preparatevi ad un''<em>escursione</em> tranquilla e rilassante, perfetta per una giornata all''aria aperta. Il percorso è prevalentemente pianeggiante, con poche pendenze, rendendolo ideale per chi cerca una <em>trekking</em> facile e accessibile. Potrete ammirare panorami mozzafiato sulla costa livornese, godervi la vista sulla <strong>funicolare</strong> e la sua storia, e concludere la vostra giornata visitando il <strong>Vecchio Faro</strong>, un testimone silenzioso del passato di Livorno. L''<em>escursione</em> è un''ottima occasione per apprezzare la bellezza della <em>natura</em> circostante e la ricchezza del patrimonio storico locale.
+</p>
 
 <h3>Informazioni Utili</h3>
 
-<p>Il <strong>vecchio faro</strong> è ora in stato di abbandono, ma la sua posizione offre una vista unica sulla città di <strong>Livorno</strong> e sulla costa. Si trova proprio vicino alla stazione della <strong>funicolare di Montenero</strong> ed è facilmente raggiungibile.  L''escursione è un''opportunità per scoprire la storia e la bellezza di questo angolo di <strong>Italia</strong>, perfetto per una giornata di <strong>trekking</strong> o <strong>escursioni</strong>.</p>
+<ul>
+  <li><strong>Distanza:</strong> Circa 1 km</li>
+  <li><strong>Difficoltà:</strong> Facile – Adatto a tutti</li>
+  <li><strong>Punto di partenza:</strong> Montenero</li>
+  <li><strong>Punto di arrivo:</strong> Vecchio Faro di Livorno</li>
+  <li><strong>Tempi di percorrenza:</strong> Circa 30-45 minuti (tempo di percorrenza)</li>
+  <li><strong>Caratteristiche:</strong> Sentiero ben tracciato, facile accesso, panoramico, ricca storia e cultura</li>
+  <li><strong>Cosa vedere:</strong> <em>Vecchio Faro</em> di Livorno, Funicolare di Montenero, vista panoramica sulla costa</li>
+</ul>
 
-<p><em>Ricordate di indossare scarpe da trekking adeguate e di portare con voi acqua e snack per la vostra escursione.</em></p>
-
-<p>Questa <strong>trekking</strong> a <strong>Montenero</strong> è un''ottima scelta per chi cerca un''<strong>escursione</strong> breve e facile, immersa nella <strong>natura</strong> e nella storia di <strong>Livorno</strong>.  Approfittatene per una gita fuori porta e godetevi questo splendido <strong>sentiero</strong>.</p>',
+<p>
+Questa <em>escursione</em> nel cuore di Livorno è un''occasione imperdibile per chi ama il <em>trekking</em> e l''<em>escursionismo</em>.  Scoprite il fascino del <strong>Vecchio Faro</strong> e godetevi un''indimenticabile giornata di <em>sentiero</em> nella <em>montagna</em> livornese. Ricordatevi di controllare le previsioni del tempo prima di partire e di indossare scarpe da <em>trekking</em> adatte.  Vi auguriamo un''<em>escursione</em> fantastica! </p>',
   'Tutte le Attività e Paesi',
   1.19,
   35,
@@ -61,7 +61,8 @@ VALUES (
   10.343448,
   'POINT(10.343448 43.497267)',
   '8b57c1137611401e27e6cb90d0dbbf2f810712fc8781a8d69289c943a761ae07',
-  'Escursione facile al Vecchio Faro del Montenero a Livorno! Storia, panorama e funicolare. Un chilometro per un''esperienza unica!',
+  'Esplora il Vecchio Faro del Montenero a Livorno! Percorso facile, storia e vista sulla suggestiva costa. Un''immersione nel passato!',
+  'Trekking al Vecchio Faro di Montenero - Livorno',
   NOW(),
   NOW()
 )
@@ -96,6 +97,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

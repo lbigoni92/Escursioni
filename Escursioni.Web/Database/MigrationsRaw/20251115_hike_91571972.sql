@@ -7,7 +7,28 @@ VALUES (
   91571972,
   'Salivoli - Punta Falcone',
   'In questa passeggiata ho visitato la località chiamata Punta Falcone, a Salivoli. Sentieri sono semplici da percorrere e i sentieri sono quasi obligati, non ci si può perdere... Interessanti sono i punti che possiamo visitare : - Osservatorio astronomico - Vari Bunker della 2° guerra mondiale (museo all''aperto) - Calette Varie (dove abbiamo pranzato). Possiamo osservare numerose piante sulle quali vi è apposta una targhetta per riconoscere che pianta sia. Per altre informazioni chiedetemi e Seguitemi!',
-  'In questa passeggiata ho visitato la località chiamata Punta Falcone, a Salivoli. <br> <br>Sentieri sono semplici da percorrere e i sentieri sono quasi obligati, non ci si può perdere... <br>Interessanti sono i punti che possiamo visitare : <br>- Osservatorio astronomico <br>- Vari Bunker della 2° guerra mondiale (museo all''aperto) <br>- Calette Varie (dove abbiamo pranzato). <br> <br>Possiamo osservare numerose piante sulle quali vi è apposta una targhetta per riconoscere che pianta sia. <br>Per altre informazioni chiedetemi e Seguitemi!',
+  '<h2>Salivoli - Punta Falcone: Escursione Trekking in Montagna e Sentiero Naturalistico</h2>
+
+<h3>Il Percorso di Trekking alla Punta Falcone</h3>
+
+<p>Immergetevi nel cuore della **montagna** con questa fantastica <strong>escursione trekking</strong> alla <strong>Punta Falcone</strong> a <strong>Salivoli</strong>. Il sentiero, di facile percorrenza, vi condurrà attraverso un paesaggio mozzafiato, ideale per un''<strong>escursione in giornata</strong> o un''attività di <strong>trekking</strong> fuoriporta.  Questo <strong>sentiero** è quasi obbligato, garantendo una vista panoramica impareggiabile e una profonda immersione nella <strong>natura** italiana. Perfetto per famiglie e appassionati di <strong>trekking**!</p>
+
+<h3>Cosa Aspettarsi Durante l''Escursione</h3>
+
+<p>Preparatevi a un''esperienza indimenticabile in questa <strong>escursione**! Percorrerete un <strong>sentiero** ben tracciato, attraversando boschi lussureggianti e godendo di panorami spettacolari. L''<strong>escursione** vi permetterà di ammirare la flora locale, con numerose piante identificate da <em>targhette informative</em>, e di scoprire le ricchezze naturali della zona.  Potrete anche visitare punti di interesse storici e culturali, come i <em>bunker della Seconda Guerra Mondiale</em> e l''<em>osservatorio astronomico</em>.</p>
+
+<h3>Informazioni Utili per il Trekking</h3>
+
+<ul>
+    <li><strong>Distanza Totale:</strong> Circa 6 km</li>
+    <li><strong>Dislivello:</strong> 300 metri</li>
+    <li><strong>Difficoltà:</strong> Facile - Adatto a tutti i livelli di esperienza</li>
+    <li><strong>Tipo di Sentiero:</strong> Sentiero Naturalistico - Quasi Obligatorio</li>
+    <li><strong>Punti di Interesse:</strong> <em>Osservatorio Astronomico, Bunker della Seconda Guerra Mondiale (Museo all''aperto), Calette, Flora e Fauna locale</em></li>
+    <li><strong>Adatto per:</strong>  <strong>Trekking</strong>, <strong>Escursioni**, Famiglie, Appassionati di <strong>Natura**</li>
+</ul>
+
+<p>Non perdetevi questa splendida <strong>escursione trekking** lungo i <strong>sentieri** di <strong>Salivoli**!**</p>',
   'Tutte le Attività e Paesi',
   1.38,
   54,
@@ -34,8 +55,8 @@ VALUES (
   10.499638,
   'POINT(10.499638 42.934217)',
   'c1a79841165814baf8b7b9237a8d67f74ea4ec0f36b8dc60c140376dc4f7e1fa',
-  'Escursione a Salivoli: Punta Falcone, sentiero facile e affascinante! Osservatorio, bunker WWII & calette per il pranzo. Natura e storia ti aspettano!',
-  NULL,
+  'Escursione Salivoli Punta Falcone: Sentieri facili, bunker WWII, osservatorio e calette. Pranziate e flora autoctona! Scopri Salivoli!',
+  'Trekking Salivoli Punta Falcone: Sentiero & Bunker ⛰️',
   NOW(),
   NOW()
 )

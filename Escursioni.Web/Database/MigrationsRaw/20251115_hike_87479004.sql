@@ -34,8 +34,8 @@ VALUES (
   10.406714,
   'POINT(10.406714 43.522087)',
   '7035e440158abfdd8c2aff630fd04183f62d2c473b5a920943d4baebab08ea06',
-  'Escursione in Valle Benedetta, Parrana San Martino: sentiero facile e panoramico tra boschi e acque limpide. Natura, relax e panorami mozzafiato!',
-  NULL,
+  'Escursione in Valle Benedetta a Parrana San Martino: sentieri mozzafiato, cascate e panorami incredibili. Natura incontaminata in Abruzzo!',
+  'Trekking Valle Benedetta Parrana: Sentiero Facile in Puglia',
   NOW(),
   NOW()
 )
