@@ -17,10 +17,21 @@
         @foreach (var h in Model.Escursioni)
         {
             var cover = Escursioni.Web.Pages.Escursioni.IndexModel.CoverPath(h);
+            var coverThumb = ImageHelper.ThumbPath(cover);
             <article class="hike-card">
                 @if (!string.IsNullOrWhiteSpace(cover))
                 {
-                    <img src="~/@cover" alt="@h.Titolo" loading="lazy" />
+                    <a asp-page="/Escursioni/Dettaglio"
+                       asp-route-id="@h.Id"
+                       asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)">
+                        <picture>
+                            @if (coverThumb != null)
+                            {
+                                <source srcset="~/@coverThumb" type="image/webp" />
+                            }
+                            <img src="~/@cover" alt="@h.Titolo" loading="lazy" decoding="async" width="400" height="160" />
+                        </picture>
+                    </a>
                 }
                 <div class="hike-card-body">
                     <h2 class="hike-card-title">

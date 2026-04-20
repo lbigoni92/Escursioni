@@ -37,7 +37,8 @@ public class HikeRepositoryTests
         });
         await ctx.SaveChangesAsync();
 
-        var repo = new HikeRepository(ctx);
+        var geocoding = new GeocodingService(new System.Net.Http.HttpClient());
+        var repo = new HikeRepository(ctx, geocoding);
 
         var result = await repo.GetLatestAsync(10);
 

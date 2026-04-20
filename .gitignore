@@ -88,3 +88,9 @@ $RECYCLE.BIN/
 
 # VS Code
 .vscode/
+
+########################
+# Generated WebP thumbnails
+########################
+*.thumb.webp
+*.gallery.webp

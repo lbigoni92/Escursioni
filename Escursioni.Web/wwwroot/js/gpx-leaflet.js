@@ -19,6 +19,11 @@ document.addEventListener('DOMContentLoaded', function() {
             return resp.text();
         })
         .then(function(gpxText) {
+            // Quick text check: reject HTML served as GPX (e.g. Cloudflare block pages)
+            var trimmed = gpxText.trimStart();
+            if (trimmed.startsWith('<!') || trimmed.startsWith('<html')) {
+                throw new Error('Risposta HTML, non GPX');
+            }
             var xml = new DOMParser().parseFromString(gpxText, 'application/xml');
             if (xml.getElementsByTagName('parsererror').length ||
                 (!xml.getElementsByTagName('trk').length &&

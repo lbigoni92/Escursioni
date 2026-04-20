@@ -9,14 +9,17 @@ public class DettaglioModel : PageModel
 {
     private readonly IHikeRepository _repo;
     private readonly SeoService _seo;
+    private readonly IWebHostEnvironment _env;
 
-    public DettaglioModel(IHikeRepository repo, SeoService seo)
+    public DettaglioModel(IHikeRepository repo, SeoService seo, IWebHostEnvironment env)
     {
         _repo = repo;
         _seo = seo;
+        _env = env;
     }
 
     public Hike? Hike { get; set; }
+    public bool GpxValid { get; set; }
 
     public async Task<IActionResult> OnGetAsync(int id, string? slug)
     {
@@ -27,7 +30,23 @@ public class DettaglioModel : PageModel
 
         _seo.ConfigureForHike(this, Hike);
 
+        if (Hike.WikilocId > 0)
+        {
+            var gpxPath = Path.Combine(_env.WebRootPath, "media", "gpx", $"{Hike.WikilocId}.gpx");
+            GpxValid = System.IO.File.Exists(gpxPath) && IsValidGpx(gpxPath);
+        }
+
         return Page();
+    }
+
+    private static bool IsValidGpx(string path)
+    {
+        using var reader = new StreamReader(path);
+        var buffer = new char[64];
+        var read = reader.Read(buffer, 0, buffer.Length);
+        var start = new string(buffer, 0, read).TrimStart();
+        return start.StartsWith("<?xml", StringComparison.OrdinalIgnoreCase)
+            || start.StartsWith("<gpx", StringComparison.OrdinalIgnoreCase);
     }
 
     public static string? CoverPath(Hike h)
