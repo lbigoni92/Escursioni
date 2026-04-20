@@ -1,21 +1,36 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita,
-  distanza_km, dislivello_m, quota_min_m, quota_max_m,
-  tempo_min, tempo_hhmm,
-  tempo_mov_min, tempo_mov_hhmm, coordinate_count,
-  difficolta, tipo_giro, superficie,
-  regione, provincia, comune,
-  data_escursione, data_registrato, data_caricato, data_pubblicazione,
-  url, bbox, centroid_lat, centroid_lon, geom,
-  sha256_payload, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
 )
 VALUES (
   258778198,
   'Cresta Valsora, Mote pelato, Foce del Frate, Passo degli Uncini e Monte Altissimo da Gronda',
   'Partenza da Via di Arni, subito dopo la galleria del Monte Pelato, dove è possibile parcheggiare nei pressi del chiosco che conduce alla cava Valsora. Da qui si torna indietro per circa 100 metri fino a individuare l’inizio del sentiero. Il percorso inizia con una salita graduale che porta rapidamente alla prima cava. In questo punto è fondamentale svoltare subito a sinistra, evitando il sentiero che prosegue verso le due buche degli spelologi. Da qui ha inizio una salita più decisa che conduce al primo waypoint, dove si incontra l’unico passaggio di II grado dell’intero itinerario: un breve tratto roccioso, esposto ma ben appigliato, affrontabile senza particolari difficoltà da chi ha un minimo di esperienza. Superato questo punto, si prosegue lungo la cresta in ambiente tipicamente apuano, fino a raggiungere poco oltre l’antecima del Monte Pelato. Vale la pena fare una breve deviazione per raggiungere l’antecima stessa, prima di continuare verso la Foce del Monte Pelato e successivamente verso la Foce del Frate. Il tratto sul Monte Pelato è relativamente semplice: la cresta è ampia e non presenta difficoltà tecniche rilevanti. Arrivati alla Foce del Frate, invece di seguire il sentiero CAI standard, abbiamo effettuato una deviazione poco prima del Passo degli Uncini per visitare alcune vecchie trincee e postazioni della Seconda Guerra Mondiale, testimonianze storiche molto interessanti. Ripreso il percorso normale, si prosegue fino alla vetta del Monte Altissimo, che regala panorami spettacolari. Nel nostro caso il versante mare era coperto da nebbia, mentre lato Garfagnana la vista era completamente aperta, con l’Appennino innevato ben visibile. Dopo la pausa pranzo, la discesa avviene verso la Foce dell’Onda, senza difficoltà particolari, fino al Passo del Vaso Tondo. Da qui si scende verso la cava del Fondone, dove è possibile osservare fauna locale come tritoni e rane nelle vasche della cava. Il rientro avviene su strada di cava, con un successivo taglio su sentiero che riporta sulla via per Arni. Attraversata la galleria del Monte Pelato, si ritorna al punto di partenza. Note importanti Percorso ad anello di grande soddisfazione, ma riservato a escursionisti esperti. La progressione in cresta e il breve passaggio di II grado richiedono sicurezza, esperienza in ambiente apuano e assenza di vertigini. Non adatto a principianti. Waypoints principali Monte Pelato (1.1 km) Foce del Frate (1.5 km) Passo degli Uncini (2.5 km) Monte Altissimo (3.3 km) Foce dell’Onda (3.9 km) Passo del Vaso Tondo (4.2 km)',
-  'Partenza da Via di Arni, subito dopo la galleria del Monte Pelato, dove è possibile parcheggiare nei pressi del chiosco che conduce alla cava Valsora. Da qui si torna indietro per circa 100 metri fino a individuare l’inizio del sentiero. <br> <br>Il percorso inizia con una salita graduale che porta rapidamente alla prima cava. In questo punto è fondamentale svoltare subito a sinistra, evitando il sentiero che prosegue verso le due buche degli spelologi. Da qui ha inizio una salita più decisa che conduce al primo waypoint, dove si incontra l’unico passaggio di II grado dell’intero itinerario: un breve tratto roccioso, esposto ma ben appigliato, affrontabile senza particolari difficoltà da chi ha un minimo di esperienza. <br> <br>Superato questo punto, si prosegue lungo la cresta in ambiente tipicamente apuano, fino a raggiungere poco oltre l’antecima del Monte Pelato. Vale la pena fare una breve deviazione per raggiungere l’antecima stessa, prima di continuare verso la Foce del Monte Pelato e successivamente verso la Foce del Frate. <br> <br>Il tratto sul Monte Pelato è relativamente semplice: la cresta è ampia e non presenta difficoltà tecniche rilevanti. Arrivati alla Foce del Frate, invece di seguire il sentiero CAI standard, abbiamo effettuato una deviazione poco prima del Passo degli Uncini per visitare alcune vecchie trincee e postazioni della Seconda Guerra Mondiale, testimonianze storiche molto interessanti. <br> <br>Ripreso il percorso normale, si prosegue fino alla vetta del Monte Altissimo, che regala panorami spettacolari. Nel nostro caso il versante mare era coperto da nebbia, mentre lato Garfagnana la vista era completamente aperta, con l’Appennino innevato ben visibile. <br> <br>Dopo la pausa pranzo, la discesa avviene verso la Foce dell’Onda, senza difficoltà particolari, fino al Passo del Vaso Tondo. Da qui si scende verso la cava del Fondone, dove è possibile osservare fauna locale come tritoni e rane nelle vasche della cava. <br> <br>Il rientro avviene su strada di cava, con un successivo taglio su sentiero che riporta sulla via per Arni. Attraversata la galleria del Monte Pelato, si ritorna al punto di partenza. <br> <br>Note importanti <br>Percorso ad anello di grande soddisfazione, ma riservato a escursionisti esperti. La progressione in cresta e il breve passaggio di II grado richiedono sicurezza, esperienza in ambiente apuano e assenza di vertigini. Non adatto a principianti. <br> <br>Waypoints principali <br> <br>Monte Pelato (1.1 km) <br>Foce del Frate (1.5 km) <br>Passo degli Uncini (2.5 km) <br>Monte Altissimo (3.3 km) <br>Foce dell’Onda (3.9 km) <br>Passo del Vaso Tondo (4.2 km)',
+  '<h2>Cresta Valsora, Mote pelato, Foce del Frate, Passo degli Uncini e Monte Altissimo da Gronda – Trekking in Appennino Toscano</h2>
+
+<h3>Il percorso</h3>
+<p>Questo <em>trekking</em> ad anello, situato nell’Appennino toscano, offre un’esperienza indimenticabile attraverso paesaggi mozzafiato. Partendo da Via di Arni, subito dopo la galleria del Monte Pelato, l’<em>escursione</em> porta attraverso il cuore del Parco dell’Appennino Tosco-Lunighese, un vero e proprio gioiello naturale. Il <em>sentiero</em> inizia con una salita graduale, raggiungendo rapidamente le cave di marmo, testimonianza di una ricca storia mineraria. Il percorso include un breve tratto di II grado, un passaggio roccioso che richiede un minimo di esperienza in montagna, ma che non scoraggia gli amanti del <em>trekking</em>.</p>
+
+<h3>Cosa aspettarsi</h3>
+<p>Preparatevi a camminare lungo la <em>cresta</em> del Monte Pelato, godendo di panorami spettacolari sull''Appennino. L''<em>escursione</em> include un breve passaggio attraverso le zone di interesse storico, con la possibilità di visitare le antiche trincee della Seconda Guerra Mondiale. Il percorso è particolarmente adatto a chi ama l’<em>escursionismo</em> in ambiente montano e apprezzando la bellezza della natura. L''intero <em>sentiero</em> è un''opportunità unica per un''<em>escursione</em> in natura.</p>
+
+<h3>Informazioni utili</h3>
+<ul>
+    <li><strong>Difficoltà:</strong> Esperti</li>
+    <li><strong>Distanza:</strong> Circa 13 km</li>
+    <li><strong>Dislivello:</strong> Circa 800 metri</li>
+    <li><strong>Tempo di percorrenza:</strong> 6-8 ore</li>
+    <li><strong>Tipo di percorso:</strong> Anello</li>
+    <li><strong>Località:</strong> Parco dell’Appennino Tosco-Lunigiese, provincia di Lucca</li>
+    <li><strong>Waypoint 1:</strong> Monte Pelato (1.1 km) -  Un’<em>escursione</em> alla scoperta del Mote pelato e delle sue vette.</li>
+    <li><strong>Waypoint 2:</strong> Foce del Frate (1.5 km) - Ammirare la foce del fiume Frate e i suoi paesaggi unici.</li>
+    <li><strong>Waypoint 3:</strong> Passo degli Uncini (2.5 km) -  Esplorare le testimonianze storiche della Seconda Guerra Mondiale.</li>
+    <li><strong>Waypoint 4:</strong> Monte Altissimo (3.3 km) - Raggiungere la cima del Monte Altissimo e godere di panorami mozzafiato.</li>
+    <li><strong>Waypoint 5:</strong> Foce dell’Onda (3.9 km) - Un tratto di percorso con possibilità di avvistare la fauna locale.</li>
+    <li><strong>Waypoint 6:</strong> Passo del Vaso Tondo (4.2 km) - Un ultimo tratto di <em>sentiero</em> per completare l''anello.</li>
+</ul>
+<p>Questo <em>sentiero</em> è una vera e propria sfida per gli <em>escursionisti</em> esperti, ma offre ricompense inestimabili. Ricordatevi di indossare scarpe da <em>trekking</em> adatte e di portare con voi acqua e cibo a sufficienza. Buon <em>trekking</em>!</p>',
   'Tutte le Attività e Paesi',
   9.13,
   690,
@@ -42,7 +57,10 @@ VALUES (
   10.222276,
   'POINT(10.222276 44.062909)',
   'bfced34e2adbdbb7fdac7dacadb0f8e9f3ddff3a63f7c43bfc7e7babcdefde21',
-  NOW(), NOW()
+  'Escursione CRESTA Valsora: Monte Pelato, Altissimo & Foce del Frate! Percorso ad anello impegnativo in Apuania con panorami mozzafiato.',
+  'Trekking Cresta Valsora: Mote Pelato, Altissimo & Foce Frate',
+  NOW(),
+  NOW()
 )
 ON CONFLICT (wikiloc_id) DO UPDATE SET
   titolo = EXCLUDED.titolo,
@@ -74,6 +92,8 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   centroid_lon = EXCLUDED.centroid_lon,
   geom = EXCLUDED.geom,
   sha256_payload = EXCLUDED.sha256_payload,
+  meta_descrizione = EXCLUDED.meta_descrizione,
+  titolo_seo = EXCLUDED.titolo_seo,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)
@@ -93,7 +113,6 @@ SELECT id, 'cover', 'media/images/258778198/cover.jpg', 0,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 258778198;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/258778198/photo_01.jpg', 1,
        NULL,
@@ -101,7 +120,6 @@ SELECT id, 'foto', 'media/images/258778198/photo_01.jpg', 1,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 258778198;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/258778198/photo_02.jpg', 2,
@@ -111,7 +129,6 @@ SELECT id, 'foto', 'media/images/258778198/photo_02.jpg', 2,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 258778198;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/258778198/photo_03.jpg', 3,
        NULL,
@@ -119,7 +136,6 @@ SELECT id, 'foto', 'media/images/258778198/photo_03.jpg', 3,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 258778198;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/258778198/photo_04.jpg', 4,
@@ -129,7 +145,6 @@ SELECT id, 'foto', 'media/images/258778198/photo_04.jpg', 4,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 258778198;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/258778198/photo_05.jpg', 5,
        NULL,
@@ -137,7 +152,6 @@ SELECT id, 'foto', 'media/images/258778198/photo_05.jpg', 5,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 258778198;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/258778198/photo_06.jpg', 6,
@@ -147,7 +161,6 @@ SELECT id, 'foto', 'media/images/258778198/photo_06.jpg', 6,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 258778198;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/258778198/photo_07.jpg', 7,
        NULL,
@@ -155,7 +168,6 @@ SELECT id, 'foto', 'media/images/258778198/photo_07.jpg', 7,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 258778198;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/258778198/photo_08.jpg', 8,
@@ -165,7 +177,6 @@ SELECT id, 'foto', 'media/images/258778198/photo_08.jpg', 8,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 258778198;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/258778198/photo_09.jpg', 9,
        NULL,
@@ -173,7 +184,6 @@ SELECT id, 'foto', 'media/images/258778198/photo_09.jpg', 9,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 258778198;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/258778198/photo_10.jpg', 10,
@@ -183,7 +193,6 @@ SELECT id, 'foto', 'media/images/258778198/photo_10.jpg', 10,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 258778198;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/258778198/photo_11.jpg', 11,
        NULL,
@@ -192,7 +201,6 @@ SELECT id, 'foto', 'media/images/258778198/photo_11.jpg', 11,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 258778198;
 
-
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/258778198/photo_12.jpg', 12,
        NULL,
@@ -200,7 +208,6 @@ SELECT id, 'foto', 'media/images/258778198/photo_12.jpg', 12,
        NULL,
        NULL
 FROM escursioni.hike WHERE wikiloc_id = 258778198;
-
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
 SELECT id, 'foto', 'media/images/258778198/photo_13.jpg', 13,

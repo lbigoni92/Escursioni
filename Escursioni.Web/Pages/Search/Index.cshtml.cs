@@ -47,6 +47,7 @@ public class IndexModel : PageModel
         var metaDesc = $"Ricerca - {desc}";
         if (metaDesc.Length > 180) metaDesc = metaDesc[..180] + "...";
         ViewData["MetaDescription"] = metaDesc;
+        ViewData["RobotsDirective"] = "noindex, follow";
 
         if (PageNumber < 1)
             PageNumber = 1;

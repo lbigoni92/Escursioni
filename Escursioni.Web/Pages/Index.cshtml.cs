@@ -8,9 +8,12 @@ public class IndexModel : PageModel
 {
     private readonly IHikeRepository _repo;
 
-    public IndexModel(IHikeRepository repo)
+    private readonly IConfiguration _config;
+
+    public IndexModel(IHikeRepository repo, IConfiguration config)
     {
         _repo = repo;
+        _config = config;
     }
 
     public List<Hike> UltimeEscursioni { get; set; } = new();
@@ -22,6 +25,9 @@ public class IndexModel : PageModel
         var metaDesc = $"Luca Bigoni - {desc}";
         if (metaDesc.Length > 180) metaDesc = metaDesc[..180] + "...";
         ViewData["MetaDescription"] = metaDesc;
+        var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursioni.onrender.com").TrimEnd('/');
+        ViewData["CanonicalUrl"] = $"{baseUrl}/";
+        ViewData["OgImage"] = $"{baseUrl}/favicon.svg";
         UltimeEscursioni = await _repo.GetLatestAsync(8);
     }
 

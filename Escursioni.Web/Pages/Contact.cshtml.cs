@@ -43,6 +43,8 @@ public class ContactModel : PageModel
         var metaDesc = $"Contatti - {desc}";
         if (metaDesc.Length > 180) metaDesc = metaDesc[..180] + "...";
         ViewData["MetaDescription"] = metaDesc;
+        var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursioni.onrender.com").TrimEnd('/');
+        ViewData["CanonicalUrl"] = $"{baseUrl}/contatti";
         ContactEmail = _config["Site:ContactEmail"] ?? "info@example.com";
     }
 

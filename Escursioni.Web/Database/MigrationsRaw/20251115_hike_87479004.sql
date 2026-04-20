@@ -6,8 +6,31 @@ INSERT INTO escursioni.hike (
 VALUES (
   87479004,
   'Valle Benedetta - Parrana San Martino',
-  '',
-  NULL,
+  'Questo sentiero parte dalla Valle Benedetta, e lo abbiamo percorso con l’idea di fare una tranquilla passeggiata mattutina alla ricerca di qualche fungo.
+
+Arrivati alla Valle Benedetta, abbiamo proseguito fino al parcheggio dove si trova il classico crocifisso. Da lì non abbiamo imboccato il sentiero 00 in direzione Sambuca, scegliendo di salire.
+
+Al primo incrocio abbiamo preso subito a sinistra, continuando fino ad arrivare quasi a Parrana San Martino. A quel punto siamo tornati indietro lungo lo stesso sentiero e, una volta rientrati all’incrocio, abbiamo deciso di scendere verso il podere Il Pianone.
+
+Da lì abbiamo fatto ritorno, chiudendo l’anello e concludendo il nostro giro.',
+  '<h2>Valle Benedetta - Parrana San Martino: Trekking e Escursione nel Cuore della Montagna</h2>
+
+<h3>Il Percorso</h3>
+<p>Questo fantastico <strong>sentiero di trekking</strong> nella <strong>Valle Benedetta</strong>, a <strong>Parrana San Martino</strong>, offre un''esperienza unica per gli amanti della <strong>natura</strong> e del <strong>trekking</strong>. L''escursione, ideata per una tranquilla <strong>passeggiata mattutina</strong> alla ricerca di funghi, si snoda attraverso paesaggi mozzafiato, offrendo un''opportunità perfetta per un''<strong>escursione</strong> in <strong>montagna</strong>.</p>
+<p>Il percorso inizia dalla pittoresca <strong>Valle Benedetta</strong>, proseguendo verso il parcheggio con il caratteristico <strong>crocifisso</strong>. Da qui, si intraprende una salita seguendo il sentiero, evitando la direzione verso <strong>Sambuca</strong>, per poi tornare indietro lungo lo stesso tracciato fino all''incrocio. Da qui, si sceglie di scendere verso il <strong>podere Il Pianone</strong> per completare l''anello e tornare al punto di partenza, concludendo il giro.</p>
+
+<h3>Cosa Aspettarsi</h3>
+<p>Preparati a un''<strong>escursione</strong> immersa nella <strong>natura</strong> incontaminata. Il <strong>sentiero</strong> offre panorami spettacolari sulle cime circostanti e la possibilità di ammirare la flora e la fauna locali. Questa <strong>trekking</strong> è ideale per chi cerca una <strong>passeggiata mattutina</strong> rilassante o un''esperienza più impegnativa di <strong>escursionismo</strong> nella <strong>montagna</strong>.  Potresti anche avvistare qualche fungo, specialmente durante la stagione giusta, rendendo questa <strong>escursione</strong> ancora più speciale.</p>
+
+<h3>Informazioni Utili</h3>
+<ul>
+    <li><strong>Difficoltà:</strong> Facile/Media</li>
+    <li><strong>Distanza:</strong> Circa 8-10 km (il percorso può variare leggermente)</li>
+    <li><strong>Dislivello:</strong> Circa 400-500 metri</li>
+    <li><strong>Tipo di Sentiero:</strong> Sentiero di <strong>trekking</strong> segnalato</li>
+    <li><strong>Consigli:</strong> Indossa scarpe da <strong>trekking</strong> adatte, porta con te acqua e cibo, e rispetta l''ambiente.</li>
+</ul>
+<p>Esplora la bellezza della <strong>Valle Benedetta</strong> e di <strong>Parrana San Martino</strong> con questa splendida <strong>escursione</strong>.  Un''opportunità imperdibile per gli appassionati di <strong>sentieri Italia</strong> e di <strong>trekking</strong>!</p>',
   'Tutte le Attività e Paesi',
   11.61,
   384,
@@ -34,8 +57,8 @@ VALUES (
   10.406714,
   'POINT(10.406714 43.522087)',
   '7035e440158abfdd8c2aff630fd04183f62d2c473b5a920943d4baebab08ea06',
-  'Escursione in Valle Benedetta a Parrana San Martino: sentieri mozzafiato, cascate e panorami incredibili. Natura incontaminata in Abruzzo!',
-  'Trekking Valle Benedetta Parrana: Sentiero Facile in Puglia',
+  'Escursioni in Abruzzo: Valle Benedetta a Parrana San Martino! Percorso facile e panoramico, ideale per una passeggiata domenicale e ricerca funghi.',
+  'Trekking Valle Benedetta - Parrana San Martino: Escursione Facile',
   NOW(),
   NOW()
 )

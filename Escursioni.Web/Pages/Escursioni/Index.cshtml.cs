@@ -11,10 +11,7 @@ public class IndexModel : PageModel
 {
     private readonly IHikeRepository _repo;
 
-    public IndexModel(IHikeRepository repo)
-    {
-        _repo = repo;
-    }
+
 
     public List<Hike> Escursioni { get; set; } = new();
 
@@ -24,9 +21,20 @@ public class IndexModel : PageModel
     [BindProperty(SupportsGet = true)]
     public string? Difficolta { get; set; }
 
+    private readonly IConfiguration _config;
+
+    public IndexModel(IHikeRepository repo, IConfiguration config)
+    {
+        _repo = repo;
+        _config = config;
+    }
+
     public async Task OnGet()
     {
-        ViewData["Title"] = "Escursioni";
+        ViewData["Title"] = "Tutte le escursioni e trekking in Italia";
+        ViewData["MetaDescription"] = "Elenco completo di escursioni, trekking e sentieri in Italia con tracce GPS, foto e descrizioni dettagliate.";
+        var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursioni.onrender.com").TrimEnd('/');
+        ViewData["CanonicalUrl"] = $"{baseUrl}/escursioni";
         Escursioni = await _repo.GetAllAsync(Regione, Difficolta);
     }
 

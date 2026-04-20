@@ -2,11 +2,15 @@
 <html lang="it">
 <head>
     <meta charset="utf-8" />
-    <title>@ViewData["Title"] - Escursioni</title>
+    <title>@ViewData["Title"]@(ViewData["Title"]?.ToString()?.Contains("Escursioni") == true ? "" : " | Escursioni")</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     @if (ViewData["MetaDescription"] is string md && !string.IsNullOrWhiteSpace(md))
     {
         <meta name="description" content="@md" />
+    }
+    @if (ViewData["RobotsDirective"] is string robotsDir && !string.IsNullOrWhiteSpace(robotsDir))
+    {
+        <meta name="robots" content="@robotsDir" />
     }
     @if (ViewData["CanonicalUrl"] is string canonical && !string.IsNullOrWhiteSpace(canonical))
     {
@@ -47,6 +51,10 @@
     <link rel="icon" type="image/x-icon" href="~/favicon.ico" sizes="any" />
     <link rel="apple-touch-icon" href="~/favicon.svg" />
     <link rel="manifest" href="~/manifest.json" />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="dns-prefetch" href="https://unpkg.com" />
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
     <script>
         // Applica subito il tema light-mode se salvato in localStorage
         (function() {
@@ -82,8 +90,28 @@
         </div>
     </header>
 
-    <div class="breadcrumb">
-        <!-- <a href="javascript:history.back()">← Torna alla pagina precedente</a>-->
+    <div class="breadcrumb" aria-label="Breadcrumb">
+        @if (ViewData["Breadcrumbs"] is List<(string Label, string Url)> crumbs && crumbs.Count > 0)
+        {
+            <nav aria-label="Breadcrumb">
+                <ol style="list-style:none;display:flex;flex-wrap:wrap;gap:0.3rem;padding:0;margin:0;font-size:0.85rem;">
+                    <li><a href="/">Home</a></li>
+                    @foreach (var (label, url) in crumbs)
+                    {
+                        <li style="display:flex;align-items:center;"><span style="margin:0 0.3rem;">›</span>
+                            @if (!string.IsNullOrEmpty(url))
+                            {
+                                <a href="@url">@label</a>
+                            }
+                            else
+                            {
+                                <span>@label</span>
+                            }
+                        </li>
+                    }
+                </ol>
+            </nav>
+        }
     </div>
 
 
@@ -119,6 +147,10 @@
     @if (ViewData["JsonLd"] is string jsonLd && !string.IsNullOrWhiteSpace(jsonLd))
     {
         <script type="application/ld+json">@Html.Raw(jsonLd)</script>
+    }
+    @if (ViewData["BreadcrumbJsonLd"] is string breadcrumbLd && !string.IsNullOrWhiteSpace(breadcrumbLd))
+    {
+        <script type="application/ld+json">@Html.Raw(breadcrumbLd)</script>
     }
 
     <script>

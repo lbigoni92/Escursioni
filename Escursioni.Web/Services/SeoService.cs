@@ -14,7 +14,7 @@ public class SeoService
 
     public void ConfigureForHike(PageModel page, Hike hike)
     {
-        var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.example.com").TrimEnd('/');
+        var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursioni.onrender.com").TrimEnd('/');
 
         page.ViewData["Title"] = !string.IsNullOrWhiteSpace(hike.TitoloSeo) ? hike.TitoloSeo : hike.Titolo;
 
@@ -71,6 +71,26 @@ public class SeoService
         jsonLd += "\n}";
 
         page.ViewData["JsonLd"] = jsonLd;
+
+        // Breadcrumbs
+        var breadcrumbs = new List<(string Label, string Url)>
+        {
+            ("Escursioni", $"{baseUrl}/escursioni"),
+            (hike.Titolo, "")
+        };
+        page.ViewData["Breadcrumbs"] = breadcrumbs;
+
+        var safeTitle2 = System.Text.Json.JsonEncodedText.Encode(hike.Titolo).ToString();
+        var breadcrumbJsonLd = $@"{{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""BreadcrumbList"",
+  ""itemListElement"": [
+    {{""@type"": ""ListItem"", ""position"": 1, ""name"": ""Home"", ""item"": ""{baseUrl}/""}},
+    {{""@type"": ""ListItem"", ""position"": 2, ""name"": ""Escursioni"", ""item"": ""{baseUrl}/escursioni""}},
+    {{""@type"": ""ListItem"", ""position"": 3, ""name"": ""{safeTitle2}""}}
+  ]
+}}";
+        page.ViewData["BreadcrumbJsonLd"] = breadcrumbJsonLd;
     }
 
     private static string StripHtml(string html)

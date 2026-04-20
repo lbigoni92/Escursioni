@@ -61,14 +61,12 @@ public class BulkGenerationService
                     if (vals == null) return false;
                     var titolo = vals.GetValueOrDefault("titolo");
                     var descrizione = vals.GetValueOrDefault("descrizione");
-                    return !string.IsNullOrWhiteSpace(titolo) || !string.IsNullOrWhiteSpace(descrizione);
+                    var descrizioneHtml = vals.GetValueOrDefault("descrizione_html");
+                    // Solo file con titolo/descrizione e descrizione_html mancante o vuota
+                    return ( !string.IsNullOrWhiteSpace(titolo) || !string.IsNullOrWhiteSpace(descrizione) )
+                        && string.IsNullOrWhiteSpace(descrizioneHtml);
                 })
-                .OrderBy(m =>
-                {
-                    quickCache.TryGetValue(m.FileName, out var vals);
-                    return string.IsNullOrWhiteSpace(vals?.GetValueOrDefault("titolo_seo")) ? 0 : 1;
-                })
-                .ThenBy(m => m.FileName)
+                .OrderBy(m => m.FileName)
                 .ToList();
 
             Total = toProcess.Count;
