@@ -32,6 +32,10 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .then(function(gpxText) {
                 var xml = new DOMParser().parseFromString(gpxText, 'application/xml');
+                var parseError = xml.getElementsByTagName('parsererror')[0];
+                if (parseError) {
+                    throw new Error('Risposta non è un GPX valido');
+                }
                 var waypoint = xml.getElementsByTagName('wpt')[0];
                 var trackPoint = xml.getElementsByTagName('trkpt')[0];
                 var point = waypoint || trackPoint;
@@ -64,7 +68,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             })
             .catch(function(error) {
-                console.error('Errore mappa parcheggio:', error);
+                console.warn('Mappa parcheggio non disponibile:', error.message);
+                map.remove();
+                var el = document.getElementById(window.parkingMapConfig.elementId);
+                if (el) {
+                    el.style.height = 'auto';
+                    el.innerHTML = '<p style="color:#9ca3af;font-size:0.9rem;">Posizione parcheggio non disponibile.</p>';
+                }
             });
     }
 });

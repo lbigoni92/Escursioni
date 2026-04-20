@@ -3,6 +3,8 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     if (window.gpxMapConfig) {
+        var el = document.getElementById(window.gpxMapConfig.elementId);
+        if (!el) return;
         var map = L.map(window.gpxMapConfig.elementId);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18,
@@ -20,6 +22,11 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }).on('loaded', function(e) {
             map.fitBounds(e.target.getBounds());
+        }).on('error', function(e) {
+            console.warn('GPX non disponibile:', e);
+            map.remove();
+            el.style.height = 'auto';
+            el.innerHTML = '<p style="color:#9ca3af;font-size:0.9rem;">Traccia GPX non disponibile.</p>';
         }).addTo(map);
     }
 });
