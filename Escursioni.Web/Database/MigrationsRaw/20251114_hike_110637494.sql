@@ -51,8 +51,8 @@ VALUES (
   10.350692,
   'POINT(10.350692 44.049697)',
   'e8d694a4e97a90c56cc4147be0d6e8eeb8ea9e5e7d432d5dd3f084ed4a98cc81',
-  'Escursione Pania Verde: panorama mozzafiato e sentiero impervio! Scalata a una pietraia sbagliata, segnaletica scarsa. Difficile ma ripagato!',
-  'Trekking Pania Verde: Sentiero Difficile, Vista Mozzafiato!',
+  'Escursione Pania Verde Fornovolasco: Anello difficile 3.5km, +417m. Salita impegnativa, segnaletica scarsa ma panorama unico! Toscana, Italia.',
+  'Pania Verde: Escursione Difficile da Fornovolasco (Toscana)',
   NOW(),
   NOW()
 )

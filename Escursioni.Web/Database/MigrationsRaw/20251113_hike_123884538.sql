@@ -54,8 +54,8 @@ VALUES (
   10.400475,
   'POINT(10.400475 43.558868)',
   '809eaf9b1f33befd7aa2c14fc8ffe98042e9bc84e21ed0fb8190e0dc13d7c4ba',
-  'Escursione Cascate dell''Infernaccio: Poggio Corbolone & Villa Cristina. Vista mozzafiato su Livorno e Monti Pisani. Percorso breve e facile. Scarponi consigl...',
-  'Trekking Cascate Infernaccio Poggio Corbolone: Vista Livorno',
+  'Escursione Cascatelle dell’Infernaccio, Poggio Corbolone e Villa Cristina (Campo a Melo, Toscana). Facile giro di 7.9km +325m. Vista Livorno, cascate e punto...',
+  'Cascate dell''Infernaccio: Escursione da Poggio Corbolone (Tosc...',
   NOW(),
   NOW()
 )

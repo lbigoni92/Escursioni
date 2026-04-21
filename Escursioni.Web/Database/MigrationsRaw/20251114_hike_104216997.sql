@@ -53,8 +53,8 @@ VALUES (
   11.669628,
   'POINT(11.669628 42.634505)',
   '7fa1fd39d388a1c82f56de372bd83d918da7d80c15bb37f49dac5bef51388868',
-  'Escursioni Pitigliano: Via Cava Fratenuti & Cascatella! Trekking in Toscana tra borghi medievali e natura incontaminata. Scopri!',
-  'Trekking Pitigliano: Vie Cave Cascatella Maremma Toscana',
+  'Escursione Pitigliano Vie Cave Cascatella: Anello facile Maremma Toscana (7.9km, 289m). Trekking tra vie cave e cascata, punto di partenza da Pitigliano.',
+  'Pitigliano - Vie Cave - Cascatella: Escursione Facile (7.9km)',
   NOW(),
   NOW()
 )

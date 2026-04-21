@@ -53,8 +53,8 @@ VALUES (
   10.502822,
   'POINT(10.502822 43.937398)',
   '08597f154c33ec31f4d76ed28d87eacc7ddeaac77a4bbc70cfaa076fe20d88ee',
-  'Escursione Croce di Brancoli Lucca: sentiero facile e panoramico! Vista piana, storia monumentale e suggestivi panorami. Ideale per famiglie e principianti.',
-  'Trekking Croce di Brancoli: Escursione Lucca, Italia',
+  'Escursione Croce di Brancoli Domazzano (Toscana): Anello di 16km, +765m di dislivello. Trekking facile/medio dalla Ex stazione di Piaggione con vista Lucca!',
+  'Croce di Brancoli: Escursione Toscana da Piaggione (765m)',
   NOW(),
   NOW()
 )

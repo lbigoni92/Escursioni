@@ -58,8 +58,8 @@ Ricordatevi di controllare le previsioni del tempo prima di partire e di informa
   10.363062,
   'POINT(10.363062 43.568402)',
   '9d9eedb49b3e772c44c71a2172f0037ff7a0ddc56c13a23b2a8a31f5e2c9efcc',
-  'Esplora Pian di Rota: croce, panorami mozzafiato & cascate dell''Infernaccio! Sentiero impegnativo ma gratificante, tratti fangosi e vista spettacolare.',
-  'Trekking Pian di Rota: Crocifisso, Cascata Infernaccio!',
+  'Escursione Pian di Rota (Toscana): Anello 14.69km, +316m. Crociera a Poggio Corbolone e cascate dell’Infernaccio. Tratto facile ma lungo! Porta acqua!',
+  'Pian di Rota: escursione al Crocifisso e cascate (Toscana)',
   NOW(),
   NOW()
 )

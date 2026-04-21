@@ -64,8 +64,8 @@ VALUES (
   10.865658,
   'POINT(10.865658 43.166068)',
   '4bdb263065bd4e626aa5ce85ab2611c1ac69e52cea84deab7a6d2a93859b9e5c',
-  'Escursioni Sasso Pisano: Fumarole, Sasso Pisano & Monterotondo Marittimo! Anello facile tra natura e borghi. Trekking con Friends!',
-  'Trekking Sasso Pisano Fumarole: Anello Romagnolo',
+  'Escursione Sasso Pisano: Anello facile 11.7km | Toscana, Fumarole & Monterotondo Marittimo. Trekking medio +445m. Ideale per amanti natura!',
+  'Sasso Pisano: trekking alle Fumarole (Toscana)',
   NOW(),
   NOW()
 )

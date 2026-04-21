@@ -55,8 +55,8 @@ VALUES (
   10.468505,
   'POINT(10.468505 43.749488)',
   '73cb3b4f2227685335e26627716e8e8749666cb1dba5c3630c3ff4d1c04c1694',
-  'Escursioni Asciano: Mirteto, Faeta & Buca delle Fate! Trekking in Toscana tra borghi medievali e panorami mozzafiato. Scopri!',
-  'Trekking Asciano Mirteto Faeta: Buca Fate Toscana',
+  'Escursione Asciano Mirteto Faeta Buca Fate: Anello in Toscana, 16.7km, difficoltà media. Salita al Faeta con vista, borgo monastico Mirteto e Buca delle Fate!',
+  'Mirteto Faeta Buca Fate: Escursione da Asciano (Toscana)',
   NOW(),
   NOW()
 )

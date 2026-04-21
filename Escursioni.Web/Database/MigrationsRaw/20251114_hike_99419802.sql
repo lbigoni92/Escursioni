@@ -58,8 +58,8 @@ VALUES (
   10.345417,
   'POINT(10.345417 43.987873)',
   '81051df08ba688c8b3e662b5a1d974778006746a9f0b173e6530d6db53ae8af6',
-  'Escursione al Rifugio Alto Matanna e Procinto: sentiero facile, vista cavalli e panorami mozzafiato! Ideale senza attrezzatura (attacco).',
-  'Trekking Procinto: Rifugio Alto Matanna - Escursione Facile',
+  'Escursione Rifugio Alto Matanna - Procinto (Toscana) | Trek di 7.7km, +1m, anello facile. Percorso semplice ma con tratti in salita, ideale per escursionisti...',
+  'Rifugio Alto Matanna: Escursione a Procinto (Toscana)',
   NOW(),
   NOW()
 )

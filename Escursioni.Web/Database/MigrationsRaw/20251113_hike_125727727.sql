@@ -59,8 +59,8 @@ VALUES (
   10.612617,
   'POINT(10.612617 43.160183)',
   '620f99b638eab42735c10dc3577e21613e1ed8c7860c5ce87d29171fc220ce91',
-  'Esplora Castagneto Carducci - Sassetta: geocaching, panorami mozzafiato e percorso di 12km! Ideale per tutti, facile e divertente!',
-  'Trekking Sassetta: Geocache Castagneto Carducci 12km',
+  'Escursione Castagneto Carducci - Sassetta: percorso di 15km con 504m dislivello. Geocaching in Toscana! Anello facile, ideale per tutti. Vista panoramica e f...',
+  'Castagnetto Carducci - Sassetta: Escursione Geocaching (Toscana)',
   NOW(),
   NOW()
 )

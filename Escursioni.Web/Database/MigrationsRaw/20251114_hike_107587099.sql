@@ -58,8 +58,8 @@ VALUES (
   10.769558,
   'POINT(10.769558 44.229118)',
   '444a6858e6ab299c8d7995b20c4c3b62b4461fcc707b8e9f3180961543b76f09',
-  'Escursione 2 giorni Sestola: Cresta del Gallo, Monte Cimone e Lago della Ninfa. Trekking in tenda con marmotte! Percorso facile e panoramico.',
-  'Trekking Sestola Creta del Gallo Monte Cimone Lago Ninfa',
+  'Escursione Sestola Monte Cimone: Anello di 25km con tenda (2 giorni)! Trekking facile/difficile tra Monte Forato e Cimone, dislivello +1m. Percorso con tratt...',
+  'Tendata Sestola-Cimoncino: Escursione Anello Monte Cimone (2 g...',
   NOW(),
   NOW()
 )

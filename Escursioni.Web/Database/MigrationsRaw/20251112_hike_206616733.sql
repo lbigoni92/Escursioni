@@ -51,8 +51,8 @@ VALUES (
   12.246805,
   'POINT(12.246805 42.491062)',
   '2caf736083d6a2128d3bb3af81b758cc5938b382a0a4e26c83cb498a4183313b',
-  'Escursione a Bomarzo: il Parco dei Mostri! Percorso facile tra sculture colossali, storia e mitologia. Scopri il Sentiero del Sacro Bosco (Lazio).',
-  'Trekking Fontana di Pegaso: Escursione nel Parco dei Mostri di...',
+  'Escursione Monte Forato da Cardoso: percorso facile nel Parco dei Mostri di Bomarzo (Lazio) 1.96km, +24m. Scopri l''Elefante, Pegaso e le statue del Sacro Bosco!',
+  'Parco dei Mostri: escursione da Bomarzo (anello, facile)',
   NOW(),
   NOW()
 )

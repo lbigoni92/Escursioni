@@ -55,8 +55,8 @@ VALUES (
   10.302403,
   'POINT(10.302403 43.599993)',
   '27c17826ebfb9859efa3ca3dba8a80e282e30b17fe9fe30e2aa5969e384ac127',
-  'Escursioni Calambrone: passeggiata facile nel verde, perfetta per picnic e famiglie! Sentieri pianeggianti, natura e animali. Scopri di più!',
-  'Trekking Calambrone: Escursione Pianeggiante in Toscana',
+  'Escursione facile Calambrone (Toscana): 7.7km anello pianeggiante, ideale per famiglie e picnic! +43m dislivello. Parcheggio, maneggio e mare a 15 min.',
+  'Calambrone: Escursione Facile nel Verde (Toscana)',
   NOW(),
   NOW()
 )

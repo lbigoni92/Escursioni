@@ -52,8 +52,8 @@ VALUES (
   10.54142,
   'POINT(10.54142 44.130803)',
   'f9ace742f643cdea1ae7e7c470914f14e18f81d1b77e6932fa75300fdbb3c645',
-  'Escursione imperdibile! Rifugio Santi, Monte Rondinaio, Lago Santo e Cima dell''Uomo. Panorami mozzafiato e 4 vette! Difficile e tecnico, ma ne vale la pena. ...',
-  'Trekking Monte Rondinaio: Lago Santo e Rifugio Santi',
+  'Escursione Monte Rondinaio (Toscana): percorso anello 19km, 650m dislivello. Rifugio Santi - Altaretto - Rondinaio Lombardo - Lago Santo. Difficile, cresta e...',
+  'Monte Rondinaio: Escursione da Rifugio Santi (difficile)',
   NOW(),
   NOW()
 )

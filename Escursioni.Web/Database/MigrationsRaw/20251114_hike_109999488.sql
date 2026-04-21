@@ -57,8 +57,8 @@ VALUES (
   10.443688,
   'POINT(10.443688 43.481497)',
   '125ea1d4b5611ba4a99c0d8a9fafedcdb17372d19eb6ca447fce28794a7e03eb',
-  'Escursioni Gabbro Poggio D''Arco: Anello panoramico al tramonto! Facile, con vista unica e sosta sagra del Cinghiale. Perfetto con scarpe da tennis!',
-  'Trekking Anello Gabbro Poggio D''Arco: Panorama & Sagra!',
+  'Escursione Gabbro anello Poggio D''Arco (Toscana): Facile giro di 6.3km +174m. Percorso anello dal parcheggio Gabbro, ideale per una serata! Panorami unici e ...',
+  'Gabbro: escursione anello serale da Poggio D''arco (Toscana)',
   NOW(),
   NOW()
 )

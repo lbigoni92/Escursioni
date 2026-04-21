@@ -59,8 +59,8 @@ Questa <strong>escursione sentiero</strong> rappresenta un''opportunità per sco
   10.65557,
   'POINT(10.65557 44.040003)',
   'a328f648a37678c476a1648d603102454d5b8f142d2b10a739d7c9711cb1ebc2',
-  'Escursione Palleggio Cocciglia: sentiero facile al torrente Scesta. Frane, cinghialaia e letto del fiume. Consigli e sicurezza! #escursioni #trekking #cocciglia',
-  'Trekking Palleggio Cocciglia: Escursione al Torrente Scesta',
+  'Escursione Cocciglia: Palleggio - Torrente Scesta (Toscana) 12.47km +561m. Facile trekking al torrente Scesta, sentiero segnato. Info difficoltà, frane e sic...',
+  'Palleggio: escursione al Lago di Cocciglia (Toscana)',
   NOW(),
   NOW()
 )

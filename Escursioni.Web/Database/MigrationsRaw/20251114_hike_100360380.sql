@@ -58,8 +58,8 @@ VALUES (
   10.334222,
   'POINT(10.334222 43.723937)',
   '0077831a03a785f4cf2234d452d3f160ff217ab75cff85573cd1935a5de327bb',
-  'Esplora il Parco San Rossore: daini, cinghiali, tartarughe & natura selvaggia! Sentiero suggestivo e ombreggiato, ideale per una gita tranquilla.',
-  'Trekking San Rossore: Sentiero Daini e Cinghiali in Toscana',
+  'Escursione facile nel Parco San Rossore (Toscana)! 17km ad anello, +50m, daini, cinghiali & tartarughe. Sentiero ben tracciato, in gran parte ombroso. Cascin...',
+  'Parco San Rossore: Escursione Facile da Cascine Vecchie',
   NOW(),
   NOW()
 )

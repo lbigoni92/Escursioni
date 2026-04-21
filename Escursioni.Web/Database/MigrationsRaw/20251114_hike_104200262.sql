@@ -50,8 +50,8 @@ VALUES (
   11.645977,
   'POINT(11.645977 42.657643)',
   '85c054b25ebc1c1a0f06740eaa5e96f68d1246e03c47f0a02e4180c4638d5443',
-  'Esplora le misteriose Vie Cave Etrusche a Sovana! Sentieri unici, tombe suggestive e panorami mozzafiato. Trekking in Toscana!',
-  'Trekking Sovana: Vie Cave Etrusche - Escursione in Italia',
+  'Escursione Sovana: Vie Cave Etrusche | Toscana Facile 7.9km+319m | Scopri i segreti delle antiche vie scavate nel tufo!',
+  'Sovana: Escursione alle Vie Cave (Toscana Facile)',
   NOW(),
   NOW()
 )

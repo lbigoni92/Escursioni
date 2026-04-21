@@ -58,8 +58,8 @@ VALUES (
   10.318118,
   'POINT(10.318118 43.95223)',
   '9a6c000cd8caa590be51655ddc15799613fe6b0cbea50f0faf77dbca732c6e50',
-  'Escursioni Candalla: sentiero breve e incantevole! Polle naturali, acque fresche e panorami mozzafiato. Rinfrescati e goditi Casoli! 🏞️',
-  'Trekking Candalla Casoli: Escursione Relax tra Polle e Casoli',
+  'Escursione Candalla Metato: Anello facile in Toscana (4.85km, +273m) | Scopri le polle e il bagno rinfrescante! Bivio Casoli. Perfetta per una giornata tranq...',
+  'Candalla: Escursione Anello da Metato (Toscana)',
   NOW(),
   NOW()
 )

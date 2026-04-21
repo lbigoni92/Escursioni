@@ -50,8 +50,8 @@ VALUES (
   10.287842,
   'POINT(10.287842 44.108668)',
   '22264a64c7d1aae238a0ea84dd1fd32d70be90e82704b9f31feeae623825b859',
-  'Escursione Lago di Vagli: passeggiata relax con vista sul lago e Ponte Sospeso! Zip line 2023. Vagli di Sotto, Lucca.',
-  'Trekking Lago di Vagli: Sentiero Vagli Sotto - Ponte Sospeso',
+  'Escursione Lago di Vagli: percorso facile da Vagli di Sotto (Lucca) con vista lago e diga! 5.6km, +159m. Perfetta per una passeggiata rilassante! 🏞️',
+  'Lago di Vagli: escursione da Vagli di Sotto (anello, 5.6km)',
   NOW(),
   NOW()
 )

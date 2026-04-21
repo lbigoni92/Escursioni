@@ -59,8 +59,8 @@ VALUES (
   10.613804,
   'POINT(10.613804 44.100865)',
   'e215667560147f451b7cbfbe09ff4e1e85651c8b06d87aa502f39e82379c116a',
-  'Escursioni laghi Trentino: Foce a Giovo, Lago Santo, Baccio & Rondinaio! 🏞️ Un percorso indimenticabile tra laghi e panorami mozzafiato. 💪',
-  'Trekking Lago Santo - Monte Rondinaio: Itinerario Laghi!',
+  'Escursione Foce a Giovo: Lago Santo, Baccio e Turchino! Anello Toscano impegnativo (14.7km, +1m), Monte Rondinaio. Perfetto per amanti trekking esperti.',
+  'Monte Rondinaio: escursione laghi Toscana (difficile)',
   NOW(),
   NOW()
 )

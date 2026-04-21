@@ -63,8 +63,8 @@ La <strong>leggenda del Pozzo della Campana</strong> narra di una campana del co
   10.880658,
   'POINT(10.880658 43.250228)',
   '7f1f6a310d976bfa3e656d70f01b09b4dac44f3991dea00dfb86fbe00ce94957',
-  'Escursione Pozzo della Campana & San Michele alle Formiche: Anello facile da Montecerboli! Viste, cascate e leggende in un percorso CAI perfetto.',
-  'Trekking Pozzo Campana San Michele: Itinerario CAI Italia',
+  'Escursione Pozzo della Campana & San Michele alle Formiche da Montecerboli (Toscana) | Facile 11.3km/383m | Anello CAI 11 & 12',
+  'Pozzo della Campana: Escursione da Montecerboli (Toscana)',
   NOW(),
   NOW()
 )

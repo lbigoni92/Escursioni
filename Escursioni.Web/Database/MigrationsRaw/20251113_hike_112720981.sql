@@ -55,8 +55,8 @@ VALUES (
   10.35809,
   'POINT(10.35809 44.204102)',
   '1b3a3b3660867f0d61e48fdda93ed8e879b5894112c0dbea5b9a4d0bb04dfeee',
-  'Escursione Orechiella Sulcina: sentiero panoramico in Veneto con le sue iconiche ore. Vetta imperdibile per amanti trekking e natura!',
-  'Trekking Orechiella Sulcina: Cascata Nera Veneto',
+  'Escursione Orechiella Sulcina: Anello nel Parco Naturale delle Alpi Apuane (Toscana). Facile, 5.81km, +193m di dislivello. Scopri questo sentiero panoramico!',
+  'Orechiella Sulcina: Escursione da Sulcina (Toscana, Medio)',
   NOW(),
   NOW()
 )

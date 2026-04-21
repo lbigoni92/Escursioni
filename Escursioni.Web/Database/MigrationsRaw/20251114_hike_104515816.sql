@@ -58,8 +58,8 @@ La spiaggia di Cala Violina, un vero e proprio paradiso, vi aspetta per un merit
   10.787528,
   'POINT(10.787528 42.884175)',
   'd855dbd4af07fb9679b0b34cfe6ebf84acfee361dd7fd108c24a542072635e12',
-  'Escursione Scarlino - Cala Violina: Spiaggia di sabbia fine e mare cristallino! 10km in piano, facile e ben segnalato. Un paradiso nascosto!',
-  'Trekking Cala Violina Scarlino: Percorso Facile 10km!',
+  'Escursione Scarlino Cala Violina: Trekking 10.68km facile in Toscana, +161m dislivello. Spiaggia paradisiaca e mare cristallino! Percorso segnalato, Dogana.',
+  'Cala Violina: Escursione da Scarlino (10km, facile)',
   NOW(),
   NOW()
 )

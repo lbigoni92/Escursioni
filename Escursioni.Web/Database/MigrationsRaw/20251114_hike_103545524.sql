@@ -52,8 +52,8 @@ VALUES (
   10.35919,
   'POINT(10.35919 44.028327)',
   'e51b93a6184ae1940071d366e8f76c80a88987da8c9111624d188cfef74dbf7d',
-  'Escursione Monte Forato & Croce da Fornovolasco: panorama mozzafiato, sentiero impegnativo (EE). Dettagli e consigli per la tua avventura!',
-  'Trekking Monte Forato: Escursione Italia 130/110/108',
+  'Escursione Monte Forato da Fornovolasco: Anello Toscano 18.41km, +1m dislivello. Percorso impegnativo, sentieri misti (catene), consigliato a escursionisti a...',
+  'Monte Forato: Escursione da Fornovolasco (difficile, 18.41km)',
   NOW(),
   NOW()
 )

@@ -180,7 +180,7 @@ public class SeoService
         // Breadcrumbs
         var breadcrumbs = new List<(string Label, string Url)>
         {
-            ("Escursioni", $"{baseUrl}/escursioni"),
+            ("Ricerca", $"{baseUrl}/ricerca"),
             (hike.Titolo, "")
         };
         page.ViewData["Breadcrumbs"] = breadcrumbs;
@@ -191,7 +191,7 @@ public class SeoService
   ""@type"": ""BreadcrumbList"",
   ""itemListElement"": [
     {{""@type"": ""ListItem"", ""position"": 1, ""name"": ""Home"", ""item"": ""{baseUrl}/""}},
-    {{""@type"": ""ListItem"", ""position"": 2, ""name"": ""Escursioni"", ""item"": ""{baseUrl}/escursioni""}},
+    {{""@type"": ""ListItem"", ""position"": 2, ""name"": ""Ricerca"", ""item"": ""{baseUrl}/search""}},
     {{""@type"": ""ListItem"", ""position"": 3, ""name"": ""{safeTitle2}"", ""item"": ""{canonical}""}}
   ]
 }}";

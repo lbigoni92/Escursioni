@@ -55,8 +55,8 @@ VALUES (
   11.289103,
   'POINT(11.289103 43.055643)',
   '84ac1872784378dd8ee203034a3e290bd39cad9716107d438e15239bde8550aa',
-  'Escursione Casale di Pari - Monte Acuto: Borgo e panorama! Giro facile di 2h30 su strada e sentiero. Cappello e acqua obbligatori! ☀️⛰️',
-  'Trekking Monte Acuto Casale di Pari: Itinerario Facile!',
+  'Escursione Monte Acuto da Casale di Pari: Giro facile di 10.08km (Toscana) con +328m dislivello. Perfetto per una giornata! Sentiero adatto a scarpe da ginna...',
+  'Monte Acuto: escursione facile da Casale di Pari (Toscana)',
   NOW(),
   NOW()
 )

@@ -58,8 +58,8 @@ Non dimenticate di rispettare l’ambiente circostante, seguendo i principi del 
   10.445669,
   'POINT(10.445669 44.211551)',
   'eed9b5374c817526050470a32611b5c3dad12cecc2757e2aed41717084a867c5',
-  'Escursione Monte Prado (2054m) Toscana: Lago Bargetana, colori autunnali & panorama mozzafiato. Difficoltà media. Vetta più alta dell''Appennino! ⛰️',
-  'Trekking Monte Prado Lago Bargetana Appennino Tosco-Emiliano',
+  'Escursione Monte Prado Lago Bargetana: percorso anello Toscana Appennino! ⛰️ 18km, +1m dislivello, difficoltà media. Vetta più alta della Toscana! Rifugio Ce...',
+  'Monte Prado: escursione al Lago Bargetana (Toscana)',
   NOW(),
   NOW()
 )

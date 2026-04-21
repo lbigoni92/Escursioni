@@ -57,8 +57,8 @@ VALUES (
   10.607207,
   'POINT(10.607207 43.848515)',
   'd19372530ce4da78e5eb9e69a3711a31ba0ec15251fadb237ca00b07bb545a3c',
-  'Giro in bici Lucca: Serchio, laghi, mura & Lucca! Percorso facile e affascinante per ammirare natura, pesca sportiva & storia. 🚴‍♂️🇮🇹',
-  'Trekking Serchio Lucca: Escursione Bici nel Parco del Serchio',
+  'Giro in bici Poracri-Lucca Serchio: 41.87km facile lungo il fiume! Perfetto per un''escursione in Toscana, con vista su laghi, mura e fiume Serchio. Ideale pe...',
+  'Lucca - Esplora il Serchio in Bici (Facile)',
   NOW(),
   NOW()
 )

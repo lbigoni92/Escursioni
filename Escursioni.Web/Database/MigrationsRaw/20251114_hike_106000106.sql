@@ -52,8 +52,8 @@ VALUES (
   10.413151,
   'POINT(10.413151 43.522496)',
   '188d7773fe435a47932d5f349f313307d6801a69fdf4ae92610a6857e35410f9',
-  'Escursione notturna a Livorno: Sambuca, Lucciole e panorami mozzafiato! Trekking in luna piena tra sentieri e stelle. Scopri di più!',
-  'Trekking Notturno Lucciole Valle Benedetta - Sambuca Livorno',
+  'Escursione Valle Benedetta (Livorno): Anello facile 9.8km +329m tra lucciole e stelle! Vista mare e Apuane. Perfetta per famiglie.',
+  'Sambuca - Valle Benedetta: Escursione Facile con Lucciole',
   NOW(),
   NOW()
 )

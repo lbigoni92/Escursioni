@@ -53,8 +53,8 @@ VALUES (
   10.276352,
   'POINT(10.276352 43.958427)',
   '6693d00b4b70e2494c6463e4dbe3410b01b5b1ccfbe2a38906ac29ecd7a15653',
-  'Escursione Apuanella: Gabberi, Lieto e Stazzema! Panorami mozzafiato, sentiero facile e compagnia. Trekking imperdibile!',
-  'Trekking Monte Gabberi: Escursione La Culla, Toscana',
+  'Escursione Monte Gabberi, Monte Lieto e Sant''Anna di Stazzema (Toscana) - Anello 13.9km, +1m. Trekking facile-medio da La Culla con panorami mozzafiato!',
+  'Monte Gabberi - Monte Lieto: Escursione da La Culla (Toscana)',
   NOW(),
   NOW()
 )

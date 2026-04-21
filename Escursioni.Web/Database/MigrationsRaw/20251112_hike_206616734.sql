@@ -52,8 +52,8 @@ VALUES (
   12.249836,
   'POINT(12.249836 42.485885)',
   '2f53eb97c19a3d22c80a7ebad462b07fc892d9967618c9ea5a7f90728914b438',
-  'Escursioni Bomarzo: Necropoli, Piramide Etrusca & Iscrizione Romana. Sentiero facile ma con tratti impegnativi! Scopri la storia.',
-  'Trekking Piramide Etrusca Bomarzo: Escursione Necropoli Santa ...',
+  'Escursione Bomarzo: Necropoli Etrusca & Piramide Romana | Lazio | 8.36km, 206m D+, Percorso Medio. Esplora i resti etruschi e romani!',
+  'Bomarzo: Escursione Piramide Etrusca e Necropoli (Lazio)',
   NOW(),
   NOW()
 )

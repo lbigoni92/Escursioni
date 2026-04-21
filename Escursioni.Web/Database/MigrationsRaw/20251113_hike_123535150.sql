@@ -62,8 +62,8 @@ Scopri di più sulle <em>escursioni nel Parco Caselli</em> e pianifica la tua pr
   10.717277,
   'POINT(10.717277 43.230595)',
   '695ef261f4dda7479975f340b344e3fbff734941034b463138b4bc5311895981',
-  'Escursioni Parco Caselli: Cascata Caselli, sentieri facili e panorami mozzafiato! Guidi, ponti, lago e cascata. Perfetto per famiglie!',
-  'Trekking Cascate Parco Caselli: Escursione Facile Italia',
+  'Escursione Parco Caselli Cascata Caselli (Canneto, Toscana): Anello facile 11.6km +402m. Scopri la cascata, la chiesa e il lago in questo splendido percorso!',
+  'Parco Caselli: Escursione Cascata Caselli (Toscana)',
   NOW(),
   NOW()
 )

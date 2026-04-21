@@ -50,8 +50,8 @@ VALUES (
   10.884643,
   'POINT(10.884643 42.766532)',
   '53eee3c485cc81d3c590dd4ca9d156f1e93958a756a06f2b8a1c408a407dcd1f',
-  'Escursioni Castiglione della Pescaia: visita al borgo medievale sul mare, rovine romane e spiagge. Scopri il Paesaggio Toscano!',
-  'Trekking Castiglione Pescaia: Sentiero Romani & Mare',
+  'Escursione Castiglione della Pescaia: Anello facile 4.7km, +47m | Toscana. Giro nel borgo sul mare, visita al centro storico e spiagge! Perfetto per una gior...',
+  'Castiglione della Pescaia: escursione facile sul mare (Toscana)',
   NOW(),
   NOW()
 )

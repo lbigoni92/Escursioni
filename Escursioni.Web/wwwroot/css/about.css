@@ -75,3 +75,27 @@ body.light-mode .about-social-links a:hover {
     background: #4a9fe5;
     color: #fff;
 }
+
+/* ===================== ABOUT WARNING ===================== */
+.about-warning {
+    margin: 2.2rem 0 2.2rem 0;
+    padding: 1.2rem 1.5rem;
+    border-radius: 14px;
+    background: linear-gradient(90deg, var(--accent-soft), transparent 80%);
+    color: var(--text-main);
+    border: 1.5px solid var(--accent);
+    font-size: 1.13rem;
+    font-weight: 500;
+    box-shadow: 0 2px 16px #0001;
+    line-height: 1.6;
+}
+body.light-mode .about-warning {
+    background: linear-gradient(90deg, #e0f2fe 0%, #f8fafc 100%);
+    color: #1e293b;
+    border-color: #4a9fe5;
+}
+body.dark-mode .about-warning {
+    background: linear-gradient(90deg, #1e293b 0%, #0f172a 100%);
+    color: #e2e8f0;
+    border-color: #93c5fd;
+}

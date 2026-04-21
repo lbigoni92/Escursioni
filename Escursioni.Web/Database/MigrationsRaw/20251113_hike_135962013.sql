@@ -58,8 +58,8 @@ Preparati a scoprire paesaggi suggestivi caratterizzati da **mulini abbandonati*
   10.3778,
   'POINT(10.3778 43.8856)',
   'b8a4a8056c6275611e3980d6f432013d5e1b86716dc1e767be47f7ffd61514b4',
-  'Esplora Fibialla: Geocaching e natura! Percorso facile per famiglie, mulini abbandonati e tante geocache da scoprire!',
-  'Trekking Fibialla: Geocaching e Sentieri in Toscana',
+  'Escursione Fibialla (Stabbiano a Massa): Geocaching in Toscana! Anello di 4.6km, +130m, adatto famiglie e principianti. Trova le geocache tra mulini e ruscel...',
+  'Fibialla: Escursione Geocaching da Stabbiano (Toscana)',
   NOW(),
   NOW()
 )

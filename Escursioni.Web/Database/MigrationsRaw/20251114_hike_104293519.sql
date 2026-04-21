@@ -55,8 +55,8 @@ VALUES (
   11.216562,
   'POINT(11.216562 42.467715)',
   'a521f1ef19ab963968ac8b07fb9e036d591633f1015d01d011ae97a0355561f2',
-  'Escursioni Bosco della Patanella: sentiero facile con vista sull''Argentario e la Laguna! Osserva uccelli e natura incontaminata.',
-  'Trekking Bosco della Patanella Argentario Lagona Uccelli',
+  'Escursione Bosco della Patanella Quattro Strade: facile anello 1.85km, +15m, pineta e vista Argentario/Laguna. Ideale per una passeggiata!',
+  'Bosco della Patanella: Escursione Facile da Argentario',
   NOW(),
   NOW()
 )

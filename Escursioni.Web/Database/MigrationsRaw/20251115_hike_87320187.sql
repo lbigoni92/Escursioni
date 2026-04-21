@@ -54,8 +54,8 @@ VALUES (
   10.487887,
   'POINT(10.487887 43.737045)',
   '7511c6b57c5a75946b1d1e6f024ed2d6b853b0234878025ea9fe83a3041e6750',
-  'Esplora la Grotta di Agnano: sentiero panoramico, ideale per famiglie! Scopri il fenomeno carsico e fossili millenari. Facile e rilassante!',
-  'Trekking Agnano: Grotta & Buca Fate - Sentiero Facile',
+  'Escursione Agnano Grotta Buca Fate Toscana: percorso facile 9.5km +375m. Ideale per famiglie e amanti del trekking! Scopri la grotta carsica e i resti fossili.',
+  'Agnano: Escursione alla Grotta e Buca delle Fate (Toscana)',
   NOW(),
   NOW()
 )

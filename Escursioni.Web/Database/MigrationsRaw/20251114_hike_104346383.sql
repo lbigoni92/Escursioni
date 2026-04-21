@@ -56,8 +56,8 @@ VALUES (
   11.134698,
   'POINT(11.134698 42.553842)',
   'a95dc644ec879e5524518484d45049631a9c466cd6f8d49b3e2d520cfccb69f3',
-  'Esplora Talamone: borgo medievale incantevole e splendida costa! Escursioni e panorami mozzafiato in Toscana. Scopri di più!',
-  'Trekking Escursione Talamone: Sentiero del Monte Titanio',
+  'Escursione Talamone: Anello nel Parco Naturale della Maremma Toscana. 13.57km, +454m, difficoltà media. Scopri il borgo medievale e il Monte Talamone!',
+  'Talamone: Escursione Anello da Talamone (Toscana)',
   NOW(),
   NOW()
 )

@@ -56,8 +56,8 @@ VALUES (
   10.6654,
   'POINT(10.6654 44.144853)',
   'd45b03956d82dd21efee33fb9a124c483ddb087ab9d4526a748a30547ee82b14',
-  'Ciaspolata Abetone: Rifugio Casetta di Lapo, Cima Diaccione e Lago della Risaia! Anello ghiacciato, panorami mozzafiato. Scopri il sentiero!',
-  'Trekking Ciaspolata Abetone: Diaccione, Risaia e Casetta di Lapo',
+  'Ciaspolata Abetone: Rifugio Casetta di Lapo, Cima del Diaccione & Lago della Risaia (12km, 601m) | Toscana Facile',
+  'Abetone: Ciaspolata Cima Diaccione e Risaia da Passo Abetone',
   NOW(),
   NOW()
 )

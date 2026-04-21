@@ -60,8 +60,8 @@ Questa <strong>trekking</strong> a <strong>Caprona</strong> offre un''opportunit
   10.505687,
   'POINT(10.505687 43.710453)',
   'cafde6dfd12b2ebaf198a07e226594ffbbb0958182a188b53177fdc032d8c0b8',
-  'Esplora Caprona e Verruca: sentiero facile tra roccia, torre medievale e Rocca della Verruca! Escursioni in Italia.',
-  'Trekking Caprona Verruca: Torre Upezzinghi – Escursione Facile',
+  'Escursione Caprona Verruca Torre Upezzinghi: Anello Toscano 9.8km, +523m. Trekking facile/medio tra torre medievale e Rocca della Verruca. Ottimo giro a Capr...',
+  'Caprona - Verruca - Torre Upezzinghi: Escursione Toscana',
   NOW(),
   NOW()
 )

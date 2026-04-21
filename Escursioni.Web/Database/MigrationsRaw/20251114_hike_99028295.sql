@@ -52,8 +52,8 @@ VALUES (
   10.40277,
   'POINT(10.40277 43.91796)',
   '25f89a26d079223b58803bb4df9665828a62b2aebb1d7bc327bea1f5cdb12dad',
-  'Escursione Monte Rondinaio Lucca: panorami mozzafiato sull''Uomo Morto e la Pania! Sentiero facile e breve, ideale per una gita mattutina.',
-  'Trekking Monte Rondinaio Lucca: Vetta e Panorama!',
+  'Escursione Monte Rondinaio Lucca: Anello facile 10.13km, +536m. Vista panoramica su Lucca, Uomo Morto e Piglione. Perfetto per una giornata in Toscana!',
+  'Monte Rondinaio: escursione da Santa Maria Albiano (Toscana)',
   NOW(),
   NOW()
 )

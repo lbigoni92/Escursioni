@@ -56,8 +56,8 @@ VALUES (
   10.277847,
   'POINT(10.277847 43.672442)',
   '200c793fb4760fab456d03d8714ae3d5baeb4ca17303e5576d3f33cf26bcf199',
-  'Escursioni Pisa: Pineta di Marina di Pisa, facile passeggiata! Perfetta per famiglie e relax. Scopri il sentiero lineare di 400m.',
-  'Trekking Pineta di Marina di Pisa: Escursione Facile',
+  'Escursione Marina di Pisa: passeggiata facile in pineta a PortoMirabello (Toscana)! 7.9km, +7m di dislivello. Perfetta per una passeggiata domenicale o dopo ...',
+  'Marina di Pisa: Escursione in Pineta (Toscana)',
   NOW(),
   NOW()
 )

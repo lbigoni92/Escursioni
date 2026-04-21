@@ -256,7 +256,7 @@ public class HikeRepository : IHikeRepository
             .Include(h => h.Media)
             .Where(h => h.Id != hikeId);
 
-        // Prefer same Comune, then same Provincia
+        // 1. Stesso comune
         if (!string.IsNullOrWhiteSpace(comune))
         {
             var comuneLower = comune.Trim().ToLower();
@@ -266,56 +266,50 @@ public class HikeRepository : IHikeRepository
                 .Take(count)
                 .ToListAsync();
 
-            if (sameComune.Count >= count)
+            if (sameComune.Count >= count || !lat.HasValue || !lon.HasValue)
                 return sameComune;
 
-            // Fill remaining from same Provincia
+            // 2. Se mancano, riempi con escursioni entro 30km (escludendo già prese)
+            var deltaLat = 30m / 111m;
+            var deltaLon = 30m / (111m * (decimal)Math.Cos((double)lat * Math.PI / 180));
+            var minLat = lat - deltaLat;
+            var maxLat = lat + deltaLat;
+            var minLon = lon - deltaLon;
+            var maxLon = lon + deltaLon;
             var ids = sameComune.Select(h => h.Id).ToHashSet();
-            if (!string.IsNullOrWhiteSpace(provincia))
-            {
-                var provLower = provincia.Trim().ToLower();
-                var sameProv = await query
-                    .Where(h => !ids.Contains(h.Id) && h.Provincia != null && h.Provincia.ToLower() == provLower)
-                    .OrderByDescending(h => h.DataEscursione ?? h.CreatedAt)
-                    .Take(count - sameComune.Count)
-                    .ToListAsync();
-                sameComune.AddRange(sameProv);
-            }
-
-            if (sameComune.Count >= count)
-                return sameComune;
-
-            // Fill remaining by geographic proximity
-            if (lat.HasValue && lon.HasValue)
-            {
-                var allIds = sameComune.Select(h => h.Id).ToHashSet();
-                var nearby = await query
-                    .Where(h => !allIds.Contains(h.Id) && h.CentroidLat.HasValue && h.CentroidLon.HasValue)
-                    .OrderBy(h => (h.CentroidLat!.Value - lat.Value) * (h.CentroidLat!.Value - lat.Value)
-                                + (h.CentroidLon!.Value - lon.Value) * (h.CentroidLon!.Value - lon.Value))
-                    .Take(count - sameComune.Count)
-                    .ToListAsync();
-                sameComune.AddRange(nearby);
-            }
-
+            var nearby = await query
+                .Where(h => !ids.Contains(h.Id)
+                    && h.CentroidLat.HasValue && h.CentroidLon.HasValue
+                    && h.CentroidLat >= minLat && h.CentroidLat <= maxLat
+                    && h.CentroidLon >= minLon && h.CentroidLon <= maxLon)
+                .OrderBy(h => (h.CentroidLat!.Value - lat.Value) * (h.CentroidLat!.Value - lat.Value)
+                            + (h.CentroidLon!.Value - lon.Value) * (h.CentroidLon!.Value - lon.Value))
+                .Take(count - sameComune.Count)
+                .ToListAsync();
+            sameComune.AddRange(nearby);
             return sameComune;
         }
 
-        // No comune: use proximity if available
+        // Se non c'è comune, solo per prossimità
         if (lat.HasValue && lon.HasValue)
         {
+            var deltaLat = 30m / 111m;
+            var deltaLon = 30m / (111m * (decimal)Math.Cos((double)lat * Math.PI / 180));
+            var minLat = lat - deltaLat;
+            var maxLat = lat + deltaLat;
+            var minLon = lon - deltaLon;
+            var maxLon = lon + deltaLon;
             return await query
-                .Where(h => h.CentroidLat.HasValue && h.CentroidLon.HasValue)
+                .Where(h => h.CentroidLat.HasValue && h.CentroidLon.HasValue
+                    && h.CentroidLat >= minLat && h.CentroidLat <= maxLat
+                    && h.CentroidLon >= minLon && h.CentroidLon <= maxLon)
                 .OrderBy(h => (h.CentroidLat!.Value - lat.Value) * (h.CentroidLat!.Value - lat.Value)
                             + (h.CentroidLon!.Value - lon.Value) * (h.CentroidLon!.Value - lon.Value))
                 .Take(count)
                 .ToListAsync();
         }
 
-        // Fallback: latest hikes
-        return await query
-            .OrderByDescending(h => h.DataEscursione ?? h.CreatedAt)
-            .Take(count)
-            .ToListAsync();
+        // Nessun risultato
+        return new List<Hike>();
     }
 }

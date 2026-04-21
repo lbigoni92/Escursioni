@@ -53,8 +53,8 @@ Il <strong>sentiero</strong> si snoda all''interno del <strong>Parco Mediceo di 
   11.298709,
   'POINT(11.298709 43.859992)',
   '9fc4a12e44b1f5cbfa725e63a14ffec3b41a10c8a5b1d2a260ec0879fae7c57e',
-  'Esplora il Parco Mediceo di Pratolino! UNESCO, Colosso di Giambologna, giardini all''italiana e romantici. Visita Firenze, ingresso gratuito!',
-  'Trekking Parco Mediceo Pratolino: Escursioni Firenze UNESCO',
+  'Escursione Parco Mediceo Pratolino: Anello facile 4.97km +89m | Toscana, Firenze. Colosso Appennino, giardini e ville medicee. Aperto 1/4-29/10!',
+  'Parco Mediceo Pratolino: escursione da Pratolino (anello)',
   NOW(),
   NOW()
 )

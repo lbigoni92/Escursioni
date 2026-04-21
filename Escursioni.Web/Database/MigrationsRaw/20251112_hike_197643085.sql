@@ -54,8 +54,8 @@ VALUES (
   10.898635,
   'POINT(10.898635 43.524238)',
   '7e2bf7deff00dc9d9ac3595cdc4b3bb2b12b9452e1738db49a9125e8ecb7c55d',
-  'Escursioni Umbria: Quercia Merenda, Fonte del Tasso & Vignale! Anello affascinante tra natura, borghi e storia. Scopri il sentiero!',
-  'Trekking Vignale: Quercia Merenda, Fonte del Tasso Italia',
+  'Escursione Quercia Merenda, Fonte del Tasso e Vignale: anello Toscano 16.1km, +495m, difficoltà media. Partenza Cappella Ascensione. Sentiero suggestivo con ...',
+  'Vignale: escursione da Cappella dell''Ascensione (anello, Toscana)',
   NOW(),
   NOW()
 )

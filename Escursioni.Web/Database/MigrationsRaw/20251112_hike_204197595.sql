@@ -54,8 +54,8 @@ VALUES (
   10.77653,
   'POINT(10.77653 44.121525)',
   '5f61767092b6d65b7c703ff90bee98bafcf9ed10e6bb51d19e840f483db0928c',
-  'Ciaspolata imperdibile! Lago Scaffaiolo, Monte Spigolino & Passo della Calanca da Doganaccia. Escursione facile con ciaspole, neve e rifugio! ❄️⛰️',
-  'Trekking Ciaspolata Passo Calanca Lago Scaffaiolo Italia',
+  'Ciaspolata Passo della Calanca, Lago Scaffaiolo e Monte Spigolino (Doganaccia) | Toscana Facile 9.4km+409m | Sentieri 66/286, Rifugio Duca!',
+  'Passo della Calanca: escursione con lago da Doganaccia (Toscana)',
   NOW(),
   NOW()
 )

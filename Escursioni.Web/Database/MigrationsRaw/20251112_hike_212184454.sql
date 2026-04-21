@@ -52,8 +52,8 @@ VALUES (
   10.317894,
   'POINT(10.317894 43.995939)',
   'd100d7caf18097a03171a166ad71502376dab5740af330a6c5c1c1ec0c66317b',
-  'Escursione Foce Petrosciana & Monte Forato: Ferrata, panorami mozzafiato e sentieri in Versilia! Percorso impegnativo ma ricco di soddisfazioni.',
-  'Trekking Foce Petrosciana: Monte Forato, Ferrata & Procinto',
+  'Escursione Monte Forato Sud (Toscana): sentiero CAI 6, ferrata e vista arc naturale! Percorso anello 12.4km, +1m, difficoltà impegnativa. Perfetto per ferrat...',
+  'Monte Forato: Escursione da Stazzema (Ferrata, Procinto)',
   NOW(),
   NOW()
 )

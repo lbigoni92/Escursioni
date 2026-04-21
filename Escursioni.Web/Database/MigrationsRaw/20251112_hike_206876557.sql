@@ -60,8 +60,8 @@ VALUES (
   12.103958,
   'POINT(12.103958 42.625865)',
   'bec9e86fe78697d377a91108cb0463f7996799d82c6afaa5c18dbb7d452f8a54',
-  'Esplora Civita di Bagnoregio: un borgo medievale unico! Ponte, storia e natura in un''esperienza indimenticabile nel Lazio. Scopri di più!',
-  'Trekking Civita Bagnoregio: Escursione Lazio – Sentiero Sugges...',
+  'Escursione Civita di Bagnoregio: Lazio, borgo medievale "che muore"! Trek di 3.9km +210m solo andata. Ponte pedonale spettacolare e salita impegnativa. Visit...',
+  'Civita di Bagnoregio: Escursione da Bolsena (trekking)',
   NOW(),
   NOW()
 )

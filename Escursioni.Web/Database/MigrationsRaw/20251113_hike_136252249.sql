@@ -49,8 +49,8 @@ VALUES (
   11.633135,
   'POINT(11.633135 42.429908)',
   '9b92ac5c71be7efaf48943b68d0b7432e2be0f02780139b549bd71c74a8f520a',
-  'Esplora il Castello di Vulci e il Parco Archeologico! Antica città etrusca, reperti e sentieri di trekking nella Tuscia. Scopri Vulci!',
-  'Trekking Vulci: Escursione al Castello e Parco Archeologico',
+  'Escursione Castello di Vulci: Anello nel Parco Archeologico della Tuscia (Lazio) 9.04km, +95m. Esplora le rovine etrusche, il museo e le necropoli!',
+  'Castello di Vulci: escursione archeologica nel Lazio',
   NOW(),
   NOW()
 )
