@@ -52,8 +52,8 @@ VALUES (
   10.664956,
   'POINT(10.664956 44.144817)',
   '71c79503e7533c7f9575cc8e4d0f6247496ef3dc2a82b856c88b33a78acfcb4b',
-  'Escursione Libro Aperto: vedi il panorama mozzafiato del Monte Lagoni e Rifugio Casetta di Lapo! Sentiero facile e panoramico.',
-  'Trekking Monte Libro Aperto Abetone: Rifugio Casetta Lapo',
+  'Escursione Monte Libro Aperto Abetone: Anello con vista su Monte Cimone! Sentiero facile (diff. media) 17km, +835m. Punto di partenza Rifugio Casetta di Lapo...',
+  'Monte Lagoni: escursione da Abetone (anello, panoramico)',
   NOW(),
   NOW()
 )

@@ -78,8 +78,9 @@ VALUES (
   10.629575,
   'POINT(10.629575 44.129803)',
   '6d881e615554a2152cf162e58cbf57e2d8acea208540dcabae25460109c60230',
-  'Anello Monte Gomito: Escursione spettacolare tra Val di Luce e Alpe Tre Potenze! Sentieri panoramici, viste mozzafiato e viste sulla Cimone. Perfetto per esc...',
-  'Trekking Val di Luce: Monte Gomito, Denti Vecchia & Rose',
+  'Escursione Anello Val di Luce: Monte Gomito, Denti Vecchia & Alpe Tre Potenze!
+Percorso di 18,4km, difficoltà media, 914m di dislivello. Ideale per trekking ...',
+  'Val di Luce: escursione anello da Val di Luce (panorami)',
   NOW(),
   NOW()
 )

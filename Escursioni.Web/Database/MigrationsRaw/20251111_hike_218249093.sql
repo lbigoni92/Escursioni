@@ -51,8 +51,8 @@ VALUES (
   10.194235,
   'POINT(10.194235 44.138263)',
   '720cc9d4b78398e809aaddb2a49da4ccd23a05531b00519c21afffb1d9143321',
-  'Escursione Pizzo d’Uccello & Ferrata Tordini-Galligani: sfida alpina in Trentino! CAI 137, ferrata tecnica, panorama mozzafiato. EEA, 12km, 1200m D+.',
-  'Trekking Pizzo d’Uccello Ferrata Tordini-Galligani Italia',
+  'Escursione Pizzo d’Uccello + Ferrata Tordini-Galligani (Toscana) | Diff. EEA, 12km, 1200m+ | Sentieri CAI 137, 181, 192. Dettagli e mappa!',
+  'Pizzo d’Uccello Ferrata Tordini-Galligani: Escursione EEA Toscana',
   NOW(),
   NOW()
 )

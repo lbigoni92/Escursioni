@@ -59,8 +59,8 @@ VALUES (
   10.272197,
   'POINT(10.272197 44.034202)',
   '82ea18cd13f6bc96de450878f93339f0de20831de78edb099e994bc74a97ace8',
-  'Escursione "Le Non Panie della Croce e Pizzo d''Uccello": Percorso impervio a causa del maltempo. Rifugio accogliente e compagnia. Riproveremo!',
-  'Trekking Pania della Croce: Escursione e Sentieri Tosco-Emiliani',
+  'Escursione Levigliani - Pania della Croce: solo andata media, 15.8km. Rientrata causa maltempo. Rifugio caldo e cortesia! Toscana.',
+  'Pizzo d''Uccello: escursione da Levigliani (Toscana)',
   NOW(),
   NOW()
 )

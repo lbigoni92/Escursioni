@@ -10,24 +10,36 @@
 <h1>Migration Editor</h1>
 <p>Totale migrazioni: <strong>@_migrations.Count</strong></p>
 
-<div style="margin-bottom:1rem;display:flex;align-items:center;gap:1rem;">
+<div style="margin-bottom:1rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap;">
     <input type="text" @bind="_filter" @bind:event="oninput" placeholder="Filtra per nome file..." style="padding:6px;width:400px;" />
-    <button @onclick="StartGeneration" disabled="@BulkService.IsRunning"
-            style="padding:6px 16px;background:#6f42c1;color:#fff;border:none;border-radius:4px;cursor:pointer;font-weight:600;font-size:0.85rem;white-space:nowrap;">
-        @if (BulkService.IsRunning)
+    <button @onclick="() => StartGeneration(BulkMode.SeoOnly)" disabled="@BulkService.IsRunning"
+            style="padding:6px 16px;background:#17a2b8;color:#fff;border:none;border-radius:4px;cursor:pointer;font-weight:600;font-size:0.85rem;white-space:nowrap;">
+        @if (BulkService.IsRunning && BulkService.Mode == BulkMode.SeoOnly)
         {
             var pct = BulkService.Total > 0 ? (int)((BulkService.Current - 1) * 100.0 / BulkService.Total + StepProgress()) : 0;
             <span>⏳ @BulkService.Current/@BulkService.Total (@pct%) — @FormatCurrentStep()</span>
         }
-        else if (!string.IsNullOrEmpty(BulkService.Message))
+        else
         {
-            <span>✨ @BulkService.Message</span>
+            <span>🔄 Rigenera Titolo SEO + Meta Desc.</span>
+        }
+    </button>
+    <button @onclick="() => StartGeneration(BulkMode.HtmlOnly)" disabled="@BulkService.IsRunning"
+            style="padding:6px 16px;background:#6f42c1;color:#fff;border:none;border-radius:4px;cursor:pointer;font-weight:600;font-size:0.85rem;white-space:nowrap;">
+        @if (BulkService.IsRunning && BulkService.Mode == BulkMode.HtmlOnly)
+        {
+            var pct = BulkService.Total > 0 ? (int)((BulkService.Current - 1) * 100.0 / BulkService.Total) : 0;
+            <span>⏳ @BulkService.Current/@BulkService.Total (@pct%) — Descrizione HTML</span>
         }
         else
         {
-            <span>✨ Genera Descrizione Html e Meta Desc.</span>
+            <span>✨ Genera Descrizione HTML</span>
         }
     </button>
+    @if (!string.IsNullOrEmpty(BulkService.Message))
+    {
+        <span style="font-size:0.85rem;color:#155724;background:#d4edda;padding:4px 10px;border-radius:4px;">✓ @BulkService.Message</span>
+    }
     @if (!string.IsNullOrEmpty(BulkService.Error))
     {
         <span style="font-size:0.85rem;color:#721c24;background:#f8d7da;padding:4px 10px;border-radius:4px;">@BulkService.Error</span>
@@ -200,9 +212,9 @@
         return coverRow?.GetValueOrDefault("path_relativo");
     }
 
-    private async Task StartGeneration()
+    private async Task StartGeneration(BulkMode mode)
     {
-        if (!BulkService.TryStart()) return;
+        if (!BulkService.TryStart(mode)) return;
         await BulkService.RunAsync();
     }
 

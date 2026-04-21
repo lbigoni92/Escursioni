@@ -59,8 +59,8 @@ VALUES (
   10.713153,
   'POINT(10.713153 44.034508)',
   '3ffda44a3accd8d3b27e00611410ad55fbbcadd410cc78b7f91fe9890f1cfa5f',
-  'Escursione Monte Memoriante & Penna di Lucchio: Anello spettacolare in Abruzzo! Viste mozzafiato, sentieri panoramici e cime facili. Scopri Lucchio!',
-  'Trekking Penna di Lucchio: Monte Memoriante e Lischeta!',
+  'Escursione Monte Memoriante Lucchio: Anello Toscana 9.8km, 783m+ | Trekking facile/medio tra Penna di Lucchio & Monte Lischeta. Dettagli e mappa!',
+  'Monte Memoriante: escursione da Lucchio (anello, Toscana)',
   NOW(),
   NOW()
 )

@@ -60,8 +60,8 @@ VALUES (
   10.354048,
   'POINT(10.354048 43.848617)',
   'fee331bc180637249b5d606dbecda336710d505caa75bf80f3dc3a1525733927',
-  'Escursione Massaciuccoli: Tempio Hinduista, fiori di loto, alpaca e natura! Percorso facile e panoramico di 10km con agriturismi e panorami mozzafiato.',
-  'Trekking Massaciuccoli: Via Erbe, Tempio Hinduista & Natura',
+  'Escursione Massaciuccoli: Tempio Hinduista, fiori di loto e alpaca! Percorso facile 13km (LU) – Anello tra laghi, natura e cultura.',
+  'Massaciuccoli: escursione da Campo Sportivo (flora, lago)',
   NOW(),
   NOW()
 )

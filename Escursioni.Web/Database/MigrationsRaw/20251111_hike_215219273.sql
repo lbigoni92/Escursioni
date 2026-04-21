@@ -51,8 +51,8 @@ VALUES (
   10.346827,
   'POINT(10.346827 43.513375)',
   'ebc99fc0d03ba3ee5fa268772e79c40ac008d67d4da1b5208b24dee1ca96f47e',
-  'Escursione al Botro del Diavolo: canyon incantato nel cuore delle colline livornesi. Natura, cascate e panorama mozzafiato!',
-  'Trekking Botro del Diavolo: Escursione Livorno Facile',
+  'Escursione Botro del Diavolo Villa Maria: trekking facile 15.9km, 477m dislivello. Scopri il canyon diaspro toscano! Percorso anello zona Grosseto.',
+  'Botro del Diavolo: Escursione Facile da Villa Rodocanacchi',
   NOW(),
   NOW()
 )

@@ -56,8 +56,8 @@ VALUES (
   10.017415,
   'POINT(10.017415 44.337207)',
   '093f8f99981794b1e091877cad20cb254ac11c16b3d7a32a361c6b4e6ec29427',
-  'Escursione Treschietto-Pisciaron de pungitopo: vista mozzafiato a Bagnone! Percorso di trekking 8km. Escursioni in Val Podgora.',
-  'Trekking Treschietto-Pisciaron Bagnone: Escursione Imperdibile!',
+  'Escursione Treschietto - Pisciaron de pungitopo: trekking in Toscana, 20.31km, +355m. Percorso medio da Bagnone a Treschietto. Ideale per amanti del sentiero!',
+  'Treschietto: Escursione a Pisciaron de Pungitopo da Bagnone',
   NOW(),
   NOW()
 )

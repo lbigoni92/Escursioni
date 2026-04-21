@@ -54,8 +54,8 @@ VALUES (
   10.111442,
   'POINT(10.111442 44.360999)',
   'b9c26b0dcf7fc9c9696f9603e2028b0477ce893f97cffa7d7b0915716b854b10',
-  'Escursione Pratospilla-Bragalata: trekking epico in Appennino! Vette, panorami mozzafiato e sentieri impegnativi. Perfetto per escursionisti esperti!',
-  'Trekking Monte Pratospilla: Escursione Appennino Parmense',
+  'Escursione Pratospilla-Bragalata-Losanna: trekking appennino parmense EE, 36km, 1861m, anello o traversata. Viste mozzafiato! | escursionilucabigoni.it',
+  'Monte Bragalata: Escursione da Prato Spilla (Appennino)',
   NOW(),
   NOW()
 )

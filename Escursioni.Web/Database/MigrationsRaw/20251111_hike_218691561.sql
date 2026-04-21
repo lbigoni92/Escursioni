@@ -58,8 +58,8 @@ VALUES (
   10.56027,
   'POINT(10.56027 43.734788)',
   'a03e200b02eb3dc46e8e0a08b2c372eacfbe28668141475e8f867fcc601a9f8b',
-  'Ferrata Buti Sant''Antone: sfida in Toscana! Percorso impegnativo (3 sezioni) per esperti. Attrezzatura obbligatoria! 🧗‍♂️ Info, traccia e consiglio.',
-  'Ferrata di Buti Sant’Antone: Trekking Impegnativo Toscana',
+  'Ferrata di Sant’Antone Buti: Impegnativa ferrata in Toscana (79m, 0.79km) | Difficoltà media, attrezzatura obbligatoria!',
+  'Ferrata di Buti: Sant’Antone (Toscana) – Guida Dettagliata',
   NOW(),
   NOW()
 )

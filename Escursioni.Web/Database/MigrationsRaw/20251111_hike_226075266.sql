@@ -56,8 +56,8 @@ VALUES (
   10.776257,
   'POINT(10.776257 44.121643)',
   '4c1d823b6e65e82e08d99fbe30bc76e80cef1dff5e79a72154468ae7b27a97ab',
-  'Trekking 2 giorni Doganaccia: Cascate, Monte La Nuda & Corno alle Scale! Esplora l''Appennino Tosco-Emiliano con panorami mozzafiato.',
-  'Trekking Doganaccia – Monte La Nuda: 2 Giorni Appennino',
+  'Escursione Doganaccia: trekking 2 giorni Anello Tosca! Croce Arcana, Cascate Dardagna, Monte La Nuda & Corno alle Scale. Diff. Escursionistico, 30km, 1500m d...',
+  'Doganaccia: Trekking Anello 2 Giorni (Appennino Tosco-Emiliano)',
   NOW(),
   NOW()
 )

@@ -49,8 +49,8 @@ VALUES (
   10.319264,
   'POINT(10.319264 44.009632)',
   '0b21abae5440946ec9e3b426b57690802087a4e4800d4d4d698d7a458d04d37d',
-  'Escursione Apuane: Pania, Pizzo delle Saette e Rifugio Del Freo! Percorso ad anello da Orzale (1600m) | Trekking in Toscana',
-  'Trekking Apuane: Pania Croce, Saette e Rifugio Del Freo',
+  'Escursione Orzale Pania della Croce: Anello Apuane (14.7km, 1600m+) Da Orzale a Pizzo delle Saette & Rifugio Del Freo. Percorso medio, consigliato a escursio...',
+  'Pania della Croce: escursione da Orzale (14.7km)',
   NOW(),
   NOW()
 )

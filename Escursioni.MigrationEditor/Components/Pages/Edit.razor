@@ -541,6 +541,16 @@
         _message = $"Cover impostata: {photoFileName}";
     }
 
+    private HikeSeoContext BuildSeoContext() => new(
+        Comune: GetVal("comune"),
+        Provincia: GetVal("provincia"),
+        Regione: GetVal("regione"),
+        Difficolta: GetVal("difficolta"),
+        DistanzaKm: GetVal("distanza_km"),
+        DislivelloM: GetVal("dislivello_m"),
+        TipoGiro: GetVal("tipo_giro")
+    );
+
     private async Task GenerateSeoTitle()
     {
         if (_mf == null) return;
@@ -556,7 +566,7 @@
                 _seoTitleError = "Compila titolo o descrizione prima di generare.";
                 return;
             }
-            var result = await MetaGen.GenerateSeoTitleAsync(titolo, descrizione);
+            var result = await MetaGen.GenerateSeoTitleAsync(titolo, descrizione, BuildSeoContext());
             SetValue("titolo_seo", result);
         }
         catch (Exception ex)
@@ -585,7 +595,7 @@
                 _metaError = "Compila titolo o descrizione prima di generare.";
                 return;
             }
-            var result = await MetaGen.GenerateAsync(titolo, descrizione);
+            var result = await MetaGen.GenerateAsync(titolo, descrizione, BuildSeoContext());
             SetValue("meta_descrizione", result);
         }
         catch (Exception ex)
@@ -614,7 +624,7 @@
                 _htmlError = "Compila la descrizione testo prima di generare.";
                 return;
             }
-            var result = await MetaGen.GenerateHtmlAsync(titolo, descrizione);
+            var result = await MetaGen.GenerateHtmlAsync(titolo, descrizione, BuildSeoContext());
             SetValue("descrizione_html", result);
         }
         catch (Exception ex)

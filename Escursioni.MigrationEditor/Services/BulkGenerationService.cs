@@ -1,5 +1,7 @@
 namespace Escursioni.MigrationEditor.Services;
 
+public enum BulkMode { All, SeoOnly, HtmlOnly }
+
 public class BulkGenerationService
 {
     private readonly MigrationParserService _parser;
@@ -13,6 +15,7 @@ public class BulkGenerationService
     public string? Error { get; private set; }
     public string? CurrentFileName { get; private set; }
     public string? CurrentStep { get; private set; }
+    public BulkMode Mode { get; private set; }
 
     public BulkGenerationService(MigrationParserService parser, MetaDescriptionGenerator metaGen)
     {
@@ -20,12 +23,13 @@ public class BulkGenerationService
         _metaGen = metaGen;
     }
 
-    public bool TryStart()
+    public bool TryStart(BulkMode mode = BulkMode.All)
     {
         lock (_lock)
         {
             if (IsRunning) return false;
             IsRunning = true;
+            Mode = mode;
             Message = null;
             Error = null;
             Current = 0;
@@ -61,12 +65,29 @@ public class BulkGenerationService
                     if (vals == null) return false;
                     var titolo = vals.GetValueOrDefault("titolo");
                     var descrizione = vals.GetValueOrDefault("descrizione");
-                    var descrizioneHtml = vals.GetValueOrDefault("descrizione_html");
-                    // Solo file con titolo/descrizione e descrizione_html mancante o vuota
-                    return ( !string.IsNullOrWhiteSpace(titolo) || !string.IsNullOrWhiteSpace(descrizione) )
-                        && string.IsNullOrWhiteSpace(descrizioneHtml);
+                    if (string.IsNullOrWhiteSpace(titolo) && string.IsNullOrWhiteSpace(descrizione))
+                        return false;
+
+                    return Mode switch
+                    {
+                        BulkMode.SeoOnly => true, // rigenera tutte, priorità a chi manca
+                        BulkMode.HtmlOnly => string.IsNullOrWhiteSpace(vals.GetValueOrDefault("descrizione_html")),
+                        _ => string.IsNullOrWhiteSpace(vals.GetValueOrDefault("descrizione_html"))
+                    };
                 })
-                .OrderBy(m => m.FileName)
+                .OrderBy(m =>
+                {
+                    // Priorità: prima chi non ha titolo_seo o meta_descrizione
+                    if (Mode == BulkMode.SeoOnly)
+                    {
+                        quickCache.TryGetValue(m.FileName, out var vals);
+                        var missing = string.IsNullOrWhiteSpace(vals?.GetValueOrDefault("titolo_seo"))
+                                   || string.IsNullOrWhiteSpace(vals?.GetValueOrDefault("meta_descrizione"));
+                        return missing ? 0 : 1;
+                    }
+                    return 0;
+                })
+                .ThenBy(m => m.FileName)
                 .ToList();
 
             Total = toProcess.Count;
@@ -92,24 +113,43 @@ public class BulkGenerationService
                     var titolo = mf.HikeValues.GetValueOrDefault("titolo") ?? "";
                     var descrizione = mf.HikeValues.GetValueOrDefault("descrizione") ?? "";
 
+                    var ctx = new HikeSeoContext(
+                        Comune: mf.HikeValues.GetValueOrDefault("comune"),
+                        Provincia: mf.HikeValues.GetValueOrDefault("provincia"),
+                        Regione: mf.HikeValues.GetValueOrDefault("regione"),
+                        Difficolta: mf.HikeValues.GetValueOrDefault("difficolta"),
+                        DistanzaKm: mf.HikeValues.GetValueOrDefault("distanza_km"),
+                        DislivelloM: mf.HikeValues.GetValueOrDefault("dislivello_m"),
+                        TipoGiro: mf.HikeValues.GetValueOrDefault("tipo_giro")
+                    );
+
                     CurrentFileName = m.FileName;
 
                     // 1. SEO – Titolo
-                    CurrentStep = "titolo_seo";
-                    var seoTitleResult = await _metaGen.GenerateSeoTitleAsync(titolo, descrizione);
-                    mf.HikeValues["titolo_seo"] = seoTitleResult;
+                    if (Mode is BulkMode.All or BulkMode.SeoOnly)
+                    {
+                        CurrentStep = "titolo_seo";
+                        var seoTitleResult = await _metaGen.GenerateSeoTitleAsync(titolo, descrizione, ctx);
+                        mf.HikeValues["titolo_seo"] = seoTitleResult;
+                    }
 
                     // 2. SEO – Meta Descrizione
-                    CurrentStep = "meta_descrizione";
-                    var metaResult = await _metaGen.GenerateAsync(titolo, descrizione);
-                    mf.HikeValues["meta_descrizione"] = metaResult;
+                    if (Mode is BulkMode.All or BulkMode.SeoOnly)
+                    {
+                        CurrentStep = "meta_descrizione";
+                        var metaResult = await _metaGen.GenerateAsync(titolo, descrizione, ctx);
+                        mf.HikeValues["meta_descrizione"] = metaResult;
+                    }
 
                     // 3. Descrizione HTML
-                    CurrentStep = "descrizione_html";
-                    if (!string.IsNullOrWhiteSpace(descrizione))
+                    if (Mode is BulkMode.All or BulkMode.HtmlOnly)
                     {
-                        var htmlResult = await _metaGen.GenerateHtmlAsync(titolo, descrizione);
-                        mf.HikeValues["descrizione_html"] = htmlResult;
+                        CurrentStep = "descrizione_html";
+                        if (!string.IsNullOrWhiteSpace(descrizione))
+                        {
+                            var htmlResult = await _metaGen.GenerateHtmlAsync(titolo, descrizione, ctx);
+                            mf.HikeValues["descrizione_html"] = htmlResult;
+                        }
                     }
 
                     _parser.Save(mf);

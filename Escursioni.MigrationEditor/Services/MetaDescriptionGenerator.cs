@@ -3,6 +3,17 @@ using System.Text.Json;
 
 namespace Escursioni.MigrationEditor.Services;
 
+/// <summary>Context data for SEO generation — location, difficulty, technical data.</summary>
+public record HikeSeoContext(
+    string? Comune,
+    string? Provincia,
+    string? Regione,
+    string? Difficolta,
+    string? DistanzaKm,
+    string? DislivelloM,
+    string? TipoGiro
+);
+
 public class MetaDescriptionGenerator
 {
     private readonly HttpClient _http;
@@ -16,79 +27,145 @@ public class MetaDescriptionGenerator
         _model = config["Ollama:Model"] ?? "gemma3:4b";
     }
 
-    public async Task<string> GenerateAsync(string titolo, string descrizione)
+    private static string BuildContextBlock(HikeSeoContext? ctx)
     {
-        // Ensure model is available (pulls if missing, no-op if present)
+        if (ctx is null) return "";
+        var sb = new StringBuilder();
+        if (!string.IsNullOrWhiteSpace(ctx.Comune)) sb.AppendLine($"Comune: {ctx.Comune}");
+        if (!string.IsNullOrWhiteSpace(ctx.Provincia)) sb.AppendLine($"Provincia: {ctx.Provincia}");
+        if (!string.IsNullOrWhiteSpace(ctx.Regione)) sb.AppendLine($"Regione: {ctx.Regione}");
+        if (!string.IsNullOrWhiteSpace(ctx.Difficolta)) sb.AppendLine($"Difficoltà: {ctx.Difficolta}");
+        if (!string.IsNullOrWhiteSpace(ctx.DistanzaKm)) sb.AppendLine($"Distanza: {ctx.DistanzaKm} km");
+        if (!string.IsNullOrWhiteSpace(ctx.DislivelloM)) sb.AppendLine($"Dislivello: +{ctx.DislivelloM} m");
+        if (!string.IsNullOrWhiteSpace(ctx.TipoGiro)) sb.AppendLine($"Tipo giro: {ctx.TipoGiro}");
+        return sb.Length > 0 ? sb.ToString() : "";
+    }
+
+    public async Task<string> GenerateAsync(string titolo, string descrizione, HikeSeoContext? ctx = null)
+    {
         await EnsureModelAsync();
 
+        var contextBlock = BuildContextBlock(ctx);
+
         var prompt = $"""
-            Sei un esperto SEO per un sito di escursionismo in italiano.
-            Genera una meta descrizione HTML di massimo 155 caratteri per la seguente escursione.
-            La meta descrizione deve essere accattivante, contenere parole chiave pertinenti e invogliare al click.
-            Rispondi SOLO con il testo della meta descrizione, senza virgolette né spiegazioni.
+            Sei un esperto SEO per un sito amatoriale di escursionismo in italiano (escursionilucabigoni.it).
+            Il sito è di un escursionista amatoriale, NON una guida professionista.
+
+            Genera una meta descrizione di massimo 155 caratteri per questa escursione.
+
+            REGOLE IMPORTANTI:
+            - Scrivi come cercano gli utenti su Google (es: "Monte Forato escursione da Cardoso", "escursione Alpi Apuane facile")
+            - Includi: nome del luogo, tipo attività (escursione/trekking), zona geografica
+            - Se disponibili, menziona difficoltà, distanza o dislivello
+            - Deve invogliare al click: accattivante, concreta, utile
+            - NON usare frasi generiche tipo "scopri il sentiero" senza contesto specifico
+            - Rispondi SOLO con il testo, senza virgolette né spiegazioni
 
             Titolo: {titolo}
             Descrizione: {descrizione}
+            {contextBlock}
             """;
 
-        var body = new
-        {
-            model = _model,
-            messages = new[]
-            {
-                new { role = "user", content = prompt }
-            },
-            stream = false
-        };
-
-        var json = JsonSerializer.Serialize(body);
-        var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-        var response = await _http.PostAsync($"{_baseUrl}/api/chat", content);
-        response.EnsureSuccessStatusCode();
-
-        var result = await response.Content.ReadAsStringAsync();
-        using var doc = JsonDocument.Parse(result);
-
-        var text = doc.RootElement
-            .GetProperty("message")
-            .GetProperty("content")
-            .GetString() ?? "";
-
-        // Clean up: remove surrounding quotes if present
+        var text = await CallOllamaAsync(prompt);
         text = text.Trim().Trim('"', '«', '»');
+        if (text.Length > 160) text = text[..157] + "...";
+        return text;
+    }
 
-        // Truncate to 160 chars if needed
-        if (text.Length > 160)
-            text = text[..157] + "...";
+    public async Task<string> GenerateSeoTitleAsync(string titolo, string descrizione, HikeSeoContext? ctx = null)
+    {
+        await EnsureModelAsync();
+
+        var contextBlock = BuildContextBlock(ctx);
+
+        var prompt = $"""
+            Sei un esperto SEO per un sito amatoriale di escursionismo in italiano.
+
+            Genera un titolo SEO di massimo 60 caratteri per questa escursione.
+
+            REGOLE FONDAMENTALI (search intent):
+            - Il titolo DEVE corrispondere a come gli utenti cercano su Google
+            - Formato ideale: "Nome Luogo: escursione da [punto partenza] (dettagli chiave)"
+            - Esempi di titoli efficaci:
+              • "Monte Forato: escursione da Cardoso (percorso, traccia GPS)"
+              • "Alpi Apuane: trekking al Pizzo d'Uccello da Equi Terme"
+              • "Monte Altissimo: escursione facile con panorama sulle Apuane"
+              • "Garfagnana: anello del Monte Prana da Metato"
+            - Includi SEMPRE: nome del monte/luogo + "escursione" o "trekking"
+            - Se c'è un punto di partenza noto, includilo con "da [luogo]"
+            - Se la difficoltà è un punto di forza (facile o molto difficile), menzionala
+            - NON usare formati tipo "Trekking Monte X: Sentiero CAI Y" (troppo tecnico)
+            - NON usare "Sentiero CAI" nel titolo (gli utenti non cercano così)
+            - Rispondi SOLO con il testo del titolo, senza virgolette né spiegazioni
+
+            Titolo originale: {titolo}
+            Descrizione: {descrizione}
+            {contextBlock}
+            """;
+
+        var text = await CallOllamaAsync(prompt);
+        text = text.Trim().Trim('"', '«', '»');
+        if (text.Length > 65) text = text[..62] + "...";
+        return text;
+    }
+
+    public async Task<string> GenerateHtmlAsync(string titolo, string descrizione, HikeSeoContext? ctx = null)
+    {
+        await EnsureModelAsync();
+
+        var contextBlock = BuildContextBlock(ctx);
+
+        var prompt = $"""
+            Sei un esperto SEO e copywriter per un sito amatoriale di escursionismo in Italia (escursionilucabigoni.it).
+            Il sito è di un escursionista amatoriale appassionato, NON una guida professionista.
+
+            Genera un fragment HTML SEO-ottimizzato per la pagina di dettaglio di un'escursione.
+
+            REGOLE SEO CRITICHE (Google 2026):
+            - Il contenuto deve essere la MIGLIORE RISPOSTA possibile per chi cerca questa escursione
+            - Usa UN SOLO <h2> come titolo principale, formulato come cercano gli utenti
+              (es: "Escursione al Monte Forato da Cardoso" NON "Trekking Monte Forato: Sentiero CAI 127")
+            - Usa <h3> per sotto-sezioni utili all'utente:
+              • "Come arrivare al punto di partenza"
+              • "Il percorso passo per passo"
+              • "Difficoltà e cosa aspettarsi"
+              • "Traccia GPS e informazioni pratiche"
+            - Scrivi in modo NARRATIVO e coinvolgente, come un amico che racconta l'escursione
+            - Includi parole chiave NATURALI nel testo (escursione, trekking, sentiero, montagna, panorama, traccia GPS)
+            - Usa <strong> per: nomi di luoghi, difficoltà, distanza, dislivello
+            - Usa <ul>/<li> per elenchi pratici (cosa portare, punti di interesse)
+            - Il testo deve rispondere alle domande reali degli utenti:
+              Quanto è difficile? Quanto ci vuole? Da dove si parte? Cosa si vede?
+            - NON includere <html>, <head>, <body>, <style>, <script>
+            - NON inserire nessun tag <img>
+            - Rispondi SOLO con il codice HTML, senza spiegazioni, senza markdown, senza backtick
+
+            Titolo sentiero: {titolo}
+            Descrizione originale: {descrizione}
+            {contextBlock}
+            """;
+
+        var text = await CallOllamaAsync(prompt);
+
+        // Strip markdown code fences if the model wraps output
+        text = text.Trim();
+        if (text.StartsWith("```"))
+        {
+            var firstNewline = text.IndexOf('\n');
+            if (firstNewline > 0) text = text[(firstNewline + 1)..];
+            if (text.EndsWith("```")) text = text[..^3];
+            text = text.Trim();
+        }
 
         return text;
     }
 
-    public async Task<string> GenerateSeoTitleAsync(string titolo, string descrizione)
+    private async Task<string> CallOllamaAsync(string prompt)
     {
-        await EnsureModelAsync();
-
-        var prompt = $"""
-            Sei un esperto SEO per un sito di escursionismo e trekking in Italia.
-            Genera un titolo SEO ottimizzato di massimo 60 caratteri per la seguente escursione.
-            Il titolo deve:
-            - Contenere parole chiave principali (nome sentiero, luogo, tipo attività come trekking/escursione)
-            - Essere accattivante e invogliare al click nei risultati Google
-            - Essere diverso dal titolo originale, più ottimizzato per i motori di ricerca
-            Rispondi SOLO con il testo del titolo SEO, senza virgolette né spiegazioni.
-
-            Titolo originale: {titolo}
-            Descrizione: {descrizione}
-            """;
-
         var body = new
         {
             model = _model,
-            messages = new[]
-            {
-                new { role = "user", content = prompt }
-            },
+            messages = new[] { new { role = "user", content = prompt } },
             stream = false
         };
 
@@ -101,17 +178,10 @@ public class MetaDescriptionGenerator
         var result = await response.Content.ReadAsStringAsync();
         using var doc = JsonDocument.Parse(result);
 
-        var text = doc.RootElement
+        return doc.RootElement
             .GetProperty("message")
             .GetProperty("content")
             .GetString() ?? "";
-
-        text = text.Trim().Trim('"', '«', '»');
-
-        if (text.Length > 65)
-            text = text[..62] + "...";
-
-        return text;
     }
 
     private async Task EnsureModelAsync()
@@ -126,68 +196,5 @@ public class MetaDescriptionGenerator
         {
             // Ignore pull errors — generation will fail with a clearer message
         }
-    }
-
-    public async Task<string> GenerateHtmlAsync(string titolo, string descrizione)
-    {
-        await EnsureModelAsync();
-
-        var prompt = $"""
-            Sei un esperto SEO e copywriter specializzato in trekking e sentieri escursionistici in Italia.
-            Genera un fragment HTML SEO-ottimizzato per la pagina di dettaglio di un sentiero da trekking.
-
-            REGOLE SEO IMPORTANTI:
-            - Usa UN SOLO <h2> come titolo principale del sentiero, contenente parole chiave (nome sentiero, luogo, tipo attività)
-            - Usa <h3> per le sotto-sezioni (es: 'Il percorso', 'Cosa aspettarsi', 'Informazioni utili')
-            - Usa <p> per paragrafi descrittivi ricchi di parole chiave naturali (trekking, escursione, sentiero, montagna, natura, ecc.)
-            - Usa <ul>/<li> per elenchi di caratteristiche o punti di interesse
-            - Usa <strong> per evidenziare parole chiave importanti (nomi di luoghi, difficoltà, distanza)
-            - Usa <em> per enfatizzare dettagli rilevanti
-            - Scrivi in modo naturale e coinvolgente, come una guida esperta che racconta il sentiero
-            - Includi naturalmente parole chiave long-tail relative a trekking, escursionismo, sentieri Italia
-            - Il testo deve invogliare l'utente a fare l'escursione e essere utile per il posizionamento Google
-            - NON includere <html>, <head>, <body>, <style>, <script>
-            - NON inserire nessun tag <img> o immagini di alcun tipo
-            - Rispondi SOLO con il codice HTML, senza spiegazioni, senza markdown, senza backtick
-
-            Titolo sentiero: {titolo}
-            Descrizione originale: {descrizione}
-            """;
-
-        var body = new
-        {
-            model = _model,
-            messages = new[]
-            {
-                new { role = "user", content = prompt }
-            },
-            stream = false
-        };
-
-        var json = JsonSerializer.Serialize(body);
-        var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-        var response = await _http.PostAsync($"{_baseUrl}/api/chat", content);
-        response.EnsureSuccessStatusCode();
-
-        var result = await response.Content.ReadAsStringAsync();
-        using var doc = JsonDocument.Parse(result);
-
-        var text = doc.RootElement
-            .GetProperty("message")
-            .GetProperty("content")
-            .GetString() ?? "";
-
-        // Strip markdown code fences if the model wraps output in ```html ... ```
-        text = text.Trim();
-        if (text.StartsWith("```"))
-        {
-            var firstNewline = text.IndexOf('\n');
-            if (firstNewline > 0) text = text[(firstNewline + 1)..];
-            if (text.EndsWith("```")) text = text[..^3];
-            text = text.Trim();
-        }
-
-        return text;
     }
 }

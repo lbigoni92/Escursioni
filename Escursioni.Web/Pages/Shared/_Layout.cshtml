@@ -150,6 +150,10 @@
     {
         <script type="application/ld+json">@Html.Raw(jsonLd)</script>
     }
+    @if (ViewData["JsonLd2"] is string jsonLd2 && !string.IsNullOrWhiteSpace(jsonLd2))
+    {
+        <script type="application/ld+json">@Html.Raw(jsonLd2)</script>
+    }
     @if (ViewData["BreadcrumbJsonLd"] is string breadcrumbLd && !string.IsNullOrWhiteSpace(breadcrumbLd))
     {
         <script type="application/ld+json">@Html.Raw(breadcrumbLd)</script>
