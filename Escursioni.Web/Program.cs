@@ -60,6 +60,9 @@ Console.WriteLine("[LOG] Configurazione middleware...");
 app.UseHttpsRedirection();
 app.UseResponseCompression();
 
+// Genera varianti WebP ottimizzate on-demand alla prima richiesta
+app.UseMiddleware<ImageOptimizationMiddleware>();
+
 var provider = new FileExtensionContentTypeProvider();
 provider.Mappings[".gpx"] = "application/gpx+xml";
 provider.Mappings[".kml"] = "application/vnd.google-earth.kml+xml";

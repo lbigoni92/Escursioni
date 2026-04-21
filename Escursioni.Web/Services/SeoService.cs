@@ -14,7 +14,7 @@ public class SeoService
 
     public void ConfigureForHike(PageModel page, Hike hike)
     {
-        var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursioni.onrender.com").TrimEnd('/');
+        var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
 
         page.ViewData["Title"] = !string.IsNullOrWhiteSpace(hike.TitoloSeo) ? hike.TitoloSeo : hike.Titolo;
 

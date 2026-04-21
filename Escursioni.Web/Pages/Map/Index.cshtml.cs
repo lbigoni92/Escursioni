@@ -19,12 +19,12 @@ public class IndexModel : PageModel
 
     public async Task OnGet()
     {
-        ViewData["Title"] = "Mappa escursioni";
-        var desc = "Mappa interattiva di tutte le escursioni con tracce GPS. Esplora i percorsi sulla cartina e trova la tua prossima avventura.";
+        ViewData["Title"] = "Mappa escursioni in Toscana e Italia | Luca Bigoni";
+        var desc = "Mappa interattiva di tutte le escursioni e trekking con tracce GPS in Toscana, Alpi Apuane, Garfagnana e oltre. Esplora i percorsi e trova la tua prossima avventura.";
         var metaDesc = $"Mappa escursioni - {desc}";
         if (metaDesc.Length > 180) metaDesc = metaDesc[..180] + "...";
         ViewData["MetaDescription"] = metaDesc;
-        var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursioni.onrender.com").TrimEnd('/');
+        var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/mappa";
         Escursioni = await _repo.GetWithCoordinatesAsync();
     }

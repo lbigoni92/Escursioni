@@ -20,7 +20,7 @@ public class SitemapModel : PageModel
 
     public async Task OnGet()
     {
-        BaseUrl = (_config["Site:BaseUrl"] ?? "https://escursioni.onrender.com").TrimEnd('/');
+        BaseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
         Hikes = await _repo.GetAllAsync(null, null);
     }
 }

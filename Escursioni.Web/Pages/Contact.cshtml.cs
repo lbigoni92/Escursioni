@@ -38,12 +38,12 @@ public class ContactModel : PageModel
 
     public void OnGet()
     {
-        ViewData["Title"] = "Contatti";
-        var desc = "Contattami per informazioni sulle escursioni, suggerimenti sui sentieri o proposte di collaborazione.";
+        ViewData["Title"] = "Contatti | Escursioni Luca Bigoni";
+        var desc = "Contattami per informazioni sulle escursioni in Toscana, consigli sui sentieri delle Apuane e Garfagnana o proposte di collaborazione.";
         var metaDesc = $"Contatti - {desc}";
         if (metaDesc.Length > 180) metaDesc = metaDesc[..180] + "...";
         ViewData["MetaDescription"] = metaDesc;
-        var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursioni.onrender.com").TrimEnd('/');
+        var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/contatti";
         ContactEmail = _config["Site:ContactEmail"] ?? "info@example.com";
     }

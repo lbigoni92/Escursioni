@@ -24,9 +24,9 @@ public class RssModel : PageModel
         var hikes = await _repo.GetForRssAsync(500);
 
         var channel = new XElement("channel",
-            new XElement("title", "Escursioni di Luca - Ultime uscite"),
+            new XElement("title", "Escursioni Luca Bigoni – Trekking in Toscana"),
             new XElement("link", baseUrl + "/"),
-            new XElement("description", "Ultime escursioni pubblicate sul sito."),
+            new XElement("description", "Ultime escursioni e trekking in Toscana, Alpi Apuane e Garfagnana pubblicate da Luca Bigoni."),
             hikes.Select(h =>
             {
                 var url = baseUrl + "/escursioni/" + h.Id + "/" +

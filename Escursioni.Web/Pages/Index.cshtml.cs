@@ -20,12 +20,9 @@ public class IndexModel : PageModel
 
     public async Task OnGet()
     {
-        ViewData["Title"] = "Luca Bigoni - Escursioni, trekking e natura";
-        var desc = "Sito ufficiale di Luca Bigoni: escursioni, trekking, natura, sentieri e avventure in montagna.";
-        var metaDesc = $"Luca Bigoni - {desc}";
-        if (metaDesc.Length > 180) metaDesc = metaDesc[..180] + "...";
-        ViewData["MetaDescription"] = metaDesc;
-        var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursioni.onrender.com").TrimEnd('/');
+        ViewData["Title"] = "Escursioni in Toscana – Trekking, sentieri e tracce GPS | Luca Bigoni";
+        ViewData["MetaDescription"] = "Escursioni in Toscana, trekking sulle Alpi Apuane, sentieri in Garfagnana e Versilia. Tracce GPS, foto e descrizioni dettagliate di Luca Bigoni.";
+        var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/";
         ViewData["OgImage"] = $"{baseUrl}/favicon.svg";
         UltimeEscursioni = await _repo.GetLatestAsync(8);

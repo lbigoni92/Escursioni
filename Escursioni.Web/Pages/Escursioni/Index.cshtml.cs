@@ -31,9 +31,9 @@ public class IndexModel : PageModel
 
     public async Task OnGet()
     {
-        ViewData["Title"] = "Tutte le escursioni e trekking in Italia";
-        ViewData["MetaDescription"] = "Elenco completo di escursioni, trekking e sentieri in Italia con tracce GPS, foto e descrizioni dettagliate.";
-        var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursioni.onrender.com").TrimEnd('/');
+        ViewData["Title"] = "Tutte le escursioni e trekking in Toscana e Italia | Luca Bigoni";
+        ViewData["MetaDescription"] = "Elenco completo di escursioni e trekking in Toscana, Alpi Apuane, Garfagnana e tutta Italia. Tracce GPS, foto, dislivelli e descrizioni dettagliate dei sentieri.";
+        var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/escursioni";
         Escursioni = await _repo.GetAllAsync(Regione, Difficolta);
     }

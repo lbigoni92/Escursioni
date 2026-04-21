@@ -124,6 +124,47 @@ body.light-mode .leaflet-control-attribution {
     color: #64748b !important;
 }
 
+/* ── Light-mode: search panel ── */
+body.light-mode .search-mode {
+    border-color: #cbd5e1;
+    background: rgba(241,245,249,0.5);
+}
+body.light-mode .search-mode--active {
+    border-color: #4a9fe5;
+    background: rgba(227,238,249,0.55);
+    box-shadow: 0 0 0 1px rgba(74,159,229,0.15), 0 4px 20px rgba(74,159,229,0.08);
+}
+body.light-mode .search-mode-radio {
+    color: #475569;
+}
+body.light-mode .search-mode--active .search-mode-radio {
+    color: #1e293b;
+}
+body.light-mode .search-mode-radio input[type="radio"] {
+    border-color: #94a3b8;
+    background: #fff;
+}
+body.light-mode .search-mode-radio input[type="radio"]:checked {
+    border-color: #4a9fe5;
+    background: #fff;
+}
+body.light-mode .search-mode-radio input[type="radio"]:checked::after {
+    background: #4a9fe5;
+}
+
+/* ── Light-mode: pulsante Cerca ── */
+body.light-mode .btn {
+    background: linear-gradient(135deg, #5ba8e5, #3b82b8);
+    box-shadow: 0 4px 14px rgba(74,159,229,0.25);
+}
+body.light-mode .btn:hover, body.light-mode .btn:focus {
+    background: linear-gradient(135deg, #7bbdf0, #5ba8e5);
+    box-shadow: 0 6px 20px rgba(74,159,229,0.35);
+}
+body.light-mode .btn:active {
+    box-shadow: 0 2px 8px rgba(74,159,229,0.2);
+}
+
 
 *,
 *::before,
