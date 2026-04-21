@@ -53,8 +53,8 @@ VALUES (
   10.481067,
   'POINT(10.481067 44.191635)',
   '2b5d374309f8b4a7911ed2a0bbec01eeb964439eb7f9b7cc0f8d19b50acdd2fa',
-  'Escursione San Pellegrino: Passo Saltello, Monte Romecchio & Rifugio Burigone! Anello facile e fresco tra boschi, panorami e lamponi ⛰️☀️🌲',
-  'Trekking Monte Romecchio: Passo Saltello Rifugio Burigone',
+  'Escursione Passo del Saltello Monte Romecchio: Anello da San Pellegrino in Alpe (EMILIA ROMAGNA) 21km, 684m dislivello. Facile trek con lamponi & vista!',
+  'Monte Romecchio: escursione da San Pellegrino in Alpe (anello)',
   NOW(),
   NOW()
 )

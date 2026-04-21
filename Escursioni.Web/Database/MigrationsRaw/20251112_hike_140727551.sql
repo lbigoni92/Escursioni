@@ -54,8 +54,8 @@ VALUES (
   10.06158,
   'POINT(10.06158 44.389387)',
   'a5bd0d3c8504eae8361c0097dee03c9594f7eda57d7f396f49fabb3403908ecf',
-  'Escursione lago Santo Parmense: lago oscuro & Sella del Braiola in 2 giorni! Trek facile e panoramico, fontanelle e rifugi. Scopri il Parco del Sebino!',
-  'Trekking Lago Santo Parmense: Escursione Lagoni - Sella del Br...',
+  'Escursione Lago Santo Parmense: Anello in Emilia-Romagna (Valditacca) | 25km, +1m | Trekking facile tra laghi, rifugi e fontanelle!',
+  'Lago Santo Parmense: escursione anello da Passo Colla (2 giorni)',
   NOW(),
   NOW()
 )

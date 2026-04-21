@@ -54,8 +54,8 @@ Questo imponente **trekking** di circa 20 km con 1.200 metri di dislivello posit
   11.744357,
   'POINT(11.744357 46.474543)',
   '01614336f4601951be3e1a8a2cb60e9f722b1d64483920ee2a18534d02f35dd7',
-  'Esplora il Rifugio Micheluzzi & il Lago Antermoia! Anello Fassa (20km) | Escursioni in montagna, Fassa, Dolomiti, Laghi, Passo Dona.',
-  'Anello Fassa: Rifugio Micheluzzi, Lago Antermoia Trekking Italia',
+  'Escursione Rifugio Micheluzzi Fassa: Lago Antermoia! Percorso ad anello di 20km, 1200m dislivello. Da Campitello di Fassa raggiungi il Rifugio Micheluzzi e a...',
+  'Rifugio Micheluzzi: escursione da Campitello di Fassa (Lago An...',
   NOW(),
   NOW()
 )

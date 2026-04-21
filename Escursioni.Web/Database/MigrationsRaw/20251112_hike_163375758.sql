@@ -52,8 +52,8 @@ VALUES (
   10.689087,
   'POINT(10.689087 44.12874)',
   '6e3cabed83825fc5880b74c795528cb7ba0638140ed73dd985638ccd830a5f62',
-  'Escursione Lago Nero Fontana Vaccaia: Casetta Pastori, panorami mozzafiato e lago incantato! 600m+ di dislivello, 12/13km. Prenota ora!',
-  'Trekking Lago Nero Fontana Vaccaia: Casetta Pastori Italia',
+  'Escursione Lago Nero Fontana Vaccaia: Anello in Toscana (20km, 600m+) da "Le Regie" al Lago Nero con Casetta Pastori. Diff. Medio. Perfetto per trekking!',
+  'Lago Nero: escursione da Fontana Vaccaia (anello, 20km)',
   NOW(),
   NOW()
 )

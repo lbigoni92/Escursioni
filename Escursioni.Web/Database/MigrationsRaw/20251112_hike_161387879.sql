@@ -50,8 +50,8 @@ VALUES (
   10.704198,
   'POINT(10.704198 43.452833)',
   '6335027f67400038a85448733a93385a6db8fb427c49f3b1cb45cf50604ccdde',
-  'Escursione Rocca di Pietracassia: Salita facile a 532m! Sentiero ben segnalato verso un''imponente fortezza medievale. Visita storia e panorami mozzafiato!',
-  'Trekking Rocca di Pietracassia: Escursione Pisa, Sentiero Facile',
+  'Escursione Rocca di Pietracassia: Anello facile in Toscana! ⛰️ +306m, 8.9km. Parcheggio comodo, sentiero ben segnalato. Perfetta per famiglie e amanti del tr...',
+  'Rocca di Pietracassia: Escursione da Cialabrone (306m)',
   NOW(),
   NOW()
 )

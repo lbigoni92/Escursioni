@@ -56,8 +56,8 @@ VALUES (
   10.291432,
   'POINT(10.291432 43.597263)',
   '108eddfe8616cf01de679d89a7a0082726bbff5f8ae14719de9ebb3c89183d95',
-  'Escursione a Calambrone: storia e natura sulla costa pisana! Scopri la "città dei bambini" del regime e goditi una passeggiata tranquilla.',
-  'Trekking Calambrone: Escursione Spiaggia Pisa, Sentiero Tranqu...',
+  'Escursione Calambrone: Trekking facile in Toscana! Percorso di 7km con +7m di dislivello. Scopri la storia della "città dei bambini" del regime a Calambrone,...',
+  'Calambrone: Escursione dalla Battigia (Toscana)',
   NOW(),
   NOW()
 )

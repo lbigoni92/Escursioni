@@ -51,8 +51,8 @@ VALUES (
   9.854267,
   'POINT(9.854267 44.364034)',
   'eafa0cc07bd7d43da59326c635d241c5892ff9925bc8a3df4adac511b7d5237e',
-  'Esplora gli Stretti di Giaredo a Cavezzana! Escursione in montagna con nuotate rinfrescanti, cascate e panorami mozzafiato. Trekking impegnativo, muta obblig...',
-  'Trekking Stretti di Giaredo Cavezzana: Escursione in Val d''Ala',
+  'Escursione Cavezzana Gordana Streggi di Giaredo (Toscana): trekking facile +116m, nuoto in acque fredde e cristalline! Perfetta per famiglie. Scarpe, muta e ...',
+  'Streggi di Giaredo: Escursione da Cavezzana (Toscana)',
   NOW(),
   NOW()
 )

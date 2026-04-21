@@ -49,8 +49,8 @@ VALUES (
   10.274098,
   'POINT(10.274098 44.03441)',
   '80bbfa8db30a99a5aecddcad241eb064b56fb10b27112ca7784a8af18a986123',
-  'Escursione Corchia: Vetta e Canale del Pirosetto! Panorami mozzafiato, torrioni e cresta panoramica. Percorso adatto ed entusiasmante!',
-  'Trekking Corchia: Percorso Vetta e Canale Pirosetto',
+  'Escursione Corchia dal Pirosetto: Anello in Toscana, 9.3km, +985m. Trekking facile/medio tra torrioni e cresta panoramica. Partenza Passo Croce (1160m). Ideale!',
+  'Monte Corchia: escursione dal Passo Croce (anello, 9.3km)',
   NOW(),
   NOW()
 )

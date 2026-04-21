@@ -52,8 +52,8 @@ VALUES (
   10.328855,
   'POINT(10.328855 43.96303)',
   '1730d29118f884ad802032e5ff7603cf344ba3f52b491552592bd67093f33c2e',
-  'Escursioni Gevoli Casoli: sfida in montagna e panorama mozzafiato! Percorso difficile ma gratificante con vista mare e Alpi. #escursioni #gevoli #gabberi',
-  'Trekking Gevoli Gabberi: Escursione Difficile in Abruzzo',
+  'Escursione Gevoli da Casoli: anello difficile (10.46km, +825m) in Toscana. Salita al Gabberi panoramico (Alpi Apuane). Sentiero C8/C3 e poi 107. Ottimo punto...',
+  'Gevoli: escursione da Casoli con Gabberi (difficile)',
   NOW(),
   NOW()
 )

@@ -57,8 +57,8 @@ Quest''<strong>escursione</strong> a <strong>Vecchiano</strong> è un''ottima op
   10.384847,
   'POINT(10.384847 43.78511)',
   '0b4f0625d48c28062bb3e19047d4b1dd6c8b45177e65d8925b1e1db3ac894af3',
-  'Escursione Vecchiano: Monte Spazzavento & Monte del Legnaio! Percorso facile e panoramico tra storia e natura. Scopri i sentieri! #escursioni #trekking #vecc...',
-  'Trekking Vecchiano Spazzavento Legnaio: Percorso Facile!',
+  'Escursione Vecchiano Monte Spazzavento: Anello facile 10.63km, +475m! Toscana, sentiero CAI, vista panoramica, Monte Legnaio. Perfetto per famiglie!',
+  'Monte Spazzavento: escursione a Vecchiano (facile, 10.63km)',
   NOW(),
   NOW()
 )

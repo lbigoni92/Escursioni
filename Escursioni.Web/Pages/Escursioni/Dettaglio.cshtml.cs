@@ -20,6 +20,7 @@ public class DettaglioModel : PageModel
 
     public Hike? Hike { get; set; }
     public bool GpxValid { get; set; }
+    public List<Hike> RelatedHikes { get; set; } = new();
 
     public async Task<IActionResult> OnGetAsync(int id, string? slug)
     {
@@ -35,6 +36,8 @@ public class DettaglioModel : PageModel
             var gpxPath = Path.Combine(_env.WebRootPath, "media", "gpx", $"{Hike.WikilocId}.gpx");
             GpxValid = System.IO.File.Exists(gpxPath) && IsValidGpx(gpxPath);
         }
+
+        RelatedHikes = await _repo.GetRelatedAsync(Hike.Id, Hike.Comune, Hike.Provincia, Hike.CentroidLat, Hike.CentroidLon);
 
         return Page();
     }

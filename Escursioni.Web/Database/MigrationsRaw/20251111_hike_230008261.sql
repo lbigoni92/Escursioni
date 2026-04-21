@@ -54,8 +54,8 @@ VALUES (
   10.915492,
   'POINT(10.915492 45.609076)',
   '9a50a4f71c1b7bf04f41dee0d2ceb57b8a51e9d89247af1e62e236fb6c755878',
-  'Anello Molina: cascate e grotte nella Lessinia! Escursione facile e spettacolare con l''Orso, il Doppio Covolo e la Nera. Perfetto per famiglie!',
-  'Trekking Anello Molina: Cascata Orso, Doppio Covolo Italia',
+  'Escursione Molina: Anello Cascata Orso, Doppio Covolo & Nera | Facile 3.8km | Lessinia Veneto',
+  'Lessinia: Anello Molina Cascata Orso (Dettagli)',
   NOW(),
   NOW()
 )

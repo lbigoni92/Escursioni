@@ -51,8 +51,8 @@ VALUES (
   14.427884,
   'POINT(14.427884 50.089913)',
   'b9242e7c17633b44569f8c3bc3fcf20a59ce11931314c5781631bc8e14393e67',
-  'Escursione a Praga: visita a Vyšehrad, Castello e centro storico! Scopri leggende, rovine medievali e panorami mozzafiato. Perfetto per un''escursione a piedi!',
-  'Trekking Vyšehrad Praga: Sentiero Castello & Cimitero.',
+  'Escursione Vyšehrad a Praga: percorso di 14.86km, anello, difficoltà media, +165m. Esplora il castello di Vyšehrad e il cimitero nazionale a Praga, Repubblic...',
+  'Vyšehrad: escursione da Praga (anello, 14.86km)',
   NOW(),
   NOW()
 )

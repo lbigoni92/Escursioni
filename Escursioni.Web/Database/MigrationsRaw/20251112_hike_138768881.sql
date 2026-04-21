@@ -53,8 +53,8 @@ VALUES (
   10.91884,
   'POINT(10.91884 43.310458)',
   '66c89c8e7aced26e39b67e6f941690f5de4321a6bcc3527d58197ef7aa44ff52',
-  'Escursione Masso delle Fanciulle: Castello dei Vescovi, cascata e tuffo! Sentiero facile, vista spettacolare e geocaching. Scopri Volterra!',
-  'Trekking Masso Specchi Castello Vescovi Volterra',
+  'Escursione Masso delle Fanciulle, Toscana: Anello facile 13.7km +397m. Castello dei Vescovi, guado facile e tuffo! Casa Montacuto, ideale per famiglie.',
+  'Masso delle Fanciulle: Escursione Toscana (Casa Montacuto)',
   NOW(),
   NOW()
 )

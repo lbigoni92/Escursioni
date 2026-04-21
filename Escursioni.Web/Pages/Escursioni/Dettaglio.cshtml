@@ -10,6 +10,7 @@
 else
 {
     var h = Model.Hike;
+    var displayTitle = !string.IsNullOrWhiteSpace(h.TitoloSeo) ? h.TitoloSeo : h.Titolo;
     var galleryMedia = h.Media
         .OrderBy(m => m.Tipo == "cover" ? 0 : 1)
         .ThenBy(m => m.Ordine)
@@ -17,7 +18,7 @@ else
 
     <article>
         <header class="section">
-            <h1 class="page-title">@h.Titolo</h1>
+            <h1 class="page-title">@displayTitle</h1>
             <p class="page-subtitle">
                 @if (!string.IsNullOrWhiteSpace(h.Comune))
                 {
@@ -75,7 +76,7 @@ else
                                             {
                                                 <source srcset="~/@galleryWebp" type="image/webp" />
                                             }
-                                            <img src="~/@media.PathRelativo" alt="@($"{h.Titolo} - foto {index + 1}")" loading="@(index == 0 ? "eager" : "lazy")" decoding="async" width="800" height="440" />
+                                            <img src="~/@media.PathRelativo" alt="@($"{displayTitle} - foto {index + 1}")" loading="@(index == 0 ? "eager" : "lazy")" decoding="async" width="800" height="440" />
                                         </picture>
                                     </div>
                                 }
@@ -192,6 +193,68 @@ else
                 </section>
             </aside>
         </section>
+
+        @if (Model.RelatedHikes.Count > 0)
+        {
+            <section class="section" style="margin-top:2rem;">
+                <h2 style="font-size:1.15rem;margin-bottom:0.8rem;">Escursioni nella stessa zona</h2>
+                <div class="card-grid">
+                    @foreach (var r in Model.RelatedHikes)
+                    {
+                        var rCover = Escursioni.Web.Pages.Escursioni.DettaglioModel.CoverPath(r);
+                        var rThumb = ImageHelper.ThumbPath(rCover);
+                        var rTitle = !string.IsNullOrWhiteSpace(r.TitoloSeo) ? r.TitoloSeo : r.Titolo;
+                        <article class="hike-card">
+                            @if (!string.IsNullOrWhiteSpace(rCover))
+                            {
+                                <a asp-page="/Escursioni/Dettaglio"
+                                   asp-route-id="@r.Id"
+                                   asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(r.Titolo)">
+                                    <picture>
+                                        @if (rThumb != null)
+                                        {
+                                            <source srcset="~/@rThumb" type="image/webp" />
+                                        }
+                                        <img src="~/@rCover" alt="@rTitle" loading="lazy" decoding="async" width="400" height="160" />
+                                    </picture>
+                                </a>
+                            }
+                            <div class="hike-card-body">
+                                <h3 class="hike-card-title">
+                                    <a asp-page="/Escursioni/Dettaglio"
+                                       asp-route-id="@r.Id"
+                                       asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(r.Titolo)">
+                                        @rTitle
+                                    </a>
+                                </h3>
+                                <div class="hike-card-meta">
+                                    @if (!string.IsNullOrWhiteSpace(r.Comune))
+                                    {
+                                        @($"{r.Comune}, {r.Provincia}")
+                                    }
+                                </div>
+                            </div>
+                            <div class="hike-card-footer">
+                                <span>
+                                    @if (r.DistanzaKm.HasValue)
+                                    {
+                                        <span>@r.DistanzaKm.Value.ToString("0.0") km</span>
+                                    }
+                                    @if (r.DislivelloM.HasValue)
+                                    {
+                                        <span> · +@r.DislivelloM.Value m</span>
+                                    }
+                                    @if (!string.IsNullOrWhiteSpace(r.Difficolta))
+                                    {
+                                        <span> · @r.Difficolta</span>
+                                    }
+                                </span>
+                            </div>
+                        </article>
+                    }
+                </div>
+            </section>
+        }
     </article>
 
     <script src="/js/carousel.js"></script>

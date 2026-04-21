@@ -58,8 +58,8 @@ VALUES (
   10.46801,
   'POINT(10.46801 43.91097)',
   '531714924847775f550a5a57305ee2e2a07d35c19e81b1c5d4d20fc93baea9de',
-  'Esplora sentieri nascosti! Giro a caso: escursioni in Italia da non perdere. Vette, panorami e avventure fuori dai sentieri battuti. Scopri di più!',
-  'Trekking al Giro a Caso: Escursioni in Val d''Aosta',
+  'Escursione Querce: Giro a caso in Toscana! Anello medio di 3.84km +232m sl. Perfetto per un''escursione a Querce, Comune di Querce, Provincia di Toscana.',
+  'Querce: escursione a caso anello medio (Toscana)',
   NOW(),
   NOW()
 )

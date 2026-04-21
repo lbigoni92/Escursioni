@@ -50,8 +50,8 @@ VALUES (
   10.307425,
   'POINT(10.307425 44.006988)',
   'f2b300287b1e07e1439beb7a9e674c4263d885127ceca653b71050b9aa014eaf',
-  'Escursione Monte Alto: cresta sud, Grotte Bianche & arrampicate! Percorso avvincente tra rocce, panorami mozzafiato e tratti impegnativi. Scopri!',
-  'Trekking Monte Alto: Cresta Sud, Grotte Bianche e Volegno',
+  'Escursione Monte Alto da Volegno: trekking anello Toscana, 8.6km, +643m. Salita cresta sud, grotte bianche e arrampicate facili. Percorso impegnativo, adatto...',
+  'Monte Alto: escursione da Volegno (difficile, anello)',
   NOW(),
   NOW()
 )

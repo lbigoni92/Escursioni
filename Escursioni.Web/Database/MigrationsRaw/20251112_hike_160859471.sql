@@ -52,8 +52,8 @@ La <strong>Tenuta di Tombolo</strong>, conosciuta anche come <strong>Pineta del 
   10.303233,
   'POINT(10.303233 43.617588)',
   'fad20c58c98faacaa1bc9a69f19cf3162ea75abb271da246818ceed35dde015d',
-  'Escursioni Tirrenia: passeggiata domenicale tra boschi e pineta! Scopri la Tenuta di Tombolo, natura, fauna e facile percorso bici.',
-  'Trekking Pineta Tombolo Tirrenia: Escursioni Facili in Toscana',
+  'Escursione Tirrenia: Anello facile in pineta lungo la costa toscana! 4.1km, +7m, ideale per famiglie e bici. Scopri la Tenuta di Tombolo e la sua fauna!',
+  'Tirrenia: Escursione in Pineta da Tombolo (4km)',
   NOW(),
   NOW()
 )

@@ -52,8 +52,8 @@ VALUES (
   10.262018,
   'POINT(10.262018 44.04742)',
   '808685a47f24c6b51ce44a7c56c74696ab602e04ea0c98d29018853e3dbdf733',
-  'Anello Apuane: Monte dei Ronchi, Altissimo & Tavole! Panorami mozzafiato, sentieri impegnativi ma accessibili. Scopri questo itinerario!',
-  'Trekking Anello Monte Ronchi Apuane: Sentiero Difficile',
+  'Escursione Monte dei Ronchi & Monte Altissimo Apuane: Anello facile/medio 12km, 1m dislivello. Scopri questo splendido giro in Toscana tra cave e panorami!',
+  'Monte dei Ronchi: escursione anello Apuane (Toscana)',
   NOW(),
   NOW()
 )

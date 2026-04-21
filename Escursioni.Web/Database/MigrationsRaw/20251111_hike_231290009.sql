@@ -63,8 +63,8 @@ Questo <strong>sentiero</strong> è perfetto per chi cerca un''<strong>escursion
   11.787728,
   'POINT(11.787728 46.378126)',
   '6d3a0ba521cdbf307e33b1944e1eb81a5757f0c8b6079cf5fe030829db55b242',
-  'Escursione Passo San Pellegrino: Anello mozzafiato da San Pellegrino! Vetta panoramica, sentieri imperdibili e bellezza alpina. Scopri il percorso!',
-  'Trekking Passo San Pellegrino: Escursione Lago di San P.',
+  'Escursione Passo San Pellegrino: Anello da San Pellegrino Terme (TN) 10.5km, difficoltà media, +468m dislivello. Trekking panoramico in Trentino-Alto Adige!',
+  'Passo San Pellegrino: escursione da San Pellegrino (anello, Tr...',
   NOW(),
   NOW()
 )

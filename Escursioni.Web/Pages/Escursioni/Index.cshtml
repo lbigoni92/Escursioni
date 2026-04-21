@@ -18,6 +18,7 @@
         {
             var cover = Escursioni.Web.Pages.Escursioni.IndexModel.CoverPath(h);
             var coverThumb = ImageHelper.ThumbPath(cover);
+            var displayTitle = !string.IsNullOrWhiteSpace(h.TitoloSeo) ? h.TitoloSeo : h.Titolo;
             <article class="hike-card">
                 @if (!string.IsNullOrWhiteSpace(cover))
                 {
@@ -29,7 +30,7 @@
                             {
                                 <source srcset="~/@coverThumb" type="image/webp" />
                             }
-                            <img src="~/@cover" alt="@h.Titolo" loading="lazy" decoding="async" width="400" height="160" />
+                            <img src="~/@cover" alt="@displayTitle" loading="lazy" decoding="async" width="400" height="160" />
                         </picture>
                     </a>
                 }
@@ -38,7 +39,7 @@
                         <a asp-page="/Escursioni/Dettaglio"
                            asp-route-id="@h.Id"
                            asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)">
-                            @h.Titolo
+                            @displayTitle
                         </a>
                     </h2>
                     <div class="hike-card-meta">

@@ -52,8 +52,8 @@ VALUES (
   10.412247,
   'POINT(10.412247 43.522222)',
   'bcf9b3451e5f4a68b52caee3b9fc81e917b582ff6b435b632e208085b2eed35d',
-  'Escursione Valle Benedetta: Trekking in Toscana tra panorami mozzafiato e acquedotto storico! 12km, 700m dislivello. Lago di Santa Luce e vista Pisa!',
-  'Trekking Valle Benedetta: Escursione Anello Pisa Lago Santa Luce',
+  'Escursione Valle Benedetta: trekking facile in Toscana, 19km, 705m dislivello. Anello tra Monte Pan di Zucchero e Acquedotto Colognole. Perfetto per amici!',
+  'Valle Benedetta: Trekking da Colognole (705m, anello)',
   NOW(),
   NOW()
 )

@@ -51,8 +51,8 @@ VALUES (
   10.264575,
   'POINT(10.264575 44.051052)',
   '4e7f63bdd97ec81dc869dc542063fe95272e670238ace7dbb49bdb016f000dbb',
-  'Escursione Monte Freddone & Paglino: sentieri, stelle cadenti e dolmen misterioso! Vetta impegnativa ma ricca di panorami e storia.',
-  'Trekking Monte Freddone Paglino: Sentiero Italia',
+  'Escursione Monte Freddone e Paglino: sentiero toscano, anello 15.6km, difficoltà media. Vetta Freddone con geocache! Sosta al Dolmen del Paglino e ammirate l...',
+  'Monte Freddone - Monte Paglino: Escursione da Puntato (Toscana)',
   NOW(),
   NOW()
 )

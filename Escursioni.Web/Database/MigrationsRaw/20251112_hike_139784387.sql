@@ -56,8 +56,8 @@ VALUES (
   10.575911,
   'POINT(10.575911 43.684625)',
   'b20794620c09945910dfd305c7627555e5f7a93457530fdad20ddc5ac7f003b7',
-  'Escursioni Monte Castellare Pisa: percorso facile panoramico tra pini e ulivi. Vista mozzafiato su Firenze e Livorno! Ideale per famiglie e principianti.',
-  'Trekking Monte Castellare Vicopisano: Perocchio & Agreste',
+  'Escursione Monte Castellare, Monte Perocchio e Monte Agreste a Vicopisano (Toscana): Anello facile 6.6km, +279m. Vista mozzafiato su Firenze e Livorno! Perfe...',
+  'Monte Castellare: escursione da Vicopisano (Toscana)',
   NOW(),
   NOW()
 )

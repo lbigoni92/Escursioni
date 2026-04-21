@@ -60,8 +60,8 @@ Non perdere l’opportunità di scoprire le <strong>Parole d''Oro Zano</strong>,
   10.524618,
   'POINT(10.524618 43.806868)',
   '3bc9c35ce1fbd5c424f220d605dbcc1373d3a8a05441623a26cc78078dc2c007',
-  'Escursione facile al Monte Zano a Vorno: vista mozzafiato sul borgo e sulla valle! Percorso breve e accessibile, ideale per famiglie e amanti della natura.',
-  'Trekking Monte Zano Vorno: Escursione Facile Italia',
+  'Escursione Monte Zano Vorno: percorso di 9.4km (Toscana) con +414m di dislivello. Facile anello al conico Monte Zano e vista sulla gran croce illuminata di n...',
+  'Monte Zano: escursione da Vorno (anello, Toscana)',
   NOW(),
   NOW()
 )

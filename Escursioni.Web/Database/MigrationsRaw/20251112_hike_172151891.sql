@@ -57,8 +57,8 @@ Il <strong>sentiero</strong> Pisanino dalla Bagola Bianca offre un''esperienza u
   10.19744,
   'POINT(10.19744 44.13451)',
   '766db84113695bc36ba11bc7fddfc0d91faff8d708f0601ed79a283c7aae7db2',
-  'Escursione Bagola Bianca & Pisanino: sentiero impegnativo (2°&1° livello) in Val Serenaia. Vetta a 1807m, panorami mozzafiato!',
-  'Trekking Bagola Bianca Pisanino: Percorso Difficile in Toscana',
+  'Escursione Bagola Bianca da Pisanino: Tracciato difficile (7.9km, 1m D+) Toscana. Trekking impegnativo tra paleo e roccette, tratti esposti! Val Serenaia - C...',
+  'Bagola Bianca: escursione difficile da Pisanino (Toscana)',
   NOW(),
   NOW()
 )

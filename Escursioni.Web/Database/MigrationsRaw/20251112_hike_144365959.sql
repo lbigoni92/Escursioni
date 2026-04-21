@@ -56,8 +56,8 @@ VALUES (
   9.853309,
   'POINT(9.853309 44.364096)',
   '96b339e8b78d5228d25d61593468fcaac3a4d752afdd14ad8e81bdbecfd710e9',
-  'Canyoning negli Stretti di Giaredo: un''avventura unica in un canyon spettacolare! Percorso di 2km con tratti di nuoto e cascate. 🏞️',
-  'Escursione Giaredo: Trekking Stretti Canyon Gordana',
+  'Escursione Stretti di Giaredo: canyoning in Toscana! 4km anello, +121m dislivello. Percorso facile ma con tratti in acqua fredda. Ideale con scarpe da trekking!',
+  'Stretti di Giaredo: Escursione Canyoning da Giaredo (Toscana)',
   NOW(),
   NOW()
 )

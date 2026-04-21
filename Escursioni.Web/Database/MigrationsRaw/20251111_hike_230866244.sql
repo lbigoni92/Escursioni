@@ -55,8 +55,8 @@ VALUES (
   11.861516,
   'POINT(11.861516 46.463962)',
   '33c7f18f732955e2461cffffeea89f6e287a733900efefbbebd7ce6750569162',
-  'Escursione Marmolada: Lago di Fedaia & Ciamp dello Stanzon! Facile percorso ai piedi della Regina delle Dolomiti. Viste mozzafiato! 🏞️',
-  'Trekking Marmolada: Fedaia - Ciamp dello Stanzon, Italia',
+  'Escursione Marmolada: facile giro al Lago di Fedaia (Passo Fedaia - Ciamp dello Stanzon) | Veneto, Italia. 5.77km, +0m, ideale per famiglie!',
+  'Marmolada: Escursione da Passo Fedaia (Lago di Fedaia)',
   NOW(),
   NOW()
 )

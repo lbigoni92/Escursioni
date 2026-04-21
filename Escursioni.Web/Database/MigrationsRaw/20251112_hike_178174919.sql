@@ -56,8 +56,8 @@ VALUES (
   10.216782,
   'POINT(10.216782 44.30407)',
   'c045fe218856e0d56c7019ec258fc1ed208067d82b046e3d3d26e0b3a8ea5c37',
-  'Esplora il Monte Alto e l''Alpe di Succiso: trekking impegnativo con ferrata! Percorso ad anello in Valle d''Aosta, difficoltà e panorami mozzafiato.',
-  'Trekking Monte Alto: Alpe di Succiso Passo del Cerreto',
+  'Escursione Monte Alto, Passo Pietra Tagliata e Alpe di Succiso: itinerario impegnativo in Emilia Romagna (Cerreto Laghi) +980m. Anello di difficoltà difficil...',
+  'Monte Alto: escursione difficile Passo del Cerreto (anello)',
   NOW(),
   NOW()
 )

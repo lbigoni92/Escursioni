@@ -21,4 +21,5 @@ public interface IHikeRepository
     Task<Hike?> GetByIdAsync(int id);
     Task<List<Hike>> GetWithCoordinatesAsync();
     Task<List<Hike>> GetForRssAsync(int maxItems);
+    Task<List<Hike>> GetRelatedAsync(int hikeId, string? comune, string? provincia, decimal? lat, decimal? lon, int count = 4);
 }

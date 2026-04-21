@@ -53,8 +53,8 @@ VALUES (
   11.58051,
   'POINT(11.58051 46.410354)',
   '83a6f0f9b0e139bc8f715c9469324c68995e18ff1d617b4f0f931bcf7e63779b',
-  'Anello Lago di Carezza: Ponte Sospeso & Dolomiti! Escursione facile e spettacolare con vista lago e panorami mozzafiato. Scopri l''Austria!',
-  'Trekking Lago di Carezza: Anello Dolomiti & Ponte Sospeso',
+  'Escursione Lago di Carezza: Anello facile da Cardoso al Ponte Sospeso! 2.8km, +63m, Dolomiti, Trentino. Ideale famiglie e passeggiate rilassanti.',
+  'Lago di Carezza: escursione ad anello con Ponte Sospeso',
   NOW(),
   NOW()
 )

@@ -65,8 +65,8 @@ VALUES (
   10.487405,
   'POINT(10.487405 43.737858)',
   '029416ec89913dfeb16b0db6f899988bd318bd97e119cabc62b7d4083eff4e6d',
-  'Escursione Agnano - Foce Di Calci: sentiero ad anello tra fiume, bagni e roccia! Percorso facile e ben segnalato. Scopri la Cima Stiparecca e le sue formazio...',
-  'Trekking Agnano Foce Calci: Sentiero Fiume Bagni',
+  'Escursione Agnano Foce Di Calci: anello facile 9.1km, +501m in Toscana. Sentiero storico, roccia e fiume! Perfetto per trekking amatoriale.',
+  'Agnano - Foce Di Calci: escursione anello Toscana',
   NOW(),
   NOW()
 )

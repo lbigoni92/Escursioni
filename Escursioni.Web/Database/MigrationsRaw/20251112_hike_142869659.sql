@@ -52,8 +52,8 @@ VALUES (
   10.630437,
   'POINT(10.630437 44.129751)',
   '99d389c2e6c45f92be30a7f9238744f3760451712d1f5c864ad467a74564f3a3',
-  'Esplora la Val di Luce: Lago Nero, Alpe Tre Potenze e Passo D''Annibale! Escursione facile e spettacolare tra laghi, frutti di bosco e panorami mozzafiato.',
-  'Trekking Val di Luce: Lago Nero, Alpe Tre Potenze',
+  'Escursione Val di Luce: Lago Nero, Alpe Tre Potenze & Passo d''Annibale! Percorso di 9.3km, +626m, ideale per amatori. Ammira laghi, vette e i resti del Passo...',
+  'Lago Nero: escursione da Alpe Tre Potenze (difficile)',
   NOW(),
   NOW()
 )

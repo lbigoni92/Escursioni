@@ -67,8 +67,8 @@ Questo <strong>sentiero per escursioni</strong> è un''ottima opportunità per s
   9.959625,
   'POINT(9.959625 44.427482)',
   '052bbc48678b91280830de99e7c61dff2c059c4a548dac6528b5e571f7019b26',
-  'Escursioni Cascate Piscio & Ponte Colombara: sentiero facile, cascate spettacolari e immersione nell''acqua cristallina! Scopri il sentiero in Umbria.',
-  'Trekking Cascate Piscio: Ponte Colombara - Sentiero Facile',
+  'Escursione Cascate del Piscio Pracchiola: Anello facile 5.89km +242m. Ponte Colombara restaurato. Cascate & bagno! Toscana, Italia.',
+  'Cascate del Piscio: Escursione Facile da Pannocchia',
   NOW(),
   NOW()
 )

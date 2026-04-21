@@ -50,8 +50,8 @@ VALUES (
   10.382667,
   'POINT(10.382667 43.937082)',
   'e0968a42ce764d5227f432e505417c853928c8fed48ded5877f79e36999a127a',
-  'Escursione Lucese Prana: panorama mozzafiato Panie, Massaciuccoli e Livorno! Facile e adatta a tutti, vista la Baita Barsi e Campo all''Orzo.',
-  'Trekking Lucese Prana Baita Barsi: Panorama Panie!',
+  'Escursione Lucese Prana: Anello facile +764m in Toscana! Vetta con vista Panie & Livorno. Partenza Passo Lucese (558m). Ideale anche per principianti.',
+  'Lucese: Escursione al Prana con Baita Barsi (Toscana)',
   NOW(),
   NOW()
 )

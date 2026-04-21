@@ -52,8 +52,8 @@ VALUES (
   10.186448,
   'POINT(10.186448 44.02342)',
   '0e490012926f65b601ec7c10aa2e85c461ea62bbd15ed03edfe0030c105ee25e',
-  'Escursione Monte Folgorito, Passo Cardella & Monte Focoraccia da Vietina. Anello imperdibile tra storia e panorami mozzafiato! Difficoltà media.',
-  'Trekking Monte Folgorito: Escursione Passo Cardella Focoraccia',
+  'Escursione Monte Folgorito, Passo Cardella & Focoraccia da Vietina (Toscana). Anello medio 14.7km, +1m. Salita ripida, panorami, WWII, sentieri di cresta.',
+  'Monte Folgorito: escursione da Vietina (anello, Toscana)',
   NOW(),
   NOW()
 )

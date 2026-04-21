@@ -53,8 +53,8 @@ VALUES (
   10.420917,
   'POINT(10.420917 43.422953)',
   'd8cbc5d2440e59e1a11f9fd76c941d13db0193a846253acd67eed4b1d4dbbbfc',
-  'Escursione Monte Pelato: cascata del Mua & Poggio Tedesco! Anello facile, ideale famiglie e cani. 3 ore di bellezza naturale! 🏞️',
-  'Trekking Monte Pelato: Cascata del Mua & Poggio Tedesco',
+  'Escursione Monte Pelato Toscana: Anello facile 10.7km, +308m. Cascata del Mua, miniera abbandonata e vista panoramica! Perfetta per famiglie e cani.',
+  'Monte Pelato: Escursione Cascata Mua Poggio Tedesco (Toscana)',
   NOW(),
   NOW()
 )

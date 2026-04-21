@@ -59,8 +59,8 @@ Questa <strong>escursione trekking</strong> è un''opportunità imperdibile per 
   10.679907,
   'POINT(10.679907 43.081443)',
   '54307388cb8061422e81cbaf09b9d4e4b1000992af20c2758314848ffd105e28',
-  'Escursioni Suvereto: Prata & Belvedere! Sentieri tra borghi medievali, fiume e fiori. Viste mozzafiato e facile percorso di 3 ore.',
-  'Trekking Suvereto Prata Belvedere: Sentiero Facile Italia',
+  'Escursione Suvereto - Prata - Belvedere: Anello facile 10km, 260m dislivello Toscana. Percorso panoramico, fiume e fontanelle! Ideale per famiglie.',
+  'Suvereto Belvedere: Escursione da Suvereto (10km)',
   NOW(),
   NOW()
 )

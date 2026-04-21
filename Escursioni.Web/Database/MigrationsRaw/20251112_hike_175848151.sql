@@ -53,8 +53,8 @@ VALUES (
   10.354203,
   'POINT(10.354203 43.848377)',
   '1c8cd1e869a76456b7e25d37023a43266a0e59d1404e9e53415d30bc88e2da23',
-  'Escursione a Massaciuccoli: Via delle Erbe e Fiori di Loto! Percorso naturalistico in Toscana, tra lavanda, fiori e sapori locali. Scopri Lucca!',
-  'Trekking Lago Massaciuccoli: Via delle Erbe Lucca',
+  'Escursione Massaciuccoli: Via delle Erbe e Fiori a Lucca (Toscana) 12.8km. Percorso facile tra lavanda, fiori di loto e aziende agricole. Ideale per trekking...',
+  'Massaciuccoli: escursione via delle erbe e fiori (Lucca)',
   NOW(),
   NOW()
 )

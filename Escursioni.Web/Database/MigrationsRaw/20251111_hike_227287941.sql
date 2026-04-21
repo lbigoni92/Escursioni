@@ -64,8 +64,8 @@ VALUES (
   10.819411,
   'POINT(10.819411 44.144222)',
   '0da196bf1203b74e84c97a0376f927d269b5429f5e0c86cc1c9feb07b229bb3d',
-  'Escursione Cascate Dardagna: Madonna dell''Acero, Rifugio Capanna Tassoni. Sentiero CAI 331 tra cascate e laghi. Trek facile e panoramico!',
-  'Trekking Cascate Dardagna: Sentiero Madonna dell’Acero RIFUGIO',
+  'Escursione Madonna dell’Acero, Cascate del Dardagna & Rifugio Capanna Tassoni (Poggiolforato, EM). Anello CAI 331, 5.3km, +250m. Sentiero facile/medio, adatt...',
+  'Cascate del Dardagna: escursione da Madonna dell’Acero (Emilia)',
   NOW(),
   NOW()
 )

@@ -52,8 +52,8 @@ VALUES (
   10.368843,
   'POINT(10.368843 44.204812)',
   '589a5fd039552c85d3bc934b50254b0412d4411d344f6b3c08869e95c925740e',
-  'Escursioni Pania di Corfino: Vista mozzafiato sulle Alpi Apuane! Sentiero circolare facile o impegnativo, mucche al pascolo e panorami indimenticabili.',
-  'Trekking Pania di Corfino: Sentiero Anello Alpi Apuane',
+  'Escursione Pania di Corfino (Toscana): Anello da Isera a Corfino, 10.5km, 696m dislivello. Sentiero medio, vista Alpi Apuane. Consigli e difficoltà reali!',
+  'Pania di Corfino: escursione da Isera (Toscana, anello)',
   NOW(),
   NOW()
 )

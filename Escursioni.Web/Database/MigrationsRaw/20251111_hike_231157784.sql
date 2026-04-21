@@ -54,8 +54,8 @@ VALUES (
   11.793003,
   'POINT(11.793003 46.457277)',
   '1e669cb466f0a8b1b3fea0453f7d5120ee316f14306f45fc0f5c4ff6f794f0ec',
-  'Anello Alba–Penia: Baita Locia, Passo San Nicolò & Rifugio Contrin. Escursioni in Trentino con panorami mozzafiato e marmotte!',
-  'Trekking Anello Alba–Penia: Passo San Nicolò & Contrin',
+  'Escursione Alba–Penia (Trentino): Anello facile 16km, 896m dislivello. Baita Locia de Contrin, Passo San Nicolò e Rifugio Contrin. Marmotte e panorami!',
+  'Penia – Baita Locia: Anello escursioni Trentino (896m)',
   NOW(),
   NOW()
 )

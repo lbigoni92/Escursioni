@@ -54,8 +54,8 @@ VALUES (
   10.481238,
   'POINT(10.481238 44.02656)',
   '4c00ff5e9cb49e1046144c2a7903e47563cc9df6f5d42b84823a31ad1bc8559e',
-  'Escursioni Garfagnana: Castagno Diavolo, Monte Palodina e Monte Penna! Anello di 1000m, panorami mozzafiato. Partenza da Cardoso.',
-  'Trekking Garfagnana: Castagno Diavolo, Palodina & Penna',
+  'Escursione Cardoso: Anello Monte Palodina & Penna (Toscana) 11.5km, 983m dislivello. Percorso medio da Cardoso con panorami mozzafiato!',
+  'Monte Palodina: escursione da Cardoso (anello, 983m)',
   NOW(),
   NOW()
 )

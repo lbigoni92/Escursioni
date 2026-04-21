@@ -52,8 +52,8 @@ VALUES (
   10.478448,
   'POINT(10.478448 43.589347)',
   'a5eb39e3f46b42152cc84c16f2622eb2bdbb8e3d1f2d8d7d8a1db4da9253f42f',
-  'Escursioni Collesalvetti: sentieri facili e natura incontaminata! Passeggiate rilassanti tra fagiani e cavalli. Perfetto per una passeggiata improvvisata!',
-  'Trekking Escursioni Collesalvetti: Sentieri Facili e Natura It...',
+  'Escursione Collesalvetti (Toscana): Anello di 4.6km, +43m Dislivello. Facile escursione di circa 1 ora tra sentieri larghi e avvistamenti di fauna. Perfetta ...',
+  'Collesalvetti: escursione facile in Toscana (4.62km)',
   NOW(),
   NOW()
 )

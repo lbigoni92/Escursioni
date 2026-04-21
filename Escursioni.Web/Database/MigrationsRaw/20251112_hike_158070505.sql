@@ -49,8 +49,8 @@ VALUES (
   10.560353,
   'POINT(10.560353 43.73503)',
   'e2990cdb6b9f0ead075614a2647a8a9b13635a50caf497888e65c65b5bd35291',
-  'Escursione al Monte Cimone: vista spettacolare e Monumento ai Caduti del Vega! Sentiero facile e panoramico, ideale per la tua prossima avventura.',
-  'Trekking Monte Cimone: Sentiero Vega - Rifugio Sorbo',
+  'Escursione Monte Cimone (Toscana): Anello Buti - Monumento Caduti del Vega (824m, 18.18km). Trekking medio facile tra panorami mozzafiato!',
+  'Monte Cimone: Escursione da Serra (Toscana, 18km)',
   NOW(),
   NOW()
 )

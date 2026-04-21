@@ -59,8 +59,8 @@ VALUES (
   11.757603,
   'POINT(11.757603 46.509097)',
   '2ada78e4abc29740a5fd5eef513577209ea4adeade9ac75c7a0334d591edc1ff',
-  'Anello Passo Sella: Krapfen, panorami mozzafiato & rifugi! Escursione facile tra Sassolungo e Sasso Piatto. Scopri il percorso!',
-  'Trekking Passo Sella: Anello Sassolungo Krapfen & Rifugi',
+  'Anello Passo Sella: Sassolungo/Sasso Piatto, rifugi & panorami | Escursione facile 18.5km +799m Trentino-Alto Adige',
+  'Passo Sella: Anello di Rifugi (Trentino, Facile)',
   NOW(),
   NOW()
 )

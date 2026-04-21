@@ -54,8 +54,8 @@ VALUES (
   10.636597,
   'POINT(10.636597 44.115088)',
   '50fb2bd3b81d12594021e91a377a4570873bf34603b376cf38c1e4ce9a458cb2',
-  'Escursione Appennino: Lago Nero, Giovo, Nuda Pass! 1261m dislivello, 22km. Sentiero impegnativo ma ricco di panorami. Ideale per escursionisti esperti.',
-  'Trekking Appennino: Escursione Lago Giovo - Rif. Donegani 1261m',
+  'Escursione difficile Lago AL Rif.Donegani (Appennino Tosco-Emiliano): 22km, 1261m dislivello. Sentiero intenso con vista sui laghi. Pracchi, Toscana.',
+  'Rif. Donegani - Giovo & Nuda: Escursione Difficile da Pracchi',
   NOW(),
   NOW()
 )

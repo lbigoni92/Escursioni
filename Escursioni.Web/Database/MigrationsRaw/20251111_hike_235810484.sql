@@ -51,8 +51,8 @@ VALUES (
   10.41182,
   'POINT(10.41182 44.417438)',
   '53bc715ce1583562dbd8cc330bff732f4105e0bb9bedfd4a858ef5a746178588',
-  'Ferrata Pietra di Bismantova: 3 vie ferrate mozzafiato! Percorso ad anello tra Alpini, Orto del Mandorlo e Ultimo Sole. Panorami, adrenalina e divertimento!',
-  'Trekking Pietra Bismantova: Ferrate Alpini, Orto Mandorlo',
+  'Ferrata Pietra di Bismantova: Trekking in Emilia-Romagna! Percorso completo con 3 vie ferrate (Alpini, Orto del Mandorlo, Ultimo Sole). Diff. media, 5.43km, ...',
+  'Pietra di Bismantova: Trekking Ferrate da Carnola (diff. media)',
   NOW(),
   NOW()
 )

@@ -249,4 +249,73 @@ public class HikeRepository : IHikeRepository
             .Take(maxItems)
             .ToListAsync();
     }
+
+    public async Task<List<Hike>> GetRelatedAsync(int hikeId, string? comune, string? provincia, decimal? lat, decimal? lon, int count = 4)
+    {
+        var query = _db.Hikes
+            .Include(h => h.Media)
+            .Where(h => h.Id != hikeId);
+
+        // Prefer same Comune, then same Provincia
+        if (!string.IsNullOrWhiteSpace(comune))
+        {
+            var comuneLower = comune.Trim().ToLower();
+            var sameComune = await query
+                .Where(h => h.Comune != null && h.Comune.ToLower() == comuneLower)
+                .OrderByDescending(h => h.DataEscursione ?? h.CreatedAt)
+                .Take(count)
+                .ToListAsync();
+
+            if (sameComune.Count >= count)
+                return sameComune;
+
+            // Fill remaining from same Provincia
+            var ids = sameComune.Select(h => h.Id).ToHashSet();
+            if (!string.IsNullOrWhiteSpace(provincia))
+            {
+                var provLower = provincia.Trim().ToLower();
+                var sameProv = await query
+                    .Where(h => !ids.Contains(h.Id) && h.Provincia != null && h.Provincia.ToLower() == provLower)
+                    .OrderByDescending(h => h.DataEscursione ?? h.CreatedAt)
+                    .Take(count - sameComune.Count)
+                    .ToListAsync();
+                sameComune.AddRange(sameProv);
+            }
+
+            if (sameComune.Count >= count)
+                return sameComune;
+
+            // Fill remaining by geographic proximity
+            if (lat.HasValue && lon.HasValue)
+            {
+                var allIds = sameComune.Select(h => h.Id).ToHashSet();
+                var nearby = await query
+                    .Where(h => !allIds.Contains(h.Id) && h.CentroidLat.HasValue && h.CentroidLon.HasValue)
+                    .OrderBy(h => (h.CentroidLat!.Value - lat.Value) * (h.CentroidLat!.Value - lat.Value)
+                                + (h.CentroidLon!.Value - lon.Value) * (h.CentroidLon!.Value - lon.Value))
+                    .Take(count - sameComune.Count)
+                    .ToListAsync();
+                sameComune.AddRange(nearby);
+            }
+
+            return sameComune;
+        }
+
+        // No comune: use proximity if available
+        if (lat.HasValue && lon.HasValue)
+        {
+            return await query
+                .Where(h => h.CentroidLat.HasValue && h.CentroidLon.HasValue)
+                .OrderBy(h => (h.CentroidLat!.Value - lat.Value) * (h.CentroidLat!.Value - lat.Value)
+                            + (h.CentroidLon!.Value - lon.Value) * (h.CentroidLon!.Value - lon.Value))
+                .Take(count)
+                .ToListAsync();
+        }
+
+        // Fallback: latest hikes
+        return await query
+            .OrderByDescending(h => h.DataEscursione ?? h.CreatedAt)
+            .Take(count)
+            .ToListAsync();
+    }
 }

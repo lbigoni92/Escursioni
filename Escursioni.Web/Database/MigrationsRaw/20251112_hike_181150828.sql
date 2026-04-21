@@ -66,8 +66,8 @@ Il punto di partenza è <strong>Casalina</strong>, facilmente raggiungibile in a
   9.937275,
   'POINT(9.937275 44.419015)',
   'f1340e4b1090f38afb31783e3b86297c2a5ff06eb4417a5de4276c0de4d439a4',
-  'Escursione Magra: Lago Pallino e Ponte Groppodalosio! Percorso facile e spettacolare lungo il fiume, cascate e paesaggi mozzafiato. Scarpe da ginnastica obbl...',
-  'Trekking Magra: Escursione Lago Pallino – Ponte Groppodalosio',
+  'Escursione Magra Valdrentana: da Casalina al Lago Pallino e Ponte Groppodalosio (Toscana) | 1.97km, +48m, sentiero medio. Perfetta per trekking!',
+  'Lago Pallino al Ponte Groppodalosio: escursione Valdantena',
   NOW(),
   NOW()
 )

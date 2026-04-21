@@ -49,8 +49,8 @@ VALUES (
   10.32395,
   'POINT(10.32395 43.956833)',
   '632366488502f1cb83f1e3ffda0d3c0ea3e08717864f9641e256d949096da38d',
-  'Escursione Candalla-Casoli: sentieri, graffiti, panorami mozzafiato e grotte! Affronta salite impegnative e scopri il Monte Penna.',
-  'Escursione Trek Candalla Monte Penna: Sentieri Casoli!',
+  'Escursione Candalla-Casoli: Monte Penna, Ciurlaglia e Grotta Tmbugione! Percorso anello Toscana (14km, +983m) – Escursioni lucabigoni.it',
+  'Monte Penna: escursione da Candalla (Toscana, 14.3km)',
   NOW(),
   NOW()
 )

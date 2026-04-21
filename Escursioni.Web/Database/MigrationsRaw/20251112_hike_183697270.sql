@@ -48,8 +48,8 @@ VALUES (
   14.427544,
   'POINT(14.427544 50.091482)',
   'dbe74beee612d156cf3c297eee7234e3d802479c4585522a18ee8458f4fc69eb',
-  'Esplora Praga: Cattedrale di San Vito, Basílica di San Giorgio & Sant''Irene! Percorso suggestivo tra arte e storia. Scopri di più!',
-  'Trekking Praga: Escursione Cattedrale di San Vito e dintorni',
+  'Escursione Praga: percorso anello Cattedrale S. Vito & dintorni | 19.6km, +279m | Esplora Praga a piedi!',
+  'Praga: Escursione Cattedrale di San Vito (19.6km)',
   NOW(),
   NOW()
 )

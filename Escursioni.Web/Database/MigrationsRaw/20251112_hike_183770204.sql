@@ -48,8 +48,8 @@ VALUES (
   14.175143,
   'POINT(14.175143 49.932073)',
   '7381107d62343f3a24371cb308d8c2faaf54f0521dd5e26615a02d19d94c5ef5',
-  'Esplora il Castello di Karlštejn a Praga! Treno diretto, visita guidata e storia imperiale. Scopri il castello medievale in sicurezza!',
-  'Trekking Castello Karlštejn: Escursione Guidata in Boemia',
+  'Escursione Karlštejn: Anello da Praga (Repubblica Ceca) 5.2km, +175m. Trekking al castello medievale in treno! Costo visita €12, difficoltà media.',
+  'Castello di Karlštejn: Escursione da Poučník (175m, Anello)',
   NOW(),
   NOW()
 )

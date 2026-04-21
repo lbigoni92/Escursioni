@@ -53,8 +53,8 @@ VALUES (
   10.152148,
   'POINT(10.152148 44.053918)',
   '8d3f037dc02eae857d29163f19795b5920dbd1cf5dd5963d8928d06af13973b4',
-  'Escursione Monte Brugiana: vista Elba e Giglio! Anello con Rocchetta e La Rocchia. Percorso impegnativo ma gratificante. Scopri il sentiero!',
-  'Trekking Monte Brugiana Bargana: Rocchetta & Bergiola Maggiore',
+  'Escursione Bargana Monte Brugiana Bergiola Maggiore: trekking 12.7km, 779m dislivello, difficoltà impegnativa. Salita al Monte Bergiola e cresta Rocchetta! S...',
+  'Monte Brugiana: Escursione a Bargana (difficile, 779m)',
   NOW(),
   NOW()
 )

@@ -51,8 +51,8 @@ VALUES (
   10.121353,
   'POINT(10.121353 44.120188)',
   '94691d789360b2c3aee2db8f17ebdaffe799ae9c72516bce4e2d0641e2dc9ca1',
-  'Escursione epica sul Monte Sagro! 5 cime, panorami mozzafiato e il "monte dei Carrarini" tra Alpi Apuane e Toscana. Trek facile e indimenticabile!',
-  'Trekking Monte Sagro: Escursioni Alpi Apuane Carrarini',
+  'Escursione Monte Sagro Alpi Apuane: 5 cime, Borla, Ballerino! Trek facile 12km, 908m dislivello, Campocecina (Torano, Toscana). Panorami mozzafiato!',
+  'Monte Sagro: Escursione da Campocecina (panorami, 908m)',
   NOW(),
   NOW()
 )

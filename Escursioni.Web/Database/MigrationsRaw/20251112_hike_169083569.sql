@@ -52,8 +52,8 @@ VALUES (
   10.155828,
   'POINT(10.155828 44.085757)',
   '3be86866c23b5bddf1f1a4706a5b30b7fdcf8323f18aeb7b2449b97e931a680e',
-  'Escursione Cima di Gioia: sentiero 195 Apuana! Panorami mozzafiato, rovine cave e vista Cima d''Uomo. Percorso facile/medio.',
-  'Trekking Cima d''Uomo: Sentiero 195 Colonnata Italia',
+  'Escursione Colonnata Cima d''Uomo: percorso anello 7.7km, difficoltà media, 583m dislivello. Sentiero 195 Apuane: dai 450m ai 1163m. Viste mozzafiato!',
+  'Cima di Gioia Monte Tamburone: escursione da Colonnata',
   NOW(),
   NOW()
 )
