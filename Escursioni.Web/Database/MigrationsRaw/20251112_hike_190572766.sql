@@ -53,8 +53,8 @@ VALUES (
   10.618395,
   'POINT(10.618395 43.060667)',
   '46ba3167c6266a0d5c748ed0d9839c7694606d7726a51b71025747a8ea032bc9',
-  'Escursione Campiglia-Rocca Silvestro: sentiero facile e panoramico tra grotte e cave! Esplora il Parco del Promontore, visita Campiglia e ammira il mare.',
-  'Trekking Rocca di San Silvestro: Escursione Campiglia Marittima',
+  'Escursione Campiglia Marittima - Rocca di San Silvestro: Anello facile 14.37km, +560m. Toscana, sentiero ben segnato, vista panoramica e grotte! Perfetta in ...',
+  'Rocca di San Silvestro: escursione da Campiglia Marittima (Tos...',
   NOW(),
   NOW()
 )

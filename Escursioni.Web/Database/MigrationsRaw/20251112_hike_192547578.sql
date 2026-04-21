@@ -54,8 +54,8 @@ VALUES (
   10.953903,
   'POINT(10.953903 43.540557)',
   '08850c86a67ebe99ea9e240377c4719815ce79c0cc0025c562ce0fe8bda7062c',
-  'Escursione Gambassi Terme: Natura, terme e panorami mozzafiato! Sentiero facile, grotte e vista Grotta di Maurizio. Scopri il fascino di questa escursione!',
-  'Trekking Gambassi Terme: Escursione Sorgente Bollori Grotta Ma...',
+  'Escursione Gambassi Terme: Anello Toscano 10.5km, difficoltà media, +303m. Trekking tra ginestre, sorgenti e acquedotto! Grotta di Maurizio: esplora i tunnel...',
+  'Gambassi Terme: escursione anello da Gambassi (Toscana)',
   NOW(),
   NOW()
 )

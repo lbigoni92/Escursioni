@@ -50,8 +50,8 @@ VALUES (
   10.630393,
   'POINT(10.630393 44.040777)',
   'e8b4d083247a298fa91406de3386fac8fd35359308651fc7c4e96da65e9ee0b2',
-  'Escursione facile al Monte Prato fiorito e Coronato! Prati, vista mare e Apuane. Alta Via dei Pastori. Sentiero CAI segnalato.',
-  'Trekking Monte Prato Fiorito: Alta Via Apuane Facile',
+  'Escursione Monte Prato fiorito, Toscana: Anello facile 10km, +820m. Alta Via dei Pastori, vista mare e Apuane. Partenza da Lezza Forata. Ideale per principia...',
+  'Monte Prato Fiorito: Escursione Facile da Lezza Forata',
   NOW(),
   NOW()
 )

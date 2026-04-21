@@ -56,8 +56,8 @@ VALUES (
   10.412133,
   'POINT(10.412133 43.522208)',
   '7983df613ae1918111bac9072f1f18ea552863b0696b744204feec0f59fbefbf',
-  'Escursione Valle Benedetta: Acquedotto Leopoldino & Grotte! Percorso facile con vista cascate. Sentiero CAI 121. Scopri Parrana San Giusto!',
-  'Trekking Valle Benedetta: Acquedotto & Grotte Colognole',
+  'Escursione Valle Benedetta Colognole: Acquedotto Leopoldino & grotte! Anello medio 11.6km, +455m. Sentieri CAI, difficoltà accessibile (attenzione fango).',
+  'Valle Benedetta: Escursione all''Acquedotto Leopoldino (Toscana)',
   NOW(),
   NOW()
 )

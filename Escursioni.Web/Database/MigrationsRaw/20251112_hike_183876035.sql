@@ -54,8 +54,8 @@ VALUES (
   14.428025,
   'POINT(14.428025 50.08905)',
   'd41311288143ef87c03f217571c4ce3f9250cdf9ee6ed00d57e93a9af95d3fce',
-  'Escursione a Praga: Ponte Carlo e Orologio Astronomico! Scopri i tesori di Praga con questa splendida passeggiata. #escursioni #Praga #Cechia',
-  'Trekking Praga: Escursione Ponte Carlo & Orologio Astronomico',
+  'Escursione Praha: Anello di 9.96km nel centro storico della Repubblica Ceca! ⛰️ +55m dislivello, ideale per trekking a Praga-Nové Město.',
+  'Praga: Escursione Anello Città Vecchia (9.96km)',
   NOW(),
   NOW()
 )

@@ -54,8 +54,8 @@ VALUES (
   19.054237,
   'POINT(19.054237 47.489827)',
   '0033515138bf937e3bee372eb1e0d39f1a5f3af8df2d37da0d7d6c7e3fae0bdf',
-  'Escursioni Budapest: sentieri mozzafiato e panorami unici! Trekking e avventura nella capitale ungherese. Scopri Budapest 2!',
-  'Trekking Escursione Valmarese – Sentiero Budapest 2 (Como)',
+  'Escursione Gellérthegy Budapest: Anello medio di 16.4km +385m. Trekking panoramico a Budapest, Ungheria. Perfetta per amanti della natura!',
+  'Gellérthegy: Escursione Anello Budapest (16.41km)',
   NOW(),
   NOW()
 )

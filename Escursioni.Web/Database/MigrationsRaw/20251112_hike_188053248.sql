@@ -49,8 +49,8 @@ VALUES (
   10.248802,
   'POINT(10.248802 44.067208)',
   '834693a6b794a63bd2571c653d0095833cdfd2a880cbd8b7b520d32e4563ccae',
-  'Escursione Monte Macina & Monte Sella: cresta Macina/Sella per esperti! Sentiero impegnativo con roccia e cresta esposta. Dettagli e consigli.',
-  'Trekking Monte Macina Sella: Sentiero Creste e Roccia',
+  'Monte Macina & Monte Sella: escursione anello esperti Arni (Toscana) 11km, +1m. Cresta Macina/Sella: sentiero tecnico, canaloni, torrione, passaggio 2° grado...',
+  'Monte Sella e Macina: escursione da Arni (difficile)',
   NOW(),
   NOW()
 )

@@ -52,8 +52,8 @@ VALUES (
   10.24329,
   'POINT(10.24329 44.002913)',
   '0a82652341e82c939debec080f90afc6bc56b4e235df7fb2ecb7636ca0f71c4b',
-  'Escursione Monte Cavallo da Minazzana: Cresta Nord Ovest! Percorso facile e panoramico, ideale per escursionisti esperti. Vetta e vista mozzafiato!',
-  'Trekking Monte Cavallo Minazzana: Cresta Nord Ovest EE',
+  'Escursione Monte Cavallo da Minazzana: Anello Toscana facile-difficile 12.6km, +909m. Cresta Nord Ovest, tratti EE, Azzano, Fornace. Perfetta!',
+  'Monte Cavallo: Escursione da Minazzana (Cresta Nord Ovest)',
   NOW(),
   NOW()
 )

@@ -70,8 +70,8 @@ VALUES (
   10.543602,
   'POINT(10.543602 43.977795)',
   '8197cb2c6818b0a97884e90a1def8b5a69c928503991b4fb20459de3391a7968',
-  'Esplora l''Eremo di San Bartolomeo e i Monti Bargiglio & Agliale! Anello in Alpi Apuane, facile e panoramico. Trekking imperdibile!',
-  'Trekking Monte Bargiglio: Eremo San Bartolomeo, Mozzano',
+  'Escursione Monte Bargiglio, Agliale & Eredi di San Bartolomeo! Anello facile 18.36km, 919m D+ a Borgo a Mozzano (Toscana). Sentieri ben tenuti, vista panoram...',
+  'Monte Bargiglio: escursione da Borgo a Mozzano (Toscana)',
   NOW(),
   NOW()
 )

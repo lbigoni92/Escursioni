@@ -58,8 +58,8 @@ Scopri le meraviglie del territorio pisano con questa <strong>escursione</strong
   10.566135,
   'POINT(10.566135 43.432981)',
   '59f9238bc48ffc9b02a8342502b2be0d52d45c5fa6926dac43c217ee0b5a1bf4',
-  'Escursioni Pomaia e Poggi: Colline Pisane selvagge, panorami mozzafiato & Monte Vasino! Percorso impegnativo, natura incontaminata.',
-  'Trekking Pomaia e Poggi: Escursione Panoramica Pisa',
+  'Escursione Pomaia e Poggi: Anello in Toscana, Colline Pisane | 14.27km, +577m. Trekking tra rovi e sentieri cacciatori. Monte Vasino & Termine Roccacce.',
+  'Pomaia: Escursione tra le Colline Pisane (14km)',
   NOW(),
   NOW()
 )

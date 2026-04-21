@@ -50,8 +50,8 @@ VALUES (
   10.602022,
   'POINT(10.602022 43.30279)',
   '0b85072ec8f5acf6327edde06b06cb895d930584ea653ffdfd991da7f09ae092',
-  'Esplora le Grotte Gialle di Bibbona: formazioni millenarie e antiche tombe etrusche! Scopri questo luogo magico in Toscana.',
-  'Trekking Grotte Gialle Bibbona: Escursione e Scoperta',
+  'Escursione Grotte Gialle Montaleo: anello facile 10.99km, +146m. Scopri le Grotte Gialle di Bibbona, Toscana! Formazioni calcarenitiche e antiche tombe etrus...',
+  'Grotte Gialle di Bibbona: Escursione da Montaleo (Toscana)',
   NOW(),
   NOW()
 )

@@ -50,8 +50,8 @@ VALUES (
   19.054717,
   'POINT(19.054717 47.489533)',
   'e75db3e7106a350f775d7775d26982c379f91fde62fd4518cebe17c59683e567',
-  'Escursioni Budapest: Monumento Zoccoli, Basílica San Esteban & Sinagoga Grande! Percorso storico e culturale a Gellérthegy. Scopri!',
-  'Trekking Eseste: Gellérthegy, Sinagoga e Basilica!',
+  'Escursione Gellérthegy: Anello Budapest, visita al Monumento Scarpe, Sinagoga Storica e Basílica San Esteban (26km, 137m D+)',
+  'Gellérthegy: Escursione Anello da Gellérthegy (Ungheria)',
   NOW(),
   NOW()
 )
