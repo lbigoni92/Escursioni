@@ -160,6 +160,50 @@ public class MetaDescriptionGenerator
         return text;
     }
 
+    public async Task<string> GenerateTagAsync(string titolo, string descrizione, HikeSeoContext? ctx = null)
+    {
+        await EnsureModelAsync();
+
+        var contextBlock = BuildContextBlock(ctx);
+
+        var prompt = $"""
+            Sei un classificatore per un sito di escursionismo italiano.
+
+            Assegna UNO SOLO dei seguenti tag all'escursione:
+            - Alpi Apuane
+            - Versilia e costa toscana
+            - Lucchesia e colline toscane
+            - Appennino Tosco-Emiliano
+            - Trentino
+            - Estero
+
+            REGOLE:
+            - Rispondi SOLO con il testo esatto del tag, senza virgolette né spiegazioni
+            - Scegli il tag più appropriato in base alla zona geografica dell'escursione
+            - Se non riesci a determinare la zona, rispondi "Estero"
+            - Usa le informazioni di regione, provincia, comune e titolo per decidere
+
+            Titolo: {titolo}
+            Descrizione: {descrizione}
+            {contextBlock}
+            """;
+
+        var text = await CallOllamaAsync(prompt);
+        text = text.Trim().Trim('"', '«', '»', '\n', '\r');
+
+        // Validate against allowed tags
+        string[] allowedTags = [
+            "Alpi Apuane", "Garfagnana", "Versilia e costa toscana",
+            "Lucchesia e colline toscane", "Appennino Tosco-Emiliano",
+            "Trentino", "Estero"
+        ];
+
+        var match = allowedTags.FirstOrDefault(t =>
+            text.Contains(t, StringComparison.OrdinalIgnoreCase));
+
+        return match ?? "Estero";
+    }
+
     private async Task<string> CallOllamaAsync(string prompt)
     {
         var body = new

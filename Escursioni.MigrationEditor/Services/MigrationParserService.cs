@@ -18,7 +18,7 @@ public class MigrationParserService
         "regione", "provincia", "comune",
         "data_escursione", "data_registrato", "data_caricato", "data_pubblicazione",
         "url", "bbox", "centroid_lat", "centroid_lon", "geom",
-        "sha256_payload", "meta_descrizione", "titolo_seo",
+        "sha256_payload", "meta_descrizione", "titolo_seo", "tag",
         "created_at", "updated_at"
     ];
 
@@ -99,6 +99,8 @@ public class MigrationParserService
             mf.HikeValues["meta_descrizione"] = null;
         if (!mf.HikeValues.ContainsKey("titolo_seo"))
             mf.HikeValues["titolo_seo"] = null;
+        if (!mf.HikeValues.ContainsKey("tag"))
+            mf.HikeValues["tag"] = null;
     }
 
     private static void ParseMediaInserts(string sql, MigrationFile mf)
@@ -323,7 +325,7 @@ public class MigrationParserService
         "difficolta", "tipo_giro", "superficie",
         "regione", "provincia", "comune",
         "data_escursione", "data_registrato", "data_caricato", "data_pubblicazione",
-        "url", "bbox", "geom", "sha256_payload", "meta_descrizione", "titolo_seo",
+        "url", "bbox", "geom", "sha256_payload", "meta_descrizione", "titolo_seo", "tag",
         "tipo", "path_relativo", "sha256"
     };
 
@@ -378,6 +380,7 @@ public class MigrationParserService
         "geom" => "Geometria (WKT)",
         "sha256_payload" => "SHA256 payload",
         "meta_descrizione" => "Meta Descrizione (SEO)",
+        "tag" => "Tag",
         "titolo_seo" => "Titolo SEO",
         "created_at" => "Creato il",
         "updated_at" => "Aggiornato il",

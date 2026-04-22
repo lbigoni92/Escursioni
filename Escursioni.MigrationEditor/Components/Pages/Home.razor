@@ -36,6 +36,18 @@
             <span>✨ Genera Descrizione HTML</span>
         }
     </button>
+    <button @onclick="() => StartGeneration(BulkMode.TagOnly)" disabled="@BulkService.IsRunning"
+            style="padding:6px 16px;background:#e67e22;color:#fff;border:none;border-radius:4px;cursor:pointer;font-weight:600;font-size:0.85rem;white-space:nowrap;">
+        @if (BulkService.IsRunning && BulkService.Mode == BulkMode.TagOnly)
+        {
+            var pct = BulkService.Total > 0 ? (int)((BulkService.Current - 1) * 100.0 / BulkService.Total) : 0;
+            <span>⏳ @BulkService.Current/@BulkService.Total (@pct%) — Tag</span>
+        }
+        else
+        {
+            <span>🏷️ Genera Tag mancanti</span>
+        }
+    </button>
     @if (!string.IsNullOrEmpty(BulkService.Message))
     {
         <span style="font-size:0.85rem;color:#155724;background:#d4edda;padding:4px 10px;border-radius:4px;">✓ @BulkService.Message</span>
@@ -60,6 +72,7 @@
             <th style="padding:6px;border:1px solid #ccc;">Difficoltà</th>
             <th style="padding:6px;border:1px solid #ccc;">Distanza (km)</th>
             <th style="padding:6px;border:1px solid #ccc;">Dislivello (m)</th>
+            <th style="padding:6px;border:1px solid #ccc;">Tag</th>
             <th style="padding:6px;border:1px solid #ccc;">Azioni</th>
         </tr>
     </thead>
@@ -148,6 +161,25 @@
                 <td style="padding:6px;border:1px solid #ccc;">@(parsed?.GetValueOrDefault("distanza_km") ?? "—")</td>
                 <td style="padding:6px;border:1px solid #ccc;">@(parsed?.GetValueOrDefault("dislivello_m") ?? "—")</td>
                 <td style="padding:6px;border:1px solid #ccc;">
+                    @if (isCurrentFile && BulkService.CurrentStep == "tag")
+                    {
+                        <span class="spinner-border spinner-border-sm text-primary" role="status"></span>
+                        <span style="font-size:0.8rem;color:#e67e22;margin-left:4px;">generando…</span>
+                    }
+                    else
+                    {
+                        var tag = parsed?.GetValueOrDefault("tag");
+                        if (string.IsNullOrWhiteSpace(tag))
+                        {
+                            <span style="color:#999;">mancante</span>
+                        }
+                        else
+                        {
+                            <span style="color:#e67e22;font-weight:600;">@tag</span>
+                        }
+                    }
+                </td>
+                <td style="padding:6px;border:1px solid #ccc;">
                     <a href="/edit/@(System.Uri.EscapeDataString(m.FileName))">Modifica</a>
                 </td>
             </tr>
@@ -235,6 +267,7 @@
         "titolo_seo" => "Titolo SEO",
         "meta_descrizione" => "Meta Descrizione",
         "descrizione_html" => "Descrizione HTML",
+        "tag" => "Tag",
         _ => "…"
     };
 

@@ -35,6 +35,7 @@ CREATE TABLE IF NOT EXISTS escursioni.hike (
   sha256_payload TEXT,
   meta_descrizione TEXT,
   titolo_seo TEXT,
+  tag TEXT,
   created_at TIMESTAMP DEFAULT NOW(),
   updated_at TIMESTAMP DEFAULT NOW()
 );

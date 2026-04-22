@@ -1,6 +1,6 @@
 namespace Escursioni.MigrationEditor.Services;
 
-public enum BulkMode { All, SeoOnly, HtmlOnly }
+public enum BulkMode { All, SeoOnly, HtmlOnly, TagOnly }
 
 public class BulkGenerationService
 {
@@ -72,18 +72,22 @@ public class BulkGenerationService
                     {
                         BulkMode.SeoOnly => true, // rigenera tutte, priorità a chi manca
                         BulkMode.HtmlOnly => string.IsNullOrWhiteSpace(vals.GetValueOrDefault("descrizione_html")),
+                        BulkMode.TagOnly => true, // rigenera tutte, priorità a chi manca
                         _ => string.IsNullOrWhiteSpace(vals.GetValueOrDefault("descrizione_html"))
                     };
                 })
                 .OrderBy(m =>
                 {
-                    // Priorità: prima chi non ha titolo_seo o meta_descrizione
+                    quickCache.TryGetValue(m.FileName, out var vals);
                     if (Mode == BulkMode.SeoOnly)
                     {
-                        quickCache.TryGetValue(m.FileName, out var vals);
                         var missing = string.IsNullOrWhiteSpace(vals?.GetValueOrDefault("titolo_seo"))
                                    || string.IsNullOrWhiteSpace(vals?.GetValueOrDefault("meta_descrizione"));
                         return missing ? 0 : 1;
+                    }
+                    if (Mode == BulkMode.TagOnly)
+                    {
+                        return string.IsNullOrWhiteSpace(vals?.GetValueOrDefault("tag")) ? 0 : 1;
                     }
                     return 0;
                 })
@@ -150,6 +154,14 @@ public class BulkGenerationService
                             var htmlResult = await _metaGen.GenerateHtmlAsync(titolo, descrizione, ctx);
                             mf.HikeValues["descrizione_html"] = htmlResult;
                         }
+                    }
+
+                    // 4. Tag
+                    if (Mode is BulkMode.All or BulkMode.TagOnly)
+                    {
+                        CurrentStep = "tag";
+                        var tagResult = await _metaGen.GenerateTagAsync(titolo, descrizione, ctx);
+                        mf.HikeValues["tag"] = tagResult;
                     }
 
                     _parser.Save(mf);
