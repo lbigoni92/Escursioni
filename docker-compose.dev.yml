@@ -19,36 +19,69 @@ services:
       retries: 5
 
   web-dev:
-    build:
-      context: .
-      dockerfile: Escursioni.Web/Dockerfile.dev
+    image: mcr.microsoft.com/dotnet/sdk:10.0
     container_name: escursioni_web_dev
     depends_on:
       db:
         condition: service_healthy
+
     working_dir: /src/Escursioni.Web
+
     environment:
       ASPNETCORE_ENVIRONMENT: "Development"
       ASPNETCORE_URLS: "http://+:8080"
       ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=escursioni;Username=postgres;Password=postgres"
+      SMTP_USER: "apikey"
+      SMTP_PASS: "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"
+      SMTP_FROM: "BigoniEscursioni@outlook.com"
     volumes:
       - ./:/src
       - ./Escursioni.Web/wwwroot:/src/Escursioni.Web/wwwroot
+
     command: ["dotnet", "watch", "run", "--no-launch-profile", "--urls", "http://0.0.0.0:8080"]
+
     ports:
       - "8080:8080"
 
+
+
+  # ---------------------------------------------------------
+  # OLLAMA (LLM locale per generazione SEO)
+  # ---------------------------------------------------------
+  ollama:
+    image: ollama/ollama:latest
+    container_name: escursioni_ollama
+    restart: unless-stopped
+    volumes:
+      - ollama-data:/root/.ollama
+    ports:
+      - "11434:11434"
+
+  # ---------------------------------------------------------
+  # MIGRATION EDITOR (Blazor Server) con dotnet watch
+  # ---------------------------------------------------------
   migration-editor:
-    build:
-      context: .
-      dockerfile: Escursioni.MigrationEditor/Dockerfile.dev
+    image: mcr.microsoft.com/dotnet/sdk:10.0
     container_name: escursioni_migration_editor
+    depends_on:
+      - ollama
+
     working_dir: /src/Escursioni.MigrationEditor
+
     environment:
       ASPNETCORE_ENVIRONMENT: "Development"
       ASPNETCORE_URLS: "http://+:8081"
+      Ollama__BaseUrl: "http://ollama:11434"
+
     volumes:
       - ./:/src
+      - editor-keys:/root/.aspnet/DataProtection-Keys
+
     command: ["dotnet", "watch", "run", "--no-launch-profile", "--urls", "http://0.0.0.0:8081"]
+
     ports:
       - "8081:8081"
+
+volumes:
+  ollama-data:
+  editor-keys:

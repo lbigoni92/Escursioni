@@ -57,6 +57,9 @@
             <th style="padding:6px;border:1px solid #ccc;">Meta Desc.</th>
             <th style="padding:6px;border:1px solid #ccc;">Desc. HTML</th>
             <th style="padding:6px;border:1px solid #ccc;">Regione</th>
+            <th style="padding:6px;border:1px solid #ccc;">Difficoltà</th>
+            <th style="padding:6px;border:1px solid #ccc;">Distanza (km)</th>
+            <th style="padding:6px;border:1px solid #ccc;">Dislivello (m)</th>
             <th style="padding:6px;border:1px solid #ccc;">Azioni</th>
         </tr>
     </thead>
@@ -141,6 +144,9 @@
                     }
                 </td>
                 <td style="padding:6px;border:1px solid #ccc;">@(parsed?.GetValueOrDefault("regione") ?? "—")</td>
+                <td style="padding:6px;border:1px solid #ccc;">@(parsed?.GetValueOrDefault("difficolta") ?? "—")</td>
+                <td style="padding:6px;border:1px solid #ccc;">@(parsed?.GetValueOrDefault("distanza_km") ?? "—")</td>
+                <td style="padding:6px;border:1px solid #ccc;">@(parsed?.GetValueOrDefault("dislivello_m") ?? "—")</td>
                 <td style="padding:6px;border:1px solid #ccc;">
                     <a href="/edit/@(System.Uri.EscapeDataString(m.FileName))">Modifica</a>
                 </td>
