@@ -1,7 +1,7 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, tag, created_at, updated_at
 )
 VALUES (
   88745714,
@@ -53,6 +53,7 @@ VALUES (
   'f7eb6d6ffcac7452943b0dd8a5aef4f2c464702664d2ade46f003affaebfc54a',
   'Escursione Camelieto Pieve di Compito (Toscana): Anello medio 13.2km, +665m. Trekking facile e ben segnalato per principianti! Castagne, funghi e panorama.',
   'Camelieto: Escursione Anello da Sant''Andrea Compito (Toscana)',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )
@@ -88,6 +89,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
   titolo_seo = EXCLUDED.titolo_seo,
+  tag = EXCLUDED.tag,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

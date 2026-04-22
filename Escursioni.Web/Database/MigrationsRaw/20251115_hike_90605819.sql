@@ -1,7 +1,7 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, tag, created_at, updated_at
 )
 VALUES (
   90605819,
@@ -56,6 +56,7 @@ VALUES (
   '2ccd5a138f125fe2b4ad8311d927af18349c9fae22f46e3e42a15bc0cc76769e',
   'Escursione Vorno Monte Faeta: Anello Toscana 20.59km, +1m Disliv. Sentieri Vorno-Campo Croce-Faeta-Spuntone. Percorso medio, neve a Santallago!',
   'Vorno: Trekking Monte Faeta - Campo Croce - Santallago',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )
@@ -91,6 +92,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
   titolo_seo = EXCLUDED.titolo_seo,
+  tag = EXCLUDED.tag,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

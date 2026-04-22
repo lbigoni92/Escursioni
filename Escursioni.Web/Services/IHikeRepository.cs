@@ -22,4 +22,6 @@ public interface IHikeRepository
     Task<List<Hike>> GetWithCoordinatesAsync();
     Task<List<Hike>> GetForRssAsync(int maxItems);
     Task<List<Hike>> GetRelatedAsync(int hikeId, string? comune, string? provincia, decimal? lat, decimal? lon, int count = 4);
+    Task<List<(string Tag, int Count)>> GetTagSummaryAsync();
+    Task<List<Hike>> GetByTagAsync(string tag);
 }

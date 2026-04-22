@@ -1,7 +1,7 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, tag, created_at, updated_at
 )
 VALUES (
   87478832,
@@ -60,6 +60,7 @@ Scoprite la magia del <strong>trekking</strong> e dell''<strong>escursionismo</s
   '07ef0e62bd2141f55cbfffc30d821d128db9e33a6f02c416dd6cab6627967d2d',
   'Escursione facile San Rossore Cascine Vecchie, Toscana: 6.78km | +7m | Percorso naturale ideale per passeggiate domenicali, famiglie e amanti della natura. O...',
   'San Rossore: Escursione Facile nel Parco Toscano',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )
@@ -95,6 +96,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
   titolo_seo = EXCLUDED.titolo_seo,
+  tag = EXCLUDED.tag,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

@@ -1,7 +1,7 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, tag, created_at, updated_at
 )
 VALUES (
   87617083,
@@ -55,6 +55,7 @@ VALUES (
   '1db3fd0f374209638edefb3d6543285d6ea4cfd4914e5854aa59a723ad769f2a',
   'Escursione Castellaccio - Quercianella: percorso di 11.7km T° Medio in Toscana. Ammira il ponte di Calafuria! +285m dislivello. Sentiero consigliato!',
   'Castellaccio a Quercianella: Escursione Toscana (11.69km)',
+  'Versilia e costa toscana',
   NOW(),
   NOW()
 )
@@ -90,6 +91,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
   titolo_seo = EXCLUDED.titolo_seo,
+  tag = EXCLUDED.tag,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

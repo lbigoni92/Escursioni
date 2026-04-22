@@ -1,7 +1,7 @@
 ﻿BEGIN;
 
 INSERT INTO escursioni.hike (
-  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, created_at, updated_at
+  wikiloc_id, titolo, descrizione, descrizione_html, attivita, distanza_km, dislivello_m, quota_min_m, quota_max_m, tempo_min, tempo_hhmm, tempo_mov_min, tempo_mov_hhmm, coordinate_count, difficolta, tipo_giro, superficie, regione, provincia, comune, data_escursione, data_registrato, data_caricato, data_pubblicazione, url, bbox, centroid_lat, centroid_lon, geom, sha256_payload, meta_descrizione, titolo_seo, tag, created_at, updated_at
 )
 VALUES (
   253262610,
@@ -62,6 +62,7 @@ La <strong>Ferrata di Buti</strong> è un esempio perfetto di come il <strong>tr
   '1b8c26c0819e6aee15ebad876da70821b8a2955675e24504d9b1f8c0f68be61e',
   'Ferrata Buti Toscana: Trekking 410m, difficoltà media. Percorso attrezzato su roccia conglomeratica con camini e spigoli. Info, itinerario e consigli!',
   'Ferrata di Buti: Escursione da Buti (difficoltà media)',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )
@@ -97,6 +98,7 @@ ON CONFLICT (wikiloc_id) DO UPDATE SET
   sha256_payload = EXCLUDED.sha256_payload,
   meta_descrizione = EXCLUDED.meta_descrizione,
   titolo_seo = EXCLUDED.titolo_seo,
+  tag = EXCLUDED.tag,
   updated_at = NOW();
 
 INSERT INTO escursioni.hike_registry (wikiloc_id, url, last_seen_at, hash_contenuti)

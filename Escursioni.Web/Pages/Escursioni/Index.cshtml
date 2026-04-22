@@ -1,92 +1,24 @@
 @page "/escursioni"
 @model Escursioni.Web.Pages.Escursioni.IndexModel
+@using Escursioni.Web.Services
 
 <section>
-    <h1 class="page-title">Tutte le escursioni</h1>
+    <h1 class="page-title">Escursioni per zona</h1>
     <p class="page-subtitle">
-        Elenco completo delle escursioni caricate dal mio profilo Wikiloc esportato su questo sito.
+        <strong>@Model.TotalHikes escursioni</strong> organizzate per area geografica.
+        Scegli la zona che ti interessa per scoprire tutti i sentieri, le tracce GPS e le descrizioni dettagliate.
     </p>
 
-    <form method="get" class="form-row">
-        <input class="input-text" type="text" name="Regione" value="@Model.Regione" placeholder="Filtra per regione (es. Toscana)" />
-        <input class="input-text" type="text" name="Difficolta" value="@Model.Difficolta" placeholder="Filtra per difficoltà (es. E, EE, facile...)" />
-        <button class="btn" type="submit">Applica filtri</button>
-    </form>
-
-    <div class="card-grid">
-        @foreach (var h in Model.Escursioni)
+    <div class="tag-grid">
+        @foreach (var (tag, count) in Model.TagSummary)
         {
-            var cover = Escursioni.Web.Pages.Escursioni.IndexModel.CoverPath(h);
-            var coverThumb = ImageHelper.ThumbPath(cover);
-            var displayTitle = !string.IsNullOrWhiteSpace(h.TitoloSeo) ? h.TitoloSeo : h.Titolo;
-            <article class="hike-card">
-                @if (!string.IsNullOrWhiteSpace(cover))
-                {
-                    <a asp-page="/Escursioni/Dettaglio"
-                       asp-route-id="@h.Id"
-                       asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)">
-                        <picture>
-                            @if (coverThumb != null)
-                            {
-                                <source srcset="~/@coverThumb" type="image/webp" />
-                            }
-                            <img src="~/@cover" alt="@displayTitle" loading="lazy" decoding="async" width="400" height="160" />
-                        </picture>
-                    </a>
-                }
-                <div class="hike-card-body">
-                    <h2 class="hike-card-title">
-                        <a asp-page="/Escursioni/Dettaglio"
-                           asp-route-id="@h.Id"
-                           asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)">
-                            @displayTitle
-                        </a>
-                    </h2>
-                    <div class="hike-card-meta">
-                        @if (!string.IsNullOrWhiteSpace(h.Comune))
-                        {
-                            @($"{h.Comune}, {h.Provincia}")
-                        }
-                        else if (!string.IsNullOrWhiteSpace(h.Regione))
-                        {
-                            @h.Regione
-                        }
-                        @if (h.DataEscursione.HasValue)
-                        {
-                            <span> · @h.DataEscursione.Value.ToString("dd/MM/yyyy")</span>
-                        }
-                    </div>
-                    <div class="hike-card-desc">
-                        @{
-                            var txt = h.Descrizione ?? "";
-                            if (txt.Length > 140) txt = txt[..140] + "...";
-                        }
-                        @txt
-                    </div>
-                </div>
-                <div class="hike-card-footer">
-                    <span>
-                        @if (h.DistanzaKm.HasValue)
-                        {
-                            <span>@h.DistanzaKm.Value.ToString("0.0") km</span>
-                        }
-                        @if (h.DislivelloM.HasValue)
-                        {
-                            <span> · +@h.DislivelloM.Value m</span>
-                        }
-                        @if (!string.IsNullOrWhiteSpace(h.Difficolta))
-                        {
-                            <span> · @h.Difficolta</span>
-                        }
-                    </span>
-                    <span>
-                        @if (!string.IsNullOrWhiteSpace(h.TipoGiro))
-                        {
-                            <span class="badge badge-soft">@h.TipoGiro</span>
-                        }
-                    </span>
-                </div>
-            </article>
+            var slug = TagHelper.ToSlug(tag);
+            var desc = TagHelper.GetDescription(tag);
+            <a href="/escursioni/@slug" class="tag-card">
+                <h2 class="tag-card-title">@tag</h2>
+                <p class="tag-card-desc">@desc</p>
+                <span class="tag-card-count">@count escursioni</span>
+            </a>
         }
     </div>
 </section>

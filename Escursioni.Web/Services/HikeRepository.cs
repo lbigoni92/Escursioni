@@ -312,4 +312,25 @@ public class HikeRepository : IHikeRepository
         // Nessun risultato
         return new List<Hike>();
     }
+
+    public async Task<List<(string Tag, int Count)>> GetTagSummaryAsync()
+    {
+        return await _db.Hikes
+            .Where(h => h.Tag != null && h.Tag != "")
+            .GroupBy(h => h.Tag!)
+            .Select(g => new { Tag = g.Key, Count = g.Count() })
+            .OrderByDescending(x => x.Count)
+            .AsAsyncEnumerable()
+            .Select(x => (x.Tag, x.Count))
+            .ToListAsync();
+    }
+
+    public async Task<List<Hike>> GetByTagAsync(string tag)
+    {
+        return await _db.Hikes
+            .Include(h => h.Media)
+            .Where(h => h.Tag != null && h.Tag == tag)
+            .OrderByDescending(h => h.DataEscursione)
+            .ToListAsync();
+    }
 }

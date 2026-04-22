@@ -60,7 +60,7 @@ VALUES (
   'a03e200b02eb3dc46e8e0a08b2c372eacfbe28668141475e8f867fcc601a9f8b',
   'Ferrata di Sant’Antone Buti: Impegnativa ferrata in Toscana (79m, 0.79km) | Difficoltà media, attrezzatura obbligatoria!',
   'Ferrata di Buti: Sant’Antone (Toscana) – Guida Dettagliata',
-  'Garfagnana',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

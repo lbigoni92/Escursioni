@@ -67,7 +67,7 @@ VALUES (
   '029416ec89913dfeb16b0db6f899988bd318bd97e119cabc62b7d4083eff4e6d',
   'Escursione Agnano Foce Di Calci: anello facile 9.1km, +501m in Toscana. Sentiero storico, roccia e fiume! Perfetto per trekking amatoriale.',
   'Agnano - Foce Di Calci: escursione anello Toscana',
-  'Versilia e costa toscana',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

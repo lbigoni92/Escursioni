@@ -1194,3 +1194,65 @@ body.dark-mode .about-warning::before {
     font-size: 1.6rem;
     filter: drop-shadow(0 2px 2px #0008);
 }
+
+/* ===================== TAG GRID (Escursioni per zona) ===================== */
+.tag-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.tag-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem 1.8rem;
+    border-radius: 16px;
+    background: var(--card-bg, #1e293b);
+    border: 1.5px solid var(--border-subtle, #334155);
+    text-decoration: none;
+    color: var(--text-main, #e2e8f0);
+    transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+}
+.tag-card:hover {
+    border-color: var(--accent, #38bdf8);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.12);
+}
+.tag-card-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    color: var(--accent, #38bdf8);
+}
+.tag-card-desc {
+    font-size: 0.95rem;
+    color: var(--text-muted, #94a3b8);
+    margin: 0 0 1rem 0;
+    line-height: 1.5;
+    flex: 1;
+}
+.tag-card-count {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-main, #e2e8f0);
+    background: var(--accent-soft, rgba(147,197,253,0.15));
+    padding: 0.3rem 0.8rem;
+    border-radius: 999px;
+    align-self: flex-start;
+}
+body.light-mode .tag-card {
+    background: #fff;
+    border-color: #cbd5e1;
+}
+body.light-mode .tag-card:hover {
+    border-color: #4a9fe5;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.08);
+}
+body.light-mode .tag-card-title {
+    color: #2563eb;
+}
+@media (max-width: 700px) {
+    .tag-grid {
+        grid-template-columns: 1fr;
+    }
+}

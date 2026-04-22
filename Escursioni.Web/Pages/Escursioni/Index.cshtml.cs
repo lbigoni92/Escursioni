@@ -10,17 +10,6 @@ namespace Escursioni.Web.Pages.Escursioni;
 public class IndexModel : PageModel
 {
     private readonly IHikeRepository _repo;
-
-
-
-    public List<Hike> Escursioni { get; set; } = new();
-
-    [BindProperty(SupportsGet = true)]
-    public string? Regione { get; set; }
-
-    [BindProperty(SupportsGet = true)]
-    public string? Difficolta { get; set; }
-
     private readonly IConfiguration _config;
 
     public IndexModel(IHikeRepository repo, IConfiguration config)
@@ -29,13 +18,18 @@ public class IndexModel : PageModel
         _config = config;
     }
 
+    public List<(string Tag, int Count)> TagSummary { get; set; } = new();
+    public int TotalHikes { get; set; }
+
     public async Task OnGet()
     {
-        ViewData["Title"] = "Tutte le escursioni e trekking in Toscana e Italia | Luca Bigoni";
-        ViewData["MetaDescription"] = "Elenco completo di escursioni e trekking in Toscana, Alpi Apuane, Garfagnana e tutta Italia. Tracce GPS, foto, dislivelli e descrizioni dettagliate dei sentieri.";
+        ViewData["Title"] = "Escursioni per zona – Trekking in Toscana e Italia | Luca Bigoni";
+        ViewData["MetaDescription"] = "Esplora tutte le escursioni organizzate per zona: Alpi Apuane, Garfagnana, Versilia, Appennino e molto altro. Tracce GPS, foto e descrizioni dettagliate.";
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/escursioni";
-        Escursioni = await _repo.GetAllAsync(Regione, Difficolta);
+
+        TagSummary = await _repo.GetTagSummaryAsync();
+        TotalHikes = TagSummary.Sum(t => t.Count);
     }
 
     public static string MakeSlug(string text)

@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>@ViewData["Title"]@(ViewData["Title"]?.ToString()?.Contains("Escursioni") == true ? "" : " | Escursioni")</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="msvalidate.01" content="2F3FB46C5CFC143B9FCA6B962AEF2FB5" />
     @if (ViewData["MetaDescription"] is string md && !string.IsNullOrWhiteSpace(md))
     {
         <meta name="description" content="@md" />
@@ -82,7 +83,7 @@
             </button>
             <nav class="main-nav" id="main-nav" aria-label="Navigazione principale">
                 <a asp-page="/Index">Home</a>
-                <!--<a asp-page="/Escursioni/Index">Escursioni</a>-->
+                <a asp-page="/Escursioni/Index">Escursioni</a>
                 <a asp-page="/Map/Index">Mappa</a>
                 <a asp-page="/Search/Index">Ricerca</a>
                 <a asp-page="/About">Chi sono</a>

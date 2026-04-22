@@ -1,0 +1,92 @@
+@page "/escursioni/{slug}"
+@model Escursioni.Web.Pages.Escursioni.TagModel
+@using Escursioni.Web.Services
+
+<section>
+    <h1 class="page-title">Escursioni @Model.TagName</h1>
+    <p class="page-subtitle">
+        @Model.TagDescription
+        <strong>@Model.Escursioni.Count escursioni</strong> in questa zona.
+    </p>
+
+    <div class="card-grid">
+        @foreach (var h in Model.Escursioni)
+        {
+            var cover = Escursioni.Web.Pages.Escursioni.IndexModel.CoverPath(h);
+            var coverThumb = ImageHelper.ThumbPath(cover);
+            var displayTitle = !string.IsNullOrWhiteSpace(h.TitoloSeo) ? h.TitoloSeo : h.Titolo;
+            <article class="hike-card">
+                @if (!string.IsNullOrWhiteSpace(cover))
+                {
+                    <a asp-page="/Escursioni/Dettaglio"
+                       asp-route-id="@h.Id"
+                       asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)">
+                        <picture>
+                            @if (coverThumb != null)
+                            {
+                                <source srcset="~/@coverThumb" type="image/webp" />
+                            }
+                            <img src="~/@cover" alt="@displayTitle" loading="lazy" decoding="async" width="400" height="160" />
+                        </picture>
+                    </a>
+                }
+                <div class="hike-card-body">
+                    <h2 class="hike-card-title">
+                        <a asp-page="/Escursioni/Dettaglio"
+                           asp-route-id="@h.Id"
+                           asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)">
+                            @displayTitle
+                        </a>
+                    </h2>
+                    <div class="hike-card-meta">
+                        @if (!string.IsNullOrWhiteSpace(h.Comune))
+                        {
+                            @($"{h.Comune}, {h.Provincia}")
+                        }
+                        else if (!string.IsNullOrWhiteSpace(h.Regione))
+                        {
+                            @h.Regione
+                        }
+                        @if (h.DataEscursione.HasValue)
+                        {
+                            <span> · @h.DataEscursione.Value.ToString("dd/MM/yyyy")</span>
+                        }
+                    </div>
+                    <div class="hike-card-desc">
+                        @{
+                            var txt = h.Descrizione ?? "";
+                            if (txt.Length > 140) txt = txt[..140] + "...";
+                        }
+                        @txt
+                    </div>
+                </div>
+                <div class="hike-card-footer">
+                    <span>
+                        @if (h.DistanzaKm.HasValue)
+                        {
+                            <span>@h.DistanzaKm.Value.ToString("0.0") km</span>
+                        }
+                        @if (h.DislivelloM.HasValue)
+                        {
+                            <span> · +@h.DislivelloM.Value m</span>
+                        }
+                        @if (!string.IsNullOrWhiteSpace(h.Difficolta))
+                        {
+                            <span> · @h.Difficolta</span>
+                        }
+                    </span>
+                    <span>
+                        @if (!string.IsNullOrWhiteSpace(h.TipoGiro))
+                        {
+                            <span class="badge badge-soft">@h.TipoGiro</span>
+                        }
+                    </span>
+                </div>
+            </article>
+        }
+    </div>
+
+    <div style="margin-top:2rem;">
+        <a href="/escursioni" class="btn">← Tutte le zone</a>
+    </div>
+</section>

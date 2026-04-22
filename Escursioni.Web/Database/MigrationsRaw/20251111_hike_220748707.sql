@@ -81,7 +81,7 @@ VALUES (
   'Escursione Anello Val di Luce: Monte Gomito, Denti Vecchia & Alpe Tre Potenze!
 Percorso di 18,4km, difficoltà media, 914m di dislivello. Ideale per trekking ...',
   'Val di Luce: escursione anello da Val di Luce (panorami)',
-  'Lucchesia e colline toscane',
+  'Versilia e costa toscana',
   NOW(),
   NOW()
 )
