@@ -51,7 +51,7 @@ VALUES (
   10.329278,
   'POINT(10.329278 43.962935)',
   '3c0d226d1cbda37ebea19ee1e7016c4f703c7afbba853cd5043b6a9f8e2202a8',
-  'Escursione Casoli: Monte Piglione! Anello di 20.36km, difficoltà media, 1m dislivello. Trekking tra Grotta all''onda e Campo allorzo. Perfetto per amanti Apuane!',
+  'Escursione Casoli: Monte Piglione! Anello di 20.36km, difficoltà media,700m dislivello. Trekking tra Grotta all''onda e Campo allorzo. Perfetto per amanti Apuane!',
   'Monte Piglione: escursione da Casoli (Toscana)',
   NOW(),
   NOW()

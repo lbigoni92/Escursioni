@@ -26,13 +26,13 @@ services:
   # SERVIZIO DI SVILUPPO .NET CON AUTO-RELOAD (dotnet watch)
   # ---------------------------------------------------------
   web-dev:
-    image: mcr.microsoft.com/dotnet/sdk:10.0
+    build:
+      context: .
+      dockerfile: Escursioni.Web/Dockerfile
     container_name: escursioni_web_dev
     depends_on:
       db:
         condition: service_healthy
-
-    working_dir: /src/Escursioni.Web
 
     environment:
       ASPNETCORE_ENVIRONMENT: "Development"
@@ -41,15 +41,6 @@ services:
       SMTP_USER: "apikey"
       SMTP_PASS: "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"
       SMTP_FROM: "BigoniEscursioni@outlook.com"
-
-    # 🔥 Volumi fondamentali:
-    # 1) Monti tutta la solution
-    # 2) Monti *anche* wwwroot così GPX/KML vengono serviti davvero
-    volumes:
-      - ./:/src
-      - ./Escursioni.Web/wwwroot:/src/Escursioni.Web/wwwroot
-
-    command: ["dotnet", "watch", "run", "--no-launch-profile", "--urls", "http://0.0.0.0:8080"]
 
     ports:
       - "8080:8080"

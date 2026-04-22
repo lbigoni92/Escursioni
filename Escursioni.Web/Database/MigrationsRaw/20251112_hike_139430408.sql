@@ -58,7 +58,7 @@ VALUES (
   10.210207,
   'POINT(10.210207 44.088031)',
   '1c9c875f4514af79a441f5996f2d6a8f7724c96e94c7148f4797f833a967d474',
-  'Escursione Tambura Monte Crispo: Anello Toscano 15.25km. Partenza Resceto. Sentiero medio, 1m dislivello. Casa Verde, Passo Focolaccia, Cresta Tambura. Vetta...',
+  'Escursione Tambura Monte Crispo: Anello Toscano 15.25km. Partenza Resceto. Sentiero medio, 800m dislivello. Casa Verde, Passo Focolaccia, Cresta Tambura. Vetta...',
   'Monte Crispo - La Tambura: Escursione da Resceto (15.25km)',
   NOW(),
   NOW()
