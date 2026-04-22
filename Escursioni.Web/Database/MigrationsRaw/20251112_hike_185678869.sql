@@ -50,7 +50,7 @@ VALUES (
   10.171507,
   'POINT(10.171507 44.090792)',
   'fd71f615ab361704d7d31c334331e3d4162dc9f581eeceb63daff2368ee343d9',
-  'Escursione Monte Spallone, Sagro & Punta Tre Uomini (Forno, Toscana) – Trek impegnativo 15km, +1m dislivello. Sentiero CAI EE. Tratti esposti, rocce, pendenz...',
+  'Escursione Monte Spallone, Sagro & Punta Tre Uomini (Forno, Toscana) – Trek impegnativo 15km, +800m dislivello. Sentiero CAI EE. Tratti esposti, rocce, pendenz...',
   'Monte Spallone, Monte Sagro: Trekking da Verghereto (difficile)',
   NOW(),
   NOW()

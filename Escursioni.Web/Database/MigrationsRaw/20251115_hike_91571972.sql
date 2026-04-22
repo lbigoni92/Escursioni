@@ -55,8 +55,8 @@ VALUES (
   10.499638,
   'POINT(10.499638 42.934217)',
   'c1a79841165814baf8b7b9237a8d67f74ea4ec0f36b8dc60c140376dc4f7e1fa',
-  'Escursione Salivoli Punta Falcone: Sentieri facili, bunker WWII, osservatorio e calette. Pranziate e flora autoctona! Scopri Salivoli!',
-  'Trekking Salivoli Punta Falcone: Sentiero & Bunker ⛰️',
+  'Escursione Salivoli Punta Falcone: facile anello toscano 1.38km +54m. Osservatorio, bunker WWII & calette! Ideale per famiglie. Info e consigli da escursioni...',
+  'Punta Falcone a Salivoli: escursione facile da Salivoli',
   NOW(),
   NOW()
 )

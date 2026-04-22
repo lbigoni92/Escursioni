@@ -57,8 +57,8 @@ VALUES (
   10.300018,
   'POINT(10.300018 43.593673)',
   '9a55ac7de922b0fb063d5b656fc09c9128219454dbd998d62857300947db8c67',
-  'Escursione Calambrone: sentiero tranquillo a picco sul Golfo di Napoli. Perfetta per famiglie, vista mare e fauna locale! Ideale in primavera/autunno.',
-  'Escursione Trek Calambrone: Sentiero Famiglie, Mare e Natura',
+  'Escursione Calambrone: Anello facile in Toscana (8.89km, +36m) | Trekking a Calambrone, ideale per famiglie e amanti della natura. Scopri il sentiero e... ev...',
+  'Calambrone: escursione facile da Calambrone (anello, Toscana)',
   NOW(),
   NOW()
 )

@@ -37,3 +37,18 @@ services:
     command: ["dotnet", "watch", "run", "--no-launch-profile", "--urls", "http://0.0.0.0:8080"]
     ports:
       - "8080:8080"
+
+  migration-editor:
+    build:
+      context: .
+      dockerfile: Escursioni.MigrationEditor/Dockerfile.dev
+    container_name: escursioni_migration_editor
+    working_dir: /src/Escursioni.MigrationEditor
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_URLS: "http://+:8081"
+    volumes:
+      - ./:/src
+    command: ["dotnet", "watch", "run", "--no-launch-profile", "--urls", "http://0.0.0.0:8081"]
+    ports:
+      - "8081:8081"

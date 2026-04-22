@@ -57,8 +57,8 @@ VALUES (
   10.179877,
   'POINT(10.179877 44.085182)',
   'cd6c6f7e26d85f1babab5c6ee5702679c3b5d1fb0463cab938967f1345bc8412',
-  'Escursione Forno: la "Caporetto del Finotto" in Trentino. Sentiero selvaggio e storie inquietanti. Un''avventura a rischio! ⛰️🚶‍♂️',
-  'Trekking Forno Caporetto Finotto: Sentiero e Storia',
+  'Escursione Forno Toscana: percorso facile di 7.34km +661m alla "Caporetto del Finotto". Sentiero non concluso, attenzione! Scopri la storia di questa escursi...',
+  'Forno: Escursione alla Caporetto del Finotto (Facile)',
   NOW(),
   NOW()
 )

@@ -52,8 +52,8 @@ VALUES (
   10.443598,
   'POINT(10.443598 43.764146)',
   'ec8fcf713a484b9771d6365e50dcca833a3be3b51abd42cd82dc6e8dfd09f277',
-  'Escursione notturna a San Giuliano Terme: Passo di Dante, Villa del Polacco e Villa Bosniaski! Sentiero segnalato, panoramico e fattibile. ✨',
-  'Trekking Notturno Passo di Dante: Villa del Polacco, Italia',
+  'Escursione notturna San Giuliano Terme: Passo di Dante - Villa del Polacco! Anello facile 8.17km, +348m. Percorso ben segnalato, ideale per trekking amatoria...',
+  'Passo di Dante - Esplora San Giuliano Terme (Anello)',
   NOW(),
   NOW()
 )

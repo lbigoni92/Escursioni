@@ -54,8 +54,8 @@ VALUES (
   10.317656,
   'POINT(10.317656 44.007817)',
   'c96f6faa33b851619ca5d03cebb848c9053483f83585d9a4c40affd66cedc14b',
-  'Escursioni Alpi Apuane: Monte Forato, Foce di Petrosciana! Anello da Cardoso con panorami mozzafiato e vista Pania della Croce.',
-  'Trekking Monte Forato: Sentiero CAI Orzale-Cardoso',
+  'Escursione Monte Forato Sud (Cardoso, Orzale): Anello in Alpi Apuane +975m, 11.8km. Trekking facile/medio con vista Pania e Forato. Perfetto per primavera!',
+  'Monte Forato: escursione da Cardoso (anello, 975m)',
   NOW(),
   NOW()
 )

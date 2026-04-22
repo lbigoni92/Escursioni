@@ -55,8 +55,8 @@ VALUES (
   10.403427,
   'POINT(10.403427 43.813655)',
   'b7921b378e4484c097892fcacfc35bdd6bcb8c2ae207435078a010938706ead7',
-  'Escursione Filettole: sentiero spettacolare con vista lago Massaciuccoli & Rocca di Ripafratta! Panorami mozzafiato e facile trekking. 🏞️',
-  'Trekking Filettole Lago Massaciuccoli: Vista Roccia & Tramonto',
+  'Escursione Filettole: Anello al Lago di Massaciuccoli in Toscana (9.45km, +171m) - Vista Roccca di Ripafratta, tramonto sul lago e torre divisa! Facile.',
+  'Filettole: Escursione al Lago di Massaciuccoli (Toscana)',
   NOW(),
   NOW()
 )

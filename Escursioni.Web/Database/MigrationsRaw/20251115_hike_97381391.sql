@@ -54,8 +54,8 @@ VALUES (
   11.218438,
   'POINT(11.218438 43.56602)',
   '826b367e1d7be680e3efbe29d5fa099425bc7817811091b44d6f0f0e7653a9ac',
-  'Escursioni Chianti: Sambuca, vigne e borghi! Percorso facile tra i vigneti, fiumi e natura. Ideale per un''esperienza unica nel cuore del Tuscany.',
-  'Trekking Chianti Sambuca: Vigne e Sentieri Facili',
+  'Escursione Sambuca Chianti: Anello di 24km con +620m di dislivello! Percorso facile tra vigne e fiumi. Ideale per una giornata nel cuore della Toscana!',
+  'Sambuca: Escursione tra le Vigne del Chianti (24km)',
   NOW(),
   NOW()
 )

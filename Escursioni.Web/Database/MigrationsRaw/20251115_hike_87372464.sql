@@ -65,8 +65,8 @@ VALUES (
   10.362884,
   'POINT(10.362884 43.485888)',
   '01b75bd9b28a9f3fe04f6069211d6be9ab54ce611da654de87fde174839e4f51',
-  'Escursione Castellaccio-Romito-Maroccone: Anello facile e suggestivo! Panorami mozzafiato, sentieri ben segnati e la fauna locale. Ideale per famiglie!',
-  'Trekking Castellaccio: Romito e Maroccone - Sentiero Facile',
+  'Escursione Castellaccio Romito Maroccone Toscana: Anello facile 10.5km, 300m dislivello. Trekking in provincia di Massa, ideale per famiglie e principianti.',
+  'Castellaccio - Romito - Maroccone: Escursione Toscana Facile',
   NOW(),
   NOW()
 )

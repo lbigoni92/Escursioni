@@ -215,7 +215,7 @@ else
                                         {
                                             <source srcset="~/@rThumb" type="image/webp" />
                                         }
-                                        <img src="~/@rCover" alt="@rTitle" loading="lazy" decoding="async" width="400" height="160" />
+                                        <img src="~/@rCover" alt="@(!string.IsNullOrWhiteSpace(r.TitoloSeo) ? r.TitoloSeo : r.Titolo)" loading="lazy" decoding="async" width="400" height="160" />
                                     </picture>
                                 </a>
                             }

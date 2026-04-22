@@ -56,8 +56,8 @@ VALUES (
   10.343522,
   'POINT(10.343522 43.491427)',
   '12608bd332d3ed5ebca4fc5f9e3cacb97b6903450ea4a468d5fb219298fdfd75',
-  'Escursione al Montenero: vista mozzafiato su Ciano e Castellaccio! Sentieri facili e natura incontaminata. Scopri il santuario e il monumento a Ciano.',
-  'Trekking Montenero Ciano: Sentiero Facile & Viste Panoramiche',
+  'Escursione Montenero Ciano: Anello facile in Toscana (2.69km, +108m). Visita santuario, monumento Ciano e sentiero asparagi! Ideale per principianti.',
+  'Montenero: escursione facile da Ciano (Toscana)',
   NOW(),
   NOW()
 )

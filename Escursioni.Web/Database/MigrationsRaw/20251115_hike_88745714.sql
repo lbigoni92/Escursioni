@@ -51,8 +51,8 @@ VALUES (
   10.560153,
   'POINT(10.560153 43.78667)',
   'f7eb6d6ffcac7452943b0dd8a5aef4f2c464702664d2ade46f003affaebfc54a',
-  'Escursione Camelieto: Anello in montagna a San Andrea Compito! Sentiero facile e ben segnalato, ideale per principianti. Natura, castagne & panorami!',
-  'Trekking Camelieto Anello: Sentiero Facile in Trentino Alto Adige',
+  'Escursione Camelieto Pieve di Compito (Toscana): Anello medio 13.2km, +665m. Trekking facile e ben segnalato per principianti! Castagne, funghi e panorama.',
+  'Camelieto: Escursione Anello da Sant''Andrea Compito (Toscana)',
   NOW(),
   NOW()
 )

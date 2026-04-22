@@ -55,8 +55,8 @@ VALUES (
   10.500712,
   'POINT(10.500712 42.935683)',
   '8eea4199403cabb3f27c9a1c50329b25596eb1450a60c595b168407fcbb40cb5',
-  'Escursione Salivoli-Populonia: Anello costiero tra Etruschi e mare! Sentiero facile e ben segnalato, 18km di bellezza. Scopri il castello, le calette e il Fo...',
-  'Trekking Anello Salivoli Populonia Costiera: Sentiero Facile',
+  'Escursione Salivoli - Populonia: Anello costiero toscano 18.15km +670m. Trekking facile tra coste, castello e calette! Info e mappa su escursionilucabigoni.it',
+  'Salivoli - Populonia: Anello Costiero (18km, Medio)',
   NOW(),
   NOW()
 )

@@ -58,8 +58,8 @@ Questo <strong>trekking</strong> in <strong>Italia</strong>, sulla <strong>Capra
   9.835979,
   'POINT(9.835979 43.051089)',
   '93b41048ca243c5cdcd9a851c8b211fb0eef3cc652c9d08af2a5c023a93390e1',
-  'Escursioni Capraia: sentiero Isola, ex penitenziario e caprette! Trek facile al mare con tuffo. Consigli e avventure!',
-  'Trekking Isola di Capraia: Sentiero Baia, Escursione Epica',
+  'Escursione Capraia Isola: facile percorso di 4.6km +229m da Porto, Toscana. Tratto storico, ex penitenziario e ritorno alla spiaggia! Perfetto per un tuffo!',
+  'Capraia Isola: Escursione al Baia (Toscana)',
   NOW(),
   NOW()
 )

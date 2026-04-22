@@ -64,8 +64,8 @@ VALUES (
   10.360628,
   'POINT(10.360628 43.836188)',
   '759f4c86de14abf155cdbda5a128274539009a82b13c41cbe578ff0b4f944c77',
-  'Escursione Lago di Massaciuccoli: Anello panoramico tra natura, rovine romane e avifauna. Trek facile e gratificante! Scopri il sentiero!',
-  'Trekking Lago Massaciuccoli: Anello Faunistico e Panorami',
+  'Escursione Lago di Massaciuccoli (Toscana): Anello facile 15.1km, +545m. Percorso tranquillo tra lago, oasi faunistica e rovine romane. Foto e punti panoramici!',
+  'Lago di Massaciuccoli: escursione anello facile da Massaciucco...',
   NOW(),
   NOW()
 )

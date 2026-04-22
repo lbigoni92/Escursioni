@@ -53,8 +53,8 @@ VALUES (
   10.367171,
   'POINT(10.367171 43.462525)',
   '8e9a1648fcef75197005ff1426369673edcaf9f6f94df21e3cdc2eede55720df',
-  'Escursioni Chioma Montenero Castellaccio: sentiero costa Toscana, vista mare, santuario e Ciano. Facile e panoramico! 🏞️🇮🇹',
-  'Trekking Chioma Montenero Castellaccio: Escursione Toscana',
+  'Escursione Chioma-Montenero-Castellaccio: facile giro in Toscana (21km, 695m dislivello) lungo la costa, con vista mare e Santuario. Perfetto per famiglie!',
+  'Chioma - Montenero - Castellaccio: Escursione Facile Toscana',
   NOW(),
   NOW()
 )

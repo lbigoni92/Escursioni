@@ -63,7 +63,7 @@ VALUES (
   10.316192,
   'POINT(10.316192 43.98487)',
   '6c7976ba4c8522258919034a267725d114237426a85daf0bb9ab5fe897da8546',
-  'Escursione Monte Matanna, Monte Nona e Rifugio Forte dei Marmi da Pomezzana | Toscana. Trek 14km, +1m dislivello. Percorso CAI impegnativo, cresta esposta e ...',
+  'Escursione Monte Matanna, Monte Nona e Rifugio Forte dei Marmi da Pomezzana | Toscana. Trek 14km, +800m dislivello. Percorso CAI impegnativo, cresta esposta e ...',
   'Monte Matanna, Monte Nona: Escursione da Pomezzana (Difficile)',
   NOW(),
   NOW()

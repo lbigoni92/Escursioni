@@ -53,8 +53,8 @@ VALUES (
   10.35986,
   'POINT(10.35986 43.48149)',
   '1db3fd0f374209638edefb3d6543285d6ea4cfd4914e5854aa59a723ad769f2a',
-  'Escursione Castellaccio-Quercianella: sentiero suggestivo con panorami mozzafiato sul Ponte di Calafuria! Un percorso facile e imperdibile per Livorno.',
-  'Trekking Castellaccio Quercianella: Sentiero Panorami Liguri',
+  'Escursione Castellaccio - Quercianella: percorso di 11.7km T° Medio in Toscana. Ammira il ponte di Calafuria! +285m dislivello. Sentiero consigliato!',
+  'Castellaccio a Quercianella: Escursione Toscana (11.69km)',
   NOW(),
   NOW()
 )

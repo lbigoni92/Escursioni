@@ -50,8 +50,8 @@ VALUES (
   10.61925,
   'POINT(10.61925 43.839195)',
   'e47d6634aec72326033587729919d5b7526dcb27240d6e9237233483bbdc6fe6',
-  'Escursione Porcari - Quercia delle Streghe: Natura, storia & panorami a Montecarlo! Percorso facile e sentieri boschivi. Scopri!',
-  'Trekking Quercia Streghe Montecarlo: Escursioni Porcari',
+  'Escursione Porcari-Montecarlo: Anello facile 19km, +418m! Scopri la Quercia delle Streghe e il borgo medievale di Montecarlo, Toscana. Perfetto per famiglie!',
+  'Porcari - Quercia delle Streghe - Montecarlo: Escursione Facile',
   NOW(),
   NOW()
 )

@@ -57,8 +57,8 @@ VALUES (
   10.222276,
   'POINT(10.222276 44.062909)',
   'bfced34e2adbdbb7fdac7dacadb0f8e9f3ddff3a63f7c43bfc7e7babcdefde21',
-  'Escursione CRESTA Valsora: Monte Pelato, Altissimo & Foce del Frate! Percorso ad anello impegnativo in Apuania con panorami mozzafiato.',
-  'Trekking Cresta Valsora: Mote Pelato, Altissimo & Foce Frate',
+  'Escursione Monte Altissimo: da Gronda a Monte Pelato, Foce Frate e Passo Uncini. Percorso anello 9.1km, 690m dislivello. Diff. media, sentieri Apuane.',
+  'Monte Altissimo: escursione da Gronda (Garfagnana, 9.1km)',
   NOW(),
   NOW()
 )

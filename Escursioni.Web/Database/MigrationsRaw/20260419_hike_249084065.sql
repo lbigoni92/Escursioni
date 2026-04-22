@@ -53,8 +53,8 @@ VALUES (
   10.593162,
   'POINT(10.593162 44.147007)',
   'e166cdbe3f43591bd4335650eee1bd866c78f4e4d85613f05438c561529a7c11',
-  'Ciaspolata al Lago Santo: paesaggi innevati e panorami mozzafiato! Escursioni facili e divertenti per tutta la famiglia. Scopri il sentiero!',
-  'Ciaspolata Lago Santo: Trekking Invernale e Sentieri',
+  'Ciaspolata Lago Santo Emilia-Romagna: Facile giro di 8.5km con +262m di dislivello. Perfetto per una giornata in montagna! Scopri il paesaggio innevato e il ...',
+  'Lago Santo: Ciaspolata Facile da Casa Mordini (8.48km)',
   NOW(),
   NOW()
 )

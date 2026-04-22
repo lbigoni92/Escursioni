@@ -54,8 +54,8 @@ VALUES (
   10.512348,
   'POINT(10.512348 43.785107)',
   '2ccd5a138f125fe2b4ad8311d927af18349c9fae22f46e3e42a15bc0cc76769e',
-  'Esplora il Monte Faeta: Vorno, Campo Croce, Verrichino e Santallago! Sentieri imperdibili in Toscana. Difficoltà moderate, neve prevista!',
-  'Trekking Monte Faeta: Sentiero Vorno - Campo Croce - Italia',
+  'Escursione Vorno Monte Faeta: Anello Toscana 20.59km, +1m Disliv. Sentieri Vorno-Campo Croce-Faeta-Spuntone. Percorso medio, neve a Santallago!',
+  'Vorno: Trekking Monte Faeta - Campo Croce - Santallago',
   NOW(),
   NOW()
 )

@@ -57,8 +57,8 @@ VALUES (
   10.460793,
   'POINT(10.460793 43.782757)',
   '3b521d456b504101ef778e1df8cd1fd03f051d04f26f442a8c3787664fc7ea0b',
-  'Escursione Moriglione Penna: sentiero EE con vista mozzafiato! Salita impegnativa, discesa tecnica. Scopri il panorama e consigli utili.',
-  'Trekking Monte Penna: Sentiero EE Moriglione Penna!',
+  'Escursione Moriglione Penna: sentiero EE in Toscana, 6.68km, +600m. Dislivello moderato, salita con tratti esposti e discesa su roccia. Ideale per escursioni...',
+  'Monte Penna: escursione da Moriglione (difficile, 6km)',
   NOW(),
   NOW()
 )

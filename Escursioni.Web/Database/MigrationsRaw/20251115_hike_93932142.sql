@@ -57,8 +57,8 @@ VALUES (
   10.60415,
   'POINT(10.60415 43.906063)',
   'bc970223438268c7d3012a74f499b187bcafcf7318e0e5ba157d0c9bb2770e34',
-  'Escursione Pizzorne Monte Scarpiglione: panorama Lucchese, parapendio e borgo deserto! Sentiero facile e ben segnalato, ideale per famiglie. ⛰️🚶‍♂️',
-  'Trekking Monte Scarpiglione Pizzorne: Escursione Facile Italia',
+  'Escursione Monte Scarpiglione a Pizzorne (Toscana): percorso facile 18.15km, +921m. Da San Pietro a Marcigliano, panorama Lucchese e parapendio!',
+  'Monte Scarpiglione: escursione da Pizzorne (Toscana)',
   NOW(),
   NOW()
 )

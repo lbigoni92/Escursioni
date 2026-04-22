@@ -64,8 +64,8 @@ VALUES (
   10.41272,
   'POINT(10.41272 43.522436)',
   'b6a7abc2b78be993fb02ecd0da7cdb068209b20349048384e74a0272393031fd',
-  'Escursione Valle Benedetta: Acquedotto di Colognole V4! Sentiero facile e panoramico, ideale per tutti. Km 2, discesa suggestiva e vista mozzafiato. Scarpe a...',
-  'Trekking Valle Benedetta: Acquedotto Colognole V4 Italia',
+  'Escursione Valle Benedetta Acquedotto Colognole (Toscana) - Facile giro di 7.8km con 282m dislivello. Percorso segnalato fino all''acquedotto, discesa panoram...',
+  'Valle Benedetta: Escursione all''Acquedotto di Colognole (Facile)',
   NOW(),
   NOW()
 )

@@ -16,4 +16,7 @@ public class ContactFormModel
     public string? Message { get; set; }
 
     public string? RecaptchaToken { get; set; }
+
+    [Required(ErrorMessage = "Devi accettare la privacy policy.")]
+    public bool PrivacyConsent { get; set; }
 }

@@ -56,8 +56,8 @@ VALUES (
   10.304442,
   'POINT(10.304442 43.548205)',
   '8e9b41c54d53d961b8f76709cb3f37431dddef5c58a8c3dff1c7b938183a6227',
-  'Escursioni Livorno: Anello Montenero-Castellaccio! Facile e panoramico, ideale per principianti e amanti della bici. Natura, storia e panorami mozzafiato!',
-  'Trekking Castellaccio Livorno: Anello Montenero-Castellaccio',
+  'Escursione Livorno Montenero Castellaccio: Anello di 28.6km in Toscana (Fiume, Bagni)! Facile, ideale per principianti +366m dislivello. Perfetto per bici o ...',
+  'Castellaccio - Montenero: Escursione Anello da Livorno',
   NOW(),
   NOW()
 )
@@ -105,7 +105,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 87727616);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/87727616/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/87727616/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -137,7 +137,7 @@ SELECT id, 'foto', 'media/images/87727616/photo_03.jpg', 3,
 FROM escursioni.hike WHERE wikiloc_id = 87727616;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/87727616/photo_04.jpg', 4,
+SELECT id, 'cover', 'media/images/87727616/photo_04.jpg', 4,
        NULL,
        NULL,
        NULL,

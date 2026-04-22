@@ -53,8 +53,8 @@ VALUES (
   10.387717,
   'POINT(10.387717 43.78244)',
   'c415294c5b566f2c2e0b2b65ea43ee3a60ee5567072de32572823a892a97f92e',
-  'Escursione notturna Vecchiano: Monte Legnaio & Monte Bruceto. Panorami mozzafiato, sentiero facile (sassi) e consigli utili. Trekking in sicurezza!',
-  'Trekking Notturno Monte Legnaio Vecchiano: Sentiero Panorami',
+  'Escursione Monte Legnaio Vecchiano: Anello facile 10.89km | Toscana. Trekking notturno panoramico con dislivello 309m. Ideale per principianti! ⛰️',
+  'Monte Legnaio - Vecchiano: Escursione Anello Facile Toscana',
   NOW(),
   NOW()
 )

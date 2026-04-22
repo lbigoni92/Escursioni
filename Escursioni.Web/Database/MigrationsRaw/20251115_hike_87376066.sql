@@ -61,8 +61,8 @@ VALUES (
   10.922557,
   'POINT(10.922557 43.309901)',
   'e7ff6f2921e7bc86f1c99daec9a19ac727fdf133cbae7f34bb4034e2051a1b19',
-  'Escursioni Toscana: Pavone e Masso delle Fanciulle. Natura selvaggia, vigneti & fiume fresco! Ideale in primavera/autunno. Trekking con fauna e flora.',
-  'Trekking Pavone Toscano: Sentiero Autunno/Primavera Italia',
+  'Escursione Pavone Casa Montacuto, Toscana: Anello di 14km, +443m. Sentiero selvaggio tra vigneti e fiume. Ideale in primavera/autunno. Fauna selvatica!',
+  'Pavone Toscana: escursione da Casa Montacuto (anello, medio)',
   NOW(),
   NOW()
 )

@@ -51,8 +51,8 @@ VALUES (
   10.721299,
   'POINT(10.721299 43.541451)',
   'dfe6baa94712277fa9fa8d7a69f6b255fd97c432c3d6833e1dd11721f2a03fe5',
-  'Escursione Madonna delle Serre: sentiero facile tra Toscana e storia! Foto, panorami e visita del borgo di Peccioli. Scopri ora!',
-  'Trekking Madonna delle Serre: Escursione Toscana Facile',
+  'Escursione Madonna delle Serre Peccioli: Anello facile 10.7km, +236m in Toscana. Trekking piacevole tra borgo, anfiteatro e fattoria. Perfetto per famiglie!',
+  'Madonna delle Serre: escursione da Peccioli (Toscana)',
   NOW(),
   NOW()
 )

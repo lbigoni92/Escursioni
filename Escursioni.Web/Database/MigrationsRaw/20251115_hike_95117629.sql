@@ -56,8 +56,8 @@ Non mancherà l''occasione di visitare luoghi suggestivi come la **Piazzale Mich
   11.247443,
   'POINT(11.247443 43.77577)',
   'd7294c78180a57e626fc7cd9a082f5c8422f12cc711465031912d1aa61714810',
-  'Escursione a Firenze: Piazza del Duomo, Ponte Vecchio, Palazzo Pitti e vista Piazzale Michelangelo! Scopri il cuore di Firenze!',
-  'Trekking Firenze: Escursione tra Arte e Storia!',
+  'Escursione Firenze: Anello facile 13.6km | Toscana | Visita città e monumenti! Perfetto per una giornata a Firenze, con punti di interesse come Duomo, Ponte ...',
+  'Firenze: Escursione Facile tra i Tesori Rinascimentali',
   NOW(),
   NOW()
 )

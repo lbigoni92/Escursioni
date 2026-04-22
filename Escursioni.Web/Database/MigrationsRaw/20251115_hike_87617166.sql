@@ -52,8 +52,8 @@ VALUES (
   10.770786,
   'POINT(10.770786 44.229946)',
   'c24746e9352febded74755413fa5cc4158f9b69485329e5118a78678fe9875a7',
-  'Escursione Sestola Lago Ninfa: panorama mozzafiato e sentieri facili! Ritorno panoramico, rifugio e fontane. Difficoltà media. #escursioni #sestola',
-  'Trekking Sestola Lago Ninfa: Escursione Panoramica Italia',
+  'Escursione Sestola Lago della Ninfa: Percorso panoramico media difficoltà (8.7km, +687m) in Emilia-Romagna. Vista lago, punti panoramici e rifugio Ninfa!',
+  'Lago della Ninfa: escursione da Sestola (panoramica, media)',
   NOW(),
   NOW()
 )

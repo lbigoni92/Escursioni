@@ -24,6 +24,11 @@
             <textarea asp-for="Form.Message" class="input-text" rows="5" placeholder="Scrivi qui il tuo messaggio..."></textarea>
             <span asp-validation-for="Form.Message" class="field-validation-error"></span>
         </div>
+        <div class="form-field form-field--checkbox">
+            <input asp-for="Form.PrivacyConsent" type="checkbox" id="privacyconsent" required />
+            <label for="privacyconsent">Ho letto e accetto la <a href="/privacy" target="_blank">privacy policy</a></label>
+            <span asp-validation-for="Form.PrivacyConsent" class="field-validation-error"></span>
+        </div>
         <div class="form-field form-field--buttons">
             <button class="btn" type="submit">Invia messaggio</button>
         </div>

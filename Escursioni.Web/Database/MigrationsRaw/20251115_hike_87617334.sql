@@ -55,8 +55,8 @@ VALUES (
   10.534114,
   'POINT(10.534114 43.707131)',
   '1f977db50c19157cb4b8988008a74f13fa65aa46f85a156e4f22690fd0fcf7ba',
-  'Escursione Vicopisano-Verruca: trekking facile e panoramico in Toscana! Visita la Rocca pisana medievale e ammira la vista sulla pianura. Perfetto per famiglie!',
-  'Trekking Verruca Vicopisano: Escursione Rocca Pisa Oggi',
+  'Escursione Vicopisano Verruca: facile giro di 6.16km in Toscana +18m dislivello. Vista Rocca Verruca (Pisa) – ideale per famiglie! ⛰️',
+  'Verruca (Montemagno): escursione facile da Vicopisano',
   NOW(),
   NOW()
 )

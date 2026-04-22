@@ -53,8 +53,8 @@ VALUES (
   10.820785,
   'POINT(10.820785 44.080182)',
   '5792a564f5639c13c211d054eb0be5310c86e10916b2b431110a3aa5dffe0566',
-  'Escursione Pratorsi - Corno alle Scale - Lago Scaffaiolo: trekking in Abruzzo, panorami mozzafiato e sentieri imperdibili! ⛰️🏞️',
-  'Trekking Corno alle Scale: Lago Scaffaiolo Pratorsi',
+  'Escursione Pratorsi - Corno alle Scale - Lago Scaffaiolo: Trek facile 24km, 1m dislivello in Toscana. Percorso medio Spignana. Consigliata!',
+  'Pratorsi - Corno Scale - Lago Scaffaiolo: Escursione Toscana',
   NOW(),
   NOW()
 )

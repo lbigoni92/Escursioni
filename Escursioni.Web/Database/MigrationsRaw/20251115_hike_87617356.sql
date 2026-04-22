@@ -53,8 +53,8 @@ VALUES (
   10.583324,
   'POINT(10.583324 43.700258)',
   '8b8bcbcd3e79a9100462fd02639b93596688a69c2408793f7b4df894b21496e3',
-  'Escursione Vicopisano-Verruca: Rocca medievale e panorama mozzafiato sui Monti Pisani. Percorso facile e ben segnalato per famiglie!',
-  'Trekking Vicopisano Verruca: Escursione Rocca & Vista Pisa',
+  'Escursione Vicopisano - Verruca: trekking facile in Toscana, 6.5km, +515m. Partenza da Vicopisano per ammirare la Rocca della Verruca (Pisa) e la sua vista!',
+  'Rocca Verruca: Escursione da Vicopisano (Toscana)',
   NOW(),
   NOW()
 )

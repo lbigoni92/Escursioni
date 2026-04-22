@@ -50,7 +50,7 @@ VALUES (
   10.356403,
   'POINT(10.356403 43.836135)',
   '2063de56a515415b0acc08ba6c3d0db57beec28cfd67201cc4da2482172c648c',
-  'Escursione Lago Massaciuccoli: percorso facile 6.1km, visita al Tempio Buddista e Villa di Puccini! Toscana, +1m dislivello. Ideale per famiglie.',
+  'Escursione Lago Massaciuccoli: percorso facile 6.1km, visita al Tempio Buddista e Villa di Puccini! Toscana, +50m dislivello. Ideale per famiglie.',
   'Lago di Massaciuccoli: escursione al Tempio Buddista (Toscana)',
   NOW(),
   NOW()

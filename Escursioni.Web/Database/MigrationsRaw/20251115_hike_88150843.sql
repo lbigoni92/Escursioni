@@ -63,8 +63,8 @@ VALUES (
   10.629693,
   'POINT(10.629693 44.129858)',
   '9510376c92460bbf14dca2fd83f6f85ae48c556c64976fceeeff6001e4772ebe',
-  'Escursione Val di Luce: Passo della Vecchia & Lago Nero! Sentiero facile, rifugi e panorami mozzafiato. Trekking in Trentino!',
-  'Trekking Lago Nero Passo Fariola Val di Luce',
+  'Escursione Val di Luce - Passo della Vecchia: Anello medio 15km, +750m. Trekking zona Emilia Romagna, Lago Nero, Rifugio Pulicchie. Consigli e dettagli!',
+  'Passo della Vecchia: Escursione al Lago Nero (Val di Luce)',
   NOW(),
   NOW()
 )

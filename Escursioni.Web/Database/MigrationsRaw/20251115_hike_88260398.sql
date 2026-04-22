@@ -51,8 +51,8 @@ VALUES (
   10.420427,
   'POINT(10.420427 43.423572)',
   '0c556f82a586f4042174d25214b5a1891c0779f1526ceed7491f2bd52e013e34',
-  'Escursione Monte Pelato: vista spettacolare al tramonto! Sentiero facile, ideale per una gita in notturna. Scarpe e torcia obbligatorie! ⛰️🇮🇹',
-  'Trekking Notturno Monte Pelato: Vista Spettacolare!',
+  'Escursione Monte Pelato Toscana: Anello facile 8.84km, +274m. Trekking notturno da Castiglioncello, panorama spettacolare! Scarpe adatte e torcia obbligatorie.',
+  'Monte Pelato: escursione facile da Castiglioncello (Toscana)',
   NOW(),
   NOW()
 )

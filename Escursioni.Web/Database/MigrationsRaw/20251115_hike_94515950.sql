@@ -58,8 +58,8 @@ VALUES (
   10.455625,
   'POINT(10.455625 43.779435)',
   '9ec098e27ae5a4e84078ebbc0100661244d3cad64a32d2855abdd83e92252cbd',
-  'Escursione Passo di Dante, Eremo della Spelonca e Monte Penna! Trek in Toscana tra Dante e storia. Viste mozzafiato e panorama unico. Prenota ora!',
-  'Trekking Monte Penna: Passo Dante, Eremo Spelonca | Italia',
+  'Escursione Passo di Dante - Monte Penna Toscana: Anello facile 15.2km, +856m. Eremo della Spelonca e pranzo al moriglione! Perfetto per principianti.',
+  'Monte Penna: escursione da Santa Maria del Giudice (Toscana)',
   NOW(),
   NOW()
 )

@@ -52,8 +52,8 @@ VALUES (
   10.60673,
   'POINT(10.60673 43.780647)',
   'e5a198f1169cfa7f2f35020eae8a4a689dadc76750700342aac1a41e3388e74f',
-  'Esplora il Lago della Gherardesca: sentiero classico, natura e foto di uccelli! Picnic, cani e storia del PG 60. Scopri di più!',
-  'Trekking Lago Gherardesca: Escursione Sesto, Bientina',
+  'Escursione Lago della Gherardesca (Colle di Compito, Toscana): percorso facile di 3.5km, +7m, ideale per famiglie e amanti della fotografia. Info e consigli!',
+  'Lago della Gherardesca: escursione facile da Bientina (Toscana)',
   NOW(),
   NOW()
 )

@@ -57,8 +57,8 @@ Da lì abbiamo fatto ritorno, chiudendo l’anello e concludendo il nostro giro.
   10.406714,
   'POINT(10.406714 43.522087)',
   '7035e440158abfdd8c2aff630fd04183f62d2c473b5a920943d4baebab08ea06',
-  'Escursioni in Abruzzo: Valle Benedetta a Parrana San Martino! Percorso facile e panoramico, ideale per una passeggiata domenicale e ricerca funghi.',
-  'Trekking Valle Benedetta - Parrana San Martino: Escursione Facile',
+  'Escursione Valle Benedetta - Parrana San Martino: facile anello di 11.6km in Toscana (+384m dislivello). Perfetta per una passeggiata mattutina!',
+  'Parrana San Martino: escursione facile Valle Benedetta (Toscana)',
   NOW(),
   NOW()
 )

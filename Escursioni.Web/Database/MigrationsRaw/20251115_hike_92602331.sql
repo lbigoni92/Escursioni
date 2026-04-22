@@ -61,8 +61,8 @@ Questa <strong>escursione a Livorno</strong> è un''ottima opportunità per imme
   10.300393,
   'POINT(10.300393 43.54105)',
   'e026f22c0de2cc733a8db0e75ab7b68c309d1fa6b7e253b671aaf2a75421761c',
-  'Trekking cittadino a Livorno: mare, storia e relax! Percorso facile e panoramico tra Acquario, Terrazza Mascagni e Monumento al Marinaio. Perfetto per tutti!',
-  'Trekking Livorno Mare: Percorso Cittadino Facile',
+  'Escursione Livorno: trekking cittadino facile 10km! Passeggiata panoramica tra Acquario, Terrazza Mascagni e Monumento al Marinaio. Perfetta per famiglie! ⛰️...',
+  'Livorno: Escursione Cittadina al Mare (Facile)',
   NOW(),
   NOW()
 )

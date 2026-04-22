@@ -57,8 +57,8 @@ VALUES (
   10.268383,
   'POINT(10.268383 44.117711)',
   '670dcc6acf5ac0c390fd34f090af95297eb506d4804358efeea8e1f7bab8246f',
-  'Esplora l''Eremo di San Viviano: un''oasi di pace e spiritualità in Val d''Arnetola! Escursione facile e panoramica con vista Lago di Vagli. ⛰️',
-  'Trekking Eremo San Viviano: Sentiero Panorami Valle Arnetola',
+  'Eremo di San Viviano (Toscana): escursione facile di 5.49km +702m a m.900. Anello panoramico con vista sul Lago di Vagli e valle Arnetola. Ideale!',
+  'Eremo di San Viviano: Escursione Facile da Campocatino (Toscana)',
   NOW(),
   NOW()
 )

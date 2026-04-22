@@ -58,8 +58,8 @@ VALUES (
   10.35976,
   'POINT(10.35976 43.49502)',
   '5f10081a7eed7b9c0eebd9509967174cd3fec26877803197c7a7b6efabbb2373',
-  'Escursione Buca dei Banditi Val di Chioma (Livorno): storia e natura in un trekking selvaggio! Scopri il luogo della 2°Guerra Mondiale.',
-  'Trekking Buca dei Banditi Val di Chioma: Escursione Livorno',
+  'Escursione Buca dei Banditi Val di Chioma: facile trekking tra le colline livornesi (Toscana). 17.7km, +443m. Km 3.9: grotta storica, sentieri selvaggi, cons...',
+  'Buca dei Banditi: Escursione facile Val di Chioma (Toscana)',
   NOW(),
   NOW()
 )

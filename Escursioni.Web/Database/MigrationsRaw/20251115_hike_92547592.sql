@@ -56,8 +56,8 @@ VALUES (
   10.305487,
   'POINT(10.305487 43.551285)',
   '503369d892d9c9fbd976f5d6e516e42b22ea7f2ea45d03855efe8ff7c584ae53',
-  'Esplora Livorno: trekking cittadino facile e suggestivo! Scopri storia, arte e belvedere a pochi passi. Perfetto per famiglie e turisti!',
-  'Trekking Città di Livorno: Escursione Facile Centro Storico',
+  'Escursione facile a Livorno: percorso cittadino di 7km con +27m dislivello! Esplora il centro storico toscano, Fortezza Nuova, Mercato Centrale e tanti altri...',
+  'Livorno Centro: escursione facile in città (7.19km)',
   NOW(),
   NOW()
 )

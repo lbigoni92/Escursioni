@@ -58,8 +58,8 @@ Questo <strong>trekking</strong> nel cuore delle <strong>Apuane</strong> è un''
   10.354714,
   'POINT(10.354714 44.026425)',
   '1a2e3a718f68b1d937fe353e398dedf0c90a6b0a889b3ea8b5ca9df80060e515',
-  'Escursione facile al Monte Forato in Apuane: panorami mozzafiato e sentieri suggestivi! Un''esperienza imperdibile per tutti gli amanti del trekking.',
-  'Trekking Monte Forato Fornovolasco: Escursione Facile Apuane',
+  'Escursione Monte Forato da Fornovolasco: anello facile in Toscana (878m+) | Percorso 9.1km, ideale per principianti. Viste mozzafiato!',
+  'Monte Forato: escursione da Fornovolasco (anello, 878m)',
   NOW(),
   NOW()
 )

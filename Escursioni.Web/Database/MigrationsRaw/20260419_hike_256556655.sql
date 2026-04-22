@@ -51,8 +51,8 @@ VALUES (
   10.266597,
   'POINT(10.266597 44.055214)',
   '2ed47c75986698e411bbe8ccd9a0528d3d68a2993eb4608555ba01f161a2bc6a',
-  'Escursione Monte Freddone, Paglino e Passo Fociomboli: sentiero panoramico Apuane! Vetta, dolmen e discesa suggestiva.',
-  'Trekking Monte Freddone Paglino: Sentiero Apuane Italia',
+  'Escursione Monte Freddone & Paglino: Anello da Campagrina (Toscana) | 9.8km, 760m, difficoltà media. Trekking con dolmen e vista Apuane!',
+  'Monte Freddone, Paglino & Fociomboli: Escursione da Campagrina',
   NOW(),
   NOW()
 )

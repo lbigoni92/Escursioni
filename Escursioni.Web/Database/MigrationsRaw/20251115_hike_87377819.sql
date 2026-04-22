@@ -58,8 +58,8 @@ VALUES (
   10.412709,
   'POINT(10.412709 43.526069)',
   '4023f4c9e50eeda04c4b0cd219cb33a519c6e99bbdfded93542957237e304fc1',
-  'Escursione notturna Sanbuca Livornese: sentiero 00 illuminato, stelle e lucciole! Un''esperienza magica tra città e natura. Scopri il tramonto sulla Sanbuca!',
-  'Trekking Notturno Sanbuca Livornese: Sentiero 00 e Stelle 🌟',
+  'Escursione notturna Sanbuca Livornese: Anello facile 11.8km Valle Benedetta (Toscana) +307m. Trekking al km 9.1 sotto le stelle con luci città & lucciole! 🔦',
+  'Sanbuca Livornese: Escursione Notturna Facile (Toscana)',
   NOW(),
   NOW()
 )

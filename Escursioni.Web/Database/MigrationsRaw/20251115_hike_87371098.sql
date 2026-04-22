@@ -57,8 +57,8 @@ VALUES (
   10.34422,
   'POINT(10.34422 44.05273)',
   '69801e84c6e3baa56f94d97aea14f951f8d7ac637f10f0e8417b2768a4fde866',
-  'Escursione 2 giorni Pania della Croce Lucca: tramonto mozzafiato, vista neve e "Uomo Morto"! Sentiero facile, rifugio Rossi. Scopri il sentiero e l''itinerario!',
-  'Trekking Pania della Croce: Escursione Luce Tramonto LU',
+  'Escursione Pania della Croce, Cornola (LU): trekking anello difficile 9.7km, +1000m dislivello. Vetta e tramonto! Sentiero dal C.A.I. con vista neve. Perfetto p...',
+  'Pania della Croce: escursione difficile da Molazzana (Toscana)',
   NOW(),
   NOW()
 )

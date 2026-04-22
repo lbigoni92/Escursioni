@@ -65,8 +65,8 @@ L’obiettivo del giro, più che la performance sportiva, è stato quello di rit
   10.522055,
   'POINT(10.522055 43.722882)',
   '43fd17452b71a92238471d9d17fc10e7949ce9af8dc71ae2511a96c69a5613a9',
-  'Escursioni in Toscana: da Calci a Montemagno tra borghi medievali, natura e panorami mozzafiato. Trek CAI facile e conviviale!',
-  'Trekking da Calci a Montemagno: Escursioni & Panorami Pisa',
+  'Escursione Calci Montemagno: Anello in Toscana, difficoltà media (10km, 369m dislivello). Esplora borghi e panorami sulla pianura pisana e la Certosa di Calci!',
+  'Montemagno da Calci: Escursione Panoramica Toscana',
   NOW(),
   NOW()
 )

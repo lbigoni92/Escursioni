@@ -60,8 +60,8 @@ VALUES (
   10.344456,
   'POINT(10.344456 43.987355)',
   '72487475ef2dd8e424df334edb52ea511700bb32db5a100a9c11f5c3e94348ce',
-  'Escursione Matanna – Nona: sfida sul Monte Nona con vista mozzafiato! Sentieri panoramici, mufloni e cavalli selvatici. Difficoltà: impegnativa. Scopri il pe...',
-  'Trekking Nona - Matanna: Sentiero Faticoso Italia',
+  'Escursione Matanna - Nona: Toscana, Palagnana. Trek di 11.5km, difficoltà media, +1000m dislivello. Salita al Monte Nona e al Monte Matanna. Ammira i panorami e...',
+  'Monte Nona - Matanna: Escursione Anello Toscana',
   NOW(),
   NOW()
 )

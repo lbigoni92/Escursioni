@@ -95,7 +95,20 @@ body.light-mode .about-warning {
     border-color: #4a9fe5;
 }
 body.dark-mode .about-warning {
-    background: linear-gradient(90deg, #1e293b 0%, #0f172a 100%);
-    color: #e2e8f0;
-    border-color: #93c5fd;
+    background: linear-gradient(90deg, #334155 0%, #1e293b 100%);
+    color: #fff;
+    border: 2.5px solid #fbbf24;
+    box-shadow: 0 4px 32px #0006;
+    font-size: 1.18rem;
+    font-weight: 700;
+    position: relative;
+    padding-left: 3.2rem;
+}
+body.dark-mode .about-warning::before {
+    content: "⚠️";
+    position: absolute;
+    left: 1.2rem;
+    top: 1.1rem;
+    font-size: 1.6rem;
+    filter: drop-shadow(0 2px 2px #0008);
 }

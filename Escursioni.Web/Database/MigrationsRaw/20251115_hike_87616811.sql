@@ -55,8 +55,8 @@ VALUES (
   10.36382,
   'POINT(10.36382 43.487804)',
   'f23451a2037dba7b71e27a047e345c8c3ebc1d56a1e64b3e5dc35b9f5738d501',
-  'Escursione Buca dei Banditi: percorso breve e facile con vista grotta! Sentiero segnato, adatto anche a scarpe da tennis. Scopri la sua storia!',
-  'Trekking Buca dei Banditi: Percorso Facile a San Casciano',
+  'Escursione Buca dei Banditi Castellaccio: percorso facile 7.9km, +185m. Trekking in Toscana, ideale anche con scarpe da tennis. Sentiero ben segnalato con st...',
+  'Buca dei Banditi: Escursione Facile da Castellaccio (7.9km)',
   NOW(),
   NOW()
 )

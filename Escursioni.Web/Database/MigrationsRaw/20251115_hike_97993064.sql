@@ -63,8 +63,8 @@ VALUES (
   10.310497,
   'POINT(10.310497 44.063728)',
   '2c99a825b0b9be9bf4e7e1fad9feabd3309b34385902d6c2cdd65b8efcb6db9b',
-  'Escursione Isola Santa - Del Freo: Anello tra panorami mozzafiato e borghi fantasma! ⛰️ Percorso facile e adatto a tutti, con viste sulla Pania della Croce e...',
-  'Trekking Isola Santa: Anello del Freo - Pania della Croce!',
+  'Escursione Isola Santa - Del Freo: Anello facile in Toscana! ⛰️ Percorso di 16.5km con +1m di dislivello, ideale per famiglie e principianti. Esplora il borg...',
+  'Isola Santa: Trekking al Rifugio del Freo (panorami)',
   NOW(),
   NOW()
 )

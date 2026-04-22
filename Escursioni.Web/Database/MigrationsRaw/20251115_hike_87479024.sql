@@ -56,8 +56,8 @@ VALUES (
   10.387717,
   'POINT(10.387717 43.78244)',
   'd98fe431b2f3b99111fce02dc815214da1bd3c2af5a28eab072f5a402babc545',
-  'Escursione Vecchiano-Nodica: facile percorso in montagna a Monte Legnaiolo! Natura, diurna e ciottoli. Ideale per famiglie e principianti. Scopri!',
-  'Trekking Vecchiano Nodica Monte Legnaiolo: Escursione Facile',
+  'Escursione Vecchiano-Nodica: Anello facile in Toscana (10.9km, +309m). Trekking nel Monte Legnaiolo, adatto a famiglie e principianti. Sentiero ciottolato, f...',
+  'Monte Legnaiolo: escursione Vecchiano-Nodica (facile, anello)',
   NOW(),
   NOW()
 )

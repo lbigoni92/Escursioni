@@ -66,8 +66,8 @@ VALUES (
   10.419669,
   'POINT(10.419669 43.522459)',
   '88e41deb34a50f55fc345e169b7db48eb26fa09352a047bb9ea7d14e77d8d197',
-  'Escursioni Valle Benedetta: Acquedotto di Colognole! Un percorso facile e panoramico tra sentieri e cascine. Ideale per tutta la famiglia!',
-  'Trekking Valle Benedetta: Acquedotto Colognole V3',
+  'Escursione Valle Benedetta Acquedotto Colognole: Facile giro di 7.2km in Toscana (+245m) da Valle Benedetta all''acquedotto! Sentiero segnalato, adatto a tutti.',
+  'Valle Benedetta: Escursione all''Acquedotto di Colognole (Toscana)',
   NOW(),
   NOW()
 )

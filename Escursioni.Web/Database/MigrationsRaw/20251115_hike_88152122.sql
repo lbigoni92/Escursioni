@@ -60,8 +60,8 @@ VALUES (
   10.299024,
   'POINT(10.299024 43.593143)',
   '9c5948fdcdb49bf0b70b68dcdda1b570dddce9fa16692a5b6ba7a777e86a6fe6',
-  'Escursioni Calambrone: sentiero facile per famiglie! Natura, roccia e vista mare. Rondi, anatre e cinghiali possibili! Indossa scarpe da trekking.',
-  'Trekking Calambrone: Escursione Famiglia - Sentiero Facile',
+  'Escursione Calambrone: Anello facile di 10.05km in Toscana! Ideale per famiglie, 15m dislivello. Bocca di Scormatore, rondini & possibili cinghiali. Porta sc...',
+  'Calambrone: escursione facile da Calambrone (anello, 10km)',
   NOW(),
   NOW()
 )

@@ -53,7 +53,7 @@ VALUES (
   10.309638,
   'POINT(10.309638 44.010413)',
   'b4624200c27bf422b3a2fc56d462c15de1c00c220f53c0a17c595a6a7fc4267b',
-  'Escursione Pruno - Rifugio Del Freo - Vetta Sullioni: Anello Toscana, 15.5km, +1m Dislivello. Sentiero facile/medio tra cascate e panorami. Perfetto per escu...',
+  'Escursione Pruno - Rifugio Del Freo - Vetta Sullioni: Anello Toscana, 15.5km, +800m Dislivello. Sentiero facile/medio tra cascate e panorami. Perfetto per escu...',
   'Rifugio Del Freo: escursione da Pruno (anello Toscana)',
   NOW(),
   NOW()

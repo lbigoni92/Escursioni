@@ -55,8 +55,8 @@ VALUES (
   11.135846,
   'POINT(11.135846 43.743743)',
   '503f2a08fd7ae9d2972ba55862d1f78b911ab159339242003e5abf9d9d5eab8d',
-  'Escursione al Mulinaccio di Scandicci: vigne, panorama toscano e sentiero facile. Ideale primavera/autunno! Un''esperienza unica e spettacolare.',
-  'Trekking Mulinaccio Scandicci: Escursione Toscana Facile',
+  'Escursione Mulinaccio di Scandicci: percorso di 24km in Toscana (Vigliano) con +658m di dislivello. Trek facile e panoramico tra le vigne, ideale in primaver...',
+  'Mulinaccio di Scandicci: Escursione da Vigliano (Toscana)',
   NOW(),
   NOW()
 )

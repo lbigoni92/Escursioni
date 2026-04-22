@@ -50,8 +50,8 @@ VALUES (
   10.300018,
   'POINT(10.300018 43.593673)',
   '49de65301d2bfaf73e25c99b380543cc882f6850b2d1a24b0236134c35730322',
-  'Escursioni Calambrone: Passeggiata facile nel Parco San Rossore! Sentieri semplici, animali e natura incontaminata. Perfetta per famiglie e corsa!',
-  'Trekking Calambrone San Rossore: Escursione Facile Oche e Volpi',
+  'Escursione Calambrone: Anello facile nel Parco San Rossore (Toscana)! 8.89km, +36m, sentieri semplici, oche, volpi e lepri! Perfetto per famiglie e corsa.',
+  'Calambrone: Escursione Facile nel Parco San Rossore',
   NOW(),
   NOW()
 )

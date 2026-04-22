@@ -53,8 +53,8 @@ VALUES (
   10.520628,
   'POINT(10.520628 43.80778)',
   '5d394b583aa140f9b98b61f69cde4545aa283bdf8d2f8574e2f316be1de5b33b',
-  'Escursioni Lucca: Parole d''Oro & Monte Zano! Ammira l''acquedotto storico e la croce sul monte con vista su Lucca. Scopri il sentiero perfetto!',
-  'Trekking Parole d''Oro Monte Zano: Escursione Lucca Rete Idrica',
+  'Escursione Monte Zano Guamo: Trek facile Lucca, 12km, 502m dislivello. Visita le Parole d''Oro, antiche opere per captare l''acqua, e ammira la croce sul monte!',
+  'Parole d''Oro al Monte Zano: Escursione Guamo (Toscana)',
   NOW(),
   NOW()
 )

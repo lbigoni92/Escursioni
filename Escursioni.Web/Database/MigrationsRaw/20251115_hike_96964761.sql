@@ -56,8 +56,8 @@ VALUES (
   10.582933,
   'POINT(10.582933 43.699385)',
   '85e4c3d73e154c7a5cc5096e3e19f0e9eb2b9cbb73b8bb2709ca79f1f3294c9d',
-  'Escursione Vicopisano Rocca della Verruca: sentiero facile e panoramico in Toscana! Viste mozzafiato e storia. Scopri il fascino di questo luogo unico!',
-  'Trekking Vicopisano Rocca della Verruca: Escursione Toscana Fa...',
+  'Escursione Vicopisano Rocca della Verruca: Anello facile in Toscana (13km, 506m dislivello). Partenza da Vicopisano, sentiero semplice ma salita impegnativa....',
+  'Rocca della Verruca: Escursione a Vicopisano (Toscana)',
   NOW(),
   NOW()
 )

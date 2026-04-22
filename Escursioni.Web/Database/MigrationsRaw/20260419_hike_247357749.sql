@@ -57,8 +57,8 @@ VALUES (
   11.471277,
   'POINT(11.471277 43.698591)',
   '9cbb516c1895307a07ec57493f2ebf71baf9d57c568f523ae1f32f560797ee4d',
-  'Escursioni in Toscana: Sequoie, Sequoia Gemella e Castello di Sammezzano! Anello facile tra sequoie monumentali, natura e il fantastico Castello di Bonsi. Sc...',
-  'Escursione Trek Sequoia, Sammezzano & Castello Reggello Italia',
+  'Escursione Sequoia, Castello di Sammezzano: Anello Toscana facile (12.7km) | Leccio - Ammira sequoie monumentali, il Castello moresco di Sammezzano e goditi ...',
+  'Sequoia e Castello Sammezzano: Escursione da Leccio (Toscana)',
   NOW(),
   NOW()
 )

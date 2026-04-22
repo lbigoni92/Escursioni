@@ -58,8 +58,8 @@ Scoprite la magia del <strong>trekking</strong> e dell''<strong>escursionismo</s
   10.320219,
   'POINT(10.320219 43.728834)',
   '07ef0e62bd2141f55cbfffc30d821d128db9e33a6f02c416dd6cab6627967d2d',
-  'Escursioni nel Parco del San Rossore: natura toscana, animali, panorami mozzafiato & pic-nic! Cammina, a cavallo o in carrozza! 🐴🌳',
-  'Trekking San Rossore: Escursioni e Sentieri Toscana',
+  'Escursione facile San Rossore Cascine Vecchie, Toscana: 6.78km | +7m | Percorso naturale ideale per passeggiate domenicali, famiglie e amanti della natura. O...',
+  'San Rossore: Escursione Facile nel Parco Toscano',
   NOW(),
   NOW()
 )

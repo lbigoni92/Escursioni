@@ -57,8 +57,8 @@ VALUES (
   10.363006,
   'POINT(10.363006 43.48646)',
   '658f88e6e6307488b2c9fadb4015e14afb760a7c076be5b025d5ff261e601c81',
-  'Escursione facile al Castellaccio: sentiero del Pellegrino con vista su La Spezia! Natura, tramonto e picnic. Scarpe chiuse obbligate!',
-  'Trekking Sentiero Pellegrino Castellaccio: Escursione Facile!',
+  'Escursione Castellaccio: Sentiero del Pellegrino (Toscana) 13.2km, +279m Facile. Anello panoramico al calasole con vista su Massa. Ideale con scarpe chiuse!',
+  'Castellaccio: Escursione Facile sul Sentiero del Pellegrino',
   NOW(),
   NOW()
 )

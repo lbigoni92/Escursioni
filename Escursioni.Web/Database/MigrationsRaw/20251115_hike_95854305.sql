@@ -58,8 +58,8 @@ VALUES (
   10.369275,
   'POINT(10.369275 43.47966)',
   '5a06f679dadcf972b82ea0e36924fabe86378ffac8529c2c757b330df066184b',
-  'Escursioni Evangelisti: Grotta dei Banditi, Curva Nuvolari e Val di Chioma. Sentiero alternativo, guadi e grotta storica! Scopri questo percorso.',
-  'Trekking Grotta Banditi Evangelisti: Curva Nuvolari Val di Chioma',
+  'Escursione Evangelisti: Grotta dei Banditi, Curva Nuvolari e Val di Chioma! Anello facile 19km, +470m. Sentiero alternativo, guadi e grotta partigiana. Toscana!',
+  'Evangelisti: Escursione Grotta dei Banditi Val di Chioma (19km)',
   NOW(),
   NOW()
 )

@@ -50,8 +50,8 @@ VALUES (
   10.3112,
   'POINT(10.3112 43.522547)',
   '5ff645ff31b80d0fca2208791b2765d26ac805bf4f329e86916cb98fee663fb6',
-  'Passeggiata sul lungomare di Ardenza a Livorno: percorso facile, perfetto per famiglie e amanti della natura. Foto, relax e illuminazione serale!',
-  'Trekking Ardenza Livorno: Escursione Lungomare Facile',
+  'Escursione facile Ardenza - Livorno: 9.2km di passeggiata sul lungomare! Anello pianeggiante, +14m dislivello, perfetto per famiglie e amanti del mare in Tos...',
+  'Ardenza: Escursione lungomare da Livorno (facile)',
   NOW(),
   NOW()
 )

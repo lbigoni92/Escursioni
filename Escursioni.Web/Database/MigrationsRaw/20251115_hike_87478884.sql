@@ -56,8 +56,8 @@ VALUES (
   10.338317,
   'POINT(10.338317 44.001784)',
   '4fe490347dc8126b2b6084a76882bf09befdc9c05f951c9d5abc83b352876ba8',
-  'Escursione al Monte Forato da Stazzema: sentiero panoramico, cappelle e vista mozzafiato. Ideale permtrekking, costo parcheggio 3€!',
-  'Trekking Forato da Stazzema: Escursione in Versilia',
+  'Escursione Monte Forato da Stazzema (Toscana): percorso facile di 14.5km, +1m dislivello. Partenza da Orzale, ideale per famiglie e amanti del trekking. Vist...',
+  'Monte Forato: escursione da Stazzema (facile, panorama)',
   NOW(),
   NOW()
 )

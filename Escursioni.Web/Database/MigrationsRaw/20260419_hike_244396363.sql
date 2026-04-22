@@ -59,8 +59,8 @@ VALUES (
   10.301393,
   'POINT(10.301393 43.95375)',
   '3d6b2a5082a2d3f44fd2953f5ab18bc7117054ad5e5bc03872fa6d0ecb6df1fe',
-  'Escursione Roccia dei Pennati, Monte Gabberi e Monte Gevoli: trekking completo in Versilia! Panorami mozzafiato, storia e sfida. Dettagli e consigli!',
-  'Trekking Roccia Pennati Monte Gabberi Versilia Garfagnana',
+  'Escursione Roccia dei Pennati & Monte Gabberi: Anello da Greppolungo (Toscana) - Trek di 11.5km, 976m D+, difficoltà media. Panorami Versilia/Garfagnana, sit...',
+  'Monte Gabberi: Escursione da Greppolungo (Anello Medio)',
   NOW(),
   NOW()
 )

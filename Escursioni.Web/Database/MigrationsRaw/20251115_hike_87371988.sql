@@ -60,8 +60,8 @@ VALUES (
   10.51131,
   'POINT(10.51131 43.71621)',
   '66584e41b07ddcc236197c0cc5075aa8d95695c12a7de0a9c046d7eceb710181',
-  'Escursione Montemagno Calci: vista mozzafiato su Livorno e Massa! Facile percorso ad anello, ideale per famiglie e principianti. Scopri il panorama!',
-  'Trekking Montemagno Calci: Vista Panoramica e Facile Escursione',
+  'Escursione Monte Magno Paduletto (Calci, Toscana): Anello di 10.44km, +476m. Vista mozzafiato su Livorno e Massa! Sentiero facile/medio. Perfetta per famiglie.',
+  'Montemagno Calci: Escursione facile da Paduletto (Toscana)',
   NOW(),
   NOW()
 )

@@ -61,8 +61,8 @@ Questa <em>escursione</em> nel cuore di Livorno è un''occasione imperdibile per
   10.343448,
   'POINT(10.343448 43.497267)',
   '8b57c1137611401e27e6cb90d0dbbf2f810712fc8781a8d69289c943a761ae07',
-  'Esplora il Vecchio Faro del Montenero a Livorno! Percorso facile, storia e vista sulla suggestiva costa. Un''immersione nel passato!',
-  'Trekking al Vecchio Faro di Montenero - Livorno',
+  'Escursione Montenero - Vecchio Faro, Livorno: Anello facile 1.19km, +35m dislivello. Ammira il faro abbandonato e la villa storica! Perfetto per una passeggi...',
+  'Montenero: escursione al Vecchio Faro (Livorno)',
   NOW(),
   NOW()
 )

@@ -65,8 +65,8 @@ Ricordatevi di utilizzare scarpe adeguate al <strong>trekking</strong>, soprattu
   10.416098,
   'POINT(10.416098 43.523062)',
   '6f050557e54cc4da2716a5a5ff59e2631e73d5661d6e4ff637ad8073be691004',
-  'Escursione Valle Benedetta: Acquedotto di Colognole! Percorso facile e panoramico tra sentieri e cascine, ideale per la domenica. ⛰️👟',
-  'Trekking Valle Benedetta: Acquedotto Colognole - Sentiero',
+  'Escursione Valle Benedetta: Acquedotto di Colognole - Anello facile 7.3km, +285m. Trekking in Toscana, sentieri segnalati. Ideale per una giornata domenicale!',
+  'Valle Benedetta: escursione all''Acquedotto di Colognole (facile)',
   NOW(),
   NOW()
 )

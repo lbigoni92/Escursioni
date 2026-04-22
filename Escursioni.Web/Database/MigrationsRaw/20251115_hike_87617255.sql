@@ -56,8 +56,8 @@ VALUES (
   10.416098,
   'POINT(10.416098 43.523062)',
   '280fb21450177fa9dc70c93e84a83edf044435f0723fcf4f68a7a92c65d57c1a',
-  'Escursioni a Livorno: Colognole! Percorso facile e panoramico, ideale famiglie e bambini. Ammira l''acquedotto, fai picnic e goditi la natura!',
-  'Trekking Colognole Livorno: Sentiero Facile Panorami',
+  'Escursione facile Colognole da Livorno: Anello di 7.3km con 285m di dislivello. Perfetto per famiglie e piknic! Percorso acquedotto, punti vista e anfibi! Va...',
+  'Colognole: Escursione Facile da Livorno (Toscana)',
   NOW(),
   NOW()
 )

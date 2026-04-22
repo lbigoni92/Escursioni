@@ -53,8 +53,8 @@ VALUES (
   10.412709,
   'POINT(10.412709 43.526069)',
   'ada1a42fcbdc0a7d5b344c7a89ea090b38ba6cac7523489993367096eecb44aa',
-  'Valle Benedetta: Escursione facile e tranquilla in Piemonte. Ideale per famiglie e amanti della natura. Scopri il Santuario della Sambuca e panorami mozzafiato!',
-  'Trekking Valle Benedetta: Escursione Tranquilla in Piemonte',
+  'Escursione Valle Benedetta Toscana: percorso facile di 11.8km con +307m dislivello. Anello adatto a famiglie, tra santuario sambuca e panorama! ⛰️',
+  'Valle Benedetta: escursione facile in Toscana +307m',
   NOW(),
   NOW()
 )

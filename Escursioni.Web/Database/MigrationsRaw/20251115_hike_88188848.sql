@@ -67,8 +67,8 @@ Questa <strong>escursione sentiero</strong> a <strong>Puzzolente - Valle Benedet
   10.305275,
   'POINT(10.305275 43.54942)',
   '4afabdc8ccc227e6388e3a235fe99166fdcadf7e4f94421d61b2efad4f0ad549',
-  'Escursione Puzzolente-Valle Benedetta: percorso facile e panoramico! Tra ruderi e natura incontaminata. Ideale per famiglie e principianti.',
-  'Trekking Valle Benedetta Puzzolente: Sentiero Facile Italia',
+  'Escursione facile Valle Benedetta a Puzzolente (Fiume, Toscana): 27.5km anello, +454m. Percorso adatto a tutti dal centro di Fiume, con sentiero ben segnato ...',
+  'Valle Benedetta: escursione facile da Fiume (Toscana)',
   NOW(),
   NOW()
 )

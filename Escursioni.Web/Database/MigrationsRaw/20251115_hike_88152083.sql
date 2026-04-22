@@ -54,8 +54,8 @@ VALUES (
   10.278951,
   'POINT(10.278951 44.036994)',
   'd2fe1e1f6916c01b66a3bb62b5e33713349a84d81bedd2cdd0e4218618fcdf6b',
-  'Escursione Passo Croce - Monte Corchia: sentiero impervio, parete di roccia e vista panoramica sull''Appennino. Difficoltà media, rifugio Freo.',
-  'Trekking Monte Corchia: Passo Croce - Del Freo Italia',
+  'Escursione Monte Corchia Passo Croce: 11.5km, +920m. Percorso facile Toscana! Salita al Corchia, cresta e Rifugio del Freo. Scarpe obbligatorie!',
+  'Monte Corchia - Passo Croce: Escursione Facile Toscana',
   NOW(),
   NOW()
 )

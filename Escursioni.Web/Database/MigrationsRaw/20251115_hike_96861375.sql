@@ -53,8 +53,8 @@ VALUES (
   10.419123,
   'POINT(10.419123 43.511588)',
   'f6dcc75b43037f383c657d958a35568af5a6165c6160ca8bdecd3d1a4135bd75',
-  'Escursioni Valle Benedetta: Monte Pan di Zucchero, Monte Maggiore & Acquedotto Colognole. Facile percorso con panorami mozzafiato! Scopri la Toscana!',
-  'Trekking Valle Benedetta: Monte Pan di Zucchero e Acquedotto C...',
+  'Escursione Valle Benedetta (Toscana): Monte Pan di Zucchero & Monte Maggiore. Facile giro di 6.47km +237m. Scopri l''acquedotto di Colognole!',
+  'Monte Pan di Zucchero: Escursione Facile Valle Benedetta',
   NOW(),
   NOW()
 )
