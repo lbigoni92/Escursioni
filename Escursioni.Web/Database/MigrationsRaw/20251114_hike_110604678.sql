@@ -27,9 +27,9 @@ VALUES (
 <p>Il percorso prevede una notturna al rifugio Rossi, con una salita impegnativa ma gratificante. Il secondo giorno inizia con l''alba sulla cima dell''Uomo Morto, seguita da una salita alla Pania Secca, caratterizzata da punti leggermente esposti ma facilmente superabili.  L''escursione termina con un ritorno lungo un sentiero panoramico, passando per il sentiero del pastore,  presente un tratto esposto che però è molto tranquillo e panoramico. È fondamentale essere consapevoli della mancanza di fontanelle lungo il percorso e di portare con sé sufficiente acqua.  Si consiglia di informarsi presso i gestori del rifugio Rossi riguardo eventuali informazioni aggiornate sulle condizioni del sentiero e di gestire attentamente il denaro, dato che sono state segnalate pratiche scorrette.</p>',
   'Tutte le Attività e Paesi',
   13.43,
+  900,
   1,
-  1,
-  1,
+  1859,
   325,
   '05:25',
   325,
@@ -53,7 +53,7 @@ VALUES (
   '62781e63f0d52cea04d0b0bd36bb3bbf4d3afe70fe822c6a3f92335d8ac3b8ea',
   'Escursione Pania della Croce, Uomo Morto, Pania Secca (Toscana) | Difficile 13.43km+1m. Giro di 2 giorni con tratti esposti, catene e panorami mozzafiato!',
   'Pania della Croce: Trekking da Piglionico (difficile, panorama)',
-  'Versilia e costa toscana',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

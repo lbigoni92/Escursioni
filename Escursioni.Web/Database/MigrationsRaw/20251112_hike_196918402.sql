@@ -58,7 +58,7 @@ VALUES (
   'd45b03956d82dd21efee33fb9a124c483ddb087ab9d4526a748a30547ee82b14',
   'Ciaspolata Abetone: Rifugio Casetta di Lapo, Cima del Diaccione & Lago della Risaia (12km, 601m) | Toscana Facile',
   'Abetone: Ciaspolata Cima Diaccione e Risaia da Passo Abetone',
-  'Trentino',
+  'Appennino Tosco-Emiliano',
   NOW(),
   NOW()
 )

@@ -40,9 +40,9 @@ VALUES (
 <p>Non perdete l''occasione di scoprire questo meraviglioso <strong>sentiero trekking</strong>, perfetto per una giornata all''aria aperta e un''esperienza indimenticabile nella **montagna italiana**.  Organizzate la vostra <strong>escursione trekking</strong> lungo il <strong>Lagoni Libro Aperto da Bellagamba</strong> e immergetevi nella bellezza della natura.</p>',
   'Tutte le Attività e Paesi',
   14.58,
+  900,
   1,
-  1,
-  1,
+  1937,
   230,
   '03:50',
   230,
@@ -66,7 +66,7 @@ VALUES (
   '4e5d0157fdb4516dfef89222c3d619c949572bb0d791efa4c3867aca5973307b',
   'Escursione Lagoni-Bellagamba (Emilia-Romagna): Anello di 14.5km con +900m dislivello. Sentiero 493-447-437. Percorso facile, ideale per amanti trekking!',
   'Lagoni Libro Aperto: Escursione da Bellagamba (Emilia Romagna)',
-  'Appennino Tosco-Emiliano',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

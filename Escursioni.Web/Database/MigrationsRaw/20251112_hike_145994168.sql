@@ -52,7 +52,7 @@ VALUES (
   'e0968a42ce764d5227f432e505417c853928c8fed48ded5877f79e36999a127a',
   'Escursione Lucese Prana: Anello facile +764m in Toscana! Vetta con vista Panie & Livorno. Partenza Passo Lucese (558m). Ideale anche per principianti.',
   'Lucese: Escursione al Prana con Baita Barsi (Toscana)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

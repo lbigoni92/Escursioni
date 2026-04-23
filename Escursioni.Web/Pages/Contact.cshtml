@@ -26,7 +26,7 @@
         </div>
         <div class="form-field form-field--checkbox">
             <input asp-for="Form.PrivacyConsent" type="checkbox" id="privacyconsent" required />
-            <label for="privacyconsent">Ho letto e accetto la <a href="/privacy" target="_blank">privacy policy</a></label>
+            <label for="privacyconsent">Ho letto e accetto la <a href="/privacy" target="_blank" title="Privacy policy">privacy policy</a></label>
             <span asp-validation-for="Form.PrivacyConsent" class="field-validation-error"></span>
         </div>
         <div class="form-field form-field--buttons">
@@ -44,7 +44,7 @@
 
     <div class="privacy-info">
         <small>
-            I dati inviati saranno utilizzati solo per rispondere alla tua richiesta, secondo la normativa privacy (GDPR). Per dettagli consulta la <a href="/privacy">pagina Privacy</a>.
+            I dati inviati saranno utilizzati solo per rispondere alla tua richiesta, secondo la normativa privacy (GDPR). Per dettagli consulta la <a href="/privacy" title="Pagina Privacy">pagina Privacy</a>.
         </small>
     </div>
 

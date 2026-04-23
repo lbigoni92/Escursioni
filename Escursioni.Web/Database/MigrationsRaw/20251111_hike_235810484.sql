@@ -53,7 +53,7 @@ VALUES (
   '53bc715ce1583562dbd8cc330bff732f4105e0bb9bedfd4a858ef5a746178588',
   'Ferrata Pietra di Bismantova: Trekking in Emilia-Romagna! Percorso completo con 3 vie ferrate (Alpini, Orto del Mandorlo, Ultimo Sole). Diff. media, 5.43km, ...',
   'Pietra di Bismantova: Trekking Ferrate da Carnola (diff. media)',
-  'Alpi Apuane',
+  'Appennino Tosco-Emiliano',
   NOW(),
   NOW()
 )

@@ -235,6 +235,21 @@ public class HikeRepository : IHikeRepository
             .FirstOrDefaultAsync(h => h.Id == id);
     }
 
+    public async Task<Hike?> GetBySlugAsync(string slug)
+    {
+        // Load lightweight list of id + title, match slug in-memory
+        var hikes = await _db.Hikes
+            .Select(h => new { h.Id, h.Titolo })
+            .ToListAsync();
+
+        var match = hikes.FirstOrDefault(h =>
+            Pages.Escursioni.IndexModel.MakeSlug(h.Titolo) == slug);
+
+        if (match == null) return null;
+
+        return await GetByIdAsync(match.Id);
+    }
+
     public async Task<List<Hike>> GetWithCoordinatesAsync()
     {
         return await _db.Hikes

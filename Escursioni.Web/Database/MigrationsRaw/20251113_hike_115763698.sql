@@ -72,7 +72,7 @@ Prima di intraprendere l''avventura, controllate sempre le condizioni meteorolog
   'e54ff7eae6d50a4849783c7347b203e4e07ed9e4d3cd7730c18a064b13697778',
   'Via Ferrata Monte Forato & Procinto: Anello Toscana | Palagnana, Diff. Media, 13km. Trekking ferrata facile-media, 200m dislivello. Info e consigli!',
   'Monte Forato & Procinto: Escursione Ferrata da Matanna',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

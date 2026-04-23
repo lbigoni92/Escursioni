@@ -54,7 +54,7 @@ VALUES (
   'c24746e9352febded74755413fa5cc4158f9b69485329e5118a78678fe9875a7',
   'Escursione Sestola Lago della Ninfa: Percorso panoramico media difficoltà (8.7km, +687m) in Emilia-Romagna. Vista lago, punti panoramici e rifugio Ninfa!',
   'Lago della Ninfa: escursione da Sestola (panoramica, media)',
-  'Versilia e costa toscana',
+  'Appennino Tosco-Emiliano',
   NOW(),
   NOW()
 )

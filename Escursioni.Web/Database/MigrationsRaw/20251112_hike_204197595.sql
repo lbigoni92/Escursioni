@@ -56,7 +56,7 @@ VALUES (
   '5f61767092b6d65b7c703ff90bee98bafcf9ed10e6bb51d19e840f483db0928c',
   'Ciaspolata Passo della Calanca, Lago Scaffaiolo e Monte Spigolino (Doganaccia) | Toscana Facile 9.4km+409m | Sentieri 66/286, Rifugio Duca!',
   'Passo della Calanca: escursione con lago da Doganaccia (Toscana)',
-  'Alpi Apuane',
+  'Appennino Tosco-Emiliano',
   NOW(),
   NOW()
 )

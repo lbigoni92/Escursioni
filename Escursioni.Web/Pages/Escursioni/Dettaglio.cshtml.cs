@@ -22,9 +22,9 @@ public class DettaglioModel : PageModel
     public bool GpxValid { get; set; }
     public List<Hike> RelatedHikes { get; set; } = new();
 
-    public async Task<IActionResult> OnGetAsync(int id, string? slug)
+    public async Task<IActionResult> OnGetAsync(string slug)
     {
-        Hike = await _repo.GetByIdAsync(id);
+        Hike = await _repo.GetBySlugAsync(slug);
 
         if (Hike == null)
             return NotFound();

@@ -29,9 +29,9 @@ VALUES (
 <p>Questa <strong>escursione</strong> di più giorni è un''opportunità unica per vivere un''esperienza autentica di <strong>trekking</strong> in <strong>Italia</strong>. Un''avventura che vi lascerà senza parole, tra i panorami più suggestivi dell''Appennino.  Non perdete l''occasione di scoprire questo incredibile <strong>sentiero</strong>, perfetto per un''<strong>escursione</strong> in <strong>montagna</strong>!</p>',
   'Tutte le Attività e Paesi',
   24.69,
+  1200,
   1,
-  1,
-  1,
+  1939,
   900,
   '15:00',
   NULL,
@@ -55,7 +55,7 @@ VALUES (
   '5792a564f5639c13c211d054eb0be5310c86e10916b2b431110a3aa5dffe0566',
   'Escursione Pratorsi - Corno alle Scale - Lago Scaffaiolo: Trek facile 24km, 1m dislivello in Toscana. Percorso medio Spignana. Consigliata!',
   'Pratorsi - Corno Scale - Lago Scaffaiolo: Escursione Toscana',
-  'Lucchesia e colline toscane',
+  'Appennino Tosco-Emiliano',
   NOW(),
   NOW()
 )

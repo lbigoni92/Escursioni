@@ -55,7 +55,7 @@ VALUES (
   '1d0d7e2de454ff95a7ce6f553557ae558a5c1d05c04fce780f7d8f0879f54456',
   'Escursione Monte Rotondo Villa Maria: sentiero 136 & 130p, cascatelle & ruderi! Anello facile 8.68km, +177m. Perfetta per famiglie! Toscana.',
   'Monte Rotondo: escursione da Villa Mauro Gordato (cascate, ane...',
-  'Versilia e costa toscana',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

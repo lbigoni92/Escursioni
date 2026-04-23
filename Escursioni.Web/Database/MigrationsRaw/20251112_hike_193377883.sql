@@ -58,7 +58,7 @@ VALUES (
   '7983df613ae1918111bac9072f1f18ea552863b0696b744204feec0f59fbefbf',
   'Escursione Valle Benedetta Colognole: Acquedotto Leopoldino & grotte! Anello medio 11.6km, +455m. Sentieri CAI, difficoltà accessibile (attenzione fango).',
   'Valle Benedetta: Escursione all''Acquedotto Leopoldino (Toscana)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

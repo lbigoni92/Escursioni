@@ -28,8 +28,8 @@
                     @if (!string.IsNullOrWhiteSpace(cover))
                     {
                         <a asp-page="/Escursioni/Dettaglio"
-                           asp-route-id="@h.Id"
-                           asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)">
+                           asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)"
+                           title="@displayTitle">
                             <picture>
                                 @if (coverThumb != null)
                                 {
@@ -42,8 +42,8 @@
                     <div class="hike-card-body">
                         <h2 class="hike-card-title">
                             <a asp-page="/Escursioni/Dettaglio"
-                               asp-route-id="@h.Id"
-                               asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)">
+                               asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)"
+                               title="@displayTitle">
                                 @displayTitle
                             </a>
                         </h2>

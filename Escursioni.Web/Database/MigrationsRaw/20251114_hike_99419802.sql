@@ -34,9 +34,9 @@ VALUES (
 <p>Ricordatevi sempre di rispettare l''ambiente naturale e di seguire le indicazioni del sentiero. Un''<strong>escursione</strong> responsabile contribuisce a preservare la bellezza di questi luoghi per le future generazioni. Godetevi questa splendida <strong>escursione trekking</strong>!</p>',
   'Tutte le Attività e Paesi',
   7.67,
-  1,
+  600,
   983,
-  1,
+  1138,
   NULL,
   NULL,
   NULL,
@@ -60,7 +60,7 @@ VALUES (
   '81051df08ba688c8b3e662b5a1d974778006746a9f0b173e6530d6db53ae8af6',
   'Escursione Rifugio Alto Matanna - Procinto (Toscana) | Trek di 7.7km, +1m, anello facile. Percorso semplice ma con tratti in salita, ideale per escursionisti...',
   'Rifugio Alto Matanna: Escursione a Procinto (Toscana)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

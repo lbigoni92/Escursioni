@@ -28,9 +28,9 @@ VALUES (
 <p>Non perdere l''opportunità di vivere un''indimenticabile <strong>escursione nel Parco</strong>, ricco di sentieri da trekking e panorami mozzafiato.  Questo percorso di trekking è perfetto per un''avventura in <strong>montagna</strong> tra la natura e il relax.  Scopri i segreti di questo sentiero e crea ricordi indimenticabili durante la tua <strong>trekking</strong>.</p>',
   'Tutte le Attività e Paesi',
   20.19,
+  600,
   1,
-  1,
-  1,
+  1900,
   123,
   '02:03',
   123,
@@ -54,7 +54,7 @@ VALUES (
   '6e3cabed83825fc5880b74c795528cb7ba0638140ed73dd985638ccd830a5f62',
   'Escursione Lago Nero Fontana Vaccaia: Anello in Toscana (20km, 600m+) da "Le Regie" al Lago Nero con Casetta Pastori. Diff. Medio. Perfetto per trekking!',
   'Lago Nero: escursione da Fontana Vaccaia (anello, 20km)',
-  'Versilia e costa toscana',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

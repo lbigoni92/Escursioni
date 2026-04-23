@@ -58,7 +58,7 @@ VALUES (
   '96b339e8b78d5228d25d61593468fcaac3a4d752afdd14ad8e81bdbecfd710e9',
   'Escursione Stretti di Giaredo: canyoning in Toscana! 4km anello, +121m dislivello. Percorso facile ma con tratti in acqua fredda. Ideale con scarpe da trekking!',
   'Stretti di Giaredo: Escursione Canyoning da Giaredo (Toscana)',
-  'Appennino Tosco-Emiliano',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

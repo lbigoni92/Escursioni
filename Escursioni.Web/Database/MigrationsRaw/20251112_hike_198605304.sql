@@ -34,7 +34,7 @@ Il percorso inizia da <strong>Cardoso</strong>, imboccando il <strong>Sentiero d
 </p>',
   'Tutte le Attività e Paesi',
   11.17,
-  1,
+  600,
   260,
   613,
   152,

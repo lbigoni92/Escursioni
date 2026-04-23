@@ -16,6 +16,8 @@
     @if (ViewData["CanonicalUrl"] is string canonical && !string.IsNullOrWhiteSpace(canonical))
     {
         <link rel="canonical" href="@canonical" />
+        <link rel="alternate" hreflang="it" href="@canonical" />
+        <link rel="alternate" hreflang="x-default" href="@canonical" />
     }
 
     <!-- Open Graph -->
@@ -73,21 +75,21 @@
     <link rel="stylesheet" href="~/css/form.css" />
 </head>
 <body>
-    <a href="#main-content" class="skip-link">Vai al contenuto principale</a>
+    <a href="#main-content" class="skip-link" title="Vai al contenuto principale">Vai al contenuto principale</a>
 
     <header class="top-bar">
         <div class="top-bar-inner">
-            <a class="brand" asp-page="/Index">Escursioni Luca Bigoni</a>
+            <a class="brand" asp-page="/Index" title="Escursioni Luca Bigoni – Home">Escursioni Luca Bigoni</a>
             <button class="hamburger" id="hamburger-btn" aria-label="Apri menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
             <nav class="main-nav" id="main-nav" aria-label="Navigazione principale">
-                <a asp-page="/Index">Home</a>
-                <a asp-page="/Escursioni/Index">Escursioni</a>
-                <a asp-page="/Map/Index">Mappa</a>
-                <a asp-page="/Search/Index">Ricerca</a>
-                <a asp-page="/About">Chi sono</a>
-                <a asp-page="/Contact">Contatti</a>
+                <a asp-page="/Index" title="Home">Home</a>
+                <a asp-page="/Escursioni/Index" title="Escursioni per zona">Escursioni</a>
+                <a asp-page="/Map/Index" title="Mappa escursioni">Mappa</a>
+                <a asp-page="/Search/Index" title="Ricerca escursioni">Ricerca</a>
+                <a asp-page="/About" title="Chi sono – Luca Bigoni">Chi sono</a>
+                <a asp-page="/Contact" title="Contatti">Contatti</a>
                 <button id="toggle-darkmode" style="margin-left:1.2rem;padding:0.3rem 0.8rem;border-radius:999px;border:1px solid #4b5563;background:var(--bg);color:var(--text-main);cursor:pointer;">🌓</button>
             </nav>
         </div>
@@ -98,13 +100,13 @@
         {
             <nav aria-label="Breadcrumb">
                 <ol style="list-style:none;display:flex;flex-wrap:wrap;gap:0.3rem;padding:0;margin:0;font-size:0.85rem;">
-                    <li><a href="/">Home</a></li>
+                    <li><a href="/" title="Home">Home</a></li>
                     @foreach (var (label, url) in crumbs)
                     {
                         <li style="display:flex;align-items:center;"><span style="margin:0 0.3rem;">›</span>
                             @if (!string.IsNullOrEmpty(url))
                             {
-                                <a href="@url">@label</a>
+                                <a href="@url" title="@label">@label</a>
                             }
                             else
                             {
@@ -126,7 +128,7 @@
         <div class="footer-inner">
             <div class="footer-copyright">© @DateTime.Now.Year - Escursioni Luca Bigoni | Trekking in Toscana</div>
             <div class="footer-sep">·</div>
-            <div class="footer-rss"><a href="/feed/rss">Feed RSS</a></div>
+            <div class="footer-rss"><a href="/feed/rss" title="Feed RSS">Feed RSS</a></div>
             <div class="footer-sep">·</div>
             <div class="footer-social">
                 <a href="https://www.linkedin.com/in/luca-bigoni/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">in</a>
@@ -161,32 +163,27 @@
     }
 
     <script>
-        // Dark mode toggle logic
-        const btn = document.getElementById('toggle-darkmode');
-        if (btn) {
-            btn.addEventListener('click', function() {
-                document.body.classList.toggle('light-mode');
-                localStorage.setItem('theme', document.body.classList.contains('light-mode') ? 'light' : 'dark');
-            });
-            // On load, set theme from localStorage
-            if (localStorage.getItem('theme') === 'light') {
-                document.body.classList.add('light-mode');
+        // Dark mode toggle + Hamburger menu — non-blocking
+        requestAnimationFrame(function() {
+            var btn = document.getElementById('toggle-darkmode');
+            if (btn) {
+                btn.addEventListener('click', function() {
+                    document.body.classList.toggle('light-mode');
+                    document.documentElement.classList.toggle('light-mode');
+                    localStorage.setItem('theme', document.body.classList.contains('light-mode') ? 'light' : 'dark');
+                });
             }
-        }
-    </script>
-
-    <script>
-        // Hamburger menu toggle
-        const hamburger = document.getElementById('hamburger-btn');
-        const mainNav = document.getElementById('main-nav');
-        if (hamburger && mainNav) {
-            hamburger.addEventListener('click', function() {
-                const open = !mainNav.classList.contains('is-open');
-                mainNav.classList.toggle('is-open');
-                hamburger.classList.toggle('is-open');
-                hamburger.setAttribute('aria-expanded', open);
-            });
-        }
+            var hamburger = document.getElementById('hamburger-btn');
+            var mainNav = document.getElementById('main-nav');
+            if (hamburger && mainNav) {
+                hamburger.addEventListener('click', function() {
+                    var open = !mainNav.classList.contains('is-open');
+                    mainNav.classList.toggle('is-open');
+                    hamburger.classList.toggle('is-open');
+                    hamburger.setAttribute('aria-expanded', open);
+                });
+            }
+        });
     </script>
 </body>
 </html>

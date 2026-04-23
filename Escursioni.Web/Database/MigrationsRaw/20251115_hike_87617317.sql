@@ -68,7 +68,7 @@ VALUES (
   '88e41deb34a50f55fc345e169b7db48eb26fa09352a047bb9ea7d14e77d8d197',
   'Escursione Valle Benedetta Acquedotto Colognole: Facile giro di 7.2km in Toscana (+245m) da Valle Benedetta all''acquedotto! Sentiero segnalato, adatto a tutti.',
   'Valle Benedetta: Escursione all''Acquedotto di Colognole (Toscana)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

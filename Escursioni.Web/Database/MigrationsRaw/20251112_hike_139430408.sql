@@ -34,9 +34,9 @@ VALUES (
 <p>Non mancate l''opportunità di scoprire questo sentiero unico, che vi regalerà emozioni indimenticabili e panorami mozzafiato.  Questo <strong>sentiero Italia</strong> è perfetto per gli amanti del <strong>trekking</strong> e dell''<em>escursionismo</em>.</p>',
   'Tutte le Attività e Paesi',
   15.25,
-  1,
+  950,
   449,
-  1,
+  1880,
   278,
   '04:38',
   278,
@@ -60,7 +60,7 @@ VALUES (
   '1c9c875f4514af79a441f5996f2d6a8f7724c96e94c7148f4797f833a967d474',
   'Escursione Tambura Monte Crispo: Anello Toscano 15.25km. Partenza Resceto. Sentiero medio, 800m dislivello. Casa Verde, Passo Focolaccia, Cresta Tambura. Vetta...',
   'Monte Crispo - La Tambura: Escursione da Resceto (15.25km)',
-  'Trentino',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

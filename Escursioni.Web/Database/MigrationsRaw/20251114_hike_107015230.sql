@@ -28,9 +28,9 @@ VALUES (
 <p>Questo <strong>trekking</strong> è perfetto per chi cerca un''avventura in <strong>montagna</strong>, un''esperienza di <strong>escursionismo</strong> completa e la possibilità di ammirare panorami unici. Ricorda di indossare scarpe da <strong>trekking</strong> adatte e di portare con te acqua e snack sufficienti. La <strong>natura</strong> offre un''esperienza unica, e questo <strong>sentiero</strong> è una delle scoperte più belle del territorio.  Esplora l''<strong>Italia</strong> con questo fantastico <strong>sentiero di trekking</strong>!</p>',
   'Tutte le Attività e Paesi',
   19,
+  900,
   1,
-  1,
-  2,
+  1952,
   337,
   '05:37',
   337,
@@ -54,7 +54,7 @@ VALUES (
   'f9ace742f643cdea1ae7e7c470914f14e18f81d1b77e6932fa75300fdbb3c645',
   'Escursione Monte Rondinaio (Toscana): percorso anello 19km, 650m dislivello. Rifugio Santi - Altaretto - Rondinaio Lombardo - Lago Santo. Difficile, cresta e...',
   'Monte Rondinaio: Escursione da Rifugio Santi (difficile)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

@@ -33,9 +33,9 @@ VALUES (
 <p>L’appuntamento si terrà presso la <strong>Cappella votiva del C.A.I.</strong>, all’indirizzo 55020 Molazzana LU.  Valutate l’utilizzo di una mappa o di una guida escursionistica per una navigazione ottimale durante il <em>trekking</em>.  Questa gita in <em>montagna</em> vi lascerà un ricordo indelebile, pieno di emozioni e di stupore di fronte alla <em>natura</em> italiana.</p>',
   'Tutte le Attività e Paesi',
   9.73,
+  1000,
   1,
-  1,
-  1,
+  1859,
   316,
   '05:16',
   NULL,
@@ -59,7 +59,7 @@ VALUES (
   '69801e84c6e3baa56f94d97aea14f951f8d7ac637f10f0e8417b2768a4fde866',
   'Escursione Pania della Croce, Cornola (LU): trekking anello difficile 9.7km, +1000m dislivello. Vetta e tramonto! Sentiero dal C.A.I. con vista neve. Perfetto p...',
   'Pania della Croce: escursione difficile da Molazzana (Toscana)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

@@ -31,7 +31,7 @@ VALUES (
 <p>Scopri di più sui sentieri di <strong>trekking</strong> in <strong>Italia</strong> e pianifica la tua prossima avventura!  Un''opportunità unica per un''<strong>escursione</strong> a piedi tra le bellezze naturali della <strong>Toscana</strong>.  Vivi l''emozione del <strong>trekking</strong> in un contesto unico.</p>',
   'Tutte le Attività e Paesi',
   16.73,
-  1,
+  500,
   11,
   832,
   221,

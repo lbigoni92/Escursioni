@@ -30,7 +30,7 @@ VALUES (
 <p>Questo <strong>sentiero</strong> rappresenta un''opportunità unica per un''<strong>escursione</strong> in <strong>montagna</strong>, combinando elementi di <strong>trekking</strong> e di scoperta di <strong>sentieri</strong> nascosti.  Esplorate la bellezza della Toscana attraverso questo affascinante itinerario.  Se siete alla ricerca di un''esperienza di <strong>trekking</strong> autentica e indimenticabile, questo <strong>sentiero</strong> è la scelta perfetta per voi.  Vienite a scoprire le meraviglie della <strong>natura</strong> in questo <strong>sentiero</strong> unico!</p>',
   'Tutte le Attività e Paesi',
   20.59,
-  1,
+  600,
   77,
   875,
   135,
@@ -38,7 +38,7 @@ VALUES (
   135,
   '02:15',
   2520,
-  'Medio',
+  'Facile',
   'Anello',
   NULL,
   'Italia',
@@ -56,7 +56,7 @@ VALUES (
   '2ccd5a138f125fe2b4ad8311d927af18349c9fae22f46e3e42a15bc0cc76769e',
   'Escursione Vorno Monte Faeta: Anello Toscana 20.59km, +1m Disliv. Sentieri Vorno-Campo Croce-Faeta-Spuntone. Percorso medio, neve a Santallago!',
   'Vorno: Trekking Monte Faeta - Campo Croce - Santallago',
-  'Alpi Apuane',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

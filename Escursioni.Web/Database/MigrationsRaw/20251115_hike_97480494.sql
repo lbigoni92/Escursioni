@@ -63,7 +63,7 @@ Questa <em>escursione</em> nel cuore di Livorno è un''occasione imperdibile per
   '8b57c1137611401e27e6cb90d0dbbf2f810712fc8781a8d69289c943a761ae07',
   'Escursione Montenero - Vecchio Faro, Livorno: Anello facile 1.19km, +35m dislivello. Ammira il faro abbandonato e la villa storica! Perfetto per una passeggi...',
   'Montenero: escursione al Vecchio Faro (Livorno)',
-  'Versilia e costa toscana',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

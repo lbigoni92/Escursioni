@@ -55,7 +55,7 @@ VALUES (
   'b17e105c38239f226f890ac920cb202151aafac93d7801db3566cb19ff89758f',
   'Escursione Monte Rovaio, Monte Bovario e Monte Nome del Gesù Alpe di San’Antonio (Toscana) | Percorso anello E 11.5km, 923m D+, 3h.',
   'Alpe di San’Antonio: Escursione Rovaio-Bovario-Gesù (Toscana)',
-  'Versilia e costa toscana',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

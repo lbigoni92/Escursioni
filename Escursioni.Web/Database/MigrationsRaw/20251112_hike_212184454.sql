@@ -28,9 +28,9 @@ VALUES (
 </ul>',
   'Tutte le Attività e Paesi',
   12.42,
-  1,
+  1000,
   510,
-  1,
+  1230,
   165,
   '02:45',
   165,
@@ -54,7 +54,7 @@ VALUES (
   'd100d7caf18097a03171a166ad71502376dab5740af330a6c5c1c1ec0c66317b',
   'Escursione Monte Forato Sud (Toscana): sentiero CAI 6, ferrata e vista arc naturale! Percorso anello 12.4km, +1m, difficoltà impegnativa. Perfetto per ferrat...',
   'Monte Forato: Escursione da Stazzema (Ferrata, Procinto)',
-  'Versilia e costa toscana',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

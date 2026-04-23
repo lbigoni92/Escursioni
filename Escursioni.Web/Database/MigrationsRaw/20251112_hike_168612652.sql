@@ -30,7 +30,7 @@ VALUES (
 <p>Il percorso include tappe significative: <strong>Monte Costa</strong> (2.2 km), <strong>Monte Anchiana</strong> (5.6 km), e la visita alla <strong>Chiesa di Santa Barbara</strong> (8.0 km). Questo permette di apprezzare al meglio la varietà del paesaggio e la ricchezza della storia e della cultura locale.</p>',
   'Tutte le Attività e Paesi',
   12.76,
-  1,
+  600,
   56,
   742,
   179,

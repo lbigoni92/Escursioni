@@ -59,7 +59,7 @@ VALUES (
   'd582cec3aeec7afa9eb3c4254647c722d0f39c2bd1ed2abb527232e4ad8601e8',
   'Escursione Valle Benedetta: sentiero d''Achille (Toscana) | Anello facile 10.57km +331m. Escursione facile da Cardoso al Monte Forato.',
   'Valle Benedetta: escursione ad Achille da Sambuca (facile)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

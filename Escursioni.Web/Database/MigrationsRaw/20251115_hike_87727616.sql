@@ -58,7 +58,7 @@ VALUES (
   '8e9b41c54d53d961b8f76709cb3f37431dddef5c58a8c3dff1c7b938183a6227',
   'Escursione Livorno Montenero Castellaccio: Anello di 28.6km in Toscana (Fiume, Bagni)! Facile, ideale per principianti +366m dislivello. Perfetto per bici o ...',
   'Castellaccio - Montenero: Escursione Anello da Livorno',
-  'Versilia e costa toscana',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

@@ -28,9 +28,9 @@ VALUES (
 <p><em>Attenzione: il sentiero presenta tratti pericolosi e richiede un buon livello di allenamento e preparazione. Non consigliato a chi soffre di vertigini o problemi di mobilità.</em></p>',
   'Tutte le Attività e Paesi',
   18.41,
-  1,
+  1200,
   485,
-  1,
+  1310,
   NULL,
   NULL,
   NULL,
@@ -54,7 +54,7 @@ VALUES (
   'e51b93a6184ae1940071d366e8f76c80a88987da8c9111624d188cfef74dbf7d',
   'Escursione Monte Forato da Fornovolasco: Anello Toscano 18.41km, +800m dislivello. Percorso impegnativo, sentieri misti (catene), consigliato a escursionisti a...',
   'Monte Forato: Escursione da Fornovolasco (difficile, 18.41km)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

@@ -66,7 +66,7 @@ VALUES (
   '4bdb263065bd4e626aa5ce85ab2611c1ac69e52cea84deab7a6d2a93859b9e5c',
   'Escursione Sasso Pisano: Anello facile 11.7km | Toscana, Fumarole & Monterotondo Marittimo. Trekking medio +445m. Ideale per amanti natura!',
   'Sasso Pisano: trekking alle Fumarole (Toscana)',
-  'Versilia e costa toscana',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

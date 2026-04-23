@@ -51,7 +51,7 @@ public class MetaDescriptionGenerator
             Sei un esperto SEO per un sito amatoriale di escursionismo in italiano (escursionilucabigoni.it).
             Il sito è di un escursionista amatoriale, NON una guida professionista.
 
-            Genera una meta descrizione di massimo 155 caratteri per questa escursione.
+            Genera una meta descrizione di massimo 130 caratteri per questa escursione.
 
             REGOLE IMPORTANTI:
             - Scrivi come cercano gli utenti su Google (es: "Monte Forato escursione da Cardoso", "escursione Alpi Apuane facile")
@@ -68,7 +68,7 @@ public class MetaDescriptionGenerator
 
         var text = await CallOllamaAsync(prompt);
         text = text.Trim().Trim('"', '«', '»');
-        if (text.Length > 160) text = text[..157] + "...";
+        if (text.Length > 130) text = text[..127] + "...";
         return text;
     }
 
@@ -81,7 +81,7 @@ public class MetaDescriptionGenerator
         var prompt = $"""
             Sei un esperto SEO per un sito amatoriale di escursionismo in italiano.
 
-            Genera un titolo SEO di massimo 60 caratteri per questa escursione.
+            Genera un titolo SEO di massimo 55 caratteri per questa escursione.
 
             REGOLE FONDAMENTALI (search intent):
             - Il titolo DEVE corrispondere a come gli utenti cercano su Google
@@ -105,7 +105,7 @@ public class MetaDescriptionGenerator
 
         var text = await CallOllamaAsync(prompt);
         text = text.Trim().Trim('"', '«', '»');
-        if (text.Length > 65) text = text[..62] + "...";
+        if (text.Length > 60) text = text[..57] + "...";
         return text;
     }
 
@@ -166,27 +166,83 @@ public class MetaDescriptionGenerator
 
         var contextBlock = BuildContextBlock(ctx);
 
-        var prompt = $"""
-            Sei un classificatore per un sito di escursionismo italiano.
+          var prompt = $"""
+Sei un classificatore geografico per escursioni in Italia.
+OBIETTIVO:
+Assegna ESATTAMENTE UNO dei seguenti tag:
 
-            Assegna UNO SOLO dei seguenti tag all'escursione:
-            - Alpi Apuane
-            - Versilia e costa toscana
-            - Lucchesia e colline toscane
-            - Appennino Tosco-Emiliano
-            - Trentino
-            - Estero
+1. Alpi Apuane
+2. Versilia e costa toscana
+3. Lucchesia e colline toscane
+4. Appennino Tosco-Emiliano
+5. Trentino
+6. Estero
 
-            REGOLE:
-            - Rispondi SOLO con il testo esatto del tag, senza virgolette né spiegazioni
-            - Scegli il tag più appropriato in base alla zona geografica dell'escursione
-            - Se non riesci a determinare la zona, rispondi "Estero"
-            - Usa le informazioni di regione, provincia, comune e titolo per decidere
+-----------------------
+DEFINIZIONI GEOGRAFICHE
+-----------------------
 
-            Titolo: {titolo}
-            Descrizione: {descrizione}
-            {contextBlock}
-            """;
+Alpi Apuane:
+- Monti: Altissimo, Forato, Procinto, Pizzo d'Uccello, Tambura, Sumbra, Sagro, Corchia, Pania
+- Province: Lucca (solo Garfagnana e Apuane), Massa-Carrara
+- ESCLUDE costa e Versilia
+
+Versilia e costa toscana:
+- Comuni: Viareggio, Camaiore, Pietrasanta, Forte dei Marmi
+- Include costa e colline litoranee
+
+Lucchesia e colline toscane:
+- Lucca, Pisa, Valdinievole
+- Colline NON apuane e NON garfagnine
+
+Appennino Tosco-Emiliano:
+- Crinale appenninico
+- Zone: Abetone, Corno alle Scale, Passo della Cisa, Lunigiana montana
+- Regioni: Emilia-Romagna (zona montana)
+- Province: Parma, Reggio Emilia, Modena, Bologna (solo lato montano)
+
+Trentino:
+- Regione Trentino-Alto Adige
+- Province: Trento, Bolzano
+- Include Dolomiti
+
+Estero:
+- Qualsiasi località fuori dall’Italia
+- Oppure quando la posizione NON è determinabile
+
+-----------------------
+REGOLE DI PRIORITÀ (OBBLIGATORIE)
+-----------------------
+
+1. Se Regione = Trentino-Alto Adige → Trentino
+2. Se fuori Italia → Estero
+3. Se monti Apuani specifici → Alpi Apuane
+4. Se comune in Versilia → Versilia e costa toscana
+5. Se zona appenninica o Emilia-Romagna → Appennino Tosco-Emiliano
+6. Se provincia Lucca:
+    - Garfagnana → Alpi Apuane
+    - resto → Lucchesia e colline toscane
+7. Default → Estero
+
+-----------------------
+FORMATO RISPOSTA
+-----------------------
+
+- Rispondi con UNA SOLA STRINGA
+- Nessuna spiegazione
+- Nessuna punteggiatura extra
+- Nessuna nuova riga
+
+Esempio valido:
+Alpi Apuane
+
+-----------------------
+DATI ESCURSIONE
+-----------------------
+Titolo: {titolo}
+Descrizione: {descrizione}
+{contextBlock}
+""";
 
         var text = await CallOllamaAsync(prompt);
         text = text.Trim().Trim('"', '«', '»', '\n', '\r');

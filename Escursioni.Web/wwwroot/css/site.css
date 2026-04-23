@@ -913,6 +913,67 @@ body.light-mode .detail-carousel-nav {
     }
 
 /* ==========================================================================
+   CONDIVIDI – SHARE BUTTONS
+   ========================================================================== */
+
+.share-section {
+    margin-top: 1.2rem;
+}
+
+.share-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.share-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.45rem 0.85rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: filter 0.15s ease, transform 0.05s ease;
+}
+
+.share-btn:hover {
+    filter: brightness(1.15);
+    transform: translateY(-1px);
+}
+
+.share-btn svg {
+    flex-shrink: 0;
+}
+
+/* Dark mode (default) — colori social con buon contrasto su sfondo scuro */
+.share-btn--facebook  { background: #1877f2; }
+.share-btn--whatsapp  { background: #25d366; color: #000; }
+.share-btn--telegram  { background: #0088cc; }
+.share-btn--x         { background: #e2e8f0; color: #000; }
+
+.share-btn--copy {
+    background: var(--bg-elevated);
+    color: var(--text-main);
+    border: 1px solid var(--border-subtle);
+}
+
+.share-btn--copy:hover {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+}
+
+/* Light mode — adatta i bottoni allo sfondo chiaro */
+body.light-mode .share-btn--facebook  { background: #1877f2; }
+body.light-mode .share-btn--whatsapp  { background: #25d366; color: #fff; }
+body.light-mode .share-btn--telegram  { background: #0088cc; }
+body.light-mode .share-btn--x         { background: #14171a; color: #fff; }
+
+/* ==========================================================================
    MAPPA ESCURSIONI
    ========================================================================== */
 
@@ -1084,6 +1145,46 @@ body {
 
     .filter-row-compact {
         flex-direction: column;
+    }
+
+    /* Mobile usability: larger font sizes and tap targets */
+    body {
+        font-size: 16px;
+        -webkit-text-size-adjust: 100%;
+    }
+
+    .page-title {
+        font-size: 1.4rem;
+    }
+
+    .page-subtitle {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .main-nav a,
+    .footer-inner a,
+    .pagination-link,
+    .btn,
+    .btn-secondary {
+        min-height: 44px;
+        min-width: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 1rem;
+    }
+
+    .hike-card-title a {
+        font-size: 1.05rem;
+        line-height: 1.4;
+    }
+
+    .breadcrumb a,
+    .breadcrumb span {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
     }
 }
 

@@ -25,9 +25,9 @@ VALUES (
 <p>La lunghezza del <strong>sentiero</strong> è di circa 14 km con un dislivello di circa 800 metri.  Il <strong>percorso</strong> è principalmente su terreno roccioso e in <strong>montagna</strong>, con alcuni tratti su sentiero battuto. È fondamentale indossare scarpe da <strong>trekking</strong> adatte e abbigliamento tecnico adeguato.  Il punto di partenza è facilmente raggiungibile in auto da <strong>Arni</strong>, dove è presente un <strong>parcheggio</strong>.  La cresta della <strong>Macina/Sella</strong> richiede particolare attenzione, con passaggi esposti e alcuni tratti difficili.  È consigliabile affrontare il <strong>sentiero</strong> in compagnia di un''altra persona e con un''attrezzatura adeguata, inclusa una mappa, una bussola o un GPS. La discesa si effettua lungo la via normale, attrezzata con cavi d’acciaio. Questo <strong>sentiero</strong> è perfetto per chi cerca un''avventura in <strong>montagna</strong> e un''esperienza di <strong>trekking</strong> impegnativa ma gratificante, esplorando il territorio della **Campania** con un''escursione in <strong>sentiero**.</p>',
   'Tutte le Attività e Paesi',
   11.09,
-  1,
+  1000,
   860,
-  1,
+  1736,
   200,
   '03:20',
   200,
@@ -51,7 +51,7 @@ VALUES (
   '834693a6b794a63bd2571c653d0095833cdfd2a880cbd8b7b520d32e4563ccae',
   'Monte Macina & Monte Sella: escursione anello esperti Arni (Toscana) 11km, +1m. Cresta Macina/Sella: sentiero tecnico, canaloni, torrione, passaggio 2° grado...',
   'Monte Sella e Macina: escursione da Arni (difficile)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

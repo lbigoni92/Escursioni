@@ -28,14 +28,14 @@ public class SeoService
         var metaDesc = !string.IsNullOrWhiteSpace(hike.MetaDescrizione)
             ? hike.MetaDescrizione
             : $"{hike.Titolo} - {desc}".Trim();
-        if (metaDesc.Length > 180)
-            metaDesc = metaDesc[..180] + "...";
+        if (metaDesc.Length > 130)
+            metaDesc = metaDesc[..127] + "...";
 
         page.ViewData["MetaDescription"] = metaDesc;
 
         // Canonical URL
         var slug = Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(hike.Titolo);
-        var canonical = $"{baseUrl}/escursioni/{hike.Id}/{slug}";
+        var canonical = $"{baseUrl}/escursioni/{slug}";
         page.ViewData["CanonicalUrl"] = canonical;
 
         // Open Graph
@@ -180,7 +180,7 @@ public class SeoService
         // Breadcrumbs
         var breadcrumbs = new List<(string Label, string Url)>
         {
-            ("Ricerca", $"{baseUrl}/ricerca"),
+            ("Escursioni", $"{baseUrl}/escursioni"),
             (hike.Titolo, "")
         };
         page.ViewData["Breadcrumbs"] = breadcrumbs;
@@ -191,7 +191,7 @@ public class SeoService
   ""@type"": ""BreadcrumbList"",
   ""itemListElement"": [
     {{""@type"": ""ListItem"", ""position"": 1, ""name"": ""Home"", ""item"": ""{baseUrl}/""}},
-    {{""@type"": ""ListItem"", ""position"": 2, ""name"": ""Ricerca"", ""item"": ""{baseUrl}/search""}},
+    {{""@type"": ""ListItem"", ""position"": 2, ""name"": ""Escursioni"", ""item"": ""{baseUrl}/escursioni""}},
     {{""@type"": ""ListItem"", ""position"": 3, ""name"": ""{safeTitle2}"", ""item"": ""{canonical}""}}
   ]
 }}";

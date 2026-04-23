@@ -20,8 +20,8 @@ public class IndexModel : PageModel
 
     public async Task OnGet()
     {
-        ViewData["Title"] = "Escursioni in Toscana – Trekking, sentieri e tracce GPS | Luca Bigoni";
-        ViewData["MetaDescription"] = "Escursioni in Toscana, trekking sulle Alpi Apuane, sentieri in Garfagnana e Versilia. Tracce GPS, foto e descrizioni dettagliate di Luca Bigoni.";
+        ViewData["Title"] = "Escursioni in Toscana – Trekking e tracce GPS";
+        ViewData["MetaDescription"] = "Escursioni in Toscana: trekking Alpi Apuane, sentieri in Garfagnana e Versilia. Tracce GPS, foto e descrizioni di Luca Bigoni.";
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/";
         ViewData["OgImage"] = $"{baseUrl}/favicon.svg";

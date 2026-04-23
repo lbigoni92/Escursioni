@@ -29,7 +29,7 @@ public class RssModel : PageModel
             new XElement("description", "Ultime escursioni e trekking in Toscana, Alpi Apuane e Garfagnana pubblicate da Luca Bigoni."),
             hikes.Select(h =>
             {
-                var url = baseUrl + "/escursioni/" + h.Id + "/" +
+                var url = baseUrl + "/escursioni/" +
                             Pages.Escursioni.IndexModel.MakeSlug(h.Titolo);
 
                 var desc = h.Descrizione ?? "";

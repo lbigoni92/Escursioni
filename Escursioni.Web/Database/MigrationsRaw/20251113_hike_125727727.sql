@@ -61,7 +61,7 @@ VALUES (
   '620f99b638eab42735c10dc3577e21613e1ed8c7860c5ce87d29171fc220ce91',
   'Escursione Castagneto Carducci - Sassetta: percorso di 15km con 504m dislivello. Geocaching in Toscana! Anello facile, ideale per tutti. Vista panoramica e f...',
   'Castagnetto Carducci - Sassetta: Escursione Geocaching (Toscana)',
-  'Versilia e costa toscana',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

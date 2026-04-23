@@ -30,11 +30,11 @@
             hikes.forEach(function (h) {
                 if (!h.lat || !h.lon) return;
                 var marker = L.marker([h.lat, h.lon]).addTo(map);
-                var url = '/escursioni/' + h.id + '/' +
+                var url = '/escursioni/' +
                     h.title.toLowerCase()
                         .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
                         .replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
-                marker.bindPopup('<a href="' + url + '">' + h.title + '</a>');
+                marker.bindPopup('<a href="' + url + '" title="' + h.title + '">' + h.title + '</a>');
 
                 marker.on('click', function () {
                     var gpxUrl = '/media/gpx/' + h.wikilocId + '.gpx';
@@ -77,7 +77,13 @@
 
 
 <section>
+
     <h1 class="page-title">Mappa delle escursioni</h1>
+
+    <div class="seo-text" style="margin-bottom:1.2rem;font-size:1.08em;line-height:1.7;max-width:700px;">
+        <strong>Scopri tutte le escursioni e i trekking in Toscana, Alpi Apuane, Garfagnana, Appennino Tosco-Emiliano e oltre</strong> grazie a questa mappa interattiva. Ogni punto rappresenta un percorso reale, completo di traccia GPS, foto e descrizione dettagliata. Esplora sentieri panoramici, itinerari per famiglie, trekking impegnativi e passeggiate nella natura. Clicca sui marker per accedere direttamente alla scheda dell'escursione, visualizzare il percorso sulla mappa e scaricare la traccia GPX. Ideale per chi cerca idee per il weekend, avventure outdoor o semplicemente vuole conoscere nuovi sentieri in Italia centrale e settentrionale.
+    </div>
+
     <p class="page-subtitle">
         Ogni marker rappresenta un'escursione esportata da Wikiloc.
         Clicca sul punto per aprire il dettaglio.

@@ -35,9 +35,9 @@ VALUES (
 <p>Questo <strong>sentiero di trekking</strong> rappresenta un''opportunità unica per immergersi nella natura selvaggia delle montagne italiane.  Un''esperienza indimenticabile per un''<strong>escursione di un giorno</strong> o per un''avventura di <strong>trekking</strong> più lunga.  Esplorate il <strong>sentiero Italia</strong> e scoprite la bellezza dei laghi alpini!</p>',
   'Tutte le Attività e Paesi',
   14.76,
+  1100,
   1,
-  1,
-  2,
+  1963,
   246,
   '04:06',
   246,
@@ -61,7 +61,7 @@ VALUES (
   'e215667560147f451b7cbfbe09ff4e1e85651c8b06d87aa502f39e82379c116a',
   'Escursione Foce a Giovo: Lago Santo, Baccio e Turchino! Anello Toscano impegnativo (14.7km, +1m), Monte Rondinaio. Perfetto per amanti trekking esperti.',
   'Monte Rondinaio: escursione laghi Toscana (difficile)',
-  'Versilia e costa toscana',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

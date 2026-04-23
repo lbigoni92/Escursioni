@@ -69,7 +69,7 @@ Ricorda di rispettare l''ambiente durante la tua <strong>trekking</strong> e di 
   '2ffeb5b3e7a03a6920d24631e3cc93249eb89fa31f673a28249b831973e3697a',
   'Escursione Quercianella - Montenero - Castellaccio: trekking in Toscana, 21km, +695m. Sentiero "Tsunami" ripido, corda consigliata. Km 10.2: Ciano, 12.6: Mon...',
   'Quercianella - Montenero - Castellaccio: Escursione Anello Tos...',
-  'Versilia e costa toscana',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

@@ -36,9 +36,9 @@ VALUES (
 <p>La <strong>trekking</strong> a <strong>Matanna - Nona</strong> rappresenta un''esperienza indimenticabile per gli amanti del <strong>sentiero</strong> e della <strong>natura</strong>.  Esplorate i più belli <strong>sentieri Italia</strong> e godetevi un''escursione tra le montagne.</p>',
   'Tutte le Attività e Paesi',
   11.58,
-  1,
+  1000,
   851,
-  1,
+  1318,
   442,
   '07:22',
   NULL,
@@ -62,7 +62,7 @@ VALUES (
   '72487475ef2dd8e424df334edb52ea511700bb32db5a100a9c11f5c3e94348ce',
   'Escursione Matanna - Nona: Toscana, Palagnana. Trek di 11.5km, difficoltà media, +1000m dislivello. Salita al Monte Nona e al Monte Matanna. Ammira i panorami e...',
   'Monte Nona - Matanna: Escursione Anello Toscana',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

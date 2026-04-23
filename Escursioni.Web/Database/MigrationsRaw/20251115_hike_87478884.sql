@@ -32,9 +32,9 @@ VALUES (
 <p>Questa <strong>escursione</strong> nel cuore della <strong>Toscana</strong> offre un''occasione unica per praticare <strong>trekking</strong> e godersi la <strong>natura</strong>.  Esplorate il <strong>sentiero</strong> del <strong>Forato da Stazzema</strong> e lasciatevi conquistare dalla sua bellezza.</p>',
   'Tutte le Attività e Paesi',
   14.53,
-  1,
+  900,
   554,
-  1,
+  1230,
   381,
   '06:21',
   NULL,
@@ -58,7 +58,7 @@ VALUES (
   '4fe490347dc8126b2b6084a76882bf09befdc9c05f951c9d5abc83b352876ba8',
   'Escursione Monte Forato da Stazzema (Toscana): percorso facile di 14.5km, +700m dislivello. Partenza da Orzale, ideale per famiglie e amanti del trekking. Vist...',
   'Monte Forato: escursione da Stazzema (facile, panorama)',
-  'Versilia e costa toscana',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

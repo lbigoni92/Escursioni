@@ -56,7 +56,7 @@ VALUES (
   '79aeedda160de2c0f72153d72f3c93400ae8d6506b92181f28f4a8812dae0b5c',
   'Escursione Cascate della Strolla e Pieve della Nera da Prato d''Era | Toscana ⛰️ Anello Medio 13.6km, 518m D+ in giornata! Scopri le cascate, Fonte del Latte ...',
   'Pieve della Nera: Escursione da Prato d''Era (anello)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

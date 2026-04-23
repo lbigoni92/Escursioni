@@ -39,9 +39,9 @@ VALUES (
 <p>Non perdere l''occasione di vivere un''avventura indimenticabile lungo questo sentiero, un vero gioiello del trekking in Italia, perfetto per chi ama la montagna, la natura e la scoperta di luoghi affascinanti.  Questo sentiero è una bellissima opportunità per un''escursione a piedi in ambiente montano.</p>',
   'Tutte le Attività e Paesi',
   16.52,
-  1,
+  750,
   584,
-  1,
+  1100,
   252,
   '04:12',
   252,
@@ -65,7 +65,7 @@ VALUES (
   '2c99a825b0b9be9bf4e7e1fad9feabd3309b34385902d6c2cdd65b8efcb6db9b',
   'Escursione Isola Santa - Del Freo: Anello facile in Toscana! ⛰️ Percorso di 16.5km con +1m di dislivello, ideale per famiglie e principianti. Esplora il borg...',
   'Isola Santa: Trekking al Rifugio del Freo (panorami)',
-  'Versilia e costa toscana',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

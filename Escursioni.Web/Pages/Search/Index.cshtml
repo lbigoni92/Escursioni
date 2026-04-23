@@ -161,8 +161,8 @@
                 @if (!string.IsNullOrWhiteSpace(cover))
                 {
                     <a asp-page="/Escursioni/Dettaglio"
-                       asp-route-id="@h.Id"
-                       asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)">
+                       asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)"
+                       title="@(!string.IsNullOrWhiteSpace(h.TitoloSeo) ? h.TitoloSeo : h.Titolo)">
                         <picture>
                             @if (coverThumb != null)
                             {
@@ -175,8 +175,8 @@
                 <div class="hike-card-body">
                     <h2 class="hike-card-title">
                         <a asp-page="/Escursioni/Dettaglio"
-                           asp-route-id="@h.Id"
-                           asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)">
+                           asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)"
+                           title="@(!string.IsNullOrWhiteSpace(h.TitoloSeo) ? h.TitoloSeo : h.Titolo)">
                             @h.Titolo
                         </a>
                     </h2>
@@ -239,7 +239,8 @@
                    asp-route-Comune="@Model.Comune"
                    asp-route-Difficolta="@Model.Difficolta"
                    asp-route-OrdinaPer="@Model.OrdinaPer"
-                   asp-route-RaggioKm="@Model.RaggioKm">« Pagina precedente</a>
+                   asp-route-RaggioKm="@Model.RaggioKm"
+                   title="Pagina precedente">« Pagina precedente</a>
             }
 
             <span class="pagination-info">
@@ -254,7 +255,8 @@
                    asp-route-Comune="@Model.Comune"
                    asp-route-Difficolta="@Model.Difficolta"
                    asp-route-OrdinaPer="@Model.OrdinaPer"
-                   asp-route-RaggioKm="@Model.RaggioKm">Pagina successiva »</a>
+                   asp-route-RaggioKm="@Model.RaggioKm"
+                   title="Pagina successiva">Pagina successiva »</a>
             }
         </nav>
     }

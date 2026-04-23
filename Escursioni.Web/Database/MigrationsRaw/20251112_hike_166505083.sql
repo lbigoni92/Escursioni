@@ -55,7 +55,7 @@ VALUES (
   '8d3f037dc02eae857d29163f19795b5920dbd1cf5dd5963d8928d06af13973b4',
   'Escursione Bargana Monte Brugiana Bergiola Maggiore: trekking 12.7km, 779m dislivello, difficoltà impegnativa. Salita al Monte Bergiola e cresta Rocchetta! S...',
   'Monte Brugiana: Escursione a Bargana (difficile, 779m)',
-  'Lucchesia e colline toscane',
+  'Versilia e costa toscana',
   NOW(),
   NOW()
 )

@@ -83,6 +83,20 @@ Console.WriteLine("[LOG] Static files configurati.");
 app.UseRouting();
 app.UseAuthorization();
 
+// 301 redirect from old /escursioni/{id}/{slug} to new /escursioni/{slug}
+app.Use(async (context, next) =>
+{
+    var path = context.Request.Path.Value ?? "";
+    var match = System.Text.RegularExpressions.Regex.Match(path, @"^/escursioni/\d+/(.+)$");
+    if (match.Success)
+    {
+        context.Response.StatusCode = 301;
+        context.Response.Headers["Location"] = $"/escursioni/{match.Groups[1].Value}{context.Request.QueryString}";
+        return;
+    }
+    await next();
+});
+
 app.MapRazorPages();
 
 Console.WriteLine("[LOG] Applicazione avviata. In ascolto sulle porte configurate.");

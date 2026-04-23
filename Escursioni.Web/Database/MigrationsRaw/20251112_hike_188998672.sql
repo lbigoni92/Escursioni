@@ -72,7 +72,7 @@ VALUES (
   '8197cb2c6818b0a97884e90a1def8b5a69c928503991b4fb20459de3391a7968',
   'Escursione Monte Bargiglio, Agliale & Eredi di San Bartolomeo! Anello facile 18.36km, 919m D+ a Borgo a Mozzano (Toscana). Sentieri ben tenuti, vista panoram...',
   'Monte Bargiglio: escursione da Borgo a Mozzano (Toscana)',
-  'Alpi Apuane',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

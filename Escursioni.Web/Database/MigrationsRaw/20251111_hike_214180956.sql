@@ -61,7 +61,7 @@ VALUES (
   '82ea18cd13f6bc96de450878f93339f0de20831de78edb099e994bc74a97ace8',
   'Escursione Levigliani - Pania della Croce: solo andata media, 15.8km. Rientrata causa maltempo. Rifugio caldo e cortesia! Toscana.',
   'Pizzo d''Uccello: escursione da Levigliani (Toscana)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

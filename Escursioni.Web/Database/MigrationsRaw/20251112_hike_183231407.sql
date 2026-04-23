@@ -54,7 +54,7 @@ VALUES (
   '589a5fd039552c85d3bc934b50254b0412d4411d344f6b3c08869e95c925740e',
   'Escursione Pania di Corfino (Toscana): Anello da Isera a Corfino, 10.5km, 696m dislivello. Sentiero medio, vista Alpi Apuane. Consigli e difficoltà reali!',
   'Pania di Corfino: escursione da Isera (Toscana, anello)',
-  'Alpi Apuane',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )
