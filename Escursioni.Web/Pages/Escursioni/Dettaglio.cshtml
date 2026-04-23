@@ -127,9 +127,10 @@ else
                 <section class="section share-section">
                     <h2 style="font-size:1.05rem;margin-bottom:0.5rem;">Condividi questa escursione</h2>
                     @{
-                        var shareUrl = $"https://escursionilucabigoni.it/escursioni/{Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)}";
-                        var shareText = System.Net.WebUtility.UrlEncode(displayTitle + " - Escursioni Luca Bigoni");
-                        var shareUrlEncoded = System.Net.WebUtility.UrlEncode(shareUrl);
+                        var canonicalUrl = ViewData["CanonicalUrl"] as string ?? $"https://escursionilucabigoni.it/escursioni/{Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)}";
+                        var shareTextRaw = displayTitle + " - Escursioni Luca Bigoni";
+                        var shareText = System.Net.WebUtility.UrlEncode(shareTextRaw);
+                        var shareUrlEncoded = System.Net.WebUtility.UrlEncode(canonicalUrl);
                     }
                     <div class="share-buttons">
                         <a href="https://www.facebook.com/sharer/sharer.php?u=@shareUrlEncoded"
@@ -160,7 +161,7 @@ else
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
                             <span>X</span>
                         </a>
-                        <button type="button" class="share-btn share-btn--copy" title="Copia link" onclick="navigator.clipboard.writeText('@shareUrl').then(function(){var b=document.querySelector('.share-btn--copy span');b.textContent='Copiato!';setTimeout(function(){b.textContent='Copia link'},2000)})">
+                        <button type="button" class="share-btn share-btn--copy" title="Copia link" onclick="navigator.clipboard.writeText('@canonicalUrl').then(function(){var b=document.querySelector('.share-btn--copy span');b.textContent='Copiato!';setTimeout(function(){b.textContent='Copia link'},2000)})">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
                             <span>Copia link</span>
                         </button>
