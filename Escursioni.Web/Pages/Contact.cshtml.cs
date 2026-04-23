@@ -45,7 +45,18 @@ public class ContactModel : PageModel
         ViewData["MetaDescription"] = metaDesc;
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/contatti";
+        ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";
         ContactEmail = _config["Site:ContactEmail"] ?? "info@example.com";
+
+        // JSON-LD ContactPage
+        ViewData["JsonLd"] = $@"{{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""ContactPage"",
+  ""name"": ""Contatti – Escursioni Luca Bigoni"",
+  ""description"": ""Contattami per informazioni sulle escursioni in Toscana."",
+  ""url"": ""{baseUrl}/contatti"",
+  ""author"": {{ ""@type"": ""Person"", ""name"": ""Luca Bigoni"", ""url"": ""{baseUrl}/chi-sono"" }}
+}}";
     }
 
     public async Task<IActionResult> OnPostAsync()

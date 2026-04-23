@@ -27,7 +27,13 @@ public class DettaglioModel : PageModel
         Hike = await _repo.GetBySlugAsync(slug);
 
         if (Hike == null)
+        {
+            // If the slug matches a known tag, redirect to the tag page
+            var tag = TagHelper.FromSlug(slug);
+            if (tag != null)
+                return RedirectToPagePermanent("/Escursioni/Tag", new { slug });
             return NotFound();
+        }
 
         _seo.ConfigureForHike(this, Hike);
 

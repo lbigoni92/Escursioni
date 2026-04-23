@@ -24,8 +24,19 @@ public class IndexModel : PageModel
         ViewData["MetaDescription"] = "Escursioni in Toscana: trekking Alpi Apuane, sentieri in Garfagnana e Versilia. Tracce GPS, foto e descrizioni di Luca Bigoni.";
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/";
-        ViewData["OgImage"] = $"{baseUrl}/favicon.svg";
+        ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";
         UltimeEscursioni = await _repo.GetLatestAsync(8);
+
+        // JSON-LD CollectionPage
+        ViewData["JsonLd"] = $@"{{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""CollectionPage"",
+  ""name"": ""Escursioni in Toscana – Trekking e tracce GPS"",
+  ""description"": ""Escursioni in Toscana: trekking Alpi Apuane, sentieri in Garfagnana e Versilia. Tracce GPS, foto e descrizioni di Luca Bigoni."",
+  ""url"": ""{baseUrl}/"",
+  ""author"": {{ ""@type"": ""Person"", ""name"": ""Luca Bigoni"", ""url"": ""{baseUrl}/chi-sono"" }},
+  ""inLanguage"": ""it-IT""
+}}";
     }
 
     public static string? CoverPath(Hike h)

@@ -39,6 +39,14 @@
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
+    @foreach (var tag in new[] { "alpi-apuane", "garfagnana", "versilia-e-costa-toscana", "lucchesia-e-colline-toscane", "appennino-tosco-emiliano", "trentino", "estero" })
+    {
+    <url>
+        <loc>@baseUrl/escursioni/zona/@tag</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    }
     @foreach (var h in Model.Hikes)
     {
         var slug = IndexModel.MakeSlug(h.Titolo);

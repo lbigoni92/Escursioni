@@ -34,14 +34,42 @@ public class TagModel : PageModel
         Escursioni = await _repo.GetByTagAsync(tag);
 
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
+        var canonical = $"{baseUrl}/escursioni/zona/{Slug}";
         ViewData["Title"] = $"Escursioni {tag} – Trekking e sentieri | Luca Bigoni";
         ViewData["MetaDescription"] = $"Tutte le escursioni nella zona {tag}: tracce GPS, foto, dislivelli e descrizioni dettagliate dei sentieri. {TagDescription}";
-        ViewData["CanonicalUrl"] = $"{baseUrl}/escursioni/{Slug}";
+        ViewData["CanonicalUrl"] = canonical;
+        ViewData["OgType"] = "website";
+        ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";
         ViewData["Breadcrumbs"] = new List<(string Label, string Url)>
         {
             ("Escursioni", "/escursioni"),
             (tag, "")
         };
+
+        // JSON-LD CollectionPage per la zona
+        var safeTag = System.Text.Json.JsonEncodedText.Encode(tag).ToString();
+        var safeDesc = System.Text.Json.JsonEncodedText.Encode(TagDescription).ToString();
+        ViewData["JsonLd"] = $@"{{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""CollectionPage"",
+  ""name"": ""Escursioni {safeTag}"",
+  ""description"": ""{safeDesc}"",
+  ""url"": ""{canonical}"",
+  ""author"": {{ ""@type"": ""Person"", ""name"": ""Luca Bigoni"", ""url"": ""{baseUrl}/chi-sono"" }},
+  ""inLanguage"": ""it-IT"",
+  ""numberOfItems"": {Escursioni.Count}
+}}";
+
+        // Breadcrumb JSON-LD
+        ViewData["BreadcrumbJsonLd"] = $@"{{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""BreadcrumbList"",
+  ""itemListElement"": [
+    {{""@type"": ""ListItem"", ""position"": 1, ""name"": ""Home"", ""item"": ""{baseUrl}/""}},
+    {{""@type"": ""ListItem"", ""position"": 2, ""name"": ""Escursioni"", ""item"": ""{baseUrl}/escursioni""}},
+    {{""@type"": ""ListItem"", ""position"": 3, ""name"": ""{safeTag}"", ""item"": ""{canonical}""}}
+  ]
+}}";
 
         return Page();
     }

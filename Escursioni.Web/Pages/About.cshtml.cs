@@ -17,6 +17,7 @@ public class AboutModel : PageModel
         ViewData["MetaDescription"] = "Luca Bigoni: escursionista amatoriale appassionato di trekking in Toscana, Alpi Apuane e Garfagnana. Scopri chi sono e i sentieri che amo percorrere.";
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/chi-sono";
+        ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";
 
         // Structured data for the About/Person page
         ViewData["JsonLd"] = @"{

@@ -27,9 +27,31 @@ public class IndexModel : PageModel
         ViewData["MetaDescription"] = "Esplora tutte le escursioni organizzate per zona: Alpi Apuane, Garfagnana, Versilia, Appennino e molto altro. Tracce GPS, foto e descrizioni dettagliate.";
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/escursioni";
+        ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";
 
         TagSummary = await _repo.GetTagSummaryAsync();
         TotalHikes = TagSummary.Sum(t => t.Count);
+
+        // JSON-LD CollectionPage
+        ViewData["JsonLd"] = $@"{{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""CollectionPage"",
+  ""name"": ""Escursioni per zona – Trekking in Toscana e Italia"",
+  ""description"": ""Tutte le escursioni organizzate per zona geografica: Alpi Apuane, Versilia, Appennino e altro."",
+  ""url"": ""{baseUrl}/escursioni"",
+  ""author"": {{ ""@type"": ""Person"", ""name"": ""Luca Bigoni"", ""url"": ""{baseUrl}/chi-sono"" }},
+  ""inLanguage"": ""it-IT""
+}}";
+
+        // Breadcrumb JSON-LD
+        ViewData["BreadcrumbJsonLd"] = $@"{{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""BreadcrumbList"",
+  ""itemListElement"": [
+    {{""@type"": ""ListItem"", ""position"": 1, ""name"": ""Home"", ""item"": ""{baseUrl}/""}},
+    {{""@type"": ""ListItem"", ""position"": 2, ""name"": ""Escursioni"", ""item"": ""{baseUrl}/escursioni""}}
+  ]
+}}";
     }
 
     public static string MakeSlug(string text)
