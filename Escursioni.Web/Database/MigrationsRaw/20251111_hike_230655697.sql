@@ -56,7 +56,7 @@ Questo imponente **trekking** di circa 20 km con 1.200 metri di dislivello posit
   '01614336f4601951be3e1a8a2cb60e9f722b1d64483920ee2a18534d02f35dd7',
   'Escursione Rifugio Micheluzzi Fassa: Lago Antermoia! Percorso ad anello di 20km, 1200m dislivello. Da Campitello di Fassa raggiungi il Rifugio Micheluzzi e a...',
   'Rifugio Micheluzzi: escursione da Campitello di Fassa (La...',
-  'Trentino',
+  'Trentino e Veneto',
   NOW(),
   NOW()
 )

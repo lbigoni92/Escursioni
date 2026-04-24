@@ -65,7 +65,7 @@ Questo <strong>sentiero</strong> è perfetto per chi cerca un''<strong>escursion
   '6d3a0ba521cdbf307e33b1944e1eb81a5757f0c8b6079cf5fe030829db55b242',
   'Escursione Passo San Pellegrino: Anello da San Pellegrino Terme (TN) 10.5km, difficoltà media, +468m dislivello. Trekking panoramico in Trentino-Alto Adige!',
   'Passo San Pellegrino: escursione da San Pellegrino (anell...',
-  'Trentino',
+  'Trentino e Veneto',
   NOW(),
   NOW()
 )

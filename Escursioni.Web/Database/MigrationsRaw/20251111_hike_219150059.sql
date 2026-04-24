@@ -62,7 +62,7 @@ VALUES (
   'fee331bc180637249b5d606dbecda336710d505caa75bf80f3dc3a1525733927',
   'Escursione Massaciuccoli: Tempio Hinduista, fiori di loto e alpaca! Percorso facile 13km (LU) – Anello tra laghi, natura e cultura.',
   'Massaciuccoli – Tempio Hinduista: escursione facile (13km)',
-  'Lucchesia e colline toscane',
+  'Versilia e Massarosa',
   NOW(),
   NOW()
 )

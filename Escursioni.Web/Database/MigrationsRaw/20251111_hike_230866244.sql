@@ -57,7 +57,7 @@ VALUES (
   '33c7f18f732955e2461cffffeea89f6e287a733900efefbbebd7ce6750569162',
   'Escursione Marmolada: facile giro al Lago di Fedaia (Passo Fedaia - Ciamp dello Stanzon) | Veneto, Italia. 5.77km, +0m, ideale per famiglie!',
   'Marmolada: Escursione da Passo Fedaia (Lago di Fedaia)',
-  'Trentino',
+  'Trentino e Veneto',
   NOW(),
   NOW()
 )

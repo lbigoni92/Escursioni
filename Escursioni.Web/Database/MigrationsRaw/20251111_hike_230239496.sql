@@ -55,7 +55,7 @@ VALUES (
   '83a6f0f9b0e139bc8f715c9469324c68995e18ff1d617b4f0f931bcf7e63779b',
   'Escursione Lago di Carezza: Anello facile da Cardoso al Ponte Sospeso! 2.8km, +63m, Dolomiti, Trentino. Ideale famiglie e passeggiate rilassanti.',
   'Lago di Carezza: escursione ad anello con Ponte Sospeso',
-  'Trentino',
+  'Trentino e Veneto',
   NOW(),
   NOW()
 )

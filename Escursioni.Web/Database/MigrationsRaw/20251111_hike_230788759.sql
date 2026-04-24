@@ -55,7 +55,7 @@ VALUES (
   'dd0e513e59351d2f0e36d0255d376e5adf8a3724f480e143a9de3ff035c0f9ad',
   'Escursione Piz Boe da Passo Pordoi: Anello in Trentino con vista Marmolada! Diff. media, 10.5km, 962m D+ | Perfetto per amanti trekking.',
   'Piz Boe: Escursione da Passo Pordoi (diff. media)',
-  'Trentino',
+  'Trentino e Veneto',
   NOW(),
   NOW()
 )

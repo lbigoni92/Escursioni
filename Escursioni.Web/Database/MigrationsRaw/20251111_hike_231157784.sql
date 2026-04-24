@@ -56,7 +56,7 @@ VALUES (
   '1e669cb466f0a8b1b3fea0453f7d5120ee316f14306f45fc0f5c4ff6f794f0ec',
   'Escursione Alba–Penia (Trentino): Anello facile 16km, 896m dislivello. Baita Locia de Contrin, Passo San Nicolò e Rifugio Contrin. Marmotte e panorami!',
   'Penia – Baita Locia: Anello escursioni Trentino (896m)',
-  'Trentino',
+  'Trentino e Veneto',
   NOW(),
   NOW()
 )
