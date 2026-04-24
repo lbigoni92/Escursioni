@@ -57,7 +57,7 @@ VALUES (
   '27c17826ebfb9859efa3ca3dba8a80e282e30b17fe9fe30e2aa5969e384ac127',
   'Escursione facile Calambrone (Toscana): 7.7km anello pianeggiante, ideale per famiglie e picnic! +43m dislivello. Parcheggio, maneggio e mare a 15 min.',
   'Calambrone: Escursione Facile nel Verde (Toscana)',
-  'Lucchesia e colline toscane',
+  'Versilia e costa toscana',
   NOW(),
   NOW()
 )

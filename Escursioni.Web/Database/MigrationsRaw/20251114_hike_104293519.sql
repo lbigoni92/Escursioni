@@ -57,7 +57,7 @@ VALUES (
   'a521f1ef19ab963968ac8b07fb9e036d591633f1015d01d011ae97a0355561f2',
   'Escursione Bosco della Patanella Quattro Strade: facile anello 1.85km, +15m, pineta e vista Argentario/Laguna. Ideale per una passeggiata!',
   'Bosco della Patanella: Escursione Facile da Argentario',
-  'Lucchesia e colline toscane',
+  'Versilia e costa toscana',
   NOW(),
   NOW()
 )

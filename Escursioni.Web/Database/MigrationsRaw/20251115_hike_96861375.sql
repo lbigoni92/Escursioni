@@ -55,7 +55,7 @@ VALUES (
   'f6dcc75b43037f383c657d958a35568af5a6165c6160ca8bdecd3d1a4135bd75',
   'Escursione Valle Benedetta (Toscana): Monte Pan di Zucchero & Monte Maggiore. Facile giro di 6.47km +237m. Scopri l''acquedotto di Colognole!',
   'Monte Pan di Zucchero: Escursione Facile Valle Benedetta',
-  'Alpi Apuane',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

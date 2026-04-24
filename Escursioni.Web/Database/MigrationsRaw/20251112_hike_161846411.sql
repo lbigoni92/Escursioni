@@ -54,7 +54,7 @@ VALUES (
   'a5eb39e3f46b42152cc84c16f2622eb2bdbb8e3d1f2d8d7d8a1db4da9253f42f',
   'Escursione Collesalvetti (Toscana): Anello di 4.6km, +43m Dislivello. Facile escursione di circa 1 ora tra sentieri larghi e avvistamenti di fauna. Perfetta ...',
   'Collesalvetti: escursione facile in Toscana (4.62km)',
-  'Lucchesia e colline toscane',
+  'Versilia e costa toscana',
   NOW(),
   NOW()
 )

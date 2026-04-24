@@ -60,7 +60,7 @@ VALUES (
   '0077831a03a785f4cf2234d452d3f160ff217ab75cff85573cd1935a5de327bb',
   'Escursione facile nel Parco San Rossore (Toscana)! 17km ad anello, +50m, daini, cinghiali & tartarughe. Sentiero ben tracciato, in gran parte ombroso. Cascin...',
   'Parco San Rossore: Escursione Facile da Cascine Vecchie',
-  'Lucchesia e colline toscane',
+  'Grosseto e Maremma',
   NOW(),
   NOW()
 )

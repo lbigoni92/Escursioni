@@ -59,7 +59,7 @@ VALUES (
   '9cbb516c1895307a07ec57493f2ebf71baf9d57c568f523ae1f32f560797ee4d',
   'Escursione Sequoia, Castello di Sammezzano: Anello Toscana facile (12.7km) | Leccio - Ammira sequoie monumentali, il Castello moresco di Sammezzano e goditi ...',
   'Sequoia e Castello Sammezzano: Escursione da Leccio (Tosc...',
-  'Lucchesia e colline toscane',
+  'Firenze e provincia',
   NOW(),
   NOW()
 )

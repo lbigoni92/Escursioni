@@ -59,7 +59,7 @@ VALUES (
   '670dcc6acf5ac0c390fd34f090af95297eb506d4804358efeea8e1f7bab8246f',
   'Eremo di San Viviano (Toscana): escursione facile di 5.49km +702m a m.900. Anello panoramico con vista sul Lago di Vagli e valle Arnetola. Ideale!',
   'Eremo di San Viviano: escursione facile Toscana',
-  'Alpi Apuane',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

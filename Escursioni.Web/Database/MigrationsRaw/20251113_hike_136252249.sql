@@ -51,7 +51,7 @@ VALUES (
   '9b92ac5c71be7efaf48943b68d0b7432e2be0f02780139b549bd71c74a8f520a',
   'Escursione Castello di Vulci: Anello nel Parco Archeologico della Tuscia (Lazio) 9.04km, +95m. Esplora le rovine etrusche, il museo e le necropoli!',
   'Castello di Vulci: escursione archeologica nel Lazio',
-  'Lucchesia e colline toscane',
+  'Grosseto e Maremma',
   NOW(),
   NOW()
 )

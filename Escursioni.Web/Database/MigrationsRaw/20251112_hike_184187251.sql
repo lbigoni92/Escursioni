@@ -52,7 +52,7 @@ VALUES (
   'e75db3e7106a350f775d7775d26982c379f91fde62fd4518cebe17c59683e567',
   'Escursione Gellérthegy: Anello Budapest, visita al Monumento Scarpe, Sinagoga Storica e Basílica San Esteban (26km, 137m D+)',
   'Gellérthegy: Escursione Anello da Gellérthegy (Ungheria)',
-  'Estero',
+  'Altre zone dell''italia',
   NOW(),
   NOW()
 )

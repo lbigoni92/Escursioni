@@ -55,7 +55,7 @@ VALUES (
   '477ec5d16a5a56e6a7ada07841593174b78be5b70042631186fd988a7844bcce',
   'Escursione 4monti Monte Macina-Sella-Fiocca-Sumbra (Arni, Toscana): Giro impegnativo 15.3km, +1m D+ su sentieri EE/EEA. Richiede esperienza! Sentiero non sem...',
   'Monte Macina: escursione impegnativa in Toscana (Arni)',
-  'Alpi Apuane',
+  'Altre zone dell''italia',
   NOW(),
   NOW()
 )

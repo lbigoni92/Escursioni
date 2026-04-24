@@ -65,7 +65,7 @@ Attenzione: se ha piovuto da poco, le suole potrebbero bagnarsi e ridurre l’ad
   'd1b3d9ec6ae5d4ed3ecbb0b2f2a34fd9487376f5049d4e342f84d5a21649d9ff',
   'Ferrata di Sant’Antone Buti: Impegnativa via ferrata in Toscana (2.04km, 139m dislivello) | Difficile. Scopri la ferrata più tosta dei Monti Pisani!',
   'Ferrata di Sant’Antone di Buti: escursione difficile (Tos...',
-  'Alpi Apuane',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

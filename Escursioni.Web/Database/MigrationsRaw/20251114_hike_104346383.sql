@@ -58,7 +58,7 @@ VALUES (
   'a95dc644ec879e5524518484d45049631a9c466cd6f8d49b3e2d520cfccb69f3',
   'Escursione Talamone: Anello nel Parco Naturale della Maremma Toscana. 13.57km, +454m, difficoltà media. Scopri il borgo medievale e il Monte Talamone!',
   'Talamone: Escursione Anello da Talamone (Toscana)',
-  'Lucchesia e colline toscane',
+  'Grosseto e Maremma',
   NOW(),
   NOW()
 )

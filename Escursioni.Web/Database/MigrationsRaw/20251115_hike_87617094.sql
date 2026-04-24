@@ -61,7 +61,7 @@ La <strong>Grosseto Riserva Naturale</strong> vi aspetta per un''esperienza di <
   '93d274f2765f7b08ce61f8f87f84ea817d7f381479858245492a701d429d050f',
   'Escursione Grosseto Riserva Naturale Alberese: Anello di 4.77km, +133m dislivello. Trekking facile in Toscana, sentiero ben segnato. Perfetto primavera/autunno!',
   'Riserva Naturale di Alberese: escursione anello (Toscana)',
-  'Lucchesia e colline toscane',
+  'Grosseto e Maremma',
   NOW(),
   NOW()
 )

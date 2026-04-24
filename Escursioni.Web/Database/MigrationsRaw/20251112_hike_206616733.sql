@@ -53,7 +53,7 @@ VALUES (
   '2caf736083d6a2128d3bb3af81b758cc5938b382a0a4e26c83cb498a4183313b',
   'Escursione Monte Forato da Cardoso: percorso facile nel Parco dei Mostri di Bomarzo (Lazio) 1.96km, +24m. Scopri l''Elefante, Pegaso e le statue del Sacro Bosco!',
   'Parco dei Mostri: escursione da Bomarzo (anello, facile)',
-  'Lucchesia e colline toscane',
+  'Estero',
   NOW(),
   NOW()
 )

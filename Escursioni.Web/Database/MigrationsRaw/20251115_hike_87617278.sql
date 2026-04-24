@@ -52,7 +52,7 @@ VALUES (
   '49de65301d2bfaf73e25c99b380543cc882f6850b2d1a24b0236134c35730322',
   'Escursione Calambrone: Anello facile nel Parco San Rossore (Toscana)! 8.89km, +36m, sentieri semplici, oche, volpi e lepri! Perfetto per famiglie e corsa.',
   'Calambrone: Escursione Facile nel Parco San Rossore',
-  'Lucchesia e colline toscane',
+  'Versilia e costa toscana',
   NOW(),
   NOW()
 )

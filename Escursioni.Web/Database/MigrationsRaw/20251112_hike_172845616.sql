@@ -54,7 +54,7 @@ VALUES (
   '0e490012926f65b601ec7c10aa2e85c461ea62bbd15ed03edfe0030c105ee25e',
   'Escursione Monte Folgorito, Passo Cardella & Focoraccia da Vietina (Toscana). Anello medio 14.7km, +900m. Salita ripida, panorami, WWII, sentieri di cresta.',
   'Monte Folgorito: escursione da Vietina (anello, Toscana)',
-  'Lucchesia e colline toscane',
+  'Appennino Tosco-Emiliano',
   NOW(),
   NOW()
 )

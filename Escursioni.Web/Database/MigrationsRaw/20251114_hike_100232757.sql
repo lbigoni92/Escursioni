@@ -58,7 +58,7 @@ VALUES (
   '200c793fb4760fab456d03d8714ae3d5baeb4ca17303e5576d3f33cf26bcf199',
   'Escursione Marina di Pisa: passeggiata facile in pineta a PortoMirabello (Toscana)! 7.9km, +7m di dislivello. Perfetta per una passeggiata domenicale o dopo ...',
   'Marina di Pisa: Escursione in Pineta (Toscana)',
-  'Lucchesia e colline toscane',
+  'Versilia e costa toscana',
   NOW(),
   NOW()
 )

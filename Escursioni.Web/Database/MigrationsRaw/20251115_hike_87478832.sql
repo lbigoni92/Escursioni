@@ -60,7 +60,7 @@ Scoprite la magia del <strong>trekking</strong> e dell''<strong>escursionismo</s
   '07ef0e62bd2141f55cbfffc30d821d128db9e33a6f02c416dd6cab6627967d2d',
   'Escursione facile San Rossore Cascine Vecchie, Toscana: 6.78km | +7m | Percorso naturale ideale per passeggiate domenicali, famiglie e amanti della natura. O...',
   'San Rossore: Escursione Facile nel Parco Toscano',
-  'Lucchesia e colline toscane',
+  'Grosseto e Maremma',
   NOW(),
   NOW()
 )

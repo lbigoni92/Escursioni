@@ -62,7 +62,7 @@ La <strong>Ferrata di Buti</strong> è un esempio perfetto di come il <strong>tr
   '1b8c26c0819e6aee15ebad876da70821b8a2955675e24504d9b1f8c0f68be61e',
   'Ferrata Buti Toscana: Trekking 410m, difficoltà media. Percorso attrezzato su roccia conglomeratica con camini e spigoli. Info, itinerario e consigli!',
   'Ferrata di Buti: Escursione da Buti (difficoltà media)',
-  'Alpi Apuane',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

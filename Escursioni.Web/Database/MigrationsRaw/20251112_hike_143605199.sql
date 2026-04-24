@@ -53,7 +53,7 @@ VALUES (
   '4e7f63bdd97ec81dc869dc542063fe95272e670238ace7dbb49bdb016f000dbb',
   'Escursione Monte Freddone e Paglino: sentiero toscano, anello 15.6km, difficoltà media. Vetta Freddone con geocache! Sosta al Dolmen del Paglino e ammirate l...',
   'Monte Freddone - Monte Paglino: Escursione da Puntato (To...',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

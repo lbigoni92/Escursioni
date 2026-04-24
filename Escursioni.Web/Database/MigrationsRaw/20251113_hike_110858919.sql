@@ -60,7 +60,7 @@ VALUES (
   '9a6c000cd8caa590be51655ddc15799613fe6b0cbea50f0faf77dbca732c6e50',
   'Escursione Candalla Metato: Anello facile in Toscana (4.85km, +273m) | Scopri le polle e il bagno rinfrescante! Bivio Casoli. Perfetta per una giornata tranq...',
   'Candalla: Escursione Anello da Metato (Toscana)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

@@ -66,7 +66,7 @@ VALUES (
   '4e5d0157fdb4516dfef89222c3d619c949572bb0d791efa4c3867aca5973307b',
   'Escursione Lagoni-Bellagamba (Emilia-Romagna): Anello di 14.5km con +900m dislivello. Sentiero 493-447-437. Percorso facile, ideale per amanti trekking!',
   'Lagoni Libro Aperto: Escursione da Bellagamba (14.5km)',
-  'Lucchesia e colline toscane',
+  'Appennino Tosco-Emiliano',
   NOW(),
   NOW()
 )

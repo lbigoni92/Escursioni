@@ -61,7 +61,7 @@ VALUES (
   '3d6b2a5082a2d3f44fd2953f5ab18bc7117054ad5e5bc03872fa6d0ecb6df1fe',
   'Escursione Roccia dei Pennati & Monte Gabberi: Anello da Greppolungo (Toscana) - Trek di 11.5km, 976m D+, difficoltà media. Panorami Versilia/Garfagnana, sit...',
   'Monte Gabberi: Escursione da Greppolungo (Anello Medio)',
-  'Versilia e costa toscana',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

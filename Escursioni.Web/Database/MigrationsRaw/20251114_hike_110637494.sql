@@ -53,7 +53,7 @@ VALUES (
   'e8d694a4e97a90c56cc4147be0d6e8eeb8ea9e5e7d432d5dd3f084ed4a98cc81',
   'Escursione Pania Verde Fornovolasco: Anello difficile 3.5km, +417m. Salita impegnativa, segnaletica scarsa ma panorama unico! Toscana, Italia.',
   'Pania Verde: Escursione Difficile da Fornovolasco (Toscana)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

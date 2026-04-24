@@ -62,7 +62,7 @@ VALUES (
   'bec9e86fe78697d377a91108cb0463f7996799d82c6afaa5c18dbb7d452f8a54',
   'Escursione Civita di Bagnoregio: Lazio, borgo medievale "che muore"! Trek di 3.9km +210m solo andata. Ponte pedonale spettacolare e salita impegnativa. Visit...',
   'Civita di Bagnoregio: Escursione da Bolsena (trekking)',
-  'Lucchesia e colline toscane',
+  'Altre zone dell''italia',
   NOW(),
   NOW()
 )

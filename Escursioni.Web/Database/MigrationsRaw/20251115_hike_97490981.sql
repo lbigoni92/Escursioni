@@ -58,7 +58,7 @@ VALUES (
   '12608bd332d3ed5ebca4fc5f9e3cacb97b6903450ea4a468d5fb219298fdfd75',
   'Escursione Montenero Ciano: Anello facile in Toscana (2.69km, +108m). Visita santuario, monumento Ciano e sentiero asparagi! Ideale per principianti.',
   'Montenero: escursione facile da Ciano (Toscana)',
-  'Lucchesia e colline toscane',
+  'Versilia e costa toscana',
   NOW(),
   NOW()
 )

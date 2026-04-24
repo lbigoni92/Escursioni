@@ -55,7 +55,7 @@ VALUES (
   '7fa1fd39d388a1c82f56de372bd83d918da7d80c15bb37f49dac5bef51388868',
   'Escursione Pitigliano Vie Cave Cascatella: Anello facile Maremma Toscana (7.9km, 289m). Trekking tra vie cave e cascata, punto di partenza da Pitigliano.',
   'Pitigliano - Vie Cave - Cascatella: Escursione Facile Tos...',
-  'Lucchesia e colline toscane',
+  'Grosseto e Maremma',
   NOW(),
   NOW()
 )

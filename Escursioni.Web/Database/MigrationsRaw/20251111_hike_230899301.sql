@@ -63,7 +63,7 @@ VALUES (
   '94a58277094a1fff0e2950c25098bc168cc59f66f7e805834a93e4de0cddbe7d',
   'Escursione facile Serrai di Sottoguda: canyon dolomitico in Val Pusteria! Percorso di 4.9km (solo andata) +192m, ideale per famiglie e principianti. Ap 14 Gi...',
   'Serrai di Sottoguda: Escursione da Sottoguda (Dettagli)',
-  'Estero',
+  'Trentino',
   NOW(),
   NOW()
 )
