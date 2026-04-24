@@ -58,10 +58,18 @@ public class GpxStatsService
 
         if (points.Count < 2) return null;
 
+        // Smooth elevation data to remove GPS jitter before calculating gain.
+        // Uses a threshold-based approach: only accumulate elevation change when
+        // the cumulative change from the last "anchor" exceeds the threshold.
+        const double ElevationThresholdM = 10.0;
+
         double totalDistKm = 0;
         double elevGain = 0;
         double eleMin = double.MaxValue;
         double eleMax = double.MinValue;
+
+        // Threshold-based elevation gain (Pérez algorithm)
+        double? anchor = null;
 
         for (int i = 0; i < points.Count; i++)
         {
@@ -69,6 +77,27 @@ public class GpxStatsService
             {
                 eleMin = Math.Min(eleMin, ele);
                 eleMax = Math.Max(eleMax, ele);
+
+                if (anchor == null)
+                {
+                    anchor = ele;
+                }
+                else
+                {
+                    var delta = ele - anchor.Value;
+                    if (delta > ElevationThresholdM)
+                    {
+                        // Confirmed uphill segment
+                        elevGain += delta;
+                        anchor = ele;
+                    }
+                    else if (delta < -ElevationThresholdM)
+                    {
+                        // Confirmed downhill — reset anchor
+                        anchor = ele;
+                    }
+                    // else: within noise band, keep same anchor
+                }
             }
 
             if (i > 0)
@@ -76,12 +105,6 @@ public class GpxStatsService
                 totalDistKm += Haversine(
                     points[i - 1].Lat, points[i - 1].Lon,
                     points[i].Lat, points[i].Lon);
-
-                if (points[i].Ele is { } curEle && points[i - 1].Ele is { } prevEle)
-                {
-                    var diff = curEle - prevEle;
-                    if (diff > 0) elevGain += diff;
-                }
             }
         }
 
