@@ -58,7 +58,7 @@ Quest''<strong>escursione</strong> a <strong>Vecchiano</strong> è un''ottima op
   'POINT(10.384847 43.78511)',
   '0b4f0625d48c28062bb3e19047d4b1dd6c8b45177e65d8925b1e1db3ac894af3',
   'Escursione Vecchiano Monte Spazzavento: Anello facile 10.63km, +475m! Toscana, sentiero CAI, vista panoramica, Monte Legnaio. Perfetto per famiglie!',
-  'Monte Spazzavento: escursione a Vecchiano (facile, 10.63km)',
+  'Monte Spazzavento: Escursione Facile da Vecchiano (Toscana)',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

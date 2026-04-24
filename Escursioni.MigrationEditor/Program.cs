@@ -8,6 +8,8 @@ var solutionRoot = Path.GetFullPath(Path.Combine(builder.Environment.ContentRoot
 var migrationsDir = Path.Combine(solutionRoot, "Escursioni.Web", "Database", "MigrationsRaw");
 
 builder.Services.AddSingleton(new MigrationParserService(migrationsDir));
+var gpxDir = Path.Combine(solutionRoot, "Escursioni.Web", "wwwroot", "media", "gpx");
+builder.Services.AddSingleton(new GpxStatsService(gpxDir));
 builder.Services.AddHttpClient<MetaDescriptionGenerator>(client =>
 {
     client.Timeout = TimeSpan.FromMinutes(30);

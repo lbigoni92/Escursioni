@@ -58,7 +58,7 @@ Scoprite la bellezza della **Valle Benedetta** e vivete un''esperienza di <stron
   'POINT(10.441417 43.537354)',
   '3c2d7d1f753c9e155397348ea77f3bc6fad531121f958989438e6ed425d8ab88',
   'Escursione Parrana - Valle Benedetta: Trek facile 17.4km, +674m nel CAI in Toscana. Sentiero ben segnato (fino km 9.8 dissestato), breve fuori pista opzional...',
-  'Parrana - Valle Benedetta: Escursione Facile da Parrana (17km)',
+  'Parrana - Valle Benedetta: Escursione Facile Toscana',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

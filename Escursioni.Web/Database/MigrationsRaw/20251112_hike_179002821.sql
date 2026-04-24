@@ -55,7 +55,7 @@ VALUES (
   'POINT(10.636597 44.115088)',
   '50fb2bd3b81d12594021e91a377a4570873bf34603b376cf38c1e4ce9a458cb2',
   'Escursione difficile Lago AL Rif.Donegani (Appennino Tosco-Emiliano): 22km, 1261m dislivello. Sentiero intenso con vista sui laghi. Pracchi, Toscana.',
-  'Rif. Donegani - Giovo & Nuda: Escursione Difficile da Pracchi',
+  'Rif. Lago – Rif. Donegani: Escursione Difficile Appennino...',
   'Appennino Tosco-Emiliano',
   NOW(),
   NOW()

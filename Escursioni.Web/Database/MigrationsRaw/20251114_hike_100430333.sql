@@ -53,7 +53,7 @@ VALUES (
   'POINT(10.50772 43.835995)',
   '979ff87926fae04de2596d3a33e881877d8342be180bc0e20cee4b3b7e4e2bbd',
   'Escursione Lucca Acquedotto Romano: percorso facile 7.37km! Ammira l''acquedotto Nottolini da Lucca, ideale per un picnic. Sentiero su strada bianca, +28m dis...',
-  'Lucca - Parole d''Oro: Escursione Facile all''Acquedotto Romano',
+  'Lucca - Parole d''Oro: Escursione all''Acquedotto Romano',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

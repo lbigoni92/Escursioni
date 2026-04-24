@@ -55,7 +55,7 @@ VALUES (
   'POINT(10.898635 43.524238)',
   '7e2bf7deff00dc9d9ac3595cdc4b3bb2b12b9452e1738db49a9125e8ecb7c55d',
   'Escursione Quercia Merenda, Fonte del Tasso e Vignale: anello Toscano 16.1km, +495m, difficoltà media. Partenza Cappella Ascensione. Sentiero suggestivo con ...',
-  'Vignale: escursione da Cappella dell''Ascensione (anello, Toscana)',
+  'Vignale da Cappella dell''Ascensione: Escursione Toscana M...',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

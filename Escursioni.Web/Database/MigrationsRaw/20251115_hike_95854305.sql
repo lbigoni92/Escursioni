@@ -59,7 +59,7 @@ VALUES (
   'POINT(10.369275 43.47966)',
   '5a06f679dadcf972b82ea0e36924fabe86378ffac8529c2c757b330df066184b',
   'Escursione Evangelisti: Grotta dei Banditi, Curva Nuvolari e Val di Chioma! Anello facile 19km, +470m. Sentiero alternativo, guadi e grotta partigiana. Toscana!',
-  'Evangelisti: Escursione Grotta dei Banditi Val di Chioma (19km)',
+  'Evangelisti – Grotta dei Banditi: Escursione Facile Val d...',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

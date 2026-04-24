@@ -2,6 +2,7 @@
 @using Escursioni.MigrationEditor.Services
 @inject MigrationParserService Parser
 @inject MetaDescriptionGenerator MetaGen
+@inject GpxStatsService GpxStats
 @inject NavigationManager Nav
 @inject IJSRuntime JS
 @rendermode InteractiveServer
@@ -123,7 +124,29 @@
                         </div>
                     </fieldset>
                     <fieldset style="flex:1;border:1px solid #dee2e6;border-radius:4px;padding:0.25rem 0.4rem;">
-                        <legend style="font-weight:bold;font-size:0.7rem;padding:0 0.2rem;">Dati tecnici</legend>
+                        <legend style="font-weight:bold;font-size:0.7rem;padding:0 0.2rem;display:flex;align-items:center;gap:0.4rem;">
+                            Dati tecnici
+                            <button @onclick="RecalculateFromGpx" disabled="@_gpxStatsLoading"
+                                    style="padding:1px 8px;background:#28a745;color:#fff;border:none;border-radius:3px;cursor:pointer;font-size:0.7rem;font-weight:600;"
+                                    title="Ricalcola distanza, dislivello, quota e tempi dalla traccia GPX (aggiorna solo se differenza >20%)">
+                                @if (_gpxStatsLoading)
+                                {
+                                    <span>⏳ Calcolo…</span>
+                                }
+                                else
+                                {
+                                    <span>📐 Ricalcola da GPX</span>
+                                }
+                            </button>
+                            @if (!string.IsNullOrEmpty(_gpxStatsMessage))
+                            {
+                                <span style="font-size:0.65rem;font-weight:normal;color:#155724;">@_gpxStatsMessage</span>
+                            }
+                            @if (!string.IsNullOrEmpty(_gpxStatsError))
+                            {
+                                <span style="color:red;font-size:0.65rem;font-weight:normal;">@_gpxStatsError</span>
+                            }
+                        </legend>
                         <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.15rem 0.3rem;">
                             @foreach (var col in _groupTechnical)
                             {
@@ -445,6 +468,9 @@
     private string? _seoTitleError;
     private bool _htmlLoading;
     private string? _htmlError;
+    private bool _gpxStatsLoading;
+    private string? _gpxStatsMessage;
+    private string? _gpxStatsError;
     private bool _isDictating;
     private string? _dictationError;
     private DotNetObjectReference<Edit>? _dotNetRef;
@@ -636,6 +662,79 @@
             _htmlLoading = false;
             StateHasChanged();
         }
+    }
+
+    private void RecalculateFromGpx()
+    {
+        if (_mf == null) return;
+        _gpxStatsLoading = true;
+        _gpxStatsMessage = null;
+        _gpxStatsError = null;
+        StateHasChanged();
+        try
+        {
+            var widStr = GetVal("wikiloc_id");
+            if (!int.TryParse(widStr, out var wid) || wid <= 0)
+            {
+                _gpxStatsError = "wikiloc_id mancante.";
+                return;
+            }
+
+            var stats = GpxStats.Calculate(wid);
+            if (stats == null)
+            {
+                _gpxStatsError = $"GPX non trovato per wikiloc_id {wid}.";
+                return;
+            }
+
+            var updated = new List<string>();
+
+            if (TryUpdateField("distanza_km", stats.DistanzaKm, v => v.ToString("0.00", System.Globalization.CultureInfo.InvariantCulture)))
+                updated.Add("distanza");
+            if (TryUpdateField("dislivello_m", stats.DislivelloM, v => ((int)v).ToString()))
+                updated.Add("dislivello");
+            if (TryUpdateField("quota_min_m", stats.QuotaMinM, v => ((int)v).ToString()))
+                updated.Add("quota_min");
+            if (TryUpdateField("quota_max_m", stats.QuotaMaxM, v => ((int)v).ToString()))
+                updated.Add("quota_max");
+            if (TryUpdateField("tempo_min", stats.TempoMin, v => ((int)v).ToString()))
+            {
+                updated.Add("tempo");
+                SetValue("tempo_hhmm", stats.TempoHhmm);
+            }
+            if (TryUpdateField("tempo_mov_min", stats.TempoMovMin, v => ((int)v).ToString()))
+            {
+                updated.Add("tempo_mov");
+                SetValue("tempo_mov_hhmm", stats.TempoMovHhmm);
+            }
+
+            _gpxStatsMessage = updated.Count > 0
+                ? $"Aggiornati: {string.Join(", ", updated)}"
+                : "Tutti i valori entro il 20%, nessuna modifica.";
+        }
+        catch (Exception ex)
+        {
+            _gpxStatsError = $"Errore: {ex.Message}";
+        }
+        finally
+        {
+            _gpxStatsLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    private bool TryUpdateField(string field, double calculated, Func<double, string> format)
+    {
+        var currentStr = GetVal(field);
+        var current = 0.0;
+        if (!string.IsNullOrWhiteSpace(currentStr))
+            double.TryParse(currentStr, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out current);
+
+        if (!GpxStatsService.DiffersSignificantly(current, calculated))
+            return false;
+
+        SetValue(field, format(calculated));
+        return true;
     }
 
     private async Task ToggleDictation()

@@ -58,7 +58,7 @@ VALUES (
   'POINT(10.443688 43.481497)',
   '125ea1d4b5611ba4a99c0d8a9fafedcdb17372d19eb6ca447fce28794a7e03eb',
   'Escursione Gabbro anello Poggio D''Arco (Toscana): Facile giro di 6.3km +174m. Percorso anello dal parcheggio Gabbro, ideale per una serata! Panorami unici e ...',
-  'Gabbro: escursione anello serale da Poggio D''arco (Toscana)',
+  'Gabbro: escursione anello da Poggio D''Arco (facile, panor...',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

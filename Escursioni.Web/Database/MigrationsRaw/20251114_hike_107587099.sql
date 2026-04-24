@@ -59,7 +59,7 @@ VALUES (
   'POINT(10.769558 44.229118)',
   '444a6858e6ab299c8d7995b20c4c3b62b4461fcc707b8e9f3180961543b76f09',
   'Escursione Sestola Monte Cimone: Anello di 25km con tenda (2 giorni)! Trekking facile/difficile tra Monte Forato e Cimone, dislivello +1m. Percorso con tratt...',
-  'Tendata Sestola-Cimoncino: Escursione Anello Monte Cimone (2 g...',
+  'Tendata Sestola-Cimone: Trek 2 Giorni (Panorama, Difficile)',
   'Trentino',
   NOW(),
   NOW()

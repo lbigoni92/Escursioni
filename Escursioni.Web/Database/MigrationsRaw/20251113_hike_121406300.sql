@@ -57,7 +57,7 @@ VALUES (
   'POINT(10.413003 43.52281)',
   'da8a30aae201368c9f58c21bb2beeb9da2baeb56c487899470d900b961ac8c04',
   'Escursione Valle Benedetta: sentiero d''Achille, Eremo della Sambuca e Acquedotto di Colognole (Toscana). 16.5km, +567m. Percorso medio, scarponi obbligatori!...',
-  'Valle Benedetta: Escursione all''Eremo della Sambuca (Toscana)',
+  'Valle Benedetta: Escursione all''Eremo della Sambuca (Tosc...',
   'Alpi Apuane',
   NOW(),
   NOW()

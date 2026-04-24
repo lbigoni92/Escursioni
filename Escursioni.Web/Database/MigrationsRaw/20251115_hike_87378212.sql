@@ -62,7 +62,7 @@ VALUES (
   'POINT(10.218663 44.018059)',
   'ed764f856d269919cbae03f9b92839c15e743fe1564a1a6be205c2d61c3fd1e4',
   'Escursione Pozze di Malbacco Azzano Toscana: Trekking facile 13.6km +767m. Cascata Malbacco perfetta per famiglie e snorkeling! Parcheggio affollato, vai pre...',
-  'Pozze di Malbacco: Escursione alla Cascata Malbacco (Toscana)',
+  'Pozze di Malbacco: Escursione Cascata Malbacco (Toscana)',
   'Alpi Apuane',
   NOW(),
   NOW()

@@ -50,7 +50,7 @@ VALUES (
   'POINT(11.043253 42.663228)',
   '5738d5703eba8eddcd9d267ede8b946336758e2a58ebf1e968c5e0c8584e2622',
   'Escursione Cala di Forno Parco Maremma: Anello Toscano 19.3km, +306m. Trekking facile tra panorami mozzafiato! Parco Maremma, Grosseto, Toscana.',
-  'Cala di Forno: Escursione nel Parco della Maremma (Toscana)',
+  'Cala di Forno: escursione nel Parco Maremma (Toscana)',
   'Versilia e costa toscana',
   NOW(),
   NOW()

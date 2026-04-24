@@ -59,7 +59,7 @@ Questo <strong>sentiero di trekking</strong> rappresenta un''opportunità unica 
   'POINT(10.503827 42.989398)',
   'b96241bf98d64a7d54fa7c88b6044955305ee0959472be60cbbe33bf23dc318d',
   'Escursione Populonia: Via del Ferro & Sentiero dei Cavalleggeri | Toscana, 9.5km, +388m. Trekking anello tra tombe etrusche, costa frastagliata e vista Faro ...',
-  'Populonia: Trekking Via del Ferro e Cavalleggeri (Toscana)',
+  'Populonia: La Via del Ferro - Escursione Anello (Toscana)',
   'Versilia e costa toscana',
   NOW(),
   NOW()

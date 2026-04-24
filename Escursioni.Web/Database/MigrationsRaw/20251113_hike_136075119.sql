@@ -54,7 +54,7 @@ VALUES (
   'POINT(10.502822 43.937398)',
   '08597f154c33ec31f4d76ed28d87eacc7ddeaac77a4bbc70cfaa076fe20d88ee',
   'Escursione Croce di Brancoli Domazzano (Toscana): Anello di 16km, +765m di dislivello. Trekking facile/medio dalla Ex stazione di Piaggione con vista Lucca!',
-  'Croce di Brancoli: Escursione Toscana da Piaggione (765m)',
+  'Croce di Brancoli: Escursione da Piaggione (Toscana)',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

@@ -54,7 +54,7 @@ VALUES (
   'POINT(10.91884 43.310458)',
   '66c89c8e7aced26e39b67e6f941690f5de4321a6bcc3527d58197ef7aa44ff52',
   'Escursione Masso delle Fanciulle, Toscana: Anello facile 13.7km +397m. Castello dei Vescovi, guado facile e tuffo! Casa Montacuto, ideale per famiglie.',
-  'Masso delle Fanciulle: Escursione Toscana (Casa Montacuto)',
+  'Masso delle Fanciulle: Escursione Toscana (Castello Vescovi)',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

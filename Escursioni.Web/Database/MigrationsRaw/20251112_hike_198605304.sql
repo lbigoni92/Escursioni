@@ -59,7 +59,7 @@ Il percorso inizia da <strong>Cardoso</strong>, imboccando il <strong>Sentiero d
   'POINT(10.315348 44.007078)',
   '77cbce096c31b3acec263fc169d9bc71e77d8a96bc7cb3a1e59de7a5e42abc87',
   'Escursione Cardoso: Acquapendente, Ponte Mediceo & Santuario San Leonardo! Anello facile 11.17km, Toscana. Cascate, sentiero storico e gattini!',
-  'Cascata Acquapendente: escursione da Cardoso (anello facile)',
+  'Cascata Acquapendente: Trekking da Cardoso (facile)',
   'Alpi Apuane',
   NOW(),
   NOW()

@@ -61,7 +61,7 @@ VALUES (
   'POINT(10.563307 43.472082)',
   '41df9c09590905f7597ce163ba9347ccff7ae1105aa86325d5db8161a599e7ac',
   'Escursione Santa Luce: Anello Cascate & Terre di Matilde, Toscana. 19.4km, 646m dislivello. Percorso facile/medio per escursioni in zona Santa Luce.',
-  'Santa Luce: Escursione Cascate e Terre di Matilde (Toscana)',
+  'Anello Santa Luce: Cascate e Terre di Matilde (Toscana)',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

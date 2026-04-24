@@ -53,7 +53,7 @@ VALUES (
   'POINT(10.613465 44.102535)',
   '9ded41edcf373c8368547c008804b845f29087e6c7b80b089ec90fc0e1d66c23',
   'Escursione Pracchi (Toscana): dal Rif. Donegani al Lagonero +1485m dislivello. Percorso medio di 17.3km, Orrido di Botri e pizzi! Consigliato a escursionisti...',
-  'Pizzo del Cane: escursione da Rif. Donegani (Appennino Tosco-E...',
+  'Pizzo del Cane: escursione da Rif. Donegani (600m, Appenn...',
   'Appennino Tosco-Emiliano',
   NOW(),
   NOW()

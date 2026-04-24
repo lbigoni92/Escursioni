@@ -52,7 +52,7 @@ VALUES (
   'POINT(10.341718 44.051867)',
   '62781e63f0d52cea04d0b0bd36bb3bbf4d3afe70fe822c6a3f92335d8ac3b8ea',
   'Escursione Pania della Croce, Uomo Morto, Pania Secca (Toscana) | Difficile 13.43km+1m. Giro di 2 giorni con tratti esposti, catene e panorami mozzafiato!',
-  'Pania della Croce: Trekking da Piglionico (difficile, panorama)',
+  'Pania della Croce: Trekking Difficile da Piglionico (Tosc...',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

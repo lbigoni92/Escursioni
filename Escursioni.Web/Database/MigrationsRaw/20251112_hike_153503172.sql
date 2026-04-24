@@ -54,7 +54,7 @@ VALUES (
   'POINT(10.567497 43.734488)',
   '528647c769db86a1eb3251e169c3f17bf3351c51b69c87e2a5f246713ebeccb8',
   'Ferrata di Buti Sant''Antone: Impegnativa ferrata Toscana! Trekking anello 7.2km, +785m, difficoltà esperti. Ferrata di Sant''Antone a Buti (Toscana) - fattibi...',
-  'Ferrata di Sant''Antone a Buti: Trekking impegnativo (Toscana)',
+  'Ferrata di Sant''Antone a Buti: Trekking impegnativo (Tosc...',
   'Alpi Apuane',
   NOW(),
   NOW()

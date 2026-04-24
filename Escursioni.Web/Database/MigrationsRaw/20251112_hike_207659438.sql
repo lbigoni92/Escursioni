@@ -53,7 +53,7 @@ VALUES (
   'POINT(10.177744 44.082548)',
   '7d14d8ad9070a99e474f8791ee9096c246b018ebf314c6e9444e4caebb2cd381',
   'Escursione Forno Apuane: Pizzo Bandiera, Cipolla, Onice, Girello & Castagnolo! Anello diff. 12.9km, 900m dislivello. Trekking in Toscana, sentiero 154/161. In...',
-  'Pizzo della Bandiera: Escursione Apuana da Forno (difficile)',
+  'Pizzo della Bandiera: Escursione da Forno (Apuane, 12.9km)',
   'Alpi Apuane',
   NOW(),
   NOW()

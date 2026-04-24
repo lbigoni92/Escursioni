@@ -55,7 +55,7 @@ VALUES (
   'POINT(10.402576 43.454217)',
   'c6e7b9634d9a02be82907430fa392093e6a3f58f4c66dc647f1253fc61d2ceb3',
   'Escursione Monte Carvoli: Anello alle Miniere di Campolecciano ed Escafrullina (Livorno) – Trek di 12,8km, 356m dislivello. Percorso medio tra miniere, bosco...',
-  'Monte Carvoli: Escursione Anello da Aia della Vecchia (Livorno)',
+  'Monte Carvoli: escursione da Aia della Vecchia (Livorno)',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

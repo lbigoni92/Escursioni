@@ -54,7 +54,7 @@ Questa <strong>trekking</strong> da <strong>Asciano</strong> è adatta a escursi
   'POINT(10.463103 43.756942)',
   '1e9a9aef61105bae2681a8f9f0f3c41e027024ad9691075af029fcd9b247c566',
   'Escursione Asciano - Monte Castellare: Anello Toscana, 8.2km, +384m. Trekking facile da Asciano a Villa Bosniaski. Scopri il Passo di Dante e il Monte Castel...',
-  'Monte Castellare: Escursione da Asciano (anello, Toscana)',
+  'Asciano - Monte Castellare: Escursione Anello Toscana',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

@@ -53,7 +53,7 @@ VALUES (
   'POINT(10.35919 44.028327)',
   'e51b93a6184ae1940071d366e8f76c80a88987da8c9111624d188cfef74dbf7d',
   'Escursione Monte Forato da Fornovolasco: Anello Toscano 18.41km, +800m dislivello. Percorso impegnativo, sentieri misti (catene), consigliato a escursionisti a...',
-  'Monte Forato: Escursione da Fornovolasco (difficile, 18.41km)',
+  'Monte Forato: Escursione da Fornovolasco (18km, Difficile)',
   'Alpi Apuane',
   NOW(),
   NOW()

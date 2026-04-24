@@ -54,7 +54,7 @@ VALUES (
   'POINT(10.577282 43.409798)',
   '640661cafb07b4a753c5561d5466470ddf673000a85789572af2930ad88db748',
   'Escursione Castellina Marittima: Pietra Gosta, Sassi Bianchi & Montalone! Anello Toscano 19.4km, +889m, difficoltà media. Viste mozzafiato, cascate & masso d...',
-  'Pietra Gosta & Montalone: Escursione da Castellina (Toscana)',
+  'Pietra Gosta: Escursione da Castellina (Toscana)',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

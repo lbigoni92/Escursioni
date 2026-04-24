@@ -1,11 +1,12 @@
 namespace Escursioni.MigrationEditor.Services;
 
-public enum BulkMode { All, SeoOnly, HtmlOnly, TagOnly }
+public enum BulkMode { All, SeoOnly, TitleSeoOnly, MetaDescOnly, HtmlOnly, TagOnly, GpxStatsOnly }
 
 public class BulkGenerationService
 {
     private readonly MigrationParserService _parser;
     private readonly MetaDescriptionGenerator _metaGen;
+    private readonly GpxStatsService _gpxStats;
     private readonly object _lock = new();
 
     public bool IsRunning { get; private set; }
@@ -17,10 +18,11 @@ public class BulkGenerationService
     public string? CurrentStep { get; private set; }
     public BulkMode Mode { get; private set; }
 
-    public BulkGenerationService(MigrationParserService parser, MetaDescriptionGenerator metaGen)
+    public BulkGenerationService(MigrationParserService parser, MetaDescriptionGenerator metaGen, GpxStatsService gpxStats)
     {
         _parser = parser;
         _metaGen = metaGen;
+        _gpxStats = gpxStats;
     }
 
     public bool TryStart(BulkMode mode = BulkMode.All)
@@ -63,6 +65,14 @@ public class BulkGenerationService
                 {
                     quickCache.TryGetValue(m.FileName, out var vals);
                     if (vals == null) return false;
+
+                    if (Mode == BulkMode.GpxStatsOnly)
+                    {
+                        // Only process if wikiloc_id exists (to find GPX file)
+                        var wid = vals.GetValueOrDefault("wikiloc_id");
+                        return !string.IsNullOrWhiteSpace(wid) && wid != "0";
+                    }
+
                     var titolo = vals.GetValueOrDefault("titolo");
                     var descrizione = vals.GetValueOrDefault("descrizione");
                     if (string.IsNullOrWhiteSpace(titolo) && string.IsNullOrWhiteSpace(descrizione))
@@ -70,19 +80,27 @@ public class BulkGenerationService
 
                     return Mode switch
                     {
-                        BulkMode.SeoOnly => true, // rigenera tutte, priorità a chi manca
+                        BulkMode.SeoOnly => true,
+                        BulkMode.TitleSeoOnly => IsTitleTooLong(vals),
+                        BulkMode.MetaDescOnly => true,
                         BulkMode.HtmlOnly => string.IsNullOrWhiteSpace(vals.GetValueOrDefault("descrizione_html")),
-                        BulkMode.TagOnly => true, // rigenera tutte, priorità a chi manca
+                        BulkMode.TagOnly => true,
                         _ => string.IsNullOrWhiteSpace(vals.GetValueOrDefault("descrizione_html"))
                     };
                 })
                 .OrderBy(m =>
                 {
                     quickCache.TryGetValue(m.FileName, out var vals);
-                    if (Mode == BulkMode.SeoOnly)
+                    if (Mode is BulkMode.SeoOnly or BulkMode.TitleSeoOnly or BulkMode.MetaDescOnly)
                     {
-                        var missing = string.IsNullOrWhiteSpace(vals?.GetValueOrDefault("titolo_seo"))
-                                   || string.IsNullOrWhiteSpace(vals?.GetValueOrDefault("meta_descrizione"));
+                        var missingTitle = string.IsNullOrWhiteSpace(vals?.GetValueOrDefault("titolo_seo"));
+                        var missingMeta = string.IsNullOrWhiteSpace(vals?.GetValueOrDefault("meta_descrizione"));
+                        var missing = Mode switch
+                        {
+                            BulkMode.TitleSeoOnly => missingTitle,
+                            BulkMode.MetaDescOnly => missingMeta,
+                            _ => missingTitle || missingMeta
+                        };
                         return missing ? 0 : 1;
                     }
                     if (Mode == BulkMode.TagOnly)
@@ -130,7 +148,7 @@ public class BulkGenerationService
                     CurrentFileName = m.FileName;
 
                     // 1. SEO – Titolo
-                    if (Mode is BulkMode.All or BulkMode.SeoOnly)
+                    if (Mode is BulkMode.All or BulkMode.SeoOnly or BulkMode.TitleSeoOnly)
                     {
                         CurrentStep = "titolo_seo";
                         var seoTitleResult = await _metaGen.GenerateSeoTitleAsync(titolo, descrizione, ctx);
@@ -138,7 +156,7 @@ public class BulkGenerationService
                     }
 
                     // 2. SEO – Meta Descrizione
-                    if (Mode is BulkMode.All or BulkMode.SeoOnly)
+                    if (Mode is BulkMode.All or BulkMode.SeoOnly or BulkMode.MetaDescOnly)
                     {
                         CurrentStep = "meta_descrizione";
                         var metaResult = await _metaGen.GenerateAsync(titolo, descrizione, ctx);
@@ -164,6 +182,41 @@ public class BulkGenerationService
                         mf.HikeValues["tag"] = tagResult;
                     }
 
+                    // 5. GPX Stats — recalculate from GPX track
+                    if (Mode == BulkMode.GpxStatsOnly)
+                    {
+                        CurrentStep = "gpx_stats";
+                        var widStr = mf.HikeValues.GetValueOrDefault("wikiloc_id") ?? "0";
+                        if (int.TryParse(widStr, out var wid) && wid > 0)
+                        {
+                            var stats = _gpxStats.Calculate(wid);
+                            if (stats != null)
+                            {
+                                bool changed = false;
+
+                                changed |= TryUpdateIfDifferent(mf, "distanza_km", stats.DistanzaKm,
+                                    v => v.ToString("0.00", System.Globalization.CultureInfo.InvariantCulture));
+                                changed |= TryUpdateIfDifferent(mf, "dislivello_m", stats.DislivelloM,
+                                    v => ((int)v).ToString());
+                                changed |= TryUpdateIfDifferent(mf, "quota_min_m", stats.QuotaMinM,
+                                    v => ((int)v).ToString());
+                                changed |= TryUpdateIfDifferent(mf, "quota_max_m", stats.QuotaMaxM,
+                                    v => ((int)v).ToString());
+                                changed |= TryUpdateIfDifferent(mf, "tempo_min", stats.TempoMin,
+                                    v => ((int)v).ToString());
+                                changed |= TryUpdateIfDifferent(mf, "tempo_mov_min", stats.TempoMovMin,
+                                    v => ((int)v).ToString());
+
+                                if (changed)
+                                {
+                                    // Also update the formatted hh:mm fields
+                                    mf.HikeValues["tempo_hhmm"] = stats.TempoHhmm;
+                                    mf.HikeValues["tempo_mov_hhmm"] = stats.TempoMovHhmm;
+                                }
+                            }
+                        }
+                    }
+
                     _parser.Save(mf);
                     generated++;
                 }
@@ -187,5 +240,34 @@ public class BulkGenerationService
             CurrentStep = null;
             IsRunning = false;
         }
+    }
+
+    // Layout appends " | Escursioni" (14 chars) → title content must be ≤ 56 chars
+    private const int MaxSeoTitleLength = 56;
+
+    private static bool IsTitleTooLong(Dictionary<string, string?> vals)
+    {
+        var title = vals.GetValueOrDefault("titolo_seo");
+        if (string.IsNullOrWhiteSpace(title))
+            title = vals.GetValueOrDefault("titolo");
+        return !string.IsNullOrWhiteSpace(title) && title.Length > MaxSeoTitleLength;
+    }
+
+    /// <summary>
+    /// Updates a migration field if the GPX-calculated value differs by more than 20% from the current value.
+    /// Returns true if the field was updated.
+    /// </summary>
+    private static bool TryUpdateIfDifferent(MigrationFile mf, string field, double calculated, Func<double, string> format)
+    {
+        var currentStr = mf.HikeValues.GetValueOrDefault(field);
+        var current = 0.0;
+        if (!string.IsNullOrWhiteSpace(currentStr))
+            double.TryParse(currentStr, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out current);
+
+        if (!GpxStatsService.DiffersSignificantly(current, calculated))
+            return false;
+
+        mf.HikeValues[field] = format(calculated);
+        return true;
     }
 }

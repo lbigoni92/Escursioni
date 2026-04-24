@@ -62,7 +62,7 @@ VALUES (
   'POINT(10.922557 43.309901)',
   'e7ff6f2921e7bc86f1c99daec9a19ac727fdf133cbae7f34bb4034e2051a1b19',
   'Escursione Pavone Casa Montacuto, Toscana: Anello di 14km, +443m. Sentiero selvaggio tra vigneti e fiume. Ideale in primavera/autunno. Fauna selvatica!',
-  'Pavone Toscana: escursione da Casa Montacuto (anello, medio)',
+  'Pavone e Masso delle Fanciulle: Escursione Toscana Casa M...',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

@@ -52,7 +52,7 @@ VALUES (
   'POINT(10.345225 43.987862)',
   'eaa9ac782c3a183440e65607a4d80406ca16b7c75c8bd4c05fe1f6d9a1874081',
   'Escursione Matanna e Nona: trekking facile Alpi Apuane! Anello 14.5km, +1m, vista Pania e Procinto. Partenza Rif. Alto Matanna. Perfetto per famiglie!',
-  'Monte Nona e Monte Matanna: escursione da Alto Matanna (anello...',
+  'Monte Nona e Matanna: escursione da Alto Matanna (anello,...',
   'Alpi Apuane',
   NOW(),
   NOW()

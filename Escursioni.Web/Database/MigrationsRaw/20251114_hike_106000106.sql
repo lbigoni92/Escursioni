@@ -53,7 +53,7 @@ VALUES (
   'POINT(10.413151 43.522496)',
   '188d7773fe435a47932d5f349f313307d6801a69fdf4ae92610a6857e35410f9',
   'Escursione Valle Benedetta (Livorno): Anello facile 9.8km +329m tra lucciole e stelle! Vista mare e Apuane. Perfetta per famiglie.',
-  'Sambuca - Valle Benedetta: Escursione Facile con Lucciole',
+  'Sambuca - Valle Benedetta: Escursione Facile con Lucciole...',
   'Alpi Apuane',
   NOW(),
   NOW()

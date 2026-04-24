@@ -12,16 +12,28 @@
 
 <div style="margin-bottom:1rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap;">
     <input type="text" @bind="_filter" @bind:event="oninput" placeholder="Filtra per nome file..." style="padding:6px;width:400px;" />
-    <button @onclick="() => StartGeneration(BulkMode.SeoOnly)" disabled="@BulkService.IsRunning"
+    <button @onclick="() => StartGeneration(BulkMode.TitleSeoOnly)" disabled="@BulkService.IsRunning"
             style="padding:6px 16px;background:#17a2b8;color:#fff;border:none;border-radius:4px;cursor:pointer;font-weight:600;font-size:0.85rem;white-space:nowrap;">
-        @if (BulkService.IsRunning && BulkService.Mode == BulkMode.SeoOnly)
+        @if (BulkService.IsRunning && BulkService.Mode == BulkMode.TitleSeoOnly)
         {
             var pct = BulkService.Total > 0 ? (int)((BulkService.Current - 1) * 100.0 / BulkService.Total + StepProgress()) : 0;
-            <span>⏳ @BulkService.Current/@BulkService.Total (@pct%) — @FormatCurrentStep()</span>
+            <span>⏳ @BulkService.Current/@BulkService.Total (@pct%) — Titolo SEO</span>
         }
         else
         {
-            <span>🔄 Rigenera Titolo SEO + Meta Desc.</span>
+            <span>🔄 Rigenera Titolo SEO</span>
+        }
+    </button>
+    <button @onclick="() => StartGeneration(BulkMode.MetaDescOnly)" disabled="@BulkService.IsRunning"
+            style="padding:6px 16px;background:#138496;color:#fff;border:none;border-radius:4px;cursor:pointer;font-weight:600;font-size:0.85rem;white-space:nowrap;">
+        @if (BulkService.IsRunning && BulkService.Mode == BulkMode.MetaDescOnly)
+        {
+            var pct = BulkService.Total > 0 ? (int)((BulkService.Current - 1) * 100.0 / BulkService.Total + StepProgress()) : 0;
+            <span>⏳ @BulkService.Current/@BulkService.Total (@pct%) — Meta Desc.</span>
+        }
+        else
+        {
+            <span>🔄 Rigenera Meta Desc.</span>
         }
     </button>
     <button @onclick="() => StartGeneration(BulkMode.HtmlOnly)" disabled="@BulkService.IsRunning"
@@ -46,6 +58,18 @@
         else
         {
             <span>🏷️ Genera Tag mancanti</span>
+        }
+    </button>
+    <button @onclick="() => StartGeneration(BulkMode.GpxStatsOnly)" disabled="@BulkService.IsRunning"
+            style="padding:6px 16px;background:#28a745;color:#fff;border:none;border-radius:4px;cursor:pointer;font-weight:600;font-size:0.85rem;white-space:nowrap;">
+        @if (BulkService.IsRunning && BulkService.Mode == BulkMode.GpxStatsOnly)
+        {
+            var pct = BulkService.Total > 0 ? (int)((BulkService.Current * 100) / BulkService.Total) : 0;
+            <span>⏳ @BulkService.Current/@BulkService.Total (@pct%) — GPX Stats</span>
+        }
+        else
+        {
+            <span>📐 Ricalcola Info da GPX</span>
         }
     </button>
     @if (!string.IsNullOrEmpty(BulkService.Message))

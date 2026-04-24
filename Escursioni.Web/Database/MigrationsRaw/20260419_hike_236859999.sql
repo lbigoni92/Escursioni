@@ -56,7 +56,7 @@ VALUES (
   'POINT(10.197986 44.133731)',
   '2bc5f6a4894a469c03f6092fbd4707708451bbfbf3193960ba148cf7d6b9b45a',
   'Escursione Monte Cavallo Apuane: da Rifugio Val Serenaia (1895m) | Difficile 9.7km 972m. Trekking impegnativo tra Alpi Apuane, con tratti esposti e arrampica...',
-  'Monte Cavallo da Rifugio Val Serenaia (Apuane: difficile)',
+  'Monte Cavallo: escursione da Rifugio Val Serenaia (Apuane)',
   'Alpi Apuane',
   NOW(),
   NOW()

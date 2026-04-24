@@ -53,7 +53,7 @@ VALUES (
   'POINT(10.523095 43.80911)',
   'd0ff9f0a83e92bf4165ad4315634621d654c93f61bf9f190a0b2deae697d650b',
   'Escursione San Giusto - Sant''Angrea: Anello in Toscana con "Parole d''Oro" e Sasso Balloccioro! 19.85km, +886m, difficoltà media. Acquedotto Nottolini, cameli...',
-  'San Giusto - Sant''Angrea: Trekking parole d''oro (Toscana)',
+  'San Giusto - Sant''Angrea: escursione anello Toscana +886m',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

@@ -16,7 +16,13 @@ public class SeoService
     {
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
 
-        page.ViewData["Title"] = !string.IsNullOrWhiteSpace(hike.TitoloSeo) ? hike.TitoloSeo : hike.Titolo;
+        var title = !string.IsNullOrWhiteSpace(hike.TitoloSeo) ? hike.TitoloSeo : hike.Titolo;
+
+        // Layout appends " | Escursioni" (14 chars) when title doesn't contain "Escursioni"
+        const string layoutSuffix = " | Escursioni";
+        const int maxTitleLength = 70;
+        var maxLength = title.Contains("Escursioni") ? maxTitleLength : maxTitleLength - layoutSuffix.Length;
+        page.ViewData["Title"] = TruncateTitle(title, maxLength);
 
         var desc = hike.Descrizione ?? string.Empty;
         if (string.IsNullOrWhiteSpace(desc) && !string.IsNullOrWhiteSpace(hike.DescrizioneHtml))
@@ -196,6 +202,19 @@ public class SeoService
   ]
 }}";
         page.ViewData["BreadcrumbJsonLd"] = breadcrumbJsonLd;
+    }
+
+    private static string TruncateTitle(string title, int maxLength)
+    {
+        if (title.Length <= maxLength)
+            return title;
+
+        var truncated = title[..maxLength];
+        var lastSpace = truncated.LastIndexOf(' ');
+        if (lastSpace > maxLength / 2)
+            truncated = truncated[..lastSpace];
+
+        return truncated.TrimEnd(' ', '-', '–', ',');
     }
 
     private static string StripHtml(string html)

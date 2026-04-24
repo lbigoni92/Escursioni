@@ -54,7 +54,7 @@ VALUES (
   'POINT(10.420917 43.422953)',
   'd8cbc5d2440e59e1a11f9fd76c941d13db0193a846253acd67eed4b1d4dbbbfc',
   'Escursione Monte Pelato Toscana: Anello facile 10.7km, +308m. Cascata del Mua, miniera abbandonata e vista panoramica! Perfetta per famiglie e cani.',
-  'Monte Pelato: Escursione Cascata Mua Poggio Tedesco (Toscana)',
+  'Monte Pelato: Escursione Cascata del Mua da Castiglioncello',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

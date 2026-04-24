@@ -55,7 +55,7 @@ VALUES (
   'POINT(10.229035 43.993721)',
   'fbe308a3e9e06024ddf1fede9d0ffdc85f9a38771d4f66a799ff6a6cb6fa49a9',
   'Escursione Monte Costa, Anchiana e Santa Barbara da Seravezza: percorso anello toscano impegnativo (12.7km, +1m). Trekking ad anello da Seravezza, difficoltà...',
-  'Monte Anchiana: Escursione da Seravezza (Difficile, Anello)',
+  'Monte Costa, Anchiana & Santa Barbara: Escursione Diffici...',
   'Alpi Apuane',
   NOW(),
   NOW()

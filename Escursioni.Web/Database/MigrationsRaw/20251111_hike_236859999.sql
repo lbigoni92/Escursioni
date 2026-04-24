@@ -59,7 +59,7 @@ VALUES (
   'POINT(10.197986 44.133731)',
   '2bc5f6a4894a469c03f6092fbd4707708451bbfbf3193960ba148cf7d6b9b45a',
   'Escursione Monte Cavallo Apuane: da Rifugio Val Serenaia (1895m) | Trekking impegnativo 9.7km, +972m. Tratti esposti e rocciosi tra Minucciano (LU) e Alpi Ap...',
-  'Monte Cavallo da Rifugio Val Serenaia: Trekking impegnativo (A...',
+  'Monte Cavallo da Rifugio Val Serenaia (Apuane) escursione',
   'Alpi Apuane',
   NOW(),
   NOW()

@@ -54,7 +54,7 @@ VALUES (
   'POINT(10.206533 44.057913)',
   'eda59a2613a74371f3f304ce021320e08536111005d88a1988b0437f6dddf925',
   'Escursione Pian della Fioba Altissimo Picco Falcovaia Strega (Toscana) 10.15km, +1m. Trekking medio da Redicesi: vista panoramica dal Passo Uncini, sentieri ...',
-  'Pian della Fioba Altissimo: Escursione da Massa (Anello, 10km)',
+  'Pian della Fioba Altissimo: escursione da Massa (10km, an...',
   'Alpi Apuane',
   NOW(),
   NOW()

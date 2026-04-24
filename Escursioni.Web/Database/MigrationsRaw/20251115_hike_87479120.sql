@@ -65,7 +65,7 @@ VALUES (
   'POINT(10.443598 43.764146)',
   'f390729c10e0b7a4018c325dc7670a37d2ca6c863b096fc9704320b81035988e',
   'Escursione San Giuliano Terme - Villa del Polacco: Anello facile 8.17km, +348m nei Castelli Romagnoli. Percorso storico ben segnalato, adatto anche di notte....',
-  'Villa del Polacco: escursione facile da San Giuliano Terme (8....',
+  'Villa del Polacco: Escursione facile da San Giuliano Term...',
   'Lucchesia e colline toscane',
   NOW(),
   NOW()

@@ -51,7 +51,7 @@ VALUES (
   'POINT(10.318222 43.995964)',
   'da5a1618ecdee2f094d2b3734c0c01e597bdb571185e764530b8ac09aafd0f3a',
   'Escursione Monte Procinto, Monte Nona & Foce Porchette (Stazzema) | Trek 10.88km, 1150m dislivello. Diff. media. Ferrata & panorami Apuane!',
-  'Monte Procinto, Monte Nona: escursione da Stazzema (10km)',
+  'Monte Procinto, Monte Nona: escursione da Stazzema (600m)',
   'Alpi Apuane',
   NOW(),
   NOW()
