@@ -58,7 +58,7 @@ VALUES (
   'b20794620c09945910dfd305c7627555e5f7a93457530fdad20ddc5ac7f003b7',
   'Escursione Monte Castellare, Monte Perocchio e Monte Agreste a Vicopisano (Toscana): Anello facile 6.6km, +279m. Vista mozzafiato su Firenze e Livorno! Perfe...',
   'Monte Castellare: escursione da Vicopisano (Toscana)',
-  'Lucchesia e colline toscane',
+  'Monti Pisani',
   NOW(),
   NOW()
 )

@@ -60,7 +60,7 @@ VALUES (
   '531714924847775f550a5a57305ee2e2a07d35c19e81b1c5d4d20fc93baea9de',
   'Escursione Querce: Giro a caso in Toscana! Anello medio di 3.84km +232m sl. Perfetto per un''escursione a Querce, Comune di Querce, Provincia di Toscana.',
   'Querce: escursione a caso anello medio (Toscana)',
-  'Versilia e costa toscana',
+  'Versilia e Massarosa',
   NOW(),
   NOW()
 )

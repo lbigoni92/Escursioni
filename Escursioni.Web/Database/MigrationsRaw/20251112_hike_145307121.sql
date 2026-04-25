@@ -58,7 +58,7 @@ VALUES (
   '108eddfe8616cf01de679d89a7a0082726bbff5f8ae14719de9ebb3c89183d95',
   'Escursione Calambrone: Trekking facile in Toscana! Percorso di 7km con +7m di dislivello. Scopri la storia della "città dei bambini" del regime a Calambrone,...',
   'Calambrone: Escursione dalla Battigia (Toscana)',
-  'Versilia e costa toscana',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

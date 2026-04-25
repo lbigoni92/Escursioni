@@ -60,7 +60,7 @@ Questa breve <strong>escursione trekking</strong> a **Collesalvetti** è un''ott
   '02093ce8469d0515747cde4bce4175ac9ed529c788d7a8243092542701c9cd9b',
   'Escursione Collesalvetti (Toscana): Anello di 4.48km, difficoltà media +59m. Passeggiata rilassante tra sentieri facili e natura selvaggia! Perfetta per una ...',
   'Collesalvetti: escursione anello facile (Toscana)',
-  'Grosseto e Maremma',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

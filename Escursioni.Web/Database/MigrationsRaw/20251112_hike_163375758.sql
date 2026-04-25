@@ -54,7 +54,7 @@ VALUES (
   '6e3cabed83825fc5880b74c795528cb7ba0638140ed73dd985638ccd830a5f62',
   'Escursione Lago Nero Fontana Vaccaia: Anello in Toscana (20km, 600m+) da "Le Regie" al Lago Nero con Casetta Pastori. Diff. Medio. Perfetto per trekking!',
   'Lago Nero: escursione da Fontana Vaccaia (anello, 20km)',
-  'Lucchesia e colline toscane',
+  'Appennino Tosco-Emiliano',
   NOW(),
   NOW()
 )

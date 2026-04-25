@@ -54,7 +54,7 @@ VALUES (
   '8714caa11274c2e58b11d77b9882cf0db337b0bb5a39e7bb546de0d963aff0f8',
   'Escursione Renara Redicesi: fai il bagno in un fiume cristallino! Anello di 4.3km, +207m, Toscana. Trekking facile per famiglie e amanti della natura. Perfet...',
   'Renara: Escursione con bagno nel fiume (Toscana)',
-  'Altre zone dell''italia',
+  'Lucchesia e colline toscane',
   NOW(),
   NOW()
 )

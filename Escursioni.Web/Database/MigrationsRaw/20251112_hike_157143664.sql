@@ -61,7 +61,7 @@ Non perdete l''occasione di vivere un''indimenticabile <strong>escursione</stron
   '4bc44e53ad12519ff821983b4760220f0d1fa99cc2663dc0d9c5e5d2032b3289',
   'Geocaching a Marina di Cecina (Toscana): escursione anello di 14.68km, +22m dislivello. Scopri le cache nella Riserva Tomboli! Perfetto per un''escursione fac...',
   'Marina di Cecina: Geocaching Anello nella Riserva (Toscana)',
-  'Versilia e costa toscana',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

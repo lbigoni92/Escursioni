@@ -59,7 +59,7 @@ Il <strong>sentiero</strong> Pisanino dalla Bagola Bianca offre un''esperienza u
   '766db84113695bc36ba11bc7fddfc0d91faff8d708f0601ed79a283c7aae7db2',
   'Escursione Bagola Bianca da Pisanino: Tracciato difficile (7.9km, 1m D+) Toscana. Trekking impegnativo tra paleo e roccette, tratti esposti! Val Serenaia - C...',
   'Bagola Bianca: Escursione Difficile da Pisanino (Toscana)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

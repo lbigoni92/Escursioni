@@ -54,7 +54,7 @@ La <strong>Tenuta di Tombolo</strong>, conosciuta anche come <strong>Pineta del 
   'fad20c58c98faacaa1bc9a69f19cf3162ea75abb271da246818ceed35dde015d',
   'Escursione Tirrenia: Anello facile in pineta lungo la costa toscana! 4.1km, +7m, ideale per famiglie e bici. Scopri la Tenuta di Tombolo e la sua fauna!',
   'Tirrenia: Escursione in Pineta da Tombolo (4km)',
-  'Versilia e costa toscana',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

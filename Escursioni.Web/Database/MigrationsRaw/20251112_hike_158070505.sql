@@ -51,7 +51,7 @@ VALUES (
   'e2990cdb6b9f0ead075614a2647a8a9b13635a50caf497888e65c65b5bd35291',
   'Escursione Monte Cimone (Toscana): Anello Buti - Monumento Caduti del Vega (824m, 18.18km). Trekking medio facile tra panorami mozzafiato!',
   'Monte Cimone: Escursione da Serra (Toscana, 18km)',
-  'Appennino Tosco-Emiliano',
+  'Monti Pisani',
   NOW(),
   NOW()
 )
