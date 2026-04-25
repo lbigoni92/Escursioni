@@ -62,7 +62,7 @@ Godetevi questa magnifica <strong>escursione in montagna</strong> lungo il <stro
   'b74c7c09fc5b1f999deeaf219b738a8eed1092378fd7298db51f7b434d7d07ee',
   'Escursione notturna Monte del Legnaio (Colognole, Toscana): Anello facile 4.47km, +169m. Perfetta per una passeggiata serale tra Pisa e Massaciuccoli!',
   'Monte Legnaio: escursione notturna da Colognole (Toscana)',
-  'Lucchesia e colline toscane',
+  'Versilia e Massarosa'
   NOW(),
   NOW()
 )

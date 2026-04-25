@@ -105,7 +105,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 123884538);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/123884538/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/123884538/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -169,7 +169,7 @@ SELECT id, 'foto', 'media/images/123884538/photo_07.jpg', 7,
 FROM escursioni.hike WHERE wikiloc_id = 123884538;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/123884538/photo_08.jpg', 8,
+SELECT id, 'cover', 'media/images/123884538/photo_08.jpg', 8,
        NULL,
        NULL,
        NULL,

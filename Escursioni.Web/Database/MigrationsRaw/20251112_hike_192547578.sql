@@ -56,7 +56,7 @@ VALUES (
   '08850c86a67ebe99ea9e240377c4719815ce79c0cc0025c562ce0fe8bda7062c',
   'Escursione Gambassi Terme: Anello Toscano 10.5km, difficoltà media, +303m. Trekking tra ginestre, sorgenti e acquedotto! Grotta di Maurizio: esplora i tunnel...',
   'Gambassi Terme: escursione anello da Gambassi (Toscana)',
-  'Lucchesia e colline toscane',
+  'Grosseto e Maremma',
   NOW(),
   NOW()
 )

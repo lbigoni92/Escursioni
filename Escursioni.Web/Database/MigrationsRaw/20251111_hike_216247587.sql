@@ -55,7 +55,7 @@ La distanza totale è di 22 km e il dislivello di 600 metri. Questo rende la <st
   '8676663ee8ab4f29742ed55a1c57aafec2b71b973267dc8b5aafd9537ee3c1c7',
   'Escursione Val di Chioma: Anello Toscana 22.5km | 600m D+ Torre Piastrone, laghetto Pianacce. Trek facile Malavolta. Ideale per famiglie!',
   'Val di Chioma: escursione da Le Palazzine (anello 22km)',
-  'Lucchesia e colline toscane',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

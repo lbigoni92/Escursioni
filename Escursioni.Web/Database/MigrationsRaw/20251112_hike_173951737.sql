@@ -54,7 +54,7 @@ VALUES (
   '5d57915de17a9fbbf5e958963a53cf2163aac3720f69da8b8061cc32e8ff82eb',
   'Escursione Caprona: Monte Verruca e Convento Di Nicosia | Anello Toscano 11km, 585m dislivello | Trekking facile/medio',
   'Monte Verruca: escursione da Caprona (anello, Toscana)',
-  'Lucchesia e colline toscane',
+   'Monti Pisani',
   NOW(),
   NOW()
 )

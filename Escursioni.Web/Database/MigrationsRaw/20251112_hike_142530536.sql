@@ -37,7 +37,7 @@ Questa <strong>trekking</strong> da <strong>Asciano</strong> è adatta a escursi
   171,
   '2:51',
   1435,
-  'Medio',
+  'Facile',
   'Anello',
   NULL,
   'Italia',
@@ -55,7 +55,7 @@ Questa <strong>trekking</strong> da <strong>Asciano</strong> è adatta a escursi
   '1e9a9aef61105bae2681a8f9f0f3c41e027024ad9691075af029fcd9b247c566',
   'Escursione Asciano - Monte Castellare: Anello Toscana, 8.2km, +384m. Trekking facile da Asciano a Villa Bosniaski. Scopri il Passo di Dante e il Monte Castel...',
   'Asciano - Monte Castellare: Escursione Anello Toscana',
-  'Lucchesia e colline toscane',
+  'Monti Pisani', 
   NOW(),
   NOW()
 )
@@ -104,7 +104,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 142530536);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/142530536/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/142530536/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -152,7 +152,7 @@ SELECT id, 'foto', 'media/images/142530536/photo_05.jpg', 5,
 FROM escursioni.hike WHERE wikiloc_id = 142530536;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/142530536/photo_06.jpg', 6,
+SELECT id, 'cover', 'media/images/142530536/photo_06.jpg', 6,
        NULL,
        NULL,
        NULL,

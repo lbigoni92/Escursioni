@@ -58,7 +58,7 @@ VALUES (
   '280fb21450177fa9dc70c93e84a83edf044435f0723fcf4f68a7a92c65d57c1a',
   'Escursione facile Colognole da Livorno: Anello di 7.3km con 285m di dislivello. Perfetto per famiglie e piknic! Percorso acquedotto, punti vista e anfibi! Va...',
   'Colognole: Escursione Facile da Livorno (Toscana)',
-  'Lucchesia e colline toscane',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

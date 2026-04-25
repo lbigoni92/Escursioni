@@ -53,7 +53,7 @@ VALUES (
   'eafa0cc07bd7d43da59326c635d241c5892ff9925bc8a3df4adac511b7d5237e',
   'Escursione Cavezzana Gordana Streggi di Giaredo (Toscana): trekking facile +116m, nuoto in acque fredde e cristalline! Perfetta per famiglie. Scarpe, muta e ...',
   'Streggi di Giaredo: Escursione da Cavezzana (Toscana)',
-  'Lucchesia e colline toscane',
+  'Lunigiana',
   NOW(),
   NOW()
 )

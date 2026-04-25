@@ -52,7 +52,7 @@ VALUES (
   'e0968a42ce764d5227f432e505417c853928c8fed48ded5877f79e36999a127a',
   'Escursione Lucese Prana: Anello facile +764m in Toscana! Vetta con vista Panie & Livorno. Partenza Passo Lucese (558m). Ideale anche per principianti.',
   'Lucese: Escursione al Prana con Baita Barsi (Toscana)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )
@@ -101,7 +101,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 145994168);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/145994168/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/145994168/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -165,7 +165,7 @@ SELECT id, 'foto', 'media/images/145994168/photo_07.jpg', 7,
 FROM escursioni.hike WHERE wikiloc_id = 145994168;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/145994168/photo_08.jpg', 8,
+SELECT id, 'cover', 'media/images/145994168/photo_08.jpg', 8,
        NULL,
        NULL,
        NULL,

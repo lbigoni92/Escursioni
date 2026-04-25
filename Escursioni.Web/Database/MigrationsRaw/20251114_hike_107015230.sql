@@ -54,7 +54,7 @@ VALUES (
   'f9ace742f643cdea1ae7e7c470914f14e18f81d1b77e6932fa75300fdbb3c645',
   'Escursione Monte Rondinaio (Toscana): percorso anello 19km, 650m dislivello. Rifugio Santi - Altaretto - Rondinaio Lombardo - Lago Santo. Difficile, cresta e...',
   'Monte Rondinaio: Escursione da Rifugio Santi (difficile)',
-  'Lucchesia e colline toscane',
+  'Appennino Tosco-Emiliano',
   NOW(),
   NOW()
 )

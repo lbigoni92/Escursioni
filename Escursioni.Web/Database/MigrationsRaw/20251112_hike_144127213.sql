@@ -54,7 +54,7 @@ VALUES (
   '8714caa11274c2e58b11d77b9882cf0db337b0bb5a39e7bb546de0d963aff0f8',
   'Escursione Renara Redicesi: fai il bagno in un fiume cristallino! Anello di 4.3km, +207m, Toscana. Trekking facile per famiglie e amanti della natura. Perfet...',
   'Renara: Escursione con bagno nel fiume (Toscana)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )
@@ -103,7 +103,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 144127213);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/144127213/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/144127213/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -111,7 +111,7 @@ SELECT id, 'cover', 'media/images/144127213/cover.jpg', 0,
 FROM escursioni.hike WHERE wikiloc_id = 144127213;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/144127213/photo_01.jpg', 1,
+SELECT id, 'cover', 'media/images/144127213/photo_01.jpg', 1,
        NULL,
        NULL,
        NULL,

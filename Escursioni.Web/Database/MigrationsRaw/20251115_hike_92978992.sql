@@ -55,7 +55,7 @@ VALUES (
   '5d394b583aa140f9b98b61f69cde4545aa283bdf8d2f8574e2f316be1de5b33b',
   'Escursione Monte Zano Guamo: Trek facile Lucca, 12km, 502m dislivello. Visita le Parole d''Oro, antiche opere per captare l''acqua, e ammira la croce sul monte!',
   'Parole d''Oro al Monte Zano: Escursione Guamo (Toscana)',
-  'Lucchesia e colline toscane',
+ 'Monti Pisani', 
   NOW(),
   NOW()
 )

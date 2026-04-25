@@ -52,7 +52,7 @@ VALUES (
   'fd71f615ab361704d7d31c334331e3d4162dc9f581eeceb63daff2368ee343d9',
   'Escursione Monte Spallone, Sagro & Punta Tre Uomini (Forno, Toscana) – Trek impegnativo 15km, +800m dislivello. Sentiero CAI EE. Tratti esposti, rocce, pendenz...',
   'Monte Spallone, Monte Sagro: escursione da Verghereto (To...',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

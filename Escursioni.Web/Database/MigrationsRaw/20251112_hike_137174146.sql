@@ -62,7 +62,7 @@ Non perdere l’opportunità di scoprire le <strong>Parole d''Oro Zano</strong>,
   '3bc9c35ce1fbd5c424f220d605dbcc1373d3a8a05441623a26cc78078dc2c007',
   'Escursione Monte Zano Vorno: percorso di 9.4km (Toscana) con +414m di dislivello. Facile anello al conico Monte Zano e vista sulla gran croce illuminata di n...',
   'Monte Zano: escursione da Vorno (anello, Toscana)',
-  'Lucchesia e colline toscane',
+  'Monti Pisani',
   NOW(),
   NOW()
 )
@@ -111,7 +111,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 137174146);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/137174146/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/137174146/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -127,7 +127,7 @@ SELECT id, 'foto', 'media/images/137174146/photo_01.jpg', 1,
 FROM escursioni.hike WHERE wikiloc_id = 137174146;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/137174146/photo_02.jpg', 2,
+SELECT id, 'cover', 'media/images/137174146/photo_02.jpg', 2,
        NULL,
        NULL,
        NULL,

@@ -34,7 +34,7 @@ VALUES (
   211,
   '3:31',
   1523,
-  'Medio',
+  'Facile',
   'Anello',
   NULL,
   'Italia',
@@ -52,7 +52,7 @@ VALUES (
   '0b85072ec8f5acf6327edde06b06cb895d930584ea653ffdfd991da7f09ae092',
   'Escursione Grotte Gialle Montaleo: anello facile 10.99km, +146m. Scopri le Grotte Gialle di Bibbona, Toscana! Formazioni calcarenitiche e antiche tombe etrus...',
   'Grotte Gialle di Bibbona: Escursione Toscana Medio',
-  'Lucchesia e colline toscane',
+  'Appennino Tosco-Emiliano',
   NOW(),
   NOW()
 )
@@ -101,7 +101,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 184678906);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/184678906/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/184678906/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -237,7 +237,7 @@ SELECT id, 'foto', 'media/images/184678906/photo_16.jpg', 16,
 FROM escursioni.hike WHERE wikiloc_id = 184678906;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/184678906/photo_17.jpg', 17,
+SELECT id, 'cover', 'media/images/184678906/photo_17.jpg', 17,
        NULL,
        NULL,
        NULL,

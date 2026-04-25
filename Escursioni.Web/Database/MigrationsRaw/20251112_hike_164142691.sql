@@ -37,7 +37,7 @@ VALUES (
   159,
   '2:39',
   1418,
-  'Medio',
+  'Facile',
   'Anello',
   NULL,
   'Italia',
@@ -55,7 +55,7 @@ VALUES (
   '1d0d7e2de454ff95a7ce6f553557ae558a5c1d05c04fce780f7d8f0879f54456',
   'Escursione Monte Rotondo Villa Maria: sentiero 136 & 130p, cascatelle & ruderi! Anello facile 8.68km, +177m. Perfetta per famiglie! Toscana.',
   'Monte Rotondo: Escursione da Villa Mauro Gordato (cascate...',
-  'Lucchesia e colline toscane',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )
@@ -104,7 +104,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 164142691);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/164142691/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/164142691/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -200,7 +200,7 @@ SELECT id, 'foto', 'media/images/164142691/photo_11.jpg', 11,
 FROM escursioni.hike WHERE wikiloc_id = 164142691;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/164142691/photo_12.jpg', 12,
+SELECT id, 'cover', 'media/images/164142691/photo_12.jpg', 12,
        NULL,
        NULL,
        NULL,

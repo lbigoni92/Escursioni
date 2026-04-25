@@ -51,7 +51,7 @@ VALUES (
   'e778b1857cdd616a8f02edc29fac5f22ce4baff6e06d7e738f6078b06adecf7c',
   'Escursione Orrido di Botri, Pracchi (Toscana): percorso facile 8km, +2m dislivello. Bagno nei piedi, freschezza e vista sull''orrido. Ideale per tutti! Gratui...',
   'Orrido di Botri: Escursione da Pracchi (Toscana)',
-  'Lucchesia e colline toscane',
+  'Appennino Tosco-Emiliano',
   NOW(),
   NOW()
 )

@@ -62,7 +62,7 @@ VALUES (
   '66584e41b07ddcc236197c0cc5075aa8d95695c12a7de0a9c046d7eceb710181',
   'Escursione Monte Magno Paduletto (Calci, Toscana): Anello di 10.44km, +476m. Vista mozzafiato su Livorno e Massa! Sentiero facile/medio. Perfetta per famiglie.',
   'Montemagno Calci: Escursione facile da Paduletto (Toscana)',
-  'Lucchesia e colline toscane',
+  'Monti Pisani',
   NOW(),
   NOW()
 )

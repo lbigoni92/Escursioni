@@ -54,7 +54,7 @@ VALUES (
   '2f53eb97c19a3d22c80a7ebad462b07fc892d9967618c9ea5a7f90728914b438',
   'Escursione Bomarzo: Necropoli Etrusca & Piramide Romana | Lazio | 8.36km, 206m D+, Percorso Medio. Esplora i resti etruschi e romani!',
   'Bomarzo: Escursione Piramide Etrusca e Necropoli (Lazio)',
-  'Lucchesia e colline toscane',
+ 'Altre zone dell''italia',
   NOW(),
   NOW()
 )

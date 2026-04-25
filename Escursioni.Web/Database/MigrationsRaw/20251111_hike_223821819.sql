@@ -61,7 +61,7 @@ VALUES (
   '3ffda44a3accd8d3b27e00611410ad55fbbcadd410cc78b7f91fe9890f1cfa5f',
   'Escursione Monte Memoriante Lucchio: Anello Toscana 9.8km, 783m+ | Trekking facile/medio tra Penna di Lucchio & Monte Lischeta. Dettagli e mappa!',
   'Monte Memoriante: escursione da Lucchio (Toscana)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

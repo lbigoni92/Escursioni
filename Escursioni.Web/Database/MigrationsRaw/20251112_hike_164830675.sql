@@ -43,7 +43,7 @@ Questa <strong>escursione trekking</strong> è un''opportunità imperdibile per 
   194,
   '3:14',
   1645,
-  'Medio',
+  'Facile',
   'Anello',
   NULL,
   'Italia',
@@ -61,7 +61,7 @@ Questa <strong>escursione trekking</strong> è un''opportunità imperdibile per 
   '54307388cb8061422e81cbaf09b9d4e4b1000992af20c2758314848ffd105e28',
   'Escursione Suvereto - Prata - Belvedere: Anello facile 10km, 260m dislivello Toscana. Percorso panoramico, fiume e fontanelle! Ideale per famiglie.',
   'Suvereto Belvedere: Escursione da Suvereto (10km)',
-  'Lucchesia e colline toscane',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )
@@ -110,7 +110,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 164830675);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/164830675/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/164830675/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -126,7 +126,7 @@ SELECT id, 'foto', 'media/images/164830675/photo_01.jpg', 1,
 FROM escursioni.hike WHERE wikiloc_id = 164830675;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/164830675/photo_02.jpg', 2,
+SELECT id, 'cover', 'media/images/164830675/photo_02.jpg', 2,
        NULL,
        NULL,
        NULL,

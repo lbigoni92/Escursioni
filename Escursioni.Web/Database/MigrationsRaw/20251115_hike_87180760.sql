@@ -61,7 +61,7 @@ VALUES (
   'e215667560147f451b7cbfbe09ff4e1e85651c8b06d87aa502f39e82379c116a',
   'Escursione Foce a Giovo: Lago Santo, Baccio e Turchino! Anello Toscano impegnativo (14.7km, +1m), Monte Rondinaio. Perfetto per amanti trekking esperti.',
   'Monte Rondinaio: escursione laghi Toscana (difficile)',
-  'Lucchesia e colline toscane',
+  'Appennino Tosco-Emiliano',
   NOW(),
   NOW()
 )

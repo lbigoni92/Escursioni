@@ -37,7 +37,7 @@ VALUES (
   409,
   '6:49',
   2960,
-  'Medio',
+  'Facile',
   'Anello',
   NULL,
   'Italia',
@@ -104,7 +104,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 186625004);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/186625004/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/186625004/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -272,7 +272,7 @@ SELECT id, 'foto', 'media/images/186625004/photo_20.jpg', 20,
 FROM escursioni.hike WHERE wikiloc_id = 186625004;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/186625004/photo_21.jpg', 21,
+SELECT id, 'cover', 'media/images/186625004/photo_21.jpg', 21,
        NULL,
        NULL,
        NULL,

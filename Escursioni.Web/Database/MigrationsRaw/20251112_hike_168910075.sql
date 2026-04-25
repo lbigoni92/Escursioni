@@ -51,7 +51,7 @@ VALUES (
   '632366488502f1cb83f1e3ffda0d3c0ea3e08717864f9641e256d949096da38d',
   'Escursione Candalla-Casoli: Monte Penna, Ciurlaglia e Grotta Tmbugione! Percorso anello Toscana (14km, +983m) – Escursioni lucabigoni.it',
   'Monte Penna: escursione da Candalla (Toscana, 14.3km)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

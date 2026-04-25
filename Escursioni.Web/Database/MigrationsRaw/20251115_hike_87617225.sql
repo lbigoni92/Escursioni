@@ -54,7 +54,7 @@ VALUES (
   'ec8fcf713a484b9771d6365e50dcca833a3be3b51abd42cd82dc6e8dfd09f277',
   'Escursione notturna San Giuliano Terme: Passo di Dante - Villa del Polacco! Anello facile 8.17km, +348m. Percorso ben segnalato, ideale per trekking amatoria...',
   'Passo di Dante - Esplora San Giuliano Terme (Anello)',
-  'Lucchesia e colline toscane',
+'Monti Pisani', 
   NOW(),
   NOW()
 )

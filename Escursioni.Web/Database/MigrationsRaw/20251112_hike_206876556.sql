@@ -56,7 +56,7 @@ VALUES (
   '10e4dac8b94c7fea848304e3993f1fd857041df009e9ce4f685e2ada75163ef8',
   'Escursione Castello Orsini Celleno: percorso facile da Borgo di Celleno (Acquaforte, Lazio) 1.67km, +20m. Panorami, castello Orsini e borgo medievale!',
   'Castello Orsini: Escursione da Borgo di Celleno (Lazio)',
-  'Lucchesia e colline toscane',
+  'Altre zone dell''italia',
   NOW(),
   NOW()
 )

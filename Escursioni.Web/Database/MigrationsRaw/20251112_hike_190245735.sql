@@ -52,7 +52,7 @@ VALUES (
   'baf4b03a0cd554d652722593621e0b3cbd887252c95f96624c83d3d3a85894e2',
   'Escursione Lucese Prana: Anello facile in Toscana +791m | Vetta con panorama Panie e Livorno! Percorso 13.7km. Ideale anche fuori stagione.',
   'Lucese: Escursione al Prana con Baita Barsi (Toscana)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

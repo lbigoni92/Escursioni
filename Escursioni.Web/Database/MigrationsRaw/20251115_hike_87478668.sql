@@ -55,7 +55,7 @@ VALUES (
   'ada1a42fcbdc0a7d5b344c7a89ea090b38ba6cac7523489993367096eecb44aa',
   'Escursione Valle Benedetta Toscana: percorso facile di 11.8km con +307m dislivello. Anello adatto a famiglie, tra santuario sambuca e panorama! ⛰️',
   'Valle Benedetta: escursione facile in Toscana +307m',
-  'Lucchesia e colline toscane',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

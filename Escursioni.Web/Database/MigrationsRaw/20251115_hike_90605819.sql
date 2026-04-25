@@ -56,7 +56,7 @@ VALUES (
   '2ccd5a138f125fe2b4ad8311d927af18349c9fae22f46e3e42a15bc0cc76769e',
   'Escursione Vorno Monte Faeta: Anello Toscana 20.59km, +1m Disliv. Sentieri Vorno-Campo Croce-Faeta-Spuntone. Percorso medio, neve a Santallago!',
   'Vorno: Trekking Monte Faeta - Campo Croce - Santallago',
-  'Lucchesia e colline toscane',
+  'Monti Pisani', ,
   NOW(),
   NOW()
 )

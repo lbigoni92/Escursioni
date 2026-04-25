@@ -54,7 +54,7 @@ VALUES (
   'bcf9b3451e5f4a68b52caee3b9fc81e917b582ff6b435b632e208085b2eed35d',
   'Escursione Valle Benedetta: trekking facile in Toscana, 19km, 705m dislivello. Anello tra Monte Pan di Zucchero e Acquedotto Colognole. Perfetto per amici!',
   'Valle Benedetta: Trekking da Colognole (705m, anello)',
-  'Lucchesia e colline toscane',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )
