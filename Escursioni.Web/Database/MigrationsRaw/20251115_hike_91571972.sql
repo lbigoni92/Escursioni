@@ -57,7 +57,7 @@ VALUES (
   'c1a79841165814baf8b7b9237a8d67f74ea4ec0f36b8dc60c140376dc4f7e1fa',
   'Escursione Salivoli Punta Falcone: facile anello toscano 1.38km +54m. Osservatorio, bunker WWII & calette! Ideale per famiglie. Info e consigli da escursioni...',
   'Punta Falcone a Salivoli: escursione facile da Salivoli',
-  'Lucchesia e colline toscane',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

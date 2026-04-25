@@ -60,7 +60,7 @@ VALUES (
   '5f10081a7eed7b9c0eebd9509967174cd3fec26877803197c7a7b6efabbb2373',
   'Escursione Buca dei Banditi Val di Chioma: facile trekking tra le colline livornesi (Toscana). 17.7km, +443m. Km 3.9: grotta storica, sentieri selvaggi, cons...',
   'Buca dei Banditi: Escursione Toscana Facile',
-  'Lucchesia e colline toscane',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

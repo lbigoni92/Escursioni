@@ -55,7 +55,7 @@ VALUES (
   '8e9a1648fcef75197005ff1426369673edcaf9f6f94df21e3cdc2eede55720df',
   'Escursione Chioma-Montenero-Castellaccio: facile giro in Toscana (21km, 695m dislivello) lungo la costa, con vista mare e Santuario. Perfetto per famiglie!',
   'Chioma - Montenero - Castellaccio: Escursione Facile Toscana',
-  'Versilia e costa toscana',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

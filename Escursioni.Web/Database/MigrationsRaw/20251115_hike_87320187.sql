@@ -56,7 +56,7 @@ VALUES (
   '7511c6b57c5a75946b1d1e6f024ed2d6b853b0234878025ea9fe83a3041e6750',
   'Escursione Agnano Grotta Buca Fate Toscana: percorso facile 9.5km +375m. Ideale per famiglie e amanti del trekking! Scopri la grotta carsica e i resti fossili.',
   'Agnano - Grotta e Buca delle Fate: Escursione Facile Toscana',
-  'Lucchesia e colline toscane',
+  'Monti Pisani',
   NOW(),
   NOW()
 )

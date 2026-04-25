@@ -54,7 +54,7 @@ VALUES (
   '55b92aad061b5b250fb6e298248ab3026edd0193494ea7b0e464c96cb2160950',
   'Escursione Toscana: Calignaia - Spiaggia Sonnino - Castellaccio! Anello medio (11km, 452m D+), zona Quercianella. Viste mozzafiato al Poggio delle Monachine!...',
   'Callaia: escursione da Quercianella (Castellaccio, Monach...',
-  'Versilia e costa toscana',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

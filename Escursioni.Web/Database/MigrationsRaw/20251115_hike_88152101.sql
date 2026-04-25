@@ -59,7 +59,7 @@ VALUES (
   '9a55ac7de922b0fb063d5b656fc09c9128219454dbd998d62857300947db8c67',
   'Escursione Calambrone: Anello facile in Toscana (8.89km, +36m) | Trekking a Calambrone, ideale per famiglie e amanti della natura. Scopri il sentiero e... ev...',
   'Calambrone: escursione facile da Calambrone (anello, Tosc...',
-  'Versilia e costa toscana',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )
