@@ -55,7 +55,7 @@ VALUES (
   'e166cdbe3f43591bd4335650eee1bd866c78f4e4d85613f05438c561529a7c11',
   'Ciaspolata Lago Santo Emilia-Romagna: Facile giro di 8.5km con +262m di dislivello. Perfetto per una giornata in montagna! Scopri il paesaggio innevato e il ...',
   'Lago Santo: Ciaspolata Facile da Casa Mordini (8.48km)',
-  'Estero',
+  'Appennino Tosco-Emiliano',
   NOW(),
   NOW()
 )

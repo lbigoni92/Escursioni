@@ -58,7 +58,7 @@ VALUES (
   '85e4c3d73e154c7a5cc5096e3e19f0e9eb2b9cbb73b8bb2709ca79f1f3294c9d',
   'Escursione Vicopisano Rocca della Verruca: Anello facile in Toscana (13km, 506m dislivello). Partenza da Vicopisano, sentiero semplice ma salita impegnativa....',
   'Rocca della Verruca: Escursione a Vicopisano (Toscana)',
-  'Lucchesia e colline toscane',
+  'Monti Pisani',
   NOW(),
   NOW()
 )

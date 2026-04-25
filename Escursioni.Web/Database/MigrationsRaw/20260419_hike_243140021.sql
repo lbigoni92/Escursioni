@@ -61,7 +61,7 @@ Scopri le meraviglie del "paese dei graffiti" e vivi un''indimenticabile <strong
   '2a9d7d1991ede1dea0daf4f9486da0c42b9d088aae7c35b24933e41bc54e7ca5',
   'Escursione Casoli: Grotta all''Onda, Grotta Buia & Chiesa San Rocco | Trek facile Apuane (LU) 10.48km +520m',
   'Grotta Buia: Escursione da Casoli (Apuane, Toscana)',
-  'Versilia e costa toscana',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

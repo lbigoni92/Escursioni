@@ -54,7 +54,7 @@ VALUES (
   '509428bdf93aa373de8146762faf143fb0b201634e20ce7b1be631821a205ffd',
   'Escursione San Cerbone Moriglione Penna: Anello Monte Pisano ⛰️. Trek facile 12.5km, 744m dislivello. Da San Cerbone al Monte Penna e Passo di Dante! Sentier...',
   'Moriglione di Penna: escursione da San Cerbone (anello)',
-  'Lucchesia e colline toscane',
+  'Monti Pisani',
   NOW(),
   NOW()
 )

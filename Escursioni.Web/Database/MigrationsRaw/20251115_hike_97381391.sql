@@ -56,7 +56,7 @@ VALUES (
   '826b367e1d7be680e3efbe29d5fa099425bc7817811091b44d6f0f0e7653a9ac',
   'Escursione Sambuca Chianti: Anello di 24km con +620m di dislivello! Percorso facile tra vigne e fiumi. Ideale per una giornata nel cuore della Toscana!',
   'Sambuca: Escursione tra le Vigne del Chianti (24km)',
-  'Lucchesia e colline toscane',
+  'Firenze e provincia',
   NOW(),
   NOW()
 )
