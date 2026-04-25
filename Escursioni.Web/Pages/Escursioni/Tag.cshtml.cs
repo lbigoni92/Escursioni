@@ -35,7 +35,7 @@ public class TagModel : PageModel
 
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
         var canonical = $"{baseUrl}/escursioni/zona/{Slug}";
-        ViewData["Title"] = $"Escursioni {tag} – Trekking e sentieri | Luca Bigoni";
+        ViewData["Title"] = $"Escursioni {tag} | Luca Bigoni";
         ViewData["MetaDescription"] = $"Tutte le escursioni nella zona {tag}: tracce GPS, foto, dislivelli e descrizioni dettagliate dei sentieri. {TagDescription}";
         ViewData["CanonicalUrl"] = canonical;
         ViewData["OgType"] = "website";
