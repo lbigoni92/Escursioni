@@ -63,7 +63,7 @@ Questa <strong>escursione a Livorno</strong> è un''ottima opportunità per imme
   'e026f22c0de2cc733a8db0e75ab7b68c309d1fa6b7e253b671aaf2a75421761c',
   'Escursione Livorno: trekking cittadino facile 10km! Passeggiata panoramica tra Acquario, Terrazza Mascagni e Monumento al Marinaio. Perfetta per famiglie! ⛰️...',
   'Livorno: Escursione Cittadina al Mare (Facile)',
-  'Altre zone dell''italia',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

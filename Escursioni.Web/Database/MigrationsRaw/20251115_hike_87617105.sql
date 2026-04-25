@@ -58,7 +58,7 @@ VALUES (
   'c00207bb382cbd10d9aa82f51bc0541520085d252455335dd19a9add65ad912f',
   'Escursione Careggine Col di Favilla Isola Santa: trekking in Toscana, 14km, +963m. Percorso facile-medio da Careggine al Rifugio Robbio. Info e consigli!',
   'Careggine - Col di Favilla: Trek 13.9km (Toscana)',
-  'Versilia e costa toscana',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

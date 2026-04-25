@@ -60,7 +60,7 @@ VALUES (
   '4023f4c9e50eeda04c4b0cd219cb33a519c6e99bbdfded93542957237e304fc1',
   'Escursione notturna Sanbuca Livornese: Anello facile 11.8km Valle Benedetta (Toscana) +307m. Trekking al km 9.1 sotto le stelle con luci città & lucciole! 🔦',
   'Sanbuca Livornese: Escursione Notturna Facile (Toscana)',
-  'Lucchesia e colline toscane',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

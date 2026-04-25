@@ -54,7 +54,7 @@ VALUES (
   '6bb8d64c3d5261d4cc24e081acde235ea83aa8a2eb6841128f756c1e63d0c68a',
   'Escursione Torcigliano - Prana (Toscana): Anello facile 16.6km, +1m di dislivello. Percorso in vetta con vista panoramica, rovi e cresta. Ideale per famiglie!',
   'Prana: escursione da Torcigliano (Toscana, 16.62km)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

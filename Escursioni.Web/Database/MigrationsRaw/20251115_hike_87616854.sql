@@ -60,7 +60,7 @@ Questo <strong>trekking</strong> in <strong>Italia</strong>, sulla <strong>Capra
   '93b41048ca243c5cdcd9a851c8b211fb0eef3cc652c9d08af2a5c023a93390e1',
   'Escursione Capraia Isola: facile percorso di 4.6km +229m da Porto, Toscana. Tratto storico, ex penitenziario e ritorno alla spiaggia! Perfetto per un tuffo!',
   'Capraia Isola: Escursione al Baia (Toscana)',
-  'Versilia e costa toscana',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

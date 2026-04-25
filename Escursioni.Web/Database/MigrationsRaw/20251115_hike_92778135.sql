@@ -52,7 +52,7 @@ VALUES (
   '5ff645ff31b80d0fca2208791b2765d26ac805bf4f329e86916cb98fee663fb6',
   'Escursione facile Ardenza - Livorno: 9.2km di passeggiata sul lungomare! Anello pianeggiante, +14m dislivello, perfetto per famiglie e amanti del mare in Tos...',
   'Ardenza: Escursione lungomare da Livorno (facile)',
-  'Versilia e costa toscana',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

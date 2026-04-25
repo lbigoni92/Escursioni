@@ -56,7 +56,7 @@ VALUES (
   'd2fe1e1f6916c01b66a3bb62b5e33713349a84d81bedd2cdd0e4218618fcdf6b',
   'Escursione Monte Corchia Passo Croce: 11.5km, +920m. Percorso facile Toscana! Salita al Corchia, cresta e Rifugio del Freo. Scarpe obbligatorie!',
   'Monte Corchia - Passo Croce: Escursione Facile Toscana',
-  'Appennino Tosco-Emiliano',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

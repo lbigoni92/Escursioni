@@ -57,7 +57,7 @@ VALUES (
   'b7921b378e4484c097892fcacfc35bdd6bcb8c2ae207435078a010938706ead7',
   'Escursione Filettole: Anello al Lago di Massaciuccoli in Toscana (9.45km, +171m) - Vista Roccca di Ripafratta, tramonto sul lago e torre divisa! Facile.',
   'Filettole: Escursione al Lago di Massaciuccoli (Toscana)',
-  'Lucchesia e colline toscane',
+  'Versilia e Massarosa',
   NOW(),
   NOW()
 )

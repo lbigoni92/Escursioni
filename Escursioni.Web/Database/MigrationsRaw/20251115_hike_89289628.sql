@@ -66,7 +66,7 @@ VALUES (
   '759f4c86de14abf155cdbda5a128274539009a82b13c41cbe578ff0b4f944c77',
   'Escursione Lago di Massaciuccoli (Toscana): Anello facile 15.1km, +545m. Percorso tranquillo tra lago, oasi faunistica e rovine romane. Foto e punti panoramici!',
   'Lago di Massaciuccoli: escursione facile da Massaciuccoli...',
-  'Versilia e costa toscana',
+  'Versilia e Massarosa',
   NOW(),
   NOW()
 )

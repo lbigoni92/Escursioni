@@ -55,7 +55,7 @@ VALUES (
   '1db3fd0f374209638edefb3d6543285d6ea4cfd4914e5854aa59a723ad769f2a',
   'Escursione Castellaccio - Quercianella: percorso di 11.7km T° Medio in Toscana. Ammira il ponte di Calafuria! +285m dislivello. Sentiero consigliato!',
   'Castellaccio a Quercianella: Escursione Toscana (11.69km)',
-  'Versilia e costa toscana',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

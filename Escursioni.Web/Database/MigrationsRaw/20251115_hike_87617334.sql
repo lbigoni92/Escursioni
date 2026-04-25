@@ -57,7 +57,7 @@ VALUES (
   '1f977db50c19157cb4b8988008a74f13fa65aa46f85a156e4f22690fd0fcf7ba',
   'Escursione Vicopisano Verruca: facile giro di 6.16km in Toscana +18m dislivello. Vista Rocca Verruca (Pisa) – ideale per famiglie! ⛰️',
   'Verruca (Montemagno): escursione facile da Vicopisano',
-  'Lucchesia e colline toscane',
+  'Monti Pisani',
   NOW(),
   NOW()
 )

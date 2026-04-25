@@ -53,7 +53,7 @@ VALUES (
   'f7eb6d6ffcac7452943b0dd8a5aef4f2c464702664d2ade46f003affaebfc54a',
   'Escursione Camelieto Pieve di Compito (Toscana): Anello medio 13.2km, +665m. Trekking facile e ben segnalato per principianti! Castagne, funghi e panorama.',
   'Camelieto: Escursione Anello da Pieve di Compito (Toscana)',
-  'Lucchesia e colline toscane',
+  'Monti Pisani',
   NOW(),
   NOW()
 )
