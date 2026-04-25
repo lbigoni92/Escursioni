@@ -56,7 +56,7 @@ VALUES (
   '9a50a4f71c1b7bf04f41dee0d2ceb57b8a51e9d89247af1e62e236fb6c755878',
   'Escursione Molina: Anello Cascata Orso, Doppio Covolo & Nera | Facile 3.8km | Lessinia Veneto',
   'Lessinia: Anello Molina Cascata Orso (Dettagli)',
-  ''Trentino e Veneto'',
+  'Trentino e Veneto',
   NOW(),
   NOW()
 )
