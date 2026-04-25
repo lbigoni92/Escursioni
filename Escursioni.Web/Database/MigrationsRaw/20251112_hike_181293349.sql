@@ -62,7 +62,7 @@ Non perdete l’occasione di vivere un’esperienza di trekking indimenticabile 
   '37e446ae20c0446a582fbc678a6b9174eed9a9f5f5c085c879eb13ac1e15733a',
   'Trekking Bergondola: Cascata della Duchessa, Costa d''Arzola (Toscana). Anello medio 0.82km +29m. Esplora la cascata e il casotto storico! Fonte salata? (NON ...',
   'Bergondola: Escursione alla Cascata della Duchessa (Toscana)',
-  'Versilia e costa toscana',
+  'Lunigiana',
   NOW(),
   NOW()
 )

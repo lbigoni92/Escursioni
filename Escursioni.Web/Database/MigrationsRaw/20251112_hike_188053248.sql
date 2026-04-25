@@ -51,7 +51,7 @@ VALUES (
   '834693a6b794a63bd2571c653d0095833cdfd2a880cbd8b7b520d32e4563ccae',
   'Monte Macina & Monte Sella: escursione anello esperti Arni (Toscana) 11km, +1m. Cresta Macina/Sella: sentiero tecnico, canaloni, torrione, passaggio 2° grado...',
   'Monte Sella e Macina: escursione da Arni (difficile)',
-  'Altre zone dell''italia',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

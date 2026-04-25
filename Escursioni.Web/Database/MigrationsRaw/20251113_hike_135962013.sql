@@ -60,7 +60,7 @@ Preparati a scoprire paesaggi suggestivi caratterizzati da **mulini abbandonati*
   'b8a4a8056c6275611e3980d6f432013d5e1b86716dc1e767be47f7ffd61514b4',
   'Escursione Fibialla (Stabbiano a Massa): Geocaching in Toscana! Anello di 4.6km, +130m, adatto famiglie e principianti. Trova le geocache tra mulini e ruscel...',
   'Fibialla: Escursione Geocaching da Stabbiano (Toscana)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

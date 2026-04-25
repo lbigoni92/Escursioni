@@ -56,7 +56,7 @@ VALUES (
   '809eaf9b1f33befd7aa2c14fc8ffe98042e9bc84e21ed0fb8190e0dc13d7c4ba',
   'Escursione Cascatelle dell’Infernaccio, Poggio Corbolone e Villa Cristina (Campo a Melo, Toscana). Facile giro di 7.9km +325m. Vista Livorno, cascate e punto...',
   'Cascatelle dell’Infernaccio: Escursione da Poggio Corbolo...',
-  'Lucchesia e colline toscane',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )

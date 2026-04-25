@@ -69,7 +69,7 @@ Questo <strong>sentiero per escursioni</strong> è un''ottima opportunità per s
   '052bbc48678b91280830de99e7c61dff2c059c4a548dac6528b5e571f7019b26',
   'Escursione Cascate del Piscio Pracchiola: Anello facile 5.89km +242m. Ponte Colombara restaurato. Cascate & bagno! Toscana, Italia.',
   'Cascate del Piscio: Escursione Facile da Pannocchia',
-  'Lucchesia e colline toscane',
+  'Lunigiana',
   NOW(),
   NOW()
 )

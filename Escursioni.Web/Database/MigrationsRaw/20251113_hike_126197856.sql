@@ -57,7 +57,7 @@ VALUES (
   '73cb3b4f2227685335e26627716e8e8749666cb1dba5c3630c3ff4d1c04c1694',
   'Escursione Asciano Mirteto Faeta Buca Fate: Anello in Toscana, 16.7km, difficoltà media. Salita al Faeta con vista, borgo monastico Mirteto e Buca delle Fate!',
   'Mirteto Faeta Buca Fate: Escursione da Asciano (Toscana)',
-  'Lucchesia e colline toscane',
+  'Monti Pisani',
   NOW(),
   NOW()
 )

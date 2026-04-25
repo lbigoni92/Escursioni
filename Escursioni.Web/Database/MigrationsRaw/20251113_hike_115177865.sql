@@ -59,7 +59,7 @@ VALUES (
   '6a1109ef2b4a1ec033b39a322735cece5f0a55ca8a156eb95a6d9857871c81da',
   'Escursione Passo del Lucese (Toscana): Anello 14.16km, +746m. Trekking al Rifugio La Casa del Maestro e Baita Verde. Meteo variabile, sentiero 101. Perfetta ...',
   'Monte Prana: Escursione da Lucese (14.16km, 746m)',
-  'Lucchesia e colline toscane',
+  'Alpi Apuane',
   NOW(),
   NOW()
 )

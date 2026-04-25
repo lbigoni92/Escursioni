@@ -58,7 +58,7 @@ VALUES (
   '0548de93bb4d93e0c628be6e838427db3ea39cae841ef6593c53216c91a5d8e0',
   'Escursione Gabbro Monte Carvoli Nibbiaia: percorso anello medio (7.05km, +157m) tra i Balcioni Panoramici. Sentiero improvvisato a tratti, immerso nella Tosc...',
   'Monte Carvoli: escursione a Gabbro (Nibbiaia, Toscana)',
-  'Lucchesia e colline toscane',
+  'Livorno e costa toscana',
   NOW(),
   NOW()
 )
