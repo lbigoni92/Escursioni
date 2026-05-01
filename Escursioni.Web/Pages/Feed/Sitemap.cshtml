@@ -8,7 +8,8 @@
     Response.Headers["Cache-Control"] = "public, max-age=3600, s-maxage=86400";
     var baseUrl = Model.BaseUrl;
 }<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>@baseUrl/</loc>
         <changefreq>daily</changefreq>
@@ -39,10 +40,10 @@
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
-    @foreach (var tag in new[] { "alpi-apuane", "garfagnana", "livorno-e-costa-toscana", "versilia-e-massarosa", "versilia-e-costa-toscana", "lucchesia-e-colline-toscane", "firenze-e-provincia", "appennino-tosco-emiliano", "trentino", "trentino-e-veneto", "grosseto-e-maremma", "lunigiana", "monti-pisani", "altre-zone-dell-italia", "estero" })
+    @foreach (var tagSlug in Model.ActiveTagSlugs)
     {
     <url>
-        <loc>@baseUrl/escursioni/zona/@tag</loc>
+        <loc>@baseUrl/escursioni/zona/@tagSlug</loc>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -51,11 +52,19 @@
     {
         var slug = IndexModel.MakeSlug(h.Titolo);
         var lastmod = h.UpdatedAt.ToString("yyyy-MM-dd");
+        var cover = (h.Media.FirstOrDefault(m => m.Tipo == "cover") ?? h.Media.OrderBy(m => m.Ordine).FirstOrDefault())?.PathRelativo;
     <url>
         <loc>@baseUrl/escursioni/@slug</loc>
         <lastmod>@lastmod</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+        @if (!string.IsNullOrWhiteSpace(cover))
+        {
+        <image:image>
+            <image:loc>@baseUrl/@cover</image:loc>
+            <image:title>@h.Titolo</image:title>
+        </image:image>
+        }
     </url>
     }
 </urlset>
