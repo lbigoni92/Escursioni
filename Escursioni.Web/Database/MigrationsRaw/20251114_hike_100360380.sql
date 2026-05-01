@@ -7,31 +7,32 @@ VALUES (
   100360380,
   'Parco Naturalistico di San Rossore.',
   'Abbiamo fatto questo sentiero in parte improvvisato, ma ben riuscito per Pasqua. Siamo andati alla ricerca d''animali da vedere e abbiamo trovato daini, cinghiali e e tracce d''altri piccoli carnivori quali volpi, inoltre non è mancata la presenza di bellissime tartarughe anche se si tratta di una specie infestante che non dovrebbe trovarsi nel parco. Non vi sono problemi nel seguire il sentiero che ho tracciato ed è per la maggior parte del temo all''ombra (tranne la parte lungo il fiume). Lo consiglio come girata tranquilla, nel parco vi sono due bar noi siamo passati da uno dei due e fa anche da ristorante, anche se consiglio di mangiare dei panini lungo il percorso.',
-  '<h2>Parco Naturalistico di San Rossore: Escursione Trekking nella Montagna Toscana</h2>
+  '<h2 id="escursione-parco-naturalistico-san-rossore">Escursione nel Parco Naturalistico di San Rossore</h2>
 
-<h3>Il Percorso – Trekking nel Parco Naturalistico di San Rossore</h3>
+<h3 id="come-arrivare-punto-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bella escursione nel Parco Naturalistico di San Rossore si trova a <strong>Cacine Vecchie</strong>, in provincia di <strong>Toscana</strong>. Per raggiungerlo, potete seguire le indicazioni stradali da Firenze o Pisa. Ricordatevi che l''area è facilmente accessibile in auto, con parcheggio disponibile nelle vicinanze del punto di partenza.</p>
 
-<p>Se volete immergervi nella natura incontaminata della **montagna toscana**, questo sentiero di trekking nel <b>Parco Naturalistico di San Rossore</b> è la scelta ideale. Abbiamo intrapreso questa <b>escursione</b> di una giornata, con un tocco improvvisato ma incredibilmente gratificante, e siamo stati ricompensati da una ricca avifauna e la possibilità di avvistare animali selvatici. Perfetto per un''<b>escursione</b> indimenticabile e una vera immersione nella natura.</p>
+<h3 id="il-percorso-passo-passo">Il Percorso Passo per Passo</h3>
+<p>Abbiamo seguito un percorso anello di circa <strong>17.14 km</strong> con un dislivello positivo di <strong>613 metri</strong>. La maggior parte del sentiero è ben tracciata e facile da seguire, soprattutto grazie all''ombra che offre in molte zone. Il percorso si snoda attraverso una varietà di ambienti, dal bosco umido lungo il fiume, al terreno più aperto del parco.  Durante il trekking, abbiamo avuto la fortuna di avvistare diversi animali, tra cui daini, cinghiali e tracce di volpi, dimostrando la ricchezza della fauna locale. Abbiamo anche notato la presenza di numerose tartarughe, sebbene si tratti di una specie invasiva. Un piccolo suggerimento: non dimenticate un panino da mangiare lungo il percorso, dato che all''interno del parco c''è un bar che funge anche da ristorante.</p>
 
-<h3>Cosa Aspettarsi – Un Trekking Autentico nel Cuore del Parco</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è classificata come <strong>Facile</strong>, adatta anche a escursionisti alle prime armi o a famiglie. Il dislivello è contenuto, e il sentiero è in gran parte ombreggiato, rendendo la camminata confortevole.  Tuttavia, è importante indossare scarpe da trekking adatte e portare con sé acqua e snack.</p>
 
-<p>Questo <b>sentiero</b> vi condurrà attraverso un paesaggio mozzafiato, ricco di biodiversità e di sorprese. Avrete l''opportunità di osservare da vicino animali come daini, cinghiali e <i>tracce</i> di volpi, testimonianza della ricchezza della fauna locale.  Il percorso, in gran parte ombreggiato, offre riparo dal sole, mentre il tratto lungo il fiume vi regalerà uno spettacolo di rara bellezza.  È un''<b>escursione</b> a piedi ideale per chi ama la <b>natura</b> e l''<b>trekking</b> nella <b>montagna</b>.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per facilitare il vostro trekking, vi forniamo la traccia GPS di questa escursione. Ricordatevi di scaricare la traccia sul vostro dispositivo GPS o smartphone prima di partire.  La durata dell''escursione è di circa 6-8 ore, a seconda del ritmo e delle soste.</p>
 
-<p>Tuttavia, è importante ricordare che il <b>Parco Naturalistico di San Rossore</b> ospita anche la tartaruga testuggione, una specie non autoctona e infestante. La sua presenza è un segnale di attenzione per la conservazione della flora e fauna locale.  Abbiamo apprezzato la possibilità di ammirare queste creature, pur consapevole della necessità di proteggere l''ambiente.</p>
-
-<h3>Informazioni Utili – Dettagli per una Trekking di Successo</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Difficoltà:</b> Facile/Moderata</li>
-    <li><b>Distanza:</b> Circa 10-12 km (il percorso è stato tracciato con alcune deviazioni)</li>
-    <li><b>Altitudine:</b> Varia tra i 300 e gli 800 metri</li>
-    <li><b>Tempo di percorrenza:</b> Circa 4-6 ore</li>
-    <li><b>Tipo di sentiero:</b> Sentiero naturalistico e di trekking</li>
-    <li><b>Punti di interesse:</b> Osservazione della fauna selvatica (daini, cinghiali, volpi), presenza di tartarughe testuggini, panorami mozzafiato sulla **montagna** del **Parco Naturalistico di San Rossore**.</li>
-    <li><b>Consigli:</b> Portare acqua, panini, scarpe da trekking adatte e un binocolo per l''osservazione della fauna.</li>
-</ul>
-
-<p>Ristorante: Durante il <b>trekking</b>, è possibile pranzare al bar all''interno del parco, oppure consumare i vostri <i>panini</i> lungo il percorso, godendovi la vista e la tranquillità del <b>Parco Naturalistico di San Rossore</b>. Questa <b>escursione</b> di <b>trekking</b> è un''occasione unica per vivere un''esperienza autentica nel cuore della natura italiana, perfetta per gli amanti del <b>sentiero</b> e del <b>trekking</b>.</p>',
+    <li><strong>Distanza:</strong> Circa 17.14 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 613 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Cacine Vecchie, Toscana, Italia</li>
+    <li><strong>Comune:</strong> Cacine Vecchie</li>
+    <li><strong>Regione:</strong> Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+    <li><strong>Parco Nazionale:</strong> Parco Naturalistico di San Rossore</li>
+</ul>',
   'Tutte le Attività e Paesi',
   17.14,
   613,

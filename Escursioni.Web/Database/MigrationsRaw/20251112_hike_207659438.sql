@@ -7,25 +7,38 @@ VALUES (
   207659438,
   'Forno ~ Pizzo della bandiera ~ Monte Cipolla ~ Grotta dell''onice ~ Monte Girello ~ Monte Castagnolo',
   'Giretto Apuano Il trekking è iniziato da Forno, seguendo il sentiero Forno – Pian dei Santi (E). Da lì abbiamo proseguito in direzione del Pizzo della Bandiera, raggiungendo la seconda cima, quella con la bandiera rossa. Successivamente, abbiamo continuato sul sentiero 154 in direzione di Monte Cipolla. Questo tratto non presenta particolari difficoltà, se non un po’ di dislivello. Arrivati a destinazione, ci siamo fermati per scattare alcune foto e ammirare il magnifico panorama. Siamo poi tornati indietro per la stessa via e abbiamo proseguito sempre lungo il 154, verso la Buca dell’Onice. La Buca dell’Onice ha due ingressi. Sconsiglio quello direttamente lungo il sentiero: è molto ripido e poco sicuro, a causa del terreno friabile. Meglio scendere di un paio di minuti fino a trovare l’ingresso alla galleria. Da lì si entra facilmente e, per i più coraggiosi, c’è una scala che porta alla vera grotta, dove si trovano un presepe e delle luci di Natale. Abbiamo quindi proseguito lungo il sentiero 161 fino a un punto in cui abbiamo tagliato nel bosco per salire in cresta. Da lì abbiamo raggiunto senza difficoltà la vetta del Monte Girello, dove ci siamo fermati per fare qualche foto e pranzare. Sarebbe stato possibile continuare lungo la cresta fino all’incrocio con il 161, ma uno del gruppo non se la sentiva, così l’ho accompagnato giù per il bosco. Da qui ci siamo diretti verso il Monte Castagnolo, dove abbiamo raggiunto entrambe le cime: la prima piuttosto facile, la seconda leggermente più impegnativa, ma comunque affrontabile. Seguendo una piccola crestina, ci siamo spostati verso la Cima della Croce. Anche questa cresta non è particolarmente difficile, se non per un breve tratto un po’ esposto. Da lì si potrebbe proseguire fino alla Mandriola Sud, ma il tempo a disposizione era poco, quindi siamo scesi e abbiamo ripreso il 161, seguendo la strada che riporta a Forno, saltando il Pizzo dell’Acqua e il Monte Tallino. Note tecniche: Il percorso è impegnativo, soprattutto per il dislivello. Non ci sono fonti d’acqua lungo il tragitto (eccetto una all''inizio), quindi è fondamentale portare una buona scorta. Alcuni tratti possono risultare esposti o ripidi, ma nel complesso il sentiero è ben percorribile con un po’ di allenamento e attenzione.',
-  '<h2>Trekking Italia: Forno Pizzo della Bandiera Monte Cipolla Grotta Onice Monte Girello Monte Castagnolo</h2>
+  '<h2 id="escursione-forno-pizzo-della-bandiera-monte-cipolla-grotta-dellonice-monte-girello-monte-castagnolo">Escursione al Forno ~ Pizzo della Bandiera ~ Monte Cipolla ~ Grotta dell’Onice ~ Monte Girello ~ Monte Castagnolo</h2>
 
-<h3>Il Percorso: Escursione Apuano tra le Cime</h3>
-<p>Questo incredibile <strong>trekking</strong> e <strong>escursione</strong> in Italia ti porterà a scoprire panorami mozzafiato e sentieri unici nella regione dell''Apuano. Il percorso, di difficoltà media, si snoda attraverso la <strong>montagna</strong>, regalando emozioni autentiche e un''immersione totale nella <strong>natura</strong>. Partendo da <strong>Forno</strong>, il <strong>sentiero</strong> ti condurrà attraverso una serie di vette spettacolari, offrendo opportunità di <strong>trekking</strong> indimenticabili in <strong>Italia</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa fantastica escursione è il borgo di Forno, situato in Toscana, provincia di Lucca. Raggiungibile in auto dalla SS67, si trova a circa 1600 metri sul mare.  Dalla strada si parcheggia in prossimità del punto di partenza del sentiero.</p>
 
-<h3>Cosa Aspettarsi: Un’Esperienza di Trekking Completa</h3>
-<p>Preparati ad un''esperienza di <strong>trekking</strong> che include la scalata del <strong>Pizzo della Bandiera</strong>, la visita alla suggestiva <strong>Grotta dell''Onice</strong>, e la conquista di altri <strong>monte</strong> come il <strong>Monte Cipolla</strong>, il <strong>Monte Girello</strong> e il <strong>Monte Castagnolo</strong>.  L''<strong>escursione</strong> ti permetterà di ammirare panorami unici e di scoprire la bellezza selvaggia della Toscana.  Non mancheranno momenti di riposo e di ammirazione per i panorami offerti dalla <strong>montagna</strong> e dalla <strong>natura</strong> circostante. Sarà un''occasione perfetta per praticare <strong>trekking</strong> e <strong>escursioni</strong> in un ambiente incontaminato.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Il nostro trekking inizia da Forno, seguendo il sentiero Forno – Pian dei Santi.  Dalla qui, ci dirigiamo verso il Pizzo della Bandiera, la seconda cima con la bandiera rossa. Da lì continuiamo lungo il sentiero 154 verso il Monte Cipolla, dove ci si ferma per ammirare il panorama.  Il percorso prosegue verso la Buca dell’Onice, con ingressi (scegliete quello più sicuro, più basso e meno ripido!). Proseguiamo sul sentiero 161 fino al Monte Girello, dove pranziamo e ammiriamo il panorama.  Rientriamo verso il Monte Castagnolo, superando le due cime e infine tornando a Forno seguendo il sentiero 161, saltando il Pizzo dell’Acqua e il Monte Tallino.</p>
 
-<h3>Informazioni Utili: Dettagli per il Tuo Trekking</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Media – Richiede un minimo di allenamento e abitudine al <strong>trekking</strong>.</li>
-    <li><strong>Distanza Totale:</strong> Circa 15-20 km (a seconda del percorso esatto).</li>
-    <li><strong>Dislivello:</strong> Circa 800-1000 metri (il dislivello è un fattore importante da considerare per la tua <strong>escursione</strong>).</li>
-    <li><strong>Periodo Consigliato:</strong> Primavera, Estate, Autunno – Controlla sempre le previsioni meteo prima di partire.</li>
-    <li><strong>Attrezzatura:</strong> Scarponi da <strong>trekking</strong>, zaino, acqua, cibo, cappello, crema solare, mappa e bussola (o GPS).</li>
-    <li><strong>Importante:</strong> Non ci sono fonti d’acqua lungo il tragitto, quindi è fondamentale portare una buona scorta di acqua. Alcuni tratti possono risultare esposti o ripidi, ma nel complesso il <strong>sentiero</strong> è ben percorribile.</li>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di tipo anello, con una distanza totale di circa 12.91 km e un dislivello di 1649 metri. La difficoltà è considerata Difficile. Il percorso presenta tratti esposti e ripidi, ma è ben percorribile con un po’ di allenamento e attenzione. È fondamentale portare acqua, poiché lungo il tragitto non ci sono fonti d’acqua (eccetto una all’inizio).</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class="list-disc">
+    <li>Distanza: Circa 12.91 km (anello)</li>
+    <li>Dislivello: Circa 1649 metri</li>
+    <li>Difficoltà: Difficile</li>
+    <li>Periodo consigliato: Primavera, Estate, Autunno</li>
+    <li>Punto di partenza: Forno, accessibile in auto dalla SS67</li>
+    <li>Comune: Forno, Toscana</li>
+    <li>Tipo di sentiero: Sentiero escursionistico</li>
 </ul>
 
-<p>Questo <strong>sentiero</strong> offre un''esperienza di <strong>trekking</strong> fantastica per amanti della <strong>natura</strong>, dell''avventura e della scoperta dei luoghi più suggestivi dell''Apuano. Organizza subito la tua <strong>escursione</strong>!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="dettaglio-d-distanza">Distanza:</strong> Circa 12.91 km (anello)</li>
+    <li><strong id="dettaglio-d-dislivello">Dislivello:</strong> Circa 1649 metri</li>
+    <li><strong id="dettaglio-d-difficoltà">Difficoltà:</strong> Difficile</li>
+    <li><strong id="dettaglio-d-periodo">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="dettaglio-d-punto-di-partenza">Punto di partenza:</strong> Forno, accessibile in auto dalla SS67</li>
+    <li><strong id="dettaglio-d-comune">Comune:</strong> Forno, Toscana</li>
+    <li><strong id="dettaglio-d-tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   12.91,
   1649,

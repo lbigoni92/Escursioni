@@ -7,23 +7,38 @@ VALUES (
   185678869,
   'Monte Spallone, Monte Sagro e Punta tre Uomini da Verghereto',
   'Il percorso è sicuramente impegnativo e presenta tratti esposti. Il sentiero fino a Foce Luccica è classificabile come escursionistico; da quel punto in poi, è consigliato solo a escursionisti esperti. Il nostro intento iniziale era quello di prendere la cresta sud del Sagro da Foce Luccica, ma abbiamo poi optato per il sentiero che vedete. Pur essendo sempre sentieri CAI, sono indubbiamente destinati a escursionisti esperti (EE). Il primo tratto da Foce Luccica si snoda lungo la cresta e non presenta particolari difficoltà. Si arriva fino a un rudere, dopodiché si scende per la via di Lizza. A un certo punto, siamo stati costretti a muoverci sulle rocce perché non era chiaro dove proseguire. Da lì ci siamo ricongiunti al sentiero 172 fino a Foce della Faggiola. Questo tratto ha una bella pendenza e, a mio avviso, pur non essendo esposto, richiede un buon impegno fisico. Da Foce della Faggiola abbiamo preso il sentiero in direzione di Poggio della Signora, toccando anche Monte Spallone. Il tratto difficile si trova dopo Monte Spallone: qui vi è un breve tratto esposto, ma semplice. Da lì si arriva al Sagro; abbiamo poi disceso la cresta ovest del Sagro fino al sentiero 173, che è abbastanza facile, sebbene rimanga un percorso EE. Lungo questo tratto ci sono dei cavi che potrebbero non essere sempre necessari, ma risultano utili in caso di ghiaccio o pioggia. Alla foce del Fanaletto, abbiamo proseguito lungo la cresta, in andata e ritorno, fino a raggiungere la Punta Tre Uomini (che risulta più lontana di quanto sembri). La cresta non è esposta, ma bisogna prestare attenzione a una buca molto profonda presente a circa 50-100 metri dalla foce. La via del ritorno percorre un sentiero attrezzato che, a mio avviso, è semplice. Il dislivello è notevole sia in salita che in discesa, con tratti ripidi che richiedono buone gambe. Questo percorso va affrontato solo se si è esperti e a proprio rischio; quanto scritto qui è frutto della mia personale opinione. Il percorso ad anello da Forno passa per: Foce della Faggiola (4.2 km) Monte Spallone (4.8 km) Monte Sagro (5.5 km) Foce del Pollaro (10.3 km) Foce Luccica (13.2 km)',
-  '<h2>Escursione Monte Spallone, Monte Sagro e Punta Tre Uomini da Verghereto: Trekking in Montagna</h2>
+  '<h2 id="escursione-monte-spallone-monte-sagro-e-punta-tre-uomini-da-verghereto">Escursione al Monte Spallone, Monte Sagro e Punta Tre Uomini da Verghereto</h2>
 
-<h3>Il Percorso: Un''Escursione Difficile per Escursionisti Esperti</h3>
-<p>Questo impegnativo <strong>sentiero di trekking</strong> nella **Montagna di Verghereto** offre un''esperienza indimenticabile per gli amanti della <strong>natura</strong> e del <strong>trekking</strong>. La <strong>escursione</strong> in <strong>sentiero</strong> porta fino alla **Punta Tre Uomini**, con tratti significativi che richiedono esperienza e preparazione. Il percorso ad anello è pensato per escursionisti esperti, con un dislivello notevole e una sfida fisica impegnativa.  Abbiamo scelto di esplorare questo incredibile <strong>sentiero CAI</strong>,  combinando diverse tracce per creare un''esperienza unica.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa impegnativa escursione si trova a Forno, in Toscana. Da Forno, seguendo le indicazioni per il sentiero CAI 172, si arriva fino a Foce Luccica, il punto di partenza ufficiale del percorso.</p>
 
-<h3>Cosa Aspettarsi: Tratti Esposti e Paesaggi Mozzafiato</h3>
-<ul>
-    <li>Un percorso ad anello di circa 13,2 km con un dislivello totale di circa 800 metri.</li>
-    <li>Tratti esposti (in particolare dopo Monte Spallone) che richiedono attenzione e abbigliamento adeguato.</li>
-    <li>Un''<strong>escursione</strong> in <strong>montagna</strong> attraverso la **nativa** e variegata flora e fauna della regione.</li>
-    <li>Possibilità di ammirare panorami spettacolari sulla **Montagna di Verghereto** e sulla pianura circostante.</li>
-    <li>Un''esperienza di <strong>trekking</strong> indimenticabile per gli <strong>escursionisti esperti** (EE).</li>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia da Foce Luccica, dove il sentiero si snoda lungo la cresta. Dopo aver superato un rudere, si scende per la via di Lizza, per poi affrontare un tratto più impegnativo con pendii e tratti rocciosi. Da qui, il sentiero si collega al sentiero 172, proseguendo verso Foce della Faggiola, con una bella pendenza.  Si sale verso Monte Spallone, toccando poi il Monte Sagro, dove si trova un breve tratto esposto, ma semplice. Da qui, si prosegue verso la Punta Tre Uomini, con un tratto finale su una cresta non esposta ma che richiede attenzione a una buca profonda.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà medio-alta e non è adatta a principianti. È caratterizzata da tratti esposti, pendii ripidi e alcuni tratti rocciosi. Richiede un buon stato di forma fisica e una buona esperienza in montagna. Il dislivello totale è di circa 1550 metri, quindi è importante essere preparati sia in salita che in discesa.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class=''''>
+    <li><strong>Distanza:</strong> Circa 15.18 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1550 metri</li>
+    <li><strong>Difficoltà:</strong> Medio-Alta</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Foce Luccica, accessibile in auto / a piedi</li>
+    <li><strong>Comune:</strong> Forno, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico / Mulattiera</li>
 </ul>
 
-<h3>Informazioni Utili: Dettagli per una Escursione Sicura</h3>
-<p>Questo <strong>sentiero di trekking</strong> è classificato come difficile, destinato a <strong>escursionisti esperti** (EE). Il percorso inizia da Forno e attraversa diverse zone, tra cui Foce della Faggiola, Monte Spallone, Monte Sagro e Foce del Pollaro.  È fondamentale indossare scarpe da trekking adatte e portare con sé acqua, cibo e attrezzatura di sicurezza.  La **Punta Tre Uomini** risulta più lontana di quanto sembri, e bisogna prestare particolare attenzione a una buca profonda alla foce del Fanaletto.  Il sentiero è prevalentemente CAI, ma alcuni tratti richiedono l''utilizzo di bastoncini da trekking per una maggiore stabilità.  Considera che il sentiero richiede un buon impegno fisico, con tratti ripidi e alcune zone rocciose.  Ricorda, questa <strong>escursione** è da affrontare solo se sei un <strong>escursionista esperto** e sei consapevole dei rischi.</p>
-<p><em>Attenzione: le informazioni fornite sono basate sulla nostra esperienza e potrebbero variare. Controlla sempre le condizioni meteorologiche e del sentiero prima di intraprendere l''escursione.</em></p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul class=''''>
+    <li><strong>Distanza:</strong> Circa 15.18 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1550 metri</li>
+    <li><strong>Difficoltà:</strong> Medio-Alta</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Foce Luccica, accessibile in auto / a piedi</li>
+    <li><strong>Comune:</strong> Forno, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   15.18,
   1550,

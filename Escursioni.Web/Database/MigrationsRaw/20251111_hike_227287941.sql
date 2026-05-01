@@ -7,37 +7,30 @@ VALUES (
   227287941,
   'Sentiero Madonna dell’Acero – Cascate del Dardagna – Rifugio Capanna Tassoni',
   'L’escursione parte idealmente dal Santuario della Madonna dell’Acero, ma in caso di mancanza di posti auto si può parcheggiare lungo la strada e raggiungere il tracciato con brevi deviazioni (sconsigliato). Dal santuario si imbocca il sentiero CAI 331, che inizialmente si sviluppa come una comoda strada sterrata per poi trasformarsi in un piacevole sentiero nel bosco. La salita e la discesa sono dolci, adatte a tutti, ma si consiglia comunque un minimo di preparazione. In breve si raggiungono le spettacolari Cascate del Dardagna, articolate in più salti. Le prime cascate sono facilmente accessibili e rappresentano probabilmente le più scenografiche, con la possibilità di avvicinarsi alla base. Chi non è abituato a camminare può fermarsi qui e tornare indietro. Per chi invece vuole proseguire, il percorso risale con pendenze più decise fino a raggiungere le cascate superiori, ognuna diversa e suggestiva. Superato l’ultimo salto, il sentiero si impenna con maggiore decisione, ma rimane sempre ben segnato. Si prosegue lungo il sentiero 333 fino all’incrocio con il 337, da cui si raggiunge il Laghetto del Cavone con l’omonimo rifugio, ideale per una sosta. Il percorso complessivo non presenta difficoltà tecniche, ma richiede un po’ di impegno nella salita che porta dalle cascate superiori al rifugio. L’ambiente è suggestivo, tra faggete e ruscelli, con la costante presenza del fragore delle cascate che accompagna l’escursione. Consigli -Non oltrepassare le barriere in legno poste nei pressi delle cascate, per motivi di sicurezza. -Dedicate tempo a fermarvi in corrispondenza di ogni salto d’acqua: ognuno ha una sua particolarità.',
-  '<h2>Sentiero Madonna dell’Acero – Cascate del Dardagna – Rifugio Capanna Tassoni</h2>
+  '<h2 id="sentiero-madonna-dellacero-cascate-del-dardagna-rifugio-capanna-tassoni">Sentiero Madonna dell’Acero – Cascate del Dardagna – Rifugio Capanna Tassoni</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza ideale è il Santuario della Madonna dell’Acero.  In alternativa, se il santuario è pieno di auto, si può parcheggiare lungo la strada. Da lì, sono necessarie brevi deviazioni per raggiungere il tracciato del sentiero, ma questa opzione non è consigliata per chi non è abituato a camminare.</p>
 
-<p>Immergetevi in un''escursione indimenticabile lungo il <strong>Sentiero Madonna dell’Acero</strong>, un percorso di <strong>trekking</strong> e <strong>escursione</strong> perfetto per gli amanti della <strong>montagna</strong> e della <strong>natura</strong>. Questo fantastico sentiero, parte del CAI 331 e 333, vi condurrà attraverso un paesaggio mozzafiato, passando per le maestose <strong>Cascate del Dardagna</strong> e raggiungendo il <strong>Rifugio Capanna Tassoni</strong>. L''escursione, ideale per <strong>sentieri Italia</strong>, offre un''esperienza di <strong>trekking</strong> immersa nel verde delle faggete e accompagnata dal suono delle acque.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia con una piacevole salita lungo il sentiero CAI 331, che all''inizio è una strada sterrata e poi si trasforma in un sentiero nel bosco.  Raggiungerete presto le spettacolari Cascate del Dardagna, che si articolano in più salti.  Potete fermarvi alle prime cascate, facilmente accessibili e molto scenografiche, oppure proseguire per ammirare le cascate superiori, ognuna diversa e suggestiva.  Dopo aver superato l’ultimo salto, il sentiero si impenna con maggiore decisione, ma rimane ben segnato, fino all''incrocio con il sentiero 337 che vi porterà al Laghetto del Cavone e al Rifugio Capanna Tassoni.  È un''escursione di circa 5.34 km con un dislivello di 250 metri, ideale per un anello.</p>
 
-<p>Il percorso inizia idealmente dal <strong>Santuario della Madonna dell’Acero</strong>, ma in caso di difficoltà a trovare parcheggio, è possibile raggiungere il tracciato da una strada adiacente con brevi deviazioni. Il sentiero CAI 331 inizialmente si presenta come una comoda strada sterrata, per poi trasformarsi in un piacevole <strong>sentiero</strong> nel bosco, adatto a tutti i livelli di esperienza. La difficoltà dell''escursione è bassa, ma è consigliabile una buona preparazione fisica.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>L''escursione è di difficoltà media, adatta a persone con un minimo di preparazione.  La salita e la discesa sono dolci, ma la salita dalle cascate superiori al rifugio è più impegnativa.  È consigliabile indossare scarpe da trekking e portare con sé acqua e cibo.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Questa escursione offre un panorama mozzafiato tra faggete e ruscelli, con il costante fragore delle cascate.  È un''ottima opportunità per esplorare la natura dell''Emilia-Romagna.  Per visualizzare la traccia GPS, utilizzare una app di navigazione outdoor.</p>
 
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Cascate del Dardagna</strong>: Ammirate le spettacolari cascate, con i loro salti e le loro acque cristalline.</li>
-    <li><strong>Rifugio Capanna Tassoni</strong>: Godetevi una pausa ristoratrice in questo rifugio, ideale per una sosta e per ammirare il panorama circostante.</li>
-    <li><strong>Ambiente Naturale</strong>: Passeggiate attraverso faggete lussureggianti, ruscelli gorgoglianti e godetevi la tranquillità della <strong>natura</strong>.</li>
-    <li><strong>Tracciati CAI</strong>: Seguite i sentieri CAI 331 e 333, ben segnalati e facilmente percorribili.</li>
-</ul>
-
-<p>Questo <strong>sentiero di trekking</strong> è perfetto per chi cerca un''esperienza di <strong>escursione</strong> in un ambiente naturale incontaminato, ideale per famiglie e amanti della <strong>montagna</strong>. La distanza totale del percorso è di circa 8 km con un dislivello di 400 metri, quindi un''escursione di media difficoltà.</p>
-
-<h3>Informazioni Utili</h3>
-
-<ul>
-    <li><strong>Difficoltà</strong>: Facile/Media</li>
-    <li><strong>Distanza</strong>: Circa 8 km</li>
-    <li><strong>Dislivello</strong>: 400 metri</li>
-    <li><strong>Consigli di Sicurezza</strong>: Non oltrepassate le barriere in legno poste nei pressi delle cascate. Dedicate tempo a fermarvi in corrispondenza di ogni salto d''acqua.</li>
-    <li><strong>Punto di Partenza</strong>: Santuario della Madonna dell’Acero</li>
-    <li><strong>Arrivo a Destinazione</strong>: Rifugio Capanna Tassoni</li>
-</ul>
-
-<p>Preparate la vostra <strong>escursione</strong> lungo il <strong>sentiero Madonna dell’Acero</strong>, un''esperienza di <strong>trekking</strong> indimenticabile nel cuore della <strong>montagna</strong> italiana. </p>',
+  <li><strong>Distanza:</strong> Circa 5.34 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 250 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Santuario della Madonna dell’Acero, Poggiolforato, Emilia-Romagna</li>
+  <li><strong>Comune:</strong> Poggiolforato, Emilia-Romagna</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   5.34,
   250,

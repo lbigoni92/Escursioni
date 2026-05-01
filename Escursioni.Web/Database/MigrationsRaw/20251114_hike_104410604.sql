@@ -7,23 +7,30 @@ VALUES (
   104410604,
   'Castiglione della Pescaia',
   'Parcheggiate ai limiti della città e no al centro dove i parcheggi sono a pagamento. E'' stato un giretto pomeridiano in visita al Paesino di Castiglione della pescaia, molto carino come paesino sul mare ! Si voleva passare a visitare le rovine romane , ma il parco era chiuso, in seguito siamo andati a visitare il centro storico e visto le vie principali il paesino era molto carino anche se... sfortunatamente l''accesso al castello non era possibile in quanto proprietà privata... Vi sono numerose spiagge, se volete andare a passare un pomeriggio e fare poi un tuffo in mare è davvero un bel paesino, non mancano le fontanelle bar e ristoranti.',
-  '<h2>Escursione Trekking: Sentiero Castiglione della Pescaia – Sentiero nel Parco</h2>
+  '<h2 id="escursione-castiglione-della-pescaia">Escursione a Castiglione della Pescaia: Un Pomeriggio al Paesino sul Mare</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo sentiero escursionistico offre un’opportunità fantastica per immergerti nella bellezza della **montagna** e del **mare** intorno a <strong>Castiglione della Pescaia</strong>. Partendo dai limiti della città, potrai intraprendere un piacevole <em>trekking</em> attraverso un paesaggio variegato, passando per sentieri ben tenuti e ampi panorami. L''escursione si concentra sulla visita al caratteristico paesino, con la possibilità di esplorare il centro storico e le sue vie principali.  Si tratta di un’ottima **escursione** di un giorno, ideale per famiglie e appassionati di **trekking** in **Italia**.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza di questa escursione è ai limiti della città di Castiglione della Pescaia. Partendo dai confini della città, si può facilmente raggiungere il centro storico. Evita i parcheggi a pagamento all''interno del centro, dove spesso il costo è elevato.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<ul>
-    <li>Un percorso di circa <strong>5 km</strong>, adatto a escursionisti principianti ed esperti.</li>
-    <li>Un dislivello medio di circa <strong>200 metri</strong>, per un’esperienza di **trekking** stimolante ma accessibile.</li>
-    <li>Possibilità di ammirare panorami mozzafiato sul **mare** e sulla **montagna**.</li>
-    <li>La visita di un pittoresco paesino costiero con un ricco patrimonio storico e culturale.</li>
-    <li>Numerose spiagge sabbiose per una pausa rilassante e un tuffo rinfrescante.</li>
-</ul>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo giro è un''escursione facile e piacevole adatta a tutti. Inizia dal punto di partenza e prosegui attraverso le strade del paese, immergendoti nel cuore di Castiglione della Pescaia. Durante il percorso, potrai ammirare le vie principali e le caratteristiche del paesino.  Dopo una breve passeggiata, potrai esplorare le rovine romane (se aperte) e poi dedicarti alla visita del centro storico.  Non dimenticare di assaporare un caffè o un gelato in uno dei bar o ristoranti del centro. Se il tempo lo permette, concediti un tuffo nelle splendide spiagge che costeggiano il paese.</p>
 
-<h3>Informazioni Utili</h3>
-<p>Il sentiero è facilmente raggiungibile in auto, con parcheggio disponibile ai limiti della città. Si consiglia di indossare scarpe da trekking adeguate e di portare con sé acqua e snack. L''escursione offre un''occasione unica per scoprire le meraviglie della natura e la ricchezza storica di <strong>Castiglione della Pescaia</strong>.  Il sentiero è parte del  <em>Parco del Tavolara</em>, garantendo un’esperienza immersiva nella **natura** e nella **montagna**.</p>
-<p><em>Nota:</em> L''accesso al castello è limitato a causa della sua proprietà privata.  Questo non compromette la bellezza del percorso e la possibilità di godersi il paesaggio.  Organizza la tua **escursione** in **sentiero** a <strong>Castiglione della Pescaia** per un’esperienza indimenticabile!</p>',
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è di **facile** difficoltà, adatta a famiglie e a tutti coloro che desiderano un''escursione rilassante con una bella vista sul mare. Il dislivello è contenuto, quindi il percorso è adatto anche a persone meno allenate.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Disponibile presto.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+  <li><strong>Distanza:</strong> Circa 4.73 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 149 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Limiti della città di Castiglione della Pescaia</li>
+  <li><strong>Comune:</strong> Castiglione della Pescaia, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   4.73,
   149,

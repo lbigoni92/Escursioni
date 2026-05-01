@@ -7,28 +7,30 @@ VALUES (
   112720981,
   'Orechiella Sulcina',
   'Orechiella Sulcina',
-  '<h2>Trekking Orechiella Sulcina: Escursione a Succhiare l''Acqua Cristallina nel Parco Naturale del Monte Grappa</h2>
+  '<h2 id="escursione-orechiella-sulcina">Escursione alle Orechiella Sulcina</h2>
 
-<h3>Il Percorso</h3>
-<p>L''escursione all''Orechiella Sulcina è un <em>trekking</em> indimenticabile nel cuore del <strong>Parco Naturale del Monte Grappa</strong>, in Veneto. Questo <em>sentiero</em> di <em>trekking</em>, adatto a escursionisti esperti e amanti della <em>natura</em>, conduce ad un lago di origine glaciale, le celebre <strong>Orechiella</strong>, un vero spettacolo naturale. Il percorso inizia da Succhivo, un piccolo borgo di montagna, e si snoda attraverso boschi di faggio e larice, offrendo panorami mozzafiato sulle cime circostanti.</p>
-<p>Il sentiero presenta una media difficoltà, con alcuni tratti in salita e discesa, che richiedono un minimo di preparazione fisica. L''<em>escursione</em> di <em>trekking</em> è di circa 11 chilometri, con un dislivello di 800 metri, ed è quindi consigliata a chi pratica il <em>trekking</em> regolarmente.  Preparatevi a immergervi nella natura selvaggia, respirando l''aria pura della <em>montagna</em> e ammirando la bellezza incontaminata del territorio.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per l''escursione alle Orechiella Sulcina è facilmente raggiungibile. Parcheggiate in una delle piazzole lungo la strada che sale verso **Sulcina**, oppure trovate un posto disponibile nei pressi del civico 12 della strada provinciale. Da qui, seguite il sentiero che sale dolcemente, ben segnalato, e vi porterà direttamente al punto di partenza del giro.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Durante questo <em>sentiero</em> di <em>trekking</em>, vi attendono scorci spettacolari della <strong>montagna veneta</strong>. Potrete ammirare la flora e la fauna locali, tra cui il raro <em>bosco ombroso</em> e numerose specie di uccelli.  L''<em>Orechiella Sulcina</em> è un luogo magico, dove è possibile <em>succhiare l''acqua cristallina</em> direttamente dalle fonti naturali e godere della tranquillità della <em>natura</em>.  Un''<em>escursione</em> perfetta per chi cerca un''esperienza autentica nel cuore delle <em>Alpi orientali</em>.</p>
-<p>La presenza di <em>fonti</em> e di <em>laghi</em> rende l''area ideale per l''idratazione e per scattare delle belle foto, un''esperienza unica nel suo genere per gli amanti del <em>trekking</em> e dell''<em>escursionismo</em>.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo fantastico giro ad anello vi condurrà attraverso un paesaggio incredibile! Iniziate da vicino al punto di partenza e, seguendo il sentiero, salite gradualmente attraverso boschi di faggio e rovero. Il sentiero si fa più ripido in alcuni tratti, ma niente di particolarmente impegnativo. Proseguite oltre il punto più alto, dove si apre un panorama mozzafiato sulle **Orechiella**, delle spettacolari formazioni rocciose che danno il nome all''escursione.  Raggiungete l''altro lato delle Orechiella, ammirate da vicino queste formazioni uniche, e poi iniziate la discesa, che è più agevole e panoramica. Rientrate al punto di partenza, completando così l''anello.  È un''escursione perfetta per godersi la natura e ammirare un panorama indimenticabile.  Un''ottima <strong id="parola-chiave-escursione">escursione</strong> per appassionati di montagna!</p>
 
-<h3>Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa è un''escursione di <strong id="difficoltà-escursione">Difficoltà Media</strong>. La distanza totale è di circa 5.81 km per un anello. Il dislivello è di +282 metri, quindi preparatevi a qualche tratto in salita, ma niente di eccessivamente faticoso. L''anello è adatto a persone con un minimo di allenamento e un buon paio di scarpe da trekking.  L''escursione richiede circa 3-4 ore, a seconda del ritmo e delle soste. Non dimenticate l''acqua e uno snack per ricaricare le energie!</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per seguire il percorso, vi consiglio di utilizzare una traccia GPS. Potete scaricarla e visualizzarla su un dispositivo GPS o su una app di escursionismo sul vostro smartphone.  Ricordatevi di controllare le previsioni del tempo prima di partire e di informare qualcuno del vostro itinerario.  È sempre meglio essere preparati!</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Difficoltà:</strong> Media</li>
-    <li><strong>Distanza:</strong> 11 km</li>
-    <li><strong>Dislivello:</strong> 800 metri</li>
-    <li><strong>Punto di partenza:</strong> Succhivo (TN)</li>
-    <li><strong>Periodo migliore:</strong> Da maggio a ottobre</li>
-    <li><strong>Attrezzatura consigliata:</strong> Scarpe da trekking, zaino, acqua, cibo, cappello, crema solare, mappa, bussola/GPS</li>
-    <li><strong>Consigli:</strong> Informatevi sulle condizioni meteorologiche prima di partire, rispettate l''ambiente naturale,  seguite i sentieri segnalati e godetevi questa meravigliosa <em>escursione</em> in <em>sentiero</em>!</li>
-</ul>
-
-<p>Se siete amanti del <em>trekking</em> e dell''<em>escursionismo</em> in <em>Italia</em>, l''Orechiella Sulcina vi lascerà sicuramente senza parole.  Un''occasione unica per scoprire la bellezza del <strong>Monte Grappa</strong> e per vivere un''esperienza di <em>trekking</em> indimenticabile. Non perdete l''occasione di praticare questo splendido <em>sentiero</em>!</p>',
+    <li><strong id="distanza-escursione">Distanza:</strong> Circa 5.81 km (anello)</li>
+    <li><strong id="dislivello-escursione">Dislivello:</strong> Circa 282 metri</li>
+    <li><strong id="difficoltà-escursione">Difficoltà:</strong> Media</li>
+    <li><strong id="periodo-escursione">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Vicino al civico 12 della strada provinciale di Sulcina, accessibile in auto</li>
+    <li><strong id="comune-escursione">Comune:</strong> Sulcina, Regione Toscana, Italia</li>
+    <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   5.81,
   282,

@@ -7,21 +7,36 @@ VALUES (
   168910075,
   'Candalla - Casoli - Ciurlaglia - Grotta del Tmbugione - Monte Penna',
   'Il percorso principale si snoda su sentieri escursionistici con alcune salite impegnative, specialmente per coloro che non sono abituati alla montagna. Il punto di partenza è Candalla (con pochi parcheggi disponibili; in alternativa, si può partire da Casoli). Da qui si segue il sentiero c7 in direzione Casoli, ben segnalato, con una leggera salita. Casoli è un suggestivo paese con una storia interessante da approfondire, parte della quale è rappresentata dai suoi pittoreschi graffiti, che le conferiscono il soprannome di "città dei graffiti". Dopo Casoli, si continua lungo il sentiero 112 in direzione "Focetta di San Vincenzo". Anche qui non ci sono particolari difficoltà nel seguire il percorso, se non per una salita leggera. Se ci si stanca, è possibile fare delle soste per ammirare le splendide Polle e i bellissimi ruscelli. Dalla Focetta di San Vincenzo si prosegue lungo il sentiero 104 fino alla deviazione che porta sulla cima del primo monte, il monte Ciurlaglia. La deviazione è semplice e, nonostante si tratti di un sentiero non ufficialmente tracciato e segnalato, è facilmente percorribile. Si consiglia una sosta veloce, ma attenzione alle rocce e all''erba alta. Una volta raggiunta la vetta, si gode di un bellissimo panorama sul mare, anche se la vista verso i monti a est è parzialmente ostruita dalla vegetazione. Ritornando indietro, si prosegue sempre sul sentiero 104 (che purtroppo diventa una strada da questo punto), quasi fino a raggiungere Metato. Prima di arrivare al paese, si prende la deviazione per il sentiero c7 (attenzione, classificato EE). Da qui si può visitare la grotta del Monte Penna e la grotta del Tmbugione. Il percorso per la grotta del Tmbugione è poco segnalato e richiede di individuare alcune rocce su cui arrampicarsi, ma non presenta particolari difficoltà (forse grado di scalata 1, ognuno decida in base alla propria esperienza). La cresta del monte Penna, invece, è stata una sfida poiché in alcuni punti richiedeva l''uso delle corde, che non avevamo con noi. Sarà per un''altra volta. Il resto del percorso da Metato segue il sentiero c7 (escursionistico) e ci ha permesso di visitare le rovine del castello di Montecastrese, molto suggestive, prima di ritornare alle auto sempre lungo il c7. Tuttavia, va tenuto presente che il sentiero è escursionistico, escludendo la parte del monte Penna. Si consiglia di portare sempre almeno 2 litri d''acqua e di fare le soste necessarie. Quanto riportato è la mia esperienza personale; per voi potrebbe essere più impegnativo. Non sottovalutate la montagna e utilizzate attrezzature adeguate.',
-  '<h2>Trekking Candalla - Casoli - Ciurlaglia - Grotta del Tmbugione - Monte Penna: Escursioni in Montagna e Sentieri Naturali</h2>
+  '<h2 id="escursione-candalla-casoli-ciurlaglia-grotta-tmbugione-monte-penna">Escursione a Candalla, Casoli, Ciurlaglia, Grotta del Tmbugione e Monte Penna</h2>
 
-<h3>Il percorso</h3>
-<p>Questo <strong>sentiero escursionistico</strong> in <strong>montagna</strong>, ideale per <strong>trekking</strong> e <strong>escursioni</strong>, vi porterà attraverso paesaggi mozzafiato e suggestive formazioni naturali. Il percorso principale si snoda su sentieri ben segnalati, con alcune salite impegnative, perfette per chi cerca una <strong>trekking</strong> attiva e un''immersione nella <strong>natura</strong>. Partirete da <strong>Candalla</strong>, oppure da <strong>Casoli</strong>, e seguirete il sentiero c7, caratterizzato da una leggera salita e da un ambiente naturale incontaminato. Preparatevi ad ammirare le splendide <strong>Polle</strong> e i bellissimi <strong>ruscelli</strong> lungo il cammino.</p>
+<h3 id="come-arrivare-punto-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza di questa bellissima escursione è a <strong>Candalla</strong>, un piccolo borgo nel cuore della <strong>Toscana</strong>. Trovare parcheggio può essere difficile, quindi considerate l''opzione di partire da <strong>Casoli</strong>, un paese più grande e facilmente raggiungibile. Da entrambi i punti di partenza, il sentiero inizia direttamente in paese.</p>
 
-<h3>Cosa aspettarsi</h3>
-<p>L''<strong>escursione</strong> prevede diverse fasi: inizialmente un <strong>trekking</strong> relativamente facile attraverso il sentiero c7 e il sentiero 112, con la possibilità di una breve sosta per esplorare il suggestivo paese di <strong>Casoli</strong>, famoso per i suoi graffiti. Successivamente, la deviazione sul sentiero 104 vi condurrà alla cima del monte <strong>Ciurlaglia</strong>, offrendo un panorama mozzafiato sul mare.  Preparatevi a una salita impegnativa sul <strong>Monte Penna</strong>, dove, purtroppo, la mancanza di corde da arrampicata ha impedito la completa esecuzione del percorso. L''<strong>escursione</strong> include la visita alla grotta del <strong>Tmbugione</strong> e delle rovine del castello di <strong>Montecastrese</strong>, un''opportunità unica per immergervi nella storia e nella cultura del territorio.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo itinerario di <strong>anello</strong> vi porterà attraverso paesaggi mozzafiato. Iniziando da <strong>Candalla</strong>, seguirete il sentiero c7 in direzione <strong>Casoli</strong>, godendovi una leggera salita ben segnalata. Una volta arrivati a <strong>Casoli</strong>, un affascinante paese con graffiti unici, proseguirete lungo il sentiero 112 in direzione "Focetta di San Vincenzo". Lungo il percorso ci saranno salite e discese, ma niente di particolarmente impegnativo, a meno che non siate abituati alla <strong>montagna</strong>.  Raggiungerete il monte <strong>Ciurlaglia</strong>, con una breve deviazione e una vista panoramica sul mare. Dalla vetta, la vista sui monti a est è parzialmente ostruita dalla vegetazione.  Proseguendo sul sentiero 104, vi inoltrerete verso <strong>Metato</strong>, dove potrete visitare le rovine del castello di <strong>Montecastrese</strong>. Il percorso termina con una discesa sul sentiero c7, tornando al punto di partenza.</p>
 
-<h3>Informazioni utili</h3>
-<ul>
-    <li><b>Difficoltà:</b> EE (Escursionistico) - Richiede una buona preparazione fisica</li>
-    <li><b>Distanza:</b> Circa 15-20 km (variabile a seconda delle deviazioni)</li>
-    <li><b>Dislivello:</b> Circa 800-1000 metri</li>
-    <li><b>Punti di interesse:</b> Grotta del Tmbugione, Monte Ciurlaglia, Vette del Monte Penna, Castello di Montecastrese, Graffiti di Casoli</li>
-    <li><b>Consigli:</b> Portare sempre almeno 2 litri d''acqua, attrezzatura adeguata per l''<strong>escursione</strong> in <strong>montagna</strong> e attenzione alle rocce e all''erba alta.  Questa <strong>trekking</strong> in Italia è perfetta per gli amanti della natura.</li>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa <strong>escursione</strong> è classificata come <strong>media</strong>, con un totale di <strong>14.34 km</strong> e un <strong>dislivello di 983 metri</strong>. Ci saranno tratti con salite e discese, ma niente di particolarmente impegnativo per escursionisti abituali. È importante essere in buona forma fisica e avere un minimo di esperienza in montagna. Ricordatevi che il sentiero c7, in alcuni tratti, è un sentiero escursionistico e in alcuni punti richiede attenzione e prudenza, soprattutto lungo la cresta del <strong>Monte Penna</strong> dove la presenza di rocce e erba alta può rendere la salita più difficile.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Disponibile traccia GPS: <a href="#">Inserire Traccia GPS qui</a></p>
+<p><strong>Distanza:</strong> Circa 14.34 km (anello)</p>
+<p><strong>Dislivello:</strong> Circa 983 metri</p>
+<p><strong>Difficoltà:</strong> Media</p>
+<p><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</p>
+<p><strong>Punto di partenza:</strong> Candalla o Casoli (accessibile in auto o a piedi)</p>
+<p><strong>Comune:</strong> Casoli, <strong>Toscana</strong>, <strong>Italia</strong></p>
+<p><strong>Tipo di sentiero:</strong> Sentiero escursionistico</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+  <li><strong id="distanza">Distanza:</strong> Circa 14.34 km (anello)</li>
+  <li><strong id="dislivello">Dislivello:</strong> Circa 983 metri</li>
+  <li><strong id="difficoltà">Difficoltà:</strong> Media</li>
+  <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="punto-partenza">Punto di partenza:</strong> Candalla o Casoli (accessibile in auto / a piedi)</li>
+  <li><strong id="comune">Comune:</strong> Casoli, <strong>Toscana</strong>, <strong>Italia</strong></li>
+  <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>',
   'Tutte le Attività e Paesi',
   14.34,

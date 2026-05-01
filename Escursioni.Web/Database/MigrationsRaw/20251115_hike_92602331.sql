@@ -7,34 +7,70 @@ VALUES (
   92602331,
   'Trekking cittadino - Livorno - Mare',
   'Camminata molto semplice in pianura per la mia città, per riprendermi da un infortunio al ginocchio. La camminata, prevede di passare da alcuni dei luoghi storici più importanti del centro città: Acquario di livorno Terrazza mascagni Gazzebo Fontana del Nettuno Monumento al marinaio Rotonda d''ardenza E'' adatta a tutte le persone, di tutte l''età, a famiglie, turisti ecc... ovviamente essendo in città ed essendo pochi chilometri non avete bisogno d''attrezzature, lungo il percorso ci sono diverse fontanelle, bar e ristoranti.',
-  '<h2>Trekking Cittadino - Livorno - Mare: Escursione Facile sul Lungomare</h2>
-
-<h3>Il Percorso</h3>
+  '<h2 id="trekking-cittadino-livorno-mare">Trekking Cittadino - Livorno - Mare</h2>
 
 <p>
-Questo <strong>trekking cittadino a Livorno</strong> è progettato per offrire un''esperienza di <strong>escursione</strong> rilassante e accessibile a tutti. Il percorso si snoda lungo la pianura costiera, attraversando i punti più significativi del centro storico di <strong>Livorno</strong>, rendendolo una perfetta attività per chi desidera scoprire la città in modo attivo e alla scoperta della sua ricca storia.  L''<strong>escursione a piedi</strong> è ideale per chi cerca un''attività di <strong>trekking</strong> facile e divertente, anche per famiglie e turisti.
+  Recentemente, ho deciso di affrontare un’escursione diversa, un vero e proprio trekking cittadino, per staccare la spina e riprendermi da un piccolo infortunio al ginocchio. 
+  Ho scelto Livorno e, con un anello di circa 10.16 km, ho esplorato la città attraverso sentieri storici e panorami mozzafiato. 
+  È stata un''escursione perfetta per chiunque, di qualsiasi età e provenienza, voglia scoprire la bellezza di Livorno senza fatica!
 </p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
 <p>
-Preparatevi a una piacevole passeggiata in un ambiente urbano ricco di fascino.  Il <strong>sentiero</strong> offre scorci mozzafiato sul <strong>mare di Toscana</strong>, con la sua sabbia dorata e le onde che si infrangono sulla costa.  Potrete ammirare i monumenti storici di <strong>Livorno</strong>, inclusi l''<strong>Acquario di Livorno</strong>, la <strong>Terrazza Mascagni</strong> e la suggestiva <strong>Fontana del Nettuno</strong>.  L''<strong>escursione di trekking</strong> è adatta a tutti i livelli e offre un''esperienza unica nel cuore della città.
+  Il punto di partenza di questa escursione è comodamente raggiungibile in auto o con i mezzi pubblici. 
+  Si parte dalla <strong>Terrazza Mascagni</strong>, un luogo iconico di Livorno, perfetto per iniziare la camminata. 
+  Dalla Terrazza Mascagni, il sentiero si snoda dolcemente, seguendo la costa.
 </p>
 
-<h3>Informazioni Utili</h3>
+<h3 id="il-percorso-passo-passo">Il Percorso Passo per Passo</h3>
 
-<ul>
-  <li><strong>Difficoltà:</strong> Molto Facile</li>
-  <li><strong>Distanza:</strong> Circa 5-7 km (il percorso esatto può variare leggermente)</li>
-  <li><strong>Durata:</strong> Circa 2-3 ore</li>
-  <li><strong>Adatto a:</strong> Famiglie, turisti, persone di tutte le età e livelli di fitness</li>
-  <li><strong>Punti di Interesse:</strong> Acquario di Livorno, Terrazza Mascagni, Gazzebo, Fontana del Nettuno, Monumento al Marinaio, Rotonda d''Ardenza</li>
-  <li><strong>Servizi lungo il percorso:</strong> Diverse fontanelle, bar e ristoranti per ricaricare le energie</li>
+<p>
+  Il sentiero ci conduce attraverso un percorso vario e affascinante: 
+  iniziamo dalla <strong>Terrazza Mascagni</strong>, ammirando il panorama sul mare, poi proseguiamo verso il <strong>Gazzello</strong>, la <strong>Fontana del Nettuno</strong>, il <strong>Monumento al Marinaio</strong>, la <strong>Rotonda d''Ardenza</strong> e poi torniamo alla <strong>Terrazza Mascagni</strong>.
+  È un percorso facile e accessibile, ideale per famiglie e per chi cerca una passeggiata rilassante.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>
+  Questa <strong>escursione</strong> è classificata come <strong>Facile</strong>, con un <strong>dislivello di 0 metri</strong>. 
+  La distanza totale è di circa 10.16 km e si tratta di un giro <strong>anello</strong>.
+  Non ci sono ostacoli tecnici o difficoltà particolari, quindi è adatta a tutti, anche ai bambini. 
+  Ci sono diverse fontanelle e punti di ristoro lungo il percorso.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>
+  <strong id="traccia-gps-e-informazioni-pratiche">Traccia GPS:</strong> (Inserire qui traccia GPS)
+</p>
+
+<ul id="traccia-gps-e-informazioni-pratiche">
+    <li><strong>Distanza:</strong> Circa 10.16 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 0 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Terrazza Mascagni, San Iacopo, Toscana, Italia</li>
+    <li><strong>Comune:</strong> San Iacopo</li>
+    <li><strong>Provincia:</strong> Toscana</li>
+    <li><strong>Regione:</strong> Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>
-Questa <strong>escursione a Livorno</strong> è un''ottima opportunità per immergervi nella bellezza della città e godervi una giornata all''aria aperta.  Che siate residenti o visitatori, il <strong>sentiero</strong> offre un''esperienza indimenticabile per tutti gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>.  Esplorate il <strong>sentiero cittadino</strong> di <strong>Livorno</strong> e scoprite le sue meraviglie!
-</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 10.16 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 0 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Terrazza Mascagni, San Iacopo, Toscana, Italia</li>
+    <li><strong>Comune:</strong> San Iacopo, Toscana</li>
+    <li><strong>Provincia:</strong> Toscana</li>
+    <li><strong>Regione:</strong> Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.16,
   0,

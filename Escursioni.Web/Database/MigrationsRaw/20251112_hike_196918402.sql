@@ -7,29 +7,38 @@ VALUES (
   196918402,
   'Ciaspolata Rifugio Casetta di Lapo, Cima del Diaccione e Lago della Risaia da Passo dell''Abetone Abetone Pt',
   'Percorso ad anello da Passo dell''Abetone fino quasi alla cima del Libro Aperto, passando per: Rifugio Casetta di Lapo (3,7 km) Cima del Diaccione (4,2 km) Lago della Risaia (7,5 km) Siamo partiti dall''Abetone percorrendo il sentiero 00 fino a quasi arrivare al Monte Belvedere. Sfortunatamente, non siamo riusciti a raggiungere le due vette a causa di un tratto completamente ghiacciato e stretto, pericoloso da affrontare senza ramponi e attrezzatura adeguata. La ciaspolata è stata comunque molto piacevole, anche se la neve era ghiacciata. Al ritorno, ci siamo fermati alla Casetta di Lapo, dove abbiamo mangiato benissimo, per poi proseguire verso il Lago della Risaia, che abbiamo trovato meravigliosamente ghiacciato. Infine, siamo tornati alle auto percorrendo la strada sterrata. Un percorso molto bello che consiglio. Mi raccomando: attrezzatura adeguata specialmente d''inverno!',
-  '<h2>Ciaspolata Rifugio Casetta di Lapo, Cima del Diaccione e Lago della Risaia da Passo dell''Abetone Abetone PT</h2>
+  '<h2 id="ciaspolata-rifugio-casetta-di-lapo-cima-del-diaccione-lago-della-risaia-da-passo-dellabetone-abetone-pt">Ciaspolata Rifugio Casetta di Lapo, Cima del Diaccione e Lago della Risaia da Passo dell''Abetone</h2>
 
-<h3>Il percorso: Escursione a Ciaspole in Montagna</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa fantastica ciaspolata è il Passo dell''Abetone, facilmente raggiungibile in auto o in autobus dalla Toscana. Da lì, seguiamo il sentiero 00, un percorso ben segnalato che ci porterà verso le vette del Libro Aperto. Ricorda, l''Abetone è una meta ambita, ma preparati ad affrontare un''escursione impegnativa!</p>
 
-<p>Scopri questo incredibile <strong>sentiero di trekking</strong> in Abetone, perfetto per un''<strong>escursione a ciaspolas</strong> e un''immersione nella selvaggia bellezza della <strong>montagna italiana</strong>. Questo anello ti condurrà attraverso paesaggi mozzafiato, dal <strong>Passo dell''Abetone</strong> fino alle pendici della <strong>Cima del Diaccione</strong> e al pittoresco <strong>Lago della Risaia</strong>.  Ideale per una giornata di <strong>trekking</strong> in inverno, questa <strong>escursione a piedi</strong> offre un''esperienza indimenticabile per amanti della natura e della <strong>montagna</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Partiamo dal Passo dell''Abetone, salendo lungo il sentiero 00 fino a raggiungere il Rifugio Casetta di Lapo (circa 3,7 km). Da qui, proseguiamo verso la Cima del Diaccione (circa 4,2 km), godendoci il panorama mozzafiato. Dopo aver superato la cima, scendiamo verso il Lago della Risaia (circa 7,5 km), un luogo incantevole e, in questo periodo, completamente ghiacciato! Il percorso di ritorno è lungo la strada sterrata, tornando al Passo dell''Abetone.</p>
 
-<h3>Cosa aspettarsi: Una Ciaspolata Ricca di Natura</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa è un''escursione di difficoltà **media**, adatta agli escursionisti allenati. La distanza totale è di circa 12,26 km con un dislivello positivo di 601 metri. La neve, soprattutto in prossimità delle cime, può essere ghiacciata, rendendo il sentiero scivoloso e potenzialmente pericoloso.  È fondamentale indossare abbigliamento e scarpe da ciaspolata adeguate, oltre a portare con sé acqua, cibo e un kit di pronto soccorso. </p>
 
-<p>Preparati a una <strong>ciaspolata</strong> impegnativa ma estremamente gratificante,  con panorami spettacolari sulla catena dell''Abetone. Il sentiero, che si snoda attraverso la neve e il ghiaccio, richiede un buon livello di preparazione fisica e l''utilizzo di <strong>ciaspole</strong> adatte al terreno. La difficoltà del <strong>sentiero escursionistico</strong> è moderata, ma è fondamentale valutare attentamente le proprie capacità.  L''ambiente circostante è dominato da un paesaggio alpino incontaminato, ricco di flora e fauna, dove potrai ammirare la maestosità della <strong>Cima del Diaccione</strong> e la bellezza ghiacciata del <strong>Lago della Risaia</strong>.  Un''<strong>escursione in montagna</strong> che ti lascerà senza fiato!</p>
-
-<h3>Informazioni utili: Dettagli per un''Escursione Sicura</h3>
-
-<ul>
-    <li><strong>Distanza Totale:</strong> Circa 12 km</li>
-    <li><strong>Dislivello:</strong> Circa 600 metri</li>
-    <li><strong>Difficoltà:</strong> Moderata - Richiede esperienza e attrezzatura adeguata</li>
-    <li><strong>Punto di partenza:</strong> Passo dell''Abetone</li>
-    <li><strong>Punti di interesse:</strong> Rifugio Casetta di Lapo, Cima del Diaccione, Lago della Risaia</li>
-    <li><strong>Periodo consigliato:</strong> Inverno (verificare le condizioni del sentiero e le previsioni meteo)</li>
-    <li><strong>Attrezzatura essenziale:</strong> Ciaspole, scarponi da trekking, abbigliamento a strati, guanti, cappello, occhiali da sole, bastoncini da trekking, acqua, cibo, mappa e bussola/GPS</li>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class="list">
+    <li>**Distanza:** Circa 12,26 km (anello)</li>
+    <li>**Dislivello:** Circa 601 metri</li>
+    <li>**Difficoltà:** Medio</li>
+    <li>**Periodo consigliato:** Primavera, Estate, Autunno</li>
+    <li>**Punto di partenza:** Passo dell''Abetone, accessibile in auto/autobus</li>
+    <li>**Comune:** Abetone, Toscana</li>
+    <li>**Regione:** Italia</li>
 </ul>
 
-<p>Ricorda, la sicurezza è fondamentale!  Prima di intraprendere questa <strong>escursione in sentiero</strong>, verifica le condizioni meteorologiche e del sentiero.  L''utilizzo di <strong>attrezzatura da trekking</strong> adeguata è essenziale, soprattutto in inverno.  Un''attenta pianificazione e un rispetto per l''ambiente sono fondamentali per godere appieno di questa splendida <strong>gita a piedi</strong>.  Non dimenticare di informare qualcuno del tuo itinerario!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li ><strong>Distanza:</strong> Circa 12,26 km (anello)</li>
+    <li ><strong>Dislivello:</strong> Circa 601 metri</li>
+    <li ><strong>Difficoltà:</strong> Medio</li>
+    <li ><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li ><strong>Punto di partenza:</strong> Passo dell''Abetone, accessibile in auto/autobus</li>
+    <li ><strong>Comune:</strong> Abetone, Toscana</li>
+    <li ><strong>Regione:</strong> Italia</li>
+</ul>',
   'Tutte le Attività e Paesi',
   12.26,
   601,

@@ -7,26 +7,38 @@ VALUES (
   169739007,
   'Monte Rovaio, Monte Bovario e Monte Nome del Gesù dall'' Alpe di San''Antonio',
   'Percorso ad anello dall''Alpe di San''Antonio, passando per: - Monte Rovaio (4.5 km) - Monte Bovaio (5.5 km) - Monte Nome del Gesù (5.9 km) Il giro base è un giro classificato E escursionistico ma presenta un piccolo tratto con un cavo d''acciaio ma niente di che basta stare attenti, il sentiero dedicato è dedicato a Fosco Maraini, celebre scrittore ed esploratore che trascorse gli ultimi anni della sua vita a Pasquìgliora, si presenta con dislivello di 350 metri e durata di 3 ore a/r e attraversa il cimitero dove riposa Maraini, le case di Colle Panestra e Trescala (teatro di una battaglia nel 1944). Il percorso, offre panorami mozzafiato sulle Panie. al km 5 è possibile prendere una deviazione e salire sui due monti un pò più tosti visto che ci troviamo in cresta il M.Bovario e il M.Nome di gesù. il M. Bovario non presenta grossi problemi sulla sua crestina è un pò scenica in quanto si ha un bellissimo panorama su entrambi i versanti il M. Nome di Gesù invece è sicuramente EE si deve stare attenti a dove si passa anche se qualche omino ci fa capire qual''è il sentiero corretto e migliore, con un pò d''attenzione si fa, noiosa una parte con i assi che fanno scivolare.',
-  '<h2>Trekking Monte Rovaio, Monte Bovario e Monte Nome del Gesù dall'' Alpe di San''Antonio: Escursione in Montagna a Fosco Maraini</h2>
+  '<h2 id="escursione-monte-rovaio-monte-bovario-monte-nome-del-gesù-dall-alpe-di-san-antonio">Escursione al Monte Rovaio, Monte Bovario e Monte Nome del Gesù dall'' Alpe di San''Antonio</h2>
 
-<h3>Il Percorso</h3>
-<p>Immergetevi in un''escursione indimenticabile con questo <strong>trekking a anello</strong> che vi porterà attraverso le cime maestose del <strong>Monte Rovaio</strong>, del <strong>Monte Bovario</strong> e del <strong>Monte Nome del Gesù</strong>, partendo dall''<strong>Alpe di San''Antonio</strong>. Questa <strong>escursione in montagna</strong> offre panorami mozzafiato sulle <strong>Panie</strong> ed è perfetta per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>. Il percorso, dedicato al celebre scrittore e esploratore <strong>Fosco Maraini</strong>, è un''occasione unica per scoprire la sua storia e ammirare la bellezza del paesaggio.</p>
-<p>La difficoltà del sentiero è classificata come <strong>E</strong>, ma presenta un breve tratto con un <strong>cavo d''acciaio</strong>, pertanto è richiesta prudenza.  L''<strong>escursione</strong> si snoda lungo un dislivello di 350 metri e dura circa 3 ore andata e ritorno, offrendo una vivace esperienza di <strong>sentiero</strong> e <strong>natura</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa fantastica escursione è l''<strong>Alpe di San''Antonio</strong>, facilmente raggiungibile in auto tramite strade panoramiche. Da lì, seguire le indicazioni per i sentieri escursionistici che portano verso i monti.  È consigliabile arrivare con un po'' di anticipo per trovare parcheggio, soprattutto nei periodi di alta stagione.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<ul>
-    <li><strong>Percorso ad anello</strong>: Un circuito completo che vi permetterà di esplorare tutte le cime.</li>
-    <li><strong>Difficoltà E</strong>: Adatto a escursionisti esperti e famiglie.</li>
-    <li><strong>Dislivello</strong>: 350 metri</li>
-    <li><strong>Durata</strong>: 3 ore (andata e ritorno)</li>
-    <li><strong>Panorama</strong>: Viste mozzafiato sulle <strong>Panie</strong> e sulle valli circostanti.</li>
-    <li><strong>Deviazioni opzionali</strong>: Possibilità di salire sui monti più impegnativi, <strong>Monte Bovario</strong> e <strong>Monte Nome di Gesù</strong>, per un''esperienza più avventurosa.</li>
-    <li><strong>Tratto con cavo d''acciaio</strong>: Breve tratto richiede attenzione e cautela.</li>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo giro ad anello di circa 11,52 km, con un dislivello positivo di 675 metri, vi porterà attraverso alcuni dei punti più belli dell''Alpe di San''Antonio. Inizierete dall''Alpe, salendo verso il <strong>Monte Rovaio</strong> (4,5 km), proseguendo poi per il <strong>Monte Bovario</strong> (5,5 km) e infine per il <strong>Monte Nome del Gesù</strong> (5,9 km).  Il percorso offre un mix di sentieri agevoli e una breve tratta con un cavo d''acciaio, quindi prestate attenzione.  Potete optare per un''escursione più impegnativa salendo sui <strong>Monte Bovario</strong> e <strong>Monte Nome del Gesù</strong>, che si trovano in cresta e offrono panorami spettacolari sulle Panie.  Il sentiero dedicato a Fosco Maraini, celebre scrittore ed esploratore, attraversa il cimitero dove riposa Maraini, le case di Colle Panestra e Trescala.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questo è un percorso considerato <strong>Difficile</strong>. La durata stimata dell''escursione è di circa 3 ore andata e ritorno, ma può variare a seconda del vostro ritmo e delle deviazioni che prenderete.  Il dislivello di 675 metri richiede una buona preparazione fisica.  Ci sono alcuni tratti esposti, quindi siate prudenti.  La traccia GPS è disponibile per guidarvi lungo il percorso.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class=''list-disc''>
+    <li><strong>Distanza:</strong> 11,52 km (anello)</li>
+    <li><strong>Dislivello:</strong> 675 m</li>
+    <li><strong>Difficoltà:</strong> Difficile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Alpe di San''Antonio (accessibile in auto)</li>
+    <li><strong>Comune:</strong> Cornola, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico, sentiero dedicato a Fosco Maraini</li>
 </ul>
 
-<h3>Informazioni Utili</h3>
-<p>Questo <strong>sentiero</strong> attraversa luoghi di grande interesse storico e naturalistico, tra cui il <strong>cimitero</strong> dove riposa <strong>Fosco Maraini</strong>, le <strong>case di Colle Panestra</strong> e <strong>Trescala</strong> (luogo di una battaglia nel 1944) e zone con <strong>assi</strong> che rendono il percorso un po’ più tecnico. L’escursione offre un’opportunità per immergersi nella <strong>natura</strong> e godere di un''autentica <strong>esperienza di trekking</strong> in <strong>Italia</strong>.</p>
-<p>Preparatevi per un''<strong>escursione</strong> ricca di emozioni e scoperte in questo splendido angolo delle <strong>Alpi Italiane</strong>, ideale per chi cerca un <strong>sentiero</strong> immerso nella <strong>montagna</strong> e nella <strong>natura</strong>.  Ricordate di indossare scarpe da <strong>trekking</strong> adatte e di portare con voi acqua e cibo per affrontare al meglio questa bellissima <strong>escursione</strong>.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li ><strong >Distanza:</strong> Circa 11,52 km (anello)</li>
+    <li ><strong >Dislivello:</strong> Circa 675 metri</li>
+    <li ><strong >Difficoltà:</strong> Difficile</li>
+    <li ><strong >Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li ><strong >Punto di partenza:</strong> Alpe di San''Antonio (accessibile in auto)</li>
+    <li ><strong >Comune:</strong> Cornola, Toscana</li>
+    <li ><strong >Tipo di sentiero:</strong> Sentiero escursionistico, sentiero dedicato a Fosco Maraini</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.52,
   675,

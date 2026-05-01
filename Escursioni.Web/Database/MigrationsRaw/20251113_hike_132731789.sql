@@ -7,26 +7,36 @@ VALUES (
   132731789,
   'Parco Mediceo di Pratolino',
   'Il Parco Mediceo di Pratolino è un complesso monumentale di proprietà della Città Metropolitana di Firenze, che vanta dal 2013 anche il riconoscimento UNESCO insieme alle altre Ville e Giardini Medicei. Molto sono le attrattive che il Parco può offrire al visitatore: oltre ad ospitare il Colosso dell’Appennino (opera del Giambologna per la quale il Parco è forse maggiormente conosciuto), custodisce le opere e manufatti del genio buontalentiano di impianto originale mediceo (Cappella, grotta di Cupido, Scuderie, Villa Paggeria, Gamberaie), ospita due giardini all’italiana nella parte medicea e allo stesso tempo è circondato da un giardino-paesaggio in stile romantico (frutto degli interventi ottocenteschi, quando la proprietà è passata prima ai Lorena e poi ai Demidoff) Il Parco è aperto al pubblico dal 1 aprile al 29 ottobre 2023, dal venerdì alla domenica e i giorni festivi (con le aperture straordinarie di lunedì 24 aprile e lunedì 14 agosto). L’orario di apertura è 10-20 da aprile a settembre, 10-18 per il mese di ottobre. L’ingresso è gratuito senza prenotazione.Dal lunedì al giovedi il parco è visitabile dalle 9 alle 14, solo su PRENOTAZIONE scrivendo a parcomediceodipratolino@cittametropolitana.fi.it',
-  '<h2>Sentiero di Trekking: Parco Mediceo di Pratolino – Escursione nella Montagna Toscana</h2>
+  '<h2 id="escursione-parco-mediceo-di-pratolino">Escursione nel Parco Mediceo di Pratolino</h2>
 
-<h3>Il Percorso – Un’Escursione nel Cuore del Parco Mediceo</h3>
-<p>
-Immergiti nella bellezza del <strong>Parco Mediceo di Pratolino</strong> con questo suggestivo sentiero di trekking. Ideale per un’escursione nella <strong>montagna toscana</strong>, il percorso ti condurrà attraverso un paesaggio unico, un connubio tra arte, natura e storia. Questa <strong>escursione a piedi</strong> ti permette di esplorare a fondo il complesso monumentale, ammirando le opere del Giambologna e di Buontalenti, e godendo della bellezza dei giardini che lo circondano. Perfetto per un''<strong>gita di trekking</strong> di un giorno o per una passeggiata rilassante nella <strong>natura italiana</strong>.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa splendida escursione è direttamente all''ingresso del Parco Mediceo di Pratolino. È facilmente raggiungibile in auto tramite la strada provinciale TP226, oppure si può arrivare a piedi partendo dal centro di Pratolino. Il parcheggio è disponibile all''interno del parco, quindi non ci sono problemi di trovare posto.</p>
 
-<h3>Cosa Aspettarsi – Un’Esperienza Unica</h3>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo anello di 4.97 km vi condurrà attraverso un paesaggio mozzafiato, costeggiando i giardini all''italiana e il giardino-paesaggio romantico. Inizierete ammirando il Colosso dell’Appennino, una delle opere più iconiche di Giambologna, e proseguirete attraverso le rovine delle ville buontalentiane, tra cui la Cappella, la Grotta di Cupido e le Scuderie. Il sentiero è ben segnalato e presenta alcuni brevi tratti in salita, ma la difficoltà è considerata media. Preparatevi a godervi panorami incredibili sulla Valdinei e sulle montagne circostanti.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà media, adatta a escursionisti esperti e a famiglie con bambini più grandi. La distanza totale è di 4.97 km con un dislivello di +264 metri. Ci si aspetta un percorso piacevole e panoramico, con possibilità di ammirare opere d''arte e architettura storica. Ricordate che il parco è aperto solo dal 1 aprile al 29 ottobre 2023, dal venerdì alla domenica e i giorni festivi.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per rendere il vostro trekking ancora più semplice, vi lasciamo qui sotto una traccia GPS dell''anello. </p>
 <ul>
-  <li>Esplorazione di un complesso monumentale di grande valore storico e artistico.</li>
-  <li>Possibilità di ammirare il famoso Colosso dell’Appennino, opera di Giambologna.</li>
-  <li>Scoperta delle opere di Buontalenti: Cappella, Grotta di Cupido, Scuderie, Villa Paggeria, Gamberaie.</li>
-  <li>Percorso attraverso giardini all''italiana e un giardino-paesaggio romantico.</li>
-  <li>Un''esperienza immersiva nella <strong>natura italiana</strong> e nella <strong>bellezza della montagna</strong>.</li>
+    <li>Distanza: 4.97 km</li>
+    <li>Dislivello: 264 metri</li>
+    <li>Difficoltà: Media</li>
+    <li>Tipo di giro: Anello</li>
 </ul>
 
-<h3>Informazioni Utili – Dettagli per il Tuo Trekking</h3>
-<p>
-Il <strong>sentiero</strong> si snoda all''interno del <strong>Parco Mediceo di Pratolino</strong>, offrendo un’alternativa piacevole alla visita guidata. L''accesso al parco è libero e gratuito, con alcune aree visitabili solo su prenotazione.  La distanza del percorso varia a seconda del tratto scelto, ma l''escursione è generalmente adatta a tutti i livelli di allenamento.  Il <strong>sentiero di trekking</strong> è ben segnalato e offre panorami mozzafiato.  Ricorda che il parco è aperto dal 1 aprile al 29 ottobre 2023, dal venerdì alla domenica e i giorni festivi.  L''orario di apertura varia a seconda della stagione. Per visite guidate e accesso alle aree limitate, è consigliabile prenotare in anticipo contattando parcomediceodipratolino@cittametropolitana.fi.it.  Un''ottima <strong>escursione in famiglia</strong> per scoprire i segreti del <strong>Parco Mediceo</strong>.
-</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="informazioni-utili-distanza">Distanza:</strong> Circa 4.97 km (anello)</li>
+    <li><strong id="informazioni-utili-dislivello">Dislivello:</strong> Circa 264 metri</li>
+    <li><strong id="informazioni-utili-difficoltà">Difficoltà:</strong> Media</li>
+    <li><strong id="informazioni-utili-periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="informazioni-utili-punto-di-partenza">Punto di partenza:</strong> Ingresso del Parco Mediceo di Pratolino, Pratolino, PT</li>
+    <li><strong id="informazioni-utili-comune">Comune:</strong> Pratolino, Toscana</li>
+    <li><strong id="informazioni-utili-tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   4.97,
   264,

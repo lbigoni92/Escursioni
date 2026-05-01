@@ -7,30 +7,30 @@ VALUES (
   101451357,
   'Giro in bici da Poracri a Lucca Lungo il Serchio',
   'Il giro è stato molto carino, passiamo per ambienti differenti: come lungo l''argine del Serchio, dei laghetti artificiali per pesca sportiva, e le mura di Lucca, lo consiglio vivamente! Nella sua semplicità è stato molto unico e affascinante, specialmente il pranzo sotto il ponte, lungo il fiume. Abbiamo visto peperelle anatroccoli e molte trote, lo consiglio per chi ha voglia di fare un giro in bici tranquillo.',
-  '<h2>Giro in Bici da Poracri a Lucca Lungo il Serchio: Trekking e Cicloturismo in Toscana</h2>
+  '<h2 id="giro-in-bici-poracri-lucca-serchio">Giro in Bici da Poracri a Lucca Lungo il Serchio</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-punto-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza del giro in bici è a <strong>Poracri</strong>, un piccolo paese alle porte di <strong>Borgonuovo</strong>. Da Lucca, facilmente raggiungibile in auto o treno, puoi prendere le strade provinciali che portano a Poracri.  È importante verificare il percorso in bici prima di partire e assicurarsi di avere l''attrezzatura adeguata.</p>
 
-<p>Questo <strong>giro in bici da Poracri a Lucca</strong> offre un''esperienza unica nel cuore della <strong>Toscana</strong>, combinando <strong>trekking</strong> e <strong>cicloturismo</strong> lungo il suggestivo fiume Serchio.  Il percorso si snoda attraverso un paesaggio variegato, perfetto per un''escursione a piedi o un''<strong>escursione in bicicletta</strong>. Partendo da <strong>Poracri</strong>, l''itinerario conduce attraverso argini del Serchio, ammirando la natura incontaminata, laghetti artificiali ideali per la pesca sportiva e, infine, il cuore storico di <strong>Lucca</strong>, con le sue maestose mura. Un''occasione imperdibile per un''<strong>escursione in montagna</strong> a contatto con la <strong>natura italiana</strong>.</p>
+<h3 id="il-percorso-passo-passo">Il Percorso Passo per Passo</h3>
+<p>Questo giro in bici è perfetto per chi cerca un''esperienza tranquilla e panoramica. Inizi a <strong>Poracri</strong> e pedali lungo l''argine del <strong>Serchio</strong>, ammirando i paesaggi che si aprono davanti a te.  Seguirai poi per i laghetti artificiali, frequentati dai pescatori sportivi, e infine arriverai alle <strong>mura di Lucca</strong>, dove potrai concludere il tuo giro con una meritato pranzo.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questo è un giro in bici di <strong>facile</strong> difficoltà, adatto a tutti, dai ciclisti più esperti ai principianti. La distanza totale è di circa <strong>41.87 km</strong> e il dislivello è di soli <strong>31 metri</strong>. Il percorso è prevalentemente pianeggiante, con qualche lieve salita, ma niente di impegnativo. Il tempo stimato per completare il giro è di circa 3-4 ore, a seconda del ritmo del ciclista.</p>
 
-<p>Preparati ad un''esperienza indimenticabile in questa <strong>escursione in bici</strong>.  Potrai goderti la tranquillità dell''argine del Serchio, ammirare la fauna locale, come anatroccoli e trote, e scoprire le bellezze di <strong>Lucca</strong>. Questo <strong>sentiero per trekking</strong> e <strong>sentiero ciclabile</strong> è adatto a tutti, dai principianti agli esperti, offrendo un''opportunità di svago e benessere in un ambiente naturale di rara bellezza.  Sarà un''occasione per un''<strong>escursione autunnale</strong> o primaverile, a seconda delle stagioni.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Consigliamo di scaricare una traccia GPS per facilitare il percorso.  Ricorda di controllare le condizioni del percorso prima di partire, soprattutto in caso di pioggia o maltempo. </p>
 
-<p>La difficoltà del percorso è media, con salite e discese moderate, adatte a chi pratica il <strong>trekking</strong> con una <strong>bicicletta</strong>.  La distanza totale del <strong>gira in bici</strong> è di circa 45 km, percorribili in un giorno intero, consentendo di godere appieno delle bellezze del territorio.  Ricorda di portare con te acqua, snack e protezioni solari per goderti al meglio questa <strong>escursione in Toscana</strong>.</p>
-
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Località:</b> Poracri - Lucca, Toscana</li>
-    <li><b>Tipo di attività:</b> Trekking, Cicloturismo, Escursione</li>
-    <li><b>Difficoltà:</b> Media</li>
-    <li><b>Distanza:</b> Circa 45 km</li>
-    <li><b>Punti di interesse:</b> Argine del Serchio, Laghetti Artificiali, Mura di Lucca, Fauna Locale (Anatroccoli, Trote, Peperelle)</li>
-    <li><b>Consigli:</b> Indossare scarpe da trekking adatte, portare acqua e snack, protezioni solari, e godersi la bellezza del paesaggio</li>
-</ul>
-
-<p>Scopri di più sulle <strong>trekking in Italia</strong> e sulle <strong>escursioni in Toscana</strong>. Questo <strong>sentiero per escursionisti</strong> è perfetto per chi cerca un''esperienza di <strong>trekking</strong> fuori dai circuiti turistici più affollati.  Non perdere l''occasione di fare un''<strong>escursione a Lucca</strong> e immergiti nella cultura e nella storia di questa città medievale.  Organizza la tua prossima <strong>escursione in bicicletta</strong> lungo il Serchio!</p>',
+  <li><strong>Distanza:</strong> Circa 41.87 km (solo andata)</li>
+  <li><strong>Dislivello:</strong> Circa 31 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Poracri, Borgonuovo, Toscana</li>
+  <li><strong>Comune:</strong> Borgonuovo, Toscana</li>
+  <li><strong>Regione:</strong> Italia</li>
+</ul>',
   'Tutte le Attività e Paesi',
   41.87,
   31,

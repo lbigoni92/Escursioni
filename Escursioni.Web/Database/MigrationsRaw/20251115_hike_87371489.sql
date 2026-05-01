@@ -7,33 +7,43 @@ VALUES (
   87371489,
   'Matanna - Nona',
   'il percorso è faticoso in due tratti: Salita del nona Salita dal rifugio Massa fino al Callare del Matanna. Per il resto è ben segnalato e fattibile i punti panoramici più belli sono : Monte Nona - cima Monte Matanna - cima Sentieri 109-5-121-3-109 +(2 creste) sul percorso vediamo se siamo fortunati mufloni e cavalli selvatici.',
-  '<h2>Matanna - Nona: Trekking Esplorativo tra Monte Nona e Matanna</h2>
+  '<h2 id="matanna-nona">Escursione a Matanna - Nona: Un Anello di Montagna con Panorami Mozzafiato</h2>
 
-<h3>Il Percorso</h3>
+<p>
+Ho appena concluso un''escursione fantastica a <strong>Matanna - Nona</strong>, un anello di montagna che mi ha regalato panorami incredibili e una bella sfida.  Questo percorso, situato nel cuore della <strong>Toscana</strong>, è perfetto per chi cerca un''esperienza immersa nella natura, ma con un po'' di impegno. Preparatevi a sudare, perché il sentiero presenta alcuni tratti impegnativi, ma la ricompensa è più che meritevole!
+</p>
 
-<p>L''escursione <strong>Matanna - Nona</strong> è un''esperienza impegnativa, ideale per escursionisti esperti alla ricerca di una vera sfida in <strong>montagna</strong>. Il sentiero si snoda attraverso paesaggi mozzafiato, offrendo scorci spettacolari sulle cime circostanti. Il percorso è diviso in due tratti distinti: il primo, più arduo, prevede la salita al <strong>Monte Nona</strong> e la successiva discesa dal <strong>rifugio Massa</strong> al <strong>Callare del Matanna</strong>, un tratto tecnicamente impegnativo. Il secondo tratto è ben segnalato e offre la possibilità di esplorare punti panoramici unici.</p>
+<h3>Come arrivare al punto di partenza</h3>
 
-<p>La <strong>trekking</strong> inizia da Massa, proseguendo verso il Rifugio Massa. Da qui, il sentiero si inoltra nel cuore del Parco Regionale della Majella, con salite ripide e tratti esposti che richiedono una buona preparazione fisica.  La discesa verso il Callare del Matanna è un momento cruciale dell''escursione, con panorami impareggiabili sulla valle.</p>
+<p>
+Il punto di partenza dell''escursione è raggiungibile facilmente in auto da <strong>Palagnana</strong>. Da qui, seguiamo le indicazioni per il Rifugio Massa, il punto di partenza del primo tratto del sentiero. In alternativa, è possibile raggiungere il punto di partenza a piedi, seguendo sentieri locali (consigliabile solo per escursionisti esperti).</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3>Il percorso passo per passo</h3>
 
-<p>Preparatevi ad affrontare un''<strong>escursione</strong> impegnativa, con un dislivello considerevole e tratti rocciosi. Il sentiero è ben segnalato, ma è fondamentale avere una buona orientamento e una mappa dettagliata. Durante l''escursione, avrete la possibilità di ammirare la bellezza incontaminata della <strong>natura</strong>, godendo di panorami mozzafiato e di una silenziosa immersione nella <strong>montagna</strong> italiana.  Potete avvistare fauna selvatica come <strong>mufloni</strong> e <strong>cavalli selvatici</strong>, a seconda delle stagioni e delle condizioni ambientali.</p>
+<p>
+L''escursione inizia con una faticosa salita al <strong>Monte Nona</strong>, seguita da un''altra salita dal rifugio Massa fino al <strong>Callare del Matanna</strong>. Una volta superati questi tratti più impegnativi, il sentiero si snoda attraverso punti panoramici mozzafiato, conducendoci in cima al <strong>Monte Matanna</strong> e lungo le <strong>creste</strong>.  Il sentiero è ben segnalato, ma richiede attenzione, soprattutto nei tratti più esposti. Non perdetevi i sentieri 109-5-121-3-109 per ammirare i panorami.</p>
 
-<p>Questo <strong>sentiero</strong> permette di percorrere diverse <strong>creste</strong> offrendo una vista unica sulla Majella e sulla sua vegetazione. L''escursione a <strong>Matanna - Nona</strong> è un''opportunità per praticare <strong>trekking</strong> e <strong>escursionismo</strong> in un ambiente selvaggio e incontaminato.</p>
+<h3>Difficoltà e cosa aspettarsi</h3>
 
-<h3>Informazioni Utili</h3>
+<p>
+Questa <strong>escursione</strong> è di <strong>difficoltà media</strong>. Richiede una buona preparazione fisica, soprattutto per i tratti più ripidi.  È consigliabile indossare scarpe da trekking adeguate e portare con sé acqua, cibo e un kit di pronto soccorso.  Durante il percorso, potrete ammirare panorami spettacolari, ma anche incontrare la fauna locale:  si dice che a volte si possano avvistare <strong>mufloni</strong> e <strong>cavalli selvatici</strong>!
+</p>
 
-<ul>
-  <li><strong>Difficoltà:</strong> Difficile</li>
-  <li><strong>Distanza Totale:</strong> Circa 18 km (andata e ritorno)</li>
-  <li><strong>Dislivello:</strong> Circa 1200 metri</li>
-  <li><strong>Tempo di percorrenza:</strong> 6-8 ore (a seconda del ritmo)</li>
-  <li><strong>Punti di Interesse:</strong> <strong>Monte Nona</strong> (cima), <strong>Monte Matanna</strong> (cima), Punti Panoramici, <strong>Sentieri</strong> 109-5-121-3-109</li>
-  <li><strong>Fauna Selvatica:</strong> Possibilità di avvistare <strong>mufloni</strong> e <strong>cavalli selvatici</strong></li>
-  <li><strong>Consigli:</strong> Scarpe da trekking adatte, abbigliamento tecnico, acqua e cibo a sufficienza, mappa, bussola o GPS. Informarsi sulle condizioni meteorologiche prima di partire.</li>
-</ul>
+<h3>Traccia GPS e informazioni pratiche</h3>
 
-<p>La <strong>trekking</strong> a <strong>Matanna - Nona</strong> rappresenta un''esperienza indimenticabile per gli amanti del <strong>sentiero</strong> e della <strong>natura</strong>.  Esplorate i più belli <strong>sentieri Italia</strong> e godetevi un''escursione tra le montagne.</p>',
+<p>
+Potete scaricare la <strong>traccia GPS</strong> di questa escursione per seguirla durante la vostra avventura.  Ecco le informazioni pratiche:</p>
+
+<ul id="informazioni-utili">
+  <li><strong>Distanza:</strong> Circa 11.58 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 1316 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Rifugio Massa, raggiungibile in auto da Palagnana</li>
+  <li><strong>Comune:</strong> Palagnana, Toscana</li>
+  <li><strong>Regione:</strong> Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.58,
   1316,

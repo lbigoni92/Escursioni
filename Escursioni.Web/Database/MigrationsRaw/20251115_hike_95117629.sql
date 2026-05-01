@@ -7,29 +7,56 @@ VALUES (
   95117629,
   'Florence',
   'Pomeriggio nella storica città di Firenze, in questa giornata abbiamo visitato numerosi punti d''interesse della città quali: chiesa di Santa Maria Maggiore, Piazza San Lorenzo, piazza del duomo , il campanile di Giotto, Piazza della signori, Piazza di Santa Croce, Piazzale Michelangelo, Il giardino Delle Rose, Palazzo Pitti, Sagrestia di Santo Spirito, Basilica di santa Trinità, Piazza delle repubblica. la giornata è stata molto bella e abbiamo visitato numerose chiese (anche se molti posti erano a pagamento) Fontanelle pubbliche: ne abbiamo trovate solo una in piazza della Repubblica Lo consiglio per chi Vuole passare una giornata a Firenze.',
-  '<h2>Trekking Firenze: Escursione nel Cuore della Culla del Rinascimento</h2>
+  '<h2 id="escursione-firenze-giornata-citta">Escursione a Firenze: Una Giornata tra Arte e Storia</h2>
 
-<h3>Il Percorso</h3>
 <p>
-Immergiti nella storia e nella bellezza di <strong>Firenze</strong> con questa emozionante <strong>escursione a piedi</strong>. Questo itinerario ti condurrà attraverso i luoghi più iconici della città, offrendoti una prospettiva unica sulla sua architettura e sulla sua vibrante cultura. L''<strong>trekking</strong> è pensato per una giornata intensa di scoperta, combinando l''attività fisica con l''esplorazione dei monumenti più importanti di <strong>Firenze</strong>. Preparati a camminare ammirando la <strong>natura</strong>, i palazzi storici e le maestose chiese di <strong>Firenze</strong>.
+Oggi mi sono lasciato alle spalle il sentiero per immergermi nel cuore di <strong>Firenze</strong>, un''esperienza incredibile per chiunque ami la storia, l''arte e il buon panorama. È stata una giornata intensa, ricca di scoperte e momenti indimenticabili. Ho esplorato alcuni dei luoghi più iconici della città, godendomi ogni angolo e ammirando la bellezza di questo capolavoro italiano.
 </p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+
+<p>
+Il punto di partenza ideale per questa escursione è il centro storico di <strong>Firenze</strong>, facilmente raggiungibile in auto o con i mezzi pubblici. Da lì, ho potuto iniziare la mia passeggiata e immergermi subito nell''atmosfera vibrante della città.
+</p>
+
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>
+Il mio percorso è stato un vero e proprio viaggio attraverso i secoli, partendo da Piazza del Duomo e proseguendo attraverso Piazza San Lorenzo, Piazza della Signoria, Piazza di Santa Croce, fino a raggiungere il suggestivo <strong>Piazzale Michelangelo</strong>. Ho visitato la magnifica <strong>Basilica di Santa Maria Maggiore</strong>, la maestosa <strong>Sagrestia di Santo Spirito</strong> e la splendida <strong>Basilica di santa Trinità</strong>. Non sono mancate le visite a Palazzo Pitti e al Giardino delle Rose. Ho concluso la giornata ammirando la <strong>Piazza delle repubblica</strong>. Un anello di circa <strong>13.63 km</strong>, con un dislivello positivo di circa <strong>789 metri</strong>.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>
+Questa escursione è considerata di difficoltà <strong>Facile</strong>, adatta a tutti, sia a chi è alle prime armi che a chi cerca una passeggiata piacevole e senza particolari impegnativi. Il percorso è in gran parte pianeggiante, con qualche lieve salita.  Preparatevi a camminare per diverse ore e a godervi lo spettacolo che la città ha da offrire.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>
+Per facilitare la vostra escursione, vi consiglio di scaricare una traccia GPS per il vostro dispositivo preferito.  Ecco alcune informazioni pratiche utili per pianificare la vostra visita:
+</p>
 <ul>
-  <li>Un''immersione nella storia e nell''arte di <strong>Firenze</strong>.</li>
-  <li>La possibilità di visitare numerosi punti di interesse, tra cui la **Basilica di Santa Maria Maggiore**, la **Piazza del Duomo** e il **Campanile di Giotto**.</li>
-  <li>Un''<strong>escursione</strong> in un ambiente urbano ricco di storia e cultura, ideale per gli amanti del <strong>trekking</strong> e del patrimonio artistico italiano.</li>
-  <li>Un''opportunità per esplorare la città a piedi, scoprendo angoli nascosti e ammirando panorami mozzafiato.</li>
+    <li><strong>Distanza:</strong> Circa 13.63 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 789 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Centro storico di Firenze, Italia</li>
+    <li><strong>Comune:</strong> Firenze, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero urbano/Passeggiata</li>
 </ul>
 
-<h3>Informazioni Utili</h3>
-<p>
-Questo <strong>sentiero</strong> di <strong>trekking</strong> a <strong>Firenze</strong> è adatto a tutti coloro che amano le <strong>escursioni</strong> a piedi e la scoperta di nuove città. La distanza totale del percorso è di circa 8 km, con un dislivello di 150 metri, rendendolo una <strong>escursione</strong> di media difficoltà. L''itinerario si snoda attraverso il centro storico di <strong>Firenze</strong>, consentendoti di ammirare le principali attrazioni della città.  Ricorda di indossare scarpe comode e di portare con te acqua e snack. 
-</p>
-<p>
-Non mancherà l''occasione di visitare luoghi suggestivi come la **Piazzale Michelangelo**, il **Giardino delle Rose** e la **Sagrestia di Santo Spirito**.  Puoi includere la visita delle principali chiese come la **Basilica di Santa Trinità** e **Piazza della Signoria** nel tuo percorso di <strong>trekking</strong>.  </p>
-<p>
-<em>Consigliamo di pianificare la tua visita tenendo conto degli orari di apertura dei monumenti e delle chiese, soprattutto durante l''alta stagione.</em></p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+  <li><strong id="distanza">Distanza:</strong> Circa 13.63 km (anello)</li>
+  <li><strong id="dislivello">Dislivello:</strong> Circa 789 metri</li>
+  <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+  <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="punto-di-partenza">Punto di partenza:</strong> Centro storico di Firenze, Italia</li>
+  <li><strong id="comune">Comune:</strong> Firenze, Toscana</li>
+  <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero urbano/Passeggiata</li>
+</ul>',
   'Tutte le Attività e Paesi',
   13.63,
   789,

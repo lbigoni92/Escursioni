@@ -7,33 +7,42 @@ VALUES (
   135150055,
   'Caprona - Verruca - Torre degli Upezzinghi',
   'Il Sentiero, passa sia dalla “Torre degli Upezzinghi" conosciuta anche come "torre di Caprona", caratteristica della zona in quanto costruita sullo sperone roccioso del monte che sovrasta il paese di Caprona sia dalla fortezza vicina conosciuta come, come la Rocca della Verruca. Il percorso è abbastanza facile da seguire anche se c''è qualche roccetta a cui prestare attenzione in vari tratti, specialmente nella salita alla Verruca, si deve prestare attenzione in caso di pioggia. I sentieri sono sempre abbastanza larghi e in alcuni tratti si piò camminare affiancati. Non ci sono fontanelle se non un paio nei primi 2 km ma nel nostro caso erano in secca, non prestateci troppo affidamento. Senieri: 143-139-La Focetta-145-139-arrivo -139 -focetta-strada bianca',
-  '<h2>Caprona - Verruca - Torre degli Upezzinghi: Trekking in Montagna e Sentieri Naturali</h2>
+  '<h2 id="escursione-caprona-verruca-torre-ughezzinghi">Escursione a Caprona, Verruca e Torre degli Upezzinghi</h2>
 
-<h3>Il Percorso: Un’Escursione tra Storia e Natura</h3>
-<p>
-Questo <strong>sentiero di trekking</strong> vi condurrà attraverso un paesaggio montano mozzafiato, passando dalla <strong>Torre degli Upezzinghi</strong>, un luogo iconico della zona di <strong>Caprona</strong>, costruita su uno sperone roccioso del <strong>monte</strong> che domina il paese. L''escursione include anche la visita alla <strong>Rocca della Verruca</strong>, una fortezza storica nelle immediate vicinanze.  La <strong>trekking</strong> è adatta anche a famiglie e appassionati di <strong>escursioni</strong> alla ricerca di un''esperienza immersa nella <strong>natura</strong> italiana. Il percorso, considerato abbastanza facile, è ben tracciato e si snoda attraverso una <strong>montagna</strong> ricca di storia e bellezze naturali.
-</p>
+<h3 id="come-arrivare-punto-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa Aspettarsi: Una Giornata di Trekking in Valmarecchia</h3>
-<p>
-Preparatevi a una giornata di <strong>trekking</strong> in un ambiente selvaggio e incontaminato. Il sentiero presenta alcuni tratti rocciosi che richiedono attenzione, soprattutto durante la salita alla <strong>Rocca della Verruca</strong>. La difficoltà è moderata, adatta a escursionisti di livello base.  La <strong>distanza del sentiero</strong> è di circa 14,3 km con un dislivello di 800 metri, rendendo questa <strong>escursione</strong> un''ottima sfida per chi ama la <strong>montagna</strong>.  La lunghezza del percorso, combinata con la bellezza del paesaggio, lo rende ideale per una giornata di <strong>sentieri</strong> e panorami mozzafiato.  Ricordatevi di controllare le previsioni meteo prima di partire e di indossare scarpe da <strong>trekking</strong> adatte.
-</p>
+Il punto di partenza per questa bella escursione è la **Focetta** a **Caprona**, in provincia di **Toscana**. Raggiungibile facilmente in auto, la Focetta è un piccolo paese immerso nel cuore della **montagna** toscana. Da qui, il sentiero inizia direttamente dalla strada bianca, segnalato.
 
-<h3>Informazioni Utili: Dettagli e Consigli per la Vostra Escursione</h3>
+<h3 id="il-percorso-passo-passo">Il Percorso Passo per Passo</h3>
+
+Partendo dalla **Focetta**, il sentiero sale dolcemente verso la **Torre degli Upezzinghi**, un''antica torre di avvistamento costruita sullo sperone roccioso del **monte Caprona**. Il sentiero è abbastanza facile da seguire, anche se in alcuni tratti è necessario prestare attenzione a qualche roccetta, soprattutto durante la salita alla **Rocca della Verruca**. Il percorso è un **anello** di circa 9.78 km, che ti permette di ammirare panorami mozzafiato sulla campagna circostante. Il sentiero è spesso ampio e permette di camminare affiancati, ideale per un''escursione con amici o in famiglia. Questo **trekking** ti porterà ad ammirare una delle peculiarità della zona, la **Torre degli Upezzinghi**.
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+Questa **escursione** è di **difficoltà media**. Richiede una buona preparazione fisica, ma non è particolarmente impegnativa. Il **dislivello** è di circa 523 metri, quindi preparatevi a qualche salita, ma con un sentiero ben tracciato e panorami magnifici, la fatica è ampiamente compensata. Ricordatevi di informarsi sulle condizioni meteorologiche prima di partire e di indossare scarpe da trekking adatte.
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+Potete scaricare la **traccia GPS** per questa escursione per seguirla comodamente sul vostro smartphone o dispositivo GPS.
+
+*   **Distanza:** Circa 9.78 km (anello)
+*   **Dislivello:** Circa 523 metri
+*   **Difficoltà:** Media
+*   **Punto di partenza:** Focetta, Caprona, Toscana, Italia
+*   **Comune:** Caprona
+*   **Regione:** Italia
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
 <ul>
-  <li><strong>Difficoltà:</strong> Facile/Moderata</li>
-  <li><strong>Distanza:</strong> 14,3 km</li>
-  <li><strong>Dislivello:</strong> 800 metri</li>
-  <li><strong>Punto di Partenza:</strong> 143 (Focetta)</li>
-  <li><strong>Punti di Interesse:</strong> <strong>Torre degli Upezzinghi</strong>, <strong>Rocca della Verruca</strong>, panorami sulla Valmarecchia</li>
-  <li><strong>Segnavia:</strong> Ben segnalato</li>
-  <li><strong>Attenzione:</strong> Prestare attenzione ai tratti rocciosi, soprattutto in caso di pioggia.</li>
-  <li><strong>Fontanelle:</strong> Assenti, ma presenti alcuni resti di vecchie fontanelle nei primi 2 km (non sempre operative).</li>
-</ul>
-
-<p>
-Questa <strong>trekking</strong> a <strong>Caprona</strong> offre un''opportunità unica per esplorare la Valmarecchia e scoprire le sue meraviglie.  Un''<strong>escursione</strong> indimenticabile per gli amanti del <strong>sentiero</strong> e della <strong>natura</strong>!
-</p>',
+    <li><strong>Distanza:</strong> Circa 9.78 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 523 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Focetta, accessibile in auto, Caprona, Toscana</li>
+    <li><strong>Comune:</strong> Caprona, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   9.78,
   523,
@@ -62,7 +71,7 @@ Questa <strong>trekking</strong> a <strong>Caprona</strong> offre un''opportunit
   'cafde6dfd12b2ebaf198a07e226594ffbbb0958182a188b53177fdc032d8c0b8',
   'Escursione Caprona Verruca Torre Upezzinghi: Anello Toscano 9.8km, +523m. Trekking facile/medio tra torre medievale e Rocca della Verruca. Ottimo giro a Capr...',
   'Caprona - Verruca - Torre Upezzinghi: Escursione Toscana',
-   'Monti Pisani',
+  'Monti Pisani',
   NOW(),
   NOW()
 )

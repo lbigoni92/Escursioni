@@ -7,34 +7,31 @@ VALUES (
   87378212,
   'Le Pozze di Malbacco - Cascata Malbacco',
   'Cascata Malbacco IL SENTIERO VERO E PROPRIO INIZIA AL KM 1.7. ma abbiamo dovuto parcheggiare prima per l''elevato numero di persone consiglio d''andare presto, il percorso è banale e adatto a tutti, grandi e bambini. Portatevi il costume e la maschera anche il fondale è bello per chi ama fare snorkeling, uno spettacolo tutto apuano. possibile arrivarci anche con scarpe da ginnastica.',
-  '<h2>Le Pozze di Malbacco – Cascata Malbacco: Trekking e Escursioni in Montagna ad Appiano</h2>
+  '<h2 id="le-pozze-di-malbacco-cascata-malbacco">Escursione alle Pozze di Malbacco e alla Cascata Malbacco</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il vero inizio del sentiero si trova al chilometro 1.7, ma per evitare il traffico, consiglio di parcheggiare prima in quanto il punto di partenza è molto frequentato, soprattutto nel fine settimana.  È possibile raggiungere il punto di partenza in auto, seguendo le indicazioni per **Azzano** in **Toscana**.  Si parcheggia nei pressi del parcheggio provvisorio apposito, assicurandosi di arrivare il prima possibile per godere appieno dell''escursione.</p>
 
-<p>Il <strong>sentiero Le Pozze di Malbacco – Cascata Malbacco</strong> è un''escursione indimenticabile nel cuore dell''Appennino Tosco-Emiliano. Questo <em>trekking</em>, facilmente accessibile, si snoda attraverso un paesaggio mozzafiato, perfetto per famiglie e per chi cerca una <strong>escursione in montagna</strong> rilassante. Il percorso inizia in maniera leggermente impervia a partire dal chilometro 1.7, ma è consigliabile arrivare prima per evitare le code dovute all''alta affluenza di visitatori. La strada di accesso è spesso congestionata, quindi un arrivo anticipato è fondamentale per godere appieno di questa splendida <strong>escursione in Italia</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo sentiero è perfetto per chi cerca un''**escursione** facile e piacevole. Il percorso è banale e adatto a tutti, inclusi grandi e bambini. Iniziate dal chilometro 1.7 e proseguite lungo il sentiero che si snoda tra il verde della foresta e l’acqua cristallina delle **Pozze di Malbacco**. Il sentiero è ben tenuto e facilmente percorribile, con alcuni tratti leggermente ripidi. Il percorso culmina all’arrivo alla suggestiva **Cascata Malbacco**, un luogo incantevole dove potrete ammirare la forza e la bellezza della natura.  Un''ottima **trekking** per tutta la famiglia!</p>
 
-<p>Il <strong>sentiero</strong> è caratterizzato da una pendenza dolce e da un terreno ben tenuto, rendendolo adatto a persone di tutte le età e livelli di preparazione. È possibile affrontare l''escursione anche con scarpe da ginnastica, anche se per una maggiore comfort si consiglia l''utilizzo di scarpe da trekking.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>**Difficoltà:** **Medio**.  Questa **escursione** è consigliata a persone con un minimo di allenamento, ma è accessibile anche a famiglie con bambini che sono in buona forma.  Non ci sono passaggi particolarmente impegnativi o tecnici.</p>
+<p>Aspettatevi un dislivello di circa 421 metri e una distanza di 13.63 km percorsa in modalità solo andata.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per seguire il percorso, vi consigliamo di utilizzare una **traccia GPS**.  Potete scaricare la **traccia GPS** per questa **escursione** sul vostro dispositivo mobile.  Ricordatevi di consultare le previsioni meteo prima di partire e di indossare scarpe da ginnastica adatte per l''**escursione**.</p>
 
-<p>Preparatevi ad essere incantati dalla bellezza selvaggia delle <strong>Pozze di Malbacco</strong>, un''oasi di acque cristalline immersa nella <strong>natura</strong> incontaminata. La <em>Cascata Malbacco</em> è un vero spettacolo, un getto d''acqua impetuoso che si getta nelle pozze creando una scenografia naturale di rara bellezza.  Questo <strong>trekking</strong> offre la possibilità di immergersi in un ambiente naturale protetto, lontano dal caos cittadino.  La zona è ricca di flora e fauna, con la possibilità di avvistare diverse specie di uccelli e altri animali selvatici. L''acqua è perfetta per il bagno e lo snorkeling, con un fondale interessante per chi ama esplorare le profondità.</p>
-
-<p>Non dimenticate di portare con voi il costume da bagno e una maschera da snorkeling per sfruttare al massimo le <strong>Pozze di Malbacco</strong>.  Potrete godervi un''esperienza unica e indimenticabile, perfetta per una giornata di relax e divertimento in famiglia o con gli amici.</p>
-
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Difficoltà:</b> Facile</li>
-    <li><b>Distanza:</b> Circa 3 km (andata e ritorno)</li>
-    <li><b>Dislivello:</b> Circa 150 metri</li>
-    <li><b>Tempo di percorrenza:</b> Circa 1.5 - 2 ore</li>
-    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
-    <li><b>Attrezzatura consigliata:</b> Scarpe da trekking, costume da bagno, maschera da snorkeling, acqua, snack, cappello, crema solare</li>
-    <li><b>Accessibilità:</b> Facile, raggiungibile anche con mezzi pubblici (verifica orari e fermate).</li>
-    <li><b>Ubicazione:</b> Appiano, provincia di Parma, Emilia Romagna - Italia.</li>
-</ul>
-
-<p>Questo <strong>sentiero escursionistico</strong> rappresenta un''ottima opportunità per scoprire la bellezza del territorio appenninico. Se siete alla ricerca di una <strong>trekking</strong> facile e divertente, le <strong>Pozze di Malbacco – Cascata Malbacco</strong> sono la scelta ideale.  Provare a fare un''<strong>escursione</strong> in questo luogo speciale è un''esperienza da non perdere!</p>',
+  <li><strong>Distanza:</strong> Circa 13.63 km (solo andata)</li>
+  <li><strong>Dislivello:</strong> Circa 421 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong>  KM 1.7, sentiero raggiungibile in auto da Azzano, Toscana</li>
+  <li><strong>Comune:</strong> Azzano, Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   13.63,
   421,

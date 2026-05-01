@@ -7,24 +7,39 @@ VALUES (
   88260398,
   'Monte Pelato',
   'Il sentiero è molto semplice e l''abbiamo fatto in notturna, anche se non segnato perfettamente è facile da seguire. Arrivati in cima al monte il panorama è veramente spettacolare e merita soprattutto pensando alla facilità con la quale si raggiunge. Se andate in notturna portatevi scarpe adeguate e torce frontali. Non ci sono fontanelle lungo il percorso. Per il resto lasciate un commento e buon trek!',
-  '<h2>Escursione Notturna sul Monte Pelato: Trekking Facile in Montagna</h2>
+  '<h2 id="escursione-monte-pelato">Escursione al Monte Pelato</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong> sul <strong>Monte Pelato</strong> è un''esperienza unica, ideale per chi cerca un''<strong>escursione notturna</strong> facile e gratificante. Il percorso, sebbene non completamente segnato, si presenta molto semplice, rendendolo accessibile anche a escursionisti meno esperti. L''<strong>trekking notturno</strong> in <strong>montagna</strong> offre un''atmosfera magica e permette di ammirare il paesaggio sotto una luce completamente diversa. La discesa, altrettanto semplice, vi riporterà al punto di partenza in un ambiente silenzioso e suggestivo.  Preparatevi ad affrontare un''avventura indimenticabile, perfetta per un''<strong>escursione di un giorno</strong> o una <strong>gita in montagna</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa splendida escursione al Monte Pelato si trova a <strong>Castiglioncello</strong>, in provincia di <strong>Toscana</strong>. È facilmente raggiungibile in auto, e anche a piedi se siete amanti delle camminate. Una volta raggiunto il punto di partenza, dovrete seguire semplicemente il sentiero che sale verso la vetta.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo <strong>trekking</strong> al <strong>Monte Pelato</strong> è un''<strong>escursione</strong> di tipo <strong>anello</strong> di <strong>8.84 km</strong>, con un <strong>dislivello</strong> positivo di circa <strong>274 metri</strong>. Il sentiero è descritto come molto semplice, anche se non completamente segnato, il che lo rende accessibile a tutti, compresi i principianti. L''itinerario sale gradualmente, offrendo piacevoli panorami durante tutto il percorso. La parte finale è particolarmente suggestiva, con ampie viste sul paesaggio circostante. Un''ottima idea per una giornata diversa, in compagnia!</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>La <strong>difficoltà</strong> di questa <strong>escursione</strong> è definita <strong>facile</strong>, rendendola ideale per famiglie e per chi cerca un''attività all''aria aperta senza eccessivi sforzi.  Tuttavia, data la mancanza di segnaletica in alcuni tratti, è consigliabile essere preparati e avere una buona orientamento. È fondamentale indossare scarpe da trekking adatte e portare con sé acqua e snack.  Considerate che, soprattutto se scegliete di fare l''escursione in notturna, come abbiamo fatto noi, la torcia frontale è essenziale.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per facilitare la vostra escursione, vi forniamo la <strong>traccia GPS</strong> e le informazioni pratiche necessarie: </p>
 <ul>
-  <li><strong>Difficoltà: Facile</strong> - Perfetto per famiglie e principianti.
-  <li><strong>Distanza:</strong> Circa 3-4 km andata e ritorno.
-  <li><strong>Dislivello:</strong> Circa 300 metri.
-  <li><strong>Tempi di percorrenza:</strong> Circa 2-3 ore (andata e ritorno).
-  <li><strong>Panorama:</strong> Vista spettacolare sulla pianura e sulle montagne circostanti, soprattutto al tramonto, ma ammirevole anche di notte.
-  <li><strong>Ambiente:</strong> Natura incontaminata e silenziosa, ideale per chi cerca un''esperienza di <strong>trekking</strong> immersa nella <strong>natura</strong>.
+    <li><strong>Distanza:</strong> Circa 8.84 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 274 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Castiglioncello, Toscana, Italia</li>
+    <li><strong>Comune:</strong> Castiglioncello, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni Utili</h3>
-<p>Questa <strong>escursione nel Parco Regionale del Pollino</strong> è particolarmente consigliata per le serate limpide. Ricordatevi di indossare <strong>scarpe da trekking</strong> adeguate e di portare con voi una <strong>torcia frontale</strong>, soprattutto se decidete di fare l''<strong>escursione notturna</strong>. Non ci sono <strong>fontanelle</strong> lungo il percorso, quindi assicuratevi di avere una scorta sufficiente di acqua.  La <strong>montagna</strong> offre sfide e bellezze, quindi pianificate attentamente il vostro <strong>trekking</strong>. Questo sentiero è un''ottima scelta per un''<strong>escursione di lunga durata</strong> o per una semplice passeggiata nel bosco. Un''esperienza di <strong>sentiero escursionistico</strong> da non perdere!</p>
-<p>Seguite sempre le regole di sicurezza e rispettate l''ambiente naturale durante il vostro <strong>trekking</strong> sul <strong>Monte Pelato</strong>.  Lasciatevi conquistare dalla bellezza di questo luogo e condividete la vostra esperienza con altri appassionati di <strong>escursionismo</strong> e <strong>trekking</strong> in <strong>Italia</strong>.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong id="informazioni-utili-distanza">Distanza:</strong> Circa 8.84 km (anello)</li>
+    <li><strong id="informazioni-utili-dislivello">Dislivello:</strong> Circa 274 metri</li>
+    <li><strong id="informazioni-utili-difficoltà">Difficoltà:</strong> Facile</li>
+    <li><strong id="informazioni-utili-periodo">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="informazioni-utili-punto-partenza">Punto di partenza:</strong> Castiglioncello, Toscana, Italia</li>
+    <li><strong id="informazioni-utili-comune">Comune:</strong> Castiglioncello, Toscana</li>
+    <li><strong id="informazioni-utili-tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   8.84,
   274,

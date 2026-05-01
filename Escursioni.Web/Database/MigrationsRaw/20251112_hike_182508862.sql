@@ -7,22 +7,39 @@ VALUES (
   182508862,
   'Corchia dal pirosetto',
   'Il versante sud-est del Monte Corchia è particolarmente suggestivo, caratterizzato da quattro slanciati torrioni. Questo itinerario ad anello offre un''entusiasmante traversata della vetta, gran parte della quale si snoda lungo una cresta panoramica, mai particolarmente impegnativa (se siamo allenati, personalmente non ho faticato). Il ritorno è un rilassante percorso tra sentieri immersi in una faggeta. La partenza avviene dal Passo Croce (1160 m), raggiungibile in auto a breve distanza dal paese di Levigliani. Dal valico, una volta terminato il tratto asfaltato, si parcheggia e si prosegue a piedi lungo la strada marmifera (bloccata da una sbarra) in direzione della cava dei Tavolini. Dopo alcuni tornanti, poco prima che la marmifera passi sotto un caratteristico arco artificiale di roccia, si trova una traccia ben visibile (con sporadici segnavia blu) che sale a sinistra, inerpicandosi ai piedi dei torrioni. In breve tempo si raggiunge la base delle pareti e si traversa a destra, fino a trovarsi tra il III° e il IV° torrione, dove si apre il Canale del Pirosetto, che si risale. Anche se occasionalmente è necessario usare le mani, non ci sono difficoltà significative; il canale è lungo circa 50 metri e, dopo un breve e ultimo salto, si riprende il sentiero. Si continua a salire verso la cresta, con una vista che si apre progressivamente, rivelando la vetta del Corchia (e purtroppo anche la ferita aperta della cava dei Tavolini). Giunti in cresta, si inizia la panoramica traversata: si sale prima sull''anticima (1632 m), poi si scende costeggiando la cava, per infine risalire alla vetta principale (1677 m), da cui si gode un panorama eccezionale sulla Pania della Croce e sul Pizzo delle Saette. La discesa avviene lungo il percorso normale che conduce al rifugio Del Freo da li segue il rientro alle auto. Consiglio l''uso del casco nel tratto del Canale, nel caso cada qualche roccetta.',
-  '<h2>Escursione Trekking Corchia dal Pirosetto: Sentiero Panoramico in Montagna</h2>
+  '<h2 id="escursione-corchia-dal-pirosetto">Escursione dalla Corchia dal Pirosetto</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo fantastico <strong>sentiero di trekking</strong> in <strong>Corchia</strong> offre un''esperienza indimenticabile per gli amanti della <strong>montagna</strong> e della <strong>natura</strong>. L''itinerario ad anello, di circa 8-9 chilometri, si snoda lungo la vetta del <strong>Monte Corchia</strong>, attraversando una cresta panoramica e immergendosi in ambienti naturali unici. Inizia dal <strong>Passo Croce</strong> (1160 m), facilmente raggiungibile in auto da <strong>Levigliani</strong>, e prosegue attraverso un percorso ben definito, passando per la vecchia cava dei Tavolini e il caratteristico <strong>Canale del Pirosetto</strong>. L''escursione è ideale per chi cerca una <strong>trekking</strong> di media difficoltà, perfetta per un''esperienza di <strong>escursione</strong> in <strong>Italia</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa escursione è il Passo Croce (1160 m), facilmente raggiungibile in auto a breve distanza dal paese di Levigliani. Una volta raggiunto il valico, si parcheggia dopo aver superato il tratto asfaltato e si prosegue a piedi lungo la strada marmifera (bloccata da una sbarra) in direzione della cava dei Tavolini.  L''accesso al sentiero inizia poco prima che la marmifera passi sotto un arco artificiale di roccia.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Il sentiero inizia con una salita ripida attraverso la faggeta, seguendo una traccia ben visibile con segnavia blu. Dopo un tratto più facile, si entra nel Canale del Pirosetto, dove occasionalmente si usano le mani. Il canale è lungo circa 50 metri, con un breve salto finale.  Dalla base del canale, si prosegue sulla cresta panoramica, attraversando l''anticima e raggiungendo la vetta principale del Corchia, godendo di un panorama eccezionale. La discesa rientra seguendo il percorso normale verso il rifugio Del Freo.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è di difficoltà media. Il sentiero richiede un minimo di allenamento, ma non presenta ostacoli particolarmente impegnativi.  Si consiglia l''uso del casco nel tratto del Canale del Pirosetto, per evitare che cadano roccette.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
 <ul>
-    <li>Traversata della vetta del <strong>Monte Corchia</strong> con viste mozzafiato.</li>
-    <li>Percorso lungo la cresta panoramica del <strong>Corchia</strong>, sempre accessibile.</li>
-    <li>Passaggio attraverso il <strong>Canale del Pirosetto</strong>, con tratti che richiedono attenzione e l''uso del casco.</li>
-    <li>Possibilità di ammirare i quattro torrioni sul versante sud-est del <strong>Monte Corchia</strong>.</li>
-    <li>Vista panoramica sulla <strong>Pania della Croce</strong> e sul <strong>Pizzo delle Saette</strong>.</li>
+    <li>Distanza: Circa 9.27 km (anello)</li>
+    <li>Dislivello: Circa 985 m</li>
+    <li>Difficoltà: Medio</li>
+    <li>Periodo consigliato: Primavera, Estate, Autunno</li>
+    <li>Punto di partenza: Passo Croce (1160 m), Levigliani, Toscana, Italia</li>
+    <li>Comune: Levigliani</li>
+    <li>Regione: Toscana</li>
+    <li>Tipo di sentiero: Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni Utili</h3>
-<p>La <strong>trekking</strong> al <strong>Corchia dal Pirosetto</strong> si svolge in un ambiente naturalistico di grande valore. La distanza totale del <strong>sentiero</strong> è di circa 8-9 chilometri, con un dislivello di circa 500 metri. La difficoltà è considerata media, adatta a escursionisti allenati. Si consiglia di indossare scarpe da trekking adatte, abbigliamento a strati, e di portare con sé acqua e snack. È fondamentale l''uso del casco durante il passaggio nel <strong>Canale del Pirosetto</strong> per evitare cadute di roccia. Questo <strong>sentiero</strong> è perfetto per un''<strong>escursione</strong> nella <strong>montagna</strong>, un''occasione unica per ammirare la bellezza della <strong>natura italiana</strong>. Ricorda di informarti sulle condizioni meteo prima di intraprendere questa splendida <strong>trekking</strong>. Questo <strong>sentiero</strong>, situato in <strong>Corchia</strong>, è un''ottima opzione per un''esperienza di <strong>trekking</strong> ben organizzata. </p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="distanza">Distanza:</strong> Circa 9.27 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 985 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Medio</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Passo Croce (1160 m), Levigliani, Toscana, Italia</li>
+    <li><strong id="comune">Comune:</strong> Levigliani, Toscana</li>
+    <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   9.27,
   985,

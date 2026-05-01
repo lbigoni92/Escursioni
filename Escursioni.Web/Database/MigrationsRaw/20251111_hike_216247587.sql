@@ -7,26 +7,38 @@ VALUES (
   216247587,
   'Val di chioma ~ Anello tra Torre del Piastrone e laghetto delle Pianacce',
   'Anello tra Torre del Piastrone e laghetto delle Pianacce – 22 km | 600 m D+ Si parte dalla località Le Palazzine, dove è subito possibile godere di un meraviglioso punto panoramico, per poi scendere verso la Val di Chioma lungo la sua omonima via. Il percorso è semplice e in parte ombreggiato. Molto suggestivo è un ponte che attraversa il Botro di Quarrata, costeggiando il fiume Chioma. La discesa prosegue fino a sfiorare il Villaggio Azzurro, dove si svolta a destra e si affrontano tratti più soleggiati, fino a raggiungere la Torre del Piastrone (nei pressi della quale dovrebbe trovarsi anche una croce, che però non abbiamo individuato). Da lì ci siamo diretti verso il laghetto delle Pianacce, anche se per raggiungerlo abbiamo attraversato una zona un po’ selvaggia, quasi da “giungla” – consiglio quindi una strada alternativa. Il laghetto è carino, con tante piccole rane e diverse forme di vita acquatica. Successivamente siamo risaliti fino alla zona detta Casa dei Corsi, per poi scendere nuovamente verso il Botro di Chioma. Da lì abbiamo ripreso il cammino lungo la stessa strada dell’andata, fino a tornare alle auto. Un sentiero molto bello e vario, che consiglio vivamente, anche se un po’ lungo.',
-  '<h2>Val di Chioma ~ Anello tra Torre del Piastrone e laghetto delle Pianacce - Trekking in Toscana</h2>
+  '<h2 id="escursione-val-di-chioma-anello-tra-torre-del-piastrone-e-laghetto-delle-pianacce">Escursione al Val di Chioma – Anello tra Torre del Piastrone e Laghetto delle Pianacce</h2>
 
-<h3>Il percorso: Escursione in Montagna lungo il Sentiero</h3>
-<p>
-Immagina di intraprendere un’affascinante <strong>escursione di trekking</strong> attraverso il <strong>Val di Chioma</strong>, un incantevole <strong>anello di sentiero</strong> che ti conduce alla maestosa <strong>Torre del Piastrone</strong> e al pittoresco <strong>laghetto delle Pianacce</strong>. Questo <strong>sentiero di trekking</strong>, lungo 22 km e con un dislivello di 600 metri, è perfetto per amanti della <strong>natura</strong> e della <strong>montagna</strong> alla ricerca di un''esperienza autentica. L''<strong>escursione</strong> inizia dalla suggestiva località Le Palazzine, offrendo subito una vista mozzafiato.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza di questa splendida escursione è situato a <strong>Le Palazzine</strong>, facilmente raggiungibile in auto. Da qui, il sentiero inizia subito a regalare panorami mozzafiato sulla Val di Chioma.</p>
 
-<h3>Cosa aspettarsi: Trekking nella Val di Chioma</h3>
-<ul>
-    <li>Un percorso di <strong>trekking</strong> di media difficoltà, ideale per escursionisti esperti.</li>
-    <li>Un''<strong>escursione di più giorni</strong>, se desideri esplorare appieno la zona.</li>
-    <li>Un’esperienza immersiva nella <strong>natura</strong> della <strong>Toscana</strong>, con ampie distese di boschi e panorami mozzafiato.</li>
-    <li>Un''opportunità per praticare <strong>trekking</strong> e <strong>escursioni</strong> in un ambiente naturale incontaminato.</li>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Partendo da Le Palazzine, si segue un sentiero facile e in parte ombreggiato attraverso la Val di Chioma. Il percorso è ricco di momenti suggestivi, culminando con un attraversamento del <strong>Botro di Quarrata</strong>, un affascinante fiume. La discesa continua fino a raggiungere la <strong>Torre del Piastrone</strong>, e poi si prosegue verso il suggestivo <strong>laghetto delle Pianacce</strong>. Attenzione, l''ultimo tratto verso il laghetto è un po'' selvaggio e consigliabile una strada alternativa. Il ritorno avviene seguendo lo stesso percorso, ripercorrendo la Val di Chioma fino al punto di partenza.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è di livello <strong>medio</strong>. La distanza è di circa 22.56 km con un dislivello positivo di 448 metri. Il sentiero è ben tenuto, ma richiede una buona preparazione fisica. Preparati a tratti in salita e discesa, e a un percorso vario che ti porterà attraverso boschi, prati e lungo il fiume.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<ul id="traccia-gps-e-informazioni-pratiche">
+    <li><strong>Distanza:</l> 22.56 km (anello)</li>
+    <li><strong>Dislivello:</l> 448 metri</li>
+    <li><strong>Difficoltà:</l> Media</li>
+    <li><strong>Periodo consigliato:</l> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</l> Le Palazzine, accessibile in auto</li>
+    <li><strong>Comune:</l> Malavolta, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</l> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni utili: Dettagli del Sentiero Escursionistico</h3>
-<p>
-Il <strong>sentiero</strong> si snoda attraverso la <strong>Val di Chioma</strong>, seguendo la via omonima. Percorrerai un tratto semplice e in parte ombreggiato, ammirando il suggestivo <strong>ponte che attraversa il Botro di Quarrata</strong>, costeggiando il fiume Chioma. Il percorso prosegue fino al Villaggio Azzurro, con tratti più soleggiati fino alla <strong>Torre del Piastrone</strong>. Successivamente, raggiungerai il caratteristico <strong>laghetto delle Pianacce</strong>, un''oasi di pace con diverse forme di vita acquatica, anche se l''ultimo tratto verso il laghetto può essere un po’ selvaggio. Il sentiero poi riprende la sua direzione, fino a tornare al punto di partenza, Le Palazzine. Questa <strong>escursione di trekking</strong> è un''ottima opzione per chi cerca un''<strong>escursione in Toscana</strong>.</p>
-<p>
-La distanza totale è di 22 km e il dislivello di 600 metri. Questo rende la <strong>trekking</strong> adatta a escursionisti allenati. La <strong>trekking</strong> può essere un''ottima opportunità per un''<strong>escursione in famiglia</strong>, considerando che il sentiero è moderatamente impegnativo.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</l> Circa 22.56 km (anello)</li>
+    <li><strong>Dislivello:</l> Circa 448 metri</li>
+    <li><strong>Difficoltà:</l> Media</li>
+    <li><strong>Periodo consigliato:</l> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</l> Le Palazzine, accessibile in auto</li>
+    <li><strong>Comune:</l> Malavolta, Toscana</li>
+    <li><strong>Tipo di sentiero:</l> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   22.56,
   448,

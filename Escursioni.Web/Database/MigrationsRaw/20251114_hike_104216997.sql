@@ -7,26 +7,39 @@ VALUES (
   104216997,
   'Pitigliano - Vie cave - Cascatella',
   'Splendida cittadina dell’Area del Tufo, nel cuore della Maremma Toscana, Pitigliano è uno dei Borghi più Belli d’Italia e Bandiera Arancione. Soprannominato anche La Piccola Gerusalemme, perché a partire dal XVI secolo ospitò una grande comunità ebraica tra le sue mura, Pitigliano è oggi uno dei borghi storici più affascinanti d’Italia ed una tappa imperdibile durante un viaggio in Toscana. E - VIA CAVA DI FRATENUTI (1330 mt 30 min.) Usciti dalla via cava di Poggio Cani, si prosegue verso destra attraversando la strada asfaltata SP 42 Pian della Madonna direzione Pitigliano-Sovana. Poco dopo, sulla sinistra si segue l''indicazione via cava di Fratenuti, dove salendo su alcune pietre sarà possibile ammirare il torrente sottostante. Dopo aver percorso la via cava, sul pianoro soprastante, si incontra la strada la Doganella. A questo punto si hanno due possibilità: rientrare in paese o proseguire il trekking. A sinistra, si continua verso l''incrocio denominato “le quattro strade” oppure si può procedere per la visita del Museo Archeologico all''aperto Alberto Manzi (e della via cava del Gradone, al suo interno) attraversando la SR 74 Maremmana per poi prendere la S.P 127, strada del Pantano. Oppure si svolta a sinistra e, costeggiando la SR 74 Maremmana, si scende verso il santuario Madonna delle Grazie. Si rientra a Pitigliano lungo la via cava Madonna delle Grazie, risalendo in paese, lungo la via cava di Poggio Cani.',
-  '<h2>Pitigliano - Vie Cave - Cascatella: Trekking e Escursioni nella Maremma Toscana</h2>
+  '<h2 id="pitigliano-vie-cave-cascatella">Escursione a Pitigliano – Vie Cave – Cascatella</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo fantastico trekking porta attraverso il cuore della <strong>Maremma Toscana</strong>, offrendoti un''esperienza indimenticabile di <strong>trekking</strong> e <strong>escursioni</strong> nella <strong>montagna</strong>.  Il sentiero, chiamato <strong>Vie Cave</strong>, collega la splendida città di <strong>Pitigliano</strong> alla suggestiva cascata di <strong>Cascatella</strong>. Il percorso inizia dalla via cava di Poggio Cani, seguendo le <strong>vie cave</strong> per circa 1330 metri e 30 minuti, offrendo panorami mozzafiato sulla natura circostante.  Sarà un''esperienza di <strong>sentiero</strong> immersa nella <strong>natura</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa bellissima escursione è facilmente raggiungibile da Pitigliano. Usciti dal centro del paese, si prosegue lungo la strada SP 42 Pian della Madonna in direzione Pitigliano-Sovana.  Dopo aver superato la strada asfaltata, si prende la via cava di Fratenuti, un sentiero che sale su alcuni ripidi passaggi ricoperti di pietre. Questa via offre già un assaggio del panorama che ci aspetta.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparati ad un''escursione immersa nella bellezza selvaggia della <strong>Maremma Toscana</strong>. Il <strong>sentiero</strong> si snoda attraverso paesaggi collinari, attraversando antiche <strong>vie cave</strong> e offrendo la possibilità di ammirare il torrente sottostante. L''escursione è un''ottima opportunità per praticare <strong>trekking</strong> e godere della tranquillità della <strong>montagna</strong> e della <strong>natura</strong>.  Sarà un''esperienza unica per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>Italia</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Il sentiero inizia con una salita iniziale lungo la via cava di Fratenuti, seguendo il torrente sottostante. Dopo circa 30 minuti di cammino, si raggiunge la strada la Doganella. Da qui, si può scegliere di tornare a Pitigliano o proseguire lungo il sentiero. Il percorso continua attraverso diversi sentieri che attraversano la campagna maremmana, offrendo splendide viste sulla valle sottostante e sul borgo di Pitigliano arroccato sulla roccia.</p>
+<p>Il sentiero si snoda attraverso la valle del torrente e offre la possibilità di ammirare le Cascatella, una serie di cascate naturali che formano un piccolo angolo di paradiso. L''anello si completa rientrando verso Pitigliano lungo la via cava Madonna delle Grazie.</p>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Facile/Media</li>
-    <li><strong>Distanza:</strong> Circa 1330 metri</li>
-    <li><strong>Tempo Stimato:</strong> 30 minuti</li>
-    <li><strong>Punto di Partenza:</strong> Via Cava di Poggio Cani, Pitigliano</li>
-    <li><strong>Punto di Arrivo:</strong> Cascatella</li>
-    <li><strong>Località:</strong> Pitigliano, Maremma Toscana, Italia</li>
-    <li><strong>Punti di Interesse:</strong> Via Cava di Fratenuti, Torrente,  Strada la Doganella, Incrocio “le Quattro Strade”, Museo Archeologico all''aperto Alberto Manzi, Via Cava del Gradone, SR 74 Maremmana, S.P 127, Strada del Pantano, Santuario Madonna delle Grazie</li>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di **facile** difficoltà, adatta a tutti i livelli, inclusi i principianti. Il dislivello totale è di circa **381 metri**, ma il percorso è ben tracciato e non presenta ostacoli particolarmente impegnativi.  L''escursione richiede circa <strong>7.93 km</strong> per l''anello completo e circa <strong>30 minuti</strong> di cammino lungo la via cava di Fratenuti.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class=''list-disc''>
+  <li><strong>Distanza:</strong> Circa 7.93 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 381 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Via cava di Fratenuti, Pitigliano</li>
+  <li><strong>Comune:</strong> Pitigliano, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Questo <strong>sentiero</strong> è ideale per chi cerca un''<strong>escursione</strong> a piedi nella <strong>Toscana</strong>, un''occasione per scoprire la bellezza della <strong>Maremma Toscana</strong> e godere di un''esperienza di <strong>trekking</strong> immersa nella <strong>natura</strong>.  Esplora i <strong>sentieri</strong> della <strong>montagna</strong> e immergiti nella storia di <strong>Pitigliano</strong>, uno dei <strong>Borghi più Belli d’Italia</strong>.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul class=''list-disc''>
+  <li><strong id="distanza">Distanza:</strong> Circa 7.93 km (anello)</li>
+  <li><strong id="dislivello">Dislivello:</strong> Circa 381 metri</li>
+  <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+  <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="punto-di-partenza">Punto di partenza:</strong> Via cava di Fratenuti, Pitigliano (accessibile in auto/piedi)</li>
+  <li><strong id="comune">Comune:</strong> Pitigliano, Toscana</li>
+  <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.93,
   381,

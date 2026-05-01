@@ -7,29 +7,33 @@ VALUES (
   87727616,
   'Anello: Livorno - Montenero - Castellaccio',
   'Il Percorso è alla portata di tutti e non presenta problemi tecnici, praticabile con ogni condizione meteo e in ogni periodo dell''anno. Per effettuarlo d''estate basta un litro d''acqua e magari qualche top alle fontanelle, d''inverno lo faccio con meno di mezzo litro. Le fontanelle d''acqua sono sempre aperte in ogni periodo dell''anno. Lungo il percorso si passa davanti a due sue luoghi storici: Il monumento ai caduti e il Santuario di Montenero. Consiglio il percorso a principianti o a chi ha solo un pio d''ore per fare un giro in bici, carino ma non esaltante. Punti storici : Monumento ai caduti e Monastero di Montenero',
-  '<h2>Anello Trekking Livorno - Montenero - Castellaccio</h2>
+  '<h2 id="anello-livorno-montenero-castellaccio">Anello: Livorno - Montenero - Castellaccio</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza dell''anello è a <strong>Livorno</strong>, precisamente in località <strong>Montenero</strong>. Raggiungibile in auto, il parcheggio è disponibile all''ingresso del borgo.  Si può anche arrivare a piedi o in bicicletta da <strong>Fiume</strong>, godendo di un piacevole viaggio immersi nel paesaggio toscano.</p>
 
-<p>Questo <strong>anello trekking</strong> a <strong>Livorno</strong>, che collega <strong>Montenero</strong> e il <strong>Castellaccio</strong>, offre un''esperienza di <strong>escursione</strong> in <strong>montagna</strong> che si adatta a tutti i livelli. Il sentiero è facilmente accessibile e presenta un dislivello moderato, rendendolo ideale per una giornata di <strong>trekking</strong> o <strong>escursione</strong> a piedi. È un percorso perfetto per chi cerca una gita in <strong>montagna</strong> in <strong>Italia</strong>, o per chi desidera scoprire i paesaggi unici della Toscana attraverso sentieri ben segnalati.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo anello di circa 28,68 km vi condurrà attraverso paesaggi mozzafiato. Iniziate da <strong>Montenero</strong>, visitando il <strong>monumento ai caduti</strong> e il suggestivo <strong>Santuario di Montenero</strong>.  Il sentiero vi porterà verso il <strong>Castellaccio</strong>, ammirando panorami spettacolari sulla costa livornese e sulla città.  L''escursione è caratterizzata da un dislivello totale di circa 677 metri, percorribile in tranquillità con un ritmo sostenuto. È un percorso adatto a chi cerca una bella giornata all''aria aperta, senza particolari ostacoli tecnici.</p>
 
-<p>Il percorso di circa 10 km è progettato per essere alla portata di tutti, senza problemi tecnici. La sua praticabilità è garantita in ogni condizione meteo e in ogni periodo dell''anno. Il <strong>sentiero</strong> offre scorci mozzafiato sulla costa livornese e sull''entroterra toscano, immerso nella <strong>natura</strong> rigogliosa e nelle colline boscate.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>La difficoltà di questo percorso è classificata come <strong>Media</strong>. È adatto sia a escursionisti esperti che a principianti, grazie al sentiero ben tracciato e al dislivello moderato.  L''anello è praticabile in ogni condizione meteo e in ogni periodo dell''anno, con la dovuta preparazione. Ricordate che d''estate, soprattutto in estate,  è fondamentale idratarsi adeguatamente.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Questo anello offre la possibilità di ammirare punti di interesse storico e naturalistico lungo il percorso.  Consigliamo di indossare scarpe da trekking e di portare con sé acqua, snack e una mappa.  La <strong>traccia GPS</strong> del percorso è disponibile per facilitare l''esplorazione.</p>
 
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-  <li><strong>Percorso</strong> Facile e Accessibile: Adatto a principianti e famiglie.</li>
-  <li><strong>Distanza</strong>: Circa 10 km.</li>
-  <li><strong>Dislivello</strong>: Moderato (circa 300 metri).</li>
-  <li><strong>Durata</strong>: Circa 3-4 ore (a seconda del ritmo).</li>
-  <li>Punti di Interesse: Il <strong>Monumento ai Caduti</strong> a <strong>Montenero</strong> e il <strong>Santuario di Montenero</strong>, luoghi di grande interesse storico e religioso.</li>
-</ul>
-
-<p>Consigliamo questo <strong>sentiero</strong> per una giornata di <strong>trekking</strong> rilassante, o per chi ha solo poche ore a disposizione per un giro in bici. La possibilità di rifornirsi di acqua alle <strong>fontanelle</strong> rende l''<strong>escursione</strong> più confortevole, specialmente in estate.  Un''ottima opportunità per godere della <strong>natura</strong> e delle bellezze del territorio.</p>
-
-<h3>Informazioni Utili</h3>
-
-<p>Il percorso è praticabile con ogni condizione meteo e in ogni periodo dell''anno. Per una <strong>escursione</strong> d''estate, è consigliabile portare con sé un litro d''acqua e qualche top alle fontanelle, mentre d''inverno è sufficiente meno di mezzo litro. Ricorda di indossare scarpe da <strong>trekking</strong> adatte e di portare con te un cappello e crema solare, soprattutto in estate.  L''accesso al <strong>sentiero</strong> è libero e gratuito.  Pianifica la tua <strong>escursione</strong> lungo il <strong>sentiero</strong> nella splendida regione Toscana e scopri la magia dei suoi paesaggi.</p>',
+    <li><strong>Distanza:</strong> Circa 28.68 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 677 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Montenero, accessibile in auto o a piedi da Fiume</li>
+    <li><strong>Comune:</strong> Fiume, Bagni</li>
+    <li><strong>Provincia:</strong> Toscana</li>
+    <li><strong>Regione:</strong> Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+    <li><strong>Parco Nazionale:</strong> Non applicabile</li>
+</ul>',
   'Tutte le Attività e Paesi',
   28.68,
   677,

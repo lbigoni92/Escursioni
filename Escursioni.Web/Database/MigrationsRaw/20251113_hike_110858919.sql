@@ -7,31 +7,31 @@ VALUES (
   110858919,
   'Candalla - Passeggiata tranquilla',
   'Il percorso è molto breve ma carino, le zone più belle sono in fondo al sentiero con delle polle uniche, basta stare attenti a dove si mette i piedi e si cammina tranquilli. Abbiamo fatto il bagno in varie polle e l''acqua sarà stata di 10 gradi.. Proprio quello che ci vuole per riprendersi da questi bollori. C''è anche un bivio che porta a Casoli. Una fonte è a inizio percorso',
-  '<h2>Candalla - Passeggiata Tranquilla: Trekking nella Montagna degli Orsi</h2>
+  '<h2 id="candalla-passeggiata-tranquilla">Candalla - Passeggiata Tranquilla</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa tranquilla escursione è facilmente raggiungibile.  Potete trovare parcheggio a Metato, comune in Toscana, e da lì seguire le indicazioni per l''inizio del sentiero.  L''accesso è a piedi, quindi preparatevi a fare un breve tratto su strada per raggiungere il punto di partenza, segnalato con un cartello.</p>
 
-<p>Immergiti nella natura incontaminata della <strong>Montagna degli Orsi</strong> con questa <em>passeggiata tranquilla</em>, un''escursione ideale per chi cerca un''esperienza di <strong>trekking</strong> breve ma ricca di emozioni. Questo sentiero, perfetto per una <strong>escursione</strong>, ti guiderà attraverso paesaggi mozzafiato, con un''inclinazione significativa solo nelle ultime fasi, quando raggiungi le zone più suggestive. È un percorso facile, adatto anche a famiglie e principianti, ma richiede attenzione per evitare cadute. La <strong>passeggiata</strong> è breve, ma ogni passo ti riporterà a panorami incredibili.</p>
+<h3 id="il-percorso-passo-passo">Il Percorso Passo per Passo</h3>
+<p>Questa escursione di anello di 4.85 km è perfetta per una passeggiata tranquilla in montagna. Il sentiero, di difficoltà media, vi condurrà attraverso un paesaggio suggestivo, con la possibilità di immergervi nelle acque fresche delle polle. Inizierete da un punto con una fonte, poi il sentiero sale dolcemente fino a raggiungere le zone più belle, caratterizzate da affascinanti polle dove potrete rinfrescarvi.  È un sentiero ben tenuto, ma bisogna fare attenzione ai piedi, soprattutto quando si cammina tra le rocce.  Il percorso termina rientrando al punto di partenza, passando anche da un bivio che conduce a Casoli.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è classificata come di difficoltà media. Il dislivello di 273 metri è graduale, quindi non è eccessivo, ma richiede comunque una buona preparazione fisica.  Il sentiero è adatto a escursionisti amatoriali e famiglie, purché siano in buona forma e abituati a camminare su terreni leggermente ripidi.</p>
 
-<p>Preparati ad ammirare delle <em>polle uniche</em>, veri gioielli naturali incastonati nel cuore della montagna. Questa escursione offre l''opportunità di immergersi nella <strong>natura</strong> italiana, respirando aria fresca e godendo della bellezza del paesaggio. L''ambiente circostante è ricco di flora e fauna, rendendo questa <strong>escursione sentiero</strong> un''esperienza davvero speciale. La distanza del sentiero è breve, ma la sua bellezza lo rende perfetto per una giornata di <strong>trekking</strong> rilassante.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Potete scaricare la traccia GPS di questa escursione per seguirla durante la camminata.  La discesa è in gran parte a piedi, ma può essere utile avere un punto di riferimento in caso di necessità.  Ricordate di portare con voi acqua, snack e scarpe da trekking adatte.</p>
 
-<p>Il percorso include un <em>bivio che conduce a Casoli</em>, un caratteristico borgo medievale, rendendo l''escursione ancora più interessante. Non dimenticare un buon costume da bagno, perché l''acqua delle <em>polle</em>, a causa della corrente fredda, è perfetta per un tuffo rinfrescante, raggiungendo una temperatura di circa 10 gradi. Un''occasione unica per <strong>riprendersi da questi bollori</strong> in mezzo alla natura.</p>
-
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-  <li><strong>Difficoltà:</strong> Facile</li>
-  <li><strong>Distanza:</strong> Breve (circa 3 km)</li>
-  <li><strong>Dislivello:</strong> Moderato (circa 200 metri)</li>
-  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
-  <li><strong>Luogo:</strong> Montagna degli Orsi, Candalla (Abruzzo)</li>
-  <li><strong>Tipo attività:</strong> Trekking, Escursione, Natura, Sentiero</li>
-  <li><strong>Punti di interesse:</strong> Polle naturali, Panorami mozzafiato, Bivio per Casoli, Sorgenti d''acqua</li>
-</ul>
-
-<p>Ricorda di indossare scarpe da trekking adatte e di portare con te acqua e snack. Pianifica la tua <em>escursione sentiero</em> con anticipo e goditi la tranquillità e la bellezza della <strong>Montagna degli Orsi</strong>. Questa <em>passeggiata tranquilla</em> è perfetta per una giornata all''aria aperta in Italia.</p>',
+    <li><strong>Distanza:</strong> 4.85 km</li>
+    <li><strong>Dislivello:</strong> 273 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Metato, Toscana, Italia</li>
+    <li><strong>Comune:</strong> Metato</li>
+    <li><strong>Regione:</strong> Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   4.85,
   273,

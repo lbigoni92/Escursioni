@@ -7,26 +7,35 @@ VALUES (
   138768881,
   'Masso delle fanciulle - Masso degli specchi - Castello dei Vescovi',
   'Giro molto carino dal parcheggio al primo guado ci sono circa 700mt e il guado è facile da superare all''andate il primo tratto di sentiero è prevalentemente boschivo, mentre il 2° è completamente esposto al sole. Arrivati al castello dei vescovi, c''è un bel fresco e una geocache per chi volesse cercarla, da li siamo tornati in dietro sul solito percorso fino al fiume dove abbiamo fatto uno splendido tuffo! Il Castello si trova su di una collinetta di 231 metri di altezza alla confluenza fra il Torrente Sellate ed il Botro al Rio all’interno dell’attuale foresta di Berignone. Fu fondato nel medioevo da parte dei vescovi di Volterra che ne rimasero i proprietari per secoli. E’ conosciuto fin dal 990 quando si trovava al centro di un’area intensamente popolata. Fu a lungo un centro importante per il controllo del territorio ed anche una residenza dei vescovi volterrani.',
-  '<h2>Masso delle fanciulle - Masso degli specchi - Castello dei Vescovi Trekking in Toscana</h2>
+  '<h2 id="escursione-masso-delle-fanciulle-masso-degli-specchi-castello-dei-vescovi">Escursione al Masso delle Fanciulle, Masso degli Specchi e al Castello dei Vescovi</h2>
 
-<h3>Il percorso: Un’Escursione Suggestiva tra Storia e Natura</h3>
-<p>Preparati per un’affascinante <strong>escursione a trekking</strong> attraverso il cuore della **Toscana**, lungo il sentiero che ti condurrà al maestoso **Castello dei Vescovi**, passando per il suggestivo **Masso delle fanciulle** e il **Masso degli specchi**. Questo itinerario è perfetto per un''intera giornata di <strong>trekking** e offre un''esperienza indimenticabile immersa nella **natura** e nella storia medievale.  Partendo dal punto di partenza, potrai affrontare un percorso di circa 7 km con un dislivello di 300 metri, ideale per appassionati di <strong>escursionismo** e <strong>sentieri** in <strong>montagna**. La difficoltà è media, adatta a escursionisti esperti, ma anche a famiglie con bambini che amano il <strong>trekking** in ambiente naturale.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa aspettarsi: Un''Avventura tra Radici Medievali e Panorami Mozzafiato</h3>
-<p>Durante questo <strong>sentiero** escursionistico, potrai ammirare un paesaggio variegato, che spazia dalla fitta vegetazione del bosco alla roccia esposta e ai panorami mozzafiato sulla campagna toscana.  Sarai circondato dalla storia, con il **Castello dei Vescovi** che testimonia il passato medievale della regione. Approfitta della possibilità di fare una <strong>geocache** per un''attività divertente per tutta la famiglia.  Non dimenticare di fare una pausa rinfrescante al **Masso degli specchi** e di goderti un''oasi di tranquillità.</p>
+<p>Il punto di partenza per questa fantastica escursione è il parcheggio a casa Montacuto, facilmente raggiungibile in auto. Da lì, seguiamo il sentiero che inizia subito dopo il parcheggio, pronto per un’avventura in montagna!</p>
 
-<h3>Informazioni Utili: Dettagli per un Trekking Sicuro e Ricco di Meraviglie</h3>
-<ul>
-    <li><strong>Distanza:</strong> Circa 7 km</li>
-    <li><strong>Dislivello:</strong> 300 metri</li>
-    <li><strong>Difficoltà:</strong> Media</li>
-    <li><strong>Punto di partenza:</strong> Parcheggio</li>
-    <li><strong>Punto di arrivo:</strong> Castello dei Vescovi</li>
-    <li><strong>Tempi di percorrenza:</strong> 3-4 ore (a seconda del ritmo)</li>
-    <li><strong>Trasversalità:</strong> Sentiero di andata e ritorno</li>
-    <li><strong>Attrazioni:</strong> Castello dei Vescovi, Masso delle fanciulle, Masso degli specchi, <strong>geocache</strong>,  torrente e possibilità di <strong>tuffo** (consigliato solo in acque calme e sotto supervisione)</li>
-</ul>
-<p> Ricorda di indossare scarpe da <strong>trekking** adatte, portare acqua e snack, e rispettare l’ambiente. Questo <strong>sentiero** è una vera e propria gemma per gli amanti del <strong>trekking** e dell’<strong>escursionismo** in <strong>Italia**.  Goditi la bellezza della **natura** e la storia di questo luogo unico.  Esplora la **montagna** toscana con questo emozionante <strong>sentiero**.</p>',
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>Il sentiero inizia con un tratto boschivo che ci porta gradualmente verso l''alto. Superato il primo guado, il sentiero diventa più esposto al sole, regalando panorami spettacolari. Arrivati al Castello dei Vescovi, la temperatura si abbassa notevolmente, perfetto per una pausa. Dopo la visita al castello, ripercorriamo il sentiero fino al fiume dove ci concediamo un tuffo rinfrescante! Il percorso è un anello che ci riporta al punto di partenza.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>Questa escursione è di difficoltà **media**. Il dislivello totale è di circa 397 metri, quindi è necessario essere in buona forma fisica. Il sentiero è ben battuto, ma alcuni tratti sono esposti al sole, quindi è consigliabile portare acqua e protezione solare.  Preparatevi a circa 13.68 km di distanza.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>Per seguire il percorso, vi consiglio di utilizzare una traccia GPS.  Sarà un''escursione indimenticabile!</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong>Distanza:</strong> Circa 13.68 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 397 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Parcheggio a Casa Montacuto, accessibile in auto</li>
+  <li><strong>Comune:</strong> Casa Montacuto, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   13.68,
   397,

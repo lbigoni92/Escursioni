@@ -7,30 +7,30 @@ VALUES (
   109999488,
   'Gabbro anello serale Poggio D''arco',
   'Siamo partiti dal parcheggio Gabbro e da li abbiamo iniziato un anello improvvisato prima della sagra del Cinghiale. Il giro si è rivelato molto carino e facile da seguire, in un paio di punti c''era un po di erba alta, ma niente di che. Ci sono diversi punti dov''è possibile godere di un panorama Unico nel suo genere. Dopo il giro, Siamo andati alla sagra nel paese a cena, se passate da quelle parti possate anche sul monte Pelato. c''è un grandissimo parcheggio dove lasciare l''auto... e subito a inizio percorso c''è una fontanella, potete andare anche con le scarpe da tennis .',
-  '<h2>Gabbro Anello Serale Poggio D''arco: Trekking e Escursione nella Montagna Toscana</h2>
+  '<h2 id="gabbro-anello-serale-poggio-darco">Escursione al Gabbro: Anello Serale a Poggio D''Arco</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza di questa bella escursione è il parcheggio "Gabbro", situato nel comune di Gabbro, in provincia di Toscana. L''accessibile in auto e, per i più avventurosi, anche a piedi. Particolare attenzione c''è una fontanella subito all''inizio del sentiero per rinfrescarsi.</p>
 
-<p>Questo <strong>anello trekking</strong> a <strong>Poggio D''arco</strong>, in Toscana, è un''esperienza indimenticabile per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>. Il percorso, di tipo <strong>sentiero</strong>, si snoda tra il <strong>Gabbro</strong>, una formazione geologica affascinante, offrendo panorami mozzafiato. L''escursione è stata concepita come un''improvvisata, perfetta per una giornata di <strong>trekking</strong> in <strong>montagna</strong>, immergendosi nella <strong>natura</strong> toscana. Il giro è caratterizzato da un facile sviluppo, rendendolo adatto a diversi livelli di esperienza. In alcuni punti, l''erba alta potrebbe richiedere un po'' di attenzione, ma nulla di particolarmente impegnativo. La distanza del <strong>sentiero</strong> è di circa 5 km, con un dislivello di 250 metri, garantendo una sfida piacevole per i più sportivi.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Abbiamo intrapreso un anello improvvisato partendo dal parcheggio Gabbro. Il sentiero è facile da seguire, anche se in alcuni punti l''erba alta potrebbe rendere il percorso un po'' impegnativo. L''escursione è un''ottima opportunità per godere di panorami unici. Il giro è stato un''esperienza piacevole e rilassante, perfetta per una serata in montagna. La sagra del Cinghiale, tenutasi nel paese, ci ha offerto una cena gustosa.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è di **facile** difficoltà, adatta a tutti, anche a chi non ha molta esperienza. Il dislivello è di circa 311 metri, rendendo il percorso accessibile a persone di diverse età e condizioni fisiche. La distanza dell''anello è di 6.3 km.</p>
 
-<p>Preparatevi ad un''<strong>escursione</strong> immersiva nella splendida <strong>montagna</strong> della Toscana. Potrete ammirare panorami unici, godervi la tranquillità della <strong>natura</strong> e respirare l''aria fresca e pulita. Il <strong>sentiero</strong> è ben battuto, ma in alcuni tratti potrebbe presentare leggerissimi dislivelli. La flora e la fauna locale vi sorprenderanno con la loro varietà.  È un''ottima opportunità per una giornata di <strong>trekking</strong> e scoperta del territorio, ideale per famiglie e gruppi di amici.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Sarà disponibile presto una traccia GPS per facilitare l''escursione. Ti consigliamo di indossare scarpe da trekking adatte e di portare con te acqua e snack. Ricorda di rispettare l''ambiente e di lasciare i sentieri puliti.</p>
 
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Località:</b> Poggio D''arco, Toscana</li>
-    <li><b>Difficoltà:</b> Facile – Media</li>
-    <li><b>Distanza:</b> Circa 5 km</li>
-    <li><b>Dislivello:</b> 250 metri</li>
-    <li><b>Tipo di Sentiero:</b> Anello </li>
-    <li><b>Punti di Interesse:</b> Panorami mozzafiato,  formazione geologica <strong>Gabbro</strong>,  possibilità di ammirare la <strong>natura</strong> locale, vista sul monte Pelato.</li>
-    <li><b>Accesso:</b> Partenza dal parcheggio <strong>Gabbro</strong>. Inizialmente un percorso improvvisato per la sagra del Cinghiale.</li>
-    <li><b>Servizi:</b> Parcheggio disponibile vicino al punto di partenza. Fontanella all''inizio del <strong>sentiero</strong>; accessibile anche con <strong>scarpe da tennis</strong>.</li>
-</ul>
-
-<p>Non perdetevi la possibilità di partecipare alla tradizionale <strong>sagra del Cinghiale</strong> a <strong>Poggio D''arco</strong>! Dopo l''<strong>escursione</strong>, potrete gustare i piatti tipici locali.  Ricordatevi di controllare le previsioni meteo prima di partire e di indossare abbigliamento e calzature adatte al <strong>trekking</strong>.  Godetevi questa magnifica <strong>escursione</strong> nel cuore della <strong>montagna</strong> toscana, un vero gioiello per gli amanti del <strong>sentiero</strong> e del <strong>trekking</strong> in Italia!</p>',
+    <li><strong>Distanza:</strong> Circa 6.3 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 311 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio Gabbro, Gabbro, Toscana</li>
+    <li><strong>Comune:</strong> Gabbro, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   6.3,
   311,

@@ -7,31 +7,43 @@ VALUES (
   218691561,
   'Buti Ferrata',
   '✅ Completata anche la Ferrata di Sant’Antone di Buti — una delle più impegnative della Toscana — in tutte e tre le sue sezioni… e questa volta in solitaria! ->Precedente traccia https://www.wikiloc.com/via-ferrata-trails/ferrata-di-buti-ferrata-di-santantone-153503172 📢 Se decidete di provarla, lasciate un commento o una recensione: mi farebbe piacere conoscere la vostra opinione! ⚠️ Tutto ciò che scrivo si basa esclusivamente sulla mia esperienza personale e soggettiva. Non sottovalutate la difficoltà della ferrata: è obbligatorio avere l’attrezzatura adeguata (imbrago, casco, kit da ferrata, scarponi). 💪 Mi aspettavo un percorso più faticoso in senso generale, anche se in alcuni tratti ho trovato passaggi tecnicamente impegnativi. La ferrata è fattibile da chi ha esperienza e una buona base muscolare, ma mai da prendere alla leggera, soprattutto per via dell’esposizione e della fatica richiesta. Ci sono sezioni molto toste dove serve piena concentrazione. È decisamente più difficile rispetto a quelle del Forato, del Procinto e del Sumbra — anche se meno panoramica. 🕒 Io ho impiegato questa volta 2h05’ con soste che con noi c''era una persona che era la sua prima volta. In condizioni ideali, si può completare in 1h30’ - 2h. 🧗‍♂️ La Ferrata È l’unica via ferrata dei Monti Pisani, si sviluppa in senso SE → NO, a una quota tra i 410 e i 536 metri. Fin da subito risulta faticosa, con passaggi tecnici e tratti molto esposti. È fondamentale non soffrire di vertigini e avere un buon allenamento fisico. Ogni chiodo è numerato, cosa molto utile durante il percorso. 🚗 Il Parcheggio Si trova 300-400 metri prima dell’attacco, salendo da Buti sulla destra. È piuttosto ampio: ci stanno circa 10 auto. Oppure si può parcheggiare a quello alla fine della ferrata e scendere per il sentiero(cosa che stavolta ho fatto). 🥾 Accesso alla Ferrata Dalla strada si trova un cartello ben visibile. Seguendolo per circa 2-300 metri si arriva all’attacco della ferrata. 🧱 Descrizione del Percorso La ferrata è divisa in tre sezioni, collegate da brevi tratti nel bosco. Attenzione: se ha piovuto da poco, le suole potrebbero bagnarsi e ridurre l’aderenza. 🔹 Prima parte – Chiodo 1 → 64 Tratto molto muscolare e verticale fin da subito, con difficoltà tecniche evidenti. Si usano staffe nella roccia e c’è già una forte esposizione. Lo scambio dei moschettoni è spesso scomodo. C’è una scaletta impegnativa e un tratto verticale non banale. Si arriva alla Madonnina della ferrata, dove si affronta un passaggio con appoggi per i piedi poco visibili ma molto utili. 🔹 Seconda parte – Chiodo 65 → 105 La parte che personalmente ho trovato più semplice e meno faticosa, anche se non priva di difficoltà. Il panorama è bellissimo e ci sono punti stabili dove è possibile scattare foto. Un tratto davvero godibile. 🔹 Terza parte – Chiodo 106 → 165 Inizia con una decina di chiodi in verticale: si lavora molto con le mani. In alcuni punti si procede con relativa tranquillità, ma ci sono pareti verticali e una discesa tecnica(ma semplice per chi ha esperienza in scalate). L’ultima parte è la più difficile dell’intera ferrata: richiede molta forza di braccia e massima attenzione. Al chiodo 165, si arriva a un bivio: A sinistra: si attraversa un mini ponte tibetano che porta in un camino da cui si esce in verticale, con un tratto davvero tosto. A destra: si sale verticalmente verso l’uscita più semplice, meno impegnativa.',
-  '<h2>Buti Ferrata - Escursione e Ferrata Toscana</h2>
+  '<h2 id="escursione-ferrata-buti">Ferrata Buti – Ferrata di Sant’Antone</h2>
 
-<h3>Il percorso</h3>
-<p>La Ferrata Buti è una delle più impegnative della Toscana, una vera sfida per gli amanti del trekking e dell''escursionismo in montagna. Questo sentiero, che si snoda attraverso i Monti Pisani, offre un''esperienza unica di trekking e ferrata, combinando passaggi tecnici con panorami mozzafiato.  La ferrata si sviluppa in senso SE → NO, a una quota tra i 410 e i 536 metri, ed è l''unica via ferrata dei Monti Pisani.</p>
-<p>Il percorso è diviso in tre sezioni, collegate da brevi tratti nel bosco, e presenta una difficoltà elevata, adatta a escursionisti esperti e con una buona base muscolare. La sua posizione esposta e la fatica richiesta la rendono più impegnativa rispetto a altre ferrate più conosciute, come quelle del Forato, del Procinto e del Sumbra.  È fondamentale avere l’attrezzatura adeguata (imbrago, casco, kit da ferrata, scarponi) e non sottovalutare la difficoltà.</p>
-<p>La ferrata è caratterizzata da sezioni molto toste dove serve piena concentrazione, passaggi tecnici e tratti molto esposti, rendendola un''esperienza stimolante e gratificante per chi cerca sfide nel trekking in montagna.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa aspettarsi</h3>
-<p>Preparatevi a un’escursione intensa, con un percorso che richiede forza, resistenza e una buona tecnica di ferrata.  Ci sono sezioni molto muscolari e verticali, dove si usano staffe nella roccia e c’è già una forte esposizione.  Il percorso è anche caratterizzato da passaggi con scalette impegnative e tratti verticali non banali, ma anche da momenti di godimento con panorami mozzafiato e punti stabili per scattare foto.</p>
-<p>La ferrata è fattibile da chi ha esperienza e una buona base muscolare, ma mai da prendere alla leggera, soprattutto per via dell’esposizione e della fatica richiesta.  Si consiglia di non soffrire di vertigini e di avere un buon allenamento fisico. Ogni chiodo è numerato, cosa molto utile durante il percorso.</p>
+<p>Il parcheggio per la Ferrata di Buti si trova a 300-400 metri prima dell’attacco, salendo da Buti sulla destra. È un parcheggio piuttosto ampio, in grado di accogliere circa 10 auto. In alternativa, si può parcheggiare alla fine della ferrata e scendere per il sentiero, cosa che ho fatto durante questa escursione. Dalla strada si trova un cartello ben visibile che indica l''inizio del sentiero per l''attacco alla ferrata.</p>
 
-<h3>Informazioni utili</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>La Ferrata è divisa in tre sezioni, collegate da brevi tratti nel bosco. La ferrata si sviluppa in senso SE → NO, a una quota tra i 410 e i 536 metri. Fin da subito risulta faticosa, con passaggi tecnici e tratti molto esposti. È fondamentale non soffrire di vertigini e avere un buon allenamento fisico. Ogni chiodo è numerato, cosa molto utile durante il percorso. </p>
+
+<p><strong>Prima parte</strong> – Chiodo 1 → 64: Tratto molto muscolare e verticale fin da subito, con difficoltà tecniche evidenti. Si usano staffe nella roccia e c’è già una forte esposizione. Lo scambio dei moschettoni è spesso scomodo. C’è una scaletta impegnativa e un tratto verticale non banale. Si arriva alla Madonnina della ferrata, dove si affronta un passaggio con appoggi per i piedi poco visibili ma molto utili.</p>
+
+<p><strong>Seconda parte</strong> – Chiodo 65 → 105: La parte che personalmente ho trovato più semplice e meno faticosa, anche se non priva di difficoltà. Il panorama è bellissimo e ci sono punti stabili dove è possibile scattare foto. Un tratto davvero godibile.</p>
+
+<p><strong>Terza parte</strong> – Chiodo 106 → 165: Inizia con una decina di chiodi in verticale: si lavora molto con le mani. In alcuni punti si procede con relativa tranquillità, ma ci sono pareti verticali e una discesa tecnica(ma semplice per chi ha esperienza in scalate). L’ultima parte è la più difficile dell’intera ferrata: richiede molta forza di braccia e massima attenzione. Al chiodo 165, si arriva a un bivio: A sinistra: si attraversa un mini ponte tibetano che porta in un camino da cui si esce in verticale, con un tratto davvero tosto. A destra: si sale verticalmente verso l’uscita più semplice, meno impegnativa.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>La Ferrata è di <strong>Difficoltà Medio</strong>. È obbligatorio avere l’attrezzatura adeguata (imbrago, casco, kit da ferrata, scarponi). Mi aspettavo un percorso più faticoso in senso generale, anche se in alcuni tratti ho trovato passaggi tecnicamente impegnativi. La ferrata è fattibile da chi ha esperienza e una buona base muscolare, ma mai da prendere alla leggera, soprattutto per via dell’esposizione e della fatica richiesta. Ci sono sezioni molto toste dove serve piena concentrazione. È decisamente più difficile rispetto a quelle del Forato, del Procinto e del Sumbra — anche se meno panoramica.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>La distanza totale della ferrata è di 0,79 km con un <strong>dislivello</strong> di +79 m. Il tempo stimato per il completamento è di 1h30’ - 2h in condizioni ideali. Si consiglia di partire al mattino presto per evitare il caldo e la folla.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
 <ul>
-    <li><b>Difficoltà:</b> Difficile</li>
-    <li><b>Distanza:</b> Circa 1.6 km</li>
-    <li><b>Dislivello:</b> Circa 420 metri</li>
-    <li><b>Tempo di percorrenza:</b> 1h30’ - 2h (in condizioni ideali), 2h05’ con soste</li>
-    <li><b>Esposizione:</b> Alta</li>
-    <li><b>Tipo di percorso:</b> Ferrata, trekking, escursionismo in montagna</li>
-    <li><b>Periodo consigliato:</b> Primavera - Autunno</li>
-    <li><b>Equipaggiamento consigliato:</b> Imbrago, casco, kit da ferrata, scarponi da trekking, acqua, cibo, abbigliamento tecnico adeguato</li>
+  <li><strong>Distanza:</strong> Circa 0.79 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 79 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Attacco Ferrata di Sant’Antone, Buti</li>
+  <li><strong>Comune:</strong> Buti, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Ferrata</li>
 </ul>
-
-<p><strong>Parcheggio:</strong> Si trova 300-400 metri prima dell’attacco, salendo da Buti sulla destra. È piuttosto ampio: ci stanno circa 10 auto. Oppure si può parcheggiare a quello alla fine della ferrata e scendere per il sentiero(cosa che stavolta ho fatto).</p>
-<p><strong>Accesso alla Ferrata:</strong> Dalla strada si trova un cartello ben visibile. Seguendolo per circa 2-300 metri si arriva all’attacco della ferrata.</p>',
+<li id="parco-nazionale"><strong>Parco Nazionale:</strong> Non applicabile</li>
+</a>',
   'Tutte le Attività e Paesi',
   0.79,
   79,

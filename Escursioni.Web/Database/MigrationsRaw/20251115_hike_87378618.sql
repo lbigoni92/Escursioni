@@ -7,28 +7,32 @@ VALUES (
   87378618,
   'Mulinaccio di Scandicci',
   'Percorso molto bello da fare in primavera o autunno sconsigli l''estate, s''è completamente esposti al caldo e al sole. Non vi sono fontanelle partite con 3l d''acqua sono tanti chilometri. Passeggiare in mezzo alle vigne e arrivare al Mulinaccio è un percorso tutto toscano che consiglio a chiunque, è davvero spettacolare; non vi sono particolari punti pericolosi lungo il tragitto. Occhio solamente al caldo se l''affrontate d''estate.',
-  '<h2>Mulinaccio di Scandicci: Escursione Trekking nella Toscana Rurale</h2>
+  '<h2 id="escursione-mulinaccio-di-scandicci">Escursione al Mulinaccio di Scandicci</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per l''escursione al Mulinaccio di Scandicci è facilmente raggiungibile in auto. Provvigliate fino a raggiungere il piccolo paese di Vigliano, nel cuore della Val di Greve. Da qui, il sentiero inizia direttamente dal parcheggio. È una bella base per iniziare questo meraviglioso trekking!</p>
 
-<p>L''escursione al <strong>Mulinaccio di Scandicci</strong> è un''esperienza indimenticabile per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>Toscana</strong>. Questo <strong>sentiero</strong> conduce attraverso paesaggi collinari mozzafiato, tra <strong>vigne</strong> secolari e la tranquillità della campagna toscana.  Un''escursione ideale per scoprire la bellezza della <strong>natura</strong> e godersi il profumo della <strong>montagna</strong>. La <strong>escursione</strong> è adatta a tutti i livelli di esperienza, pur richiedendo una buona preparazione fisica.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo sentiero è un''escursione semplice e piacevole, ideale per chi cerca un''escursione in montagna senza particolari difficoltà. Iniziate dal punto di partenza e seguite il sentiero che si snoda tra le vigne, immerso nel verde toscano. Il percorso è prevalentemente in salita, ma ben tracciato, e vi condurrà gradualmente verso il Mulinaccio. Godetevi il panorama mozzafiato sulla Val di Greve e sulla campagna circostante. L''escursione di circa 24 km è un''ottima occasione per ammirare la bellezza della Toscana!</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>L''escursione al Mulinaccio di Scandicci presenta una difficoltà **Media**. Il dislivello di 658 metri richiede una buona preparazione fisica, ma il sentiero è ben tenuto e non presenta ostacoli particolari. È consigliata l''escursione in primavera o autunno, quando le temperature sono più miti e il sole non è troppo intenso. Durante l''estate, il percorso può risultare troppo caldo e esposto, a causa della mancanza di ombra e delle fontanelle.</p>
 
-<p>Preparatevi a una <strong>passeggiata</strong> di circa 8-10 chilometri, con un dislivello di circa 300 metri, che vi porterà fino al <strong>Mulinaccio</strong>, un''antica fattoria. Il <strong>sentiero</strong> è prevalentemente in salita, ma il percorso è ben tracciato e non presenta ostacoli significativi.  Potrete ammirare panorami spettacolari sulla valle di Firenze e sulla pianura. L''<strong>escursione</strong> è particolarmente consigliata in <strong>primavera</strong> o <strong>autunno</strong>, quando le temperature sono più miti.  L''estate, infatti, il sentiero è completamente esposto al sole e al caldo, rendendolo impegnativo e sconsigliabile.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>
+    Per facilitare il vostro trekking, vi offriamo una traccia GPS della zona. Ricordatevi di scaricare la traccia sul vostro dispositivo GPS o sulla vostra app di escursionismo. Questo sentiero è un''escursione **solo andata**.
+</p>
 
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Difficoltà:</b> Facile/Media</li>
-    <li><b>Distanza:</b> Circa 8-10 km</li>
-    <li><b>Dislivello:</b> Circa 300 metri</li>
-    <li><b>Tempo di percorso:</b> 3-4 ore</li>
-    <li><b>Periodo consigliato:</b> Primavera e Autunno</li>
-    <li><b>Consigli:</b> Porta con te acqua, scarpe da trekking adatte, cappello e crema solare. Ricorda che non ci sono fontanelle lungo il percorso, quindi prepara adeguatamente la tua idratazione.</li>
-</ul>
-
-<p>Questa <strong>escursione sentiero</strong> in <strong>Italia</strong> offre un''opportunità unica per immergerti nella cultura e nella <strong>natura</strong> della <strong>Toscana</strong>.  Un''esperienza di <strong>trekking</strong> che vi regalerà ricordi indimenticabili. Scopri il fascino del <strong>Mulinaccio di Scandicci</strong> e goditi la bellezza dei <strong>sentieri</strong> toscani.</p>',
+    <li><b>Distanza:</b> Circa 24.31 km (andata)</li>
+    <li><b>Dislivello:</b> Circa 658 metri</li>
+    <li><b>Difficoltà:</b> Medio</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Parcheggio a Vigliano, Toscana</li>
+    <li><b>Comune:</b> Vigliano, Toscana</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   24.31,
   658,

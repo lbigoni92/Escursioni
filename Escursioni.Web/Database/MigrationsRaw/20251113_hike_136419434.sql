@@ -7,22 +7,45 @@ VALUES (
   136419434,
   'Parco maremma - Cala di Forno',
   'Ho già fatto delle escursioni nel parco, ma questa è stata la più bella. Per arrivare a questo parcheggio si deve passare delle sbarre che si possono aprire con dei gettoni rilasciati dal bigliettaio in fase di vendita dei biglietti 10 euro a testa(un salasso) oppure online su https://parco-maremma.it/visita-il-parco/a-piedi/ . Il tek è semplice sempre tranne per una discesa alla fine dove si deve prestare un pò d''attenzione se le rocce sono bagnate, il nostro scopo era arrivare a Cala di Forno che è senza dubbio una baia stupenda. Dalle due torri che abbiamo attraversato abbiamo visto panorami unici che abbiamo amato... le foto non rendono merito, nonostante il prezzo è da fare! il Parco della Maremma copre circa 18.000 ettari, di cui 8902 ettari di area protetta e 9.097 di area contigua, all’interno di 3 Comuni: Grosseto, Magliano in Toscana e Orbetello da nord a sud, lungo circa 30 km di costa.',
-  '<h2>Parco Maremma – Escursione Trekking Cala di Forno</h2>
+  '<h2 id="escursione-parco-maremma-cala-di-forno">Escursione al Parco Maremma – Cala di Forno</h2>
 
-<h3>Il Percorso</h3>
-<p>Preparati per un''indimenticabile <strong>escursione trekking</strong> nel cuore del <strong>Parco della Maremma</strong>! Questo <strong>sentiero</strong> ti condurrà alla splendida <strong>Cala di Forno</strong>, una baia mozzafiato caratterizzata da un <strong>trekking</strong> naturale immerso nella <strong>natura</strong>. L''itinerario è principalmente facile, con tratti semplici, ma prevede un finale di discesa che richiede attenzione, soprattutto in condizioni di umidità o rocce bagnate.  Immergiti nella bellezza del paesaggio della <strong>Maremma Toscana</strong>, un''area protetta di grande valore naturalistico.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa Aspettarsi</h3>
+<p>Per iniziare questa fantastica escursione, il punto di partenza è un parcheggio facilmente raggiungibile. Per accedervi, dovrai attraversare delle sbarre, che possono essere aperte tramite gettoni acquistabili in biglietteria (10€ a testa) oppure online su <a href="https://parco-maremma.it/visita-il-parco/a-piedi/">https://parco-maremma.it/visita-il-parco/a-piedi/</a>.  Assicurati di avere i gettoni a disposizione prima di iniziare il sentiero!</p>
+
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>Il sentiero è generalmente semplice, ma tieni presente che la discesa finale richiede un po'' di attenzione, soprattutto se le rocce sono bagnate.  Il percorso ti condurrà attraverso il Parco Maremma, offrendoti scorci mozzafiato. Inizierai dal parcheggio, attraverserai le sbarre e seguirai il sentiero fino a raggiungere la splendida <strong>Cala di Forno</strong>, una baia spettacolare.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>Questa <strong>escursione di tipo anello</strong> di circa <strong>19,3 km</strong> con un <strong>dislivello di 575 metri</strong> è considerata di <strong>difficoltà media</strong>.  Richiede una buona preparazione fisica, soprattutto per la discesa finale.  È consigliabile indossare scarpe da trekking adeguate e portare con sé acqua e snack.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
 <ul>
-  <li>Un <strong>trekking</strong> di circa 6-8 km (il percorso può variare leggermente)</li>
-  <li>Un''<strong>escursione</strong> adatta a famiglie e appassionati di <strong>trekking</strong></li>
-  <li>Un percorso panoramico con viste mozzafiato sulla costa della <strong>Maremma</strong></li>
-  <li>La possibilità di ammirare la bellezza della <strong>Cala di Forno</strong>, una delle spiagge più belle della zona</li>
-  <li>Tratto del percorso con una discesa a tratti impegnativa che necessita di attenzione</li>
+    <li><strong>Distanza:</strong> Circa 19,3 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 575 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio (accessibile in auto)</li>
+    <li><strong>Comune:</strong> Spergolaia, <strong>Toscana</strong></li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni Utili</h3>
-<p>Per raggiungere la <strong>Cala di Forno</strong>, si parte da un parcheggio accessibile tramite un <strong>sentiero</strong> che attraversa delle sbarre, aperte con gettoni acquistabili presso il bigliettaio (10 euro) o online sul sito ufficiale: <a href="https://parco-maremma.it/visita-il-parco/a-piedi/">https://parco-maremma.it/visita-il-parco/a-piedi/</a>. Il <strong>Parco della Maremma</strong>, che si estende per circa 18.000 ettari lungo la costa tra i Comuni di Grosseto, Magliano in Toscana e Orbetello, offre un''opportunità unica per un''<strong>escursione</strong> in <strong>montagna</strong> e un''immersione nella <strong>natura</strong>.  L''area protetta comprende 8902 ettari e l''area contigua 9.097 ettari, rappresentando un patrimonio naturale di grande valore.  Considera che il prezzo del biglietto d''ingresso può sembrare un costo elevato, ma la bellezza del luogo ne vale la pena.  La <strong>escursione a piedi</strong> alla <strong>Cala di Forno</strong> è un''esperienza che rimarrà impressa nel tempo.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 19,3 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 575 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio (accessibile in auto)</li>
+    <li><strong>Comune:</strong> Spergolaia, **Toscana**</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>
+
+<p>Il Parco della Maremma copre circa 18.000 ettari, di cui 8902 ettari di area protetta e 9.097 di area contigua, all’interno di 3 Comuni: Grosseto, Magliano in Toscana e Orbetello da nord a sud, lungo circa 30 km di costa.  Non dimenticarti di ammirare i panorami unici che si aprono dai due torri che attraverserai durante l''escursione!</p>',
   'Tutte le Attività e Paesi',
   19.3,
   575,

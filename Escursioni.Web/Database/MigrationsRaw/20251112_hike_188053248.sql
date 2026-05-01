@@ -7,22 +7,38 @@ VALUES (
   188053248,
   'Monte Macina ~ Monte Sella con cresta Macina/Sella',
   'Giro solo per esperti. Partenza da Arni, dove si trova parcheggio abbastanza facilmente. Da qui si prosegue verso il Rifugio Puliti, affrontando una lieve salita lungo il sentiero 155, che seguiremo per il nostro percorso. Dopo una prima parte su terreno semplice, ci si inoltra tra alcuni canaloni e si sale gradualmente sulle rocce. Questo tratto non presenta particolari difficoltà tecniche, ma può risultare faticoso a causa della pendenza. Le prime vere difficoltà emergono intorno al km 1,4, con l’inizio della cresta dello Schienale dell’Asino. Qui è necessario fare attenzione, utilizzare le mani per superare qualche roccetta, ma senza affrontare passaggi particolarmente impegnativi. Siamo saliti anche sulla cima dello Schienale, dove è richiesto un minimo di attenzione in un punto specifico. Abbiamo poi proseguito senza problemi fino al Monte Macina, cercando l’attacco per la cresta sud. Non avendolo trovato, abbiamo optato per la via normale. La salita al Monte Macina, pur essendo piuttosto ripida, è fattibile e richiede solo un po’ di sforzo fisico. Raggiunta la vetta del Monte Macina, abbiamo iniziato l’attacco della cresta. In questo tratto è fondamentale prestare la massima attenzione, avere piede fermo, non soffrire di vertigini e procedere con cautela. Il primo tratto della cresta non è particolarmente difficile: è esposto, ma si cammina bene. Da lì si alternano punti in cui è necessario usare le mani a tratti più semplici. Proseguendo senza problemi fino al km 4, ci si trova davanti due passaggi impegnativi. Arrivati al km 4, si presenta un torrione di 4-6 metri. Questo va affrontato sul lato sinistro: si scende su un tratto erboso (paleo) e si risale lentamente. Qui è presente una via di fuga: chi non si sente sicuro può raggiungere la strada abbandonando la cresta. Superato il torrione, si torna sulla cresta, dove, al km 4,2, si affronta il punto più difficile: un passaggio di secondo grado, facilitato dalla presenza di una corda. Una volta superato, le difficoltà si riducono notevolmente. Proseguendo si incontrano un bunker e una grotta. Dopo averli superati, si risale in cresta, caratterizzata da lastroni di marmo (attenzione in caso di umidità). Da qui la cresta si allarga e conduce alla via normale per il Sella. Per raggiungere la prima vetta ci sono un paio di tratti da affrontare con cautela: uno dotato di un cavo e uno senza. Arrivati alla vetta sud, la vetta nord si raggiunge facilmente in 10-15 minuti a piedi, proseguendo verso nord. La discesa avviene lungo la via normale. Questo tratto, pur non ufficiale, è attrezzato con cavi d’acciaio e, pur richiedendo attenzione, risulta semplice per chi ha già affrontato la cresta. Al ritorno abbiamo seguito la via Marmifera, arrivando infine alla macchina, dove ci siamo concessi una birretta. Un giro interessante, ma da affrontare con attenzione, soprattutto nella parte della cresta.',
-  '<h2>Monte Macina ~ Monte Sella con cresta Macina/Sella Trekking Italia</h2>
+  '<h2 id="escursione-monte-macina-monte-sella-cresta-macina-sella">Escursione al Monte Macina ~ Monte Sella con cresta Macina/Sella</h2>
 
-<h3>Il percorso</h3>
-<p>Questo <strong>trekking</strong> si snoda attraverso le montagne della **Campania**, offrendo un''esperienza di <strong>escursionismo** intensa e panoramica. Il percorso, adatto solo a <strong>esperti</strong>, parte da <strong>Arni</strong> e conduce alla cima del <strong>Monte Macina</strong> e del <strong>Monte Sella</strong>, attraversando la spettacolare <strong>cresta Macina/Sella</strong>. La difficoltà del <strong>sentiero</strong> è elevata, richiedendo un''adeguata preparazione fisica e una buona esperienza di <strong>trekking</strong> in ambiente alpino.  Il giro di circa 14 km offre panorami mozzafiato sulla **natura** circostante e sulle cime circostanti, perfetto per gli amanti del <strong>trekking</strong> e dell''escursionismo in <strong>montagna</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza è l''area di Arni, facilmente raggiungibile in auto. Parcheggi sono disponibili in zona, rendendo l''inizio dell''escursione comodo.</p>
 
-<h3>Cosa aspettarsi</h3>
-<ul>
-    <li>Un <strong>sentiero</strong> impegnativo con tratti esposti e passaggi rocciosi.</li>
-    <li><strong>Salite ripide</strong> e impegnative, soprattutto nella fase della cresta.</li>
-    <li>L''utilizzo di tecniche di auto-assicurazione e la necessità di buona orientamento.</li>
-    <li>La possibilità di attraversare <strong>canali</strong> e <strong>rocce</strong>, richiedendo attenzione e prudenza.</li>
-    <li>Vette con panorami mozzafiato e un''esperienza di <strong>trekking</strong> indimenticabile.</li>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Partenza da Arni, salita lungo il sentiero 155 verso il Rifugio Puliti. Dopo un tratto facile, si entra in un tratto roccioso con canaloni e pendenze. Il percorso diventa più impegnativo intorno al km 1,4 con l''inizio della cresta dello Schienale dell''Asino, richiedendo attenzione e l''uso delle mani. Si sale sulla cima dello Schienale e prosegue verso il Monte Macina, scegliendo la via normale. La salita al Monte Macina è ripida ma fattibile. Si affronta la cresta con estrema cautela, alternando tratti esposti e più semplici. Si superano passaggi impegnativi come il torrione di 4-6 metri e un passaggio di secondo grado con corda. Il percorso prosegue con lastroni di marmo, si incontrano un bunker e una grotta, e si raggiunge la vetta del Sella. La discesa avviene lungo la via normale, attrezzata con cavi d''acciaio.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p><strong>Difficoltà:</strong> Difficile. Questa escursione richiede una buona preparazione fisica e un minimo di esperienza in montagna. <strong>Distanza:</strong> Circa 11.09 km (anello). <strong>Dislivello:</strong> Circa 1000 metri. Alcuni tratti presentano esposizione e richiedono attenzione, soprattutto sulla cresta. È fondamentale avere con sé l''attrezzatura adeguata e valutare attentamente le proprie capacità.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul id="traccia-gps-e-informazioni-pratiche">
+  <li><strong>Distanza:</strong> Circa 11.09 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 1000 metri</li>
+  <li><strong>Difficoltà:</strong> Difficile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Arni (accessibile in auto)</li>
+  <li><strong>Comune:</strong> Arni, Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico, Mulattiera, tratti con esposizione</li>
 </ul>
 
-<h3>Informazioni utili</h3>
-<p>La lunghezza del <strong>sentiero</strong> è di circa 14 km con un dislivello di circa 800 metri.  Il <strong>percorso</strong> è principalmente su terreno roccioso e in <strong>montagna</strong>, con alcuni tratti su sentiero battuto. È fondamentale indossare scarpe da <strong>trekking</strong> adatte e abbigliamento tecnico adeguato.  Il punto di partenza è facilmente raggiungibile in auto da <strong>Arni</strong>, dove è presente un <strong>parcheggio</strong>.  La cresta della <strong>Macina/Sella</strong> richiede particolare attenzione, con passaggi esposti e alcuni tratti difficili.  È consigliabile affrontare il <strong>sentiero</strong> in compagnia di un''altra persona e con un''attrezzatura adeguata, inclusa una mappa, una bussola o un GPS. La discesa si effettua lungo la via normale, attrezzata con cavi d’acciaio. Questo <strong>sentiero</strong> è perfetto per chi cerca un''avventura in <strong>montagna</strong> e un''esperienza di <strong>trekking</strong> impegnativa ma gratificante, esplorando il territorio della **Campania** con un''escursione in <strong>sentiero**.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+  <li><strong id="informazioni-utili-distanza">Distanza:</strong> Circa 11.09 km (anello)</li>
+  <li><strong id="informazioni-utili-dislivello">Dislivello:</strong> Circa 1000 metri</li>
+  <li><strong id="informazioni-utili-difficoltà">Difficoltà:</strong> Difficile</li>
+  <li><strong id="informazioni-utili-periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="informazioni-utili-punto-di-partenza">Punto di partenza:</strong> Arni (accessibile in auto)</li>
+  <li><strong id="informazioni-utili-comune">Comune:</strong> Arni, Toscana, Italia</li>
+  <li><strong id="informazioni-utili-tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico, Mulattiera, tratti con esposizione</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.09,
   1000,

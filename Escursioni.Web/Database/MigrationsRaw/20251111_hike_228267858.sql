@@ -7,27 +7,31 @@ VALUES (
   228267858,
   'Anello delle Miniere di Campolecciano ed Escafrullina – Monte Carvoli (Livorno)',
   'Trekking ad anello con partenza dalla località Aia della Vecchia, dove è possibile parcheggiare circa una decina di auto. Il percorso tocca due antiche miniere di magnesite (Campolecciano ed Escafrullina) e sale sul Monte Carvoli, che offre suggestivi balconi panoramici sul territorio livornese. Il sentiero alterna tratti larghi e comodi a passaggi più selvaggi e meno battuti, in alcuni punti invasi da rovi e arbusti (consigliate pinze da giardinaggio per liberare i passaggi più ostici). È un itinerario vario, con elementi storici, naturali e panoramici, ma richiede attenzione e buon senso d’orientamento: fondamentale seguire la traccia GPS. 🚶‍♂️ Itinerario Km 0,0 – Aia della Vecchia: punto di partenza. Accanto si trova un piccolo agriturismo molto frequentato dai locali, spesso anche da polizia e forestali. Km 0-1,5: sentieri larghi e facili, frequentati da auto e cavalli (“sciocchini”). Km 1,5 – 2,5: il percorso entra nel bosco più fitto, con alcuni arbusti e passaggio accanto alla storica Lecciaia dei Leccioni. Km 2,5 – Miniera di Campolecciano: piccola miniera di magnesite, attiva dal 1914 al 1929 e poi sporadicamente fino al 1939. Interessante storicamente, ma non molto profonda. Possibile presenza di insetti. Zona picnic (spesso invasa dai tafani in estate). Piante Rupi: indicata sulla cartina per le propoli, che però non abbiamo trovato. Monte Carvoli: breve salita lungo il sentiero 00, che porta a 2 balconi panoramici molto suggestivi. Discesa e deviazione: rientro sullo 00, breve tratto di strada sterrata, poi sentierino verso la seconda miniera. La deviazione per il muraglione medievale non è ben segnalata. Km 10,3 – Miniera di Escafrullina: più estesa, con numerose tracce di gallerie e resti di estrazione di ferro e magnesite. La zona prende il nome da una leggenda medievale su una maga chiamata Escafrullina. Attenzione: presente un profondo pozzo di 4-6 metri. Ultimo tratto: passaggio molto invaso da rovi (500-600 m). Tratto poco battuto, GPS necessario. Successivamente il sentiero si ricongiunge a quello principale e porta di nuovo ad Aia della Vecchia. ⚠️ Note e consigli Difficoltà: media, per la presenza di rovi e sentieri poco segnati. Lunghezza: ~10 km (secondo la GPX allegata). Dislivello: moderato, salita principale verso il Monte Carvoli. Tempo medio: 3h30-4h00 (solo mattina). Acqua: assente lungo il percorso. Portare almeno 1,5 L (in estate anche di più). Pericoli: attenzione ai pozzi minerari (non avvicinarsi). Portare pinze da giardinaggio per i tratti invasi da rovi. Periodo consigliato: autunno/primavera. In estate alta presenza di tafani.',
-  '<h2>Anello delle Miniere di Campolecciano ed Escafrullina – Monte Carvoli (Livorno) – Trekking in Toscana</h2>
+  '<h2 id="anello-delle-miniere-di-campolecciano-ed-escafrullina-monte-carvoli">Anello delle Miniere di Campolecciano ed Escafrullina – Monte Carvoli (Livorno)</h2>
 
-<h3>Il percorso</h3>
-<p>Questo <strong>trekking</strong> ad <strong>anello</strong> offre un''esperienza unica nella provincia di Livorno, in Toscana. Partendo da <strong>Aia della Vecchia</strong>, il sentiero vi conduce attraverso un paesaggio variegato, ricco di storia e natura. L''<strong>escursione</strong> di circa 10 km, con un dislivello moderato, permette di esplorare le antiche <strong>miniere di magnesite</strong> di <strong>Campolecciano</strong> ed <strong>Escafrullina</strong>, raggiungendo infine il <strong>Monte Carvoli</strong> e i suoi suggestivi <strong>balconi panoramici</strong>. Il percorso è adatto a escursionisti esperti, con una buona preparazione fisica e una certa attenzione, a causa di tratti più impervi e poco battuti.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza dell''escursione è la località Aia della Vecchia, facilmente raggiungibile in auto. È presente un parcheggio dove è possibile stanziare circa una decina di auto. Da qui, l''inizio del sentiero è ben segnalato e inizia subito dopo un piccolo agriturismo molto frequentato dai locali e spesso frequentato anche da polizia e forestali.</p>
 
-<h3>Cosa aspettarsi</h3>
-<p>Preparatevi a un''<strong>escursione</strong> in un ambiente selvaggio e affascinante, ricco di storia mineraria e di elementi naturali. Il sentiero alterna tratti comodi a passaggi più impegnativi, spesso invasi da rovi e arbusti.  In alcuni punti, è consigliabile l''uso di <strong>pinze da giardinaggio</strong> per liberare i passaggi più ostici.  Potrete ammirare la bellezza del <strong>Monte Carvoli</strong>, con le sue viste panoramiche, scoprire le antiche <strong>miniere</strong> e immergervi nella natura incontaminata della <strong>Toscana</strong>. Questa <strong>trekking</strong> offre un''ottima opportunità per chi cerca un''esperienza di <strong>natura</strong> autentica.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione si svolge prevalentemente in ambiente collinare, con tratti iniziali su sentieri larghi e facili, frequentati da auto e cavalli ("sciocchini"). Il percorso entra poi nel bosco più fitto, con passaggi accanto alla storica Lecciaia dei Leccioni. Proseguendo, si raggiunge la miniera di Campolecciano, una piccola miniera di magnesite attiva dal 1914 al 1929, e poi si sale sul Monte Carvoli, un monte che offre suggestivi balconi panoramici sul territorio livornese. Dopo una breve salita, si raggiungono i due balconi panoramici. Il sentiero prosegue con un tratto di strada sterrata, poi un sentierino verso la seconda miniera. Si può effettuare una deviazione per ammirare il muraglione medievale, seppur non ben segnalato. Il percorso termina con un tratto invaso da rovi, che richiede attenzione e l''uso di pinze da giardinaggio, per poi ricongiungersi al sentiero principale e tornare ad Aia della Vecchia.</p>
 
-<h3>Informazioni utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>La difficoltà di questa escursione è considerata media, a causa della presenza di rovi e sentieri poco segnati. La lunghezza del percorso è di circa 12,84 km con un dislivello di 356 metri. Il tempo medio di percorrenza è di 3 ore e 30 minuti – 4 ore, solo la mattina. È consigliabile indossare scarpe da trekking adatte e portare con sé acqua.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>È consigliabile utilizzare una traccia GPS per seguire il percorso. La distanza dell''escursione è di circa 12,84 km e il dislivello è di 356 metri. Il tipo di escursione è un anello. </p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Difficoltà:</strong> Media – Richiede buona preparazione fisica e orientamento.</li>
-    <li><strong>Lunghezza:</strong> Circa 10 km</li>
-    <li><strong>Dislivello:</strong> Moderato (salita principale al Monte Carvoli)</li>
-    <li><strong>Tempo medio:</strong> 3h30 – 4h00 (solo mattina)</li>
-    <li><strong>Acqua:</strong> Assente lungo il percorso – Portare almeno 1,5 L (in estate anche di più).</li>
-    <li><strong>Pericoli:</strong> Presenza di profondi pozzi minerari (non avvicinarsi), rovi e sentieri poco segnati.</li>
-    <li><strong>Periodo consigliato:</strong> Autunno/Primavera – Evitare l''estate a causa della presenza di tafani.</li>
-    <li><strong>Punto di partenza:</strong> Aia della Vecchia (parcheggio limitato)</li>
+  <li><strong>Distanza:</strong> Circa 12.84 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 356 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Aia della Vecchia, accessibile in auto</li>
+  <li><strong>Comune:</strong> Nibbiaia, Provincia di Livorno, Regione Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
-
-<p>Questo <strong>sentiero di trekking</strong> nel cuore della <strong>montagna livornese</strong> è un''opportunità per scoprire la bellezza del territorio italiano.  Un''<strong>escursione</strong> che vi lascerà a lungo ricordare la sua autenticità e la sua ricchezza naturale.  Organizzate il vostro <strong>trekking</strong> in <strong>Italia</strong> con noi!</p>',
+<p><strong>Parco Nazionale:</strong> Non applicabile</p>',
   'Tutte le Attività e Paesi',
   12.84,
   356,

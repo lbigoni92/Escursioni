@@ -7,31 +7,38 @@ VALUES (
   198605304,
   'Cascata dell''Acquapendente, Ponte Mediceo e Santuario di San Leonardo da Cardoso',
   'Percorso ad anello da Cardoso Il percorso, di circa 8.1 km, parte da Cardoso e tocca i seguenti punti di interesse: Cascata dell’Acquapendente (2.2 km) Ponte Mediceo (3.5 km) Santuario di San Leonardo (8.1 km) Difficoltà: Semplice, ma da affrontare con la giusta attenzione, come ogni sentiero montano. Descrizione del percorso: Si parte da Cardoso imboccando il Sentiero della Castagna, che conduce al Mulino del Frate e a un affascinante ponte medievale. Da qui è possibile scegliere se dirigersi subito verso la Scala Santa o visitarla successivamente (noi abbiamo optato per la seconda opzione per gestire meglio i tempi). La Scala Santa include un breve tratto attrezzato, ma la parte più suggestiva è il cammino lungo una via di lizza che costeggia il fiume. Dal ponte medievale, proseguiamo seguendo il sentiero 7, ben segnalato, verso le Cascate dell’Acquapendente. Il tratto presenta una salita moderata, mai troppo impegnativa, e vale assolutamente la pena affrontarla! Le cascate, alte almeno 50 metri, sono uno spettacolo maestoso: acque cristalline che rappresentano una delle meraviglie più belle delle Apuane, perfette anche per scatti memorabili. Continuando il percorso, raggiungiamo Orzale, dove potrete incontrare dei gattini adorabili (ben nutriti, non preoccupatevi!) che potrebbero chiedervi un po’ di cibo. Il cammino prosegue verso delle interessanti incisioni rupestri di pennati e, subito dopo, al Santuario di San Leonardo, un luogo affascinante che merita una visita. Non lontano dal santuario, troverete i resti di una suggestiva cava trasformata in lago. Un angolo unico, immerso nel monte, che vi lascerà senza fiato. Consiglio finale: Preparatevi a un’esperienza immersiva nella natura, con scorci unici e un’atmosfera rilassante. Non dimenticate di portare con voi una fotocamera per immortalare questi luoghi incantevoli!',
-  '<h2>Trekking in Toscana: Cascata dell’Acquapendente, Ponte Mediceo e Santuario di San Leonardo da Cardoso</h2>
+  '<h2 id="escursione-cascata-acquapendente-ponte-mediceo-santuario-san-leonardo-da-cardoso">Escursione alla Cascata dell’Acquapendente, Ponte Mediceo e Santuario di San Leonardo da Cardoso</h2>
 
-<h3>Il Percorso – Escursione ad Anello nelle Apuane</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa bella escursione è il piccolo paese di <strong>Cardoso</strong>, in provincia di <strong>Toscana</strong>. Raggiungibile in auto dalla Firenze, seguendo la SS125 del Romagnolo, fino al bivio per Cardoso. Dallo stesso bivio è possibile proseguire a piedi per circa 3km, oppure con un breve tratto di autobus che serve il paese.</p>
 
-<p>
-Immergiti nella natura selvaggia delle Apuane con questa splendida <strong>escursione di trekking</strong>. Il sentiero ad anello da <strong>Cardoso</strong>, di circa <strong>8.1 km</strong>, ti porterà a scoprire la maestosa <strong>Cascata dell’Acquapendente</strong>, il suggestivo <strong>Ponte Mediceo</strong> e il pittoresco <strong>Santuario di San Leonardo da Cardoso</strong>. Questa <strong>trekking</strong> è adatta a tutti, con una difficoltà <strong>semplice</strong>, ma richiede sempre un’adeguata preparazione e attenzione, come per ogni <strong>sentiero montano</strong> nelle <strong>montagne toscane</strong>.
-</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo è un percorso ad anello di circa <strong>11.17 km</strong> che parte da Cardoso e ti porta a scoprire le meraviglie naturali della zona. Inizierai imboccando il <strong>Sentiero della Castagna</strong>, che ti condurrà verso il <strong>Mulino del Frate</strong> e a un affascinante ponte medievale. Da qui, potrai scegliere di visitare subito la <strong>Scala Santa</strong> o affrontarla più avanti. Percorrerai poi il sentiero <strong>7</strong>, ben segnalato, fino alle <strong>Cascate dell’Acquapendente</strong>, con una salita moderata ma non impegnativa. Non mancherà una visita ai <strong>gattini</strong> di Orzale e la scoperta delle <strong>incisioni rupestri</strong> e del <strong>Santuario di San Leonardo</strong>. Concluderai il percorso ammirando i resti di una suggestiva cava trasformata in lago.</p>
 
-<h3>Cosa Aspettarsi – Un''Esperienza Naturale Incredibile</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa <strong>escursione</strong> è di <strong>facile</strong> difficoltà, adatta anche a famiglie e principianti. Tuttavia, è importante affrontare il sentiero con la giusta attenzione, come ogni esperienza in montagna. Il <strong>dislivello</strong> è di circa <strong>+1041 m</strong>, quindi è necessario avere un minimo di allenamento. Il percorso è ben segnalato e il terreno è generalmente facile da percorrere, ma tieni presente che ci saranno alcuni tratti in salita e in discesa.</p>
 
-<ul>
-  <li>Percorso ad anello di circa <strong>8.1 km</strong>.</li>
-  <li>Difficoltà: <strong>Semplice</strong>, ideale per <strong>escursioni</strong> di un giorno.</li>
-  <li>Magnifica vista sulle <strong>Apuane</strong> e sulla valle.</li>
-  <li>Possibilità di ammirare la bellezza della <strong>Cascata dell’Acquapendente</strong>, con le sue acque cristalline.</li>
-  <li>Scoperta del <strong>Ponte Mediceo</strong>, un importante testimonianza storica.</li>
-  <li>Visita del <strong>Santuario di San Leonardo da Cardoso</strong>, un luogo di culto affascinante.</li>
-  <li>Possibilità di avvistare la fauna locale, tra cui gattini adorabili.</li>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class="list">
+  <li><strong>Distanza:</l> 11.17 km (anello)</li >
+  <li><strong>Dislivello:</l> 1041 m</li>
+  <li><strong>Difficoltà:</l> Facile</li>
+  <li><strong>Periodo consigliato:</l> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</l> Cardoso (accessibile in auto/a piedi)</li>
+  <li><strong>Comune:</l> Cardoso, Toscana</li>
+  <li><strong>Tipo di sentiero:</l> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni Utili – Dettagli per la Tua Escursione</h3>
-
-<p>
-Il percorso inizia da <strong>Cardoso</strong>, imboccando il <strong>Sentiero della Castagna</strong>.  La <strong>trekking</strong> ti guiderà attraverso un paesaggio variegato, passando per il <strong>Mulino del Frate</strong> e il <strong>Ponte Mediceo</strong>. Il tratto verso la <strong>Cascata dell’Acquapendente</strong> presenta una salita moderata, ma la ricompensa è una vista mozzafiato su questa meraviglia naturale.  Incontrerai anche le incisioni rupestri di pennati e un lago artificiale creato in una suggestiva cava.  Per un’<strong>escursione</strong> indimenticabile, prepara una buona scarpa da trekking, dell’acqua e un cappello.  Ricorda che l''ambiente naturale è prezioso: lascia ogni cosa al suo posto e rispetta la flora e la fauna locale.  Questa <strong>escursione in montagna</strong> è un''ottima opportunità per goderti la natura e rilassarti all''aria aperta.  Pianifica la tua <strong>trekking</strong> nelle <strong>montagne italiane</strong> e preparati a vivere un''esperienza unica.
-</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong>Distanza:</l> Circa 11.17 km (anello)</li>
+  <li><strong>Dislivello:</l> Circa 1041 m</li>
+  <li><strong>Difficoltà:</l> Facile</li>
+  <li><strong>Periodo consigliato:</l> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</l> Cardoso (accessibile in auto/a piedi)</li>
+  <li><strong>Comune:</l> Cardoso, Toscana</li>
+  <li><strong>Tipo di sentiero:</l> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.17,
   1041,

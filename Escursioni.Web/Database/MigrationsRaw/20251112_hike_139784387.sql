@@ -7,29 +7,30 @@ VALUES (
   139784387,
   'Monte Castellare - Monte Perocchio e Monte Agreste da Vicopisano',
   'Percorso nel pisano molto semplice da seguire, ci sono solo un paio di punti brevi che potrebbero mettere in difficoltà persone poco allenate ma sono salitine brevi. C''è una fontana lungo il percorso che abbiamo trovato con veramente poca acqua... non contateci troppo d''estate per il resto è un percorso molto panoramico e bello, si passa sia attraverso pini sia tra ulivi. Molto suggestiva e unica è la cima del monte Castellare che offerte una vista unica su tutta la valle da Firenze a Livorno; da qui si ha un panorama ance più bello di quello che si avrebbe dalla Verruca. Consiglio molto questo giro.',
-  '<h2>Monte Castellare - Monte Perocchio e Monte Agreste da Vicopisano: Trekking e Escursioni in Montagna</h2>
+  '<h2 id="escursione-monte-castellare-monte-perocchio-e-monte-agreste-da-vicopisano">Escursione al Monte Castellare, Monte Perocchio e Monte Agreste da Vicopisano</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa bellissima escursione si trova a <strong>Vicopisano</strong>, in provincia di <strong>Toscana</strong>.  È facilmente raggiungibile in auto da diverse direzioni. Una volta arrivati a <strong>Vicopisano</strong>, seguire le indicazioni per il sentiero che conduce alla partenza dell''escursione.</p>
 
-<p>Questo sentiero di <strong>trekking</strong> conduce attraverso un paesaggio mozzafiato, ideale per un’<strong>escursione</strong> a piedi nella <strong>montagna</strong>. Il percorso, situato nella regione pisana, è progettato per essere facilmente seguibile, nonostante qualche breve tratto più impervio.  Perfetto per una giornata di <strong>trekking</strong> in <strong>Italia</strong>, questo giro vi porterà attraverso boschi di <strong>pini</strong> e oliveti, offrendo un’esperienza autentica immersa nella <strong>natura</strong>. La distanza totale dell’<strong>escursione</strong> è di circa 10 km, con un dislivello di 450 metri, rendendolo adatto a <strong>sentieri</strong> di varia difficoltà.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo giro di <strong>escursione</strong> di tipo <strong>anello</strong> è perfetto per chi cerca un''esperienza semplice e panoramica. Iniziando da <strong>Vicopisano</strong>, il sentiero si snoda attraverso una splendida macchia mediterranea, alternando tratti tra pini e ulivi.  Raggiungendo la cima del <strong>Monte Castellare</strong>, potrete ammirare un panorama mozzafiato che si estende da <strong>Firenze</strong> a <strong>Livorno</strong>.  Il sentiero è generalmente facile da seguire, con alcune brevi salite che potrebbero rappresentare una sfida per i meno allenati.  Godetevi il percorso, un''esperienza indimenticabile!</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa <strong>escursione</strong> è considerata di <strong>difficoltà facile</strong>. La <strong>distanza</strong> totale è di circa <strong>6.59 km</strong> con un <strong>dislivello</strong> di <strong>+279 m</strong>.  Anche se il sentiero è ben segnalato, è consigliabile indossare scarpe da trekking adatte e portare con sé acqua, soprattutto durante i mesi estivi.  È un''escursione adatta a tutta la famiglia.</p>
 
-<p>Preparatevi a un’<strong>escursione</strong> indimenticabile lungo un <strong>sentiero</strong> panoramico che vi condurrà alla cima del <strong>Monte Castellare</strong>, uno dei punti più suggestivi della zona. Il percorso presenta alcuni brevi tratti più impegnativi, soprattutto per persone poco allenate, ma la ricompensa è un panorama a 360 gradi che spazia dalla valle di Firenze a quella di Livorno.  Dalla cima del <strong>Monte Castellare</strong>,  il panorama è ancora più ampio e suggestivo, superando anche quello offerto dalla <strong>Verruca</strong>.  Potrete ammirare la bellezza del paesaggio circostante, fatta di colline, oliveti e boschi.  È importante ricordare che, durante l’estate, la <strong>fontana</strong> lungo il percorso potrebbe avere scarsa acqua, quindi è consigliabile portare con sé una borraccia.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Disponibile una <strong>traccia GPS</strong> per facilitare la navigazione.  Ricordatevi di scaricare la traccia GPS sul vostro dispositivo prima di partire.  Per maggiori informazioni e dettagli sul sentiero, consultate le risorse online o contattate l''ufficio turistico di <strong>Vicopisano</strong>.</p>
 
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Località:</b> Vicopisano, Toscana</li>
-    <li><b>Difficoltà:</b> Facile/Media</li>
-    <li><b>Distanza:</b> Circa 10 km</li>
-    <li><b>Dislivello:</b> 450 metri</li>
-    <li><b>Tempo di percorrenza:</b> 3-4 ore</li>
-    <li><b>Punti di interesse:</b> <strong>Monte Castellare</strong> (vista panoramica), <strong>Monte Perocchio</strong>, <strong>Monte Agreste</strong>, <strong>fontana</strong> (con scarsa acqua).</li>
-    <li><b>Tipo di sentiero:</b> <strong>Sentiero</strong> di <strong>trekking</strong>, adatto a <strong>escursioni</strong> nella <strong>natura</strong>.</li>
-</ul>
-
-<p>Non perdete l’opportunità di vivere un’<strong>escursione</strong> a piedi in questo angolo di <strong>Italia</strong>, ricco di storia, cultura e panorami mozzafiato. Questo <strong>sentiero</strong> è perfetto per chi cerca un’attività all’aria aperta, un modo per connettersi con la <strong>montagna</strong> e godere della bellezza della <strong>natura</strong>. Ricordatevi di indossare scarpe da <strong>trekking</strong> adatte e di portare con voi acqua e snack.  Un''esperienza di <strong>trekking</strong> in <strong>montagna</strong> che vi lascerà a bocca aperta!</p>',
+    <li><strong>Distanza:</strong> Circa 6.59 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 279 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Vicopisano, accessibile in auto / a piedi</li>
+    <li><strong>Comune:</strong> Vicopisano, Regione Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   6.59,
   279,

@@ -7,37 +7,37 @@ VALUES (
   87617322,
   'Valle benedetta - acquedotto di Colognole v4',
   'Un classico giro domenicale alla portata di tutti; si parte da valle benedetta e si prosegue lungo dei sentieri ben segnalati fino arrivare al km 2 dove possiamo prendere l''imbocco per l''acquedotto, li vie sarà una discesa; l''unico punto del percorso al quale prestare attenzione. il tratto dell''acquedotto è molto semplice ed è fattibile farlo sia sopra di esso sia sotto, consiglio di passare sopra è più caratteristico e "panoramico" (prestare attenzione con l''umido). In seguito si prosegue fino a raggiungere una casa in mattoni da li s''imboccherà un bivio per tornare in dietro. Usate scarpe adeguate. Fattibile anche in notturno.',
-  '<h2>Valle Benedetta - Acquedotto di Colognole V4: Trekking e Escursioni in Montagna</h2>
+  '<h2 id="escursione-valle-benedetta-acquedotto-colognole-v4">Escursione al Monte Forato da Cardoso</h2>
 
-<h3>Il Percorso - Trekking nella Valle Benedetta</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa bella <strong>escursione</strong> è nella <strong>Valle Benedetta</strong>, un luogo facilmente raggiungibile in auto. Da qui, segui i sentieri ben segnalati che iniziano il <strong>trekking</strong>.</p>
 
-<p>Preparati per un’incantevole <strong>escursione in montagna</strong> attraverso la splendida <strong>Valle Benedetta</strong>. Questo sentiero, ideale per un <strong>trekking domenicale</strong>, ti condurrà attraverso paesaggi mozzafiato, perfetto per gli amanti della natura e dell''<strong>escursionismo</strong>. Il percorso, segnalato e accessibile a tutti, inizia da <strong>Valle Benedetta</strong> e si snoda lungo sentieri ben mantenuti, offrendo un’esperienza di <strong>trekking</strong> autentica e indimenticabile.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''<strong>escursione</strong> inizia da <strong>Valle Benedetta</strong> e si snoda lungo un <strong>sentiero</strong> ben tracciato. Dopo circa 7.8 km, raggiungerai il km 2, dove troverai l''imbocco per l''<strong>acquedotto</strong> di <strong>Colognole</strong>. Da lì, preparati a una discesa, con un tratto all''interno dell''acquedotto che ti lascerà senza parole. La discesa è semplice e puoi scegliere di attraversare l''acquedotto in salita o in discesa, ma consiglio vivamente di farlo in salita per godere di un panorama ancora più caratteristico. Dopo l''acquedotto, segui il <strong>sentiero</strong> fino a raggiungere una casa in mattoni, dove troverai un bivio per tornare indietro.</p>
 
-<p>Il punto di partenza è facilmente raggiungibile e da lì inizierai un’avventura alla scoperta della <strong>montagna italiana</strong>. L''itinerario si sviluppa con brevi saliscendi, creando un''esperienza di <strong>trekking</strong> varia e stimolante.  Sarai immerso nella bellezza della natura, respirando aria fresca e ammirando panorami spettacolari.  Questa <strong>escursione</strong> è perfetta per chi cerca un''esperienza di <strong>trekking</strong> rilassante e rigenerante.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa <strong>escursione</strong> è considerata <strong>facile</strong>, adatta a tutti, anche ai principianti. La <strong>distanza</strong> è di 7.8 km con un <strong>dislivello</strong> positivo di 282 metri. Ricorda di indossare scarpe adeguate e di portare con te acqua e snack, soprattutto se scegli di affrontare l''<strong>escursione</strong> anche di notte.</p>
 
-<h3>Cosa Aspettarsi - Guida all''Escursione</h3>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Ecco la <strong>traccia GPS</strong> per accompagnarti in questa <strong>escursione</strong>: [Inserisci qui la traccia GPS] </p>
+<p><strong>Distanza:</strong> Circa 7.8 km (solo andata)</p>
+<p><strong>Dislivello:</strong> Circa 282 metri</p>
+<p><strong>Difficoltà:</strong> Facile</p>
+<p><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</p>
+<p><strong>Punto di partenza:</strong> Valle Benedetta, accessibile in auto o a piedi</p>
+<p><strong>Comune:</strong> Valle Benedetta, Toscana, Italia</p>
+<p><strong>Tipo di sentiero:</strong> Sentiero escursionistico</p>
 
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-  <li><strong>Difficoltà:</strong> Facile - V4</li>
-  <li><strong>Distanza:</strong> Circa 6 km (andata e ritorno)</li>
-  <li><strong>Dislivello:</strong> Circa 300 metri</li>
-  <li><strong>Tempo di percorrenza:</strong> 2-3 ore</li>
-  <li><strong>Terreno:</strong> Sentiero ben segnalato, tratti collinari e dislivelli moderati</li>
-</ul>
-
-<p>Durante l''<strong>escursione</strong>, potrai ammirare la maestosità dell’<strong>acquedotto di Colognole</strong>, un''opera di ingegneria antica che testimonia la storia del territorio. Presta particolare attenzione al tratto dell''acquedotto, dove la discesa è più ripida e il terreno potrebbe essere umido; è consigliabile attraversarlo sopra per godere di una vista panoramica e caratteristica.  Questa <strong>trekking</strong> è adatta anche per chi è alle prime armi, offrendo un’esperienza piacevole e sicura.</p>
-
-<h3>Informazioni Utili - Consigli per il Trekking</h3>
-
-<ul>
-  <li><strong>Scarpe:</strong> Utilizza scarpe da <strong>trekking</strong> adatte al terreno e all’umidità</li>
-  <li><strong>Acqua e cibo:</strong> Porta con te sufficiente acqua e cibo per la durata dell''<strong>escursione</strong></li>
-  <li><strong>Abbigliamento:</strong> Indossa abbigliamento a strati per adattarti alle variazioni di temperatura</li>
-  <li><strong>Segnaletica:</strong> Il sentiero è ben segnalato, ma è consigliabile avere una mappa e una bussola</li>
-  <li><strong>Orario:</strong> Consigliabile svolgere l’<strong>trekking</strong> nelle ore della mattinata o del pomeriggio per evitare il caldo eccessivo</li>
-</ul>
-
-<p>Non dimenticare di rispettare l''ambiente durante l''<strong>escursione</strong>, raccogliendo i tuoi rifiuti e seguendo i sentieri segnalati. Goditi questo magnifico sentiero per il <strong>trekking</strong> in Italia, un’esperienza unica nella <strong>natura</strong> e nella <strong>montagna</strong>!</p>',
+  <li><strong>Distanza:</strong> Circa 7.8 km (solo andata)</li>
+  <li><strong>Dislivello:</strong> Circa 282 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Valle Benedetta, accessibile in auto o a piedi</li>
+  <li><strong>Comune:</strong> Valle Benedetta, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.8,
   282,

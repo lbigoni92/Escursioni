@@ -7,24 +7,39 @@ VALUES (
   143605199,
   'Puntato - Monte Freddone - Monte Paglino',
   'Se si esclude le due vette il sentiero è escursionistico, ma se si decide di intraprendere il sentiero che porta al Freddone ci sono delle piccole esposizioni e di punti dove stare attenti e con delle salite con una buona pendenza (sentiero non da tutti). Iniziamo prendendo il sentiero 128 in direzione Rif.Robbio, il sentiero è facile da seguire e come unica difficoltà presenta una salita iniziale non troppo pesante e diversi punti panoramici, superato l''attacco alla cresta est e proseguendo per 3'' min si arriva al rifugio Robbio, dve abbiamo preso un caffè per poi proseguire e accamparci per la notte alla chiesa di Puntato. Durante la notte abbiamo potuto godere delle bellissime stelle cadenti. La mattina successiva abbiamo proseguito seguendo il sentiero 11 verso Fociomboli e poi attaccato per il Freddone (sentiero non semplice che presenta diversi punti dove fare attenzione), la vetta merita, e contiene anche una geocache nel libro di vetta, poi abbiamo proseguito per il monte Paglino facendo sosta al Dolmen, molte molto bello ma il sentiero che abbiamo preso ... diciamo che era un sentiero che non esiste più ma interessante da fare. il rientro è stato facile da seguire anche se il sentiero non esisteva nella prima parte della discesa dal paglino, tornati sul sentiero 11 abbiamo continuato fino all''incrocio con il 129 e poi preso quest''ultimo, qua è tutta discesa facile con bei boschi. (1)Il Dolmen si trova a 1361 m di quota sul crinale che scende dalla vetta del Paglino. È alto 1.50 metri (più alto nel lato verso l''Altissimo), la pietra verticale è lunga 3.30 m ed è 1.85 nel punto più largo ed è spessa 40 cm. La pietra verticale è disposta in direzione N-S e la perpendicolare alla direzione è allineata con la vetta del Monte Altissimo (questo è stato da noi verificato). Rimandiamo a un articolo del prof. Enrico Calzolari (1938-2020), liberamente disponibile in rete per ulteriori informazioni. [Calzolari sosteneva che la presenza di minerali nella zona del Freddone portò le popolazioni del tempo a osservare i fenomeni equinoziali in zona. Per cui fu costruita questa struttura fatta in modo che negli equinozi il tramonto avvenisse presso la vetta dell''Altissimo e i raggi solari penetrassero nella camera del monumento. Inoltre sosteneva che lo stesso avesse la forma del Tau, simbolo religioso di vita e resurrezione. Quindi il Dolmen del Paglino sarebbe una struttura di osservazione astronomica con forte valenza religiosa. Ricordiamo che il termine "dolmen" è riferito a monumenti neolitici consistenti in pietre verticali sormontate da una orizzontale. Essi erano, in origine, monumenti funebri costruiti tra i 5000 e 2000 anni prima di Cristo che col tempo assunsero una valenza religiosa.] Fonti : 1 https://www.escursioniapuane.com/itinerari/Itinerario.aspx?ID_itinerario=111',
-  '<h2>Puntato - Monte Freddone - Monte Paglino: Escursione in Montagna in Val d''Era</h2>
+  '<h2 id="puntato-monte-freddone-monte-paglino">Puntato - Monte Freddone - Monte Paglino</h2>
 
-<h3>Il percorso</h3>
-<p>Questo <em>trekking</em> in <strong>Puntato - Monte Freddone - Monte Paglino</strong> è un''esperienza indimenticabile per gli amanti del <em>trekking</em> e dell''<em>escursionismo</em> in <strong>montagna</strong>. Il percorso, ideale per <em>sentieri</em> e <em>natura</em>, si snoda attraverso paesaggi mozzafiato della <strong>Val d''Era</strong>, offrendo scorci unici sul crinale che collega il <strong>Monte Freddone</strong> al <strong>Monte Paglino</strong>. L''<em>escursione</em> permette di esplorare diverse zone di difficoltà, da percorsi facili e panoramici a salite più impegnative con <em>pendenze</em> importanti. La combinazione di elementi naturali, come il <strong>rifugio Robbio</strong> e la suggestiva <strong>chiesa di Puntato</strong>, rende questo viaggio un''occasione unica per immergersi nella vera anima della <strong>montagna italiana</strong>. Preparati per un''<em>escursione</em> che ti regalerà panorami spettacolari e la possibilità di vivere un''avventura autentica tra <em>sentieri</em> e <em>nodi</em>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Per raggiungere il punto di partenza dell''escursione, si parte dal paese di Puntato, comune di Campagrina in provincia di Toscana.  È raggiungibile in auto tramite strade secondarie o si può arrivare a piedi da paesi limitrofi.  L''ultimo tratto di strada per raggiungere il punto di partenza del sentiero 128 è un po'' a piedi, preparatevi!</p>
 
-<h3>Cosa aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia prendendo il sentiero 128 in direzione Rif. Robbio. Questo tratto è facile e panoramico, con una salita iniziale non troppo impegnativa e diversi punti di sosta. Dopo circa 3 minuti raggiungerete il Rifugio Robbio, dove potrete fare una sosta per un caffè. Da qui, proseguite verso la chiesa di Puntato, dove trascorrerete la notte ammirando le stelle cadenti. Il giorno successivo, intraprenderete il sentiero 11 verso Fociomboli e poi l''attacco al Monte Freddone. Questo sentiero è più impegnativo, con alcuni tratti esposti e salite ripide che richiedono attenzione. Una volta raggiunto il cime, troverete una geocache nel libro di vetta. Da qui, proseguite per il Monte Paglino, facendo una sosta al Dolmen. Il rientro si effettua seguendo il sentiero 11, per poi prendere il 129 e scendere lungo il bosco. Preparatevi a un po'' di disorientamento, poiché alcuni tratti del sentiero potrebbero non essere più segnalati, ma il percorso è comunque agevole.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di <strong>Difficoltà Media</strong>.  La distanza totale è di circa <strong>15.6 km</strong> con un <strong>dislivello di 1185 metri</strong>.  Il sentiero presenta tratti esposti, salite ripide e alcuni passaggi che potrebbero risultare impegnativi per chi non è allenato.  È consigliabile indossare scarpe da trekking adatte e portare con sé acqua, cibo e abbigliamento adeguato.  Considerate che alcune parti del sentiero potrebbero non essere più ben segnalate, quindi è utile avere una mappa e una bussola o un GPS.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Disponibile traccia GPS: <a href="#">Inserire Traccia GPS Qui</a></p>
 <ul>
-    <li>Percorso di media difficoltà, adatto a escursionisti esperti.</li>
-    <li>Piccole esposizioni e punti critici lungo il <em>sentiero</em> al <strong>Monte Freddone</strong>, richiedono attenzione e buone condizioni fisiche.</li>
-    <li>Salite con una buona <em>pendenza</em> lungo il <em>sentiero</em> che porta al <strong>Monte Freddone</strong>.</li>
-    <li>Possibilità di ammirare il <strong>Monte Paglino</strong> e il suo caratteristico <em>dolmen</em>.</li>
-    <li>Sosta al <em>rifugio Robbio</em> per una pausa caffè.</li>
-    <li>Possibilità di osservare <em>stelle cadenti</em> durante la notte.</li>
+    <li><strong>Distanza:</strong> Circa 15.6 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1185 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Puntato, accessibile in auto o a piedi</li>
+    <li><strong>Comune:</strong> Campagrina, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni utili</h3>
-<p>Questo <em>trekking</em> di più giorni prevede un pernottamento alla <strong>chiesa di Puntato</strong>. Il <em>sentiero</em> al <strong>Monte Freddone</strong> presenta tratti non semplici e richiede attenzione.  La discesa dal <strong>Monte Paglino</strong> può comportare l''utilizzo di <em>sentieri</em> non sempre battuti. E'' consigliabile indossare scarpe da <em>trekking</em> adatte e munirsi di abbigliamento tecnico per affrontare qualsiasi condizione climatica.  La <em>natura</em> selvaggia della <strong>Val d''Era</strong> richiede rispetto e attenzione alla segnaletica. Ricorda di informarti sulle previsioni del tempo prima di partire e di valutare attentamente la tua preparazione fisica.</p>
-<p>Il <strong>Dolmen</strong> rappresenta un punto di interesse storico e archeologico, testimonianza dell''antica presenza umana nella zona del <strong>Monte Paglino</strong>. La sua costruzione, risalente a tempi remoti, suggerisce l''utilizzo del sito per osservazioni astronomiche e rituali religiosi.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 15.6 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1185 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Puntato, accessibile in auto o a piedi</li>
+    <li><strong>Comune:</strong> Campagrina, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   15.6,
   1185,

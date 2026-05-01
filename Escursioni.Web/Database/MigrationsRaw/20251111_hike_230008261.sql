@@ -7,27 +7,31 @@ VALUES (
   230008261,
   'Anello di Molina: Cascata dell’Orso, Doppio Covolo e Cascata Nera',
   'Itinerario ad anello con partenza da Molina che attraversa alcune delle attrazioni naturali più suggestive della zona. Il percorso è semplice, ben segnalato e adatto a tutti, con solo qualche breve salita e discesa. Lungo il cammino si incontrano passerelle sospese e piccoli ponti che possono dare qualche emozione a chi soffre di vertigini, ma in generale il tracciato rimane sicuro e accessibile. Tra i punti più interessanti si trovano: Grotta preistorica (0,2 km) Cascata dell’Orso (0,8 km), una delle più scenografiche, che si getta da una spaccatura tra due grandi rocce Doppio Covolo (1,1 km) Grotta delle Tette More (2,8 km) Cascata Nera (3,2 km) Le cascate sono numerose e spettacolari, soprattutto dopo le piogge, quando l’acqua è più abbondante. Il biglietto d’ingresso all’area naturale costa circa 8 euro. Un’escursione consigliata per famiglie, bambini e per chi desidera trascorrere qualche ora immerso nella natura, tra grotte, cascate e panorami caratteristici della Lessinia.',
-  '<h2>Anello di Molina: Cascata dell’Orso, Doppio Covolo e Cascata Nera - Trekking in Lessinia</h2>
+  '<h2 id="anello-di-molina-cascata-dellorso-doppio-covolo-e-cascata-nera">Anello di Molina: Cascata dell’Orso, Doppio Covolo e Cascata Nera</h2>
 
-<h3>Il percorso – Escursione ad Anello in Montagna</h3>
-<p>Preparati per un''indimenticabile <strong>escursione a Molina</strong>, nel cuore della <strong>Lessinia</strong>, con l''<strong>anello di Molina</strong>. Questo <strong>sentiero di trekking</strong> ti condurrà attraverso paesaggi mozzafiato, passando per la <strong>Cascata dell’Orso</strong>, il <strong>Doppio Covolo</strong> e la maestosa <strong>Cascata Nera</strong>.  Un''esperienza di <strong>trekking</strong> facile e accessibile, ideale per famiglie e amanti della <strong>natura</strong>.</p>
-<p>L''<strong>itinerario ad anello</strong> è progettato per essere semplice e ben segnalato, con brevi saliscendi che offrono scorci panoramici sulla splendida <strong>montagna</strong>.  Adatto a tutti, con una difficoltà moderata, questo <strong>sentiero in Lessinia</strong> è perfetto per chi cerca un''<strong>escursione</strong> rilassante e immersiva nella natura italiana.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per l''anello di Molina è Molina, un piccolo paese nella provincia di Verona, in Veneto.  È facilmente raggiungibile in auto dalla Verona o da altre città della regione. Da Molina, segui le indicazioni per l''area naturale dove inizia il sentiero. In alternativa, è possibile raggiungere il punto di partenza a piedi partendo dal centro del paese.</p>
 
-<h3>Cosa aspettarsi – Trekking e Natura Selvaggia</h3>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo itinerario di trekking ad anello di circa 3,8 km ti condurrà attraverso alcune delle più belle attrazioni naturali della Lessinia. Inizia da Molina e segui il sentiero ben segnalato. Il percorso è prevalentemente facile e adatto a tutti, con qualche breve salita e discesa. Ti imbatterai in passerelle sospese e ponti, offrendoti scorci unici sulla natura circostante. Il percorso include la visita alla Grotta preistorica, alle cascate dell’Orso, del Doppio Covolo e della Cascata Nera, ognuna con la sua bellezza e il suo fascino.  Questo è un''ottima escursione per famiglie e per chiunque voglia ammirare panorami mozzafiato e le maestose cascate.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà FACILE, il che la rende adatta a famiglie, bambini e persone con poca esperienza di trekking. Il dislivello totale è di circa 227 metri, quindi ci saranno qualche salita e discesa, ma niente di impegnativo.  È consigliabile indossare scarpe da trekking o scarpe da ginnastica adatte al percorso. Porta con te acqua, snack e vestiti adatti alle condizioni climatiche.  La segnaletica è ben fatta e il sentiero è sicuro e accessibile.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Puoi trovare la traccia GPS completa di questo anello su piattaforme dedicate all''escursionismo.  Per quanto riguarda le informazioni pratiche, il biglietto d''ingresso all''area naturale costa circa 8 euro.  Ricorda di controllare le previsioni del tempo prima di partire.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li>Percorso ad anello di circa 8 km (5.5 miglia)</li>
-    <li>Difficoltà: Facile/Moderata</li>
-    <li>Dislivello: Circa 300 metri (984 piedi)</li>
-    <li>Adatto a famiglie, bambini e principianti del <strong>trekking</strong></li>
-    <li>Passeggiate lungo passerelle sospese e ponti</li>
-    <li>Possibili emozioni per chi soffre di vertigini (attenzione al tracciato)</li>
-    <li>Spettacolari <strong>cascate</strong>, soprattutto dopo le piogge</li>
-</ul>
-
-<h3>Informazioni utili – Dove e Come Fare Trekking in Lessinia</h3>
-<p>Il punto di partenza per l''<strong>anello di Molina</strong> è Molina de Bono, un pittoresco borgo immerso nella <strong>montagna</strong>. Da qui, segui il <strong>sentiero</strong> ben segnalato verso le <strong>cascate</strong>.  L’area naturale protetta richiede un biglietto d’ingresso di circa 8 euro, da pagare all’entrata dell’area.</p>
-<p>Punti di interesse lungo il <strong>sentiero</strong>: <strong>Grotta preistorica</strong> (0,2 km), <strong>Cascata dell’Orso</strong> (0,8 km), <strong>Doppio Covolo</strong> (1,1 km), <strong>Grotta delle Tette More</strong> (2,8 km) e la spettacolare <strong>Cascata Nera</strong> (3,2 km).  Un''ottima <strong>escursione</strong> per ammirare la bellezza della <strong>natura italiana</strong> e la ricchezza del territorio lessinate.</p>
-<p>Non dimenticare di portare con te acqua, scarpe da trekking adatte e un cappello.  Goditi questa splendida <strong>trekking</strong> nell’entroterra italiano!</p>',
+    <li><strong>Distanza:</strong> Circa 3.78 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 227 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Molina, accessibile in auto/a piedi</li>
+    <li><strong>Comune:</strong> Molina, Veneto</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+    <li><strong>Parco Nazionale:</strong> Non applicabile</li>
+</ul>',
   'Tutte le Attività e Paesi',
   3.78,
   227,

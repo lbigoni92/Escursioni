@@ -7,24 +7,33 @@ VALUES (
   256556655,
   'Monte Freddone, Monte Paglino e Passo di Fociomboli da Campagrina',
   'Partenza nei pressi del parcheggio in località Tre Fiumi. Da qui si imbocca un sentiero evidente e ben marcato che conduce all’attacco della cresta del Monte Freddone. Il primo tratto si sviluppa senza particolari difficoltà: il percorso è lineare, privo di bivi significativi, e procede in costante ma regolare salita, con qualche breve tratto pianeggiante che permette di recuperare. Dopo circa 3,1 km (all’incirca un’ora di cammino) si raggiunge il punto in cui abbandonare il sentiero principale per deviare verso la cresta. L’inizio della salita non presenta difficoltà rilevanti, se non qualche breve passaggio in cui è necessario aiutarsi con le mani (passaggi di I grado). Proseguendo, si incontra un tratto più ripido ma comunque gestibile. In questo punto è consigliabile seguire una traccia che devia leggermente verso sinistra per facilitare la progressione: proseguire dritti, come abbiamo fatto noi, rende la salita un po’ più impegnativa. Si raggiunge quindi una prima anticima del Freddone (1343 m), per poi proseguire lungo la cresta fino alla vetta principale (1470 m) e successivamente alla cima più occidentale (1479 m). Dalla cresta si scende in direzione del dolmen del Monte Freddone. Da qui, abbiamo scelto di proseguire verso il Monte Paglino passando per una variante meno battuta: dalla sella del Freddone si segue una crestina che conduce direttamente alla cima. Anche in questo tratto si incontrano passaggi di I grado, mai particolarmente esposti ma che richiedono passo sicuro e un minimo di esperienza. Dalla vetta del Monte Paglino si scende al suggestivo dolmen, probabilmente il punto più caratteristico e affascinante dell’intera escursione. Il rientro avviene lungo la via normale del Paglino fino a Fociomboli. Da qui si procede in direzione Passo Croce, ma prima di raggiungerlo si devia a destra per rientrare al punto di partenza, passando nei pressi di una vecchia costruzione e della chiesina di San Giovanni Battista. La discesa finale può risultare un po’ monotona, ma si svolge all’interno di un bel bosco, rendendo comunque piacevole il rientro. Note Escursione non adatta a tutti: è richiesta sicurezza di passo e una minima dimestichezza con tratti di facile arrampicata (I grado). Nel complesso, si tratta di un itinerario molto panoramico e vario, che regala splendide visuali sulle Apuane.',
-  '<h2>Monte Freddone, Monte Paglino e Passo di Fociomboli da Campagrina – Trekking in Montagna</h2>
+  '<h2 id="escursione-monte-freddone-monte-paglino-passo-fociomboli-da-campagrina">Escursione al Monte Freddone, Monte Paglino e Passo di Fociomboli da Campagrina</h2>
 
-<h3>Il Percorso – Escursione Trekking in Toscana</h3>
-<p>Questo sentiero escursionistico in Toscana offre un''esperienza di trekking indimenticabile, conducendo alla vetta del Monte Freddone e del Monte Paglino. L''escursione, adatta a escursionisti esperti, si snoda attraverso paesaggi mozzafiato e offre viste panoramiche sulle Alpi Apuane.  L''itinerario è un perfetto esempio di <em>trekking</em> in <em>montagna</em>, con un mix di salite, discese e tratti più impegnativi. Preparatevi a un''<em>escursione</em> di <em>sentiero</em> ricca di emozioni e scoperte nella natura incontaminata.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>La partenza per questa splendida escursione è nei pressi del parcheggio in località Tre Fiumi, a Campagrina. Il parcheggio è facilmente raggiungibile in auto, seguendo le indicazioni stradali per Campagrina e poi le indicazioni per Tre Fiumi. Da qui, il sentiero è ben visibile e facilmente accessibile.</p>
 
-<h3>Cosa Aspettarsi – Difficoltà e Distanza</h3>
-<p>L''<em>escursione</em> al Monte Freddone e al Monte Paglino è un''avventura di circa 14 chilometri con un dislivello di circa 750 metri. Il percorso è caratterizzato da tratti di salita e discesa moderati, con alcuni passaggi leggermente esposti che richiedono attenzione.  Si tratta di un percorso di difficoltà I grado, adatto a escursionisti con una minima dimestichezza con l''arrampicata su sentieri.  Godetevi la bellezza della natura e l''aria fresca della <em>montagna</em> durante questa splendida <em>escursione</em>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia con un tratto lineare e senza particolari difficoltà, salendo verso la cresta del Monte Freddone. Dopo circa 3,1 km, si abbandona il sentiero principale per deviare verso la cresta. Proseguendo, si affronta un tratto più ripido ma comunque gestibile, con alcuni passaggi in cui potrebbe essere necessario usare le mani (passaggi di I grado). Si raggiunge la vetta del Monte Freddone (1470 m) e poi si prosegue verso il Monte Paglino, seguendo una crestina che conduce direttamente alla cima. Dalla vetta del Paglino, si scende al suggestivo dolmen, per poi rientrare al punto di partenza, passando per una vecchia costruzione e la chiesina di San Giovanni Battista. Un''escursione davvero varia e ricca di panorami!</p>
 
-<ul>
-  <li>Distanza: Circa 14 km</li>
-  <li>Dislivello: 750 m</li>
-  <li>Difficoltà: I Grado</li>
-  <li>Periodo Ideale: Primavera, Estate, Autunno</li>
-  <li>Tipologia: <em>Trekking</em> e <em>Escursione</em> in <em>Sentiero</em></li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà media. Richiede sicurezza di passo e una minima dimestichezza con tratti di facile arrampicata (I grado). Il dislivello totale è di circa 760 metri, mentre la distanza percorsa è di 9,86 km. È consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack.</p>
 
-<h3>Informazioni Utili – Dove Partire e Cosa Portare</h3>
-<p>La partenza dell''<em>escursione</em> è nei pressi del parcheggio in località Tre Fiumi. Da qui, il sentiero ben marcato conduce direttamente all''attacco della cresta del Monte Freddone. È fondamentale indossare scarpe da trekking adatte e abbigliamento tecnico per affrontare il percorso. Portate con voi acqua, cibo, una mappa e una bussola o un GPS.  Non dimenticate l''attrezzatura da sicurezza, come un kit di pronto soccorso. Questa <em>escursione</em> nel cuore della <em>montagna</em> offre una fantastica opportunità per immergersi nella natura e respirare l''aria fresca.  Organizzate la vostra <em>escursione</em> in <em>sentiero</em> con cura e preparatevi a vivere un''esperienza unica!</p>',
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>La traccia GPS per questa escursione è disponibile qui: [Inserire link alla traccia GPS qui].</p>
+<p><strong>Distanza:</strong> 9.86 km (anello)</p>
+<p><strong>Dislivello:</strong> 760 m</p>
+<p><strong>Difficoltà:</strong> Medio</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 9.86 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 760 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio in località Tre Fiumi, Campagrina, accessibile in auto</li>
+    <li><strong>Comune:</strong> Campagrina, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   9.86,
   760,

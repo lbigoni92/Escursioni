@@ -7,43 +7,39 @@ VALUES (
   115763698,
   'Via Ferrata del Monte Forato e Via Ferrata del Monte Procinto - FriendsInTrekking',
   'Partendo dal Rifugio dell''Alto Matanna abbiamo fatto : Ferrata del monte Procinto: La Via Ferrata del Monte Forato e Via Ferrata del Monte Procinto, in uno splendido anello. Il percorso è durato circa 10 ore, faticoso ma fattibilissimo se si è ben allenati. La ferrata del Monte Procinto è la ferrata più antica d''Italia e risale al 1893, poi ristrutturata più volte in seguito (ultima revisione nel 2020). La via è intitolata ad Aristide Bruni che salì nel 1879 per primo assieme ad altri questo singolare monte. La salita fu la prima salita documentata sebbene si creda che il Procinto fosse già stato salito da boscaioli locali. La via di salita venne convertita in percorso attrezzato col supporto del CAI di Firenze di cui Bruni era membro. Ferrata del monte Forato: La Ferrata è intitolata alla memoria di Renato Salvatori, vice presidente del CAI di Forte dei Marmi. La via fu installata nell''autunno del 1977, inaugurata nel 1978 e rinnovata nel 1998. Per fare entrambi i sentieri vige l''obbligo di: Abbigliamento Adeguato, Attrezzatura da ferrata e non soffrire di vertigini',
-  '<h2>Via Ferrata del Monte Forato e Via Ferrata del Monte Procinto - Trekking in Montagna</h2>
+  '<h2 id="escursione-via-ferrata-monte-forato-e-monte-procinto">Escursione Via Ferrata del Monte Forato e del Monte Procinto</h2>
 
-<h3>Il Percorso</h3>
+<p>Amici appassionati di montagna, preparatevi a una giornata indimenticabile! Questa escursione vi porterà ad affrontare due delle vie ferrata più iconiche d''Italia: la Via Ferrata del Monte Procinto e la Via Ferrata del Monte Forato. Un anello impegnativo, ma assolutamente fattibile per escursionisti allenati, che vi regalerà panorami mozzafiato e l''emozione di arrampicarsi su passaggi attrezzati.</p>
 
-<p>
-Immergetevi in un''esperienza di <strong>trekking</strong> indimenticabile con il circuito che combina la <strong>Via Ferrata del Monte Procinto</strong> e la <strong>Via Ferrata del Monte Forato</strong>. Partendo dal suggestivo <strong>Rifugio dell''Alto Matanna</strong>, questo anello di circa 10 ore vi condurrà attraverso paesaggi mozzafiato della <strong>montagna toscana</strong>. 
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<p>
-Questo <strong>sentiero escursionistico</strong> è un''avventura adatta a escursionisti esperti e ben allenati. La <strong>Via Ferrata del Monte Procinto</strong>, la più antica d''Italia (risalente al 1893), offre una sfida tecnica affascinante, mentre la <strong>Ferrata del Monte Forato</strong>, dedicata alla memoria di Renato Salvatori, rappresenta una sfida di <strong>trekking</strong> più impegnativa ma altrettanto gratificante.
-</p>
+<p>Il punto di partenza è il Rifugio dell''Alto Matanna, facilmente raggiungibile in auto. Da qui, il sentiero vi condurrà direttamente all''inizio delle due vie ferrata. Assicuratevi di aver verificato le condizioni meteorologiche prima di partire e di indossare l''abbigliamento e l''attrezzatura adeguati.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<ul>
-    <li>Percorso ad anello di circa 10 ore</li>
-    <li>Difficoltà: Difficile - Richiede esperienza di <strong>trekking</strong> e <strong>ferrata</strong></li>
-    <li>Distanza: Circa 12 km (linea base)</li>
-    <li>Altitudine: Dal Rifugio dell''Alto Matanna (1.633m)</li>
-    <li>Dislivello: Circa 800m di dislivello positivo</li>
-    <li>La <strong>Via Ferrata del Monte Procinto</strong> è la ferrata più antica d''Italia, con una storia ricca e affascinante.</li>
-    <li>La <strong>Ferrata del Monte Forato</strong> offre panorami spettacolari sulla valle sottostante.</li>
-</ul>
+<p>Il percorso è un anello di circa 12,93 km con un dislivello positivo di 915 metri. Inizierete affrontando la ferrata del Monte Procinto, la più antica d''Italia, risalente al 1893 e ristrutturata nel 2020. Questa ferrata, intitolata ad Aristide Bruni, vi offrirà un''esperienza unica grazie alla sua storia e ai suoi passaggi tecnici.  Successivamente, proseguirete con la ferrata del Monte Forato, dedicata alla memoria di Renato Salvatori, inaugurata nel 1978 e rinnovata nel 1998. Entrambe le vie ferrata sono considerate di difficoltà media, richiedono un buon stato di forma e abitudine all''arrampicata.</p>
 
-<p>
-Godetevi la bellezza della <strong>natura</strong>, l''aria fresca di montagna e la sensazione di superare nuove sfide in questo incredibile <strong>sentiero trekking</strong>. 
-</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
 
-<h3>Informazioni Utili</h3>
+<p>Questa escursione è di difficoltà media e richiede un buon livello di preparazione fisica e mentale. La durata totale del percorso è di circa 10 ore. È fondamentale avere esperienza nell''utilizzo delle ferrate e non soffrire di vertigini.  L''attrezzatura obbligatoria include abbigliamento adeguato, attrezzatura da ferrata e scarpe da trekking montanistiche.</p>
 
-<p>
-Per completare con successo questa <strong>escursione</strong>, è fondamentale essere in ottima forma fisica e possedere esperienza di <strong>trekking</strong> e <strong>ferrata</strong>. Vige l''obbligo di indossare <strong>abbigliamento adeguato</strong> e di utilizzare <strong>attrezzatura da ferrata</strong>. È inoltre essenziale non soffrire di <strong>vertigini</strong>. 
-</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
 
-<p>
-Prima di intraprendere l''avventura, controllate sempre le condizioni meteorologiche e informatevi presso le autorità locali. Ricordate che la sicurezza è sempre la priorità.
-</p>',
+<p><em>(Aggiungere qui la traccia GPS del percorso)</em></p>
+<p><strong>Distanza:</strong> 12.93 km (anello)</p>
+<p><strong>Dislivello:</strong> +915 m</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 12.93 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 915 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Rifugio dell''Alto Matanna (accessibile in auto / a piedi)</li>
+    <li><strong>Comune:</strong> Palagnana, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico / Via Ferrata</li>
+</ul>',
   'Tutte le Attività e Paesi',
   12.93,
   915,

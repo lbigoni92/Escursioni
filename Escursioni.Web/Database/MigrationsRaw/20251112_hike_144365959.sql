@@ -7,29 +7,31 @@ VALUES (
   144365959,
   'Stretti di Giaredo - canyoning',
   'Bellissimo giro che ho dovuto ricostruire in quanto wikilock mi ha perso la traccia e waypoints.... ma nessun problema magari alcune foto non sono scattate nel punto corretto. Il canyoning è bellissimo e merita tantissimo, c''è da fare 2 km a piedi prima d''arrivare all''inizio del canion, sentiero semplice ma fatelo con delle scarpe sa trekking che potete bagnare. Arrivati al canion avrete bisogno di: asciugamano, muta se siete freddolosi (l''acqua è fredda) e scarpe che potete bagnare, noi abbiamo fatto il canion in un ora tra andata e ritorno, non presenta difficoltà se no il freddo per l''acqua e alcuni tratti a nuoto. C''è una bellissima cascata che merita tantissimo! Il fine corsa è quando si arriva una roccia alta 2m e 30 dopo non ha senso andare il canion è finito. Gli stretti di Giaredo comprendono il tratto più orientale della forra del torrente Gordana, estendendosi verso monte per circa 1 Km da località Giaredo. Si caratterizzano per l’affioramento di antiche rocce carbonatiche, parte del basamento mesozoico toscano. Gli stretti di Giaredo sono parte di Rete Natura2000 per la conservazione della biodiversità in Europa, ricadendo all’interno della Zona Speciale di Conservazione (ZSC-IT5110001) “Valle del Torrente Gordana”. Il sito rientra nella Riserva MAB UNESCO Appennino Tosco-Emiliano. L’origine degli stretti di Giaredo, e di tutta la forra del torrente Gordana, può essere messa in relazione alle fasi tettoniche recenti che hanno interessato l’Appennino settentrionale a partire dal Pleistocene, prima attraverso processi distensivi e quindi con movimenti differenziali di sollevamento e conseguente marcato approfondimento del reticolo idrografico L''esperienza merita tantissimo la consiglio a chiunque! ma attenzione! Fonte wikipedia',
-  '<h2>Stretti di Giaredo - Canyoning: Escursione e Canyoning nel Canyon della Forra del Torrente Gordana</h2>
+  '<h2 id="stretti-di-giaredo-canyoning">Stretti di Giaredo – canyoning</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Per raggiungere il punto di partenza di questa emozionante esperienza, dovrai percorrere 2 km a piedi da Giaredo. Il percorso è semplice e accessibile, ma ti consiglio di indossare scarpe da trekking adatte a bagnarsi, visto che l''acqua del canyon è gelida!</p>
 
-<p>Preparatevi per un’esperienza indimenticabile lungo gli <strong>Stretti di Giaredo</strong>, un incredibile canyoning all’interno della <strong>forra del torrente Gordana</strong>. Questo sentiero di trekking, ideale per gli amanti dell’escursionismo e del canyoning, vi condurrà attraverso un paesaggio mozzafiato, caratterizzato da antiche rocce carbonatiche e la maestosa cascata del torrente. Inizialmente, percorrerete circa 2 chilometri a piedi, su un sentiero semplice, ma consigliamo di indossare scarpe da trekking adatte a bagnarsi, data la presenza dell''acqua. L''escursione, un vero e proprio <em>trekking</em> tra le montagne, è perfetta per gli appassionati di natura e di <em>sentieri</em> in Italia.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Il sentiero inizia da Giaredo e conduce attraverso il canyon della forra del torrente Gordana. Il tratto iniziale è un semplice sentiero escursionistico di circa 2 km. Una volta raggiunto il punto in cui il canyon si apre, avrai bisogno di attrezzatura specifica per il canyoning: asciugamano, muta (se sei sensibile al freddo!) e scarpe impermeabili. Il tratto a canone è di circa 1 km ed è caratterizzato da tratti a nuoto, dove potrai goderti le acque fresche del torrente. L''escursione termina quando raggiungi una roccia alta circa 2,30 metri, a quel punto il canyon si conclude.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>La difficoltà di questa escursione è considerata "Media". Il canyoning richiede una certa familiarità con l''acqua e una buona condizione fisica. Il dislivello è di circa 96 metri.  Il tratto a nuoto può essere impegnativo a causa dell''acqua fredda.  L''intera esperienza dura circa un''ora, tra andata e ritorno.</p>
 
-<p>La vostra avventura inizierà con un piacevole percorso a piedi attraverso la natura incontaminata. Arrivati al punto di accesso al canone, dovrete indossare l''attrezzatura necessaria per il <em>canyoning</em>: <em>asciugamano</em>, <em>muta</em> (consigliata per chi soffre del freddo, dato che l''acqua è gelida!) e <em>scarpe</em> impermeabili. Preparatevi a circa un''ora per l''andata e il ritorno nel <em>canyon</em>, un tratto non particolarmente impegnativo, ma che richiede attenzione al freddo dell''acqua e ad alcuni brevi tratti a nuoto. La cascata è un punto culminante dell’escursione, un vero spettacolo naturale!</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Non disponibile.  Ti consiglio di scaricare una mappa offline dell''area e di informarti sulle condizioni meteorologiche prima di partire.</p>
 
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Località:</b> Giaredo, in Toscana</li>
-    <li><b>Difficoltà:</b> Facile/Media (a causa dell''acqua e del nuoto)</li>
-    <li><b>Distanza:</b> Circa 1 chilometro (sentiero) + percorso di canone</li>
-    <li><b>Tempo stimato:</b> 1-2 ore (a seconda del vostro ritmo)</li>
-    <li><b>Zona Speciale di Conservazione (ZSC-IT5110001):</b> Gli Stretti di Giaredo sono parte integrante della Rete Natura2000 e della Zona Speciale di Conservazione “Valle del Torrente Gordana”, contribuendo alla conservazione della biodiversità in Europa.</li>
-    <li><b>Rilevanza UNESCO:</b> Il sito rientra nella Riserva MAB UNESCO Appennino Tosco-Emiliano, sottolineando l''importanza geologica e naturalistica del luogo.</li>
-    <li><b>Origine Geologica:</b> Gli stretti sono il risultato di antiche fasi tettoniche che hanno interessato l’Appennino settentrionale.</li>
-</ul>
-
-<p>Non perdete l''opportunità di vivere un''esperienza unica tra le meraviglie della natura italiana. Questo <em>sentiero di trekking</em> offre un''esperienza di <em>canyoning</em> indimenticabile per gli amanti dell’avventura e della <em>natura</em>. Ricordatevi di rispettare l’ambiente e di godervi questa splendida <em>escursione</em>!</p>',
+    <li><strong>Distanza:</strong> Circa 4.05 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 96 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Giaredo (accessibile in auto/a piedi)</li>
+    <li><strong>Comune:</strong> Cavezzana Gordana, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico, canyoning</li>
+    <li><strong>Parco Nazionale:</strong> Nessuno</li>
+</ul>',
   'Tutte le Attività e Paesi',
   4.05,
   96,

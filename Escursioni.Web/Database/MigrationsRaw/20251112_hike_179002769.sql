@@ -7,25 +7,30 @@ VALUES (
   179002769,
   'Dal Rif.Donegani a Lagonero passando per sopra l''orrido di botri',
   'Prima tappa di una bellissima due giorni in Appennino, percorso non per tutti. Le fontane sono presenti a tutti i rifugi ma non è detto che abbiano acqua, portatevela io ne avevo 4 litri per giorno. Il primo giro sopra l''Orrido è a tratti pericoloso entrambi i pizzi sono da fare con attenzione e ci si può spingere finché ci si sente/ ne ha voglia ma prestare attenzione. Il percorso è lungo e bello consiglio solo ha chi ha un buon allenamento. Il rifugio Lago Nero c''ha accolto e ospitato e abbiamo sciato una buona offerta, crosta e formaggi molto buoni, grazie a tutti i volontari. 17.3 km e 1485mt dislivello, dopo un giro sui sentieri sopra l''Orrido di Botri, dove abbiamo fatto i due pizzi: - Pizzo del Cane - Pizzo del Pistello. Sempre il primo giorno abbiamo toccato i monti: - Belvedere del Campaccio - Col delle Prada - Poggio alle Porche - Alpe delle Tre Potenze Il tutto partendo dal rifugio Donegani, passando per il rifugio Fontana di Troghi.',
-  '<h2>Dal Rif.Donegani a Lagonero passando per sopra l''orrido di botri - Trekking in Appennino</h2>
+  '<h2 id="escursione-dal-rif-donegani-a-lagonero-passando-per-sopra-lorrido-di-botri">Escursione Dal Rif.Donegani a Lagonero Passando Per Sopra L''orrido di Botri</h2>
 
-<h3>Il percorso: Escursione Trekking in Appennino tra Montagna e Natura</h3>
-<p>Immergetevi in un’esperienza di trekking indimenticabile lungo il <strong>sentiero dal Rifugio Donegani a Lagonero</strong>, un percorso avvincente nel cuore dell’Appennino. Questa <strong>escursione di trekking</strong> vi condurrà attraverso paesaggi mozzafiato, passando sopra l’<strong>orrido di Botri</strong> e offrendo viste panoramiche spettacolari.  Un''escursione impegnativa ma ricca di soddisfazioni per gli amanti del <strong>trekking in montagna</strong> e della <strong>natura selvaggia</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare Al Punto Di Partenza</h3>
+<p>Il punto di partenza di questa fantastica escursione è il <strong>Rifugio Donegani</strong>, facilmente raggiungibile in auto e parcheggio disponibile nelle vicinanze. Da qui inizia l''avventura!</p>
 
-<h3>Cosa aspettarsi: Un Percorso di Trekking in un Ambiente Selvaggio</h3>
-<p>Preparatevi per un’<strong>escursione di trekking</strong> di livello intermedio, con un <strong>dislivello di 1485 metri</strong> e una distanza di 17.3 km. Il percorso presenta tratti impegnativi, con alcuni <em>pizzi</em> da affrontare con cautela e attenzione.  La bellezza di questo <strong>sentiero in Appennino</strong> risiede nella sua autenticità e nella possibilità di immergersi in un ambiente naturale incontaminato. Non dimenticate di portare con voi l''acqua, in quanto le fontane nei rifugi non sempre garantiscono disponibilità.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo Per Passo</h3>
+<p>Questa escursione è una vera e propria immersione nell''Appennino. Partendo dal Rifugio Donegani, il sentiero ci conduce attraverso panorami mozzafiato, superando l''<strong>Orrido di Botri</strong>, un tratto a tratti impegnativo che richiede attenzione. Il percorso include la salita al <strong>Pizzo del Cane</strong> e al <strong>Pizzo del Pistello</strong>, due pizzi da affrontare con prudenza e un buon allenamento. Ammireremo il <strong>Belvedere del Campaccio</strong>, il <strong>Col delle Prada</strong> e il <strong>Poggio alle Porche</strong>, per poi raggiungere l''<strong>Alpe delle Tre Potenze</strong>. Un giro completo e indimenticabile!</p>
 
-<h3>Informazioni Utili: Dettagli per la Vostra Escursione di Trekking</h3>
-<ul>
-    <li><strong>Distanza:</strong> 17.3 km</li>
-    <li><strong>Dislivello:</strong> 1485 metri</li>
-    <li><strong>Difficoltà:</strong> Impegnativo (consigliato per escursionisti esperti con un buon allenamento)</li>
-    <li><strong>Punti di Interesse:</strong> Pizzo del Cane, Pizzo del Pistello, Belvedere del Campaccio, Col delle Prada, Poggio alle Porche, Alpe delle Tre Potenze</li>
-    <li><strong>Rifugi:</strong> Rifugio Donegani, Rifugio Fontana di Troghi, Rifugio Lago Nero</li>
-    <li><strong>Consigli:</strong> Prestare attenzione ai tratti più esposti, soprattutto durante i <em>pizzi</em>. Portare acqua e cibo adeguati per l''intera giornata. Informarsi sulla disponibilità dell''acqua nei rifugi.</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà E Cosa Aspettarsi</h3>
+<p>Questa escursione è considerata di difficoltà <strong>Media</strong>. Richiede un buon allenamento e una certa esperienza in montagna. La distanza totale è di circa <strong>17.3 km</strong> con un dislivello di ben <strong>1514 metri</strong>. Preparatevi a camminare per diverse ore, a superare alcuni tratti esposti e a godervi panorami spettacolari.</p>
 
-<p>Questa <strong>escursione di trekking</strong> rappresenta un’occasione unica per scoprire la bellezza selvaggia dell’Appennino e per vivere un’esperienza di <strong>trekking</strong> indimenticabile.  Un''avventura da non perdere per chi ama la <strong>montagna</strong>, la <strong>natura</strong> e le <strong>escursioni in sentiero</strong>.</p>',
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS E Informazioni Pratiche</h3>
+<p>Per scaricare la traccia GPS di questa escursione, visitate <a href="#">il nostro sito</a> (link fittizio). È consigliabile utilizzare un buon dispositivo GPS o una app di navigazione per orientarsi durante il percorso.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong>Distanza:</strong> Circa 17.3 km (solo andata)</li>
+  <li><strong>Dislivello:</strong> Circa 1514 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Rifugio Donegani, accessibile in auto</li>
+  <li><strong>Comune:</strong> Pracchi, Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   17.3,
   1514,

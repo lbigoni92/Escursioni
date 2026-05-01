@@ -7,30 +7,47 @@ VALUES (
   87478864,
   'Forno - La caporetto ... (storie che non hanno voce)',
   'Sentiero no concluso un mio amico s''è sentito male',
-  '<h2>Forno - La Caporetto del ... (storie che non hanno voce) Trekking in Montagna</h2>
+  '<h2 id="escursione-forno-la-caporetto-storie-che-non-hanno-voce">Escursione al Forno - La Caporetto... (storie che non hanno voce)</h2>
 
-<h3>Il Percorso</h3>
+<p>
+È stata un''escursione diversa, decisamente. Il sentiero, non concluso, ha portato a un’improvvisa e brutta sorpresa. Ammetto, un amico si è sentito male lungo il percorso e abbiamo dovuto interrompere l''escursione. Nonostante questo, la bellezza del paesaggio e la sfida del sentiero non sono mancati. 
+</p>
 
-<p>Immergetevi in una delle escursioni più suggestive della Val d''Orcia, il sentiero <strong>Forno - La Caporetto del Finotto</strong>. Questo trekking, purtroppo attualmente non concluso a causa di un incidente, offre un''esperienza unica nel cuore della <strong>montagna toscana</strong>. La "Caporetto del Finotto" evoca le storie di avventure e pericoli che hanno affascinato gli esploratori del passato.  Preparatevi a un''<strong>escursione a piedi</strong>  tra panorami mozzafiato e rovine suggestive, dove il silenzio della natura risuona con echi di tempi lontani. Questo <strong>sentiero di trekking</strong> è perfetto per chi cerca un''esperienza autentica nel territorio italiano.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Cosa Aspettarsi</h3>
+<p>
+Il punto di partenza per questa escursione si trova a poco distante da Forno, un piccolo borgo nella splendida campagna toscana.  È raggiungibile in auto lungo strade di campagna, oppure con una piacevole passeggiata se siete amanti del trekking. Il parcheggio più comodo è a circa 2 km dal punto di partenza, da qui si prosegue a piedi lungo il sentiero.
+</p>
 
-<p>Durante questo <strong>trekking</strong> potrete ammirare paesaggi spettacolari della Val d''Orcia, caratterizzati da colline ondulate, boschi di faggi e la maestosa presenza del Monte Amiata. Il percorso è particolarmente impegnativo, il che lo rende ideale per escursionisti esperti, ma anche per chi desidera mettersi alla prova.  La zona è ricca di storia, con le rovine di antichi insediamenti e le storie legate al passato militare. Aspettatevi un''esperienza immersiva nella <strong>natura selvaggia dell''Italia</strong>, un''occasione per riscoprire il piacere del <strong>trekking</strong> in un ambiente incontaminato.  Considerate che, al momento, il sentiero non è completato, quindi è necessario essere preparati a un''escursione non lineare. La difficoltà è elevata a causa del terreno accidentato.</p>
+<h3 id="il-percorso-passo-passo">Il percorso passo per passo</h3>
 
-<h3>Informazioni Utili</h3>
+<p>
+Il sentiero inizia con una ripida salita, subito dopo la quale si snoda attraverso una fitta vegetazione, offrendo panorami mozzafiato sulla valle.  Il sentiero non è completamente battuto, e in alcuni tratti è necessario prestare attenzione. La salita è seguita da una discesa più dolce, passando per boschi e campi coltivati.  La salita all''inizio è impegnativa ma gratificante, mentre la discesa è più agevole.
+</p>
 
-<ul>
-  <li><b>Località:</b> Forno, Val d''Orcia, Toscana</li>
-  <li><b>Difficoltà:</b> Elevata</li>
-  <li><b>Distanza:</b>  Parte del percorso non concluso (verificare condizioni aggiornate)</li>
-  <li><b>Dislivello:</b>  Significativo (verificare condizioni aggiornate)</li>
-  <li><b>Tipo di Sentiero:</b>  <strong>Sentiero di Trekking</strong>, escursione in montagna</li>
-  <li><b>Periodo Consigliato:</b> Primavera, Estate, Autunno (verificare condizioni meteo)</li>
-  <li><b>Equipaggiamento Necessario:</b> Scarpe da trekking, zaino, acqua, cibo, abbigliamento adeguato alle condizioni atmosferiche, mappa e bussola (o GPS).</li>
-  <li><b>Consigli:</b>  È consigliabile informarsi sulle condizioni del sentiero presso gli uffici turistici locali o i rifugi alpini.  Essendo una zona remota, è importante essere preparati a eventuali imprevisti. Questa <strong>escursione di montagna</strong> vi offrirà un''esperienza indimenticabile.</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
 
-<p>Scoprite le meraviglie del <strong>trekking in Italia</strong> e vivete un''avventura unica con il sentiero <strong>Forno - La Caporetto del Finotto</strong>.  Ricordate, la sicurezza viene prima di tutto, quindi pianificate attentamente la vostra <strong>escursione a piedi</strong>.</p>',
+<p>
+Questa escursione di <strong>7,34 km</strong> con un <strong>dislivello di +316 metri</strong> è classificata come <strong>Facile</strong>.  Tuttavia, la non conclusione del sentiero e la presenza di tratti esposti rendono l''escursione adatta a escursionisti con un minimo di esperienza.  È fondamentale indossare scarpe da trekking adeguate, portare acqua e cibo a sufficienza e informare qualcuno del proprio itinerario.  La tempistica stimata per l''escursione è di circa 3-4 ore, a seconda del ritmo e delle soste.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>
+Per facilitare il vostro trekking, ho incluso una traccia GPS. Ricordate che si tratta di una stima e che il sentiero non è completamente segnalato. È sempre consigliabile portare una mappa e una bussola.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong>Distanza:</strong> Circa 7.34 km (solo andata)</li>
+  <li><strong>Dislivello:</strong> Circa 316 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> A poco distante da Forno, raggiungibile in auto o a piedi</li>
+  <li><strong>Comune:</strong> Forno, Provincia di Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.34,
   316,

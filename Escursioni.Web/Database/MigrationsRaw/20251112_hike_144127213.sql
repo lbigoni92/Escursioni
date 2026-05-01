@@ -7,25 +7,47 @@ VALUES (
   144127213,
   'Renara',
   'Più che treking questo è stata una passeggiata con bagno in fiume, abbiamo preferito parcheggiare lungo la strada che porta al paesino perchè sulla strada che va dal paesino al parcheggio c''erano dei sassi appena caduti. Semplice parcheggiate... camminate 1/2km cercate una Polla e fate il bagno Il torrente Renara è un affluente, il maggiore, del fiume Frigido. Scorre sulle montagne del comune di Massa, in Toscana, a pochi chilometri dalla città. È il fiume più frequentato dai massesi poiché viene considerato la “spiaggia trasferita in montagna” dove trovare refrigerio alla calura estiva nelle acque fredde e cristalline. Ecco qualche itinerario per andare alla scoperta del suo corso e dei paesaggi che lo circondano.',
-  '<h2>Sentiero Renara: Trekking e Escursione in Montagna nel Comune di Massa</h2>
+  '<h2 id="escursione-renara">Escursione al Renara a Redicesi</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong> nella <strong>Montagna toscana</strong> offre un''esperienza unica, ideale per chi cerca un''<em>escursione</em> rilassante immersa nella natura. Il percorso si snoda lungo il corso del torrente Renara, un affluente del fiume Frigido, attraversando un paesaggio montano suggestivo. Inizialmente, si percorrono circa 1/2 chilometro, cercando una piccola pozza d''acqua per un rinfrescante <em>bagno</em>. L''<em>itinerario</em> è pensato per essere accessibile a tutti i livelli, rendendo questa <em>escursione</em> perfetta per famiglie e amanti del <strong>trekking</strong> nella <strong>natura italiana</strong>.</p>
+<p>Oggi vi racconto un’escursione davvero speciale, un’esperienza che ha unito relax, natura e un tuffo rinfrescante in un fiume fantastico. Non aspettatevi un trekking impegnativo, questa è più una passeggiata con tanto divertimento!</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparatevi per una giornata all''aria aperta, immersi nel suono del torrente Renara e nella bellezza della <strong>montagna toscana</strong>. Questo <strong>sentiero</strong> è particolarmente adatto a chi ama il contatto diretto con la <strong>natura</strong> e desidera un''<em>escursione</em> tranquilla e rigenerante. La temperatura dell''acqua del fiume è sicuramente rinfrescante, ideale per rinfrescarsi durante le calde giornate estive. Potrete ammirare la flora e la fauna locali, godendovi la tranquillità e il silenzio della <strong>Montagna</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Informazioni Utili</h3>
+<p>Il punto di partenza per questa bellissima escursione è lungo la strada che porta al paesino di Redicesi. Il parcheggio è facilmente raggiungibile, ma attenzione: sulla strada che va dal paesino al parcheggio ci sono alcuni sassi appena caduti, quindi meglio parcheggiare lungo la strada principale per evitare sorprese.</p>
+
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>Una volta parcheggiato, iniziate a camminare per circa mezz''ora lungo un sentiero semplice e ben tracciato. Seguite il percorso fino a raggiungere una piccola cascata dove potrete ammirare un polla. Da qui, proseguite in discesa lungo il torrente Renara fino ad arrivare a un punto perfetto per un tuffo rinfrescante. L''acqua del Renara, un affluente del fiume Frigido, è cristallina e fredda, ideale per combattere il caldo dell''estate. Questo itinerario è un anello di circa 4.33 km con un dislivello positivo di 319 metri.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>Questa escursione è di difficoltà media. Il sentiero è in gran parte facile, ma ci sono alcuni tratti in discesa e in salita, quindi è consigliabile indossare scarpe da trekking adatte. Preparatevi a circa 2-3 ore di cammino, ma soprattutto, preparatevi a godervi un''esperienza unica!</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>Per aiutarvi durante l’escursione, vi lascio qui sotto la traccia GPS e alcune informazioni pratiche:</p>
+
 <ul>
-  <li><strong>Località:</strong> Comune di Massa, Toscana</li>
-  <li><strong>Difficoltà:</strong> Facile</li>
-  <li><strong>Distanza:</strong> Circa 2-3 km (andata e ritorno)</li>
-  <li><strong>Dislivello:</strong> Minimo (principalmente in salita per il primo tratto)</li>
-  <li><strong>Tipo di Sentiero:</strong> Sentiero di trekking su fondo naturale, con tratti a becco di rondine</li>
-  <li><strong>Consigli:</strong> Indossare scarpe da trekking comode, portare acqua e snack, proteggersi dal sole. Ricordatevi che il torrente Renara è un affluente del fiume Frigido, considerata una delle località più adatte per il <strong>trekking</strong> e l''<em>escursionismo</em> in <strong>Italia</strong>.</li>
+    <li><strong>Distanza:</strong> Circa 4.33 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 319 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio lungo la strada che porta al paesino di Redicesi</li>
+    <li><strong>Comune:</strong> Redicesi, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Questa <strong>escursione nel Renara</strong> è un''opportunità unica per scoprire un angolo di <strong>Montagna</strong> incontaminato e godere dei benefici del <strong>trekking</strong> in <strong>natura</strong>. Un''<em>escursione</em> indimenticabile per amanti del <strong>sentiero</strong> e della <strong>natura italiana</strong>.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+    <li><strong id="distanza">Distanza:</strong> Circa 4.33 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 319 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Medio</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Parcheggio lungo la strada che porta al paesino di Redicesi, accessibile in auto</li>
+    <li><strong id="comune">Comune:</strong> Redicesi, Toscana</li>
+    <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   4.33,
   319,

@@ -7,28 +7,35 @@ VALUES (
   236859999,
   'Monte Cavallo da Rifugio Val Serenaia (Apuane)',
   'Introduzione: Percorso che parte dal Rifugio Val Serenaia (quota circa 1.060 m s.l.m.) situato nel''ominima Val Serenaia, una valle a «U» delle Alpi Apuane nella zona di Minucciano (LU) con meta la cima del Monte Cavallo (quota 1.895 m circa) attraverso un itinerario che presenta tratti escursionistici, brevi arrampicate e alcuni passaggi più esposti. Questo percorso è sicuramente impegnativo. Accesso e avvicinamento: L’avvicinamento iniziale segue il sentiero che conduce dal Rifugio Val Serenaia in direzione del campeggio. Il tratto non è particolarmente tecnico ma è composto da terreno friabile, e rocce umide (che rappresentano l’unica vera difficoltà della prima fase) inoltre è facile perdere il sentiero poiché i segni possono essere poco visibili. Tratto verso la cresta / attacco alla salita finale: Dal cartello posto poco sotto la Cima Nord del Monte Cavallo "Foce di Cardeto" si gira verso nord e si attraversa un delle rocce molto grosse fino a raggiungere un piccolo bosco. Da qui inizia lo sviluppo vero e proprio del tratto critico: -Il tratto pietroso tra il cartello e il bosco è calpestato, diretto, ma richiede attenzione poiché non sempre evidente, se come noi fate tutto all’interno del bosco avete probabilmente preso la variante errata sarebeb stato meglio invece di svoltare a destra per entrare subito in cresta, avete proseguito dritto, rendendo più difficile trovare l’attacco corretto. -La salita fino alla cresta si alterna tra tratti esposti (ma non estremi) e “scalinate” di primo/secondo grado, passaggi su roccia che richiedono buona mobilità, scarpe adeguate, e attenzione per la brina che avete trovato. Vetta e cresta del Monte Cavallo: Arrivando sulla cresta del Monte Cavallo Nord si apre il panorama (anche se nella vostra esperienza avete trovato nebbia). Dal punto più alto, la vista copre buona parte delle Alpi Apuane e in giornate limpide è notevole. Discesa e rientro: Dal Monte Cavallo Nord si scende verso la “seconda gobba” (vetta intermedia) e poi la “terza gobba”. I tratti di discesa richiedono cura: terreno scivoloso, sassi mobili, possibili rocce con brina o sottile ghiaccio. In un tratto avete incontrato un cavo d’acciaio, utile punto di riferimento: da lì dirigersi in cresta, non restare troppo “bassi” lungo il versante. Si prosegue verso Monte Cavallo Sud, si tocca la quarta gobba, dalla quale non è possibile scendere in verticale: è necessario tornare indietro fino al collegamento col sentiero principale. Il ritorno procede fino alla Forcella di Porta (e la sua grotta), poi al bivacco a Aronte, al Passo della Focolaccia, alla strada di cava, quindi di nuovo al sentiero di cava, fino a ricongiungersi al punto di partenza. Il ritorno è lungo e in discesa: l’avvicinamento all’inizio e l’uscita alla fine risultano meno “interessanti”, più monotoni e con dislivello anche nella parte finale, richiedendo buona concentrazione nonostante la fatica. Note tecniche e suggerimenti: Calzature da montagna con buona aderenza consigliate, poiché trovate brina e umidità. Evitare il percorso in giornate con pioggia recente o nebbia persistente: la traccia può divetare complicata da seguire. Mappa/gps consigliati: il tracciato non sempre è chiarissimo nei tratti pietrosi o boscosi. Considerare i passaggi in cresta come “alpinistici leggeri”: non richiedono arrampicata tecnica, ma richiedono attenzione e buon allenamento.',
-  '<h2>Monte Cavallo da Rifugio Val Serenaia (Apuane): Trekking Impegnativo in Montagna</h2>
+  '<h2 id="escursione-monte-cavallo-da-rifugio-val-serenaia">Escursione al Monte Cavallo da Rifugio Val Serenaia (Apuane)</h2>
 
-<h3>Il Percorso</h3>
-<p>Preparatevi per un’escursione indimenticabile sul <strong>Monte Cavallo</strong>, una meta ambita per gli amanti del <strong>trekking</strong> e della <strong>montagna</strong>. Questo sentiero, che parte dal pittoresco <strong>Rifugio Val Serenaia</strong> (quota 1.060 m s.l.m.) nella splendida **Val Serenaia** delle **Alpi Apuane** a <strong>Minucciano (LU)</strong>, vi condurrà fino alla cima del monte attraverso un percorso che combina tratti escursionistici, brevi arrampicate e passaggi più esposti.  Un''avventura in <strong>natura</strong> che vi farà vivere un''esperienza unica e coinvolgente.  Un''ottima opzione per un’**escursione** di gruppo o in coppia, sempre che siate preparati per la sua difficoltà.</p>
-<p>Il percorso inizia con un approccio dal <strong>Rifugio Val Serenaia</strong> verso il campeggio, un tratto non particolarmente tecnico ma con terreno friabile e rocce umide, che richiedono attenzione e una buona preparazione.  Questo <strong>sentiero</strong>, ideale per un''**escursione** nella **montagna**, è una vera sfida per i più avventurosi.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Per raggiungere il Rifugio Val Serenaia, situato nella omina Val Serenaia, una valle a «U» delle Alpi Apuane a Minucciano (LU), puoi arrivare in auto. Dalla Autostrada A12 Firenze-Roma, prendi l''uscita Pisa Nord e segui le indicazioni per Minucciano. Da Minucciano, segui le strade secondarie fino a raggiungere il Rifugio Val Serenaia, facilmente accessibile anche a piedi lungo sentieri segnalati.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<ul>
-    <li>Tratti escursionistici impegnativi</li>
-    <li>Brevi arrampicate (livello 1/2)</li>
-    <li>Passaggi esposti che richiedono attenzione</li>
-    <li>Rocce umide e terreno friabile</li>
-    <li>Possibili tratti con brina o sottile ghiaccio</li>
-    <li>Viste panoramiche mozzafiato sulle Alpi Apuane</li>
-</ul>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia al Rifugio Val Serenaia (1.060 m s.l.m.) con un tratto escursionistico non particolarmente tecnico, ma con terreno friabile e rocce umide. Prosegui lungo il sentiero che conduce al campeggio. Successivamente, il percorso diventa più impegnativo, con tratti pietrosi, brevi arrampicate (grado 1/2) e passaggi esposti, richiedendo attenzione e buone condizioni fisiche. La salita fino alla cresta alterna tratti rocciosi e "scalinate", mentre la discesa presenta terreno scivoloso, sassi mobili e possibili brine. Segui attentamente il sentiero, utilizzando il cavo d''acciaio come punto di riferimento. Percorri le "gobbe" del Monte Cavallo, ammirando il panorama, e poi torna lungo il sentiero verso il Rifugio Val Serenaia. È un anello di circa 9,74 km con un dislivello di 972 metri.</p>
 
-<p>Questa <strong>trekking</strong> non è adatta ai principianti e richiede una buona preparazione fisica e mentale.  La difficoltà del <strong>sentiero</strong> rende l''esperienza di <strong>trekking</strong> indimenticabile.  Siete pronti per affrontare la sfida?</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà **Difficile** e richiede una buona preparazione fisica e una certa esperienza in montagna. Il dislivello di 972 metri e i tratti esposti richiedono attenzione e prudenza. È consigliabile indossare calzature da montagna con buona aderenza e portare con sé acqua, cibo e abbigliamento adeguato alle condizioni meteorologiche. In giornate con pioggia recente o nebbia persistente, la traccia può diventare complicata da seguire.</p>
 
-<h3>Informazioni Utili</h3>
-<p>La <strong>cima del Monte Cavallo</strong> (1.895 m circa) offre una vista spettacolare sulle <strong>Alpi Apuane</strong>, che in giornate limpide si estendono a perdita d''occhio.  Il percorso è lungo e impegnativo, con un dislivello significativo, ma la soddisfazione di raggiungere la vetta e ammirare il panorama è impagabile.  È consigliabile affrontare questo <strong>sentiero</strong> in estate o in autunno, quando le condizioni meteorologiche sono più favorevoli. Ricordate che la difficoltà del percorso può variare a seconda delle condizioni del <strong>sentiero</strong> e del meteo.  Un''<strong>escursione</strong> a piedi nella **montagna** è un''attività che vi ricaricherà di energia e vi farà sentire parte della natura.</p>
-<p><strong>Accesso e Rientro:</strong> Il ritorno avviene lungo il medesimo sentiero, quindi preparatevi per una discesa impegnativa.  Tenete presente che il <strong>sentiero</strong> è lungo e in discesa, quindi richiede buona concentrazione nonostante la fatica.  L’ambiente naturale è protetto, si consiglia di rispettarlo.</p>
-<p><strong>Note tecniche e suggerimenti:</strong> Indossate calzature da <strong>montagna</strong> con buona aderenza. Portate con voi acqua e cibo a sufficienza, proteggendovi dal sole. Evitate il percorso in giornate con pioggia recente o nebbia persistente.  Un <strong>gps</strong> e una <strong>mappa</strong> sono consigliati per orientarvi meglio lungo il <strong>sentiero</strong>.  Considerate i passaggi in cresta come “alpinistici leggeri”, ma non sottovalutate la necessità di attenzione e buon allenamento.</p>',
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>
+    <strong id="distanza">Distanza:</strong> 9.74 km (anello)
+    <strong id="dislivello">Dislivello:</strong> +972 m
+    <strong id="difficoltà">Difficoltà:</strong> Difficile
+</p>
+<p>Consulta una traccia GPS per il percorso completo. Per maggiori informazioni e aggiornamenti, consulta siti di riferimento per escursioni in montagna.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="distanza">Distanza:</strong> Circa 9.74 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 972 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Difficile</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Rifugio Val Serenaia, accessibile in auto/a piedi</li>
+    <li><strong id="comune">Comune:</strong> Vinca,  Provincia: Lucca, Regione: Toscana</li>
+    <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico / Mulattiera</li>
+</ul>',
   'Tutte le Attività e Paesi',
   9.74,
   972,

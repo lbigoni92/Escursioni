@@ -7,26 +7,56 @@ VALUES (
   87617083,
   'Da Castellaccio a Quercianella',
   'Percorso d sola andata da Castellaccio a Quercianella ho fatto dei nuovi sentieri in solitaria, molto suggestivo, lo coniglio per chi deve fare quel tragitto. Non vi sono problemi, ma punti panoramici che ogni Livornese deve vedere infatti è possibile godere dell''intero ponte di calafuria da una roggia che non ha alberi difronte (foto allegata) In primavere il tratto sopra calafuria è pregno di rovi, è fattibile ma portate dei pantaloni lunghi. Non ci sono fontanelle.',
-  '<h2>Da Castellaccio a Quercianella: Trekking e Panorama a Livorno</h2>
+  '<h2 id="escursione-da-castellaccio-a-quercianella">Escursione da Castellaccio a Quercianella</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong> da <strong>Castellaccio a Quercianella</strong> offre un''esperienza indimenticabile nella splendida regione di <strong>Livorno</strong>. Si tratta di un <strong>percorso di sola andata</strong> che permette di immergersi nella natura selvaggia della <strong>montagna toscana</strong>, ideale per un''<strong>escursione</strong> di una giornata. Il sentiero è stato recentemente ampliato, con la creazione di nuovi <strong>sentieri di trekking</strong>, rendendolo ancora più suggestivo e accessibile.</p>
+<p>
+Avventurati in questa splendida escursione di andata e ritorno da Castellaccio a Quercianella, un percorso suggestivo che ti regalerà panorami mozzafiato. Ho esplorato nuovi sentieri da solo, ideale per chi desidera vivere questa esperienza in completa autonomia.
+</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparati a una <strong>trekking</strong> adatta a <strong>escursionisti</strong> esperti, con un''impegnativa pendenza e alcuni tratti rocciosi. Il <strong>sentiero</strong> offre viste mozzafiato sul <strong>Ponte di Calafuria</strong>, uno dei punti panoramici più spettacolari della zona, accessibile attraverso una roggia senza alberi che garantisce una vista impareggiabile.  L''<strong>escursione</strong> è un''opportunità unica per ammirare la natura incontaminata della <strong>nazione</strong> italiana.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Informazioni Utili</h3>
+<p>
+Il punto di partenza è a Castellaccio, facilmente raggiungibile in auto o tramite mezzi pubblici. Una volta a Castellaccio, segui le indicazioni per il sentiero che conduce a Quercianella.
+</p>
+
+<h3 id="il-percorso-passo-passo">Il Percorso Passo per Passo</h3>
+
+<p>
+Questo sentiero ti guiderà attraverso un paesaggio montano variabile, offrendoti viste spettacolari sul ponte di Calafuria. Il percorso è ben definito, ma alcune sezioni potrebbero essere un po'' scoscese, quindi preparati ad affrontare un po'' di dislivello.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>
+L''escursione è di difficoltà media, adatta a escursionisti con un minimo di esperienza. La distanza totale è di circa 11.69 km con un dislivello positivo di 167 metri. Porta con te acqua e snack, e tieni presente che non ci sono fontanelle lungo il percorso.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>
+Per aiutarti nella tua escursione, ti fornisco la traccia GPS e alcune informazioni pratiche:
+</p>
 <ul>
-    <li><b>Difficoltà:</b> Media - Alta</li>
-    <li><b>Distanza:</b> Circa 8-10 km (a seconda del percorso esatto)</li>
-    <li><b>Dislivello:</b> Circa 400-500 metri</li>
-    <li><b>Tipo:</b> Sola andata</li>
-    <li><b>Periodo Consigliato:</b> Primavera (attenzione ai rovi) - Estate</li>
-    <li><b>Necessario:</b> Scarpe da trekking, abbigliamento adeguato alle condizioni atmosferiche, acqua, snack, mappa.</li>
-    <li><b>Note Speciali:</b> In primavera, il tratto sopra Calafuria può essere difficile a causa dei rovi; è consigliabile indossare pantaloni lunghi e portare con sé attrezzatura protettiva.  Non sono presenti fontanelle lungo il <strong>sentiero di trekking</strong>, quindi è fondamentale portare con sé una quantità sufficiente di acqua.</li>
+    <li>Distanza: Circa 11.69 km (solo andata)</li>
+    <li>Dislivello: Circa 167 metri</li>
+    <li>Difficoltà: Media</li>
+    <li>Periodo consigliato: Primavera, Estate, Autunno</li>
+    <li>Punto di partenza: Castellaccio, accessibile in auto</li>
+    <li>Comune: Castellaccio, Toscana, Italia</li>
+    <li>Tipo di sentiero: Sentiero escursionistico</li>
 </ul>
 
-<p>Questo <strong>sentiero di escursionismo</strong> a <strong>Castellaccio</strong> è una meta imperdibile per gli amanti del <strong>trekking</strong> e della natura.  Se stai cercando un''<strong>escursione in montagna</strong> a <strong>Livorno</strong>, non puoi perderti questo incantevole <strong>sentiero</strong>! </p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+    <li><strong id="informazioni-utili-distanza">Distanza:</strong> Circa 11.69 km (solo andata)</li>
+    <li><strong id="informazioni-utili-dislivello">Dislivello:</strong> Circa 167 metri</li>
+    <li><strong id="informazioni-utili-difficoltà">Difficoltà:</strong> Medio</li>
+    <li><strong id="informazioni-utili-periodo">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="informazioni-utili-punto-partenza">Punto di partenza:</strong> Castellaccio, accessibile in auto</li>
+    <li><strong id="informazioni-utili-comune">Comune:</strong> Castellaccio, Toscana, Italia</li>
+    <li><strong id="informazioni-utili-tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.69,
   167,

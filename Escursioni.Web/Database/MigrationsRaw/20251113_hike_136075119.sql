@@ -7,26 +7,47 @@ VALUES (
   136075119,
   'Croce di Brancoli',
   'Partenza dalla Ex stazione di Piaggione e subito abbiamo iniziato la salita, il primo tratto 200-300 mt è pieno di piante e difficile da trovare, poi migliora. Parte del percorso si snoda su strade di montagna, poi si prende il sentiero (sempre ben segnato). All''arrivo alla croce sarà possibile leggere della storia del monumento e del perchè della sua realizzazione. da questo punto avremo un bellissima vista sulla piana di Lucca, vista stupenda che riavremo anche in diversi punti nella discesa. Il percorso non ha esposizioni o precipizi ma si è spesso sotto il sole. Consiglio acqua anche 2/m lt in estate',
-  '<h2>Trekking Croce di Brancoli: Escursione in Montagna a Piaggione</h2>
+  '<h2 id="escursione-croce-di-brancoli">Escursione alla Croce di Brancoli da Piaggione</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo sentiero di trekking offre un’esperienza unica nella splendida regione della <strong>montagna lucchese</strong>. Partendo dalla <strong>Ex stazione di Piaggione</strong>, l''escursione inizia con un tratto in salita, particolarmente impegnativo nei primi 200-300 metri a causa della vegetazione fitta.  Successivamente, il percorso si dirama su strade di montagna, proseguendo sempre lungo il sentiero ben segnalato, ideale per un''<strong>escursione a piedi</strong> nella natura.</p>
-<p>La <strong>croce di Brancoli</strong>, punto di arrivo, rappresenta un importante luogo di interesse, dove è possibile conoscere la storia del monumento e le motivazioni della sua realizzazione. L''<strong>trekking</strong> permette di ammirare una vista panoramica mozzafiato sulla <strong>piana di Lucca</strong>, uno dei punti salienti dell''intera escursione.</p>
+<p>
+  Amici escursionisti, oggi vi racconto un''escursione semplice ma ricca di soddisfazioni, perfetta per chi cerca un bel panorama e una dose di storia. Partendo da <strong>Piaggione</strong>, la nostra <strong>escursione</strong> di tipo <strong>anello</strong> ci porta fino alla suggestiva <strong>Croce di Brancoli</strong>, nel cuore del Comune di <strong>Domazzano</strong>, in provincia di <strong>Lucca</strong>.
+</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>L’escursione alla Croce di Brancoli è adatta a escursionisti di livello intermedio, con una <strong>distanza di circa 5km</strong>. Nonostante la salita iniziale, il percorso non presenta esposizioni o precipizi, rendendolo accessibile a molti.  È importante però essere preparati al sole intenso, soprattutto durante i mesi estivi.  Un''adeguata idratazione è fondamentale, consigliate circa 2-3 litri d''acqua per l''intera <strong>escursione in montagna</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Media</li>
-    <li><strong>Distanza:</strong> Circa 5 km</li>
-    <li><strong>Dislivello:</strong> Circa 400 metri</li>
-    <li><strong>Punto di partenza:</strong> Ex stazione di Piaggione</li>
-    <li><strong>Punto di arrivo:</strong> Croce di Brancoli</li>
-    <li><strong>Caratteristiche:</strong> Sentiero ben segnalato, vista panoramica sulla piana di Lucca,  possibilità di conoscere la storia del monumento.</li>
-    <li><strong>Consigli:</strong>  Adattare l''escursione alla propria preparazione fisica, portare acqua e cibo a sufficienza, indossare scarpe da trekking adatte, controllare le previsioni del tempo prima di partire.</li>
-</ul>
-<p>Preparatevi per un''indimenticabile <strong>trekking</strong> attraverso la natura selvaggia della <strong>montagna lucchese</strong>.  Questo sentiero è perfetto per chi cerca un''esperienza di <strong>escursione a piedi</strong> ricca di bellezza e storia.</p>',
+<p>
+  Per raggiungere il punto di partenza, la <strong>Ex stazione di Piaggione</strong>, è necessario arrivare a Piaggione in auto. Il parcheggio è disponibile nei pressi della stazione. Da qui, seguiamo il sentiero di partenza, facilmente individuabile.
+</p>
+
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>
+  L''<strong>escursione</strong> inizia con una salita iniziale, un tratto di circa 200-300 metri, caratterizzato da vegetazione fitta e alcuni tratti un po'' scoscesi. Una volta superato questo tratto, il sentiero migliora, snodandosi su strade di montagna e poi seguendo un <strong>sentiero</strong> ben segnalato. Durante il percorso, avremo diverse occasioni per ammirare un bellissimo <strong>panorama</strong> sulla <strong>piana di Lucca</strong>. Il sentiero è ben tenuto, anche se a volte ci si trova sotto il sole, quindi è consigliabile portare con sé acqua. L''arrivo alla <strong>Croce di Brancoli</strong> ci permette di conoscere la storia del monumento e la ragione della sua realizzazione.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>
+  Questa <strong>escursione</strong> è di difficoltà <strong>media</strong>, adatta a escursionisti con un minimo di esperienza. Il <strong>dislivello</strong> è di circa 765 metri, e la <strong>distanza</strong> totale è di circa 16,15 km. È importante indossare scarpe da trekking e portare con sé acqua e snack.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>
+  (Qui inserirebbe la traccia GPS e dettagli pratici relativi all''escursione - da generare separatamente)
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+  <li><strong>Distanza:</strong> Circa 16.15 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 765 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Ex stazione di Piaggione, accessibile in auto</li>
+  <li><strong>Comune:</strong> Domazzano, Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   16.15,
   765,

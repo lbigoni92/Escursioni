@@ -7,31 +7,30 @@ VALUES (
   87377819,
   'Sanbuca Livornese - Notturno',
   'Percorso fatto in notturna, prevalentemente sul sentiero 00, molto facile l''ho segutio andando a memoria, abbiamo cenato ai tavolini davanti alla Sanbuca Livornese. Non abbiamo trovato animali e ci siamo fermati a vedere le stelle in una notte stupenda al km 9.1. Poco umido e pieno di lucciole. Lo spettacolo dato dalle luci della città è fenomenale. Portate le torce frontali',
-  '<h2>Sanbuca Livornese - Notturno: Trekking Notturno nella Montagna Livornica</h2>
+  '<h2 id="sanbuca-livornese-notturno">Escursione al Sanbuca Livornese - Notturno</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa fantastica escursione notturna è l''inizio del sentiero 00 a Valle Benedetta. È facilmente raggiungibile in auto e parcheggi disponibile nelle vicinanze. Da lì, segui semplicemente le indicazioni per il sentiero 00 e sarai pronto per iniziare la tua avventura!</p>
 
-<p>Preparatevi per un’esperienza unica e indimenticabile con l’escursione notturna <strong>Sanbuca Livornese - Notturno</strong>. Questo <em>sentiero di trekking</em> vi condurrà attraverso il cuore della <strong>Montagna Livornica</strong>, seguendo il <strong>sentiero 00</strong>, con un’andatura prevalentemente <em>facile</em>. L''escursione è stata realizzata a memoria, rendendola un''esperienza personale e suggestiva. Il percorso è pensato per essere seguito senza particolari difficoltà, ideale per chi desidera un’<em>escursione di trekking</em> notturna senza particolari ostacoli.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questa escursione di trekking è stata un''esperienza incredibile! Abbiamo percorso il sentiero 00 in notturna, godendoci il silenzio della montagna e ammirando il panorama illuminato dalla città. Abbiamo seguito il sentiero a memoria, con soste per cenare ai tavolini davanti alla iconica Sanbuca Livornese. Dopo circa 9.1 km, ci siamo fermati per ammirare le stelle in un cielo stellato mozzafiato. Il sentiero è prevalentemente facile e adatto anche a escursionisti alle prime armi. Il tratto più impegnativo è il rientro, con un leggero dislivello.</p>
 
-<p>Iniziando dalla suggestiva <strong>Sanbuca Livornese</strong>, vi inoltrerete nel silenzio della notte, ammirando le luci della città che si riflettono sulla montagna.  Il sentiero, percorso principalmente, offre panorami mozzafiato e la possibilità di immergersi completamente nella natura, sfruttando le caratteristiche uniche di un <em>trekking notturno</em>.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è classificata come <b>Facile</b>, ideale per famiglie e principianti. La distanza totale è di circa 11.83 km con un dislivello di +307 metri. Porta con te delle torce frontali per illuminare il tuo cammino e preparati a un''esperienza unica nel cuore della notte.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Non disponibile traccia GPS. Consigliamo di scaricare la mappa della zona e di informarsi sulle condizioni del sentiero prima di partire. Il sentiero è ben segnalato ed è facile da seguire.</p>
 
-<ul>
-    <li><strong>Escursione Notturna:</strong> Un''esperienza unica sotto le stelle.</li>
-    <li><strong>Sentiero 00:</strong> Percorso prevalentemente facile e accessibile.</li>
-    <li><strong>Ambiente Naturale:</strong> Un’immersione nella flora e fauna della <strong>Montagna Livornica</strong>.</li>
-    <li><strong>Sanbuca Livornese:</strong> Punto di partenza ideale per iniziare l''escursione.</li>
-    <li><strong>Punto di Sosta:</strong> Fermata al km 9.1 per ammirare le stelle e le lucciole.</li>
-</ul>
-
-<p>Durante l’escursione, avrete l''opportunità di cenare ai tavolini presenti davanti alla <strong>Sanbuca Livornese</strong>, gustando un momento di relax e tranquillità.  Non mancherà l''opportunità di osservare la fauna locale, data l''assenza di animali avvistati durante il percorso.  La notte, illuminata solo dalle torce frontali, regala uno spettacolo magico, con la possibilità di ammirare le stelle in tutta la loro bellezza.</p>
-
-<h3>Informazioni Utili</h3>
-
-<p>Il percorso è stato svolto in condizioni poco umide e con la presenza di lucciole, creando un’atmosfera suggestiva.  L''escursione è ideale per amanti del <em>trekking</em> e dell''<em>escursionismo</em> che desiderano vivere un''esperienza diversa, lontano dal caos cittadino.  La <strong>distanza del sentiero</strong> è accessibile a tutti, rendendo l''<em>escursione di trekking</em> un’attività adatta anche a chi è alle prime armi. Ricordate di portare con voi delle torce frontali per affrontare la notte in sicurezza e godervi appieno questo meraviglioso <em>sentiero Italia</em>.</p>
-
-<p>Questo <em>trekking notturno</em> nella <strong>Sanbuca Livornese</strong> è un''occasione unica per scoprire la bellezza della <strong>Montagna Livornica</strong> e vivere un’esperienza di <em>natura</em> indimenticabile. Preparatevi per un’<em>escursione di montagna</em> da non perdere!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+  <li><strong id="distanza">Distanza:</strong> Circa 11.83 km (anello)</li>
+  <li><strong id="dislivello">Dislivello:</strong> Circa 307 metri</li>
+  <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+  <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Estate, Autunno</li>
+  <li><strong id="punto-di-partenza">Punto di partenza:</strong> Inizio sentiero 00, Valle Benedetta, Toscana, Italia</li>
+  <li><strong id="comune">Comune:</strong> Valle Benedetta, Toscana</li>
+  <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.83,
   307,

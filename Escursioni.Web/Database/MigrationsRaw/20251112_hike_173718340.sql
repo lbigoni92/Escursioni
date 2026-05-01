@@ -7,38 +7,31 @@ VALUES (
   173718340,
   'Agnano - Foce Di Calci - Fiume, Bagni',
   'Percorso ad anello da Agnano passando per: - Foce Di Calci (5.2 km) Il percorso è interamente su sentieri semplici, e ben segnalati tane per il tratto che porta alla Cima stiparecca. Sul sentiero bel vedere sono presenti dei cartelli che parlano delle conformazioni roccioce. prestare attenzione al km 6.9 che il sentiero è un pò franabile ma niente di che',
-  '<h2>Agnano - Foce Di Calci - Fiume, Bagni: Escursione Trekking in Montagna</h2>
+  '<h2 id="agno-foce-di-calci-fiume-bagni">Escursione a Agnano - Foce Di Calci - Fiume, Bagni</h2>
 
-<h3>Il Percorso: Un Anello Naturale tra Natura e Storia</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bella escursione si trova ad Agnano, facilmente raggiungibile in auto. Da qui, seguire le indicazioni per i sentieri escursionistici.  È consigliabile arrivare con un mezzo per poi proseguire a piedi, per godervi appieno il percorso.</p>
 
-<p>Scopri il meraviglioso sentiero di <strong>Agnano - Foce Di Calci - Fiume, Bagni</strong>, un''escursione trekking di <strong>5.2 km</strong> che ti condurrà attraverso paesaggi mozzafiato. Questo percorso ad anello, ideale per un''<strong>escursione in montagna</strong>, ti permette di immergerti nella <strong>natura incontaminata</strong> e scoprire le bellezze del territorio. Il sentiero, prevalentemente su <strong>sentieri semplici</strong>, è perfettamente adatto a famiglie e appassionati di <strong>trekking</strong> di tutti i livelli.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo giro ad anello di 9.06 km vi porterà attraverso paesaggi mozzafiato, partendo da Agnano e arrivando fino alla foce di Calci, dove potrete ammirare il fiume e i bagni naturali. Il sentiero è prevalentemente semplice e ben segnalato, ma ci sono alcuni tratti, soprattutto nel tratto che porta alla Cima stiparecca, dove il sentiero è un po'' franabile.  Avrete la possibilità di ammirare cartelli che descrivono le conformazioni rocciose della zona. Preparatevi a un''escursione di circa 3-4 ore, con un bel dislivello di 501 metri. È un''ottima escursione per chi cerca un''esperienza di trekking in montagna con panorami unici.</p>
 
-<p>Il percorso inizia da <strong>Agnano</strong> e si snoda elegantemente fino alla <strong>foce di Calci</strong>, dove il fiume si getta nel mare. Lungo il cammino, ammirerai le <strong>conformazioni rocciose</strong>, rese ancora più suggestive da <strong>cartelli</strong> che ne descrivono la storia geologica. Un tratto particolarmente interessante è quello che porta alla <strong>Cima stiparecca</strong>, dove troverai <strong>tane ben segnalate</strong>, un dettaglio che valorizza ulteriormente l''esperienza di <strong>trekking</strong>.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>La difficoltà di questa escursione è classificata come Media.  Richiede una buona condizione fisica e una certa familiarità con il trekking in montagna.  Il dislivello di 501 metri e alcuni tratti franabili potrebbero rappresentare una sfida per i principianti.  Tuttavia, il sentiero è ben segnalato e il panorama è più che compensare lo sforzo.</p>
 
-<h3>Cosa Aspettarsi Durante l''Escursione</h3>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Potete scaricare una traccia GPS per questa escursione per seguirla comodamente con il vostro smartphone o navigatore.  Ricordatevi di portare con voi acqua, snack, scarpe da trekking adeguate e un cappello.  Informatevi sulle condizioni meteo prima di partire.</p>
 
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li>Un percorso ad anello di <strong>5.2 km</strong>, ideale per un''<strong>escursione di mezza giornata</strong>.</li>
-    <li><strong>Sentieri semplici</strong> e ben segnalati, adatti a <strong>trekking</strong> e <strong>escursioni</strong>.</li>
-    <li>Paesaggi naturali mozzafiato, con <strong>conformazioni rocciose</strong> uniche.</li>
-    <li>Possibilità di ammirare <strong>cartelli</strong> che illustrano la geologia locale.</li>
-    <li>Un''opportunità per un''<strong>escursione in montagna</strong> in compagnia della natura.</li>
-</ul>
-
-<p>La difficoltà del sentiero è bassa, quindi è un''ottima scelta per chi cerca una <strong>trekking</strong> rilassante e godibile. Ricorda di prestare attenzione al <strong>km 6.9</strong>, dove il sentiero potrebbe essere leggermente <strong>franabile</strong>, ma senza particolari problematiche.</p>
-
-<h3>Informazioni Utili per la Tua Escursione</h3>
-
-<ul>
-    <li><strong>Luogo:</strong> Agnano, Foce Di Calci, Regione Campania</li>
-    <li><strong>Tipo di attività:</strong> Trekking, Escursione, Sentieri</li>
-    <li><strong>Distanza:</strong> 5.2 km</li>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Punti di interesse:</strong> Foce Di Calci, Cima stiparecca, Cartelli geologici, Natura</li>
-    <li><strong>Consigli:</strong> Scarpe da trekking adatte, acqua, snack, cappello, crema solare, mappa del sentiero (disponibile online).</li>
-</ul>
-
-<p>Organizza la tua prossima <strong>trekking</strong> in Italia e scopri la bellezza di questo sentiero! Un''occasione unica per un''<strong>escursione</strong> all''aria aperta e per immergerti nella tranquillità della <strong>montagna</strong>.  Ideale per un weekend di <strong>sentieri</strong> e <strong>natura</strong>.</p>',
+    <li><b>Distanza:</b> Circa 9.06 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 501 metri</li>
+    <li><b>Difficoltà:</b> Medio</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Agnano</li>
+    <li><b>Comune:</b> Agnano, Toscana</li>
+    <li><b>Regione:</b> Italia</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   9.06,
   501,

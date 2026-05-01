@@ -7,26 +7,30 @@ VALUES (
   92978992,
   'Dalle Parole d''oro al Monte Zano',
   'Parole d''oro - Sono un acquedotto molto caratteristico del panorama Lucchese l''opera fu deliberata dalla duchessa di Lucca Maria Luisa Borbone, l''opera fu realizzata dal regio architetto Lorenzo Nottolini a cavallo fra il 1823 ed 1858, contestualmente al lungo acquedotto ad archi che collega questa località (tempietto di Guamo) con San Concordio (tempietto di San Concordio). Alle Parole d''Oro, meta di frequenti passeggiate dei Lucchesi, è tutt''ora visibile ed in perfetto stato di conservazione un monumentale e bellissimo insieme di opere che servono a captare quanta più acqua possibile nel migliore modo possibile. Monte Zano Ha una delle poche croci presenti sul monte pisano ed è visibile di notte da lucca. Sul sentiero non ci sono fontanlle, è molto poetica la parte iniziale dell''acquedotto.',
-  '<h2>Trekking Dalle Parole d''Oro al Monte Zano: Escursione in Toscana tra Acque e Montagna</h2>
+  '<h2 id="dalle-parole-doro-al-monte-zano">Escursione Dalle Parole d''Oro al Monte Zano</h2>
 
-<h3>Il Percorso: Un Sentiero per Ammirare l''Acquedotto e il Monte Zano</h3>
-<p>Questo percorso di <strong>trekking</strong> in <strong>Toscana</strong> vi porterà attraverso un paesaggio mozzafiato, combinando la bellezza di un antico <strong>acquedotto</strong> con le maestose cime del <strong>Monte Zano</strong>.  L''escursione, adatta a <strong>escursionisti</strong> esperti, offre la possibilità di scoprire un angolo di <strong>natura</strong> incontaminata, perfetto per una giornata all''aria aperta e un''immersione nella storia e nell''ingegneria del territorio lucchese.  Il sentiero, di media difficoltà, si snoda tra le colline, permettendovi di ammirare da vicino le opere di Lorenzo Nottolini, l''architetto regio che realizzò l''acquedotto.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Per raggiungere il punto di partenza dell''escursione alle **Parole d''Oro**, si consiglia di arrivare a **Guamo** in auto. Da qui, il sentiero parte direttamente dal parcheggio vicino all''acquedotto. È un percorso facilmente accessibile, adatto anche a chi non ha molta esperienza di trekking.</p>
 
-<h3>Cosa Aspettarsi: Un''Escursione Ricca di Scenari e Storia</h3>
-<p>Preparatevi a un''<strong>escursione</strong> indimenticabile! Potrete ammirare l''imponente <strong>Parole d''Oro</strong>, un acquedotto storico di grande bellezza, e il suo funzionamento. La salita al <strong>Monte Zano</strong> vi ricompenserà con una vista panoramica sulla città di Lucca e sulla campagna circostante.  Il sentiero, lungo circa 8 km, è caratterizzato da un dislivello di circa 400 metri, quindi è consigliabile indossare scarpe da <strong>trekking</strong> adatte e portare con sé acqua e snack.  La parte iniziale del sentiero è particolarmente suggestiva, attraversando le vestigia dell''acquedotto, un''esperienza unica per gli amanti del <strong>trekking</strong> e della <strong>natura</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>L''escursione segue il sentiero che costeggia l''affascinante acquedotto delle **Parole d''Oro**. Inizialmente, il sentiero si snoda lungo il tratto più caratteristico, ammirando le opere originali e i canali che sfruttano l''acqua. Il sentiero prosegue verso il **Monte Zano**, dove potrai ammirare la storica croce e godere di un panorama mozzafiato sulla campagna lucchese e sulla città. L''ultimo tratto del sentiero è più impervio, ma offre scorci unici sulla natura circostante. Questa è un''ottima **escursione** in Toscana.</p>
 
-<h3>Informazioni Utili: Dettagli per un Trekking Sicuro e Rilassante</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Media</li>
-    <li><strong>Distanza:</strong> Circa 8 km</li>
-    <li><strong>Dislivello:</strong> 400 metri</li>
-    <li><strong>Punto di Partenza:</strong> Parole d''Oro (Lucchesca)</li>
-    <li><strong>Punto di Arrivo:</strong> Monte Zano</li>
-    <li><strong>Periodo Consigliato:</strong> Primavera, Estate, Autunno (verificare le condizioni meteorologiche)</li>
-    <li><strong>Attrezzatura Consigliata:</strong> Scarpe da trekking, zaino, acqua, snack, cappello, crema solare, mappa del sentiero</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>L''escursione alle **Parole d''Oro** e al **Monte Zano** è di **difficoltà media**. Il sentiero è ben segnalato, ma richiede una buona condizione fisica e un minimo di esperienza in **trekking** in montagna. Il dislivello è di circa 640 metri, quindi è consigliabile indossare scarpe da trekking adatte e portare con sé acqua e cibo.</p>
 
-<p>Questo <strong>sentiero</strong> rappresenta un''ottima opportunità per chi cerca un''<strong>escursione</strong> in <strong>montagna</strong> nella <strong>Toscana</strong>, combinando la bellezza del paesaggio con la storia e l''ingegneria del territorio.  Un''occasione imperdibile per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>!</p>',
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Questo sentiero offre un''esperienza di **escursione** unica, con la possibilità di ammirare un capolavoro dell''ingegneria storica e di godere di panorami mozzafiato. Ti consigliamo di scaricare una <strong >traccia GPS</strong> per il percorso e di verificare le previsioni meteorologiche prima di partire.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong >Distanza:</strong> Circa 12.09 km (solo andata)</li>
+  <li><strong >Dislivello:</strong> Circa 640 metri</li>
+  <li><strong >Difficoltà:</strong> Medio</li>
+  <li><strong >Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong >Punto di partenza:</strong> Acquedotto delle Parole d''Oro, Guamo</li>
+  <li><strong >Comune:</strong> Guamo, Toscana</li>
+  <li><strong >Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   12.09,
   640,
@@ -55,7 +59,7 @@ VALUES (
   '5d394b583aa140f9b98b61f69cde4545aa283bdf8d2f8574e2f316be1de5b33b',
   'Escursione Monte Zano Guamo: Trek facile Lucca, 12km, 502m dislivello. Visita le Parole d''Oro, antiche opere per captare l''acqua, e ammira la croce sul monte!',
   'Parole d''Oro al Monte Zano: Escursione Guamo (Toscana)',
- 'Monti Pisani', 
+  'Monti Pisani',
   NOW(),
   NOW()
 )

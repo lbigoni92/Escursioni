@@ -7,26 +7,47 @@ VALUES (
   87617356,
   'Vicopisano - Verruca - Andata',
   'Ritorno -> https://www.wikiloc.com/hiking-trails/vicopisano-verruca-ritorno-87617334 Partenza da Vicopisano dalla pizza, il percorso è carino e adatto a tutti diviso in die parti per problemi nella registrazione del tracciato. Il percorso è carino, ma tristemente circondato d''alberi bruciati (vi erano nel 2019). La parte bella del percorso sicuramente data dalla vista che sia una volta arrivati in cima alla rocca verruca. La Rocca della Verruca (XIII secolo) è un''antica e cadente fortificazione eretta dalla Repubblica di Pisa sui Monti Pisani, collocata in una posizione tale da dominare tutta la piana pisana e la valle dell''Arno. Lo consiglio come passeggiata domenicale per famiglie, il percorso è ben segnato e non vi sono fontanelle quindi d''estate portate almeno un paio di litri. Ho fatto il percorso in 4 ore con pause e pranzo',
-  '<h2>Vicopisano - Verruca - Andata: Trekking e Escursione alla Rocca Medievale</h2>
+  '<h2 id="escursione-vicopisano-verruca-andata">Escursione a Vicopisano - Verruca (Andata)</h2>
 
-<h3>Il Percorso</h3>
-<p>Preparatevi per un''indimenticabile <strong>escursione trekking</strong> lungo il sentiero <strong>Vicopisano - Verruca - Andata</strong>. Questo percorso, ideale per famiglie e appassionati di <strong>trekking</strong>, vi condurrà attraverso paesaggi mozzafiato dei <strong>Monti Pisani</strong>. Partendo da <strong>Vicopisano</strong>, il sentiero si snoda dolcemente, offrendo un''esperienza di <strong>escursione</strong> accessibile a tutti. Il percorso, diviso in diverse sezioni, è stato recentemente modificato per garantire la registrazione accurata del tracciato, offrendo un''esperienza di <strong>sentiero</strong> sicura e ben definita.</p>
+<p>
+Ho appena concluso una fantastica escursione a Vicopisano, fino alla Rocca della Verruca! Se siete alla ricerca di una passeggiata domenicale in montagna, adatta a tutta la famiglia, questo è il posto giusto. Il sentiero è ben segnalato e offre una vista mozzafiato sulla pianura pisana.
+</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Durante questa <strong>escursione</strong>, potrete ammirare una varietà di panorami, dalla suggestiva piana pisana alla valle dell''Arno.  Il sentiero, sebbene caratterizzato da tratti alberati, offre momenti di splendida visuale, in particolare una volta raggiunta la cima della <strong>Rocca della Verruca</strong>.  La parte più impegnativa del percorso è stata recentemente modificata per garantire un''esperienza di <strong>trekking</strong> più fluida e sicura.  Nonostante qualche sezione alberata, il sentiero è adatto a diversi livelli di preparazione fisica, rendendolo un''ottima scelta per una <strong>passeggiata domenicale</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Facile - Media</li>
-    <li><strong>Distanza:</strong> Circa 8 km (andata e ritorno)</li>
-    <li><strong>Durata:</strong> 4 ore (con pause)</li>
-    <li><strong>Dislivello:</strong> Circa 300 metri</li>
-    <li><strong>Punto di Partenza:</strong> Vicopisano (pizza)</li>
-    <li><strong>Punto di Arrivo:</strong> Rocca della Verruca</li>
-    <li><strong>Consigli:</strong>  È consigliabile indossare scarpe da trekking adatte e portare con sé acqua (almeno 2 litri, data l''assenza di fontanelle) e cibo per il pranzo.  La <strong>escursione</strong> è particolarmente consigliata per le giornate di sole, ma tenete presente la possibilità di affrontare il caldo estivo.</li>
-</ul>
+<p>
+Il punto di partenza è a Vicopisano, facilmente raggiungibile in auto. Da lì, seguendo le indicazioni per la Verruca, si trova il sentiero che parte proprio dal paese, passando per la pizza.
+</p>
 
-<p>La <strong>Rocca della Verruca</strong>, eretta dalla Repubblica di Pisa nel XIII secolo, rappresenta un''affascinante testimonianza storica e architettonica.  La sua posizione strategica dominava la piana pisana e la valle dell''Arno, rendendola un importante avamposto militare.  Questo <strong>sentiero di trekking</strong> rappresenta un''occasione unica per immergersi nella natura e scoprire la storia di questa antica fortezza, una vera e propria <strong>passeggiata domenicale</strong> nel cuore della Toscana.  Esplorate la <strong>Rocca della Verruca</strong> e godetevi la vista panoramica!</p>',
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>
+Il percorso è diviso in circa 5 parti per via di alcune limitazioni nella registrazione del tracciato. Inizia con una salita graduale attraverso la fitta vegetazione, poi si apre su una vista panoramica spettacolare. La parte più impegnativa è la salita alla Rocca della Verruca, ma la ricompensa è impagabile: la vista sulla pianura pisana e la valle dell''Arno.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>
+Questa escursione è di difficoltà media, adatta a persone con una buona preparazione fisica. Il dislivello è di circa 515 metri, quindi è importante essere in forma. Portate con voi acqua e cibo, soprattutto se fate l''escursione in estate.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>
+Ho caricato una traccia GPS per facilitare il vostro percorso. Vi consiglio di scaricarla sul vostro smartphone o dispositivo GPS.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+  <li><strong>Distanza:</strong> Circa 6.55 km (andata)</li>
+  <li><strong>Dislivello:</strong> Circa 515 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Vicopisano, accessibile in auto</li>
+  <li><strong>Comune:</strong> Vicopisano, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   6.55,
   515,

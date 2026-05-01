@@ -7,33 +7,30 @@ VALUES (
   87371988,
   'montemagno Calci',
   'Percorso alla portata di tutti. Non vi sono difficoltà d''alcun tipo, se non in forma può risultare impegnativo il tratto finale della salita. Sentieri: 141 -139 - 143 Il panorama che si vede dalla rocca è meraviglioso, si vede da Livorno a Massa',
-  '<h2>Sentiero Montemagno Calci: Trekking e Escursioni in Montagna</h2>
+  '<h2 id="escursione-montemagno-calci">Escursione al Monte Magno Calci</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bellissima escursione si trova a <strong>Paduletto</strong>, un piccolo comune della provincia di <strong>Toscana</strong>.  È facilmente raggiungibile in auto lungo le strade provinciali, e una volta in paese, è necessario parcheggiare l''auto e seguire il sentiero che sale verso il Monte Magno Calci. In alternativa, è possibile raggiungere il punto di partenza anche a piedi da Paduletto seguendo i sentieri locali.</p>
 
-<p>Il <strong>sentiero Montemagno Calci</strong> è un''escursione ideale per tutti, un''ottima opportunità per immergersi nella bellezza della <strong>montagna</strong> e della <strong>natura</strong>. Questo <strong>trekking</strong>, situato a <strong>Calci</strong>, offre un''esperienza indimenticabile per appassionati di <strong>escursionismo</strong> e <strong>sentieri</strong>. Il percorso è ben segnalato e presenta un dislivello accessibile, rendendolo perfetto anche per i principianti. Inizialmente, il <strong>sentiero</strong> si snoda attraverso una fitta vegetazione, offrendo la possibilità di ammirare la flora locale e la fauna alpina. Il tratto finale, pur rimanendo impegnativo, è un''opportunità per mettere alla prova la propria resistenza e godere di una vista mozzafiato.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questa escursione di tipo <strong>anello</strong> è pensata per tutti, ma preparatevi per un tratto finale più impegnativo. Il percorso inizia con una salita dolce attraverso sentieri ben tracciati, immersi nel verde della <strong>montagna</strong>.  Dopo circa 6 km, il sentiero si fa più ripido, con alcuni tratti in salita che richiedono un po'' di attenzione, ma la ricompensa è un <strong>panorama</strong> mozzafiato!</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>La difficoltà di questa <strong>escursione</strong> è classificata come <strong>media</strong>.  Nonostante la presenza di alcuni tratti ripidi, il sentiero è ben tenuto e adatto anche a escursionisti meno esperti.  Il tratto finale della salita può risultare impegnativo per chi non è abituato a camminare in montagna, ma con un po'' di impegno sarà una bella soddisfazione raggiungere la cima.</p>
 
-<p>Durante l''<strong>escursione</strong> al <strong>Montemagno Calci</strong>, potrete assistere a un panorama a 360 gradi che spazia da <strong>Livorno</strong> a <strong>Massa</strong>, una vista che vi lascerà senza fiato. Il punto più alto del sentiero offre una vista panoramica sulla pianura circostante e sulle colline circostanti.  La difficoltà del <strong>sentiero</strong> non è elevata, ma il tratto finale presenta una pendenza più ripida che richiede un minimo di preparazione fisica. Preparatevi a camminare in un ambiente naturale incontaminato, ammirando la bellezza selvaggia della <strong>montagna</strong> italiana.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per accompagnare la tua escursione, ti forniamo una <strong>traccia GPS</strong> che puoi scaricare e importare nella tua app di navigazione.  È consigliabile indossare scarpe da trekking adatte e portare con sé acqua, cibo e un kit di primo soccorso.  L''escursione è consigliata in <strong>primavera, estate e autunno</strong>.  Ricorda di informare qualcuno del tuo itinerario e del tuo rientro.</p>
 
-<p>Questo <strong>sentiero</strong> è un''ottima scelta per chi cerca un''<strong>escursione</strong> facile e divertente, un''opportunità per scoprire la bellezza della <strong>natura</strong> e del paesaggio toscano.  Potrete godervi la tranquillità della <strong>montagna</strong>, lontano dal caos della città, e respirare aria fresca e pulita.</p>
-
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-  <li><strong>Nome Sentiero:</strong> Montemagno Calci</li>
-  <li><strong>Luogo:</strong> Calci, Toscana</li>
-  <li><strong>Difficoltà:</strong> Facile/Media (tratto finale impegnativo)</li>
-  <li><strong>Distanza:</strong> Circa 6 km (andata e ritorno)</li>
-  <li><strong>Dislivello:</strong> Circa 400 metri</li>
-  <li><strong>Sentieri Collegati:</strong> 141 - 139 - 143</li>
-  <li><strong>Punto di Rientro:</strong>  Rientro tramite lo stesso sentiero</li>
-  <li><strong>Periodo Consigliato:</strong> Primavera, Estate, Autunno</li>
-  <li><strong>Consigli:</strong> Scarpe da trekking adatte, acqua, snack, cappello, crema solare, mappa.</li>
-</ul>
-
-<p>La cima del <strong>Montemagno Calci</strong> offre una vista spettacolare e la possibilità di ammirare la maestosità della natura. Un''esperienza da non perdere per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>Italia</strong>.</p>',
+  <li><strong>Distanza:</strong> Circa 10.44 km</li>
+  <li><strong>Dislivello:</strong> Circa 476 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Paduletto, Toscana</li>
+  <li><strong>Comune:</strong> Paduletto, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.44,
   476,

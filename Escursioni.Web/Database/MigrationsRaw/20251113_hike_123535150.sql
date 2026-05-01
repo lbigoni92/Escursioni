@@ -7,35 +7,30 @@ VALUES (
   123535150,
   'Parco Caselli - Cascata Caselli',
   'Bellissimo percorso adatto a tutte l''età nel parco naturale Caselli, il percorso è stato molto semplice ed include dei guardi, ponti, una cascata meravigliosa (luogo principe della camminata), una chiesa dove sarà possibile suonare la campana ed uno splendido lago.',
-  '<h2>Parco Caselli - Cascata Caselli: Trekking e Escursioni alla Cascata Principale</h2>
+  '<h2 id="parco-caselli-cascata-caselli">Parco Caselli - Cascata Caselli</h2>
 
-<h3>Il Percorso</h3>
-<p>
-Immergiti nella bellezza del <strong>Parco Naturale Caselli</strong> con questa splendida <strong>escursione a sentiero</strong>, ideale per tutte le età e livelli di esperienza. Il percorso, caratterizzato da una facile pendenza, ti condurrà attraverso paesaggi mozzafiato, ideale per una giornata di <strong>trekking</strong> in <strong>montagna</strong>. Ammira i punti panoramici, i ponti e la suggestiva <strong>cascata Caselli</strong>, il vero fulcro di questa emozionante avventura nella <strong>natura</strong>. 
-</p>
-<p>
-La camminata è progettata per essere un''esperienza accessibile, con tratti pianeggianti e salite dolci che si alternano a sezioni più impegnative, rendendola perfetta per famiglie e <em>principianti</em>. Scopri la bellezza autentica dei <strong>sentieri italiani</strong> e lasciati conquistare dalla maestosità di questo angolo di paradiso.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Per raggiungere il punto di partenza di questa fantastica escursione, dirigetevi verso il comune di Canneto, in provincia di Toscana.  Il parcheggio più comodo si trova vicino al centro del paese, facilmente raggiungibile in auto. Da lì, seguiamo indicazioni per il Parco Naturale Caselli, dove inizierà il nostro sentiero.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>
-Durante questa <strong>escursione nel Parco Caselli</strong>, potrai aspettarti panorami mozzafiato, un''atmosfera rilassante immersa nella <strong>natura</strong>, e la possibilità di vivere un''esperienza di <strong>trekking</strong> indimenticabile.  Il percorso ti porterà a scoprire una <strong>chiesa</strong> storica dove potrai suonare la campana e ammirare le sue peculiarità.  Non dimenticare di fermarti al lago per una pausa rilassante e per godere di una vista impareggiabile. L''acqua cristallina della <strong>cascata Caselli</strong> ti inviterà ad un bagno rinfrescante dopo l''<em>escursione</em>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo anello di trekking nel Parco Caselli è un''esperienza indimenticabile per tutti. Partiremo dal punto di arrivo e ci inoltreremo nel cuore del parco, attraversando boschi di castagno e faggi.  Il sentiero è ben segnalato e presenta diversi punti panoramici mozzafiato.  A seguire, ammireremo la maestosa Cascata Caselli, il fulcro del percorso, con le sue pozze d''acqua cristallina e il suo paesaggio suggestivo. Proseguiremo oltre la cascata e raggiungendo la Chiesa, dove potremo provare a suonare la campana! Infine, il sentiero ci porterà al Lago, un luogo di pace e tranquillità dove potremo godere di una meritata pausa.</p>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Distanza:</strong> Circa 3 km</li>
-    <li><strong>Dislivello:</strong> 150 metri</li>
-    <li><strong>Tempo di percorrenza:</strong> 1.5 - 2 ore</li>
-    <li><strong>Tipo di sentiero:</strong> Sentiero naturalistico</li>
-    <li><strong>Adatto a:</strong> Famiglie, principianti, <strong>trekking</strong> e <strong>escursionismo</strong></li>
-    <li><strong>Luogo:</strong> <strong>Parco Naturale Caselli</strong>, Piemonte</li>
-    <li><strong>Punti di interesse:</strong> <strong>Cascata Caselli</strong>, Chiesa, Lago, Punti Panoramici</li>
-    <li><strong>Attrezzatura consigliata:</strong> Scarpe da trekking, acqua, snack, cappello, crema solare, mappa.</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>L''escursione al Parco Caselli - Cascata Caselli è classificata come di difficoltà "Media". Il dislivello di 402 metri richiede una buona preparazione fisica, ma il sentiero è ben tenuto e adatto anche a escursionisti meno esperti.  La distanza totale del giro è di circa 11.62 km, quindi è consigliabile indossare scarpe da trekking comode e portare con sé acqua e snack.  Prevedete circa 4-5 ore per completare l''anello.</p>
 
-<p>
-Scopri di più sulle <em>escursioni nel Parco Caselli</em> e pianifica la tua prossima avventura nella <strong>montagna</strong>!
-</p>',
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per seguirci durante l''escursione, trovate la traccia GPS qui: [Inserire traccia GPS qui]. Questo sentiero escursionistico è un''ottima opportunità per ammirare il panorama della Toscana. Ricordate di rispettare l''ambiente e di seguire le indicazioni del sentiero.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong>Distanza:</strong> Circa 11.62 km</li>
+  <li><strong>Dislivello:</strong> Circa 402 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Parcheggio vicino al centro di Canneto, Toscana</li>
+  <li><strong>Comune:</strong> Canneto, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.62,
   402,

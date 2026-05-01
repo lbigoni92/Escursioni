@@ -7,29 +7,30 @@ VALUES (
   178174919,
   'Monte Alto, Passo di Pietra Tagliata e Alpe di Succiso da Passo del Cerreto',
   'Percorso ad anello da Passo del Cerreto passando per: - Monte Alto (4.2 km) - Passo di Pietra Tagliata (4.7 km) - Alpe di Succiso (6.0 km) - Sella di Casarola (6.8 km) - Monte Casarola (7.2 km) - Passo dell''Ospedalaccio (11.2 km) Il percorso presenta difficoltà di varia natura, esposizioni, salite ripide e un tratto di via ferrata il tutto nei primi 5 km, percorso non per tutti. Il dislivello è impegnativo nei primi chilometri poi si presenta più dolce. La ferrata è divisa in 3 parti, tutte e tre sono semplici livello intermedio procinto /forato, e sono corti.',
-  '<h2>Monte Alto, Passo di Pietra Tagliata e Alpe di Succiso da Passo del Cerreto: Trekking e Escursioni in Montagna</h2>
+  '<h2 id="escursione-monte-alto-passo-pietra-tagliata-alpe-succiso-passo-cerreto">Escursione al Monte Alto, Passo di Pietra Tagliata e Alpe di Succiso da Passo del Cerreto</h2>
 
-<h3>Il percorso: Un Anello da Trekking tra le Cime delle Alpi Pennine</h3>
+<h3 id="come-arrivare-punto-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa fantastica escursione è il <strong>Passo del Cerreto</strong>, raggiungibile in auto da <strong>Cerreto Laghi</strong>. La strada è di campagna, quindi preparatevi a sbrecciare un po''. Da qui, iniziate a seguire il sentiero che sale gradualmente verso il Monte Alto.</p>
 
-<p>Preparati per un''emozionante <strong>escursione in montagna</strong> lungo questo incredibile anello di trekking che ti condurrà attraverso paesaggi mozzafiato. Il sentiero, <strong>Monte Alto, Passo di Pietra Tagliata e Alpe di Succiso da Passo del Cerreto</strong>, offre un''esperienza indimenticabile per <strong>trekking</strong> ed <strong>escursionismo</strong> in <strong>Italia</strong>.  Questo <strong>sentiero</strong> è perfetto per ammirare la bellezza della natura e sfidare la tua resistenza in un ambiente alpino unico.  Se sei un appassionato di <strong>trekking</strong> o semplicemente cerchi un''<strong>escursione</strong> rigenerante tra le montagne, questo è il posto giusto per te.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questa escursione ad anello di <strong>13.27 km</strong> vi porterà attraverso panorami mozzafiato e tratti impegnativi. Iniziate dal <strong>Passo del Cerreto</strong> e raggiungete il <strong>Monte Alto</strong> (4.2 km), da qui proseguite fino al <strong>Passo di Pietra Tagliata</strong> (4.7 km) e poi all''<strong>Alpe di Succiso</strong> (6.0 km). Da qui, la salita diventa più ripida fino alla <strong>Sella di Casarola</strong> (6.8 km) e infine al <strong>Monte Casarola</strong> (7.2 km) e al <strong>Passo dell''Ospedalaccio</strong> (11.2 km).  Attenzione: i primi 5 km sono particolarmente impegnativi e includono un tratto di <strong>via ferrata</strong> di livello intermedio, attrezzati con casco e forato. Si consiglia vivamente di essere esperti e pronti a affrontare questo tratto.</p>
 
-<h3>Cosa aspettarsi: Una Sfida Gratificante per Escursioni in Montagna</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è considerata <strong>Difficile</strong> per via del dislivello di <strong>+980 m</strong>, delle salite ripide, dell''esposizione e del tratto di via ferrata nei primi 5 km. È consigliata a escursionisti esperti e in buona forma fisica.  Non sottovalutate la via ferrata, anche se i tratti sono brevi, richiedono attenzione e attrezzatura adeguata.</p>
 
-<p>Questo impegnativo <strong>sentiero</strong> presenta diverse sfide, per questo è consigliabile essere in buona forma fisica. Il percorso si snoda attraverso una varietà di ambienti, dalla roccia esposta alle praterie alpine, offrendo panorami spettacolari ad ogni curva. Preparati a salite ripide, dislivelli impegnativi e a tratti esposti, in particolare nei primi 5 chilometri dove è presente un tratto di <strong>via ferrata</strong> di livello intermedio, adatto a escursionisti procinti e forati.  La <strong>via ferrata</strong> è suddivisa in 3 brevi parti, tutte e tre facili e accessibili.  La difficoltà di questo <strong>sentiero</strong> aumenta gradualmente, offrendo un''esperienza di <strong>trekking</strong> ricca di soddisfazioni.  Incontra panorami mozzafiato sull’<strong>Alpe di Succiso</strong> e sulle valli circostanti.  Goditi un''autentica <strong>escursione</strong> alla scoperta della natura selvaggia delle <strong>Alpi Pennine</strong>.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per seguire il percorso, vi consiglio di utilizzare una traccia GPS.  Vi lascerò un link alla traccia GPS quando il sito sarà attivo.  Durante l''escursione, l''acqua potabile è scarsa, quindi portate con voi una quantità sufficiente.</p>
 
-<h3>Informazioni utili: Dettagli per un Trekking Sicuro ed Efficiente</h3>
-
-<ul>
-    <li><strong>Distanza Totale:</strong> Circa 11.2 km</li>
-    <li><strong>Dislivello Totale:</strong> Impegnativo, con tratti più ripidi nei primi chilometri</li>
-    <li><strong>Difficoltà:</strong> Impegnativa, da affrontare con esperienza e preparazione fisica.  Alcuni tratti richiedono attrezzatura specifica (scarpe da trekking, bastoncini da trekking, eventuale kit di ferrata).</li>
-    <li><strong>Tratto di Via Ferrata:</strong> Presente nei primi 5 km, di livello intermedio, suddiviso in 3 brevi sezioni.</li>
-    <li><strong>Punti di Interesse:</strong> <strong>Monte Alto</strong>, <strong>Passo di Pietra Tagliata</strong>, <strong>Alpe di Succiso</strong>, <strong>Sella di Casarola</strong>, <strong>Monte Casarola</strong>, <strong>Passo dell’Ospedalaccio</strong> - ammirabili panorami e flora alpina.</li>
-    <li><strong>Periodo Consigliato:</strong> Estate - Luglio/Settembre (controllo condizioni meteo obbligatorio).</li>
-    <li><strong>Consigli:</strong>  È fondamentale informarsi sulle condizioni meteo prima di intraprendere l’<strong>escursione</strong>. Indossare abbigliamento adeguato e scarpe da <strong>trekking</strong>.  Portare con sé acqua, cibo e kit di pronto soccorso.</li>
-</ul>
-
-<p>Questo <strong>sentiero</strong> rappresenta una fantastica opportunità per un''<strong>escursione a piedi</strong>, un''avventura di <strong>trekking</strong> in un ambiente naturale incontaminato.  Esplora la regione attraverso questo percorso, perfetto per gli amanti del <strong>sentiero</strong> e della <strong>montagna</strong>.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li ><strong>Distanza:</strong> Circa 13.27 km (anello)</li>
+  <li ><strong>Dislivello:</strong> Circa 980 m</li>
+  <li ><strong>Difficoltà:</strong> Difficile</li>
+  <li ><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li ><strong>Punto di partenza:</strong> Passo del Cerreto, accessibile in auto da Cerreto Laghi</li>
+  <li ><strong>Comune:</strong> Cerreto Laghi, Emilia-Romagna</li>
+  <li ><strong>Tipo di sentiero:</strong> Sentiero escursionistico, Via Ferrata (primi 5 km)</li>
+</ul>',
   'Tutte le Attività e Paesi',
   13.27,
   980,

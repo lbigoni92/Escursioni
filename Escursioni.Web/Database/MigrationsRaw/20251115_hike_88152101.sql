@@ -7,30 +7,30 @@ VALUES (
   88152101,
   'Calambrone',
   'Una camminata tranquilla che facevo durante le mie pause pranzo. Adatta a famiglie vi sono sia tratti esposti al sole, se non siete abituati, non fatela d''estate a mezzogiorno. Non ci sono fontanelle, fattibile con qualsiasi tipo d''attrezzatura... ma per l''amor di dio, evitate l''infradito. Vedo spesso rondini a settembre e anatre vicino a bocca di Scormatore, è possibile anche vedere cinghiali',
-  '<h2>Sentiero del Calambrone: Escursione Trekking nella Montagna del Marchemeno</h2>
+  '<h2 id="escursione-calambrone">Escursione al Calambrone</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa piacevole escursione si trova a <strong>Calambrone</strong>, un piccolo comune nella provincia di <strong>Toscana</strong>.  È facilmente raggiungibile in auto, seguendo le indicazioni per la **Bocca di Scormatore** e parcheggiando nell''area appositamente attrezzata.  In alternativa, è possibile arrivare a piedi da altre località limitrofe, godendosi un po'' del sentiero che prelude all''avventura.</p>
 
-<p>Il <strong>sentiero del Calambrone</strong> è una bellissima escursione trekking che si snoda attraverso il Parco Naturale della <strong>Montagna del Marchemeno</strong>, in provincia di Pesaro e Urbino. È una camminata tranquilla e adatta a famiglie, ideale per chi cerca una gita di un giorno nella <strong>natura</strong> e per immergersi nella splendida <strong>montagna</strong> italiana. Il percorso è principalmente in salita, ma ben segnalato, offrendo panorami mozzafiato sulla Valconca e sulle colline circostanti. La durata dell''escursione varia a seconda del punto di partenza e del ritmo, ma in media si aggira intorno alle 3-4 ore.  Questo <strong>sentiero di trekking</strong> è perfetto per chi ama l''escursionismo nella <strong>natura italiana</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo <strong>anello</strong> di circa <strong>8.89 km</strong> è pensato per essere una camminata tranquilla, perfetta anche per le famiglie. Il sentiero si snoda principalmente in ambiente boschivo, con alcune esposizioni al sole (soprattutto in estate).  Non ci sono tratti particolarmente impegnativi, ma è importante indossare scarpe da trekking adatte. L''escursione inizia con una salita iniziale, poi il percorso si stabilizza, offrendo una vista panoramica sulla campagna circostante.  Il sentiero conduce alla cima del <strong>Calambrone</strong>, da cui si gode di un panorama ampio e suggestivo. È una bella escursione per una pausa pranzo o un''uscita domenicale.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa <strong>escursione</strong> è classificata come <strong>facile</strong>, adatta a persone di età e livelli di preparazione fisica diversi.  Il <strong>dislivello</strong> è di 0 metri, quindi il percorso è prevalentemente in piano.  Tuttavia, è consigliabile portare con sé acqua e snack, soprattutto nei mesi più caldi.  È importante prestare attenzione alle condizioni del sentiero, che potrebbe essere umido o scivoloso in alcuni tratti.  Le <strong>rondini</strong> sono spesso presenti a settembre, mentre in altri periodi dell''anno si possono avvistare <strong>anatre</strong> e, occasionalmente, anche <strong>cinghiali</strong>.</p>
 
-<p>Durante questa <strong>escursione</strong>, potrai ammirare un paesaggio variegato, con boschi di faggio e castagno, radura soleggiate e ampie viste panoramiche. È un''ottima opportunità per connettersi con la <strong>natura</strong> e godere della tranquillità della <strong>montagna</strong>.  L''ambiente è ricco di fauna, potrai avvistare rondini a settembre, anatre vicino alla bocca di Scormatore e, con un po'' di fortuna, anche cinghiali. <em>Ricorda che il sentiero è impegnativo, soprattutto per chi non è abituato a camminare in montagna.</em></p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>La traccia GPS di questa escursione è disponibile online e può essere scaricata per utilizzarla offline.  È consigliabile informarsi sulle previsioni del tempo prima di partire e indossare abbigliamento adatto alle condizioni climatiche.  Ricordatevi di rispettare l''ambiente e di non lasciare tracce del vostro passaggio.</p>
 
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Difficoltà:</strong> Facile/Media</li>
-    <li><strong>Distanza:</strong> Circa 6 km</li>
-    <li><strong>Dislivello:</strong> Circa 400 metri</li>
-    <li><strong>Punto di partenza:</strong> Rifugio Calambrone</li>
-    <li><strong>Periodo consigliato:</strong> Primavera, Autunno</li>
-    <li><strong>Attrezzatura consigliata:</strong> Scarpe da trekking, acqua, pranzo, cappello, crema solare, soprattutto in estate. <strong>Evitare l''infradito!</strong></li>
-    <li><strong>Fontanelle:</strong> Nessuna, è necessario portare acqua a sufficienza.</li>
-    <li><strong>Animali domestici:</strong> Ammessi al guinzaglio</li>
-</ul>
-
-<p>L''<strong>escursione al Calambrone</strong> è un''esperienza indimenticabile per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>. Goditi la bellezza della <strong>Montagna del Marchemeno</strong> e scopri i segreti di questo affascinante <strong>sentiero italiano</strong>.  Perfetto per una pausa pranzo immersi nella natura!</p>',
+    <li><strong>Distanza:</strong> Circa 8.89 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 0 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Bocca di Scormatore, Calambrone</li>
+    <li><strong>Comune:</strong> Calambrone, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   8.89,
   0,

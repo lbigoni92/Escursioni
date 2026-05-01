@@ -7,31 +7,33 @@ VALUES (
   107587099,
   'Tendata (due giorni) Sestola - cresta del Gallo - Monte Cimone - Monte Cimoncino - lago della ninfa',
   'Percorso molto bello se siete abituati a camminare lo potete fare anche in un giorno. Partenza da sestola sabato alle 14 da un parcheggio gratuito, attacchiamo il sentiero poco dopo la città l''andata non presenta grosse difficolta (se non per il peso degli zaini tra tenda acqua e altre cose); i sentieri sono men segnati e larghi al massimo incontrate qualche persona in MBK ma i sentieri larghi permettono tranquillamente il sorpasso. Arrivati al passo del lupo (facendo un piccolo tratto su strada) si presenta una piccola salita seguita dal tratto più interessante del primo giorno, la Cresta del Gallo la quale presenta tratti di scalata di 1 LIVELLO (sentiero EE) facilmente aggirabile se non ve la sentite, c''è un sentiero che l''aggira. Abbiamo pernottato dietro il rifugio Cavallaro in tenda siamo stati bene senza molto freddo o vento (inizio luglio c''erano 10 gradi in tenda). Il secondo giorno sveglia all''alba e abbiamo visto le Marmotte sotto le tende che mangiavano, dopo di che abbiamo smontato e siamo ripartiti in direzione Cimone; salita tranquilla in cima al Cimone vi è una bellissima cartina disegnata sulle mattonelle e una chiesina. Abbiamo proseguito prima sul cimino e in seguito abbiamo svoltato sulla strada del ritorno (percorso tranquillo tranne per un tratto franato ma facilmente aggirabile). Arrivati al lago della ninfa abbiamo mangiato al rifugio e in seguito siamo ripartiti per sestola. Vi sono numerose fontanelle e tutte sgorgavano ne ricordo 4 : 1 sul tratto iniziale l km 3.5 (c''è un cartello) 2 pendici del cimone 3 in cima al cimone 4 lago della ninfa Quando sono passato sgorgavano, ma non contateci troppo',
-  '<h2>Tendata (due giorni) Sestola - cresta del Gallo - Monte Cimone - Monte Cimoncino - lago della ninfa Trekking Italia</h2>
+  '<h2 id="tendata-sestola-cresta-del-gallo-monte-cimone-monte-cimoncino-lago-della-ninfa">Tendata (due giorni) Sestola - cresta del Gallo - Monte Cimone - Monte Cimoncino - lago della ninfa</h2>
 
-<h3>Il percorso: Un''escursione di due giorni in montagna</h3>
-<p>Preparati per un''incredibile <strong>trekking</strong> in <strong>montagna</strong> attraverso paesaggi mozzafiato. Questo percorso di due giorni,  "Tendata (due giorni) Sestola - cresta del Gallo - Monte Cimone - Monte Cimoncino - lago della ninfa", è perfetto per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>Italia</strong>.  Esploreremo la splendida regione delle Langhe, con un''escursione impegnativa ma estremamente gratificante attraverso sentieri ben consolidati, ideale per chi cerca un''esperienza di <strong>trekking</strong> in natura.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa fantastica escursione è a Sestola, un piccolo paese in montagna della Val d''Ala.  È facilmente raggiungibile in auto lungo le strade della zona. Partenza da un parcheggio gratuito situato vicino al paese, ottimo per iniziare l''avventura.  La strada per Sestola è ben tenuta, ma preparatevi per curve e panorami mozzafiato.</p>
 
-<h3>Cosa aspettarsi: Un''avventura in un ambiente incontaminato</h3>
-<p>Questo <strong>sentiero</strong> offre un''esperienza di <strong>trekking</strong> unica, con tratti impegnativi ma ben gestibili anche per escursionisti esperti.  La <strong>trekking</strong> si snoda attraverso la <strong>montagna</strong>, offrendo panorami spettacolari e la possibilità di immergersi nella <strong>natura</strong> incontaminata.  Preparati a salite impegnative, ma la ricompensa sarà un''esperienza indimenticabile.  L''<strong>escursione</strong> in <strong>sentiero</strong> attraverso la regione è un''ottima occasione per praticare <strong>trekking</strong> e godere della bellezza del territorio italiano.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questa escursione di due giorni è un vero e proprio trekking che vi condurrà attraverso un paesaggio spettacolare. Il primo giorno, partirà da Sestola e inizierà con un tratto non particolarmente impegnativo, ma tenete a mente il peso dello zaino! Percorrerete sentieri larghi, con qualche incontro casuale lungo il percorso, ma niente paura, i sentieri sono abbastanza ampi per permettere il sorpasso.  Il punto culminante del primo giorno sarà la Cresta del Gallo, con alcuni tratti di scalata di 1° livello (sentiero EE) che potrete facilmente aggirare se preferite.  Pernottamento in tenda dietro il Rifugio Cavallaro, dove avrete la possibilità di ammirare l''alba e magari avvistare le Marmotte! Il secondo giorno, salita al Monte Cimone con una salita tranquilla, poi proseguimento fino al Lago della Ninfa. Il percorso termina con un ritorno a Sestola, passando per una strada frantata facilmente aggirabile.</p>
 
-<h3>Informazioni utili: Dettagli per una preparazione ottimale</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Impegnativa</li>
-    <li><strong>Distanza Totale:</strong> Circa 30-35 km</li>
-    <li><strong>Dislivello:</strong> Circa 1200-1500 metri</li>
-    <li><strong>Durata:</strong> 2 giorni</li>
-    <li><strong>Periodo Consigliato:</strong> Luglio - Settembre (per condizioni climatiche favorevoli)</li>
-    <li><strong>Pernottamento:</strong> Tenda (consigliato, vista la lunghezza del percorso) - Rifugio Cavallaro</li>
-    <li><strong>Cartina:</strong> Essenziale per l''orientamento (preparati a sentieri poco segnalati)</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è considerata **Difficile** per la sua lunghezza (24.9 km) e il dislivello di 1528 metri.  Non è adatta ai principianti o a chi non è abituato a camminare in montagna.  È importante essere in buona forma fisica e avere un''esperienza di trekking precedente.  Preparatevi a lunghe giornate di cammino, a tratti impegnativi e a condizioni meteorologiche variabili.</p>
 
-<h3>Il Percorso Dettagliato</h3>
-<p>Il viaggio inizia da <strong>Sestola</strong>, con una partenza da un parcheggio gratuito. Il <strong>sentiero</strong> offre un''iniziale salita facile, con tratti di <strong>trekking</strong>  meno impegnativi, ideali per iniziare l''<strong>escursione</strong>. Superato il Passo del Lupo, la salita diventa più ripida, culminando nella <strong>Cresta del Gallo</strong>, con tratti di scalata di 1° LIVELLO (sentiero EE) che possono essere aggirati per chi preferisce. Il pernottamento è dietro al Rifugio Cavallaro, in tenda, dove il clima mite di luglio (10°C in tenda) rende l''esperienza confortevole.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Ecco alcuni dettagli utili per la vostra escursione: il percorso è un giro **anello** di circa 24.9 km. Il dislivello è di 1528 metri. Portate con voi acqua, cibo, abbigliamento adeguato e scarpe da trekking.</p>
+<p><strong>Traccia GPS:</strong> (Inserire qui la traccia GPS)</p>
+<p><strong>Punto di partenza:</strong> Parcheggio gratuito vicino a Sestola</p>
+<p><strong>Comune:</strong> Sestola, <strong >Provincia:</strong> Emilia-Romagna, <strong >Regione:</strong> Italia</p>
 
-<p>Il secondo giorno, l''<strong>escursione</strong> continua verso il <strong>Monte Cimone</strong> e il <strong>Monte Cimoncino</strong>, con una salita tranquilla in cima al Cimone, dove potrai ammirare una cartina disegnata sulle mattonelle e una piccola chiesina.  Il percorso prosegue poi sulla strada del ritorno, con un tratto franato facilmente superabile.  Arrivati al <strong>lago della ninfa</strong>, puoi rifocillarti al rifugio e goderti il paesaggio.  Lunghe fontanelle (4 in totale) rendono il <strong>sentiero</strong> particolarmente rinfrescante durante l''<strong>escursione</strong>.</p>
-
-<p>Questo <strong>trekking</strong> di due giorni a <strong>Sestola</strong> è un''opportunità unica per vivere l''avventura e l''esperienza di <strong>trekking</strong> in <strong>Italia</strong>, offrendo un''esperienza di <strong>escursione</strong> di <strong>sentiero</strong>. </p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong >Distanza:</strong> Circa 24.9 km (anello)</li>
+  <li><strong >Dislivello:</strong> Circa 1528 metri</li>
+  <li><strong >Difficoltà:</strong> Difficile</li>
+  <li><strong >Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong >Punto di partenza:</strong> Parcheggio gratuito vicino a Sestola</li>
+  <li><strong >Comune:</strong> Sestola, Emilia-Romagna</li>
+  <li><strong >Tipo di sentiero:</strong> Sentiero escursionistico / Mulattiera</li>
+</ul>',
   'Tutte le Attività e Paesi',
   24.9,
   1528,

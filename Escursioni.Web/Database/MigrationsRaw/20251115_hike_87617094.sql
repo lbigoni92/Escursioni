@@ -7,32 +7,40 @@ VALUES (
   87617094,
   'Grosseto Riserva Naturale',
   'Uno spettacolo tutto toscano, fu una dell''esperienze che mi porto più nel cuore, non per i paesaggi spettacolari, no per i bellissimi posti ma per la compagnia, fu una delle camminate che mi hanno lasciato di più il segno nel cuore. Il tragitto è semplice, siamo sempre stati sul sentiero che era ben segnato nn potete perdervi, il dislivello è infimo appena 100 mt, e non sono richieste scarpe particolari. Portatevi l''acqua non ci sono fontane ma c''è un bar vicino al parcheggio, lo sconsiglio d''estate, faceva veramente caldo nei punti esposti al sole, meglio farlo in primavera o autunno. Contattate il parco prima d''avventurarvi, magari i percorsi sono chiusi in quel periodo, è una riserva naturale.',
-  '<h2>Grosseto Riserva Naturale: Escursione Trekking nella Toscana Incontaminata</h2>
+  '<h2 id="grosseto-riserva-naturale">Escursione alla Grosseto Riserva Naturale</h2>
 
-<h3>Il Percorso: Sentiero Facile per Ammirare la Natura Toscana</h3>
-<p>
-La <strong>Grosseto Riserva Naturale</strong> offre un''esperienza di <strong>trekking</strong> indimenticabile, perfetta per chi cerca una <strong>escursione</strong> facile e immersiva nella <strong>natura toscana</strong>. Questo <strong>sentiero</strong>, ben segnalato, si snoda attraverso un paesaggio mozzafiato, ideale per una giornata all''aria aperta. Il percorso è progettato per essere accessibile a tutti, con un dislivello minimo di soli 100 metri, il che lo rende perfetto anche per famiglie e principianti.  La <strong>Grosseto Riserva Naturale</strong> è un vero gioiello per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in Italia.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bellissima escursione si trova all''ingresso della <strong>Grosseto Riserva Naturale</strong>, a <strong>Alberese</strong>, in provincia di <strong>Grosseto</strong>, regione <strong>Toscana</strong>. È facilmente raggiungibile in auto oppure si può arrivare a piedi da paesi limitrofi. Una volta all''ingresso del parco, seguite le indicazioni per il sentiero che conduce alla riserva.</p>
 
-<h3>Cosa Aspettarsi: Panorami, Natura e Tranquillità</h3>
-<p>
-Preparatevi ad ammirare panorami spettacolari sulla campagna toscana, con colline dolci e vigneti che si estendono a perdita d''occhio. Questo <strong>sentiero</strong> è un''occasione unica per riconnettersi con la natura, respirare l''aria fresca della <strong>montagna</strong> e godere della tranquillità della <strong>Riserva Naturale</strong>.  La <strong>Grosseto Riserva Naturale</strong> è particolarmente suggestiva in primavera e autunno, quando le temperature sono più miti e i colori della natura sono al culmine.  Puntate su un''<strong>escursione</strong> per scoprire la bellezza della Toscana.
-</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo è un <strong>anello</strong> di circa <strong>4.77 km</strong> che vi condurrà attraverso il cuore della riserva. Il sentiero è ben segnalato e il dislivello è di soli <strong>104 metri</strong>, quindi è un''escursione adatta anche a chi non ha molta esperienza. Il percorso è prevalentemente pianeggiante, con qualche lieve salita, e offre panorami incantevoli sulla campagna toscana. Non ci sono ostacoli tecnici, quindi non sono richieste attrezzature specifiche, ma è consigliabile indossare scarpe da trekking comode.  La bellezza di questa escursione risiede più nella compagnia e nel paesaggio che nella sfida fisica.</p>
 
-<h3>Informazioni Utili per la Vostra Escursione</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>L''escursione è classificata come <strong>Media</strong>, adatta a escursionisti di livello base. Il dislivello non è eccessivo, ma il sentiero può essere leggermente ripido in alcuni punti. <strong>Aspettatevi</strong> un''escursione piacevole e rilassante, con la possibilità di ammirare la flora e la fauna locali.  Ricordatevi di portare acqua, soprattutto se scegliete di fare l''escursione in estate, e di controllare le condizioni meteorologiche prima di partire.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Ecco le informazioni pratiche per organizzare al meglio la vostra escursione: </p>
 <ul>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Distanza:</strong> Circa 5 km</li>
-    <li><strong>Dislivello:</strong> 100 metri</li>
-    <li><strong>Periodo Consigliato:</strong> Primavera o Autunno (evitare l''estate a causa del caldo)</li>
-    <li><strong>Consigli:</strong> Portatevi acqua, cappello, crema solare e scarpe da trekking leggere.</li>
-    <li><strong>Parco:</strong> Contattate il **Parco della Riserva Naturale di Grosseto** prima della vostra <strong>escursione</strong> per verificare la disponibilità dei <strong>sentieri</strong> e eventuali chiusure.</li>
-    <li><strong>Servizi:</strong>  Un bar si trova vicino al parcheggio, ma è consigliabile portarne con sé una scorta di acqua, specialmente durante i mesi estivi.</li>
+    <li><strong>Distanza:</strong> 4.77 km (anello)</li>
+    <li><strong>Dislivello:</strong> +104 m</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Ingresso Grosseto Riserva Naturale, Alberese</li>
+    <li><strong>Comune:</strong> Alberese, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
+<p>Per la <strong>traccia GPS</strong>, vi consiglio di utilizzare un''app di navigazione per escursionisti come <a href="https://www.alltrails.com/">AllTrails</a>.</p>
 
-<p>
-La <strong>Grosseto Riserva Naturale</strong> vi aspetta per un''esperienza di <strong>trekking</strong> autentica e rigenerante.  Scoprite la bellezza della <strong>Toscana</strong> attraverso questo affascinante <strong>sentiero</strong>. Organizzate la vostra <strong>escursione</strong> oggi stesso!
-</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong>Distanza:</strong> Circa 4.77 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 104 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Ingresso Grosseto Riserva Naturale, Alberese</li>
+    <li><strong>Comune:</strong> Alberese, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   4.77,
   104,

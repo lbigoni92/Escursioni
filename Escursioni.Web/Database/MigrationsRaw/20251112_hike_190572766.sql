@@ -7,26 +7,30 @@ VALUES (
   190572766,
   'Campiglia Marittima ~ Rocca di San Silvestro',
   'Il percorso inizia a Campiglia Marittima, un grazioso paesino che vale la pena visitare sia all’inizio che alla fine dell’escursione; noi siamo stati fortunati, trovando anche una sagra locale! Il sentiero è ben segnato e sempre facile da percorrere. Anche se l’alluvione recente ha causato qualche danno, i percorsi sono comunque SEMPRE praticabili. Il tragitto di andata è semplice e, a parte una piccola salita dopo la stazione ferroviaria, non risulta mai faticoso. È molto panoramico e attraversa numerose cave, grotte e fosse, tutte segnalate e recintate. Se siete fortunati, potrete acquistare il biglietto e prendere il trenino per visitare le cave (noi lo abbiamo trovato chiuso). Costo: 9 euro (opzionale). Per arrivare alla rocca, bisogna attraversare un ponte. Noi abbiamo trovato il cancello sul ponte chiuso, ma la rete sulla destra era "caduta", consentendo il passaggio. Da lì, siamo giunti alla rocca! Non siamo saliti, dato che la zona è videosorvegliata e anche qui i cancelli erano chiusi; peccato... avremmo preferito trovare il parco aperto. Il ritorno lo abbiamo fatto percorrendo la via dei Lazi, mai impegnativa, anche se un po'' più "selvaggia". In ogni caso, è stato davvero un bel giro, molto panoramico, che consiglio soprattutto in primavera, autunno o inverno.',
-  '<h2 >Campiglia Marittima ~ Rocca di San Silvestro: Trekking e Escursione nella Toscana Mancasante</h2>
+  '<h2 id="escursione-campiglia-rocca-san-silvestro">Escursione a Campiglia Marittima e Rocca di San Silvestro</h2>
 
-<h3 >Il percorso</h3>
-<p>Questo fantastico <strong>sentiero di trekking</strong> parte dal pittoresco borgo di <strong>Campiglia Marittima</strong>, un luogo ideale per iniziare la vostra <strong>escursione</strong> alla <strong>Rocca di San Silvestro</strong>. Il percorso è progettato per essere accessibile a tutti i livelli di esperienza, grazie alla sua segnaletica chiara e alla facilità di percorrenza. Nonostante recenti alluvioni abbiano causato qualche disagio, il <strong>sentiero di montagna</strong> è sempre praticabile, offrendo un''esperienza di <strong>trekking</strong> autentica nella <strong>natura</strong> toscana.  L''<strong>escursione</strong> vi condurrà attraverso paesaggi mozzafiato, con numerose cave, grotte e fosse, tutte protette e recintate per la vostra sicurezza. Perfetto per un''<strong>escursione di un giorno</strong> in famiglia o con amici!</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>L''escursione inizia a <strong>Campiglia Marittima</strong>, un grazioso paesino toscano che vale la pena visitare. Il paese è facilmente raggiungibile in auto o in treno, con la stazione ferroviaria che si trova a pochi passi dal punto di partenza del sentiero.</p>
 
-<h3 >Cosa aspettarsi</h3>
-<p>Preparatevi a un''<strong>escursione</strong> panoramica di circa 6-8 chilometri, con un dislivello di circa 300 metri. Il tratto iniziale è facile e accessibile, ma dopo la stazione ferroviaria troverete una breve salita.  Potrete ammirare panorami spettacolari sulla costa e sulla campagna circostante.  L''ambiente naturale è ricco di flora e fauna, con la possibilità di avvistare diverse specie di uccelli e animali.  L''<strong>escursione</strong> in <strong>Sentiero Italia</strong> è un''opportunità per immergervi nella <strong>natura</strong> e godervi la tranquillità della <strong>montagna</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Il sentiero è ben segnato e si snoda attraverso diverse cave, grotte e fosse, tutte segnalate e recintate. Il tratto di andata è semplice e pianeggiante, con una piccola salita dopo la stazione ferroviaria. Il percorso si sviluppa fino al ponte che conduce alla <strong>Rocca di San Silvestro</strong>. Da lì, si può scegliere di attraversare il ponte e poi seguire la via dei Lazi per il ritorno, oppure, se si ha voglia, si può ammirare la rocca da lontano, dato che l''accesso è limitato e la zona è videosorvegliata. Il ritorno si fa seguendo la via dei Lazi, un sentiero più selvaggio ma comunque piacevole.</p>
 
-<h3 >Informazioni utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>La difficoltà di questa <strong>escursione</strong> è definita <strong>media</strong>. Il dislivello è di 0 metri, quindi il percorso è adatto anche a persone meno esperte. La distanza totale dell''anello è di circa <strong>14.37 km</strong>.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Questa <strong>escursione</strong> è perfetta per chi ama ammirare panorami mozzafiato e scoprire angoli nascosti della Toscana. Il sentiero è ideale per un''<strong>escursione</strong> a piedi o in mountain bike. Si consiglia di indossare scarpe da trekking e di portare con sé acqua e snack. Per avere la <strong>traccia GPS</strong>, consultare le app di riferimento.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-<li><strong>Difficoltà:</strong> Facile/Media</li>
-<li><strong>Distanza:</strong> Circa 6-8 km</li>
-<li><strong>Dislivello:</strong> Circa 300 metri</li>
-<li><strong>Tempo di percorrenza:</strong> 2-3 ore</li>
-<li><strong>Punti di interesse:</strong> <strong>Rocca di San Silvestro</strong>, cave, grotte, fosse, vista panoramica sulla costa</li>
-<li><strong>Costo:</strong> Ingresso alla cave (opzionale, 9 euro)</li>
-<li><strong>Note:</strong> Il sentiero è ben segnalato, ma è consigliabile indossare scarpe da trekking e portare con sé acqua e snack. Controllate sempre le condizioni del <strong>sentiero</strong> prima di partire. <em>La zona è videosorvegliata e alcuni punti potrebbero essere inaccessibili.</em></li>
-</ul>
-
-<p>Perfetta <strong>escursione</strong> per gli amanti del <strong>trekking</strong> e della <strong>natura</strong>, questa meta è ideale per una giornata all''aria aperta. Scoprite la bellezza del paesaggio toscano con questo splendido <strong>sentiero</strong>!</p>',
+  <li><strong>Distanza:</strong> Circa 14.37 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 0 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Campiglia Marittima (accessibile in auto/treno)</li>
+  <li><strong>Comune:</strong> Campiglia Marittima, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   14.37,
   0,

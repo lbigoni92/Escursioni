@@ -7,37 +7,30 @@ VALUES (
   89289628,
   'Lago di Massaciuccoli - Anello',
   'Abbiamo percorso questa stupenda traccia partendo dall''area parcheggio di Massaciuccoli all''Osteria le Terme. Da li in primo luogo siamo andati a diretti l''area faunistica dell''oasi di Massaciuccoli passando per il museo delle rovine Romane; all''Oasi abbiamo potuto osservare varie tipologie di volatili anche da vari punti d''osservazione. Dopo la breve visita all''Oasi, abbiamo intrapreso il vero e proprio sentiero, il sentiero, non presenta mai punti particolarmente difficili, solo qualche salita molto dolce, e ci permette di godere di alcuni punti panoramici mozzafiato. Al rientro al lago di di Massaciuccoli, ci siamo fermati a una fontana, situata al km 12.6. Abbiamo finito il giro con la visita a delle rovine romane. Nel giro che abbiamo fatto abbiamo visto impronte d''ungulati e d''aironi Nonostante lungo il tragitto vi siano vari punti con panchine abbiamo preferito mangiare ala chiesa di Compignano. I punti panoramici non mancano certamente lungo il sentiero e potete ammirare delle foto in questa traccia.',
-  '<h2>Lago di Massaciuccoli - Anello: Trekking e Escursioni nel Cuore della Toscana</h2>
+  '<h2 id="lago-di-massaciuccoli-anello">Escursione al Lago di Massaciuccoli - Anello</h2>
 
-<h3>Il Percorso: Un Anello di Bellezza tra Lago e Montagna</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Per raggiungere il punto di partenza di questa splendida escursione, parti dall''area parcheggio di <strong id="massaciuccoli">Massaciuccoli</strong>, vicino all''Osteria le Terme. Il parcheggio è facilmente raggiungibile in auto, e da lì il sentiero inizia proprio lì.</p>
 
-<p>Questo <strong>sentiero di trekking</strong>, situato nel cuore del <strong>Lago di Massaciuccoli</strong>, offre un’esperienza indimenticabile per gli amanti del <strong>trekking</strong> e dell’<strong>escursionismo</strong> nella <strong>montagna</strong> toscana. L’<strong>anello</strong> parte dall’area parcheggio di <strong>Massaciuccoli</strong> all’<strong>Osteria le Terme</strong>, conducendo attraverso un paesaggio variegato di laghi, oasi faunistiche, rovine romane e panorami mozzafiato. È un’ottima opzione per una <strong>gita in montagna</strong> di una giornata, ideale per famiglie e appassionati di <strong>sentieri</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia dall''area parcheggio e si dirama verso l''area faunistica dell''oasi di <strong id="massaciuccoli">Massaciuccoli</strong>, passando per il museo delle rovine Romane.  Una volta visitata l''oasi, si intraprende il vero sentiero, un percorso <strong id="facile">facile</strong> che si snoda lungo le rive del lago, con qualche dolce salita e tanti punti panoramici. Il sentiero di circa <strong id="1512">15.12 km</strong>, con un <strong id="dislivello">+672 metri</strong> di dislivello, è perfetto per un''escursione di una giornata.  Il giro è ad anello, per tornare al punto di partenza. Lungo il percorso, potrete ammirare vari punti panoramici, la fontana al km 12.6 e delle rovine romane prima di concludere l''anello.</p>
 
-<h3>Cosa Aspettarsi: Una Giornata di Natura e Scoperte</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà <strong id="facile">facile</strong>, adatta a famiglie ed escursionisti alle prime armi. Il sentiero è ben segnalato e presenta solo alcuni brevi tratti in salita. Non ci sono passaggi tecnici impegnativi. Preparatevi a circa 3-4 ore per completare l''anello.</p>
 
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Potete scaricare la <strong id="traccia-gps">traccia GPS</strong> di questa escursione per guidarvi durante il percorso.  È consigliabile indossare scarpe da trekking, portare acqua, snack e una mappa del territorio.  Ricordatevi di informarsi sulle condizioni meteo prima di partire.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-  <li>Percorso di circa 12 km, con un dislivello medio di 150 metri.</li>
-  <li>Facilità di esecuzione: il <strong>sentiero</strong> è prevalentemente pianeggiante, con alcune lievi salite e discese.</li>
-  <li>Opportunità di osservare la fauna locale, tra cui uccelli acquatici, ungulati e avvoltoi.</li>
-  <li>Punti panoramici spettacolari sul <strong>Lago di Massaciuccoli</strong> e sulle colline circostanti.</li>
-  <li>Visita a un’oasi faunistica, un museo delle rovine romane e diverse fontane e chiese storiche.</li>
-</ul>
-
-<p>Preparatevi a un’<strong>escursione</strong> all’aria aperta in un ambiente naturale incontaminato, ricco di biodiversità. Questo <strong>trekking</strong> è perfetto per chi cerca una giornata di relax, svago e scoperta della <strong>natura</strong>.</p>
-
-<h3>Informazioni Utili: Dettagli per un''Escursione di Successo</h3>
-
-<ul>
-  <li>Punto di partenza: Area parcheggio di Massaciuccoli all’Osteria le Terme.</li>
-  <li>Difficoltà: Facile/Media.</li>
-  <li>Distanza: Circa 12 km.</li>
-  <li>Tempi di percorrenza: Circa 3-4 ore.</li>
-  <li>Punti di interesse: Oasi faunistica di Massaciuccoli, Museo delle Rovine Romane, punti panoramici, fontane, chiese storiche.</li>
-  <li>Dislivello: 150 metri.</li>
-  <li>Attrezzatura consigliata: Scarpe da trekking, abbigliamento a strati, acqua, snack, mappa, bussola/GPS.</li>
-</ul>
-
-<p>Esplorate il <strong>sentiero</strong> del <strong>Lago di Massaciuccoli</strong> e godetevi un’esperienza di <strong>trekking</strong> unica nel suo genere. Questo <strong>anello di sentieri</strong> è ideale per appassionati di <strong>escursionismo</strong> e <strong>sentieri in Italia</strong>.</p>',
+  <li><strong id="distanza">Distanza:</strong> Circa 15.12 km (anello)</li>
+  <li><strong id="dislivello">Dislivello:</strong> Circa 672 metri</li>
+  <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+  <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="punto-di-partenza">Punto di partenza:</strong> Area parcheggio di Massaciuccoli, Osteria le Terme, Massaciuccoli, Toscana, Italia</li>
+  <li><strong id="comune">Comune:</strong> Massaciuccoli, Toscana, Italia</li>
+  <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   15.12,
   672,

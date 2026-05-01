@@ -7,25 +7,37 @@ VALUES (
   107015230,
   'Rifugio Santi - Altaretto - Monte Rondinaio - Monte Rondinaio Lombardo - Lago Santo - Lago Baccio - Cima dell''uomo',
   'Percorso MOLTO bello da fare una volta della vita. Partenza dal Rifugio Santi salita iniziale fino al Monte Altaretto,abbiamo seguito il percorso lungo una cresta esposta sino al Rondinaio e poi abbiamo proseguito per il Rondinaio Lombardo da li siamo scesi verso il Lago Baccio e poi verso il Lago Santo (al rifugio Giovo c''èra una fontanella) da li abbiamo intrapreso il tratto finale del percorso fino alla Cima dell''uomo (vi è una croce nuova dal 2020) continuiamo, verso le macchine per una cresta dove vi sono dei sassini, da fare attenzione. Punti Positivi: 1)Facciamo 4 monti e tutti e 4 con un panorama unico, forse il più bello è il Rondnaio Lombardo, posto più centrale rispetto agli altri e la cresta dell''Altaretto. 2)Panorami unici 3)Visita di due laghi 4)Montagne Criticità: 1) i 650 mt di dislivello iniziali sono un unica salita abbastanza ripida e l''ultimo tratto è esposto al SOLE personalmente ho avuto difficoltà negli ultimi 50 mt 2) dopo l''Altaretto sulla cresta ci sono punti esposti prestar attenzione',
-  '<h2>Rifugio Santi – Altaretto – Monte Rondinaio – Monte Rondinaio Lombardo – Lago Santo – Lago Baccio – Cima dell’Uomo: Trekking in Montagna</h2>
+  '<h2 id="escursione-rifugio-santi-altaretto-monte-rondinaio-lago-santo-cima-dellumano">Escursione al Rifugio Santi - Altaretto - Monte Rondinaio - Lago Santo - Cima dell''Uomo</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong> in <strong>montagna</strong> offre un''esperienza indimenticabile, ideale per gli amanti dell''<strong>escursionismo</strong> e del <strong>trekking</strong> in <strong>Italia</strong>. Il percorso inizia al <strong>Rifugio Santi</strong>, con una salita iniziale che conduce al <strong>Monte Altaretto</strong>. Da qui, si prosegue lungo una spettacolare <em>cresta esposta</em> fino al <strong>Monte Rondinaio</strong>, proseguendo poi verso il <strong>Rondinaio Lombardo</strong>.  L''escursione continua con una discesa verso i <strong>laghi Baccio</strong> e <strong>Santo</strong>, passando per il <em>rifugio Giovo</em> con la sua fontanella. Il percorso culmina con una salita fino alla <strong>Cima dell’Uomo</strong>, dove è presente una nuova <em>croce dedicata</em> realizzata nel 2020.</p>
+<p>Ragazzi, questa escursione è stata un''esperienza INDOSSIABILE! Un vero e proprio trekking epico che vi regala panorami mozzafiato e un senso di realizzazione. Se cercate una sfida, un''escursione impegnativa con un premio da non sottovalutare, questo è il sentiero che fa per voi.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparati a un''<strong>escursione di trekking</strong> di difficoltà moderata-alta, con un dislivello totale di circa 650 metri. La <strong>trekking</strong>  offre panorami mozzafiato sulle cime circostanti, con un focus particolare sulla bellezza del <strong>Monte Rondinaio Lombardo</strong> e della <em>cresta dell’Altaretto</em>. Il sentiero presenta tratti esposti, soprattutto nell''ultimo tratto verso la <strong>Cima dell’Uomo</strong>, e alcuni punti rocciosi che richiedono attenzione.  È un''opportunità perfetta per godersi la <strong>natura</strong> e l''ambiente incontaminato della <strong>montagna italiana</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Moderata-Alta</li>
-    <li><strong>Distanza:</strong> Circa 12-15 km (a seconda del percorso seguito)</li>
-    <li><strong>Dislivello:</strong> 650 metri</li>
-    <li><strong>Tempo di percorrenza:</strong> 6-8 ore (circa)</li>
-    <li><strong>Punti di Interesse:</strong> 4 Monti con panorama unico, <strong>Lago Santo</strong>, <strong>Lago Baccio</strong>, <strong>Rifugio Giovo</strong>, <strong>Cima dell’Uomo</strong> con la nuova <em>croce</em></li>
-    <li><strong>Criticità:</strong> Tratto esposto sulla <em>cresta</em>, dislivello iniziale ripido, alcuni tratti rocciosi</li>
+<p>Il punto di partenza è il Rifugio Santi, facilmente raggiungibile in auto da Renaio. Il parcheggio è disponibile nelle vicinanze del rifugio. Dalla strada, si inizia la salita verso il Monte Altaretto.</p>
+
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>Il sentiero inizia con una salita ripida fino al Monte Altaretto, da qui si prosegue lungo una cresta esposta fino al Rondinaio, con un dislivello totale di circa 1298 metri.  Si continua verso il Rondinaio Lombardo, scendendo poi verso il Lago Baccio e il Lago Santo. Da qui, si affronta un tratto finale fino alla Cima dell''Uomo, dove è presente una croce nuova realizzata nel 2020. L''ultimo tratto, in particolare la cresta finale, presenta alcuni tratti esposti con sassolini, da affrontare con prudenza.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>Questa escursione è di difficoltà DIFFICILE. Il dislivello di 1298 metri e l''ultimo tratto esposto al sole richiedono una buona preparazione fisica e mentale.  Si consiglia di indossare scarpe da trekking adatte e di portare con sé acqua, cibo e abbigliamento adeguato alle condizioni meteorologiche. Il tratto finale, in particolare, può risultare impegnativo per chi soffre di vertigini o ha poca esperienza in montagna.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>La traccia GPS di questo percorso è disponibile su [Inserire link alla traccia GPS qui].</p>
+
+<ul id="informazioni-utili">
+  <li><strong>Distanza:</strong> Circa 19 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 1298 metri</li>
+  <li><strong>Difficoltà:</strong> Difficile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Rifugio Santi (accessibile in auto)</li>
+  <li><strong>Comune:</strong> Renaio, Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Questo <strong>trekking</strong> è perfetto per chi cerca un''avventura in <strong>montagna</strong>, un''esperienza di <strong>escursionismo</strong> completa e la possibilità di ammirare panorami unici. Ricorda di indossare scarpe da <strong>trekking</strong> adatte e di portare con te acqua e snack sufficienti. La <strong>natura</strong> offre un''esperienza unica, e questo <strong>sentiero</strong> è una delle scoperte più belle del territorio.  Esplora l''<strong>Italia</strong> con questo fantastico <strong>sentiero di trekking</strong>!</p>',
+<p>Non dimenticate di rispettare l''ambiente e di lasciare i sentieri puliti. Buona escursione!</p>',
   'Tutte le Attività e Paesi',
   19,
   1298,

@@ -7,33 +7,41 @@ VALUES (
   219150059,
   'La via delle erbe ~ Massaciuccoli – Tempio Hinduista, fiori di loto, lavanda, alpaca e Manipura',
   'Bellissimo percorso ad anello con partenza e arrivo presso il campo sportivo di Massaciuccoli (LU), ideale per una camminata culturale, naturalistica e rilassante. L’itinerario tocca diverse attrazioni della zona, facilmente accessibili e tutte collegate da sentieri semplici, adatti a tutti. Dal campo sportivo ci siamo diretti verso il Tempio Hinduista: un luogo unico e suggestivo, con ninfee, laghetti, statue in stile giapponese e numerosi pesci e animali acquatici. Dopo la visita, siamo passati a un vicino agriturismo hinduista, dove abbiamo trovato un altro piccolo tempio, statue del Buddha e animali ben curati. Proseguendo su un sentiero pianeggiante ci siamo avvicinati alla stazione di Migliarino, passando accanto all’allevamento di alpaca. All’andata non li abbiamo visti (era l’ora più calda della giornata), ma al ritorno li abbiamo trovati all’ombra, tranquilli e docili. A pochi passi si trova un’area con una coltivazione di fiori di loto, che consiglio vivamente di visitare nel periodo di piena fioritura (fino circa al 20 giugno). Il lago artificiale ospita anche gamberi rossi, ranocchie e altri piccoli animali. Il proprietario ci ha raccontato curiosità sul fiore di loto, che è completamente edibile e impiegato anche per ricavare tessuti e oggetti artigianali. La camminata ci ha portati poi a un circolo di pescatori, dove abbiamo pranzato (anche se quest’anno ci è stato chiesto un contributo di 5€ a persona). Dopo pranzo abbiamo raggiunto il campo di lavanda: accesso gratuito, ambiente profumatissimo e possibilità di acquistare prodotti locali. I proprietari sono molto cordiali e in estate organizzano anche eventi serali. Ultima tappa dell’escursione l’agriturismo Manipura, dove abbiamo potuto assaggiare miele e birra all’eucalipto — una vera sorpresa! Ottimi anche i dolci fatti in casa. Siamo rientrati alle auto nel primo pomeriggio, sotto il sole. Consigliamo cappello, crema solare e almeno una borraccia d’acqua, anche se non mancano fontane lungo il tragitto. Il percorso è tutto su sentieri semplici o sterrati facilmente percorribili, e chi preferisce può raggiungere le varie tappe anche in auto, grazie alla buona disponibilità di parcheggi. Durata totale: 5 ore con lunghe soste (stimabili 2h30'' senza soste) Difficoltà: Facile Lunghezza: ~10 km (Dislivello: trascurabile) Consigliato per: famiglie, escursionisti occasionali, appassionati di natura e cultura Periodo consigliato: giugno, durante la fioritura dei fiori di loto Note: evitare le ore più calde se non siete abituati a camminare sotto il sole',
-  '<h2>La via delle erbe ~ Massaciuccoli – Tempio Hinduista, fiori di loto, lavanda, alpaca e Manipura</h2>
+  '<h2 id="la-via-delle-erbe-massaciuccoli-tempio-hinduista-fiori-di-loto-lavanda-alpaca-manipura">La via delle erbe ~ Massaciuccoli – Tempio Hinduista, fiori di loto, lavanda, alpaca e Manipura</h2>
 
-<h3>Il percorso</h3>
-<p>
-    Questo splendido <strong>sentiero di trekking</strong> a <strong>Massaciuccoli</strong>, in Lucchesia, offre un’esperienza unica per gli <strong>escursionisti</strong> alla ricerca di una <strong>camminata culturale</strong>, <strong>naturalistica</strong> e <strong>rilassante</strong>. L''itinerario ad anello, di circa 10 km, è perfetto per <strong>trekking</strong> in famiglia e per chi pratica <strong>escursioni</strong> occasionali, con un <em>dislivello trascurabile</em>, rendendolo accessibile anche ai principianti. Il percorso si snoda attraverso paesaggi mozzafiato, passando per un <strong>tempio hinduista</strong>, campi di lavanda, un <em>allevamento di alpaca</em> e aree dedicate alla coltivazione di <strong>fiori di loto</strong>.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa bellissima escursione è il campo sportivo di Massaciuccoli, in Comune di Al Sasso, provincia di Lucca, Toscana. Il campo sportivo è facilmente raggiungibile in auto o con i mezzi pubblici. Dal campo sportivo, segui il sentiero indicato che ti conduce verso il Tempio Hinduista.</p>
 
-<h3>Cosa aspettarsi</h3>
-<ul>
-    <li>Un’escursione immersa nella natura e nella cultura della Toscana</li>
-    <li>La possibilità di visitare un <strong>tempio hinduista</strong> con ninfee, pesci e animali acquatici</li>
-    <li>Un <em>incontro con le alpaca</em> e la possibilità di ammirare il loro comportamento</li>
-    <li>La visita di un <strong>campo di fiori di loto</strong>, particolarmente suggestivo durante la fioritura (fino al 20 giugno)</li>
-    <li>Un’esperienza aromatica nel <strong>campo di lavanda</strong>, con la possibilità di acquistare prodotti locali</li>
-    <li>Una degustazione di <strong>miele</strong> e <strong>birra all’eucalipto</strong> presso l''agriturismo Manipura</li>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo percorso ad anello di circa 13.34 km ti condurrà attraverso un paesaggio variegato e ricco di sorprese. Inizierai dal campo sportivo e ti dirizzerai verso il Tempio Hinduista, ammirando la sua bellezza e la sua atmosfera unica. Proseguirai poi verso un vicino agriturismo hinduista, dove potrai ammirare statue del Buddha e animali ben curati. </p>
+<p>Percorrerai un sentiero pianeggiante fino alla stazione di Migliarino, dove potrai ammirare un allevamento di alpaca. Al ritorno, potrai visitare un’area con una coltivazione di fiori di loto e un circolo di pescatori. Infine, concluderai la tua escursione all''agriturismo Manipura, dove potrai assaggiare miele e birra all’eucalipto.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>La difficoltà di questa escursione è valutata come Medio. Il percorso è tutto su sentieri semplici o sterrati facilmente percorribili, adatto a escursionisti occasionali e famiglie. La lunghezza del percorso è di circa 13.34 km con un dislivello di 0 metri. La durata totale dell''escursione è di circa 5 ore con soste, ma può essere ridotta a circa 2h30'' senza soste.  È consigliata la preparazione fisica adeguata.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class="track-gps">
+    <li><strong>Distanza:</strong> Circa 13.34 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 0 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Giugno, durante la fioritura dei fiori di loto</li>
+    <li><strong>Punto di partenza:</strong> Campo sportivo di Massaciuccoli, Al Sasso, Lucca</li>
+    <li><strong>Comune:</strong> Al Sasso, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni utili</h3>
-<p>
-    La <strong>durata totale</strong> dell’escursione è di circa 5 ore, con soste, ma può essere ridotta a 2h30'' senza soste. La <strong>difficoltà</strong> è <strong>facile</strong>, adatta a <strong>famiglie</strong>, <strong>escursionisti occasionali</strong> e <strong>appassionati di natura</strong> e <strong>cultura</strong>. Il percorso è ideale da affrontare nel periodo di <strong>giugno</strong>, durante la <strong>fioritura dei fiori di loto</strong>. Si consiglia di indossare <strong>cappello</strong>, <strong>crema solare</strong> e di portare almeno una <strong>borraccia d’acqua</strong>, soprattutto durante le ore più calde. Il sentiero è costituito da <strong>sentieri semplici</strong> o sterrati, facilmente percorribili, e sono disponibili parcheggi nelle diverse tappe. <em>Contributo di 5€ richiesto al pranzo presso il circolo di pescatori.</em>
-</p>
-<p>
-    <strong>Periodo consigliato:</strong> Giugno - Luglio. <strong>Consigliato per:</strong> famiglie, escursionisti occasionali, appassionati di natura e cultura. <strong>Lunghezza:</strong> ~10 km. <strong>Difficoltà:</strong> Facile.
-</p>
-<p>
-    <strong>Note:</strong> Evitare le ore più calde se non siete abituati a camminare sotto il sole. Portare con sé un cappello, crema solare e acqua.
-</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong>Distanza:</strong> Circa 13.34 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 0 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Giugno, durante la fioritura dei fiori di loto</li>
+    <li><strong>Punto di partenza:</strong> Campo sportivo di Massaciuccoli (accessibile in auto / a piedi)</li>
+    <li><strong>Comune:</strong> Al Sasso, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>
+
+<p>Consigliamo cappello, crema solare e almeno una borraccia d’acqua, anche se non mancano fontane lungo il tragitto. Il percorso è tutto su sentieri semplici o sterrati facilmente percorribili, e chi preferisce può raggiungere le varie tappe anche in auto, grazie alla buona disponibilità di parcheggi.</p>',
   'Tutte le Attività e Paesi',
   13.34,
   0,

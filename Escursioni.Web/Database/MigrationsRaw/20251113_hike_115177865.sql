@@ -7,30 +7,43 @@ VALUES (
   115177865,
   'Passo del Lucese - Rifugio La Casa del Maestro - Baita Verde - Baita Barsi',
   'Escursione in direzione del Monte Prana. Siamo partiti dal Ristorante della Lucese, e da li abbiamo preso il sentiero 101, già era iniziato a piovere, ma il meteo è peggiorato appena superata la Casa del Maestro, da li siamo tornati in dietro e abbiamo scelto di proseguire verso la Chiesa di Campo all''orzo. Abbiamo trovato i due rufugi Brasi e Verde chiusi. Abbiamo preso tanta acqua ma camminare nella nebbia è sempre un esperienza unica.',
-  '<h2>Passo del Lucese - Rifugio La Casa del Maestro - Baita Verde - Baita Barsi: Escursione Trekking in Montagna</h2>
+  '<h2 id="passo-del-lucese-rifugio-la-casa-del-maestro-baita-verde-baita-barsi">Escursione al Passo del Lucese e ai Rifugi: Lucese, Rifugio La Casa del Maestro, Baita Verde e Baita Barsi</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<p>Preparatevi per un’incantevole <strong>escursione trekking</strong> attraverso le splendide montagne della regione. Questo percorso, denominato <strong>Passo del Lucese</strong>, vi condurrà attraverso paesaggi mozzafiato, ideali per <strong>sentieri in montagna</strong> e per gli amanti della <strong>natura</strong>. Partiremo dal punto di partenza, il <strong>Ristorante della Lucese</strong>, e seguiremo il <strong>sentiero 101</strong>, un percorso ben segnalato che offre viste panoramiche uniche. La nostra <strong>escursione in Italia</strong> culminerà con una serie di rifugi e baita, offrendo la possibilità di ammirare il <strong>Monte Prana</strong> e immergersi nella tranquillità della natura.</p>
+Partenza dal Ristorante della Lucese, un luogo facile da individuare all''ingresso del comune. Da qui, inizia il sentiero 101, ben segnalato per gli escursionisti. Il ristorante offre anche la possibilità di rifornirsi prima o dopo l''escursione.
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<p>Questa <strong>escursione di trekking</strong> è adatta a escursionisti esperti, con un''adeguata preparazione fisica. Il percorso presenta alcuni tratti ripidi e irregolari, ma offre ricompense straordinarie in termini di panorami e biodiversità. Preparatevi ad affrontare possibili condizioni meteorologiche variabili, soprattutto in alta quota. L’<strong>escursione nel cuore della montagna</strong> può essere influenzata dalla nebbia, rendendo l’esperienza ancora più suggestiva e avventurosa.  La <strong>paesaggio alpino italiano</strong> vi lascerà senza fiato.</p>
+L''escursione inizia con una salita graduale lungo il sentiero 101, che ci conduce al Rifugio La Casa del Maestro. Il meteo è stato variabile, con piogge improvvise che hanno reso il percorso più impegnativo.  Superata la Casa del Maestro, abbiamo deciso di proseguire verso la Chiesa di Campo all''Orzo, con una deviazione sul sentiero. Abbiamo attraversato la zona dei rifugi Brasi e Verde, ora chiusi, ma il paesaggio è rimasto affascinante.  Il sentiero ci ha portato poi alla Baita Barsi, un punto perfetto per ammirare il panorama.  Il ritorno è stato lungo lo stesso sentiero, godendoci ogni passo di questa bella escursione.
 
-<h3>Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
 
-<ul>
-    <li><strong>Distanza Totale:</strong> Circa 15 km (potrebbe variare in base al percorso seguito)</li>
-    <li><strong>Difficoltà:</strong> Media – Richiede una buona preparazione fisica</li>
-    <li><strong>Dislivello:</strong> Circa 800 metri</li>
-    <li><strong>Punto di Partenza:</strong> Ristorante della Lucese</li>
-    <li><strong>Sentiero:</strong> Sentiero 101</li>
-    <li><strong>Luoghi di Interesse:</strong> Rifugio La Casa del Maestro, Baita Verde, Baita Barsi, Chiesa di Campo all''orzo, Rifugi Brasi e Verde (chiusi), <strong>Monte Prana</strong></li>
-    <li><strong>Periodo Consigliato:</strong> Estate/Autunno (controllare le previsioni meteo prima di partire)</li>
-    <li><strong>Attrezzatura Consigliata:</strong> Scarponi da trekking, zaino, abbigliamento a strati, acqua, cibo, mappa, bussola/GPS, kit di pronto soccorso</li>
-</ul>
+Questa escursione è di difficoltà media, adatta a escursionisti con una buona preparazione fisica. Il dislivello di 898 metri richiede un certo sforzo, ma il sentiero è ben tenuto e il paesaggio offre delle pause di respiro.  È consigliabile indossare scarpe da trekking adeguate e portare con sé acqua e cibo. La nebbia ha reso l''esperienza ancora più suggestiva, trasformando il paesaggio in un''atmosfera magica.
 
-<p>Ricordatevi di rispettare l’ambiente durante la vostra <strong>trekking</strong> e di seguire le indicazioni dei sentieri. Godetevi questa emozionante <strong>escursione in montagna</strong> e la bellezza del <strong>Passo del Lucese</strong>!</p>',
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+Per ritrovare il percorso, ti consiglio di utilizzare la seguente traccia GPS (da caricare nella tua app di navigazione): [Inserire qui la traccia GPS, se disponibile]
+
+*   **Distanza:** 14.16 km (anello)
+*   **Dislivello:** 898 metri
+*   **Difficoltà:** Medio
+*   **Periodo consigliato:** Primavera, Estate, Autunno
+*   **Punto di partenza:** Ristorante della Lucese, Lucese, Toscana, Italia
+*   **Comune:** Lucese, Toscana, Italia
+*   **Tipo di sentiero:** Sentiero escursionistico 
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li >Distanza: Circa 14.16 km (anello)</li>
+  <li >Dislivello: Circa 898 metri</li>
+  <li >Difficoltà: Medio</li>
+  <li >Periodo consigliato: Primavera, Estate, Autunno</li>
+  <li >Punto di partenza: Ristorante della Lucese, accessibile in auto</li>
+  <li >Comune: Lucese, Toscana</li>
+  <li >Tipo di sentiero: Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   14.16,
   898,

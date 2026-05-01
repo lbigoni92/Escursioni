@@ -7,29 +7,31 @@ VALUES (
   135432935,
   'Gabbro- monte Carvoli',
   'Percorso improvvisato all''ultimo, doveva essere molto più lungo ma è stato interrotto dalla pioggia improvvisa... I vare sentieri che vedete iniziati ma non finiti sono così perchè completamenti immersi nella vegetazione e non più percorribili. Il monte merita molto con i sui tre balconi panoramici.',
-  '<h2>Gabbro- Monte Carvoli: Trekking e Escursioni tra i Balconi Panoramici</h2>
+  '<h2 id="gabbro-monte-carvoli">Escursione al Gabbro del Monte Carvoli</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa escursione al Gabbro del Monte Carvoli si trova a Nibbiaia, in Toscana.  È raggiungibile in auto, seguendo le indicazioni per la frazione di Nibbiaia.  Dalla strada principale, si trova un parcheggio limitato dove lasciare l''auto e da lì è necessario seguire il sentiero iniziale per raggiungere il punto di partenza del percorso.  L''ultimo tratto è improvvisato, quindi preparatevi a un''ultima breve salita.</p>
 
-<p>Preparatevi per un''escursione indimenticabile lungo il <strong>sentiero Gabbro- Monte Carvoli</strong>, un percorso improvvisato che vi porterà a scoprire uno dei punti più suggestivi delle Langhe. Questo <strong>trekking</strong> in <strong>montagna</strong>, ideale per gli amanti della <strong>natura</strong> e del <strong>trekking</strong>, si snoda attraverso un paesaggio unico, caratterizzato da roccia calcarea e dalla profonda immersione nella vegetazione. Nonostante le condizioni del terreno, il sentiero offre panorami mozzafiato, con tre balconi panoramici che ampliano la visuale e vi lasceranno senza fiato. La difficoltà del <strong>sentiero</strong> è media, adatto a escursionisti esperti e a famiglie con bambini che desiderano un''esperienza di <strong>escursione</strong> fuori dai soliti circuiti.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo trekking al Gabbro del Monte Carvoli è un''escursione ad anello di circa 7.05 km. Il sentiero iniziale è piuttosto impervio, immerso nella vegetazione, e alcuni sentieri inizati ma non completati sono frutto della sua posizione nascosta.  Il percorso si snoda attraverso boschi e radici, offrendo panorami incantevoli. Il punto culminante è, ovviamente, la cima del monte Carvoli, con i suoi tre balconi panoramici che offrono una vista mozzafiato sulla campagna circostante. La pioggia improvvisa ha interrotto il percorso, rendendolo più breve e impegnativo.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione al Gabbro del Monte Carvoli presenta una difficoltà valutata come Media.  Il sentiero è in alcuni tratti piuttosto tecnico, con saliscendi e tratti rocciosi.  La distanza totale è di 7.05 km con un dislivello positivo di 192 metri.  È consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack.  Considerando la posizione e l''immersione nella vegetazione, preparatevi a un''escursione impegnativa, ma ricca di soddisfazioni.</p>
 
-<p>Durante il vostro <strong>trekking</strong> verso il <strong>Monte Carvoli</strong>, vi troverete immersi in un ambiente incontaminato, ricco di biodiversità e di flora autoctona. L''escursione vi permetterà di ammirare le caratteristiche formazioni geologiche del <strong>gabbro</strong>, testimonianza di un passato vulcanico. Preparatevi a un''esperienza autentica di <strong>trekking</strong> in <strong>Italia</strong>, lontano dal caos cittadino, dove potrete riconnettervi con la <strong>natura</strong> e godervi la tranquillità della <strong>montagna</strong>. Questo <strong>sentiero</strong>, sebbene non completato, rimane un''opportunità unica per esplorare le zone più remote e selvagge delle Langhe, offrendo un''esperienza di <strong>escursione</strong> emozionante e gratificante.  La pioggia improvvisa ha interrotto il percorso, rendendolo in parte inaccessibile, ma la ricompensa per l''escursione è comunque immensa.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per facilitare la vostra escursione, vi forniamo una traccia GPS (da utilizzare con le vostre app preferite).  Ricordatevi di controllare sempre le previsioni meteo prima di partire e di informare qualcuno del vostro itinerario.  L''escursione è consigliata in primavera, estate e autunno per godere al meglio del panorama.</p>
 
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
+  <li><strong>Distanza:</strong> Circa 7.05 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 192 metri</li>
   <li><strong>Difficoltà:</strong> Media</li>
-  <li><strong>Distanza:</strong> Percorso improvvisato, lunghezza variabile a seconda dell''accessibilità</li>
-  <li><strong>Dislivello:</strong> Circa 300-400 metri</li>
-  <li><strong>Durata:</strong> 3-4 ore (a seconda del passo e delle soste)</li>
   <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
-  <li><strong>Equipaggiamento:</strong> Scarpe da trekking, abbigliamento a strati, acqua, cibo, cappello, crema solare, bastoncini da trekking (consigliati)</li>
-  <li><strong>Località:</strong> Langhe, Piemonte, Italia - Sentiero accessibile solo in condizioni di asciutto</li>
-</ul>
-
-<p>Questo <strong>sentiero</strong>, un''escursione di <strong>trekking</strong> nel <strong>Monte Carvoli</strong>, vi regala una giornata di adrenalina e panorami mozzafiato. Non perdetevi l''opportunità di scoprire questo angolo di <strong>Italia</strong>, ricco di storia e di bellezze naturali. Ricordatevi di rispettare l''ambiente e di seguire le indicazioni per un''esperienza di <strong>escursione</strong> sicura e responsabile.</p>',
+  <li><strong>Punto di partenza:</strong> Sentiero iniziale a Nibbiaia, Toscana</li>
+  <li><strong>Comune:</strong> Nibbiaia, Toscana</li>
+  <li><strong>Regione:</strong> Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.05,
   192,

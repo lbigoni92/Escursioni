@@ -7,30 +7,51 @@ VALUES (
   87371098,
   'Due giorni - Pania della croce',
   'partenza dalla Cappella votiva del C.A.I. 55020 Molazzana LU parcheggio a pagamento 3 euro tutto il giorno. Abbiamo preso il sentiero dove siamo arrivati al rifugio rossi e piantato le tende, in seguito abbiamo proseguito fino alla vetta dove abbiamo visto il tramonto, in seguito siamo scesi con le ultime luci. Consiglio di portare una torcia frontale bello il punto sulla salita dov''è possibile vedere della neve perenne. La mattina seguente abbiamo visto sorgere il sole in ima all'' Uomo Morto, spettacolo stupendo',
-  '<h2>Due giorni - Pania della Croce Trekking a Molazzana, Lucca</h2>
+  '<h2 id="due-giorni-pania-della-croce">Due giorni - Pania della Croce</h2>
 
-<h3>Il percorso</h3>
+<p>
+Avventurarsi sulla Pania della Croce, in Toscana, è un''esperienza che ricorderai per sempre. Questo itinerario di due giorni vi porterà a scoprire uno dei panorami più spettacolari della regione, culminando con l''alba sulla cima.  Preparatevi a un trekking impegnativo ma gratificante!
+</p>
 
-<p>Preparatevi per un’entusiasmante <em>escursione di trekking</em> di due giorni sul sentiero della <strong>Pania della Croce</strong>, un’esperienza indimenticabile nel cuore delle montagne lucchesi. Partiremo dalla suggestiva <strong>Cappella votiva del C.A.I.</strong> a <strong>Molazzana</strong>, in provincia di <strong>Lucca</strong>. Il percorso si snoda attraverso sentieri naturali, offrendo panorami mozzafiato sulla pianura lucchese e sulle Alpi Apuane. Questa <em>trekking</em> è perfetta per appassionati di natura e di <em>sentieri</em>, che desiderano vivere un''<em>escursione</em> in montagna.</p>
-
-<p>Il primo giorno ci condurrà al <strong>rifugio Rossi</strong>, dove potremo sistemare le tende e godere di una meritata pausa. Il sentiero è ben segnalato, ma è consigliabile indossare scarpe da trekking adatte e portare con sé acqua e cibo.  Il percorso è ideale per un <em>trekking</em> di media difficoltà, con alcuni tratti in salita, ma sempre accompagnati dalla bellezza della <em>natura</em>.</p>
-
-<h3>Cosa aspettarsi</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
 <ul>
-  <li>Viste panoramiche mozzafiato sulla pianura lucchese e sulle Alpi Apuane.</li>
-  <li>Possibilità di ammirare il tramonto dalla cima della <strong>Pania della Croce</strong>, un’esperienza indimenticabile.</li>
-  <li>Tratto in salita con alcune sezioni in ambiente alpino, dove potrete ammirare la neve perenne.</li>
-  <li>Opportunità di avvistare la flora e la fauna tipiche della macchia mediterranea e delle zone alpine.</li>
+    <li>Il punto di partenza è la <strong>Cappella votiva del C.A.I. 55020 Molazzana LU</strong>.</li>
+    <li>Dallo stesso punto di partenza, parcheggiate dove è disponibile un parcheggio a pagamento, il cui costo è di <strong>3 euro per l''intero giorno</strong>.</li>
 </ul>
 
-<p>Consigliamo di portare con sé una <strong>torcia frontale</strong>, soprattutto durante la discesa, per garantire la sicurezza e godere appieno del tramonto. La zona offre molte possibilità di <em>sentieri</em> in montagna per tutti i livelli.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<h3>Informazioni utili</h3>
+<p>
+Il primo giorno, dopo il parcheggio, seguirà il <strong>sentiero</strong> che vi porterà al <strong>rifugio Rossi</strong>, dove potrete accamparvi. Da qui, proseguirete fino alla <strong>vetta</strong>, dove ammirerete un tramonto mozzafiato. Il secondo giorno,  inizierete l''ascesa all''alba per raggiungere l''<strong>"Uomo Morto"</strong>, un luogo perfetto per assistere allo splendido sorgere del sole. La salita finale è impegnativa, ma la ricompensa è impagabile.  Ricordate di portare una <strong>torcia frontale</strong>, soprattutto durante la discesa, in quanto le ultime luci potrebbero non essere sufficienti. Un tratto in particolare, durante la salita, offre la possibilità di ammirare della <strong>neve perenne</strong>, un vero spettacolo!
+</p>
 
-<p>Il parcheggio a pagamento è di 3 euro per tutto il giorno presso la zona indicata. È consigliabile informarsi sulle condizioni meteo prima di partire e indossare abbigliamento e calzature adatte per un <em>trekking</em> in <em>montagna</em>. Ricordate che la <strong>Pania della Croce</strong> è un''area protetta, quindi rispettate l’ambiente e non lasciate rifiuti.  Questo <em>sentiero</em> è perfetto per un''<em>escursione</em> di fine estate o inizio autunno, quando le temperature sono ancora miti e il panorama è ancora ricco di colori. Preparatevi a una bella <em>trekking</em> in Italia.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
 
-<p>L’appuntamento si terrà presso la <strong>Cappella votiva del C.A.I.</strong>, all’indirizzo 55020 Molazzana LU.  Valutate l’utilizzo di una mappa o di una guida escursionistica per una navigazione ottimale durante il <em>trekking</em>.  Questa gita in <em>montagna</em> vi lascerà un ricordo indelebile, pieno di emozioni e di stupore di fronte alla <em>natura</em> italiana.</p>',
+<ul>
+    <li><strong>Difficoltà:</strong> Difficile</li>
+    <li><strong>Distanza:</strong> 9.73 km (anello)</li>
+    <li><strong>Dislivello:</strong> +1000 m</li>
+    <li>L''escursione richiede una buona preparazione fisica, in quanto il percorso è impegnativo e presenta diversi tratti in salita.</li>
+    <li>È consigliabile indossare scarpe da trekking adatte e abbigliamento adeguato alle condizioni meteorologiche.</li>
+</ul>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>
+<em>(Si prega di notare che non è disponibile una traccia GPS precisa per questa escursione. Vi consigliamo di consultare mappe e guide cartacee per pianificare il vostro percorso.)</em></p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+    <li ><strong >Distanza:</strong> Circa 9.73 km (anello)</li>
+    <li ><strong >Dislivello:</strong> Circa 1000 metri</li>
+    <li ><strong >Difficoltà:</strong> Difficile</li>
+    <li ><strong >Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li ><strong >Punto di partenza:</strong> Cappella votiva del C.A.I. 55020 Molazzana LU</li>
+    <li ><strong >Comune:</strong> Cornola, Toscana</li>
+    <li ><strong >Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   9.73,
   1000,

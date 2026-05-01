@@ -7,31 +7,30 @@ VALUES (
   117780402,
   'Monte Prado e Lago di Bargetana',
   'Il Monte Prado e il Lago Bargetana E''stata una magnifica escursione nell Appennino Tosco-Emiliano, con dei colori autunnali magnifici. La salita sul Monte Prado e facile anche se lunga e ci vuole un po'' di resistenza( con i suoi 2054m è la vetta ⛰️più alta della Toscana). Abbiamo fatto una tappa al Lago Bargetana e al Rifugio Cella. Il percorso parte in salita, non è mai troppo ripida ma comunque il dislivello è importante, prima di arrivare sul Prado abbiamo fatto tappa(opzionale) su un altro monte che era di passaggio. Il ritorno ha una leggera salita... Ma niente di preoccupante, i sentimenti sono sempre abbastanza larghi. Ci sono due rifugi lungo il percorso noi siamo passati dal rifugio Cella. La fontana che abbiamo passato era a corto di acqua, causa siccità',
-  '<h2>Trekking Monte Prado e Lago di Bargetana: Escursione in Appennino Tosco-Emiliano</h2>
+  '<h2 id="escursione-monte-prado-e-lago-bargetana">Escursione al Monte Prado e al Lago di Bargetana</h2>
 
-<h3>Il Percorso</h3>
-<p>
-La <strong>escursione</strong> al <strong>Monte Prado e Lago di Bargetana</strong> è un’esperienza indimenticabile nel cuore dell’<strong>Appennino Tosco-Emiliano</strong>. Questo <strong>sentiero di trekking</strong>, adatto anche a escursionisti esperti, si snoda attraverso paesaggi mozzafiato, offrendo panorami spettacolari sulle colline circostanti e le valli profonde. Il percorso, di lunghezza considerevole, si presenta inizialmente in forte salita, richiedendo una buona resistenza fisica. La <strong>difficoltà</strong> è media, ma il significativo <strong>dislivello</strong> (2054m) e la lunghezza del percorso lo rendono un''esperienza impegnativa ma gratificante, perfetta per chi ama l’<strong>escursionismo in montagna</strong> e la scoperta della <strong>natura selvaggia</strong>.
-</p>
-<p>
-Dopo una tappa iniziale in salita, il sentiero prosegue lungo il pendio del <strong>Monte Prado</strong>, offrendo scorci sempre più ampi sulla zona circostante. È prevista una deviazione opzionale verso un altro monte di passaggio, che arricchisce ulteriormente l''esperienza. Il ritorno presenta una leggera pendenza, agevolando il rientro verso il punto di partenza. Questo <strong>trekking</strong> in Toscana permette di immergersi completamente nel silenzio e nella tranquillità della <strong>montagna</strong>, un vero e proprio rifugio dalla frenesia della vita quotidiana.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa bellissima escursione al Monte Prado e al Lago di Bargetana è a Casone, in provincia di Toscana.  È facilmente raggiungibile in auto o tramite diversi sentieri che partono dal paese.  Verifica sempre le condizioni del percorso e le previsioni meteo prima di partire, soprattutto in alta montagna.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<ul>
-    <li>Un''escursione di media difficoltà, adatta a escursionisti esperti.</li>
-    <li>Un dislivello impegnativo, con un guadagno di quota di circa 2054 metri.</li>
-    <li>Paesaggi spettacolari con panorami mozzafiato sull''Appennino Tosco-Emiliano.</li>
-    <li>La possibilità di ammirare colori autunnali magnifici (in stagione).</li>
-    <li>La presenza di due rifugi lungo il percorso, il Rifugio Cella, ideale per ricaricare le energie.</li>
-    <li>Un''opportunità unica per praticare <strong>trekking</strong> e <strong>escursionismo</strong> in un ambiente naturale incontaminato.</li>
-</ul>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Partiremo da Casone con un giro ad anello che ci porterà in cima al Monte Prado, con una tappa al suggestivo Lago di Bargetana e al Rifugio Cella.  Il sentiero iniziale è in salita e presenta una pendenza costante, ma non è mai troppo ripida.  Dopo circa 8 km, raggiungeremo il Lago di Bargetana, un luogo incantevole dove potremo ammirare il panorama. Proseguiremo fino al Rifugio Cella, un ottimo punto di ristoro per ricaricare le energie.  Dal rifugio, la salita al Monte Prado proseguirà, raggiungendo la vetta con un dislivello di circa 900 metri.  Il ritorno avrà una leggera pendenza, ma non costituisce una vera sfida. Questa escursione è ideale per chi ama i panorami mozzafiato e le sfide moderate.</p>
 
-<h3>Informazioni Utili</h3>
-<p>
-Il <strong>sentiero</strong> per il <strong>Monte Prado e Lago di Bargetana</strong> è situato nell’Appennino Tosco-Emiliano, in Emilia-Romagna. La zona del <strong>Lago di Bargetana</strong> offre un ambiente naturale unico e affascinante. Si consiglia di partire con un''adeguata preparazione fisica e di indossare scarpe da trekking comode. È importante verificare le condizioni meteorologiche prima di partire e portare con sé acqua, cibo e abbigliamento adeguato. La fontana di passaggio era a corto di acqua, a causa della siccità.</p>
-<p>
-Non dimenticate di rispettare l’ambiente circostante, seguendo i principi del <strong>turismo responsabile</strong>. Questa <strong>escursione</strong> è un’ottima opportunità per vivere un’esperienza autentica in Italia, immergendosi nella <strong>natura</strong> e nella sua bellezza. Preparatevi per un’indimenticabile <strong>trekking</strong> in un angolo d''Italia da vivere con la giusta preparazione e attrezzatura.</p>',
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è classificata come "Medio". Richiede una buona condizione fisica, soprattutto per affrontare la salita al Monte Prado.  Il dislivello di 900 metri e la distanza di 18.08 km (anello) richiedono un minimo di preparazione. Aspettati un percorso con tratti in salita e discesa, alcuni sentieri potrebbero essere sterrati o con ciottoli. Porta con te acqua, cibo e abbigliamento adeguato alle condizioni meteo. </p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Sarà disponibile presto la traccia GPS di questa escursione. In alternativa, consulta la mappa del percorso e fai riferimento a guide escursionistiche locali.  Ricorda di informarti sulle condizioni del sentiero prima di partire e di comunicare il tuo itinerario a qualcuno.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+  <li ><b>Distanza:</b> Circa 18.08 km (anello)</li>
+  <li ><b>Dislivello:</b> Circa 900 metri</li>
+  <li ><b>Difficoltà:</b> Medio</li>
+  <li ><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+  <li ><b>Punto di partenza:</b> Casone, accessibile in auto / a piedi</li>
+  <li ><b>Comune:</b> Casone, Toscana</li>
+  <li ><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   18.08,
   900,

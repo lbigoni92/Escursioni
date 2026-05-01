@@ -7,29 +7,38 @@ VALUES (
   193377883,
   'Valle Benedetta - Colognole - Acquedotto Leopoldino (Acquedotto di Colognole) ~ Grotte',
   'Il percorso presenta difficoltà minime, grazie al terreno molto secco nonostante il periodo di novembre. Tuttavia, in caso di pioggia, alcuni tratti potrebbero diventare impegnativi o fastidiosi a causa del fango, quindi è consigliabile prestare attenzione. L''itinerario parte da Valle Benedetta, seguendo l’Acquedotto Leopoldino, per poi attraversare Parrana San Giusto e Pandoiano, seguendo i sentieri CAI (121 - 113 - Parrana San Giusto - Pandolino - 121 - 125 - 119 - 123 - 100). Un punto che richiede particolare attenzione è il tratto da Pandolino alla prima cascata. Qui, in corrispondenza del segmento che ho fotografato, si trovano delle tavole che risultano molto umide e fragili, quindi è bene procedere con cautela. - Per il resto, il percorso è sempre praticabile e non presenta difficoltà significative. Gli unici aspetti a cui prestare attenzione sono: - Le grotte, esplorabili esclusivamente con una torcia frontale, che meritano assolutamente una visita. Il tratto sull''acquedotto, dove il passaggio sopra gli archi, pur non essendo obbligatorio, potrebbe risultare poco gradito a qualcuno che soffre di vertigini.',
-  '<h2>Valle Benedetta - Colognole - Acquedotto Leopoldino (Acquedotto di Colognole) - Trekking e Grotte</h2>
+  '<h2 id="escursione-valle-benedetta-colognole-acquedotto-leopoldino-grotte">Escursione alla Valle Benedetta, Colognole e Acquedotto Leopoldino</h2>
 
-<h3>Il Percorso: Escursione Attraverso la Valle Benedetta</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa fantastica escursione è in <strong>Valle Benedetta</strong>, facilmente raggiungibile in auto. Da qui, segui le indicazioni per l''Acquedotto Leopoldino, che sarà il tuo punto di partenza e di arrivo. È consigliabile arrivare con un mezzo per poi proseguire a piedi lungo il sentiero.</p>
 
-<p>Partite da <strong>Valle Benedetta</strong> per un''affascinante <strong>escursione trekking</strong> che vi condurrà lungo l''iconico <strong>Acquedotto Leopoldino</strong>, un''opera di ingegneria storica. Questo sentiero di <strong>trekking</strong> offre un''esperienza unica nella <strong>montagna italiana</strong>, immersi nella <strong>natura</strong> e tra le rovine di <strong>Parrana San Giusto</strong> e <strong>Pandoiano</strong>. L''itinerario, seguendo i sentieri CAI (121 - 113 - Parrana San Giusto - Pandolino - 121 - 125 - 119 - 123 - 100), è progettato per un''esperienza di <strong>escursione</strong> indimenticabile, perfetto per appassionati di <strong>trekking</strong> e amanti della <strong>natura</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Partiremo da <strong>Valle Benedetta</strong>, seguendo l''<strong>Acquedotto Leopoldino</strong> che ci porterà attraverso <strong>Parrana San Giusto</strong> e <strong>Pandoiano</strong>. Il sentiero è caratterizzato da un percorso ben tracciato, in gran parte all''interno dei sentieri CAI (121 - 113 - Parrana San Giusto - Pandolino - 121 - 125 - 119 - 123 - 100).  Durante il tragitto, avrai la possibilità di ammirare un panorama mozzafiato. La parte più impegnativa è il tratto da <strong>Pandolino</strong> alla prima cascata, dove il terreno è particolarmente umido e fragile, richiedendo attenzione. Non dimenticare di esplorare le <strong>grotte</strong>, accessibili solo con una torcia frontale.</p>
 
-<h3>Cosa Aspettarsi: Difficoltà e Condizioni del Sentiero</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa <strong>escursione</strong> è di livello <strong>medio</strong>. Il dislivello di circa <strong>455 metri</strong> richiede una buona preparazione fisica, ma il sentiero è ben tenuto e adatto anche a escursionisti meno esperti. Il percorso è principalmente su sentiero, con alcuni tratti più scoscesi. Il percorso presenta un totale di <strong>11.61 km</strong>.</p>
 
-<p>Questo <strong>sentiero</strong> presenta <strong>difficoltà minime</strong>, grazie al terreno asciutto di <strong>novembre</strong>. Tuttavia, in condizioni di pioggia, alcuni tratti potrebbero diventare scivolosi o impegnativi a causa del <strong>fango</strong>, richiedendo particolare attenzione durante la <strong>escursione</strong>. La distanza totale del percorso è di circa 12 km, con un dislivello di 300 metri, ideale per un''<strong>escursione</strong> di un giorno.  Assicuratevi di controllare le previsioni meteo prima di partire per la vostra <strong>escursione trekking</strong>.</p>
-
-<h3>Informazioni Utili: Dettagli e Consigli per il Trekking</h3>
-
-<ul>
-    <li><strong>Difficoltà:</strong> Facile/Media</li>
-    <li><strong>Distanza:</strong> Circa 12 km</li>
-    <li><strong>Dislivello:</strong> 300 metri</li>
-    <li><strong>Periodo Ideale:</strong> Primavera, Estate, Autunno (tenendo conto delle condizioni meteorologiche)</li>
-    <li><strong>Punti di Interesse:</strong> <strong>Acquedotto Leopoldino</strong>, Grotte, Cascate, Rovine di Parrana San Giusto e Pandoiano</li>
-    <li><strong>Attrezzatura Consigliata:</strong> Scarponi da trekking, bastoncini da trekking, acqua, cibo, torcia frontale (per l''esplorazione delle grotte), abbigliamento a strati.</li>
-    <li><strong>Attenzione:</strong> Il tratto da <strong>Pandolino</strong> alla prima cascata richiede particolare cautela a causa del terreno umido e fragile.</li>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<ul class="unordered-list">
+    <li><strong>Distanza:</strong> Circa 11.61 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 455 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Valle Benedetta (accessibile in auto)</li>
+    <li><strong>Comune:</strong> Valle Benedetta, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Non perdetevi l''opportunità di esplorare le affascinanti <strong>grotte</strong>, accessibili esclusivamente con una torcia frontale. Questa <strong>escursione</strong> nella <strong>Valle Benedetta</strong> vi regalerà un''esperienza unica nel cuore della <strong>montagna italiana</strong>, perfetta per gli amanti del <strong>trekking</strong> e del <strong>sentiero</strong>.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li ><strong>Distanza:</strong> Circa 11.61 km (anello)</li>
+    <li ><strong>Dislivello:</strong> Circa 455 metri</li>
+    <li ><strong>Difficoltà:</strong> Medio</li>
+    <li ><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li ><strong>Punto di partenza:</strong> Valle Benedetta (accessibile in auto)</li>
+    <li ><strong>Comune:</strong> Valle Benedetta, Toscana</li>
+    <li ><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.61,
   455,

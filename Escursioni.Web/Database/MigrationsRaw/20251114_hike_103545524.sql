@@ -7,25 +7,43 @@ VALUES (
   103545524,
   'Fornovolasco - Monte Forato - Monte Croce',
   'Partenza 9.00 rientro 19.00 Siamo partiti da Fornovolasco e abbiamo preso il percorso 130 da li abbiamo proseguito fino Foce di Valli (qua si presenta la maggior parte del dislivello), in seguito abbiamo proseguito sul 110 EE verso il monte forato, una bella cresta anche se semplice, con bei panorami, dal 110 siamo arrivati alla foce di petrosciana e da li imboccato prima il 6, direzione STAZZEMA, poi il 109 direzione foce delle Porchette (sentiero carino). Dalla foce delle Porchette abbiamo preso il sentiero 108EE passando per la fonte del Pallino e poi per le Scalette (vi è un corrimano con le catene) SENTIERO FACILE, ma comunque da stare attenti, in fine siamo arrivati sul monte Croce, dopo una meritata pausa siamo riscesi e abbiamo proseguito fino a Foce del Termine , da li abbiamo imboccato il137 sentiero EE con alcuni punti pericolosi e alcune catene erano rotte si deve stare MOLTO attenti, vi son tratti che possono dare noia a chi soffre di vertigini. Una volta ricongiunti al 6 abbiamo proseguito per Fornovolasco. Il Sentiero è stato bello , noi in 2 chi siamo portati 7 litri d''acqua dietro, le fonti a Maggio erano asciutte, i panorami non mancano, ma questo sentiero fatto tutto assieme è impegnativo e non lo consiglio a chi non ha un buon allenamento. Grazie la Santa della mia ragazza che mi ha accompagnato e sopportato! <3',
-  '<h2>Fornovolasco - Monte Forato - Monte Croce: Trekking Esplora la Montagna</h2>
+  '<h2 id="escursione-fornovolasco-monte-forato-monte-croce">Escursione al Fornovolasco, Monte Forato e Monte Croce</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong>, un''avventura mozzafiato nella <strong>montagna italiana</strong>, parte da <strong>Fornovolasco</strong> e si snoda attraverso un paesaggio selvaggio e suggestivo. Il percorso, di circa 15 chilometri, ti porterà a esplorare il <strong>Monte Forato</strong> e il <strong>Monte Croce</strong>, offrendo panorami spettacolari e un''esperienza <strong>trekking</strong> indimenticabile. Inizialmente, seguirai il percorso 130 fino a <strong>Foce di Valli</strong>, dove incontrerai il maggior dislivello. Proseguirai poi sul 110 EE verso il <strong>Monte Forato</strong>, una cresta panoramica e accessibile, per poi addentrarti nel cuore della natura, seguendo i percorsi 6, 109 e 137.</p>
-<p>La discesa finale, più impegnativa, prevede l''utilizzo di corrimano e catene, richiedendo particolare attenzione e un buon livello di allenamento. Questo <strong>sentiero escursionistico</strong> è un''ottima scelta per gli amanti della <strong>natura</strong> e del <strong>trekking</strong> in <strong>Italia</strong>.</p>
+<p>Partenza da <strong>Fornovolasco</strong>, un''escursione impegnativa ma ricca di panorami mozzafiato! Siamo partiti alle 9:00 e rientrati alle 19:00. Questo anello di <strong>18.41 km</strong> con un dislivello di <strong>+1752 metri</strong> non è per i deboli di cuore.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<ul>
-  <li>Circa 15 km di <strong>sentiero</strong></li>
-  <li>Dislivello di circa 800 metri</li>
-  <li>Difficoltà: Media/Difficile (richiede un buon allenamento)</li>
-  <li>Panorami mozzafiato sulla <strong>montagna</strong> e sulla valle</li>
-  <li>Possibilità di avvistare fauna selvatica (uccelli, cervi)</li>
-  <li>Fonti d''acqua (asciutte a Maggio)</li>
-</ul>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Informazioni Utili</h3>
-<p>Il <strong>trekking</strong> a <strong>Fornovolasco - Monte Forato - Monte Croce</strong> richiede un''adeguata preparazione.  È consigliabile indossare scarpe da <strong>trekking</strong> robuste, portare con sé acqua sufficiente (circa 7 litri per due persone), cibo energetico e abbigliamento adeguato alle condizioni meteorologiche.  Il sentiero è lungo e presenta tratti impegnativi, con dislivelli e passaggi esposti.  È importante prestare attenzione, soprattutto durante la discesa finale, dove l''utilizzo di corrimano e catene è obbligatorio. La durata del <strong>sentiero</strong> è di circa 8-10 ore, a seconda del ritmo e delle soste.  Si consiglia di partire la mattina presto per evitare le ore più calde e di avere abbastanza tempo per completare l''escursione.  Questo <strong>sentiero escursionistico</strong> in <strong>montagna</strong> è un''esperienza indimenticabile per chi ama il <strong>trekking</strong> e la <strong>natura</strong>.</p>
-<p><em>Attenzione: il sentiero presenta tratti pericolosi e richiede un buon livello di allenamento e preparazione. Non consigliato a chi soffre di vertigini o problemi di mobilità.</em></p>',
+<p>Il punto di partenza è <strong>Fornovolasco</strong>, facilmente raggiungibile in auto. Da qui, seguiamo il sentiero per iniziare la nostra avventura.</p>
+
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>Iniziamo dal sentiero <strong>130</strong>, che ci porta fino a <strong>Foce di Valli</strong>. Qui il dislivello aumenta significativamente, affrontando il sentiero <strong>110 EE</strong> verso il <strong>Monte Forato</strong>. La cresta è semplice, con panorami fantastici. Proseguendo, raggiungiamo la <strong>foce di Petronisciana</strong> e poi imbocchiamo il sentiero <strong>6</strong> verso <strong>Stazzema</strong>, il <strong>109</strong> verso la <strong>foce delle Porchette</strong>. Da qui, seguiamo il sentiero <strong>108EE</strong> passando per la <strong>fonte del Pallino</strong> e le <strong>Scalette</strong>, dove troveremo un corrimano con catene. Il sentiero è considerato facile, ma richiede attenzione.  Superiamo il <strong>Monte Croce</strong>, con una pausa meritata. La discesa è più impegnativa, affrontando il sentiero <strong>137 EE</strong>, con alcuni tratti pericolosi e catene danneggiate che richiedono grande cautela, soprattutto per chi soffre di vertigini. Infine, ci riavviciniamo a <strong>Stazzema</strong> e da lì, tornando a <strong>Fornovolasco</strong>, completiamo l''anello.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>Questa <strong>escursione</strong> è di livello <strong>Difficile</strong>. Richiede un buon allenamento e un''attenta valutazione della propria condizione fisica. Il dislivello di <strong>+1752 metri</strong> e la lunghezza del percorso (<strong>18.41 km</strong>) lo rendono impegnativo.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p><strong>Distanza:</strong> Circa 18.41 km (anello)<strong>
+Dislivello:</strong> Circa 1752 metri<strong>
+Difficoltà:</strong> Difficile<strong>
+Periodo consigliato:</strong> Primavera, Estate, Autunno<strong>
+Punto di partenza:</strong> Fornovolasco<strong>
+Comune:</strong> Fornovolasco, <strong>Toscana</strong>, <strong>Italia</strong><strong>
+Tipo di sentiero:</strong> Sentiero escursionistico / EE</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+  <li><strong>Distanza:</strong> Circa 18.41 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 1752 metri</li>
+  <li><strong>Difficoltà:</strong> Difficile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Fornovolasco (accessibile in auto)</li>
+  <li><strong>Comune:</strong> Fornovolasco, Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico EE</li>
+</ul>',
   'Tutte le Attività e Paesi',
   18.41,
   1752,

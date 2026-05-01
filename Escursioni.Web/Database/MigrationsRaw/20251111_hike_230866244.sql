@@ -7,28 +7,38 @@ VALUES (
   230866244,
   'Rifugio Marmolada - Passo Fedaia - Passo Fedaia - Ciamp dello Stanzon',
   'Passeggiata semplice ai piedi della Marmolada lungo le rive del Lago di Fedaia. Itinerario lineare (andata e ritorno) con fondo comodo e dislivello minimo, ideale per godersi da vicino la parete e il ghiacciaio della Regina delle Dolomiti. Punti toccati: Rifugio Marmolada – partenza Passo Fedaia / diga (1,3 km) Ciamp de lo Stanzon – riva nord, belvedere sul ghiacciaio Passo Fedaia / diga (4,0 km) – rientro Dal Rifugio Marmolada si raggiunge la diga del Lago di Fedaia e si prosegue costeggiando la riva nord su traccia ampia e pianeggiante. L’acqua del lago, bacino artificiale posto a circa 2.050 metri, cambia colore con la luce, passando dal verde smeraldo all’azzurro profondo e riflettendo le pareti dolomitiche sovrastanti. A Ciamp de lo Stanzon si apre la veduta più completa: in primo piano il lago e, subito sopra, la Marmolada con la sua parete settentrionale e i resti del ghiacciaio ben visibili nelle giornate limpide. Il rientro avviene sul medesimo percorso, riattraversando la diga fino al punto di partenza.',
-  '<h2>Rifugio Marmolada – Passo Fedaia – Ciamp dello Stanzon: Escursione Trekking in Montagna</h2>
+  '<h2 id="rifugio-marmolada-passo-fedaia-passo-fedaia-ciamp-dello-stanzon">Rifugio Marmolada - Passo Fedaia - Passo Fedaia - Ciamp dello Stanzon</h2>
 
-<h3>Il Percorso: Trekking Facile ai Piedi della Marmolada</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa splendida escursione è il <strong >Passo Fedaia</strong>, facilmente raggiungibile in auto o con i mezzi pubblici. Da qui, si dirama verso la <strong >diga del Lago di Fedaia</strong>, da dove inizia il sentiero.</p>
 
-<p>Questo <strong>sentiero di trekking</strong> offre un''esperienza indimenticabile ai piedi della maestosa <strong>Marmolada</strong>, una delle vette più alte delle <strong>Dolomiti</strong>.  È un''<strong>escursione facile</strong>, perfetta per famiglie e per chi cerca una <strong>passeggiata in montagna</strong> senza particolari difficoltà.  L''itinerario lineare, di andata e ritorno, è lungo circa 8 chilometri e presenta un <strong>dislivello minimo</strong>, rendendolo ideale per un''esperienza di <strong>trekking</strong> rilassante e piacevole nella natura.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo itinerario è un''escursione lineare, perfetta per una giornata dedicata alla natura. Partendo dalla <strong >diga del Lago di Fedaia</strong>, si segue un sentiero pianeggiante che costeggia la riva nord del lago. Il percorso è molto comodo, con un dislivello minimo, ideale per godersi appieno la vista sulla <strong >Marmolada</strong> e sul <strong >ghiacciaio</strong>. Dopo circa 4 km si raggiunge il <strong >Ciamp de lo Stanzon</strong>, da cui si gode di una vista panoramica mozzafiato sul lago e sulla montagna. Il ritorno avviene seguendo lo stesso sentiero, riattraversando la diga fino al punto di partenza. Un''escursione facile e adatta a tutta la famiglia!</p>
 
-<h3>Cosa Aspettarsi: Un''Escursione per Ammirare la Regina delle Dolomiti</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa <strong >escursione</strong> è classificata come <strong >medio</strong>, grazie alla lunghezza del percorso (5.77 km) e alla presenza di un sentiero ben tracciato. Non presenta ostacoli particolari, ma è consigliabile indossare scarpe da trekking e portare con sé acqua e snack. Preparatevi ad ammirare panorami spettacolari sulla <strong >Marmolada</strong> e sul <strong >ghiacciaio</strong>.</p>
 
-<p>Preparatevi a una giornata all''insegna della <strong>natura</strong> e del panorama mozzafiato. Questo <strong>sentiero escursionistico</strong> vi permetterà di ammirare da vicino la parete e il <strong>ghiacciaio della Marmolada</strong>, un''esperienza unica in un ambiente alpino incontaminato.  Il percorso è stato studiato per garantire la massima sicurezza e comfort, con un <strong>fondo comodo</strong> e una traccia ampia e ben definita.  Potrete godervi la tranquillità della <strong>montagna</strong> e l''aria fresca e pulita, mentre ammirate i colori del <strong>Lago di Fedaia</strong>.</p>
-
-<h3>Informazioni Utili: Dettagli dell''Escursione</h3>
-
-<ul>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Distanza:</strong> Circa 8 km (andata e ritorno)</li>
-    <li><strong>Dislivello:</strong> Minimo (circa 100 metri)</li>
-    <li><strong>Tempo di percorrenza:</strong> 2-3 ore (a seconda del passo)</li>
-    <li><strong>Punti di Interesse:</strong> Rifugio Marmolada, Lago di Fedaia, Ciamp de lo Stanzon (belvedere sul ghiacciaio)</li>
-    <li><strong>Località:</strong> Passo Fedaia, Trentino Alto Adige, Italia –  Ideale per <strong>trekking in Italia</strong>.</li>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class="list">
+    <li><strong >Distanza:</strong> Circa 5.77 km (andata e ritorno)</li>
+    <li><strong >Dislivello:</strong> Circa 0 metri</li>
+    <li><strong >Difficoltà:</strong> Medio</li>
+    <li><strong >Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong >Punto di partenza:</strong> Passo Fedaia (accessibile in auto/mezzi pubblici)</li>
+    <li><strong >Comune:</strong> Ciamp dello Stanzon, Veneto, Italia</li>
+    <li><strong >Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Partenza dal <strong>Passo Fedaia</strong>, direttamente dai giardini della <strong>diga del Lago di Fedaia</strong>. Il <strong>sentiero</strong> vi condurrà lungo la riva nord del lago, costeggiando le rive fino a raggiungere il pittoresco <strong>Ciamp dello Stanzon</strong>, dove potrete ammirare un panorama mozzafiato sulla <strong>Marmolada</strong> e sul <strong>ghiacciaio</strong>. Il rientro avviene lungo lo stesso percorso, offrendovi un''ulteriore opportunità per godervi la bellezza di questo incantevole <strong>sentiero di montagna</strong>. Questa <strong>escursione di trekking</strong> è un''esperienza imperdibile per chi visita il Trentino e desidera esplorare le meraviglie delle <strong>Dolomiti</strong>.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul class="list">
+    <li><strong>Distanza:</strong> Circa 5.77 km (andata e ritorno)</li>
+    <li><strong>Dislivello:</strong> Circa 0 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Passo Fedaia (accessibile in auto / a piedi)</li>
+    <li><strong>Comune:</strong> Ciamp dello Stanzon, Veneto</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   5.77,
   0,

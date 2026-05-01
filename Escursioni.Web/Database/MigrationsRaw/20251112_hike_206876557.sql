@@ -7,33 +7,39 @@ VALUES (
   206876557,
   'Civita di Bagnoregio',
   'Civita di Bagnoregio, conosciuta anche come "la città che muore", è un borgo medievale unico nel suo genere, situato su una collina di tufo nel Lazio. Il borgo è famoso per la sua bellezza senza tempo e la sua fragilità geologica, che lo rende soggetto all''erosione. L''accesso al borgo avviene esclusivamente tramite un lungo ponte pedonale che si erge a diverse decine di metri sulla valle sottostante. Questo ponte, costruito negli anni ''60 per sostituire un precedente collegamento crollato, offre un panorama spettacolare, ma può risultare impegnativo per chi soffre di vertigini o ha difficoltà a camminare in salita. Il percorso per raggiungere Civita è suggestivo ma richiede un minimo di preparazione fisica: dopo aver attraversato il ponte, si affronta una ripida salita prima di varcare l''antica Porta Santa Maria, l''ingresso principale del borgo. Una volta dentro, si viene catapultati in un’atmosfera d’altri tempi, tra vicoli in pietra, scorci pittoreschi e numerosi ristoranti e bar che animano la città, nonostante la sua natura di "borgo abbandonato". Il biglietto d''ingresso di 5 euro è un piccolo prezzo per visitare un luogo così affascinante, sospeso tra storia e natura, e merita sicuramente di essere visto almeno una volta nella vita.',
-  '<h2>Escursione Trekking Civita di Bagnoregio: Sentiero alla Città che Muore nel Lazio</h2>
+  '<h2 id="escursione-civita-di-bagnoregio">Escursione a Civita di Bagnoregio: La Città che Muore</h2>
 
-<h3>Il Percorso di Trekking</h3>
-<p>Immergiti in un''esperienza di <strong>trekking</strong> indimenticabile con questa <strong>escursione a Civita di Bagnoregio</strong>, un gioiello del Lazio. Il <strong>sentiero</strong> per raggiungere questo borgo medievale è un vero e proprio viaggio nel tempo, un''avventura nella <strong>montagna</strong> che ti condurrà attraverso un paesaggio mozzafiato. Il percorso di <strong>trekking</strong> inizia con l''attraversamento del suggestivo ponte pedonale, un''esperienza che ti farà sentire sospeso tra cielo e terra. Dopo aver superato il ponte, preparati ad affrontare una ripida salita che ti porterà direttamente nel cuore di <strong>Civita di Bagnoregio</strong>, un borgo antico testimone di secoli di storia.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Per raggiungere Civita di Bagnoregio, l''accesso è esclusivamente tramite il lungo ponte pedonale che collega il paese alla valle sottostante. Il ponte è raggiungibile in auto fino al parcheggio a Bagnoregio e da lì si percorre un breve sentiero pedonale. È importante considerare che il percorso sul ponte può essere impegnativo per chi soffre di vertigini o ha difficoltà a camminare in salita, data l''altezza e la pendenza.</p>
 
-<h3>Cosa Aspettarsi Durante l''Escursione</h3>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Il sentiero conduce direttamente al borgo di Civita di Bagnoregio. Dopo aver attraversato il ponte, preparatevi a una ripida salita che vi porterà all''ingresso principale del borgo, attraverso la Porta Santa Maria. Una volta dentro, potrete esplorare le strette vie acciottolate, ammirare i suoi scorci pittoreschi e assaporare l''atmosfera unica di questo borgo medievale. L''escursione è un''esperienza suggestiva, ma impegnativa fisicamente.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione presenta una difficoltà **media**. Il percorso richiede un minimo di preparazione fisica, in quanto prevede una salita ripida dopo aver attraversato il ponte. È consigliabile indossare scarpe da trekking adatte e portare con sé acqua e uno snack. Il dislivello è di circa 264 metri e la distanza totale dell''escursione è di 3.9 km (solo andata).</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per facilitare il vostro viaggio, vi forniamo le informazioni necessarie per la vostra escursione:</p>
 <ul>
-    <li>Un <strong>sentiero di trekking</strong> di circa 1,5 km con un dislivello di 150 metri.</li>
-    <li>Una <strong>escursione</strong> adatta a escursionisti con un minimo di preparazione fisica.</li>
-    <li>Un''opportunità unica per ammirare il paesaggio unico della Valle dei Calanchi e la bellezza di <strong>Civita di Bagnoregio</strong>, la "Città che Muore".</li>
-    <li>Un''esperienza immersiva nella <strong>natura</strong> e nella storia dell''Italia.</li>
+    <li>**Distanza:** Circa 3.9 km (solo andata)</li>
+    <li>**Dislivello:** Circa 264 metri</li>
+    <li>**Difficoltà:** Media</li>
+    <li>**Periodo consigliato:** Primavera, Estate, Autunno</li>
+    <li>**Punto di partenza:** Ponte pedonale di Bagnoregio</li>
+    <li>**Comune:** Civita di Bagnoregio, Lazio</li>
+    <li>**Tipo di sentiero:** Sentiero escursionistico</li>
 </ul>
 
-<p>Ricorda, il <strong>sentiero</strong> presenta una ripida salita, quindi è consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack.  L''<strong>escursione a Civita di Bagnoregio</strong> è un''occasione per vivere un''autentica avventura di <strong>trekking</strong> in un ambiente straordinario.</p>
-
-<h3>Informazioni Utili per il Trekking</h3>
-<ul>
-    <li>Difficoltà: Media</li>
-    <li>Distanza: Circa 1,5 km</li>
-    <li>Dislivello: 150 metri</li>
-    <li>Durata: Circa 1-2 ore (a seconda del ritmo)</li>
-    <li>Periodo consigliato: Primavera, Estate, Autunno</li>
-    <li>Ingresso al borgo: Biglietto di ingresso di 5 euro</li>
-    <li>Consigli: Porta con te acqua, cappello, crema solare e scarpe da trekking adatte. Attenzione alle condizioni del ponte pedonale e alla ripida salita.</li>
-</ul>
-
-<p>Scopri il fascino di <strong>Civita di Bagnoregio</strong>, un luogo unico nel suo genere, perfetto per una giornata di <strong>trekking</strong> e per immergerti nella <strong>natura</strong> e nella storia dell''Italia. Questa <strong>escursione di sentiero</strong> è un''esperienza che non dimenticherai.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong>Distanza:</strong> Circa 3.9 km (andata e ritorno / solo andata)</li>
+    <li><strong>Dislivello:</strong> Circa 264 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Ponte pedonale di Bagnoregio</li>
+    <li><strong>Comune:</strong> Civita di Bagnoregio, Lazio</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   3.9,
   264,

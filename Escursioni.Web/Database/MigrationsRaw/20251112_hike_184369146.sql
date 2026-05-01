@@ -7,27 +7,30 @@ VALUES (
   184369146,
   'Budapest 2',
   'Budapest 2',
-  '<h2>Sentiero Budapest 2: Trekking Esplorativo nelle Prealpi Lombarde</h2>
+  '<h2 id="escursione-budapest-2">Escursione a Budapest 2</h2>
 
-<h3>Il Percorso</h3>
-<p>L''escursione sul <strong>Budapest 2</strong> è un''opportunità unica per immergersi nella bellezza selvaggia delle <strong>Prealpi Lombarde</strong>. Questo <strong>sentiero di trekking</strong>, lungo circa 12 chilometri, si snoda attraverso paesaggi mozzafiato, offrendo panorami spettacolari sulle valli circostanti. Il <strong>percorso</strong> è prevalentemente in salita, ma ben segnalato, e permette di ammirare le caratteristiche formazioni geologiche della zona, testimonianza di un passato glaciale.</p>
-<p>Inizia da <strong>Semaum</strong>, un piccolo borgo di montagna, e prosegue attraverso boschi di faggio e abete, raggiungendo la vetta del <strong>Monte Cavour</strong>. Da qui, la discesa è più agevole, offrendo ampie viste sulla pianura padana e sulle altre cime delle Prealpi.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Per raggiungere il punto di partenza di questa fantastica escursione, dovrai guidare fino a <strong>Gellérthegy</strong>, un comune situato nella regione della <strong>Budapest</strong>, in Ungheria. Il parcheggio è disponibile in vari punti lungo la strada che porta alla vetta. Da lì, segui le indicazioni per il sentiero di partenza, facilmente riconoscibile grazie ai cartelli escursionistici.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparati a una <strong>trekking</strong> impegnativo ma gratificante. Questo <strong>sentiero</strong> è ideale per escursionisti esperti, ma anche per chi è in buona forma fisica e desidera esplorare la <strong>montagna</strong> con un''esperienza autentica. Durante il percorso, potrai ammirare la ricca flora e fauna alpina, con la possibilità di avvistare diverse specie di uccelli e piccoli mammiferi.</p>
-<p>La difficoltà del <strong>sentiero</strong> è considerata <strong>media-alta</strong> a causa del dislivello e del terreno accidentato. È fondamentale indossare scarpe da trekking adatte e portare con sé acqua, cibo e abbigliamento adeguato alle condizioni meteorologiche, che in montagna possono cambiare rapidamente.  Un''<strong>escursione</strong> ben pianificata è fondamentale per godere appieno della bellezza di questo <strong>sentiero italiano</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo giro ad anello di <strong>16.41 km</strong> ti porterà attraverso un paesaggio montano mozzafiato. Inizialmente, il sentiero è in salita, ma ben segnalato. Man mano che sali, la difficoltà aumenta leggermente, ma la ricompensa è un incredibile <strong>panorama</strong> sulla città di <strong>Budapest</strong> e sulla campagna circostante. Il sentiero è ben tenuto, anche se in alcuni tratti è roccioso. Non dimenticare di ammirare i panorami e di riposarti durante la salita.</p>
 
-<h3>Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è classificata come <strong>Media</strong>, il che significa che richiede un minimo di preparazione fisica. Il <strong>dislivello</strong> di <strong>+868 metri</strong> implica una salita significativa, quindi è consigliabile indossare scarpe da trekking adatte e portare con sé acqua e cibo. Porta con te anche una mappa e una bussola, anche se i sentieri sono ben segnalati. L''escursione ad anello rende il percorso più interessante e permette di godere appieno delle bellezze del <strong>monte Gellérthegy</strong>.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Puoi scaricare una <strong>traccia GPS</strong> per questo percorso per guidare la tua escursione in modo più efficiente. Ricorda di controllare sempre le previsioni meteo prima di partire e di indossare abbigliamento adeguato alle condizioni climatiche. È consigliabile informarsi sulle condizioni del sentiero presso gli uffici turistici locali.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Distanza:</b> Circa 12 km</li>
-    <li><b>Dislivello:</b> 800 m</li>
-    <li><b>Difficoltà:</b> Media-Alta</li>
-    <li><b>Tempo di percorrenza:</b> 5-6 ore</li>
-    <li><b>Punto di partenza:</b> Semaum (LC)</li>
-    <li><b>Punto di arrivo:</b> Monte Cavour (LC)</li>
-    <li><b>Caratteristiche principali:</b> Panorami mozzafiato, flora e fauna alpina, sentiero ben segnalato, escursione nelle <strong>Prealpi Lombarde</strong>.</li>
-</ul>
-<p>Per informazioni più dettagliate e aggiornate, consulta il sito web dell''Ente del Parco delle Prealpi Lombarde e l''App Sentieri Italia.  Ricorda di informarti sulle condizioni meteo prima di partire per questa affascinante <strong>trekking</strong>.</p>',
+    <li><strong>Distanza:</strong> Circa 16.41 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 868 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Gellérthegy, accessibile in auto</li>
+    <li><strong>Comune:</strong> Gellérthegy, Budapest, Ungheria</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   16.41,
   868,

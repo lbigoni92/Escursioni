@@ -7,27 +7,39 @@ VALUES (
   90605819,
   'Vorno - Campo croce - Monte Faeta - Verruchino - Spuntone - Santallago',
   'Sentieri seguiti : Da Vorno abbiamo imbucato il 124 fino a Campo croce da li abbiamo proseguito sul sentiero 00 al Monte Faeta all''andata abbiamo preso la direttissima mentre al rientro abbiamo fatto un anello più dolce abbiamo proseguito in direzione del Verrichino e rientrati a Campo Croce e riabbiamo proseguito sullo 00 fino Sant''allago (facendo una tappa allo Spuntone dove possiamo vedere un Croce)da li abbiamo proseguito su una strada sterrata fino quasi al monte Zano dove abbiamo deviato per un sentiero CAI(non ricordo il numero). Percorso non proprio banale specialmente in 2 punti: Tratto finale (ultimo km di sentiero) l''abbiamo fatto al buio e era scivoloso. attacco da campo a croce in direzione Spuntone (una bella salita) Per il resto non ci sono difficoltà tecniche. Abbiamo trovato la neve a Santallago ma niente di problematico, anzi è stato piacevole. Non provate a seguire dei sentieri non battiti come abbiamo fatto noi i sentieri che riportano al 124 dalla strada del ritorno sono completamente abbandonati. Per altre informazioni chiedetemi e Seguitemi!',
-  '<h2>Vorno - Campo croce - Monte Faeta - Verruchino - Spuntone - Santallago: Trekking Esplorativo in Montagna Toscana</h2>
+  '<h2 id="escursione-vorno-campo-croce-monte-faeta-verruchino-spuntone-santallago">Escursione a Vorno, Campo Croce, Monte Faeta e dintorni</h2>
 
-<h3>Il Percorso: Un Anello di Sentieri da Trekking in Toscana</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>L''escursione inizia da Vorno, un piccolo borgo incastonato nel cuore della Val d''Era.  È facilmente raggiungibile in auto, seguendo le indicazioni per Vorno dalla autostrada Firenze-Pisa.  Il punto di partenza è l''inizio del sentiero 124, situato vicino al paese.  Da qui, la discesa ci porterà verso Campo Croce.</p>
 
-<p>Questo <strong>sentiero di trekking</strong> in Toscana offre un''esperienza indimenticabile per gli amanti della <strong>natura</strong> e dell''<strong>escursionismo</strong>. Il percorso, che si snoda attraverso il Parco Regionale della Maremma Toscana, collega i paesi di Vorno, Campo Croce e Santallago, passando per le cime del Monte Faeta, Verruchino e Spuntone. È un''ottima opportunità per praticare <strong>trekking</strong> in un ambiente naturale incontaminato, con panorami mozzafiato e un''ampia varietà di flora e fauna.  Questo itinerario di <strong>sentieri</strong> è perfetto per una giornata di <strong>trekking</strong> a piedi in <strong>montagna</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Il nostro trekking ha seguito un percorso vario e suggestivo. Partendo da Vorno, abbiamo imboccato il sentiero 124 fino a Campo Croce. Da lì, abbiamo proseguito sul sentiero 00, salendo verso il Monte Faeta. Abbiamo optato per la "direttissima" in salita e per un anello più dolce, esplorando il Verrichino, lo Spuntone e Santallago.  Il tratto finale, l''ultimo chilometro di sentiero, è stato un''esperienza particolare, affrontato al buio e su terreno scivoloso. Abbiamo ammirato un''antica croce a Santallago, dove abbiamo incontrato la neve, un piacevole souvenir della montagna. Il percorso è un anello di circa 20.59 km.</p>
 
-<h3>Cosa Aspettarsi: Una Giornata di Trekking in Ambiente Selvaggio</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è considerata di difficoltà **Facile/Media**. Il dislivello di circa 1252 metri richiede un minimo di allenamento, ma il sentiero è ben tracciato e non presenta ostacoli tecnici impegnativi, ad eccezione del tratto finale. È consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack. La neve a Santallago rende il percorso ancora più suggestivo.</p>
 
-<p>Preparatevi per una giornata di <strong>trekking</strong> impegnativa ma estremamente gratificante. Il percorso presenta alcuni tratti collinari e saliscendi, con una <strong>difficoltà</strong> considerata media.  L''escursione attraverso il Monte Faeta e le sue pendici offre un''esperienza di <strong>sentiero</strong> autentica, con diverse possibilità di ammirare la bellezza del paesaggio toscano.  È consigliabile indossare scarpe da <strong>trekking</strong> adatte e portare con sé acqua e snack, soprattutto se si prevede di affrontare il percorso in estate.  La presenza di neve a Santallago aggiunge un tocco di magia al <strong>sentiero</strong>, rendendo l''esperienza ancora più suggestiva.  Questo <strong>sentiero di escursione</strong> è un''avventura da non perdere per chi ama la <strong>natura</strong>!</p>
-
-<h3>Informazioni Utili: Dettagli del Sentiero e Consigli di Sicurezza</h3>
-
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>La traccia GPS di questa escursione è disponibile online.  Ecco le informazioni pratiche:</p>
 <ul>
-  <li><b>Distanza Totale:</b> Circa 15-20 km (a seconda del percorso esatto)</li>
-  <li><b>Difficoltà:</b> Media – Richiede una buona condizione fisica</li>
-  <li><b>Dislivello:</b> Circa 700-800 metri</li>
-  <li><b>Punti di Interesse:</b> Vista panoramica sul Monte Faeta, Croce a Spuntone, tratti di neve a Santallago, possibilità di avvistare la fauna locale</li>
-  <li><b>Consigli di Sicurezza:</b>  È fondamentale informarsi sulle condizioni meteorologiche prima di partire e indossare abbigliamento adeguato.  Portate con voi acqua, snack, mappa e bussola o GPS.  Informate qualcuno del vostro itinerario e del vostro rientro previsto. Attenzione ai tratti finali del <strong>sentiero</strong>, particolarmente scivolosi al buio.</li>
+    <li><strong>Distanza:</strong> Circa 20.59 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1252 metri</li>
+    <li><strong>Difficoltà:</strong> Facile / Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Vorno (accessibile in auto / a piedi)</li>
+    <li><strong>Comune:</strong> Vorno, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Questo <strong>sentiero</strong> rappresenta un''opportunità unica per un''<strong>escursione</strong> in <strong>montagna</strong>, combinando elementi di <strong>trekking</strong> e di scoperta di <strong>sentieri</strong> nascosti.  Esplorate la bellezza della Toscana attraverso questo affascinante itinerario.  Se siete alla ricerca di un''esperienza di <strong>trekking</strong> autentica e indimenticabile, questo <strong>sentiero</strong> è la scelta perfetta per voi.  Vienite a scoprire le meraviglie della <strong>natura</strong> in questo <strong>sentiero</strong> unico!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="informazioni-utili-distanza">Distanza:</strong> Circa 20.59 km (anello)</li>
+    <li><strong id="informazioni-utili-dislivello">Dislivello:</strong> Circa 1252 metri</li>
+    <li><strong id="informazioni-utili-difficoltà">Difficoltà:</strong> Facile / Media</li>
+    <li><strong id="informazioni-utili-periodo">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="informazioni-utili-punto-partenza">Punto di partenza:</strong> Vorno (accessibile in auto / a piedi)</li>
+    <li><strong id="informazioni-utili-comune">Comune:</strong> Vorno, Toscana</li>
+    <li><strong id="informazioni-utili-tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   20.59,
   1252,
@@ -56,7 +68,7 @@ VALUES (
   '2ccd5a138f125fe2b4ad8311d927af18349c9fae22f46e3e42a15bc0cc76769e',
   'Escursione Vorno Monte Faeta: Anello Toscana 20.59km, +1m Disliv. Sentieri Vorno-Campo Croce-Faeta-Spuntone. Percorso medio, neve a Santallago!',
   'Vorno: Trekking Monte Faeta - Campo Croce - Santallago',
-  'Monti Pisani', 
+  'Monti Pisani',
   NOW(),
   NOW()
 )

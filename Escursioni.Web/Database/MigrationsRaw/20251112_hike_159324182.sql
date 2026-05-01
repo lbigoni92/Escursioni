@@ -7,25 +7,30 @@ VALUES (
   159324182,
   'Valle Benedetta - Friends in trekking',
   'Bellissima escursione nella quale ho guidato il gruppo di amici in un trekking attraverso le colline circostanti. Il percorso si sviluppa in un doppio anello: un anello iniziale di 12 km e 500 metri di dislivello, seguito da un anello finale di 8 km e 200 metri di dislivello. Abbiamo iniziato il nostro viaggio dall''incrocio tra Via della Sambuca e Via del Radar, seguendo sempre i sentieri del CAI, che erano in ottimo stato, tranne per un breve tratto di 100 metri a Poggio delle Fate. Durante l''escursione, non ci sono fontanelle lungo il percorso, e in alcune zone si è presentato un po'' di fango, quindi consiglio l''uso di calzature con una buona suola antiscivolo. Abbiamo attraversato due monti, il Monte Pan di Zucchero e il Monte Maggiore. Quest''ultimo ci ha regalato uno spettacolare balcone panoramico con una vista unica sulla vallata, inclusivo del lago di Santa Luce. Successivamente, siamo passati per Poggio alle Fate, dove, nonostante un breve tratto con qualche cespuglio in eccesso, la salita è stata abbastanza agevole. Il panorama da questo punto è altrettanto stupefacente, spaziando dalla vista di Pisa fino al mare, con un ampio campo visivo che ha superato le mie aspettative. Scendendo dal monte, abbiamo proseguito verso l''acquedotto di Colognole, che è stato il tratto più suggestivo della camminata. L''osservare queste costruzioni risalenti ai secoli XVIII e XIX, ricoperte di muschio e perfettamente conservate, è stato un vero spettacolo per gli occhi. Purtroppo, non c''era molta acqua in quel momento, ma immagino che durante i periodi piovosi il panorama sia ancora più affascinante. La parte più sorprendente è che l''acquedotto è ancora in funzione. Da lì siamo ritornati al punto di partenza, completando così il primo anello di 12 km e 500 metri di dislivello. Alcuni di noi hanno deciso di visitare l''eremo della Sambuca, situato in una solcatura valliva scavata dal torrente Ugione e chiusa a nord dal monte Corbolone. Da lì, abbiamo concluso il giro tornando alle auto. Per ulteriori dettagli e approfondimenti sull''acquedotto di Colognole, l''eremo della Sambuca e la Valle Benedetta, puoi consultare i seguenti link: Acquedotto di Colognole: https://it.wikipedia.org/wiki/Acquedotto_di_Colognole Eremo della Sambuca: https://it.wikipedia.org/wiki/Eremo_di_Santa_Maria_alla_Sambuca Valle benedetta : https://it.wikipedia.org/wiki/Valle_Benedetta',
-  '<h2>Valle Benedetta - Friends in trekking: Escursione trekking in Toscana</h2>
+  '<h2 id="escursione-valle-benedetta-friends-in-trekking">Escursione alla Valle Benedetta - Friends in Trekking</h2>
 
-<h3>Il percorso</h3>
-<p>Immergiti in un''esperienza di <strong>trekking</strong> indimenticabile nella splendida **Valle Benedetta** in <strong>Toscana</strong>! Questo fantastico <strong>sentiero escursionistico</strong> offre un percorso ad anello di circa 20 km, ideale per <strong>escursioni** di diversa difficoltà, perfetto per ammirare la <strong>natura** e i panorami mozzafiato. L''escursione, organizzata con la mia squadra di amici, si snoda attraverso colline e valli, offrendo un''esperienza di <strong>trekking</strong> autentica e coinvolgente. Il percorso è stato progettato per garantire un''esperienza di <strong>trekking** sicura e gratificante per tutti i livelli.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza dell''escursione alla Valle Benedetta è l''incrocio tra Via della Sambuca e Via del Radar, a Valle Benedetta, comune della provincia di Pisa in Toscana. È raggiungibile in auto tramite strade secondarie o a piedi, partendo da Valle Benedetta. Il parcheggio è disponibile nelle immediate vicinanze del punto di partenza.</p>
 
-<h3>Cosa aspettarsi</h3>
-<p>Preparati a una giornata all''aria aperta, attraversando paesaggi spettacolari. Questo <strong>sentiero escursionistico** è caratterizzato da un doppio anello, inizialmente di 12 km con 500 metri di dislivello, seguito da un anello finale di 8 km con 200 metri di dislivello.  Avrai la possibilità di ammirare panorami mozzafiato, tra cui il **lago di Santa Luce** e il **Monte Maggiore**, che offre un balcone panoramico con vista sulla vallata. La camminata è adatta a <strong>escursionisti** esperti e principianti, ma è consigliabile indossare scarpe da <strong>trekking</strong> adatte e abbigliamento adeguato per affrontare un''<strong>escursione** di questa intensità. La difficoltà del <strong>sentiero** è media, con tratti in salita e discesa moderati. Ricorda di portare con te acqua e snack, soprattutto se l''<strong>escursione** si protrae durante le ore più calde. Questa <strong>escursione** è un''opportunità unica per vivere la <strong>natura** toscana in tutta la sua bellezza.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questa escursione è un fantastico trekking attraverso le colline circostanti, caratterizzato da un doppio anello. Il percorso inizia con un anello di 12 km e 500 metri di dislivello, seguito da un anello finale di 8 km e 200 metri di dislivello. Percorreremo i sentieri del CAI, in ottimo stato, con un breve tratto a Poggio delle Fate e inizieremo ad ammirare panorami mozzafiato. Attraverseremo il Monte Pan di Zucchero e il Monte Maggiore, godendoci il balcone panoramico sulla vallata, incluso il lago di Santa Luce. Proseguiremo per Poggio alle Fate, ammirando la salita agevole e il panorama che si estende fino a Pisa e al mare. Il tratto più suggestivo sarà l''osservazione dell''acquedotto di Colognole, una struttura storica perfettamente conservata, ancora in funzione! Infine, termineremo il nostro giro tornando al punto di partenza, completando il primo anello.</p>
 
-<h3>Informazioni utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>L''escursione alla Valle Benedetta presenta una difficoltà valutata come Medio. La distanza totale del percorso è di 19.24 km con un dislivello di +705 metri. È consigliabile indossare calzature con una buona suola antiscivolo, dato che in alcune zone il sentiero può essere umido. L''escursione è adatta a escursionisti con una buona preparazione fisica.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Disponibile traccia GPS per l''intero percorso. Si consiglia di scaricare la traccia GPS sul proprio dispositivo prima dell''escursione.  Il percorso è principalmente segnalato dal CAI.  È consigliabile avere con sé acqua, snack e un kit di primo soccorso.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Distanza:</strong> Circa 20 km (12 km + 8 km)</li>
-    <li><strong>Dislivello:</strong> 500 metri (anello iniziale) + 200 metri (anello finale)</li>
-    <li><strong>Difficoltà:</strong> Media</li>
-    <li><strong>Punti di interesse:</strong> Monte Pan di Zucchero, Monte Maggiore (con balcone panoramico), lago di Santa Luce, Acquedotto di Colognole, Eremo della Sambuca</li>
-    <li><strong>Sentiero CAI:</strong> Il percorso segue i sentieri del CAI, in ottimo stato (tranne un breve tratto).</li>
-    <li><strong>Consigli:</strong> Indossare calzature da <strong>trekking</strong> con buona suola antiscivolo, portare acqua e snack, controllare le previsioni meteo prima di partire, informarsi sulle condizioni del <strong>sentiero** e sull''eventuale presenza di altri escursionisti.  L''<strong>escursione** è consigliata in condizioni meteorologiche favorevoli.</li>
-</ul>
-
-<p>Durante l''<strong>escursione**, non ci sono fontanelle lungo il percorso e in alcune zone si può trovare un po'' di fango. Il panorama da Poggio alle Fate è particolarmente suggestivo, con vista su Pisa e il mare. La visita all''<strong>acquedotto di Colognole** è un''esperienza unica, con le sue antiche strutture risalenti ai secoli XVIII e XIX. Per ulteriori informazioni, consulta i link utili relativi alla **Valle Benedetta**, all''<strong>acquedotto di Colognole** e all''<strong>eremo della Sambuca**. </p>',
+  <li><strong>Distanza:</strong> Circa 19.24 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 705 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Incrocio tra Via della Sambuca e Via del Radar, Valle Benedetta</li>
+  <li><strong>Comune:</strong> Valle Benedetta, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   19.24,
   705,

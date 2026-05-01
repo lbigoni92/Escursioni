@@ -7,24 +7,46 @@ VALUES (
   218249093,
   'Pizzo d’Uccello e ferrata Tordini-Galligani',
   'Escursione alpina molto impegnativa con partenza dal Rifugio Guido Donegani (m. 1150 ca), situato in Val Serenaia. Da qui abbiamo intrapreso il sentiero CAI 137 in direzione Foce del Giovetto, salendo in un ambiente maestoso e già molto roccioso. Dalla Foce abbiamo proseguito lungo la via normale al Pizzo d’Uccello, una salita breve ma intensa (circa 40-45 minuti) che si sviluppa interamente su terreno roccioso. Il percorso, pur non essendo tecnicamente difficile (passaggi di I grado), richiede attenzione costante: sono presenti caminetti, canalini e una breve cengia un po’ esposta. La salita non è attrezzata, ma la progressione è agevole per chi ha passo sicuro in ambiente alpino. Dalla vetta, abbiamo evitato la più tecnica cresta di Capradossa e siamo scesi lungo il sentiero CAI 181, riservato a escursionisti esperti (EE), che presenta tratti attrezzati con catene e passaggi ripidi. Seguendo il 181 abbiamo raggiunto il Poggio di Balozzana, e successivamente abbiamo imboccato il sentiero 192, che però risulta interrotto in un tratto. Abbiamo quindi deviato su un sentiero alternativo ben tracciato fino ad arrivare alla cava sottostante. Da qui, lungo la vecchia via di cava, abbiamo raggiunto l’attacco della via ferrata Tordini-Galligani. la ferrata si divide in due settori principali: Primo settore: una lunga placca inclinata di marmo bianco, dove si procede prevalentemente in aderenza. Ottima la qualità della roccia e la tenuta delle scarpe. Sono presenti numerosi fori artificiali che fungono da validi appoggi. Questo tratto è poco faticoso e molto gratificante. Secondo settore: segue il filo di cresta per circa 400 metri fino a Foce Siggioli (1390 m). Qui si trova il passaggio chiave noto come "Il Naso", uno spigolo apparentemente difficile ma superabile grazie a ottimi appigli scavati nella roccia. L’ultimo tratto è il più esposto, ma mai verticalmente impegnativo. La ferrata termina a Foce Siggioli. Dati tecnici (approssimativi): Lunghezza: ~12 km Dislivello positivo: ~1.200 m Tempo complessivo: 9 ore Difficoltà: EEA (escursionismo esperti con attrezzatura per via ferrata) Attrezzatura consigliata: kit da ferrata, casco, scarponi da montagna',
-  '<h2>Pizzo d’Uccello e Ferrata Tordini-Galligani: Trekking Impegnativo in Trentino</h2>
+  '<h2 id="escursione-pizzo-d-uccello-ferrata-tordini-galligani">Escursione al Pizzo d’Uccello e Ferrata Tordini-Galligani</h2>
 
-<h3>Il Percorso - Escursione in Montagna e Sentiero di Trekking</h3>
-<p>Preparati per un’escursione alpina indimenticabile sul <strong>Pizzo d’Uccello</strong>, un’esperienza di trekking impegnativa in <strong>Trentino</strong>. Questo sentiero combina un tratto di <strong>sentiero CAI</strong> con una spettacolare <strong>ferrata</strong>, offrendo panorami mozzafiato e una sfida tecnica per escursionisti esperti. La partenza avviene dal <strong>Rifugio Guido Donegani</strong> (m. 1150 ca) in <strong>Val Serenaia</strong>, e il percorso si snoda attraverso ambienti alpini maestosi e rocciosi, perfetti per gli amanti del <strong>trekking</strong> e della <strong>natura</strong>.  Immergiti nella bellezza delle montagne italiane con questo sentiero di trekking!</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa impegnativa escursione è il Rifugio Guido Donegani, situato in Val Serenaia. Raggiungibile in auto da Vinca, il rifugio è un ottimo punto di appoggio per iniziare l''avventura in montagna. Da qui, seguiremo il sentiero CAI 137.</p>
 
-<h3>Cosa Aspettarsi - Difficoltà e Tipologia di Escursione</h3>
-<p>Questa <strong>escursione</strong> è altamente impegnativa ed è adatta solo a escursionisti esperti con una buona preparazione fisica e con una comprovata esperienza in <strong>ambiente alpino</strong>. Il percorso richiede attenzione costante e una buona capacità di affrontare tratti rocciosi, esposizioni e passaggi attrezzati.  La <strong>difficoltà</strong> è EEA (Escursionismo Esperti con Attrezzatura per Via Ferrata), e la <strong>lunghezza</strong> del percorso è di circa 12 km con un dislivello positivo di 1200 metri, richiedendo circa 9 ore di tempo per il completamento.  Se sei un appassionato di <strong>sentieri</strong> e <strong>trekking</strong> in montagna, preparati a vivere un''avventura unica.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Partiremo dal Rifugio Guido Donegani (m. 1150 ca) e inizieremo l''ascesa lungo il sentiero CAI 137 in direzione Foce del Giovetto. Il sentiero sale rapidamente, attraversando un ambiente alpino roccioso.  Una volta raggiunta la Foce del Giovetto, proseguiremo lungo la via normale fino al Pizzo d’Uccello, una salita breve ma tecnica che richiede attenzione.  Dal Pizzo d’Uccello, eviteremo la cresta di Capradossa e inizieremo la discesa lungo il sentiero CAI 181, riservato a escursionisti esperti. Seguiremo il sentiero 181 fino al Poggio di Balozzana, da lì imboccheremo il sentiero 192 che, purtroppo, risulta interrotto.  Ci adatteremo deviando su un sentiero alternativo ben tracciato fino alla cava sottostante. Da qui, lungo la vecchia via di cava, raggiungeremo l''attacco della via ferrata Tordini-Galligani. La ferrata è divisa in due settori principali. Il primo settore presenta una lunga placca inclinata di marmo bianco, mentre il secondo settore segue il filo di cresta fino a Foce Siggioli, superando il passaggio chiave "Il Naso". La ferrata termina a Foce Siggioli.</p>
 
-<h3>Informazioni Utili - Dettagli del Sentiero e Consigli di Sicurezza</h3>
-<ul>
-    <li><strong>Durata:</strong> Circa 9 ore</li>
-    <li><strong>Lunghezza:</strong> Circa 12 km</li>
-    <li><strong>Dislivello Positivo:</strong> 1.200 m</li>
-    <li><strong>Difficoltà:</strong> EEA (Escursionismo Esperti con Attrezzatura per Via Ferrata)</li>
-    <li><strong>Tracciato:</strong> CAI 137, CAI 181, CAI 192</li>
-    <li><strong>Punti di Interesse:</strong> Vetta del <strong>Pizzo d’Uccello</strong>, <strong>Ferrata Tordini-Galligani</strong>,  Cava Sottostante, Foce Siggioli</li>
-</ul>
-<p>L’attrezzatura consigliata include un kit completo da ferrata, casco, scarponi da montagna robusti e un abbigliamento adeguato al clima alpino.  La <strong>ferrata Tordini-Galligani</strong>, con i suoi due settori principali, offre un''esperienza emozionante, seppur richiede una buona tecnica e attrezzatura.  Il tratto con "Il Naso" è un passaggio chiave da affrontare con prudenza e attenzione.  Ricorda, la sicurezza è fondamentale in <strong>ambiente montano</strong>. Questo <strong>sentiero</strong> è perfetto per chi cerca un’impegnativa <strong>escursione</strong>, un’avventura di <strong>trekking</strong> e un''esperienza unica di <strong>natura</strong>.</p>',
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà EEA (Escursionismo Esperti con Attrezzatura per Via Ferrata) a causa del tratto della ferrata e della necessità di avere una buona esperienza in ambiente alpino. Richiede attenzione costante, soprattutto sui passaggi rocciosi e lungo la ferrata. Non è attrezzata, ma la progressione è agevole per chi ha passo sicuro e una buona preparazione fisica.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>
+    <strong>Distanza:</strong> Circa 12.68 km (anello)
+    <strong>Dislivello:</strong> Circa 1496 metri
+    <strong>Difficoltà:</strong> Media
+</p>
+<p>
+    <strong>Tempo complessivo:</strong> 9 ore (approssimativo)
+</p>
+<p>
+    <ul type="disc">
+        <li>Sentiero CAI 137</li>
+        <li>Sentiero CAI 181</li>
+        <li>Sentiero CAI 192 (interrotto)</li>
+    </ul>
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul type="disc">
+    <li><strong>Distanza:</strong> Circa 12.68 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1496 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Rifugio Guido Donegani, accessibile in auto da Vinca</li>
+    <li><strong>Comune:</strong> Vinca, Toscana</li>
+    <li><strong>Regione:</strong> Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentieri escursionistici, via ferrata</li>
+    <li><strong>Parco Nazionale:</strong> Non applicabile</li>
+</ul>',
   'Tutte le Attività e Paesi',
   12.68,
   1496,

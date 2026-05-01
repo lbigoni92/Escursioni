@@ -7,32 +7,46 @@ VALUES (
   230432989,
   'Anello di Passo Sella: Friedrich August (rifugio dei krapfen), Sandro Pertini, Sasso Piatto, Vicenza e Comici',
   'Anello panoramico con partenza da Passo Sella che tocca una sequenza di rifugi tra i più belli del gruppo Sassolungo/Sasso Piatto. Il tracciato è in gran parte semplice e ben segnato, con fondo comodo; l’unico tratto più impegnativo è la salita verso il Rifugio Vicenza. Sequenza dei punti toccati: Rifugio Valentini (0,4 km) Rifugio Salei (0,9 km) Rifugio Friedrich August (1,8 km) – consigliata una sosta: ottimi krapfen Rifugio Sandro Pertini (4,0 km) Rifugio Sasso Piatto (6,4 km) – nei pressi, verso il km 6,1, frequenti avvistamenti di marmotte Piz da Uridl (8,8 km) Rifugio Vicenza (11,5 km) – meta ideale per il pranzo; la salita che precede il rifugio è la parte più faticosa Rifugio Comici (15,7 km) Al rientro è presente un tratto basso che, dopo piogge o al mattino presto, può risultare bagnato, fangoso e stretto. In queste condizioni è preferibile scegliere l’alternativa più bassa battuta. In quota, nelle prime ore del giorno, è possibile trovare neve o ghiaccio in stagione anche a settembre. Consigli pratici: Parcheggio: quello di Passo Sella è comodo ma costoso nelle ore diurne; se possibile valutare alternative nei dintorni. Meteo: dopo piogge recenti alcuni passaggi possono essere scivolosi innevati o ghiacciati. Percorso adatto a escursionisti abituali; per chi non ama sentieri stretti o umidi, meglio evitare il rientro alto. Itinerario molto appagante per varietà di paesaggi, qualità dei rifugi e continui scorci sul Sassolungo e sul Sasso Piatto. Consigliato.',
-  '<h2>Anello di Passo Sella: Friedrich August (rifugio dei krapfen), Sandro Pertini, Sasso Piatto, Vicenza e Comici - Trekking in Trentino</h2>
+  '<h2 id="anello-di-passo-sella-friedrich-august-sandro-pertini-sasso-piatto-vicenza-e-comici">Anello di Passo Sella: Friedrich August (rifugio dei krapfen), Sandro Pertini, Sasso Piatto, Vicenza e Comici</h2>
 
-<h3>Il percorso – Escursione di Trekking in Montagna</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<p>Immergiti in un’escursione indimenticabile lungo l’**anello di Passo Sella**, un percorso di <strong>trekking</strong> che ti condurrà attraverso alcuni dei rifugi più iconici del gruppo del <strong>Sassolungo e Sasso Piatto</strong>. Questo sentiero panoramico, ideale per l’<strong>escursionismo**, offre viste mozzafiato e un’esperienza autentica della <strong>montagna italiana**.</p>
+<p>L''anello di Passo Sella è facilmente raggiungibile in auto. Il parcheggio ufficiale del Passo Sella è comodo, ma può essere costoso nelle ore di punta. Si consiglia di valutare alternative nei dintorni del Passo Sella per evitare lunghe attese o costi aggiuntivi.</p>
 
-<p>Il tracciato, in gran parte facile e ben segnalato, si snoda attraverso un paesaggio naturale di rara bellezza.  L''itinerario, di circa 15,7 km, è perfetto per <strong>trekking** e offre opportunità per ammirare la <strong>natura** e la fauna locale, tra cui le frequenti marmotte che popolano le pendici del <strong>Piz da Uridl**.  La salita al <strong>Rifugio Vicenza** rappresenta il tratto più impegnativo, ma la ricompensa è una meta ideale per un pranzo con vista.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
 
-<h3>Cosa aspettarsi – Dettagli dell''Escursione in Trentino</h3>
+<p>Il trekking inizia direttamente dal parcheggio del Passo Sella. Da qui, si segue il sentiero ben segnalato che vi condurrà attraverso una serie di rifugi iconici del gruppo Sassolungo/Sasso Piatto. Percorrerete il Rifugio Valentini, il Rifugio Salei, il Rifugio Friedrich August (un''ottima sosta per assaggiare i famosi krapfen!), il Rifugio Sandro Pertini e il Rifugio Sasso Piatto. Una parte del percorso presenta una salita più impegnativa verso il Rifugio Vicenza, dove potrete godere di un pranzo con vista. Dopo il rifugio Vicenza, il sentiero prosegue fino al Rifugio Comici, per poi tornare al punto di partenza attraverso un tratto più basso che potrebbe essere bagnato o fangoso in determinate condizioni. La salita verso il Rifugio Vicenza è la parte più faticosa dell''escursione. </p>
 
-<ul>
-  <li><strong>Distanza:</strong> Circa 15,7 km</li>
-  <li><strong>Difficoltà:</strong> Facile/Media (tratto impegnativo al Rifugio Vicenza)</li>
-  <li><strong>Dislivello:</strong> Circa 600 metri</li>
-  <li><strong>Punti di Interesse:</strong> Rifugi Friedrich August (krapfen!), Sandro Pertini, Sasso Piatto, Piz da Uridl, Rifugio Vicenza, Rifugio Comici</li>
-  <li><strong>Paesaggi:</strong> Viste mozzafiato sul Sassolungo, Sasso Piatto, montagne circostanti e panorami alpini.</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
 
-<p>Questo <strong>sentiero** è perfetto per <strong>escursionisti** abituali e offre un''esperienza di <strong>trekking** appagante grazie alla varietà dei paesaggi e alla qualità dei rifugi.  Ricorda di prepararti adeguatamente per l''<strong>escursione**, considerando il dislivello e le condizioni meteorologiche.</p>
+<p>Questo è un anello di difficoltà media, adatto a escursionisti abituali. La distanza totale è di circa 18.45 km con un dislivello di 799 metri. L''ultimo tratto verso il Rifugio Vicenza presenta una salita ripida che potrebbe richiedere uno sforzo maggiore. È importante indossare scarpe da trekking adatte e portare con sé acqua e snack.</p>
 
-<h3>Informazioni utili – Consigli per il Trekking in Trentino</h3>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
 
-<p>Partenza: <strong>Passo Sella</strong>.  Parcheggio: quello di Passo Sella è comodo ma costoso.  Valuta alternative nei dintorni.</p>
-<p>Meteo: Controlla le previsioni meteo prima di partire, soprattutto dopo piogge recenti. Alcuni passaggi possono essere scivolosi a causa della neve o del ghiaccio, soprattutto in quota e nelle prime ore del mattino.</p>
-<p>Attrezzatura: Scarpe da trekking adatte, abbigliamento a strati, bastoncini da trekking, acqua e snack.  È consigliabile portare con sé un kit di primo soccorso.</p>
-<p>Note: Per chi non ama sentieri stretti o umidi, meglio evitare il rientro alto. Questo <strong>sentiero** offre un’esperienza di <strong>trekking** indimenticabile per ammirare la bellezza del <strong>Sassolungo e Sasso Piatto**.</p>',
+<p>Disponibile traccia GPS <a href="#">(link alla traccia GPS)</a></p>
+
+<p><strong>Distanza:</strong> Circa 18.45 km (anello)</p>
+<p><strong>Dislivello:</strong> Circa 799 metri</p>
+<p><strong>Difficoltà:</strong> Medio</p>
+<p><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</p>
+<p><strong>Punto di partenza:</strong> Passo Sella, Fossel, Trentino-Alto Adige, Italia</p>
+<p><strong>Comune:</strong> Fossel</p>
+<p><strong>Provincia:</strong> Trentino-Alto Adige</p>
+<p><strong>Regione:</strong> Italia</p>
+<p><strong>Tipo di sentiero:</strong> Sentiero escursionistico</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong>Distanza:</strong> Circa 18.45 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 799 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Passo Sella, Fossel, Trentino-Alto Adige, Italia</li>
+  <li><strong>Comune:</strong> Fossel, Trentino-Alto Adige</li>
+  <li><strong>Provincia:</strong> Trentino-Alto Adige</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   18.45,
   799,

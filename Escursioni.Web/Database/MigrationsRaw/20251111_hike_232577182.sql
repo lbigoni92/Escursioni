@@ -7,23 +7,38 @@ VALUES (
   232577182,
   'Monte Procinto, Monte Nona e Foce delle Porchette da Stazzema',
   'Descrizione del percorso Partenza da Stazzema, dove abbiamo lasciato l’auto poco prima del parcheggio di Palamento. Da qui abbiamo imboccato il sentiero CAI 6, che ci ha condotti fino alle case Giorgini. Invece di proseguire come al solito sul tracciato principale, abbiamo scelto di esplorare un piccolo sentierino più in basso, mai percorso prima. Questo passa accanto a due vecchie cave, un tempo utilizzate probabilmente per estrarre materiale destinato alla produzione di tegole e materiali da costruzione. Il sentiero ci ha portati fino alla Fonte Moscoso. Poco dopo, nei pressi di una piccola edicola votiva, abbiamo imboccato un tracciato secondario non ben segnato: una sorta di “direttissima” che sale verso la Foce del Procinto. La pendenza in alcuni punti raggiunge i 40°, ma il percorso è molto suggestivo: attraversa una gola e passa sotto il ponte del Procinto. Sicuramente un’alternativa interessante per chi cerca qualcosa di diverso dal solito accesso. Raggiunta la foce, abbiamo intrapreso la Ferrata del Monte Procinto, considerata la più antica d’Italia. È un itinerario particolare: all’inizio può risultare un po’ noioso se ci sono escursionisti in senso opposto (trattandosi di un’unica via di salita e discesa), ma rimane comunque un’esperienza consigliata, soprattutto per chi affronta la sua prima ferrata. Dalla cima del Procinto siamo scesi lungo la via normale e abbiamo proseguito verso il Monte Nona, vetta facile e panoramica, senza particolari difficoltà. La discesa è avvenuta lungo la cresta nord del Nona, un percorso semplice se si ha un po’ di familiarità con il terreno apuano. Da qui abbiamo raggiunto la Foce delle Porchette e ci siamo ricongiunti con il sentiero CAI 6, che ci ha riportati al punto di partenza. Un anello impegnativo ma molto appagante: oltre 1000 m di dislivello, presenza di una via ferrata e tratti con pendenze marcate. È un itinerario che richiede buon allenamento, passo sicuro e un po’ di esperienza in montagna. In cambio regala varietà di paesaggi, scorci suggestivi e tanta avventura. Lo consiglio a chi vuole vivere un’escursione completa sulle Apuane, tra storia, panorami e adrenalina.',
-  '<h2>Monte Procinto, Monte Nona e Foce delle Porchette da Stazzema: Trekking e Escursioni in Montagna</h2>
+  '<h2 id="escursione-monte-procinto-monte-nona-foce-porchette-da-stazzema">Escursione al Monte Procinto, Monte Nona e Foce delle Porchette da Stazzema</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong> nel cuore delle **Apuane** offre un''esperienza unica per gli amanti della natura e dell''avventura. Partendo da <strong>Stazzema</strong>, l''escursione ci conduce attraverso un anello impegnativo ma ricompensante, ideale per un''<strong>escursione a piedi</strong> in montagna. Il percorso inizia con la discesa del <strong>CAI 6</strong> fino alle case Giorgini, per poi deviare su un sentiero secondario inesplorato che ci porta alla <strong>Fonte Moscoso</strong> e alla <strong>Foce delle Porchette</strong>.  La <strong>trekking</strong> include una visita alla <strong>Ferrata del Monte Procinto</strong>, la più antica d''Italia, e la salita al <strong>Monte Nona</strong>, una vetta facile con panorami mozzafiato.  Un''opportunità per immergersi nella bellezza della **natura italiana** e delle **montagne**.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>La partenza è da Stazzema, dove abbiamo parcheggiato l''auto poco prima del parcheggio di Palamento. Da lì, seguiamo il sentiero CAI 6 fino alle case Giorgini.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<ul>
-    <li>Oltre 1000 metri di dislivello, rendendo l''<strong>escursione</strong> un''esperienza impegnativa e gratificante.</li>
-    <li>Presenza di una <strong>via ferrata</strong>, la <strong>Ferrata del Monte Procinto</strong>, adatta a escursionisti esperti.</li>
-    <li>Tratti con pendenze marcate, che richiedono un buon allenamento e passo sicuro.</li>
-    <li>Varietà di paesaggi, dalle gole alle creste, offrendo scorci suggestivi.</li>
-    <li>Possibilità di immergersi nella storia e nella cultura delle **Apuane**, con la visita alla via ferrata più antica d''Italia.</li>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Partiamo da Stazzema, imboccando il CAI 6 fino alle case Giorgini. Invece di proseguire sul sentiero principale, esploriamo un sentierino che ci porta accanto a vecchie cave per l''estrazione di materiali da costruzione e ci conduce alla Fonte Moscoso. Proseguendo, seguiamo un tracciato secondario non ben segnato verso la Foce del Procinto, con pendenze fino al 40%. Raggiungiamo la foce e affrontiamo la Ferrata del Monte Procinto, considerata la più antica d''Italia. Dalla cima, scendiamo lungo la via normale e proseguiamo verso il Monte Nona, vetta panoramica e facile. La discesa si effettua lungo la cresta nord del Nona e ci riporta al punto di partenza tramite il sentiero CAI 6.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Difficoltà: Medio. Questo anello di oltre 1000 metri di dislivello presenta tratti con pendenze marcate, la necessità di affrontare una via ferrata e richiede buon allenamento, passo sicuro e un po’ di esperienza in montagna.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class="list">
+    <li>Distanza: Circa 10.88 km (anello)</li>
+    <li>Dislivello: Circa 1142 metri</li>
+    <li>Difficoltà: Medio</li>
+    <li>Periodo consigliato: Primavera, Estate, Autunno</li>
+    <li>Punto di partenza: Stazzema (accessibile in auto / a piedi)</li>
+    <li>Comune: Stazzema, Provincia: Toscana, Regione: Italia</li>
+    <li>Tipo di sentiero: Sentiero escursionistico, Mulattiera, Ferrata</li>
 </ul>
 
-<h3>Informazioni Utili</h3>
-<p>Questo <strong>sentiero</strong> è adatto a escursionisti allenati e con un minimo di esperienza in <strong>trekking</strong> e <strong>montagna</strong>.  La <strong>difficoltà</strong> è elevata a causa del dislivello e dei tratti esposti.  È fondamentale indossare scarpe da trekking adatte, portare con sé acqua, cibo e un kit di pronto soccorso.  Si consiglia di informarsi sulle condizioni meteorologiche prima di partire e di valutare attentamente le proprie capacità fisiche.  Un''<strong>escursione</strong> indimenticabile nelle **montagne italiane**!</p>
-<p>Ideale per chi cerca <strong>trekking</strong> nelle **Apuane**, <strong>escursioni</strong> panoramiche e <strong>sentieri</strong> avventurosi.  Esplora la bellezza della **natura** con questa <strong>trekking</strong> impegnativa ma gratificante.  </p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul class="list">
+    <li><strong>Distanza:</strong> Circa 10.88 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1142 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Stazzema (accessibile in auto / a piedi)</li>
+    <li><strong>Comune:</strong> Stazzema, Provincia: Toscana, Regione: Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico, Mulattiera, Ferrata</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.88,
   1142,

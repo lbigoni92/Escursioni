@@ -7,36 +7,30 @@ VALUES (
   88150843,
   'Val di luce - Passo della vecchia - Lago nero',
   'Siamo partiti da Val di Luce, c''è parcheggio in abbondanza e abbiamo imboccato il sentiero al km 0.9. Fino al km 3.5 è camminata tranquilla da li si deve girare a dx , a quel punto inizierà la salita, arriviamo al Rifugio Pulicchie, quando ci simo passati era chiuso e proseguimmo fino al Monte Gomito , poco prima d''arrivare in cima sulla SX c''è l''attacco al sentiero che posta al Passo della Fariola e in seguito, al Passo dei Denti della Vecchia. Dai Denti della Vecchia abbiamo proseguito prima, verso il lago nero ma c''ha preso la poggia e ci siamo rinchiusi nel rifugio del Lago Nero e al posto di proseguire verso l''Alpe delle Tre Potenze siamo tornati in dietro e siamo passati su una pista da sci Per il resto lasciate un commento e buon trek!',
-  '<h2>Val di Luce – Passo della Vecchia – Lago Nero: Escursione di Trekking in Montagna</h2>
+  '<h2 id="escursione-val-di-luce-passo-della-vecchia-lago-nero">Escursione al Passo della Vecchia e al Lago Nero nel Val di Luce</h2>
 
-<h3>Il Percorso – Trekking nel Parco Nazionale d''Abruzzo</h3>
-<p>
-    Questo suggestivo <strong>sentiero di trekking</strong>, situato nel cuore del <strong>Parco Nazionale d''Abruzzo</strong>, offre un''esperienza indimenticabile per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>montagna</strong>. 
-    La <strong>val di luce</strong> è un ottimo punto di partenza per questa <strong>escursione</strong>, con ampi parcheggi disponibili. Il percorso inizia dal km 0.9 e si snoda attraverso panorami mozzafiato, collegando la <strong>Val di Luce</strong> al <strong>Lago Nero</strong>, passando per il <strong>Passo della Vecchia</strong> e il <strong>Monte Gomito</strong>. 
-    Si tratta di un''affascinante <strong>passeggiata** per la natura e per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>montagna</strong>. 
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Partenza da <strong>Val di Luce</strong>, in provincia di <strong>Casa Gallo</strong>, nell''<strong>Emilia-Romagna</strong>. Il parcheggio è facilmente raggiungibile e da lì, seguiamo il sentiero al km 0.9. L''inizio dell''escursione è accessibile sia in auto che a piedi.</p>
 
-<h3>Cosa Aspettarsi – Difficoltà e Distanza</h3>
-<p>
-    La <strong>val di luce - passo della vecchia - lago nero** è un''escursione di media difficoltà, ideale per escursionisti esperti che desiderano immergersi nella natura selvaggia dell''Appennino centrale. La distanza totale del <strong>sentiero</strong> è di circa 18 km, con un dislivello di 1200 metri. 
-    Ci aspettano panorami spettacolari, attraversamenti di boschi, prati fioriti e la possibilità di avvistare la fauna locale, come cervi e caprioli. È un''occasione unica per praticare <strong>trekking</strong> e <strong>escursionismo</strong> in un ambiente incontaminato. 
-</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>L''escursione inizia con una camminata tranquilla lungo il sentiero fino al km 3.5. Qui, si gira a destra, dando inizio alla salita verso il <strong>Rifugio Pulicchie</strong>. Il rifugio è stato chiuso al momento del nostro trekking, ma abbiamo proseguito fino al <strong>Monte Gomito</strong>. Poco prima della cima, si trova l''attacco al sentiero che porta al <strong>Passo della Fariola</strong>, e successivamente al <strong>Passo dei Denti della Vecchia</strong>. Da qui, si prosegue verso il <strong>Lago Nero</strong>.  A causa del maltempo, abbiamo ripreso il sentiero che ci ha riportati al rifugio del Lago Nero, per poi tornare indietro lungo una pista da sci. Questo anello di circa 15 km ci ha permesso di ammirare panorami mozzafiato.</p>
 
-<h3>Informazioni Utili – Dettagli per il Tuo Trekking</h3>
-<ul>
-    <li><strong>Località:</strong> Parco Nazionale d''Abruzzo, Regione Abruzzo</li>
-    <li><strong>Difficoltà:</strong> Media</li>
-    <li><strong>Distanza:</strong> Circa 18 km</li>
-    <li><strong>Dislivello:</strong> 1200 metri</li>
-    <li><strong>Punto di Partenza:</strong> Val di Luce (parcheggio disponibile)</li>
-    <li><strong>Punto di Arrivo:</strong> Lago Nero (rifugio del Lago Nero)</li>
-    <li><strong>Tempi di percorrenza stimati:</strong> 6-8 ore (a seconda del ritmo e delle soste)</li>
-    <li><strong>Attenzione:</strong> Il <strong>sentiero</strong> presenta alcuni tratti esposti e richiede un''adeguata preparazione fisica e attrezzatura da <strong>trekking</strong>. È consigliabile informarsi sulle condizioni meteorologiche prima di intraprendere l''<strong>escursione</strong>.</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p><strong>Difficoltà:</strong> Media. L''escursione richiede una buona preparazione fisica, con alcuni tratti in salita impegnativi. Si consiglia di indossare scarpe da trekking adatte. Il <strong>dislivello</strong> è di circa <strong>+489 metri</strong>.</p>
 
-<p>
-    Scopri la bellezza dei <strong>sentieri di trekking</strong> in <strong>Italia</strong> e vivi un''esperienza di <strong>escursionismo</strong> indimenticabile.  Questo <strong>sentiero di trekking** è perfetto per gli amanti della <strong>natura** e per chi cerca un''<strong>escursione** impegnativa ma gratificante. 
-</p>',
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Questo trekking di tipo <strong>anello</strong> per circa <strong>15.02 km</strong> è perfetto per chi ama la montagna e i panorami.  L''escursione è consigliata durante la <strong>Primavera, Estate o Autunno</strong>.  Per una navigazione precisa, ti consigliamo di scaricare una <strong>traccia GPS</strong> (disponibile a breve).  Per maggiori informazioni pratiche, consulta la sezione "Informazioni Utili" qui sotto.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 15.02 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 489 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Val di Luce, accessibile in auto/piedi</li>
+    <li><strong>Comune:</strong> Casa Gallo, Emilia-Romagna</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   15.02,
   489,

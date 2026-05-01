@@ -7,27 +7,45 @@ VALUES (
   206876556,
   'Castello Orsini da Borgo di celleno',
   'Percorso da Borgo di Celleno passando per: Castello Orsini (0.2 km) Abbiamo parcheggiato nei pressi del cimitero, dove poco dopo si trova una panchina gigante che offre un bellissimo panorama sulla valle circostante. Dal cimitero al paesino di Castello Orsini da Acquaforte ci vogliono circa 15 minuti a piedi. Il percorso è semplice e piacevole, lo consiglio vivamente perché regala scorci panoramici suggestivi. Inoltre, davanti al Monastero si possono ammirare splendidi dipinti esterni, testimoni della storia artistica e religiosa della zona. Borgo di Celleno: tra storia e fascino medievale Il Borgo fantasma di Celleno è un vero gioiello storico. Le sue origini risalgono all''epoca etrusca, ma il castello e le strutture attuali si svilupparono principalmente nel Medioevo. Il cuore del borgo è il Castello Orsini, risalente all''XI secolo, che fu dimora della potente famiglia Orsini e, successivamente, teatro di lotte tra nobili famiglie rivali. Oggi Celleno è un borgo abbandonato ma perfettamente conservato, con un’atmosfera unica che lo rende una meta imperdibile per gli amanti della storia e della fotografia. L''ingresso è gratuito, e si possono visitare diverse parti del castello normalmente inaccessibili nei castelli a pagamento. Il borgo è stato trasformato in un vero e proprio museo a cielo aperto, dove si respira ancora l’antico fascino medievale.',
-  '<h2>Trekking al Castello Orsini da Borgo di Celleno: Escursione nella Storia e nella Natura</h2>
+  '<h2 id="escursione-castello-orsini-da-borgo-di-celleno">Escursione al Castello Orsini da Borgo di Celleno</h2>
 
-<h3>Il Percorso</h3>
+<p>Amate le storie, i panorami mozzafiato e i sentieri semplici? Allora questa escursione è perfetta per voi! Vi guiderò in un''avventura indimenticabile, un percorso di appena 1.67 km, che vi condurrà direttamente nel cuore del <strong>Castello Orsini</strong> a <strong>Borgo di Celleno</strong>, in provincia di <strong>Lazio</strong>.</p>
 
-<p>Questo <strong>sentiero di trekking</strong> da <strong>Borgo di Celleno</strong> offre un''esperienza unica, combinando la bellezza della <strong>montagna</strong> con il fascino della storia medievale.  L''<strong>escursione</strong> parte dal parcheggio vicino al cimitero, un punto di partenza strategico per iniziare questo percorso semplice e piacevole.  Il cammino dura circa 15 minuti e conduce direttamente al pittoresco borgo di <strong>Castello Orsini da Acquaforte</strong>, un vero gioiello per gli amanti del <strong>trekking</strong> e della scoperta di luoghi suggestivi.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Cosa Aspettarsi</h3>
+<p>Il punto di partenza è facilmente raggiungibile. Parcheggiate nei pressi del <strong>cimitero</strong> di <strong>Borgo di Celleno</strong>. Da lì, seguendo un breve sentiero, arriverete a una panchina gigante con un panorama spettacolare sulla valle. Da qui inizia il vostro trekking!</p>
+
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>Il sentiero è piacevole e facile, perfetto per una bella escursione di un giorno. Percorrerete circa 0.2 km fino al <strong>Castello Orsini</strong>. Ammirerete poi il <strong>Monastero</strong> e i suoi splendidi dipinti esterni. Il ritorno sarà lungo lo stesso sentiero. Un''escursione di circa 1 ora e 30 minuti, ideale per una giornata all''aria aperta. Questo <strong>sentiero</strong> è perfetto per un''<strong>escursione</strong> in famiglia.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>La difficoltà di questo <strong>trekking</strong> è definita <strong>media</strong>. Il dislivello è di soli 14 metri, quindi non è impegnativo. È un percorso adatto a persone con un minimo di allenamento, ma anche alle famiglie. Preparatevi a godervi un''<strong>escursione</strong> in <strong>montagna</strong> con un incredibile <strong>panorama</strong>.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
 
 <ul>
-  <li>Un percorso di <strong>trekking</strong> facile e adatto a tutti i livelli.</li>
-  <li>Scorci panoramici mozzafiato sulla valle circostante, offerti dalla posizione elevata.</li>
-  <li>La possibilità di ammirare un borgo medievale perfettamente conservato, <strong>Borgo di Celleno</strong>, con il suo affascinante <strong>Castello Orsini</strong>.</li>
-  <li>L''opportunità di scoprire un borgo fantasma, un vero e proprio <em>museo a cielo aperto</em> che ripercorre la storia etrusca e medievale della regione.</li>
-  <li>Un''<em>escursione</em> ricca di storia, arte e <strong>natura</strong>.</li>
+    <li><strong>Distanza:</strong> Circa 1.67 km (solo andata)</li>
+    <li><strong>Dislivello:</strong> Circa 14 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Cimitero di Borgo di Celleno, Acquaforte, Lazio</li>
+    <li><strong>Comune:</strong> Acquaforte, Regione: Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni Utili</h3>
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 
-<p>Il <strong>sentiero</strong> da <strong>Borgo di Celleno</strong> al <strong>Castello Orsini</strong> è un''iniziativa ideale per chi cerca un''<em>escursione</em>  nel cuore della <strong>montagna</strong>.  Il percorso, di breve distanza (0.2 km), è facilmente percorribile e offre una vista panoramica impareggiabile.  Il <strong>Castello Orsini</strong>, risalente all''XI secolo, è un esempio straordinario di architettura medievale, con splendidi dipinti esterni che testimoniano la sua storia artistica e religiosa. L''ingresso al borgo è gratuito, permettendo di esplorare le sue antiche mura e di immergersi nell''atmosfera unica di questo luogo storico.  Questa <strong>escursione</strong> è perfetta per chi desidera combinare <strong>trekking</strong>, cultura e <strong>natura</strong> in un''unica giornata.  Esplora questo magnifico <strong>sentiero Italia</strong>!</p>
-
-<p>Indica il tuo punto di partenza da <strong>Borgo di Celleno</strong> per una splendida <strong>escursione</strong>. </p>',
+<ul >
+    <li><strong>Distanza:</strong> Circa 1.67 km (solo andata)</li>
+    <li><strong>Dislivello:</strong> Circa 14 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Cimitero di Borgo di Celleno, Acquaforte, Lazio</li>
+    <li><strong>Comune:</strong> Acquaforte, Regione: Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   1.67,
   14,

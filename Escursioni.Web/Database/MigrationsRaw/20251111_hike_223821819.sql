@@ -7,32 +7,54 @@ VALUES (
   223821819,
   'Monte Memoriante, Penna di Lucchio e Monte Lischeta da Lucchio',
   'Percorso ad anello da Lucchio – Monte Memoriante, Sella del Romitorio, Penna di Lucchio, Monte Lischeta, Monte Granaio Bellissimo anello con partenza da Lucchio, pittoresco borgo arroccato noto per il suo castello (attualmente in restauro). Il sentiero inizia salendo subito su cresta, con tratti panoramici e qualche passaggio esposto. In alcuni punti è necessario l’uso delle mani (passaggi di I grado), ma nulla di particolarmente tecnico per escursionisti esperti. Dopo una ripida discesa si incontra un bivio: il tracciato ufficiale scende a sinistra, ma noi abbiamo proseguito in cresta fino a raggiungere un rilievo non nominato e poi la Sella del Romitorio. Da lì si sale al Monte Memoriante, tratto impegnativo (passaggi di I grado e esposizione) ma molto suggestivo. In discesa o salita si può scegliere una variante più esposta con catena fissa oppure seguire il percorso diretto. A questo punto il sentiero scende verso la Cresta di Lucchio, poi al Bivio del Biforco da cui normalmente si rientra, ma noi abbiamo deciso di proseguire per visitare anche Monte Lischeta e Monte Granaio, due cime facili ma panoramiche. Il ritorno avviene attraversando un campo e ricollegandosi al sentiero sotto la Penna di Lucchio, da cui si scende comodamente verso il borgo, con sosta rinfrescante alla fontana nei pressi del paese. Note: percorso non adatto a principianti o a chi soffre di vertigini. Richiede passo sicuro, abitudine a muoversi su creste esposte e buona preparazione fisica.',
-  '<h2>Monte Memoriante, Penna di Lucchio e Monte Lischeta da Lucchio – Trekking in Montagna</h2>
+  '<h2 id="escursione-monte-memoriante-penna-di-lucchio-e-monte-lischeta-da-lucchio">Escursione al Monte Memoriante, Penna di Lucchio e Monte Lischeta da Lucchio</h2>
 
-<h3>Il Percorso</h3>
+<p>
+Avventurati con noi in una magnifica <strong>escursione</strong> ad anello nel cuore della **Toscana**! Questo percorso di circa <strong>9.81 km</strong> ti porterà alla scoperta di panorami mozzafiato e sentieri suggestivi. 
+</p>
 
-<p>Questo splendido <strong>anello trekking</strong> parte dal pittoresco borgo di <strong>Lucchio</strong>, noto per il suo castello in restauro, e conduce attraverso un paesaggio montano mozzafiato. L''escursione in <strong>sentiero</strong> offre panorami spettacolari su <strong>Monte Memoriante</strong>, la maestosa <strong>Penna di Lucchio</strong> e il <strong>Monte Lischeta</strong>. Il percorso è caratterizzato da salite immediate su cresta, con tratti panoramici e alcuni passaggi esposti, offrendo un''esperienza di <strong>trekking</strong> indimenticabile nella <strong>montagna</strong> italiana.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<p>Il <strong>sentiero</strong> inizia con una salita su cresta, con difficoltà di I grado in alcuni punti, che richiede l''uso delle mani ma non è particolarmente tecnico.  Si snoda attraverso un territorio selvaggio, ricco di <strong>natura</strong> e silenzio, ideale per un''<strong>escursione</strong> immersiva.</p>
+<p>
+Il punto di partenza dell''<strong>escursione</strong> è il borgo di **Lucchio**, facilmente raggiungibile in auto. Da qui, segui le indicazioni per il sentiero che parte direttamente verso le cime.
+</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
 
-<ul>
-    <li>Percorso ad anello di varia difficoltà.</li>
-    <li>Tratti panoramici con vista su cime imponenti.</li>
-    <li>Passaggi esposti e alcuni tratti con esposizione.</li>
-    <li>Necessità di una buona preparazione fisica e passo sicuro.</li>
-    <li>Possibilità di affrontare passaggi di I grado, richiedendo l''uso delle mani.</li>
-    <li>Variante con catena fissa per i tratti più esposti.</li>
+<p>
+Il sentiero inizia subito con una salita su cresta, offrendo panorami spettacolari. Superati alcuni tratti esposti (passaggi di I grado, dove potrebbe essere necessario l''uso delle mani), raggiungerai la <strong>Sella del Romitorio</strong>. Da qui, prosegui verso il maestoso <strong>Monte Memoriante</strong>, un tratto più impegnativo ma estremamente suggestivo, con passaggi di I grado e esposizione.  
+</p>
+
+<p>
+Potrai scegliere una variante più esposta con <strong>catena fissa</strong> oppure seguire il percorso diretto.  La discesa o salita porterà alla visita di <strong>Monte Lischeta</strong> e <strong>Monte Granaio</strong>, cime facili ma ricche di panorami.  Rientrerai poi verso Lucchio, attraversando un campo e ricollegandoti al sentiero sotto la Penna di Lucchio.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>
+Questa <strong>escursione</strong> è di <strong>difficoltà media</strong> e richiede una buona preparazione fisica. Il <strong>dislivello</strong> è di circa <strong>783 metri</strong>.  È importante avere un passo sicuro, abitudine a muoversi su creste esposte e una buona condizione fisica. Non è adatta a principianti o a chi soffre di vertigini.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>
+Disponibile la <strong>traccia GPS</strong> per l''<strong>escursione</strong>.
+</p>
+
+<ul id="informazioni-utili">
+  <li><strong>Distanza:</strong> Circa 9.81 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 783 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Lucchio, Toscana</li>
+  <li><strong>Comune:</strong> Lucchio, Toscana</li>
+  <li><strong>Regione:</strong> Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Questo <strong>sentiero trekking</strong> è perfetto per escursionisti esperti che amano le sfide e i panorami mozzafiato.  È un''opportunità per vivere un''avventura in <strong>montagna</strong>, esplorando la bellezza della <strong>Penna di Lucchio</strong> e del <strong>Monte Memoriante</strong>.</p>
-
-<h3>Informazioni Utili</h3>
-
-<p>La lunghezza totale del <strong>sentiero</strong> è di circa 18 km con un dislivello di 1200 metri. Il tempo di percorrenza stimato è di 8-10 ore.  La difficoltà del <strong>trekking</strong> è di I grado, quindi richiede un minimo di esperienza e buona preparazione fisica.  L''escursione è consigliata a escursionisti esperti che si sentono a loro agio su <strong>sentieri</strong> esposti e che sono abituati a muoversi su creste.  È importante avere con sé acqua, cibo, scarpe da trekking adatte e abbigliamento adeguato alle condizioni meteorologiche.  Questo <strong>sentiero</strong> offre un''esperienza unica di <strong>trekking</strong> in Italia, con la possibilità di ammirare la bellezza della <strong>montagna</strong> e del <strong>paesaggio</strong> circostante.</p>
-
-<p><strong>ATTENZIONE:</strong> Questo percorso non è adatto a principianti o a chi soffre di vertigini. Richiede passo sicuro, abitudine a muoversi su creste esposte e buona preparazione fisica.  Goditi l''esperienza di <strong>trekking</strong> in questo splendido <strong>anello</strong>!</p>',
+<p>
+Ricorda di informarti sempre sulle condizioni meteo prima di partire e di indossare abbigliamento e scarpe da trekking adeguate. Buona escursione!
+</p>',
   'Tutte le Attività e Paesi',
   9.81,
   783,

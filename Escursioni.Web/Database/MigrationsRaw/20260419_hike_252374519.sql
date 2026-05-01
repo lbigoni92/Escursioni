@@ -7,25 +7,38 @@ VALUES (
   252374519,
   'Moriglione di Penna, Monte Penna e Passo di Dante da san cerbone',
   '🥾 Anello da San Cerbone – Moriglione di Penna, Monte Penna e Passo di Dante Percorso ad anello panoramico che parte da San Cerbone e attraversa alcune delle cime più caratteristiche del Monte Pisano, alternando boschi, crinali aperti e tratti tecnici mai estremi ma sempre interessanti. Dopo aver parcheggiato senza particolari difficoltà nei pressi del paese, l’escursione inizia con un breve tratto tra le stradine della piccola cittadina, utile per scaldare le gambe prima di entrare nel sentiero vero e proprio. Da qui in avanti il percorso rimane sempre su traccia segnata, senza mai abbandonare il sentiero principale. Salita al Moriglione di Penna Dopo circa 1,9 km si incontra una deviazione opzionale: la direttissima del Monte Penna, variante ripida e impegnativa, consigliata solo a escursionisti esperti. È probabilmente uno dei tratti più tecnici della zona, con salita diretta su terreno ripido e continuo. In questa occasione abbiamo scelto di restare sul percorso escursionistico classico. La salita conduce progressivamente al Moriglione di Penna (2,9 km), con pendenza sostenuta ma regolare, uno dei pochi punti realmente faticosi dell’anello. Monte Penna e ritorno al crinale Dal Moriglione abbiamo proseguito fino al Monte Penna (3,6 km), la cima più orientale del versante, raggiungendo un bellissimo punto panoramico. Il tratto richiede attenzione per la presenza di pietre mobili che rallentano la progressione. Rientrati al Moriglione, abbiamo imboccato il sentiero verso il bivacco del Monte Penna, struttura di recente costruzione (assente nelle escursioni precedenti in zona), ottimo punto di riferimento lungo il percorso. Creste tecniche: Cimette e Monte Cupola Da qui inizia una parte molto interessante dell’itinerario: un tratto più tecnico e vario che percorre il crinale passando per: Le Cimette (7,6 km) Monte Cupola (8,3 km) Il sentiero diventa più roccioso e movimentato, regalando scorci continui tra il versante lucchese e quello pisano. Eremo della Spelonca e Monte San Giuliano Proseguendo si raggiunge l’isolato e suggestivo Eremo della Spelonca (9,6 km), luogo sempre affascinante immerso nel silenzio del bosco. Da qui abbiamo deciso di salire anche sulla vetta del Monte San Giuliano (10,6 km), deviazione breve ma consigliata per ampliare ulteriormente i panorami. Passo di Dante e rientro La discesa porta infine al Passo di Dante (11 km), storico punto di passaggio del Monte Pisano, prima di rientrare sul tracciato che chiude l’anello verso San Cerbone. ⚠️ Difficoltà e caratteristiche Percorso mai realmente difficile, ma con alcuni tratti da affrontare con attenzione: salita ripida al Moriglione di Penna; eventuale direttissima (solo esperti); tratto Moriglione → Monte Penna con pietrisco instabile. Sentiero sempre evidente e continuo. Escursione molto varia e panoramica.',
-  '<h2>Moriglione di Penna, Monte Penna e Passo di Dante da San Cerbone: Trekking Panoramico nel Monte Pisano</h2>
+  '<h2 id="escursione-moriglione-penna-monte-dante-san-cerbone">Escursione al Moriglione di Penna, Monte Penna e Passo di Dante da San Cerbone</h2>
 
-<h3>Il percorso</h3>
-<p>Questo <em>sentiero di trekking</em> ad anello parte da <strong>San Cerbone</strong> e offre un’esperienza indimenticabile attraverso alcune delle cime più iconiche del <strong>Monte Pisano</strong>.  L’<em>escursione</em> è pensata per appassionati di <em>trekking</em> e <em>sentieri</em> alla ricerca di panorami mozzafiato, alternando tratti di bosco, crinali aperti e alcuni passaggi leggermente più tecnici, sempre accessibili anche a escursionisti meno esperti. Il percorso è di circa 11 km e presenta una <em>difficoltà</em> media.  Perfetto per una giornata di <em>escursione</em> nella <strong>montagna</strong>,  godendo della bellezza della <strong>natura</strong> italiana.</p>
-<p>L''anello inizia con un breve tratto tra le stradine di <strong>San Cerbone</strong>, ideale per riscaldarsi.  Il sentiero è sempre ben segnato e continua lungo il percorso principale, evitando deviazioni difficili.  Si sale gradualmente al <strong>Moriglione di Penna</strong>, raggiungendo i 2,9 km del percorso.  In prossimità del Moriglione si trova una deviazione opzionale, la direttissima per il <strong>Monte Penna</strong>, riservata a escursionisti esperti grazie alla sua pendenza e difficoltà.</p>
-<p>Il tratto per il <strong>Monte Penna</strong> (3,6 km) richiede attenzione per la presenza di pietre mobili che possono rallentare la progressione.  Una volta raggiunta la cima del <strong>Monte Penna</strong>, si gode di un bellissimo punto panoramico.  Dopo aver ammirato il panorama, si ritorna al <strong>Moriglione di Penna</strong> e si prosegue verso il bivacco del <strong>Monte Penna</strong>, un punto di riferimento utile durante l’<em>escursione</em>.  Il percorso continua lungo creste tecniche, passando per le Cimette e il <strong>Monte Cupola</strong>, offrendo panorami spettacolari sul versante lucchese e pisano.</p>
-<p>Il sentiero continua verso l’<strong>Eremo della Spelonca</strong> (9,6 km), un luogo suggestivo immerso nel silenzio del bosco, e successivamente verso il <strong>Monte San Giuliano</strong> (10,6 km), per ampliare i panorami.  La discesa finale porta al <strong>Passo di Dante</strong> (11 km), storico punto di passaggio del <strong>Monte Pisano</strong>, e infine al rientro a <strong>San Cerbone</strong>, completando l''anello.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa splendida escursione è <strong>San Cerbone</strong>, un piccolo borgo alle pendici del Monte Pisano. Raggiungere San Cerbone è semplice: l''accesso stradale è garantito tramite la strada provinciale. Parcheggiate l''auto nei pressi del paese, facilmente individuabile.</p>
 
-<h3>Cosa aspettarsi</h3>
-<ul>
-    <li>Sentiero panoramico con viste mozzafiato sul Monte Pisano.</li>
-    <li>Tratti di sentiero ben segnati e facili da seguire.</li>
-    <li>Possibilità di avvistare la fauna e la flora locale.</li>
-    <li>Punti di interesse naturalistico come l''Eremo della Spelonca e il Monte San Giuliano.</li>
-    <li>Varietà di terreno: boschi, crinali aperti, roccia.</li>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo percorso ad anello vi porterà attraverso alcune delle cime più caratteristiche del Monte Pisano, offrendo panorami mozzafiato. Iniziate da San Cerbone, percorrendo un breve tratto tra le stradine del paese. Il sentiero vi condurrà attraverso boschi e crinali aperti, con alcuni tratti più tecnici, ma mai eccessivamente impegnativi. Percorrerete la salita al <strong>Moriglione di Penna</strong>, uno dei punti più faticosi dell''anello, e successivamente raggiungerete la cima del <strong>Monte Penna</strong>, da cui potrete godere di una vista panoramica spettacolare. Il sentiero proseguirà attraverso <strong>Le Cimette</strong> e il <strong>Monte Cupola</strong>, per poi raggiungere l''<strong>Eremo della Spelonca</strong> e, per i più avventurosi, la vetta del <strong>Monte San Giuliano</strong>. Infine, il sentiero vi riporterà al <strong>Passo di Dante</strong> e di nuovo a <strong>San Cerbone</strong>, completando l''anello.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>L''escursione è di livello <strong>Medio</strong>. La difficoltà principale è rappresentata dalla salita ripida al <strong>Moriglione di Penna</strong> e dal tratto con pietrisco instabile verso il <strong>Monte Penna</strong>. Il sentiero è sempre ben tracciato e continuo, ma è consigliabile indossare scarpe da trekking adeguate e portare con sé acqua e snack.  È consigliabile l''esperienza di escursionismo</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<ul class="fa-ul">
+    <li><strong>Distanza:</strong> Circa 12.52 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 744 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> San Cerbone, accessibile in auto</li>
+    <li><strong>Comune:</strong> San Cerbone, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni utili</h3>
-<p>Questo <em>sentiero di trekking</em> è ideale per chi cerca una <em>escursione</em> di un giorno nella <strong>montagna</strong>,  perfetta per appassionati di <em>sentieri</em> e <em>trekking</em>.  È consigliabile indossare scarpe da trekking, portare con sé acqua e cibo, e informarsi sulle condizioni meteorologiche prima di partire.  La <em>difficoltà</em> del percorso è media, ma alcuni tratti richiedono attenzione, in particolare la salita ripida al <strong>Moriglione di Penna</strong>.  Non dimenticate di rispettare l''ambiente e di lasciare il sentiero pulito.  Esplorate questo affascinante <em>sentiero Italia</em> e godetevi la bellezza del <strong>Monte Pisano</strong>!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong>Distanza:</strong> Circa 12.52 km (andata e ritorno / anello)</li>
+    <li><strong>Dislivello:</strong> Circa 744 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> San Cerbone, accessibile in auto</li>
+    <li><strong>Comune:</strong> San Cerbone, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   12.52,
   744,
@@ -54,7 +67,7 @@ VALUES (
   '509428bdf93aa373de8146762faf143fb0b201634e20ce7b1be631821a205ffd',
   'Escursione San Cerbone Moriglione Penna: Anello Monte Pisano ⛰️. Trek facile 12.5km, 744m dislivello. Da San Cerbone al Monte Penna e Passo di Dante! Sentier...',
   'Moriglione di Penna: escursione da San Cerbone (anello)',
-  'Monti Pisani', 
+  'Monti Pisani',
   NOW(),
   NOW()
 )

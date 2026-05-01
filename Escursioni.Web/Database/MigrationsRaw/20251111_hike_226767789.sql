@@ -7,29 +7,30 @@ VALUES (
   226767789,
   'Treschietto - Pisciaron de pungitopo - Bagnone',
   'Percorso da Treschietto a Bagnone passando per: - Pisciaron de pungitopo (8.1 km)',
-  '<h2>Treschietto - Pisciaron de pungitopo - Bagnone: Trekking Esplorativo in Val Fortore</h2>
+  '<h2 id="treschietto-pisciaron-de-pungitopo-bagnone">Escursione al Treschietto - Pisciaron de Pungitopo - Bagnone</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Per raggiungere il punto di partenza dell''escursione, si parte da <strong>Treschietto</strong>, un piccolo borgo immerso nel cuore della Val di Camporealto. L''accessibile in auto lungo la strada statale </a>, oppure si può arrivare a piedi da paesi limitrofi, godendosi i primi chilometri del sentiero. Il parcheggio più comodo si trova all''inizio del percorso, segnalato con pannelli indicatore.</p>
 
-<p>Preparati per un''escursione indimenticabile lungo il <strong>sentiero</strong> del <strong>Treschietto</strong>, un''immersione profonda nel cuore della <strong>Val Fortore</strong>. Questo percorso di <strong>trekking</strong>, che collega <strong>Treschietto</strong> a <strong>Bagnone</strong>, ti condurrà attraverso paesaggi mozzafiato, con panorami a perdita d''occhio sulla <strong>montagna</strong> e sulla <strong>natura</strong> incontaminata. Il tratto più impegnativo è il passaggio per il <strong>Pisciaron de pungitopo</strong>, un promontorio con una vista spettacolare.  L''escursione, ideale per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>, offre un''opportunità unica per esplorare i sentieri italiani e immergersi nella bellezza del territorio.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questa escursione è un vero gioiello nel cuore della <strong>Toscana</strong>. Partendo da <strong>Treschietto</strong>, il sentiero ci conduce inizialmente in salita, guadagnando terreno con diversi tornanti. Il tratto più suggestivo è quello che porta al <strong>Pisciaron de Pungitopo</strong>, una vetta panoramica da cui si gode di una vista mozzafiato sulla Val di Camporealto. Il sentiero prosegue poi verso <strong>Bagnone</strong>, un paese caratteristico con case in pietra e una fortezza medievale. Il percorso è ben segnalato e offre diverse opportunità per ammirare il paesaggio montano.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>L''escursione al <strong>Treschietto - Pisciaron de Pungitopo - Bagnone</strong> presenta una <strong>difficoltà media</strong>, adatta a escursionisti abituali. Il <strong>dislivello di 355 metri</strong> richiede una buona preparazione fisica, ma il percorso è ben tracciato e offre punti di appoggio per riposare. Si consiglia di indossare scarpe da trekking adatte e di portare con sé acqua e cibo, soprattutto se si prevede di percorrere l''intero tragitto. La durata consigliata è di circa 6-8 ore.</p>
 
-<p>Durante questa <strong>escursione</strong>, potrai ammirare la flora e la fauna locali, goderti la tranquillità della <strong>montagna</strong> e la possibilità di incontrare altri appassionati di <strong>trekking</strong>.  Questo <strong>sentiero</strong> offre una sfida moderata, perfetta per escursionisti esperti ma anche per chi desidera esplorare la <strong>natura</strong> con un''attività di <strong>trekking</strong>.  La difficoltà del percorso, con un dislivello significativo, richiede una buona preparazione fisica.  Non dimenticare di portare con te l''attrezzatura adeguata per un''<strong>escursione</strong> in <strong>montagna</strong>, inclusi scarpe da trekking robuste, acqua e cibo.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per facilitare l''escursione, è consigliabile scaricare una <strong>traccia GPS</strong> del percorso.  Il sentiero è di tipo <strong>solo andata</strong> da Treschietto a Bagnone. Per maggiori informazioni e dettagli sul sentiero, si consiglia di consultare la mappa escursionistica del territorio.</p>
 
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-  <li><strong>Distanza:</strong> 8.1 km</li>
-  <li><strong>Dislivello:</strong> 880 m (salita)</li>
-  <li><strong>Difficoltà:</strong> Impegnativo</li>
-  <li><strong>Periodo Consigliato:</strong> Da maggio a ottobre</li>
-  <li><strong>Punto di Partenza:</strong> Treschietto</li>
-  <li><strong>Punto di Arrivo:</strong> Bagnone</li>
-  <li><strong>Tipo di Sentiero:</strong> Sentiero di <strong>trekking</strong> in <strong>montagna</strong>, perfetto per gli amanti della <strong>natura</strong> e dell''<strong>escursionismo</strong> in <strong>Italia</strong>.</li>
-</ul>
-
-<p>Esplora i <strong>sentieri</strong> più belli d''Italia con un''avventura di <strong>trekking</strong> a <strong>Bagnone</strong>.  Scopri il <strong>Pisciaron de pungitopo</strong> e goditi il panorama.  Un''esperienza di <strong>trekking</strong> autentica e indimenticabile ti aspetta!</p>',
+  <li><strong>Distanza:</strong> 20.31 km</li>
+  <li><strong>Dislivello:</strong> 355 m</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Treschietto, accessibile in auto</li>
+  <li><strong>Comune:</strong> Treschietto, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   20.31,
   355,

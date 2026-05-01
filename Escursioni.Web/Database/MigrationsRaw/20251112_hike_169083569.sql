@@ -7,25 +7,33 @@ VALUES (
   169083569,
   'Colonnata Cima di Gioia Monte Tamburone Cima d''uomo',
   'Il percorso offre un''esperienza coinvolgente, ma talvolta contrastata da sentimenti negativi, a causa delle cave e delle alterazioni provocate dall''uomo. Partendo da Colonnata, dove è disponibile un comodo parcheggio, il sentiero 195 si snoda attraverso un paesaggio suggestivo. Tuttavia, è consigliabile affrontarlo con prudenza, specialmente durante un breve tratto che presenta qualche difficoltà, soprattutto in caso di roccia scivolosa a causa del ghiaccio o della pioggia. Durante il percorso, ci sono alcune varianti che meritano attenzione: - Al chilometro 1.5, c''è la possibilità di deviare verso la cima di Gioia per ammirare il David, un''opera magnifica e ben realizzata. Tuttavia, è un peccato che sia situata in un contesto rovinato dalle cave. - Al chilometro 2.5, si può scegliere di prendere la cresta del Tamburone, un tratto relativamente semplice ma che richiede attenzione. Qui, le rocce sono esposte solo se si passa vicino al burrone. Il percorso offre panorami mozzafiato, soprattutto sui monti a sud e est. Tuttavia, la vista verso nord e ovest è compromessa dalla presenza delle cave, che deturpano il paesaggio. Il sentiero 195 parte da Piazza Palestro a Colonnata, attraversando un suggestivo paesaggio con gradoni rocciosi e una pineta. Superando una via di lizza e una vicina cava di pietra, prosegue sul crinale che divide le valli del Canale del Vento e della Fossa del Canalone, raggiungendo la panoramica Cima d''Uomo. Scendendo leggermente, si arriva alla sorgente del Carrione, presso un castagno secolare, e poi si continua attraverso un castagneto fino al Vergheto, dove si unisce al sentiero 38. Il Vergheto offre una vista splendida sullo Spallone del Sagro e sull''intera catena apuana. Il sentiero 38 scende poi a Colonnata, mentre una traccia si collega al sentiero 169 attraversando il Pianello, una zona pianeggiante con castagni, ideale per feste e picnic.',
-  '<h2>Trekking Colonnata Cima di Gioia Monte Tamburone Cima d''Uomo – Escursione in Toscana</h2>
+  '<h2 id="escursione-colonnata-cima-di-gioia-monte-tamburone-cima-duomo">Escursione al Colonnata Cima di Gioia Monte Tamburone Cima d''uomo</h2>
 
-<h3>Il percorso</h3>
-<p>Immergiti in un''escursione indimenticabile lungo il sentiero 195, un’esperienza di trekking in montagna che ti condurrà attraverso il cuore del Parco dell''Appennino Tosco-Apicolano. Questo percorso di trekking, perfetto per gli amanti della natura e dell''escursionismo, ti porterà ad ammirare panorami mozzafiato e a scoprire le peculiarità del territorio. La partenza è comodamente accessibile da Colonnata, con un parcheggio disponibile in Piazza Palestro, rendendo questa escursione un''ottima scelta per un weekend di trekking in Toscana. Preparati a percorrere circa 13 km con un dislivello di 800 metri, un''escursione impegnativa ma gratificante per i più esperti.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Cosa aspettarsi</h3>
-<p>Questo sentiero di trekking offre un’esperienza variegata, ma è importante essere preparati. Il percorso presenta tratti impegnativi, in particolare quelli rocciosi, soprattutto in caso di pioggia o ghiaccio. La presenza di cave e alterazioni antropiche influenza il paesaggio, offrendo un contrasto suggestivo tra la bellezza della natura e l''impatto dell''uomo. Nonostante ciò, la ricca flora e fauna, unitamente ai panorami mozzafiato, rendono questo sentiero una meta imperdibile per gli escursionisti esperti e per chi cerca un''escursione in montagna diversa dal solito. La difficoltà del sentiero è considerata ‘Media’, adatta a escursionisti esperti con una buona preparazione fisica.</p>
+<p>Il punto di partenza di questa bella escursione è <strong>Piazza Palestro a Colonnata</strong>, un piccolo borgo immerso nel cuore della Toscana. Il parcheggio è disponibile comodamente in strada vicino alla piazza, oppure potete raggiungere il punto di partenza a piedi, godendovi una passeggiata nel centro storico. È facilmente accessibile in auto, seguendo le indicazioni per Colonnata da diverse direzioni.</p>
 
-<h3>Informazioni utili</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Media</li>
-    <li><strong>Distanza:</strong> Circa 13 km</li>
-    <li><strong>Dislivello:</strong> 800 metri</li>
-    <li><strong>Punto di partenza:</strong> Piazza Palestro, Colonnata</li>
-    <li><strong>Punto di arrivo:</strong> Vergheto, Colonnata</li>
-    <li><strong>Varianti:</strong>  Deviazione alla Cima di Gioia (chilometro 1.5) per ammirare l''opera d''arte del David, tratto sulla cresta del Tamburone (chilometro 2.5) con attenzione alle rocce esposte e percorso che si unisce al sentiero 38 nel Vergheto.</li>
-    <li><strong>Punti di interesse:</strong> Cima di Gioia con l’opera del David, cresta del Tamburone, panorama mozzafiato su Spallone del Sagro, panoramica Cima d’Uomo, sorgente del Carrione con castagno secolare, castagneto e unione al sentiero 169 attraverso il Pianello.</li>
-</ul>
-<p>Un’ottima opportunità per un’escursione di trekking in Toscana, un''esperienza immersiva nella natura selvaggia e nelle bellezze del paesaggio apuanico.  Immergiti nell''atmosfera unica di questo sentiero e crea ricordi indimenticabili durante la tua escursione in montagna. </p>',
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>Partendo da <strong>Piazza Palestro</strong>, il sentiero 195 vi condurrà attraverso un paesaggio affascinante, segnato da antiche cave e alterazioni dell''uomo. Nei primi chilometri, il sentiero si snoda tra gradoni rocciosi e una pineta, offrendo già ampi panorami.  Arrivati al chilometro 1.5, potrete fare una deviazione per ammirare il <strong>David</strong>, un''opera d''arte sorprendente situata in un contesto, ammettiamolo, un po'' degradato. Proseguendo, il percorso vi porterà sulla cresta del <strong>Monte Tamburone</strong>, un tratto relativamente semplice ma che richiede attenzione, soprattutto in presenza di roccia scivolosa e potenziali pericoli dovuti a ghiaccio o pioggia. La vista offre panorami mozzafiato sulla catena apuana e sulle valli circostanti. Il sentiero continua fino alla <strong>Cima d''Uomo</strong>, dalla quale potrete ammirare lo Spallone del Sagro.  La discesa proseguirà attraverso il castagneto fino al <strong>Vergheto</strong>, dove il sentiero 38 si unisce al vostro percorso, prima di tornare a <strong>Colonnata</strong> tramite il sentiero 169 e il <strong>Pianello</strong>, una zona ideale per picnic.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>Questa escursione è di livello <strong>Medio</strong>. La distanza totale è di circa <strong>7.7 km</strong> con un dislivello positivo di <strong>+583 metri</strong>, per un giro ad anello.  Anche se il percorso è generalmente accessibile, è necessario essere in buone condizioni fisiche e avere un minimo di esperienza di trekking.  In alcuni tratti, soprattutto per la presenza di roccia scivolosa, è consigliabile indossare scarpe da trekking adeguate e prestare particolare attenzione.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>Per facilitare il vostro trekking, vi forniamo una <strong>traccia GPS</strong>.  È consigliabile scaricare la traccia sul vostro dispositivo GPS o smartphone. Ricordate che le condizioni meteo in montagna possono cambiare rapidamente, quindi informatevi prima di partire e preparatevi adeguatamente.</p>
+
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 7.7 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 583 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Piazza Palestro a Colonnata, Colonnata, Toscana</li>
+    <li><strong>Comune:</strong> Colonnata, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.7,
   583,

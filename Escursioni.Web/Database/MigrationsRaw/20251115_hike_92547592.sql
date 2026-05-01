@@ -7,29 +7,47 @@ VALUES (
   92547592,
   'Trekking cittadino - Livorno - Centro',
   'Camminata molto semplice per la mia città, per riprendermi da un infortunio al ginocchio. La camminata, prevede di passare da alcuni dei luoghi storici più importanti del centro città: Fortezza Nuova Fortezza Vecchia Bottini dell''olio Monumento 4 mori Mercato centrale Porta stoica ex cantiere Luigi Orlando E'' adatta a tutte le persone, di tutte l''età, a famiglie, turisti ecc... ovviamente essendo in città ed essendo pochi chilometri non avete bisogno d''attrezzature, lungo il percorso ci sono diverse fontanelle, bar e ristoranti.',
-  '<h2>Trekking Cittadino - Livorno - Centro</h2>
+  '<h2 id="trekking-cittadino-livorno-centro">Trekking Cittadino - Livorno - Centro</h2>
 
-<h3>Il Percorso</h3>
+<p>
+Ho deciso di intraprendere un''escursione un po'' diversa, per me. Dopo un infortunio al ginocchio, ho bisogno di muovermi e questo trekking cittadino a Livorno mi ha permesso di fare un bel po'' di chilometri, riprendendomi gradualmente. Un''escursione semplice e accessibile a tutti!
+</p>
 
-<p>Questo <em>trekking</em> urbano a <strong>Livorno</strong> offre un’esperienza unica per chi desidera immergersi nella storia e nella bellezza della città. Il percorso, di circa 5 chilometri, si snoda attraverso il cuore del centro storico, permettendo di ammirare da vicino alcuni dei luoghi più importanti di <strong>Livorno</strong>. L’escursione è progettata per essere una camminata semplice e rilassante, ideale per chiunque voglia ritrovare il contatto con la natura, anche in un contesto urbano.  Preparatevi a scoprire il fascino di questo <em>sentiero</em> dedicato alla scoperta di <strong>Livorno</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa Aspettarsi</h3>
+<p>
+Il punto di partenza per questa bella escursione è il centro storico di Livorno. Possiamo partire dal Mercato Centrale e dirigereci verso Porta Stoica, da lì inizia il sentiero. Facile da raggiungere in auto o con i mezzi pubblici.
+</p>
 
-<p>Preparatevi a una piacevole <em>escursione</em> a piedi nel centro di <strong>Livorno</strong>. Il <em>sentiero</em> è completamente pianeggiante, rendendolo adatto a tutti i livelli di preparazione fisica.  Potrete ammirare architetture storiche,  la vivacità del mercato centrale e la tranquillità di questo <em>trekking</em> cittadino.  L''<em>escursione</em> è perfetta per famiglie, gruppi di amici e turisti che desiderano esplorare la città in modo attivo e divertente.  La distanza del percorso è di circa 5 km e permette di vivere un''esperienza di <em>trekking</em> indimenticabile nel cuore di <strong>Livorno</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<h3>Informazioni Utili</h3>
+<p>
+Il sentiero è ben segnalato e si snoda attraverso le principali attrazioni di Livorno. Inizieremo dalla vivace atmosfera del Mercato Centrale, poi ci perderemo tra le mura della Fortezza Nuova e Vecchia, ammireremo i Bottini dell''olio, il Monumento 4 Mori, e ci perderemo nel cuore del centro. Un anello di circa 7 km, perfetto per una giornata all''insegna del benessere e della scoperta.
+</p>
 
-<ul>
-    <li>**Difficoltà:** Facile</li>
-    <li>**Distanza:** Circa 5 km</li>
-    <li>**Durata:** Circa 1,5 - 2 ore</li>
-    <li>**Punti di Interesse:** Fortezza Nuova, Fortezza Vecchia, Bottini dell’olio, Monumento 4 Mori, Mercato Centrale, Porta Stoica, ex Cantiere Luigi Orlando</li>
-    <li>**Adatto a:** Tutti, famiglie, turisti, persone con infortuni</li>
-    <li><strong>Servizi lungo il percorso:</strong> Fontanelle, bar, ristoranti</li>
-    <li>L’<em>escursione</em> a piedi è un''ottima opportunità per apprezzare la ricchezza del patrimonio storico-artistico di <strong>Livorno</strong> e per godere della sua atmosfera unica.</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
 
-<p>Questa <em>escursione</em> a <strong>Livorno</strong> è un’occasione per fare <em>trekking</em> in città, un’esperienza rilassante e gratificante per tutta la famiglia.  Un’immersione nel cuore di <strong>Livorno</strong>, tra storia e natura.  Scoprite questo magnifico <em>sentiero</em>!</p>',
+<p>
+Questa escursione è di <strong>Facile</strong> difficoltà, adatta a persone di tutte le età e livelli di preparazione fisica. Il dislivello è contenuto, solo <strong>+27 metri</strong>, quindi non ci sono ostacoli significativi. Lungo il percorso troverai diverse fontanelle e punti di ristoro, dove rinfrescarti e pranzare. Un''escursione ideale per famiglie, turisti e chiunque voglia semplicemente passeggiare e godersi la città.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>
+Per facilitare la tua escursione, ti lascio la <a href="#">traccia GPS</a>. Ricorda di controllare sempre le condizioni meteorologiche prima di partire e di indossare scarpe comode.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+    <li><strong id="distanza">Distanza:</strong> Circa 7.19 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 27 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Mercato Centrale, Livorno, Bagni</li>
+    <li><strong id="comune">Comune:</strong> Fiume, Bagni, Toscana, Italia</li>
+    <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.19,
   27,

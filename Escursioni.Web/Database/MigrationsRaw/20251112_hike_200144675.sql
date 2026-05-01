@@ -7,27 +7,47 @@ VALUES (
   200144675,
   'Cascate della Strolla, Fonte del latte e Pieve della Nera da Prato d''Era',
   'Percorso ad anello da Prato d''Era passando per: - Cascate della Strolla (4.8 km) - Fonte del latte (6.3 km) - Pieve della Nera (7.6 km) Per questo sentiero abbiamo attraversato i seguenti sentieri: Prato d''Era- Via FrancigenaMare- Anello della Riserva Naturale Montenero (con deviazione alle cascate del torrente Strolla) il tratto Anello della Riserva Naturale Montenero contiene tutte le parti più interessanti di questo percorso infatti qua troviamo: Cascate della Strolla, Fonte del latte e Pieve della Nera da Prato d''Era e la magnifica croce di Montenero. 📍 I resti del Castello di Poggio Casalone 🏰 Un''antica fortezza medievale Sulla sommità del Poggio Casalone si trovano i resti di un castello medievale risalente al X secolo, un tempo conteso tra Volterra e San Gimignano. 🌄 Un sentiero panoramico Dalla Pieve è possibile seguire un breve percorso che regala splendide vedute sulla Valle dello Strolla e sul percorso natura. 🛡️ Un importante punto strategico Grazie alle rupi calcaree che lo circondavano, il castello aveva una posizione difensiva privilegiata e dominava il territorio circostante. 🏗️ Le tracce del passato Oggi rimangono visibili pochi resti della struttura, tra cui parti delle mura e un’antica cisterna d’acqua, ormai avvolta dalla vegetazione. 🛤️ Un crocevia di storia e commercio Il castello controllava importanti vie di comunicazione, come la Via Salaiola e la Via Francigena, ed era un punto nevralgico per la transumanza tra Garfagnana e Maremma. 📜 Un luogo ricco di storia I primi documenti che citano il castrum della Nigra risalgono al 1100. Nel 1210 il castello passò definitivamente sotto il dominio di Volterra. 📷 Da visitare e scoprire! Un luogo affascinante che racconta secoli di storia, immerso in un paesaggio suggestivo tutto da esplorare!',
-  '<h2>Escursione Trekking: Cascate della Strolla, Fonte del Latte e Pieve della Nera da Prato d''Era</h2>
+  '<h2 id="escursione-cascate-strolla-fonte-latte-pieve-nera-prato-d-era">Escursione alle Cascate della Strolla, Fonte del Latte e Pieve della Nera da Prato d''Era</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<p>Immergiti in un''escursione indimenticabile attraverso le <strong>cascate della Strolla</strong>, la suggestiva <strong>Fonte del Latte</strong> e la pittoresca <strong>Pieve della Nera</strong>, partendo da <strong>Prato d''Era</strong>. Questo percorso ad anello di trekking offre un''esperienza unica nella natura selvaggia della Toscana, ideale per appassionati di <strong>escursioni</strong> e <strong>trekking</strong> alla scoperta di panorami mozzafiato.  Esplora i sentieri che si snodano tra la <strong>montagna</strong> e la <strong>natura</strong>, un vero e proprio viaggio nel cuore dell''Appennino toscano.  Scopri il fascino dei sentieri Italia, perfetti per una giornata all''aria aperta.</p>
+<p>Il punto di partenza per questa bellissima escursione è <strong>Prato d''Era</strong>, un caratteristico borgo immerso nel cuore della Val del Luce. Raggiungibile in auto dalla superstrada SS65, è anche raggiungibile a piedi lungo la <strong>Via Francigena</strong>, offrendo un''esperienza di viaggio autentica.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<ul>
-    <li>Un percorso ad anello di varia difficoltà, adatto a escursionisti esperti e amanti del trekking.</li>
-    <li>Attraversamento di <strong>cascate</strong> spettacolari e torrenti impetuosi.</li>
-    <li>Possibilità di ammirare la <strong>Fonte del Latte</strong>, un luogo di grande bellezza naturale.</li>
-    <li>Visita alla <strong>Pieve della Nera</strong>, un importante punto di interesse storico e culturale.</li>
-    <li>Panorama mozzafiato sulla <strong>Valle dello Strolla</strong> e sul territorio circostante.</li>
+<p>Quest''escursione ad anello di circa <strong>13.62 km</strong> con un dislivello di <strong>518 metri</strong> è un''ottima scelta per chi cerca un''esperienza in montagna ricca di panorami e storia. Il percorso inizia da <strong>Prato d''Era</strong> e si snoda attraverso sentieri che attraversano la <strong>Riserva Naturale Montenero</strong>, permettendoti di ammirare le <strong>Cascate della Strolla</strong>, la <strong>Fonte del Latte</strong> e la suggestiva <strong>Pieve della Nera</strong>.</p>
+
+<p>Inizierai attraversando la <strong>Riserva Naturale Montenero</strong>, un''area protetta che custodisce un ecosistema unico. La deviazione alle cascate del torrente Strolla è il cuore pulsante di questo sentiero, con le sue acque cristalline e la vegetazione lussureggiante. Proseguendo, raggiungerai la <strong>Fonte del Latte</strong>, un luogo di ristoro naturale e la <strong>Pieve della Nera</strong>, un borgo medievale immerso nel verde, dove potrai ammirare la magnifica <strong>croce di Montenero</strong>.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>Questa escursione è di difficoltà <strong>Media</strong>, adatta a escursionisti con un minimo di esperienza. Il terreno è prevalentemente collinare, con alcuni tratti in salita e discesa. È importante indossare scarpe da trekking adatte e portare con sé acqua, cibo e un kit di pronto soccorso.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>Per facilitare il tuo percorso, ti forniamo una <strong id="traccia-gps">Traccia GPS</strong> di riferimento. Ricorda sempre di scaricare la traccia sul tuo dispositivo GPS o sulla tua app di navigazione prima di partire. </p>
+
+<p><strong>Distanza:</strong> Circa 13.62 km (anello)</p>
+<p><strong>Dislivello:</strong> Circa 518 metri</p>
+<p><strong>Difficoltà:</strong> Media</p>
+<p><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</p>
+<p><strong>Punto di partenza:</strong> Prato d''Era (accessibile in auto / a piedi)</p>
+<p><strong>Comune:</strong> Prato d''Era, Toscana, Italia</p>
+<p><strong>Tipo di sentiero:</strong> Sentiero escursionistico</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong>Distanza:</strong> Circa 13.62 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 518 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Prato d''Era (accessibile in auto / a piedi)</li>
+  <li><strong>Comune:</strong> Prato d''Era, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni Utili</h3>
-
-<p>Questo sentiero ad anello collega diverse località e offre opportunità di scoperta.  Il percorso include un tratto dell''<strong>Anello della Riserva Naturale Montenero</strong>, noto per le sue parti più interessanti, che culminano con la visita alle <strong>cascate della Strolla</strong>, alla <strong>Fonte del Latte</strong> e alla <strong>Pieve della Nera</strong>.  Il percorso inizia e termina a <strong>Prato d''Era</strong>, percorsa anche dalla <strong>Via Francigena</strong>.  La distanza totale del sentiero è di circa 7.6 km con un dislivello di 630 metri.  È consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack.  Approfitta di questa opportunità per un''avventura in <strong>montagna</strong>, immergendoti nella bellezza della <strong>natura</strong>.</p>
-
-<p>Non perdere la visita ai resti del <strong>Castello di Poggio Casalone</strong>, un''antica fortezza medievale che domina il paesaggio, e al punto panoramico con la magnifica <strong>croce di Montenero</strong>, un luogo ideale per ammirare le viste panoramiche.  Esplora le tracce del passato e la sua importanza strategica per le antiche vie di comunicazione tra <strong>Garfagnana</strong> e <strong>Maremma</strong>.</p>',
+<p><strong>Parco Nazionale:</strong> Non applicabile</p>',
   'Tutte le Attività e Paesi',
   13.62,
   518,

@@ -7,38 +7,30 @@ VALUES (
   87617293,
   'Valle benedetta - acquedotto di Colognole v1',
   'Un classico giro domenicale alla portata di tutti; si parte da valle benedetta e si prosegue lungo dei sentieri ben segnalati fino arrivare al km 2 dove possiamo prendere l''imbocco per l''acquedotto, li vie sarà una discesa; l''unico punto del percorso al quale prestare attenzione. il tratto dell''acquedotto è molto semplice ed è fattibile farlo sia sopra di esso sia sotto, consiglio di passare sopra è più caratteristico e "panoramico" (prestare attenzione con l''umido). In seguito si prosegue fino a raggiungere una casa in mattoni da li s''imboccherà un bivio per tornare in dietro. Usate scarpe adeguate. Fattibile anche in notturno.',
-  '<h2>Valle Benedetta - Acquedotto di Colognole: Trekking e Escursioni in Montagna</h2>
+  '<h2 id="escursione-valle-benedetta-acquedotto-colognole">Escursione alla Valle Benedetta e all''Acquedotto di Colognole</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bella escursione è in <strong>Valle Benedetta</strong>, un luogo incantevole dove potrai iniziare il tuo <strong>trekking</strong>. È facilmente raggiungibile in auto, seguendo le indicazioni per Valle Benedetta in provincia di <strong>Toscana</strong>, Italia. Una volta arrivati a Valle Benedetta, individua il punto di inizio del sentiero, che è ben segnalato.</p>
 
-<p>
-La <strong>Valle Benedetta - Acquedotto di Colognole v1</strong> è un’escursione classica e molto apprezzata nella <strong>montagna toscana</strong>, perfetta per un <strong>treno di trekking</strong> domenicale. Partendo da <strong>Valle Benedetta</strong>, il sentiero vi condurrà lungo sentieri ben segnalati, offrendo un’esperienza di <strong>trekking</strong> immersa nella <strong>natura</strong> e nella ricca biodiversità della regione. L’escursione è un ottimo esempio di <strong>sentieri di trekking</strong> in Italia, adatta anche a principianti.
-</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo <strong>sentiero</strong> è un classico giro domenicale, perfetto per chi cerca una bella <strong>escursione</strong> senza particolari difficoltà. Parti da <strong>Valle Benedetta</strong> e prosegui lungo il sentiero, sempre ben segnalato. Dopo circa 2 km, raggiungerai l''imbocco per l''<strong>acquedotto di Colognole</strong>. Qui inizierai una discesa, la parte più interessante del percorso. Puoi scegliere di attraversare l''acquedotto, una scelta consigliata per godere di un panorama suggestivo (attenzione, il tratto può essere scivoloso quando è umido).  Dopo l''acquedotto, segui il sentiero fino a un bivio, dove prenderai la strada per tornare indietro. L''intero percorso è un <strong>anello</strong> di circa 7.32 km.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa <strong>escursione</strong> è considerata di <strong>facile</strong> difficoltà, adatta a tutti, anche a chi non ha molta esperienza di <strong>trekking</strong>. Il dislivello è di circa +215 metri, quindi non è particolarmente impegnativa.  È consigliabile indossare scarpe da trekking adeguate e portare con sé acqua e snack.  Inoltre, dato che il sentiero può essere umido, soprattutto dopo la pioggia, è bene prestare attenzione.</p>
 
-<p>
-Preparatevi a una piacevole <strong>escursione</strong> attraverso paesaggi mozzafiato. Il percorso è caratterizzato da una discesa graduale, culminante all''arrivo all''<strong>acquedotto di Colognole</strong>.  L''imbocco dell’acquedotto offre un punto di particolare interesse, ricordandovi di prestare attenzione al terreno umido.  Potrete scegliere di attraversare l''acquedotto sopra o sotto, quest’ultimo più panoramico e suggestivo. La <strong>difficoltà del sentiero</strong> è facile, ideale per famiglie e appassionati di <strong>trekking</strong>.
-</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Non disponibile (in fase di implementazione). Ti consiglio di scaricare una mappa offline della zona e di utilizzare un''app di tracciamento GPS per seguire il percorso.</p>
 
-<p>
-La <strong>Valle Benedetta - Acquedotto di Colognole v1</strong> è una splendida opportunità per immergervi nella bellezza della <strong>natura italiana</strong> e respirare l’aria fresca di montagna. Un’<em>escursione</em> da non perdere per chi cerca un’esperienza di <strong>trekking</strong> semplice e gratificante.</p>
-
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Distanza:</b> Circa 6 km</li>
-    <li><b>Dislivello:</b> Circa 300 metri</li>
-    <li><b>Difficoltà:</b> Facile – Media</li>
-    <li><b>Tipo:</b> Trekking, Escursioni, Sentieri</li>
-    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
-    <li><b>Attrezzatura consigliata:</b> Scarpe da trekking adeguate, acqua, snack, cappello, crema solare, mappa del sentiero</li>
-    <li><b>Punto di partenza:</b> Valle Benedetta</li>
-    <li><b>Punto di arrivo:</b> Acquedotto di Colognole</li>
-</ul>
-
-<p>
-Ricordatevi di utilizzare scarpe adeguate al <strong>trekking</strong>, soprattutto se scegliete di attraversare l''acquedotto sotto.  La <strong>Valle Benedetta - Acquedotto di Colognole v1</strong> è un percorso <em>fattibile anche in notturno</em> per escursionisti esperti, ma sempre con la dovuta cautela. Godetevi questa <strong>escursione di trekking</strong> in <strong>montagna</strong>!</p>',
+  <li><strong>Distanza:</strong> Circa 7.32 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 215 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Valle Benedetta, accessibile in auto</li>
+  <li><strong>Comune:</strong> Valle Benedetta, Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.32,
   215,

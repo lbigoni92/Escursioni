@@ -7,23 +7,56 @@ VALUES (
   104200262,
   'Sovana - Etrusche - Vie Cave',
   'Le Vie Cave, chiamate anche “tagliate”, sono una creazione ancora poco conosciuta degli Etruschi. Questi affascinanti percorsi viari scavati a cielo aperto nelle colline di tufo non hanno raffronti in altre civiltà del mondo antico. Per questo sono sono state fatte numerose ipotesi sulla loro reale funzione: canali per convogliare le acque piovane dai pianori alle valli, semplici vie di comunicazione, passaggi strategici studiati contro i nemici, sentieri cerimoniali e così via… In primis abbiamo visitato il paese, molto carino e pieno di gatti bellissimi in seguiti siamo scesi per la via che costeggia il cimitero arrivando al primo percorso, dove abbiamo vito, quelle che sono le vie cave più belle con alcune tombe che meritano davvero d''essere viste. In secondo luogo abbiamo visitato il parco archeologico luogo tenuto d''incanto che consiglio per il biglietto pagato la modica ci fra di 5 euro... la più bella ? sempre e indiscutibilmente la prima Via Cava di San Sebastiano. Se quella del Cavone è la più larga tra le Vie Cave, quella di San Sebastiano è la più profonda (fino a venticinque metri) e questo la rende particolarmente suggestiva. Si entra all’improvviso in un ambiente buio tra due pareti strette e verticali di roccia, da cui si intravede solo una striscia di cielo parzialmente coperto dagli alberi.',
-  '<h2>Sovana - Etrusche - Vie Cave: Trekking e Sentieri Esplorativi nella Val d''Arbia</h2>
+  '<h2 id="escursione-sovana-etrusche-vie-cave"><strong id="escursione-sovana-etrusche-vie-cave">Escursione a Sovana: Le Vie Cave degli Etruschi</strong></h2>
 
-<h3>Il Percorso</h3>
-<p>Immergiti in un''escursione indimenticabile lungo le <strong>Vie Cave</strong> di <strong>Sovana</strong>, un''occasione unica per scoprire le tracce di una civiltà misteriosa. Questo <strong>sentiero di trekking</strong> ti condurrà attraverso le colline di tufo, dove gli antichi <strong>Etruschi</strong> hanno creato percorsi unici, ancora oggi in gran parte sconosciuti. L''escursione, di difficoltà moderata, offre la possibilità di ammirare paesaggi mozzafiato e di addentrarti nella <strong>natura</strong> della <strong>Val d''Arbia</strong>, in Toscana.  Questa <strong>escursione di un giorno</strong> è perfetta per gli amanti del trekking e dell''archeologia che desiderano vivere un''esperienza autentica tra le <strong>vie cave</strong>.</p>
+<p>
+Un''escursione davvero particolare, un tuffo nella storia e nella natura! Ho avuto il piacere di esplorare le <strong>Vie Cave</strong> di Sovana, un percorso unico al mondo, frutto dell''ingegno degli antichi <strong>Etruschi</strong>. Queste strade scavate nel tufo sono ancora oggi un mistero, e le ipotesi sulla loro reale funzione – canali d''acqua, vie di comunicazione, sentieri cerimoniali – rendono questa escursione ancora più affascinante.
+</p>
 
-<h3>Cosa Aspettarsi</h3>
-<ul>
-    <li>Esplorazione di antichi percorsi <strong>Etruschi</strong>, chiamate <strong>Vie Cave</strong>.</li>
-    <li>Possibilità di valutare diverse ipotesi sulla loro funzione: canali d''acqua, vie di comunicazione, passaggi strategici, sentieri cerimoniali.</li>
-    <li>Ammirazione di <strong>tombe etrusche</strong> e resti archeologici.</li>
-    <li>Un''escursione nella <strong>montagna</strong>, tra panorami suggestivi.</li>
-    <li>Un''esperienza immersiva nella <strong>natura</strong> toscana e nella sua ricca storia.</li>
-</ul>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Informazioni Utili</h3>
-<p>Questo <strong>sentiero di trekking</strong> si snoda attraverso il territorio comunale di <strong>Sovana</strong>, un paese ricco di storia e tradizioni. La lunghezza del percorso è di circa 5 km, con un dislivello di circa 200 metri. L''escursione richiede una buona preparazione fisica e l''utilizzo di scarpe da trekking adatte.  La difficoltà è classificata come moderata, adatta a escursionisti esperti.  Il punto di partenza è facilmente raggiungibile in auto o con i mezzi pubblici.  Ricorda di indossare abbigliamento e scarpe adatte al trekking e di portare con te acqua e cibo.  <em>Consigliamo di prenotare la visita al Parco Archeologico di Sovana, dove si trova la Via Cava di San Sebastiano, la più suggestiva delle Vie Cave.</em>  Il biglietto del parco archeologico costa circa 5 euro ed è un''ottima opportunità per approfondire la conoscenza della civiltà etrusca.  <em>In alternativa, potrai godere della semplice bellezza del paesaggio e delle <strong>vie cave</strong> senza visitare il parco archeologico.</em></p>
-<p>Ideale per una giornata di <strong>trekking</strong> in Toscana, un''avventura tra l''antico e la natura.  Scopri le meraviglie delle <strong>Vie Cave</strong> e lasciati affascinare dalla storia degli <strong>Etruschi</strong>!</p>',
+<p>
+Il punto di partenza dell''escursione è il centro storico di <strong>Sovana</strong>, facilmente raggiungibile in auto. Una volta parcheggiato, segui semplicemente le indicazioni per le <strong>Vie Cave</strong>. Il sentiero è ben segnalato e ti guiderà lungo il percorso.
+</p>
+
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>
+Il sentiero inizia nel cuore del paese, ammirando i suoi caratteristici vicoli e le sue botteghe. Da lì, si scende lungo la via che costeggia il cimitero. Il percorso principale si snoda attraverso le <strong>Vie Cave</strong>, ammirando le diverse sezioni, con i loro panorami mozzafiato sulle colline toscane. La parte più suggestiva è quella che conduce alla <strong>Via Cava di San Sebastiano</strong>, la più profonda, con le sue pareti rocciose verticali e l''atmosfera unica.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>
+Questa <strong>escursione</strong> è di <strong>facile</strong> difficoltà, adatta a tutti, sia a chi è alle prime armi che a chi ha più esperienza. Il percorso è ben tracciato e non presenta ostacoli particolarmente impegnativi. Il <strong>dislivello</strong> è di circa 319 metri, rendendo l''escursione una piacevole sfida. La distanza totale dell''anello è di circa 7.91 km.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>
+<strong id="traccia-gps-e-informazioni-pratiche">Distanza:</strong> 7.91 km
+<strong id="traccia-gps-e-informazioni-pratiche">Dislivello:</strong> +319 m
+<strong id="traccia-gps-e-informazioni-pratiche">Difficoltà:</strong> Facile
+<strong id="traccia-gps-e-informazioni-pratiche">Tipo di giro:</strong> Anello
+</p>
+
+<p>
+<strong>Punto di partenza:</strong> Sovana, Toscana
+<strong>Comune:</strong> Sovana, <strong>Provincia:</strong> Toscana, <strong>Regione:</strong> Italia
+<strong>Tipo di sentiero:</strong> Sentiero escursionistico
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+  <li><strong id="informazioni-utili-distanza">Distanza:</strong> Circa 7.91 km (anello)</li>
+  <li><strong id="informazioni-utili-dislivello">Dislivello:</strong> Circa 319 metri</li>
+  <li><strong id="informazioni-utili-difficoltà">Difficoltà:</strong> Facile</li>
+  <li><strong id="informazioni-utili-periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="informazioni-utili-punto-di-partenza">Punto di partenza:</strong> Sovana, accessibile in auto o a piedi</li>
+  <li><strong id="informazioni-utili-comune">Comune:</strong> Sovana, Regione Toscana</li>
+  <li><strong id="informazioni-utili-tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.91,
   319,

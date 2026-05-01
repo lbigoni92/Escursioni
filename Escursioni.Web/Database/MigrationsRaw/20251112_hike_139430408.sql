@@ -7,31 +7,35 @@ VALUES (
   139430408,
   'La Tambura - la Focoletta - M.Crispo',
   'Partenza da Resceto, vi consiglio di arrivare presto per trovare parcheggio, nel nostro caso abbiamo dovuto lasciare l''auto lungo la strada. il sentiero parte subito con una buona pendenza, ma niente d''impossibile, il sentiero è completamente esposto al sole, portate acqua, noi non abbiamo trovato fontanelle, consiglio 3/4lt d''estate. arrivati al km 1.5 si deve prendere la deviazione a sinistra che sale a una pendenza maggiore (ci stacchiamo dalla Vandelli per riprenderla in discesa);da qua la salita entra nel suo vivo sino al km3.4 (la casa verde) dove inizierà una strada di cava sino da Arrivare al passo della Focolaccia (poco prima è presente il bivacco Aronte FERMATEVI PER UNA TAPPA è CARINO! Dal passo della Focolaccia inizia l''attacco per arrivare sulla cresta del Tambura poco esposto per essere una cresta è larga, si fa senza problemi, proseguendo arriviamo prima sul monte Crispo e poi sul Tambura, dove se siete fortunati (noi non lo siamo stati causa nebbia) potrete godere di un panorama unico! dal tambura abbiamo proseguito fino al passo della Tambura, Arrivati qua potete scegliere se scendere per la Vandelli e andare a destra o salire come noi anche sul monte Focoletta vetta che presenta un paio di unti a cui bisogna stare attinti con passaggi stretti e esposti, dopo di che si torna in dietro verso il passo della Tambura. Dal passo della Tambura siamo scesi fino ad arrivare al rifugio Nello conti con una meritata pausa per poi proseguire sulla Vandelli sino alle macchine Punti a favore? - sentieri unici come la Vandelli e i sui panorami, - Tre vette in un trekking - Un rifugio e un bivacco. Punti a sfavore? - Possibile caldo pochi alberi - Nessuna fontanella nel primo tratto fino al rifugio Consigliatissimo!',
-  '<h2>La Tambura - la Focoletta - M.Crispo: Trekking Esplorativo in Montagna</h2>
+  '<h2 id="escursione-la-tambura-la-focoletta-m-crispo">Escursione La Tambura - la Focoletta - M.Crispo</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<p>Preparatevi per un''escursione indimenticabile lungo <strong>La Tambura - la Focoletta - M.Crispo</strong>, un sentiero di trekking in montagna che vi condurrà attraverso paesaggi mozzafiato e panorami unici. Partendo da <strong>Resceto</strong>, questa escursione vi permetterà di ammirare la bellezza della natura e di sfidare le vostre forze fisiche in un''esperienza di <strong>trekking</strong> autentica. Il percorso, adatto a escursionisti esperti, si snoda attraverso il cuore della **Montagna** e offre viste spettacolari.</p>
+<p>La partenza per questa fantastica escursione è da <strong>Resceto</strong>, un piccolo comune in provincia di <strong>Toscana</strong>. Arrivare presto è fondamentale per trovare parcheggio, infatti abbiamo dovuto parcheggiare la macchina lungo la strada. Il punto di partenza è facilmente raggiungibile in auto, e da lì inizierà la tua avventura!</p>
 
-<p>L''escursione inizia con una buona pendenza, ma niente di eccessivamente impegnativo. Il sentiero è completamente esposto al sole, quindi è fondamentale portare con sé una quantità adeguata di acqua, considerando l''assenza di fontanelle lungo il tragitto. In particolare, durante l''estate, si consiglia di portare almeno 3/4 litri di acqua per evitare disidratazione. Il percorso include passaggi in strada di cava, deviazioni e salite ripide, rendendo questa <strong>escursione in sentiero</strong> una sfida stimolante.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
 
-<h3>Cosa Aspettarsi</h3>
+<p>Il sentiero parte subito con una buona pendenza, niente di troppo impegnativo. Inizialmente il sentiero è completamente esposto al sole, quindi porta con te molta acqua, consiglio almeno 3/4 litri, perché non troverai fontanelle lungo il percorso. Dopo circa 1.5 km, incontrerai una deviazione a sinistra che sale con una pendenza maggiore; riprenderai il sentiero Vandelli in discesa. Proseguendo, la salita diventa più intensa fino al km 3.4, dove si trova la "casa verde". Da qui, seguirai una strada di cava fino al <strong>passo della Focolaccia</strong>. Prima del passo, non perdere il <strong>bivacco Aronte</strong>: una sosta meritevole! Dal passo, inizia l''attacco per raggiungere la cresta del <strong>Tambura</strong>, una cresta larga e poco esposta. Da qui, potrai raggiungere il <strong>Monte Crispo</strong> e, con un po'' di fortuna, godere di un panorama unico. Proseguendo, raggiungerai il <strong>passo della Tambura</strong>. Da lì, puoi scegliere se scendere per il sentiero Vandelli o salire sul <strong>Monte Focoletta</strong>, con alcune zone esposte e passaggi stretti.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>Questo trekking è di difficoltà <strong>media</strong>. La <strong>distanza</strong> totale è di circa <strong>15.25 km</strong> e il <strong>dislivello</strong> è di <strong>1609 metri</strong>. È un <strong>anello</strong>, quindi potrai tornare al punto di partenza.  È importante essere in buona forma fisica e prepararsi adeguatamente, soprattutto in estate, per affrontare il caldo e l''esposizione solare.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>La traccia GPS completa dell''escursione è disponibile online. Ti consiglio di scaricarla sul tuo smartphone o GPS per avere sempre la strada giusta da seguire.  È fondamentale portare con te acqua a sufficienza (almeno 3/4 litri), un buon paio di scarpe da trekking, un cappello e crema solare. Informati sempre sulle previsioni meteo prima di partire.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 
 <ul>
-    <li>Un percorso di circa 17 km con un dislivello di 1300 metri, ideale per <strong>trekking</strong> e <strong>escursioni</strong> di lunga durata.</li>
-    <li>Tre vette da conquistare: <strong>M. Crispo</strong>, <strong>Tambura</strong> e <strong>Focoletta</strong>, offrendo diverse sfide e panorami unici.</li>
-    <li>Passaggi esposti e stretti sulla <strong>cresta del Tambura</strong>, che richiedono attenzione e un buon livello di preparazione fisica.</li>
-    <li>La possibilità di ammirare un panorama unico (se la nebbia lo permette) dal <strong>Tambura</strong>, una delle cime più iconiche della regione.</li>
-    <li>Un''esperienza di <strong>natura</strong> autentica, immersi nel cuore della **Montagna** italiana.</li>
-</ul>
-
-<h3>Informazioni Utili</h3>
-
-<p>Il punto di partenza è <strong>Resceto</strong>, facilmente raggiungibile in auto. Si consiglia di arrivare presto per trovare parcheggio, dato che le aree di sosta sono limitate. La difficoltà del sentiero è elevata, richiede una buona preparazione fisica e un''adeguata attrezzatura da trekking.</p>
-
-<p>Il sentiero è caratterizzato da alcuni punti critici, come passaggi stretti e esposti sulla <strong>Focoletta</strong>, che richiedono cautela e attenzione. È fondamentale portare con sé acqua, cibo e abbigliamento adeguato alle condizioni meteorologiche. La mancanza di fontanelle lungo il tratto iniziale fino al rifugio Nello Conti rende particolarmente importante la preparazione.</p>
-
-<p>Non mancate l''opportunità di scoprire questo sentiero unico, che vi regalerà emozioni indimenticabili e panorami mozzafiato.  Questo <strong>sentiero Italia</strong> è perfetto per gli amanti del <strong>trekking</strong> e dell''<em>escursionismo</em>.</p>',
+    <li><strong>Distanza:</strong> Circa 15.25 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1609 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Resceto (accessibile in auto)</li>
+    <li><strong>Comune:</strong> Resceto, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   15.25,
   1609,

@@ -7,25 +7,35 @@ VALUES (
   92463110,
   'Lago della Gherardesca',
   'Noto anche con i nomi "lago di Sesto" (icino ad esso sorgeva un castello che prese il nome dalla sesta pietra miliare esistita sulla vicina strada maestra che da Lucca guida nel Valdarno inferiore) o "lago di Bientina" Durante la Seconda Guerra Mondiale, nel 1941, fu costruito un campo di concentramento per più di 3000 prigionieri inglesi, civili, politici, ebrei: il P.G n° 60, in una località detta “Il Pollino”. Classica passeggiata per amanti del le fotografie, passeggiate con ik cane o pic nik con la famiglia. Ci passano anche a cavallo. Vi sono numerosi punti per fare foto a uccelli di vario tipo. Lungo il percorso possiamo trovare anche un monumento alla memoria. Non ci sono fontanelle Consiglio scarponcini se ha piovuto di recente',
-  '<h2>Trekking Lago della Gherardesca: Escursione e Sentiero nella Val d''Arno</h2>
+  '<h2 id="escursione-lago-della-gherardesca">Escursione al Lago della Gherardesca</h2>
 
-<h3>Il Percorso</h3>
-<p>Immergiti in un''escursione indimenticabile lungo il sentiero che conduce al pittoresco <strong>Lago della Gherardesca</strong>, un gioiello nascosto nella splendida regione Toscana. Questo classico <strong>sentiero di trekking</strong> è perfetto per appassionati di <strong>escursioni</strong> e amanti della <strong>montagna</strong> e della <strong>natura</strong>. Il percorso offre una camminata rilassante attraverso paesaggi mozzafiato, con panorami sulle colline circostanti e il lago stesso.  Adatto a famiglie, a chi ama le <strong>passeggiate con il cane</strong> o per un piacevole <strong>picnic</strong>, questo <strong>sentiero di trekking</strong> ti regalerà momenti di tranquillità e bellezza.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparati ad ammirare la bellezza naturale del <strong>Lago della Gherardesca</strong>, un lago di origine antica circondato da una vegetazione rigogliosa.  Il sentiero è ben segnalato, ma si consiglia di indossare scarpe da trekking, soprattutto dopo la pioggia, per garantire una camminata sicura e confortevole.  Avrai l''opportunità di scattare fotografie di splendidi uccelli e di ammirare il <strong>monumento alla memoria</strong> che omaggia le storie del passato. Questa <strong>escursione nel cuore della Toscana</strong> è un''occasione unica per scoprire un angolo di paradiso e immergerti nella tranquillità della natura.  Un''esperienza ideale per un''<strong>escursione mattutina</strong> o un''<strong>passeggiata serale</strong>.</p>
+<p>Il punto di partenza per questa bella escursione si trova a Colle di Compito, in Toscana. È facilmente raggiungibile in auto lungo le strade provinciali, oppure si può arrivare a piedi se si è in buona forma e si è pronti a percorrere un tratto di strada.  Il parcheggio più vicino è situato vicino al punto di partenza del sentiero.</p>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><b>Difficoltà:</b> Facile - Media</li>
-    <li><b>Distanza:</b> Circa 6 - 8 km (il percorso può variare leggermente)</li>
-    <li><b>Dislivello:</b> Circa 150 - 200 metri</li>
-    <li><b>Tempi di percorrenza:</b> 2 - 3 ore (a seconda del ritmo)</li>
-    <li><b>Punti di Interesse:</b> Lago della Gherardesca, <strong>monumento alla memoria</strong>, punti panoramici, osservazione degli uccelli.</li>
-    <li><b>Consigli:</b> Scarponcini da trekking consigliati, acqua, snack, protezione solare, macchina fotografica per immortalare i panorami.</li>
-</ul>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<p>Durante la Seconda Guerra Mondiale, l''area del <strong>Lago della Gherardesca</strong> era sede del P.G n° 60, un campo di prigionia per prigionieri di guerra e civili. Un luogo che invita alla riflessione e alla memoria.  Esplora il sentiero e scopri la storia di questo luogo, godendo al contempo della bellezza del paesaggio.  Un''<strong>escursione significativa</strong> per tutti gli amanti del <strong>trekking in Italia</strong>.</p>',
+<p>Questo sentiero è perfetto per una passeggiata facile e rilassante, ideale per famiglie, amanti dei cani o per chi desidera un piacevole picnic all''aria aperta. L''escursione di circa 3.52 km ad anello si snoda lungo il lago della Gherardesca, offrendo splendidi panorami.  Seguire il sentiero escursionistico ben segnalato, ammirando il lago e i suoi dintorni. Potrete trovare numerosi punti panoramici ideali per scattare foto, soprattutto se siete appassionati di fotografia naturalistica o di fauna selvatica. Non mancate di fermarvi a visitare il monumento alla memoria, un toccante omaggio alle vittime del campo di concentramento. Se il sentiero è umido, consigliamo di indossare scarponcini da trekking.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>Questa è un''escursione di facile difficoltà, adatta a tutti, anche ai bambini. Il dislivello è di soli 40 metri, quindi il percorso è pianeggiante e accessibile. La distanza totale è di circa 3.52 km, rendendo l''escursione adatta anche a chi ha poco tempo a disposizione.  È consigliabile indossare scarpe comode e portare con sé acqua, protezione solare e un cappello, soprattutto durante i mesi estivi.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>Non disponibile.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 3.52 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 40 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Colle di Compito, Toscana</li>
+    <li><strong>Comune:</strong> Colle di Compito, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   3.52,
   40,

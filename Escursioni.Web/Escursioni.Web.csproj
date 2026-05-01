@@ -28,4 +28,11 @@
   </Content>
 </ItemGroup>
 
+<ItemGroup>
+  <!-- Escludi le immagini dal file watcher di dotnet watch:
+       ImagePrewarmService genera file .webp a runtime in questa directory
+       causando un conflitto di chiavi duplicate nel PollingDirectoryWatcher. -->
+  <Watch Remove="wwwroot\media\**\*" />
+</ItemGroup>
+
 </Project>

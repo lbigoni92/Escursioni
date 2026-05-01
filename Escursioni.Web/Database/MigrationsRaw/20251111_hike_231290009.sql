@@ -7,36 +7,39 @@ VALUES (
   231290009,
   'Passo San Pellegrino da San Pellegrino',
   'Percorso ad anello da San Pellegrino passando per:- Passo San Pellegrino (9.9 km)',
-  '<h2>Passo San Pellegrino da San Pellegrino: Escursione di Trekking in Montagna</h2>
+  '<h2 id="escursione-passo-san-pellegrino-da-san-pellegrino">Escursione al Passo San Pellegrino da San Pellegrino</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Partenza da <strong>San Pellegrino</strong>, un borgo affascinante alle pendici dell''Adamello.  È facilmente raggiungibile in auto seguendo le indicazioni per San Pellegrino, da dove parte il sentiero.  In alternativa, puoi arrivare a piedi da altre località vicine, godendoti già il paesaggio di montagna.</p>
 
-<p>
-Immergiti in un’esperienza di <strong>trekking</strong> indimenticabile con questa <strong>escursione</strong> ad anello che parte direttamente da <strong>San Pellegrino</strong>. Il <strong>sentiero</strong> ti condurrà attraverso paesaggi mozzafiato, passando direttamente per il famoso <strong>Passo San Pellegrino</strong>, un punto di riferimento per gli amanti della <strong>montagna</strong> e della <strong>natura</strong>. Questo <strong>trekking</strong> di 9,9 km offre un''opportunità unica per esplorare la bellezza incontaminata delle Alpi, perfetto per un''avventura di <strong>escursione</strong> di un giorno. 
-</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo percorso ad anello di <strong>10.53 km</strong> ti porterà attraverso il suggestivo <strong>Passo San Pellegrino</strong>.  Inizierai da San Pellegrino e risalendo il sentiero, inizialmente in leggera pendenza, raggiungerai il passo. Da lì, potrai ammirare un panorama mozzafiato sulle cime circostanti. Il sentiero continua ad anello, tornando al punto di partenza.  L''escursione è un''ottima opportunità per godersi la natura e la tranquillità della montagna.  Il sentiero è ben segnalato, ma è sempre consigliabile avere una mappa e una bussola o utilizzare un''app di navigazione per smartphone.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa <strong>escursione</strong> è di difficoltà <strong>Media</strong>.  Il dislivello di <strong>+468 metri</strong> richiede una buona preparazione fisica.  È consigliabile indossare scarpe da trekking, portare con sé acqua, snack e un abbigliamento adeguato alle condizioni meteorologiche.  L''escursione dura in media 3-4 ore, a seconda del ritmo e delle soste.</p>
 
-<p>
-Preparati ad affrontare un <strong>sentiero</strong> impegnativo ma gratificante, ideale per <strong>trekking</strong> esperti e appassionati. La dislivello è di circa 800 metri, quindi è consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack.  Godrai di panorami spettacolari, con viste panoramiche sulle cime circostanti e la possibilità di ammirare la flora e la fauna locale.  Questa <strong>escursione</strong> è un''opportunità per riconnettersi con la <strong>natura</strong> e godere di un''esperienza di <strong>trekking</strong> autentica in <strong>Italia</strong>.
-</p>
-
-<h3>Informazioni Utili</h3>
-
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Puoi scaricare la <strong>traccia GPS</strong> di questa escursione per seguirla con il tuo smartphone o dispositivo GPS.  Ecco le informazioni pratiche:</p>
 <ul>
-    <li><b>Distanza:</b> 9,9 km</li>
-    <li><b>Difficoltà:</b> Impegnativa</li>
-    <li><b>Dislivello:</b> 800 m</li>
-    <li><b>Tempo di percorrenza stimato:</b> 4-5 ore</li>
-    <li><b>Punto di partenza:</b> San Pellegrino</li>
-    <li><b>Tipo di percorso:</b> Anello</li>
-    <li><b>Ideale per:</b> <strong>Trekking</strong>, <strong>escursioni</strong>, appassionati di <strong>montagna</strong> e <strong>natura</strong>, sentieri <strong>trekking Italia</strong>.</li>
-    <li><b>Periodo consigliato:</b> Estate e autunno per evitare condizioni meteorologiche avverse.</li>
+    <li><strong>Distanza:</strong> Circa 10.53 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 468 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> San Pellegrino, San Pellegrino, Trentino-Alto Adige, Italia</li>
+    <li><strong>Comune:</strong> San Pellegrino, Trentino-Alto Adige, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>
-Questo <strong>sentiero</strong> è perfetto per chi cerca un''<strong>escursione</strong> impegnativa ma ricompensata da panorami mozzafiato. Organizza il tuo <strong>trekking</strong> in <strong>montagna</strong> e scopri di più sulla fauna e flora della **nazione**.
-</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong id="informazioni-utili-distanza">Distanza:</strong> Circa 10.53 km (anello)</li>
+    <li><strong id="informazioni-utili-dislivello">Dislivello:</strong> Circa 468 metri</li>
+    <li><strong id="informazioni-utili-difficoltà">Difficoltà:</strong> Medio</li>
+    <li><strong id="informazioni-utili-periodo">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="informazioni-utili-punto-partenza">Punto di partenza:</strong> San Pellegrino, accessibile in auto / a piedi</li>
+    <li><strong id="informazioni-utili-comune">Comune:</strong> San Pellegrino, Trentino-Alto Adige</li>
+    <li><strong id="informazioni-utili-tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.53,
   468,

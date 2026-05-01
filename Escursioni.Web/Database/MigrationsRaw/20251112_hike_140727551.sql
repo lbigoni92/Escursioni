@@ -7,27 +7,39 @@ VALUES (
   140727551,
   'lago Santo Parmense - Lagoni - lago oscuro - due giorni',
   'Gito Molto bello con partenza dal passo Colla proseguendo verso lago nero-Passo fugicchia-Fontana del vescovo-Passo delle guadine-Lago santo Parmense-Sella del Braiola, con ritorno per il medesimo sentiero. Il percorso iniziala avrebbe previsto il rientro tramite il sentiero 00 che passa sulla cresta ma per problemi non simo riusciti. Il giro è molto bello e fattibile anche in un giorno, noi lo abbiamo fatto in 2 con la tenda. Si trovano numerose fontanelle e punti freschi. I due rifugi erano aperti e con mia meravigli al lago santo fanno anche gli spriz! Al rifugio Lagoni sfortunatamente per colta di vari turisti cittadini non c''è stata possibilità di pranzare, menomale avevamo dei panini',
-  '<h2>Lago Santo Parmense - Lagoni - Lago Oscuro - Trekking di 2 Giorni</h2>
+  '<h2 id="lago-santo-parmense-lagoni-lago-oscuro-due-giorni">Escursione al Lago Santo Parmense: Due Giorni di Trekking tra Lagoni e Lago Oscuro</h2>
 
-<h3>Il Percorso</h3>
-<p>Preparatevi per un''incredibile <strong>escursione trekking</strong> attraverso le Alpi Retiche, un''esperienza di <strong>trekking</strong> indimenticabile nel cuore del <strong>Parco Naturale del Parma Termale</strong>. Questo percorso di due giorni vi porterà alla scoperta dei magnifici <strong>laghi</strong> del <strong>Lago Santo Parmense</strong>, del <strong>Lago Oscuro</strong> e del pittoresco <strong>Lago di Sella del Braiola</strong>. Partiremo dal suggestivo <strong>Passo Colla</strong>, immergendoci in un paesaggio alpino di rara bellezza, ricco di flora e fauna. Il <strong>sentiero di trekking</strong> si snoda attraverso un percorso collinare e montano, toccando punti di interesse come il <strong>Passo Fugicchia</strong>, la maestosa <strong>Fontana del Vescovo</strong>, il <strong>Passo delle Guadine</strong> e i meravigliosi <strong>lagoni alpini</strong>.</p>
-<p>Questo <strong>sentiero escursionistico</strong>, con la sua <strong>difficoltà media</strong>, è perfetto per <strong>trekking</strong> esperti e amanti della <strong>natura</strong>. La <strong>lunghezza totale del sentiero</strong> è di circa 30-35 km, e il dislivello sommato supera i 1000 metri. Un’esperienza di <strong>trekking</strong> e <strong>escursione</strong> che vi regalerà panorami mozzafiato.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza di questa fantastica escursione è il Passo Colla, facilmente raggiungibile in auto. Da qui, il sentiero inizia a salire gradualmente, offrendo già un primo assaggio del panorama mozzafiato sulle montagne circostanti. È consigliabile arrivare con un po'' di anticipo per sistemarsi e prepararsi all''avventura.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Durante questa splendida <strong>escursione di trekking</strong>, potrete godere di un''atmosfera unica immersi nella natura incontaminata delle Alpi.  Aspettatevi ampie valli, <strong>laghi alpini</strong> cristallini, fitti boschi e viste panoramiche mozzafiato. L’<strong>escursione di 2 giorni</strong> è un''occasione perfetta per praticare <strong>trekking</strong> e <strong>escursioni</strong> a piedi, con la possibilità di bivaccare ed apprezzare il silenzio della montagna.</p>
-<p>La presenza di numerose <strong>fontanelle e punti freschi</strong> lungo il percorso rende questa <strong>escursione trekking</strong> particolarmente adatta anche alle famiglie e ai principianti, un''esperienza di <strong>trekking</strong> facile e divertente.  Potrete ammirare la varietà di flora e fauna alpina, e godere del profumo della <strong>natura</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo trekking di due giorni vi porterà attraverso un percorso incredibilmente variegato. Inizierete salendo verso il Lago Nero, passando per il Passo Fugicchia e la Fontana del Vescovo. Proseguirete poi lungo il Passo delle Guadine, immergendovi nel cuore della montagna, fino ad arrivare al magnifico Lago Santo Parmense. La salita alla Sella del Braiola offre panorami spettacolari, e il sentiero vi riporterà gradualmente verso il rifugio, con numerosi punti freschi e fontanelle lungo il tragitto. Il percorso è stato interrotto per un problema tecnico, ma è comunque fattibile in un giorno o, come abbiamo fatto noi, in due giorni con l''utilizzo della tenda.</p>
 
-<h3>Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione presenta una difficoltà **media**, adatta a escursionisti esperti. Il dislivello di circa 1574 metri richiede una buona preparazione fisica. Preparatevi a camminare per due giorni, affrontando salite ripide e tratti più tecnici. Portate con voi acqua, cibo e abbigliamento adeguato alle condizioni atmosferiche. Godetevi i panorami mozzafiato, le fontanelle e il fresco della montagna!</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per facilitare il vostro trekking, vi forniamo una traccia GPS e alcune informazioni pratiche:</p>
 <ul>
-    <li><strong>Difficoltà:</strong> Media</li>
-    <li><strong>Distanza:</strong> Circa 30-35 km</li>
-    <li><strong>Dislivello:</strong> Superiore a 1000 m</li>
-    <li><strong>Periodo consigliato:</strong> Estate (giugno-settembre)</li>
-    <li><strong>Equipaggiamento consigliato:</strong> Scarpe da trekking, zaino, abbigliamento a strati, cappello, crema solare, borraccia, snack.</li>
-    <li><strong>Rifugi:</strong> Diversi rifugi lungo il percorso, tra cui rifugio Lagoni e rifugio Sella del Braiola (con possibilità di pernottamento).</li>
-    <li><strong>Cosa portare:</strong> È consigliabile portare panini per il pranzo, soprattutto al lago santo dove fanno anche gli spriz!</li>
+  <li>**Distanza:** Circa 25.64 km (anello)</li>
+  <li>**Dislivello:** Circa 1574 metri</li>
+  <li>**Difficoltà:** Media</li>
+  <li>**Periodo consigliato:** Primavera, Estate, Autunno</li>
+  <li>**Punto di partenza:** Passo Colla (accessibile in auto)</li>
+  <li>**Comune:** Valditacca, Provincia di Parma, Emilia-Romagna, Italia</li>
+  <li>**Tipo di sentiero:** Sentiero escursionistico</li>
 </ul>
-<p>Questo <strong>sentiero trekking</strong> offre un''opportunità unica per vivere un''<strong>escursione di trekking</strong> autentica nelle <strong>montagne dell''Emilia Romagna</strong>. Preparatevi per un''avventura indimenticabile!</p>',
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong>Distanza:</strong> Circa 25.64 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 1574 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Passo Colla (accessibile in auto)</li>
+  <li><strong>Comune:</strong> Valditacca, Provincia di Parma, Emilia-Romagna, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   25.64,
   1574,

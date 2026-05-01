@@ -7,37 +7,32 @@ VALUES (
   176614518,
   'Lagoni libro Aperto da Bellagamba',
   'Lagoni libro Aperto da Bellagamba. Giro abbastanza semplice se non si considera un pò di dislivello e un tratto con la catena "molto facile". Sentieri :493-447-437-435-447-Alta via dei parchi Lungo il sentiero si tocca varie vette come Monte lagoni Pizzo delle stecche, Monte friends, Monte rotondo,Monte Bel Vedere, Cima del Diaccione. Possiamo fare una sosta anche al rifugio la casetta di Lapo piccolo posto dove fanno solo da mangiare abbastanza economico per essere un rifugio.',
-  '<h2>Lagoni Libro Aperto da Bellagamba: Trekking e Escursioni nella Montagna Italiana</h2>
+  '<h2 id="lagoni-libro-aperto-da-bellagamba">Escursione al Lagoni Libro Aperto da Bellagamba</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa splendida escursione è facilmente raggiungibile.  Si parcheggia nei pressi di  **Il Troccolo**, nel comune di **Il Troccolo**, provincia di **Emilia-Romagna**. Da lì, seguiamo la segnaletica per l''inizio del sentiero 493-447-437-435-447, un anello che ci porterà a scoprire questo gioiello della montagna emiliana.</p>
 
-<p>Preparatevi per un''indimenticabile <strong>escursione trekking</strong> lungo il <strong>sentiero Lagoni Libro Aperto da Bellagamba</strong>, un percorso ad anello che vi condurrà nel cuore della **montagna italiana**. Questo <strong>sentiero</strong>, parte dell''<strong>Alta Via dei Parchi</strong>, offre una vista mozzafiato sulla natura incontaminata e permette di ammirare vette suggestive come il <strong>Monte Lagoni</strong>, il <strong>Pizzo delle Stecche</strong> e il <strong>Monte Friends</strong>. Il percorso è stato realizzato da Bellagamba e si snoda attraverso un terreno vario, con brevi tratti più impegnativi interrotti da sezioni agevoli, rendendolo accessibile a molti appassionati di <strong>trekking</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Partiamo da **Il Troccolo** e ci addentriamo subito nel bosco. Il sentiero 493 ci guida verso il **Monte Lagoni**, un punto panoramico da non perdere. Percorreremo diversi tratti, con alcuni passaggi un po'' più impegnativi, ma niente di troppo difficile!  Una sezione con la catena è segnalata come "molto facile", quindi non preoccuparti, ce la faremo tutti.  Ci riserverà una bella vista sul **Pizzo delle Stecche**, sul **Monte Friends**, sul **Monte Rotondo** e sul **Monte Bel Vedere**. Incontreremo anche il **Monte Diaccione**, con la sua cima. Durante il giro, passeremo anche lungo la **Alta Via dei Parchi** e potremo fare una pausa al rifugio "La Casetta di Lapo", un piccolo rifugio dove gustare un pasto gustoso e conveniente.</p>
 
-<p>Il <strong>sentiero</strong> 493-447-437-435-447 segue un''alta via dei parchi che offre una prospettiva unica per l''<strong>escursione</strong> in una zona ricca di flora e fauna.  La dislivello è da considerare in quanto rende il percorso leggermente impegnativo, ma il tratto con la catena è estremamente semplice e accessibile anche ai principianti. Questa <strong>escursione in montagna</strong> è ideale per chi cerca un''avventura nella natura e una bella giornata di <strong>trekking</strong>.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di livello **Medio**.  La distanza totale è di circa **14.58 km** per un anello e il dislivello è di ben **+1107 metri**.  Sarà quindi necessario avere un minimo di allenamento e una buona preparazione fisica.  Nonostante la difficoltà, il percorso è godibile e le ricompense, come i panorami mozzafiato, ne valgono sicuramente la pena!</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Sarà fondamentale avere con sé una buona mappa e una bussola, oppure utilizzare una traccia GPS per orientarsi correttamente. Potete scaricare la <a href="#">traccia GPS</a> di questa escursione per seguirci passo passo.  Ricordate di indossare scarpe da trekking adatte e di portare con voi acqua, snack e un abbigliamento adeguato alle condizioni meteorologiche.</p>
 
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-  <li>Una <strong>escursione trekking</strong> di media difficoltà, con un dislivello che richiede una buona preparazione fisica.</li>
-  <li>Un percorso panoramico con vista sulle vette circostanti e sulle dolci vallate.</li>
-  <li>La possibilità di ammirare la flora e la fauna locale, tra cui il <strong>Monte Rotondo</strong>, il <strong>Monte Bel Vedere</strong> e la <strong>Cima del Diaccione</strong>.</li>
-  <li>Un''opportunità per fare <strong>escursioni</strong> e passeggiate nella natura, perfetto per gli amanti del <strong>trekking</strong>.</li>
+  <li><strong>Distanza:</strong> Circa 14.58 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 1107 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Il Troccolo, accessibile in auto/piedi</li>
+  <li><strong>Comune:</strong> Il Troccolo, Regione Emilia-Romagna</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
-
-<p>Durante il vostro viaggio, potrete anche fermarvi al caratteristico <strong>rifugio La Casetta di Lapo</strong>, un piccolo e accogliente rifugio dove potrete godere di un pasto gustoso e rifocollarvi dopo l''<strong>escursione trekking</strong>. Questo rifugio offre un''opzione economica per chi desidera pranzare o cenare durante la sua <strong>escursione</strong>.</p>
-
-<h3>Informazioni Utili</h3>
-
-<ul>
-  <li>**Difficoltà:** Facile/Media</li>
-  <li>**Distanza:** Circa 12 km</li>
-  <li>**Dislivello:** Circa 700 metri</li>
-  <li>**Tipo di Sentiero:** <strong>Sentiero trekking</strong>, <strong>Alta Via dei Parchi</strong></li>
-  <li>**Accessibilità:** Adatto a <strong>trekking</strong> e <strong>escursioni</strong> per appassionati.</li>
-  <li>**Punti di Interesse:** <strong>Monte Lagoni</strong>, <strong>Pizzo delle Stecche</strong>, <strong>Monte Friends</strong>, <strong>Monte Rotondo</strong>, <strong>Monte Bel Vedere</strong>, <strong>Cima del Diaccione</strong>, <strong>Rifugio La Casetta di Lapo</strong>.</li>
-</ul>
-
-<p>Non perdete l''occasione di scoprire questo meraviglioso <strong>sentiero trekking</strong>, perfetto per una giornata all''aria aperta e un''esperienza indimenticabile nella **montagna italiana**.  Organizzate la vostra <strong>escursione trekking</strong> lungo il <strong>Lagoni Libro Aperto da Bellagamba</strong> e immergetevi nella bellezza della natura.</p>',
+<h3 id="parco-nazionale">Parco Nazionale:</h3>
+<p>Parco Nazionale Appennino Tosco-Emiliano</p>',
   'Tutte le Attività e Paesi',
   14.58,
   1107,

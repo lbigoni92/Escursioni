@@ -7,32 +7,39 @@ VALUES (
   244396363,
   'Roccia dei Pennati, Monte Gabberi e Monte Gevoli da Greppolungo',
   'Descrizione del sentiero Anello di media difficoltà con partenza da Greppolungo, ideale per chi cerca un trekking “completo”: salita decisa, un sito storico particolare e panorami molto aperti tra Versilia e Garfagnana. Il parcheggio alla partenza è piccolo ma comodo: se non si arriva con troppe auto, in genere si riesce a sistemarsi senza problemi. Dal paese si imbocca subito un sentiero in salita piuttosto ripida: è il tratto più impegnativo della giornata e può mettere un po’ alla prova chi non è allenato al dislivello. Si guadagna quota fino a raggiungere la Roccia dei Pennati, un masso calcareo con incisioni rupestri attribuite agli antichi abitanti apuani: vale la pena fermarsi qualche minuto, osservare e trattare l’area con rispetto. Si prosegue poi verso Monte La Torricella e, lungo la via diretta, si arriva alla vetta del Monte Gabberi. Qui il panorama ripaga la fatica: spazio, aria e una vista ampia su creste e vallate. Dalla cima del Gabberi, chi ha gamba può fare una deviazione al Monte Gevoli: breve sosta e rientro sullo stesso percorso. Dal Gevoli si apre bene il lato garfagnino, con viste sui principali rilievi (Nona, Matanna, Procinto, Forato e le Panie, tra gli altri), davvero molto scenografico nelle giornate limpide. Rientrati al Gabberi, ottimo punto per una pausa pranzo, si scende seguendo il tracciato ad anello con una piccola variante/“puntatina” al Monte Arsiccio, poi si raggiunge La Polla e si rientra a Greppolungo lungo una comoda traccia di collegamento (mulattiera/sentiero nel bosco) che chiude l’anello. Difficoltà e consigli Difficoltà tecnica: media. La maggior parte dell’impegno è dovuta al dislivello e ad alcuni tratti con rocce (specie nel segmento tra Gabberi e La Polla). In condizioni bagnate possono diventare scivolosi: meglio scegliere giornate asciutte. Dati indicativi della traccia: anello di circa 11,5 km con D+ ~976 m, quota max intorno a 1096 m (Gabberi). Attrezzatura: scarponi consigliati, acqua (non sempre si trovano rifornimenti), cibo/snack, antivento/strati. In inverno attenzione a gelo/ghiaccio in quota. Per qualsiasi domanda, scrivetemi pure sui social.',
-  '<h2>Anello di Trekking Roccia dei Pennati, Monte Gabberi e Monte Gevoli da Greppolungo</h2>
+  '<h2 id="escursione-roccia-pennati-monte-gabberi-monte-gevoli-da-greppolungo">Escursione alla Roccia dei Pennati, Monte Gabberi e Monte Gevoli da Greppolungo</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa fantastica escursione è a <strong>Greppolungo</strong>, un piccolo paese nella provincia di Lucca in Toscana. Il parcheggio alla partenza è piccolo ma comodo, quindi preparati a lasciare l''auto in un punto sicuro lungo la strada se non hai molte auto con te. Da Lucca, puoi raggiungere Greppolungo in circa 45 minuti in auto, seguendo le indicazioni per il sentiero.</p>
 
-<p>Questo <strong>anello di trekking</strong>, situato nella splendida regione della <strong>Versilia e Garfagnana</strong>, offre un''esperienza completa per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>montagna</strong>. Il sentiero parte da <strong>Greppolungo</strong> e si snoda attraverso paesaggi mozzafiato, con un dislivello significativo e tratti panoramici aperti. L''<strong>escursione</strong> è ideale per chi desidera un''avventura impegnativa ma gratificante, immergendosi nella <strong>natura</strong> incontaminata dell''Appennino Tosco-Emiliano. La difficoltà tecnica è <strong>media</strong>, richiedendo una buona preparazione fisica e un''attrezzatura adeguata per affrontare i <strong>sentieri</strong> più impegnativi.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questa escursione è un anello di media difficoltà che ti porterà attraverso paesaggi mozzafiato. Iniziando da <strong>Greppolungo</strong>, il sentiero sale rapidamente, mettendo alla prova la tua resistenza, specialmente se non sei abituato a dislivelli importanti. Raggiungerai la <strong>Roccia dei Pennati</strong>, dove potrai ammirare incisioni rupestri e riflettere sulla storia antica. Proseguendo verso il <strong>Monte Gabberi</strong>, godrai di panorami spettacolari su Versilia e la Garfagnana. Se hai ancora energie, puoi fare una deviazione al <strong>Monte Gevoli</strong> per una sosta e ammirare una vista ancora più ampia. Il percorso continua con una discesa attraverso il lato garfagnino, con viste sui rilievi circostanti, prima di tornare a <strong>Greppolungo</strong> lungo una comoda mulattiera.</p>
 
-<p>Il percorso inizia con una <strong>salita decisa</strong>, il tratto più arduo dell''intera <strong>escursione</strong>, che mette alla prova chi non è allenato al <strong>dislivello</strong>. Successivamente, raggiungerete la <strong>Roccia dei Pennati</strong>, un impressionante <strong>masso calcareo</strong> con <strong>incisioni rupestri</strong>, testimonianza dell''antica presenza umana nella zona. Da qui, proseguirete verso il <strong>Monte Gabberi</strong>, dove sarete premiati con panorami a 360 gradi sulla <strong>Garfagnana</strong> e sulla <strong>Versilia</strong>. La possibilità di fare una <strong>deviazione al Monte Gevoli</strong>, aggiunge un ulteriore elemento di interesse a questo <strong>sentiero</strong>.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>La difficoltà di questa escursione è considerata <strong>media</strong>. Il dislivello di circa 976 metri e alcuni tratti rocciosi, specialmente tra il Gabberi e La Polla, richiedono una buona preparazione fisica. È consigliabile indossare scarponi da trekking e portare con sé acqua, cibo e abbigliamento adeguato alle condizioni climatiche. In caso di pioggia, i sentieri potrebbero diventare scivolosi, quindi è meglio scegliere giornate asciutte.</p>
 
-<h3>Cosa Aspettarsi</h3>
-
-<ul>
-    <li>Un''<strong>escursione</strong> di circa 11,5 km con un <strong>dislivello</strong> di 976 metri.</li>
-    <li>Una <strong>quota massima</strong> di 1096 metri (al <strong>Monte Gabberi</strong>).</li>
-    <li>Panorami mozzafiato sulla <strong>Versilia</strong>, la <strong>Garfagnana</strong> e le cime circostanti.</li>
-    <li>Un''opportunità unica per esplorare un sito storico di grande valore, la <strong>Roccia dei Pennati</strong>.</li>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class=''lista-punto''>
+    <li><strong>Distanza:</strong> Circa 11,5 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 976 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Greppolungo (accessibile in auto / a piedi)</li>
+    <li><strong>Comune:</strong> Greppolungo, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico / Mulattiera</li>
 </ul>
+<p><strong>Traccia GPS:</strong> (Inserire traccia GPS qui)</p>
 
-<p>Preparatevi ad affrontare un <strong>trekking</strong> impegnativo, ma ricco di soddisfazioni. Questo <strong>sentiero</strong> è perfetto per chi cerca un''<strong>escursione</strong> completa nella <strong>montagna</strong>, unendo la bellezza del paesaggio alla sfida del <strong>trekking</strong>.</p>
-
-<h3>Informazioni Utili</h3>
-
-<p><strong>Difficoltà tecnica</strong>: <strong>Media</strong>.  Il percorso presenta tratti con rocce, particolarmente impegnativi tra <strong>Gabberi</strong> e <strong>La Polla</strong>. In condizioni di bagnato, alcuni tratti possono diventare scivolosi; si consiglia di scegliere giornate asciutte.  La <strong>distanza totale</strong> è di circa 11,5 km con un <strong>dislivello</strong> di 976 metri.</p>
-
-<p><strong>Attrezzatura consigliata</strong>: Scarponi da trekking, acqua, cibo/snack, antivento, strati di abbigliamento. In inverno, prestare attenzione a gelo/ghiaccio in quota. Ricordatevi di controllare le previsioni del tempo prima di partire.</p>
-
-<p>Il <strong>parcheggio</strong> alla partenza è piccolo ma comodo. Se non vi sono sufficienti posti, in genere è possibile trovare un parcheggio nelle immediate vicinanze. Per qualsiasi domanda o informazione, non esitate a contattarci tramite i social media!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="distanza">Distanza:</strong> Circa 11,48 km (andata e ritorno / anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 976 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Media</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Greppolungo (accessibile in auto / a piedi)</li>
+    <li><strong id="comune">Comune:</strong> Greppolungo, Toscana</li>
+    <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.48,
   976,

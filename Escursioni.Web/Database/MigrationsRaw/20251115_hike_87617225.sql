@@ -7,25 +7,30 @@ VALUES (
   87617225,
   'San Giuliano Terme - Notturna - Passo di dante - Villa del Polacco - Villa Bosniaski',
   'Il percorso è molto bello e fattibile sia in notturna, sia in diurna. Si passa da Passo di dante dove vi è una targa che lo commemora, il percorso è ben segnato e non vi sono problemi tecnici. L''unico punto più impegnativo è la salita al monte dopo il Passo di Dannte, in seguito raggiungiamo "il Castagno", da li poco dopo giriamo sulla sinistra. Non ci sono fontanelle. Di notte usate la torcia e scarpe adeguate. Molto carino al livello storico, lo consiglio Per il resto lasciate un commento e buon trek!',
-  '<h2>San Giuliano Terme - Notturna - Passo di Dante - Villa del Polacco - Villa Bosniaski: Trekking Notturno in Montagna</h2>
+  '<h2 id="san-giuliano-terme-notturna-passo-di-dante-villa-del-polacco-villa-bosniaski">Escursione Notturna a San Giuliano Terme: Passo di Dante, Villa del Polacco e Villa Bosniaski</h2>
 
-<h3>Il Percorso: Escursione Notturna nel Cuore della Montagna</h3>
-<p>Questo incredibile <strong>sentiero di trekking</strong> a <strong>San Giuliano Terme</strong> offre un''esperienza unica: un’<strong>escursione notturna</strong> nel cuore della <strong>montagna</strong>, perfetta per gli amanti del <strong>trekking</strong> e dell''avventura. Il percorso, ben segnalato, collega il <strong>Passo di Dante</strong> alla splendida <strong>Villa del Polacco</strong> e alla suggestiva <strong>Villa Bosniaski</strong>, passando attraverso paesaggi mozzafiato e silenziosi.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bella escursione notturna si trova a San Giuliano Terme, in Toscana.  È facilmente raggiungibile in auto e parcheggiato a ridosso del Passo di Dante. Da lì, seguiamo il sentiero ben segnalato per iniziare la nostra avventura.</p>
 
-<h3>Cosa Aspettarsi: Un''Esperienza Ineguagliabile</h3>
-<p>Preparatevi a una <strong>trekking</strong> indimenticabile in una notte stellata. Questo <strong>sentiero escursionistico</strong> è fattibile sia di giorno che di notte, offrendo un''opportunità unica per immergersi nella natura e godere della tranquillità della <strong>montagna</strong>.  L''ambiente naturale circostante è straordinario, con la possibilità di ammirare la bellezza della <strong>natura</strong> italiana in un''atmosfera unica.  E’ un''esperienza di <strong>trekking</strong> che vi lascerà a bocca aperta.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Partiamo dal Passo di Dante e iniziamo subito la salita. Il sentiero è ben tenuto e presenta una pendenza costante, ma non particolarmente impegnativa. Superato il passo, continuiamo verso la "Villa del Polacco", ammirando il panorama notturno.  Proseguendo, si raggiunge il punto chiamato "il Castagno", da lì si gira sulla sinistra, seguendo il percorso che ci conduce alla "Villa Bosniaski".  È un percorso lineare e piacevole, perfetto per una tranquilla escursione notturna. Ricordatevi di portare con voi una torcia per affrontare il percorso!</p>
 
-<h3>Informazioni Utili: Dettagli per un Trekking Sicuro e Riuscito</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è classificata come <strong>Facile</strong>, adatta anche a escursionisti meno esperti. La <strong>Distanza è di circa 8.17 km</strong> per un giro <strong>anello</strong>. Il <strong>dislivello è di circa 270 metri</strong>, quindi una salita moderata.  Tuttavia, la salita al monte dopo il Passo di Dante può richiedere un po'' di attenzione, ma nulla di particolarmente difficile.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Pianifica la tua escursione con la traccia GPS disponibile e preparati adeguatamente.  </p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Difficoltà:</strong> Medio</li>
-    <li><strong>Distanza:</strong> Circa 8 km</li>
-    <li><strong>Dislivello:</strong> Circa 600 metri</li>
-    <li><strong>Tempo di percorrenza:</strong> Circa 3-4 ore (a seconda del ritmo)</li>
-    <li><strong>Punti di Interesse:</strong> Il <strong>Passo di Dante</strong>, con la sua targa commemorativa, “Il Castagno”, le affascinanti <strong>Villa del Polacco</strong> e <strong>Villa Bosniaski</strong>.</li>
-    <li><strong>Consigli:</strong> Portate con voi una torcia potente, scarpe da <strong>trekking</strong> adatte, acqua e cibo a sufficienza.  La <strong>trekking</strong> notturna richiede attenzione e preparazione.</li>
-</ul>
-
-<p>Questo <strong>sentiero di trekking</strong> a <strong>San Giuliano Terme</strong> è un vero gioiello per gli appassionati di <strong>escursioni</strong> e <strong>trekking</strong>. Un''opportunità unica per vivere un''esperienza di <strong>natura</strong> e <strong>montagna</strong> indimenticabile.  Non perdete l''occasione di intraprendere questa fantastica <strong>escursione</strong>!</p>',
+  <li><strong>Distanza:</strong> Circa 8.17 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 270 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Passo di Dante, raggiungibile in auto</li>
+  <li><strong>Comune:</strong> San Giuliano Terme, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   8.17,
   270,
@@ -54,7 +59,7 @@ VALUES (
   'ec8fcf713a484b9771d6365e50dcca833a3be3b51abd42cd82dc6e8dfd09f277',
   'Escursione notturna San Giuliano Terme: Passo di Dante - Villa del Polacco! Anello facile 8.17km, +348m. Percorso ben segnalato, ideale per trekking amatoria...',
   'Passo di Dante - Esplora San Giuliano Terme (Anello)',
-'Monti Pisani', 
+  'Monti Pisani',
   NOW(),
   NOW()
 )

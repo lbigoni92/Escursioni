@@ -7,25 +7,32 @@ VALUES (
   162278392,
   'Parole d''oro - San Giusto - Sant''Angrea di compito - Camelieto - Sasso Balloccioro',
   'Percorso ad anello con partenza da san Quirico, dove abbiamo parcheggiato nei pressi di un bar sulla strada, il parcheggio è adatto a qualsiasi auto che non sia bassa come una ferrari. Il percorso è lunghetto ma niente d''impossibile lo consiglio ha chi ha un allenamento nella media un pò di dislivello c''è ed è concentrato in pochi tratti. Ci sono numerose fonti lungo la prima metà del percorso. A seguito del percorso di siamo diretti al bellissimo acquedotto Nottolini con il meraviglioso ponte con sovra incise "le parole d''oro". da li ci siamo diretti verso San Giusto dove abbiamo incontrato un bellissimo rifugio artigianale di cui non conoscevo l''esistenza e poi proseguito in direzione del Camelito con le sue meravigliose camelie; li abbiamo fatto una deviazione su un punto panoramico poco lontano dove abbiamo mangiato (in alcuni punti c''è bisogno d''aiutarsi con delle corde in quanto molto ripido). Dopo pranzo abbiamo proseguito ed io ho fatto una deviazione per andare sulla Cima del Sasso Balloccioro cima che mi ha sorpreso, oltre a una bellissima croce c''è anche un bellissimo panorama, segue un bellissimo rientro. Parole d''oro storia(Wiki): In epoca romana esisteva forse a Lucca un acquedotto sotterraneo, che partendo dalla zona di Moriano alimentava alcune fontane all''interno delle mura lucchesi. Col passare del tempo tali fonti andarono perdute. Per secoli la città di Lucca si servì dei pozzi, a volte facilitando l''approvvigionamento da essi con interessanti accorgimenti. Nel periodo illuminista si fece strada la convinzione di dover costruire, per motivi di igiene, un acquedotto. Nel 1732, Giuseppe Natalini fece uno studio per attingere l''acqua da Badia di Cantignano ma, nel 1763 fu deciso di prelevarla dai monti sovrastanti Guamo. I lavori però non presero mai realmente il via. Solo nel 1822, Maria Luisa di Borbone, duchessa di Lucca, deliberò la costruzione dell''acquedotto. I lavori iniziarono nel 1822 e durarono sino al 1833 a causa di alcune interruzioni. Fu incaricato di tale compito il regio architetto Lorenzo Nottolini. Oggi l''acquedotto è ancora architettonicamente integro ma non è più utilizzato come mezzo di approvvigionamento idrico. La sua attuale salvaguardia è effettuata a scopo monumentale. Da diversi anni il degrado, specialmente nel tempietto a S.Concordio, l''edificio che raccorda la parte aerea con quella sotterranea dell''acquedotto, è la condizione principale. Nelle stesse condizioni anche il tempietto di Guamo. Le antiche opere di presa e di filtraggio hanno bisogno urgente di essere restaurate.',
-  '<h2>Parole d''Oro - Trekking San Giusto - Sant''Angrea di Compito - Camelieto - Sasso Balloccioro</h2>
+  '<h2 id="escursione-parole-doro-san-giusto-sant-angrea-camelieto-sasso-balloccioro">Escursione al Monte Forato da Cardoso</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo splendido <strong>sentiero di trekking</strong>, soprannominato "Parole d''Oro", vi condurrà attraverso un paesaggio mozzafiato della **montagna lucchese**. Partiremo da <strong>San Quirico Terme</strong>, trovando un comodo <strong>parcheggio</strong> vicino a un bar, adatto a qualsiasi auto. Il percorso ad anello è lungo, ma perfettamente gestibile, ideale per un''<strong>escursione di trekking</strong> con un livello di difficoltà medio. Potrete ammirare numerose <strong>fonti</strong> lungo la prima metà del percorso, testimonianze di antiche pratiche idriche. Il dislivello è concentrato in alcuni tratti, offrendo una sfida piacevole per chi ha un allenamento nella media. Il percorso include anche brevi passaggi ripidi che richiedono l''utilizzo di corde per il superamento, in particolare in alcuni punti più impervi.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza è a San Quirico, facilmente raggiungibile in auto. Abbiamo parcheggiato nei pressi di un bar sulla strada, un parcheggio adatto a qualsiasi auto che non sia bassa come una ferrari. Da lì, seguiamo il sentiero che ci porterà alla scoperta di questo bellissimo percorso.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparatevi a una giornata ricca di emozioni e scoperte in questo affascinante <strong>sentiero italiano</strong>. Ammirerete un <strong>acquedotto storico</strong>, l''acquedotto Nottolini, con il suggestivo <strong>ponte inciso con "le parole d''oro"</strong>, un luogo di grande valore culturale e paesaggistico. Potrete esplorare il pittoresco <strong>Camelito</strong>, con le sue maestose <strong>camelie</strong>, e godervi una pausa pranzo con panorami incantevoli. La <strong>cima del Sasso Balloccioro</strong> vi sorprenderà con una spettacolare <strong>croce e un panorama mozzafiato</strong>, un punto ideale per ammirare la natura circostante.  Questo <strong>trekking in montagna</strong> vi garantirà un''esperienza indimenticabile!</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia con un piacevole sentiero che ci conduce attraverso diverse fonti lungo la prima metà del percorso. Successivamente, raggiungiamo l''imponente Acquedotto Nottolini, un''opera straordinaria dove il parapetto è incrostato di "le parole d''oro". Proseguiamo verso San Giusto, dove scopriamo un affascinante rifugio artigianale. Da qui, ci dirigiamo verso il Camelieto, famoso per le sue camelie, e facciamo una deviazione verso un punto panoramico dove possiamo godere di un pranzo all''aria aperta (attenzione, alcuni tratti sono particolarmente ripidi e potrebbero richiedere l''uso di corde per la salita). Dopo pranzo, continuiamo l''escursione fino alla Cima del Sasso Balloccioro, una cima sorprendente che ci regala una vista mozzafiato e una bellissima croce. Il rientro è altrettanto suggestivo, attraverso sentieri panoramici.</p>
 
-<h3>Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione di tipo anello, con una distanza di circa 19.85 km e un dislivello di 886 metri, è di difficoltà media. È consigliata a chi ha un allenamento nella media, in quanto presenta alcuni tratti ripidi e impegnativi. Preparatevi a camminare per diverse ore e ad affrontare un bel po'' di dislivello, ma sarete ricompensati da panorami spettacolari e da scoperte uniche.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Questa escursione è un''ottima occasione per esplorare la montagna e ammirare il panorama. La traccia GPS vi aiuterà a seguire il percorso e a non perdervi. Non dimenticate di portare con voi acqua, cibo, scarpe da trekking adatte e un abbigliamento adeguato alle condizioni meteo.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Distanza:</b> Circa 12-15 km (il percorso completo)</li>
-    <li><b>Dislivello:</b> Circa 600-700 metri</li>
-    <li><b>Difficoltà:</b> Media-Alta (richiede un minimo di allenamento)</li>
-    <li><b>Punti di Interesse:</b> Acquedotto Nottolini, Ponte delle Parole d''Oro, Rifugio Artigianale, Camelito e le sue camelie, Punto Panoramico, Cima del Sasso Balloccioro e la sua croce</li>
-    <li><b>Periodo Consigliato:</b> Primavera/Autunno (per condizioni climatiche favorevoli)</li>
-    <li><b>Attrezzatura Raccomandata:</b> Scarpe da trekking, zaino, acqua, snack, cappello, crema solare, kit di pronto soccorso.</li>
+    <li><strong>Distanza:</strong> Circa 19.85 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 886 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> San Quirico, accessibile in auto</li>
+    <li><strong>Comune:</strong> Guamo, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
-
-<p>Esplorate i sentieri di Lucca e della **montagna lucchese** con questo emozionante <strong>trekking di un giorno</strong>. Scoprite le antiche sorgenti e l''acquedotto Nottolini, un''eredità storica e culturale da non perdere.  Ideale per un''<strong>escursione di gruppo o un''avventura in coppia</strong>.</p>',
+<h3 id="parco-nazionale">Parco Nazionale:</h3>
+<p>Nessuno</p>',
   'Tutte le Attività e Paesi',
   19.85,
   886,

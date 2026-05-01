@@ -7,31 +7,30 @@ VALUES (
   87372356,
   'Monte Forato da Fornovolasco',
   'Percorso facile se si è un pò abituati alle apuane; Sentieristica : 130-110-6 Il sentiero 110 è classificato EE ma non vi sono difficoltà tecniche particolari, solo un paio di punti che potrebbero dare noia a chi soffre di vertigini Lo spettacolo del monte forato è davvero stupendo in cima alla croce, non è uno dei più belli dell''Apuane ma sicuramente merita. I panorami più belli si anno tra il 130 e il 110',
-  '<h2>Monte Forato da Fornovolasco: Trekking Facile tra le Apuane</h2>
+  '<h2 id="escursione-monte-forato-da-fornovolasco">Escursione al Monte Forato da Fornovolasco</h2>
 
-<h3>Il Percorso</h3>
-<p>
-La <strong>escursione al Monte Forato da Fornovolasco</strong> è un’esperienza ideale per chi desidera immergersi nella splendida natura delle <strong>Apuane</strong> con un <strong>trekking</strong> di media difficoltà.  Il <strong>sentiero</strong>, segnato dai numeri 130-110-6, offre una facile accessibilità, rendendolo perfetto anche per escursionisti meno esperti. Il percorso si snoda attraverso la fitta macchia mediterranea, con scorci mozzafiato sulla **montagna** circostante.  L’obiettivo è raggiungere la cima del <strong>Monte Forato</strong>, dove potrai ammirare il caratteristico <em>"occhio"</em> e la croce commemorativa, un punto panoramico che regala una vista spettacolare.  La <strong>difficoltà del sentiero</strong> è classificata EE, ma grazie alla sua accessibilità, presenta solo alcuni tratti di salita e discesa leggermente irregolari, senza impegnative difficoltà tecniche.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa bella escursione al Monte Forato è a <strong>Fornovolasco</strong>, un piccolo borgo alle pendici delle <strong>Apuane</strong>. Si può raggiungere in auto da diverse direzioni, seguendo le indicazioni per Fornovolasco. Una volta arrivati, il sentiero parte direttamente dal parcheggio poco distante dal paese.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>
-Durante questo <strong>sentiero di trekking</strong>, ti aspetta un’esperienza immersiva nella <strong>natura</strong> delle <strong>Apuane</strong>.  Potrai ammirare la varietà di flora e fauna tipica della regione, godendo di panorami mozzafiato e della tranquillità della **montagna**.  Il percorso è particolarmente adatto per chi ama il <strong>trekking</strong> e l''<strong>escursionismo</strong>, offrendo la possibilità di scoprire angoli nascosti di questa affascinante catena montuosa.  Tuttavia, è importante considerare che alcuni punti potrebbero risultare un po'' monotoni per chi soffre di <strong>vertigini</strong>, quindi è consigliabile prestare attenzione durante la salita. Il <strong>monte forato</strong> offre una vista unica, anche se non è tra le più belle dell''Apuane, rappresenta comunque un punto di riferimento importante. 
-</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo trekking al Monte Forato è un anello di circa <strong>9,07 km</strong> che si snoda tra i sentieri dell''Appennino Tosco-Apicolano. Inizialmente il sentiero 110 sale dolcemente attraverso la fitta macchia mediterranea, con alcuni passaggi un po’ tecnici, ma senza difficoltà tecniche particolari.  I tratti più belli si trovano tra il sentiero 130 e il sentiero 110.  Il panorama è davvero spettacolare, soprattutto una volta raggiunto il punto panoramico alla croce, anche se non è tra i più belli delle <strong>Apuane</strong>.  È un’ottima escursione per chi vuole godersi la natura e ammirare panorami mozzafiato. L''escursione è perfetta anche per chi è un po'' abituato al trekking, ma non è adatta a chi soffre di vertigini a causa di alcuni passaggi.</p>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><strong>Distanza:</strong> Circa 130-110 km (il percorso totale può variare leggermente)</li>
-    <li><strong>Dislivello:</strong> Circa 300-400 metri</li>
-    <li><strong>Difficoltà:</strong> EE (Facile/Media)</li>
-    <li><strong>Periodo Consigliato:</strong> Primavera, Estate, Autunno</li>
-    <li><strong>Attrezzatura Consigliata:</strong> Scarpe da trekking, abbigliamento a strati, acqua, snack, cappello, crema solare.</li>
-    <li><strong>Punti di Interesse:</strong> <em>Monte Forato</em>, croce commemorativa, panoramica sulle Apuane.</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>La difficoltà di questa <strong>escursione</strong> è classificata come <strong>Media</strong>.  Il dislivello totale è di circa <strong>+878 metri</strong>, quindi richiede un minimo di preparazione fisica.  Il sentiero è ben segnalato, ma è consigliabile indossare scarpe da trekking e portare con sé acqua e snack.  È importante considerare il periodo dell''anno, la stagione e le condizioni meteorologiche prima di partire, in quanto le <strong>Apuane</strong> possono essere soggette a cambiamenti improvvisi.</p>
 
-<p>
-Questo <strong>trekking</strong> nel cuore delle <strong>Apuane</strong> è un''opportunità unica per un''esperienza di <strong>natura</strong> e <strong>avventura</strong>.  Scopri la bellezza del <strong>Monte Forato</strong> e goditi un''indimenticabile <strong>escursione</strong>!  Ideale per gli amanti del <strong>trekking in Italia</strong> e per chi cerca un sentiero accessibile e panoramico.
-</p>',
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per facilitare il vostro <strong>trekking</strong>, ecco alcune informazioni utili: il sentiero è tracciato con una <strong>traccia GPS</strong> che potrete scaricare per seguirlo al meglio.  La distanza totale dell''anello è di circa 9,07 km e il dislivello è di +878 metri. Questo percorso è ideale per un''escursione di un giorno, ma può essere adattato in base alle vostre preferenze.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li ><strong>Distanza:</strong> Circa 9.07 km (anello)</li >
+  <li ><strong>Dislivello:</strong> Circa 878 metri</li >
+  <li ><strong>Difficoltà:</strong> Media</li >
+  <li ><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li >
+  <li ><strong>Punto di partenza:</strong> Fornovolasco, accessibile in auto/a piedi</li >
+  <li ><strong>Comune:</strong> Fornovolasco, Toscana</li >
+  <li ><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li >
+</ul>',
   'Tutte le Attività e Paesi',
   9.07,
   878,

@@ -7,26 +7,30 @@ VALUES (
   88155235,
   'Pratorsi - Corno alle Scale - Lago Scaffaiolo - Pratorsi',
   'Il sentiero è stato fatto come preventivato in 2 giorni ed è stato uno dei percorsi più belli mai fatti. Siamo partiti di Sabato alle 15.00 va via Pratorsi, e siamo arrivati fino al Passo del Cancellino dove ci siamo fermati per un bivacco, anche se il nostro piano iniziale consisteva nell''arrivare al Corno Alle scale. Nel primo giorno siamo passati davanti 2 fontanelle e al bivacco Mandromini(pareva abbandonato) sarà la parte più faticosa e si farà la maggior parte della salita. Il secondo giorno abbiamo smontato le tende all''alba e abbiamo proseguito prima sul Corno alle Scale e poi al Lago Scaffaiolo, dove ci siamo fermati al rifugio duca degli Abruzzi, al ritorno abbiamo pranzato al km 24.4 e abbiamo terminato il sentiero . Nel complesso è stata un''esperienza indimenticabile che consiglio vivamente. Per il resto lasciate un commento e buon trek!',
-  '<h2>Pratorsi - Corno alle Scale - Lago Scaffaiolo - Pratorsi: Trekking e Escursione in Montagna</h2>
+  '<h2 id="pratorsi-corno-alle-scale-lago-scaffaiolo-pratorsi">Escursione Pratorsi - Corno alle Scale - Lago Scaffaiolo - Pratorsi</h2>
 
-<h3>Il Percorso: Un''Escursione Indimenticabile nell''Appennino</h3>
-<p>Questo <strong>sentiero di trekking</strong> offre un''esperienza straordinaria nell''Appennino centrale, un vero epetto per gli amanti della <strong>natura</strong> e del <strong>trekking</strong>. Il percorso, di circa 20 chilometri, si snoda attraverso paesaggi mozzafiato, collegando il <strong>Pratorsi</strong> al maestoso <strong>Corno alle Scale</strong> e al pittoresco <strong>Lago Scaffaiolo</strong>, per poi ritornare al punto di partenza.  Un''immersione profonda nella <strong>montagna</strong> italiana, ideale per un''<strong>escursione</strong> a piedi di più giorni.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa splendida escursione è a <strong>Pratorsi</strong>, un piccolo paese nel comune di <strong>Spignana</strong>, in provincia di <strong>Toscana</strong>. Raggiungerlo è fattibile in auto lungo strade di montagna, oppure si può arrivare a piedi da paesi limitrofi. Ricorda di informarti sulle condizioni stradali prima di partire, soprattutto in inverno.</p>
 
-<h3>Cosa Aspettarsi: Una Sfida Gratificante</h3>
-<p>Preparatevi a una <strong>trekking</strong> impegnativa ma incredibilmente gratificante. Il sentiero presenta diverse salite ripide, soprattutto nel tratto che collega il <strong>Pratorsi</strong> al <strong>Passo del Cancellino</strong> e poi al <strong>Corno alle Scale</strong>.  L''altimetria è notevole, richiedendo una buona preparazione fisica.  Ma la ricompensa è impagabile: panorami spettacolari, la possibilità di ammirare <strong>fontanelle</strong> antiche e la bellezza selvaggia dell''Appennino.  Considerate che il percorso richiede una buona esperienza di <strong>sentiero</strong> e una certa preparazione per un <strong>trekking</strong> di più giorni.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Partendo da <strong>Pratorsi</strong>, il sentiero inizialmente si snoda tra i boschi, offrendo già un primo assaggio del panorama montano. Il tratto più impegnativo è quello che porta al <strong>Passo del Cancellino</strong>, con una salita ripida che richiede un po'' di energia. Dopo il bivacco, il sentiero prosegue fino al <strong>Corno alle Scale</strong>, raggiungendo un punto panoramico mozzafiato. Da qui, si continua verso il <strong>Lago Scaffaiolo</strong>, dove potrete ammirare la tranquillità del lago e, se siete fortunati, avvistare la fauna locale. Il sentiero riprende la sua discesa, riportandovi a <strong>Pratorsi</strong>, dove potrete concludere la vostra giornata con un meritato riposo.</p>
 
-<h3>Informazioni Utili: Dettagli del Trekking</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa <strong>escursione</strong> di <strong>24.69 km</strong> con un <strong>dislivello di 1200 metri</strong> è considerata di <strong>difficoltà media</strong>. È consigliabile indossare scarpe da trekking adatte e portare con sé acqua, cibo e abbigliamento adeguato alle condizioni meteorologiche. Preparati a diverse difficoltà, soprattutto durante la salita al <strong>Corno alle Scale</strong>.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Sarà necessario utilizzare un dispositivo GPS o un''app di navigazione per seguire il percorso. La <strong>traccia GPS</strong> è disponibile online (inserire link qui). Il sentiero è ben segnalato, ma è sempre consigliabile avere una mappa della zona e una bussola. Ti consiglio di informarti sempre sulle previsioni meteo prima di partire.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Distanza:</strong> Circa 20 km</li>
+    <li><strong>Distanza:</strong> Circa 24.69 km (solo andata)</li>
     <li><strong>Dislivello:</strong> Circa 1200 metri</li>
-    <li><strong>Difficoltà:</strong> Difficile – Richiede buona preparazione fisica e esperienza di <strong>trekking</strong></li>
-    <li><strong>Periodo Consigliato:</strong> Estate (Giugno – Settembre)</li>
-    <li><strong>Punto di Partenza:</strong> Pratorsi</li>
-    <li><strong>Punto di Arrivo:</strong> Pratorsi</li>
-    <li><strong>Caratteristiche Principali:</strong> Panorami mozzafiato,  <strong>sentiero</strong> immerso nella <strong>natura</strong>,  possibilità di visitare <strong>fontanelle</strong>,  avvistamento del <strong>Corno alle Scale</strong> e del <strong>Lago Scaffaiolo</strong>.</li>
-</ul>
-
-<p>Questa <strong>escursione</strong> di più giorni è un''opportunità unica per vivere un''esperienza autentica di <strong>trekking</strong> in <strong>Italia</strong>. Un''avventura che vi lascerà senza parole, tra i panorami più suggestivi dell''Appennino.  Non perdete l''occasione di scoprire questo incredibile <strong>sentiero</strong>, perfetto per un''<strong>escursione</strong> in <strong>montagna</strong>!</p>',
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Pratorsi, accessibile in auto o a piedi</li>
+    <li><strong>Comune:</strong> Spignana, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   24.69,
   1200,

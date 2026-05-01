@@ -7,43 +7,43 @@ VALUES (
   188998672,
   'Eremo di San Bartolomeo, Monte Bargiglio, Monte Agliale e Eremo di San Cristina da Borgo a Mozzano',
   'Percorso ad anello da Borgo a Mozzano Punti di interesse: Chiesa di San Bartolomeo (4.3 km) Eremo di San Bartolomeo (6.3 km) Monte Bargiglio (7.5 km) Monte Agliale (9.9 km) Eremo di San Cristina (12.5 km) Difficoltà: Il percorso è complessivamente facile, senza tratti esposti, con sentieri ampi e ben mantenuti. Panorami: Il panorama sulla vetta del Monte Bargiglio merita un buon 6/10. È uno dei punti più suggestivi del percorso, anche se nel complesso i panorami non raggiungono il livello di bellezza che si può trovare in altre escursioni sulle Alpi Apuane, dove le viste mozzafiato sono più continue. Percorso: Parcheggio: Oltre al punto in cui abbiamo parcheggiato, ci sono altri parcheggi disponibili lungo il percorso. Non è difficile trovare un posto per lasciare l''auto. Sentieristica: Nella prima parte del percorso, i sentieri sono mal segnalati o inesistenti fino al km 5.8, quando si raggiunge un incrocio stradale. Da lì in poi i sentieri sono tracciati e ben segnalati, senza particolari difficoltà nel raggiungere il Monte Bargiglio. La mappa online però non è ben fatta, quindi conviene seguire i sentieri sul posto. Nota al km 4.7: Abbiamo incontrato qualche difficoltà poiché il sentiero era invaso dalla vegetazione, costringendoci a cercare una via alternativa. Abbiamo superato il tratto con una salita ripida sulla sinistra. Consiglio di fare una sosta nel paese di "Rocca" per visitare la croce.',
-  '<h2>Eremo di San Bartolomeo, Monte Bargiglio, Monte Agliale e Eremo di San Cristina da Borgo a Mozzano – Trekking in Alpi Apuane</h2>
+  '<h2 id="escursione-eremo-di-san-bartolomeo-monte-bargiglio-monte-agliale-e-eremo-di-san-cristina-da-borgo-a-mozzano">Escursione all''Eremo di San Bartolomeo, Monte Bargiglio, Monte Agliale e Eremo di San Cristina da Borgo a Mozzano</h2>
 
-<h3>Il percorso</h3>
-<p>Questo <em>sentiero di trekking</em> ad anello da Borgo a Mozzano vi condurrà attraverso paesaggi mozzafiato delle <em>Alpi Apuane</em>, includendo il suggestivo <strong>Eremo di San Bartolomeo</strong>, il <strong>Monte Bargiglio</strong>, il <strong>Monte Agliale</strong> e l''<strong>Eremo di San Cristina da Borgo a Mozzano</strong>. È un’<em>escursione</em> ideale per appassionati di <em>trekking</em> e natura, con un livello di difficoltà complessivamente facile, adatto anche a escursionisti meno esperti.</p>
-<p>Il percorso, di circa 12,5 km, offre la possibilità di esplorare diverse zone di interesse, passando per la <strong>Chiesa di San Bartolomeo</strong> e ammirando panorami unici.  Preparatevi a un''<em>escursione</em> ricca di sorprese e scoperte nella <em>montagna</em> italiana.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa aspettarsi</h3>
-<p>Questo <em>sentiero</em> è caratterizzato da sentieri ampi e ben mantenuti, il che lo rende accessibile a un vasto pubblico.  Nonostante la bellezza del territorio, i panorami non raggiungono la grandiosità di altre escursioni alpine, ma offrono comunque una vista affascinante sulla zona circostante.  La salita al <strong>Monte Bargiglio</strong> è il momento più impegnativo, ma con un po'' di preparazione sarà una sfida gratificante.</p>
-<p><em>Durante l''escursione</em>, potrete ammirare la flora e la fauna tipiche delle <em>Alpi Apuane</em>, godendo di un’esperienza immersa nella <em>natura</em>.  La mappa online è poco precisa, quindi consigliamo di affidarsi alla segnaletica presente in loco.  Potrete anche fare una sosta nel caratteristico paese di “Rocca” per visitare la croce.</p>
+<p>Il punto di partenza per questa fantastica escursione è a Borgo a Mozzano, in Toscana. Il comune è facilmente raggiungibile in auto e ci sono diversi parcheggi disponibili lungo il percorso. Da qui, il sentiero si snoda attraverso un paesaggio suggestivo, offrendo diverse opportunità di ammirare la natura circostante. Inizialmente il percorso è più selvaggio, ma ben segnalato per quanto possibile, per poi diventare più facile e ben tracciato.</p>
 
-<h3>Informazioni utili</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>Questo è un percorso ad anello di circa 18,36 km con un dislivello di 919 metri, perfetto per un''escursione di una giornata. Iniziate dal punto di partenza a Borgo a Mozzano e seguite il sentiero verso l''Eremo di San Bartolomeo. Il sentiero è generalmente facile e senza tratti esposti, con sentieri ampi e ben mantenuti.  La prima parte del percorso può essere un po'' confusa e meno segnalata (km 0-5.8), ma una volta raggiunto l''incrocio stradale (km 5.8) il sentiero è ben tracciato.  Una tappa obbligatoria è l''Eremo di San Bartolomeo, un luogo di pace e spiritualità immerso nella natura.  Proseguendo, raggiungerete il Monte Bargiglio, dove potrete godere di un panorama spettacolare, anche se non paragonabile ad altre escursioni sulle Alpi Apuane.  Dal Monte Bargiglio, proseguite verso il Monte Agliale e infine l''Eremo di San Cristina.  Ricordatevi di fare una sosta nel paese di "Rocca" per visitare la croce, un piccolo ma interessante punto di interesse.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>La difficoltà di questa escursione è considerata Facile. Non ci sono tratti esposti e i sentieri sono ampi e ben mantenuti. La distanza totale è di 18,36 km con un dislivello di 919 metri.  È un''escursione adatta anche ai principianti, ma attenzione alla prima parte del percorso che può essere meno segnalata.  </p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
 <ul>
-    <li><strong>Distanza:</strong> Circa 12,5 km</li>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Dislivello:</strong> Varia, con una salita significativa sul Monte Bargiglio (circa 300 metri)</li>
-    <li><strong>Punti di interesse:</strong>
-        <ul>
-            <li>Chiesa di San Bartolomeo (4.3 km)</li>
-            <li>Eremo di San Bartolomeo (6.3 km)</li>
-            <li>Monte Bargiglio (7.5 km)</li>
-            <li>Monte Agliale (9.9 km)</li>
-            <li>Eremo di San Cristina (12.5 km)</li>
-        </ul>
-    </li>
-    <li><strong>Parcheggi:</strong>  Sono disponibili diversi parcheggi lungo il percorso, rendendo l''accesso al sentiero comodo.</li>
-    <li><strong>Consigli:</strong>
-        <ul>
-            <li>Portare acqua e snack sufficienti.</li>
-            <li>Indossare scarpe da trekking adatte.</li>
-            <li>Controllare le previsioni del tempo prima di partire.</li>
-            <li>Seguire la segnaletica del sentiero.</li>
-            <li>Rispettare l''ambiente circostante.</li>
-        </ul>
-    </li>
+    <li><b>Distanza:</b> Circa 18,36 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 919 metri</li>
+    <li><b>Difficoltà:</b> Facile</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Borgo a Mozzano, accessibile in auto</li>
+    <li><b>Comune:</b> Borgo a Mozzano, Toscana, Italia</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
 </ul>
 
-<p>Questo <em>trekking</em> rappresenta un''opportunità unica per scoprire la bellezza del territorio circostante e vivere un''<em>esperienza</em> indimenticabile in montagna.  Preparatevi a una giornata di <em>escursione</em> tra natura e storia, alla scoperta dell’<em>Eremo di San Bartolomeo</em> e dei suoi dintorni.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+    <li><b>Distanza:</b> Circa 18,36 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 919 metri</li>
+    <li><b>Difficoltà:</b> Facile</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Borgo a Mozzano, accessibile in auto</li>
+    <li><b>Comune:</b> Borgo a Mozzano, Toscana</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   18.36,
   919,

@@ -7,31 +7,47 @@ VALUES (
   87616854,
   'Capraia Isola - Percorso che s''interruppe per scarpe rotte',
   'Percorso bello, fatto d''estate, molto caratteristico il primo tratto in mezzo alle vecchie abitazioni, fino al km 1.9. Al km2.6 s''arriva al ex penitenziario dell''Isola consiglio di fermarsi in quanto adesso è un allevamento di caprette. In seguito abbiamo proseguito ma appena imboccato il vero sentiero un mia amico ha avuto la sfortuna che gli si scollassero le scarpe e siamo tornati in dieto, ma il percorso è semplice bastava proseguire fino alla baia che distava appena 2/3km. Percorso molto bello ma che sconsiglio d''estate non ci sono alberi, fa caldo e non ci sono fontanelle. Noi finimmo il percorso andando a fare il tuffo a una spiaggia vicino ai traghetti, mare stupendo e bei posti! fatemi sapere la vostra esperienza.',
-  '<h2>Capraia Isola - Percorso che s''interruppe per scarpe rotte: Escursione Trekking sull''Isola</h2>
+  '<h2 id="percorso-capraia-isola-che-s-interruppe-per-scarpe-roto">Capraia Isola - Percorso che s''interruppe per scarpe rotte</h2>
 
-<h3>Il Percorso Trekking sulla Capraia Isola</h3>
 <p>
-Questo <strong>sentiero di trekking</strong> sulla <strong>Capraia Isola</strong> offre un''esperienza autentica e selvaggia, ideale per <strong>escursionisti</strong> esperti e amanti della <strong>natura</strong>. Il percorso, inizialmente caratteristico, si snoda attraverso le rovine delle vecchie abitazioni, offrendo uno sguardo affascinante sulla storia dell''isola. La <strong>trekking</strong> si intensifica, con tratti impegnativi che richiedono un''adeguata preparazione fisica, per poi appianarsi con la discesa verso la suggestiva baia.
+Ho fatto questo itinerario d''estate e devo dire che è un''esperienza unica! Il primo tratto è davvero suggestivo, si snoda tra le vecchie case dell''isola, un''atmosfera particolare. Dopo circa 1,9 km, arriviamo all''ex penitenziario dell''Isola, un posto interessante dove si trova un allevamento di capre. 
 </p>
 
-<h3>Cosa Aspettarsi durante l''Escursione</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+
 <p>
-Preparatevi per un''<strong>escursione</strong> impegnativa ma ricca di soddisfazioni, in un ambiente incontaminato e selvaggio. Il <strong>sentiero</strong>, principalmente su terreno roccioso e aspro, richiede scarpe da trekking adatte e un buon paio di zoccoli. La mancanza di alberi e fontanelle rende l''<strong>trekking</strong> particolarmente faticoso, soprattutto durante i mesi estivi. <em>È fondamentale portare molta acqua e cibo a sufficienza</em> per affrontare l''intero percorso.
+Il punto di partenza è a Porto, nel comune di Porto, in Toscana. Da Porto potete raggiungere il punto di partenza a piedi o con un breve tragitto in autobus.
 </p>
 
-<h3>Informazioni Utili per la Trekking</h3>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>
+Il percorso inizia da Porto e segue un sentiero escursionistico che si inoltra nell''entroterra dell''isola. Dopo il tratto storico, si prosegue fino all''ex penitenziario dell''Isola, poi si arriva alla baia, distesa per 2/3 km.  A causa di una sfortuna, il mio amico ha avuto la sfortuna che gli si scollassero le scarpe, abbiamo dovuto tornare indietro, ma il percorso fino alla baia è semplice e piacevole.  La baia offre la possibilità di un tuffo nel mare stupendo.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>
+La difficoltà di questo percorso è **Facile**. È un''escursione adatta a tutti, ma è importante considerare che d''estate, senza alberi e con caldo intenso, può diventare impegnativa. Non ci sono fontanelle lungo il percorso, quindi è fondamentale portare con sé acqua a sufficienza.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>
+Questo percorso è un''escursione di tipo **Solo andata** con una distanza di circa 4,62 km e un dislivello di 229 metri. Per poterlo affrontare al meglio, consiglio di indossare scarpe da trekking adatte e di portare con sé un cappello e crema solare. Se possibile, è meglio affrontare il percorso in primavera, estate o autunno.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
 <ul>
-    <li><strong>Distanza Totale:</strong> Circa 2/3 km fino alla baia.</li>
-    <li><strong>Difficoltà:</strong> Impegnativo, adatto a escursionisti esperti.</li>
-    <li><strong>Punto di Partenza:</strong> Inizio del sentiero vicino alle vecchie abitazioni.</li>
-    <li><strong>Punti di Interesse:</strong> Ex penitenziario dell''Isola (attualmente allevamento di caprette), spiaggia vicino ai traghetti.</li>
-    <li><strong>Periodo Consigliato:</strong> Primavera o Autunno per evitare il caldo eccessivo e la mancanza d''acqua.</li>
-    <li><strong>Consigli:</strong> Porta con te acqua, cibo, protezione solare, cappello e scarpe da trekking adatte. <em>La sfortuna di un amico con le scarpe rotte sottolinea l''importanza di una preparazione accurata per qualsiasi escursione in montagna.</em></li>
-</ul>
-
-<p>
-Questo <strong>trekking</strong> in <strong>Italia</strong>, sulla <strong>Capraia Isola</strong>, vi regalerà un''esperienza indimenticabile, immersi nella <strong>natura</strong> e nella bellezza selvaggia di questa splendida isola. Non perdete l''occasione di scoprire questo <strong>sentiero di trekking</strong> e di vivere un''<strong>escursione</strong> unica!
-</p>',
+  <li><strong>Distanza:</strong> Circa 4.62 km (solo andata)</li>
+  <li><strong>Dislivello:</strong> Circa 229 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Porto, raggiungibile a piedi o in autobus</li>
+  <li><strong>Comune:</strong> Porto, Toscana</li>
+  <li><strong>Regione:</strong> Italia</li>
+</ul>',
   'Tutte le Attività e Paesi',
   4.62,
   229,

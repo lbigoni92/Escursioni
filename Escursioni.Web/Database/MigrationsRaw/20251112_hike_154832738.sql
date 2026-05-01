@@ -7,24 +7,47 @@ VALUES (
   154832738,
   'Prato - Rio Buti - Monte Maggiore - Croce della Retaia',
   'Se fate il percorso lasciate una recensione grazie mille Percorso ad anello da Santa Lucia passando per: - Chiesa di San Michele a Canneto (1.2 km) - Crocicchio (6.3 km) - Buca del Ciuco (7.5 km) - Monte Cantagrilli (8.0 km) - La Retaia (11.1 km) Il percorso non presenta particolari difficoltà se non nel tratto EE iniziale che può essere omesso passando per uno dei sentieri laterali. Il tratto EE che passa acconto al rio Buti presenta 2 frane che siamo riusciti ad aggirare sulla destra passando dal bosco senza troppi problemi. Il tratto successivo come quelli dopo non presentano assolutamente difficoltà sono tutti tratto E molto facili, si parte in salita immersi nel bosco e il sentiero si alterna tra tratti pietrosi e tratti di terreno ma si procede sempre tranquillamente. Dopo il crocicchio si parte la vera salita per l''altopiano la salita è dolce e graduata. A seguito della salita passiamo a Fiano alle due croci. Personalmente trovo la cantagrillo molto più panoramico, senza niente toglie alla croce della Retaia. La discesa fino a casa bastone è tranquillo, da lì in poi si presenta ripida quindi si deve prestare attenzione e andre con calma. La Calvana è una catena montuosa, appartenente sia geograficamente che morfologicamente all''Appennino. Posta fra la valle del Bisenzio ed il Mugello è caratterizzata da una serie di rilievi che si snodano per una quindicina di chilometri fra i 700 e gli 800 metri, ma raggiungendo, nel tratto centrale, anche altezze maggiori (Monte Maggiore, 916 metri). Fa parte del Subappennino toscano. La catena della Calvana prende corpo da Montecuccoli in provincia di Firenze nel comune di Barberino di Mugello e prosegue fino alla frazione di La Querce nel comune di Prato, e l''estremità Nord-Occidentale del Comune di Cantagallo. La sua massima altitudine si riscontra nel Monte Maggiore (916 m); altre vette della catena montuosa sono il Poggio dei Mandrioni (851 m), il Monte Cantagrilli (819 m), il Monte Prataccio (775 m) e La Retaia (772 m), mentre la massima altitudine all''estremità sud-orientale è quella di Poggio Castiglioni (387 m).',
-  '<h2>Prato - Rio Buti - Monte Maggiore - Croce della Retaia: Escursione Trekking in Toscana</h2>
+  '<h2 id="prato-rio-buti-monte-maggiore-croce-della-retaia">Prato - Rio Buti - Monte Maggiore - Croce della Retaia</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo <strong>sentiero trekking</strong> in <strong>Toscana</strong>, perfetto per un''<strong>escursione</strong> in <strong>montagna</strong>, vi condurrà attraverso paesaggi mozzafiato. Il percorso ad anello parte da Santa Lucia e include diverse tappe attraverso la splendida catena della Calvana, offrendo un''esperienza di <strong>trekking</strong> indimenticabile tra natura e panorami unici. Il percorso permette di esplorare la valle del Bisenzio e il Mugello, attraversando un territorio caratterizzato da rilievi che raggiungono i 800 metri.</p>
-<p>Il percorso include tappe come la Chiesa di San Michele a Canneto, il Crocicchio, la Buca del Ciuco, il Monte Cantagrilli, la Retaia e l''altopiano con la salita al <strong>Monte Maggiore</strong> (916 metri) e la <strong>Croce della Retaia</strong>.  È un''ottima opportunità per un''<strong>escursione a piedi</strong> nella natura toscana, ideale per amanti del <strong>trekking</strong> di varia esperienza.</p>
+<p>Se fate il percorso lasciate una recensione grazie mille. Questo splendido trekking ad anello da Santa Lucia vi condurrà attraverso panorami mozzafiato e sentieri ben colti. Percorrendo i diversi tratti, scoprirete la bellezza della regione!</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+
+<p>Il punto di partenza è a Santa Lucia, facilmente raggiungibile in auto o con i mezzi pubblici. Da Santa Lucia, seguire le indicazioni per il sentiero che inizia vicino alla <strong id="chiesa-di-san-michele-a-canneto">Chiesa di San Michele a Canneto</strong>.</p>
+
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>Il percorso inizia con una breve salita fino al <strong id="crocicchio">Crocicchio</strong> (6.3 km). Da qui, proseguite verso la <strong id="buca-del-ciuco">Buca del Ciuco</strong> (7.5 km) e poi al <strong id="monte-cantagrilli">Monte Cantagrilli</strong> (8.0 km), immergendovi nel cuore della natura. Dopo aver ammirato il panorama, raggiungete la <strong id="la-retaia">La Retaia</strong> (11.1 km) e da lì, iniziate la discesa fino a casa, con una salita finale. Il tratto EE iniziale che passa acconto al rio Buti presenta 2 frane che siamo riusciti ad aggirare sulla destra passando dal bosco senza troppi problemi, i restanti tratti sono facili ed adatti a escursionisti esperti.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>Questo trekking è di difficoltà <strong id="medio">Media</strong>. La discesa finale è ripida e richiede attenzione. Il dislivello totale è di circa <strong id="786">786 metri</strong>. La distanza del percorso è di circa <strong id="14.96">14.96 km</strong>.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>Per facilitare il vostro trekking, vi forniamo una traccia GPS e le informazioni pratiche:</p>
+
 <ul>
-    <li>Un percorso ad anello di circa 11.1 km con un dislivello complessivo significativo.</li>
-    <li>Tratti facili e moderati, con alcune salite più ripide, soprattutto nel tratto iniziale e nella salita all''altopiano.</li>
-    <li>Il tratto EE iniziale (opzionale) offre la possibilità di scegliere tra diversi sentieri laterali, per personalizzare la tua <strong>escursione trekking</strong>.</li>
-    <li>2 frane da aggirare con sentieri alternativi, segnalati per garantire la tua sicurezza durante l''<strong>escursione</strong>.</li>
-    <li>La possibilità di ammirare la bellezza della catena della Calvana, con viste panoramiche mozzafiato.</li>
+    <li><strong id="distanza">Distanza:</strong> Circa 14.96 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 786 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Media</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Santa Lucia (accessibile in auto / a piedi)</li>
+    <li><strong id="comune">Comune:</strong> Santa Lucia, Toscana, Italia</li>
+    <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni Utili</h3>
-<p>Questo <strong>sentiero trekking</strong> è situato nella catena della Calvana, fra la valle del Bisenzio e il Mugello, caratterizzata da rilievi che raggiungono i 916 metri. Il percorso presenta <em>alcune difficoltà</em>, principalmente nel tratto iniziale e nella salita, ma è generalmente considerato facile e accessibile a <strong>trekking</strong> di varia esperienza.  È consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack. L''altopiano offre panorami spettacolari, mentre la discesa verso casa è ripida e richiede attenzione.  Questo <strong>sentiero</strong> è perfetto per un''<strong>escursione a piedi</strong> nella natura, offrendo un''esperienza di <strong>trekking</strong> autentica in <strong>montagna</strong>.</p>
-<p>Ricordatevi di lasciare una <strong>recensione</strong> se completate questo <strong>sentiero trekking</strong> per aiutare altri esploratori a pianificare la loro prossima <strong>escursione</strong> in <strong>Toscana</strong>!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+    <li><strong id="distanza">Distanza:</strong> Circa 14.96 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 786 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Medio</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Santa Lucia (accessibile in auto / a piedi)</li>
+    <li><strong id="comune">Comune:</strong> Santa Lucia, Toscana, Italia</li>
+    <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   14.96,
   786,

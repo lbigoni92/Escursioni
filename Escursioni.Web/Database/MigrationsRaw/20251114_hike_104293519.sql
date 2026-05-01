@@ -7,28 +7,40 @@ VALUES (
   104293519,
   'Bosco della patanella',
   'Bosco della patanella Questo sentiero, è stato un ripiego dell''ultimo minuto, siamo venuti qua a fare due passi, è una pineta qualsiasi ,niente d''eccezionale; le parti più carine sono degli scorci sull''argentario e sulla laguna, dove è possibile vedere numerosi uccelli. Nel percorso (lago e facilmente seguibile) è possibile trovare animali e vari tipi di vegetazione.',
-  '<h2>Escursione Trekking Bosco della Patanella Argento Argento</h2>
+  '<h2 id="escursione-bosco-della-patanella">Escursione al Bosco della Patanella</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa escursione al Bosco della Patanella si trova comodamente raggiungibile da Quattro Strade.  Partendo dal centro del paese, segui le indicazioni per "Bosco della Patanella" o "Pineta Argentario". Il parcheggio è situato all''inizio del sentiero, facilmente individuabile.</p>
 
-<p>Il <strong>sentiero Bosco della Patanella</strong> è un''escursione adatta a tutti, con un percorso facilmente percorribile che si snoda attraverso la pineta. Questo breve <strong>trekking</strong> offre una splendida opportunità per immergersi nella <strong>natura</strong> e godere di panorami mozzafiato sull’**Argento Argento** e sulla **Laguna**. L''<strong>escursione</strong> è perfetta per una giornata di <strong>trekking</strong>, ideale per famiglie e amanti della <strong>montagna</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo breve trekking di circa 1.85 km, rappresenta un''ottima escursione per una giornata all''aria aperta.  Il sentiero è prevalentemente pianeggiante, un anello che si snoda tra la pineta e offre splendidi scorci sul Lago Argentario.  Il percorso è semplice e facilmente percorribile, adatto anche a famiglie e principianti.  Durante l''escursione, avrai la possibilità di ammirare panorami mozzafiato sul lago e la laguna, oltre a una ricca avifauna.  In alcuni punti del sentiero potrai avvistare animali e diverse specie vegetali.</p>
 
-<p>Il percorso è lungo circa 3-4 km ed è caratterizzato da un dislivello minimo, rendendolo accessibile anche ai principianti.  Durante il <strong>sentiero</strong>, si ammirano scorci incantevoli sulla **laguna** e sulla **natura** circostante, oltre a diverse specie di uccelli che popolano l''area. È un''ottima opzione per un''escursione di un paio d''ore, offrendo un piacevole momento di svago in mezzo alla <strong>montagna</strong>.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è classificata come **Facile**, con un dislivello di soli +11 metri.  La distanza di circa 1.85 km la rende adatta anche a chi non ha molta esperienza nel trekking.  È consigliabile indossare scarpe da trekking o scarpe da ginnastica adatte al sentiero.  Porta con te acqua, snack e crema solare, soprattutto durante i mesi estivi.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per facilitare la tua escursione, ti forniamo la traccia GPS del sentiero. Ricorda di scaricare la traccia sul tuo dispositivo GPS prima della partenza.</p>
 
 <ul>
-  <li>Scorci spettacolari sull’**Argento Argento** e sulla **Laguna** di **Patinella**</li>
-  <li>Possibilità di avvistare numerose specie di uccelli, <strong>natura** locale e biodiversità</li>
-  <li>Vegetazione tipica della <strong>pineta**, con diverse specie di alberi e arbusti</li>
-  <li>Un percorso <strong>facilmente seguibile** adatto a tutti i livelli di esperienza.</li>
+  <li>**Distanza:** Circa 1.85 km (anello)</li>
+  <li>**Dislivello:** Circa 11 metri</li>
+  <li>**Difficoltà:** Facile</li>
+  <li>**Periodo consigliato:** Primavera, Estate, Autunno</li>
+  <li>**Punto di partenza:** Pineta Argentario, Quattro Strade</li>
+  <li>**Comune:** Quattro Strade, Toscana, Italia</li>
+  <li>**Tipo di sentiero:** Sentiero escursionistico</li>
 </ul>
 
-<p>Potrai apprezzare la tranquillità del <strong>bosco**, lasciandoti alle spalle il caos cittadino e godendo del profumo della <strong>natura**. Questa <strong>escursione** è un''occasione unica per riconnettersi con l''ambiente circostante e vivere un''esperienza di <strong>trekking** autentica.</p>
-
-<h3>Informazioni Utili</h3>
-
-<p>L''<strong>escursione Bosco della Patanella** si trova nelle immediate vicinanze di **Argento Argento**, un''area protetta ricca di biodiversità.  La difficoltà del <strong>sentiero** è bassa, adatta a famiglie e bambini. È consigliabile indossare scarpe da trekking adatte al terreno e portare con sé acqua e snack.  Ricorda di rispettare l’ambiente e di non lasciare tracce del tuo passaggio durante la tua <strong>escursione** in questa splendida zona del **trekking** in **Italia**.  Questo <strong>sentiero** rappresenta una piacevole gita di un giorno per gli amanti del <strong>trekking** e della <strong>natura**. </p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong id="informazioni-utili-distanza">Distanza:</strong> Circa 1.85 km (anello)</li>
+  <li><strong id="informazioni-utili-dislivello">Dislivello:</strong> Circa 11 metri</li>
+  <li><strong id="informazioni-utili-difficoltà">Difficoltà:</strong> Facile</li>
+  <li><strong id="informazioni-utili-periodo">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="informazioni-utili-punto-partenza">Punto di partenza:</strong> Pineta Argentario, Quattro Strade</li>
+  <li><strong id="informazioni-utili-comune">Comune:</strong> Quattro Strade, Toscana</li>
+  <li><strong id="informazioni-utili-tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   1.85,
   11,

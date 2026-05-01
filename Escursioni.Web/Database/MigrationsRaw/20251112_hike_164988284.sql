@@ -7,36 +7,38 @@ VALUES (
   164988284,
   'Monte Matanna, Monte Nona e Rifugio Forte dei Marmi da Pomezzana',
   'Bellissimo percorso apuano da Pomezia. Il sentiero è stato percorso in parte su sentieri CAI, in parte su sentieri non ufficiali, non è adatto a chi non è abituato alla montagna o ha problemi con esposizioni. Dopo il primo tratto in salita ( tratto del 121) prima della foce di grattaculo abbiamo girato sulla sinistra attaccando il sentiero di cresta del Matanna dopo una breve salita, una parte di noi me incluso si sono staccati per affrontare la cresta sud-ovest del Matanna dove in alcuni punti ci si deve aiutare con le mani a fare una piccola scalatina (aggirabile da chi non se la sente); in seguito siamo arrivati in cima al Matanna fato foto e pausa. Da qua ci siamo diretti prima al Callare del Matanna(entiero 5) e poi sul Nona. Sul Nona abbiamo pranzato ed in seguito siamo discesi per la cresta nord, discesa non banale perchè molto ripida ed alcuni tratti erano bagnati (da fare con molta attenzione), in seguito siamo arrivati alla foce delle Porchette(109) per poi perseguire in direzione Baita degli Scoiattoli (8 e poi 121) fino ad arrivare al rifugio Forte dei Marmi dove abbiamo fatto una breve pausa per poi tornare a casa. Il percorso non è banale e a tratti potrebbe essere molto impegnativo per persone non abituate anche se sono solo 14 km ricordatevi che siete in apuane con terreni non semplici. Fate sempre attenzione! Percorso ad anello da Pomezzana passando per: - Monte Matanna (4.6 km) - Callare del Matanna (5.6 km) - Monte Nona (6.6 km) - Foce delle Porchette (7.8 km) - Fonte Moscoso (8.6 km) - Baita degli scoiattoli (9.6 km) - Rifugio Forte dei Marmi (10.7 km)',
-  '<h2>Monte Matanna, Monte Nona e Rifugio Forte dei Marmi da Pomezzana: Trekking Apuanos</h2>
+  '<h2 id="escursione-monte-matanna-monte-nona-rifugio-forte-dei-marmi-da-pomezzana">Escursione al Monte Matanna, Monte Nona e Rifugio Forte dei Marmi da Pomezzana</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa incredibile escursione è a <strong>Pomezzana</strong>, in provincia di <strong>Toscana</strong>. Raggiungere Pomezzana è piuttosto semplice: potete arrivare in auto da diverse direzioni, oppure se preferite, potete raggiungere il paese a piedi partendo da altre località circostanti. Il parcheggio più comodo è quello vicino al paese.</p>
 
-<p>Questo emozionante <strong>trekking</strong> in Apuania vi porterà a esplorare le maestose montagne e le vette del <strong>Monte Matanna</strong> e del <strong>Monte Nona</strong>. Percorso ad anello da Pomezzana, questo sentiero offre un''esperienza indimenticabile per gli <strong>escursionisti</strong> esperti e amanti della <strong>natura</strong>. Il percorso, lungo circa 14 km, vi condurrà attraverso una varietà di paesaggi, dai sentieri CAI ai passaggi più esposti, con ampie opportunità per godere della splendida <strong>montagna</strong> e della sua ricca biodiversità.  Sarà un''occasione perfetta per praticare <strong>trekking</strong> in un ambiente naturale incontaminato, e per immergerti nelle bellezze del territorio toscano. Ideale per un''<strong>escursione</strong> di un giorno o per un fine settimana in montagna.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo percorso ad anello di <strong>14.13 km</strong> vi condurrà attraverso panorami mozzafiato delle Apuane. Iniziate da <strong>Pomezzana</strong> e salite verso il <strong>Monte Matanna</strong>, seguendo in parte sentieri CAI e in parte sentieri non ufficiali. Preparatevi per alcuni tratti più impegnativi, in particolare sulla cresta sud-ovest del <strong>Monte Matanna</strong> dove potreste dover arricciare le mani per superare delle piccole scalinate. Proseguite fino alla cima del <strong>Monte Matanna</strong>, dove potrete godervi il panorama. Dalla cima, proseguite verso il <strong>Callare del Matanna</strong> e poi al <strong>Monte Nona</strong>. Potrete pranzare in cima al <strong>Monte Nona</strong> e, infine, scenderete lungo la cresta nord, che presenta alcuni tratti ripidi e bagnati. Percorrendo la foce delle Porchette, raggiungerete la <strong>Baita degli Scoiattoli</strong> e, infine, il <strong>Rifugio Forte dei Marmi</strong>, dove potrete fare una meritata pausa.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è considerata di <strong>Difficoltà Difficile</strong>, adatta a escursionisti esperti e in buona forma fisica. Il <strong>dislivello è di circa 1189 metri</strong>. Ci sono alcuni tratti esposti e ripidi, quindi è importante essere preparati. Non è adatta a chi non è abituato alla montagna o ha problemi con esposizioni. Ricordate, siete in montagna, con terreni non semplici!</p>
 
-<ul>
-    <li>Percorso ad anello da Pomezzana</li>
-    <li>Distanza totale: circa 14 km</li>
-    <li>Dislivello: Circa 800 metri</li>
-    <li>Difficoltà: Impegnativo – Richiede esperienza e buona preparazione fisica</li>
-    <li>Terreno: Vari, con tratti esposti e passaggi rocciosi.</li>
-    <li>Esposizioni: Alcuni passaggi richiedono l''uso di bastoncini da trekking e attenzione, soprattutto in condizioni di bagnato.</li>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul >
+    <li><strong>Distanza:</strong> Circa 14.13 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1189 metri</li>
+    <li><strong>Difficoltà:</strong> Difficile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Pomezzana, accessibile in auto/piedi</li>
+    <li><strong>Comune:</strong> Pomezzana, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico / Sentieri non ufficiali</li>
 </ul>
 
-<p>Questo <strong>sentiero</strong> non è adatto a chi non è abituato alla <strong>montagna</strong> o ha problemi con esposizioni. La discesa sul <strong>Monte Nona</strong> è particolarmente ripida e alcuni tratti possono essere bagnati, richiedendo attenzione e cautela.  È fondamentale indossare scarpe da trekking adatte e portare con sé l''attrezzatura adeguata, come acqua, cibo e un kit di pronto soccorso.  Un’ottima scelta per chi cerca un’<strong>escursione</strong> impegnativa e ricca di soddisfazioni in un contesto naturalistico unico.</p>
-
-<h3>Informazioni Utili</h3>
-
-<ul>
-    <li>Punto di partenza: Pomezzana</li>
-    <li>Arrivo: Rifugio Forte dei Marmi</li>
-    <li>Tratteggi principali: Monte Matanna (4.6 km), Callare del Matanna (5.6 km), Monte Nona (6.6 km), Foce delle Porchette (7.8 km), Fonte Moscoso (8.6 km), Baita degli scoiattoli (9.6 km)</li>
-    <li>Attenzione: Il percorso è impegnativo e richiede una buona preparazione fisica e mentale. Fate sempre attenzione e rispettate l’ambiente circostante.</li>
-    <li>Ideale per: <strong>Trekking</strong>, <strong>escursionismo</strong>, <strong>sentieri</strong> Italia, appassionati di <strong>natura</strong> e <strong>montagna</strong>.</li>
-</ul>
-
-<p>Ricordatevi di pianificare attentamente la vostra <strong>escursione</strong> e di informarsi sulle condizioni meteorologiche prima di partire.  Godetevi questo splendido <strong>sentiero</strong> in Apuania e immergetevi nella bellezza della <strong>natura</strong>!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong>Distanza:</strong> Circa 14.13 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1189 metri</li>
+    <li><strong>Difficoltà:</strong> Difficile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Pomezzana, accessibile in auto/piedi</li>
+    <li><strong>Comune:</strong> Pomezzana, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico / Sentieri non ufficiali</li>
+</ul>',
   'Tutte le Attività e Paesi',
   14.13,
   1189,

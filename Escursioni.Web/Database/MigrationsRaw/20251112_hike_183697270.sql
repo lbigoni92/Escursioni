@@ -7,21 +7,30 @@ VALUES (
   183697270,
   'Praga giorno 2 Catedral de San Vito, Basílica de San Jorge e Iglesia de San Nicolás da Praha-Nové Město',
   'Percorso ad anello da Praha-Nové Město passando per: - Catedral de San Vito (4.1 km) - Basílica de San Jorge (5.5 km) - Chapele of holy cross (8.8 km) - Monasterio de Strahov (10.3 km) - Puente Carlos (16.6 km) - Iglesia de San Nicolás (17.9 km) - Sinagoga Española (18.3 km) La cattedrale di San Vito è una chiesa che si trova a Praga ed è uno dei simboli della città e dell''intera Repubblica Ceca, sia a causa della sua storia che come memoriale artistico. La cattedrale ospita un''importante reliquia della cristianità, la testa di san Luca evangelista. Durante il suo viaggio in Italia del 1354, l''imperatore Carlo IV, per arricchire la cattedrale di Praga, si fece consegnare la testa di San Luca dalla città di Padova, la testa di San Vittore dalla città di Feltre e le reliquie di San Vito da Pavia. All''interno della cattedrale è inoltre custodito anche il cranio di Sant''Anania[1]. La volta della cappella di San Venceslao è stata affrescata dal Maestro dell''Altare di Litoměřice.',
-  '<h2 >Trekking a Praga: Sentiero Catedral de San Vito e Basilica di San Giorgio</h2>
+  '<h2 id="escursione-catedral-de-san-vito-basilica-de-san-jorge-iglesia-de-san-nicolas">Escursione: Praga giorno 2 Catedral de San Vito, Basílica de San Jorge e Iglesia de San Nicolás</h2>
 
-<h3 >Il percorso</h3>
-<p>Esplora il cuore di Praga con questo affascinante <strong>sentiero di trekking</strong>, un percorso ad anello che ti condurrà attraverso alcuni dei luoghi più iconici della città.  Questo <strong>trekking a Praga</strong> ti offre l''opportunità di immergerti nella storia e nella cultura della Repubblica Ceca, partendo dalla maestosa <strong >Cattedrale di San Vito</strong>, passando per la suggestiva <strong >Basilica di San Giorgio</strong> e altre chiese e monumenti storici.  L''escursione è un''ottima occasione per ammirare la bellezza della <strong >montagna di Praga</strong> e la sua ricca <em >natura</em>.  Percorrendo questo <strong>sentiero escursionistico</strong>, potrai scoprire la città da una prospettiva unica, lontano dalla folla dei turisti.  Perfetto per un''<strong>escursione a Praga</strong> per famiglie o per appassionati di <strong>trekking</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa splendida escursione a Praga è Praha-Nové Město. Da lì, segui le indicazioni per il Ponte Carlo, da cui inizierà il tuo percorso che ti condurrà attraverso i principali luoghi di interesse della città.</p>
 
-<h3 >Cosa aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo percorso ad anello di circa 19.62 km ti porterà attraverso alcuni dei luoghi più iconici di Praga. Partendo da Praha-Nové Město, inizierai con la Cattedrale di San Vito, un capolavoro gotico che ospita la testa di San Luca Evangelista. Da lì, proseguirai verso la Basílica di San Giorgio, la Cappella della Croce, il Monastero di Strahov, il Ponte Carlo e infine l''Iglesia de San Nicolás e la Sinagoga Española. Un vero e proprio tour alla scoperta del cuore storico di Praga!</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà media, con un dislivello di circa 1422 metri. È consigliabile indossare scarpe da trekking comode e acqua, soprattutto durante i mesi estivi. Il percorso è ben segnalato, ma è sempre bene portare con sé una mappa o un''app di navigazione.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Puoi scaricare una traccia GPS per questo percorso per guidarti lungo il cammino.  L''escursione è ad anello e percorsa in circa 6-8 ore a seconda del ritmo. L''altimetria è impegnativa, ma la vista sulla città è assolutamente ricompensante.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-<li>Un percorso ad anello di circa 17.9 km, con un dislivello totale di circa 270 metri.</li>
-<li>Un''escursione di circa 3-4 ore, a seconda del ritmo e delle soste.</li>
-<li>L''opportunità di visitare alcuni dei monumenti più importanti di Praga: <strong >Cattedrale di San Vito</strong>, <strong >Basilica di San Giorgio</strong>, <strong >Chiesa di San Nicola</strong>, <strong >Sinagoga Ebraica</strong> e il <strong >Ponte Carlo</strong>.</li>
-<li>Possibilità di ammirare la splendida <em >natura</em> della <strong >montagna di Praga</strong> e dei suoi dintorni.</li>
-</ul>
-
-<h3 >Informazioni utili</h3>
-<p>Questo <strong>sentiero di trekking</strong> offre un''esperienza indimenticabile per chi visita Praga.  Il percorso è ben segnalato e facile da seguire, ma è consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack.  Considera che l''accessibilità a determinati punti potrebbe essere limitata a causa di lavori in corso o restrizioni temporanee.  La <strong>trekking</strong> a Praga è un''opportunità per scoprire la città in modo attivo e autentico.  Pianifica la tua <strong>escursione a Praga</strong> con anticipo e goditi questa splendida <strong>escursione nel sentiero</strong>.  Esplora questo fantastico <strong>sentiero in montagna</strong>, ideale per un''<strong>escursione in Italia</strong> o un''esperienza unica a Praga.</p>',
+  <li><strong>Distanza:</strong> Circa 19.62 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 1422 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Praha-Nové Město, accessibile in auto/mezzi pubblici</li>
+  <li><strong>Comune:</strong> Praha-Nové Město, Repubblica Ceca</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   19.62,
   1422,

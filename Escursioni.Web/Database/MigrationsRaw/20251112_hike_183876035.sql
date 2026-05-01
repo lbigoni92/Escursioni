@@ -7,27 +7,30 @@ VALUES (
   183876035,
   'Praga 3',
   'Ultimo bellissimo giro nella città di Praga Il Ponte Carlo (in ceco Karlův most; in tedesco Karlsbrücke) è uno storico ponte in pietra sulla Moldava, situato nella città di Praga, e collega la Città Vecchia al quartiere di Malá Strana: è tra i più famosi monumenti della capitale della Repubblica Ceca. Misura 515 m di lunghezza, ha una larghezza compresa tra i 9,40 e 9,50 m e un''altezza di 13 m sopra il livello normale della Moldava.[1] Il ponte è una delle più grandi attrazioni turistiche della città, ed è molto frequentato dagli artisti di strada, dai musicisti e dai venditori di "souvenir" durante tutto l''anno. L''Orologio astronomico di Praga (in ceco Staroměstský Orloj, "orologio della Città Vecchia"), è un monumento scientifico del periodo medioevale, situato nella capitale della Repubblica Ceca. L''orologio è montato sul lato sud del municipio della Città Vecchia, nella piazza della Città Vecchia ed è una delle più importanti attrazioni turistiche della città. Il meccanismo è composto da tre elementi principali: il quadrante astronomico, sul quale, oltre all''ora, sono rappresentate le posizioni in cielo del Sole e della Luna, insieme ad altre informazioni astronomiche; il "Corteo degli Apostoli", un meccanismo che, allo scoccare di ogni ora, mette in movimento delle figure rappresentanti i dodici apostoli; e un quadrante inferiore composto da 12 medaglioni raffiguranti i mesi dell''anno.',
-  '<h2>Trekking Praga 3: Escursione Autentica nel Cuore di Praga</h2>
+  '<h2 id="escursione-praga-3">Escursione a Praga 3</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo suggestivo trekking ti conduce attraverso le meraviglie di Praga, offrendo un''escursione indimenticabile per gli amanti del trekking e della natura. Il sentiero ti porterà ad esplorare angoli nascosti della città, con panorami mozzafiato sul fiume Moldava e sulle sue rive. L''escursione è progettata per offrire un''esperienza autentica, permettendoti di immergerti nella cultura e nella storia di Praga, perfetta per una giornata di <strong>trekking</strong> o un''<strong>escursione</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa fantastica escursione è nel cuore di Praga, nel quartiere di <strong>Nové Město</strong> (Città Nuova).  Potete facilmente raggiungere la zona a piedi dalla Città Vecchia, oppure tramite i mezzi pubblici (metro o tram).  Una volta in zona, seguite le indicazioni per il <strong>Žižkov</strong>, la zona collinare dove inizia il sentiero.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparati ad un''esperienza unica, combinando la bellezza del <strong>sentiero</strong> con i famosi monumenti di Praga. Passerai vicino al Ponte Carlo, un capolavoro architettonico, e all''Orologio Astronomico, un''opera d''arte medievale che incanta ogni ora.  Questa <strong>escursione in montagna</strong>, adatta a tutti i livelli, ti regalerà momenti indimenticabili tra la <strong>natura</strong> e la storia di Praga. Potrai ammirare la città da una prospettiva diversa, godendo di una vera e propria <strong>trekking</strong> in un contesto urbano, ideale per gli appassionati di <strong>sentieri Italia</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questa escursione di tipo anello vi condurrà attraverso il quartiere di <strong>Žižkov</strong>, un''area ricca di storia e atmosfera. Inizierete salendo lungo sentieri collinari, passando per quartieri residenziali e piccoli parchi.  Il sentiero è ben segnalato e si snoda principalmente attraverso campi e aree verdi, offrendo panorami sulla città.  Il percorso è piuttosto pianeggiante, con alcune salite e discese moderatamente impegnative.  La parte finale dell''anello vi riporterà al punto di partenza, passando per alcune zone più tranquille di Žižkov.  È un''escursione ideale per chi desidera esplorare un''area meno turistica di Praga e godersi la natura in città.</p>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Facile - Media</li>
-    <li><strong>Distanza:</strong> Circa 5 km</li>
-    <li><strong>Dislivello:</strong> Circa 50 metri</li>
-    <li><strong>Durata:</strong> 2-3 ore</li>
-    <li><strong>Punto di partenza:</strong>  Piazza della Città Vecchia</li>
-    <li><strong>Punto di arrivo:</strong> Vicino al Ponte Carlo</li>
-    <li><strong>Attrazioni del percorso:</strong> Ponte Carlo, Orologio Astronomico di Praga, Vista panoramica sulla Moldava</li>
-    <li><strong>Consigli:</strong> Indossa scarpe comode per il trekking, porta con te acqua e snack, e preparati a esplorare uno dei luoghi più belli d''Europa. Questa <strong>escursione a Praga</strong> è un''occasione unica per scoprire la città in modo attivo e divertente.</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di livello <strong>Medio</strong>. La distanza totale è di circa <strong>9,96 km</strong> con un dislivello di <strong>+730 metri</strong>.  Si consiglia un buon paio di scarpe da trekking, acqua e un piccolo snack.  L''escursione richiede circa 3-4 ore per essere completata, a seconda del ritmo e delle soste.  Siate pronti a salire e scendere su sentieri che possono essere un po'' irregolari, ma la ricompensa sarà un panorama unico su Praga!</p>
 
-<p>Scopri di più sui <strong>sentieri Italia</strong> e vivi un''avventura indimenticabile durante questa <strong>trekking</strong> a Praga!</p>',
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Potete trovare la <a href="https://www.alltrails.com/it/traccia/repubblica-ceca/praga/praga-3">traccia GPS</a> di questa escursione su AllTrails.  La zona è facilmente raggiungibile con i mezzi pubblici.  Ricordate di indossare scarpe comode, portare acqua e un cappello per proteggervi dal sole.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong>Distanza:</strong> Circa 9,96 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 730 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Žižkov, Praha-Nové Město, Repubblica Ceca</li>
+  <li><strong>Comune:</strong> Praha-Nové Město, Repubblica Ceca</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   9.96,
   730,

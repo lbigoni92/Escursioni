@@ -7,24 +7,31 @@ VALUES (
   181305955,
   'Cavezzana Gordana ~ Streggi di Giaredo',
   'Niente è meglio degli stretti quando si cerca refrigerio dalla calura estiva. l''escursione è consigliata per chi ha un minimo di dimestichezza con i corsi d''acqua, che sappia nuotare bene; sono necessari scarpe da trekking, muta e preferibilmente anche il caschetto. l''acqua è veramente fredda quindi mi raccomando non buttatevi se non avete la muta. le acque sono cristalline quello che vedete qua è una dei 3 sentieri par arrivare agli stretti. Il parcheggio c''è ed è abbastanza spazioso sabati e domeniche andateci presto sennò non trovate posto. il sentiero nel primo tratto è semplice e ben delineato, basta seguire la traccia c''è da guardare il fiume dopo poco in 3/4 punti e si è agli stretti. Dagli stretti possiamo scegliere se proseguire nel percorso (la parte ovviamente più bella) o fermarsi per fare un bagnetto. Le gole alte 30 metri regalano un paesaggio unico da cinema, nella seconda parte ci sono anche delle bellissime cascate. Si deve nuotare in almeno 4 punti e la lunghezza del tratto da nuotare varia dai pochi metri alla trentina (dipende dal livello dell''acqua). Consiglio vivamente l''esperienza',
-  '<h2>Cavezzana Gordana ~ Streggi di Giaredo: Trekking e Escursioni nel Parco Naturale Regionale dell''Appennino Parmigiano</h2>
+  '<h2 id="escursione-cavezzana-gordana-streggi-di-giaredo">Escursione alla Cavezzana Gordana e agli Streggi di Giaredo</h2>
 
-<h3>Il percorso</h3>
-<p>Preparatevi per un’emozionante <strong>escursione trekking</strong> lungo il sentiero Cavezzana Gordana, un percorso fantastico che vi condurrà attraverso la splendida valle di Streggi di Giaredo. Questa <strong>escursione in montagna</strong> è perfetta per chi cerca un’avventura in natura e desidera scoprire i segreti di questo angolo incontaminato del Parco Naturale Regionale dell’Appennino Parmigiano. Il <strong>sentiero</strong> è consigliato a escursionisti esperti, con una buona dimestichezza con i corsi d''acqua e capacità di nuoto, data la presenza di acque fredde e l''opportunità di godere di un rinfrescante <em>bagnetto</em>.</p>
-<p>Il primo tratto del <strong>trekking</strong> è semplice e ben definito, con una traccia chiaramente indicata. Dopo poco, vi troverete di fronte agli iconici <strong>stretti</strong>, una meraviglia naturale dove potrete ammirare il fiume. Da qui, potrete scegliere se proseguire lungo il percorso più impegnativo e panoramico o concedervi un’immersione rinfrescante nelle acque cristalline.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa fantastica escursione è a Dozzano, in provincia di Toscana. Il comune si trova in Italia e facilmente raggiungibile in auto. Arrivati a Dozzano, il parcheggio è abbastanza spazioso, ma soprattutto se scegliete di fare l''escursione nel weekend, consiglio vivamente di arrivare presto per assicurarsi un posto. Da lì, seguendo la segnaletica, inizierete il vostro trekking.</p>
 
-<h3>Cosa aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia con un tratto semplice e ben delineato, lungo un sentiero che segue il corso del fiume. Dopo pochi metri, vi troverete all''imbocco degli stretti, dove l''acqua diventa più impetuosa e fredda. Da qui, potrete scegliere se proseguire nel percorso più bello (e impegnativo) o fermarvi per un bagno rinfrescante. Il sentiero si snoda attraverso gole alte di 30 metri, regalando panorami mozzafiato. Durante il percorso, dovrete nuotare in almeno 4 punti, con tratti che variano dai pochi metri alla trentina, a seconda del livello dell''acqua. Ricordate, l''acqua è veramente fredda, quindi utilizzate la muta e il caschetto!</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà media. Richiede un minimo di dimestichezza con i corsi d''acqua e la capacità di nuotare bene. È necessario indossare scarpe da trekking, una muta e, preferibilmente, un caschetto. Il dislivello è di circa 116 metri e la distanza dell''anello è di 3.99 km.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Potrete scaricare una traccia GPS per questo percorso per orientarvi meglio durante l''escursione. Ricordate di controllare sempre le previsioni del tempo prima di partire e di indossare abbigliamento adeguato. Preparatevi a nuotare in acque fresche e a godervi un''esperienza indimenticabile!</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li>Un''<strong>escursione</strong> in un ambiente naturale incontaminato.</li>
-    <li>La possibilità di <strong>nuotare</strong> in acque fresche e cristalline.</li>
-    <li>Un percorso di circa 7-8 km con dislivello variabile, adatto a trekking esperti.</li>
-    <li>Gole alte fino a 30 metri che offrono panorami mozzafiato.</li>
-    <li>La presenza di <strong>cascate</strong> e punti di interesse naturalistico.</li>
-</ul>
-
-<h3>Informazioni utili</h3>
-<p>L’<strong>escursione</strong> alla Cavezzana Gordana richiede un’adeguata preparazione. È fondamentale indossare <strong>scarpe da trekking</strong>, una <strong>muta</strong> e, preferibilmente, un <em>caschetto</em> per la sicurezza. Ricordate che l’acqua è estremamente fredda e, per questo, è consigliabile non immergersi senza la muta. Il percorso include tratti in cui è necessario nuotare, con una lunghezza variabile dai pochi metri alle 30 metri, a seconda del livello dell''acqua.  Il parcheggio è disponibile e abbastanza spazioso, ma è consigliabile recarsi al sito nei giorni festivi con anticipo per assicurarsi un posto.</p>
-<p>Questa <strong>trekking</strong> esperienza nelle <strong>montagne italiane</strong> è una vera e propria fuga dalla routine, un’occasione per riconnettersi con la natura e godere della bellezza dei <strong>sentieri</strong> dell’Appennino Parmigiano.  Preparatevi a un''<strong>escursione</strong> indimenticabile!</p>',
+  <li><strong>Distanza:</strong> Circa 3.99 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 116 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Dozzano, Toscana, Italia</li>
+  <li><strong>Comune:</strong> Dozzano</li>
+  <li><strong>Regione:</strong> Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   3.99,
   116,

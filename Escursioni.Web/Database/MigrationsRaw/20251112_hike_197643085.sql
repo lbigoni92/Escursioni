@@ -7,27 +7,35 @@ VALUES (
   197643085,
   'Quercia della merenda, Fonte del Tasso e Vignale da Cappella dell''ascensione',
   'Percorso ad anello da Cappella dell''Ascensione con tappe a Quercia della Merenda (5.3 km), Fonte del Tasso (8.4 km) e Vignale (12.5 km). Partenza dal parcheggio del Convento di San Vivaldo. Il primo tratto è stato su strada, poiché il sentiero previsto era bloccato da escavatori e reso impraticabile dal fango. Il sentiero è stato imboccato al km 3.0. Dal km 4.2 inizia l''anello delle Balze del Carfalo, un tratto suggestivo con discese fangose e segnaletica che valorizza il luogo. Qui si trovano alberi monumentali di tassi secolari, un''antica faggeta, limpide acque del torrente Carfalo e, talvolta, la "Salamandrina dagli occhiali". Al km 12.5 si arriva a Vignale, con un casolare e una chiesa visitabili solo dall''esterno, dove si possono ancora ammirare affreschi e un altare unico. Consigliato! Il Castello di Vignale Vecchio non esiste più, ridotto a pochi ruderi nascosti dalla vegetazione. Dopo un millennio di storia, l''abbandono è stato rapido, accelerato nella seconda metà del XX secolo dalla fuga dalla terra, che ha spopolato l''area. Nessuno ha valorizzato il borgo per il turismo, nonostante la bellezza naturale del luogo. Anche Vignale Nuovo è in rovina: la canonica e parte della chiesa sono crollate, trasformandola in una stalla per cavalli. Da lontano, si possono ancora ammirare il campanile e il tetto a volta della chiesa, ma avvicinandosi prevale la tristezza.',
-  '<h2>Quercia della Merenda, Fonte del Tasso e Vignale da Cappella dell''Ascensione - Trekking in Montagna</h2>
+  '<h2 id="escursione-quercia-merenda-fonte-tasso-vignale">Escursione a Quercia della Merenda, Fonte del Tasso e Vignale da Cappella dell''Ascensione</h2>
 
-<h3>Il Percorso - Escursione in Sentiero ad Anello</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<p>Questo affascinante <strong>sentiero di trekking</strong> porta alla scoperta di luoghi suggestivi nel cuore della **montagna** dell''Abruzzo. L''<strong>escursione ad anello</strong> parte dal parcheggio del **Convento di San Vivaldo** e offre un''esperienza unica di <strong>trekking</strong> in un ambiente naturale incontaminato. Il percorso, di circa 12.5 km, include tappe a <strong>Quercia della Merenda</strong>, la pittoresca <strong>Fonte del Tasso</strong> e il caratteristico <strong>Vignale</strong>, un borgo abbandonato con una storia millenaria. Inizialmente il percorso è su strada, ma poi si immette al km 3.0, con un tratto più impegnativo attraverso le <strong>Balze del Carfalo</strong>, un anello suggestivo con discese fangose e la possibilità di avvistare la rara "Salamandrina dagli occhiali".  L''anello è un''ottima opportunità per un''<strong>escursione** in <strong>sentiero** e per ammirare la bellezza della natura.</p>
+<p>Il punto di partenza per questa bella escursione è il parcheggio del Convento di San Vivaldo. Da San Vivaldo, è facilmente raggiungibile in auto tramite la strada provinciale. Una volta parcheggiato, iniziate a seguire le indicazioni per il sentiero.</p>
 
-<h3>Cosa Aspettarsi - Difficoltà e Aspetti del Trekking</h3>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>L''escursione è un anello di circa 16.13 km con un dislivello positivo di 495 metri. Iniziate dal parcheggio del Convento di San Vivaldo. Il primo tratto è su strada, circa 3 km, fino al km 3.0, dove si trova la Quercia della Merenda. Da qui, il sentiero si fa più impegnativo, con tratti fangosi e la discesa delle Balze del Carfalo.  Proseguite poi verso la Fonte del Tasso, dove potrete ammirare la suggestiva faggeta e il torrente Carfalo. Infine, raggiungete Vignale, un borgo abbandonato con resti di un casolare e una chiesa, per concludere il giro.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>Questa escursione è di difficoltà media. Alcuni tratti del sentiero sono in condizioni non ottimali (fangosi) e richiedono attenzione. È consigliabile indossare scarpe da trekking adeguate e portare con sé acqua e snack. La salita e la discesa sono impegnative, ma il panorama che si apre lungo il percorso è magnifico.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>Disponibile traccia GPS per l''escursione completa. Per maggiori dettagli e per scaricare la traccia, consultate le nostre risorse online.  Ricordatevi di controllare le previsioni del tempo prima di partire e di informare qualcuno del vostro itinerario.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 
 <ul>
-  <li><strong>Difficoltà:</strong> Medio-Facile (alcuni tratti fangosi e discese)</li>
-  <li><strong>Distanza:</strong> Circa 12.5 km</li>
-  <li><strong>Dislivello:</strong> Circa 400 metri</li>
-  <li><strong>Tipo di terreno:</strong> Sentieri sterrati, strade bianche, tratti fangosi e rocciosi</li>
-  <li><strong>Punti di interesse:</strong> Alberi monumentali di tassi secolari, antica faggeta, torrente Carfalo, cascata, <strong>Vignale** (borgo abbandonato).</li>
-</ul>
-
-<p>Questa <strong>escursione** è ideale per <strong>trekking** in famiglia o per appassionati di natura che desiderano immergersi in un''atmosfera di pace e tranquillità. Ricorda di indossare scarpe da trekking adatte e di portare con te acqua e snack. La segnaletica del <strong>sentiero** è ben presente, ma è sempre consigliabile avere una mappa e una bussola.</p>
-
-<h3>Informazioni Utili - Dettagli per il Tuo Trekking in Italia</h3>
-
-<p>Il <strong>sentiero</strong> parte dal parcheggio del <strong>Convento di San Vivaldo</strong>, facilmente raggiungibile in auto.  Il primo tratto del <strong>trekking** è stato modificato a causa di lavori in corso e fango, ma il percorso è stato presto ripristinato. La tappa a <strong>Quercia della Merenda** offre un punto di ristoro, mentre la <strong>Fonte del Tasso** è un luogo ideale per rinfrescarsi con un tuffo nelle sue acque limpide.  Il tratto a <strong>Vignale** è un''occasione per immergersi nella storia e nell''architettura di questo borgo abbandonato. Un''occasione imperdibile per un''<strong>escursione** nella natura e nella storia di **sentieri Italia**. Ricorda di rispettare l''ambiente e di lasciare il luogo come lo hai trovato.</p>',
+  <li><b>Distanza:</b> Circa 16.13 km (anello)</li>
+  <li><b>Dislivello:</b> Circa 495 metri</li>
+  <li><b>Difficoltà:</b> Medio</li>
+  <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+  <li><b>Punto di partenza:</b> Parcheggio del Convento di San Vivaldo, accessibile in auto</li>
+  <li><b>Comune:</b> San Vivaldo, Toscana</li>
+  <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   16.13,
   495,

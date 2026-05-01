@@ -7,36 +7,39 @@ VALUES (
   97993064,
   'Isola Santa - Del Freo - Anello',
   'Percorso fatto tranquillamente,  dove ho portato delle persone per questi sentieri sono alla portata di tutti ma se è la prima volta sui monti andrete un pò piano, i panorami che vediamo sono spettacolari e unici. Sentieri: 9 - 9/127 - 128 - 11/128 - 128- strada Il percorso parte dalla piccola località "Isola Santa " dove prenderemo il sentiero che passa per sopra la diga, ci sarà un pò di salita ma niente d''impegnativo fino al passino di Col di Favilla. da li proseguiremo in direzione del rifugio del Freo in quest''ultimo tratto vi erano numerose foglie a coprire il percorso, occhio a dove mettete i piedi. Nel tratto finale del127 primo d''arrivare al rifugio del Freo vie una veduta bellissima dove potremo ammirare la Pania della croce e il Pizzo delle saette mentre alle nostre spalle avremo il Monte Corchia. Abbiamo pranzato al rifugio, è un luogo tranquillo e dove servono deille belle porzioni, ma vi sono anche dei tavoli esterni per tutti. In seguito abbiamo preso il 128 in siscesa passando per la tana dell''uomo selvatico (siamo passati accanto a questa grotta), fino all''incrocio con il sentiero 11 che c''ha portati a Puntato dove abbiamo visto la chiesina e una roccia con incisioni li vicina, in seguito abbiamo proseguito in direzione della strada di cava (attenzione qua è difficile tenere il sentiero è segnato male) . Storia: Col di favilla Il borgo di Col di Favilla, in quanto tristemente abbandonato è un paesino fantasma, nonostante dei tentativi di recuperare alcune delle sue vecchie abitazioni, il borgo si riempie di vita solamente per la festa di Sant’Anna, il 26 luglio. L’ultimo parroco che operò in loco fu attivo dal 1897 al 1942 e ricopriva anche la funzione d’artigiano e storico della comunità; in sua memoria fu costruita sulla chiesa la meridiana più alta di tutta la Toscana. Il paese subì gravi distruzioni durante la Seconda guerra mondiale trovandosi vicino alla Linea Gotica, fu completamente abbandonato negli anni ’60. Il paese nacque inizialmente come un alpeggio di Levigliani, quindi era un insediamento a carattere stagionale, mentre la chiesa presente nel paese fu costruita attorno al 1640, nel 1880 si trasformò in un vero e proprio borgo. la chiesa del paese, dedicata a S.Anna madre della Madonna fu restaurata e riconsacrata nel 1979 a seguito d’alcune devastazioni sacrileghe compiute tra il 1968 e il 1970. Nel 1983 fu affissa all’esterno un lapide marmorea a ricordo dell’evento, un’altra lapide è stata affissa nel 1982 a cura dell’UOEI A fianco del campanile vi è un breve vialetto, delimitato da faggi, il quale porta ad un piccolo cimitero dove in inverno sbocciano i crochi, purtroppo pure il cimitero subì degli interventi sacrilegi con asportazione di scheletri, alcune fonti presumono che questi disseppellimenti avvennero da parte d’alcuni studenti di medicini per studiare i cadaveri. Rifugio del Freo: Il rifugio è situato in un''aperta valle caratterizzata da numerose sorgenti d''acqua, prati, boschi di faggete e conifere. Antica torbiera e via di comunicazione tra Versilia e Garfagnana, ai piedi della Pania della Croce, la "Regina delle Apuane"; l''area era utilizzata un tempo come alpeggio dei paesi di Levigliani e Pruno. La zona è caratterizzata da grotte di origine carsica di notevole interesse speleologico come l''Antro del Corchia e la Tana dell''Omo Selvatico, luogo leggendario a pochi minuti dal rifugio. Le pareti del Corchia e della Pania offrono diverse possibilità di arrampicata e canali di ghiaccio in inverno. Tana/Grotta dell''uomo Selvatico: La tana dell''Omo Selvatico è una caverna (dolina) delle Alpi Apuane. La leggenda vuole che lì abitasse un uomo selvaggio che insegnava alla gente della zona come fare burro, formaggio e ricotta. Puntato Il Puntato, è uno degli ultimi alpeggi delle Alpi Apuane si trova racchiuso tra la Pania della Croce, il monte Corchia e il Freddone, sovrastato dall''imponente Pizzo delle Saette. È sicuramente uno dei luoghi più suggestivi ed affascinanti del Parco. È stato abitato da comunità di pastori sino dagli anni Quaranta e abbandonato dopo la fine della Seconda guerra mondiale si può osservare tutt’ora molte case diroccate dislocate nei terreni disposti a terrazze per le colture e delle mulattiere strappate al tempo. Chiesa della Santissima Trinità (Piccola chiesa) Rigorosamente costruita in pietra come tutte le abitazioni dintorno, è un gioiello dell’architettura anche se sfortuna vuole che sia chiusa al pubblico per pericolo di crollo, sulla facciata davanti ha una piccola finestra dove affacciandosi si può vedere dentro. La facciata principale, interamente realizzata in pietra a faccia vista, è profilata da una copertura a capanna. Al centro si apre il portale d''accesso rettangolare dotato di inferriata, affiancato da due finestrelle quadrate. Una terza apertura simile alle precedenti si inserisce nella parte superiore del prospetto, in asse con l''ingresso. Sul fianco sinistro è addossato un volume leggermente arretrato, coperto dal prolungamento della falda sinistra della copertura della chiesa. ',
-  '<h2>Isola Santa - Del Freo - Anello: Escursione Panoramica tra Montagna e Storia</h2>
+  '<h2 id="escursione-isola-santa-del-freo-anello">Escursione Isola Santa - Del Freo - Anello</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa fantastica escursione è l''incantevole Isola Santa, un borgo pittoresco situato a pochi chilometri da Massa. Raggiungibile in auto, è facilmente accessibile tramite strade secondarie ben tenute. In alternativa, è possibile arrivare a piedi da Levigliani, immergendosi nella bellezza del paesaggio e godendo della tranquillità della montagna. </p>
 
-<p>Immergiti in un''escursione indimenticabile lungo il sentiero Isola Santa - Del Freo - Anello, un''esperienza di trekking autentica nel cuore delle Alpi Apuane. Questo percorso di 9.127 metri, ideale per escursionisti di tutti i livelli, ti condurrà attraverso paesaggi mozzafiato e ricchi di storia, offrendoti la possibilità di ammirare panorami unici. Partiremo dalla pittoresca località Isola Santa, dove inizieremo la nostra avventura, seguendo un sentiero che supera la diga e si snoda dolcemente fino al passino di Col di Favilla. Un tratto in salita leggero ci preparerà all''imponente panorama che ci attende.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo anello di circa 16,5 km ti condurrà attraverso paesaggi mozzafiato. Iniziando da Isola Santa, seguirai il sentiero 9 - 9/127 - 128 - 11/128 che sale gradualmente attraverso la diga, offrendo già una splendida vista sulla valle.  Proseguirai attraverso il borgo fantasma di Col di Favilla, un luogo suggestivo e carico di storia.  Il sentiero si inoltra poi nel bosco, portandoti verso il Rifugio del Freo, dove potrai ammirare la maestosità della Pania della Croce e del Pizzo delle Saette.  Il percorso prosegue con il sentiero 128, attraversando la leggendaria Tana dell''Omo Selvatico, e infine ritorna verso Isola Santa, offrendo panorami indimenticabili. </p>
 
-<p>Proseguiremo verso il rifugio del Freo, un luogo accogliente e tranquillo situato in una valle aperta, caratterizzato da sorgenti, prati e boschi di faggete. Questo tratto del sentiero presenta alcune zone con foglie cadute, quindi fai attenzione a dove metti i piedi!  L''escursione a trekking è ideale per appassionati di natura e montagna.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questo trekking è di difficoltà <strong>Media</strong>, adatto a escursionisti con un minimo di allenamento. Il dislivello di <strong>+750 metri</strong> richiede una buona preparazione fisica.  Preparati a percorrere sentieri in alcuni tratti ripidi e a superare qualche tratto boschivo. L''attenzione è richiesta soprattutto quando si cammina nel borgo abbandonato di Col di Favilla e durante il tratto finale del sentiero 128, dove il sentiero può essere poco marcato. </p>
 
-<h3>Cosa Aspettarsi</h3>
-
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
 <ul>
-    <li>Panorami spettacolari sulla Pania della Croce e sul Pizzo delle Saette.</li>
-    <li>Opportunità di escursione in un ambiente naturale incontaminato.</li>
-    <li>Possibilità di ammirare il borgo fantasma di Col di Favilla, un luogo ricco di storia e leggende.</li>
-    <li>Possibilità di pranzare al Rifugio del Freo, con porzioni deliziose e una vista mozzafiato.</li>
-    <li>Percorso adatto a escursionisti di tutti i livelli, con tratti più impegnativi ma non eccessivi.</li>
+    <li><strong>Distanza:</strong> Circa 16,52 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 750 metri</li>
+    <li><strong>Difficoltà:</strong> Facile/Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Isola Santa (accessibile in auto/a piedi)</li>
+    <li><strong>Comune:</strong> Isola Santa, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
+<p><b><a href="https://www.alltrails.com/it/sentieri/italia/toscana/isola-santa-del-freo-anello" target="_blank">Traccia GPS (AllTrails)</a></b> - <span style="font-size: small;">(Questa è solo un''indicazione, è consigliabile utilizzare una mappa e una bussola)</span></p>
 
-<h3>Informazioni Utili</h3>
-
-<ul>
-    <li>**Difficoltà:** Facile/Media</li>
-    <li>**Distanza:** 9.127 metri</li>
-    <li>**Dislivello:** 850 metri</li>
-    <li>**Durata:** 6-8 ore (a seconda del ritmo)</li>
-    <li>**Periodo consigliato:** Primavera - Autunno</li>
-    <li>**Equipaggiamento consigliato:** Scarpe da trekking, zaino, acqua, snack, cappello, crema solare, abbigliamento a strati.</li>
-</ul>
-
-<p>Non perdere l''occasione di vivere un''avventura indimenticabile lungo questo sentiero, un vero gioiello del trekking in Italia, perfetto per chi ama la montagna, la natura e la scoperta di luoghi affascinanti.  Questo sentiero è una bellissima opportunità per un''escursione a piedi in ambiente montano.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 16,52 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 750 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Isola Santa (accessibile in auto / a piedi)</li>
+    <li><strong>Comune:</strong> Isola Santa, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   16.52,
   750,

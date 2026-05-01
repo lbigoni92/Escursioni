@@ -7,29 +7,30 @@ VALUES (
   96964761,
   'Vicopisano - Rocca della Verruca',
   'Partenza da Vicopisano, abbiamo parcheggiato nella piazza principale del paese (il sabato non potete parcheggiare). I sentieri sono molto molto semplici adatti a tutti, l''unica parte più difficile è la salita, che in un breve tratto presenta delle pietre alle quali si dev''essere attenti. Non vi sono fontane lungo il percorso Dalla verruca potrete vedere un panorama unico nel suo genere, La Rocca stessa non è tenuta benissimo ma è comunque un luogo storico più ogni Toscano dovrebbe vedere almeno una volta nella propria vita, la salita alla verruca comporta aiutarsi con le mani nel salire, ma ne vale la pena. Il ritorno non comporta difficoltà abbiamo fatto la direttissima dalla verruca a Vicopisano il percorso era molto molto semplice, percorribile anche in auto, vicino alla verruca vi sono anche i tavolini da picnic',
-  '<h2>Vicopisano - Rocca della Verruca: Trekking e Escursioni nella Toscana Montuosa</h2>
+  '<h2 id="vicopisano-rocca-della-verruca">Escursione a Rocca della Verruca da Vicopisano</h2>
 
-<h3>Il Percorso – Escursione Facile e Panoramica</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>La partenza per questa bella escursione si trova direttamente nel borgo medievale di <strong id="vicopisano">Vicopisano</strong>, in <strong id="toscana">Toscana</strong>.  Il punto di partenza è la piazza principale del paese. Parcheggiate dove possibile (il sabato non è consentito). Da qui, iniziate il vostro <strong id="trekking">trekking</strong>!</p>
 
-<p>Parti da <strong>Vicopisano</strong> per un''emozionante <strong>escursione di trekking</strong> alla <strong>Rocca della Verruca</strong>. Questo sentiero, ideale per tutti, ti condurrà attraverso un paesaggio montano toscano autentico, offrendo viste mozzafiato e un''esperienza di <strong>trekking</strong> indimenticabile. Il percorso, semplice e ben tracciato, è perfetto anche per famiglie e principianti, anche se la salita alla Rocca presenta una breve sezione con alcune pietre su cui fare attenzione.  Abbiamo parcheggiato nella piazza principale del paese (il sabato non potete parcheggiare) ed è possibile percorrere questo <strong>sentiero di montagna</strong> con facilità.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo <strong id="sentiero">sentiero</strong> è perfetto per tutti, anche per chi non ha molta esperienza. Iniziate dalla piazza di <strong id="vicopisano">Vicopisano</strong> e seguite il sentiero che si inoltra nel bosco. La prima parte è molto semplice, con una leggera salita. Dopo circa 3 km, la salita diventa più impegnativa, con alcuni tratti rocciosi dove dovete fare attenzione a dove mettete i piedi.  La salita alla <strong id="rocca-della-verruca">Rocca della Verruca</strong> richiede un po'' di aiuto con le mani per superare alcuni passaggi, ma la vista dalla cima è semplicemente spettacolare! Il ritorno è facile e veloce, con un percorso diretto verso il paese.  Avrete anche la possibilità di pranzare nei tavolini da picnic vicino alla rocca.</p>
 
-<h3>Cosa Aspettarsi – Un’Escursione Storica nella Natura</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa <strong id="escursione">escursione</strong> è classificata come <strong id="difficoltà">Media</strong>. La distanza totale è di 12.96 km con un dislivello positivo di 506 metri. È un <strong id="tipo-giri">anello</strong>, quindi potete tornare al punto di partenza. Portate con voi acqua, una snack e scarpe da trekking adatte.</p>
 
-<p>Preparati ad un''<strong>escursione</strong> che ti farà riscoprire la bellezza della <strong>natura toscana</strong>. Il percorso offre panorami unici sulla vallata circostante, con la possibilità di ammirare la <strong>Rocca della Verruca</strong>, un luogo storico importante e un punto di osservazione privilegiato. La salita richiede un po'' di sforzo fisico, ma la ricompensa è un''esperienza autentica e gratificante. Questo <strong>sentiero escursionistico</strong> è un''occasione per immergerti nella tranquillità della <strong>montagna italiana</strong>, lontano dal caos cittadino.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Potete scaricare la <strong id="traccia-gps">traccia GPS</strong> di questa escursione per guidarvi durante il percorso. Ricordate di controllare sempre le previsioni del tempo prima di partire e di informare qualcuno del vostro itinerario.</p>
 
-<h3>Informazioni Utili – Dettagli per la Tua Escursione</h3>
-
-<ul>
-  <li><strong>Difficoltà:</strong> Facile – Adatta a tutti i livelli</li>
-  <li><strong>Distanza:</strong> Circa 6 km (andata e ritorno)</li>
-  <li><strong>Dislivello:</strong> Circa 300 metri</li>
-  <li><strong>Tempo di percorrenza:</strong> Circa 2-3 ore</li>
-  <li><strong>Punto di partenza:</strong> Vicopisano (Parcheggio Piazza Principale)</li>
-  <li><strong>Punto di arrivo:</strong> Rocca della Verruca</li>
-  <li><strong>Cosa portare:</strong> Scarpe da trekking, acqua, snack, cappello, crema solare, mappa (anche se il sentiero è semplice, è sempre consigliabile)</li>
-</ul>
-
-<p>La <strong>Rocca della Verruca</strong>, pur non essendo in perfette condizioni, rappresenta un luogo storico da non perdere per chi ama la <strong>Toscana</strong> e le sue tradizioni.  Rientrando, il percorso è diretto e semplice, percorribile anche in auto.  Ricorda di rispettare l''ambiente e di lasciare i luoghi di passaggio puliti. Questa <strong>trekking nel cuore della Toscana</strong> è un''esperienza che ti lascerà a lungo nei ricordi. </p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+  <li><strong id="distanza">Distanza:</strong> Circa 12.96 km (anello)</li>
+  <li><strong id="dislivello">Dislivello:</strong> Circa 506 metri</li>
+  <li><strong id="difficoltà">Difficoltà:</strong> Media</li>
+  <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="punto-di-partenza">Punto di partenza:</strong> Vicopisano, Piazza Principale</li>
+  <li><strong id="comune">Comune:</strong> Vicopisano, <strong id="provincia">Toscana</strong></li>
+  <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   12.96,
   506,

@@ -7,32 +7,30 @@ VALUES (
   87180760,
   'Foce a giovo - Lago santo - Lago baccio - Monte Rondinaio - Lago turchino',
   'Ottimo per una giornata all''insegna dei laghi, durante questo percorso sarà possibile visitare 3 laghi e vederne un 4 da lontano: - Lago Santo - Lago Baccio - Lago Turchino IL PERCORSO NON HA PUNTI ESPOSTI ma comunque necessita di una determinata preparazione fisica per la salita e e la discesa dal Rondinaio e per la sua lunghezza complessiva. Adatto a chi ha un pò d''esperienza, sul rondinaio abbiamo trovato la nebbia ma il posto è stupendo lo consiglio chiunque.',
-  '<h2>Foce a Giovo - Lago Santo - Lago Baccio - Lago Rondinaio - Lago Turchino: Trekking Epico tra i Laghi Alpini</h2>
+  '<h2 id="foce-a-giovo-lago-santo-lago-baccio-lago-turchino">Escursione Foce a Giovo - Lago Santo - Lago Baccio - Lago Turchino</h2>
 
-<h3>Il Percorso: Un''Escursione di Trekking in Montagna</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa bella escursione è raggiungibile in auto da Pracchi. Da qui, seguendo le indicazioni per il sentiero, si inizia a percorrere il tracciato che ci porterà alla scoperta dei laghi.</p>
 
-<p>Preparatevi per un''incredibile <strong>escursione di trekking</strong> nella splendida regione italiana! Questo percorso da <strong>trekking</strong> vi condurrà attraverso paesaggi mozzafiato, attraversando la foce del fiume Giovo e visitando una serie di laghi alpini.  La <strong>sentiero</strong>, ideale per amanti della <strong>natura</strong> e del <strong>trekking</strong>, offre una giornata completa di avventura e scoperta, un''occasione perfetta per esplorare le montagne e i laghi d''Italia.  Questo <strong>sentiero escursionistico</strong> è perfetto per chi cerca un''esperienza di <strong>trekking</strong> impegnativa ma ricompensata.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Il percorso inizia dalla foce del fiume Giovo e si snoda attraverso un sentiero che ci conduce a scoprire il Lago Santo, il Lago Baccio e il Lago Turchino, quest''ultimo visibile da lontano. Il tratto più impegnativo è la salita e discesa dal Monte Rondinaio, che richiede una buona preparazione fisica e una determinata esperienza. Durante il percorso, potrai ammirare panorami mozzafiato e la bellezza dei laghi. La lunghezza totale dell''escursione è di circa 14.76 km, con un dislivello positivo di 1100 metri. È un anello, quindi il percorso si conclude al punto di partenza.</p>
 
-<h3>Cosa Aspettarsi: Sfide e Meraviglie</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è classificata come Difficile. La salita e discesa dal Monte Rondinaio, unitamente alla lunghezza complessiva del percorso, richiedono una buona preparazione fisica e un''esperienza di trekking. È importante essere ben attrezzati e in forma per affrontare questo sentiero. La nebbia, come abbiamo avuto modo di constatare, può creare delle condizioni imprevedibili, ma il panorama dal Rondinaio merita assolutamente il disagio.</p>
 
-<p>Questo <strong>sentiero</strong> di <strong>trekking</strong>, di media difficoltà, vi farà affrontare salite ripide e discese impegnative, soprattutto nella zona del <strong>Monte Rondinaio</strong>. Nonostante la mancanza di punti panoramici attrezzati, la ricompensa è immensa: panorami mozzafiato sui <strong>laghi</strong>, la possibilità di ammirare il <strong>Lago Santo</strong>, il <strong>Lago Baccio</strong> e il <strong>Lago Turchino</strong>, e la bellezza incontaminata della <strong>montagna</strong> italiana. La nebbia sul Rondinaio può creare un''atmosfera magica, rendendo l''esperienza ancora più suggestiva.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Disponibile traccia GPS in formato GPX.  Consigliamo di scaricare la traccia GPS prima della partenza per avere sempre a portata di mano il percorso. Data la difficoltà dell''escursione, è consigliabile informarsi sulle condizioni meteorologiche prima di partire.</p>
 
-<p>Si consiglia una buona preparazione fisica per affrontare la lunghezza del <strong>sentiero</strong> e le salite e discese del Rondinaio. È fondamentale indossare scarpe da <strong>trekking</strong> adeguate e portare con sé acqua, cibo e abbigliamento impermeabile.</p>
-
-<h3>Informazioni Utili: Dettagli del Sentiero</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Nome Sentiero:</b> Foce a Giovo - Lago Santo - Lago Baccio - Lago Rondinaio - Lago Turchino</li>
-    <li><b>Località:</b> Regione Trentino-Alto Adige, Italia</li>
-    <li><b>Difficoltà:</b> Media – Richiede una buona preparazione fisica</li>
-    <li><b>Distanza Totale:</b> Circa 18-20 km (Potrebbe variare in base al percorso specifico)</li>
-    <li><b>Dislivello:</b> Circa 800-900 metri</li>
-    <li><b>Tipo di Sentiero:</b> <strong>Sentiero di trekking</strong>, spesso con tratti rocciosi e scoscesi</li>
-    <li><b>Periodo Consigliato:</b> Estate e Autunno (verificare le condizioni meteorologiche prima di partire)</li>
-    <li><b>Adatto a:</b> Escursionisti esperti con un minimo di preparazione fisica</li>
-</ul>
-
-<p>Questo <strong>sentiero di trekking</strong> rappresenta un''opportunità unica per immergersi nella natura selvaggia delle montagne italiane.  Un''esperienza indimenticabile per un''<strong>escursione di un giorno</strong> o per un''avventura di <strong>trekking</strong> più lunga.  Esplorate il <strong>sentiero Italia</strong> e scoprite la bellezza dei laghi alpini!</p>',
+    <li><strong>Distanza:</strong> Circa 14.76 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1100 metri</li>
+    <li><strong>Difficoltà:</strong> Difficile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Foce del fiume Giovo, Comune di Pracchi, Provincia di Toscana, Regione Italia</li>
+    <li><strong>Comune:</strong> Pracchi, Provincia di Toscana, Regione Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   14.76,
   1100,

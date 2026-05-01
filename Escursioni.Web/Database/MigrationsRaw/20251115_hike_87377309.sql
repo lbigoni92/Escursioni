@@ -7,26 +7,32 @@ VALUES (
   87377309,
   'Chioma - Montenero - Castellaccio',
   'Ottimo per chi vuole fare una bella camminata lungo la costa toscana si vedono scorci stupendi del mare che vanno da Castel boccale fin tutto il romito. Tranne per il sentiero chiamato Tzunami il resto è facile e perfettamente percorribile da tutti. Vi consiglio di mettere i pantaloni lunghi ci sono dei rovi, ma per il resto è una bella camminata specialmente quando si arriva a montenero dove possiamo vedere il famoso santuario e il monumento a Ciano',
-  '<h2>Chioma - Montenero - Castellaccio: Trekking Costiero in Toscana</h2>
+  '<h2 id="chioma-montenero-castellaccio">Escursione Chioma – Montenero – Castellaccio</h2>
 
-<h3>Il percorso</h3>
-<p>Questo fantastico <em>sentiero di trekking</em> offre un''esperienza indimenticabile lungo la costa toscana. Partendo da <strong>Chioma</strong>, si sale verso <strong>Montenero</strong>, un luogo ricco di storia e spiritualità, dominato dal suggestivo <strong>santuario</strong>. Il percorso prosegue poi fino al <strong>Castellaccio</strong>, un''imponente formazione rocciosa che si erge maestosa verso il mare. L''<em>escursione</em> è adatta a tutti, con una difficoltà generalmente facile e un''atmosfera naturale che vi conquisterà. La bellezza del <em>trekking</em> in <strong>montagna</strong> è completa con una vista mozzafiato sulla costa, da <strong>Castel Boccale</strong> fino al <strong>Romito</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza di questa splendida escursione si trova a <strong>Quercianella</strong>, un caratteristico paese sulla costa toscana. Si può raggiungere in auto, parcheggiando nei pressi del centro. Da qui, seguiamo le indicazioni per il sentiero che sale verso la costa, un''esperienza che non dimenticherai.</p>
 
-<h3>Cosa aspettarsi</h3>
-<p>Preparatevi a una <em>bella camminata</em> attraverso paesaggi spettacolari. Il <em>sentiero</em> si snoda tra la macchia mediterranea, offrendo la possibilità di ammirare scorci incantevoli del mare. È consigliabile indossare <strong>pantaloni lunghi</strong> per proteggersi dai rovi presenti in alcune zone. L''<em>escursione</em> è particolarmente piacevole quando si raggiunge <strong>Montenero</strong> e si può ammirare il monumento a Ciano.  L''atmosfera di questa <em>trekking</em> è rilassante e immersiva nella <strong>natura</strong>.  Una fantastica <em>escursione</em> per tutti gli amanti del <em>trekking</em> e del <em>sentiero</em> in <strong>Italia</strong>.</p>
+<h3 id="il-percorso-passo-passo">Il Percorso Passo per Passo</h3>
+<p>Questo <strong>anello di trekking</strong> di <strong>21.26 km</strong> con un dislivello di <strong>+695 m</strong> offre panorami mozzafiato lungo la costa toscana. Inizieremo con una salita graduale attraverso il sentiero, godendoci lo spettacolo del mare che si estende da <strong>Castel Boccale</strong> fino al <strong>Romito</strong>. Il sentiero è principalmente <strong>facile</strong> e ben tenuto, perfetto per una piacevole camminata.</p>
+<p>Proseguiremo fino a <strong>Montenero</strong>, dove potremo visitare il <strong>santuario</strong> e il <strong>monumento a Ciano</strong>, immersi in un''atmosfera suggestiva. Da Montenero, il sentiero prosegue verso il <strong>Castellaccio</strong>, offrendo panorami spettacolari sulla costa e sul mare.</p>
 
-<h3>Informazioni utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa <strong>escursione</strong> è considerata di <strong>difficoltà facile</strong>, adatta a escursionisti occasionali e famiglie. Il dislivello è moderato, ma il percorso è ben segnalato e facilmente percorribile.  È consigliabile indossare scarpe da trekking e portare con sé acqua e snack.  L''abbigliamento consigliato sono i <strong>pantaloni lunghi</strong> per proteggersi dai rovi presenti lungo il sentiero.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Puoi scaricare la <strong>traccia GPS</strong> di questa escursione per seguire il percorso durante la tua camminata. Per maggiori informazioni e dettagli sul sentiero, ti consiglio di consultare risorse online o app di trekking.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Distanza:</strong> Circa 8-10 km (il percorso può variare leggermente)</li>
-    <li><strong>Dislivello:</strong> Circa 300-400 metri</li>
-    <li><strong>Tempi di percorrenza:</strong> 3-4 ore (a seconda del ritmo)</li>
-    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
-    <li><strong>Attenzione:</strong> Portare acqua, scarpe da trekking adatte e protezioni solari.</li>
-    <li><strong>Punti di interesse:</strong> Santuario di Montenero, monumento a Ciano, vista panoramica sulla costa toscana</li>
-</ul>
-
-<p>Scoprite la bellezza della <strong>Toscana</strong> con questa splendida <em>escursione</em>. Un''occasione perfetta per un''<em>escursione</em> di <em>trekking</em> in <strong>montagna</strong>, tra panorami mozzafiato e sentieri ben tracciati.  Perfetto per un''<em>escursione</em> di <em>trekking</em> in <strong>Italia</strong>, questo <em>sentiero</em> vi regalerà emozioni indimenticabili.  Non perdete l''occasione di vivere una fantastica <em>trekking</em> sulla costa toscana!</p>',
+  <li><strong>Distanza:</strong> Circa 21.26 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 695 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Quercianella (accessibile in auto)</li>
+  <li><strong>Comune:</strong> Quercianella, Toscana</li>
+  <li><strong>Regione:</strong> Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   21.26,
   695,

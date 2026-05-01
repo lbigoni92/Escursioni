@@ -7,40 +7,30 @@ VALUES (
   181130960,
   'Cascate del Piscio e ponte della Colombara',
   'Cascate del Piscio e ponte della Colombara Il percorso si divide in due parti. La prima parte nella parte che arriva al ponte della Colombaia, questa parte è molto corta ed è molto carina il ponte è stato restaurato di recente e accanto adesso vi è una fontana, noi abbiamo deciso di scendere e vedere anche la cascata da sotto il ponte state attenti se lo fate il percorso non è dei meglio tenuti. La seconda parte è quella principale che ci ha spinto ad arrivare fin qua, partendo dal paesino di pannocchia abbiamo deciso di intraprendere il sentiero che portava alle Cascate del piscio, Il sentiero è molto semplice e lineare difficile da perdersi l''unico bivio che si presenta è ben segnato e si deve girare a sinistra,in un paio di punti il sentiero presenta delle piccole frane ma niente che non si possa superare. Durante il percorso per la cascata si passa anche al vicino a un''altra cascata che mi sarebbe piaciuto visitare ma in meso non era messo benissimo e per questa volta ho deciso di passare oltre visto che la discesa sarebbe stata non proprio ortodossa arrivati alle cascate, vi sono numerosi posti dove sederci e fare un bagno è d''obbligo in quanto l''acqua è cristallina e le cascate meravigliose, torneremo sicuramente in questo posto.',
-  '<h2>Cascate del Piscio e Ponte della Colombara: Trekking e Escursioni in Montagna</h2>
+  '<h2 id="escursione-cascate-del-piscio-e-ponte-della-colombara">Escursione alle Cascate del Piscio e al Ponte della Colombara</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa bella escursione è nel paesino di <strong>Pannocchia</strong>, raggiungibile in auto. Da lì, intraprendi il sentiero che conduce alle Cascate del Piscio e al Ponte della Colombara. Il percorso è facilmente raggiungibile a piedi dal paese.</p>
 
-<p>
-Questo sentiero di <strong>trekking</strong> e <strong>escursione</strong> vi porterà alla scoperta delle spettacolari <strong>cascate del Piscio</strong> e del suggestivo <strong>ponte della Colombara</strong>. Il percorso è diviso in due parti: la prima, breve e affascinante, conduce al <strong>ponte restaurato</strong> con la sua <strong>fontana</strong>, mentre la seconda parte è la vera e propria <strong>escursione</strong> che vi condurrà alle <strong>cascate</strong>. 
-</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione si divide in due parti. La prima è breve e piacevole, fino al <strong>ponte della Colombara</strong>, recentemente restaurato e con una fontana. Da qui, prosegui per la seconda parte del percorso, che ti porterà alle <strong>Cascate del Piscio</strong>. Il sentiero è semplice e lineare, con un unico bivio ben segnalato a cui devi girare a sinistra. In alcuni punti, il sentiero presenta piccole frane, ma sono facilmente superabili.  Il giro è di tipo <strong>anello</strong> e si conclude al punto di partenza.</p>
 
-<p>
-L''intero <strong>sentiero</strong> si snoda in modo semplice e lineare, facile da seguire, con un <em>unico bivio</em> ben segnalato che richiede una svolta a sinistra. Pur presentando alcune piccole <strong>frane</strong> in alcuni punti, il percorso è superabile senza difficoltà, rendendolo adatto anche a <strong>trekking</strong> di livello base e medio.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa <strong>escursione</strong> è di <strong>facile</strong> difficoltà, adatta anche ai principianti. Il dislivello è di circa <strong>341 metri</strong> e la distanza totale del giro è di <strong>5.89 km</strong>.  Preparati a camminare su un sentiero leggermente irregolare in alcuni punti, ma niente di particolarmente impegnativo.  Goditi il panorama e il suono delle cascate!</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Sarà disponibile una <strong id="traccia-gps">traccia GPS</strong> per accompagnarti durante l''escursione.  Ti consigliamo di indossare scarpe da trekking adatte e di portare con te acqua e snack.</p>
 
-<p>
-Preparatevi ad un''esperienza immersa nella natura incontaminata, dove potrete ammirare la bellezza delle <strong>cascate</strong>, l''acqua cristallina e la fauna locale. L''<strong>escursione</strong> vi regalerà panorami mozzafiato e la possibilità di fare un bagno rinfrescante nelle pozze naturali. 
-</p>
-
-<p>
-Questo <strong>sentiero in montagna</strong> è perfetto per chi cerca un''<strong>escursione</strong> di un giorno, un''occasione per connettersi con la natura e vivere un''esperienza di <strong>trekking</strong> indimenticabile nel cuore dell''Italia. Ricordate di indossare scarpe da <strong>trekking</strong> adatte e di portare con voi acqua e snack per affrontare al meglio l''<strong>escursione</strong>.</p>
-
-<h3>Informazioni Utili</h3>
-
-<ul>
-    <li><strong>Località:</strong> Pannocchia</li>
-    <li><strong>Difficoltà:</strong> Facile/Media</li>
-    <li><strong>Distanza:</strong> Circa 5 km (andata e ritorno)</li>
-    <li><strong>Dislivello:</strong> Circa 200 metri</li>
-    <li><strong>Tipo di Sentiero:</strong> Sentiero di <strong>trekking</strong></li>
-    <li><strong>Punti di Interesse:</strong> Ponte della Colombara, Cascate del Piscio, Fontana, Cascate secondarie.</li>
-    <li><strong>Consigli:</strong>  Indossare scarpe da <strong>trekking</strong>, portare acqua e snack, fare attenzione alle frane, rispettare l''ambiente.</li>
-</ul>
-
-<p>
-Questo <strong>sentiero per escursioni</strong> è un''ottima opportunità per scoprire le bellezze naturali della regione e vivere un''esperienza di <strong>trekking</strong> emozionante e rigenerante. Non perdete l''occasione di visitare le <strong>cascate del Piscio</strong> e il <strong>ponte della Colombara</strong>! </p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong id="distanza">Distanza:</strong> Circa 5.89 km (anello)</li>
+  <li><strong id="dislivello">Dislivello:</strong> Circa 341 metri</li>
+  <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+  <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="punto-di-partenza">Punto di partenza:</strong> Pannocchia, accessibile in auto o a piedi</li>
+  <li><strong id="comune">Comune:</strong> Pracchiola, Toscana, Italia</li>
+  <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   5.89,
   341,

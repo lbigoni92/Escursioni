@@ -7,29 +7,30 @@ VALUES (
   87478884,
   'Forato da Stazzema',
   'Partenza da Stazzema - al parcheggio (costo 3 euro) Il sentiero è bello e si passa vicino a delle cappelle poste per il pellegrinaggio. Si segue il sentiero fino a foce di petrosciana; da li s''imbocca il sentiero 110 e s''arriva al monte forato, un paio di punti possono dare problemi a chi ha problemi con l''altezze, ma niente di complesso. Abbiamo pranzato sul Forato e vista la croce, in seguito siamo scesi sul 12 e tornati a Stazzema. Sentiero molto bello lo consiglio ma portatevi scarpe adeguate',
-  '<h2>Forato da Stazzema: Trekking e Escursione in Montagna</h2>
+  '<h2 id="escursione-forato-da-stazzema">Escursione al Monte Forato da Stazzema</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bella escursione è il comune di Stazzema. Troverete un parcheggio dove è previsto un costo di 3 euro. Da qui, iniziate a seguire il sentiero che si snoda verso il monte Forato.  È un ottimo punto di partenza per un''escursione in montagna!</p>
 
-<p>L''escursione al <strong>Forato da Stazzema</strong> è un''esperienza indimenticabile per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>montagna</strong>. Il percorso inizia direttamente dal piccolo paese di <strong>Stazzema</strong>, partendo dal parcheggio dove è previsto un costo di 3 euro.  La <strong>sentiero</strong> si snoda attraverso un paesaggio vario, con tratti piuttosto facili e altri più impegnativi, offrendo un''opportunità unica per immergersi nella <strong>natura</strong> incontaminata della Toscana.  L''escursione culmina con una vista mozzafiato dalla cima del <strong>Monte Forato</strong>, raggiungibile dopo aver seguito il <strong>sentiero</strong> che si inerpica lungo il pendio.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>L''escursione inizia con una facile salita attraverso il sentiero che costeggia la foce della Petrosciana. Il sentiero è ben tenuto e offre un panorama sempre più ampio.  Proseguite fino al monte Forato, dove potrete ammirare la croce e, in giornate limpide, un panorama mozzafiato.  Ricordatevi che alcuni punti di elevazione potrebbero essere impegnativi per chi soffre di vertigini, ma il percorso in sé non presenta ostacoli complessi.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è classificata come <b>Facile</b>. La distanza totale è di circa 14.53 km con un dislivello di 554 metri.  Adatta a famiglie e a chi cerca una piacevole passeggiata in montagna, ma considerate di portare scarpe adeguate per affrontare il sentiero.</p>
 
-<p>Preparatevi per una giornata all''aria aperta, immersi nel profumo della <strong>montagna</strong> e nella bellezza del paesaggio. Il <strong>sentiero</strong> presenta una <strong>difficoltà</strong> media, con alcuni tratti ripidi che richiedono un buon passo e un''adeguata preparazione fisica.  Sarà possibile ammirare le caratteristiche <strong>cappelle</strong> lungo il percorso, testimonianza di un antico <strong>pellegrinaggio</strong>.  Un momento culminante sarà il pranzo sulla cima del <strong>Monte Forato</strong>, con una vista panoramica impareggiabile sulla valle e sulla <strong>Petrosciana</strong>.  Potrebbero esserci punti dove l''altezza potrebbe creare disagio, quindi è importante valutare attentamente le proprie condizioni fisiche.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>La traccia GPS di questa escursione vi aiuterà a orientarvi lungo il sentiero. È un''ottima idea per pianificare l''escursione e per condividere l''esperienza con amici e parenti.  Consigliamo di controllare le previsioni meteo prima di partire e di indossare abbigliamento e calzature adatte.</p>
 
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Distanza Totale:</strong> Circa 7 km</li>
-    <li><strong>Dislivello:</strong> Circa 400 metri</li>
-    <li><strong>Difficoltà:</strong> Media</li>
-    <li><strong>Tipo di Sentiero:</strong> Sentiero di <strong>trekking</strong></li>
-    <li><strong>Punti di Interesse:</strong> <strong>Cappelle</strong> di <strong>pellegrinaggio</strong>, cima del <strong>Monte Forato</strong>, vista sulla <strong>Petrosciana</strong></li>
-    <li><strong>Periodo Consigliato:</strong> Primavera, Estate, Autunno</li>
-    <li><strong>Equipaggiamento Consigliato:</strong> Scarpe da <strong>trekking</strong> adeguate, acqua, cibo, cappello, crema solare, mappa del <strong>sentiero</strong>.</li>
-</ul>
-
-<p>Questa <strong>escursione</strong> nel cuore della <strong>Toscana</strong> offre un''occasione unica per praticare <strong>trekking</strong> e godersi la <strong>natura</strong>.  Esplorate il <strong>sentiero</strong> del <strong>Forato da Stazzema</strong> e lasciatevi conquistare dalla sua bellezza.</p>',
+  <li><strong>Distanza:</strong> Circa 14.53 km (solo andata)</li>
+  <li><strong>Dislivello:</strong> Circa 554 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Parcheggio a Stazzema</li>
+  <li><strong>Comune:</strong> Orzale, Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   14.53,
   554,

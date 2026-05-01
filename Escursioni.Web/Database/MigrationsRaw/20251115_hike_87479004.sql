@@ -13,24 +13,47 @@ Arrivati alla Valle Benedetta, abbiamo proseguito fino al parcheggio dove si tro
 Al primo incrocio abbiamo preso subito a sinistra, continuando fino ad arrivare quasi a Parrana San Martino. A quel punto siamo tornati indietro lungo lo stesso sentiero e, una volta rientrati all’incrocio, abbiamo deciso di scendere verso il podere Il Pianone.
 
 Da lì abbiamo fatto ritorno, chiudendo l’anello e concludendo il nostro giro.',
-  '<h2>Valle Benedetta - Parrana San Martino: Trekking e Escursione nel Cuore della Montagna</h2>
+  '<h2 id="valle-benedetta-parrana-san-martino">Escursione a Parrana San Martino dalla Valle Benedetta</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo fantastico <strong>sentiero di trekking</strong> nella <strong>Valle Benedetta</strong>, a <strong>Parrana San Martino</strong>, offre un''esperienza unica per gli amanti della <strong>natura</strong> e del <strong>trekking</strong>. L''escursione, ideata per una tranquilla <strong>passeggiata mattutina</strong> alla ricerca di funghi, si snoda attraverso paesaggi mozzafiato, offrendo un''opportunità perfetta per un''<strong>escursione</strong> in <strong>montagna</strong>.</p>
-<p>Il percorso inizia dalla pittoresca <strong>Valle Benedetta</strong>, proseguendo verso il parcheggio con il caratteristico <strong>crocifisso</strong>. Da qui, si intraprende una salita seguendo il sentiero, evitando la direzione verso <strong>Sambuca</strong>, per poi tornare indietro lungo lo stesso tracciato fino all''incrocio. Da qui, si sceglie di scendere verso il <strong>podere Il Pianone</strong> per completare l''anello e tornare al punto di partenza, concludendo il giro.</p>
+<p>
+   Volete una bella giornata in montagna con un anello facile e panoramico? L''escursione dalla Valle Benedetta a Parrana San Martino è perfetta! L''abbiamo affrontata con l''idea di una passeggiata mattutina, sperando anche di trovare qualche fungo. Un''escursione semplice, ideale per una giornata all''aria aperta.
+</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparati a un''<strong>escursione</strong> immersa nella <strong>natura</strong> incontaminata. Il <strong>sentiero</strong> offre panorami spettacolari sulle cime circostanti e la possibilità di ammirare la flora e la fauna locali. Questa <strong>trekking</strong> è ideale per chi cerca una <strong>passeggiata mattutina</strong> rilassante o un''esperienza più impegnativa di <strong>escursionismo</strong> nella <strong>montagna</strong>.  Potresti anche avvistare qualche fungo, specialmente durante la stagione giusta, rendendo questa <strong>escursione</strong> ancora più speciale.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Facile/Media</li>
-    <li><strong>Distanza:</strong> Circa 8-10 km (il percorso può variare leggermente)</li>
-    <li><strong>Dislivello:</strong> Circa 400-500 metri</li>
-    <li><strong>Tipo di Sentiero:</strong> Sentiero di <strong>trekking</strong> segnalato</li>
-    <li><strong>Consigli:</strong> Indossa scarpe da <strong>trekking</strong> adatte, porta con te acqua e cibo, e rispetta l''ambiente.</li>
-</ul>
-<p>Esplora la bellezza della <strong>Valle Benedetta</strong> e di <strong>Parrana San Martino</strong> con questa splendida <strong>escursione</strong>.  Un''opportunità imperdibile per gli appassionati di <strong>sentieri Italia</strong> e di <strong>trekking</strong>!</p>',
+<p>
+   Il punto di partenza è la Valle Benedetta, comune di Valle Benedetta in Toscana. Raggiungibile in auto o, per i più avventurosi, a piedi.  È un ottimo punto di partenza per questa escursione.
+</p>
+
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>
+   Partendo dalla Valle Benedetta, ci dirigiamo verso il parcheggio dove si trova il crocifisso. Da lì, invece di imboccare il sentiero 00 in direzione Sambuca, scegliamo di salire. Al primo incrocio, prendiamo subito a sinistra, proseguendo fino ad arrivare a Parrana San Martino.  Una volta raggiunta Parrana San Martino, rientriamo lungo lo stesso sentiero, fino all''incrocio. Da qui, scendiamo verso il podere Il Pianone per chiudere l''anello e tornare al punto di partenza. Un percorso ben definito, adatto a tutti!
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>
+   Questa escursione è di difficoltà facile, perfetta per una passeggiata mattutina. La distanza totale è di circa 11.61 km con un dislivello di 299 metri.  L''anello è ideale per chi cerca un''escursione tranquilla e non troppo impegnativa.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>
+   Disponibile traccia GPS per facilitare l''escursione.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+    <li><strong>Distanza:</strong> Circa 11.61 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 299 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Valle Benedetta, Toscana</li>
+    <li><strong>Comune:</strong> Valle Benedetta, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.61,
   299,

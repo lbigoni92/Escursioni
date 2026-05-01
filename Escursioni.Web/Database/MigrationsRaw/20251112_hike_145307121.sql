@@ -7,29 +7,30 @@ VALUES (
   145307121,
   'Calambrone',
   'Passeggiata estiva molto tranquilla, abbiamo passeggiato sulla battigia fino alla piazza di tirrenia . Accenni storici interessanti: Calambrone: la ''città dei bambini'' del regime Fondato nel 1932, il terzo centro della costa pisana accoglieva le colonie estive organizzate dal regime. Dopo l''oblio del dopoguerra, l''insediamento negli anni 2000 è tornato a nuova vita Calambrone nacque in seguito all''idea dei pianificatori del regime di chiudere la serie di insediamenti urbani sul litorale pisano, consegnando alla popolazione un luogo dove poter respirare a pieni polmoni la filosofia del regime. La grande aspirazione di Mussolini era infatti quella di costruire un sistema di welfare solido, in grado di competere per servizi e risorse con quelli ben più affermati presenti nel nord Europa. fonte https://www.pisatoday.it/social/calambrone-guida-storia-curiosita.html',
-  '<h2>Escursione Trekking Calambrone: Sentiero sulla Battigia e Storia del Regime</h2>
+  '<h2 id="escursione-calambrone">Escursione a Calambrone: Un Viaggio tra Storia e Mare</h2>
 
-<h3>Il Percorso</h3>
-<p>Immergiti in una <strong>passeggiata trekking</strong> indimenticabile lungo il sentiero del Calambrone, un''esperienza di <strong>escursione</strong> che ti porterà attraverso la pittoresca costa pisana. Questo percorso, ideale per una giornata di <strong>trekking</strong>, ti condurrà dalla tranquilla battigia fino alla suggestiva piazza di Tirrenia, offrendo panorami mozzafiato e la possibilità di scoprire un pezzo di storia italiana.</p>
-<p>La <strong>sentiero</strong> è pensato per essere una facile <strong>escursione</strong>, perfetta per famiglie e appassionati di <strong>natura</strong> alla ricerca di un''esperienza di <strong>trekking</strong> rilassante. Godrai di una vista sulla **montagna** e sul mare in questo sentiero.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bellissima escursione a Calambrone è direttamente dalla spiaggia di Calambrone, facilmente raggiungibile in auto o con i mezzi pubblici. Il centro del paese è il punto di partenza ideale per iniziare il sentiero che si snoda lungo la costa.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparati ad una giornata di <strong>trekking</strong> in un ambiente naturale incontaminato. Lungo il percorso, potrai ammirare la bellezza della costa pisana, con le sue spiagge sabbiose e le acque cristalline.  Questo sentiero è un''ottima opzione per un''<strong>escursione</strong> di <strong>trekking</strong> nella natura.</p>
-<p>Ma il sentiero del Calambrone offre anche qualcosa di più di una semplice passeggiata: un viaggio nel tempo.  Conoscerai la storia di Calambrone, la ‘città dei bambini’ del regime fascista, un luogo che ha vissuto diverse vite e che oggi offre un''occasione unica per riflettere sul passato.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Partendo dalla spiaggia, il sentiero si inerpica gradualmente, offrendo splendidi panorami sul mare e sulla costa pisana. La passeggiata continua lungo la battigia, raggiungendo il cuore del paese di Calambrone. Lungo il percorso si possono ammirare gli accenni storici dell''insediamento, un tempo chiamato "città dei bambini" del regime fascista, e scoprire la sua affascinante storia.  È un''escursione tranquilla, adatta a famiglie e a chi cerca una passeggiata piacevole con una buona dose di storia da scoprire.</p>
 
-<h3>Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è di difficoltà **Media**. Il sentiero è ben segnalato e presenta pendenze moderate. È consigliabile indossare scarpe da trekking comode e portare con sé acqua e protezione solare. La distanza totale è di circa 7,03 km e il dislivello è di 0 metri, quindi una passeggiata senza particolari sfide.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per scaricare la traccia GPS dell''escursione, visita il nostro <a href="https://escursionilucabigoni.it/traccia-gps-calambrone/">sito web</a>.  </p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Distanza:</strong> Circa 3 km</li>
-    <li><strong>Dislivello:</strong> Quasi plano</li>
-    <li><strong>Durata:</strong> Circa 1-2 ore</li>
-    <li><strong>Punto di partenza:</strong> Risaia (Tirrenia)</li>
-    <li><strong>Tipo di sentiero:</strong> Sentiero costiero</li>
-    <li><strong>Ideale per:</strong> <strong>Trekking</strong>, <strong>escursioni</strong>, famiglie, appassionati di <strong>natura</strong></li>
-</ul>
-
-<p>Scopri la storia affascinante di <strong>Calambrone</strong>, un insediamento creato nel 1932 durante il regime fascista per offrire alla popolazione un luogo di vacanza e di riflessione. Un''esperienza unica per un''<strong>escursione trekking</strong> e un''immersione nella cultura italiana.</p>
-<p>Organizza la tua prossima <strong>escursione trekking</strong> a <strong>Calambrone</strong> e vivi un''indimenticabile giornata alla scoperta di questo angolo di paradiso.  Questa è un''ottima <strong>escursione sentiero</strong>.</p>',
+  <li><strong>Distanza:</strong> Circa 7,03 km (solo andata)</li>
+  <li><strong>Dislivello:</strong> Circa 0 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Spiaggia di Calambrone, Calambrone</li>
+  <li><strong>Comune:</strong> Calambrone, Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.03,
   0,

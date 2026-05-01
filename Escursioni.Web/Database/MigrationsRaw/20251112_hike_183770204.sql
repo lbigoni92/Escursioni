@@ -7,21 +7,35 @@ VALUES (
   183770204,
   'Castle of Karlštejn - Castello di Karlštejn',
   'Castle reached by train from Prague, trains run approximately every 30 minutes and cost about 2.5 euros per person there and 2.5 euros back, quite cheap, the cost for the visit to the castle is 12 EURO PER PERSON! and the visit is necessarily guided, decide for yourself whether to go, we probably wouldn''t go back. Castello raggiunto in treno da Praga, i treni ci sono circa ogni 30 minuti e corstano sui 2.5 euro a persona andata e 2.5 ritorno, abbastanza economico,il costo per la visita al castello è 12 EURO A TESTA!e la visita è per forza guidata valutate voi de andare, noi forse non ci si ritornerebbe. Carlo IV di Lussemburgo commissionò, nell''arco del suo periodo a capo del Regno di Boemia, l''edificazione di vari castelli: tra questi spicca il complesso del Karlštejn, da lui voluto allo scopo primario di avere un luogo sicuro per riporre i gioielli della corona, gli archivi di Stato e la biblioteca, che sarebbero rimasti in quella sede per quasi duecento anni. La costruzione del castello prese avvio nel 1348 per ordine di Carlo IV; l''edificio era sostanzialmente terminato nel 1365, quando venne dedicata la cappella della Santa Croce nella torre maggiore. Nel corso dei secoli, il castello venne rimaneggiato più volte: nel 1480 in stile gotico, nel XVI secolo in stile rinascimentale e tra il 1887 e il 1899 in stile neogotico. Negli anni 1520-1530 fu edificato il palazzo del Burgravio. Nel 1620, durante la guerra dei trent''anni, fu conquistato dal Feldmaresciallo Karel Bonaventura Buquoy e sottoposto all''autorità imperiale di Ferdinando II.',
-  '<h2>Escursione al Castello di Karlštejn: Sentiero di Trekking in Montagna</h2>
+  '<h2 id="escursione-castello-di-karlstejn">Escursione al Castello di Karlštejn</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo sentiero di trekking vi condurrà direttamente al maestoso <strong >Castello di Karlštejn</strong>, un''icona della regione boema. L''escursione inizia in località **Karlštejn**, facilmente raggiungibile in treno da <strong >Praga</strong>, offrendo un''esperienza di <strong >trekking</strong> e <strong >escursionismo</strong> unica. Il percorso è principalmente in salita, ma ben segnalato, e offre panorami mozzafiato sulla <strong >montagna</strong> e sulla campagna circostante. Preparatevi per una bella <strong >escursione</strong> di circa 3 chilometri, con un dislivello di circa 300 metri, ideale per appassionati di <strong >sentiero</strong> e natura.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Per raggiungere il punto di partenza di questa escursione, prendi il treno da Praga. I treni per Karlštejn partono regolarmente, circa ogni 30 minuti, e il viaggio costa circa 2,5 euro a persona in andata e ritorno. Una volta arrivato a Karlštejn, il castello è raggiungibile a piedi da Stříbrná, il punto di partenza del sentiero.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<ul>
-    <li>Un percorso di <strong >trekking</strong> impegnativo ma gratificante, perfetto per chi cerca una bella <strong >escursione</strong> in <strong >montagna</strong>.</li>
-    <li>La possibilità di ammirare da vicino il <strong >Castello di Karlštejn</strong>, un sito storico di inestimabile valore.</li>
-    <li>Un''esperienza immersiva nella <strong >natura</strong> boema, con splendidi panorami e la possibilità di avvistare la fauna locale.</li>
-    <li>Un percorso ben segnalato, adatto anche a escursionisti meno esperti, ma comunque impegnativo per la sua pendenza.</li>
-</ul>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione segue un percorso di circa 5,2 km con un dislivello positivo di 521 metri, si tratta di un giro ad anello. Il sentiero è principalmente di tipo escursionistico, quindi adatto a persone con un livello di preparazione medio. Inizia il tuo trekking dal punto di arrivo in treno, segui il sentiero ben segnalato che ti conduce direttamente al maestoso Castello di Karlštejn. Ammira la sua architettura unica, che riflette diverse epoche storiche, dal gotico al rinascimentale e al neogotico. L''escursione offre splendidi panorami sulla valle circostante e sulla campagna boema.</p>
 
-<h3>Informazioni Utili</h3>
-<p>Il sentiero è un percorso di circa 3 km con un dislivello di 300 metri, quindi è considerato di difficoltà media. È consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack.  La visita al <strong >Castello di Karlštejn</strong> è obbligatoriamente guidata e costa 12 euro a persona. I treni da <strong >Praga</strong> partono ogni 30 minuti e il costo del biglietto di sola andata è di circa 2.5 euro.  Considerate circa 3-4 ore per completare l''<strong >escursione</strong>. Questa <strong >escursione</strong> in <strong >sentiero</strong> è un''ottima opzione per un''esperienza di <strong >trekking</strong> indimenticabile in Italia, in particolare per chi cerca un percorso vicino al <strong >Castello di Karlštejn</strong>.</p>',
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione presenta una difficoltà **media**. Il sentiero è ben tenuto ma presenta alcuni tratti ripidi. Il dislivello di 521 metri richiede un minimo di preparazione fisica. Ti consiglio di indossare scarpe da trekking adatte e di portare con te acqua e snack. La visita al castello è obbligatoriamente guidata e costa 12 euro a persona. Ricorda che è una visita guidata e che il tempo di visita è strettamente controllato.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Disponibile traccia GPS per l''escursione (da caricare sulla tua app preferita).
+Distanza: 5.2 km
+Dislivello: 521 m
+Difficoltà: Media
+Tipo di escursione: Anello</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li >Distanza: Circa 5.2 km (anello)</li>
+  <li >Dislivello: Circa 521 metri</li>
+  <li >Difficoltà: Media</li>
+  <li >Periodo consigliato: Primavera, Estate, Autunno</li>
+  <li >Punto di partenza: Stříbrná, accessibile in treno da Praga</li>
+  <li >Comune: Poučník</li>
+  <li >Regione: Repubblica Ceca</li>
+  <li >Tipo di sentiero: Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   5.2,
   521,

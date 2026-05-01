@@ -7,28 +7,43 @@ VALUES (
   89812063,
   'Filettole con vista sul Lago di Massaciuccoli',
   'Siamo partiti dal parcheggio principale di Filettole e abbiamo proseguito in primo luogo per delle strade di campagna dalle quali abbiamo potuto ammirare la Roccca di Ripafratta e un pastore con un gregge di pecore, la vista sulla rocca al km 1.5 era veramente carina. In seguito abbiamo proseguito per arrivare all''attacco del sentiero vero e proprio km 2.5 abbiamo fatto il sentiero dopo forti piogge e c''era un pò di fango, ma niente di difficile basta avere scarpe adeguate. Abbiamo potuto ammirare la torre tagliata a metà a seguito della divisione territoriale tra Pisa e Lucca. Al km 6.6 abbiamo visto il tramonto sul lago di Massaciuccoli.',
-  '<h2>Filettole con Vista sul Lago di Massaciuccoli: Escursione di Trekking in Montagna</h2>
+  '<h2 id="filettole-con-vista-sul-lago-di-massaciuccoli">Escursione a Filettole con Vista sul Lago di Massaciuccoli</h2>
 
-<h3>Il Percorso - Trekking sul Lago di Massaciuccoli</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<p>Immergiti in un''esperienza indimenticabile con questa <strong>escursione di trekking</strong> nel cuore della <strong>Montagna toscana</strong>. Il sentiero del <strong>Filettole con vista sul Lago di Massaciuccoli</strong> ti conduce attraverso paesaggi mozzafiato, con panorami sul <strong>Lago di Massaciuccoli</strong> e sulla suggestiva <strong>Rocca di Ripafratta</strong>. Questa <strong>trekking</strong> è perfetta per gli amanti della natura e dell''escursionismo, offrendo la possibilità di esplorare sentieri di montagna e godere di un''incredibile vista lago.</p>
+<p>Il punto di partenza per questa splendida escursione è il parcheggio principale di <strong>Filettole</strong>. Da qui, si inizia una piacevole passeggiata lungo strade di campagna, offrendo già una vista suggestiva sulla <strong>Rocca di Ripafratta</strong> e, per chi è fortunato, l''avvistamento di un pastore con il suo gregge di pecore. Ricorda di avere con te un paio di scarpe da trekking adatte!</p>
 
-<h3>Cosa Aspettarsi - Un Sentiero Ricco di Meraviglie</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<p>Preparati a un''<strong>escursione</strong> che ti farà scoprire le bellezze della campagna toscana. Il percorso si snoda attraverso strade di campagna, offrendoti la possibilità di ammirare la <strong>Rocca di Ripafratta</strong>, un pastore con il suo gregge di pecore, e la torre tagliata a metà, testimonianza di un passato ricco di storia e divisioni territoriali. La <strong>trekking</strong> include un tratto con un po'' di fango dopo pioggia, ma con l''attrezzatura giusta, il sentiero è facilmente percorribile.</p>
+<p>L''escursione inizia con un breve tratto su strade di campagna, ammirando la rocca di Ripafratta e la sua atmosfera. Proseguendo, si entra nel sentiero vero e proprio. Il sentiero è ben segnalato e presenta un dislivello di circa 297 metri, rendendolo accessibile a tutti. Dopo un tratto con un po'' di fango (soprattutto dopo piogge), si prosegue comodamente fino all''arrivo al lago. Durante l''escursione, potrai ammirare anche una torre tagliata a metà, testimonianza della divisione territoriale tra Pisa e Lucca. Il punto culminante è sicuramente l''affaccio sul <strong>Lago di Massaciuccoli</strong>, dove potrai godere di un magnifico tramonto.</p>
 
-<h3>Informazioni Utili - Dettagli per la Tua Escursione</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
 
+<p>Questa escursione è considerata di difficoltà <strong>Facile</strong>, adatta a famiglie e a chi cerca una piacevole giornata in montagna senza impegnativi dislivelli. La distanza totale è di circa 9.45 km e l''anello completo permette di godere di diverse vedute panoramiche.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>Per aiutarti ad orientarti, ti forniamo una traccia GPS (da caricare sulla tua app preferita) e le informazioni pratiche per questo sentiero:</p>
 <ul>
-  <li><b>Nome Sentiero:</b> Filettole con Vista sul Lago di Massaciuccoli</li>
-  <li><b>Luogo:</b> Filettole, Lago di Massaciuccoli, Toscana</li>
-  <li><b>Difficoltà:</b> Facile/Media - Adatta a famiglie e principianti</li>
-  <li><b>Distanza:</b> Circa 6.6 km</li>
-  <li><b>Dislivello:</b> Variabile, con alcune pendenze</li>
-  <li><b>Punti di Interesse:</b> Rocca di Ripafratta, Torre tagliata a metà, panorama sul Lago di Massaciuccoli, pascoli</li>
+    <li><strong>Distanza:</strong> Circa 9.45 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 297 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio principale di Filettole, accessibile in auto o a piedi</li>
+    <li><strong>Comune:</strong> Filettole, <strong>Toscana</strong></li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Goditi un''<strong>escursione di trekking</strong> unica, immergendoti nella natura incontaminata del <strong>sentiero in montagna</strong>.  Questa <strong>trekking</strong> ti regalerà momenti indimenticabili con una splendida vista sul <strong>Lago di Massaciuccoli</strong>.  Organizza la tua <strong>escursione in Italia</strong> e scopri la bellezza di questa <strong>trekking</strong>.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong>Distanza:</strong> Circa 9.45 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 297 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio principale di Filettole, accessibile in auto / a piedi</li>
+    <li><strong>Comune:</strong> Filettole, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   9.45,
   297,

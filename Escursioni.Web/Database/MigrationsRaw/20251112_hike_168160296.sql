@@ -7,26 +7,39 @@ VALUES (
   168160296,
   'Cascata Acquapendente - Rifugio Del Freo -Vetta Sullioni',
   'Sentieri: Pruno - SAV (Sentiero Alta Versilia) - cascate Acqua pendente - 7 -Collemezzana-124-CimaRipa-SanRossore-Foce di Mosceta- Rif.del Freo -Foce di Mosceta- 9 - Paso dell''Alpino-122- Foce di Borra larga -Tratto opzionale-122- Pruno Il sentiero a ANELLO principale escluso il tratto per arrivare sul Sullioni è un sentiero escursionistico che va bene per chiunque sia abituato a un minimo di dislivello e alle apuane, non presenta tratti esporti quindi seguire la sentieristica sopra e non passare per " Tratto opzionale". Il percorso nel suo insieme è sempre panoramico e regala bellissime emozioni sconsiglio di farlo in luglio o agosto perchè la quota non è elevata e sie è spesso esposti al sole. Volendo si può pranzare al rif. del freo (prenotate prima). Tratto opzionale: tratto facoltativo e non banale cisi stacca dalla Foce di Borra e si intraprende un cresta che di per se non presenta grossi problemi nel primo tratto , da li si fa una discesa sino a raggiungere un vecchio sentiero dismesso e si prosegue sino ad arrivare al tratto chiamato "le scalette", si deve stare attenti in discesa il tratto è molto selvatico e a tratti stretto "Attenzione" da li si arriva al Passo delle Scalette e attacchiamo la cresta dell'' Sullioni cresta da fare con attenzione ma se si è abituati alle creste si fa senza problemi, il percorso è da rifare anche in direzione opposta e si deve stare attenti a procedere con il gps . Percorso ad anello da Pruno passando per: - Ponte Mediceo (0.6 km) - Cascata Acquapendente (1.6 km) - Rifugio Fania (6.0 km) - Rifugio Del Freo (8.3 km) - Passo dell''Alpino (10.0 km) - Vetta Sullioni (12.0 km)',
-  '<h2>Cascata Acquapendente - Rifugio Del Freo - Vetta Sullioni: Escursione Trekking in Versilia</h2>
+  '<h2 id="escursione-cascata-rifugio-freo-vetta-sullioni">Escursione alla Cascata Acquapendente e Rifugio del Freo con Vetta del Sullioni</h2>
 
-<h3>Il Percorso – Sentiero Trekking in Apuania</h3>
-<p>Scopri questo splendido <strong>sentiero di trekking</strong> che ti condurrà attraverso paesaggi mozzafiato delle <strong>Apuane</strong>. L''escursione, ad anello, parte da <strong>Pruno</strong> e attraversa una varietà di ambienti, dalla cascata di <strong>Acquapendente</strong> al <strong>Rifugio Del Freo</strong> e culmina con la <strong>Vetta Sullioni</strong>. Questo <strong>sentiero escursionistico</strong> è ideale per appassionati di <strong>trekking</strong> e <strong>escursionismo</strong> che amano la <strong>natura</strong> e le <strong>montagne</strong>, offrendo un''esperienza indimenticabile.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza dell''escursione è a <strong>Pruno</strong>, un pittoresco borgo toscano. Raggiungerlo è semplice: potete arrivare in auto da Firenze o da Lucca, seguendo le indicazioni stradali per Pruno.  Una volta a Pruno, il sentiero inizia direttamente dal paese, facilmente accessibile anche a piedi.</p>
 
-<h3>Cosa Aspettarsi – Dettagli sull''Escursione</h3>
-<p>Questo <strong>sentiero</strong> ad anello, di circa 12 km, è adatto a chi ha una minima esperienza di <strong>trekking</strong> e si sente a proprio agio con qualche <strong>dislivello</strong>. Il percorso offre panorami mozzafiato e occasioni per ammirare la bellezza della <strong>Versilia</strong>. L''escursione è particolarmente suggestiva in estate, ma è consigliabile evitarla nei mesi di <strong>luglio</strong> e <strong>agosto</strong> a causa dell''esposizione al sole e del caldo intenso. Ricorda di prenotare in anticipo un pranzo al <strong>Rifugio Del Freo</strong> per goderti un momento di relax.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo è un vero e proprio anello che vi porterà attraverso paesaggi mozzafiato. Inizierete da <strong>Pruno</strong>, attraversando il suggestivo <strong>Ponte Mediceo</strong>.  Il sentiero vi condurrà poi alla maestosa <strong>Cascata Acquapendente</strong>, un luogo incantevole dove ammirare la forza dell''acqua. Proseguendo, raggiungerete il <strong>Rifugio Fania</strong>, un ottimo punto per una pausa caffè.  Da lì, il sentiero si inoltra tra le montagne, fino a raggiungere il <strong>Rifugio del Freo</strong>, dove potrete pranzare (consigliata la prenotazione). Dallo rifugio si prosegue fino al <strong>Passo dell''Alpino</strong> e quindi alla <strong>Vetta Sullioni</strong>, da dove si apre un panorama impareggiabile sulla costa toscana. Il percorso è ben segnalato, ma richiede un minimo di esperienza e abitudine al dislivello.</p>
 
-<h3>Informazioni Utili – Dettagli del Sentiero e Consigli</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Facile/Media – Adatto a escursionisti con esperienza di minimo dislivello.</li>
-    <li><strong>Distanza Totale:</strong> Circa 12 km</li>
-    <li><strong>Dislivello:</strong> Circa 400 metri</li>
-    <li><strong>Punti di Interesse:</strong> Cascata Acquapendente, Rifugio Fania, Rifugio Del Freo, Passo dell’Alpino, Vetta Sullioni, Foce di Borra larga</li>
-    <li><strong>Tratto Opzionale (Vetta Sullioni):</strong> Cresta impegnativa ma fattibile per escursionisti esperti, richiede attenzione e l''utilizzo di un GPS. Tratto selvaggio e a tratti stretto, con discesa e salita sulla cresta.</li>
-    <li><strong>Tratto Principale:</strong> Percorso ben segnalato sulla sentieristica sopra, evitando il "Tratto Opzionale" per la salita alla Vetta Sullioni.</li>
-    <li><strong>Consigli:</strong> Indossa scarpe da trekking adatte, porta con te acqua e snack, e rispetta l''ambiente circostante.</li>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è di livello <strong>Medio</strong>.  Il sentiero presenta un dislivello di circa <strong>1182 metri</strong>, con tratti in salita e discesa. La <strong>distanza totale è di 15.48 km</strong>, per un anello completo. È consigliabile indossare scarpe da trekking, portare con sé acqua, cibo e un kit di primo soccorso.  Anche se il sentiero non presenta tratti particolarmente esposti, è importante prestare attenzione, soprattutto in caso di maltempo.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<ul class=''list-disc''>
+    <li><b>Distanza:</b> Circa 15.48 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 1182 metri</li>
+    <li><b>Difficoltà:</b> Medio</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Pruno (accessibile in auto / a piedi)</li>
+    <li><b>Comune:</b> Pruno, Toscana, Italia</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
 </ul>
+<p>Per la traccia GPS completa e ulteriori informazioni pratiche, potete consultare <a href="https://www.alltrails.com/it/sentieri/italia/toscana/pruno/cascata-acquapendente-rifugio-del-freo-vetta-sullioni">AllTrails</a>.</p>
 
-<p>Esplora l''incantevole regione delle <strong>Apuane</strong> con questo fantastico <strong>sentiero trekking</strong>!  Organizza la tua <strong>escursione</strong> e crea ricordi indimenticabili. Scopri il <strong>sentiero</strong> ideale per il tuo <strong>trekking</strong> in Italia.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><b>Distanza:</b> Circa 15.48 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 1182 metri</li>
+    <li><b>Difficoltà:</b> Medio</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Pruno (accessibile in auto / a piedi)</li>
+    <li><b>Comune:</b> Pruno, Toscana</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   15.48,
   1182,

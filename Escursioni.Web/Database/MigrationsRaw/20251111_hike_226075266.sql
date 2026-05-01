@@ -7,29 +7,32 @@ VALUES (
   226075266,
   'Doganaccia – Croce Arcana – Cascate del Dardagna – Monte La Nuda – Corno alle Scale: 2 giorni di trekking ad anello',
   'Descrizione Trekking ad anello di due giorni con partenza dalla Doganaccia (quota 1.540 m), che unisce panorami di crinale, cascate spettacolari e vette storiche dell’Appennino Tosco-Emiliano. Percorso consigliato per escursionisti allenati, con tratti semplici ma anche sezioni impegnative in salita e discesa, specialmente con zaino carico. Giorno 1 Partenza dalla Doganaccia (ore 10:05), salita di circa 150 m fino alla Croce Arcana, dove si trova il monumento agli Alpini con i cannoni. Proseguimento sull’Alta Via dei Parchi toccando Pizzo, Vista del Paradiso, Colle Piaggia Calda e Monte I Balzoni. Discesa di 300 m verso il Callare dell’Acqua Marcia e arrivo al Rifugio Tassoni (acqua a pagamento), quindi breve deviazione al rifugio accanto per rifornirsi alla fontanella esterna. Tratto ampio e ben segnato, senza esposizione, tra ampi pratoni e greggi al pascolo. Dal Rifugio Tassoni discesa verso le Cascate del Dardagna. Il percorso è semplice e in parte percorribile in auto (non consigliato), ma negli ultimi tratti diventa sentiero. Le cascate sono su più livelli (5 salti complessivi) e il tratto finale presenta gradoni alti che possono creare difficoltà a persone poco allenate. Proseguimento fino alla Madonna dell’Acero (facile accesso alle cascate più basse), visita al santuario e rifornimento alla fontana del paese. Salita verso il Monte La Nuda passando per il Centro Visite del Parco → Via dei Signori → Sentiero del Campanile. Pernotto in vetta con tramonto panoramico (leggermente coperto) e alba spettacolare. Ampio spazio per tende. Giorno 2 Partenza ore 7:30, discesa al Passo del Vallone e salita tramite i Balzi dell’Ora fino a Punta Sofia. Tratto ripido e panoramico, non esposto ma da affrontare con cautela per chi non è abituato. Proseguimento verso il Corno alle Scale, quindi Punta Giorgina, Passo del Serpentino, Cornaccio, Passo Tre Termini e Monte Cupolino. Discesa al Rifugio Duca degli Abruzzi (cucina chiusa in mattinata) e breve giro del Lago Scaffaiolo. Rientro alla Doganaccia tra turisti e sentiero panoramico di crinale. Note sul percorso Difficoltà: Escursionistico con brevi tratti EE (Balzi dell’Ora, discesa cascate). Punti acqua: Rifugio Tassoni, Madonna dell’Acero, fontanelle intermedie, rifugi lungo il percorso. Consigli: In due giorni il trekking è rilassante; in un giorno solo diventa un trail di circa 12 ore. Zaino leggero se possibile. Panorami: Viste aperte sulla Pania, crinali dell’Appennino e vallate circostanti.',
-  '<h2>Doganaccia – Croce Arcana – Cascate del Dardagna – Monte La Nuda – Corno alle Scale: 2 giorni di trekking ad anello</h2>
+  '<h2 id="escursione-doganaccia-croce-arcana-cascate-dardanagna-monte-la-nuda-corno-alle-scale">Escursione Doganaccia – Croce Arcana – Cascate del Dardagna – Monte La Nuda – Corno alle Scale: 2 giorni di trekking ad anello</h2>
 
- <h3>Il percorso</h3>
- <p>Questo incredibile trekking ad anello di due giorni ti condurrà attraverso un paesaggio montano mozzafiato dell''Appennino Tosco-Emiliano. Partiremo dalla <strong>Doganaccia</strong> (1.540 m), un punto di partenza ideale per chi cerca un''<strong>escursione trekking</strong> di livello medio-impegnativo. Il sentiero si snoda attraverso crinali panoramici, offrendo viste spettacolari sulla natura circostante e sulle valli circostanti, perfetto per gli amanti del <strong>trekking in Italia</strong>.</p>
- <p>Il percorso è stato studiato per escursionisti allenati, con tratti semplici ma anche sezioni impegnative in salita e discesa, soprattutto con zaino carico. Sarà un''esperienza immersiva nella <strong>natura</strong> e nella <strong>montagna</strong>, ideale per chi desidera un''<strong>escursione</strong> indimenticabile.</p>
- <p>Il primo giorno, dopo la partenza dalla <strong>Doganaccia</strong>, ci riserverà un''ascesa fino alla <strong>Croce Arcana</strong>, dove potremo ammirare il monumento agli Alpini con i suoi cannoni. Il percorso proseguirà sull''<strong>Alta Via dei Parchi</strong>, toccando <strong>Pizzo</strong>, <strong>Vista del Paradiso</strong>, <strong>Colle Piaggia Calda</strong> e <strong>Monte I Balzoni</strong>, offrendo panorami mozzafiato e la possibilità di ammirare la flora e la fauna locali.</p>
- <p>La discesa verso il <strong>Callare dell’Acqua Marcia</strong> ci porterà al <strong>Rifugio Tassoni</strong>, dove potremo rifornirci. Da qui, una breve deviazione ci condurrà al rifugio accanto, dove potremo bere l''acqua fresca dalla fontanella esterna. Il tratto è ampio e ben segnato, senza esposizione, tra ampi pratoni e greggi al pascolo. Questo <strong>sentiero</strong> è perfetto per un''<strong>escursione</strong> di <strong>trekking</strong> nella <strong>montagna</strong>.</p>
- <p>Il giorno successivo, dopo una partenza alle ore 7:30, la discesa al <strong>Passo del Vallone</strong> ci permetterà di affrontare la salita tramite i <strong>Balzi dell’Ora</strong> fino a <strong>Punta Sofia</strong>, un tratto ripido e panoramico, non esposto ma da affrontare con cautela. Proseguiremo verso il <strong>Corno alle Scale</strong>, e poi <strong>Punta Giorgina</strong>, <strong>Passo del Serpentino</strong>, <strong>Cornaccio</strong>, <strong>Passo Tre Termini</strong> e <strong>Monte Cupolino</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza dell''escursione è la Doganaccia, un borgo montano situato in provincia di Toscana, regione Italia. Per raggiungerlo, è consigliabile utilizzare l''auto, seguendo le indicazioni stradali per Doganaccia da diverse località. Il borgo è facilmente accessibile in auto, con parcheggio disponibile nelle immediate vicinanze del punto di partenza del sentiero.</p>
 
- <h3>Cosa aspettarsi</h3>
- <p>Potrai ammirare un''ampia varietà di paesaggi, dalle <strong>cascate del Dardagna</strong> alle vette del <strong>Monte La Nuda</strong>, passando per i panorami mozzafiato del <strong>Corno alle Scale</strong>. L''escursione offre la possibilità di avvistare la fauna locale, come l’aquila reale e il cappero, e di immergersi nella bellezza della <strong>natura</strong>.</p>
- <p>Sarà un''esperienza di <strong>trekking</strong> ricca di emozioni, ideale per chi cerca un''<strong>escursione</strong> impegnativa ma gratificante. Il percorso è ben segnalato, ma è consigliabile avere una buona preparazione fisica e mentale. L''alta quota offre panorami unici e la possibilità di vivere un''avventura indimenticabile in <strong>Italia</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo trekking ad anello di due giorni è progettato per escursionisti allenati. Il primo giorno parte dalla Doganaccia (1.540 m) e si sale fino alla Croce Arcana (1.696 m) con circa 150 metri di dislivello, dove si trova un monumento agli Alpini con i cannoni. Il percorso continua sull''Alta Via dei Parchi toccando Pizzo, Vista del Paradiso, Colle Piaggia Calda e Monte I Balzoni, con un dislivello di circa 300 metri. Si prosegue sul sentiero ben segnato, passando per ampi pratoni e greggi al pascolo, fino al Rifugio Tassoni (1.493 m). Dal rifugio si scende verso le Cascate del Dardagna (1.350 m), un percorso semplice in parte percorribile in auto, con alcuni tratti che diventano sentiero, attraversando un tratto con cascate su più livelli (5 salti complessivi) con gradoni alti. Si prosegue fino alla Madonna dell’Acero e al santuario. Salendo al Monte La Nuda (1.922 m) si ammira il tramonto e si dorme in tenda. Il secondo giorno si parte alle 7:30 con una discesa al Passo del Vallone e salita tramite i Balzi dell’Ora fino a Punta Sofia. Si prosegue verso il Corno alle Scale, quindi Punta Giorgina, Passo del Serpentino, Cornaccio, Passo Tre Termini e Monte Cupolino, per poi scendere al Rifugio Duca degli Abruzzi (1.454 m) e fare un giro del Lago Scaffaiolo, per poi rientrare a Doganaccia.</p>
 
- <h3>Informazioni utili</h3>
- <ul>
-  <li><strong>Difficoltà:</strong> Escursionistico con brevi tratti EE (Balzi dell’Ora, discesa cascate).</li>
-  <li><strong>Punti acqua:</strong> Rifugio Tassoni, Madonna dell’Acero, fontanelle intermedie, rifugi lungo il percorso.</li>
-  <li><strong>Distanza totale:</strong> Circa 45 km (2 giorni)</li>
-  <li><strong>Dislivello positivo:</strong> Circa 1.500 m</li>
-  <li><strong>Dislivello negativo:</strong> Circa 1.200 m</li>
-  <li><strong>Periodo consigliato:</strong> Da maggio a ottobre</li>
-  <li><strong>Consigli:</strong> In due giorni il trekking è rilassante; in un giorno solo diventa un trail di circa 12 ore. Zaino leggero se possibile. Panorami: Viste aperte sulla Pania, crinali dell’Appennino e vallate circostanti.</li>
- </ul>',
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p><strong>Difficoltà:</strong> Escursionistico con brevi tratti EE (Balzi dell’Ora, discesa cascate). <strong>Distanza:</strong> 30.96 km (anello) <strong>Dislivello:</strong> +1553 m.  Questo trekking richiede una buona preparazione fisica, in quanto presenta tratti impegnativi in salita e discesa, soprattutto con zaino carico.  Il percorso è adatto a escursionisti allenati. È consigliabile indossare scarpe da trekking e portare con sé acqua e cibo sufficienti.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Disponibile traccia GPS dettagliata per l''intera escursione. Il percorso è ben segnalato, ma è consigliabile scaricare una mappa offline o utilizzare un''app di navigazione per smartphone.  È importante informare qualcuno del proprio itinerario e dell''orario previsto per il rientro.  Ricorda di rispettare l''ambiente e di non lasciare tracce del tuo passaggio.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong>Distanza:</strong> Circa 30.96 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 1553 metri</li>
+  <li><strong>Difficoltà:</strong> Difficile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Doganaccia (accessibile in auto)</li>
+  <li><strong>Comune:</strong> Doganaccia, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico / Anello</li>
+</ul>
+<h3 id="parco-nazionale">Parco Nazionale:</h3>
+<p>Parco Nazionale dei Parchi della Val d''Arno</p>',
   'Tutte le Attività e Paesi',
   30.96,
   1553,

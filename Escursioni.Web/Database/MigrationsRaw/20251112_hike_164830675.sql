@@ -7,32 +7,39 @@ VALUES (
   164830675,
   'Suvereto ~ Prata ~ Belvedere',
   'La partenza avviene dal parcheggio del cimitero di Suvereto. Prima di iniziare il vero e proprio percorso, abbiamo fatto una breve visita al paese, che non avevamo mai visto prima. Il centro storico è molto bello, ben curato, ma la rocca non è stata altrettanto impressionante. Successivamente, ci siamo diretti al parcheggio dei pullman, da dove parte il sentiero n°1 in direzione dell''antico borgo cinquecentesco di Prata. Dopo un breve tratto asfaltato, il sentiero vero e proprio inizia subito e ci porta verso Prata. Abbiamo fatto una breve sosta al parco pubblico per mangiare qualcosa e poi abbiamo proseguito seguendo il sentiero numero 5 in direzione del Belvedere. Anche qui, il percorso è stato piuttosto semplice. Il paese di Belvedere è estremamente piccolo, forse il più minuscolo che abbia mai visto, con appena 50/60 abitanti. Successivamente, abbiamo proseguito lungo il sentiero per tornare all''auto. Nel sentiero, è possibile ammirare numerosi bellissimi fiori e nel primo tratto si costeggia un fiume che si attraversa tramite un ponticello in legno. Lungo il percorso, ci sono delle fontanelle. Il tempo stimato per completare il percorso è di circa 3 ore.',
-  '<h2>Suvereto ~ Prata ~ Belvedere: Escursione Trekking in Montagna e Sentieri Naturali</h2>
+  '<h2 id="escursione-suvereto-prata-belvedere">Escursione a Suvereto, Prata e Belvedere</h2>
 
-<h3>Il Percorso – Trekking in Toscana tra Borghi Medievali</h3>
-<p>
-Immergiti nella bellezza della <strong>Toscana</strong> con questa affascinante <strong>escursione trekking</strong> che ti condurrà attraverso i suggestivi borghi medievali di <strong>Suvereto</strong>, <strong>Prata</strong> e <strong>Belvedere</strong>. Questo percorso di <strong>trekking</strong> in <strong>montagna</strong> è perfetto per amanti della natura e della storia, offrendo un''esperienza indimenticabile tra sentieri panoramici e paesaggi mozzafiato.  Scopri i segreti di questi antichi borghi e goditi la tranquillità del <strong>sentiero</strong> in un contesto naturale incontaminato. L''<strong>escursione</strong> si adatta perfettamente a chi cerca un''esperienza di <strong>trekking</strong> in Italia, un vero e proprio viaggio alla scoperta del patrimonio culturale e ambientale.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>La partenza di questa bella escursione è comodissima: parcheggiate al cimitero di <strong>Suvereto</strong>. Da lì, il percorso è facilmente raggiungibile e ideale anche per chi è alle prime armi con le escursioni. Il parcheggio è accessibile in auto e il paese di Suvereto è molto bello da visitare prima di iniziare il trekking.</p>
 
-<h3>Cosa Aspettarsi – Una Giornata di Trekking in un Borgo Incantato</h3>
-<p>
-Preparati a una giornata di <strong>trekking</strong> rilassante e suggestiva, con tratti facili e panorami spettacolari. Il percorso si snoda attraverso campi fioriti e boschi ombrosi, offrendo ampie opportunità per l''osservazione della fauna e della flora locale.  Passeggia lungo il <strong>sentiero</strong>, ammira i caratteristici edifici medievali di <strong>Suvereto</strong> e <strong>Prata</strong>, e goditi la frescura del <strong>Belvedere</strong>, il più piccolo borgo che tu abbia mai visto!  Quest''<strong>escursione</strong> è un''occasione unica per coniugare l''amore per la <strong>montagna</strong> con la scoperta del patrimonio culturale toscano.  Approfitta delle fontanelle lungo il <strong>sentiero</strong> per rinfrescarti e goditi un momento di relax immerso nella natura.
-</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Inizieremo da un breve giro per il centro storico di <strong>Suvereto</strong>, per poi dirigerci verso il parcheggio dei pullman. Da qui, il sentiero n°1 ci porterà verso l''antico borgo cinquecentesco di <strong>Prata</strong>. Dopo un breve tratto asfaltato, il sentiero vero e proprio inizia subito. Proseguiremo seguendo il sentiero n°5 fino al <strong>Belvedere</strong>. L''escursione è caratterizzata da tratti facili, con una breve sosta al parco pubblico e un attraversamento di un piccolo fiume tramite un ponticello in legno. Lungo il percorso troverete delle fontanelle per rinfrescarvi.</p>
 
-<h3>Informazioni Utili – Dettagli per la Tua Escursione Trekking</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa è un''escursione di livello <strong>facile</strong>, perfetta per famiglie e per chi cerca una passeggiata panoramica. Il dislivello di circa 364 metri è contenuto, rendendo il percorso accessibile anche a chi non ha molta esperienza. Il tempo stimato per completare l''anello è di circa 3 ore, un tempo più che adeguato per godersi il panorama e le bellezze del territorio.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Ecco i dettagli pratici per la vostra escursione: </p>
 <ul>
-    <li><strong>Difficoltà:</strong> Facile - Adatto a tutti i livelli di esperienza.</li>
-    <li><strong>Distanza:</strong> Circa 8-10 km</li>
-    <li><strong>Tempo Stimato:</strong> 3 ore (circa)</li>
-    <li><strong>Punto di Partenza:</strong> Parcheggio del cimitero di Suvereto</li>
-    <li><strong>Punti di Interesse:</strong> Borghi medievali di Suvereto, Prata e Belvedere, Parco Pubblico, Ponticello in legno, Fontanelle.</li>
-    <li><strong>Sentieri:</strong> Sentiero n°1 e Sentiero n°5</li>
-    <li><strong>Attenzione:</strong> Il percorso include un breve tratto asfaltato e un tratto con un ponticello in legno.</li>
+    <li><strong>Distanza:</strong> Circa 10 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 364 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio del Cimitero di Suvereto</li>
+    <li><strong>Comune:</strong> Suvereto, Provincia di Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>
-Questa <strong>escursione trekking</strong> è un''opportunità imperdibile per chi desidera esplorare la <strong>montagna</strong> toscana e scoprire i tesori nascosti dei suoi borghi medievali.  Perfetto per un''<strong>escursione</strong> di un giorno, questo <strong>sentiero</strong> ti regalerà momenti di puro relax e di immersione nella natura.  Vivi un''esperienza unica di <strong>trekking</strong> in Italia, tra panorami mozzafiato e tradizioni secolari.
-</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong>Distanza:</strong> Circa 10 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 364 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio del Cimitero di Suvereto, accessibile in auto</li>
+    <li><strong>Comune:</strong> Suvereto, Provincia di Toscana, Regione Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10,
   364,

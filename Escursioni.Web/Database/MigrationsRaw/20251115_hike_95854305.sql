@@ -7,31 +7,30 @@ VALUES (
   95854305,
   'Grotta dei banditi - Curva Nuvolari - Val di chioma - Evangelisti',
   'Giro non usuale per arrivare alla grotta dei banditi, abbiamo scelto questo percorso perchè volevamo fare un sentiero alternativo e un pò più lungo. Molto caratteristici sono i due piccoli guadi che abbiamo fatto, molto carini, il sentiro in val di chioma è molto largo e facile. Una volta arrivati alla grotta, è possibile visitarla, c''è qualche ragno ma ecco è molto bello vedere un distaccamento dei partigiani ha soggiornato. Non vi sono particolari problemi su questi sentieri se non un pò fi fango... ma ecco siamo in montagna. Portate scarpe adeguate e acqua, non ci sono fontanelle',
-  '<h2>Grotta dei Banditi - Curva Nuvolari - Val di Chioma - Evangelisti: Trekking e Escursioni in Montagna</h2>
+  '<h2 id="grotta-dei-banditi-curva-nuvolari-val-di-chioma-evangelisti">Escursione alla Grotta dei Banditi, Curva Nuvolari, Val di Chioma e Evangelisti</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Per raggiungere il punto di partenza di questa escursione, consiglierei di parcheggiare l''auto a **Evangelisti**. Da qui, seguiamo il sentiero segnalato che ci conduce verso la valle.</p>
 
-<p>Questo giro escursionistico attraverso la **Grotta dei Banditi** è un''esperienza unica per gli amanti del trekking e dell''escursionismo in **Italia**. Percorrendo la **Curva Nuvolari** e la **Val di Chioma**, fino ai pressi di **Evangelisti**, i sentieri vi condurranno in un ambiente selvaggio e incontaminato, perfetto per immergervi nella **natura** e godere di panorami mozzafiato.  Abbiamo scelto questo percorso alternativo per chi cerca un''**escursione** più lunga e fuori dai sentieri battuti, ideale per un''avventura in **montagna**.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia con un piacevole risalita attraverso il sentiero, caratterizzato da una discesa che ci porta alla **Grotta dei Banditi**. Il percorso si snoda attraverso la **Val di Chioma**, un ambiente naturale molto suggestivo, con un sentiero ampio e facilmente percorribile. Supereremo due piccoli guadi, un tratto divertente e un po'' fangoso, tipico della montagna! Raggiungeremo la **Curva Nuvolari** e infine la **Grotta dei Banditi**, dove potremo ammirare le tracce del passato e immaginare i partigiani che vi soggiornavano. La discesa completa il giro, riportandoci al punto di partenza.</p>
 
-<p>Il sentiero si snoda attraverso un paesaggio variegato, con tratti più impegnativi che culminano in due piccoli guadi, facilmente superabili con attenzione. La **Val di Chioma** offre un percorso ampio e agevole, perfetto per una passeggiata rilassante tra le montagne.  La **grotta dei banditi**, un luogo ricco di storia e leggende, rappresenta il culmine di questa **trekking** indimenticabile. È un''occasione per scoprire un angolo di storia italiana e immergersi nella vera essenza del **trekking**.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è considerata **Facile**, adatta anche a escursionisti meno esperti. Il dislivello di **651 metri** è distribuito su un percorso di circa 19 km, quindi è consigliabile avere una buona preparazione fisica. L''anello è molto bello e la traccia è in gran parte percorribile.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per facilitare l''escursione, ti consiglio di scaricare una <strong id="traccia-gps-grotta-dei-banditi-curva-nuvolari-val-di-chioma-evangelisti">traccia GPS</strong> della zona. Ricorda sempre di controllare le previsioni meteo prima di partire e di informare qualcuno del tuo itinerario.</p>
 
-<ul>
-    <li>Un percorso di circa 8-10 km, con un dislivello di 400-500 metri, ideale per escursionisti esperti.</li>
-    <li>Due piccoli guadi che richiedono attenzione e scarpe adatte.</li>
-    <li>Un sentiero ampio e facile nella **Val di Chioma**, adatto anche a famiglie e principianti.</li>
-    <li>Possibilità di visitare la **Grotta dei Banditi**, un sito storico di grande interesse.</li>
-    <li>La presenza di fauna selvatica e flora tipica della **montagna** italiana.</li>
-</ul>
-
-<p>Preparatevi ad affrontare un''**escursione** impegnativa ma gratificante, con panorami spettacolari e la possibilità di scoprire un luogo ricco di storia.  Ricordatevi di portare con voi scarpe da trekking adeguate, acqua, cibo e un abbigliamento adatto alle condizioni meteorologiche.  Questo **sentiero** offre un''esperienza autentica di **trekking** e **escursionismo** in **Italia**, lontano dal caos delle città.</p>
-
-<h3>Informazioni Utili</h3>
-
-<p>La difficoltà del sentiero è considerata media-alta, adatta a escursionisti esperti con una buona preparazione fisica. La distanza totale del percorso è di circa 8-10 km e il dislivello si aggira sui 400-500 metri.  È consigliabile informarsi sulle condizioni del sentiero prima di partire e indossare scarpe da trekking adatte.  La **Grotta dei Banditi** è raggiungibile alla fine del percorso ed è un luogo interessante da visitare.  Questo **sentiero** è un''ottima opzione per chi cerca un''**escursione** in **montagna** e un''esperienza di **trekking** originale in **Italia**.</p>
-
-<p>Nonostante le piccole difficoltà dovute al terreno accidentato, il sentiero è ben tracciato e presenta poche asperità. La **Val di Chioma** offre una pedalata tranquilla per chi preferisce un''alternativa.  Ricordatevi sempre di rispettare l''ambiente e di non lasciare tracce del vostro passaggio durante l''**escursione**.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="distanza-grotta-dei-banditi-curva-nuvolari-val-di-chioma-evangelisti">Distanza:</strong> Circa 19.17 km (anello)</li>
+    <li><strong id="dislivello-grotta-dei-banditi-curva-nuvolari-val-di-chioma-evangelisti">Dislivello:</strong> Circa 651 metri</li>
+    <li><strong id="difficoltà-grotta-dei-banditi-curva-nuvolari-val-di-chioma-evangelisti">Difficoltà:</strong> Facile</li>
+    <li><strong id="periodo-consigliato-grotta-dei-banditi-curva-nuvolari-val-di-chioma-evangelisti">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza-grotta-dei-banditi-curva-nuvolari-val-di-chioma-evangelisti">Punto di partenza:</strong> Evangelisti, accessibile in auto/a piedi</li>
+    <li><strong id="comune-grotta-dei-banditi-curva-nuvolari-val-di-chioma-evangelisti">Comune:</strong> Evangelisti, Toscana, Italia</li>
+    <li><strong id="tipo-di-sentiero-grotta-dei-banditi-curva-nuvolari-val-di-chioma-evangelisti">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   19.17,
   651,

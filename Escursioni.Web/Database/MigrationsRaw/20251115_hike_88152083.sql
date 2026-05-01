@@ -7,27 +7,33 @@ VALUES (
   88152083,
   'Passo Croce - Monte Corchia - Del Freo',
   'Partenza e parcheggio a Passo Croce e abbiamo proseguito fino ad arrivare a Fociomboli dove abbiamo proseguito con il sentiero sulla destra, fino ad arrivare a un 2°bivo al km 1.9 si deve rigirare a sinistra e da li parte la "scalata al Corchia" al km 3.5 non avevamo visto che il sentiero era sulla sinistra (segnato male con un omino di pietra) c''è sa salire una parete di 3 mt, facile da salire e li si sale sulla vetta. Da qua parte la parte difficile, con un punto esposto al km 5 ma niente di preoccupante per chi è abituato all''altezza, sulla cresta vedremo anche un vecchio rifugio bruciato ( si dice dai minatori). Si prosegue lungo la cresta fino ad arrivare al rifugio del Freo, da li si torna in dietro, facendo la 2° parte della salita. Non ci sono fontanelle ma avete il rifugio più fornito dell''appennino. Scarpe OBLIGATORIE. Per il resto lasciate un commento e buon trek!',
-  '<h2>Passo Croce – Monte Corchia – Del Freo: Trekking e Escursione nella Montagna Appenninica</h2>
+  '<h2 id="escursione-passo-croce-monte-corchia-del-freo">Escursione al Passo Croce, Monte Corchia e al Rifugio del Freo</h2>
 
-<h3>Il Percorso – Sentiero di Trekking in Appennino</h3>
-<p>Preparatevi per un’indimenticabile <strong>escursione a piedi</strong> nel cuore dell’Appennino italiano! Questo sentiero di <strong>trekking</strong> vi condurrà attraverso paesaggi mozzafiato, sentieri di <strong>montagna</strong> e panorami unici. La discesa da <strong>Passo Croce</strong> verso il <strong>Monte Corchia</strong> e il <strong>rifugio Del Freo</strong> è un’esperienza che non dimenticherete. Il percorso è un vero e proprio viaggio alla scoperta della <strong>natura appenninica</strong>, ricco di biodiversità e bellezza selvaggia. Perfetto per <strong>sentieri escursionistici</strong> e amanti del <strong>trekking</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>La partenza per questa splendida escursione è da <strong>Passo Croce</strong>. Troverete facilmente parcheggio nel paese. Partirete da qui per iniziare l''avventura!</p>
 
-<h3>Cosa Aspettarsi – Difficoltà e Dettagli del Sentiero</h3>
-<p>Questo <strong>sentiero</strong> presenta una media difficoltà, ideale per escursionisti esperti e amanti del <strong>trekking</strong>. Il percorso è lungo circa 12 km e con un dislivello di 800 metri, quindi è importante essere in buona forma fisica.  La parte più impegnativa è la <strong>salita al Monte Corchia</strong>, una parete di circa 3 metri che richiede attenzione e un minimo di esperienza in <strong>escursioni in montagna</strong>.  La cresta finale presenta un punto esposto, ma non è un problema per chi ha familiarità con l’altitudine.  Il <strong>trekking</strong> in questa zona offre panorami spettacolari, con vette imponenti e ampie distese di <strong>natura incontaminata</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Da Passo Croce, si prosegue in salita fino a Fociomboli. Da qui, il sentiero sale sulla destra, diventando più impegnativo.  Dopo circa 1.9 km, si raggiunge un bivio dove, segnato male con un omino di pietra, si svolta a sinistra per affrontare la "scalata al Corchia". Questa sezione, lunga 3.5 km, prevede una breve parete di circa 3 metri da superare, una salita facile ma che richiede attenzione.  Proseguendo, il sentiero si apre sulla cresta, con un punto esposto.  Si arriva poi al <strong>rifugio del Freo</strong>, da dove si inizia il ritorno, ripercorrendo parte del percorso.</p>
 
-<h3>Informazioni Utili – Dettagli per il Vostro Trekking</h3>
-<ul>
-    <li><strong>Località:</strong> Passo Croce, Molise</li>
-    <li><strong>Difficoltà:</strong> Media</li>
-    <li><strong>Distanza:</strong> Circa 12 km</li>
-    <li><strong>Dislivello:</strong> 800 metri</li>
-    <li><strong>Tipo di sentiero:</strong> Sentiero di <strong>trekking</strong> in <strong>montagna</strong>, con tratti esposti</li>
-    <li><strong>Equipaggiamento Obbligatorio:</strong> Scarpe da trekking obbligatorie – è fondamentale indossare calzature adatte per affrontare un <strong>sentiero escursionistico</strong> in <strong>Appennino</strong>.</li>
-    <li><strong>Punti di Interesse:</strong>  Monte Corchia, Rifugio Del Freo, Vecchio rifugio bruciato (testimonianza mineraria), cresta esposta.</li>
-    <li><strong>Consigli:</strong> Informatevi sempre sulle condizioni meteorologiche prima di partire e portate con voi acqua e cibo a sufficienza per affrontare l’<strong>escursione</strong>.</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è considerata di difficoltà <strong>Facile/Media</strong>. Il dislivello di <strong>680 metri</strong> richiede un minimo di allenamento, ma il sentiero è ben tracciato.  L''esposizione alla quota è presente, ma non particolarmente pericolosa per chi è abituato.</p>
 
-<p>Preparatevi per una magnifica <strong>escursione trekking</strong> nel <strong>Monti Appennino</strong>.  Questo <strong>sentiero</strong> vi regalerà emozioni indimenticabili!  Non perdete l’occasione di scoprire le meraviglie di questo territorio.  Organizzate il vostro <strong>trekking</strong> oggi stesso!</p>',
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p><strong>Distanza:</strong> 11.53 km (solo andata)
+<strong>Dislivello:</strong> 680 m
+<strong>Difficoltà:</strong> Facile/Media
+<strong>Tipo di sentiero:</strong> Sentiero escursionistico</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong>Distanza:</strong> Circa 11.53 km (solo andata)</li>
+  <li><strong>Dislivello:</strong> Circa 680 metri</li>
+  <li><strong>Difficoltà:</strong> Facile / Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Passo Croce, accessibile in auto/piedi</li>
+  <li><strong>Comune:</strong> Levigliani, Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.53,
   680,

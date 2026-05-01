@@ -7,37 +7,33 @@ VALUES (
   124574099,
   'Sasso Pisano - Fumarole - Anello con Friends in trekking',
   'Fumarole - Sasso Pisano e Monterotondo Marittimo Giro spettacolare tra luoghi dove la terra “respira”. siamo partiti da Sasso Pisano, per proseguire nel bosco innevato, verso la parte delle fumarole per poi proseguire per i boschi in direzione Lagoni attraversando il fosso della buia. Il percorso è facile da seguire e non vi sono complicazioni. Vi consiglio di portarvi dell''acqua e di non farlo d''estate.',
-  '<h2>Sasso Pisano – Fumarole – Anello con Friends in trekking</h2>
+  '<h2 id="sasso-pisano-fumarole-anello-friends-trekking">Escursione al Sasso Pisano – Fumarole: Anello con Friends in Trekking</h2>
 
-<h3>Il percorso: Un’escursione indimenticabile tra fumarole e sentieri in montagna</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa fantastica escursione è <strong>Sasso Pisano</strong>, un piccolo paese incastonato tra le colline toscane. Raggiungerlo è abbastanza semplice: si può arrivare in auto lungo strade panoramiche o, per un''esperienza più immersiva, in bicicletta lungo la Via degli Dei. Il parcheggio è disponibile nei pressi del centro del paese.</p>
 
-<p>Questo <strong>anello di trekking</strong> vi porterà in un viaggio affascinante attraverso il paesaggio unico del territorio toscano.  L’<strong>escursione a Sasso Pisano</strong> e la sua zona offre un''esperienza immersiva nella <strong>natura incontaminata</strong>, con la possibilità di ammirare le suggestive <strong>fumarole</strong> e di respirare l''aria frizzante della <strong>montagna</strong>.  Questo <strong>sentiero per trekking</strong> è perfetto per chi cerca un''avventura facile e gratificante, ideale anche per <strong>escursioni con amici</strong> o gruppi.  Scoprite i panorami mozzafiato di <strong>Monterotondo Marittimo</strong> e lasciatevi incantare dalla bellezza del paesaggio circostante.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>La nostra escursione inizia da <strong>Sasso Pisano</strong> e ci porta subito nel bosco, dove la neve rende il paesaggio ancora più suggestivo. Percorreremo le <strong>fumarole</strong>, luoghi dove la terra “respira” liberando vapori caldi. Da qui, il sentiero ci condurrà attraverso boschi e pascoli fino a <strong>Lagoni</strong>, attraversando il <strong>fosso della buia</strong>. Il percorso è ben segnalato e presenta una pendenza media, quindi è adatto a escursionisti con un livello di difficoltà <strong>medio</strong>.  Il giro è ad anello, quindi al termine del sentiero, ci ritroveremo a <strong>Monterotondo Marittimo</strong>.</p>
 
-<h3>Cosa aspettarsi durante l’escursione: Un’esperienza di trekking nella natura</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa <strong>escursione</strong> è di tipo <strong>anello</strong> e presenta una <strong>difficoltà media</strong>. Il <strong>dislivello</strong> è di circa <strong>445 metri</strong>, quindi è necessario avere un minimo di allenamento. Si consiglia di indossare scarpe da trekking e di portare con sé acqua e snack. L''escursione è consigliata in <strong>primavera, estate, autunno</strong>, evitando i mesi estivi a causa del caldo e dell''affollamento. È consigliabile recarsi in compagnia di amici, come abbiamo fatto noi!</p>
 
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>
+    Per facilitare l''escursione, abbiamo incluso la <strong>traccia GPS</strong> che potrai scaricare. Ricorda di utilizzare un''app di navigazione per smartphone.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li>Percorso ad anello di circa 8 km (circa 3 ore), adatto a tutti i livelli di <strong>trekking</strong>.</li>
-    <li>Facile da seguire, con segnaletica chiara e ben definita.</li>
-    <li>Passaggi attraverso boschi, aree vulcaniche con <strong>fumarole attive</strong> e zone aperte con panorami spettacolari.</li>
-    <li>Possibilità di ammirare la flora e la fauna locale, tra cui diverse specie di piante e uccelli.</li>
-    <li>Rifugio di ristoro a Lagoni per una pausa e un momento di relax dopo l’<strong>escursione in montagna</strong>.</li>
-</ul>
-
-<p>Preparatevi ad un’esperienza coinvolgente, dove la bellezza del territorio toscano si fonderà con il piacere del <strong>trekking</strong> e dell’<strong>escursionismo</strong>.  Questo <strong>sentiero escursionistico</strong> è una vera e propria immersione nella <strong>natura italiana</strong>, con panorami unici e suggestioni indimenticabili.  Ideale per una giornata diversa, un''occasione per connettersi con la <strong>montagna</strong> e respirare l''aria pulita.</p>
-
-<h3>Informazioni utili per l’escursione: Dettagli per un trekking di successo</h3>
-
-<ul>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Distanza:</strong> Circa 8 km</li>
-    <li><strong>Dislivello:</strong> Circa 200 metri</li>
-    <li><strong>Periodo consigliato:</strong> Primavera, Autunno, Inverno (consigliabile evitare l’estate a causa del caldo e del sole intenso)</li>
-    <li><strong>Attrezzatura consigliata:</strong> Scarpe da trekking, abbigliamento a strati, acqua, snack, cappello, crema solare.</li>
-    <li><strong>Consigli:</strong> Portare con sé dell''acqua, soprattutto durante i mesi estivi.  Controllare le previsioni meteo prima di partire.  Informarsi sullo stato delle fumarole prima di intraprendere il percorso.</li>
-    <li><strong>Punto di partenza:</strong> Sasso Pisano</li>
-</ul>
-
-<p>Non perdetevi questa incredibile <strong>escursione a Sasso Pisano</strong>, un''opportunità unica per vivere un''esperienza di <strong>trekking</strong> autentica e indimenticabile in uno dei territori più affascinanti dell''Italia.  Organizzate il vostro <strong>sentiero per trekking</strong> e preparatevi a creare ricordi speciali!</p>',
+  <li><strong>Distanza:</strong> Circa 11.71 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 445 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Sasso Pisano (accessibile in auto / a piedi)</li>
+  <li><strong>Comune:</strong> Sasso Pisano, Toscana</li>
+  <li><strong>Regione:</strong> Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.71,
   445,

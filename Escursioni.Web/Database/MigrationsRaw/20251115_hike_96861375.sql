@@ -7,26 +7,30 @@ VALUES (
   96861375,
   'Valle Benedetta - Monte pan di zucchero - Monte maggiore - acquedotto di Colognole',
   'Percorso molto semplice, con scorci particolarmente interessanti nella prima parte, non avevo mai visto il monte pan di zucchero.Il monte maggiore merita di meno, in seguito tutta la parte relativa al l''acquedotto di Colognole merita come sempre, unica nel suo genere.',
-  '<h2>Valle Benedetta - Monte Pan di Zucchero - Monte Maggiore - Aquedotto di Colognole: Escursione Trekking in Montagna</h2>
+  '<h2 id="valle-benedetta-monte-pan-di-zucchero-monte-maggiore-acquedotto-di-colognole">Escursione al Monte Pan di Zucchero e al Monte Maggiore nella Valle Benedetta</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong> nella <strong>Valle Benedetta</strong> offre un''esperienza indimenticabile, ideale sia per <strong>escursionisti esperti</strong> che per famiglie e principianti. Il percorso, di difficoltà <strong>facile-media</strong>, si snoda attraverso un paesaggio montano mozzafiato, con <em>scorci panoramici</em> unici e la possibilità di ammirare da vicino la natura selvaggia dell''Appennino Tosco-Emiliano.  L''<strong>escursione</strong> si avvale di numerosi punti di riferimento naturalistici, rendendola una meta perfetta per chi cerca un''avventura nella <strong>montagna italiana</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza di questa bella escursione si trova a Valle Benedetta, in Toscana. È facilmente raggiungibile in auto lungo le strade di campagna, oppure si può arrivare a piedi da paesi limitrofi.  Una volta ad Valle Benedetta, seguire le indicazioni per il sentiero che sale verso il Monte Pan di Zucchero.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparati a essere sorpreso dai panorami spettacolari che si aprono davanti a te durante questo <strong>trekking</strong>. La prima parte del percorso, attraverso la <strong>Valle Benedetta</strong>, è particolarmente suggestiva, con la possibilità di assistere alla vista del maestoso <strong>Monte Pan di Zucchero</strong>, una formazione rocciosa unica nel suo genere.  Il <strong>Monte Maggiore</strong>, seppur meno imponente, offre comunque un belvedere con vista sulla valle.  La conclusione del percorso, lungo l''<strong>Acquedotto di Colognole</strong>, rappresenta un vero gioiello ingegneristico, un''opera di grande valore storico e culturale, perfettamente integrata nel paesaggio.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questa escursione è un''ottima scelta per chi cerca un''escursione facile e piacevole. Inizierai da un punto del sentiero e salirai gradualmente verso il Monte Pan di Zucchero, ammirando scorci spettacolari, come la sua cima, che non avevi mai visto prima. Il sentiero è ben tenuto e il dislivello è gestibile, rendendo l''escursione accessibile anche ai principianti. Proseguirai poi verso il Monte Maggiore, che offre un panorama interessante, e infine arriverai all''acquedotto di Colognole, un''opera unica nel suo genere, e alla sua parte finale del percorso.</p>
 
-<h3>Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è classificata come <b>Facile</b>.  Il dislivello è di circa <b>456 metri</b>, quindi è una passeggiata adatta a tutti, anche a chi non ha molta esperienza in montagna. Il percorso è di circa <b>6,47 km</b> ed è un giro di andata, quindi preparati a tornare indietro.  Ti consiglio di indossare scarpe da trekking e di portare con te acqua e qualche snack.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per scaricare la traccia GPS di questa escursione, visita <a href="#">il sito di riferimento</a> (da inserire).  Ti consiglio di controllare le previsioni meteo prima di partire e di informarti sulle condizioni del sentiero.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Difficoltà:</strong> Facile-Media</li>
-    <li><strong>Distanza:</strong> Circa 8 - 10 km (a seconda del percorso scelto)</li>
-    <li><strong>Dislivello:</strong> Circa 400 - 500 metri</li>
-    <li><strong>Tempo di percorrenza:</strong> Circa 3 - 4 ore</li>
-    <li><strong>Periodo migliore:</strong> Primavera, Estate, Autunno</li>
-    <li><strong>Punto di partenza:</strong>  Verruio (PR)</li>
-    <li><strong>Consigli:</strong> Scarpe da trekking adatte, acqua, snack, cappello, crema solare.  Informati sempre sulle condizioni meteorologiche prima di partire per questa <strong>escursione</strong>.  Questo <strong>sentiero escursionistico</strong> è un''ottima opportunità per scoprire le bellezze della <strong>natura italiana</strong>.</li>
-</ul>
-
-<p>Questa <strong>escursione sentieristica</strong> in <strong>Valle Benedetta</strong> è un''occasione imperdibile per vivere un''esperienza di <strong>trekking</strong> unica e indimenticabile.  Scopri le meraviglie della <strong>montagna</strong> e lasciati conquistare dalla bellezza di questo <strong>sentiero Italia</strong>!</p>',
+  <li><b>Distanza:</b> Circa 6.47 km (andata)</li>
+  <li><b>Dislivello:</b> Circa 456 metri</li>
+  <li><b>Difficoltà:</b> Facile</li>
+  <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+  <li><b>Punto di partenza:</b> Valle Benedetta, Toscana</li>
+  <li><b>Comune:</b> Valle Benedetta, Italia</li>
+  <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   6.47,
   456,

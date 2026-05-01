@@ -7,26 +7,30 @@ VALUES (
   137118829,
   'Pian della fioba Altissimo Picco Falcovaia Strega',
   'Partenza sotto il Rifugio Città di Massa da li abbiamo fatto un breve tratto su strada(completamente seserta) sino a iniziare i sentieri. Tutto il percorso è su sentieri EE tranne per brevi stratti su sentieri E con pochi punti d''esposizione ma ci vuole una buona resistenza fisica nella salita che ha una "bellissima" pendenza. Noi abbiamo trovato MOLTA nebbia che c''ha mangiato parte del panorama ma dal passo degli uncini e dall''Altissimo possiamo godere di una bellissima visuale. non ci sono fontanelle',
-  '<h2>Pian della Fioba Altissimo Picco Falcovaia Strega: Trekking in Montagna a Massa</h2>
+  '<h2 id="escursione-pian-della-fioba-altissimo-picco-falcovaia-strega">Escursione al Pian della Fioba Altissimo Picco Falcovaia Strega</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo emozionante trekking si snoda attraverso il cuore delle Alpi Apuane, offrendo un''esperienza di escursione indimenticabile per gli amanti del trekking e della natura. Il sentiero, parte del percorso più ampio che collega il **Pian della Fioba** con il **Picco Falcovaia** e lo **Strega**, inizia sotto il **Rifugio Città di Massa**, seguendo inizialmente una strada serpeggiante. La salita si sviluppa prevalentemente su **sentieri EE**, con brevi tratti su sentieri E che, pur presentando alcuni punti di esposizione, richiedono una buona resistenza fisica, soprattutto per le salite più ripide. L''escursione attraverso la **montagna** è un''opportunità unica per immergersi nella bellezza selvaggia della regione, respirando l''aria fresca e ammirando panorami mozzafiato.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>La partenza della nostra escursione al Pian della Fioba Altissimo Picco Falcovaia Strega è sotto il Rifugio Città di Massa. Da qui, abbiamo percorso un breve tratto su strada, completamente serra, per poi imbatterci nei sentieri. L''accesso al punto di partenza è raggiungibile in auto, con parcheggio disponibile nei pressi del rifugio.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparatevi ad un''escursione impegnativa ma estremamente gratificante.  Il percorso è caratterizzato da un dislivello significativo e da pendii ripidi, che lo rendono adatto a escursionisti allenati.  La **nebbia** è un elemento comune in questa zona, e anche se può limitare la visibilità e oscurare alcuni panorami, contribuisce a creare un''atmosfera suggestiva e selvaggia.  Nonostante le sfide, il sentiero offre ricompense straordinarie: viste spettacolari dal **Passo degli Uncinini** e dall''**Altissimo**, la possibilità di ammirare la flora e la fauna alpina, e il senso di realizzazione che deriva dal superamento di un percorso impegnativo.  Ricorda di portare con te acqua, cibo e abbigliamento adeguato, considerando le condizioni meteorologiche variabili.  Il trekking in questa **zona** è un''occasione per connettersi con la **natura** e godere di una giornata all''aria aperta.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Il percorso è prevalentemente su sentieri EE, con brevi tratti su sentieri E, che offrono una bella sfida, soprattutto nella salita con la sua pendenza significativa. Abbiamo raggiunto il Passo degli Uncinini e dall''Altissimo abbiamo ammirato un panorama mozzafiato, nonostante la nebbia che ha limitato la visibilità in alcuni punti. Il sentiero è ben segnalato, ma richiede una buona resistenza fisica per affrontare le salite e le discese.</p>
 
-<h3>Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà **Media**. Richiede una buona resistenza fisica, in particolare per le salite. La nebbia può ridurre significativamente la visibilità, quindi è consigliabile informarsi sulle condizioni meteorologiche prima di partire e portare con sé l''abbigliamento adeguato.  Preparatevi a un dislivello di circa 1027 metri ed una distanza di 10.15 km.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Questo sentiero offre panorami spettacolari, soprattutto dal Passo degli Uncinini e dall''Altissimo.  Durante l''escursione, abbiamo potuto ammirare una bella visuale anche se parzialmente offuscata dalla nebbia.  La traccia GPS (non fornita qui) può essere utile per seguire il percorso.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Difficoltà:</b> Impegnativa</li>
-    <li><b>Distanza:</b> Circa 12 km (andata e ritorno)</li>
-    <li><b>Dislivello:</b> Circa 800 metri</li>
-    <li><b>Tipo di Sentiero:</b> EE, E</li>
-    <li><b>Punti di Interesse:</b> Rifugio Città di Massa, Passo degli Uncinini, Altissimo, Picco Falcovaia, Strega</li>
-    <li><b>Periodo Consigliato:</b> Estate/Autunno (controllo meteo obbligatorio)</li>
-    <li><b>Attrezzatura Consigliata:</b> Scarpe da trekking, zaino, acqua, cibo, abbigliamento a strati, cappello, crema solare, occhiali da sole, mappa, bussola/GPS</li>
-</ul>
-
-<p>Esplora i **sentieri Italia** e scopri la bellezza delle Alpi Apuane con questo fantastico trekking.  Un''esperienza da non perdere per chi cerca un''autentica sfida e panorami indimenticabili.  Pianifica la tua **escursione** e goditi la magia del **trekking**!</p>',
+  <li><strong>Distanza:</strong> Circa 10.15 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 1027 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Rifugio Città di Massa, accessibile in auto</li>
+  <li><strong>Comune:</strong> Redicesi, Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.15,
   1027,

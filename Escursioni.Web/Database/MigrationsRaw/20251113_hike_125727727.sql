@@ -7,32 +7,39 @@ VALUES (
   125727727,
   'Castagneto Carducci - Geocache - Sassetta',
   'Escursione un po'' diversa dal solito, con dei bei panorami, adatta a tutti, non ci vuole particolare resistenza. Il primo tratto è in salita e il secondo in discesa, senza amai essere troppo faticoso. Stavolta ho organizzato questa passeggiata alla ricerca di alla ricerca di geocache. Il sentiero non è segnato benissimo e un tratto siamo andati fuori sentiero per poi tagliare leggermente tra i boschi. Questo Powertrail va da Castagneto Carducci a Sassetta e ritorno. Lunghezza: 12 km, 320 m di altezza. Durata: 8 h di cammino, 4 h in mountain bike. Il percorso passa attraverso la pineta verso Poggio Carpineta, da dove si ha un superbo panorama dalla vedetta antincendio. L''itinerario continua fino a Capo di Monte – punto culminante del tragitto – passando per la ricostruzione di una capanna di carbonai. Il cammino di ritorno passa per il „Sentiero dei Molini“. Si arriva poi all''acquedotto Bolla del Conte Piero e ai due ponti « Ponte Lungo di Sopra e di Sotto ». Poi passerai davanti ai mulini di Cima, Mezza e Rotone prima di ritornare a Castagneto. link alla prima cache È presente una bellissima e buonissima fonte d''acqua potabile. Se fate le geocache, segnatevi gli indizi, vi serviranno alla fine!',
-  '<h2>Castagneto Carducci - Geocache - Sassetta: Escursione Trekking e Ricerca Geocache in Montagna</h2>
+  '<h2 id="castagneto-carducci-geocache-sassetta">Escursione Castagneto Carducci – Geocache – Sassetta</h2>
 
-<h3>Il Percorso</h3>
+<p>Avventura diversa in programma! Questa escursione a Castagneto Carducci, fino a Sassetta e ritorno, è stata un mix di trekking, ricerca di geocache e panorami mozzafiato. Perfetta per chi cerca un''attività non troppo impegnativa, ma ricca di sorprese.</p>
 
-<p>Immergiti in un’escursione indimenticabile lungo il sentiero <b>Castagneto Carducci - Geocache - Sassetta</b>, un’avventura <b>trekking</b> e <b>escursionismo</b> perfetta per tutti, che ti porterà alla scoperta dei panorami mozzafiato della **Montagna Ligure**. Questo <b>sentiero</b>, di circa 12 km e 320 metri di dislivello, ti condurrà attraverso una varietà di ambienti, dalla pineta a Poggio Carpineta fino al caratteristico Capo di Monte. Preparati a una <b>passeggiata</b> che, oltre al divertimento, offre la possibilità di cacciare le <b>geocache</b>!</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<p>Il percorso inizia con una salita moderata attraverso la pineta, offrendo già una splendida vista sulla campagna circostante. Successivamente, la discesa sarà graduale e non particolarmente faticosa, rendendo questa <b>escursione</b> accessibile a tutti i livelli di esperienza. La parte più suggestiva prevede un tratto fuori sentiero, un''opportunità per immergerti nella natura selvaggia e arricchire la tua esperienza di <b>trekking</b> in **Italia**.</p>
+<p>Il punto di partenza è il centro di Castagneto Carducci. Da qui, seguiamo il sentiero che ci porterà verso Sassetta. È facilmente raggiungibile in auto o con i mezzi pubblici. Arrivati al centro, chiedi indicazioni al municipio o al turismo per il sentiero del Geocache.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<ul>
-  <li><b>Distanza:</b> Circa 12 km</li>
-  <li><b>Dislivello:</b> 320 metri</li>
-  <li><b>Durata:</b> 8 ore di cammino, 4 ore in mountain bike (consigliato per un’esperienza più completa)</li>
-  <li><b>Difficoltà:</b> Facile - Media (adatta a famiglie e principianti)</li>
-  <li><b>Paesaggi:</b> Pineta, boschi, panorami mozzafiato, borghi medievali</li>
-  <li><b>Attività:</b> <b>Trekking</b>, <b>geocaching</b>, scoperta della natura</li>
+<p>Inizieremo la nostra escursione da Castagneto Carducci, salendo gradualmente attraverso la pineta verso Poggio Carpineta. Da qui si apre un panorama spettacolare dalla vedetta antincendio. Continueremo il sentiero fino a Capo di Monte, il punto più alto del tragitto, passando per la ricostruzione di una capanna di carbonai. Successivamente, il percorso si snoda attraverso il "Sentiero dei Molini", costeggiando l''acquedotto Bolla del Conte Piero e i ponti. Raggiungeremo gli antichi mulini di Cima, Mezza e Rotone prima di ritornare a Castagneto Carducci. Ricorda, durante la ricerca delle geocache, segna gli indizi, ti serviranno alla fine!</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>Questo è un percorso di <strong>difficoltà media</strong>, adatto a escursionisti con una resistenza media. La <strong>distanza totale è di 15.05 km</strong> con un <strong>dislivello di 617 metri</strong>.  Nonostante la salita iniziale, il percorso non è particolarmente faticoso.  Considera che parte del percorso non è segnato ed in alcuni tratti si è dovuto tagliare tra i boschi per facilitare la ricerca delle geocache.  Porta con te acqua e snack, soprattutto se prevedi di affrontare l''intera durata del percorso.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>Sarà disponibile una <strong>traccia GPS</strong> per questo percorso. La <strong>durata stimata dell''escursione è di 8 ore di cammino e 4 ore in mountain bike</strong>.  È consigliabile indossare scarpe da trekking e abbigliamento adatto alla montagna.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+  <li><strong>Distanza:</strong> Circa 15.05 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 617 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Centro di Castagneto Carducci, Castagneto Carducci, Toscana</li>
+  <li><strong>Comune:</strong> Castagneto Carducci, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Durante l’<b>escursione</b>, potrai ammirare panorami superbi dalla vedetta antincendio di Poggio Carpineta, esplorare la ricostruzione di una capanna di carbonai a Capo di Monte e attraversare luoghi suggestivi come l''acquedotto Bolla del Conte Piero e i ponti « Ponte Lungo di Sopra e di Sotto ».  Questo <b>sentiero</b> è un''occasione unica per vivere un’esperienza autentica di <b>natura</b> in **Ligure**.</p>
-
-<h3>Informazioni Utili</h3>
-
-<p>Il percorso include la visita ai mulini di Cima, Mezza e Rotone, e permette di rinfrescarsi alla fonte d''acqua potabile situata lungo il cammino.  L’<b>itinerario</b> è particolarmente adatto a chi cerca una <b>trekking</b> divertente e stimolante, magari in compagnia di amici o appassionati di <b>geocaching</b>.  Ricorda di portare con te acqua, snack e scarpe da trekking adatte, soprattutto se scegli di affrontare il percorso in mountain bike.  Non dimenticare di controllare le previsioni meteo prima di partire e di segnalare la tua presenza ai tuoi contatti.  La ricerca delle <b>geocache</b> arricchirà la tua giornata con un''attività stimolante e divertente!</p>
-
-<p>Esplora le bellezze del territorio di <b>Castagneto Carducci</b> e <b>Sassetta</b> con questa suggestiva <b>escursione</b>! </p>',
+<p>Non dimenticare di seguire le indicazioni per la ricerca delle geocache e di lasciare i luoghi come li hai trovati!</p>',
   'Tutte le Attività e Paesi',
   15.05,
   617,

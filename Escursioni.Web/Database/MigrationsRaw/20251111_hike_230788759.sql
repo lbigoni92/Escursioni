@@ -7,26 +7,38 @@ VALUES (
   230788759,
   'Passo Pordoi, Rifugio Forcella Pordoi e Piz Boe da Passo Pordoi (via normale)',
   'Itinerario ad anello con partenza da Passo Pordoi che sale alla Forcella Pordoi e raggiunge la vetta del Piz Boè, con rientro passando dal Rifugio Boè. Percorso molto panoramico sulla Marmolada, sul Gruppo del Sella e sulla Val di Fassa. Fondo in prevalenza detritico in quota, con brevi tratti attrezzati; richiesti passo sicuro e un minimo di abitudine ai terreni ripidi. Sequenza dei punti toccati: Passo Pordoi (0,2 km) Rifugio Forcella Pordoi (2,6 km) Piz Boè (4,6 km) Rifugio Boè (5,6 km) Dalla partenza si segue il sentiero ben segnato che risale il vallone verso la Forcella Pordoi. La salita è costante ma regolare, molto frequentata, con ampi scorci già durante l’ascesa. Raggiunta la forcella, breve sosta al rifugio e poi si prosegue verso il bivio: prendendo a destra si affronta la salita finale al Piz Boè. Sono circa 200 metri di dislivello su traccia evidente, con qualche passaggio su roccette e tratti attrezzati facili, mai troppo esposti. In vetta (3.152 m) il panorama è amplissimo. La discesa avviene per la via normale verso il Rifugio Boè: inizialmente su terreno detritico, con brevi passaggi attrezzati semplici. Dal rifugio si rientra verso la Forcella Pordoi e si imbocca la discesa nel canalone: tratto ripido su ghiaioni e zig-zag, da percorrere con attenzione per la presenza di sassi mobili. Superato questo segmento, il sentiero torna più comodo fino a chiudere l’anello al passo. Tempo impiegato: circa 6 ore e 40 minuti complessivi. Percorso consigliato a escursionisti con un minimo di esperienza su terreni ripidi e detritici.',
-  '<h2>Passo Pordoi, Rifugio Forcella Pordoi e Piz Boe da Passo Pordoi (via normale) - Trekking in Trentino</h2>
+  '<h2 id="escursione-passo-pordoi-rifugio-forcella-pordoi-e-piz-boe">Escursione al Passo Pordoi, Rifugio Forcella Pordoi e Piz Boè</h2>
 
-<h3>Il percorso di trekking e l''escursione in montagna</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa fantastica escursione è il Passo Pordoi, facilmente raggiungibile in auto o con i mezzi pubblici da Canazei o Campitello di Fassa. Il parcheggio all''arrivo del funivia è il punto di partenza ideale per iniziare il sentiero.</p>
 
-<p>Preparati a un''incredibile <strong>escursione in Trentino</strong> sul famoso <strong>Passo Pordoi</strong>, un vero gioiello per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>. Questo itinerario ad anello, considerato una delle migliori <strong>gite in montagna</strong>, ti porterà alla maestosa <strong>Forcella Pordoi</strong> e alla vetta del <strong>Piz Boe</strong>, con una spettacolare vista sulla Marmolada, il Gruppo del Sella e la Val di Fassa.  Un''esperienza di <strong>trekking</strong> indimenticabile per chi cerca una <strong>gita a piedi</strong> in un ambiente naturale unico.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Partendo dal Passo Pordoi, il sentiero si snoda in salita attraverso il vallone verso la Forcella Pordoi, offrendo già durante l''ascesa ampi scorci sulla Marmolada e sul Gruppo del Sella. Raggiunta la forcella, facciamo una breve sosta al Rifugio Forcella Pordoi e proseguiamo verso il bivio. Prendendo a destra, affrontiamo la salita finale al Piz Boè, con circa 200 metri di dislivello su traccia evidente e qualche passaggio su roccette e tratti attrezzati facili. In vetta, il panorama è semplicemente mozzafiato! La discesa avviene per la via normale verso il Rifugio Boè, con tratti detritici e brevi passaggi attrezzati. Infine, rientriamo verso la Forcella Pordoi e scendiamo nel canalone, un tratto ripido su ghiaioni e zig-zag da affrontare con attenzione, per poi ritrovare il sentiero comodo che chiude l''anello al Passo Pordoi.</p>
 
-<h3>Cosa aspettarsi durante l''escursione</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà <strong>Media</strong>. Richiede un minimo di esperienza su terreni ripidi e detritici. La distanza totale è di circa <strong>10.54 km</strong> con un dislivello di <strong>+962 m</strong>. Il tempo stimato per completare l''anello è di circa <strong>6 ore e 40 minuti</strong>. È importante indossare scarpe da trekking adatte e portare con sé acqua, cibo e abbigliamento adeguato.</p>
 
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
 <ul>
-  <li>Un percorso ad anello di circa 14 km, con un dislivello totale di 850 metri, perfetto per un''<strong>escursione di un giorno</strong>.</li>
-  <li>Fondo prevalentemente detritico in quota, con brevi tratti attrezzati che richiedono un minimo di abitudine ai terreni ripidi.</li>
-  <li>Panorami mozzafiato sulla Marmolada, il Gruppo del Sella e sulla Val di Fassa – un''occasione unica per ammirare la bellezza della <strong>montagna italiana</strong>.</li>
-  <li>Una <strong>gita a piedi</strong> di circa 6 ore e 40 minuti, ideale per un''escursione di media difficoltà.</li>
+    <li><strong>Distanza:</l> Circa 10.54 km (anello)
+    <li><strong>Dislivello:</l> Circa 962 metri
+    <li><strong>Difficoltà:</l> Media
+    <li><strong>Periodo consigliato:</l> Primavera, Estate, Autunno
+    <li><strong>Punto di partenza:</l> Passo Pordoi (accessibile in auto / a piedi)
+    <li><strong>Comune:</l> Passo Pordoi, Provincia di Trento, Regione Trentino-Alto Adige
+    <li><strong>Tipo di sentiero:</l> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni utili per l''escursione sul Piz Boe</h3>
-
-<p>Il sentiero è ben segnalato e segue il vallone verso la <strong>Forcella Pordoi</strong>, con una salita costante ma regolare e molto frequentata. Raggiunta la forcella, puoi fare una breve sosta al rifugio e poi proseguire verso il bivio. La salita finale al <strong>Piz Boe</strong> (3.152 m) è di circa 200 metri di dislivello, su traccia evidente, con alcuni passaggi su roccette e tratti attrezzati facili.  In vetta, il panorama è amplissimo e offre una vista a 360 gradi sulla regione. La discesa, verso il <strong>Rifugio Boè</strong>, inizialmente è su terreno detritico, con brevi passaggi attrezzati semplici.  Attenzione al tratto ripido su ghiaioni e zig-zag, da percorrere con cautela per la presenza di sassi mobili. Questa <strong>escursione a piedi</strong> è consigliata a escursionisti con un minimo di esperienza su terreni ripidi e detritici.</p>
-
-<p>Questo <strong>sentiero di trekking</strong> è un''ottima scelta per chi cerca un''avventura in montagna, una <strong>gita escursionistica</strong> in Trentino e un''esperienza indimenticabile sul <strong>Piz Boe</strong>.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 10.54 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 962 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Passo Pordoi (accessibile in auto / a piedi)</li>
+    <li><strong>Comune:</strong> Passo Pordoi, Provincia di Trento, Regione Trentino-Alto Adige</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.54,
   962,

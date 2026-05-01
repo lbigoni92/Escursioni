@@ -7,30 +7,39 @@ VALUES (
   97809994,
   'Direttissima Moriglione di Penna - Monte Penna',
   'Direttissima verso il Moriglione di Penna. Il percorso è classificato come sentiero EE e presenta alcuni punti "leggermente esposti" non consigliabile a chi soffre di vertigini. Se dev''essere onesto non è stata faticoso per la salita ma lo è stato nella discesa considerando che si scivolava per il terreno secco. Il panorama merita sicuramente ve lo consiglio. Molto bella la salita, ci si deve aiutare obbligatoriamente con le mani, con degli scorci davvero carini, meglio se vi portate dei guanti con le dita non coperte. La discesa è stata impegnativa e si procedeva molto lentamente in quanto le rocce erano abbastanza appuntite, si cammina su roccia e no su terreno, percorso non adatto a chi è alle prime esperienze. Tempo in movimento 3.5 ore ma fattibile anche in meno.',
-  '<h2>Direttissima Moriglione di Penna - Monte Penna: Trekking e Escursione in Montagna</h2>
+  '<h2 id="direttissima-moriglione-penna-monte-penna">Escursione al Monte Penna – Direttissima Moriglione di Penna</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa escursione si trova a <strong>San Cerbone</strong>, in provincia di <strong>Toscana</strong>. Per raggiungere il punto di partenza è consigliabile arrivare in auto, facilmente accessibile tramite strada. Da San Cerbone, seguirà segnaletica per il sentiero di partenza.</p>
 
-<p>Questa <strong>direttissima</strong> vi porterà direttamente al magnifico <strong>Moriglione di Penna</strong>, un''escursione impegnativa ma ricca di soddisfazioni.  Il sentiero EE si snoda attraverso il cuore della <strong>Montagna Maggiore</strong>, offrendo un''esperienza di <strong>trekking</strong> autentica e immersiva nella <strong>natura</strong> italiana.  Preparatevi a una salita intensa e a una discesa tecnica, un''occasione unica per scoprire panorami mozzafiato e la bellezza selvaggia del territorio.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questa escursione è una <strong>direttissima</strong> che conduce al <strong>Moriglione di Penna</strong>. Il sentiero, classificato come sentiero EE, inizia con una salita ripida, ben tracciata, che presenta alcuni punti “leggermente esposti” che non sono consigliabili a chi soffre di vertigini. La prima parte è piuttosto faticosa, ma la salita è compensata dalla bellezza del panorama.  La seconda parte, la discesa, è decisamente più impegnativa, con tratti rocciosi e appuntiti che richiedono attenzione e un passo sicuro. La salita è costellata di scorci incantevoli, dove è consigliabile avere con sé dei guanti con le dita non coperte per facilitare la progressione. L''intera escursione, di circa 6,68 km, si svolge in ambiente montano, offrendo un panorama mozzafiato.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è considerata <strong>difficile</strong> a causa del dislivello di 600 metri e dei tratti esposti e rocciosi. Non è consigliata a chi è alle prime armi o a chi soffre di vertigini.  È fondamentale indossare scarpe da trekking adatte e portare con sé acqua e snack.  La durata dell''escursione è di circa 3.5 ore, ma può variare a seconda del passo e delle condizioni meteorologiche. Si consiglia di indossare abbigliamento adeguato e di portare con sé una mappa e una bussola o un dispositivo GPS.</p>
 
-<p>Il <strong>sentiero</strong> è classificato come EE, il che significa che presenta alcune difficoltà.  Ci sono alcuni tratti con pendenze e alcuni punti con esposizione, non consigliati a chi soffre di <strong>vertigini</strong>. La salita, anche se impegnativa, non è eccessivamente faticosa, mentre la discesa, a causa del terreno roccioso e secco, può risultare più lenta e richiedere attenzione.  Questo <strong>trekking</strong> in montagna è un''esperienza intensa che vi metterà alla prova, ma che vi ricompenserà con panorami indimenticabili.</p>
-
-<p>È importante notare che il percorso è prevalentemente su <strong>roccia</strong>, con tratti dove è necessario utilizzare le mani per garantire la sicurezza.  Si consiglia vivamente di portare con sé dei <strong>guanti</strong> per proteggere le mani durante la salita. La discesa, in particolare, richiede attenzione e un buon equilibrio, data la natura appuntita delle rocce.</p>
-
-<h3>Informazioni Utili</h3>
-
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>La traccia GPS per questa escursione è disponibile a valle di una ricerca online con le parole chiave "traccia GPS Moriglione Penna". Vi consiglio di scaricare la traccia GPS sul vostro dispositivo GPS o smartphone prima di partire. Per quanto riguarda le informazioni pratiche, vi riassumo i dati chiave:</p>
 <ul>
-  <li><b>Difficoltà:</b> EE (Escursionistico)</li>
-  <li><b>Distanza:</b> Circa 6 km (andata e ritorno)</li>
-  <li><b>Tempo di percorrenza stimato:</b> 3.5 - 4.5 ore (a seconda del ritmo)</li>
-  <li><b>Dislivello:</b> Circa 600 metri</li>
-  <li><b>Periodo consigliato:</b> Estate/Autunno (verificare condizioni meteo)</li>
-  <li><b>Equipaggiamento consigliato:</b> Scarpe da trekking, zaino, acqua, snack, cappello, crema solare, guanti (consigliati), kit di primo soccorso</li>
+    <li><strong>Distanza:</strong> Circa 6.68 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 600 metri</li>
+    <li><strong>Difficoltà:</strong> Difficile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> San Cerbone, Toscana, Italia</li>
+    <li><strong>Comune:</strong> San Cerbone</li>
+    <li><strong>Regione:</strong> Toscana</li>
 </ul>
 
-<p>Questa <strong>escursione in sentiero</strong> è una splendida opportunità per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> nella <strong>Montagna Maggiore</strong>.  Non perdete l''occasione di ammirare il <strong>panorama</strong> mozzafiato del <strong>Monte Penna</strong> e del <strong>Moriglione</strong>. Ricorda, la sicurezza è fondamentale: valuta attentamente le tue capacità e le condizioni del sentiero prima di partire.  Un''esperienza da non perdere per chi cerca <strong>sentieri Italia</strong> autentici.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="informazioni-utili-distanza">Distanza:</strong> Circa 6.68 km (anello)</li>
+    <li><strong id="informazioni-utili-dislivello">Dislivello:</strong> Circa 600 metri</li>
+    <li><strong id="informazioni-utili-difficoltà">Difficoltà:</strong> Difficile</li>
+    <li><strong id="informazioni-utili-periodo">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="informazioni-utili-punto-di-partenza">Punto di partenza:</strong> San Cerbone, Toscana, Italia</li>
+    <li><strong id="informazioni-utili-comune">Comune:</strong> San Cerbone, Toscana</li>
+    <li><strong id="informazioni-utili-tipo-sentiero">Tipo di sentiero:</strong> Sentiero EE</li>
+</ul>',
   'Tutte le Attività e Paesi',
   6.68,
   600,

@@ -7,40 +7,49 @@ VALUES (
   88150266,
   'Quercianella - Montenero - Castellaccio',
   'Escursione impegnativa ma molto bella il tratto da Quercianella a Montenero passa per il sentiero chiamato Tsunami, molto ripido e cisi deve aiutare con una corda. Al km 14.7 consiglio di tirare a dritto senza passare sul fuori sentiero, l''allungate per niente, siamo passati da degli arbusti e in mezzo al fitto di un bosco non è niente di che . Per il resto il sentiero è molto bello da fare in giornata, consiglio di portare il pranzo e merenda. Mnumenti storici: - Monumento a Ciano km 10.2 - Santuario di Montenero km 12.6 - Monumento ai caduti km 14.3 vi sono delle fontanelle a Montenero verso il km 12.6/12.7 una in piazza e una poco più aventi su una salita. Usate scarpe adeguate. vi sono 2 fontanelle Per il resto lasciate un commento e buon trek!',
-  '<h2>Quercianella - Montenero - Castellaccio: Trekking Impegnativo nella Montagna Ligure</h2>
+  '<h2 id="escursione-quercianella-montenero-castellaccio">Escursione Quercianella - Montenero - Castellaccio</h2>
 
-<h3>Il Percorso: Escursione di Trekking a Montenero</h3>
-<p>
-Se stai cercando un''<strong>escursione in montagna</strong> che metta alla prova la tua resistenza e ti regali panorami mozzafiato, il trekking Quercianella - Montenero - Castellaccio è la scelta giusta. Questo sentiero, parte di un percorso più ampio, ti condurrà attraverso la splendida regione ligure, immerso nella <strong>natura incontaminata</strong>. La <strong>trekking</strong> da Quercianella a Montenero è una sfida, ma la ricompensa è un''esperienza indimenticabile.
-</p>
-<p>
-Il percorso, noto come sentiero Tsunami, è caratterizzato da una pendenza significativa e richiede una buona preparazione fisica. In alcuni tratti, l''utilizzo di una corda sarà necessario per superare le sezioni più ripide.  Approfitta di questa <strong>escursione sentiero</strong> per ammirare la bellezza del paesaggio e la flora e la fauna locale.
-</p>
+<p>Amici escursionisti, preparatevi a una giornata indimenticabile! Questo anello da 21.26 km vi porterà attraverso paesaggi mozzafiato, da Quercianella a Montenero e Castellaccio, un''escursione che vi metterà alla prova ma che ne varrà assolutamente la pena.</p>
 
-<h3>Cosa Aspettarsi: Sfide e Panorami Incredibili</h3>
-<p>
-Preparati a una <strong>trekking</strong> impegnativa, ma estremamente gratificante. Il sentiero presenta diverse pendenze ripide e tratti rocciosi, quindi è fondamentale indossare scarpe da trekking adatte e avere una buona preparazione fisica.  L''<strong>escursione</strong> richiede un minimo di esperienza in <strong>trekking</strong> e conoscenza delle tecniche di base.  Porta con te acqua, cibo e abbigliamento adeguato alle condizioni meteorologiche.
-</p>
-<p>
-Durante l''escursione, avrai l''opportunità di ammirare panorami spettacolari sulla costa ligure e sulle montagne circostanti.  Non mancheranno punti di interesse storico-culturale, tra cui monumenti, santuari e fontanelle.  Questo <strong>sentiero Italia</strong> offre un''esperienza autentica nel cuore della natura.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Informazioni Utili: Dettagli del Sentiero</h3>
+<p>Il punto di partenza è a Quercianella, facilmente raggiungibile in auto. Da lì, seguite le indicazioni per il sentiero Tsunami, che vi condurrà verso Montenero.</p>
+
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>Il sentiero, soprannominato "Tsunami", è un tratto molto impegnativo e ripido che richiede l''utilizzo di una corda per alcune sezioni. All''inizio è un percorso piuttosto tecnico, con passaggi stretti e scivolosi. Dopo circa 14.7 km, dovrete fare attenzione a non allungare troppo le gambe, seguendo il consiglio di non passare fuori sentiero e di evitare di attraversare arbusti e boschi fitti. Una volta superata questa fase, il sentiero si fa più agevole, offrendo panorami spettacolari. Visiterete anche monumenti storici come il Monumento a Ciano (km 10.2), il Santuario di Montenero (km 12.6) e il Monumento ai Caduti (km 14.3), oltre alle fontanelle presenti a Montenero.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>Questa escursione è classificata come <strong>Media</strong>, a causa del tratto più ripido e tecnico del sentiero "Tsunami". È fondamentale essere in buona forma fisica, avere una scarpa adeguata e, se necessario, utilizzare una corda per alcune salite. Ricordate che è importante rispettare l''ambiente e seguire le indicazioni del sentiero.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>Vi consiglio di scaricare una traccia GPS per guidarvi durante l''escursione. Ecco le informazioni pratiche:</p>
+
 <ul>
-    <li><strong>Difficoltà:</strong> Impegnativa</li>
-    <li><strong>Distanza:</strong> Circa 14.7 km (da Quercianella a Montenero)</li>
-    <li><strong>Dislivello:</strong> Circa 900 metri</li>
-    <li><strong>Punti di Interesse:</strong></li>
-        <ul>
-            <li>Monumento a Ciano (km 10.2)</li>
-            <li>Santuario di Montenero (km 12.6)</li>
-            <li>Monumento ai Caduti (km 14.3)</li>
-            <li>Fontanelle a Montenero (km 12.6/12.7)</li>
-        </ul>
-    <li><strong>Consigli:</strong> Indossare scarpe da trekking adeguate, portare acqua e cibo, verificare le condizioni meteorologiche.</li>
+    <li><strong>Distanza:</strong> Circa 21.26 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 695 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Quercianella (accessibile in auto/a piedi)</li>
+    <li><strong>Comune:</strong> Quercianella, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
-<p>
-Ricorda di rispettare l''ambiente durante la tua <strong>trekking</strong> e di lasciare il sentiero come lo hai trovato.  Condividi la tua esperienza sui nostri forum e lascia un commento!  Pianifica la tua prossima <strong>escursione sentiero</strong> con noi!</p>',
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 21.26 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 695 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Quercianella (accessibile in auto/a piedi)</li>
+    <li><strong>Comune:</strong> Quercianella, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>
+
+</body>',
   'Tutte le Attività e Paesi',
   21.26,
   695,

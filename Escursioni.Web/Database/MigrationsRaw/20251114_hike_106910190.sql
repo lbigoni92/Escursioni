@@ -7,22 +7,46 @@ VALUES (
   106910190,
   'Orrido di Botri',
   'Percorso molto bello, la traccia.. m''ero scordato di chiuderla e quindi bhe... ha registrato fino a metà tragitto per casa, il percorso per il suo totale sono 8 KM. Molto facile lo consiglio a chiunque abbia una buona mobilitazione. La. Senzazione più bella mi è stata data dal fatto che l''ho fatto di Luglio, c''erano 18 gradi e il fresco dell'' acqua ai piedi faceva tornare in forze. Il percorso è lungo un fiume e ci si bagna i piedi fino ai polpacci o fino alla vita dipende da quanto è in piena il fiume, quando sono andato io era abbastanza in secca. E'' possibile farlo con visite guidate(22 a testa) o in autonomia (GRATUITO ma prenotate). Lo consiglio anche se ora hanno interrotto l''ultimo tratto "la piscina"',
-  '<h2>Orrido di Botri: Trekking e Escursione nel Cuore del Parco Nazionale d''Abruzzo, Lazio e Molise</h2>
+  '<h2 id="escursione-orrido-di-botri">Escursione all''Orrido di Botri</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo fantastico <strong>sentiero di trekking</strong> nel <strong>Orrido di Botri</strong>, situato nel cuore del <strong>Parco Nazionale d''Abruzzo, Lazio e Molise</strong>, è un''esperienza indimenticabile per gli amanti della <strong>natura</strong> e del <strong>trekking</strong>. Il percorso di circa <strong>8 km</strong> segue il corso del fiume, offrendo panorami mozzafiato e la possibilità di immergersi nella frescura dell''acqua. L''escursione, accessibile a tutti, è ideale per una giornata di <strong>escursione</strong> in <strong>montagna</strong>, perfetta per chi cerca un''esperienza di <strong>trekking</strong> facile e piacevole.</p>
+<p>Amici escursionisti, volevo raccontarvi una delle mie ultime avventure: un''escursione davvero speciale all''Orrido di Botri, un luogo incantevole nel cuore della Toscana! Questo sentiero è perfetto per chi cerca un''esperienza facile e immersiva nella natura, con la possibilità di rinfrescarsi con un tuffo rinfrescante.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+
+<p>Il punto di partenza per l''escursione all''Orrido di Botri si trova a Pracchi, un piccolo comune nella provincia di Pisa.  È facilmente raggiungibile in auto e poi si prosegue a piedi per circa 2 km lungo un sentiero sterrato.  L''ultimo tratto è percorribile anche con mezzi pubblici, ma controllate gli orari degli autobus.  Il parcheggio vicino al punto di partenza è limitato, quindi meglio arrivare in anticipo o con mezzi pubblici.</p>
+
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>Il sentiero che conduce all''Orrido di Botri segue il corso del fiume Cecina, un affascinante percorso lungo circa 8 km (solo una parte, il percorso completo è di 66.44 km). Il sentiero è prevalentemente pianeggiante e facile, adatto a persone con una buona mobilità. Il tratto più suggestivo è quello dove si affaccia sull''orrido, con le sue pareti rocciose e la cascata.  Preparatevi a bagnare i piedi o le ginocchia, a seconda del livello dell''acqua!</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>Questa escursione è classificata come di difficoltà MEDIA. La distanza è di circa 6 km (solo andata) e il dislivello è di +786 metri.  È un percorso ben segnalato, adatto a escursionisti di livello base e famiglie.  L''orografia del percorso è in gran parte pianeggiante, ma ci sono alcuni tratti in salita e discesa.  È importante indossare scarpe da trekking adatte e portare con sé acqua e snack.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>Per scaricare la traccia GPS di questo sentiero, potete utilizzare le app di navigazione outdoor.  Ecco alcune informazioni pratiche utili per la vostra escursione:</p>
 <ul>
-    <li>Un percorso di circa <strong>8 km</strong>, adatto a tutti i livelli di preparazione fisica.</li>
-    <li>Un''esperienza di <strong>trekking</strong> immersa nella natura selvaggia del <strong>Parco Nazionale d''Abruzzo, Lazio e Molise</strong>.</li>
-    <li>La possibilità di <strong>fare il bagno nei piedi</strong>, godendo della frescura dell''acqua e della natura incontaminata.</li>
-    <li>Un''escursione di <strong>trekking</strong> con panorami spettacolari sull''<strong>orrido</strong> e sulle montagne circostanti.</li>
+    <li><strong>Distanza:</</strong> 6 km (solo andata)</li>
+    <li><strong>Dislivello:</</strong> 786 metri</li>
+    <li><strong>Difficoltà:</</strong> Media</li>
+    <li><strong>Periodo consigliato:</</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</</strong> Pracchi, raggiungibile in auto o con mezzi pubblici</li>
+    <li><strong>Comune:</</strong> Pracchi, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni Utili</h3>
-<p>Il <strong>sentiero dell''Orrido di Botri</strong> è un''ottima opzione per un''<strong>escursione</strong> di un giorno. È possibile affrontarlo in autonomia, gratuitamente, ma è consigliabile prenotare la visita guidata a <strong>22€ a persona</strong>. Il percorso è lungo un fiume e, a seconda del livello dell''acqua, si possono bagnare i piedi fino alla vita.  È importante verificare le condizioni del fiume prima di intraprendere l''<strong>escursione di trekking</strong>, in quanto il fiume può essere in piena durante i periodi di pioggia.  L''accesso all''ultimo tratto "la piscina" è stato interrotto, ma il percorso fino a questo punto rimane comunque una bellissima esperienza di <strong>trekking</strong> in <strong>montagna</strong>.</p>
-<p>Questo <strong>sentiero di trekking</strong> nel <strong>Orrido di Botri</strong> offre un''opportunità unica per esplorare la bellezza del <strong>Parco Nazionale d''Abruzzo, Lazio e Molise</strong> e godere di un''esperienza di <strong>natura</strong> e relax in <strong>montagna</strong>.  Preparatevi per una splendida giornata di <strong>trekking</strong>!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+  <li><strong>Distanza:</</strong> Circa 6 km (andata e ritorno)</li>
+  <li><strong>Dislivello:</strong> Circa 786 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Pracchi, raggiungibile in auto o a piedi</li>
+  <li><strong>Comune:</strong> Pracchi, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   66.44,
   786,

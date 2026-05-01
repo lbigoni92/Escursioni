@@ -7,33 +7,47 @@ VALUES (
   137174146,
   'Parole d''oro Zano',
   'breve camminata mattutina. Percorso molto semplice che segue anche la vvf. Il conico Monte Zano è caratteristico sfondo del paese di Vorno. Sulla cima fa spicco una gran croce, che di notte viene illuminata.',
-  '<h2>Parole d''Oro Zano – Trekking e Escursioni a Vorno</h2>
+  '<h2 id="escursione-parole-doro-zano">Escursione alle Parole d''Oro Zano da Vorno</h2>
 
-<h3>Il Percorso</h3>
 <p>
-La camminata alle <strong>Parole d''Oro Zano</strong> è un''opportunità perfetta per un’escursione mattutina nella splendida regione della **Toscana**. Questo <strong>sentiero di trekking</strong>, ideale per chi cerca una <strong>passeggiata facile</strong>, si snoda attraverso un paesaggio montano mozzafiato, offrendo panorami unici sul paese di **Vorno**. Il percorso è stato studiato per essere accessibile a tutti, seguendo anche la Via Vie Francigene, una strada di pellegrinaggio storica, e perdersi tra le meraviglie della **natura toscana**. La difficoltà è bassa, rendendolo un’ottima scelta per una <strong>escursione in famiglia</strong> o per chi è alle prime armi con il <strong>trekking**.  Il sentiero conduce direttamente alla cima del <strong>Monte Zano</strong>, un luogo ricco di storia e bellezza naturale.
+  Volete iniziare la giornata con una bella escursione? L''escursione alle Parole d''Oro Zano è un''ottima scelta! Si tratta di un anello di circa 9.4 km che vi porterà a scoprire panorami mozzafiato e a godervi la tranquillità del borgo di Vorno. 
 </p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="come-arrivare-punto-partenza">Come Arrivare al Punto di Partenza</h3>
+
 <p>
-Preparati a immergerti in un’atmosfera di pace e tranquillità mentre ti inoltri nel cuore della **montagna**. La <strong>escursione alle Parole d''Oro Zano</strong> ti regalerà la possibilità di ammirare un panorama spettacolare, con il <strong>Conico Monte Zano</strong> come sfondo e il pittoresco paese di **Vorno** che si distende ai suoi piedi.  Durante il percorso, potrai goderti il profumo dei pini e delle macchie di lecci, ascoltando il canto degli uccelli e respirando l''aria fresca della **montagna**. Un’esperienza indimenticabile per gli amanti del <strong>trekking** e della **natura**.  La <strong>passeggiata</strong> è perfetta per ammirare i primi raggi del sole e godersi la bellezza del paesaggio toscano.
+  Il punto di partenza per questa bella escursione è il borgo di Vorno, facilmente raggiungibile in auto o con i mezzi pubblici. Da Vorno, seguiamo la strada che conduce al Monte Zano e poi il sentiero che inizia a salire. Non è necessario utilizzare l''auto per raggiungere il punto di partenza, è ben servito dai mezzi pubblici.
 </p>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><b>Difficoltà:</b> Facile</li>
-    <li><b>Distanza:</b> Circa 3 km (andata e ritorno)</li>
-    <li><b>Dislivello:</b> 200 metri</li>
-    <li><b>Tempo di percorrenza:</b> 1 – 1,5 ore</li>
-    <li><b>Punto di partenza:</b> Vorno</li>
-    <li><b>Punto di arrivo:</b> Cima del Monte Zano</li>
-    <li><b>Caratteristiche:</b> Sentiero ben segnalato, vista panoramica su Vorno e sul Monte Zano, presenza di una grande croce illuminata di notte. Ideale per un''<strong>escursione di un giorno</strong> in <strong>Toscana</strong>.</li>
-    <li><b>Tipo di attività:</b> Trekking, Escursione, Sentieri Italia</li>
-</ul>
+<h3 id="il-percorso-passo-passo">Il Percorso Passo per Passo</h3>
 
 <p>
-Non perdere l’opportunità di scoprire le <strong>Parole d''Oro Zano</strong>, un’esperienza unica nel suo genere per gli amanti del <strong>trekking** e della **natura**.  Organizza la tua <strong>escursione</strong> a **Vorno** e lasciati incantare dalla bellezza di questo <strong>sentiero di montagna**!
-</p>',
+  Il sentiero è inizialmente in salita, ma ben battuto e facilmente percorribile. Seguiremo il sentiero che ci porterà in vetta al Monte Zano, ammirando il panorama sulla valle di Vorno. Il sentiero è un ottimo sentiero escursionistico, adatta anche ai principianti. Lungo il percorso potrete ammirare la vegetazione lussureggiante e i diversi panorami. La gran croce sulla cima del Monte Zano offre una vista spettacolare.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>
+  Questa escursione è di difficoltà medio, con un dislivello di 414 metri. La distanza totale è di circa 9.4 km, quindi preparatevi ad una camminata di circa 3-4 ore. È importante indossare scarpe da trekking adatte e portare con sé acqua, snack e una mappa. L''escursione è consigliata per la primavera, l''estate e l''autunno.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>
+  La traccia GPS di questa escursione è disponibile online e può essere utile per orientarsi lungo il sentiero.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong>Distanza:</strong> Circa 9.4 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 414 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Vorno (accessibile in auto / a piedi)</li>
+  <li><strong>Comune:</strong> Guamo, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   9.4,
   414,

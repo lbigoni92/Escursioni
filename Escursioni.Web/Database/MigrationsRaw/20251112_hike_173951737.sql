@@ -7,25 +7,31 @@ VALUES (
   173951737,
   'Convento Di Nicosia, Monte Verruca e La Focetta da Caprona',
   'Percorso ad anello da Caprona passando per: - Convento Di Nicosia (2.1 km) - Fonte di Sant''Agata (2.4 km) - Monte Verruca (5.0 km) - La Focetta (8.1 km) Il Sentiero, passa sia dalla “Torre degli Upezzinghi" conosciuta anche come "torre di Caprona", caratteristica della zona in quanto costruita sullo sperone roccioso del monte che sovrasta il paese di Caprona sia dalla fortezza vicina conosciuta come, come la Rocca della Verruca. Il percorso è abbastanza facile da seguire anche se c''è qualche roccetta a cui prestare attenzione in vari tratti, specialmente nella salita alla Verruca, si deve prestare attenzione in caso di pioggia. I sentieri sono sempre abbastanza larghi e in alcuni tratti si piò camminare affiancati. Non ci sono fontanelle se non un paio nei primi 2 km ma nel nostro caso erano in secca, non prestateci troppo affidamento. Senieri: 143-139-La Focetta-145-139-arrivo -139 -focetta-strada bianca',
-  '<h2>Convento Di Nicosia, Monte Verruca e La Focetta da Caprona: Trekking in Toscana</h2>
+  '<h2 id="escursione-convento-di-nicosia-monte-verruca-e-la-focetta-da-caprona">Escursione al Convento Di Nicosia, Monte Verruca e La Focetta da Caprona</h2>
 
-<h3>Il Percorso: Un Anello da Capitolo Storico</h3>
-<p>Questo <strong>trekking</strong> in Toscana vi condurrà attraverso un percorso ad anello mozzafiato, partendo da <strong>Caprona</strong> e toccando alcuni dei luoghi più iconici della zona.  L''<strong>escursione</strong>, di circa 8.1 km, è pensata per appassionati di <strong>trekking</strong> e <strong>sentieri</strong> che desiderano immergersi nella natura selvaggia della <strong>montagna toscana</strong>. Il percorso offre panorami spettacolari sul paesaggio collinare e sulle cime rocciose, un''esperienza indimenticabile per chi ama l''<strong>escursionismo</strong> in <strong>Italia</strong>. La difficoltà è media, con qualche tratto roccioso da affrontare, quindi è consigliabile indossare scarpe da trekking adatte.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa fantastica escursione è a <strong>Caprona</strong>, un piccolo borgo incastonato nel cuore della <strong>Toscana</strong>. Raggiungere Caprona è relativamente semplice: potete arrivare in auto tramite strada statale oppure, per un''esperienza più immersiva, con un breve tratto di cammino dal paese. Una volta arrivati a Caprona, seguite le indicazioni per il sentiero di partenza, facilmente riconoscibile grazie ai cartelli escursionistici.</p>
 
-<h3>Cosa Aspettarsi: Natura, Storia e Viste Panoramiche</h3>
-<p>Preparatevi a una giornata all''aria aperta tra la storia e la bellezza della natura. Il <strong>sentiero</strong> vi porterà attraverso il complesso monastico del <strong>Convento Di Nicosia</strong>, un luogo di grande interesse storico e architettonico. Ammirerete la <strong>Fonte di Sant''Agata</strong>, un''oasi di quiete e un''importante risorsa idrica per la zona. La salita al <strong>Monte Verruca</strong> vi ricompenserà con una vista a 360 gradi sulla campagna toscana. Infine, arriverete a <strong>La Focetta</strong>, un piccolo borgo alle pendici della <strong>Rocca della Verruca</strong>, dove potrete concludere la vostra <strong>escursione</strong> con una meritata pausa.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Quest''escursione ad anello di <strong>11.12 km</strong> vi porterà attraverso paesaggi mozzafiato, con un dislivello di <strong>+585 metri</strong>. Il percorso inizia da Caprona e segue il <strong>sentiero</strong> che vi condurrà prima al <strong>Convento Di Nicosia</strong> (2.1 km), un luogo ricco di storia e fascino. Da lì, proseguirete verso la <strong>Fonte di Sant''Agata</strong> (2.4 km), una sosta rinfrescante e un momento di tranquillità.  Il sentiero prosegue poi verso il <strong>Monte Verruca</strong> (5.0 km), con una salita impegnativa ma ricompensata da un panorama spettacolare. Dopo la Verruca, raggiungerete <strong>La Focetta</strong> (8.1 km), un''altra tappa caratteristica del percorso. Infine, il sentiero vi riporterà a Caprona, attraversando la <strong>Torre degli Upezzinghi</strong>, una torre medievale che domina il paese.</p>
 
-<h3>Informazioni Utili: Dettagli del Trekking</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è di difficoltà <strong>Media</strong>. Il sentiero è generalmente ben tenuto, ma presenta alcuni tratti rocciosi e salite impegnative, in particolare verso il <strong>Monte Verruca</strong>. È consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack. Prestare attenzione in caso di pioggia, quando il sentiero potrebbe diventare scivoloso.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per facilitare la vostra escursione, abbiamo incluso una traccia GPS. Ricordatevi di scaricare la traccia sul vostro dispositivo GPS o smartphone prima di partire. La distanza totale dell''escursione è di 11.12 km con un dislivello di 585 metri. Il tipo di giro è ad anello.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Distanza Totale:</b> 8.1 km</li>
-    <li><b>Dislivello:</b> Circa 450 metri</li>
-    <li><b>Difficoltà:</b> Media</li>
-    <li><b>Punti di Interesse:</b> <strong>Convento Di Nicosia</strong>, <strong>Fonte di Sant''Agata</strong>, <strong>Monte Verruca</strong>, <strong>La Focetta</strong>, <strong>Torre degli Upezzinghi</strong> (Torre di Caprona), <strong>Rocca della Verruca</strong></li>
-    <li><b>Segnavia:</b> Il <strong>sentiero</strong> è ben segnalato, con numeri di riferimento: 143-139-La Focetta-145-139-arrivo -139 -focetta-strada bianca</li>
-    <li><b>Consigli:</b> Prestare attenzione in caso di pioggia, soprattutto durante la salita al <strong>Monte Verruca</strong>. Portare con sé acqua e snack, soprattutto durante i mesi estivi.  Verificare le condizioni meteorologiche prima di partire.</li>
-</ul>
-
-<p>Questo <strong>trekking</strong> è l''occasione perfetta per scoprire la bellezza selvaggia della <strong>Toscana</strong> e vivere un''<strong>escursione</strong> indimenticabile. Organizza subito la tua avventura!</p>',
+  <li><strong>Distanza:</strong> Circa 11.12 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 585 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Caprona (accessibile in auto/a piedi)</li>
+  <li><strong>Comune:</strong> Caprona, Toscana</li>
+  <li><strong>Regione:</strong> Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.12,
   585,
@@ -54,7 +60,7 @@ VALUES (
   '5d57915de17a9fbbf5e958963a53cf2163aac3720f69da8b8061cc32e8ff82eb',
   'Escursione Caprona: Monte Verruca e Convento Di Nicosia | Anello Toscano 11km, 585m dislivello | Trekking facile/medio',
   'Monte Verruca: escursione da Caprona (anello, Toscana)',
-   'Monti Pisani',
+  'Monti Pisani',
   NOW(),
   NOW()
 )

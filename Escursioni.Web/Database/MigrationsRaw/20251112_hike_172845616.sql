@@ -7,25 +7,40 @@ VALUES (
   172845616,
   'Monte Folgorito, Passo della Cardella e Monte Focoraccia da Vietina',
   'Percorso ad anello da Vietina salendo per la via delle Fonti (spoiler: di fonti ce n''è solo una piccola). La salita è ripida ma fattibile, non abbiamo avuto alcun problema. Consiglio una sosta all''Er Punton, da cui si gode di un bel panorama. Usciti dal bosco, si incrocia il sentiero CAI che proseguiremo in direzione mare fino alla prima deviazione, che ci permetterà di raggiungere il Folgorito per la direttissima. Il Folgorito presenta una bella croce e si possono ancora vedere le trincee dei soldati: un luogo suggestivo che vale la pena visitare. Da qui abbiamo proseguito fino al monumento della Seconda Guerra Mondiale e poi dritti fino al Carchio, seguendo la sua cresta. In questo punto abbiamo lasciato il sentiero ufficiale per seguire la cresta (PER ESCURSIONISTI ESPERTI), segnata da omini di pietra. La via non presenta particolari difficoltà, se non il capire dove andare, ma ci sono alcuni tratti un po'' esposti. Il Carchio, o quel che ne rimane, non è altro che una cava, quindi abbiamo deciso di passare oltre, proseguendo in direzione Focoraccia sempre per il sentiero di cresta. Questo tratto, anche se non segnato, è facile da seguire e, salvo un piccolo tratto con un po'' di vuoto, è sempre fattibile. La vetta della Focoraccia non ha una croce, solo dei massi con il nome scritto sopra. Purtroppo, abbiamo trovato un po'' di nebbia sul lato sud. Entrambe le creste sono caratterizzate da bunker e postazioni della Seconda Guerra Mondiale, molto suggestive. Dalla Focoraccia siamo scesi costeggiando la cresta, arrivando al Passo della Focoraccia seguendo un sentiero non segnato (state attenti). Da lì abbiamo preso il sentiero 33 in direzione del Pasquilo, dove abbiamo visitato la chiesa, per poi scendere seguendo la Lizza del Tascio. Questo sentiero, che non rifarei, ci ha fatto sentire come nella foresta amazzonica. Vi consiglio di allungare il ritorno e rifare la via dell''andata.',
-  '<h2>Trekking Monte Folgorito, Passo della Cardella e Monte Focoraccia da Vietina</h2>
+  '<h2 id="escursione-monte-folgorito-passo-cardella-focoraccia-vietina">Escursione al Monte Folgorito, Passo della Cardella e Monte Focoraccia da Vietina</h2>
 
-<h3>Il Percorso – Escursione in Montagna in Trentino</h3>
-<p>Questo fantastico <strong>sentiero di trekking</strong> in <strong>Trentino</strong> vi condurrà in un''escursione indimenticabile attraverso il <strong>Monte Folgorito</strong>, il <strong>Passo della Cardella</strong> e il <strong>Monte Focoraccia</strong>, partendo dal caratteristico paese di <strong>Vietina</strong>. Preparatevi per un <strong>percorso ad anello</strong> di media difficoltà, perfetto per gli amanti del <strong>trekking</strong> e dell''esplorazione della <strong>montagna</strong> e della <strong>natura</strong> italiana.  Approfittate di questa opportunità per immergervi nella bellezza incontaminata delle Alpi e scoprire angoli nascosti ricchi di storia e suggestioni.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa escursione è a Vietina, in provincia di Toscana. Vietina è facilmente raggiungibile in auto tramite la strada provinciale. Da qui, segui le indicazioni per il sentiero di partenza, facilmente individuabile grazie a segnavia CAI.  È consigliabile arrivare con un po'' di anticipo per trovare parcheggio nei pressi del sentiero.</p>
 
-<h3>Cosa Aspettarsi – Una Giornata di Trekking tra Storia e Natura</h3>
-<p>Durante questo <strong>trekking</strong>, vi imbatterete in una varietà di paesaggi mozzafiato, da boschi rigogliosi a creste rocciose, passando per antiche trincee della Seconda Guerra Mondiale e punti panoramici spettacolari. Questo <strong>sentiero escursionistico</strong> offre un''esperienza immersiva nella <strong>natura</strong>, con la possibilità di ammirare la flora e la fauna locali e di respirare l''aria fresca e pulita delle <strong>Alpi</strong>.  L''escursione è consigliata a persone con una buona preparazione fisica e un minimo di esperienza nel <strong>trekking</strong>, in quanto presenta tratti impegnativi, soprattutto nella fase finale.  Assicuratevi di indossare abbigliamento e scarpe da trekking adeguate e di portare con voi acqua, cibo e un kit di pronto soccorso.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Partiamo da Vietina e iniziamo la salita seguendo la "via delle Fonti", un sentiero piuttosto ripido ma fattibile. La salita è la parte più impegnativa, ma non preoccuparti, non abbiamo riscontrato difficoltà. Proseguiamo fino all''Er Punton, un punto panoramico dove potrai goderti uno splendido panorama. Da qui, ci dirigeremo verso il Monte Folgorito, raggiungibile con una salita diretta. Ammira la bella croce che si trova in cima e, se possibile, esplora le trincee che testimoniano la presenza di soldati.</p>
+<p>Proseguiamo verso il monumento della Seconda Guerra Mondiale e poi, in direzione del Carchio, seguendo la sua cresta. A questo punto, il sentiero ufficiale termina e dovrai seguire la cresta (solo se sei un escursionista esperto), segnata da omini di pietra.  Superato il Carchio (ora una cava), proseguiamo in direzione della Focoraccia seguendo il sentiero di cresta, facile da seguire con qualche tratto esposto.  La vetta della Focoraccia, senza una croce, presenta dei massi con il nome inciso.</p>
+<p>Scendiamo poi costeggiando la cresta, arrivando al Passo della Focoraccia, dove potrai seguire il sentiero 33 in direzione del Pasquilo e della chiesa. Infine, scendiamo seguendo la Lizza del Tascio. Ti consiglio di allungare il ritorno e rifare la via dell''andata per goderti al meglio questa esperienza.</p>
 
-<h3>Informazioni Utili – Dettagli per un Trekking Sicuro e Appagante</h3>
-<ul>
-    <li><b>Distanza Totale:</b> Circa 18 km</li>
-    <li><b>Dislivello:</b> Circa 800 metri</li>
-    <li><b>Difficoltà:</b> Media – Adatta a escursionisti esperti</li>
-    <li><b>Tipo di Sentiero:</b> Anello</li>
-    <li><b>Punti di Interesse:</b> <strong>Monte Folgorito</strong>, <strong>Passo della Cardella</strong>, <strong>Monte Focoraccia</strong>, Er Punton (panorama),  Monumento Seconda Guerra Mondiale, Carchio (cava), Focoraccia (vetta), Bunker e postazioni della Seconda Guerra Mondiale, Chiesa al Pasquilo.</li>
-    <li><b>Consigli:</b>  Considerate una sosta all''Er Punton per godere di un panorama mozzafiato.  L''ultimo tratto verso la Focoraccia richiede esperienza e attenzione.  Il sentiero non sempre è ben segnalato, quindi è consigliabile avere una mappa e una bussola o utilizzare un GPS.  Infine, fate attenzione alla nebbia che può ridurre la visibilità.</li>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà **Media**. La salita iniziale è ripida e richiede un po'' di impegno. I tratti in cresta, pur non essendo particolarmente difficili, presentano alcuni passaggi esposti che richiedono attenzione.  La distanza totale è di circa **14.07 km** con un dislivello di **+1221 metri**. Ti consiglio di indossare scarpe da trekking adatte e di portare con te acqua, cibo e una mappa.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class=''lista-puntata''>
+  <li><strong>Distanza:</strong> Circa 14.07 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 1221 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Vietina, Toscana</li>
+  <li><strong>Comune:</strong> Vietina, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico, Mulattiera, tratti di cresta</li>
 </ul>
 
-<p>Preparatevi per un''emozionante <strong>escursione di trekking</strong> lungo il <strong>sentiero Italia</strong>, un''avventura indimenticabile nel cuore delle <strong>Alpi</strong>!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul class=''lista-puntata''>
+  <li><strong id="distanza">Distanza:</strong> Circa 14.07 km (anello)</li>
+  <li><strong id="dislivello">Dislivello:</strong> Circa 1221 metri</li>
+  <li><strong id="difficoltà">Difficoltà:</strong> Media</li>
+  <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="punto-di-partenza">Punto di partenza:</strong> Vietina, accessibile in auto</li>
+  <li><strong id="comune">Comune:</strong> Vietina, Toscana</li>
+  <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico, Mulattiera, tratti di cresta</li>
+</ul>',
   'Tutte le Attività e Paesi',
   14.07,
   1221,

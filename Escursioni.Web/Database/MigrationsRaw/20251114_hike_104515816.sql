@@ -7,31 +7,39 @@ VALUES (
   104515816,
   'Scarlino - Cala Violina',
   'Abbiamo parcheggiato a Scarlino dove il parcheggio era Gratuito e abbiamo proseguito a piedi fino ad arrivare a Cala violina la camminata è stata molto tranquilla e rilassante 10km tra andata e ritorno tutti in piano. Il percorso è ben segnalato, facile da seguire e non presenta alcuna criticità. La spiaggia di Cala violina è un Paradiso unico nel suo genere, spiaggia fine , mare cristallino e popolato da numerose specie d''animali acquatici. Abbiamo pagato 2 euro d''ingrasso.. anche se vi sono altri accessi gratuiti.... l''abbiamo scoperto dopo, abbiamo considerato la spesa di 2 euro un contributo al comune, ma ecco non è difficile aggirare i controlli.',
-  '<h2>Sentiero di Trekking Scarlino – Cala Violina: Escursione Panoramica sulla Costa Toscana</h2>
+  '<h2 id="escursione-scarlino-cala-violin">Escursione a Cala Violina da Scarlino</h2>
 
-<h3>Il Percorso: Un’Escursione di Trekking Facile verso Cala Violina</h3>
-<p>
-Immaginatevi di iniziare la vostra giornata con una fantastica <strong>escursione di trekking</strong> lungo il <strong>sentiero Scarlino – Cala Violina</strong>, un''esperienza indimenticabile che vi condurrà alla scoperta di un angolo di paradiso sulla costa toscana. Questo percorso di <strong>trekking</strong> di andata e ritorno, di circa 10 km, è perfettamente pianeggiante, rendendolo ideale per <strong>escursionisti</strong> di tutti i livelli. Il <strong>sentiero</strong> è ben segnalato, garantendo una camminata tranquilla e rilassante immersi nella natura incontaminata della <strong>montagna</strong> toscana e del suo paesaggio costiero. 
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza dell''escursione a Cala Violina da Scarlino è il parcheggio gratuito di Scarlino. Da qui, si prosegue a piedi lungo il sentiero ben segnalato che conduce alla splendida baia di Cala Violina. È un percorso facilmente raggiungibile e perfetto per una giornata di escursione!</p>
 
-<h3>Cosa Aspettarsi: Natura, Paesaggi e Relax</h3>
-<p>
-Preparatevi a vivere un''esperienza unica in questo <strong>sentiero di trekking</strong>.  La camminata è estremamente tranquilla e rilassante, offrendovi la possibilità di immergervi completamente nella bellezza della natura. Ammirerete panorami mozzafiato sulla costa toscana, le sue scogliere a picco sul mare e le acque cristalline di Cala Violina. L''ambiente è ricco di flora e fauna, con la possibilità di avvistare numerose specie di animali acquatici. Questo <strong>sentiero escursionistico</strong> è perfetto per chi cerca una giornata di relax e contatto con la natura in <strong>Italia</strong>.
-</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Il sentiero che porta a Cala Violina è un percorso di circa 10.68 km, un anello che si snoda in gran parte in piano, con un leggero dislivello di circa 249 metri. La camminata è tranquilla e rilassante, ideale per un''escursione amatoriale. Il sentiero è ben segnalato, rendendo facile il ritorno.  Godrete di un panorama mozzafiato lungo il percorso, con la vista sul mare e sulla costa toscana. La spiaggia di Cala Violina, con la sua sabbia fine e il mare cristallino, vi aspetta alla fine di questa bellissima escursione!</p>
 
-<h3>Informazioni Utili per il Vostro Trekking</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è di difficoltà media. Il sentiero è generalmente facile da seguire e non presenta ostacoli significativi.  Si consiglia di indossare scarpe da trekking adatte e di portare con sé acqua e snack. L''escursione richiede circa 3-4 ore, a seconda del ritmo e delle soste.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Potete scaricare una traccia GPS per questa escursione per seguirla durante il percorso.  Ecco alcune informazioni pratiche:</p>
 <ul>
-    <li><b>Distanza:</b> Circa 10 km (andata e ritorno)</li>
-    <li><b>Difficoltà:</b> Facile – Adatto a tutti i livelli di esperienza</li>
-    <li><b>Tempo di percorrenza:</b> Circa 3-4 ore (a seconda del ritmo)</li>
-    <li><b>Punto di partenza:</b> Scarlino (parcheggio gratuito)</li>
-    <li><b>Punto di arrivo:</b> Cala Violina – Spiaggia fine con mare cristallino</li>
-    <li><b>Segnaletica:</b> Il <strong>sentiero</strong> è ben segnalato con pannelli informativi</li>
-    <li><b>Attrezzatura consigliata:</b> Scarpe da trekking, acqua, snack, crema solare, cappello</li>
+    <li><strong>Distanza:</strong> 10.68 km (anello)</li>
+    <li><strong>Dislivello:</strong> 249 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio di Scarlino</li>
+    <li><strong>Comune:</strong> Dogana</li>
+    <li><strong>Regione:</strong> Toscana</li>
 </ul>
 
-<p>
-La spiaggia di Cala Violina, un vero e proprio paradiso, vi aspetta per un meritato riposo. La sabbia è finissima, l''acqua cristallina e la spiaggia è popolata da numerose specie di animali acquatici.  Anche se l''accesso alla spiaggia è a pagamento (circa 2 euro), consideriamo questo piccolo contributo al comune come un piccolo gesto di apprezzamento per la bellezza di questo luogo unico. Ricordatevi, però, che esistono anche altri accessi gratuiti alla spiaggia, facilmente aggirabili. Godetevi questa splendida <strong>escursione di trekking</strong> lungo il <strong>sentiero</strong> Scarlino – Cala Violina, un''esperienza che vi lascerà a cuore il ricordo di un giorno perfetto in <strong>montagna</strong> e in <strong>natura</strong>!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul>
+    <li><strong>Distanza:</strong> Circa 10.68 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 249 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio di Scarlino, accessibile in auto</li>
+    <li><strong>Comune:</strong> Dogana, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.68,
   249,

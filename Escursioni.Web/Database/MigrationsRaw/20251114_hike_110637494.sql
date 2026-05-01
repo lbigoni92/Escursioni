@@ -7,24 +7,37 @@ VALUES (
   110637494,
   'Pania verde',
   'La salita alla pania verde non presenta problemi di segnali almeno al punto in cui ci si presenta davanti una grande pietraia... Li abbiamo sbagliato e scalato la pietra presi in inganno da alcuni omini... Non fatelo.... Il percorso corretto parte dall''inizio della pietra subito a dx... E segnato male ma aggira il punto critico.Anche nel bosco la segnaletica lascia a desiderare e abbiamo trovato difficoltà a ritrovare il sentiero.Ma una volta in cresta il panorama è unico e magnifico ne vale la pena.Non abbiamo fatto un anello ma andati e tornati dal solito punto perché uno dei nostri si era fermato, ma in percorso mertita',
-  '<h2>Trekking Pania Verde: Escursione e Vista Panoramica in Montagna</h2>
+  '<h2 id="escursione-pania-verde">Escursione alla Pania Verde</h2>
 
-<h3>Il Percorso</h3>
-<p>La <strong>Pania Verde</strong>, situata in <strong>Piemonte</strong>, offre un''ottima <strong>escursione di trekking</strong> per appassionati di <strong>montagna</strong> e <strong>natura</strong>. Il sentiero, seppur non sempre ben segnalato, si snoda attraverso un paesaggio mozzafiato, perfetto per un''esperienza di <strong>trekking</strong> indimenticabile.  L''inizio del percorso, vicino alla grande pietraia, ha causato qualche imprevisto, ma la <strong>salita alla Pania Verde</strong> è ricompensata da un panorama unico.  Inizialmente il <strong>sentiero di trekking</strong> presenta alcune difficoltà a causa della scarsa segnaletica, ma una volta raggiunta la cresta, la vista è davvero spettacolare.</p>
+<p>La salita alla Pania Verde può sembrare un po'' complicata all''inizio, ma una volta superato il punto critico, la ricompensa è impagabile. Questa escursione in anello attraverso il territorio di Fornovolasco è un''esperienza da non perdere per chi ama la montagna e il panorama!</p>
 
-<h3>Cosa Aspettarsi</h3>
-<ul>
-  <li>Un''<strong>escursione di trekking</strong> di difficoltà media</li>
-  <li>Distanza: Circa 6 km (andata e ritorno)</li>
-  <li>Dislivello: Circa 400 metri</li>
-  <li>Un panorama mozzafiato sulla Pianura Padana e sulle Alpi</li>
-  <li>Possibilità di ammirare la flora e la fauna tipiche della <strong>montagna piemontese</strong></li>
-  <li>Un''occasione per praticare il <strong>trekking</strong> in un ambiente naturale incontaminato</li>
-</ul>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Informazioni Utili</h3>
-<p>La <strong>Pania Verde</strong> è un''eccellente destinazione per chi cerca una giornata di <strong>trekking</strong> nel <strong>Piemonte</strong>.  È importante arrivare preparati, con scarpe da <strong>trekking</strong> adatte e acqua a sufficienza. La segnaletica del <strong>sentiero</strong> non è sempre precisa, quindi è consigliabile avere una mappa e una bussola o utilizzare un''app di <strong>trekking</strong>.  Consigliamo di informarsi sulle condizioni meteorologiche prima di partire e di scegliere un percorso adatto al proprio livello di esperienza.  Questo <strong>sentiero di trekking</strong> è ideale per chi ama l''avventura e la scoperta della <strong>natura</strong>.</p>
-<p>Non farete un anello ma andate e tornate dal solito punto per la difficoltà di raggiungere la pietraia.  Consigliabile un''escursione di durata medio-lunga. Il luogo è perfetto per l''<em>escursionismo</em> e il <strong>trekking</strong> in <strong>Italia</strong>.</p>',
+<p>Il punto di partenza per questa escursione è facilmente raggiungibile in auto o mezzi pubblici fino al comune di Fornovolasco, in provincia di Toscana. Da qui, seguire le indicazioni per il sentiero di partenza, che si trova subito a destra della grande pietraia. È importante tenere presente che il sentiero è inizialmente poco segnalato, quindi fate attenzione!</p>
+
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>Il percorso inizia con una ripida salita attraverso una pietraia dove è facile perdersi.  Non proseguire oltre la pietraia: è un errore comune! Una volta superato questo punto critico, il sentiero si snoda attraverso il bosco, dove la segnaletica è a volte scarsa.  Seguendo il sentiero, arriverete alla cresta dove vi attendono panorami mozzafiato sulla Val d''Aia e sulle colline circostanti.  Dopo aver ammirato il panorama, ritornate lungo lo stesso sentiero per l''andata.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>Questa escursione è considerata di difficoltà difficile a causa del dislivello di 417 metri e del terreno irregolare, soprattutto nella parte iniziale.  Si consiglia di indossare scarpe da trekking adatte e di portare con sé acqua e snack.  Il sentiero è ben battuto, ma la segnaletica non è sempre precisa, quindi è consigliabile avere una mappa e una bussola o utilizzare un''app di navigazione.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>Per aiutare nella navigazione, ecco la traccia GPS dell''escursione: [Inserire Traccia GPS qui] (Nota: la traccia GPS non è fornita, inserire il link a una traccia GPS disponibile online).</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li ><strong>Distanza:</strong> 3.53 km (Anello)</li>
+  <li ><strong>Dislivello:</strong> 417 metri</li>
+  <li ><strong>Difficoltà:</strong> Difficile</li>
+  <li ><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li ><strong>Punto di partenza:</strong> Piana alle Pianacce, Fornovolasco, Toscana</li>
+  <li ><strong>Comune:</strong> Fornovolasco, Toscana</li>
+  <li ><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   3.53,
   417,

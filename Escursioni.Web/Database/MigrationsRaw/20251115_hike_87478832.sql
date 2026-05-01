@@ -7,31 +7,39 @@ VALUES (
   87478832,
   'San rossore camminata',
   'La camminata è adatta a persone d''ogni età Possibile farla con qualsiasi tipo di scarpe (se piove mettete quelle chiuse per il fango) All''interno del parco è possibile vedere uccelli; daini e ungulati. Un panorama tutto toscano all''interno di una riserva nautale tra le più belle al mondo, è possibile farlo anche a cavallo o in carrozza. Lo consiglio per pick nik domenicali o braciate con gli amici. SIATE RISPETTOSI DELL''AMBIENTE !',
-  '<h2>San Rossore Camminata: Trekking nella Riserva Naturale Toscana</h2>
+  '<h2 id="san-rossore-camminata">Escursione al San Rossore: Camminata Facile nel Cuore della Toscana</h2>
 
-<h3>Il Percorso</h3>
-<p>
-La <strong>San Rossore camminata</strong> è un’escursione imperdibile per gli amanti del trekking e della natura, situata all’interno del prestigioso <strong>Parco Naturale Regionale di San Rossore</strong>, una delle più belle <strong>riserve naturali</strong> in Italia. Questo <strong>sentiero di trekking</strong> offre un''esperienza unica di immersione nella <strong>montagna toscana</strong>, un vero e proprio gioiello di biodiversità, ideale per un <strong>gita in montagna</strong> o un''<strong>escursione</strong> a piedi. Il percorso è progettato per essere accessibile a persone di <strong>ogni età</strong>, con possibilità di adattamento al tipo di scarpe indossate, consigliato l''utilizzo di scarpe chiuse in caso di pioggia per affrontare il <strong>fango</strong>.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bellissima escursione nel San Rossore si trova a <strong id="punto-di-partenza">Casseine Vecchie</strong>, in provincia di <strong id="provincia">Toscana</strong>, regione <strong id="regione">Italia</strong>. È facilmente raggiungibile in auto dalla Firenze, seguendo le indicazioni per il Parco Naturale del San Rossore. In alternativa, se preferite, potete arrivare a piedi, godendovi un piacevole tratto del sentiero.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>
-Durante la <strong>San Rossore camminata</strong>, avrete l’opportunità di ammirare un paesaggio mozzafiato, tipico della <strong>Toscana</strong>, protetto da un’area <strong>riserva nautale</strong>. Potrete avvistare una ricca fauna selvatica, tra cui diverse specie di <strong>uccelli</strong>, <strong>daini</strong> e altri <strong>ungulati</strong>. La <strong>natura</strong> si rivelerà in tutta la sua bellezza, offrendo un''esperienza di <strong>trekking</strong> rilassante e rigenerante. La <strong>camminata</strong> è perfetta per un <strong>picnic domenicale</strong> o per godersi una <strong>braciata con gli amici</strong> all''aria aperta.
-</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questa escursione è un''ottima opportunità per esplorare la natura toscana in modo semplice e rilassante. Il sentiero è di <strong id="tipo-di-sentiero">solo andata</strong>, con una lunghezza di circa <strong id="distanza">6.78 km</strong>. Il dislivello è di <strong id="dislivello">0 metri</strong>, quindi è un percorso adatto a persone di <strong id="difficoltà">tutte le età</strong>. Potrete ammirare paesaggi mozzafiato, con una vista panoramica sulla campagna toscana e avvistare fauna selvatica come uccelli, daini e ungulati. Non dimenticate di indossare scarpe comode, adatte per camminare!</p>
 
-<h3>Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è classificata come <strong id="difficoltà">facile</strong>, il che significa che è accessibile a tutti, indipendentemente dal vostro livello di allenamento. Il percorso è pianeggiante e ben segnalato, rendendolo ideale anche per famiglie con bambini. Ricordatevi di portare con voi acqua e snack, soprattutto se fate un <strong id="tipo-di-sentiero">solo andata</strong>, e di rispettare l''ambiente circostante.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Potete scaricare la <strong id="traccia-gps">traccia GPS</strong> di questa escursione per seguirla comodamente durante il percorso. Per maggiori informazioni pratiche, ecco i dettagli:</p>
 <ul>
-    <li><strong>Difficoltà:</strong> Facile/Media</li>
-    <li><strong>Distanza:</strong> Percorso variabile a seconda della zona all''interno del parco</li>
-    <li><strong>Altitudine:</strong> Varia, con alcuni tratti in salita</li>
-    <li><strong>Durata:</strong> Circa 2-4 ore (a seconda del percorso scelto e del ritmo)</li>
-    <li><strong>Attrezzatura consigliata:</strong> Scarpe da trekking adatte, abbigliamento a strati, acqua, snack, cappello, crema solare</li>
-    <li><strong>Informazioni aggiuntive:</strong> È possibile effettuare la <strong>San Rossore camminata</strong> anche a cavallo o in <strong>carrozza</strong>, per un''esperienza più ricca e suggestiva. Ricordate, SIATE RISPETTOSI DELL''AMBIENTE !</li>
+    <li><strong id="distanza">Distanza:</strong> Circa 6.78 km (solo andata)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 0 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Cascine Vecchie, accessibile in auto o a piedi</li>
+    <li><strong id="comune">Comune:</strong> Cascine Vecchie, Toscana</li>
+    <li><strong id="regione">Regione:</strong> Italia</li>
 </ul>
 
-<p>
-Scoprite la magia del <strong>trekking</strong> e dell''<strong>escursionismo</strong> nel cuore della <strong>riserva di San Rossore</strong>, un''occasione unica per immergervi nella <strong>natura toscana</strong> e vivere un’indimenticabile <strong>camminata</strong> tra le <strong>montagne</strong>.  Esplorate questo splendido <strong>sentiero Italia</strong>!
-</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong id="distanza">Distanza:</strong> Circa 6.78 km (andata e ritorno / solo andata)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 0 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Cascine Vecchie, accessibile in auto / a piedi</li>
+    <li><strong id="comune">Comune:</strong> Cascine Vecchie, Toscana</li>
+    <li><strong id="regione">Regione:</strong> Italia</li>
+</ul>',
   'Tutte le Attività e Paesi',
   6.78,
   0,

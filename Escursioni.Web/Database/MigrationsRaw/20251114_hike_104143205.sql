@@ -7,28 +7,37 @@ VALUES (
   104143205,
   'Casale di Pari - Monte Acuto',
   'Giro pomeridiano nei pressi del borgo di Pari. Niente di difficile o stancante lo abbiamo percorso in 2 ore e 20 palando e fermandoci a mangiare. Ci sono panchine, bei panorami e alcuni tratti sono su strada. Il sentiero ha alcuni tratti esposti al sole, raccomando cappello e occhiali da sole se lo percorrete in estate, oltre a una buona posizione d''acqua. Potete farlo anche con scarpe da ginnastica... Ma il piede deve essere chiuso, niente scarpe aperte',
-  '<h2>Casale di Pari - Monte Acuto: Escursione Trekking in Montagna</h2>
+  '<h2 id="casale-di-pari-monte-acuto">Escursione al Monte Acuto da Casale di Pari</h2>
 
-<h3>Il Percorso</h3>
+<p>Volete una bella passeggiata senza troppi strappi? L''escursione da Casale di Pari al Monte Acuto è perfetta! Abbiamo fatto questo giro pomeridiano e ci siamo divertiti un mondo. Non è un trekking impegnativo, anzi, è un''ottima opzione per chi cerca un''escursione facile e con panorami davvero belli.</p>
 
-<p>Questo <strong>sentiero di trekking</strong> offre un''esperienza piacevole e accessibile nei pressi del pittoresco <strong>borgo di Casale di Pari</strong>, che si snoda fino al <strong>Monte Acuto</strong>. Si tratta di un <em>giro pomeridiano</em>, perfetto per chi cerca una <strong>escursione in montagna</strong> senza eccessivi sforzi. Il percorso, di circa 6-8 km, si sviluppa principalmente su strada, con alcuni tratti più impegnativi su sentiero naturale.  È un''ottima opzione per una <strong>gita in giornata di trekking</strong> in compagnia della famiglia o degli amici.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa Aspettarsi</h3>
+<p>Il punto di partenza per questa escursione è il borgo di Casale di Pari.  È facilmente raggiungibile in auto da Firenze o Pisa. Da Casale di Pari, seguendo le indicazioni per il Monte Acuto, troverete il sentiero che inizia direttamente dal borgo.  L''accesso a piedi è possibile, ma è consigliabile arrivare in auto per poi intraprendere l''escursione.</p>
 
-<p>Preparatevi a una <strong>escursione tranquilla e panoramica</strong> attraverso la natura incontaminata della <strong>montagna piemontese</strong>.  Il <strong>sentiero Casale di Pari - Monte Acuto</strong> offre panorami mozzafiato sulle valli circostanti e la possibilità di ammirare la flora e la fauna locali.  Il percorso è caratterizzato da alcuni tratti esposti al sole, soprattutto durante i mesi estivi, quindi è consigliabile portare con sé un <strong>cappello e occhiali da sole</strong>.  La dislivello è contenuto, rendendo l''<strong>escursione accessibile a tutti i livelli di esperienza</strong>, anche a chi pratica <strong>trekking</strong> con scarpe da ginnastica.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<h3>Informazioni Utili</h3>
+<p>Il sentiero segue in gran parte una strada bianca, ma con alcuni tratti che si trasformano in sentiero escursionistico. Il percorso è abbastanza pianeggiante per la maggior parte del tragitto, con qualche breve salita che offre comunque dei bellissimi panorami sulla campagna toscana. Ci sono delle panchine lungo il percorso dove poter riposare e ammirare il panorama. In estate, soprattutto, si consiglia di portare con sé acqua e protezione solare, poiché alcuni tratti sono esposti al sole.</p>
 
-<ul>
-    <li><strong>Difficoltà:</strong> Facile - Media</li>
-    <li><strong>Distanza:</strong> Circa 6-8 km</li>
-    <li><strong>Dislivello:</strong> 300-400 metri (variabile)</li>
-    <li><strong>Tempo di percorrenza:</strong> 2 - 3 ore (a seconda del ritmo)</li>
-    <li><strong>Punti di interesse:</strong> Panorami mozzafiato,  tratti naturalistici, possibili avvistamenti di fauna locale</li>
-    <li><strong>Consigli:</strong> Indossare scarpe da trekking chiuse, portare con sé acqua e snack, proteggersi dal sole con cappello e occhiali da sole, soprattutto in estate. È consigliabile informarsi sulle condizioni meteorologiche prima della partenza per una <strong>escursione sicura</strong>.</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
 
-<p>Godetevi questa splendida <strong>escursione sentiero</strong> e scoprite la bellezza del <strong>Monte Acuto</strong> e del <strong>Casale di Pari</strong>!  Un''occasione perfetta per una giornata di <strong>trekking</strong> immersi nella <strong>natura italiana</strong>.</p>',
+<p>Questa escursione è classificata come <strong>Facile</strong>. La distanza totale è di circa 10.08 km con un <strong>dislivello positivo di 402 metri</strong>.  Il tempo di percorrenza previsto è di circa 2 ore e 20 minuti, ma ovviamente questo dipende dal vostro ritmo e da quanto volete fermarvi ad ammirare il panorama.  Non è necessaria attrezzatura specifica, ma è consigliabile indossare scarpe da trekking o scarpe da ginnastica chiuse e porta con te una bottiglia d''acqua.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>Potete scaricare la <a href="#">traccia GPS</a> dell''escursione per seguirla durante il percorso.  Ricordate sempre di controllare le previsioni del tempo prima di partire.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong>Distanza:</strong> Circa 10.08 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 402 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Casale di Pari, accessibile in auto / a piedi</li>
+  <li><strong>Comune:</strong> Casale di Pari, Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico / Strada sterrata</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.08,
   402,

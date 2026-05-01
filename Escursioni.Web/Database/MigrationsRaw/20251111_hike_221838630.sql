@@ -7,27 +7,57 @@ VALUES (
   221838630,
   'Pratospilla - Monte Bragalata - Monte Losanna - Monte Sillara - Monte Marmagna | Traversata panoramica Appenninica',
   '📍 Partenza: Rifugio Prato Spilla 🏁 Arrivo: Rifugio Mariotti o ritorno ad anello (in base alla variante scelta) ⏱ Tempo di percorrenza: 8 ore per giorno 💪 Difficoltà: Escursionista esperto (EE) Descrizione del percorso Bellissimo trekking ad anello o traversata lineare, nel cuore dell’Appennino parmense, con partenza dal Rifugio Prato Spilla. Il sentiero inizia subito in salita, ma con una pendenza sempre regolare e mai troppo faticosa. I primi tratti possono coincidere con le piste da sci, ma ben presto si entra in ambienti più selvaggi e alpestri. Dopo circa 3.3 km si raggiunge il Passo di Giovarello, da cui iniziano le creste panoramiche dell’Alta Via dei Parchi. A 4.2 km si conquista la vetta del Monte Bragalata, e poco dopo il Passo di Compione (4.7 km), uno snodo importante tra le creste e le valli sottostanti. Da qui si prosegue sul filo di cresta, arrivando a Monte Losanna (5.1 km), e successivamente al più aspro e maestoso Monte Nuda di Ierea, punto selvaggio e meno frequentato. A 5.9 km circa, si tocca il Monte Sillara, la vetta più alta dell’Appennino parmense con i suoi 1861 m: qui si apre una vista magnifica a 360° sulle valli e sui laghi glaciali sottostanti. Il sentiero continua lungo le creste passando per una serie di rilievi spettacolari: Monte Paitino, Monte Matto, Monte Brusà, Monte Aquila e Monte Aquilotto, con saliscendi tecnici ma sempre gratificanti dal punto di vista paesaggistico. In condizioni di tempo favorevole è possibile raggiungere anche il Monte Marmagna, altra vetta simbolica dell''area, prima di scendere al Rifugio Mariotti, situato sulle sponde del Lago Santo parmense, dove è possibile pernottare. Il rifugio è ben gestito e offre piatti tipici abbondanti (consigliati i testaroli al pesto e la polenta con stracotto di asina). ⛺ Note sul pernottamento e logistica Rifugio Mariotti: pernottamento con mezza pensione (circa 65€), ottima accoglienza e cucina. ⚠️ Attenzione Alcuni tratti (soprattutto tra Monte Nuda e Monte Brusà) presentano passaggi più esposti e richiedono passo sicuro ed esperienza in ambienti montani. In caso di nebbia o temporale (frequenti nel pomeriggio), si consiglia prudenza e pianificazione anticipata. Non ci sono punti acqua sul percorso: rifornirsi prima della partenza.',
-  '<h2>Pratospilla – Monte Bragalata – Monte Losanna – Monte Sillara – Monte Marmagna | Traversata Panoramica Appenninica</h2>
+  '<h2 id="pratospilla-monte-bragalata-monte-losanna-monte-sillara-monte-marmagna">Pratospilla - Monte Bragalata - Monte Losanna - Monte Sillara - Monte Marmagna | Traversata Panoramica Appenninica</h2>
 
-<h3>Il percorso</h3>
-<p>Immergetevi in un’indimenticabile <strong>escursione trekking</strong> attraverso il cuore dell’Appennino parmense con questa magnifica <strong>trasversata panoramica</strong>. Questo <strong>sentiero di trekking</strong>, ideale per <strong>escursionisti esperti</strong>, vi porterà a scoprire vette mozzafiato e panorami spettacolari. Preparatevi a un’avventura di <strong>trekking</strong> in <strong>montagna</strong>, immersi nella bellezza della <strong>natura</strong> e nella ricchezza della fauna locale.  La <strong>trasversata</strong> offre un’esperienza unica per gli amanti del <strong>trekking</strong> e dell’<strong>escursionismo</strong> in <strong>Italia</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa aspettarsi</h3>
-<p>Questo impegnativo <strong>sentiero escursionistico</strong> vi condurrà attraverso un percorso di circa 24 chilometri, con un dislivello totale di 1500 metri, che vi farà scoprire diverse cime e panorami mozzafiato.  Potrete ammirare le vette del <strong>Monte Sillara</strong>, la vetta più alta dell''Appennino parmense, con una vista a 360° sulle valli e i laghi glaciali.  La <strong>difficoltà</strong> è <strong>Escursionista Esperto (EE)</strong>, pertanto è richiesta una buona preparazione fisica e un’adeguata esperienza in <strong>trekking</strong> e <strong>escursionismo</strong>.</p>
+<p>L''escursione inizia dal Rifugio Prato Spilla, facilmente raggiungibile in auto da Rigoso. Il rifugio si trova in una posizione strategica per affrontare questa impegnativa, ma incredibilmente bella, traversata dell''Appennino parmense. Dalla strada provinciale, segui le indicazioni per il Rifugio Prato Spilla, oppure puoi arrivare a piedi lungo sentieri segnalati che partono dal paese di Rigoso.</p>
 
-<h3>Informazioni utili</h3>
-<ul>
-    <li><strong>Distanza:</strong> Circa 24 km</li>
-    <li><strong>Dislivello:</strong> 1500 metri</li>
-    <li><strong>Tempo di percorrenza:</strong> 8 ore (giorno)</li>
-    <li><strong>Difficoltà:</strong> Escursionista Esperto (EE) - Richiede preparazione fisica e esperienza in <strong>trekking</strong> in <strong>montagna</strong>.</li>
-    <li><strong>Partenza:</strong> Rifugio Prato Spilla</li>
-    <li><strong>Arrivo:</strong> Rifugio Mariotti (o anello)</li>
-    <li><strong>Punti di Interesse:</strong> Monte Bragalata (848 m), Passo di Giovarello, Passo di Compione, Monte Losanna, Monte Sillara (1861 m), Monte Marmagna (1437 m), viste panoramiche sulle valli parmensi e sui laghi glaciali.</li>
-    <li><strong>Alimentazione:</strong> Non ci sono punti acqua sul percorso, rifornirsi prima della partenza. Consigliato il pernottamento al Rifugio Mariotti con piatti tipici come testaroli al pesto e polenta con stracotto di asina.</li>
-</ul>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<p><strong>Attenzione:</strong> Alcuni tratti, in particolare tra Monte Nuda e Monte Brusà, presentano passaggi esposti e richiedono passo sicuro e esperienza in ambienti montani. La <strong>nebbia</strong> o il <strong>temporale</strong> (frequenti nel pomeriggio) richiedono prudenza e pianificazione anticipata.  Questa <strong>escursione di trekking</strong> è pensata per <strong>escursionisti esperti</strong> e appassionati di <strong>natura</strong> e <strong>montagna</strong>.</p>',
+<p>Questo trekking ad anello o lineare di circa 36,68 km, ti porterà attraverso panorami mozzafiato e passaggi alpini. Partenza dal Rifugio Prato Spilla, dove inizierai subito con una salita regolare.  Percorrerai i primi tratti che potrebbero coincidere con le piste da sci, per poi inoltrarti in ambienti più selvaggi e alpestri.  Dopo circa 3,3 km, raggiungerai il Passo di Giovarello, da cui inizieranno le creste panoramiche dell''Alta Via dei Parchi. Continuerai ad affrontare il sentiero, conquistando il Monte Bragalata, il Passo di Compione, il Monte Losanna, il Monte Sillara (con una vista spettacolare a 360°), e proseguirai superando il Monte Paitino, il Monte Matto, il Monte Brusà, il Monte Aquila e il Monte Aquilotto. La discesa ti condurrà fino al Rifugio Mariotti, situato sulle sponde del Lago Santo Parmense. </p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>Questa escursione è classificata come <b>Media</b> e richiede una buona preparazione fisica, data la lunghezza del percorso e il dislivello di circa 2131 metri. È consigliabile un escursionista esperto. Alcuni tratti, soprattutto tra Monte Nuda e Monte Brusà, presentano passaggi più esposti e richiedono passo sicuro ed esperienza in ambienti montani. La dislivello è impegnativo e non adatto ai principianti.  In caso di nebbia o temporale, si consiglia prudenza e pianificazione anticipata. </p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>
+  <strong >Distanza:</strong> Circa 36,68 km (anello)
+  <strong >Dislivello:</strong> Circa 2131 metri
+  <strong >Difficoltà:</strong> Medio
+</p>
+<p>
+  <strong >Periodo consigliato:</strong> Primavera, Estate, Autunno
+</p>
+<p>
+  <strong >Punto di partenza:</strong> Rifugio Prato Spilla (accessibile in auto/a piedi)
+</p>
+<p>
+  <strong >Comune:</strong> Rigoso, <strong >Regione:</strong> Emilia-Romagna
+</p>
+<p>
+  <strong >Tipo di sentiero:</strong> Sentiero escursionistico
+</p>
+<p>
+  <strong >Parco Nazionale:</strong> Appennino Parmense
+</p>
+<p>
+  <strong >Tempo di percorrenza:</strong> 8 ore
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong>Distanza:</strong> Circa 36.68 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 2131 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Rifugio Prato Spilla (accessibile in auto / a piedi)</li>
+  <li><strong>Comune:</strong> Rigoso, Regione: Emilia-Romagna</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   36.68,
   2131,

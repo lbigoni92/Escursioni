@@ -7,27 +7,33 @@ VALUES (
   97381391,
   'Sambuca - Chianti - Vigne',
   'Percorso lungo ma facile, le salite non sono mai troppo ripide, siamo passati numerose volte a canto a dei vigneti bellissimi (anche se si era nella stagione sbagliata) Lungo il sentiero abbiamo visto una volpe e un procione mentre si costeggia a o dei fiumi, sul posto vi sono numerosi B & B dove fermarsi per la notte o ristoranti per effettuare delle degustazioni. Noi ci siamo fermati a fare un pick Nick dopo un guado a pieni gnudi. Esperienza davvero carina! Lo consiglio a chiunque voglia passare una giornata tra le colline del Chianti, ma lo sconsiglio in piena estate.',
-  '<h2>Sambuca - Chianti - Vigne: Trekking tra le Viti e i Fiumi</h2>
+  '<h2 id="escursione-sambuca-chianti-vigne">Escursione a Sambuca, Chianti e Vigne</h2>
 
-<h3>Il percorso</h3>
-<p>Questo fantastico <strong>sentiero di trekking</strong> attraverso la Val Sambuca nel cuore del Chianti offre un''esperienza indimenticabile per gli amanti della <strong>natura</strong> e del <strong>trekking</strong>. Il percorso, di media lunghezza, è progettato per essere accessibile a escursionisti di diversi livelli, con salite non eccessivamente ripide che lo rendono ideale per una <strong>escursione</strong> di un''intera giornata.  Si snoda attraverso un paesaggio mozzafiato, costeggiando fiumi e attraversando zone coltivate a <strong>vigne</strong>, offrendo scorci spettacolari sulle colline del <strong>Chianti</strong>. La <strong>escursione in montagna</strong> permette di immergersi completamente nella tranquillità e nella bellezza del territorio.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza di questa fantastica escursione è facilmente raggiungibile in auto da Sambuca, il comune che si trova nel cuore della regione Chianti in Toscana. Da qui, segui le indicazioni per il sentiero che inizia direttamente dal parcheggio. In alternativa, se sei a piedi, il percorso parte direttamente dal centro di Sambuca, ideale per un''escursione mattutina.</p>
 
-<h3>Cosa aspettarsi</h3>
-<p>Durante questo <strong>sentiero escursionistico</strong>, potrete ammirare panorami incredibili sulle vigne del <strong>Chianti</strong>, respirare l''aria fresca della <strong>montagna</strong> e godervi la silenziosa compagnia della natura.  Avrete la possibilità di avvistare la fauna locale, come <strong>volpi</strong> e <strong>procioni</strong>, che abitano queste zone.  L’esperienza include un piacevole pic-nic dopo un guado a pieni gnudi, un momento di relax e convivialità nel cuore della campagna toscana.  Si consiglia di prepararsi adeguatamente per questo <strong>trekking</strong>, indossando scarpe da trekking adatte e portando con sé acqua e cibo.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo anello di 24.45 km ti conduce attraverso il cuore del Chianti, offrendo una vista mozzafiato sulle vigne. Il sentiero è generalmente facile, con salite moderate che non sono mai troppo ripide.  Seguiamo il sentiero escursionistico che ci porta a fianco di numerosi vigneti, e in alcune sezioni ci costeggia a dei fiumi. Durante il percorso, potrai avvistare la fauna locale, come volpi e procioni, e ammirare i panorami unici del Chianti.  Una parte del percorso richiede un guado a pieni gnudi, quindi preparati ad entrare in acqua! Il percorso termina con un piacevole picknick in riva al fiume.</p>
 
-<h3>Informazioni utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>La difficoltà di questa escursione è stata valutata come Medio, grazie alle sue 24.45 km di distanza e al dislivello di 928 metri.  È un''escursione consigliata per escursionisti con un minimo di allenamento, ma adatta anche a famiglie e gruppi di amici.  La stagione ideale per questa escursione è la Primavera, l''Estate o l''Autunno, evitando i mesi estivi più caldi.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per rendere questa escursione ancora più accessibile, ti forniamo una traccia GPS per accompagnarti lungo il sentiero. Ricorda di scaricare la traccia sul tuo dispositivo GPS o smartphone prima di partire.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Località:</b> Val Sambuca, Chianti, Toscana</li>
-    <li><b>Difficoltà:</b> Facile/Media</li>
-    <li><b>Distanza:</b> Circa 15-20 km (a seconda dell’itinerario seguito)</li>
-    <li><b>Dislivello:</b> Circa 300-400 metri</li>
-    <li><b>Durata:</b> Circa 6-8 ore (a seconda del ritmo)</li>
-    <li><b>Periodo consigliato:</b> Primavera o Autunno, evitando i mesi estivi a causa delle alte temperature.</li>
-    <li><b>Punti di interesse:</b> Numerosi B&B e ristoranti per degustazioni di vino nel <strong>Chianti</strong>, fiumi e vigneti.</li>
-    <li><b>Attrezzatura consigliata:</b> Scarpe da trekking, acqua, cibo, cappello, crema solare, repellente per insetti.</li>
+  <li><strong>Distanza:</strong> Circa 24.45 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 928 m</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Parcheggio a Sambuca, Toscana</li>
+  <li><strong>Comune:</strong> Sambuca, Toscana</li>
+  <li><strong>Regione:</strong> Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Questa <strong>escursione in Italia</strong> è una perfetta combinazione di <strong>trekking</strong>, <strong>natura</strong> e degustazione di vino.  Un''ottima opportunità per chi cerca una giornata all''aria aperta, lontano dal caos cittadino, tra le incantevoli colline del <strong>Chianti</strong>.  Approfittatene per vivere un''esperienza autentica e scoprire la bellezza dei <strong>sentieri</strong> della <strong>montagna</strong>.  Scoprite le bellezze dei <strong>sentieri escursionistici</strong> in Toscana e organizzate il vostro <strong>trekking</strong>!</p>',
+<li id="parco-nazionale-chianti"> <strong >Parco Nazionale:</strong> Nessuno (Questo sentiero non è all''interno di un parco nazionale riconosciuto)</li>',
   'Tutte le Attività e Paesi',
   24.45,
   928,

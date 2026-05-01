@@ -7,30 +7,55 @@ VALUES (
   135962013,
   'Fibialla -Geocaching',
   'Percorso nei pressi di Fibialla, alla ricerca di geocache, si passa su una strada privata quindi non è proprio un vero trekking . Vi sono dei mulini abbandonati e dei ruscelletti. La strada diventa ad un certo punto sterrato, è carino e adatto a famiglie va bene per persone alle prime armi, non richiede scarpe o attrezzature particolari. Su questo percorso sono presenti numerose geocache: https://www.geocaching.com/geocache/GC5WZBX https://www.geocaching.com/geocache/GC5WZB8 https://www.geocaching.com/geocache/GC4EM4K https://www.geocaching.com/geocache/GC5W0E4 https://www.geocaching.com/geocache/GC5W0DH https://www.geocaching.com/geocache/GC5W0DT https://www.geocaching.com/geocache/GC5WZ8Z https://www.geocaching.com/play/map?lat=43.8856&lng=10.3778&zoom=15&asc=true&sort=distance&st=N+43%C2%B0+53.021%27+E+10%C2%B0+22.884%27&ot=coords&ho=1',
-  '<h2 >Fibialla -Geocaching: Escursione Geocaching nella Montagna Toskana</h2>
-
-<h3 >Il Percorso</h3>
+  '<h2 id="fibialla-geocaching">Fibialla - Geocaching</h2>
 
 <p>
-Immergiti nella natura selvaggia della **Montagna Toskana** con questa affascinante **escursione geocaching** a **Fibialla**. Il sentiero, perfetto per famiglie e principianti, inizia con una breve passeggiata su una strada privata e poi si trasforma in un percorso acciottolato, ideale per un''esperienza di **trekking** rilassante.  La sfida principale è la ricerca delle numerose **geocache** nascoste lungo il sentiero, rendendo questa **escursione** un''avventura intellettuale e fisica. La distanza totale del percorso è di circa 3-4 km, con un dislivello contenuto, adatto a chi cerca un''attività all''aria aperta nella regione Toscana.
+Se siete appassionati di geocaching e amate esplorare sentieri tranquilli, questa escursione a <strong>Fibialla</strong> fa per voi! Ho deciso di affrontare questo percorso alla ricerca delle geocache nascoste, un''esperienza divertente e stimolante per tutta la famiglia. 
 </p>
 
-<h3 >Cosa Aspettarsi</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
 <p>
-Preparati a scoprire paesaggi suggestivi caratterizzati da **mulini abbandonati** e pittoreschi **ruscelletti** che serpeggiano tra le colline. Il percorso, pur non essendo un vero e proprio **sentiero di trekking** impegnativo, offre panorami mozzafiato e l''opportunità di immergersi nella **natura** incontaminata della **Toscana**.  L''obiettivo principale è la ricerca delle **geocache**, un''attività divertente per tutte le età.  Questo **sentiero** è particolarmente adatto per chi cerca una **escursione** facile e accessibile, ideale per chi si avvicina al mondo del **trekking** o per famiglie con bambini. Ricorda, non sono necessarie scarpe o attrezzature specifiche, solo un''ottima compagnia e la voglia di esplorare!
+Il punto di partenza si trova in prossimità di <strong>Stabbiano</strong>, in <strong>Toscana</strong>. Per raggiungerlo, dovrete seguire la strada privata che conduce al sentiero. Ricordate, non si tratta di un vero trekking, ma di un percorso adatto a famiglie e alle prime armi. 
 </p>
 
-<h3 >Informazioni Utili</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<ul>
-    <li><strong>Località:</strong> Fibialla, Toscana</li>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Tipo di attività:</strong> Geocaching, Trekking, Escursione</li>
-    <li><strong>Distanza:</strong> Circa 3-4 km</li>
-    <li><strong>Dislivello:</strong> Minimo</li>
-    <li><strong>Adatto a:</strong> Famiglie, Principianti, Amanti delle Geocache</li>
-    <li><strong>Geocache:</strong> Numerose **geocache** disponibili su <a href="https://www.geocaching.com/geocache/GC5WZBX">https://www.geocaching.com/geocache/GC5WZBX</a>, <a href="https://www.geocaching.com/geocache/GC5WZB8">https://www.geocaching.com/geocache/GC5WZB8</a>, <a href="https://www.geocaching.com/geocache/GC4EM4K">https://www.geocaching.com/geocache/GC4EM4K</a>, <a href="https://www.geocaching.com/geocache/GC5W0E4">https://www.geocaching.com/geocache/GC5W0E4</a>, <a href="https://www.geocaching.com/geocache/GC5W0DH">https://www.geocaching.com/geocache/GC5W0DH</a>, <a href="https://www.geocaching.com/geocache/GC5W0DT">https://www.geocaching.com/geocache/GC5W0DT</a>, <a href="https://www.geocaching.com/geocache/GC5WZ8Z">https://www.geocaching.com/geocache/GC5WZ8Z</a> e <a href="https://www.geocaching.com/play/map?lat=43.8856&lng=10.3778&zoom=15&asc=true&sort=distance&st=N+43%C2%B0+53.021%27+E+10%C2%B0+22.884%27&ot=coords&ho=1">https://www.geocaching.com/play/map?lat=43.8856&lng=10.3778&zoom=15&asc=true&sort=distance&st=N+43°+53.021′+E+10°+22.884′&ot=coords&ho=1</a></li>
+<p>
+Il sentiero inizia con una breve salita su una strada privata, poi si snoda attraverso un paesaggio caratterizzato da vecchi mulini abbandonati e ruscelletti. Dopo un tratto sterrato, il percorso si fa più panoramico e interessante, perfetto per una passeggiata piacevole.  La vera sfida sta nel trovare le diverse geocache disseminate lungo il sentiero, un gioco di scoperta e orientamento!
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>
+La difficoltà di questa <strong>escursione</strong> è definita <strong>media</strong>, adatta a persone con un minimo di allenamento.  La distanza totale è di circa <strong>4.64 km</strong> con un <strong>dislivello di 207 metri</strong>. Non richiede attrezzatura particolare, ma è consigliabile indossare scarpe comode. 
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>
+Per facilitare l''esplorazione, vi segnalo le coordinate di accesso al percorso tramite link a <a href="https://www.geocaching.com/geocache/GC5WZBX">Geocaching</a>:
+<ul class="list">
+    <li><strong>Distanza:</strong> Circa 4.64 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 207 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Strada privata in prossimità di Stabbiano, Toscana</li>
+    <li><strong>Comune:</strong> Stabbiano, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico, percorso geocaching</li>
+</ul>
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+    <li><strong>Distanza:</strong> Circa 4.64 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 207 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Strada privata in prossimità di Stabbiano</li>
+    <li><strong>Comune:</strong> Stabbiano, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico, percorso geocaching</li>
 </ul>',
   'Tutte le Attività e Paesi',
   4.64,

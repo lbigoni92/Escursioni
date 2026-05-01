@@ -99,7 +99,10 @@ else
                     <h2 style="font-size:1.1rem;margin-bottom:0.4rem;">Descrizione</h2>
                     @if (!string.IsNullOrWhiteSpace(h.DescrizioneHtml))
                     {
-                        @Html.Raw(h.DescrizioneHtml)
+                        @* Strip first <h2> from generated HTML to avoid duplicate with page H1 *@
+                        var htmlContent = System.Text.RegularExpressions.Regex.Replace(
+                            h.DescrizioneHtml, @"<h2[^>]*>.*?</h2>", "", System.Text.RegularExpressions.RegexOptions.IgnoreCase, TimeSpan.FromSeconds(1));
+                        @Html.Raw(htmlContent)
                     }
                     else if (!string.IsNullOrWhiteSpace(h.Descrizione))
                     {
@@ -171,8 +174,8 @@ else
             </div>
 
             <aside>
-                <section class="section">
-                    <h2 style="font-size:1.05rem;margin-bottom:0.4rem;">Dati tecnici</h2>
+                <section class="section" itemscope itemtype="https://schema.org/SportsActivityLocation">
+                    <h2 id="dati-tecnici" style="font-size:1.05rem;margin-bottom:0.4rem;">Dati tecnici</h2>
                     <div class="detail-meta">
                         <div class="detail-meta-item">
                             <strong>Distanza</strong><br />
@@ -236,70 +239,80 @@ else
                         <p>Coordinate non disponibili.</p>
                     }
                 </section>
+
+                @if (Model.RelatedHikes.Count > 0)
+                {
+                    <section class="section related-sidebar">
+                        <h2 style="font-size:1.05rem;margin-bottom:0.8rem;">Escursioni nella stessa zona</h2>
+                        <div class="card-grid">
+                            @foreach (var r in Model.RelatedHikes)
+                            {
+                                var rCover = Escursioni.Web.Pages.Escursioni.DettaglioModel.CoverPath(r);
+                                var rThumb = ImageHelper.ThumbPath(rCover);
+                                var rTitle = !string.IsNullOrWhiteSpace(r.TitoloSeo) ? r.TitoloSeo : r.Titolo;
+                                <article class="hike-card">
+                                    @if (!string.IsNullOrWhiteSpace(rCover))
+                                    {
+                                        <a asp-page="/Escursioni/Dettaglio"
+                                           asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(r.Titolo)"
+                                           title="@rTitle">
+                                            <picture>
+                                                @if (rThumb != null)
+                                                {
+                                                    <source srcset="~/@rThumb" type="image/webp" />
+                                                }
+                                                <img src="~/@rCover" alt="@(!string.IsNullOrWhiteSpace(r.TitoloSeo) ? r.TitoloSeo : r.Titolo)" loading="lazy" decoding="async" width="400" height="160" />
+                                            </picture>
+                                        </a>
+                                    }
+                                    <div class="hike-card-body">
+                                        <h3 class="hike-card-title">
+                                            <a asp-page="/Escursioni/Dettaglio"
+                                               asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(r.Titolo)"
+                                               title="@rTitle">
+                                                @rTitle
+                                            </a>
+                                        </h3>
+                                        <div class="hike-card-meta">
+                                            @if (!string.IsNullOrWhiteSpace(r.Comune))
+                                            {
+                                                @($"{r.Comune}, {r.Provincia}")
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="hike-card-footer">
+                                        <span>
+                                            @if (r.DistanzaKm.HasValue)
+                                            {
+                                                <span>@r.DistanzaKm.Value.ToString("0.0") km</span>
+                                            }
+                                            @if (r.DislivelloM.HasValue)
+                                            {
+                                                <span> · +@r.DislivelloM.Value m</span>
+                                            }
+                                            @if (!string.IsNullOrWhiteSpace(r.Difficolta))
+                                            {
+                                                <span> · @r.Difficolta</span>
+                                            }
+                                        </span>
+                                    </div>
+                                </article>
+                            }
+                        </div>
+                        @if (!string.IsNullOrWhiteSpace(Model.Hike!.Tag))
+                        {
+                            <div style="text-align:center;margin-top:1.2rem;">
+                                <a href="/escursioni/zona/@TagHelper.ToSlug(Model.Hike.Tag)"
+                                   class="btn"
+                                   title="Tutte le escursioni nella zona @Model.Hike.Tag">
+                                    Vedi tutte le escursioni della zona @Model.Hike.Tag
+                                </a>
+                            </div>
+                        }
+                    </section>
+                }
             </aside>
         </section>
-
-        @if (Model.RelatedHikes.Count > 0)
-        {
-            <section class="section" style="margin-top:2rem;">
-                <h2 style="font-size:1.15rem;margin-bottom:0.8rem;">Escursioni nella stessa zona</h2>
-                <div class="card-grid">
-                    @foreach (var r in Model.RelatedHikes)
-                    {
-                        var rCover = Escursioni.Web.Pages.Escursioni.DettaglioModel.CoverPath(r);
-                        var rThumb = ImageHelper.ThumbPath(rCover);
-                        var rTitle = !string.IsNullOrWhiteSpace(r.TitoloSeo) ? r.TitoloSeo : r.Titolo;
-                        <article class="hike-card">
-                            @if (!string.IsNullOrWhiteSpace(rCover))
-                            {
-                                <a asp-page="/Escursioni/Dettaglio"
-                                   asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(r.Titolo)"
-                                   title="@rTitle">
-                                    <picture>
-                                        @if (rThumb != null)
-                                        {
-                                            <source srcset="~/@rThumb" type="image/webp" />
-                                        }
-                                        <img src="~/@rCover" alt="@(!string.IsNullOrWhiteSpace(r.TitoloSeo) ? r.TitoloSeo : r.Titolo)" loading="lazy" decoding="async" width="400" height="160" />
-                                    </picture>
-                                </a>
-                            }
-                            <div class="hike-card-body">
-                                <h3 class="hike-card-title">
-                                    <a asp-page="/Escursioni/Dettaglio"
-                                       asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(r.Titolo)"
-                                       title="@rTitle">
-                                        @rTitle
-                                    </a>
-                                </h3>
-                                <div class="hike-card-meta">
-                                    @if (!string.IsNullOrWhiteSpace(r.Comune))
-                                    {
-                                        @($"{r.Comune}, {r.Provincia}")
-                                    }
-                                </div>
-                            </div>
-                            <div class="hike-card-footer">
-                                <span>
-                                    @if (r.DistanzaKm.HasValue)
-                                    {
-                                        <span>@r.DistanzaKm.Value.ToString("0.0") km</span>
-                                    }
-                                    @if (r.DislivelloM.HasValue)
-                                    {
-                                        <span> · +@r.DislivelloM.Value m</span>
-                                    }
-                                    @if (!string.IsNullOrWhiteSpace(r.Difficolta))
-                                    {
-                                        <span> · @r.Difficolta</span>
-                                    }
-                                </span>
-                            </div>
-                        </article>
-                    }
-                </div>
-            </section>
-        }
     </article>
 
     <script src="/js/carousel.js" defer></script>

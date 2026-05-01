@@ -7,30 +7,52 @@ VALUES (
   87617608,
   'Eremo di san Viviano',
   'Eremo di San Viviano o San Viano (Eremo del Beato Viviano) m. 900 s.l.m. Il percorso è semplice e ben segnato noi l''abbiamo fatto in pomeridiana in 3 ore, carino da fare. Quest''estate era chiuso per restauro ma adesso ri è aperto, se passate in zona lo consiglio. Li parte anche un breve tratto EE esposto che consiglio di fare, porta a un punto panoramico bellissimo con vista su tutta la valle con Lago di Vagli. L''eremo di San Viviano o Viano è un suggestivo edificio scavato nella roccia viva a strapiombo della valle di Arnetola luogo di vita e di preghiera dell''eremita Viviano. Il piccolo santuario di San Viviano o Viano rappresenta una singolare cappella d''abri (sotto roccia) in area apuana. Situato a breve distanza da Campocatino, domina il Fosso della Tambura e la Valle di Arnetola.',
-  '<h2>Eremo di San Viviano: Trekking e Escursioni in Montagna Toscana</h2>
+  '<h2 id="escursione-eremo-san-viviano">Escursione all’Eremo di San Viviano</h2>
 
-<h3>Il Percorso di Trekking al Santuario di San Viviano</h3>
+<p>
+Quest''anno ho voluto scoprire questo luogo tranquillo e mi ha davvero colpito. L''Eremo di San Viviano, situato a m. 900 s.l.m. nella splendida valle di Arnetola, è un vero gioiello nascosto. L''escursione è semplice e piacevole, perfetta per una giornata all''aria aperta. L''abbiamo fatta nel pomeriggio e ci sono volute circa 3 ore, un tempo più che sufficiente per godersi il panorama e ammirare il piccolo eremo.
+</p>
 
-<p>Immergiti nella bellezza selvaggia della <strong>Toscana</strong> con questa splendida <strong>escursione</strong> al <strong>Eremo di San Viviano</strong>, un''esperienza di <strong>trekking</strong> autentica e indimenticabile. Il sentiero, di difficoltà semplice e ben segnalato, ti conduce attraverso un paesaggio montano mozzafiato, perfetto per <strong>escursionisti</strong> di ogni livello. Questo <strong>sentiero di trekking</strong> ti permette di esplorare la ricca natura dell''area e di ammirare panorami unici.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<p>L''itinerario, di circa 3 ore percorsa, è ideale per una <strong>gita in montagna</strong> in pomeriggio. Il percorso offre una facile accessibilità, rendendolo una scelta perfetta per famiglie e appassionati di <strong>trekking</strong> alla ricerca di un''esperienza rilassante e gratificante in <strong>montagna</strong>.</p>
+<p>
+Per raggiungere l''eremo, si parte da Vagli Sopra, in provincia di Lucca (Toscana). Da qui, si segue il sentiero CAI 486, ben segnalato. Il punto di partenza è facilmente raggiungibile in auto o in auto/pullman da Vagli.
+</p>
 
-<h3>Cosa Aspettarsi Durante l''Escursione al Santuario</h3>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
 
-<ul>
-  <li>Un percorso semplice e ben segnalato, adatto a <strong>escursionisti</strong> di tutti i livelli.</li>
-  <li>La possibilità di ammirare panorami mozzafiato sulla <strong>Valle di Arnetola</strong> e il <strong>Lago di Vagli</strong>.</li>
-  <li>L''opportunità di visitare l''<strong>Eremo del Beato Viviano</strong>, un luogo di preghiera e spiritualità immerso nella natura.</li>
-  <li>Un breve tratto EE (Escursionistico) esposto, ideale per i più esperti, che conduce a un punto panoramico privilegiato.</li>
+<p>
+Il sentiero è un anello di circa 5,49 km con un dislivello di +508 metri. Il sentiero è in gran parte facile, con alcuni tratti leggermente ripidi, ma mai impegnativi.  Il percorso è ben curato ed è facile da seguire, adatto anche ai principianti. Dopo circa 3 ore di cammino, arriverete all’eremo.  Da lì, per i più audaci, si può proseguire con un breve tratto del sentiero EE (Escursionistico) esposto che vi porterà a un punto panoramico spettacolare con una vista mozzafiato sulla valle, sul Lago di Vagli e sulla zona circostante.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>
+**Difficoltà:** Facile
+**Distanza:** 5.49 km (anello)
+**Dislivello:** 508 m
+Aspettatevi un''escursione tranquilla e piacevole, con panorami spettacolari. Ricordatevi di indossare scarpe da trekking adatte e di portare con voi acqua e snack.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>
+Per scaricare la traccia GPS di questa escursione, potete utilizzare le piattaforme online che preferite.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+  <li><strong>Distanza:</strong> Circa 5.49 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 508 m</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Vagli Sopra, CAI 486</li>
+  <li><strong>Comune:</strong> Vagli Sopra, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Questo <strong>sentiero escursionistico</strong> offre un''immersione completa nella <strong>natura</strong>, con la possibilità di osservare la flora e la fauna locale. L''<strong>Eremo di San Viviano</strong> è un esempio unico di architettura scavata nella roccia e rappresenta una tappa fondamentale per gli amanti del <strong>trekking</strong> e della <strong>montagna</strong> in <strong>Italia</strong>.</p>
-
-<h3>Informazioni Utili per il Trekking al Santuario</h3>
-
-<p>L''<strong>Eremo di San Viviano</strong>, situato a m. 900 s.l.m. vicino a <strong>Campocatino</strong>, domina il <strong>Fosso della Tambura</strong> e la <strong>Valle di Arnetola</strong>. È un luogo suggestivo, dove potrai trovare pace e tranquillità durante la tua <strong>escursione</strong>.  Ricorda che l''eremo è accessibile ed aperto, perfetto per un''esperienza di <strong>trekking</strong> di una giornata.</p>
-
-<p>Questo <strong>sentiero</strong> offre una fantastica opportunità per un''<strong>escursione</strong> nella zona, ideale per chi cerca un''esperienza di <strong>trekking</strong> in <strong>montagna</strong>, con una distanza di circa 3 ore di cammino.  Esplora il fascino del <strong>sentiero Italia</strong> e scopri i segreti del <strong>Eremo di San Viviano</strong>!</p>',
+</body>',
   'Tutte le Attività e Paesi',
   5.49,
   508,

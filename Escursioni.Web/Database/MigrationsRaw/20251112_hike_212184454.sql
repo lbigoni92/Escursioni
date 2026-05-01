@@ -7,24 +7,38 @@ VALUES (
   212184454,
   'Foce di Petrosciana, Monte Forato Sud (e ferrata) e Procinto',
   'Descrizione del percorso: Il percorso parte da Stazzema, seguendo prevalentemente il sentiero CAI n. 6 che conduce alla Foce di Petrosciana. Da qui si prosegue in direzione Monte Forato, lungo un tratto non particolarmente pericoloso ma ricco di punti interessanti. Tra questi, merita una menzione la Casa Giorgini, ottimo punto di ristoro soprattutto al ritorno. Dalla Foce di Petrosciana, si prende il sentiero CAI 110 verso il Monte Forato. Dopo un po’, si svolta a sinistra per raggiungere l’attacco della ferrata, ben visibile. È obbligatorio avere con sé l’attrezzatura da ferrata. L’inizio è ripido e richiede un minimo di forza nelle braccia. La ferrata, pur non essendo tra le più complesse, è più esposta rispetto a quella del Procinto, e in alcuni punti bisogna prestare attenzione a non impigliarsi nel cavo d’acciaio. Serve comunque prudenza. In cambio, il panorama è spettacolare per tutto il tratto. Si sbuca sulla vetta sud del Monte Forato, da cui si ha una vista meravigliosa sull’arco naturale. La discesa avviene lungo un sentiero piuttosto ripido nel bosco fino a ritrovare il sentiero 110. Da lì si passa sotto l’arco e poi si raggiunge la vetta nord. Abbiamo deciso di camminare sopra l’arco del Forato, attraversando un passaggio molto esposto che richiede esperienza: un tratto che può assomigliare a un II grado alpinistico, decisamente non adatto a tutti. Successivamente siamo tornati alla Foce di Petrosciana seguendo sempre il sentiero 110, e poi ci siamo diretti verso Fonte Moscoso, imboccando un piccolo sentiero molto ripido (pendenza 30–40%) che porta direttamente alla Foce del Procinto. Anche se faticoso, è risultato fattibile. A causa della pioggia, abbiamo dovuto rinunciare alla seconda ferrata e siamo scesi verso il Colle del Prato, passando nuovamente per Casa Giorgini prima di concludere l’escursione. Note finali: Il sentiero è stupendo, ma non adatto a tutti. La ferrata e i tratti con forte pendenza richiedono una buona preparazione tecnica e fisica. Quanto descritto si basa sulla mia esperienza personale: le condizioni e le sensazioni possono variare da persona a persona. In montagna è sempre importante andare con prudenza e portare con sé l’attrezzatura adeguata, specialmente per le vie ferrate. Alla prossima!',
-  '<h2>Trekking Foce di Petrosciana, Monte Forato Sud (e ferrata) e Procinto - Escursioni in Montagna</h2>
+  '<h2 id="escursione-foce-petrosciana-monte-forato-sud-e-ferrata">Escursione alla Foce di Petrosciana, Monte Forato Sud (e ferrata) e Procinto</h2>
 
-<h3>Il Percorso – Sentieri di Trekking in Versilia</h3>
-<p>Immergiti nella bellezza selvaggia della Versilia con questa emozionante <strong>escursione di trekking</strong> alla <strong>Foce di Petrosciana</strong>, al maestoso <strong>Monte Forato Sud</strong> e alla suggestiva <strong>ferrata</strong>. Questo percorso di <strong>sentiero</strong>, ideale per <strong>trekking</strong> e <strong>escursioni</strong> in <strong>montagna</strong>, ti condurrà attraverso paesaggi mozzafiato, punti di interesse naturalistici e una sfida tecnica con la ferrata.  Scopri i migliori <strong>sentieri Italia</strong> per un''avventura indimenticabile.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa emozionante escursione è a Stazzema, un caratteristico borgo sulla costa toscana. Raggiungibile in auto dalla superstrada A17, Stazzema è un ottimo punto di riferimento per iniziare l''avventura. Da qui, seguire le indicazioni per il sentiero CAI n. 6, che vi condurrà alla Foce di Petrosciana.</p>
 
-<h3>Cosa Aspettarsi – Difficoltà e Distanza del Sentiero</h3>
-<p>Preparati a un’esperienza di <strong>trekking</strong> impegnativa ma ricca di soddisfazioni. Il percorso, di circa 14 km, presenta una <strong>difficoltà media-alta</strong>, con tratti ripidi, esposizioni e la necessità di attrezzatura specifica per la ferrata. La <strong>distanza da percorrere</strong> è di circa 14km con un dislivello di 900 metri.  Sarai guidato da un <strong>sentiero CAI n. 6 e n. 110</strong>, attraversando boschi, prati alpini e ammirando panorami spettacolari sull''arco naturale del Monte Forato.  Ricorda, la <strong>ferrata</strong> richiede un buon livello di preparazione fisica e tecnica; l''attrezzatura obbligatoria è quella da ferrata. L''attacco alla ferrata è ripido e richiede forza nelle braccia.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Inizieremo seguendo il sentiero CAI n. 6 fino alla Foce di Petrosciana. Da qui, proiettiamoci verso il Monte Forato, sfruttando un tratto non eccessivamente impegnativo ma ricco di panorami mozzafiato. Lungo il percorso, non mancherà la Casa Giorgini, un punto ideale per una pausa ristoro. Il sentiero CAI 110 ci porterà verso il Monte Forato, dove potremo accedere all''attacco della ferrata. Ricordate, per affrontare la ferrata è obbligatorio avere l''attrezzatura adeguata. L''inizio è ripido e richiede un minimo di forza nelle braccia. La ferrata, seppur non tra le più complesse, presenta tratti esposti. Dopo aver superato l''attacco, ci imbatteremo in un passaggio che richiede esperienza, simile a un grado alpinistico II. Una volta completata questa sezione, discerteremo lungo sentieri ripidi fino a raggiungere la Foce del Procinto. Infine, proseguiremo fino al Colle del Prato, tornando alla Foce di Petrosciana e concludendo l''escursione.</p>
 
-<h3>Informazioni Utili – Consigli per il Trekking</h3>
-<ul>
-    <li><b>Località:</b> Versilia, Toscana</li>
-    <li><b>Lunghezza:</b> Circa 14 km</li>
-    <li><b>Dislivello:</b> 900 metri</li>
-    <li><b>Difficoltà:</b> Media-Alta (necessaria buona preparazione fisica e tecnica)</li>
-    <li><b>Tipo di Sentiero:</b> Sentiero CAI n. 6 e n. 110, Ferrata</li>
-    <li><b>Punti di Interesse:</b> Foce di Petrosciana, Casa Giorgini, Monte Forato (vetta sud e nord), Arco del Forato, Fonte Moscoso</li>
-    <li><b>Attrezzatura Obbligatoria:</b> Scarponi da trekking, bastoncini da trekking, abbigliamento adeguato, attrezzatura da ferrata (casco, imbracatura, set da ferrata), acqua e snack.</li>
-    <li><b>Consigli:</b> La <strong>ferrata</strong>, pur non essendo tra le più complesse, è più esposta rispetto a quella del Procinto.  Presta attenzione ai punti esposti del sentiero e alla <strong>pendenza del sentiero</strong> (30-40% per la Fonte Moscoso). Il <strong>trekking</strong> in montagna richiede prudenza e rispetto per l''ambiente.</li>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di <b>Difficile</b> e prevede un dislivello di circa <b>1000 metri</b>. La distanza totale del giro è di circa <b>12.42 km</b> e si tratta di un percorso ad anello. La ferrata richiede una buona preparazione tecnica e fisica, è consigliata a escursionisti esperti. Il sentiero è impegnativo, con tratti ripidi e alcuni passaggi esposti.  È fondamentale prestare attenzione e valutare attentamente le proprie capacità prima di intraprendere questa avventura.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Disponibile traccia GPS: <a href="#">Inserire link traccia GPS</a></p>
+<ul id="informazioni-pratiche">
+    <li><b>Distanza:</b> Circa 12.42 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 1000 metri</li>
+    <li><b>Difficoltà:</b> Difficile</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Stazzema, accessibile in auto</li>
+    <li><b>Comune:</b> Stazzema, Toscana, Italia</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico, Mulattiera, Ferrata</li>
+</ul>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><b>Distanza:</b> Circa 12.42 km (andata e ritorno / anello)</li>
+    <li><b>Dislivello:</b> Circa 1000 metri</li>
+    <li><b>Difficoltà:</b> Difficile</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Stazzema, accessibile in auto</li>
+    <li><b>Comune:</b> Stazzema, Toscana</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
 </ul>',
   'Tutte le Attività e Paesi',
   12.42,

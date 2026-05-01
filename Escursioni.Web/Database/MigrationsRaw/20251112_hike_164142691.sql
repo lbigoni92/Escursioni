@@ -7,26 +7,39 @@ VALUES (
   164142691,
   'Via Mauro Gordato ~ Monte rotondo ~ Cascate',
   'Partenza da Villa Mauro Gordato direzione cascatelle. Dopo aver trovato facilmente il parcheggio mi incammino in solitaria per il percorso 136 percorso molto bello che inizia come una strada sterrata per poi diventare un vero e proprio sentiero; sentiero molto bello dove in diversi tratti si costeggia un fiumiciattolo cristallino al quale ho fatto numerose foto. Al km2.4 ho lasciato il sentiero ufficiale per dirigermi in un sentiero secondario fino a raggiungere delle cascate molto belle che era da tempo che volevo raggiungere, per arrivare a vederle si deve fare 100/150 mt di fuori sentiero. Il rientro l''ho fatto per il sentiero 130p dove a parte un pò di fango non presenta problemi di percorrenza . Alla fine sono riuscito ad allungar il trek per arrivare in vetta al monte rotondo per sentieri non molto ben tenuti, mi ha stupito il rudere che si presenta in cima, molto bello anche se abbandonato. Il rientro è stato fatto percorrendo strade di campagna. Consiglio di visitare le cascatelle.',
-  '<h2>Via Mauro Gordato ~ Monte Rotondo ~ Cascate: Escursione Trekking in Montagna</h2>
+  '<h2 id="escursione-via-mauro-gordato-monte-rotondo-cascate">Escursione Via Mauro Gordato al Monte Rotondo e alle Cascate</h2>
 
-<h3>Il Percorso - Un Sentiero da Trekking Attraverso la Natura</h3>
-<p>Questo fantastico <strong>sentiero da trekking</strong> in <strong>Montagna</strong>, chiamato Via Mauro Gordato, offre un''esperienza indimenticabile per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>Italia</strong>. Il percorso inizia da <strong>Villa Mauro Gordato</strong> e si snoda attraverso paesaggi mozzafiato, passando per le suggestive <strong>cascate</strong>. Inizialmente, il percorso segue una strada sterrata, per poi trasformarsi in un autentico <strong>sentiero</strong> che si inoltra nel cuore della natura. Preparatevi a percorrere un anello di circa 10-12 km, un''ottima opportunità per una giornata di <strong>trekking</strong> e scoperta.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>La partenza per questa bellissima escursione è da <strong>Villa Mauro Gordato</strong>, in provincia di <strong>Toscana</strong>. Il parcheggio è facilmente raggiungibile in auto, e da lì si inizia il trekking.  È un luogo tranquillo e poco affollato, perfetto per un''escursione in solitaria o con la compagnia di amici.</p>
 
-<h3>Cosa Aspettarsi - Un''Escursione Ricca di Scoperte</h3>
-<p>Durante questa <strong>escursione</strong>, potrete ammirare un <strong>fiumiciattolo</strong> cristallino che costeggia il <strong>sentiero</strong> in diversi tratti, un vero spettacolo per gli occhi.  Il percorso è ricco di punti di interesse, tra cui le spettacolari <strong>cascate</strong> che richiedono un breve tratto fuori sentiero di circa 100-150 metri per essere raggiunte.  Non mancate di esplorare il suggestivo <strong>rudere</strong> in cima al <strong>Monte Rotondo</strong>, un luogo abbandonato ma carico di storia.  Questo <strong>sentiero da trekking</strong> è perfetto per chi cerca un''esperienza immersiva nella natura e un''escursione fuori dai sentieri battuti.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Il percorso inizia seguendo il sentiero 136, che inizialmente è una strada sterrata. Dopo un breve tratto, si trasforma in un vero sentiero escursionistico, costeggiando un fiumiciattolo cristallino.  Dopo circa 2,4 km si abbandona il sentiero ufficiale per un tratto secondario, che porta direttamente alle spettacolari <strong>cascate</strong> che sono l''obiettivo principale di questa escursione. Per arrivare alle cascate, si percorrono 100/150 metri fuori sentiero. Il rientro si effettua tramite il sentiero 130p, con qualche tratto fangoso ma facilmente superabile. Per concludere l''escursione, si prosegue per sentieri meno battuti fino al <strong>Monte Rotondo</strong>, dove si trova un rudere abbandonato, un luogo suggestivo e inaspettato. L''ultimo tratto è su strade di campagna.</p>
 
-<h3>Informazioni Utili - Dettagli per il Vostro Trekking</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa è un''<strong>escursione di difficoltà facile</strong>, ideale per famiglie e per chi è alle prime armi. La <strong>distanza totale è di circa 8,68 km</strong> per un giro ad anello. Il <strong>dislivello è di 237 metri</strong>, quindi non presenta particolari ostacoli.  Si consiglia di indossare scarpe da trekking e di portare con sé acqua e uno snack.  È importante anche verificare le previsioni del tempo prima di partire.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per facilitare la navigazione, ho preparato una <strong id="traccia-gps">traccia GPS</strong> di questa escursione.  </p>
 <ul>
-    <li><strong>Difficoltà:</strong> Media - Alcuni tratti possono essere impervi.</li>
-    <li><strong>Distanza Totale:</strong> Circa 10-12 km</li>
-    <li><strong>Dislivello:</strong> Circa 300-400 metri</li>
-    <li><strong>Punto di Partenza:</strong> Villa Mauro Gordato</li>
-    <li><strong>Punto di Arrivo:</strong> Monte Rotondo (con possibilità di estendere il percorso)</li>
-    <li><strong>Tipo di Sentiero:</strong> Sentiero escursionistico, con tratti sterrati e alcuni tratti fuori sentiero.</li>
-    <li><strong>Consigli:</strong> Indossate scarpe da trekking adatte, portate con voi acqua e snack, e rispettate l''ambiente circostante. La visita alle <strong>cascate</strong> è altamente consigliata.</li>
+    <li><strong>Distanza:</strong> Circa 8.68 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 237 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Villa Mauro Gordato (accessibile in auto)</li>
+    <li><strong>Comune:</strong> Villa Maria, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico, strada sterrata</li>
 </ul>
 
-<p>Esplorate le meraviglie della natura con un''<strong>escursione</strong> indimenticabile lungo il <strong>sentiero</strong> Via Mauro Gordato, un vero gioiello per gli appassionati di <strong>trekking</strong> e <strong>escursionismo</strong> in <strong>Italia</strong>.  Scoprite le <strong>cascate</strong>, il <strong>Monte Rotondo</strong> e i suoi ruderi.  Pianificate la vostra avventura oggi stesso!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="distanza">Distanza:</strong> Circa 8.68 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 237 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Villa Mauro Gordato (accessibile in auto)</li>
+    <li><strong id="comune">Comune:</strong> Villa Maria, Toscana</li>
+    <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   8.68,
   237,

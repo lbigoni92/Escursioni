@@ -7,31 +7,39 @@ VALUES (
   122247783,
   'Populonia - La via del ferro - Sentiero dei Cavalleggeri',
   'Populonia Una bellissima giornata di Dicembre, abbiamo fatto una girata alla ricerca di Geo cache e siamo anche passati a vedere delle tombe etrusche. Consiglio molto la visita. In seguito abbiamo mangiato al castello di Populonia con una bellissima vita su tutto il promontorio... proseguito per la Buca delle Fate... Cala Buia e Faro di Baratti. La strada costiera presenta dei tratti esposti (causa frane) niente di difficile ma è bene avvisare. Venite con un abbigliamento adeguato specialmente le scarpe!',
-  '<h2>Populonia - La Via del Ferro - Sentiero dei Cavalleggeri: Trekking e Natura in Toscana</h2>
+  '<h2 id="populonia-via-ferro-sentiero-cavalleggeri">Escursione a Populonia: La Via del Ferro e il Sentiero dei Cavalleggeri</h2>
 
-<h3>Il Percorso</h3>
-<p>
-Immergetevi in un''escursione indimenticabile lungo il <strong>Sentiero dei Cavalleggeri</strong>, un percorso di trekking che snoda attraverso il paesaggio mozzafiato della **Populonia** e della costa toscana. Questo sentiero, noto anche come "La Via del Ferro", offre una combinazione unica di storia, cultura e <strong>natura incontaminata</strong>. Partirete dal cuore storico di Populonia, ammirando i suoi imponenti resti etruschi, per poi inoltrarvi in un''avventura tra le colline e le coste frastagliate. L''escursione, di circa 15-20 km, è pensata per appassionati di <strong>trekking</strong> e <strong>escursionismo</strong> che desiderano scoprire i segreti di questo territorio ricco di fascino. <em>Il sentiero è prevalentemente pianeggiante, con alcuni brevi tratti in salita, offrendo una sfida accessibile a tutti i livelli di esperienza</em>.
-</p>
+<h3 id="come-arrivare-punto-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza di questa fantastica escursione è facilmente raggiungibile. Partendo da Populonia, segui le indicazioni per il “Sentiero dei Cavalleggeri”. Puoi parcheggiare l''auto nei pressi del punto di partenza indicato e da lì inizierà il tuo trekking.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>
-Durante questa magnifica <strong>escursione in Toscana</strong>, potrete ammirare panorami spettacolari sulla **Cala Buia**, il suggestivo <strong>Faro di Baratti</strong> e le incantevoli <strong>Buca delle Fate</strong>. Il sentiero vi condurrà attraverso paesaggi variegati, dominati dalla presenza della **montagna** e del mare.  Incontrerete antiche necropoli etrusche, testimonianze di un passato glorioso, e godrete della tranquillità della **natura** italiana.  Un''esperienza di <strong>trekking</strong> in un''area protetta, dove la bellezza del paesaggio si sposa con la ricchezza del patrimonio storico e culturale.  Ricordatevi di indossare un abbigliamento adeguato e scarpe da trekking robuste per affrontare il percorso con sicurezza e comfort.
-</p>
+<h3 id="il-percorso-passo-passo">Il Percorso Passo per Passo</h3>
+<p>Inizieremo da Populonia, attraversando le antiche tombe etrusche. Da qui, il sentiero ci guiderà attraverso paesaggi mozzafiato, ammirando la Via del Ferro, un''antica strada romana. Il sentiero si snoda verso la Buca delle Fate, Cala Buia e infine il Faro di Baratti, offrendo panorami spettacolari sulla costa toscana. La strada costiera presenta alcuni tratti esposti a causa di frane, quindi è importante prestare attenzione, ma la difficoltà è valutata come media.</p>
 
-<h3>Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione di tipo anello di circa 9.51 km presenta una difficoltà valutata come media, con un dislivello di 388 metri. È consigliabile indossare un abbigliamento adeguato e soprattutto scarpe da trekking robuste, dato il terreno e la presenza di tratti esposti.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per aiutarti durante l''escursione, ti forniamo la traccia GPS e le informazioni pratiche:</p>
 <ul>
-    <li><b>Difficoltà:</b> Facile/Media</li>
-    <li><b>Distanza:</b> Circa 15-20 km</li>
-    <li><b>Durata:</b> Circa 6-8 ore</li>
-    <li><b>Punto di Partenza:</b> Populonia (centro storico)</li>
-    <li><b>Punto di Arrivo:</b> Faro di Baratti</li>
-    <li><b>Aspetti da considerare:</b>  Alcuni tratti della strada costiera possono essere esposti a causa di frane. Prestare attenzione e indossare scarpe da trekking adatte.  Rispettare l''ambiente naturale e il patrimonio storico.</li>
+  <li><strong>Distanza:</strong> 9.51 km (anello)</li>
+  <li><strong>Dislivello:</strong> 388 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Sentiero dei Cavalleggeri, Populonia</li>
+  <li><strong>Comune:</strong> Populonia, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>
-Questo <strong>sentiero di trekking</strong> rappresenta un''opportunità unica per immergersi nella bellezza della **Toscana** e vivere un''esperienza di <strong>natura</strong> autentica.  Se siete alla ricerca di una giornata all''aria aperta, ricca di emozioni e scoperte,  il <strong>Sentiero dei Cavalleggeri</strong> è la scelta perfetta per il vostro prossimo <strong>trekking</strong> in Italia.  Approfittatene per esplorare le **tombe etrusche** di Populonia e godere della vista mozzafiato sulla costa.
-</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong >Distanza:</strong> Circa 9.51 km (anello)</li>
+  <li><strong >Dislivello:</strong> Circa 388 metri</li>
+  <li><strong >Difficoltà:</strong> Media</li>
+  <li><strong >Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong >Punto di partenza:</strong> Sentiero dei Cavalleggeri, Populonia</li>
+  <li><strong >Comune:</strong> Populonia, Toscana</li>
+  <li><strong >Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   9.51,
   388,

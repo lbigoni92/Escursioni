@@ -7,31 +7,30 @@ VALUES (
   87371842,
   'Buca dei banditi - Val di Chioma',
   'Per chi vuole fare un giro nelle colline livornesi alla scoperta dei luoghi storici della 2°guerra mondiale. Al km 3.9 s''arriva al punto dove si trova la grotta, non è sul sentiero principale ma dietro e segnato male quindi mi raccomando State attenti! Un paio di tratti tagliano dei sentieri quindi sono un pò selvaggi, consiglio pantaloni lunghi',
-  '<h2>Buca dei Banditi – Val di Chioma: Trekking e Storia nelle Colline Livornesi</h2>
+  '<h2 id="buca-dei-banditi-val-di-chioma">Escursione alla Buca dei Banditi – Val di Chioma</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa bell''escursione nelle colline livornesi è al km 3.9 della strada che costeggia la Val di Chioma. Da Castellaccio, segui le indicazioni per la Val di Chioma e cerca il punto di accesso al sentiero, che è un po'' nascosto e non sempre ben segnalato. È raggiungibile in auto, ma l''ultimo tratto potrebbe essere stretto, quindi valuta bene l''auto.</p>
 
-<p>Preparati per un''escursione indimenticabile lungo il <strong>sentiero** Buca dei Banditi** – Val di Chioma**, una vera e propria immersione nella natura selvaggia e nella storia della Seconda Guerra Mondiale nelle <strong>colline livornesi**. Questo trekking** di escursione** è ideale per chi cerca un''esperienza autentica, unendo la bellezza del territorio con un''importante testimonianza del passato. Il percorso, di media difficoltà, ti condurrà attraverso paesaggi mozzafiato, con panorami a perdita d''occhio sulla Val di Chioma e sulle dolci colline circostanti.  L''escursione in <strong>sentiero** è un''occasione unica per scoprire la vera anima della Toscana e godere di una giornata di <strong>trekking** a contatto con la <strong>natura**.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Partendo dal punto di partenza, il sentiero si snoda attraverso i boschi e i campi delle colline livornesi. Il tratto iniziale è piuttosto semplice, ma dopo circa 3,9 km si arriva alla <strong id="buca-dei-banditi">Buca dei Banditi</strong>, una grotta utilizzata dai tedeschi durante la Seconda Guerra Mondiale.  Attenzione, ci sono alcuni tratti più selvaggi e un po'' impraticabili, quindi consiglio pantaloni lunghi per proteggerti dalla vegetazione. Il sentiero continua a salire, offrendo sempre un panorama suggestivo sulla Val di Chioma.  L''escursione è di tipo solo andata, quindi preparati a tornare indietro lungo lo stesso sentiero.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di <strong id="difficoltà">Facile</strong> difficoltà, adatta a escursionisti principianti e famiglie. La distanza totale è di circa 17,7 km con un dislivello di 443 metri.  Il sentiero è prevalentemente in mezzo al bosco, quindi preparati a sudare un po''. Ricorda che il sentiero è un po'' selvaggio in alcuni tratti, quindi indossa scarpe da trekking adatte e porta con te acqua e snack.</p>
 
-<p>Durante questo <strong>sentiero**, potrai ammirare tratti selvaggi e un paesaggio rurale autentico, caratterizzato da muretti a secco, antichi casolari e la profonda quiete delle <strong>montagne**.  L''escursione, di circa 8 km, richiede una buona preparazione fisica, soprattutto per i tratti più impegnativi.  Sarai testimone di una parte significativa della storia della Seconda Guerra Mondiale, con la visita della <strong>Buca dei Banditi**, un luogo storico legato agli eventi bellici.  Ricorda che il percorso presenta alcuni tratti non ben segnalati, quindi è fondamentale prestare attenzione e mantenere un buon ritmo.  Ti consigliamo di indossare <strong>pantaloni lunghi** per proteggerti dal vegetame e dagli strappi del terreno, soprattutto durante l''escursione.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per scaricare la traccia GPS di questa escursione, visita <a href="https://www.escursionilucabigoni.it/traccia-gps-buca-dei-banditi-val-di-chioma/" target="_blank">questa pagina</a>. Ti consiglio di scaricare la traccia in un''app di navigazione per smartphone per seguirla durante l''escursione.</p>
 
-<p>La <strong>difficoltà** del sentiero è media, adatta a escursionisti esperti e a famiglie con bambini adolescenti. L''altimetria varia, con alcuni ripidi e dislivelli da affrontare.  L''escursione richiede una buona preparazione fisica ed è consigliabile indossare scarpe da trekking adatte.</p>
-
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Distanza:</b> Circa 8 km</li>
-    <li><b>Dislivello:</b> Varia, con alcuni ripidi</li>
-    <li><b>Difficoltà:</b> Media</li>
-    <li><b>Località:</b> Colline livornesi, Val di Chioma</li>
-    <li><b>Punto di partenza:</b> Km 3.9 – Ingresso alla Buca dei Banditi</li>
-    <li><b>Segnaletica:</b> Parziale – Seguire attentamente le indicazioni e la mappa</li>
-    <li><b>Consigli:</b> Indossare <strong>pantaloni lunghi**, scarpe da trekking, portare acqua e snack, rispettare l’ambiente e la flora locale</li>
-</ul>
-
-<p>Questo <strong>sentiero** offre un''esperienza di <strong>trekking** unica nella splendida regione Toscana, un''occasione per ammirare panorami mozzafiato e scoprire luoghi storici.  Organizza la tua <strong>escursione** lungo il <strong>sentiero** Buca dei Banditi – Val di Chioma e vivi un''avventura indimenticabile!</p>',
+  <li><strong id="distanza">Distanza:</strong> Circa 17.7 km (solo andata)</li>
+  <li><strong id="dislivello">Dislivello:</strong> Circa 443 metri</li>
+  <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+  <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="punto-di-partenza">Punto di partenza:</strong> Km 3.9 Strada che costeggia la Val di Chioma, Castellaccio, Toscana</li>
+  <li><strong id="comune">Comune:</strong> Castellaccio, Toscana</li>
+  <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   17.7,
   443,

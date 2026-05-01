@@ -7,27 +7,38 @@ VALUES (
   231157784,
   'Anello Alba–Penia: Baita Locia de Contrin, Passo San Nicolò e Rifugio Contrin',
   'Percorso ad anello con partenza da Alba–Penia. L’avvio attraversa un ponticello su acque limpide e turchesi, quindi prosegue su strada sterrata alternata a sentiero fino alla Baita Locia de Contrin: qui la salita è costante ma regolare. Superato il km 1,8 il tracciato si fa più scorrevole e quasi pianeggiante, tra pascoli dove non è raro incontrare mucche, cavalli e asini. Al km 4 si raggiunge un bivio: prendendo a destra si affronta la rampa più decisa dell’itinerario, che porta verso il Passo San Nicolò. L’ascesa mette un po’ alla prova ma resta sempre su buon fondo; lungo questo tratto sono frequenti gli avvistamenti di marmotte (prime osservazioni attorno al km 5,7). Proseguendo si arriva al Passo San Nicolò (6,7 km), con ampi panorami d’alta quota. Si scende quindi verso il Rifugio Contrin (10,3 km) su sentiero comodo, immerso nei pascoli. Da qui il rientro chiude l’anello passando per Baita Cianci (11,5 km) e riconnettendosi al bivio dell’andata, per poi tornare ad Alba–Penia. Nel complesso è un itinerario semplice e ben segnalato, senza passaggi tecnici; la parte più impegnativa è la salita al Passo San Nicolò e la discesa finale, lunga e da fare con passo regolare. Percorso molto gradevole per scenari di pascolo alpino e numerosi incontri con la fauna locale, in particolare marmotte lungo la fascia alta.',
-  '<h2>Anello Alba–Penia: Baita Locia de Contrin, Passo San Nicolò e Rifugio Contrin – Trekking in Montagna</h2>
+  '<h2 id="anello-alba-penia-baita-locia-de-contrin-passo-san-nicolò-rifugio-contrin">Anello Alba–Penia: Baita Locia de Contrin, Passo San Nicolò e Rifugio Contrin</h2>
 
-<h3>Il Percorso – Escursione ad Anello in Trentino</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa bellissima escursione è ad Alba–Penia, in Trentino-Alto Adige. Raggiungere Alba–Penia è abbastanza semplice, si può arrivare in auto da diverse direzioni, oppure si può arrivare a piedi partendo da altre località limitrofe. Consultate le mappe online per trovare il percorso più adatto alle vostre esigenze.</p>
 
-<p>Questo <strong>anello trekking</strong> da Alba–Penia è un''esperienza indimenticabile per gli amanti della <strong>natura</strong> e del <strong>trekking</strong> in <strong>montagna</strong>. Il percorso offre panorami mozzafiato, scenari di pascolo alpino e la possibilità di avvistare la fauna locale, in particolare le <strong>marmotte</strong>. Ideale per un''<strong>escursione</strong> di un giorno o un''intera giornata di <strong>sentiero</strong>, questo itinerario è perfetto per famiglie e principianti.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo anello di circa 16,16 km e con un dislivello di 896 metri è perfetto per un''escursione di mezza giornata. Iniziate da Alba–Penia e subito dopo il ponticello su acque limpide e turchesi, proseguendo su strada sterrata alternata a sentiero fino alla Baita Locia de Contrin. Da qui, la salita è costante ma regolare. Superato il km 1,8, il tracciato diventa più scorrevole e pianeggiante, tra pascoli dove è facile incontrare animali come mucche, cavalli e asini. Raggiungete il bivio al km 4 e prendete a destra per affrontare la rampa più decisa, che vi porterà al Passo San Nicolò. L’ascesa è impegnativa ma su un buon fondo, e qui potrete ammirare panorami d''alta quota. Da qui, scendete verso il Rifugio Contrin (10,3 km) su sentiero comodo, immerso nei pascoli. Il rientro chiude l’anello passando per Baita Cianci (11,5 km) e riconnettendosi al punto di partenza ad Alba–Penia.</p>
 
-<h3>Cosa Aspettarsi – Dettagli del Trekking</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>La difficoltà di questa escursione è considerata Medio. La parte più impegnativa è la salita al Passo San Nicolò e la discesa finale, lunga e da fare con passo regolare. È un percorso semplice e ben segnalato, senza passaggi tecnici, ma preparatevi a una salita decisa.</p>
 
-<ul>
-  <li>Partenza da <strong>Alba–Penia</strong> e ritorno</li>
-  <li>Percorso ad anello di circa 18 km con un dislivello di 800 metri</li>
-  <li>Il percorso include tratti di strada sterrata, sentiero e rampe</li>
-  <li>La parte più impegnativa è la salita al <strong>Passo San Nicolò</strong> e la discesa finale</li>
-  <li>Numerosi incontri con la fauna locale, tra cui <strong>marmotte</strong> e animali da allevamento</li>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul id="traccia-gps-e-informazioni-pratiche">
+    <li><strong>Distanza:</strong> Circa 16.16 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 896 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Alba–Penia (accessibile in auto / a piedi)</li>
+    <li><strong>Comune:</strong> Penia, Trentino-Alto Adige</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni Utili – Dati e Suggerimenti per l''Escursione</h3>
-
-<p>L''<strong>anello Alba–Penia</strong> è un <strong>sentiero</strong> ben segnalato e di difficoltà media. La distanza totale del percorso è di circa 18 km con un dislivello di 800 metri.  È consigliabile indossare scarpe da trekking adatte e portare con sé acqua, cibo e abbigliamento adeguato al <strong>trekking</strong> in <strong>montagna</strong>. L''itinerario è particolarmente adatto per chi cerca un''<strong>escursione</strong> piacevole tra i pascoli alpini e la <strong>natura</strong> incontaminata.  La presenza di <strong>marmotte</strong> rende questo <strong>sentiero</strong> un''esperienza unica.  Considera la possibilità di un''<strong>escursione</strong> durante la primavera o l''autunno per evitare il caldo estivo e godere di colori e profumi intensi.  Ricorda di rispettare l''ambiente e di seguire le indicazioni del sentiero.</p>
-
-<p>Questo <strong>sentiero</strong> offre la possibilità di praticare il <strong>trekking</strong> in un ambiente naturale di grande valore.  Un''ottima opportunità per un weekend di <strong>natura</strong> e <strong>avventura</strong>.  Vivi un''<strong>escursione</strong> indimenticabile lungo questo <strong>sentiero</strong>.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 16.16 km (andata e ritorno / anello)</li>
+    <li><strong>Dislivello:</strong> Circa 896 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Alba–Penia (accessibile in auto / a piedi)</li>
+    <li><strong>Comune:</strong> Penia, Trentino-Alto Adige</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   16.16,
   896,

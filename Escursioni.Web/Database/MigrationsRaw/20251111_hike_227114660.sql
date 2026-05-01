@@ -7,25 +7,40 @@ VALUES (
   227114660,
   'Libro Aperto, Monte Lagoni e Rifugio Casetta di Lapo da Abetone',
   'L’escursione parte da Abetone, nei pressi del parcheggio del Lavitone. Dopo aver imboccato il sentiero 00, si sale in direzione del Monte Maiori, proseguendo sullo 00 si raggiunge la località La Verginella e, poco dopo, il Rifugio Casetta di Lapo, ottimo punto di sosta. Da qui si segue il sentiero 495, semplice ma suggestivo, che costeggia il Lago della Risaia e porta gradualmente verso le pendici del Libro Aperto. L’ultimo tratto richiede un po’ più di impegno per via della salita su terreno aperto, ma senza particolari difficoltà tecniche. Raggiunta la vetta del Libro Aperto, si può scegliere di restare sull’anello base oppure aggiungere la variante più impegnativa verso il Monte Lagoni. Riprendendo il percorso principale, si segue il sentiero 447 fino al Monte Lagoni, da cui si apre un ampio panorama sul Monte Cimone, da li siamo tornati in dietro, direzione Monte Belvedere e, poco dopo la Cima del Diaccione. La discesa prosegue nuovamente verso la Casetta di Lapo, da cui seguendo sentieri turistici, si rientra ad Abetone passando per il cimitero monumentale. Punti di interesse lungo l’anello: Monte Maiori – 2.5 km Lago della Risaia – 4.1 km Libro Aperto – 6.2 km Monte Lagoni – 8.7 km Monte Belvedere – 11.3 km Cima del Diaccione – 12.9 km Rifugio Casetta di Lapo – 13.3 km Si tratta di un itinerario adatto a escursionisti mediamente allenati: la versione base è semplice e ben segnalata, mentre la variante verso il Monte Lagoni richiede più attenzione ed esperienza. Si raccomanda di portare acqua a sufficienza, specialmente nei tratti più esposti.',
-  '<h2>Trekking Libro Aperto Monte Lagoni Rifugio Casetta di Lapo – Escursioni in Montagna</h2>
+  '<h2 id="escursione-libro-aperto-monte-lagoni-rifugio-casetta-di-lapo">Escursione al Libro Aperto, Monte Lagoni e Rifugio Casetta di Lapo da Abetone</h2>
 
-<h3>Il Percorso: Un Anello di Bellezza tra Montagne e Laghi</h3>
-<p>Questo affascinante <strong>sentiero di trekking</strong> vi porterà attraverso un paesaggio mozzafiato nel cuore dell''Abetone. L''<strong>escursione</strong>, ideale per gli amanti della <strong>natura</strong> e del <strong>trekking</strong>, segue diversi <strong>sentieri turistici</strong>, offrendo una varietà di panorami e sfide. Partendo da Abetone, con un piacevole approccio, raggiungerete il <strong>Rifugio Casetta di Lapo</strong>, un punto di sosta perfetto per ammirare il panorama. Da qui, il percorso si snoda attraverso la <strong>montagna</strong>, offrendo un''esperienza indimenticabile per un''<strong>escursione in montagna</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>L''escursione parte da Abetone, nei pressi del parcheggio del Lavitone. È facilmente raggiungibile in auto, seguendo le indicazioni per Abetone e poi individuando il parcheggio del Lavitone. Da qui, si inizia l''avventura!</p>
 
-<h3>Cosa Aspettarsi: Un''Escursione Adatta a Tutti i Livelli</h3>
-<p>Questo <strong>sentiero di trekking</strong>, noto come <strong>Libro Aperto Monte Lagoni</strong>, è un anello di circa 13 km che si adatta a escursionisti mediamente allenati. La versione base è semplice e ben segnalata, perfetta per un''<strong>escursione</strong> rilassante. Tuttavia, per gli amanti dell''avventura, è disponibile una variante più impegnativa verso il <strong>Monte Lagoni</strong>, che richiede maggiore attenzione ed esperienza. Ricordate di portare con voi acqua a sufficienza, soprattutto durante i tratti più esposti, per godervi al meglio questa magnifica <strong>trekking</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Il sentiero inizia con un tratto in salita lungo il sentiero 00 in direzione del Monte Maiori. Dopo circa 2.5 km si raggiunge la località La Verginella, dove si trova il Rifugio Casetta di Lapo, un''ottima tappa per riposare e ammirare il panorama. Da qui, si prosegue lungo il sentiero 495, un percorso semplice ma suggestivo che costeggia il Lago della Risaia. Dopo circa 4.1 km si raggiunge il Lago della Risaia. Superato il lago, il sentiero si inerpica verso le pendici del Libro Aperto. L''ultimo tratto richiede un po'' più di impegno per via della salita su terreno aperto, ma senza particolari difficoltà tecniche. Una volta raggiunta la vetta del Libro Aperto, si può scegliere di seguire l''anello base o la variante più impegnativa verso il Monte Lagoni. Da qui, si apre un ampio panorama sul Monte Cimone. Rientrando verso Abetone, si prosegue lungo il sentiero 447 fino al Monte Lagoni, da cui si rientra seguendo i sentieri turistici, passando per il cimitero monumentale e infine rientrando al Rifugio Casetta di Lapo.</p>
 
-<h3>Informazioni Utili: Dettagli per un Trekking Sicuro e Appagante</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà media. Il percorso è di circa 17.33 km con un dislivello di 835 metri. È consigliata per escursionisti mediamente allenati. La versione base è semplice e ben segnalata, mentre la variante verso il Monte Lagoni richiede più attenzione ed esperienza. Si raccomanda di portare acqua a sufficienza, specialmente nei tratti più esposti.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>
+    <strong id="distanza">Distanza:</strong> Circa 17.33 km (anello)
+    <strong id="dislivello">Dislivello:</strong> Circa 835 metri
+    <strong id="difficoltà">Difficoltà:</strong> Medio
+</p>
 <ul>
-    <li><strong>Difficoltà:</strong> Media</li>
-    <li><strong>Distanza:</strong> Circa 13 km (Anello)</li>
-    <li><strong>Dislivello:</strong> Circa 600 metri</li>
-    <li><strong>Punti di Interesse:</strong> <strong>Monte Maiori</strong> (2.5 km), <strong>Lago della Risaia</strong> (4.1 km), <strong>Libro Aperto</strong> (6.2 km), <strong>Monte Lagoni</strong> (8.7 km), <strong>Monte Belvedere</strong> (11.3 km), <strong>Cima del Diaccione</strong> (12.9 km), <strong>Rifugio Casetta di Lapo</strong> (13.3 km)</li>
-    <li><strong>Sentieri Coinvolti:</strong> Sentiero 00, Sentiero 495, Sentiero 447</li>
-    <li><strong>Consigli:</strong> Indossare scarpe da trekking adatte, portare acqua, crema solare e cappello.</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Parcheggio del Lavitone, Abetone</li>
+    <li><strong id="comune">Comune:</strong> Abetone, Toscana, Italia</li>
+    <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Scoprite le meraviglie del <strong>Libro Aperto Monte Lagoni</strong>, un''esperienza di <strong>trekking</strong> indimenticabile nel cuore dell''<strong>Italia</strong>.  Perfetto per un''<strong>escursione</strong> di un giorno o per una weekend alla scoperta della <strong>montagna</strong>! </p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="distanza">Distanza:</strong> Circa 17.33 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 835 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Medio</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Parcheggio del Lavitone, Abetone (accessibile in auto)</li>
+    <li><strong id="comune">Comune:</strong> Abetone, Toscana</li>
+    <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   17.33,
   835,

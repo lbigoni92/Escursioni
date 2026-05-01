@@ -7,25 +7,30 @@ VALUES (
   102949526,
   'Calignaia - Spiaggia Sonnino - Poggio delle Monachine - Castellaccio',
   'Buongiorno! Il percorso è quasi sempre bene segnato e facile tranne nella prima parte per arrivare al poggio delle Monachine, in quel tratto era un pò pieno d''arbusti e stretto. Al chilometro 8.4 si fa una discesa , che per chi è abituato alla montagna, non è difficile ma sennò prestate attenzione , si scivola. La parte che merita di più? Il Poggio delle Monachine che è sicuramente il punto più panoramico di tutta la zona sa li si ha una visuale su tutto il romito, merita davvero! Non usate scarpe aperte, e potate acqua non vi sono fontanelle!',
-  '<h2>Calignaia - Spiaggia Sonnino - Poggio delle Monachine - Castellaccio: Trekking Panoramico in Calabria</h2>
+  '<h2 id="calignaia-spiaggia-sonnino-poggio-delle-monachine-castellaccio">Escursione Calignaia - Spiaggia Sonnino - Poggio delle Monachine - Castellaccio</h2>
 
-<h3>Il Percorso: Un''Esplorazione di Sentieri Incredibili</h3>
-<p>Preparatevi per un''entusiasmante <strong>escursione di trekking</strong> lungo la <strong>Calignaia</strong>, un percorso suggestivo che vi condurrà attraverso paesaggi mozzafiato della Calabria. Questo sentiero, di circa 13 chilometri, è ideale per <strong>trekking</strong> ed <strong>escursioni</strong>, offrendo una combinazione unica di costa e montagna. Il sentiero è generalmente ben segnato, sebbene la prima parte possa essere leggermente più impegnativa, con arbusti e tratti stretti.  La <strong>Calignaia</strong> è un''ottima opportunità per immergervi nella <strong>natura calabrese</strong> e scoprire i suoi segreti.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa fantastica escursione si trova a Quercianella, in Toscana.  È facilmente raggiungibile in auto lungo le strade locali. Dallo stesso punto di partenza si può arrivare anche a piedi, ma si tratta di un percorso che richiede un minimo di preparazione.</p>
 
-<h3>Cosa Aspettarsi: Un''Avventura Ricca di Scoperte</h3>
-<p>Durante questa <strong>escursione in montagna</strong>, potrete ammirare panorami spettacolari, scorrere sulla splendida <strong>spiaggia di Sonnino</strong> e raggiungere il <strong>Poggio delle Monachine</strong>, il punto più panoramico del percorso.  La discesa al chilometro 8.4 richiede un''attenzione particolare, soprattutto per chi non è abituato alla <strong>montagna</strong>, data la potenziale superficie scivolosa.  La difficoltà del sentiero è moderata,  ma è fondamentale indossare scarpe da trekking adatte e prepararsi adeguatamente.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Partendo da Quercianella, il sentiero inizialmente segue il sentiero naturale della Calignaia, offrendo panorami mozzafiato sulla costa. Il tratto successivo si inoltra nel bosco, con una parte un po'' più fitta e stretta, specialmente verso il Poggio delle Monachine.  Una volta raggiunto il poggio, si gode di una vista panoramica incredibile. La discesa verso la spiaggia di Sonnino è relativamente facile, ma richiede attenzione a causa di alcuni tratti scivolosi, soprattutto per chi non è abituato alla montagna. La discesa si conclude al Castellaccio, un''ultima salita che premia con una vista finale.</p>
 
-<h3>Informazioni Utili: Pianificate il Vostro Trekking</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione di trekking è valutata come <strong >Media</strong>. Il percorso presenta alcuni tratti più impegnativi, in particolare la salita al Poggio delle Monachine e la discesa verso la spiaggia. È consigliabile indossare scarpe da trekking adeguate e portare con sé acqua e cibo, dato che lungo il percorso non ci sono fontanelle. La distanza totale è di circa <strong >11.21 km</strong> con un dislivello di <strong >353 metri</strong>.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>A breve troverete la traccia GPS per questa bellissima escursione.  Ricordatevi di scaricare la traccia GPS sul vostro dispositivo prima di partire e di seguire le indicazioni lungo il sentiero.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-  <li><b>Distanza:</b> Circa 13 km</li>
-  <li><b>Difficoltà:</b> Moderata (con tratti più impegnativi nella prima parte e discesa al chilometro 8.4)</li>
-  <li><b>Tipo di Percorso:</b> Sentiero <strong>trekking</strong>, adatto anche a <strong>escursioni</strong> occasionali</li>
-  <li><b>Punti di Interesse:</b> <strong>Poggio delle Monachine</strong> (vista panoramica), <strong>Castellaccio</strong></li>
-  <li><b>Accessibilità:</b> Iniziando da <strong>Sonnino</strong>, il sentiero offre un''esperienza accessibile a molti.</li>
-  <li><b>Consigli:</b> Indossate scarpe da <strong>trekking</strong> robuste, portate acqua a sufficienza (non ci sono fontanelle) e siate consapevoli della potenziale superficie scivolosa durante la discesa.  Non utilizzate scarpe aperte.</li>
-</ul>
-
-<p>Questo affascinante <strong>sentiero in Calabria</strong> vi regalerà un''indimenticabile <strong>escursione</strong> tra la costa e la <strong>montagna</strong>.  Organizzate il vostro <strong>trekking</strong> lungo la <strong>Calignaia</strong> e preparatevi a vivere un''esperienza unica!</p>',
+  <li><strong>Distanza:</strong> Circa 11.21 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 353 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Quercianella, accessibile in auto</li>
+  <li><strong>Comune:</strong> Quercianella, Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.21,
   353,

@@ -7,23 +7,36 @@ VALUES (
   184678906,
   'Grotte gialle',
   'Le Grotte Gialle di Bibbona: cosa sono e come arrivare Le Grotte Gialle di Bibbona sono una meraviglia naturale nascosta nella campagna toscana, situate nella provincia di Livorno. Il loro nome deriva dal caratteristico colore giallo delle rocce calcaree che le compongono. Queste formazioni affascinanti sembrano uscite da una fiaba e offrono un''esperienza unica, lontana dai percorsi turistici più battuti. Bibbona è già nota per il suo borgo medievale pittoresco, circondato da colline ricoperte di vigneti e uliveti, ma le Grotte Gialle rappresentano un''attrazione speciale per chi cerca una connessione più autentica e avventurosa con la natura. Queste grotte si sono formate nel corso di millenni, grazie all''erosione dell''acqua, creando un intricato sistema di cavità e passaggi sotterranei. Non essendo un''attrazione turistica convenzionale, le grotte mantengono un''aura di mistero e avventura. Si consiglia di visitarle accompagnati da una guida locale esperta, che possa raccontare la storia geologica e culturale del luogo. Grotte Gialle di Bibbona: cosa sono Le Grotte Gialle sono formazioni calcarenitiche che conservano oltre un milione di anni di storia. Al loro interno si trovano antiche tombe etrusche risalenti al IV e V secolo a.C., caratterizzate dalla singolare forma a "orecchio di coniglio". Queste due camere funerarie a forma di "V", separate da una falsa colonna, sono testimonianze millenarie di un''antica civiltà, e nonostante alcuni interventi di ristrutturazione recenti, hanno mantenuto intatto il loro valore storico. Grotte Gialle di Bibbona: come arrivare Raggiungere le Grotte Gialle è relativamente semplice, anche per chi viaggia con bambini. Nonostante il terreno possa diventare scivoloso dopo la pioggia, il percorso è intuitivo, pur essendo poco segnalato. È utile impostare la destinazione su Google Maps per orientarsi meglio.',
-  '<h2>Trekking nelle Grotte Gialle di Bibbona: Escursione nella Toscana Selvaggia</h2>
+  '<h2 id="escursione-grotte-gialle">Escursione alle Grotte Gialle di Bibbona</h2>
 
-<h3>Il Percorso</h3>
-<p>Immergetevi in un''escursione indimenticabile lungo i sentieri che conducono alle <strong>Grotte Gialle di Bibbona</strong>, un vero gioiello nascosto nel cuore della Toscana. Questo percorso di trekking, ideale per gli amanti della natura e della storia, vi permetterà di esplorare un paesaggio mozzafiato caratterizzato da colline ondulate, vigneti e oliveti. L''escursione, pur non essendo particolarmente impegnativa, vi immergerà nella tranquillità della campagna toscana, offrendovi la possibilità di apprezzare la bellezza della <strong>montagna</strong> e della <strong>natura</strong> in tutta la sua autenticità. Preparatevi a un''avventura di <strong>trekking</strong> unica, lontano dai percorsi turistici più affollati, e godetevi la sensazione di scoprire un luogo speciale.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa Aspettarsi</h3>
+<p>Raggiungere le Grotte Gialle di Bibbona è un''esperienza semplice, anche se il percorso non è particolarmente segnalato. L''ideale è impostare la destinazione su Google Maps per orientarsi meglio, tenendo presente che il terreno può diventare scivoloso dopo la pioggia. Partire dal centro di Montaleo, che è il comune dove si trovano le grotte, è un buon punto di partenza per questa bella escursione.</p>
+
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>Questa escursione di tipo anello di circa 10,99 km è un''ottima opportunità per immergersi nella natura toscana. Inizierai dal centro di Montaleo e ti dirizzerai attraverso la campagna, passando per vigneti e uliveti, fino a raggiungere l''ingresso delle Grotte Gialle. Il percorso è prevalentemente pianeggiante, con un leggero dislivello da affrontare e superare. L''escursione è un''opportunità per ammirare panorami suggestivi e scoprire i segreti della natura.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>La difficoltà di questa escursione è considerata facile, adatta a tutti, anche a chi non ha molta esperienza. Il dislivello è di circa 384 metri, ma il percorso è ben tracciato e non presenta ostacoli significativi. È consigliabile indossare scarpe da trekking comode e portare con sé acqua e snack, soprattutto se si prevede di trascorrere del tempo all''interno delle grotte.  Valuta di organizzare questa escursione con una guida locale per scoprire la storia geologica e culturale del luogo.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>Disponibile una traccia GPS per facilitare l''escursione. La distanza totale dell''anello è di circa 10,99 km con un dislivello positivo di 384 metri. Questo percorso offre un''occasione unica per esplorare le Grotte Gialle di Bibbona e ammirare la bellezza del paesaggio toscano. Ricorda di controllare le previsioni del tempo prima di partire e di indossare abbigliamento adeguato.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
 <ul>
-    <li>Un percorso di circa 5 km con un dislivello di 200 metri, perfetto per un''<strong>escursione</strong> di mezza giornata.</li>
-    <li>Rocce calcaree di colore giallo intenso, risultato dell''erosione dell''acqua che ha dato forma alle <strong>grotte</strong>.</li>
-    <li>Possibilità di ammirare la flora e la fauna locali, tra cui diverse specie di uccelli e piante endemiche.</li>
-    <li>Un''esperienza unica nel tempo, grazie alla presenza di antiche tombe etrusche all''interno delle <strong>grotte</strong>.</li>
-    <li>Un''atmosfera magica e suggestiva, lontana dal caos della vita quotidiana.</li>
-</ul>
-
-<h3>Informazioni Utili</h3>
-<p>Le <strong>Grotte Gialle di Bibbona</strong> sono un''attrazione naturale di grande valore storico e geologico. Si sono formate nel corso di millenni grazie all''erosione dell''acqua, creando un intricato sistema di cavità e passaggi sotterranei. All''interno delle <strong>grotte</strong> si trovano antiche tombe etrusche risalenti al IV e V secolo a.C., caratterizzate dalla singolare forma a "orecchio di coniglio".  Si consiglia vivamente di visitare le <strong>grotte</strong> accompagnati da una guida locale esperta, che possa raccontare la storia geologica e culturale del luogo, e fornire informazioni preziose sulle formazioni rocciose e sulle antiche tombe etrusche.  Il percorso di <strong>trekking</strong> è adatto a tutti, ma è consigliabile indossare scarpe da trekking e abbigliamento comodo.  Ricordatevi di portare con voi acqua e cibo per la meta del vostro <strong>trekking</strong>.</p>
-<p><strong>Località:</strong> Bibbona, Toscana.  La provincia di Livorno offre una vasta gamma di opportunità per l''<strong>escursione</strong> e il <strong>trekking</strong>.  Questa <strong>escursione</strong> nel cuore della Toscana è un''occasione imperdibile per scoprire un angolo di paradiso.</p>',
+    <li><b>Distanza:</b> Circa 10.99 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 384 metri</li>
+    <li><b>Difficoltà:</b> Facile</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Montaleo, Toscana</li>
+    <li><b>Comune:</b> Montaleo, Toscana</li>
+    <li><b>Regione:</b> Italia</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.99,
   384,

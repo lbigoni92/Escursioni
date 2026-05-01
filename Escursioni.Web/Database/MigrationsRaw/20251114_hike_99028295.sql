@@ -7,25 +7,30 @@ VALUES (
   99028295,
   'Monte Rondinaio - Lucca',
   'Girata mattutina, di due ore e trenta, in compagnia di altre due persone (che hanno un buon passo) e di un bel canone, il giro è facile, non presenta punti esposti e vi è anche un paio di fontanelle. Il percorso, prevede di passare per i primi 2 km da strada (poco o punta trafficata) in seguito avremo un'' alternanza di paesini e sentieri. La parte di più bella di questo sentiero è la salita al Monte Rondinaio dove la vita è stupenda! Anche se è una vetta minore ha un panorama unico nel suo genere si vede l''Uomo Morto la Pania, il Piglione e altri monti!',
-  '<h2>Monte Rondinaio - Lucca: Escursione Trekking Facile nella Montagna Lucchese</h2>
+  '<h2 id="escursione-monte-rondinaio-lucca">Escursione al Monte Rondinaio da Santa Maria Albiano</h2>
 
-<h3>Il Percorso – Escursione Trekking a Lucca</h3>
-<p>Scopri il meraviglioso sentiero di <strong>Monte Rondinaio a Lucca</strong>, un''escursione trekking di due ore e trenta minuti, perfetta per una giornata all''aria aperta. Questo <strong>sentiero di trekking</strong> offre un''esperienza unica nella <strong>montagna lucchese</strong>, con panorami mozzafiato e un percorso facile, adatto anche a escursionisti meno esperti. La <strong>escursione a Monte Rondinaio</strong> ti condurrà attraverso paesaggi incantevoli, alternando strade rurali a sentieri immersi nella <strong>natura italiana</strong>. Inizia la tua <strong>trekking a Lucca</strong> con un percorso di 2 km su strada, poi goditi l''alternarsi di paesaggi e sentieri, ideale per una <strong>passeggiata in montagna</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per l''escursione al Monte Rondinaio si trova facilmente raggiungibile in auto da Santa Maria Albiano. Da qui, segui le indicazioni per i sentieri escursionistici. In alternativa, è possibile raggiungere il punto di partenza a piedi, partendo dal centro del paese. L''accesso è libero e non ci sono costi di parcheggio.</p>
 
-<h3>Cosa Aspettarsi – Trekking Facile con Panorami Incredibili</h3>
-<p>Preparati per un''esperienza di <strong>trekking</strong> indimenticabile sul <strong>Monte Rondinaio</strong>. Questo sentiero di escursione è perfetto per chi cerca una <strong>passeggiata facile</strong> nella <strong>montagna</strong>, senza particolari difficoltà o punti esposti. Ammira la bellezza del <strong>canone</strong>, attraversa fontanelle e goditi la salita alla vetta. La parte più bella di questa <strong>escursione a Lucca</strong> è sicuramente la vista panoramica che si apre una volta raggiunta la cima. Da qui potrai ammirare l''Uomo Morto, la Pania, il Piglione e molti altri monti circostanti, un vero spettacolo per gli amanti della <strong>natura e del trekking</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo anello di 10.13 km con un dislivello di 819 metri è perfetto per un''escursione mattutina. Il sentiero inizia da una strada poco trafficata, per poi proseguire alternando tratti di strada a sentieri e paesini. La parte più bella dell''escursione è la salita al Monte Rondinaio, dove potrai godere di un panorama mozzafiato. Il sentiero è ben segnalato e presenta poche pendenze ripide, rendendolo adatto anche a escursionisti con un buon passo.  Durante il giro, potrai ammirare i panorami sulla Valmarecchia, l''Uomo Morto, la Pania, il Piglione e numerosi altri monti toscani. Un giro di circa 2 ore e 30 minuti, perfetto per una giornata all''aria aperta.</p>
 
-<h3>Informazioni Utili – Dettagli dell''Escursione</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione al Monte Rondinaio presenta una difficoltà media, adatta a escursionisti con un buon passo e un minimo di allenamento. Il dislivello di 819 metri richiede una certa resistenza, ma il percorso è ben tenuto e non presenta ostacoli particolari.  È consigliabile indossare scarpe da trekking, portare con sé acqua e snack, e rispettare l''ambiente circostante.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per aiutarti durante l''escursione, ti forniamo la traccia GPS di questo percorso. Ricorda di scaricare la traccia sul tuo dispositivo GPS o sulla tua app preferita prima di partire.  L''escursione al Monte Rondinaio offre un panorama unico e una bella giornata tra la montagna e la natura.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Distanza:</strong> Circa 6 km (andata e ritorno)</li>
-    <li><strong>Durata:</strong> 2 ore e 30 minuti</li>
-    <li><strong>Altitudine:</strong> Salita al Monte Rondinaio (vetta minore)</li>
-    <li><strong>Punti di Interesse:</strong> Canone, fontanelle, panorama mozzafiato sull''Uomo Morto, Pania, Piglione e altri monti.</li>
-    <li><strong>Tipo di attività:</strong> Trekking, escursione, sentiero di montagna</li>
-</ul>
-
-<p>Organizza la tua prossima <strong>trekking a Lucca</strong> e vivi un''esperienza unica sul <strong>Monte Rondinaio</strong>, un sentiero perfetto per gli amanti del <strong>trekking</strong> e della <strong>natura</strong>. Scopri la bellezza del paesaggio lucchese con questa facile <strong>escursione</strong>!</p>',
+  <li><strong>Distanza:</strong> Circa 10.13 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 819 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Sentiero di accesso da Santa Maria Albiano</li>
+  <li><strong>Comune:</strong> Santa Maria Albiano, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.13,
   819,

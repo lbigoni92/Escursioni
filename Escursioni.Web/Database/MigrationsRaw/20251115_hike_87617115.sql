@@ -7,22 +7,47 @@ VALUES (
   87617115,
   'Sestola - Lago della Ninfa - Ritorno',
   'Andata -> https://www.wikiloc.com/hiking-trails/sestola-lago-della-ninfa-andata-87617166 Percorso molto panoramico, lo consiglio difficoltà media, si passa da sentieri ben segnati anche se in alcuni punti tosti, lo consiglio anche solamente per i bellissimi punti panoramici. Usate scarpe adeguate non è fattibile con scarpe da tennis, l''arrivo al lago della Ninfa è molto caratteristico con un paesaggio unico, noi abbiamo pranzato al rifugio della Ninfa siamo stati bene, potete vedere una foto del rifuggo in descrizione. Il ritorno è stato semplice. Vi sono qualche fontane lungo la via anche se non tutte esano aperte e distribuivano acqua nonostante fosse molto umido. Raccomando un vestiario adeguato e non troppo pesante, non è fattibile d''inverno.',
-  '<h2>Sestola - Lago della Ninfa - Ritorno: Escursione Trekking in Montagna</h2>
+  '<h2 id="escursione-sestola-lago-della-ninfa-ritorno">Escursione Sestola - Lago della Ninfa - Ritorno</h2>
 
-<h3>Il Percorso</h3>
-<p>Preparatevi per una fantastica <strong>escursione trekking</strong> lungo il sentiero Sestola - Lago della Ninfa - Ritorno, un''esperienza indimenticabile nel cuore del Parco Nazionale del Bracciale. Questo <strong>sentiero</strong> di <strong>trekking</strong> offre panorami mozzafiato sulla valle del Chiascio e sul Lago della Ninfa, un lago d''acqua stagnante di origine vulcanica. Il percorso, di difficoltà media, si snoda attraverso un paesaggio naturale incontaminato, con tratti ben segnati, ma in alcuni punti presenta delle faticose salite e discese. Si consiglia vivamente di indossare scarpe da <strong>trekking</strong> adatte e di prepararsi a un''<strong>escursione</strong> all''aperto che vi farà apprezzare la bellezza della <strong>montagna italiana</strong>.</p>
+<p>
+Avete voglia di un''escursione con panorami mozzafiato? Questa è la vostra occasione! Il sentiero da <strong>Sestola al Lago della Ninfa</strong> è un''esperienza indimenticabile, un percorso di circa <strong>8.56 km</strong> con un <strong>dislivello di 116 metri</strong> che vi condurrà attraverso boschi e prati fino a raggiungere questo lago unico. La difficoltà è <strong>media</strong>, quindi preparatevi con scarpe adatte e un abbigliamento comodo, soprattutto se andateci in primavera o in estate.
+</p>
 
-<h3>Cosa Aspettarsi</h3>
-<ul>
-  <li>Un <strong>sentiero</strong> panoramico che vi condurrà attraverso boschi di faggio e castagno.</li>
-  <li>Difficoltà media, adatta a <strong>escursionisti</strong> esperti e principianti.</li>
-  <li>Punti di interesse naturalistico e paesaggistici di grande valore.</li>
-  <li>La possibilità di ammirare il caratteristico lago della Ninfa, con il suo paesaggio unico e affascinante.</li>
-  <li>Possibilità di pranzare al rifugio della Ninfa, un punto di ristoro ideale per ricaricare le energie.</li>
-</ul>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Informazioni Utili</h3>
-<p>La lunghezza totale del <strong>sentiero</strong> è di circa 12 km con un dislivello di 650 metri. L''andata e il ritorno sono possibili in circa 4-5 ore, a seconda del ritmo dell''escursionista.  È fondamentale indossare un <strong>vestiario adeguato</strong>, preferibilmente traspirante e a strati, per affrontare le variazioni di temperatura.  Ci sono delle fontane lungo il percorso, ma non tutte sono sempre attive.  Ricordatevi di portare con voi acqua, snack e una mappa del sentiero per una <strong>trekking</strong> sicura e ben organizzata. Questa <strong>escursione</strong> di <strong>trekking</strong> è consigliata anche per chi cerca una bella gita in <strong>montagna</strong> con <strong>sentieri</strong> ben segnalati. L''ambiente naturale è delicato, quindi rispettate l''ambiente e raccogliete i vostri rifiuti.  Considerate che l''<strong>escursione</strong> non è consigliabile d''inverno. Per una <strong>trekking</strong> di successo in Italia, preparatevi adeguatamente.</p>',
+<p>
+Il punto di partenza per questa splendida escursione è <strong>Sestola</strong>, facilmente raggiungibile in auto o con i mezzi pubblici. Da Sestola, seguite i segnavia che indicano il sentiero per il Lago della Ninfa. Potete trovare indicazioni precise online o chiedere informazioni all''ufficio turistico locale.
+</p>
+
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>
+Il sentiero si snoda dolcemente all''inizio, passando per sentieri ben segnati. In alcuni punti il percorso può diventare un po'' più tecnico, quindi è consigliabile prestare attenzione. Il punto culminante è sicuramente l''arrivo al <strong>Lago della Ninfa</strong>, un paesaggio unico e suggestivo. Dopo una meritata sosta al lago, il ritorno è più semplice e panoramico.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>
+La difficoltà di questa escursione è <strong>media</strong>. Richiede una buona preparazione fisica e un minimo di esperienza in montagna. Non è consigliabile affrontare il sentiero con scarpe inadatte, come scarpe da tennis. Il dislivello di 116 metri non è eccessivo, ma il sentiero presenta alcuni tratti tecnici.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>
+Potete scaricare una <strong id="traccia-gps">traccia GPS</strong> di questo percorso per seguirlo con facilità.  È consigliabile portare con sé acqua, cibo, una mappa e un kit di primo soccorso.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 8.56 km (solo andata)</li>
+    <li><strong>Dislivello:</strong> Circa 116 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Sestola, accessibile in auto o a piedi</li>
+    <li><strong>Comune:</strong> Canevare, Emilia-Romagna, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   8.56,
   116,

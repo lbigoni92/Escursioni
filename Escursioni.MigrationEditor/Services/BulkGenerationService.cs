@@ -1,6 +1,6 @@
 namespace Escursioni.MigrationEditor.Services;
 
-public enum BulkMode { All, SeoOnly, TitleSeoOnly, MetaDescOnly, HtmlOnly, TagOnly, GpxStatsOnly }
+public enum BulkMode { All, SeoOnly, TitleSeoOnly, MetaDescOnly, MetaDescMissingOnly, HtmlOnly, TagOnly, GpxStatsOnly }
 
 public class BulkGenerationService
 {
@@ -83,7 +83,8 @@ public class BulkGenerationService
                         BulkMode.SeoOnly => true,
                         BulkMode.TitleSeoOnly => IsTitleTooLong(vals),
                         BulkMode.MetaDescOnly => true,
-                        BulkMode.HtmlOnly => string.IsNullOrWhiteSpace(vals.GetValueOrDefault("descrizione_html")),
+                        BulkMode.MetaDescMissingOnly => string.IsNullOrWhiteSpace(vals.GetValueOrDefault("meta_descrizione")),
+                        BulkMode.HtmlOnly => true,
                         BulkMode.TagOnly => true,
                         _ => string.IsNullOrWhiteSpace(vals.GetValueOrDefault("descrizione_html"))
                     };
@@ -102,6 +103,10 @@ public class BulkGenerationService
                             _ => missingTitle || missingMeta
                         };
                         return missing ? 0 : 1;
+                    }
+                    if (Mode == BulkMode.HtmlOnly)
+                    {
+                        return string.IsNullOrWhiteSpace(vals?.GetValueOrDefault("descrizione_html")) ? 0 : 1;
                     }
                     if (Mode == BulkMode.TagOnly)
                     {
@@ -148,7 +153,7 @@ public class BulkGenerationService
                     CurrentFileName = m.FileName;
 
                     // 1. SEO – Titolo
-                    if (Mode is BulkMode.All or BulkMode.SeoOnly or BulkMode.TitleSeoOnly)
+                    if (Mode is BulkMode.All or BulkMode.SeoOnly or BulkMode.TitleSeoOnly or BulkMode.MetaDescMissingOnly)
                     {
                         CurrentStep = "titolo_seo";
                         var seoTitleResult = await _metaGen.GenerateSeoTitleAsync(titolo, descrizione, ctx);
@@ -156,7 +161,7 @@ public class BulkGenerationService
                     }
 
                     // 2. SEO – Meta Descrizione
-                    if (Mode is BulkMode.All or BulkMode.SeoOnly or BulkMode.MetaDescOnly)
+                    if (Mode is BulkMode.All or BulkMode.SeoOnly or BulkMode.MetaDescOnly or BulkMode.MetaDescMissingOnly)
                     {
                         CurrentStep = "meta_descrizione";
                         var metaResult = await _metaGen.GenerateAsync(titolo, descrizione, ctx);
@@ -164,7 +169,7 @@ public class BulkGenerationService
                     }
 
                     // 3. Descrizione HTML
-                    if (Mode is BulkMode.All or BulkMode.HtmlOnly)
+                    if (Mode is BulkMode.All or BulkMode.HtmlOnly or BulkMode.MetaDescMissingOnly)
                     {
                         CurrentStep = "descrizione_html";
                         if (!string.IsNullOrWhiteSpace(descrizione))
@@ -175,7 +180,7 @@ public class BulkGenerationService
                     }
 
                     // 4. Tag
-                    if (Mode is BulkMode.All or BulkMode.TagOnly)
+                    if (Mode is BulkMode.All or BulkMode.TagOnly or BulkMode.MetaDescMissingOnly)
                     {
                         CurrentStep = "tag";
                         var tagResult = await _metaGen.GenerateTagAsync(titolo, descrizione, ctx);

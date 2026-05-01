@@ -7,25 +7,57 @@ VALUES (
   87617166,
   'Sestola - Lago della ninfa - Andata',
   'Ritorno - https://www.wikiloc.com/hiking-trails/sestola-lago-della-ninfa-ritorno-87617115 Percorso molto panoramico, lo consiglio difficoltà media, si passa da sentieri ben segnati anche se in alcuni punti tosti, lo consiglio anche solamente per i bellissimi punti panoramici. Usate scarpe adeguate non è fattibile con scarpe da tennis, l''arrivo al lago della Ninfa è molto caratteristico con un paesaggio unico, noi abbiamo pranzato al rifugio della Ninfa siamo stati bene, potete vedere una foto del rifuggo in descrizione. Il ritorno è stato semplice. Vi sono qualche fontane lungo la via anche se non tutte esano aperte e distribuivano acqua nonostante fosse molto umido. Raccomando un vestiario adeguato e non troppo pesante, non è fattibile d''inverno.',
-  '<h2>Sestola - Lago della Ninfa - Andata: Trekking Panoramico in Montagna</h2>
+  '<h2 id="escursione-sestola-lago-della-ninfa-andata">Escursione Sestola - Lago della Ninfa (Andata)</h2>
 
-<h3>Il Percorso</h3>
-<p>Preparatevi per un''escursione indimenticabile lungo il sentiero Sestola - Lago della Ninfa - Andata, un''immersione nella natura selvaggia della **Montagna dell''Orsini** in <strong>Lazio</strong>. Questo <strong>trekking</strong> vi condurrà attraverso un percorso altamente panoramico, ideale per chi cerca un''<strong>escursione</strong> impegnativa ma ricompensa da vivere appieno.  Il sentiero, di difficoltà media, è ben segnalato, sebbene in alcuni tratti possa presentare delle asperità, rendendolo adatto a escursionisti esperti e amanti del <strong>trekking</strong> in <strong>Italia</strong>.  La durata media di questo <strong>sentiero</strong> è di circa 4-5 ore, con un dislivello di circa 600 metri, offrendo panorami mozzafiato ad ogni passo.</p>
+<p>
+Avete voglia di una giornata all’insegna del panorama e della natura incontaminata? L''escursione da Sestola al Lago della Ninfa è un''esperienza che non vi deluderà! Questo sentiero, di difficoltà media, vi condurrà attraverso boschi rigogliosi e panorami mozzafiato, culminando con l''arrivo al lago, un luogo unico e suggestivo.
+</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Questo <strong>sentiero</strong> vi regalerà la possibilità di ammirare paesaggi unici e spettacolari. Percorrerete tratti di sentiero ben tracciati, attraversando boschi rigogliosi e ampie cime rocciose. L''arrivo al pittoresco <strong>Lago della Ninfa</strong> è un momento di grande soddisfazione, con un paesaggio unico e suggestivo che vi lascerà senza fiato. Non mancheranno scorci sulla valle sottostante e le montagne circostanti.  Ricordate di indossare scarpe da trekking adatte, poiché la camminata su terreni accidentati può richiedere un buon supporto e aderenza.  È consigliabile portare con sé acqua, cibo e un kit di pronto soccorso.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Informazioni Utili</h3>
+<p>
+Il punto di partenza dell''escursione è a Sestola, facilmente raggiungibile in auto o in treno. Da Sestola, seguite le indicazioni per il sentiero che conduce al Lago della Ninfa. Il percorso è ben segnalato e il sentiero è raggiungibile a piedi.
+</p>
+
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>
+Il sentiero inizia con una salita moderata attraverso un bosco di faggi, poi si apre su panorami sempre più ampi. Il sentiero è principalmente in salita, con alcuni tratti più tecnici ma comunque accessibili a chi ha un’adeguata preparazione.
+<br/>
+Percorrerete sentieri ben segnati, ammirando il paesaggio che si apre man mano che avanzate. Non mancate di fermarvi ai punti panoramici per godervi la vista sul lago e sulle montagne circostanti.
+<br/>
+Il tratto finale è caratterizzato da una discesa più dolce che vi porterà fino al Lago della Ninfa.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>
+Questa escursione presenta una <strong>difficoltà media</strong>. È consigliabile indossare scarpe da trekking adatte e portare con sé acqua, snack e abbigliamento adeguato. Il <strong>dislivello è di circa 687 metri</strong>, quindi è necessario essere in buona forma fisica.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
 <ul>
+    <li><strong>Distanza:</strong> 8.72 km (andata)</li>
+    <li><strong>Dislivello:</strong> +687 m</li>
     <li><strong>Difficoltà:</strong> Media</li>
-    <li><strong>Distanza:</strong> Circa 12-14 km (andata e ritorno)</li>
-    <li><strong>Dislivello:</strong> Circa 600 metri</li>
-    <li><strong>Periodo Consigliato:</strong> Da maggio a ottobre (evitare l''inverno)</li>
-    <li><strong>Punti di Interesse:</strong> Lago della Ninfa, panorami sulla valle, rifugio della Ninfa</li>
-    <li><strong>Consigli:</strong> Scarpe da trekking adeguate, vestiario adeguato alla stagione, acqua e cibo, mappa, GPS</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Sestola (accessibile in auto/a piedi)</li>
+    <li><strong>Comune:</strong> Sestola, Provincia di Modena, Emilia-Romagna, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Questo <strong>trekking</strong> offre la possibilità di immergersi nella natura incontaminata della <strong>Lazio</strong>, lontano dal caos cittadino.  Un''ottima opportunità per praticare <strong>trekking</strong> e <strong>escursioni</strong> di lunga durata, godendo della bellezza dei paesaggi montani.  Non lasciatevi sfuggire l''occasione di vivere un''esperienza unica, un vero e proprio viaggio alla scoperta della natura selvaggia.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+    <li><strong>Distanza:</strong> Circa 8.72 km (andata)</li>
+    <li><strong>Dislivello:</strong> Circa 687 m</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Sestola</li>
+    <li><strong>Comune:</strong> Sestola, Provincia di Modena, Emilia-Romagna</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   8.72,
   687,

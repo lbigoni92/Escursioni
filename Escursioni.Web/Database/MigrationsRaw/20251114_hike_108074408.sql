@@ -7,26 +7,35 @@ VALUES (
   108074408,
   '4monti - Monte Macina - Monte Sella - Monte fiocca - Monte Sumbra',
   'Giro davvero impegnativo con solamente sentieri EE ed EEA. Non andrò nel dettaglio più di tanto, ma ogni sentiero ha più punti esposti, quindi... nella maggior parte di quelli si necessità di non aver paura del vuoto e d''avere un pò d''esperienza di montagna. Il tratto più bello è la salita al Monte Macina e il tratto che sale sul Sumbra (EEA). la sentieristica non è sempre ben fatta... e in alcuni punti e facile perderla.',
-  '<h2>4monti - Giro Impegnativo Monte Macina - Monte Sella - Monte Fiocca - Monte Sumbra - Trekking in Montagna</h2>
+  '<h2 id="escursione-monte-macina-monte-sella-monte-fiocca-monte-sumbra">Escursione al Monte Macina - Monte Sella - Monte fiocca - Monte Sumbra</h2>
 
-<h3>Il Percorso: Un’Escursione di Difficoltà in Trentino</h3>
-<p>Questo <strong>sentiero di trekking</strong> nel cuore del Trentino offre un''esperienza indimenticabile per escursionisti esperti e amanti della <strong>montagna</strong>. Il <strong>4monti - Giro Impegnativo Monte Macina - Monte Sella - Monte Fiocca - Monte Sumbra</strong> è un''escursione che mette alla prova la tua resistenza e la tua abilità, offrendo al contempo panorami mozzafiato e la possibilità di immergerti nella selvaggia <strong>natura italiana</strong>. Il <strong>sentiero</strong>, prevalentemente di tipo EE ed EEA, richiede una buona preparazione fisica e mentale, nonché una certa esperienza di <strong>trekking</strong> in <strong>montagna</strong>. La <strong>difficoltà</strong> è elevata, con tratti esposti che richiedono attenzione e prudenza. Questo <strong>gira di trekking</strong> è ideale per chi cerca una vera sfida e la possibilità di esplorare le cime più maestose delle Dolomiti.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa Aspettarsi: Sfide e Meraviglie</h3>
-<p>Preparati a un''esperienza intensa e stimolante lungo questo impegnativo <strong>sentiero escursionistico</strong>. Il <strong>4monti - Giro Impegnativo Monte Macina - Monte Sella - Monte Fiocca - Monte Sumbra</strong>  è caratterizzato da un’altrettuta costante e da tratti esposti che richiedono nervi saldi. Sarà necessario affrontare numerosi passaggi rocciosi, un terreno irregolare e in alcuni punti, una sentieristica non sempre ben definita, rendendo la navigazione impegnativa.  La salita al <strong>Monte Macina</strong> e al <strong>Monte Sumbra</strong> (EEA) sono i momenti culminanti dell’escursione, con panorami spettacolari sulla catena delle Dolomiti.  Nonostante le sfide, il <strong>sentiero</strong> offre la possibilità di ammirare la bellezza incontaminata della <strong>montagna italiana</strong>, con la sua flora e fauna uniche.</p>
+<p>Il punto di partenza di questa impegnativa escursione si trova a <strong>Arni</strong>, in provincia di <strong>Toscana</strong>. Raggiungerlo è possibile in auto, seguendo le indicazioni per <strong>Arni</strong>. Da qui, il sentiero parte direttamente dalla strada provinciale.</p>
 
-<h3>Informazioni Utili: Dettagli per un Trekking Sicuro</h3>
-<ul>
-    <li><strong>Distanza Totale:</strong> Circa 25-30 km (stima)</li>
-    <li><strong>Dislivello:</strong> Circa 1800-2200 metri (stima)</li>
-    <li><strong>Difficoltà:</strong> Molto Difficile - Solo per Escursionisti Esperti</li>
-    <li><strong>Tipo di Sentiero:</strong> EE ed EEA (Sentieri escursionistici ad alta quota)</li>
-    <li><strong>Periodo Consigliato:</strong> Estate - Settembre</li>
-    <li><strong>Equipaggiamento Consigliato:</strong> Scarponi da trekking, Bastoncini, Abbigliamento a strati, Zaino da trekking, Acqua, Cibo Energetico, Kit di Primo Soccorso, Cartina topografica e/o GPS</li>
-    <li><strong>Consigli:</strong>  Verifica le condizioni meteorologiche prima di partire, porta con te un telefono cellulare carico, informati sulle previsioni del vento, rispetta l''ambiente circostante ed evita di disturbare la fauna locale.  La sentieristica non è sempre ben tracciata, quindi è fondamentale avere una buona orientamento e un''esperienza in <strong>sentieri di trekking</strong> di questo tipo.</li>
-</ul>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<p>Esplora il <strong>sentiero</strong> più impegnativo delle <strong>Dolomiti</strong>, un’esperienza di <strong>trekking</strong> che ti cambierà la vita!  Scopri il <strong>4monti - Giro Impegnativo Monte Macina - Monte Sella - Monte Fiocca - Monte Sumbra</strong> e vivi l''adrenalina della <strong>montagna</strong>.</p>',
+<p>Questo giro di trekking, di tipo <strong>anello</strong>, è stato realizzato interamente su sentieri EE ed EEA, per cui non vi darò un dettaglio eccessivo. Il percorso è caratterizzato da tratti esposti e da alcuni punti dove la sentieristica non è sempre ben tracciata, quindi è fondamentale avere un po'' d''esperienza in montagna e non aver paura del vuoto. La salita al <strong>Monte Macina</strong> è un tratto particolarmente bello, così come quello in salita sul <strong>Monte Sumbra</strong> (EEA). Un''attenzione particolare va posta alla localizzazione dei sentieri, che in alcuni punti potrebbero risultare difficili da individuare.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>Questa escursione è di livello <strong>Difficile</strong>, data la lunghezza del percorso, il dislivello di <strong>+1561 metri</strong> e la presenza di tratti esposti. È consigliata a escursionisti esperti e in buona forma fisica. È necessario essere preparati ad affrontare un impegno significativo in montagna.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>Per facilitare l''esplorazione di questo percorso, vi consiglio di utilizzare una traccia GPS. In alternativa, è possibile scaricare la mappa dell''area di Arni e consultare la cartografia disponibile in loco.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+    <li><strong>Distanza:</strong> Circa 15.28 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1561 metri</li>
+    <li><strong>Difficoltà:</strong> Difficile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Arni, accessibile in auto</li>
+    <li><strong>Comune:</strong> Arni, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico EE, EEA</li>
+</ul>',
   'Tutte le Attività e Paesi',
   15.28,
   1561,

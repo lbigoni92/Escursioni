@@ -7,25 +7,31 @@ VALUES (
   160859471,
   'Tirrenia -Passeggiata domenicale',
   'Sempre bello fare un gito in questi boschetti facili adatti anche in bici. La Tenuta di Tombolo — detta anche Pineta del Tombolo, ma da non confondersi con l''omonima Pineta del Tombolo situata in provincia di Grosseto — è un''area naturale protetta che fa parte del Parco naturale di Migliarino, San Rossore e Massaciuccoli, istituito il 13 dicembre 1979. Costituisce una delle sette Tenute o Fattorie storiche che compongono il parco e deriva il suo nome dal latino tumulus che significa rilievo del terreno, ad indicare come questo territorio abbia origine da cordoni di dune costiere generate da i sedimenti fluviali. Fauna Nell''ambiente dunale sono presenti circa 230 specie di coleotteri, per la maggior parte detritivori, come ad esempio la pulce di mare (Talitrus saltator) e l''isopode (Tylos europaeus), i quali sono consumatori primari e costituiscono la base di complesse reti alimentari che coinvolgono diversi invertebrati. Tra i rettili è comune la lucertola campestre (Podarcis sicula campestris) e nei canali del bosco si trovano consistenti popolazioni di testuggini acquatiche (Emys orbicularis) e bisce d''acqua (Natrix natrix). Ai margini dei boschi è presente la vipera (Vipera aspis). Gli uccelli presenti tutto l''anno sono: il picchio rosso maggiore (Dendrocopos major), il picchio verde (Picus viridis), il picchio muratore (Sitta europaea) e un buon numero di colombacci (Columba palumbus); nel periodo invernale si trova la beccaccia (Scolopax rusticola). Le zone litoranee sono un ambiente idoneo per gli uccelli migratori che, durante il periodo dello svernamento, hanno possibilità di riposo sulla battigia. È stata segnalata la presenza dell''istrice (Hystrix cristata). Numerose le presenze di ghiri (Glis glis) e scoiattoli (Sciurus vulgaris), chinghiali, conigli selvatici e volpi rosse.',
-  '<h2>Tirrenia - Passeggiata domenicale Trekking in Pineta</h2>
+  '<h2 id="escursione-tirrenia-passeggiata-domenicale">Escursione a Tirrenia: Passeggiata Domenicale</h2>
 
-<h3>Il percorso</h3>
-<p>
-Immergiti in una <strong>passeggiata domenicale</strong> indimenticabile lungo un <strong>sentiero di trekking</strong> facile e accessibile, perfetto per una <strong>escursione</strong> nella <strong>montagna</strong> italiana. Questo percorso ti condurrà attraverso i suggestivi boschetti della <strong>Tenuta di Tombolo</strong>, una splendida area naturale protetta all''interno del <strong>Parco naturale di Migliarino, San Rossore e Massaciuccoli</strong>.  Ideale per <strong>trekking</strong> e <strong>escursioni</strong>, questo sentiero è adatto anche a chi pratica il <strong>trekking</strong> con la <strong>bici</strong>, offrendo un''esperienza immersiva nella <strong>natura</strong> e nella biodiversità del territorio.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bellissima escursione si trova nel cuore di Tirrenia, a Marina di Pisa-Tirrenia-Calambrone. È facile raggiungerlo in auto, seguendo le indicazioni per la Tenuta di Tombolo. In alternativa, si può arrivare a piedi da diverse zone della spiaggia, godendosi una piacevole passeggiata lungo la pineta.</p>
 
-<h3>Cosa aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo sentiero escursionistico di circa 4.08 km è un anello che si snoda attraverso la pineta e i boschi circostanti. Il percorso è prevalentemente pianeggiante, con un leggero dislivello di 200 metri, quindi è adatto a tutti i livelli di preparazione. Lungo il percorso si ammirano panorami mozzafiato sulla costa e sulla pineta, oltre a una ricca biodiversità vegetale e animale.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>La difficoltà di questa escursione è classificata come "Media". Il terreno è in gran parte pianeggiante e ben tenuto, ma ci sono alcuni tratti con salite e discese moderate. È consigliabile indossare scarpe da trekking o scarpe da ginnastica comode e portare con sé acqua e un piccolo snack.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Questa escursione è un''ottima opportunità per esplorare la natura e godersi un momento di relax. La pineta di Tirrenia offre un ambiente tranquillo e accogliente, ideale per una passeggiata domenicale o un''escursione con la famiglia e gli amici.  È possibile scaricare una traccia GPS per la navigazione con il proprio dispositivo.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li>Un percorso facile e adatto a tutti i livelli di esperienza.</li>
-    <li>Un''esplorazione di una <strong>tenuta storica</strong> con una ricca storia e un affascinante legame con il territorio.</li>
-    <li>La possibilità di ammirare la flora e la fauna locale, tra cui coleotteri, rettili, uccelli e piccoli mammiferi.</li>
-    <li>Un''opportunità per godere di una <strong>passeggiata domenicale</strong> in un ambiente naturale incontaminato, perfetto per il <strong>trekking</strong>.</li>
+    <li><strong>Distanza:</strong> Circa 4.08 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 200 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Pineta del Tombolo, Marina di Pisa-Tirrenia-Calambrone</li>
+    <li><strong>Comune:</strong> Tirrenia, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
-
-<h3>Informazioni utili</h3>
-<p>
-La <strong>Tenuta di Tombolo</strong>, conosciuta anche come <strong>Pineta del Tombolo</strong>, è un''area naturale protetta che fa parte del <strong>Parco naturale di Migliarino, San Rossore e Massaciuccoli</strong>, istituito nel 1979.  La sua posizione strategica lungo la costa toscana e la sua geologia dunale la rendono un ambiente unico e ricco di biodiversità.  La <strong>donna distanza</strong> del sentiero è facilmente percorribile e si adatta a diverse fasce d''età.  Durante l''<strong>escursione</strong>, potrai osservare la presenza di diverse specie animali, tra cui la pulce di mare, la lucertola campestre, la beccaccia e numerosi uccelli migratori.  Inoltre, la <strong>passeggiata domenicale</strong> ti permetterà di scoprire la storia e le tradizioni della <strong>Tenuta di Tombolo</strong>, un luogo ricco di fascino e di bellezze naturali.  Questo <strong>sentiero</strong> offre un''esperienza di <strong>trekking</strong> autentica e coinvolgente, perfetta per gli amanti della <strong>natura</strong> e dell''<strong>escursionismo</strong> in <strong>Italia</strong>.
-</p>',
+<p><strong>Parco Nazionale:</strong> Parco naturale di Migliarino, San Rossore e Massaciuccoli</p>',
   'Tutte le Attività e Paesi',
   4.08,
   200,

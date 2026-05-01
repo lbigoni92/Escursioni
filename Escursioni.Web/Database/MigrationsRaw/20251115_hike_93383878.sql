@@ -7,23 +7,39 @@ VALUES (
   93383878,
   'Porcari - Quercia delle Streghe - Montecarlo',
   'Il percorso, merita davvero tanto per chi ama le colline la parte di Montecarlo e sulle colline di porcari regalano paesaggi indimenticabili. Il percorso parte dalla cittadina di PORCARI, dove troverete facilmente posto dove parcheggiare. Il sentiero prosegue prima per le colline dietro la cittadina e poi s''attraversa la strada per intraprendere la strada che ci porta alla Quercia delle Streghe. La Quercia delle Streghe versa attualmente in buone condizioni, nonostante alcune brutte avventure capitate negli anni. Innanzi tutto, nei primi anni del secolo scorso, alcuni vandali spezzarono alcuni rami sedendovici sopra. Successivamente, durante la seconda guerra mondiale, la quercia fu individuata dagli occupatori nazisti come legna da ardere, ma poi il progetto di abbattere l''albero monumentale fortunatamente sfumò grazie alla mobilitazione degli abitanti di San Martino in Colle. In seguito negli anni Sessanta l''albero fu colpito da un fulmine che gli causò importanti danni. Negli ultimi anni ha subito danneggiamenti delle radici per colpa dei troppi turisti che hanno calpestato il terreno intorno alla pianta ed è stata colonizzata da insetti infestanti che nidificano all''interno del tronco. in seguito siamo andati verso Montecarlo Il nucleo originario di Montecarlo era il borgo di Vivinaia, antica proprietà dei duchi della Tuscia, che sorgeva alle pendici del colle. Nel 1331 il paese fu devastato dai fiorentini e le autorità lucchesi decisero di rifondare il borgo sulla sommità del colle del Cerruglio, dove sorgeva la fortezza omonima. Nel 1333 il nuovo borgo prese il nome di Montecarlo in onore del futuro imperatore Carlo IV di Lussemburgo, che aveva aiutato Lucca a liberarsi dall''occupazione pisana. La fortezza del Cerruglio ebbe un ruolo strategico nelle guerre del XIV secolo tra Lucca, Pisa e Firenze e fu da quella rocca che Castruccio Castracani, signore di Lucca, diresse le sue truppe portandole alla vittoria nella battaglia di Altopascio del 1325. La fortezza fu ampliata prima da Paolo Guinigi, signore di Lucca, e successivamente dai fiorentini, specialmente dal governo granducale che, dal 1437, ebbe definitivamente Montecarlo sotto il proprio controllo. e ritornati a casa tramite dei sentieri nei boschi.',
-  '<h2>Trekking Porcari – Quercia delle Streghe – Montecarlo: Escursione in Montagna tra Storia e Natura</h2>
+  '<h2 id="escursione-porcari-quercia-streghe-montecarlo">Escursione a Porcari, Quercia delle Streghe e Montecarlo</h2>
 
-<h3>Il percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong>, perfetto per gli amanti della <strong>montagna</strong> e della <strong>natura</strong>, offre un''esperienza indimenticabile. Partendo dalla pittoresca cittadina di <strong>Porcari</strong>, l''escursione conduce attraverso le colline circostanti, regalando panorami mozzafiato. Il <strong>trekking</strong> si snoda poi lungo la strada che porta alla suggestiva <strong>Quercia delle Streghe</strong>, un punto di interesse storico e naturalistico di grande valore.  L''<strong>escursione</strong> è ideale per chi cerca una giornata all''aria aperta, tra sentieri ben segnalati e paesaggi incontaminati.  Questo <strong>sentiero Italia</strong> è pensato per offrirti un''avventura unica.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa bellissima escursione è la cittadina di Porcari, in provincia di Lucca, nella regione Toscana. Troverete facilmente parcheggio nelle vicinanze del paese. Da qui, il sentiero vi accompagnerà attraverso le colline circostanti, offrendovi un''esperienza indimenticabile.</p>
 
-<h3>Cosa aspettarsi</h3>
-<ul>
-    <li>Un percorso di <strong>trekking</strong> di difficoltà media, adatto a escursionisti esperti e famiglie.</li>
-    <li>Paesaggi collinari spettacolari, con ampie viste sulla campagna circostante.</li>
-    <li>L''opportunità di ammirare la maestosa <strong>Quercia delle Streghe</strong>, un albero secolare con una storia affascinante.</li>
-    <li>Un''escursione attraverso boschi e campi, immersi nella <strong>natura</strong> italiana.</li>
-    <li>Possibilità di scoprire i borghi storici di <strong>Montecarlo</strong> e <strong>Porcari</strong>.</li>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia a Porcari, prosegue attraverso le colline circostanti, attraversando una strada per poi entrare nel cuore del percorso che conduce alla Quercia delle Streghe. Questa antica quercia, con la sua storia affascinante, è una tappa imperdibile. Da qui, il sentiero vi porterà verso Montecarlo, un borgo con un passato glorioso.</p>
+<p>Il sentiero si snoda attraverso i boschi, offrendo panorami mozzafiato e la possibilità di immergersi nella natura. Il ritorno avviene tramite sentieri nei boschi, completando un anello di circa 19,15 km.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà **Facile**, adatta a tutti, anche a chi non ha molta esperienza. Il dislivello è di circa 579 metri, quindi richiede una buona condizione fisica, ma non è eccessivamente impegnativo.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class="informazioni-pratiche">
+    <li>**Distanza:** Circa 19.15 km (anello)</li>
+    <li>**Dislivello:** Circa 579 metri</li>
+    <li>**Difficoltà:** Facile</li>
+    <li>**Periodo consigliato:** Primavera, Estate, Autunno</li>
+    <li>**Punto di partenza:** Porcari, Toscana</li>
+    <li>**Comune:** Porcari, Toscana</li>
+    <li>**Tipo di sentiero:** Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni utili</h3>
-<p>Il sentiero parte facilmente raggiungibile da <strong>Porcari</strong>, dove è disponibile parcheggio. Il percorso si estende per circa 8-10 km con un dislivello di circa 400-500 metri, quindi è consigliabile indossare scarpe da <strong>trekking</strong> adatte e portare con sé acqua e snack.  L''<strong>escursione</strong> alla <strong>Quercia delle Streghe</strong> è un''esperienza unica per chi ama la <strong>natura</strong> e la storia. La zona, con il suo ricco patrimonio culturale, offre numerosi spunti per un''<strong>escursione</strong> di più giorni.  Questo <strong>sentiero di montagna</strong> è perfetto per chi desidera esplorare la Toscana a piedi.  Non dimenticare di rispettare l''ambiente e di seguire le indicazioni dei sentieri.  Ideale per un weekend di <strong>trekking</strong> in <strong>Italia</strong>.</p>
-<p>L''albero della <strong>Quercia delle Streghe</strong>, un simbolo della resistenza e della memoria, offre un''occasione per riflettere sulla storia della regione. La sua cura e protezione sono fondamentali per preservare questo tesoro naturale e culturale. La visita alla <strong>Quercia delle Streghe</strong> fa parte di un''escursione più ampia che include il borgo di <strong>Montecarlo</strong> e la sua storia legata alla fortezza del Cerruglio. </p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul class="informazioni-utili">
+    <li><strong id="distanza">Distanza:</strong> Circa 19.15 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 579 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Porcari, accessibile in auto/a piedi</li>
+    <li><strong id="comune">Comune:</strong> Porcari, Toscana</li>
+    <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   19.15,
   579,

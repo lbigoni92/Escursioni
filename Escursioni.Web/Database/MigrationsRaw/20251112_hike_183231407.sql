@@ -7,25 +7,63 @@ VALUES (
   183231407,
   'Pania di Corfino',
   'Ecco la versione corretta e migliorata del testo: Sentiero prevalentemente escursionistico che parte dal Rifugio Isera e prosegue formando un anello che passa per la Pania di Corfino. Se si desidera seguire un percorso escursionistico completo, consiglio di deviare prima dell''Orto Botanico e scegliere il sentiero lungo ma facile. Il percorso qui descritto presenta alcune difficoltà lungo la salita alla Pania dall''Orto Botanico. Il tratto menzionato è caratterizzato da ghiaia e sassi che, in alcuni punti, rendono il sentiero meno accessibile, soprattutto per chi soffre di vertigini. In alcuni tratti, le mani risultano utili per mantenere l''equilibrio. Il panorama dalla Pania è molto suggestivo: da qui si può ammirare una vista completa su tutte le Alpi Apuane. Proseguendo, i sentieri restano prevalentemente escursionistici, a tratti turistici, attraversando ampi prati che, a mio parere, non presentano particolari difficoltà. Dopo aver superato un vecchio alpeggio, ormai trasformato in case vacanze, si può fare una pausa pranzo all''ombra su una bellissima panchina rossa, per poi proseguire verso Corfino. Noi abbiamo deviato in direzione del Monte La Bandita, dove abbiamo incontrato delle bellissime mucche al pascolo con i loro vitellini. Abbiamo proseguito fino a una misteriosa statua norrena, e da lì siamo scesi lungo il sentiero. Consiglio una sosta a fine trek al rifugio. Sottolineo che ogni discorso qua riportato è soggettivo e frutto della mia esperienza personale, per te potrebbe essere diverso.',
-  '<h2>Sentiero Pania di Corfino: Trekking e Escursioni nella Massima Alpa Apuana</h2>
+  '<h2 id="escursione-pania-di-corfino">Escursione alla Pania di Corfino</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong> parte dal <strong>Rifugio Isera</strong> e si snoda in un affascinante anello che permette di esplorare la maestosa <strong>Pania di Corfino</strong>.  L''escursione, ideale per gli amanti della <strong>natura</strong> e del <strong>trekking</strong>, offre panorami mozzafiato sulle Alpi Apuane.  Si tratta di un percorso prevalentemente escursionistico, adatto a <strong>escursionisti</strong> esperti e a famiglie che desiderano scoprire la bellezza della <strong>montagna</strong> italiana. Il sentiero è caratterizzato da tratti di difficoltà variabile, con alcuni passaggi più impegnativi lungo la salita.</p>
+<p>
+Eccoci qui, amici escursionisti, con un''escursione che ha lasciato un segno nel cuore! La <strong>Pania di Corfino</strong>, un gigante delle <strong>Alpi Apuane</strong>, ci aspetta per regalarci panorami mozzafiato. Preparatevi a un''esperienza che unisce natura, sfida e tanta bellezza.
+</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparati a un''<strong>escursione</strong> che ti porterà attraverso paesaggi alpini spettacolari. Il percorso include tratti di <strong>sentiero</strong> in <strong>ghiaia</strong> e <strong>sassi</strong>, che richiedono attenzione e un buon paio di scarpe da <strong>trekking</strong>.  Sarà necessario utilizzare le mani in alcuni punti per mantenere l''equilibrio, soprattutto durante la salita verso la cima.  Goditi la vista panoramica sulla **Piana di Corfino**,  un''area protetta ricca di biodiversità, e ammira le maestose cime delle Alpi Apuane.  La difficoltà del sentiero varia, con sezioni più impegnative che richiedono un minimo di allenamento.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Informazioni Utili</h3>
+<p>
+Il punto di partenza della nostra avventura è il <strong>Rifugio Isera</strong>, facilmente raggiungibile in auto o con un breve tratto a piedi. Dallo stesso rifugio parte il sentiero che si snoda attraverso il caratteristico anello che forma la Pania di Corfino.
+</p>
+
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>
+Iniziamo il nostro <strong>trekking</strong> dal Rifugio Isera, seguendo il sentiero prevalentemente escursionistico. Il percorso si sviluppa come un anello, offrendo diverse opzioni. Consiglio di deviare prima dell''Orto Botanico per un percorso più lungo, ma certamente più facile.
+</p>
+
+<p>
+Il tratto iniziale presenta alcune difficoltà lungo la salita alla Pania dall''Orto Botanico, caratterizzato da ghiaia e sassi che, in alcuni punti, rendono il sentiero meno accessibile, soprattutto per chi soffre di vertigini. In alcuni tratti, le mani risultano utili per mantenere l''equilibrio.
+</p>
+
+<p>
+Dopo aver superato un vecchio alpeggio, ora trasformato in case vacanze, possiamo concederci una pausa pranzo all''ombra su una bellissima panchina rossa, per poi proseguire verso Corfino. Noi abbiamo deciso di deviare verso il <strong>Monte La Bandita</strong>, ammirando le bellissime mucche al pascolo con i loro vitellini. Abbiamo continuato fino a una misteriosa statua norrena, da cui abbiamo sceso lungo il sentiero.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>
+<strong>Difficoltà: Medio</strong>. L''escursione richiede una buona preparazione fisica, soprattutto per la salita alla Pania. Il sentiero presenta tratti impegnativi, con alcuni passaggi esposti, quindi è importante essere cauti e avere con sé un buon paio di scarpe da trekking.
+</p>
+
+<p>
+<strong>Distanza: 10.57 km</strong> (anello)
+</p>
+
+<p>
+<strong>Dislivello: +696 m</strong>
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>
+Sarà necessario un buon senso di orientamento e, preferibilmente, una mappa e una bussola. La traccia GPS di questa escursione è disponibile online e la terremo a disposizione.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
 <ul>
-    <li><strong>Difficoltà:</strong> Medio/Difficile</li>
-    <li><strong>Distanza:</strong> Circa 12-15 km (a seconda del percorso scelto)</li>
-    <li><strong>Dislivello:</strong> Circa 800-900 metri</li>
-    <li><strong>Durata:</strong> 6-8 ore (a seconda del ritmo)</li>
-    <li><strong>Punti di Interesse:</strong> Rifugio Isera, Orto Botanico, Pania di Corfino, Monte La Bandita, Alpeggio trasformato in case vacanze, Statua Norrena, Corfino</li>
-    <li><strong>Consigli:</strong> Indossa scarpe da trekking adatte, porta con te acqua e cibo, controlla le previsioni del tempo e informati sulle condizioni del sentiero.</li>
-</ul>
-
-<p>Questa <strong>escursione in Italia</strong> è un''opportunità unica per immergerti nella bellezza della natura e godere di un''esperienza di <strong>trekking</strong> indimenticabile.  Siamo convinti che questo <strong>sentiero</strong> rappresenti una meta ideale per gli appassionati di <strong>escursioni</strong> e <strong>trekking</strong> alla ricerca di emozioni autentiche nella <strong>montagna</strong> italiana.  Non perdere l''occasione di esplorare la **Pania di Corfino** e i suoi panorami mozzafiato. Ricorda che il percorso e le difficoltà sono soggettivi e dipendono dalla tua preparazione e condizione fisica.</p>',
+  <li><strong>Distanza:</strong> Circa 10.57 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 696 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Rifugio Isera, accessibile in auto / a piedi</li>
+  <li><strong>Comune:</strong> Sulcina, Regione Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.57,
   696,

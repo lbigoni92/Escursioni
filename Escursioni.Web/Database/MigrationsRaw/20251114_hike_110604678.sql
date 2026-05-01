@@ -7,24 +7,39 @@ VALUES (
   110604678,
   'Pania della Croce - Uomo Morto - Pania Secca',
   'Giro fatto in 2 giorni, ma è fattibile anche in un giorno solo.Siamo partiti alle 15.30 da Piglionico e da li abbiamo iniziato la salita per il rifugio Rossi, la salita non è tranquilla e adatta a chiunque abbia un minimo di allenamento.Arrivati al rifugio Rossi, abbiamo piantato le tende e ci siamo avviarti verso il Passo degli uomini della neve sentiero EE con qualche catena, da li abbiamo iniziato la salita in Pania dalla cresta Est non da tutti ci sono tratti di scalata di 1 livello e un tratto di 2 ma fattibile, se avete paura dei punti esposti passate per il vallone dell''inferno.Una volta arrivati in Pania della croce abbiamo siamo tornati dal Callare della pania e poi dal vallone dell''inferno al rifugio Rossi in notturna.Il secondo giorno abbiamo visto l''alba dal mento dell''uomo morto e da li abbiamo smontato le tende, e saliti sul naso dell''uomo morto, e ci siamo incamminati verso la pania secca la salita ha punti leggermente esposti ma niente di che, offre un bellissimo panorama.Al rientro abbiamo fatto una strada differente e siamo passati per il sentiero del pastore con un tratto esposto, ma per il resto molto tranquillo e panoramico.Non ci sono fontanelle che erogano acqua.I gestori del rifugio Rossi non hanno mai resto... Palesemente mentono visto che gli ho visto prendere gli spiccioli prima;andate coi soldi contarti e in contantie il bagno è solo per chi soggiorna sennò si mettono a urlare.',
-  '<h2>Pania della Croce – Uomo Morto – Pania Secca: Escursione di Trekking in Montagna</h2>
+  '<h2 id="escursione-pania-della-croce-uomo-morto-pania-seca">Escursione alla Pania della Croce, Uomo Morto e Pania Secca</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong> nella <strong>montagna</strong> della Sardegna, noto come "Pania della Croce – Uomo Morto – Pania Secca", offre un''esperienza indimenticabile per gli amanti dell''<strong>escursionismo</strong> e del <strong>trekking</strong>. Il giro, pianificato per 2 giorni, è perfettamente adattabile anche a un''escursione di un solo giorno,  percorrendo le maestose cime della **Pania della Croce**, l''**Uomo Morto** e la **Pania Secca**. La salita al rifugio Rossi è impegnativa, ideale per escursionisti con un minimo di allenamento, mentre il tratto attraverso il Passo degli uomini della neve richiede l''utilizzo di qualche catena. L''itinerario si snoda tra creste esposte e valloni profondi, offrendo panorami mozzafiato sulla **natura** circostante.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Partiamo da Piglionico, un piccolo borgo alle pendici della Pania della Croce, raggiungibile in auto. Il percorso inizia da qui per affrontare la salita verso il Rifugio Rossi, il punto di partenza principale per questa impegnativa escursione.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<ul>
-    <li><strong>Difficoltà:** Media/Difficile – Richiede buona preparazione fisica e mentale.</li>
-    <li><strong>Distanza Totale:** Circa 25-30 km (a seconda dell''itinerario scelto)</li>
-    <li><strong>Dislivello:** Circa 1500-1800 metri</li>
-    <li><strong>Tratti Esposti:** Presenti, soprattutto durante la salita alla Pania della Croce, con alcuni tratti di scalata di 1° e 2° livello.</li>
-    <li><strong>Punti di Interesse:** Pania della Croce, Uomo Morto, Pania Secca, Vallone dell''Inferno, Passo degli Uomini della Neve.</li>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Il nostro giro alla Pania della Croce si articola in due giorni, anche se è fattibile in un solo giorno per escursionisti esperti. Il primo giorno, dopo la salita al Rifugio Rossi, affrontiamo il sentiero EE con qualche tratto attrezzato, inclusi brevi passaggi in catena. Da qui, la salita continua lungo la cresta Est, con alcuni tratti di arrampicata di primo e secondo grado, accessibili con prudenza. Superato il Passo degli Uomini della Neve, proseguiamo verso la Pania della Croce, dove potremmo incontrare alcuni passaggi esposti. In alternativa, per chi preferisce evitare le difficoltà, possiamo optare per il vallone dell''inferno. Una volta raggiunta la Pania della Croce, ripiombiamo verso il Callare della Pania, poi il vallone dell''inferno e ritorniamo al Rifugio Rossi per la notte. Il secondo giorno, ammiriamo l''alba dal mento dell''uomo morto, proseguiamo verso il naso dell''uomo morto e, infine, raggiungiamo la Pania Secca, con salite leggermente esposte ma non particolarmente impegnative. Il percorso di rientro segue un sentiero panoramico, con un tratto esposto, ma generalmente tranquillo, e termina attraverso il sentiero del pastore. Ricordate, non ci sono fontanelle lungo il percorso.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di **Difficile** difficoltà a causa del dislivello di **1203 metri** e della presenza di alcuni tratti esposti e passaggi in catena. È adatta a escursionisti esperti con un minimo di allenamento e familiarità con l''arrampicata su sentiero. L''anello ha una **distanza di 13,43 km**. Portate con voi scarpe da trekking adatte, bastoncini da trekking e provviste per tutto il giorno.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Disponibile traccia GPS per l''escursione.</p>
+<ul id="informazioni-pratiche">
+  <li><strong>Distanza:</strong> Circa 13,43 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 1203 metri</li>
+  <li><strong>Difficoltà:</strong> Difficile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Piglionico, accessibile in auto</li>
+  <li><strong>Comune:</strong> Isola Santa, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico, Mulattiera, Ferrata</li>
 </ul>
 
-<p>Preparatevi a vivere un''esperienza di <strong>trekking</strong> in un ambiente selvaggio e incontaminato, con panorami spettacolari.  Questo <strong>sentiero italiano</strong> è perfetto per chi cerca una sfida e un''immersione profonda nella **natura**.</p>
-
-<h3>Informazioni Utili</h3>
-<p>Il percorso prevede una notturna al rifugio Rossi, con una salita impegnativa ma gratificante. Il secondo giorno inizia con l''alba sulla cima dell''Uomo Morto, seguita da una salita alla Pania Secca, caratterizzata da punti leggermente esposti ma facilmente superabili.  L''escursione termina con un ritorno lungo un sentiero panoramico, passando per il sentiero del pastore,  presente un tratto esposto che però è molto tranquillo e panoramico. È fondamentale essere consapevoli della mancanza di fontanelle lungo il percorso e di portare con sé sufficiente acqua.  Si consiglia di informarsi presso i gestori del rifugio Rossi riguardo eventuali informazioni aggiornate sulle condizioni del sentiero e di gestire attentamente il denaro, dato che sono state segnalate pratiche scorrette.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+  <li><strong>Distanza:</strong> Circa 13,43 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 1203 metri</li>
+  <li><strong>Difficoltà:</strong> Difficile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Piglionico, accessibile in auto</li>
+  <li><strong>Comune:</strong> Isola Santa, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   13.43,
   1203,

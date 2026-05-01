@@ -7,24 +7,42 @@ VALUES (
   88745714,
   'Camelieto - Anello',
   'Il trekking Sant''Andrea Compito, molto bello, lo consiglio anche per una prima esperienza in solitaria. Il sentiero è ben segnato e si deve seguire 2 sentieri prima il 132 e poi il 130. Noi abbiamo sbagliato al km 3.5, abbiamo proseguito sulla strada invece di girare subito sul ponte sulla DX. Sul sentiero possiamo trovare castagne, funghi (ho trovato Roselle e Galletti e Pineggiole) Poco prima dell''intersezione del km 8.2 vi è un punto panoramico vi consiglio d''andarci, non non ci siamo andati perchè abbiamo preso la pioggia. Il sentiero non presenta difficoltà tecniche l''ho affrontato in autunno sotto la pioggia... e se anche in alcuni momenti si correva il rischio di scivolare tra foglie e acqua è molto semplice.',
-  '<h2>Camelieto – Anello: Trekking in Montagna e Sentieri Naturali in Trentino</h2>
+  '<h2 id="escursione-camelieto-anello">Escursione al Camelieto - Anello</h2>
 
-<h3>Il Percorso del Camelieto – Anello</h3>
-<p>Questo fantastico <strong>trekking</strong> nel cuore delle Dolomiti Trentine offre un’esperienza indimenticabile di <strong>escursione</strong> su sentieri ben battuti, ideale sia per <strong>principianti</strong> che per escursionisti esperti. Il percorso del <strong>Camelieto – Anello</strong> è un <em>anello</em> che permette di ammirare panorami mozzafiato sulle valli circostanti e la maestosità delle cime dolomitiche. Il sentiero è caratterizzato da una leggera pendenza e da un terreno generalmente asciutto, rendendolo accessibile a tutti, anche in <strong>escursioni autunnali</strong> con la possibilità di sfide occasionali sotto la pioggia.</p>
-<p>Il <strong>sentiero</strong> parte da un punto di accesso facilmente raggiungibile e conduce attraverso boschi di conifere e latifoglie, offrendo la possibilità di osservare la ricca fauna locale e la flora alpina.  Ricordiamo che il sentiero è ben segnalato, e in alcuni tratti si affiancano sentieri come il 132 e il 130, con una deviazione al km 3.5, che rappresenta un piccolo ostacolo a cui è necessario prestare attenzione. La discesa è piacevole, sempre ben segnalata, adatta a chi cerca un’<strong>escursione di trekking</strong> semplice e rilassante.</p>
+<p>
+    Se stai cercando un''escursione impegnativa ma accessibile, l''anello al Camelieto, in Toscana, è un''ottima scelta. Ho fatto questo trekking da solo e lo consiglio anche per una prima esperienza, grazie al sentiero ben segnato. 
+</p>
 
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>
+    Il punto di partenza è a Pieve di Compito, comune della provincia di Siena. Da Siena si arriva facilmente in auto lungo la strada provinciale. Il parcheggio più comodo è nei pressi del paese, da lì si inizia il sentiero.
+</p>
 
-<h3>Cosa Aspettarsi durante l''Escursione al Camelieto – Anello</h3>
-<ul>
-    <li><strong>Paesaggi mozzafiato</strong>: Ammirate panorami spettacolari sulle cime delle Dolomiti.</li>
-    <li><strong>Flora e Fauna Alpina</strong>: Osservate la ricca biodiversità della montagna, con possibilità di avvistare animali selvatici.</li>
-    <li><strong>Castagne e Funghi</strong>: Durante l''escursione, potreste trovare castagne, funghi (come Roselle, Galletti e Pineggiole), un vero tesoro per gli amanti della natura e del <em>trekking</em>.</li>
-    <li><strong>Punto Panoramico</strong>: In prossimità del km 8.2, godetevi un momento di relax e una vista panoramica sulla valle.</li>
-</ul>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>
+    Il sentiero parte da Pieve di Compito e segue inizialmente il sentiero 132, poi il 130. Attenzione al km 3.5, dove abbiamo sbagliato direzione, proseguendo sulla strada invece di girare subito sul ponte. Il sentiero è piuttosto naturale, con tratti in salita moderati e alcuni passaggi un po'' scivolosi, soprattutto se fatto in autunno con foglie e acqua.
+</p>
 
-<h3>Informazioni Utili per il Trekking al Camelieto – Anello</h3>
-<p>Il <strong>sentiero</strong> del Camelieto – Anello è adatto a <strong>escursioni di trekking</strong> di varia difficoltà, anche se è consigliabile indossare scarpe da trekking adatte e abbigliamento impermeabile per affrontare eventuali piogge. La <strong>difficoltà</strong> del sentiero è considerata facile/media, con una distanza di circa 12 km e un dislivello di 500 metri.  Per un''<strong>escursione di un giorno</strong>, è consigliabile prevedere un pranzo al sacco e portare con sé acqua e snack. La pioggia ha reso il percorso più impegnativo, quindi è importante essere preparati ad affrontare le condizioni atmosferiche variabili.  L''anello è perfetto per un''<strong>gita in montagna</strong> o un''<em>escursione di giornata</em>.</p>
-<p>Consigliamo di consultare le previsioni meteo prima di partire e di informarsi sulle condizioni del sentiero presso le guide alpine locali. Un''<em>escursione</em> al Camelieto – Anello è un''esperienza indimenticabile per tutti gli amanti del <strong>trekking</strong> e della <strong>natura</strong> in <strong>Italia</strong>.</p>',
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>
+    L''escursione è di difficoltà media, adatta a escursionisti con una buona preparazione. Il dislivello è di circa 665 metri, quindi preparati a qualche salita. La distanza totale dell''anello è di 13.21 km.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>
+    (Qui inserirebbe la traccia GPS dell''escursione)
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="distanza-1">Distanza:</strong> Circa 13.21 km (anello)</li>
+    <li><strong id="dislivello-1">Dislivello:</strong> Circa 665 metri</li>
+    <li><strong id="difficoltà-1">Difficoltà:</strong> Medio</li>
+    <li><strong id="periodo-consigliato-1">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza-1">Punto di partenza:</strong> Pieve di Compito, accessibile in auto</li>
+    <li><strong id="comune-1">Comune:</strong> Pieve di Compito, Toscana</li>
+    <li><strong id="tipo-di-sentiero-1">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   13.21,
   665,

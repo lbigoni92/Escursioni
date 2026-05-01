@@ -18,27 +18,32 @@ Si arriva poi alla Chiesa dei Santi Jacopo e Verano, da cui il percorso inizia g
 
 L’obiettivo del giro, più che la performance sportiva, è stato quello di ritagliarsi un momento conviviale: una pausa semplice per un piccolo picnic tra amici, condividendo cibo e tempo insieme immersi nella tranquillità del paesaggio.
 ',
-  '<h2>Tra borghi e panorami: da Calci a Montemagno tra natura e convivialità</h2>
+  '<h2 id="tra-borghi-e-panorami-da-calci-a-montemagno-tra-natura-e-convivialita">Tra borghi e panorami: da Calci a Montemagno tra natura e convivialità</h2>
 
-<h3>Il percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong>, ideale per un''<strong>escursione</strong> nella <strong>montagna</strong>, parte dal pittoresco paese di <strong>Calci</strong> e si snoda attraverso paesaggi mozzafiato fino a <strong>Montemagno</strong>.  L''<strong>escursione</strong> è pensata per chi cerca un''esperienza di <strong>trekking</strong> autentica, immersa nella <strong>natura</strong> italiana, perfetta per un''uscita a piedi con gli amici o in famiglia.  Il percorso offre la possibilità di scoprire un borgo medievale e di godere di panorami unici sulla piana pisana.</p>
-<p>Il giro si caratterizza per un andamento prevalentemente pianeggiante, con brevi tratti su strada di campagna e immersione nel bosco.  L''obiettivo principale di questa <strong>trekking</strong> è il relax e il godimento della bellezza del paesaggio, un''opportunità per praticare <strong>trekking</strong> e <strong>escursioni</strong> in un contesto naturale incontaminato.  Sarà un''occasione per praticare <strong>trekking</strong> e <strong>escursioni</strong> nella splendida regione Toscana, famosa per i suoi sentieri e panorami.</p>
+<p>Avete voglia di un''escursione diversa, un mix di natura, cultura e convivialità?  L''escursione da Calci a Montemagno è la risposta! Questo giro di trekking, di circa 10 km, vi porterà attraverso paesaggi collinari toscani, con panorami mozzafiato e la possibilità di fare una pausa rilassante in un borgo autentico.</p>
 
-<h3>Cosa aspettarsi</h3>
-<p>Preparatevi a circa 8-10 chilometri di <strong>sentiero</strong>, con un dislivello contenuto.  L''<strong>escursione</strong> è adatta a escursionisti occasionali e famiglie, ma è importante indossare scarpe da <strong>trekking</strong> e abbigliamento adeguato.  L''ambiente naturale è particolarmente suggestivo, con boschi rigogliosi e panorami a picco sulla vallata.  Godetevi la pace e la tranquillità del paesaggio, ideale per un''<strong>escursione</strong> rilassante e rigenerante.  La possibilità di ammirare la Torre di Pisa aggiunge un tocco di fascino a questo splendido <strong>sentiero</strong>.</p>
-<p>Durante l''<strong>trekking</strong> potrete apprezzare la ricchezza della flora e della fauna locale, oltre alla maestosità della Certosa di Calci.  La giornata culminerà con un momento di convivialità, perfetto per un <strong>picnic</strong> in un ambiente naturale.  Questo <strong>sentiero</strong> è una perfetta combinazione tra natura, cultura e relax, perfetto per un''<strong>escursione</strong> a piedi in Toscana.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza è a Calci, facilmente raggiungibile in auto.  Da qui, seguendo le indicazioni per la Certosa di Calci, vi troverete all''inizio del sentiero.</p>
 
-<h3>Informazioni utili</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Distanza:</strong> Circa 8-10 km</li>
-    <li><strong>Dislivello:</strong> Minimo</li>
-    <li><strong>Punto di partenza:</strong> Calci</li>
-    <li><strong>Punto di arrivo:</strong> Montemagno</li>
-    <li><strong>Tempi di percorrenza:</strong> 3-4 ore</li>
-    <li><strong>Caratteristiche:</strong> <strong>Sentiero</strong> CAI, panorami sulla piana pisana, borgo medievale di <strong>Montemagno</strong>, Certosa di Calci, ideale per un''<strong>escursione</strong> a piedi.</li>
-</ul>
-<p>Questo <strong>sentiero</strong> rappresenta un''opportunità unica per vivere un''<strong>escursione</strong> immersa nella natura, esplorando i borghi medievali della Toscana.  Ricordate di portare con voi acqua, snack e protezione solare per godervi appieno questa magnifica <strong>trekking</strong> esperienza.</p>',
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia da Calci e segue un percorso che si snoda tra campi coltivati e boschi.  Percorrerete un breve tratto su strada di campagna, per poi inoltrarvi gradualmente nel bosco. Raggiungerete Montemagno, un caratteristico borgo collinare, da cui proseguirete lungo diversi sentieri CAI. Il tragitto offre scorci spettacolari sulla vallata sottostante, con la possibilità di ammirare la Torre di Pisa in giornate limpide e un''ampia panoramica sulla pianura pisana.  Il percorso culmina con una discesa fino alla Chiesa dei Santi Jacopo e Verano, da qui inizierà la discesa verso il punto di partenza.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà <strong>media</strong>.  Il dislivello è di circa 369 metri, quindi è consigliabile avere un minimo di allenamento.  Il sentiero è ben segnalato e il percorso è generalmente facile, adatto a escursionisti occasionali con un minimo di esperienza.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per visualizzare la traccia GPS e le informazioni pratiche per l''escursione, vi rimandiamo a siti specializzati (da integrare con link esterni al futuro).</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+  <li><strong>Distanza:</strong> Circa 10.19 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 369 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Calci, accessibile in auto</li>
+  <li><strong>Comune:</strong> Calci, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.19,
   369,

@@ -7,27 +7,41 @@ VALUES (
   168612652,
   'Monte costa, Monte Anchiana e Chiesa di Santa Barbara da Seravezza',
   'Quanto dico è frutto della mia esperienza personale, valutate secondo il vostro livello Partendo da Serravezza il sentiero si prende da un viottolo tra due casine subito in salita, si prosegue sino a quando non viene finito il tratto di stradina che porta all''attacco della cresta. al km 1.4 si ha il sentiero che porta all''attacco, il sentiro è segnato bene da puntini blu non è difficile raggiungere la cresta anche se il gps aiuta. La cresta è lunga circa 950mt e è faticosa fisicamente per chi non è abituato, faccio presente che quel tratto l''ho percorso in 50 minuti, sulla cresta ci sono 3 punti esposti 2 dei quali devono essere affrontati con la Massima attenzione. Dopo il 3° punto esposto la cresta si fa un poco più semplice da seguire e porta alla vetta poco panoramica che presente un unica roccia con il nome del monte. La discesa lato Sud si fa solo gps alla mano altrimenti è impossibile da seguire presenta però un bosco incantevole scorci unici sul mare. Una volta arrivati sulla SAV IL GROSSO è FATTO da qua vi rimane solo d''arrivare sul Monte Anchiana che magari è stancate da raggiungere per una piccola pettatina da Vito(niente di che dopo la cresta)Poi si parte con la discesa,passando per Gallena. Il sentiero è da farci con mente fredda buon fisico e una buona attitudine all''esposizione, non prendetelo sotto gamba. Personalmente c''ho messo sulle 5.45 ore per completarlo, SIAMO IN APUANE NON PRENDIAMOLE MAI SOTTO GAMBA. Percorso ad anello da Seravezza passando per: - Monte costa (2.2 km) - Monte Anchiana (5.6 km) - Chiesa di Santa Barbara (8.0 km)',
-  '<h2>Trekking Monte Costa, Monte Anchiana e Chiesa di Santa Barbara da Seravezza</h2>
+  '<h2 id="escursione-monte-costa-monte-anchiana-chiesa-santa-barbara-da-seravezza">Escursione al Monte Costa, Monte Anchiana e Chiesa di Santa Barbara da Seravezza</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Partendo da Seravezza, il punto di partenza dell''escursione è facilmente raggiungibile. Iniziando dal centro, segui un viottolo tra due casine subito in salita. Questo sentiero è ben segnalato da puntini blu, ma tieni presente che la prima parte è piuttosto ripida, quindi preparati a una buona dose di allenamento!</p>
 
-<p>Questo <strong>sentiero di trekking</strong> in <strong>Appennino Tosco-Emiliano</strong> vi porterà alla scoperta di un percorso ad anello mozzafiato, partendo da <strong>Seravezza</strong> e attraversando i caratteristici <strong>Monte Costa</strong> e <strong>Monte Anchiana</strong>, culminando con la visita alla suggestiva <strong>Chiesa di Santa Barbara</strong>. Un''escursione imperdibile per gli amanti del <strong>trekking</strong> e della <strong>natura</strong>, ideale per chi cerca una sfida fisica e un''immersione nella bellezza selvaggia della <strong>montagna</strong> italiana. Il percorso è stato progettato per offrire panorami spettacolari e un''esperienza di <strong>escursione</strong> autentica, con tratti adatti anche a escursionisti esperti.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Il sentiero si snoda attraverso il crinale del Monte Costa, caratterizzato da un tratto esposto che richiede attenzione. Dopo aver superato la cresta, l''escursione prosegue verso il Monte Anchiana, con una discesa attraverso un bosco incantevole che offre scorci mozzafiato sul mare. Infine, il sentiero si conclude con una salita per raggiungere la Chiesa di Santa Barbara.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è considerata <b>Molto Difficile</b>. Richiede un buon fisico, una certa esperienza in montagna e una buona attitudine all''esposizione. Il dislivello totale è di circa 983 metri, e il percorso ad anello è di 12.76 km. Il tratto sulla cresta è particolarmente faticoso e presenta 3 punti esposti che devono essere affrontati con cautela.  La durata stimata dell''escursione è di circa 5.45 ore.</p>
 
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>
+  <strong id="distanza">Distanza:</strong> 12.76 km (anello)
+  <br>
+  <strong id="dislivello">Dislivello:</strong> +983 m
+  <br>
+  <strong id="difficoltà">Difficoltà:</strong> Molto Difficile
+  <br>
+  <strong id="periodo-consigliato">Periodo Consigliato:</strong> Primavera, Estate, Autunno
+</p>
+<p>
+  La traccia GPS di questa escursione è disponibile su piattaforme online (non fornita qui). Ti consigliamo di scaricarla e consultarla prima di intraprendere l''escursione.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-  <li>Un percorso ad anello di circa <strong>8 km</strong> con un dislivello complessivo di circa <strong>800 metri</strong>.</li>
-  <li>Un <strong>trekking</strong> impegnativo, che richiede una buona preparazione fisica e un''adeguata attrezzatura da <strong>trekking</strong>.</li>
-  <li>Tratti esposti e alcuni passaggi rocciosi, quindi è consigliabile indossare scarpe da <strong>trekking</strong> adatte.</li>
-  <li>Panorami mozzafiato sulla costa e sulle pianure circostanti, con scorci unici sul mare.</li>
-  <li>La possibilità di ammirare la flora e la fauna tipiche della <strong>montagna</strong> toscana.</li>
-</ul>
-
-<h3>Informazioni Utili</h3>
-
-<p>Il <strong>sentiero</strong> è ben segnalato con puntini blu, ma è consigliabile avere con sé una mappa e una bussola o un <strong>GPS</strong> per orientarsi correttamente. La discesa lato Sud è particolarmente impegnativa e richiede una buona esperienza di <strong>trekking</strong> e la presenza di un <strong>GPS</strong>.  La durata stimata dell''escursione è di circa 5 ore e 45 minuti, ma può variare in base al livello di preparazione fisica dei partecipanti.  È fondamentale prendere questo <strong>sentiero</strong> con la dovuta serietà, valutando le proprie capacità e condizioni fisiche.  Ricordate, siamo nelle <strong>Appuanes</strong>, non sottovalutate mai la <strong>montagna</strong>!</p>
-
-<p>Il percorso include tappe significative: <strong>Monte Costa</strong> (2.2 km), <strong>Monte Anchiana</strong> (5.6 km), e la visita alla <strong>Chiesa di Santa Barbara</strong> (8.0 km). Questo permette di apprezzare al meglio la varietà del paesaggio e la ricchezza della storia e della cultura locale.</p>',
+  <li><strong id="distanza">Distanza:</strong> Circa 12.76 km (anello)</li>
+  <li><strong id="dislivello">Dislivello:</strong> Circa 983 metri</li>
+  <li><strong id="difficoltà">Difficoltà:</strong> Molto difficile</li>
+  <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="punto-di-partenza">Punto di partenza:</strong> Seravezza, raggiungibile in auto/a piedi</li>
+  <li><strong id="comune">Comune:</strong> Seravezza, Toscana, Italia</li>
+  <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   12.76,
   983,

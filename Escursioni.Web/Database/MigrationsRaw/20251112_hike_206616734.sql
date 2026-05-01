@@ -7,25 +7,38 @@ VALUES (
   206616734,
   'Necropoli Santa Cecilia, Piramide etrusca e Iscrizione romana da Bomarzo',
   'Il sentiero inizia in modo semplice e ben segnalato, ma man mano che si procede i segni si fanno più radi. È comunque possibile orientarsi seguendo i segni sugli alberi, che in alcuni tratti sono ancora visibili. Il percorso non presenta particolari difficoltà, fatta eccezione per un breve tratto dopo la Necropoli di Santa Cecilia, dove bisogna prestare particolare attenzione. Qui il sentiero attraversa un punto in cui il terreno è franato alcuni anni fa ed è stato successivamente ricostruito. In questo tratto si costeggia un burrone, quindi è necessario procedere con cautela. Se si preferisce evitare questo passaggio, è possibile seguire direttamente il sentiero 190, che conduce alle Tombe a dado e alla Piramide Etrusca. A causa della pioggia e del terreno reso scivoloso da foglie bagnate e muschio, non siamo riusciti a raggiungere l’Incisione Latina. Tuttavia, se il meteo lo permette, vale la pena esplorare anche questa parte del percorso. Cenni storici sulla Piramide Etrusca di Bomarzo La Piramide Etrusca di Bomarzo, conosciuta anche come Sasso del Predicatore, è un enigmatico monumento rupestre scolpito nella roccia tufacea. Risalente al VI-IV secolo a.C., si ritiene che fosse un luogo sacro utilizzato dagli Etruschi per cerimonie religiose, forse legate a culti ancestrali o sacrifici rituali. L’enorme masso di tufo presenta una scalinata scolpita che conduce a una sommità piatta, con canalette e vasche incise nella roccia. Alcuni studiosi ipotizzano che potesse essere un altare sacrificale o un luogo per osservazioni astronomiche. Il suo scopo esatto rimane un mistero, ma la sua imponenza e il suo fascino lo rendono un sito imperdibile per chi visita la zona.',
-  '<h2>Necropoli Santa Cecilia, Piramide Etrusca e Iscrizione Romana da Bomarzo - Escursione Trekking</h2>
+  '<h2 id="necropoli-santa-cecilia-piramide-etrusca-iscrizione-romana-da-bomarzo">Escursione alla Necropoli Santa Cecilia, Piramide Etrusca e Inscrizione Romana da Bomarzo</h2>
 
-<h3>Il Percorso - Sentieri di Trekking in Italia</h3>
-<p>Questo sentiero offre un’esperienza di trekking indimenticabile nel cuore della **Natura** della **Tuta** e del **Latium**. Inizia con una passeggiata semplice e ben segnalata, ideale per un’**escursione** di **trekking** in **montagna**, ma man mano che ti inoltri nel paesaggio, i segni diventano più rari. Non temere, l’orientamento è possibile seguendo i segni sugli alberi, ancora visibili in alcuni tratti, trasformando l’**escursione** in un’avventura alla scoperta di antiche rovine e tradizioni millenarie. Il percorso è pensato per un **trekking** di media difficoltà, sebbene un breve tratto dopo la **Necropoli di Santa Cecilia** richieda particolare attenzione. Immagina di percorrere un sentiero in un luogo ricco di storia, un vero e proprio viaggio nel tempo.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa interessante escursione si trova a Bomarzo, in provincia di Lazio. Per raggiungere Bomarzo, è consigliabile arrivare in auto. Da Roma, la strada più comoda è l''A12, poi seguire le indicazioni per Viterbo e successivamente Bomarzo. Una volta arrivati a Bomarzo, si trova facilmente il punto di partenza per il sentiero, facilmente individuabile grazie alla segnaletica.</p>
 
-<h3>Cosa Aspettarsi - Trekking a Bomarzo</h3>
-<p>Preparati a un’**escursione** attraverso un territorio suggestivo, caratterizzato da un paesaggio montano e dalla presenza di siti archeologici di grande importanza. Il sentiero ti condurrà attraverso un ambiente naturale incontaminato, offrendoti la possibilità di ammirare la flora e la fauna locali. Ricorda, la difficoltà del **sentiero** può variare leggermente a seconda delle condizioni meteorologiche, quindi è consigliabile indossare scarpe da trekking adatte e portare con sé acqua e cibo.  Questo **trekking** è perfetto per chi cerca una giornata all''aria aperta, immerso nella **Natura** e ricco di storia.  È un’opportunità unica per praticare il **trekking** in un ambiente unico e per immergerti nella cultura etrusca e romana.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia con un tratto semplice e ben segnalato, ma man mano che si avanza, i segni diventano più rari. Fortunatamente, è possibile orientarsi seguendo i segni sugli alberi, che in alcuni tratti sono ancora visibili. Il percorso non presenta particolari difficoltà, se non per un breve tratto dopo la Necropoli di Santa Cecilia, dove il terreno è franato ed è necessario prestare particolare attenzione. Il sentiero costeggia un burrone, quindi è necessario procedere con cautela. Si può optare per seguire direttamente il sentiero 190 che conduce alle Tombe a dado e alla Piramide Etrusca.  L''obiettivo finale è raggiungere l''Incisione Latina, ma a causa delle condizioni meteorologiche e del terreno scivoloso, potrebbe essere necessario rinunciarvi.</p>
 
-<h3>Informazioni Utili - Sentieri di Trekking a Bomarzo</h3>
-<ul>
-    <li><strong>Distanza:</strong> Circa 3-4 km (tratto principale)</li>
-    <li><strong>Difficoltà:</strong> Facile/Media -  necessaria attenzione nel tratto dopo la Necropoli</li>
-    <li><strong>Dislivello:</strong> Minimo - percorsi prevalentemente pianeggianti</li>
-    <li><strong>Punti di Interesse:</strong> **Necropoli di Santa Cecilia**, **Piramide Etrusca di Bomarzo** (Sasso del Predicatore), incisione latina (accessibile in condizioni meteo favorevoli)</li>
-    <li><strong>Consigli:</strong> Indossare scarpe da trekking, portare acqua, cibo, cappello e crema solare.  Verificare le condizioni meteo prima di partire.</li>
-    <li><strong>Mappa:</strong>  Consultare mappe topografiche e guide escursionistiche specifiche per la zona di **Bomarzo**.</li>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione di tipo anello di circa 8,36 km con un dislivello di +206 m è considerata di difficoltà media. Richiede una buona preparazione fisica, soprattutto per il tratto successivo alla Necropoli di Santa Cecilia dove il sentiero presenta alcuni passaggi esposti. È consigliabile indossare scarpe da trekking adeguate e portare con sé acqua e snack. La traccia GPS di questa escursione vi aiuterà a orientarvi durante il percorso.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class="list-disc">
+    <li><strong>Distanza:</strong> 8.36 km (anello)</li>
+    <li><strong>Dislivello:</strong> 206 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Bomarzo, Lazio</li>
+    <li><strong>Comune:</strong> Bomarzo, Lazio</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Esplora i segreti della **Necropoli di Santa Cecilia** e lasciati incantare dalla **Piramide Etrusca di Bomarzo**, un luogo enigmatico e affascinante, testimonianza di un passato ricco di storia e tradizioni.  Questo **sentiero** è un''ottima opzione per un’**escursione** di **trekking** a **Bomarzo**, ideale per famiglie e appassionati di **Natura** e archeologia.  Pianifica la tua **escursione** e preparati a vivere un’esperienza unica nel cuore del **Latium**!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="distanza">Distanza:</strong> Circa 8.36 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 206 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Medio</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Bomarzo, accessibile in auto</li>
+    <li><strong id="comune">Comune:</strong> Bomarzo, Lazio</li>
+    <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   8.36,
   206,
@@ -54,7 +67,7 @@ VALUES (
   '2f53eb97c19a3d22c80a7ebad462b07fc892d9967618c9ea5a7f90728914b438',
   'Escursione Bomarzo: Necropoli Etrusca & Piramide Romana | Lazio | 8.36km, 206m D+, Percorso Medio. Esplora i resti etruschi e romani!',
   'Bomarzo: Escursione Piramide Etrusca e Necropoli (Lazio)',
- 'Altre zone dell''italia',
+  'Altre zone dell''italia',
   NOW(),
   NOW()
 )

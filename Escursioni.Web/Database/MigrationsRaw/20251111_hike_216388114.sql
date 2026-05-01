@@ -7,22 +7,49 @@ VALUES (
   216388114,
   'Pania della Croce, Pizzo delle saette, Rifugio Del Freo e Passo dell''Alpino da Orzale',
   'Anello da Orzale – Un''avventura sulle Apuane Percorso ad anello con partenza da Orzale, lungo 15 km e con un dislivello positivo di circa 1600 m, attraversando alcune delle cime e dei punti panoramici più spettacolari delle Apuane. Completato in giornata, con partenza alle 7:50 e una sosta obbligata al Rifugio Del Freo entro le 17:00. Tappe principali : Foce di Valli (3.2 km) Passo degli Uomini della Neve (4.3 km) Pania della Croce (4.7 km) Callare della Pania (5.1 km) Pizzo delle Saette (6.0 km) Rifugio Del Freo (8.8 km) Passo dell''Alpino (10.4 km) Ponte Mediceo (13.9 km) Descrizione del percorso Orzale → Foce di Valli (3.2 km) Il primo tratto si snoda interamente nel bosco: fresco e suggestivo, attraversa piccoli ponticelli in legno ed è tutto in salita. Foce di Valli → Passo degli Uomini della Neve (4.3 km) Il bosco lascia spazio ai pratoni soleggiati della Costa Pulita, con un paesaggio che ricorda l’Appennino. Esposizione al sole, ma la vista è spettacolare. Passo degli Uomini della Neve → Pania della Croce (4.7 km) Salita impegnativa, con tratti in cui si usano le mani. Si consiglia di rimuovere le bacchette: troverete passaggi di I grado, forse II. Raggiunta la vetta, sarete sulla mitica Pania della Croce. Pania della Croce → Callare della Pania (5.1 km) Tratto in discesa facile e su cresta larga e sicura. Nessuna difficoltà tecnica. Callare della Pania → Pizzo delle Saette (6.0 km) Si affronta una cresta più stretta con moderata esposizione e alcuni passaggi su roccia friabile (I grado). Attenzione a non smuovere sassi! Il canalone finale è facile ma richiede cautela, soprattutto in discesa. Pizzo delle Saette → Rifugio Del Freo (8.8 km) Evitiamo la cresta e tagliamo per il Passo del Serpente fino al rifugio. Qualche breve tratto esposto all’inizio, ma poi si procede su sentiero più tranquillo. Rifugio Del Freo → Passo dell''Alpino → Ponte Mediceo (13.9 km) Tutto il tratto finale è in discesa, ben segnalato e piacevole, tra boschi e sentieri comodi. Un giro splendido ma tosto, tipicamente apuano: non sottovalutatelo. Dislivello importante, alcuni tratti tecnici e lunghi passaggi sotto il sole. Io ho consumato 3.5 litri d''acqua e, al rifugio, una meritata birra. Consigliato a escursionisti allenati e con passo sicuro.',
-  '<h2>Pania della Croce, Pizzo delle Saette, Rifugio Del Freo e Passo dell''Alpino da Orzale: Trekking Apuane</h2>
+  '<h2 id="pania-della-croce-pizzo-delle-saette-rifugio-del-freo-e-passo-dallalpino-da-orzale">Escursione a Pania della Croce, Pizzo delle Saette, Rifugio Del Freo e Passo dell''Alpino da Orzale</h2>
 
-<h3>Il percorso</h3>
-<p>Preparati per un''indimenticabile <strong>escursione in montagna</strong> attraverso le maestose Apuane! Questo <strong>sentiero di trekking</strong> ad anello di 15 km, con un dislivello positivo di circa 1600 metri, ti porterà attraverso alcune delle cime e dei punti panoramici più spettacolari. Partendo da <strong>Orzale</strong>, affronterai un percorso intenso e gratificante, perfetto per <strong>trekking</strong> esperti e amanti della <strong>natura</strong>. La durata prevista è di una giornata, con una partenza alle 7:50 e una sosta obbligata al <strong>Rifugio Del Freo</strong> intorno alle 17:00. Scopri le tappe principali del <strong>sentiero Italia</strong>!</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa aspettarsi</h3>
+<p>Il punto di partenza di questa fantastica escursione è a Orzale, in Toscana. È facilmente raggiungibile in auto, seguendo le indicazioni per il Passo dell''Alpino. Da Orzale, il sentiero è ben segnalato e inizia direttamente dal paese, offrendo un ottimo punto di partenza per l''avventura.</p>
+
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>Questo è un vero e proprio anello che vi porterà attraverso le maestose montagne delle Apuane. Iniziate da Orzale e subito dopo avrete una salita nel bosco, fresca e suggestiva, con alcuni ponticelli in legno. Superata la fase boschiva, vi troverete sui pratoni soleggiati della Costa Pulita, con panorami mozzafiato.</p>
+
+<p>Proseguendo, affronterete una salita impegnativa sulla mitica Pania della Croce, con tratti dove potrete usare le mani (difficoltà I-II). Una volta raggiunta la vetta, godetevi la vista! Il sentiero si fa più agevole, scendendo sul Callare della Pania e proseguendo verso il Pizzo delle Saette, con alcuni passaggi esposti e rocciosi (difficoltà I-II), ma niente di eccessivamente impegnativo.</p>
+
+<p>Da qui, evitate la cresta e dirigetevi al Rifugio Del Freo, dove potrete riposare e rifornirvi. Dal rifugio, proseguite fino al Passo dell''Alpino, un ultimo tratto in discesa piacevole e ben segnalato, culminando al Ponte Mediceo.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>Questa escursione è di livello medio, con un dislivello di circa 1645 metri e una distanza di 14.7 km. Richiede una buona preparazione fisica, soprattutto per le salite impegnative. È consigliata a escursionisti allenati con passo sicuro, soprattutto per la presenza di tratti esposti e passaggi rocciosi. Portate con voi acqua a sufficienza (almeno 3-4 litri), indossate scarpe da trekking adatte e preparatevi a un''esperienza indimenticabile.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
 <ul>
-  <li>Un <strong>trekking</strong> impegnativo con un dislivello totale di 1600 metri.</li>
-  <li>Tratti in salita e discesa con alcuni passaggi esposti e su roccia.</li>
-  <li>Magnifiche viste panoramiche sulle Apuane e sull''Appennino.</li>
-  <li>Passaggi attraverso boschi, prati soleggiati e creste a strapiombo.</li>
-  <li>Possibilità di ammirare la mitica <strong>Pania della Croce</strong> e il suggestivo <strong>Pizzo delle Saette</strong>.</li>
+  <li><b>Distanza:</b> Circa 14.7 km (anello)</li>
+  <li><b>Dislivello:</b> Circa 1645 metri</li>
+  <li><b>Difficoltà:</b> Medio</li>
+  <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+  <li><b>Punto di partenza:</b> Orzale, Toscana</li>
+  <li><b>Comune:</b> Orzale, Provincia di Lucca, Toscana</li>
+  <li><b>Tipo di sentiero:</b> Sentiero escursionistico, mulattiera</li>
 </ul>
 
-<h3>Informazioni utili</h3>
-<p>Questo <strong>sentiero escursionistico</strong> è ideale per <strong>escursionisti allenati</strong> e con passo sicuro. È consigliabile indossare scarpe da trekking adatte e portare con sé l''acqua necessaria. La durata complessiva dell''escursione è di circa 10-12 ore, a seconda del ritmo del gruppo. La <strong>difficoltà del sentiero</strong> è considerata alta. Ricorda di rispettare l''ambiente naturale durante la tua <strong>escursione in montagna</strong> e di seguire le indicazioni del sentiero. L''attrezzatura consigliata include: bastoncini da trekking, abbigliamento a strati, protezione solare e un cappello. Non dimenticare di consumare almeno 3,5 litri di acqua, soprattutto nei mesi estivi.  La zona offre un''ottima opportunità per un''<strong>escursione</strong> indimenticabile, con panorami mozzafiato e la possibilità di ricaricare le energie con una meritatissima birra al <strong>Rifugio Del Freo</strong>. Questo <strong>trekking</strong> è perfetto per chi cerca una vera sfida in <strong>montagna</strong>!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+  <li><b>Distanza:</b> Circa 14.7 km (anello)</li>
+  <li><b>Dislivello:</b> Circa 1645 metri</li>
+  <li><b>Difficoltà:</b> Medio</li>
+  <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+  <li><b>Punto di partenza:</b> Orzale, Toscana</li>
+  <li><b>Comune:</b> Orzale, Provincia di Lucca, Toscana</li>
+  <li><b>Tipo di sentiero:</b> Sentiero escursionistico / Mulattiera / Ferrata</li>
+</ul>
+
+<p><strong>Parco Nazionale:</strong> Parco Nazionale delle Apuane</p>',
   'Tutte le Attività e Paesi',
   14.7,
   1645,

@@ -7,27 +7,38 @@ VALUES (
   255309309,
   'Monte Forato Sud, Monte Forato e Foce di Petrosciana da Orzale',
   'Escursione ad anello nelle Alpi Apuane con partenza da Cardoso, in una tipica giornata primaverile. Il percorso si sviluppa in direzione Monte Forato, attraversando ambienti molto vari e panoramici. La prima tappa è il suggestivo Santuario di San Leonardo, raggiunto passando dalla caratteristica Casa Cava Casalina, un luogo particolarmente scenografico e molto fotogenico nelle giornate di sole. Si prosegue poi in direzione del Monte Forato transitando nei pressi di Casa Colombara e successivamente Casa Puccio, fino a raggiungere la Foce di Petrosciana, uno dei punti più belli dell’escursione. Da qui si gode di un doppio panorama, sia verso ovest che verso est, probabilmente uno dei migliori punti panoramici dell’intero itinerario. Dalla foce si continua in salita lungo il sentiero CAI 110. Una parte del gruppo ha deviato sulla via ferrata Salvadori, che conduce al Monte Forato Sud. Successivamente si raggiunge anche la vetta nord del Monte Forato e, per chi lo desidera, è possibile attraversare il celebre arco naturale. Il panorama lungo tutto il percorso è spettacolare, con viste sui principali rilievi delle Apuane, tra cui Pania della Croce,Monte Altissimo e numerose vette minori. La discesa avviene nuovamente passando dalla Foce di Petrosciana, proseguendo poi verso Fonte Moscoso e rientrando infine verso Cardoso. Dati tecnici e consigli Percorso impegnativo, adatto a escursionisti con un minimo di esperienza: * Lunghezza: circa 12 km * Dislivello: circa 1000 m * Pendenza: distribuita lungo il percorso, con tratti ripidi Si consiglia l’utilizzo di scarpe da trekking adeguate e una buona preparazione fisica.',
-  '<h2>Monte Forato Sud, Monte Forato e Foce di Petrosciana da Orzale – Trekking nelle Alpi Apuane</h2>
+  '<h2 id="escursione-monte-forato-sud-monte-forato-e-foce-di-petrosciana-da-orzale">Escursione al Monte Forato Sud, Monte Forato e Foce di Petrosciana da Orzale</h2>
 
-<h3>Il percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza dell''escursione è a <strong>Cardoso</strong>, facilmente raggiungibile in auto. Da qui, si parcheggia in prossimità del punto di partenza del sentiero. La zona è raggiungibile anche a piedi da diversi paesi limitrofi, per un''esperienza più immersiva nella natura.</p>
 
-<p>Preparatevi per un''indimenticabile <strong>escursione in montagna</strong> attraverso il <strong>Monte Forato Sud</strong>, il <strong>Monte Forato</strong> e la <strong>foce di Petrosciana</strong>, un percorso ad anello nelle maestose <strong>Alpi Apuane</strong>. Questa <strong>trekking</strong> permette di scoprire paesaggi mozzafiato e ambienti naturali unici, perfetti per gli amanti del <strong>sentiero</strong> e della <strong>natura</strong>. L''itinerario, di tipo <strong>escursionistico</strong>, si snoda da Cardoso, offrendo una giornata piena di emozioni e panorami spettacolari.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo anello di circa 11.88 km con un dislivello di 975 metri vi porterà attraverso paesaggi mozzafiato delle Alpi Apuane. Iniziate da <strong>Cardoso</strong>, passando per il suggestivo <strong>Santuario di San Leonardo</strong> e la pittoresca <strong>Casa Cava Casalina</strong>. Proseguirete in direzione del <strong>Monte Forato</strong>, attraversando le <strong>Case Cava</strong> come Colombara e Puccio. Il percorso culmina alla <strong>Foce di Petrosciana</strong>, offrendo panorami a 360 gradi. Da qui, potrete seguire il sentiero CAI 110 fino al <strong>Monte Forato Sud</strong> e all''arco naturale, oppure optare per la via ferrata Salvadori. La discesa vi riporterà a <strong>Cardoso</strong>, passando per <strong>Fonte Moscoso</strong>.</p>
 
-<h3>Cosa aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è di livello <strong>Medio</strong>, adatta a escursionisti con un minimo di esperienza. Il percorso presenta tratti ripidi e richiede una buona preparazione fisica. Si consiglia l’utilizzo di scarpe da trekking adeguate e di portare con sé acqua e cibo.</p>
 
-<ul>
-  <li>Un percorso ad anello di circa 12 km, ideale per un''<strong>escursione di un giorno</strong>.</li>
-  <li>Un dislivello di circa 1000 metri, adatto a escursionisti con una buona preparazione fisica.</li>
-  <li>Tratti ripidi, da affrontare con prudenza e scarpe da trekking adeguate.</li>
-  <li>Paesaggi mozzafiato: dai panorami sulle <strong>Apuane</strong> a Pania della Croce e Monte Altissimo, fino alla vista sulla Foce di Petrosciana e al celebre Arco Naturale del Monte Forato.</li>
-  <li>Possibilità di deviazioni: il sentiero CAI 110 e la via ferrata Salvadori offrono opzioni per escursionisti più esperti.</li>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<ul class="list-disc">
+    <li><strong>Distanza:</strong> Circa 11.88 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 975 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Cardoso, Toscana</li>
+    <li><strong>Comune:</strong> Orzale, Regione Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico, via ferrata</li>
 </ul>
 
-<h3>Informazioni utili</h3>
-
-<p>L''escursione inizia da Cardoso e si sviluppa in direzione del <strong>Santuario di San Leonardo</strong>, raggiungibile attraversando la Casa Cava Casalina, un luogo particolarmente scenografico. Proseguendo verso il <strong>Monte Forato</strong>, si attraversano le Case Cava Colombara e Puccio, fino ad arrivare alla <strong>Foce di Petrosciana</strong>, uno dei punti più belli dell''escursione e offre un doppio panorama. Il sentiero CAI 110 conduce poi al <strong>Monte Forato Sud</strong> e alla vetta nord, dove è possibile ammirare l''arco naturale. La discesa rientra da Fonte Moscoso, completando il circolo.</p>
-
-<p>Questo <strong>sentiero trekking</strong> è considerato impegnativo, ideale per escursionisti con un minimo di esperienza. Si consiglia l''utilizzo di scarpe da trekking, abbigliamento adeguato e una buona preparazione fisica.  Esplorate le <strong>gite in montagna</strong> più belle dell''Italia!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul class="list-disc">
+    <li><strong>Distanza:</strong> Circa 11.88 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 975 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Cardoso, accessibile in auto o a piedi</li>
+    <li><strong>Comune:</strong> Orzale, Provincia di Lucca, Regione Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico, via ferrata</li>
+</ul>',
   'Tutte le Attività e Paesi',
   11.88,
   975,

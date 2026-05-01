@@ -7,30 +7,33 @@ VALUES (
   172151891,
   'Pisanino dalla Bagola Bianca',
   'La recensione qua sotto è frutto della mia personale esperienza e non è detto che per voi sia uguale, il percorso è difficile sia fisicamente sia di testa per chi non è abituato, prestare massima attenzione! Partiamo dalla Val Serenaia (1050 m), ci incamminiamo dal rifugio e individuiamo una traccia sulla destra che dal piazzale si dirige nel rio Serenaia. La traccia risale il pendio di paleo, obliquando a sinistra fino alla costola ovest della Bagola Bianca, da prendere sulla sinistra. Salendo, la traccia diventa più ripida fino a un risalto roccioso detto il Naso, che aggiriamo sulla destra. Proseguiamo tra paleo e roccette fino alla cima della Bagola Bianca (1807 m) nella salita ci si presentano dei tratti si scalata di 1 livello in un punto si tocca il 2° e un traverso al quale si deve prestare attenzione. Da qui, seguiamo la cresta NO verso il Pisanino, su un crinale sempre più esposto. Superiamo qualche passo di I fino a un risalto roccioso, che aggiriamo a destra salendo ripide zolle di paleo. Riprendiamo il filo della cresta fino alla vetta. Per la discesa, seguiamo la via normale (segni blu) lungo la cresta SE fino al Canale delle Rose. Scendiamo alla Foce Altare (1730 m) e poi alla seconda foce (1704 m). Qui la traccia piega a sinistra verso Gorfigliano, attraversando tratti esposti ai piedi del Pizzo Maggiore, Mezzo e Pizzo Altare (Zucchi di Cardeto). Superato il Pizzo Altare, saliamo alla Foce di Cardeto (1642 m) e seguiamo il CAI 178-179. Dalla Foce di Cardeto, seguiamo i segnavia bianco-rossi, incontriamo un bivio e teniamo il CAI 178 a destra. Passiamo una conca verde con grandi massi, poi una faggeta, e infine arriviamo al campeggio e al parcheggio.',
-  '<h2>Pisanino dalla Bagola Bianca: Trekking e Escursioni in Montagna</h2>
+  '<h2 id="escursione-pisanino-dalla-bagola-bianca">Escursione al Pisanino dalla Bagola Bianca</h2>
 
-<h3>Il Percorso</h3>
-<p>
-La <strong>trekking</strong> e <strong>escursione</strong> sul sentiero Pisanino dalla Bagola Bianca è un''avventura impegnativa, ideale per appassionati di <strong>trekking</strong> che cercano sfide nella <strong>montagna</strong>. Il percorso inizia dalla Val Serenaia (1050 m), un punto di partenza strategico per questo affascinante <strong>sentiero</strong>.  Partire dal rifugio, seguire la traccia sulla destra, e prepararsi a un''esperienza immersa nella natura selvaggia della Val d''Ampugnano, in Lombardia. La <strong>sentiero</strong> si snoda attraverso paleo, roccette e creste esposte, offrendo panorami mozzafiato. 
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Cosa Aspettarsi</h3>
-<p>
-Questo <strong>sentiero</strong> presenta una notevole difficoltà sia fisica che mentale, adatta a escursionisti esperti.  Ci si aspetta una salita ripida e impegnativa, con tratti di scalata, passaggi esposti e alcuni tratti di traverso che richiedono attenzione e prudenza. L''ambiente è selvaggio e incontaminato, con un''alta esposizione al sole, soprattutto in estate. La distanza totale del <strong>sentiero</strong> è di circa 18 km con un dislivello di 1000 metri.  La <strong>escursione</strong> richiede un''adeguata preparazione fisica e un''attenta valutazione dei propri limiti. 
-</p>
+<p>Il punto di partenza per questa impegnativa escursione è la Val Serenaia, a 1050 metri di altitudine. Raggiungibile in auto o tramite sentieri escursionistici, è il punto di accesso al sentiero che ci porterà alla cima della Bagola Bianca.</p>
 
-<ul>
-  <li>Difficoltà: Difficile</li>
-  <li>Distanza: Circa 18 km</li>
-  <li>Dislivello: 1000 metri</li>
-  <li>Durata: Circa 8-10 ore</li>
-  <li>Esposizione: Elevata, soprattutto in estate</li>
-</ul>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
 
-<h3>Informazioni Utili</h3>
-<p>
-Il <strong>sentiero</strong> Pisanino dalla Bagola Bianca offre un''esperienza unica nel cuore della Lombardia.  Si parte dalla Val Serenaia, passando per il rifugio e la Bagola Bianca (1807 m), una vetta con panorami spettacolari.  Durante il percorso, si attraversano creste esposte, paleo, roccette e ci si arrampica lungo la parete rocciosa del Naso.  L''ultimo tratto del <strong>sentiero</strong> conduce al campeggio e al parcheggio di Gorfigliano.  L''itinerario presenta diversi punti di interesse naturalistico e paesaggistico, ideale per gli amanti del <strong>trekking</strong> e della <strong>natura</strong>. Ricordate sempre di indossare abbigliamento e calzature adatte, di portare con voi acqua e cibo, e di rispettare l''ambiente. Questo <strong>sentiero</strong> è un vero gioiello per gli appassionati di <strong>escursionismo</strong> in Italia. 
-</p>',
+<p>Partiamo dal rifugio nella Val Serenaia e seguendo una traccia sulla destra, proseguiamo lungo il rio Serenaia. La traccia sale ripidamente sul pendio di paleo, obliquando a sinistra fino alla costola ovest della Bagola Bianca. Da qui, la salita diventa più impegnativa, con tratti di scalata di I e II livello e un traverso che richiede particolare attenzione. Proseguiamo sulla cresta NO verso il Pisanino, superando passi esposti e salite ripide su paleo. Il percorso termina al campeggio e al parcheggio, raggiungibili seguendo i segnavia.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>Questa escursione è classificata come <b>Molto difficile</b>. Richiede una buona preparazione fisica e un''esperienza significativa in montagna. Il dislivello è di <b>+1043 metri</b> e la distanza totale è di circa <b>7.91 km</b> (gira anello).  È fondamentale prestare massima attenzione, soprattutto nei tratti esposti e durante le salite ripide.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>La traccia GPS completa di questa escursione è disponibile online.  </p>
+
+<ul id="informazioni-utili">
+  <li><b>Distanza:</b> Circa 7.91 km (anello)</li>
+  <li><b>Dislivello:</b> Circa 1043 metri</li>
+  <li><b>Difficoltà:</b> Molto difficile</li>
+  <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+  <li><b>Punto di partenza:</b> Val Serenaia (1050 m), accessibile in auto/a piedi</li>
+  <li><b>Comune:</b> Vinca, Toscana, Italia</li>
+  <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.91,
   1043,

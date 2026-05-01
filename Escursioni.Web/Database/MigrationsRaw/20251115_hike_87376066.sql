@@ -7,34 +7,35 @@ VALUES (
   87376066,
   'Pavone e Masso delle fanciulle',
   'Il sentiero è molto selvaggio anche se a tratti si passa in mezzo a vigneti. Si vedono paesaggi tipici toscani e molto belli ma lo sconsiglio in piena estate, meglio autunno o primavera. Il fiume è meraviglioso e l''acqua sempre fresca è un piacere fare il bagno, vi erano numerose trote, lungo il sentiero abbiamo vito anche delle volpi e fagiani, un percorso tutto naturalistico',
-  '<h2>Trekking Pavone e Masso delle Fanciulle: Escursione nella Toscana Selvaggia</h2>
+  '<h2 id="escursione-pavone-e-masso-delle-fanciulle">Escursione al Pavone e al Masso delle Fanciulle</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<p>Preparatevi per un''escursione indimenticabile lungo il <strong>sentiero Pavone e Masso delle Fanciulle</strong>, un''esperienza di <strong>trekking</strong> che vi condurrà nel cuore della splendida Toscana. Questo <strong>sentiero escursionistico</strong> offre panorami mozzafiato e un''immersione completa nella <strong>natura incontaminata</strong>. Il percorso, di difficoltà media, si snoda attraverso paesaggi tipici toscani, con tratti selvaggi e affascinanti passaggi tra vigneti, offrendo un''esperienza autentica di <strong>trekking in montagna</strong>.</p>
+Arrivati a Casa Montacuto, il punto di partenza dell''escursione al Pavone e al Masso delle Fanciulle è facilmente individuabile. Da qui, segui il sentiero che si inoltra nel bosco, tenendo conto che il percorso è piuttosto selvaggio e a tratti passa attraverso vigneti.  È consigliabile arrivare in auto, parcheggiando nei pressi del comune.
 
-<p>L''escursione inizia da [inserire punto di partenza] e segue il corso del fiume, godendo di viste spettacolari sulle colline circostanti. Attraverserete zone di bosco e si apriranno ampie radure, perfette per ammirare la flora e la fauna locale. Il <strong>sentiero di trekking</strong> è ben segnalato e offre panorami unici, rendendo questa escursione un vero e proprio viaggio alla scoperta della <strong>natura italiana</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<h3>Cosa Aspettarsi</h3>
+Questo trekking di circa 14 km, con un dislivello di 443 metri, è un anello che ti condurrà attraverso un paesaggio toscano autentico. Inizierai dall''inizio del sentiero a Casa Montacuto e seguirai il sentiero verso l''alto, passando per vigneti e zone boschive.  La salita è moderata, con alcuni tratti più impegnativi, ma la ricompensa sarà un panorama mozzafiato. Durante l''escursione potrai ammirare i paesaggi tipici della Toscana, il corso del fiume che offre la possibilità di fare il bagno nelle sue acque fresche, e la fauna locale, tra cui volpi e fagiani.  Il sentiero presenta alcuni tratti esposti con una lieve pendenza.
 
-<p>Potrete ammirare i paesaggi tipici toscani, caratterizzati da dolci colline, vigneti e oliveti. Il <strong>sentiero</strong> offre la possibilità di avvistare la fauna locale, tra cui <strong>volpi</strong> e <strong>fagiani</strong>. Il fiume è un elemento centrale del percorso, con la possibilità di godere dell''acqua fresca e, in alcuni punti, di fare il bagno. L''escursione è particolarmente consigliata in <strong>autunno</strong> o <strong>primavera</strong>, quando le temperature sono più miti e la natura è al culmine del suo splendore.  Godetevi un''autentica esperienza di <strong>trekking in Toscana</strong>.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
 
-<p>In piena estate, il <strong>sentiero</strong> può diventare molto caldo e impegnativo, pertanto è consigliabile optare per periodi più freschi per un''escursione più piacevole.  Questo <strong>sentiero escursionistico</strong> è ideale per gli amanti del <strong>trekking</strong> e dell''escursionismo, offrendo un''esperienza immersiva nella <strong>natura selvaggia</strong> italiana.</p>
+Questa escursione è classificata come di difficoltà Medio. Richiede una buona preparazione fisica, soprattutto per il dislivello di 443 metri. È consigliabile indossare scarpe da trekking adatte e portare con sé acqua, snack e abbigliamento adeguato.  Considera che il sentiero è selvaggio e non è dotato di infrastrutture.  Lo sconsiglio in piena estate a causa del forte sole.  L''autunno o la primavera sono i periodi ideali per godere appieno di questo percorso.
 
-<h3>Informazioni Utili</h3>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>Al momento non è disponibile una traccia GPS per questa escursione. Ti consiglio di scaricare una mappa dettagliata della zona e di utilizzare un''app di navigazione per smartphone durante il trekking.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 
 <ul>
-    <li><strong>Distanza:</strong> Circa [Inserire Distanza] Km</li>
-    <li><strong>Dislivello:</strong> [Inserire Dislivello] metri</li>
-    <li><strong>Difficoltà:</strong> Media</li>
-    <li><strong>Periodo Consigliato:</strong> Autunno o Primavera</li>
-    <li><strong>Punto di partenza:</strong> [Inserire Punto di partenza]</li>
-    <li><strong>Tipo di sentiero:</strong> Sentiero naturalistico</li>
-    <li><strong>Paesaggi:</strong>  Vigneti, boschi, fiume, colline toscane</li>
-    <li><strong>Fauna:</strong> Volpi, fagiani, trote</li>
-</ul>
-
-<p>Questo <strong>sentiero</strong> rappresenta una fantastica opportunità per un''escursione di <strong>trekking</strong> nella splendida Toscana. Non perdete l''occasione di esplorare questo angolo di <strong>natura italiana</strong>!</p>',
+  <li><b>Distanza:</b> Circa 14.04 km (anello)</li>
+  <li><b>Dislivello:</b> Circa 443 metri</li>
+  <li><b>Difficoltà:</b> Medio</li>
+  <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+  <li><b>Punto di partenza:</b> Casa Montacuto, accessibile in auto</li>
+  <li><b>Comune:</b> Casa Montacuto, Toscana, Italia</li>
+  <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   14.04,
   443,

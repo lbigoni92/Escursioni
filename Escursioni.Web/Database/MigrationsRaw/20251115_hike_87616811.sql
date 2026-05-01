@@ -7,28 +7,30 @@ VALUES (
   87616811,
   'Buca dei banditi - Percorso Breve',
   'Sentiero semplice e percorribile anche con scarpe da tennis in un paio di punti vi sono numerosi arbusti e rovi, si deve prestare attenzione. non ci sono punti difficili, l''unico punto dove prestare attenzione è al km 2.6 c''è un terrapieno d''appena un metro, ma vi potete aiutare con una corda messa li dal cai. Il percorso è ben evidenziato anche con delle stelle rosse che portano alla grotta. Sulla grotta è possibile individuare una targetta per indicare la storicità del posto',
-  '<h2>Buca dei Banditi - Percorso Breve: Trekking e Escursioni nella Montagna Umbra</h2>
+  '<h2 id="buca-dei-banditi-percorso-breve">Escursione alla Buca dei Banditi - Percorso Breve</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Per raggiungere il punto di partenza dell''escursione alla Buca dei Banditi, da Castellaccio ti dirizzerai lungo il sentiero.  È facilmente raggiungibile in auto, seguendo le indicazioni per il comune di Castellaccio. Dalla strada, il punto di partenza è raggiungibile a piedi, segnalato da pannelli indicativi.  È consigliabile arrivare con un po'' di anticipo per avere il tempo di orientarsi e prepararsi.</p>
 
-<p>Questo <em>percorso breve</em> alla <strong>Buca dei Banditi</strong> è un''ottima scelta per un''<em>escursione</em> a piedi nella splendida <strong>Montagna Umbra</strong>. Ideale per chi cerca una <em>trekking</em> facile e accessibile, il sentiero si snoda attraverso un paesaggio di <strong>natura</strong> incontaminata, ricco di boschi e panorami mozzafiato.  È possibile raggiungere la grotta, l''origine del suo nome, con un''<em>escursione</em> di circa 3-4 chilometri, un''esperienza suggestiva per gli amanti del <em>trekking</em> e dell''<em>escursionismo</em> in Italia.</p>
+<h3 id="il-percorso-passo-passo">Il percorso passo per passo</h3>
+<p>Questo percorso breve alla Buca dei Banditi è perfetto per una giornata all''aria aperta! Inizierai da un punto di partenza facilmente individuabile e seguirai il sentiero ben segnalato. Il sentiero si snoda dolcemente attraverso la campagna toscana, offrendo splendidi panorami.  Il percorso è caratterizzato da alcuni tratti con arbusti e rovi, quindi è consigliabile prestare attenzione, soprattutto al km 2.6 dove è presente un terrapieno facilitato da una corda gentilmente predisposta dal CAI, per una maggiore sicurezza. L''escursione termina alla grotta della Buca dei Banditi, dove potrai ammirare la targetta che ne evidenzia l''importanza storica. Un''escursione semplice e piacevole adatta a tutti!</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è classificata come <strong>Facile</strong>, rendendola adatta anche a chi non ha molta esperienza di trekking.  Il dislivello è di soli <strong>+135 metri</strong>, quindi il percorso è ben allenante ma non particolarmente impegnativo.  La distanza totale dell''anello è di circa <strong>7.92 km</strong>.  Ci sono alcuni tratti con vegetazione fitta, quindi è importante indossare scarpe da trekking adeguate e fare attenzione al terreno. Goditi il panorama e la tranquillità della campagna toscana!</p>
 
-<p>Il <strong>sentiero</strong> alla <strong>Buca dei Banditi</strong> è caratterizzato da un dislivello contenuto, rendendolo adatto anche a chi pratica <em>trekking</em> con scarpe da tennis in alcuni tratti.  Tuttavia, è importante prestare attenzione, in quanto il percorso attraversa zone con arbusti e rovi. La segnaletica è ben presente, con particolare evidenza delle <em>stelle rosse</em> che guidano i <em>trekking</em> verso la <strong>grotta</strong>. L’<em>escursione</em> offre la possibilità di ammirare la <strong>natura</strong> circostante e di immergersi nella storia del luogo, legato alla leggenda dei <em>banditi</em>.</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per orientarti durante l''escursione, ti consiglio di scaricare una traccia GPS per il tuo smartphone o dispositivo GPS.  Puoi trovare la traccia GPS di questa escursione tramite app dedicate o siti web specializzati.  Inoltre, tieni sempre con te una mappa della zona e una bussola.  </p>
 
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
+  <li><strong>Distanza:</strong> Circa 7.92 km</li>
+  <li><strong>Dislivello:</strong> Circa 135 metri</li>
   <li><strong>Difficoltà:</strong> Facile</li>
-  <li><strong>Distanza:</strong> Circa 3-4 chilometri</li>
-  <li><strong>Dislivello:</strong> Minimo (quasi piatto)</li>
-  <li><strong>Tempi di percorrenza:</strong> 1.5 - 2.5 ore (a seconda del ritmo)</li>
-  <li><strong>Punti di Interesse:</strong> <strong>Buca dei Banditi</strong> (grotta storica), <em>Targetta</em> per la storicità del luogo,  panorami sulla <strong>Montagna Umbra</strong></li>
-  <li><strong>Attenzione:</strong> Il percorso può essere irregolare e presenta alcune zone con arbusti e rovi; è consigliabile prestare attenzione e, in caso di necessità, utilizzare una corda fornita dal CAI al km 2.6.</li>
-</ul>
-
-<p>Questa <em>escursione</em> alla <strong>Buca dei Banditi</strong> è un''opportunità per vivere un''esperienza autentica di <em>trekking</em> nella <strong>natura</strong> italiana, un''<em>escursione</em> memorabile per gli appassionati di <em>sentieri</em> e <em>escursioni</em>.</p>',
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Castellaccio, raggiungibile in auto o a piedi</li>
+  <li><strong>Comune:</strong> Castellaccio, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.92,
   135,

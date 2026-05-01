@@ -7,27 +7,40 @@ VALUES (
   204197595,
   'Ciaspolata ~ Passo della Calanca, Lago Scaffaiolo e Monte Spigolino da Doganaccia',
   'Percorso ad anello da Doganaccia con tappe suggestive lungo il tragitto: Chiesetta della Doganaccia (0,2 km) Passo della Calanca (2,9 km) Lago Scaffaiolo (4,2 km) Lago d''Acqua Marcia (4,8 km) Monte Spigolino (6,0 km) L’escursione è generalmente facile, ma in alcuni tratti abbiamo dovuto deviare dal sentiero a causa delle condizioni della neve. Con le ciaspole, alcune zone normalmente percorribili risultavano impraticabili, mentre altre diventavano più accessibili. Non ci sono salite particolarmente impegnative, ad eccezione della salita verso lo Spigolino, che con un po'' di calma si affronta senza problemi. In estate, il percorso risulta ancora più agevole. Sentieri seguiti: 66 e Sentiero Italia all''andata 286 al ritorno Si tratta di sentieri semplici ed escursionistici, ma è bene fare attenzione perché in un paio di punti attraversano delle piste da sci. Abbiamo pranzato al Rifugio Duca degli Abruzzi, dove ci siamo trovati benissimo: cibo buono, prezzi contenuti e un’accoglienza calorosa. La neve variava molto lungo il percorso: in alcuni punti raggiungeva i 2-3 metri, mentre in altri era sorprendentemente scarsa. Il Lago Scaffaiolo, invece, era completamente sommerso dalla neve, risultando praticamente invisibile.',
-  '<h2>Ciaspolata ~ Passo della Calanca, Lago Scaffaiolo e Monte Spigolino da Doganaccia</h2>
+  '<h2 id="ciaspolata-passo-della-calanca-lago-scaffaiolo-monte-spigolino-da-doganaccia">Ciaspolata ~ Passo della Calanca, Lago Scaffaiolo e Monte Spigolino da Doganaccia</h2>
 
-<h3>Il percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa fantastica ciaspolata è a <strong>Doganaccia</strong>, in provincia di <strong>Toscana</strong>. Raggiungere Doganaccia è abbastanza semplice: si può arrivare in auto tramite strade secondarie che partono da diverse direzioni. In alternativa, è possibile raggiungere il paese anche a piedi, seguendo sentieri che partono da paesi limitrofi. Ricorda di informarti sulle condizioni stradali prima di partire, soprattutto in inverno.</p>
 
-<p>Preparati per un’indimenticabile <strong>ciaspolata</strong> in <strong>montagna</strong> attraverso paesaggi mozzafiato! Questo <strong>sentiero escursionistico</strong> ad anello, partendo da <strong>Doganaccia</strong>, ti condurrà attraverso la splendida Valle della Calanca, con tappe suggestive come la <strong>Chiesetta della Doganaccia</strong>, il suggestivo <strong>Passo della Calanca</strong> e il pittoresco <strong>Lago Scaffaiolo</strong>. L''escursione culmina con la vista sul <strong>Monte Spigolino</strong>, un''esperienza di <strong>trekking</strong> da non perdere. Questo percorso di <strong>escursione a piedi</strong> è perfetto per appassionati di <strong>natura</strong> e <strong>montagna</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo itinerario ad anello di circa <strong>9,46 km</strong> con un dislivello di <strong>+409 m</strong>, è pensato per gli escursionisti che amano le ciaspole e la montagna. Il percorso inizia da <strong>Doganaccia</strong> e si snoda attraverso panorami mozzafiato, passando per la <strong>Chiesetta della Doganaccia</strong>, il <strong>Passo della Calanca</strong>, il suggestivo <strong>Lago Scaffaiolo</strong>, il <strong>Lago d''Acqua Marcia</strong> e culmina con la salita al <strong>Monte Spigolino</strong>. </p>
+<p>Il percorso è principalmente lungo sentieri escursionistici, con alcuni tratti in prossimità di piste da sci. In alcuni punti, a causa delle condizioni della neve, è stato necessario deviare dal sentiero. La salita verso lo Spigolino, anche se richiede un po'' di impegno, si affronta senza problemi con calma e pazienza. Il sentiero principale è il 66 e il Sentiero Italia all''andata e il 286 al ritorno.</p>
 
-<h3>Cosa aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>La difficoltà di questa escursione è definita <strong>Media</strong>. Non ci sono salite particolarmente impegnative, tranne la salita finale verso il <strong>Monte Spigolino</strong>, che con un po'' di calma e prudenza può essere affrontata senza problemi. Con le ciaspole, alcune zone normalmente percorribili risultavano impraticabili a causa della neve, mentre altre divennero più accessibili.  È importante indossare scarpe da trekking adatte e portare con sé l''equipaggiamento necessario per affrontare un''escursione in montagna.</p>
 
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per aiutarti nella tua escursione, ti forniamo la traccia GPS e alcune informazioni utili:</p>
 <ul>
-  <li>Un <strong>sentiero</strong> ben segnalato, ideale per <strong>trekking</strong> con <strong>ciaspole</strong>.</li>
-  <li>Una <strong>difficoltà</strong> generalmente facile, con brevi tratti impegnativi, soprattutto verso il <strong>Monte Spigolino</strong>.</li>
-  <li>Possibilità di imbatterti in neve variabile, a seconda del periodo dell''anno e dell''altitudine, con aree che possono richiedere deviazioni a causa delle condizioni meteorologiche.</li>
-  <li>Un''escursione di circa 6 chilometri con un dislivello di circa 600 metri, perfetta per una giornata di <strong>escursione</strong> in <strong>Italia</strong>.</li>
-  <li>La possibilità di ammirare panorami spettacolari su laghi, valli e cime rocciose.</li>
+    <li><strong>Distanza:</strong> Circa 9,46 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 409 m</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Doganaccia (accessibile in auto/a piedi)</li>
+    <li><strong>Comune:</strong> Doganaccia, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni utili</h3>
-
-<p>Questo <strong>sentiero</strong> fa parte di una rete di <strong>sentieri</strong> ben consolidata. Il percorso segue principalmente i <strong>Sentieri Italia</strong> 66 e 286, offrendo un''esperienza di <strong>trekking</strong> sicura e ben documentata. L''escursione è particolarmente adatta per chi cerca un''<strong>escursione a piedi</strong> di medio livello, con la possibilità di godersi la bellezza della <strong>montagna</strong> e della <strong>natura</strong>. Ricorda di controllare le previsioni meteo prima di partire e di indossare abbigliamento adeguato per le <strong>ciaspole</strong>. Il punto di ristoro è il <strong>Rifugio Duca degli Abruzzi</strong>, dove potrai rifocillarti e ammirare il panorama.</p>
-
-<p>In estate il percorso risulta più agevole, ma in inverno è consigliabile prepararsi al meglio per le condizioni di neve, che possono rendere l''escursione più impegnativa. La presenza di piste da sci in alcuni tratti richiede attenzione e prudenza. Approfitta di questa magnifica <strong>ciaspolata</strong> per vivere un''esperienza unica di <strong>trekking</strong> in <strong>Valle della Calanca</strong>, un vero gioiello del paesaggio italiano.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="distanza">Distanza:</strong> Circa 9,46 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 409 m</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Media</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Doganaccia (accessibile in auto / a piedi)</li>
+    <li><strong id="comune">Comune:</strong> Doganaccia, Toscana</li>
+    <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   9.46,
   409,

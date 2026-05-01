@@ -7,26 +7,30 @@ VALUES (
   180664065,
   'Passo del Saltello, Monte Romecchio e Rifugio Burigone da San Pellegrino in Alpe',
   'Percorso ad anello da San Pellegrino in Alpe passando per: - Alpe del pellegrino (2.7 km) - Monte Spicchio (6.1 km) - Passo del Saltello (9.4 km) - Monte Romecchio (11.9 km) - Rifugio Burigone (17.9 km) - Fonte del Santo (20.2 km) Il percorso non attraversa punti esposti, ho fatto ad Agosto è prevalentemente sotto il sole e ho bevuto 3 litri dei 4 che mi ero portato. Come punto di sosta potete fermarvi al rifugio Burigone. Tutto il tratto di cresta appenninica c''ha regalato un bel fresco dovuto a un bel venticello. i tratti boschivi invece ci regalavano lamponi e acque fresche è un bellissimo e facile trek',
-  '<h2>Passo del Saltello, Monte Romecchio e Rifugio Burigone da San Pellegrino in Alpe – Trekking in Montagna</h2>
+  '<h2 id="escursione-passo-del-saltello-monte-romecchio-rifugio-burigone-da-san-pellegrino-in-alpe">Escursione al Passo del Saltello, Monte Romecchio e Rifugio Burigone da San Pellegrino in Alpe</h2>
 
-<h3>Il Percorso: Escursione ad Anello nell''Appennino Tosco-Emiliano</h3>
-<p>Questo fantastico trekking ad anello parte da <strong>San Pellegrino in Alpe</strong> e vi condurrà attraverso panorami mozzafiato della <strong>Montagna Romana</strong>. L''escursione, adatta anche a escursionisti meno esperti, offre un''esperienza unica di <strong>trekking</strong> e <strong>escursionismo</strong> in un ambiente naturale incontaminato. Il percorso, di circa 20,2 km, si snoda attraverso il <strong>Passo del Saltello</strong>, il <strong>Monte Romecchio</strong>, il <strong>Rifugio Burigone</strong> e la <strong>Fonte del Santo</strong>, offrendo diverse opportunità di ammirare la bellezza della natura toscana e emiliana.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa fantastica escursione è <strong>San Pellegrino in Alpe</strong>, facilmente raggiungibile in auto dalla provincia di <strong>Emilia-Romagna</strong>. Una volta parcheggiato l''auto, si inizia il trekking direttamente dall''Alpe del Pellegrino, il punto di partenza ufficiale del sentiero.</p>
 
-<h3>Cosa Aspettarsi: Un Trekking Facile e Rinfrescante</h3>
-<p>Questo <strong>sentiero</strong> di trekking è un''ottima scelta per chi cerca un''<strong>escursione</strong> facile e piacevole. Il percorso presenta tratti prevalentemente pianeggianti e alcuni brevi saliscendi, il tutto su un terreno sicuro e ben tenuto.  In particolare, durante l''escursione, si noteranno ampi spazi esposti con una vista panoramica sulla catena montuosa.  Il tratto di cresta appenninica offre un piacevole fresco, soprattutto durante i mesi estivi, grazie al passaggio di un piacevole venticello.  Inoltre, la presenza di tratti boschivi permette di raccogliere lamponi freschi e di godere dell''acqua limpida di sorgenti naturali.  Ricorda di portare con te circa 3-4 litri d''acqua, soprattutto durante i mesi più caldi.  </p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo itinerario ad anello di circa 21 km, con un dislivello di 838 metri, vi condurrà attraverso paesaggi mozzafiato. Iniziate dall''<strong>Alpe del Pellegrino</strong> (2.7 km), poi proseguite verso il <strong>Monte Spicchio</strong> (6.1 km), superando il <strong>Passo del Saltello</strong> (9.4 km) e conquistando lo <strong>Monte Romecchio</strong> (11.9 km). Da qui, proseguite fino al <strong>Rifugio Burigone</strong> (17.9 km) dove potrete fare una sosta rinfrescante, e infine raggiungete la <strong>Fonte del Santo</strong> (20.2 km) completando l''anello. Il sentiero è prevalentemente sotto il sole, soprattutto ad agosto, quindi preparatevi con l''acqua!</p>
 
-<h3>Informazioni Utili: Dettagli del Trekking</h3>
-<ul>
-    <li><b>Difficoltà:</b> Facile - Media</li>
-    <li><b>Distanza:</b> Circa 20,2 km</li>
-    <li><b>Dislivello:</b> Circa 800 metri</li>
-    <li><b>Tempi Previsti:</b> 6-8 ore (a seconda del passo)</li>
-    <li><b>Periodo Consigliato:</b> Da maggio a ottobre</li>
-    <li><b>Punti di Interesse:</b> <strong>Rifugio Burigone</strong>, <strong>Fonte del Santo</strong>, panorami mozzafiato, flora e fauna appenninica</li>
-    <li><b>Consigli:</b> Indossare scarpe da trekking adatte, portare con sé acqua, cibo, cappello e crema solare.</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questo trekking è di difficoltà <strong>Media</strong>, adatto a escursionisti con un minimo di esperienza. Il percorso è ben segnalato, ma richiede comunque una buona preparazione fisica. Il dislivello è impegnativo, ma ampiamente compensato dalla bellezza del panorama e dalla possibilità di fare delle pause rinfrescanti al <strong>Rifugio Burigone</strong>. Il sentiero non presenta punti esposti, quindi è sicuro anche per famiglie con bambini esperti.</p>
 
-<p>Questo <strong>sentiero escursionistico</strong> rappresenta un''opportunità imperdibile per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>, offrendo un''esperienza indimenticabile nella splendida <strong>Montagna Romana</strong>. Preparati per un''escursione ricca di natura, panorami e momenti di relax.</p>',
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Questo percorso di escursione offre panorami spettacolari e un''esperienza gratificante. È consigliabile portare con sé acqua, snack e scarpe da trekking adatte.  Potete scaricare la <strong id="traccia-gps">traccia GPS</strong> per seguirla durante l''escursione.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="distanza">Distanza:</strong> Circa 21.17 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 838 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Media</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Alpe del Pellegrino (accessibile in auto)</li>
+    <li><strong id="comune">Comune:</strong> San Pellegrino in Alpe, Emilia-Romagna</li>
+    <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   21.17,
   838,

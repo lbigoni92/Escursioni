@@ -7,24 +7,38 @@ VALUES (
   241205825,
   'Madonna delle Serre e Pieve di San verano da Peccioli',
   'Abbiamo parcheggiato l’auto presso il cimitero di Peccioli e iniziato una camminata turistica molto piacevole. Il percorso è ampio e ben mantenuto, transitabile anche da auto, quindi adatto anche per una passeggiata rilassata senza difficoltà tecniche. La prima tappa è stata verso l’anfiteatro di Fonte Mazzola; da lì abbiamo proseguito lungo la via delle Serre, con soste e foto all’ombra dei boschetti e nelle aree attrezzate che il territorio offre. Il tempo di cammino fino alla Chiesa della Madonna delle Serre e all’omonima fattoria è stato di circa un’ora e mezza, in un’ambiente davvero piacevole. Da lì siamo proseguiti ancora, verso gli stadi archeologici del Bosco di Ortaglia e poi alla chiesina delle Serre. Dopo la visita abbiamo fatto ritorno al centro di Peccioli: il borgo merita una sosta, con un bel balcone panoramico e un ponte panoramico dove godersi la vista, una merenda all’aperto e poi il rientro all’auto. In sintesi: un’escursione facile, perfetta per trascorrere qualche ora all’aria aperta immersi nella natura toscana, senza stress e con ottime opportunità fotografiche. Scarpe comode: non serve l’abbigliamento da trekking impegnato, ma comunque abiti adatti a strada sterrata. Consigli utili: - Prendere acqua e magari uno snack per le soste lungo il cammino. - Soste fotografiche: tante belle visuali verso la campagna Toscana e il bosco. - Se volete, potete estendere la passeggiata fino ai resti archeologici del Bosco di Ortaglia per dare un tocco storico all’escursione. Tempo stimato: circa 2-3 ore, a passo tranquillo includendo soste.',
-  '<h2>Madonna delle Serre e Pieve di San verano da Peccioli: Trekking in Toscana</h2>
+  '<h2 id="madonna-delle-serre-e-pieve-di-san-verano-da-peccioli">Escursione alla Madonna delle Serre e Pieve di San Verano da Peccioli</h2>
 
-<h3>Il percorso</h3>
-<p>Partirete dal cimitero di <strong>Peccioli</strong> per intraprendere un''entusiasmante <strong>escursione in montagna</strong> e <strong>trekking</strong> attraverso il cuore della <strong>Toscana</strong>. Questo sentiero, ideale per famiglie e appassionati di <strong>natura</strong>, offre un''esperienza unica di <strong>sentiero</strong> e scoperta. Il percorso è ampio e ben mantenuto, facile da transitare, adatto anche per una piacevole <strong>passeggiata in natura</strong> senza particolari difficoltà tecniche. La camminata conduce fino alla <strong>Chiesa della Madonna delle Serre</strong>, passando per l''<strong>anfiteatro di Fonte Mazzola</strong> e lungo la suggestiva <strong>via delle Serre</strong>, ammirando i boschetti e le aree attrezzate del territorio.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa bella escursione è il cimitero di Peccioli. È facilmente raggiungibile in auto e rappresenta un ottimo punto di accesso al sentiero.</p>
 
-<h3>Cosa aspettarsi</h3>
-<p>Preparatevi a un''<strong>escursione</strong> rilassante e panoramica, perfetta per chi cerca una giornata all''aria aperta in mezzo alla <strong>natura toscana</strong>. Il sentiero vi condurrà attraverso paesaggi mozzafiato, con viste spettacolari sulla campagna circostante e sul <strong>bosco</strong>. Potrete godere di numerose soste fotografiche per immortalare la bellezza del paesaggio e delle zone archeologiche. Questa <strong>escursione</strong> è ideale per un''uscita di un giorno con amici e famiglia, offrendo un''esperienza autentica e indimenticabile.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Partendo dal cimitero di Peccioli, il sentiero si snoda attraverso la via delle Serre, offrendo panorami mozzafiato sulla campagna toscana. La prima tappa conduce verso l''anfiteatro di Fonte Mazzola, proseguendo poi verso la Chiesa della Madonna delle Serre e l''omonima fattoria. Il percorso continua fino agli stadi archeologici del Bosco di Ortaglia e alla chiesina delle Serre. Il sentiero è ampio e ben mantenuto, adatto anche a passeggiate rilassanti e a famiglie con bambini. La discesa rientra a Peccioli, offrendo la possibilità di ammirare il borgo e godersi una meritata sosta.</p>
 
-<h3>Informazioni utili</h3>
-<ul>
-    <li><strong>Distanza:</strong> Circa 6 km</li>
-    <li><strong>Dislivello:</strong> Circa 250 metri</li>
-    <li><strong>Difficoltà:</strong> Facile - Adatta a tutti</li>
-    <li><strong>Tempo stimato:</strong> 2-3 ore (a passo tranquillo)</li>
-    <li><strong>Punti di interesse:</strong> Anfiteatro di Fonte Mazzola, Via delle Serre, Chiesa della Madonna delle Serre, Omonima Fattoria, Stadi Archeologici del Bosco di Ortaglia, Chiesina delle Serre, Borgo di Peccioli (con balcone panoramico e ponte panoramico)</li>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà media. Il sentiero è ben tracciato e il dislivello di 236 metri non rappresenta un problema per escursionisti abituali. Il percorso è adatto anche a chi non ha esperienza di trekking, offrendo un''ottima opportunità per scoprire la Toscana.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class="lista-informazioni">
+    <li><b>Distanza:</b> Circa 10.74 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 236 metri</li>
+    <li><b>Difficoltà:</b> Medio</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Cimitero di Peccioli, Peccioli, Toscana</li>
+    <li><b>Comune:</b> Peccioli, Toscana</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
 </ul>
 
-<p>Ricordatevi di portare con voi acqua, uno snack e scarpe comode, adatte a strade sterrate. Un abbigliamento leggero e traspirante è consigliabile per affrontare l''<strong>trekking</strong> in modo confortevole.  L''<strong>escursione</strong> alla <strong>Madonna delle Serre</strong> è un''ottima opportunità per ammirare la <strong>Toscana</strong> da una prospettiva diversa e respirare l''aria fresca della <strong>montagna</strong>.  Questa <strong>escursione in sentiero</strong> è perfetta per chi cerca un''attività all''aria aperta, facile e divertente, per tutta la famiglia.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul class="lista-informazioni">
+    <li><strong id="dati-1">Distanza:</strong> Circa 10.74 km (anello)</li>
+    <li><strong id="dati-2">Dislivello:</strong> Circa 236 metri</li>
+    <li><strong id="dati-3">Difficoltà:</strong> Medio</li>
+    <li><strong id="dati-4">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="dati-5">Punto di partenza:</strong> Cimitero di Peccioli, accessibile in auto</li>
+    <li><strong id="dati-6">Comune:</strong> Peccioli, Toscana</li>
+    <li><strong id="dati-7">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.74,
   236,

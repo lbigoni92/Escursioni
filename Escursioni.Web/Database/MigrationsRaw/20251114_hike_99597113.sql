@@ -7,28 +7,35 @@ VALUES (
   99597113,
   'Calambrone - Passeggiata nel verde - Picnic',
   'Con la mia ragazza abbiamo fatto una camminata molto molto tranquilla, nel luogo dove abbiamo parcheggiato (inizio percorso) c''è tanto parcheggio e inoltre la zona è adatta fare picnic, non vi sono dislivelli è TUTTO in piano, sentieri larghi e ben tenuti. Abbiamo trovato persone a cavallo (c''è un maneggio vicino) e qualche anatra, in passato ho visto daini e volpi. Il luogo è tranquillo e adatto a passeggiate tranquille, non vi sono fontanelle. Nelle vicinanze vi sono: - il centro sportivo del CONI - Un campeggio ben attrezzato - Il mare ad appena 15 min a piedi.',
-  '<h2>Calambrone - Passeggiata nel Verde - Picnic Trekking</h2>
+  '<h2 id="escursione-calambrone-passeggiata-nel-verde-picnic">Escursione al Calambrone: Passeggiata nel Verde e Picnic</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<p>La <strong>Passeggiata nel Verde a Calambrone</strong> è un''escursione ideale per famiglie e per chi cerca una <strong>passeggiata tranquilla in montagna</strong>. Questo <strong>sentiero di trekking</strong> è caratterizzato da un percorso completamente pianeggiante, con <strong>sentieri larghi e ben tenuti</strong>, perfetto per una <strong>passeggiata nel verde</strong>.  La <strong>Passeggiata nel Verde</strong> offre un''esperienza di <strong>trekking</strong> rilassante e adatta a tutti i livelli, senza dislivelli significativi, rendendola una delle migliori <strong>escursioni in Italia</strong> per chi desidera godersi la natura e un <strong>picnic</strong>.</p>
+<p>Il punto di partenza per questa tranquilla escursione è l''Azienda Agricola Tirrenia, nel cuore della campagna toscana. È facilmente raggiungibile in auto e c''è ampio parcheggio disponibile all''inizio del sentiero. Da qui, inizia un''escursione davvero rilassante, perfetta per una giornata all''aria aperta con la tua ragazza o con tutta la famiglia.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<p>Durante la <strong>Passeggiata nel Verde</strong>, potrete immergervi in un ambiente naturale incontaminato, ricco di biodiversità.  Avrete la possibilità di ammirare la flora e la fauna locali, con la possibilità di avvistare cavalli provenienti dal vicino maneggio, anatre e, se siete fortunati, anche daini e volpi. Questa <strong>escursione di trekking</strong> è perfetta per chi cerca un''esperienza immersiva nella <strong>natura italiana</strong> e un <strong>picnic</strong> all''aria aperta.  La <strong>Passeggiata nel Verde</strong> è un''opportunità per scoprire la tranquillità della <strong>montagna</strong> e godere di una <strong>passeggiata tranquilla</strong>.</p>
+<p>Questo sentiero è progettato per essere una passeggiata senza difficoltà. Si tratta di un anello di 7.7 km, interamente pianeggiante con un dislivello di 225 metri. Il sentiero è largo e ben tenuto, rendendolo adatto a tutti, dai principianti ai bambini. Il percorso ti condurrà attraverso un paesaggio verdeggiante, perfetto per ammirare la natura circostante e goderti un picnic.</p>
 
-<h3>Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>Questa escursione è di difficoltà FACILE, adatta a tutti, inclusi bambini e persone con poca esperienza di trekking. Non ci sono tratti impegnativi o dislivelli significativi, quindi non dovrai preoccuparti di sudare troppo. È un''ottima scelta per una giornata di relax e divertimento in montagna.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>Puoi scaricare la traccia GPS di questa escursione per guidarti lungo il percorso. Ricorda di portare con te acqua, snack e scarpe comode per affrontare il sentiero. Goditi questa tranquilla passeggiata e ammira il panorama!</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 
 <ul>
+  <li><strong>Distanza:</strong> Circa 7.7 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 225 metri</li>
   <li><strong>Difficoltà:</strong> Facile</li>
-  <li><strong>Distanza:</strong> Circa 5 km</li>
-  <li><strong>Dislivello:</strong> 0 metri (Percorso completamente pianeggiante)</li>
-  <li><strong>Tipo di Percorso:</strong> Sentiero di <strong>trekking</strong>, ideale per <strong>passeggiate nel verde</strong> e <strong>escursioni</strong>.</li>
-  <li><strong>Adatto a:</strong> Famiglie, principianti, appassionati di <strong>trekking</strong>.</li>
-  <li><strong>Attrezzatura Consigliata:</strong> Scarpe da trekking comode, acqua, cappello, crema solare, <strong>picnic</strong>.</li>
-</ul>
-
-<p>La zona di partenza della <strong>Passeggiata nel Verde</strong> offre inoltre comodità come ampio parcheggio e la vicinanza a servizi come il centro sportivo del CONI, un campeggio ben attrezzato e la costa mare a soli 15 minuti a piedi.  Questa <strong>escursione di trekking</strong> a <strong>Calambrone</strong> è un''ottima scelta per una giornata all''aria aperta in <strong>Italia</strong>, perfetta per un <strong>picnic</strong> in famiglia o con amici.  Scoprite la bellezza di questo <strong>sentiero</strong> e godetevi la <strong>Passeggiata nel Verde</strong>!</p>',
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Azienda Agricola Tirrenia</li>
+  <li><strong>Comune:</strong> Azienda Agricola Tirrenia, Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.7,
   225,

@@ -36,6 +36,18 @@
             <span>🔄 Rigenera Meta Desc.</span>
         }
     </button>
+    <button @onclick="() => StartGeneration(BulkMode.MetaDescMissingOnly)" disabled="@BulkService.IsRunning"
+            style="padding:6px 16px;background:#0a6577;color:#fff;border:none;border-radius:4px;cursor:pointer;font-weight:600;font-size:0.85rem;white-space:nowrap;">
+        @if (BulkService.IsRunning && BulkService.Mode == BulkMode.MetaDescMissingOnly)
+        {
+            var pct = BulkService.Total > 0 ? (int)((BulkService.Current - 1) * 100.0 / BulkService.Total + StepProgress()) : 0;
+            <span>⏳ @BulkService.Current/@BulkService.Total (@pct%) — Meta Desc. mancanti</span>
+        }
+        else
+        {
+            <span>➕ Genera Meta Desc. mancanti</span>
+        }
+    </button>
     <button @onclick="() => StartGeneration(BulkMode.HtmlOnly)" disabled="@BulkService.IsRunning"
             style="padding:6px 16px;background:#6f42c1;color:#fff;border:none;border-radius:4px;cursor:pointer;font-weight:600;font-size:0.85rem;white-space:nowrap;">
         @if (BulkService.IsRunning && BulkService.Mode == BulkMode.HtmlOnly)

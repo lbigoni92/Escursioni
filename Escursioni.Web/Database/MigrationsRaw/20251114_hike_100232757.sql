@@ -7,29 +7,47 @@ VALUES (
   100232757,
   'Marina di Pisa',
   'Il percorso sarebbe stato ad anello, se non fosse per il fatto che c''ha preso la pioggia e siamo scappati alla macchina.Il percorso in realtà non è niente di più di una passeggiata nella pineta, non so perché segni 400mt di dislivello, in realtà è tutto piano.La pineta presenta percorsi larghi e ben segnati, lo consiglio come passeggiata post abbuffata o come passeggiata domenicale.Non ci sono fontanelle.Non importa usare scarpe da trekking.',
-  '<h2>Escursione al Sentiero della Marina di Pisa: Trekking nella Pineta</h2>
+  '<h2 id="escursione-marinadi-pisa">Escursione a Marina di Pisa</h2>
 
-<h3>Il Percorso</h3>
+<p>
+  Ho deciso di affrontare un''escursione nella pineta di <strong>Marina di Pisa</strong>, un''occasione perfetta per una passeggiata domenicale senza troppi sforzi. Purtroppo, il tempo non ha collaborato e abbiamo deciso di interrompere il percorso. 
+</p>
 
-<p>Questo percorso di <em>trekking</em> si snoda all''interno della maestosa <strong>pineta della Marina di Pisa</strong>, offrendo un''esperienza rilassante e immersiva nella <em>natura</em>. Anche se inizialmente indicato come un anello, la breve ma intensa pioggia ci ha costretto a interrompere l''escursione, rivelando una passeggiata prevalentemente pianeggiante.  Questo <em>sentiero</em>, facilmente percorribile, è ideale per chi cerca una <em>escursione</em> di facile esecuzione nella <strong>montagna</strong> toscana, perfetta per una giornata di <em>trekking</em> o semplicemente per godersi la tranquillità del bosco.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Cosa Aspettarsi</h3>
+<p>
+  Il punto di partenza è facilmente raggiungibile in auto. Da <strong>Marina di Pisa</strong>, segui le indicazioni per la pineta. Il parcheggio è disponibile nelle vicinanze del punto di partenza del sentiero.
+</p>
 
-<p>Preparati a una piacevole passeggiata attraverso un ambiente naturale protetto, ricco di biodiversità. La <strong>pineta</strong> offre percorsi ampi e ben mantenuti, ideali per famiglie e per chiunque cerchi una <em>escursione</em> <em>trekking</em> a basso impatto ambientale. Nonostante la segnaletica che indica un dislivello di 400 metri, il percorso è in realtà prevalentemente pianeggiante, rendendolo accessibile a tutti i livelli di preparazione.  Considera questo <em>sentiero</em> come una perfetta pausa dopo un pranzo abbondante o come una piacevole <em>passeggiata domenicale</em>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
 
-<h3>Informazioni Utili</h3>
+<p>
+  Il sentiero si snoda all''interno della pineta, un percorso largo e ben segnato. La maggior parte del percorso è in piano, quindi non ci sono salite o discese impegnative. In realtà, il dislivello indicato (403 metri) è un''ottimistica, dato che il sentiero è prevalentemente pianeggiante. È un''escursione ad anello, ma nel nostro caso l''abbiamo interrotta a causa del maltempo.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>
+  L''escursione è considerata di <strong>Difficoltà Media</strong>, adatta a persone con un minimo di allenamento. Non sono necessari scarpe da trekking, un paio di scarpe da ginnastica vanno benissimo. La distanza è di <strong>7.9 km</strong> con un dislivello di <strong>+403 m</strong>.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>
+  Non ho una traccia GPS da fornire, ma è facile orientarsi lungo il sentiero grazie ai segnavia ben visibili. Non ci sono fontanelle lungo il percorso, quindi è consigliabile portare con sé acqua e snack.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 
 <ul>
-    <li><b>Tipo di Percorso:</b> Passeggiata/<em>Trekking</em></li>
-    <li><b>Difficoltà:</b> Facile</li>
-    <li><b>Distanza:</b> Circa 400 metri (indicati)</li>
-    <li><b>Dislivello:</b>  Praticamente nullo</li>
-    <li><b>Tempo di Percorrenza:</b> Circa 1-2 ore</li>
-    <li><b>Punti di Interesse:</b> Pineta della Marina di Pisa, ambiente naturale protetto</li>
-    <li><b>Servizi:</b> Nessuna fontanella presente</li>
-</ul>
-
-<p>Indipendentemente dal tipo di scarpe scelte, questo <em>sentiero</em> nella <strong>Marina di Pisa</strong> rappresenta un''ottima opportunità per un''<em>escursione</em> all''aria aperta e per immergerti nella bellezza della <em>natura</em> toscana.  Ricorda di portare con te acqua e snack, soprattutto se prevedi una lunga <em>passeggiata</em>.</p>',
+  <li><strong id="informazioni-utili-distanza">Distanza:</strong> Circa 7.9 km (solo andata)</li>
+  <li><strong id="informazioni-utili-dislivello">Dislivello:</strong> Circa 403 metri</li>
+  <li><strong id="informazioni-utili-difficoltà">Difficoltà:</strong> Media</li>
+  <li><strong id="informazioni-utili-periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="informazioni-utili-punto-di-partenza">Punto di partenza:</strong> Pineta di Marina di Pisa, accessibile in auto</li>
+  <li><strong id="informazioni-utili-comune">Comune:</strong> Marina di Pisa, Toscana, Italia</li>
+  <li><strong id="informazioni-utili-tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.9,
   403,

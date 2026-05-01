@@ -7,23 +7,39 @@ VALUES (
   190245735,
   'Lucese - Prana - Baita Barsi - Baita Verde - Campo all''orzo',
   'Itinerario ottimo anche per le persone meno allenate e per i mesi invernali; la vetta regala un panorama che merita ... possiamo vedere dal gruppo delle Panie a Massaciuccoli fino a Livorno. Siamo partiti dal Passo del Lucese (558 m.), raggiungibile facilmente in auto, e c''è posto per le auto visto l''enorme parcheggio, da qui si raggiunge il bar, a fianco del quale inizia il percorso (i primi metri sono in salita su asfalto) su percorso tortuoso partenza del segnavia 101. Proseguendo arriviamo ad un bivio, dove possiamo troviamo le indicazioni, sulla sinistra si sale per la Casa del Maestro (847 m.) e per il Prana;noi abbiamo scelto di proseguire prima per la Baita barsi per poi raggiungere la Baita Vedi da qua abbiamo proseguito a Chiesa di Campo all''Orzo, situata nel punto più alto di Campo all''Orzo, a dominare le vallate, qua abbiamo pranzato. In seguito siamo saliti sulla per è la via normale. Il sentiero non è mai esposto Non sottovalutate mai la montagna per quanto facile venite sempre con attrezzatura adeguata e almeno 2 lt di acqua',
-  '<h2>Lucese - Prana - Baita Barsi - Baita Verde - Campo all''orzo: Trekking Facile in Montagna con Vista Panoramica</h2>
+  '<h2 id="escursione-lucese-prana-baita-barsi-baita-verde-campo-allorzo">Escursione a Lucese, Prana, Baita Barsi, Baita Verde e Campo all''Orzo</h2>
 
-<h3>Il Percorso: Un''Escursione Iniziatica nella Toscania</h3>
-<p>Questo fantastico <strong>sentiero di trekking</strong> nel cuore della Toscana offre un''esperienza indimenticabile per appassionati di <strong>escursioni</strong> e amanti della <strong>montagna</strong>. Ideale anche per chi è alle prime armi o per i mesi invernali, l''itinerario del Lucese - Prana - Baita Barsi - Baita Verde - Campo all''orzo vi guiderà attraverso paesaggi mozzafiato, con una vista a 360 gradi che spazia dalle <strong>Pane</strong> a Massaciuccoli fino a Livorno. Partendo dal <strong>Passo del Lucese</strong> (558 m.), facilmente raggiungibile in auto, seguirete il <strong>segnavia 101</strong>, un percorso tortuoso che inizialmente sale su asfalto.  L''<strong>escursione</strong> in <strong>sentiero</strong> è lunga e si snoda attraverso la <strong>natura</strong> toscana, un''esperienza unica nel suo genere.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>L''escursione parte dal Passo del Lucese (558 m.), facilmente raggiungibile in auto.  È disponibile un ampio parcheggio per le auto, quindi non dovete preoccuparvi di trovare spazio. Dalla strada, segui le indicazioni per il bar situato in prossimità del parcheggio, da cui inizia il sentiero.</p>
 
-<h3>Cosa Aspettarsi: Un''Escursione di Facilità con Punti di Interesse</h3>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Partenza dal Passo del Lucese (558 m.) con una iniziale salita su asfalto.  Proseguendo, il sentiero si snoda in modo tortuoso fino al bivio dove prendete il segnavia 101. Da qui, proseguite verso la Baita Barsi e poi verso la Baita Verde, infine raggiungete il Campo all''Orzo, situato nel punto più alto. Dopo aver pranzato, potete proseguire sulla via normale fino alla vetta.  Il sentiero non presenta esposizioni significative, ma è fondamentale ricordare che la montagna richiede sempre rispetto e attenzione.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questo è un trekking di difficoltà media, adatto anche a persone meno allenate. La distanza totale dell''anello è di circa 13,69 km con un dislivello positivo di 791 metri. Preparatevi a un''escursione panoramica mozzafiato che vi permetterà di ammirare un panorama che spazia dalle Panie a Massaciuccoli fino a Livorno. Assicuratevi di avere con voi almeno 2 litri d''acqua e l''attrezzatura adeguata per affrontare la montagna in sicurezza.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per poter seguire il percorso, vi consiglio di scaricare una traccia GPS. Le informazioni pratiche sono le seguenti:</p>
 <ul>
-    <li>Un <strong>sentiero</strong> ben segnalato, ideale per <strong>trekking</strong> di facile esecuzione.</li>
-    <li>Una <strong>vista panoramica</strong> spettacolare sulle vallate circostanti.</li>
-    <li>Possibilità di ammirare il gruppo delle <strong>Pane</strong>, Massaciuccoli e Livorno.</li>
-    <li>La possibilità di pranzare al <strong>Campo all''orzo</strong>, il punto più alto del percorso.</li>
-    <li>Visita alle <strong>Baita Barsi</strong> e alla <strong>Baita Verde</strong>, rifugi di montagna per una pausa ristoratrice.</li>
-    <li>Possibilità di visitare la <strong>Casa del Maestro</strong> e il <strong>Prana</strong>, raggiungibili tramite un percorso secondario.</li>
+    <li><b>Distanza:</b> Circa 13,69 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 791 metri</li>
+    <li><b>Difficoltà:</b> Medio</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Passo del Lucese (accessibile in auto)</li>
+    <li><b>Comune:</b> Lucese, Provincia di Toscana, Italia</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni Utili: Dettagli per un''Escursione Sicura e Ricca di Esperienze</h3>
-<p>Questo <strong>sentiero</strong> di <strong>trekking</strong> è perfetto per chi cerca una <strong>escursione</strong> di <strong>facilità</strong>, ma richiede comunque un''attenta preparazione. La distanza totale dell''itinerario è di circa 12 km con un dislivello di 600 metri.  È fondamentale indossare <strong>attrezzatura adeguata</strong>, compresi scarponi da <strong>trekking</strong>, abbigliamento a strati e almeno 2 litri di <strong>acqua</strong>. Ricordatevi sempre di informarsi sulle condizioni meteorologiche prima di partire e di rispettare l''ambiente naturale.  Quest''<strong>escursione</strong> nel <strong>sentiero</strong> rappresenta una grande opportunità per chi ama il <strong>trekking</strong> e il <strong>montagna</strong>.  Scoprite le bellezze del <strong>sentiero Italia</strong>!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><b>Distanza:</b> Circa 13.69 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 791 metri</li>
+    <li><b>Difficoltà:</b> Medio</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Passo del Lucese (accessibile in auto)</li>
+    <li><b>Comune:</b> Lucese, Provincia di Toscana, Italia</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   13.69,
   791,

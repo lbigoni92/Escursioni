@@ -7,32 +7,31 @@ VALUES (
   157143664,
   'Marina di Cecina - Geocaching',
   'Passeggiata d''inizio anno, chi cammina il primo dell''anno cammina tutto l''anno! Siamo andati a fare un giro Geocache. per risolvere delle Mistery : https://www.geocaching.com/geocache/GCABKEC https://www.geocaching.com/geocache/GCABKG4 Camminata facile e molto bella non c''eravamo mai stati, torneremo per fare le ultime cache La Riserva naturale Tomboli di Cecina si trova a Marina di Cecina e comprende appunto i Tomboli, lunghi cordoni di dune ricoperti da una fitta vegetazione che dalla spiaggia, si spingono verso l’interno della fascia costiera e rappresentano un caratteristico ecosistema creato per difendere le zone coltivate dai venti marini. La Riserva, che si estende per 15 chilometri, è una tra le più belle foreste italiane, ricca di una folta e varia vegetazione che si differenzia via via che ci si inoltra dal mare.',
-  '<h2>Marina di Cecina - Geocaching: Escursione Trekking e Caccia al Tesoro nella Riserva Naturale</h2>
+  '<h2 id="escursione-marina-di-cecina-geocaching">Escursione a Marina di Cecina: Geocaching e la Riserva Naturale</h2>
 
-<h3>Il percorso</h3>
-<p>
-Questa <strong>escursione trekking</strong> a <strong>Marina di Cecina</strong> è un''opportunità unica per combinare l''amore per la natura con un''avvincente attività di <strong>geocaching</strong>. Il sentiero, di difficoltà facile, conduce attraverso paesaggi mozzafiato, perfetto per una giornata di <strong>trekking</strong> in famiglia o con amici. La <strong>passeggiata</strong> è stata un’iniziativa di inizio anno, un’occasione per esplorare nuove zone e affrontare le sfide della <strong>caccia al tesoro</strong>. 
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa escursione è a Marina di Cecina, in Toscana.  È facilmente raggiungibile in auto o con i mezzi pubblici. Da qui, il sentiero inizia direttamente dalla spiaggia, un punto di accesso perfetto per iniziare il nostro avventura.  Ti consiglio di informarti sui punti di geocaching più vicini per iniziare subito la caccia al tesoro!</p>
 
-<h3>Cosa aspettarsi</h3>
-<p>
-Preparatevi ad una <strong>escursione</strong> suggestiva attraverso la <strong>Riserva naturale Tomboli di Cecina</strong>, un vero gioiello della natura italiana. Potrete ammirare una fitta vegetazione, un ecosistema unico che protegge le zone coltivate dai venti marini, e la bellezza dei <strong>Tomboli</strong>, le dune costiere che caratterizzano questa zona.  Questa <strong>trekking</strong> si presta anche all’attività di <strong>geocaching</strong>, un’esperienza divertente per tutta la famiglia, con l’obiettivo di risolvere dei <em>mistery</em>. 
-</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo è un giro anello di circa 14.68 km che ci porterà alla scoperta della Riserva Naturale Tomboli di Cecina. Inizieremo dalla spiaggia di Marina di Cecina e ci inoltreremo nel sentiero, seguendo il percorso del sentiero escursionistico. Il percorso è ben segnalato, quindi non avrai problemi a orientarti. Lungo il cammino, avremo la possibilità di fare delle pause per ammirare il panorama e risolvere i puzzle del geocaching.  Il sentiero è in gran parte pianeggiante, con qualche lieve pendenza. Ci perderemo tra le dune, la vegetazione lussureggiante e i panorami mozzafiato sul mare.</p>
 
-<h3>Informazioni utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>La difficoltà di questa escursione è stata classificata come Medio. Il dislivello è di soli +31 metri, quindi è adatta anche a escursionisti meno esperti.  Ti consiglio di indossare scarpe da trekking comode e di portare con te acqua e snack.  È importante avere una mappa e una bussola (o un''app di navigazione) per orientarti.  L''escursione è una bella opportunità per fare un po'' di geocaching e scoprire una splendida riserva naturale.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Ecco le informazioni pratiche per la tua escursione: Distanza: 14.68 km. Dislivello: 31 metri. Tipo di percorso: Anello.  Non ho una traccia GPS da fornirti direttamente, ma puoi scaricare le tracciate di geocaching per il percorso del giro.  Ti consiglio di consultare le mappe online o di chiedere indicazioni al parco naturale Tomboli di Cecina.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Luogo:</strong> Marina di Cecina, Toscana</li>
-    <li><strong>Tipo di attività:</strong> Trekking, Geocaching, Escursione</li>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Distanza:</strong> Percorso di circa 15 chilometri</li>
-    <li><strong>Punti di interesse:</strong> Riserva naturale Tomboli di Cecina, Tomboli, flora e fauna locale</li>
-    <li><strong>Ideale per:</strong> Famiglie, appassionati di <strong>trekking</strong>, amanti della <strong>natura</strong>, giocatori di <strong>geocaching</strong></li>
-    <li><strong>Contatto:</strong> Visitate i siti di <strong>geocaching</strong> per informazioni aggiornate sulle cache: <a href="https://www.geocaching.com/geocache/GCABKEC">https://www.geocaching.com/geocache/GCABKEC</a> e <a href="https://www.geocaching.com/geocache/GCABKG4">https://www.geocaching.com/geocache/GCABKG4</a></li>
-</ul>
-
-<p>
-Non perdete l''occasione di vivere un''indimenticabile <strong>escursione</strong> a <strong>Marina di Cecina</strong>, un''avventura tra <strong>sentieri</strong>, <strong>montagna</strong> e <strong>natura</strong>. La <strong>Riserva naturale Tomboli di Cecina</strong> vi sorprenderà con la sua bellezza e la varietà della sua flora e fauna.  Questo <strong>trekking</strong> è perfetto per chi cerca una giornata all''aria aperta, un''attività di <strong>geocaching</strong> e una scoperta delle meraviglie della <strong>natura italiana</strong>.
-</p>',
+  <li><strong>Distanza:</strong> Circa 14.68 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 31 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Spiaggia di Marina di Cecina, Marina di Cecina, Toscana</li>
+  <li><strong>Comune:</strong> Marina di Cecina, Toscana</li>
+  <li><strong>Regione:</strong> Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   14.68,
   31,

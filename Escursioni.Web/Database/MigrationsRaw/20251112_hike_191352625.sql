@@ -7,25 +7,33 @@ VALUES (
   191352625,
   'Da Minazzana al Cavallo d''Azzano per la Cresta Nord Ovest',
   'Ho messo difficile solo per il tratto opzionale altrimenti è facile. Alla conquista del Monte Cavallo con partenza da Minazzana Difficoltà: Il percorso è un anello escursionistico che non presenta particolari difficoltà, a eccezione di un lieve dislivello. Tuttavia, il tratto di salita al Monte Cavallo è consigliato solo a Escursionisti Esperti (EE). Descrizione del percorso: Il sentiero è sempre ben tracciato: Da Minazzana a "La Cappella": Si tratta di un tratto semplice, prevalentemente in discesa o pianeggiante, con numerosi punti panoramici ideali per scattare foto. Da "La Cappella" ad Azzano: Percorso con lievi saliscendi. La prima parte è aperta, offrendo viste su ex cave e diversi siti minerali. A un certo punto, abbiamo preso una via laterale per raggiungere direttamente Azzano. Da Azzano alla Fornace: Questo tratto è in salita e presenta il maggiore dislivello dell’anello (esclusa la salita al Monte Cavallo). Il sentiero è ampio e facilmente percorribile. Dalla Fornace all’attacco del Monte Cavallo: Leggera salita su un sentiero largo e facilmente percorribile. Dall’attacco del Monte Cavallo all’inizio della cresta: Tratto nel bosco, non segnato, da percorrere seguendo il GPS e l''intuito. A un certo punto è necessario farsi strada tra cespugli per raggiungere le prime roccette; non è difficile, solo un po’ laborioso. Dall’inizio della cresta all’incontro con la via normale: Alcuni punti richiedono brevi arrampicate su rocce (mai oltre il 1° grado di difficoltà). La camminata è agevole, a parte qualche ginestra pungente. L’unica difficoltà incontrata è stata qualche roccia bagnata all’inizio. Dall’incrocio alla vetta: Alternanza di rocce, ginestre e cespugli. Consiglio di proseguire sulle rocce quando possibile fino a raggiungere la vetta. Dalla vetta al sentiero: Il tratto è infestato da felci; è consigliabile percorrerlo in inverno. Tratto finale dell’anello: Privo di difficoltà. In sintesi, i tratti di salita e discesa del Monte Cavallo presentano qualche difficoltà e sono classificabili come EE, ma restano comunque affrontabili. Percorso: Il tragitto è bello e rappresenta la via più semplice per arrivare al Monte Cavallo. La cresta sud è più impegnativa e selvaggia, quindi la sconsiglio.',
-  '<h2>Da Minazzana al Cavallo d''Azzano per la Cresta Nord Ovest – Trekking in Montagna</h2>
+  '<h2 id="escursione-da-minazzana-al-cavallo-dazzano-cresta-nord-ovest">Escursione da Minazzana al Cavallo d''Azzano per la Cresta Nord Ovest</h2>
 
-<h3>Il percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong> in Italia offre un’esperienza indimenticabile per gli amanti della <strong>montagna</strong> e della <strong>natura</strong>. Il percorso, un anello escursionistico di circa 15 km, si snoda attraverso paesaggi mozzafiato, offrendo viste panoramiche sulla **Cresia Nord Ovest** del **Monte Cavallo**. La difficoltà del sentiero è stata valutata come ''Difficile'' per il tratto opzionale al Monte Cavallo, ma il resto del percorso è accessibile anche a <strong>escursionisti esperti</strong>. La <strong>escursione** da <strong>Minazzana** ad **Azzano** permette di ammirare diverse formazioni geologiche e paesaggi naturali unici.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa escursione è a Minazzana, comune della provincia di Toscana. Raggiungibile facilmente in auto, Minazzana offre parcheggi limitati nei pressi del sentiero di partenza. In alternativa, è possibile raggiungere il punto di partenza a piedi da paesi limitrofi, godendo di un piacevole approccio alla montagna.</p>
 
-<h3>Cosa aspettarsi</h3>
-<p>Preparatevi a un’<strong>escursione** impegnativa ma gratificante, con brevi tratti in salita e discesa, alcune arrampicate su rocce (non oltre il 1° grado di difficoltà) e qualche tratto nel bosco.  Il percorso è ben tracciato nella maggior parte dei suoi tratti, ma è fondamentale avere con sé un buon <strong>GPS** e una mappa dettagliata per orientarsi, soprattutto nel tratto non segnato lungo la cresta.  La <strong>distanza** totale del sentiero è di circa 15 km con un dislivello complessivo di 900 metri.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo anello escursionistico di circa 12.62 km con un dislivello di 909 metri offre un''esperienza indimenticabile. L''escursione inizia da Minazzana, dove si segue un sentiero che si inoltra nel bosco. Il primo tratto è prevalentemente in discesa o pianeggiante, con numerosi punti panoramici. Proseguendo verso Azzano, il percorso diventa più impegnativo con lievi saliscendi e viste su ex cave e siti minerali. Successivamente, si raggiunge la Fornace, dove il dislivello aumenta significativamente. Il sentiero prosegue in salita fino all''attacco del Monte Cavallo, dove si trova il tratto più impegnativo per gli escursionisti esperti, caratterizzato da una salita nel bosco e da alcuni tratti rocciosi. Superata questa difficoltà, si raggiunge la cresta nord-ovest del Monte Cavallo, dove si possono ammirare panorami mozzafiato. Il percorso prosegue lungo la cresta, con alcuni punti che richiedono brevi arrampicate su rocce, e poi rientra a Minazzana seguendo il sentiero finale, un po'' infestato da felci. Sebbene il tratto al Monte Cavallo sia considerato difficile per escursionisti esperti, l''anello nel suo complesso è accessibile anche ad escursionisti meno esperti, purché siano in buona forma fisica.</p>
 
-<h3>Informazioni utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p><strong>Difficoltà:</strong> Difficile (tratto al Monte Cavallo). Il resto del percorso è di difficoltà media.
+<strong>Distanza:</strong> Circa 12.62 km (anello)
+<strong>Dislivello:</strong> Circa 909 m
+Questa escursione richiede una buona preparazione fisica e una certa esperienza di escursionismo, soprattutto per il tratto al Monte Cavallo. Preparatevi a incontrare brevi arrampicate su rocce e a percorrere sentieri rocciosi.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Potete scaricare una traccia GPS per questo sentiero e seguirla durante l''escursione. Ricordatevi di controllare sempre le previsioni del tempo prima di partire e di indossare abbigliamento e scarpe da trekking adeguati.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Difficoltà:</strong> Difficile (con tratto EE)</li>
-    <li><strong>Distanza:</strong> Circa 15 km</li>
-    <li><strong>Dislivello:</strong> 900 metri</li>
-    <li><strong>Tipo di percorso:</strong> Anello escursionistico</li>
-    <li><strong>Punti di interesse:</strong> Monte Cavallo, Fornace, Creta Nord Ovest, ex cave, siti minerali, viste panoramiche</li>
-    <li><strong>Consigli:</strong> Indossare scarpe da trekking adatte, portare con sé acqua e snack, controllare le previsioni meteo prima di partire, rispettare l''ambiente e la fauna locale.  La camminata è agevole, a parte qualche ginestra pungente e alcune rocce bagnate all''inizio.</li>
-</ul>
-
-<p>Questo <strong>trekking** è l''opportunità perfetta per immergervi nella bellezza della **natura** italiana e godervi un’<strong>escursione** in <strong>montagna** indimenticabile.  Esplorate il <strong>sentiero** da <strong>Minazzana** al <strong>Cavallo d''Azzano** per la <strong>Cresta Nord Ovest** e scoprite la vera essenza del territorio!</p>',
+    <li><strong>Distanza:</strong> Circa 12.62 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 909 metri</li>
+    <li><strong>Difficoltà:</strong> Difficile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Minazzana, accessibile in auto / a piedi</li>
+    <li><strong>Comune:</strong> Minazzana, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   12.62,
   909,

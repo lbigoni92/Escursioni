@@ -26,6 +26,7 @@ public class IndexModel : PageModel
         ViewData["MetaDescription"] = metaDesc;
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/mappa";
+        ViewData["FullWidth"] = true;
         Escursioni = await _repo.GetWithCoordinatesAsync();
     }
 }

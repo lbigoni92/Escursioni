@@ -7,29 +7,47 @@ VALUES (
   87617255,
   'Livorno Escursionismo - Colognole',
   'Giro molto semplice e carino, semplice e da fare con bambini e familiari, ottimo per piknic domenicale. Punti panoramici ai km 0.4 - 1.9 Al km 2.1 inizia il percorso dell'' acquedotto di Colognole e finisce al km 4 Molto bello e suggestivo, consiglio di fermarsi al km 2.8 pe una pausa e mangiare qualcosa. Le salite sono molto dolci tranne il tratto che scende all''acquedotto intorno km 2.0, è molto facile vedere anfibi. Non ci sono fontanelle , portate l''acqua',
-  '<h2>Livorno Escursionismo - Colognole: Sentiero Facile per Famiglie e Piknic</h2>
+  '<h2 id="escursione-livorno-colognole">Escursione a Livorno: Giro del Colognole</h2>
 
-<h3>Il percorso dell''Escursione Colognole</h3>
+<p>
+  Avete voglia di una giornata all''aria aperta senza troppi sforzi? Questa escursione a Livorno, nel cuore delle Colognole, è perfetta per famiglie, bambini e per chiunque voglia godersi un panorama incantevole senza fatica. Un anello semplice e piacevole, ideale anche per un piknic domenicale!
+</p>
 
-<p>Questo <strong>sentiero di trekking</strong> a <strong>Livorno</strong> offre un''esperienza <em>escursionistica</em> accessibile a tutti, ideale per famiglie e per chi cerca un’<em>escursione</em> nella <strong>montagna</strong> con panorami mozzafiato. Il <strong>Giro Colognole</strong> è progettato per essere un’<em>escursione</em> piacevole e rilassante, perfetto per un <em>trekking</em> domenicale o un <em>piknic</em> all''aperto.  Si snoda attraverso un territorio ricco di <strong>natura</strong> e storia, offrendo scorci unici sul paesaggio toscano.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Cosa Aspettarsi Durante l''Escursione</h3>
+<p>
+  Il punto di partenza per questa bella escursione è facilmente raggiungibile in auto o in pullman da Livorno. Da qui, seguire le indicazioni per il comune di Valle Benedetta. Potete trovare indicazioni precise su Google Maps.
+</p>
 
-<p>Preparatevi per un <em>sentiero</em> di <strong>trekking</strong> che vi porterà attraverso un ambiente naturale incontaminato. L''<em>escursione</em> è caratterizzata da salite dolci e discese facili, con brevi tratti che offrono panorami spettacolari.  L’<em>escursione</em> è perfetta per chi cerca un’<em>escursione</em>  in <strong>montagna</strong> senza eccessivi sforzi, ed è un ottimo modo per godere della <strong>natura</strong> e della tranquillità della <strong>montagna</strong>.  Potrete ammirare la flora e la fauna locali e respirare aria fresca, lontano dal caos cittadino.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
 
-<p>Questo <em>sentiero</em> è particolarmente adatto per bambini e famiglie, offrendo un''opportunità di apprendimento e divertimento in un contesto naturale.  È un’<em>escursione</em> che si presta particolarmente ad un <em>piknic</em> domenicale, all’insegna della convivialità e del piacere di stare all''aria aperta.</p>
+<p>
+  Il sentiero inizia in pianura e vi condurrà attraverso un paesaggio collinare caratterizzato da panorami mozzafiato. Il percorso è prevalentemente in salita dolce, con qualche breve tratto in discesa. Il punto più interessante è il percorso dell''acquedotto di Colognole, un''esperienza suggestiva e facile, e si conclude con una discesa panoramica. Fermatevi al chilometro 2.8 per una pausa pranzo e godetevi l''ambiente circostante.
+</p>
 
-<h3>Informazioni Utili per l''Escursione al Colognole</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
 
-<ul>
-  <li><strong>Distanza:</strong> Circa 4 km</li>
-  <li><strong>Difficoltà:</strong> Molto Facile - Adatto a Famiglie e Principianti</li>
-  <li><strong>Tempi di percorrenza:</strong> Circa 1 – 1.5 ore</li>
-  <li><strong>Punti di interesse:</strong> Punti panoramici ai km 0.4 - 1.9, percorso dell’acquedotto di Colognole (km 2.1), pausa consigliata al km 2.8</li>
-  <li><strong>Note importanti:</strong> Non ci sono fontanelle lungo il percorso, quindi è fondamentale portare con sé acqua a sufficienza.  Si possono avvistare anfibi lungo il tratto dell''acquedotto intorno al km 2.0.</li>
-</ul>
+<p>
+  Questa escursione è di difficoltà <strong>Facile</strong>. La distanza totale è di circa 7.32 km con un dislivello di 209 metri. È un percorso adatto a tutti, anche a chi non ha molta esperienza di trekking.
+</p>
 
-<p>Questo <em>sentiero</em> offre una splendida opportunità per un’<em>escursione</em> a <strong>Livorno</strong>,  un’<em>escursione</em> nella <strong>montagna</strong> che vi regalerà momenti indimenticabili nel cuore della <strong>natura</strong>.  Esplorate il pittoresco <em>sentiero</em> e godetevi la bellezza del territorio circostante durante questa affascinante <em>escursione</em>.</p>',
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>
+  (Inserire qui traccia GPS)
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+    <li><strong>Distanza:</strong> Circa 7.32 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 209 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Valle Benedetta, Toscana, Italia</li>
+    <li><strong>Comune:</strong> Valle Benedetta, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.32,
   209,

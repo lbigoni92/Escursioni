@@ -7,39 +7,39 @@ VALUES (
   181150828,
   'Risalita del Magra dal Lago Pallino al ponte Groppodalosio',
   'Risalita del Magra dal Lago Palino al ponte Groppodalosio Il percorso di per sé è molto corto, è non necessita di particolare attrezzature se non delle scarpe da scoglio. Il percorso parte dal paesino di Casalina dal quale abbiamo preso una strada in discesa che portava a un cancello che abbiamo aperto, da li ci siamo immersi in un sentiero che ci ha subito portato al fiume dal quale abbiamo raggiunto le cascate del Pallino... E da li abbiamo risalito sono al lago del pallino e poi al ponte Groppodalosio. Occhio al fiume noi si era ad agosto e il fiume era in secca ma comunque l''acqua arrivava al ginocchio e la corrente era forte. Valutate se farlo a seconda delle vostre capacità e a se seconda dello stato del fiume.',
-  '<h2>Risalita del Magra dal Lago Pallino al Ponte Groppodalosio: Trekking e Escursione in Montagna</h2>
+  '<h2 id="risalita-del-magra-dal-lago-pallino-al-ponte-groppodalosio">Risalita del Magra dal Lago Pallino al ponte Groppodalosio</h2>
 
-<h3>Il Percorso</h3>
-<p>
-La <strong>risalita del Magra</strong> dal <strong>Lago Pallino</strong> al <strong>Ponte Groppodalosio</strong> offre un''escursione di trekking indimenticabile nelle colline toscane. Questo sentiero, di breve percorrenza, rappresenta un''opportunità unica per immergersi nella <strong>natura incontaminata</strong> e ammirare paesaggi mozzafiato. L''escursione inizia dal caratteristico paesino di <strong>Casalina</strong>, da cui si segue una discesa che conduce ad un cancello e, successivamente, a un affascinante <strong>sentiero naturalistico</strong>.  Il percorso vi guiderà lungo il fiume Magra, fino ad arrivare alle suggestive <strong>cascate del Pallino</strong>, per poi proseguire verso il <strong>lago Pallino</strong> e concludere la <strong>tua escursione</strong> al suggestivo <strong>Ponte Groppodalosio</strong>. 
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa splendida escursione è il paesino di <strong>Casalina</strong>, situato nel comune di <strong>Valdantena Casalina</strong>, in provincia di <strong>Toscana</strong>. Raggiungere Casalina è semplice, si può arrivare in auto tramite strade secondarie o, per un''esperienza più immersiva, a piedi seguendo sentieri che partono da altre zone della valle.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>
-Preparatevi a un''esperienza di <strong>trekking</strong> immersiva nella <strong>montagna toscana</strong>.  La <strong>difficoltà del sentiero</strong> è bassa, rendendolo accessibile anche a escursionisti meno esperti.  È consigliabile indossare scarpe da scoglio, soprattutto durante la fase di risalita del fiume Magra, dove l''acqua può essere torbida e la corrente forte.  
-</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia con una discesa da Casalina attraverso una strada che conduce a un cancello. Una volta aperto il cancello, ci si immette in un sentiero che conduce direttamente al fiume Magra. Seguiamo il corso del fiume fino alle suggestive cascate del Pallino. Proseguendo, raggiungiamo il <strong>Lago Pallino</strong> e, infine, il caratteristico <strong>ponte Groppodalosio</strong>. Questo anello di circa 1.97 km offre un''esperienza varia, combinando tratti di sentiero immersi nella natura con la riva del fiume.</p>
 
-<ul class="list-unstyled">
-  <li>
-    <strong>Distanza:</strong> Circa 3-4 km (andata e ritorno)
-  </li>
-  <li>
-    <strong>Dislivello:</strong> Circa 200-300 metri
-  </li>
-  <li>
-    <strong>Tipo di sentiero:</strong> Sentiero naturalistico, adatti a trekking e escursioni.
-  </li>
-  <li>
-    <strong>Difficoltà:</strong> Facile-Media
-  </li>
-  <li>
-    <em>Attenzione: la corrente del fiume Magra può essere forte, soprattutto durante i mesi estivi.</em>
-  </li>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>La difficoltà di questa escursione è valutata come <strong>Media</strong>. Il percorso è corto, ma presenta alcuni tratti con dislivelli e il passaggio sul fiume Magra richiede attenzione, soprattutto in estate quando l''acqua è corrente. È consigliabile indossare scarpe da trekking adeguate e, se necessario, scarpe da scoglio per la parte finale del percorso.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per facilitare l''escursione, ti consiglio di consultare una <strong title="Traccia GPS">traccia GPS</strong> della zona. Le informazioni pratiche per questa escursione sono le seguenti:</p>
+<ul>
+  <li><strong>Distanza:</strong> Circa 1.97 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 48 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Casalina</li>
+  <li><strong>Comune:</strong> Valdantena Casalina, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni Utili</h3>
-<p>
-Il punto di partenza è <strong>Casalina</strong>, facilmente raggiungibile in auto.  Si consiglia di verificare le condizioni del fiume Magra prima di intraprendere l''escursione, soprattutto durante la stagione estiva.  È fondamentale rispettare l''ambiente e seguire le indicazioni del sentiero. Questo <strong>sentiero di trekking</strong> è ideale per chi desidera vivere un''esperienza autentica nella <strong>natura italiana</strong>, godendo di panorami spettacolari e di una <strong>paesaggio montano</strong>  ricco di fascino.  Un''ottima opportunità per un''<strong>escursione giornaliera</strong> o un weekend all''insegna del <strong>trekking</strong> in Toscana.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+  <li><strong title="Distanza">Distanza:</strong> Circa 1.97 km (anello)</li>
+  <li><strong title="Dislivello">Dislivello:</strong> Circa 48 metri</li>
+  <li><strong title="Difficoltà">Difficoltà:</strong> Media</li>
+  <li><strong title="Periodo consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong title="Punto di partenza">Punto di partenza:</strong> Casalina, accessibile in auto/a piedi</li>
+  <li><strong title="Comune">Comune:</strong> Valdantena Casalina, Toscana</li>
+  <li><strong title="Tipo di sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   1.97,
   48,

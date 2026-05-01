@@ -7,26 +7,30 @@ VALUES (
   167204875,
   'Monte Pelato - Cascata del Mua - Poggio tedesco',
   'Percorso ad anello molto semplice, adatto un pò a tutti. Il giro si divide in due parti: La prima un anello lungo il sentiero cai 188 che alla fine porta sul Monte Pelato il sentiero è esposto al sole(non è consigliabile d''esatte). in seguito sulla via del ritorno abbiamo visitato una vecchia miniera abbandonata molto carina, noi abbiamo d0eciso d''entrarci a nostro rischio con le torce, se entrate ovviamente è a vostro rischio, state attenti. La seconda una volta arrivati alle auto abbiamo percorso un appendice di circa 2 km andata e ritorno che c''ha portato alle cascate del Mua, Bellissime! Escursione che si va anche in sole 3 ore ottima per un pomeriggio adatta a bambini e cani. NON ci sono fontanelle',
-  '<h2>Monte Pelato - Cascata del Mua - Poggio tedesco: Escursione Trekking in Montagna</h2>
+  '<h2 id="escursione-monte-pelato-cascata-del-mua-poggio-tedesco">Escursione al Monte Pelato, Cascata del Mua e Poggio Tedesco</h2>
 
-<h3>Il Percorso</h3>
-<p>Preparatevi per un’escursione indimenticabile lungo il sentiero del <strong>Monte Pelato</strong>, un percorso ad anello di trekking perfetto per un’esperienza di <strong>escursione in montagna</strong>. Questo sentiero, adatto a tutti i livelli, vi guiderà attraverso paesaggi mozzafiato e offre la possibilità di esplorare le bellezze naturali della regione.  L''escursione, un vero e proprio <strong>trekking</strong>, si articola in due parti ben distinte, offrendo varietà e stimoli lungo l’intero percorso.</p>
-<p>La prima parte del giro è un anello lungo il <strong>sentiero CAI 188</strong>, un percorso ben tracciato che vi porterà fino alla cima del <strong>Monte Pelato</strong>.  È importante notare che questa parte del sentiero è esposta al sole, e non è consigliabile percorrere l''intera tratta se non si è preparati adeguatamente.  La seconda parte del percorso rientra, visitando una vecchia miniera abbandonata, un''esperienza suggestiva ma da affrontare con cautela.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa bellissima escursione si trova a <strong>Castiglioncello</strong>, in provincia di <strong>Toscana</strong>. È facilmente raggiungibile in auto, trovando parcheggio nei pressi del paese. Da qui, segui le indicazioni per il sentiero CAI 188, che ti guiderà fino al Monte Pelato.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Questa <strong>escursione</strong> di trekking offre un''opportunità unica per immergervi nella natura incontaminata della <strong>montagna italiana</strong>.  Potrete ammirare panorami spettacolari, respirare aria fresca e godervi la tranquillità del paesaggio.  L’anello è considerato molto semplice, rendendolo adatto anche a famiglie con bambini e cani, un’eccellente opzione per un <strong>giorno di escursione</strong>.</p>
-<p>Durante il percorso, incontrerete paesaggi diversi, dalla cima del <strong>Monte Pelato</strong> alle cascate del <strong>Mua</strong>.  La visita alla vecchia miniera abbandonata rappresenta un’aggiunta unica all’esperienza, ma ricordate che l''accesso è a vostro rischio e pericolo.  L''escursione si conclude con una piacevole passeggiata alle cascate, un vero spettacolo naturale.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione al Monte Pelato e alle cascate del Mua è un anello di circa <strong>10.71 km</strong>, con un dislivello di <strong>+395 metri</strong>. Il percorso si snoda inizialmente lungo il sentiero CAI 188, un sentiero ben tracciato e relativamente facile, che conduce al cime del Monte Pelato. In seguito, dopo aver ammirato il panorama, si prosegue verso una vecchia miniera abbandonata dove una visita a torce è un''esperienza (a vostro rischio!). Infine, si raggiunge l''appendice di circa 2 km che conduce alle spettacolari <strong>cascate del Mua</strong>. Un anello perfetto per una giornata in montagna!</p>
 
-<h3>Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà <strong>media</strong> ed è adatta a persone con un minimo di esperienza in trekking. Il sentiero è ben segnalato, ma è consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack.  Attenzione, la parte in vetta al Monte Pelato è esposta al sole. Il percorso è fattibile anche con bambini e cani, ma è importante tenere conto delle loro capacità e del loro stato di forma.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Perseguire questa escursione è un''ottima idea, soprattutto per un pomeriggio. L''escursione dura in media 3 ore ed è adatta per una giornata di relax e per ammirare i panorami.  Inoltre, è una bella occasione per fare attività fisica e all''aria aperta.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Difficoltà:</b> Facile – Adatto a tutti i livelli</li>
-    <li><b>Distanza Totale:</b> Circa 8 km (anello)</li>
-    <li><b>Tempo di percorrenza:</b> Circa 3 ore</li>
-    <li><b>Punto di Partenza:</b> Auto parcheggio</li>
-    <li><b>Appendice Cascata Mua:</b> Circa 2 km (andata e ritorno)</li>
-    <li><b>Attenzione:</b> La parte del sentiero sul <strong>Monte Pelato</strong> è esposta al sole.  L''ingresso alla miniera abbandonata è a vostro rischio e pericolo.</li>
-</ul>
-<p>Un’escursione perfetta per un <strong>giorno di trekking</strong> in <strong>Sentieri Italia</strong>, ideale per famiglie, bambini, e amanti dei <strong>sentieri di montagna</strong>. Godetevi questa splendida <strong>escursione</strong>!</p>',
+    <li><strong>Distanza:</strong> Circa 10.71 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 395 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Castiglioncello, raggiungibile in auto</li>
+    <li><strong>Comune:</strong> Castiglioncello, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.71,
   395,

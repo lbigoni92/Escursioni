@@ -7,33 +7,38 @@ VALUES (
   188186962,
   'Anello Santa Luce Anello ~Cascate e Terre di Matilde',
   'Percorso semplice, la cui unica difficoltà è la lunghezza. Per percorrerlo ho impiegato 5 ore e 30 minuti, con pause. Il primo tratto, sino al km 6,1, è facile e percorribile senza problemi, a parte la pendenza che ci fa guadagnare 500 metri di dislivello. Da lì ci dirigiamo verso la località "Quattro Strade" e prendiamo il sentiero più a sinistra, che inizialmente è largo ma si restringe al km 6,7, rimanendo così fino al km 7,9. In quel tratto ci si passa tranquillamente. C''è un po'' di fango e il terreno è sconnesso, ma niente di insormontabile. Verso il km 8,0 arriviamo alle prime cascate. Il sentiero è segnato da segni blu e bianchi, e subito vediamo una cascata carina, anche se era in secca quando sono passato. Il sentiero prosegue e, in un tratto, c''è bisogno di usare una corda presente sul posto per facilitare la discesa. Arriviamo così alla seconda cascata, dalla quale possiamo anche visitare la grotta lì vicino. Ci ho messo un po'' a capire che per raggiungerla bisognava risalire un torrentino nei pressi, poiché il sentiero sulla mia cartina era segnato male. Adesso risaliremo tutto il fiume fino al km 9,6. Questo tratto, da percorrere con attenzione, ci permetterà di vedere trote, altre due cascate e meravigliose polle d''acqua. Attenzione a non mettere i piedi in acqua! Il ritorno si presenta sempre facile, con strade larghe. Non c''è nulla di particolare da segnalare, tranne che al km 14,5 bisogna fare attenzione perché non si capisce bene dove andare. Invece di girare a sinistra e affrontare la salita, bisogna andare a destra e superare il torrente in secca. Forse un tempo c''era un ponte. Da lì si riaprono strade larghe e ben tracciate. Sentiero facile, che consiglio di fare.',
-  '<h2>Anello Santa Luce Anello ~Cascate e Terre di Matilde – Trekking in Montagna e Sentieri Italia</h2>
+  '<h2 id="anello-santa-luce-cascate-terre-di-matilde">Anello Santa Luce: Cascate e Terre di Matilde</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bellissima escursione si trova a Santa Luce, in Toscana. L''accesso in auto è facile, raggiungibile tramite strade secondarie. Da qui, il sentiero è facilmente individuabile, segnato da segni blu e bianchi, e ti condurrà direttamente nel cuore della natura.</p>
 
-<p>Questo <strong>anello trekking</strong> nel cuore delle <strong>Terre di Matilde</strong> vi condurrà alla scoperta di incantevoli <strong>cascate</strong> e panorami mozzafiato. L''escursione, adatta anche ai principianti, offre un''esperienza di <strong>trekking</strong> autentica e immersiva nella natura. Il percorso è di circa 14.5 km con un dislivello totale di 500 metri, rendendolo una <strong>escursione</strong> piacevole e gestibile, anche con pause.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo anello di 19.43 km con un dislivello di 646 metri è pensato per escursionisti di livello medio. Iniziando dal punto di partenza, il percorso si snoda attraverso un paesaggio variegato, caratterizzato da tratti facili e impegnativi.  Il primo tratto, fino al km 6,1, è una risalita dolce, ideale per iniziare l''escursione. Successivamente, il sentiero si restringe e si fa più tecnico, richiedendo attenzione.  Il percorso include tratti con fango e terreno sconnesso, ma niente di particolarmente difficile.  Incontrerai diverse cascate, alcune delle quali raggiungibili con una breve discesa assistita da una corda.  Il tratto dal km 8,0 al km 9,6 è particolarmente suggestivo, con la possibilità di osservare trote nei torrenti e ammirare le polle d''acqua.</p>
 
-<p>Il sentiero inizia con un tratto facile e accessibile, con una pendenza che guadagna 500 metri di dislivello. Percorrendo i primi 6.1 km, il <strong>sentiero</strong> presenta una leggera pendenza. Successivamente, si raggiunge la località "Quattro Strade" e si prosegue seguendo il sentiero più a sinistra, che inizialmente è largo ma si restringe gradualmente fino al km 7.9.  Questo tratto è caratterizzato da un terreno sconnesso e leggermente fangoso, facilmente superabile con l''attrezzatura adeguata.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>La difficoltà di questa escursione è stata valutata come media. Il dislivello di 646 metri richiede un minimo di preparazione fisica, ma il percorso è adatto anche a escursionisti meno esperti. L''escursione dura circa 5 ore e 30 minuti, considerando le pause.  Preparati a affrontare alcuni tratti con fango e terreno sconnesso, e a superare alcune brevi discese con l''aiuto di una corda.  L''anello è ideale per chi desidera una giornata all''aria aperta, immerso nella natura toscana.</p>
 
-<h3>Cosa Aspettarsi</h3>
-
-<ul>
-  <li><strong>Cascate</strong> spettacolari: Ammirate le prime cascate intorno al km 8.0 e la seconda cascata, accompagnata da una suggestiva grotta.</li>
-  <li>Discesa assistita: In un tratto, sarà necessario utilizzare una corda presente sul posto per facilitare la discesa.</li>
-  <li>Biodiversità: Osservate la ricca fauna e flora locale, con la possibilità di avvistare <strong>trote</strong> e ammirare le particolari polle d''acqua.</li>
-  <li>Sentiero segnato: Il <strong>sentiero</strong> è ben segnalato con segni blu e bianchi per una facile navigazione.</li>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<ul class="list">
+    <li><b>Distanza:</b> Circa 19.43 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 646 metri</li>
+    <li><b>Difficoltà:</b> Medio</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Santa Luce, Toscana</li>
+    <li><b>Comune:</b> Santa Luce, Toscana</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
 </ul>
 
-<p>Ricordatevi di prestare attenzione al terreno, soprattutto durante la discesa, e di evitare di mettere i piedi nell''acqua per proteggere la fauna ittica locale. Questa <strong>escursione di trekking</strong> offre un''opportunità unica per immergersi nella bellezza della natura e della <strong>montagna</strong>.</p>
-
-<h3>Informazioni Utili</h3>
-
-<p><strong>Difficoltà:</strong> Facile - Media. Adatto a principianti e famiglie. La lunghezza del percorso, e la sua moderata pendenza, lo rendono una <strong>escursione di trekking</strong> accessibile a molti. </p>
-
-<p><strong>Distanza:</strong> Circa 14.5 km</p>
-<p><strong>Dislivello:</strong> Circa 500 metri</p>
-<p><strong>Località:</strong> Terre di Matilde, [Inserire posizione geografica precisa, es. provincia, regione]</p>
-<p><strong>Consigli:</strong> Indossare scarpe da trekking adatte, portare con sé acqua e cibo, controllare le previsioni meteo prima di partire. La sicurezza è fondamentale durante la vostra <strong>escursione in montagna</strong>.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><b>Distanza:</b> Circa 19.43 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 646 metri</li>
+    <li><b>Difficoltà:</b> Medio</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Santa Luce, Toscana</li>
+    <li><b>Comune:</b> Santa Luce, Toscana</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   19.43,
   646,

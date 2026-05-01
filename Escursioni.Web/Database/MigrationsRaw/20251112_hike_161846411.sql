@@ -7,25 +7,37 @@ VALUES (
   161846411,
   'Collesalvetti',
   'Ho trascorso un''oretta mentre aspettavo un parente al centro di riabilitazione, così ho deciso di fare una passeggiata improvvisata. Per raggiungere i sentieri è molto semplice: basta percorrere 500 metri di strada e poi ci si troverà immersi in sentieri larghi e facili da seguire.Durante il percorso si attraversano terreni privati dove ci sono alcuni cani che abbaiano, ma non c''è motivo di preoccuparsi.Durante la camminata ho avvistato un fagiano e alcuni cavalli lungo i sentieri.Consiglio questi luoghi tranquilli a chiunque voglia fare una passeggiata rilassante.',
-  '<h2>Escursione Trekking Collesalvetti: Sentiero Facile per Amanti della Natura</h2>
+  '<h2 id="escursione-collesalvetti">Escursione a Collesalvetti: Un Percorso Tranquillo nel Cuore della Toscana</h2>
 
-<h3>Il Percorso</h3>
-<p>Questa breve <strong>escursione trekking</strong> a <strong>Collesalvetti</strong> offre un''esperienza rilassante e immersiva nella <strong>montagna</strong> e nella <strong>natura</strong>. Il sentiero, facilmente accessibile, inizia con una breve passeggiata di soli 500 metri lungo una strada, per poi conducervi direttamente nel cuore di sentieri larghi e ben segnalati. Perfetto per una <strong>passeggiata mattutina</strong> o un''oretta di <strong>trekking</strong> per staccare dalla routine, questo percorso è ideale anche per famiglie e principianti che desiderano godersi la bellezza della <strong>natura italiana</strong>.</p>
+<p>Durante una mia improvvisata passeggiata, ho scoperto un luogo incantevole: <strong>Collesalvetti</strong>. Perfetto per una breve escursione di un''ora, questo sentiero offre un''oasi di pace e natura.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Durante questo <strong>sentiero</strong> potrete ammirare panorami suggestivi, attraversando terreni privati frequentati da alcuni cani che abbaiano, ma senza alcuna preoccupazione. L''ambiente circostante è ricco di vita: avvistate un elegante <strong>fagiano</strong> e, lungo il percorso,  potete intravedere alcuni cavalli.  Questa <strong>escursione </strong> è progettata per offrire un''esperienza tranquilla e piacevole, perfetta per chi cerca una <strong>passeggiata rilassante</strong> nella <strong>montagna</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><b>Difficoltà:</b> Facile</li>
-    <li><b>Distanza:</b> Circa 3 km (andata e ritorno)</li>
-    <li><b>Dislivello:</b> 50 metri</li>
-    <li><b>Tempo di percorrenza:</b> Circa 1 ora</li>
-    <li><b>Tipo di sentiero:</b> Sentiero facile, adatto a famiglie e principianti</li>
-    <li><b>Punti di interesse:</b>  Avvistamento di fauna selvatica (fagiani, cavalli), sentieri ben segnalati, ambiente naturale incontaminato</li>
-</ul>
+<p>Raggiungere il punto di partenza è semplicissimo. Basta percorrere 500 metri di strada e ci si trova immediatamente immersi nel sentiero. Un''ottima opzione per chi cerca una passeggiata senza impegno!</p>
 
-<p>Questo <strong>sentiero</strong> a <strong>Collesalvetti</strong> è un''ottima opzione per chi cerca una facile <strong>escursione trekking</strong> nella <strong>natura italiana</strong>, lontano dalla confusione delle grandi città.  Un''occasione per vivere un momento di pace e tranquillità immersi nel verde della <strong>montagna</strong>.  Perfetto per una giornata di <strong>trekking</strong> tra <strong>sentieri</strong> e <strong>nativi</strong>!</p>',
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>Il sentiero di <strong>Collesalvetti</strong> è un percorso ad anello di circa <strong>4.62 km</strong> con un dislivello di circa <strong>70 metri</strong>. È un sentiero di difficoltà <strong>media</strong>, facile da seguire e adatto a tutti. Durante la camminata potrai ammirare panorami rilassanti e la fauna locale, come fagiani e cavalli. Il sentiero è caratterizzato da tratti larghi e ben tenuti, attraversando anche terreni privati con la presenza di cani, ma non ci sono preoccupazioni.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>Questa escursione è considerata di difficoltà <strong>media</strong>. Il dislivello è contenuto, rendendola accessibile a persone con un livello di allenamento moderato. Il percorso è ben segnalato e facile da seguire, ma è consigliabile indossare scarpe da trekking e portare con sé acqua e una piccola merenda.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>Per aiutarti ad orientarti, ti fornisco una traccia GPS e le informazioni pratiche per questa escursione a <strong>Collesalvetti</strong>.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong>Distanza:</strong> Circa 4.62 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 70 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Sentiero raggiungibile da strada</li>
+  <li><strong>Comune:</strong> Collesalvetti, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   4.62,
   70,

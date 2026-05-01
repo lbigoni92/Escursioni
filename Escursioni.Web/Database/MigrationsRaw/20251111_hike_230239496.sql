@@ -7,26 +7,47 @@ VALUES (
   230239496,
   'Anello del Lago di Carezza con Ponte Sospeso',
   'Breve percorso ad anello con partenza dal parcheggio superiore gratuito di Carezza. Il sentiero che scende verso il lago è molto semplice e adatto a tutti, compresi bambini e persone anziane. Dopo pochi minuti si raggiunge il Lago di Carezza, famoso per i suoi colori intensi e per la cornice delle Dolomiti. Non è consentito avvicinarsi alle sponde, per motivi di tutela ambientale, ma il giro panoramico offre splendide vedute da diversi punti di osservazione. Il rientro avviene passando per il ponte sospeso, un passaggio breve ma suggestivo, che rende l’escursione ancora più piacevole. Il percorso è ben segnalato e poco impegnativo, ideale come passeggiata rilassante o come escursione in famiglia. Consiglio di evitare il parcheggio a pagamento vicino al lago: il parcheggio superiore è gratuito e permette comunque un facile accesso. Nei dintorni si trovano bar e punti di ristoro per una sosta.',
-  '<h2>Anello del Lago di Carezza con Ponte Sospeso: Trekking e Escursioni in Montagna</h2>
+  '<h2 id="anello-del-lago-di-carezza-con-ponte-sospeso">Anello del Lago di Carezza con Ponte Sospeso</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo <strong>anello del Lago di Carezza</strong> è un’escursione a piedi perfetta per chi cerca un''esperienza di <strong>trekking</strong> in un paesaggio mozzafiato. Il percorso, di circa <strong>6 km</strong>, si snoda lungo le rive del pittoresco <strong>Lago di Carezza</strong>, un vero gioiello delle <strong>Dolomiti</strong>. L’<strong>escursione</strong>, completamente pianeggiante e ben segnalata, è adatta a tutti, dai principianti agli escursionisti esperti, rendendola un''ottima scelta per un’<strong>passeggiata in montagna</strong> o un''<strong>escursione in famiglia</strong>. Il sentiero, facilmente percorribile, offre panorami spettacolari sulla **montagna** e sulla **natura** incontaminata.</p>
+<p>
+  Avete voglia di una gita in montagna facile e colorata? Questa escursione è perfetta! Ho fatto un bellissimo anello attorno al famoso <strong>Lago di Carezza</strong>, con la possibilità di attraversare anche il suggestivo <strong>Ponte Sospeso</strong>. È un percorso che consiglio a tutti, anche alle famiglie e ai bambini.
+</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparati ad ammirare i caratteristici colori iridescenti del <strong>Lago di Carezza</strong>, un fenomeno naturale dovuto alla rifrazione della luce sulle alghe.  L''escursione è un''opportunità unica per immergerti nella bellezza delle <strong>Dolomiti</strong> e godere di una giornata all''aria aperta. Ti imbatterai in punti di osservazione strategici che offrono viste panoramiche mozzafiato e potrai ammirare il suggestivo <strong>Ponte Sospeso</strong>, un breve tratto che aggiunge un tocco di magia al tuo <strong>trekking</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Informazioni Utili</h3>
+<p>
+  Il punto di partenza è il parcheggio superiore gratuito di <strong>Carezza al Lago</strong>. Da qui si può facilmente raggiungere il sentiero che costeggia il lago. L''accesso in auto è comodo e il parcheggio è gratuito, evitando le zone a pagamento più vicine al lago.
+</p>
+
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>
+  Il sentiero è molto semplice e si snoda dolcemente verso il <strong>Lago di Carezza</strong>. Il percorso è ben segnalato e offre viste mozzafiato sulle <strong>Dolomiti</strong>. Dopo aver ammirato le acque turchesi del lago (attenzione, non è permesso avvicinarsi alle sponde per la tutela ambientale!), si prosegue passando per il <strong>Ponte Sospeso</strong>, un breve tratto che aggiunge un tocco di magia all''escursione. Il rientro avviene lungo lo stesso sentiero, godendo di ulteriori panorami.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>
+  L''escursione è di livello <strong>Medio</strong>, con un dislivello di circa 63 metri. La distanza totale dell''anello è di 2.84 km, quindi una camminata piacevole e accessibile a tutti. È un''escursione ideale per una passeggiata rilassante o per un''attività in famiglia.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>
+  (Inserire qui la traccia GPS dell''escursione)
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
 <ul>
-    <li><strong>Distanza:</strong> Circa 6 km</li>
-    <li><strong>Dislivello:</strong> 150 metri</li>
-    <li><strong>Difficoltà:</strong> Facile - Adatto a tutti</li>
-    <li><strong>Tempi di percorrenza:</strong> 2-3 ore</li>
-    <li><strong>Punto di partenza:</strong> Parcheggio superiore gratuito di Carezza</li>
-    <li><strong>Punto di arrivo:</strong> Parcheggio superiore (ciclo chiuso)</li>
-    <li><strong>Sentiero:</strong> Sentiero n. 734</li>
-    <li><strong>Attenzione:</strong> Non è consentito avvicinarsi alle sponde del lago per motivi di tutela ambientale.</li>
-</ul>
-<p>Ricorda di indossare scarpe da trekking adatte e di portare con te acqua, cibo e protezione solare.  Goditi questa splendida <strong>escursione in sentiero</strong> e scopri le meraviglie del <strong>Lago di Carezza</strong>, un vero paradiso per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>Italia</strong>.</p>',
+  <li><strong>Distanza:</strong> Circa 2.84 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 63 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Parcheggio superiore di Carezza al Lago (accessibile in auto)</li>
+  <li><strong>Comune:</strong> Carezza al Lago, Trentino-Alto Adige</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   2.84,
   63,

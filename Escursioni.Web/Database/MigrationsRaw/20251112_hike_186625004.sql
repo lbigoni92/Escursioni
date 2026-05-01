@@ -7,26 +7,45 @@ VALUES (
   186625004,
   'Castellina Marittima ~ Pietra Gosta ~ Poggi ~ Cascata delle Gusciane ~ Sassi bianchi ~ Masso di Montalone',
   'Era un giro che volevo fare da qualche anno, molto bello anche se un po'' lungo. Merita sicuramente di essere fatto. Il percorso, in generale, non è quasi mai difficile, eccetto un paio di tratti che potrebbero essere migliorati, magari ripulendo un po'' di vegetazione troppo fitta. Partiamo subito verso la piccola vetta panoramica di Pietragosta, che regala una splendida vista su tutta la valle. Proseguiamo poi attraversando un paio di poggi: il primo non è granché, molto ricoperto di vegetazione, ma dal secondo si può godere di un bel panorama. Le cascate, invece, ti consiglio di visitarle dopo una pioggia recente. Quando ci sono stato io, erano un po'' in secca, ma si può vedere dal letto del torrente quanto maestose possano diventare in altre condizioni. Proseguendo, si arriva all''unico tratto davvero impegnativo del giro, quello che porta alla Pala Eolica. Qui il terreno è più roccioso e si è esposti al sole, quindi meglio prenderlo con calma. I punti panoramici vicino alle pale eoliche non sono eccezionali, ma il secondo è sicuramente più bello del primo. Vale la pena allungare il percorso di pochi minuti per raggiungerlo. Da qui, si può proseguire come ho fatto io verso quello che credo sia il punto più bello di tutto il giro: il Masso di Montalone. Per salire su questo masso, bisogna arrampicarsi un po'' su una roccia alta circa 10 metri. Attenzione alla discesa, che può risultare più difficile della salita! Qualcuno ha lasciato una corda in ottime condizioni, ma controllatela prima di usarla. Una volta in cima, il panorama è mozzafiato, il migliore di tutta l’escursione. Sulla via del ritorno, vi segnalo un tratto con vegetazione molto fitta, quindi consiglio di indossare pantaloni lunghi e prestare attenzione, anche se non c''è nulla di particolarmente difficile. Si passa anche per un teatro allestito in una cava e poi sul Monte dei Sistri Bianchi, anch''esso molto bello, con un panorama interessante. Vi suggerisco di terminare il giro come ho fatto io, passando per la Punta di Silvia. C’è una salita un po'' impegnativa, ma la vista alla fine ripaga ampiamente lo sforzo. In conclusione, è un giro che consiglio vivamente, uno dei migliori che si possano fare partendo da Castellina. Regolate l’itinerario in base alle vostre capacità e non esitate a fermarvi se non ve la sentite di proseguire. La montagna è meravigliosa, ma la prudenza viene prima di tutto.',
-  '<h2>Castellina Marittima ~ Pietra Gosta ~ Poggi ~ Cascata delle Gusciane ~ Sassi bianchi ~ Masso di Montalone – Trekking in Toscana</h2>
+  '<h2 id="escursione-castellina-marittima-pietra-gosta-poggi-cascata-gusciane-sassi-bianchi-masso-montalone">Escursione a Castellina Marittima, Pietra Gosta, Poggi, Cascata delle Gusciane e Sassi Bianchi</h2>
 
-<h3>Il percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong> in <strong>Toscana</strong> offre un''esperienza indimenticabile attraverso paesaggi mozzafiato. L''escursione, di circa 16 km, inizia da <strong>Castellina Marittima</strong> e conduce attraverso la <strong>montagna</strong>, passando per la **Pietra Gosta**, i <strong>poggi</strong>, la suggestiva <strong>Cascata delle Gusciane</strong>, i <strong>Sassi bianchi</strong> e culmina con la visita al maestoso <strong>Masso di Montalone</strong>.  Un''ottima opportunità per chi cerca un''<strong>escursione in montagna</strong> di media difficoltà.</p>
-<p>Il percorso, in generale, è piuttosto agevole, con alcune sezioni che potrebbero richiedere un po'' di attenzione, soprattutto a causa della vegetazione.  Un''occasione ideale per un''<strong>escursione a piedi</strong> in un ambiente naturale incontaminato.</p>
+<h3 id="come-arrivare-punto-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa aspettarsi</h3>
-<p>Preparatevi a un''<strong>escursione di trekking</strong> panoramica attraverso diverse zone di interesse. Potrete ammirare viste mozzafiato sulla valle, godervi la frescura dei <strong>poggi</strong> e la potenza della <strong>Cascata delle Gusciane</strong>. L''itinerario include tratti rocciosi, salite e discese, quindi è consigliabile indossare scarpe da trekking adatte.</p>
-<p>Attenzione ai tratti più impegnativi, come quello verso la <strong>Pala Eolica</strong>, dove il terreno è più sconnesso e l''esposizione al sole maggiore.  Inoltre, il percorso include una breve arrampicata sul <strong>Masso di Montalone</strong>, che offre una vista spettacolare.</p>
+Partendo da Castellina Marittima, il percorso inizia facilmente raggiungibile in auto o con i mezzi pubblici. Il punto di partenza è ben segnalato e facilmente individuabile.
 
-<h3>Informazioni utili</h3>
-<ul>
-    <li><b>Difficoltà:</b> Media</li>
-    <li><b>Distanza:</b> Circa 16 km</li>
-    <li><b>Dislivello:</b> Circa 800 metri</li>
-    <li><b>Tempo di percorrenza:</b> Circa 6-8 ore</li>
-    <li><b>Punti di interesse:</b> <strong>Pietra Gosta</strong>, <strong>Poggi</strong>, <strong>Cascata delle Gusciane</strong>, <strong>Sassi bianchi</strong>, <strong>Masso di Montalone</strong>, <strong>Pala Eolica</strong>, <strong>Teatro in cava</strong>, <strong>Monte dei Sistri Bianchi</strong>, <strong>Punta di Silvia</strong>.</li>
-    <li><b>Consigli:</b> Indossare scarpe da trekking adatte, portare acqua e cibo, utilizzare crema solare e cappello, controllare le condizioni meteorologiche prima di partire.  Considerare la possibilità di portare con sé una corda per l''arrampicata sul <strong>Masso di Montalone</strong>.</li>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+Il nostro trekking di circa 19.4 km si snoda attraverso un anello mozzafiato. Inizieremo con una salita verso la piccola vetta panoramica di Pietragosta, godendo di una vista spettacolare sulla valle. Proseguiremo attraversando due poggi, uno in ombra e l''altro con una bella vista. La parte più impegnativa ci porterà verso la Pala Eolica, con tratti rocciosi e più esposti al sole. Da qui, raggiungeremo il Masso di Montalone, un punto di sosta imperdibile con un panorama mozzafiato. Ricordatevi di prestare attenzione alla discesa! Infine, concluderemo l''escursione con un tratto più ripido fino alla Punta di Silvia, ammirando una vista finale che ripaga lo sforzo.
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+Questa escursione è di **difficoltà Facile**, adatta a escursionisti principianti e famiglie. Il dislivello è di circa 889 metri, ma il sentiero è prevalentemente in salita, con alcuni tratti ripidi.  Potete aspettarvi un percorso di circa 6-7 ore, a seconda del vostro ritmo e delle soste.
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<ul class="lista-puntata">
+    <li>**Distanza:** Circa 19.4 km (anello)</li>
+    <li>**Dislivello:** Circa 889 metri</li>
+    <li>**Difficoltà:** Facile</li>
+    <li>**Periodo consigliato:** Primavera, Estate, Autunno</li>
+    <li>**Punto di partenza:** Castellina Marittima (accessibile in auto / a piedi)</li>
+    <li>**Comune:** Castellina Marittima, **Toscana**</li>
+    <li>**Tipo di sentiero:** Sentiero escursionistico</li>
 </ul>
-<p>Questa <strong>trekking</strong> nella <strong>montagna toscana</strong> è un''esperienza da non perdere per gli amanti della natura e del <strong>sentiero</strong>.  Un''opportunità unica per scoprire le bellezze del territorio.</p>',
+
+<p>Per visualizzare la <a href="#">traccia GPS completa</a> dell''escursione, consultate il nostro <a href="#">blog</a>.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+    <li><strong id="distanza">Distanza:</strong> Circa 19.4 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 889 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-partenza">Punto di partenza:</strong> Castellina Marittima (accessibile in auto / a piedi)</li>
+    <li><strong id="comune">Comune:</strong> Castellina Marittima, **Toscana**</li>
+    <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   19.4,
   889,

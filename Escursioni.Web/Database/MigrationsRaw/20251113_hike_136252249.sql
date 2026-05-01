@@ -7,22 +7,41 @@ VALUES (
   136252249,
   'Castello di Vulci e parco archeologico',
   'Il percorso è molto semplice da seguire, se lo fate in estate state attenti al caldo anche se sono presenti delle fontanelle all''interno del parco archologico. Consiglio di parcheggiare al castello che ha un grande spazio per il parcheggio. Il biglietto per il parco invece è di 10 euro a testa. Il castello ospita dal 1975 il Museo nazionale archeologico di Vulci, dove sono esposti reperti provenienti dagli scavi archeologici di Vulci. Antica città etrusca, Vulci sorge nel territorio della Tuscia viterbese, tra i comuni di Canino e Montalto di Castro. La città si estende per circa 120 ettari e sorge sulle rive del Fiume Fiora. Vulci fu una delle più importanti città-stato dell’Etruria, ed ebbe un significativo ruolo nei commerci con la Grecia e le altre regioni orientali del Mediterraneo. Dell’antica città rimangono oggi imponenti ruderi, la cinta muraria, le porte urbane, l’acqedotto romano, l’area del foto, il tempio grande, le terme, la Domus. Particolarmente interessanti le Necropoli, tra le più celebri quelle di Cavalupo, Poledrara, Campo Maggio, Tomba François, Tomba dei Tori. Il parco naturalistico è di rara bellezza, sentieri e percorsi di trekking per scoprire la bellezza del territorio della Maremma Laziale.',
-  '<h2>Castello di Vulci e Parco Archeologico: Trekking e Escursioni nella Tuscia Viterbese</h2>
+  '<h2 id="escursione-castello-di-vulci-e-parco-archeologico">Escursione al Castello di Vulci e Parco Archeologico</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong> offre un''esperienza unica nell''antica città etrusca di <strong>Vulci</strong>, situata nel cuore della <strong>Tuscia viterbese</strong>. L''escursione è progettata per essere <em>facile</em> e accessibile a tutti, rendendola ideale per famiglie e principianti. Il percorso si snoda attraverso il <strong>parco archeologico</strong>, permettendoti di esplorare le rovine di un''antica città-stato etrusca. Partendo dal <strong>Castello di Vulci</strong>, potrai ammirare i resti di mura, porte urbane, acquedotto romano e altre testimonianze della sua ricca storia. Il sentiero è ben segnalato e ti guiderà attraverso le affascinanti <strong>Necropoli</strong>, tra le più celebri di <strong>Cavalupo, Poledrara, Campo Maggio, Tomba François e Tomba dei Tori</strong>, dove potrai ammirare reperti archeologici di grande valore.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa splendida escursione è il parcheggio del **Castello di Vulci**, facilmente raggiungibile in auto. Una volta parcheggiato, si inizia a percorrere il sentiero che conduce direttamente al parco archeologico.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo sentiero è perfetto per una giornata di trekking, un''escursione semplice e piacevole. Iniziando dal parcheggio del castello, segui il sentiero che si snoda attraverso il parco archeologico, permettendoti di ammirare i resti dell''antica città etrusca di **Vulci**. Il sentiero è ben segnalato e facilmente percorribile, adatta anche a famiglie e a chi pratica l''escursionismo amatoriale.  Il percorso è prevalentemente in piano con alcune salite e discese dolci, perfette per godersi il panorama e scoprire i tesori nascosti di questa antica civiltà. La vista sul **Fiume Fiora** è un vero spettacolo.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>La difficoltà di questa escursione è **Media**. Il percorso è di 9,04 km e presenta un dislivello di 169 metri, quindi richiede una buona preparazione fisica, anche se non particolarmente impegnativa.  È consigliabile indossare scarpe da trekking, portare con sé acqua e un po'' di cibo, e proteggersi dal sole.  L''escursione è particolarmente consigliata nei mesi primaverili, estivi e autunnali, ma è importante fare attenzione al caldo estivo, sfruttando le fontanelle presenti nel parco.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Disponibile una traccia GPS per facilitare l''escursione.  Ricorda di scaricare la traccia sul tuo dispositivo GPS prima di partire.</p>
 <ul>
-  <li>Un''escursione di circa 5-7 km, ideale per una <strong>trekking</strong> di mezza giornata.</li>
-  <li>Un''immersione nella storia dell''Etruria e nella sua cultura.</li>
-  <li>La possibilità di scoprire le <strong>Necropoli</strong>, importanti siti archeologici.</li>
-  <li>Un''escursione facile e accessibile, adatta a tutti i livelli.</li>
-  <li><em>Attenzione al caldo estivo</em> e alla presenza di fontanelle all''interno del parco archeologico.</li>
+    <li><strong>Distanza:</strong> 9.04 km (anello)</li>
+    <li><strong>Dislivello:</strong> 169 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio del Castello di Vulci</li>
+    <li><strong>Comune:</strong> Case Riminino, Lazio</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni Utili</h3>
-<p>Il <strong>Castello di Vulci</strong> offre un ampio spazio di parcheggio per circa 10 euro. Il <strong>biglietto d''ingresso al parco archeologico</strong> è di 10 euro a persona. All''interno del <strong>Castello</strong> si trova il <strong>Museo nazionale archeologico di Vulci</strong>, che ospita reperti provenienti dagli scavi archeologici della città.  Questo <strong>sentiero escursionistico</strong> ti permette di scoprire l’antica città di <strong>Vulci</strong>, con i suoi 120 ettari e la sua posizione strategica sulle rive del Fiume Fiora, un importante centro commerciale per l’Etruria con legami commerciali con la Grecia.  L''escursione è un''ottima opportunità per ammirare la bellezza della <strong>Maremma Laziale</strong> attraverso <strong>sentieri e percorsi di trekking</strong>.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 9.04 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 169 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio del Castello di Vulci (accessibile in auto)</li>
+    <li><strong>Comune:</strong> Case Riminino, Regione Lazio, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>
+
+<p><strong>Parco Nazionale:</strong> Non applicabile (Parco Archeologico di Vulci)</p>',
   'Tutte le Attività e Paesi',
   9.04,
   169,

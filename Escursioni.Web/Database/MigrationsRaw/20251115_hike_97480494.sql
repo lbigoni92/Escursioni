@@ -7,34 +7,39 @@ VALUES (
   97480494,
   'Montenero - Vecchio faro',
   'Percorso ovviamente molto semplice, appena un chilometro, ma è interessante dal punto di vista storico, qua possiamo ammirare il vecchio faro di Livorno anche se oramai è un disuso. Il farò oramai è in stato di abbandono, e si trova vicino alla funicolare, ed è dietro a una delle più belle ville di Livorno',
-  '<h2>Montenero - Vecchio Faro: Escursione Trekking Facile a Livorno</h2>
+  '<h2 id="montenero-vecchio-faro">Escursione al Vecchio Faro di Montenero</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Per raggiungere il punto di partenza dell''escursione al Vecchio Faro di Montenero, si arriva facilmente in auto lungo la strada che sale al paese di Montenero. Il parcheggio è situato poco prima dell''inizio del sentiero, vicino alla funicolare. Da qui, si segue il sentiero segnalato, facilmente riconoscibile. Si tratta di un percorso accessibile anche a persone alle prime armi, con una breve salita iniziale.</p>
 
-<p>
-Immergetevi in un''<em>escursione trekking</em> di facile difficoltà lungo il sentiero che collega <strong>Montenero</strong> al caratteristico <strong>Vecchio Faro</strong> di Livorno. Questo breve percorso, appena un chilometro, vi condurrà attraverso una natura incontaminata, offrendo al contempo un''occasione unica per scoprire un importante sito storico.  La <em>trekking</em> è pensata per tutti, dai principianti ai famiglie, offrendo un''esperienza autentica di <em>sentiero</em> nella <em>montagna</em> di Livorno.
-</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo sentiero è un''escursione davvero semplice, perfetta per una passeggiata nella natura e per scoprire la storia del luogo. Inizierete dal punto di arrivo, vicino alla funicolare, e seguirete un percorso di circa 1.19 km ad anello. Il sentiero è prevalentemente pianeggiante, con una leggera salita alla fine, dove si trova il vecchio faro.  Avrete la possibilità di ammirare un panorama mozzafiato sulla costa livornese e di scoprire un luogo ricco di storia. L''escursione è ideale per famiglie e per chi cerca una passeggiata facile e rilassante.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà **Facile**. Il sentiero è ben segnalato e il dislivello è contenuto, circa 35 metri. La distanza totale del percorso è di 1.19 km, quindi è un''escursione breve e adatta a tutti, anche ai bambini. Aspettatevi una passeggiata piacevole attraverso un paesaggio suggestivo, con la possibilità di ammirare un antico faro e un panorama spettacolare.</p>
 
-<p>
-Preparatevi ad un''<em>escursione</em> tranquilla e rilassante, perfetta per una giornata all''aria aperta. Il percorso è prevalentemente pianeggiante, con poche pendenze, rendendolo ideale per chi cerca una <em>trekking</em> facile e accessibile. Potrete ammirare panorami mozzafiato sulla costa livornese, godervi la vista sulla <strong>funicolare</strong> e la sua storia, e concludere la vostra giornata visitando il <strong>Vecchio Faro</strong>, un testimone silenzioso del passato di Livorno. L''<em>escursione</em> è un''ottima occasione per apprezzare la bellezza della <em>natura</em> circostante e la ricchezza del patrimonio storico locale.
-</p>
-
-<h3>Informazioni Utili</h3>
-
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per scaricare la traccia GPS di questa escursione, potete utilizzare le app per smartphone dedicate all''escursionismo. Ecco alcune informazioni pratiche:</p>
 <ul>
-  <li><strong>Distanza:</strong> Circa 1 km</li>
-  <li><strong>Difficoltà:</strong> Facile – Adatto a tutti</li>
-  <li><strong>Punto di partenza:</strong> Montenero</li>
-  <li><strong>Punto di arrivo:</strong> Vecchio Faro di Livorno</li>
-  <li><strong>Tempi di percorrenza:</strong> Circa 30-45 minuti (tempo di percorrenza)</li>
-  <li><strong>Caratteristiche:</strong> Sentiero ben tracciato, facile accesso, panoramico, ricca storia e cultura</li>
-  <li><strong>Cosa vedere:</strong> <em>Vecchio Faro</em> di Livorno, Funicolare di Montenero, vista panoramica sulla costa</li>
+    <li><strong>Distanza:</strong> Circa 1.19 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 35 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Vicino alla funicolare di Montenero, Livorno</li>
+    <li><strong>Comune:</strong> Montenero, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>
-Questa <em>escursione</em> nel cuore di Livorno è un''occasione imperdibile per chi ama il <em>trekking</em> e l''<em>escursionismo</em>.  Scoprite il fascino del <strong>Vecchio Faro</strong> e godetevi un''indimenticabile giornata di <em>sentiero</em> nella <em>montagna</em> livornese. Ricordatevi di controllare le previsioni del tempo prima di partire e di indossare scarpe da <em>trekking</em> adatte.  Vi auguriamo un''<em>escursione</em> fantastica! </p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="distanza">Distanza:</strong> Circa 1.19 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 35 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Vicino alla funicolare di Montenero, Livorno</li>
+    <li><strong id="comune">Comune:</strong> Montenero, Toscana</li>
+    <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   1.19,
   35,

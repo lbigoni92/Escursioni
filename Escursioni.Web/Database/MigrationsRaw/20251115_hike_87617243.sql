@@ -7,26 +7,46 @@ VALUES (
   87617243,
   'Vecchiano - Monte Legnaio - Monte Bruceto',
   'Ho fatto il percorso in notturna, non ci sono difficoltà se non qualche strada con sassi che possono far scivolare; mettete le scarpe adeguate. Punti panoramici : km 5.8 Si passa anche vicino a una ex cava molto suggestivo, anche se l''ho fatta in notturna questa vlta, la consiglio in diurna. Portatevi almeno un litro d''acqua d''inverno e due d''estate. Non ci sono fontanelle. Per il resto lasciate un commento e buon trek!',
-  '<h2>Vecchiano Monte Legnaio Monte Bruceto: Escursione Notturna in Montagna</h2>
+  '<h2 id="vecchiano-monte-legnaio-monte-bruceto">Escursione al Monte Legnaio da Vecchiano: Anello Panoramico in Toscana</h2>
 
-<h3>Il Percorso – Trekking Notturno in Toscana</h3>
-<p>Preparatevi per un’esperienza indimenticabile di <strong>trekking notturno</strong> lungo il sentiero che collega <strong>Vecchiano</strong> al maestoso <strong>Monte Legnaio</strong> e al suggestivo <strong>Monte Bruceto</strong>. Questo <strong>sentiero escursionistico</strong> in <strong>montagna</strong> offre panorami mozzafiato e un’immersione totale nella <strong>natura</strong> toscana.  La difficoltà del <strong>sentiero</strong> è moderata, con alcune sezioni sterrate e detritiche che richiedono attenzione, soprattutto per le condizioni di <strong>trekking notturno</strong>.  Mettete le <strong>scarpe da trekking</strong> adeguate per affrontare eventuali strade con sassi che possono presentare un leggero rischio di scivolamento.</p>
+<p>Ho recentemente percorso questo bellissimo anello, un''escursione che consiglio vivamente agli amanti del trekking in montagna. Se cercate un''escursione facile e ricca di panorami, questo è il sentiero perfetto per voi! Il percorso, di circa 10.89 km, offre un''esperienza unica, soprattutto se avventurata di notte, ma anche durante il giorno quando il sole illumina le vette.</p>
 
-<h3>Cosa Aspettarsi – Un''Esplorazione Notturna</h3>
-<p>Questa <strong>escursione</strong> notturna vi permetterà di scoprire un lato diverso della <strong>montagna</strong>, lontano dal caldo del giorno e dal rumore della città. L''oscurità amplifica i suoni della natura e i profumi della terra.  Potrete ammirare la bellezza del paesaggio illuminato dalla luna e dalle stelle, con la possibilità di avvistare fauna selvatica locale.  L’esperienza è particolarmente suggestiva per gli amanti del <strong>trekking</strong> e dell’escursionismo che cercano avventure uniche.  Anche se l’ho fatta in notturna questa volta, consiglio vivamente di fare l''escursione in diurna per apprezzare appieno i <strong>punti panoramici</strong> del sentiero.</p>
+<h3>Come arrivare al punto di partenza</h3>
 
-<h3>Informazioni Utili – Pianifica la Tua Escursione</h3>
+<p>Il punto di partenza dell''escursione si trova a Vecchiano, in provincia di Toscana. Per raggiungerlo, potete seguire le indicazioni stradali per Vecchiano, facilmente raggiungibile in auto. Una volta arrivati nel paese, il sentiero parte direttamente dal centro, ben segnalato.</p>
+
+<h3>Il percorso passo per passo</h3>
+
+<p>Il sentiero segue un percorso prevalentemente in salita, con alcuni tratti su strade sterrate e alcuni passaggi su ciottoli che potrebbero risultare scivolosi. Il percorso è caratterizzato da una costante vista sul paesaggio collinare toscano, con ampie aperture che offrono panorami mozzafiato. La tappa più interessante è al km 5.8, un punto panoramico con una vista spettacolare. Un altro punto interessante è il passaggio vicino a una suggestiva ex cava, anche se l''ho visitata di notte, ne vale la pena anche di giorno.</p>
+
+<h3>Difficoltà e cosa aspettarsi</h3>
+
+<p>Questa escursione è classificata come **Facile**. Il dislivello di 309 metri è contenuto e il sentiero è ben tenuto. Tuttavia, è importante indossare scarpe da trekking adatte e portare con sé acqua sufficiente, soprattutto durante i mesi estivi. Preparatevi a qualche tratto sterrato e a un po'' di salita.  Il sentiero è un <strong>anello</strong>, quindi potete scegliere di percorrere solo una parte del percorso.</p>
+
+<h3>Traccia GPS e informazioni pratiche</h3>
+
+<p>Ecco le informazioni pratiche per la vostra escursione: </p>
 <ul>
-    <li><strong>Difficoltà:</strong> Moderata</li>
-    <li><strong>Distanza:</strong> Circa 8-10 km (a seconda del percorso specifico)</li>
-    <li><strong>Dislivello:</strong> Circa 400-500 metri</li>
-    <li><strong>Tempo di percorrenza:</strong> 3-4 ore (a seconda del ritmo)</li>
-    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno (valutare le condizioni meteorologiche)</li>
-    <li><strong>Equipaggiamento essenziale:</strong> <strong>Scarpe da trekking</strong> adatte, giacca impermeabile, cappello, crema solare, acqua (almeno 1 litro d''inverno, 2 d''estate), torcia frontale o lampada frontale, mappa della zona, binocolo (opzionale).</li>
-    <li><strong>Punti di interesse:</strong> <strong>Ex cava</strong> suggestiva, <strong>punti panoramici</strong>, flora e fauna locale.</li>
+  <li><strong>Distanza:</strong> Circa 10.89 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 309 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Vecchiano, Toscana</li>
+  <li><strong>Comune:</strong> Vecchiano, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Ricordatevi che lungo questo <strong>sentiero</strong> non ci sono <strong>fontanelle</strong>, quindi portatevi sempre sufficiente acqua.  È fondamentale rispettare l''ambiente e seguire le regole del sentiero.  Lasciate un commento qui sotto e buon <strong>trekking</strong>!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong >Distanza:</strong> Circa 10.89 km (anello)</li>
+  <li><strong >Dislivello:</strong> Circa 309 metri</li>
+  <li><strong >Difficoltà:</strong> Facile</li>
+  <li><strong >Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong >Punto di partenza:</strong> Vecchiano, Toscana</li>
+  <li><strong >Comune:</strong> Vecchiano, Toscana</li>
+  <li><strong >Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.89,
   309,

@@ -7,33 +7,30 @@ VALUES (
   133785834,
   'Il Monte del Legnaio - Notturna',
   'Il sentiero è facile anche se bisogna prestare attenzione, specialmente di notte come noi, parcheggio c''è lungo la strada. Il Monte del Legnaio, noto anche come Monte Legnaio, è una collina situata tra Pisa e Massaciuccoli, nella provincia di Pisa, in Toscana, Italia. Il Monte del Legnaio fa parte del complesso delle Colline Pisane ed è situato a nord-ovest di Pisa, non lontano dal Parco Naturale Migliarino-San Rossore-Massaciuccoli. Con i suoi 288 metri di altezza, è una delle colline più alte della zona. Vi consiglio la frontale se andate di notte, scarpe adeguate e portatevi da mangiare!',
-  '<h2>Il Monte del Legnaio - Notturna: Trekking e Escursione Notturna in Toscana</h2>
+  '<h2 id="escursione-monte-del-legnaio-notturna">Escursione al Monte del Legnaio Notturna</h2>
 
-<h3>Il percorso</h3>
-<p>
-L''escursione sul <strong>Monte del Legnaio - Notturna</strong> è un''esperienza unica, un''immersione nella natura e nel silenzio della <strong>montagna toscana</strong>. Questo <strong>sentiero di trekking</strong>, adatto anche a escursionisti meno esperti, offre una sfida accessibile e un panorama suggestivo, soprattutto durante la notte. Il percorso si snoda dolcemente attraverso il territorio, caratterizzato da una vegetazione tipica delle <strong>colline pisane</strong>, con una difficoltà valutata come facile, ma che richiede comunque attenzione, specialmente nelle ore notturne. Il punto di partenza è lungo la strada, con un comodo <strong>parcheggio gratuito</strong> a disposizione dei partecipanti.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il parcheggio è situato lungo la strada che conduce alla base del sentiero. È un buon punto di partenza per questa escursione, assicurati di arrivare in tempo per goderti la notte.</p>
 
-<h3>Cosa aspettarsi</h3>
-<p>
-Preparatevi per un''<strong>escursione notturna</strong> indimenticabile nel cuore del <strong>Monte del Legnaio</strong>.  La tranquillità della notte, interrotta solo dal suono della natura, vi regalerà emozioni uniche.  Questa <strong>trekking</strong> offre l''opportunità di osservare la fauna locale, illuminata dalla luna, e di ammirare il paesaggio dalla sua veste più serena. Ricordatevi di indossare scarpe adatte e di portare con voi cibo e acqua per godervi appieno questa avventura.  È consigliabile prevedere un''escursione di circa 3-4 ore, adatta a famiglie e gruppi di amici.
-</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo anello di 4,47 km ci porta in cima al <strong id="monte-del-legnaio">Monte del Legnaio</strong>, una collina di 288 metri a nord-ovest di Pisa. L''escursione è di livello medio, quindi preparati a un buon cammino, ma è fattibile anche per chi ha un''esperienza di trekking di base. Il sentiero si snoda attraverso il paesaggio collinare toscano, offrendo panorami mozzafiato, soprattutto di notte. È consigliabile seguire attentamente il percorso, soprattutto quando si cammina al buio, e indossare scarpe adeguate.</p>
 
-<h3>Informazioni utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>L''escursione al <strong id="monte-del-legnaio">Monte del Legnaio</strong> presenta una <strong id="difficoltà">difficoltà media</strong>. Il dislivello di 233 metri richiede un po'' di allenamento, ma il sentiero è ben tenuto e il percorso è fattibile per escursionisti di livello base. È importante portare con sé acqua, cibo e abbigliamento adeguato, soprattutto se si sceglie di affrontare l''escursione di notte.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Preparati per un''escursione di circa 4.47 km con un dislivello di 233 metri. Questo anello ti porterà alla cima del <strong id="monte-del-legnaio">Monte del Legnaio</strong>. </p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Nome del sentiero:</strong> Il Monte del Legnaio - Notturna</li>
-    <li><strong>Luogo:</strong> Monte Legnaio, Pisa, Toscana, Italia</li>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Distanza:</strong> Circa 6 km (andata e ritorno)</li>
-    <li><strong>Altitudine massima:</strong> 288 metri</li>
-    <li><strong>Periodo consigliato:</strong> Estate e autunno (tenendo conto delle temperature notturne)</li>
-    <li><strong>Attrezzatura consigliata:</strong> Scarpe da trekking, abbigliamento a strati, torcia frontale, cibo, acqua, mappa.</li>
-    <li><strong>Parco Naturale Vicino:</strong> Parco Naturale Migliarino-San Rossore-Massaciuccoli (Pisa)</li>
-</ul>
-
-<p>
-Godetevi questa magnifica <strong>escursione in montagna</strong> lungo il <strong>sentiero del Monte del Legnaio</strong>, una vera e propria gemma del paesaggio toscano.  Un''esperienza da non perdere per gli amanti del <strong>trekking</strong> e della <strong>natura</strong>!
-</p>',
+  <li><strong id="distanza">Distanza:</strong> Circa 4.47 km (anello)</li>
+  <li><strong id="dislivello">Dislivello:</strong> Circa 233 metri</li>
+  <li><strong id="difficoltà">Difficoltà:</strong> Media</li>
+  <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="punto-di-partenza">Punto di partenza:</strong> Parcheggio lungo la strada</li>
+  <li><strong id="comune">Comune:</strong> Colognole, <strong id="regione">Toscana, Italia</strong></li>
+  <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   4.47,
   233,

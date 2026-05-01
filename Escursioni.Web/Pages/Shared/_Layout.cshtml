@@ -50,6 +50,7 @@
         <meta name="twitter:image" content="@twImg" />
     }
 
+    <link rel="icon" type="image/png" href="~/favicon-32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="~/favicon-48.png" sizes="48x48" />
     <link rel="icon" type="image/png" href="~/favicon-192.png" sizes="192x192" />
     <link rel="icon" type="image/svg+xml" href="~/favicon.svg" />
@@ -120,7 +121,7 @@
     </div>
 
 
-    <main id="main-content" class="page-container" role="main">
+    <main id="main-content" class="page-container @(ViewData["FullWidth"] is true ? "page-container--full" : "")" role="main">
         @RenderBody()
     </main>
 

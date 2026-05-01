@@ -7,27 +7,30 @@ VALUES (
   192547578,
   'Gambassi terme',
   'Il percorso inizia soleggiato nei pressi della Casa del Pellegrino, per poi addentrarsi in un piacevole bosco ombreggiato. Si devia verso la sorgente dei Bollori, caratterizzata da particolari fenomeni naturali, e si prosegue attraversando campi fioriti di ginestre. Il tratto verso la Grotta di Maurizio è scivoloso ma reso sicuro da un passamano in corda, offre una vista suggestiva. Qui si possono esplorare tunnel dell''acquedotto, consigliando l''uso di una torcia. Dopo una breve salita, si giunge a Gambassi Terme. Il percorso è ben segnalato e di facile difficoltà, eccetto il tratto per la grotta. Numerosi guadi sono presenti ma facilmente attraversabili.',
-  '<h2>Escursione Trekking Gambassi Terme: Sentiero Naturale tra Sorgenti e Acque</h2>
+  '<h2 id="escursione-gambassi-terme">Escursione a Gambassi Terme da Sant''Agostino</h2>
 
-<h3>Il Percorso: Un''Escursione di Trekking a Gambassi Terme</h3>
-<p>Immergiti nella natura incontaminata della Val di Greve con questa suggestiva <strong>escursione di trekking</strong> a <strong>Gambassi Terme</strong>. Questo <strong>sentiero</strong>, ideale per un''<strong>escursione</strong> in <strong>montagna</strong>, ti condurrà attraverso un paesaggio variegato, ricco di flora e fauna, perfetto per gli amanti del <strong>trekking</strong> e dell''<strong>outdoor</strong> in <strong>Italia</strong>.  Scopri la bellezza di questo percorso naturalistico, progettato per offrirti un''esperienza di <strong>trekking</strong> indimenticabile.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa bella escursione è nei pressi della <strong id="casa-pellegrino">Casa del Pellegrino</strong> a soleggiato. Da Sant''Agostino è facile raggiungere la zona in auto, parcheggiando lungo la strada principale. L''accesso al punto di partenza è a piedi, facilmente percorribile e adatto a tutti.</p>
 
-<h3>Cosa Aspettarsi: Un''Avventura tra Natura e Storia</h3>
-<p>Questa <strong>escursione di trekking</strong> a <strong>Gambassi Terme</strong> è un''opportunità unica per immergerti nella tranquillità della <strong>natura</strong>.  Percorrerai un <strong>sentiero</strong> di facile difficoltà, attraversando boschi ombrosi, campi fioriti e suggestivi tunnel dell''antico acquedotto.  Preparati ad ammirare fenomeni naturali unici come la <strong>sorgente dei Bollori</strong> e a scoprire la <strong>Grotta di Maurizio</strong>, un luogo ricco di storia e leggende.  Un''esperienza di <strong>trekking</strong> autentica per gli appassionati di <strong>sentieri Italia</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia con un tratto soleggiato, immettendo subito in un piacevole bosco ombreggiato. Proseguendo, si nota la deviazione verso la <strong id="sorgente-bollori">sorgente dei Bollori</strong>, un luogo di particolare interesse naturale. Il sentiero prosegue poi attraverso campi fioriti di ginestre, offrendo un panorama suggestivo. Dopo un tratto più impegnativo, scivoloso ma reso sicuro da un passamano, si raggiunge la <strong id="grotta-maurizio">Grotta di Maurizio</strong>, un luogo affascinante dove è consigliabile l''uso di una torcia per esplorare i tunnel dell''acquedotto. La salita finale porta a <strong id="gambassi-terme">Gambassi Terme</strong>, dove potrete godervi una meritata pausa.</p>
 
-<h3>Informazioni Utili per il Tuo Trekking</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Facile – Tratto per la <strong>Grotta di Maurizio</strong> leggermente più impegnativo.</li>
-    <li><strong>Distanza Totale:</strong> Circa 8 km</li>
-    <li><strong>Dislivello:</strong> Circa 300 metri</li>
-    <li><strong>Durata:</strong> 3-4 ore</li>
-    <li><strong>Punti di Interesse:</strong> <strong>Sorgente dei Bollori</strong>, <strong>Grotta di Maurizio</strong>, Tunnel dell''Acquedotto, Campi di <strong>Ginestre</strong>.</li>
-    <li><strong>Segnaletica:</strong> Il <strong>sentiero</strong> è ben segnalato, ma è consigliabile avere una mappa e una bussola.</li>
-    <li><strong>Attrezzatura Consigliata:</strong> Scarpe da <strong>trekking</strong>, abbigliamento a strati, acqua, snack, crema solare, cappello, torcia elettrica (consigliata per l''esplorazione della <strong>Grotta di Maurizio</strong>).</li>
-    <li><strong>Guadi:</strong> Numerosi guadi presenti, facilmente attraversabili con attenzione.</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione di tipo <strong id="difficoltà-medio">medio</strong>, lunga 10,5 km e con un dislivello di 417 metri, è adatta agli escursionisti con un minimo di esperienza. Il tratto per la Grotta di Maurizio presenta una sezione scivolosa, ma è ben attrezzata. La presenza di numerosi guadi richiede attenzione, ma sono facilmente attraversabili.</p>
 
-<p>Non perdere l''occasione di vivere un''indimenticabile <strong>escursione a Gambassi Terme</strong>, un''esperienza di <strong>trekking</strong> perfetta per le famiglie e gli amanti della <strong>natura</strong>.  Questo <strong>sentiero</strong> di <strong>trekking</strong> ti regalerà panorami mozzafiato e la possibilità di scoprire le bellezze della <strong>Val di Greve</strong>. Ricorda di rispettare l''ambiente durante il tuo <strong>trekking</strong> in <strong>Italia</strong>.</p>',
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per seguire il percorso, vi consigliamo di utilizzare una traccia GPS. La difficoltà dell''escursione richiede una buona preparazione fisica. È consigliabile indossare scarpe da trekking e portare con sé acqua e snack.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+  <li><strong id="distanza">Distanza:</strong> Circa 10,5 km (anello)</li>
+  <li><strong id="dislivello">Dislivello:</strong> Circa 417 metri</li>
+  <li><strong id="difficoltà">Difficoltà:</strong> Medio</li>
+  <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="punto-di-partenza">Punto di partenza:</strong> Casa del Pellegrino, Sant''Agostino, Toscana</li>
+  <li><strong id="comune">Comune:</strong> Sant''Agostino, Toscana</li>
+  <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.5,
   417,

@@ -7,27 +7,35 @@ VALUES (
   179002821,
   'Dal Rif.Lago AL Rif.Donegani passando per il Giovo e e la Nuda',
   'Seconda tappa di una bellissima due giorni in Appennino, percorso non per tutti. Le fontane sono presenti a tutti i rifugi ma non è detto che abbiano acqua, portatevela io ne avevo 4 litri per giorno. Il percorso è lungo e bello consiglio solo ha chi ha un buon allenamento, e passa anche da un cavo a cui ci si deve arreggere. Il rifugio Lago Nero c''ha accolto e ospitato e abbiamo sciato una buona offerta, crosta e formaggi molto buoni, grazie a tutti i volontari. 22.29 km e 1261m dislivello, dopo un giro sui sentieri sopra Partenza dal Rifugio Lago Nero siamo andati in direzione lago Piatto con i suoi magnifici Tritoni, da li subito in cresta! Toccando i monti: - FemminaMorta - Rondinaio - Porticciola - Altaretto - Grotta rosa - Giovo - Nuda Passando per i laghi: - Piatto - Santo - Turchino',
-  '<h2>Escursione Trekking: Dal Rif.Lago AL Rif.Donegani - Sentiero Appennino</h2>
+  '<h2 id="escursione-dal-rif-lago-al-rif-donegani-passando-per-il-giovo-e-la-nuda">Escursione dal Rif. Lago al Rif. Donegani passando per il Giovo e la Nuda</h2>
 
-<h3>Il Percorso - Escursione in Montagna nel Parco Nazionale dei Nebrodi</h3>
-<p>Questo fantastico <strong>sentiero di trekking</strong> nel cuore dell''Appennino offre un''esperienza indimenticabile per gli amanti della <strong>natura</strong> e dell''<strong>escursionismo</strong>. L''escursione <strong>Dal Rif.Lago AL Rif.Donegani passando per il Giovo e e la Nuda</strong> è un percorso impegnativo ma ricompensante, perfetto per chi cerca una vera sfida in <strong>montagna</strong>. La <strong>trekking</strong> si snoda attraverso paesaggi mozzafiato, con panorami spettacolari e la possibilità di ammirare la flora e la fauna locali.</p>
-<p>Questa <strong>escursione di più giorni</strong> è ideale per chi desidera immergersi nella tranquillità della <strong>natura italiana</strong>, lontano dal caos cittadino. Il percorso è ideale per chi cerca un''<strong>escursione sentiero</strong> impegnativa e stimolante, con un buon livello di allenamento.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>La partenza di questa bella escursione è dal Rifugio Lago Nero, facilmente raggiungibile in auto. Da qui, il sentiero inizia e ti conduce in un''avventura appenninica indimenticabile. Preparati a percorrere un sentiero impegnativo, ma ricompensato da panorami mozzafiato!</p>
 
-<h3>Cosa Aspettarsi - Difficoltà e Dettagli del Trekking</h3>
-<p>Preparati a un''esperienza intensa e gratificante, con un <strong>dislivello di 1261 metri</strong> e una distanza di 22.29 km. L''<strong>escursione trekking</strong> richiede un buon stato di forma fisica e una certa esperienza in <strong>trekking</strong>. Il sentiero presenta tratti impegnativi, con alcuni passaggi esposti e alcuni brevi tratti aural, quindi è consigliabile indossare scarpe da <strong>trekking</strong> adatte e abbigliamento tecnico. L''<strong>escursione sentiero Italia</strong> è un''avventura che ti immergerà nella bellezza selvaggia dell''Appennino.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo trekking di 22.29 km con un dislivello di 1181 metri è un vero e proprio viaggio nella natura selvaggia dell''Appennino. Inizierai dal Rifugio Lago Nero, poi passerai dal Lago Piatto con i suoi tritoni,  dopo sfiderai la cresta toccando i monti FemminaMorta, Rondinaio, Porticciola, Altaretto, Grotta Rosa, Giovo e finalmente la Nuda. Il percorso ti porterà attraverso diversi laghi, tra cui il Piatto, Santo e Turchino, offrendo viste spettacolari ad ogni passo. Non dimenticare di prestare attenzione al cavo a cui devi aggrapparti per superare un tratto del sentiero.</p>
 
-<h3>Informazioni Utili - Consigli per la Tua Escursione</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è considerata Difficile, adatta a escursionisti esperti con un buon allenamento. Il dislivello di 1181 metri e la lunghezza del percorso (22.29 km) richiedono preparazione fisica e resistenza.  È consigliabile portare con sé acqua e cibo a sufficienza. </p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>
+    <strong id="traccia-gps">Traccia GPS:</strong> (Inserire traccia GPS qui)
+    <strong id="distanza">Distanza:</strong> 22.29 km
+    <strong id="dislivello">Dislivello:</strong> 1181 m
+    <strong id="difficoltà">Difficoltà:</strong> Difficile
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Distanza:</strong> 22.29 km</li>
-    <li><strong>Dislivello:</strong> 1261 m</li>
-    <li><strong>Difficoltà:</strong> Impegnativo – Richiede buone condizioni fisiche e esperienza in <strong>trekking</strong>.</li>
-    <li><strong>Punti di Interesse:</strong> Rifugi Lago e Donegani, Lago Piatto (con Tritoni), FemminaMorta, Rondinaio, Porticciola, Altaretto, Grotta Rosa, Giovo, Nuda Pass</li>
-    <li><strong>Fontane:</strong> Presenti ai rifugi, ma l''acqua potrebbe non essere disponibile, è consigliabile portare acqua. Si consiglia di portare almeno 4 litri di acqua per giorno.</li>
-    <li><strong>Cavo di Sicurezza:</strong> È presente un <strong>cavo di sicurezza</strong> a cui è necessario aggrapparsi, prestando attenzione.</li>
-    <li><strong>Rifugi:</strong> Il Rif.Lago Nero offre un''ottima offerta di crosta e formaggi.</li>
-</ul>
-
-<p>Non perdere l''occasione di vivere questa magnifica <strong>escursione sentiero</strong>, un''esperienza autentica immersa nella <strong>natura italiana</strong>! Pianifica la tua <strong>trekking</strong> e scopri la bellezza del <strong>sentiero Italia</strong>.</p>',
+    <li><strong id="distanza">Distanza:</strong> Circa 22.29 km (solo andata)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 1181 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Difficile</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Rifugio Lago Nero, accessibile in auto, Comune di Pracchi, Provincia di Toscana, Regione Italia</li>
+    <li><strong id="comune">Comune:</strong> Pracchi, Toscana</li>
+    <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   22.29,
   1181,

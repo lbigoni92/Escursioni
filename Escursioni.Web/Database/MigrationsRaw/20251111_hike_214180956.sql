@@ -7,32 +7,57 @@ VALUES (
   214180956,
   'Le non panie della croce e pizzo d''uccello',
   'Non siamo riusciti a raggiungere pania della croce per via della pioggia che c''ha pro dopo il Del Freo e arrivati quasi al Callare è peggiorato e abbiamo scelto di scendere... La cosa bella è stata la stufa del rifugio calda con persone cortese e gentili ci riproveremo!',
-  '<h2>Escursione Trekking: Le Non Panie della Croce e Pizzo d''Uccello - Sentiero Italia</h2>
+  '<h2 id="escursione-le-non-panie-della-croce-e-pizzo-duccello">Escursione alle Non Panie della Croce e Pizzo d''Uccello</h2>
 
-<h3>Il Percorso</h3>
+<p>
+  Ok, devo essere onesto: questa escursione è stata... complicata! Ho sempre l''abitudine di partire per un''escursione con entusiasmo, ma la natura a volte ha altri piani. Inizialmente, il sentiero era tutto sommato piacevole, con un bel panorama sulla <strong>montagna</strong>. 
+</p>
 
-<p>Questa magnifica <em>escursione trekking</em> in <strong>montagna</strong> vi condurrà attraverso il Parco Nazionale del Gran Sasso e Monti della Laga, a esplorare le splendide <strong>Le Non Panie della Croce e Pizzo d''Uccello</strong>.  L''<em>itinerario</em> è un''immersione nella natura selvaggia dell''Appennino centrale, con panorami mozzafiato sulla valle sottostante. Inizialmente il <em>sentiero</em> sale dolcemente, attraversando praterie e boschi di faggio, offrendo la possibilità di avvistare la fauna locale.  La difficoltà è considerata medio-alta, adatta a escursionisti esperti e appassionati di <em>trekking</em> che desiderano affrontare una vera sfida in <strong>Italia</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa Aspettarsi</h3>
+<p>
+  Il punto di partenza è facilmente raggiungibile in auto. Da Levigliani, segui le indicazioni per il sentiero.  È un parcheggio a pagamento abbastanza vicino al punto di partenza.
+</p>
 
-<p>Preparatevi ad una giornata di <em>trekking</em> impegnativa ma ricca di soddisfazioni. Il percorso è caratterizzato da alcuni tratti esposti e da un dislivello significativo.  La bellezza del sentiero risiede nella sua autenticità e nella purezza della natura circostante.  Avrete la possibilità di ammirare la flora e la fauna tipiche della macchia mediterranea e delle <em>montagne</em>, con la possibilità di avvistare il pizzo d''uccello, un’icona del territorio.  Potrete godere di un''<em>escursione</em> a piedi nella natura, respirando aria pulita e lasciandovi alle spalle lo stress della vita quotidiana.  Questo <em>sentiero</em> offre un''esperienza autentica di <em>trekking</em> in <strong>sentieri Italia</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<p>A causa delle condizioni meteorologiche avverse, l''escursione è stata interrotta.  È fondamentale controllare le previsioni del tempo prima di intraprendere l''<em>escursione</em> e indossare abbigliamento e scarpe da trekking adatte.  In caso di pioggia o vento, è consigliabile rinunciare all''<em>escursione</em> per motivi di sicurezza.</p>
+<p>
+  Il sentiero inizia in salita, con alcuni tratti piuttosto impegnativi, soprattutto dopo la fase di maltempo.  Dopo il Del Freo, la pioggia ha iniziato a cadere e il sentiero è diventato scivoloso.  Il dislivello è significativo, e anche se siamo riusciti a scendere prima di raggiungere la <strong>pania della croce</strong>, l''escursione è stata comunque faticosa.  Abbiamo dovuto rinunciare a proseguire a causa delle condizioni meteorologiche avverse.
+</p>
 
-<h3>Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>
+  Questa escursione è considerata <strong>media</strong>, ma è importante essere in buona forma fisica e avere un minimo di esperienza nel trekking. Il dislivello è impegnativo e il sentiero presenta alcuni tratti esposti.  Non aspettarti di fare un''escursione facile e veloce. 
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>
+  Ecco le informazioni pratiche per la tua <strong>escursione</strong>:
+</p>
 
 <ul>
-  <li><strong>Distanza:</strong> Circa 12 km (andata e ritorno)</li>
-  <li><strong>Dislivello:</strong> Circa 800 metri</li>
-  <li><strong>Difficoltà:</strong> Medio-Alta</li>
+  <li><strong>Distanza:</strong> Circa 15.8 km (solo andata)</li>
+  <li><strong>Dislivello:</strong> Circa 1164 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
   <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
-  <li><strong>Punto di partenza:</strong> Rifugio Del Freo (accessibile in auto)</li>
-  <li><strong>Comune:</strong>  San Giovanni Zinella, Abruzzo</li>
+  <li><strong>Punto di partenza:</strong> Parcheggio a Levigliani</li>
+  <li><strong>Comune:</strong> Levigliani, <strong>Toscana</strong>, <strong>Italia</strong></li>
   <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
-  <li><strong>Parco Nazionale:</strong> Parco Nazionale del Gran Sasso e Monti della Laga</li>
 </ul>
 
-<p>Non dimenticate di portare con voi acqua, cibo, un kit di primo soccorso e una mappa del percorso.  Questo <em>sentiero</em> rappresenta un''ottima opportunità per un''<em>escursione</em> di un giorno o per un''<em>escursione</em> di più giorni.  Organizzate la vostra <em>trekking</em> nel cuore della natura in <strong>sentieri Italia</strong>!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong>Distanza:</strong> Circa 15.8 km (solo andata)</li>
+  <li><strong>Dislivello:</strong> Circa 1164 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Parcheggio a Levigliani</li>
+  <li><strong>Comune:</strong> Levigliani, Regione Toscana, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   15.8,
   1164,

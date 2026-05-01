@@ -7,24 +7,36 @@ VALUES (
   101606088,
   'Casoli - Grotta all''onda - Piglione - Campo allorzo',
   'Casoli - 2/112 - 2 - Foce del Termine o del Crocione - 103 - Monte piglione - Sud Monte piglione Nord- si scede per sentiero fino alocalità Lenca -101 -Focetta di san Vincenzo - 112 -1212 / Volendo prima del Monte piglione Sud si può andare sul M.tondo / Il monte Piglione, nel comune di Pescaglia, costituisce l’ultima vetta delle Apuane meridionali ed è la più orientale. Si trova su una dorsale che si stacca verso est dalla foce del Crocione e divide la valle della Tùrrite Cava in Garfagnana da quella del Rio Pedogna nel comune di Pescaglia. / Il monte consiste in una cresta per lo più erbosa con rocce affioranti verso occidente essa è orientata da nord-ovest a sud-est e culmina con tre quote: a nord la vetta principale di 1233 metri, a sud la vetta 1188 metri ed al centro la vetta 1190 metri. / Sulla vetta minore (sud) c’è una croce bianca innalzata il 13 agosto 1990 da tre amici (Giuseppe, Silvio e Valerio) con indicato “M. Piglione qui antecima sud-est m. 1188 Cima m 1233”. Essa si affaccia sulle piane di Lucca e di Pisa. / Invece sulla vetta principale (nord) è presente un cumulo di sassi con un’asta metallica ed il libro di vetta (2008). Essa si affaccia sulle Apuane meridionali e centrali. Una facile cresta, molto piacevole a percorrersi, unisce le due vette solcata da un sentiero molto panoramico sulle due valli, sulle Apuane, sull’Appennino e sul mare. In particolare a sud abbiamo il monte Prana poco più basso e di ugual conformazione geologica. / Il percorso più semplice per arrivare sul monte è un sentiero non numerato, ma segnato, che si stacca dal sentiero 103 (Groppa-Foce del Termine o del Crocione) presso la zona detta La Parte cui si perviene facilmente sia partendo dalla Groppa che dalla Foce del Crocione. Inoltre è possibile arrivare a La Parte anche salendo dai casolari di Rianchiani per via sterrata.',
-  '<h2>Trekking Casoli - Grotta all''onda - Piglione - Campo allorzo: Escursione in Montagna tra le Apuane</h2>
+  '<h2 id="escursione-casoli-grotta-onda-piglione-campo-allorzo">Escursione a Casoli, Grotta all''Onda, Piglione e Campo Allorzo</h2>
 
-<h3>Il percorso</h3>
-<p>Questo splendido <strong>sentiero di trekking</strong> in provincia di Lucca vi condurrà attraverso paesaggi mozzafiato delle <strong>Apuane</strong>. L''escursione parte da <strong>Casoli</strong> e si snoda attraverso la valle della Tùrrite Cava, offrendo un''esperienza autentica nella <strong>natura italiana</strong>.  Il percorso è adatto a <strong>trekking</strong> ed <strong>escursioni</strong> di diversa difficoltà, permettendovi di immergervi nella bellezza della <strong>montagna</strong> e della <strong>natura</strong> circostante.  Potrete ammirare panorami unici sul mare, sulle Apuane e sull''Appennino, con tappe facilmente raggiungibili lungo il <strong>sentiero</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa escursione è facilmente raggiungibile da Casoli. Si può accedere tramite strada sterrata da Rianchiani, oppure tramite il sentiero 103 dalla Groppa o dalla Foce del Termine. La Grotta all''Onda è un ottimo punto di partenza, consentendo di esplorare il sentiero che sale verso il Monte Piglione.</p>
 
-<h3>Cosa aspettarsi</h3>
-<ul>
-    <li>Percorso non numerato, ma segnato, ideale per <strong>trekking</strong> ed <strong>escursioni</strong>.</li>
-    <li>Difficoltà: Facile/Media - Adatto a <strong>escursionisti</strong> esperti e principianti.</li>
-    <li>Distanza: Circa 2/112 km (la distanza esatta può variare a seconda del percorso seguito).</li>
-    <li>Dislivello: Circa 600 metri (il dislivello varia a seconda del punto di partenza e dell''itinerario scelto).</li>
-    <li>Punti di Interesse: <strong>Monte Piglione</strong>, con due vette (nord e sud) e una vetta minore, una croce bianca innalzata e un cumulo di sassi con un''asta metallica e un libro di vetta.</li>
-    <li>Vista panoramica: <strong>Panorami</strong> mozzafiato sulle Apuane, sulla valle della Tùrrite Cava, sulle piane di Lucca e di Pisa, e sul mare.</li>
-</ul>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Il percorso si snoda attraverso un sentiero ben tracciato, partendo dalla Grotta all''Onda e salendo verso il Monte Piglione. Il sentiero non è numerato, ma è facilmente identificabile grazie ai segnavia. Percorrendo la cresta, si ha una vista spettacolare sulle due valli, sulle Apuane, sull''Appennino e sul mare.  Si passa per la località Lenca, la Focetta di San Vincenzo, e si può scegliere di salire prima sul Monte Tondo, oppure proseguire direttamente verso la vetta del Monte Piglione. Il percorso è piacevole e adatto a escursionisti con una buona preparazione fisica.</p>
 
-<h3>Informazioni utili</h3>
-<p>Il <strong>sentiero</strong> parte da <strong>Casoli</strong> e conduce alla <strong>Grotta all''onda</strong>, proseguendo poi verso <strong>Piglione</strong> e infine a <strong>Campo allorzo</strong>.  Potete raggiungere la vetta del <strong>Monte Piglione</strong> seguendo un sentiero ben segnalato che si stacca dal <strong>sentiero</strong> 103 (Groppa-Foce del Termine o del Crocione) presso la zona detta La Parte. In alternativa, si può salire a La Parte anche da Rianchiani via sterrata.  L''ultima vetta del percorso è il <strong>Monte Piglione</strong>, la più orientale delle Apuane meridionali, con una quota massima di 1233 metri.  Questa <strong>escursione di trekking</strong> è un''opportunità unica per scoprire la bellezza dei <strong>sentieri Italia</strong> e ammirare la maestosità delle <strong>Apuane</strong>.  Perfetta per gli amanti del <strong>trekking</strong> e delle <strong>escursioni</strong> nella <strong>montagna</strong>.</p>
-<p><em>Ricordate di controllare le previsioni meteo prima di partire e di indossare scarpe da trekking adatte.</em></p>',
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione presenta una difficoltà **Media**. Il dislivello è di circa 1360 metri, quindi richiede una certa resistenza fisica. Il sentiero è ben tracciato, ma presenta alcuni tratti in salita e discesa, e richiede un minimo di esperienza nell''escursionismo. È consigliabile indossare scarpe da trekking e abbigliamento adeguato alle condizioni meteorologiche.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>
+    <strong id="distanza">Distanza:</strong> Circa 20.36 km (anello)
+    <strong id="dislivello">Dislivello:</strong> Circa 1360 metri
+    <strong id="difficoltà">Difficoltà:</strong> Media
+</p>
+<p>Per visualizzare la <a href="#">traccia GPS</a> di questa escursione, consulta il link qui sotto.  Si consiglia di scaricare la traccia in un''applicazione di navigazione per smartphone prima dell''escursione.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong id="distanza">Distanza:</strong> Circa 20.36 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 1360 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Media</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Grotta all''Onda, accessibile in auto o a piedi da Rianchiani</li>
+    <li><strong id="comune">Comune:</strong> Casoli, Toscana</li>
+    <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico non numerato, segnato</li>
+    <li><strong id="parco-nazionale">Parco Nazionale:</strong> Parco Nazionale delle Apuane</li>
+</ul>',
   'Tutte le Attività e Paesi',
   20.36,
   1360,

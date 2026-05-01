@@ -7,38 +7,31 @@ VALUES (
   87372464,
   'Annello: Castellaccio - Romito - Maroccone',
   'FACILE ALLA PORTATA DI TUTTI La discesa dal Castellaccio è semplice e ben segnata, il tratto finale se piove è pericoloso, altrimenti non vi sono problemi di nessun tipo. Prestare attenzione sulla strada Tratto in salita facile, ben segnalato ma occhio a i cinghiali ne abbiamo trovato uno.',
-  '<h2>Annello: Castellaccio - Romito - Maroccone - Escursione Trekking in Montagna</h2>
+  '<h2 id="annello-castellaccio-romito-maroccone">Annello: Castellaccio - Romito - Maroccone</h2>
 
-<h3>Il percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa bellissima escursione è all''inizio del paese di Castellaccio, in Toscana. È facilmente raggiungibile in auto, seguendo le indicazioni per il paese. Il parcheggio più comodo è vicino alla chiesa del paese, da cui si parte subito sul sentiero.</p>
 
-<p>Questo splendido <em>annello di trekking</em> vi condurrà attraverso alcuni dei paesaggi più suggestivi della Garfagnana, in Toscana. L''<em>escursione</em> inizia con una facile discesa dal <strong>Castellaccio</strong>, un''imponente formazione rocciosa, e prosegue attraverso il <strong>Romito</strong> e poi fino al <strong>Maroccone</strong>, offrendo panorami mozzafiato sulla valle sottostante.  Adatto a tutti, questo <em>sentiero di trekking</em> è una perfetta introduzione all''esplorazione della <em>montagna</em> e della <em>natura</em> italiana.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia con una discesa dal **Castellaccio**, un sentiero ben tracciato e facile, perfetto anche per i principianti.  La discesa è semplice e ben segnata, ma attenzione perché il tratto finale, soprattutto in caso di pioggia, può diventare scivoloso.  Proseguendo, si entra nel **Romito**, un ambiente naturale selvaggio e affascinante, con un tratto in salita facile ma ben segnalato.  Durante l''escursione, tenete gli occhi aperti: ne abbiamo avvistato uno! Un breve tratto si svolge lungo la strada, con una salita moderata. Infine, si raggiunge il **Maroccone**, offrendo un panorama mozzafiato sulla valle e sulla **montagna** circostante. Questo è un vero e proprio anello di **escursione** che vi permetterà di ammirare i panorami.</p>
 
-<p>Il percorso è prevalentemente in salita, ma ben segnalato e di difficoltà <em>facile</em>, ideale per una <em>escursione</em> di un giorno per famiglie e appassionati di <em>trekking</em>.  L''<em>annello</em> permette di ammirare diverse zone di interesse, dalla roccia scoscesa del Castellaccio alle praterie del Romito, culminando con la vista sul massiccio del Maroccone.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa **escursione** è classificata come **Media**, adatta a escursionisti con un livello di preparazione intermedio.  La distanza totale è di circa 10,56 km con un **dislivello** di +300 metri.  Preparatevi a camminare per diverse ore e ad affrontare salite e discese.  È consigliabile indossare scarpe da trekking e portare con sé acqua, snack e un kit di pronto soccorso.</p>
 
-<h3>Cosa aspettarsi</h3>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Potete scaricare una <strong >traccia GPS</strong> per questa **escursione** per guidarvi durante il percorso.  Ricordate di consultare sempre le previsioni del tempo prima di partire e di informare qualcuno del vostro itinerario.</p>
 
-<ul>
-    <li>Facile <em>sentiero di trekking</em> adatto a tutti i livelli.</li>
-    <li>Panorami mozzafiato sulla Valca e sulla Garfagnana.</li>
-    <li>Possibilità di avvistare la fauna locale, tra cui <em>cinghiali</em>.</li>
-    <li>Percorso ben segnalato e di facile percorrenza.</li>
-    <li>Adatto per una giornata di <em>trekking</em> in <em>montagna</em>.</li>
-</ul>
-
-<p>Ricordatevi di controllare le previsioni meteo prima di partire e di indossare scarpe da trekking adatte.  L''<em>escursione</em> sul <strong>Castellaccio - Romito - Maroccone</strong> è un''esperienza indimenticabile per gli amanti del <em>trekking</em> in <em>Italia</em>.</p>
-
-<h3>Informazioni utili</h3>
-
-<ul>
-    <li><strong>Distanza:</strong> Circa 12-14 km</li>
-    <li><strong>Dislivello:</strong> Circa 500-600 metri</li>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Tempo di percorrenza:</strong> Circa 4-5 ore</li>
-    <li><strong>Punto di partenza:</strong> Castellaccio (parcheggio)</li>
-    <li><strong>Consigli:</strong> Portare acqua, snack, scarpe da trekking, cappello e crema solare. Fate attenzione alla strada durante la discesa, soprattutto in caso di pioggia.</li>
-</ul>
-
-<p>Scoprite la bellezza del <em>trekking</em> in Toscana con questo <em>sentiero</em>! Un''<em>escursione</em> perfetta per chi cerca un''<em>escursione</em> <em>facile</em> e ricca di emozioni nella <em>montagna</em> e nella <em>natura</em> italiana.  Organizzate la vostra <em>escursione</em> di un giorno al <strong>Castellaccio - Romito - Maroccone</strong>!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong >Distanza:</strong> Circa 10.56 km (anello)</li>
+  <li><strong >Dislivello:</strong> Circa 300 metri</li>
+  <li><strong >Difficoltà:</strong> Media</li>
+  <li><strong >Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong >Punto di partenza:</strong> Inizio paese di Castellaccio, Toscana</li>
+  <li><strong >Comune:</strong> Castellaccio, Toscana</li>
+  <li><strong >Regione:</strong> Italia</li>
+  <li><strong >Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.56,
   300,

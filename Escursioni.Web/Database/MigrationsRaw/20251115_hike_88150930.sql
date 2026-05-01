@@ -7,30 +7,39 @@ VALUES (
   88150930,
   'Parrana - Colognole - Valle Benedetta',
   'Partenza da Parrana e senza problemi abbiamo seguito tuto il tempo sentieri del CAI ben segnati, tra il km 4/5 il sentiero ea dissestato come al km9.8 colpa di un alluvio inizio 2021, ma tranquillamente praticabile. Al km12.5 abbiamo preso un breve fuori pista, si può omettere, tirando a dritto sul sentiero. Il rientro a Parrana è stato molto semplice in discesa, non lo consiglio a chiunque per la difficoltà in alcuni punti, sconsiglio d''andare dopo forti piogge. Per il resto lasciate un commento e buon trek!',
-  '<h2>Parrana - Colognole - Valle Benedetta: Trekking e Escursione nel Cuore della Montagna Toscana</h2>
+  '<h2 id="parrana-cognole-valle-benedetta">Escursione a Parrana, Colognole e Valle Benedetta</h2>
 
-<h3>Il Percorso: Un Sentiero CAI Ben Segnato tra Natura e Paesaggi Incredibili</h3>
-<p>
-Questo itinerario di <strong>trekking</strong> e <strong>escursione</strong> vi condurrà attraverso il magnifico paesaggio della **Valle Benedetta**, partendo da <strong>Parrana</strong> e raggiungendo il punto più lontano. Il sentiero, prevalentemente ben segnalato dal <strong>CAI</strong>, offre un''esperienza immersiva nella natura toscana. Il percorso, di circa 12-15 km, è adatto ad escursionisti esperti e amanti del <strong>trekking</strong> in <strong>montagna</strong>, con brevi tratti in <strong>fuori pista</strong> facilmente superabili.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>La partenza per questa bella escursione si trova a <strong>Parrana San Martino</strong>, in provincia di <strong>Toscana</strong>.  Raggiungere Parrana è relativamente semplice: si può arrivare in auto, seguendo le indicazioni stradali per Parrana San Martino.  Da lì, il sentiero inizia direttamente dal paese, seguendo i percorsi segnalati del CAI.  Non ci sono particolari difficoltà di accesso, solo un breve tratto su strada sterrata per raggiungere il punto di partenza.</p>
 
-<h3>Cosa Aspettarsi: Un''Escursione Ricca di Sfide e Ricompense</h3>
-<p>
-Preparatevi a un''<strong>escursione</strong> che vi farà scoprire panorami mozzafiato e un ambiente naturale incontaminato. Il sentiero presenta un dislivello moderato, con alcuni tratti più impegnativi, specialmente nel ritorno a <strong>Parrana</strong>. È importante essere adeguatamente equipaggiati e avere una buona preparazione fisica. Il <strong>sentiero</strong> è stato parzialmente modificato a causa di un alluvione nel 2021, ma rimane praticabile e offre comunque un''esperienza indimenticabile. La possibilità di brevi tratti in <strong>fuori pista</strong> aggiunge un elemento di avventura a questa <strong>trekking</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questa escursione è un vero gioiello! Partendo da <strong>Parrana</strong>, ci si inoltra immediatamente in un sentiero ben tracciato del CAI. Il percorso è prevalentemente facile e lineare, con alcuni brevi tratti su sentiero dissestato, come segnalato a km 4/5, dove un alluvione del 2021 ha modificato il percorso.  A km 9.8, si prende un breve tratto fuori pista, facilmente omettile se si preferisce un percorso più diretto.  La salita è costante ma non impegnativa, e il sentiero offre panorami mozzafiato sulla <strong>Valle Benedetta</strong>. Il ritorno a <strong>Parrana</strong> è una discesa dolce e ben definita, ma tenete presente che alcune sezioni potrebbero risultare impegnative per chi non è abituato a discese ripide.  Un’escursione da fare con calma e godendosi la natura!</p>
 
-<h3>Informazioni Utili: Dettagli per una Trekking Sicura e Appagante</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa <strong>escursione</strong> è classificata come <strong>Facile</strong>, ideale per famiglie e per chi cerca un trekking non troppo impegnativo.  La <strong>distanza totale</strong> è di circa <strong>17.38 km</strong> con un <strong>dislivello positivo di 674 metri</strong>.  Si tratta di un <strong>solo andata</strong>, quindi preparatevi adeguatamente per il ritorno.  È importante indossare scarpe da trekking e portare con sé acqua, snack e una mappa.  Evitate di effettuare questa escursione dopo forti piogge, a causa della presenza di sentieri dissestati e della difficoltà della discesa.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>La traccia GPS di questa escursione è disponibile a breve, a seguito dei test. Nel frattempo, vi forniamo le informazioni pratiche principali:</p>
 <ul>
-    <li><strong>Difficoltà:</strong> Media/Difficile</li>
-    <li><strong>Distanza:</strong> Circa 12-15 km</li>
-    <li><strong>Dislivello:</strong> Circa 400-500 metri</li>
-    <li><strong>Periodo Consigliato:</strong> Primavera/Estate/Autunno</li>
-    <li><strong>Punto di Partenza:</strong> Parrana</li>
-    <li><strong>Punto di Arrivo:</strong> Valle Benedetta</li>
-    <li><strong>Attenzione:</strong> Si consiglia di evitare il percorso dopo forti piogge a causa della discesa impegnativa.  Il sentiero CAI è ben segnalato, ma è consigliabile avere con sé una mappa e una bussola.</li>
-    <li><strong>Consigli:</strong>  Preparatevi adeguatamente, indossate scarpe da trekking robuste, portate con voi acqua e cibo, e rispettate l''ambiente naturale.  Quest''<strong>escursione</strong> nel cuore della **montagna** toscana è un''ottima opportunità per praticare il <strong>trekking</strong> in Italia.</li>
+    <li><strong>Distanza:</strong> Circa 17.38 km (solo andata)</li>
+    <li><strong>Dislivello:</strong> Circa 674 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parrana San Martino, accessibile in auto</li>
+    <li><strong>Comune:</strong> Parrana San Martino, Regione Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>
-Scoprite la bellezza della **Valle Benedetta** e vivete un''esperienza di <strong>trekking</strong> indimenticabile. Buon <strong>sentiero</strong>! Lasciate un commento e condividete la vostra esperienza di <strong>trekking</strong> in questa splendida zona.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 17.38 km (solo andata)</li>
+    <li><strong>Dislivello:</strong> Circa 674 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parrana San Martino, accessibile in auto</li>
+    <li><strong>Comune:</strong> Parrana San Martino, Regione Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   17.38,
   674,

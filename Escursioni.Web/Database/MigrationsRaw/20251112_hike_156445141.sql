@@ -7,30 +7,39 @@ VALUES (
   156445141,
   'Vecchiano - Monte Spazzavento - Monte del Legnaio - Friends In Trekking',
   'Percorso che nella sua interezza è turistico, tranne la parte escursionistica che riguarda l''appendice (opzionale) che porta allo Spazzavento. Abbiamo parcheggiato nei pressi del sentiero così da imboccarlo subito il sentiero 103 (Anello di Vecchiano https://hiking.waymarkedtrails.org/#route?id=3567833&map=15.0/43.7936/10.3952) si presenta quasi sempre largo e due persone possono passare affianco il percorso seguito dalla traccia allontana il sentiero cai in tre punti: 1) appendice per arrivare al Santuario di Santa Maria in Castello 2)per arrivare al monte Spazzavento, parte che se si vuole possiamo evitare c''è un pò di ghiaia e in dicesa si deve prestare attenzione 3) Il tratto che porta al Monte del Legnaio. Il dislivello non impegna mai il fisico tranne forse nel tratto che porta al Monte del Legnaio a sono pochi metri, sicuramente un no nulla per qualcuno abituato a camminare. Abbiamo toccato i seguenti Punti: - La chiesa di Santa Maria in Castello si trova a Vecchiano, la chiesa risulta esistente fin dal 1136, compresa nell''antico castello di Vecchiano citato già nel 1120 nei documenti della cattedrale pisana.La chiesa, divenuta santuario durante il Giubileo del 2000, ha l''uso liturgico riservato al pievano di Vecchiano - Monte Spazzavento (156mt) - Monte Legnaio (183mt)',
-  '<h2>Vecchiano - Monte Spazzavento - Monte del Legnaio - Friends In Trekking: Escursione in Montagna a Vecchiano</h2>
+  '<h2 id="escursione-vecchiano-monte-spazzavento-monte-del-legnaio-friends-in-trekking">Escursione a Vecchiano, Monte Spazzavento e Monte del Legnaio</h2>
 
-<h3>Il percorso</h3>
-<p>
-Immergiti in un''esperienza di <strong>trekking</strong> indimenticabile lungo il sentiero che collega <strong>Vecchiano</strong> al maestoso <strong>Monte Spazzavento</strong> e al <strong>Monte del Legnaio</strong>. Questo percorso, ideale per <strong>escursioni</strong> di diversa difficoltà, ti conduce attraverso paesaggi mozzafiato della <strong>montagna</strong> italiana, offrendo la possibilità di ammirare la bellezza della <strong>natura</strong> e godere di un''attività all''aria aperta.  La traccia del sentiero, parte del sentiero 103 dell''Anello di Vecchiano, è una vera e propria porta sull''esplorazione dei sentieri Italia, un''opportunità unica per un''<strong>escursione</strong> memorabile.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bella escursione a anello è vicino alla chiesa di Santa Maria in Castello, a Vecchiano.  È facilmente raggiungibile in auto e poi si imbocca il sentiero 103, un anello di Vecchiano che offre un ottimo punto di accesso alla parte escursionistica del percorso.  Il parcheggio è disponibile nei pressi del sentiero, consentendoti di iniziare subito l''avventura!</p>
 
-<h3>Cosa aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Inizieremo con una passeggiata quasi sempre ampia e facile lungo il sentiero 103, un anello di Vecchiano, che ci porterà fino allo Spazzavento. Il sentiero è progettato per permettere il passaggio di due persone contemporaneamente, rendendo l''escursione piacevole per tutti.  Seguiremo il sentiero allontanandosi dal sentiero CAI in tre punti principali: 1) per raggiungere l''appendice che porta al Santuario di Santa Maria in Castello; 2) per proseguire verso il Monte Spazzavento, dove in alcuni tratti il sentiero è cosparso di ghiaia, richiedendo attenzione; 3) per l''ultimo tratto fino al Monte del Legnaio. Il dislivello è contenuto, con un piccolo sforzo solo nell''ultimo tratto verso il Monte del Legnaio.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è classificata come **Facile**, adatta a escursionisti di tutti i livelli. Il dislivello totale è di circa 475 metri, ma la pendenza è generalmente dolce, rendendo il percorso accessibile anche a chi non ha molta esperienza.  Ci aspettiamo una giornata piacevole in montagna, con panorami mozzafiato.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Questo percorso offre la possibilità di esplorare la natura e ammirare il panorama.  Per una maggiore sicurezza e per ritrovare il percorso, è consigliabile utilizzare una traccia GPS.  Ecco i dati principali per l''escursione:</p>
 <ul>
-    <li>Un percorso facilmente accessibile, adatto a <strong>trekking</strong> di diversa esperienza.</li>
-    <li>Distanza complessiva: [Dati da inserire] (Adatta alla tua tipologia di escursione)</li>
-    <li>Dislivello: Basso, con brevi tratti in salita, perfetto per chi cerca una <strong>escursione</strong> non troppo impegnativa.</li>
-    <li>Terreno: In gran parte ghiaioso, con sezioni che richiedono attenzione, soprattutto in discesa.</li>
-    <li>Possibilità di ammirare panorami spettacolari sulle colline circostanti e sulla valle.</li>
+    <li>**Distanza:** Circa 10.63 km (anello)</li>
+    <li>**Dislivello:** Circa 475 metri</li>
+    <li>**Difficoltà:** Facile</li>
+    <li>**Periodo consigliato:** Primavera, Estate, Autunno</li>
+    <li>**Punto di partenza:** Chiesa di Santa Maria in Castello, Vecchiano</li>
+    <li>**Comune:** Vecchiano, Toscana</li>
+    <li>**Tipo di sentiero:** Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni utili</h3>
-<p>
-Il sentiero parte dai parcheggi convenienenti, permettendoti di iniziare subito l''<strong>escursione</strong>.  La traccia si snoda inizialmente lungo un sentiero ampio e largo, ideale per il passaggio di due persone.  Nel corso del percorso, potrai ammirare: l''appendice che conduce al <strong>Santuario di Santa Maria in Castello</strong>, un luogo di culto di grande interesse storico e religioso; il <strong>Monte Spazzavento</strong> (156mt) e il <strong>Monte Legnaio</strong> (183mt) che offrono punti panoramici di grande valore; e il tratto finale che porta al <strong>Monte del Legnaio</strong>.  Il dislivello è contenuto, rappresentando una sfida accessibile anche a chi non è particolarmente allenato.  Non mancherà l''opportunità di visitare la Chiesa di Santa Maria in Castello, con la sua storia che risale al 1136, un vero e proprio gioiello storico e culturale.  In alcuni tratti, la traccia si allontana dal sentiero CAI, offrendo un''esperienza più selvaggia e autentica.  Ricorda di prestare attenzione in discesa, per garantire la massima sicurezza durante la tua <strong>escursione</strong> in montagna.
-</p>
-
-<p>
-Quest''<strong>escursione</strong> a <strong>Vecchiano</strong> è un''ottima opportunità per praticare <strong>trekking</strong> e <strong>escursioni</strong> in <strong>montagna</strong>, immergendoti nella <strong>natura</strong> e scoprendo i tesori nascosti del territorio italiano.  Perfetta per un weekend con gli amici o in famiglia, questa <strong>trekking</strong> ti aspetta!
-</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong id="distanza">Distanza:</strong> Circa 10.63 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 475 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Chiesa di Santa Maria in Castello, accessibile in auto</li>
+    <li><strong id="comune">Comune:</strong> Vecchiano, Toscana</li>
+    <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.63,
   475,

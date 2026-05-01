@@ -7,25 +7,39 @@ VALUES (
   88398726,
   'Torcigliano - Pedone - Prana - Campo All''orzo - Baite',
   'Partenza da Torcigliano, il sentiero che abbiamo imboccato all''andata, non era perfettamente senato e abbiamo trovato un po'' di rovi nei primi 600/700 mt. Dopo i rovi il sentiero sarà SEMPRE facile da seguire, partirà la parte della cresta NON vi sono punti esposti, e sarà tutta salita fino in cima al Prana. Abbiamo fatto una piccola deviazione (opzionale) sul monte Pedone, e in seguito siamo proseguiti in vetta. Dalla vetta del Prana si gode di uno spettacolare panorama consiglio di fermarsi li per pranzo(cosa che abbiamo fatto); in seguito abbiamo proseguito verso camp all''Orzo dove c''è una vecchia chiesa molto bella, e completando il giro passando da 2 baite. Consiglio d''estate almeno 3l d''acqua vi è una fontanella verso il km 7 (ma non fateci troppo affidamento) SCARPE ADEGUATE MI RACCOMANDO',
-  '<h2>Torcigliano - Pedone - Prana - Campo All''orzo - Baite: Escursione Trekking in Montagna</h2>
+  '<h2 id="torcigliano-pedone-prana-campo-allorzo-baite">Escursione a Torcigliano, Pedone, Prana, Campo All''orzo e Baite</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo affascinante <strong>sentiero di trekking</strong> conduce attraverso paesaggi mozzafiato della **montagna** italiana, partendo da <strong>Torcigliano</strong> e raggiungendo la cima del <strong>Prana</strong>. L''escursione, adatta ad escursionisti esperti, offre una giornata indimenticabile di <strong>trekking</strong> e <strong>escursione</strong> in natura, immersi nella ricca flora e fauna della regione.</p>
-<p>Il percorso inizia con un tratto di <strong>sentiero</strong> non completamente battuto, con alcuni rovi nei primi 600/700 metri.  Tuttavia, una volta superati questi ostacoli, il <strong>sentiero</strong> diventa sempre più facile da seguire, offrendo un''esperienza di <strong>trekking</strong> naturale e sicura.  La salita fino al <strong>Prana</strong> è costante, ma grazie alla cresta non vi sono punti esposti, rendendo la <strong>escursione</strong> confortevole.</p>
-<p>Si suggerisce una deviazione opzionale sul <strong>monte Pedone</strong> per godere di una vista panoramica aggiuntiva,  successivamente si prosegue verso <strong>Campo All''orzo</strong>, caratterizzato da una vecchia chiesa.  Il giro si completa passando tra le tradizionali <strong>baite</strong> della zona, un''esperienza autentica nel cuore dell''Appennino.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>La partenza per questa bella escursione è a <strong>Torcigliano</strong>, un piccolo borgo immerso nel cuore della **Toscana**. Raggiungere Torcigliano è possibile in auto, seguendo le indicazioni stradali per il paese. Da qui, seguiamo il sentiero che inizia la nostra avventura.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia da Torcigliano e si snoda attraverso un sentiero che, nei primi tratti, presenta alcuni dislivelli e rovi. Dopo circa 600-700 metri, il sentiero diventa più agevole, seguendo una cresta senza punti esposti, con una lunga salita fino alla vetta del <strong>Prana</strong>.  Abbiamo fatto una piccola deviazione sul <strong>Monte Pedone</strong>, godendoci il panorama e facendo una pausa pranzo alla <strong>Campo All''orzo</strong>, dove si trova una vecchia chiesa. Il percorso prosegue poi verso le <strong>Baite</strong>, completando il giro. Ricorda, scarpe adatte sono fondamentali!</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di difficoltà <strong>Media</strong>. La lunghezza del percorso è di circa <strong>16.62 km</strong> con un dislivello di <strong>+1176 m</strong>, rendendola adatta a escursionisti con un minimo di allenamento.  Prevedi almeno 3 litri d''acqua, la fontanella verso il km 7 potrebbe non essere sempre disponibile.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per aiutarti nella tua escursione, ecco alcuni dettagli utili: </p>
 <ul>
-    <li>Un <strong>trekking</strong> impegnativo, ma gratificante, con panorami spettacolari.</li>
-    <li>Un''immersione nella natura incontaminata della **montagna** italiana.</li>
-    <li>La possibilità di ammirare una vecchia chiesa e le tipiche <strong>baite</strong> della regione.</li>
-    <li>La presenza di rovi nei primi metri del <strong>sentiero</strong> (prepararsi adeguatamente).</li>
-    <li>Un''occasione per praticare <strong>trekking</strong> e <strong>escursione</strong> in un ambiente naturale unico.</li>
+    <li><strong>Distanza:</strong> Circa 16.62 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1176 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Torcigliano, accessibile in auto o a piedi</li>
+    <li><strong>Comune:</strong> Torcigliano, **Toscana**, **Italia**</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni Utili</h3>
-<p>La <strong>escursione</strong> in <strong>Torcigliano - Pedone - Prana - Campo All''orzo - Baite</strong> è una fantastica opportunità per gli amanti del <strong>trekking</strong> e dell''<strong>escursione</strong>.  È importante indossare <strong>scarpe adatte al trekking</strong> e portare con sé acqua e cibo, specialmente in estate, vista la scarsa disponibilità di fonti idriche. La distanza totale del <strong>sentiero</strong> è di circa 12-14 km con un dislivello di circa 800-900 metri.  Si consiglia di partire al mattino presto per evitare il caldo e garantire una giornata di <strong>trekking</strong> sicura e piacevole.  Un''alternativa è prevedere almeno 3 litri d''acqua, purtroppo non c''è una fontanella affidabile lungo il percorso.  La vetta del <strong>Prana</strong> offre uno spettacolare panorama per un pranzo al sacco, ideale per apprezzare i colori della **montagna**.</p>
-<p>Non dimenticate di verificare le previsioni meteo prima di partire e di informarsi sulle condizioni del <strong>sentiero</strong>.  La sicurezza è fondamentale durante qualsiasi <strong>escursione</strong> in <strong>montagna</strong>.  Godetevi questa magnifica <strong>escursione trekking</strong>!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong>Distanza:</strong> Circa 16.62 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1176 metri</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Torcigliano, accessibile in auto / a piedi</li>
+    <li><strong>Comune:</strong> Torcigliano, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   16.62,
   1176,

@@ -7,36 +7,37 @@ VALUES (
   210756323,
   'Ferrata buti',
   '✅ Completata anche la Ferrata di Sant’Antone di Buti — una delle più impegnative della Toscana — in tutte e tre le sue sezioni… e questa volta in solitaria! ->Precedente traccia https://www.wikiloc.com/via-ferrata-trails/ferrata-di-buti-ferrata-di-santantone-153503172 📢 Se decidete di provarla, lasciate un commento o una recensione: mi farebbe piacere conoscere la vostra opinione! ⚠️ Tutto ciò che scrivo si basa esclusivamente sulla mia esperienza personale e soggettiva. Non sottovalutate la difficoltà della ferrata: è obbligatorio avere l’attrezzatura adeguata (imbrago, casco, kit da ferrata, scarponi). 💪 Mi aspettavo un percorso più faticoso in senso generale, anche se in alcuni tratti ho trovato passaggi tecnicamente impegnativi. La ferrata è fattibile da chi ha esperienza e una buona base muscolare, ma mai da prendere alla leggera, soprattutto per via dell’esposizione e della fatica richiesta. Ci sono sezioni molto toste dove serve piena concentrazione. È decisamente più difficile rispetto a quelle del Forato, del Procinto e del Sumbra — anche se meno panoramica. 🕒 Io ho impiegato 1h40’ in solitaria +20 min per arrivare all''attacco. In condizioni ideali, si può completare in 1h30’ - 2h. 🧗‍♂️ La Ferrata È l’unica via ferrata dei Monti Pisani, si sviluppa in senso SE → NO, a una quota tra i 410 e i 536 metri. Fin da subito risulta faticosa, con passaggi tecnici e tratti molto esposti. È fondamentale non soffrire di vertigini e avere un buon allenamento fisico. Ogni chiodo è numerato, cosa molto utile durante il percorso. 🚗 Il Parcheggio Si trova 300-400 metri prima dell’attacco, salendo da Buti sulla destra. È piuttosto ampio: ci stanno circa 10 auto. Oppure si può parcheggiare a quello alla fine della ferrata e scendere per il sentiero(cosa che stavolta ho fatto). 🥾 Accesso alla Ferrata Dalla strada si trova un cartello ben visibile. Seguendolo per circa 2-300 metri si arriva all’attacco della ferrata. 🧱 Descrizione del Percorso La ferrata è divisa in tre sezioni, collegate da brevi tratti nel bosco. Attenzione: se ha piovuto da poco, le suole potrebbero bagnarsi e ridurre l’aderenza. 🔹 Prima parte – Chiodo 1 → 64 Tratto molto muscolare e verticale fin da subito, con difficoltà tecniche evidenti. Si usano staffe nella roccia e c’è già una forte esposizione. Lo scambio dei moschettoni è spesso scomodo. C’è una scaletta impegnativa e un tratto verticale non banale. Si arriva alla Madonnina della ferrata, dove si affronta un passaggio con appoggi per i piedi poco visibili ma molto utili. 🔹 Seconda parte – Chiodo 65 → 105 La parte che personalmente ho trovato più semplice e meno faticosa, anche se non priva di difficoltà. Il panorama è bellissimo e ci sono punti stabili dove è possibile scattare foto. Un tratto davvero godibile. 🔹 Terza parte – Chiodo 106 → 165 Inizia con una decina di chiodi in verticale: si lavora molto con le mani. In alcuni punti si procede con relativa tranquillità, ma ci sono pareti verticali e una discesa tecnica(ma semplice per chi ha esperienza in scalate). L’ultima parte è la più difficile dell’intera ferrata: richiede molta forza di braccia e massima attenzione. Al chiodo 165, si arriva a un bivio: A sinistra: si attraversa un mini ponte tibetano che porta in un camino da cui si esce in verticale, con un tratto davvero tosto. A destra: si sale verticalmente verso l’uscita più semplice, meno impegnativa.',
-  '<h2>Ferrata Buti Toscana: Guida Completa Sentiero e Traccia</h2>
+  '<h2 id="ferrata-buti">Ferrata Buti</h2>
 
-<h3>Il Percorso</h3>
-<p>
-L''escursione alla Ferrata Buti, una delle più impegnative della Toscana, è un''esperienza unica per gli amanti del trekking e dell''arrampicata sportiva. Questo sentiero, situato nei Monti Pisani, offre panorami mozzafiato e sfide tecniche che richiedono preparazione e attrezzatura adeguata. La ferrata, sviluppata in senso SE da 410 a 536 metri, è divisa in tre sezioni, con passaggi muscolari, verticali e esposti che metteranno alla prova la tua forza e la tua concentrazione.  Esplora questo fantastico sentiero di ferrata!
-</p>
-<p>
-La Ferrata Buti è l''unica via ferrata dei Monti Pisani, si sviluppa in senso SE → NO, e si può completare in 1h30’ - 2h in condizioni ideali.  La difficoltà è alta, quindi è obbligatorio avere l''attrezzatura adeguata (imbrago, casco, kit da ferrata, scarponi). La ferrata è fattibile da chi ha esperienza e una buona base muscolare, ma mai da prendere alla leggera, soprattutto per via dell’esposizione e della fatica richiesta. Ci sono sezioni molto toste dove serve piena concentrazione.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa Aspettarsi</h3>
-<p>
-Preparati a un trekking impegnativo e adrenalinico! La Ferrata Buti presenta tratti muscolari, verticali e esposti che richiederanno uno sforzo fisico notevole. La tecnica di arrampicata su ferrata è fondamentale, e l''esperienza in questo tipo di ambiente è altamente raccomandata.  La sensazione di superare le difficoltà e godere dei panorami mozzafiato ti darà un''esperienza indimenticabile.  Questo sentiero è perfetto per gli escursionisti esperti che cercano una sfida.
-</p>
+<p>L''attacco alla ferrata si trova a Buti, facilmente raggiungibile in auto. Dal paese, si segue la strada che sale per circa 300-400 metri fino all''attacco, situato sulla destra. In alternativa, è possibile parcheggiare all''estremità della ferrata e scendere per il sentiero che porta all''attacco.</p>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><b>Difficoltà:</b> Alta</li>
-    <li><b>Distanza:</b> Circa 6.5 km (andata e ritorno)</li>
-    <li><b>Dislivello:</b> 800 metri</li>
-    <li><b>Tempo di percorrenza:</b> 1h30’ - 2h (in condizioni ideali)</li>
-    <li><b>Periodo consigliato:</b> Da maggio a ottobre</li>
-    <li><b>Attrezzatura obbligatoria:</b> Imbrago, casco, kit da ferrata, scarponi da trekking</li>
-</ul>
-<p>
-Il Parcheggio si trova 300-400 metri prima dell’attacco, salendo da Buti sulla destra. È piuttosto ampio: ci stanno circa 10 auto. Oppure si può parcheggiare a quello alla fine della ferrata e scendere per il sentiero(cosa che stavolta ho fatto).</p>
-<p>
-La Ferrata è l’unica via ferrata dei Monti Pisani, si sviluppa in senso SE → NO, a una quota tra i 410 e i 536 metri. Fin da subito risulta faticosa, con passaggi tecnici e tratti molto esposti. È fondamentale non soffrire di vertigini e avere un buon allenamento fisico. Ogni chiodo è numerato, cosa molto utile durante il percorso. </p>
-<p>
-Attenzione: se ha piovuto da poco, le suole potrebbero bagnarsi e ridurre l’aderenza. </p>',
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>La ferrata è divisa in tre sezioni, con un totale di 165 chiodi. La prima sezione è la più impegnativa, con passaggi muscolari e verticali, staffe e una scaletta impegnativa. La seconda sezione offre un panorama bellissimo e tratti più agevoli. La terza sezione è la più difficile, richiedendo molta forza e attenzione, con un mini ponte tibetano e una discesa tecnica.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>La Ferrata di Buti è considerata una delle più impegnative della Toscana. È classificata come Difficile e richiede un''esperienza pregressa in ferrata, una buona base muscolare e la presenza di attrezzatura adeguata (imbrago, casco, kit da ferrata, scarponi). Non sottovalutate la difficoltà, soprattutto per via dell''esposizione e della fatica richiesta. Alcuni tratti sono tecnicamente impegnativi e richiedono piena concentrazione. È fondamentale non soffrire di vertigini e avere un buon allenamento fisico.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p><strong>Distanza:</strong> Circa 2.04 km (anello) <br><strong>Dislivello:</strong> Circa 274 metri <br><strong>Difficoltà:</strong> Difficile <br><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno <br><strong>Punto di partenza:</strong> Buti (accessibile in auto / a piedi) <br><strong>Comune:</strong> Buti, Toscana, Italia <br><strong>Tipo di sentiero:</strong> Ferrata</p>
+
+<p>Si trova nel Parco Nazionale delle Foreste Casentinesi, del Belverno e della Tarasconi.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+    <li><strong>Distanza:</strong> Circa 2.04 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 274 metri</li>
+    <li><strong>Difficoltà:</strong> Difficile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Buti (accessibile in auto / a piedi)</li>
+    <li><strong>Comune:</strong> Buti, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Ferrata</li>
+</ul>',
   'Tutte le Attività e Paesi',
   2.04,
   274,

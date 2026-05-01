@@ -7,25 +7,43 @@ VALUES (
   169560138,
   'Gevoli da Casoli con deviazione sul Gabberi',
   'Bel giro ma Difficile nel primo tratto segnato molto male, spesso si va fuori sentiero e si perde la dritta via sino il problema si ha sino ad arrivare la callare. da Casoli consiglio di prendere il sentiero c8 e poi il c3 sino a prendere il 107 che porta su entrambe le vette. Il Gabberi probabilmente è il monte da cui si gode il panorama migliore sul mare delle alpi meridionali, salita tosta ma fattibile . Il gevoli invece presenta delle difficoltà in quanto il sentiero non è segnato ma è semplice da raggiungere',
-  '<h2>Gevoli da Casoli con deviazione sul Gabberi: Escursione Trekking in Montagna</h2>
+  '<h2 id="escursione-gevoli-da-casoli-con-deviazione-sul-gabberi">Escursione a Gevoli da Casoli con Deviazione sul Gabberi</h2>
 
-<h3>Il percorso</h3>
-<p>Preparati per un’escursione indimenticabile sul <strong>Gevoli</strong>, una meta ambita per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>montagna</strong>. Il sentiero parte da <strong>Casoli</strong> e offre un’esperienza di <strong>sentiero</strong> immersa nella bellezza della natura. Il percorso iniziale presenta delle difficoltà, con tratti non ben segnalati e spesso fuori dai <strong>sentieri</strong>, rendendo necessaria una buona orientamento. Per evitare questi imprevisti, consigliamo di seguire il sentiero C8 e il C3 fino al tracciato del 107, che conduce alle due vette.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa aspettarsi</h3>
-<p>Quest''<strong>escursione</strong> sul <strong>Gevoli</strong> ti offrirà panorami mozzafiato sulle <strong>Alpi Meridionali</strong> e sul mare. La salita al <strong>Monte Gabberi</strong>, in particolare, è considerata tosta ma fattibile, rappresentando il punto con la migliore visuale. Aspettati un <strong>trekking</strong> impegnativo, soprattutto nel tratto iniziale non segnato, che richiede una buona preparazione fisica e un''attenta valutazione della propria esperienza.</p>
+Parti da Casoli, un piccolo e caratteristico borgo nel cuore della Toscana. Da Casoli, segui il sentiero C8 e poi il C3 fino a prendere il sentiero 107 che ti porterà verso le due vette di Gevoli. Il percorso è accessibile in auto fino al punto di partenza del sentiero.
 
-<h3>Informazioni utili</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+Questo giro di escursioni a Gevoli è un''esperienza impegnativa, soprattutto nel tratto iniziale. Il sentiero è molto mal segnato e spesso si torna fuori strada, rendendo la navigazione complicata. È fondamentale mantenere la concentrazione e, se necessario, affidarsi a una mappa e bussola. Una volta superato il tratto più difficile, il sentiero si fa più agevole fino ad arrivare al calare. Da lì, puoi proseguire per raggiungere le vette, godendoti panorami spettacolari sulle montagne circostanti e sul mare. La deviazione sul Gabberi è un''aggiunta che richiede un''ulteriore fitta e tosta salita.
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+Questa escursione è di **Difficile** per via della scarsa segnaletica e della necessità di orientarsi in alcuni tratti. Preparati a un dislivello di circa **825 metri** e a un percorso di circa **10.46 km** come andata e ritorno. È consigliabile indossare scarpe da trekking robuste e portare con sé acqua, cibo e abbigliamento adeguato alle condizioni meteorologiche.
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+(Inserire qui una traccia GPS – ATTENZIONE: Non posso generare una traccia GPS)
+
+*   **Distanza:** Circa 10.46 km (anello)
+*   **Dislivello:** Circa 825 metri
+*   **Difficoltà:** Difficile
+*   **Periodo consigliato:** Primavera, Estate, Autunno
+*   **Punto di partenza:** Casoli (accessibile in auto/piedi)
+*   **Comune:** Casoli, Toscana
+*   **Tipo di sentiero:** Sentiero escursionistico
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
 <ul>
-    <li><strong>Difficoltà:</strong> Difficile</li>
-    <li><strong>Distanza:</strong> Circa 12-15 km (a seconda dell''itinerario)</li>
-    <li><strong>Dislivello:</strong> Circa 800-900 metri</li>
-    <li><strong>Periodo consigliato:</strong> Estate/Autunno (verificare le condizioni meteo)</li>
-    <li><strong>Equipaggiamento consigliato:</strong> Scarponi da trekking, bastoncini, acqua, cibo, abbigliamento a strati, mappa, bussola/GPS</li>
-    <li><strong>Punti di interesse:</strong> <strong>Monte Gabberi</strong> (panorami), <strong>Gevoli</strong> (difficoltà del sentiero),<strong>Callare</strong> (punto di arrivo)</li>
-</ul>
-
-<p>Esplora i meravigliosi <strong>sentieri Italia</strong> e vivi un''avventura di <strong>trekking</strong> in un ambiente naturale incontaminato. L''<strong>escursione</strong> sul <strong>Gevoli</strong> da <strong>Casoli</strong> con deviazione sul <strong>Gabbari</strong> è un''opportunità unica per immergerti nella <strong>natura</strong> e ammirare la bellezza delle <strong>Alpi Meridionali</strong>.  Questa <strong>escursione</strong> è ideale per esperti di <strong>trekking</strong>, che apprezzano le sfide e la libertà di esplorare nuovi percorsi.</p>',
+  <li><strong>Distanza:</strong> Circa 10.46 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 825 metri</li>
+  <li><strong>Difficoltà:</strong> Difficile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Casoli (accessibile in auto/piedi)</li>
+  <li><strong>Comune:</strong> Casoli, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.46,
   825,

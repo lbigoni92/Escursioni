@@ -7,33 +7,40 @@ VALUES (
   181293349,
   'L''acqua salata di Bergondola, Cascata della duchessa',
   'L''acqua salata di Bergondola, Cascata della duchessa, trekking breve per quello che dovrebbe fare le veci di un sentiero... sino alle suddette cascatelle che la Duchessa Galliera apprezzava molto... Il casotto costruito dalla duchessa è sostanzialmente inagibile e avvolto dalla vegetazione. La polla che si genera sotto la cascata pare balneabile... ma per niente invitante. Nelle vicinanze ci dovrebbe essere una fonte d''acqua salata che si dice abbia capacità purgative (NE SCONSIGLIO L''ASSUZIONE).',
-  '<h2>Trekking L’acqua salata di Bergondola, Cascata della Duchessa – Escursione in Montagna a Savognola</h2>
+  '<h2 id="acqua-salata-di-bergondola-cascata-della-duchessa">Escursione all''Acqua Salata di Bergondola e alla Cascata della Duchessa</h2>
 
-<h3>Il percorso: Un Sentiero di Storia e Natura</h3>
-<p>
-Preparatevi per un''escursione indimenticabile lungo il sentiero “L’acqua salata di Bergondola, Cascata della duchessa”, un breve trekking che vi condurrà alla scoperta di un luogo ricco di storia e bellezza naturale. Questo sentiero, situato a <strong>Savognola</strong>, offre un’esperienza di trekking in montagna perfetta per gli amanti della natura e degli appassionati di escursioni. L’escursione permette di immergersi nella profonda tranquillità della <strong>montagna italiana</strong> ed esplorare un sentiero che ha visto protagoniste la <strong>Duchessa Galliera</strong>. La difficoltà è moderata, rendendolo accessibile anche a escursionisti meno esperti.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa breve escursione è facilmente raggiungibile in auto lungo la strada che costeggia la costa. Cercate un parcheggio poco prima di **Costa d''Arzola**, in un punto dove la strada si fa più stretto e tortuosa. Da lì, il sentiero è ben segnalato e inizia subito dopo un breve tratto di strada sterrata. L''accessibilità a piedi è possibile, ma non consigliata a causa del pendio e del fondo irregolare.</p>
 
-<h3>Cosa aspettarsi: Un’Esperienza Unica</h3>
-<p>
-Questo sentiero vi porterà ad ammirare la maestosità della <strong>Cascata della Duchessa</strong>, un vero gioiello naturale.  La discesa alla cascata è un’esperienza emozionante, mentre il percorso, seppur breve, è ricco di dettagli storici legati alla figura della <strong>Duchessa Galliera</strong>.  Il casotto costruito dalla duchessa, ora inagibile e ricoperto di vegetazione, è un ricordo tangibile del suo amore per la natura e per questo luogo. La zona circostante offre la possibilità di godere di un''atmosfera unica, con la presenza di una <em>pola balneabile</em> (non consigliata per il consumo).  Potrete esplorare l’area e scoprire di più sulla storia locale e sulla tradizione del trekking in <strong>Sentieri Italia</strong>.
-</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo **trekking** di circa 0.82 km ad anello vi condurrà attraverso un ambiente naturale suggestivo, fiancheggiato da una vegetazione rigogliosa. Inizialmente il sentiero è ben tenuto, ma si fa più stretto e scosceso avvicinandosi alle cascate. Seguire attentamente le indicazioni perché, in alcuni punti, il sentiero si perde tra la vegetazione. Il tratto finale porta al punto più vicino alla **Cascata della Duchessa**, dove è ancora visibile il casotto costruito dalla Principessa Galliera. La zona sottostante la cascata è caratterizzata da una caratteristica pozzaglia di acqua, che si dice sia balneabile ma non particolarmente invitante.  Non assicuratevi la purezza dell''acqua, si dice che provenga da una fonte salata con proprietà purgative (consiglio di non berla!).</p>
 
-<h3>Informazioni utili: Dettagli per la Vostra Escursione</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>La difficoltà di questa **escursione** è **media**. Il dislivello di soli 29 metri lo rende accessibile anche a chi non ha molta esperienza, ma il sentiero presenta alcuni tratti scoscesi e tratti con ciottoli. È importante indossare scarpe da trekking adeguate e portare con sé acqua e una piccola merenda. L''escursione è consigliata in primavera, estate e autunno. Prendetevi il vostro tempo e godetevi il panorama!</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per aiutarvi durante l''escursione, vi forniamo qui sotto i dati per la traccia GPS. Ricordatevi di scaricare la traccia sul vostro dispositivo GPS o smartphone prima di partire.  La traccia GPS vi aiuterà a seguire il sentiero e ad orientarvi lungo il percorso. </p>
+
 <ul>
-    <li><b>Nome Sentiero:</b> L’acqua salata di Bergondola, Cascata della Duchessa</li>
-    <li><b>Località:</b> Savognola, Val d''Intelvi</li>
-    <li><b>Difficoltà:</b> Moderata</li>
-    <li><b>Distanza:</b> Circa 3-4 km (andata e ritorno)</li>
-    <li><b>Dislivello:</b> Circa 200 metri</li>
-    <li><b>Tipo di Sentiero:</b> Sentiero di trekking, adatto a famiglie e appassionati di escursioni.</li>
-    <li><b>Punti di interesse:</b> Cascatella della Duchessa, Casotto della Duchessa Galliera,  Possibile balneazione in una pola (SCONSIGLIATA).</li>
-    <li><b>Note Importanti:</b>  Attenzione alla polla sotto la cascata; la fonte d’acqua salata non è consigliata per il consumo.  Verificare le condizioni meteorologiche prima di partire.</li>
+  <li>**Distanza:** Circa 0.82 km (anello)</li>
+  <li>**Dislivello:** Circa 29 metri</li>
+  <li>**Difficoltà:** Media</li>
+  <li>**Periodo consigliato:** Primavera, Estate, Autunno</li>
+  <li>**Punto di partenza:** Parcheggio prima di Costa d''Arzola, Toscana</li>
+  <li>**Comune:** Costa d''Arzola</li>
+  <li>**Regione:** Toscana</li>
 </ul>
 
-<p>
-Non perdete l’occasione di vivere un’esperienza di trekking indimenticabile lungo il sentiero “L’acqua salata di Bergondola, Cascata della Duchessa”.  Un’escursione per appassionati di <strong>trekking</strong>, <strong>escursionismo</strong> e <strong>sentieri in montagna</strong>, perfetta per scoprire la bellezza della <strong>natura italiana</strong> e l''eredità storica del territorio. Organizzate il vostro trekking a <strong>Savognola</strong> e godetevi un''esperienza autentica!
-</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong>Distanza:</strong> Circa 0.82 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 29 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Parcheggio prima di Costa d''Arzola, Toscana</li>
+  <li><strong>Comune:</strong> Costa d''Arzola, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   0.82,
   29,

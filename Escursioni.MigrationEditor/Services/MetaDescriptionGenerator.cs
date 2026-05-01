@@ -133,7 +133,23 @@ public class MetaDescriptionGenerator
             - Scrivi in modo NARRATIVO e coinvolgente, come un amico che racconta l'escursione
             - Includi parole chiave NATURALI nel testo (escursione, trekking, sentiero, montagna, panorama, traccia GPS)
             - Usa <strong> per: nomi di luoghi, difficoltà, distanza, dislivello
-            - Usa <ul>/<li> per elenchi pratici (cosa portare, punti di interesse)
+            - Usa <ul>/<li> per elenchi pratici
+            - Includi UNA sezione "Informazioni Utili" con ESATTAMENTE questo formato HTML (usa solo i campi disponibili dai dati):
+              <h3 id="informazioni-utili">Informazioni Utili</h3>
+              <ul>
+                <li><strong>Distanza:</strong> Circa X km (andata e ritorno / anello)</li>
+                <li><strong>Dislivello:</strong> Circa X metri</li>
+                <li><strong>Difficoltà:</strong> Facile / Media / Medio-Alta / Alta</li>
+                <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno (o combinazioni appropriate)</li>
+                <li><strong>Punto di partenza:</strong> Nome del luogo (accessibile in auto / a piedi)</li>
+                <li><strong>Comune:</strong> Nome comune, Regione</li>
+                <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico / Mulattiera / Ferrata / ecc.</li>
+              </ul>
+              Se l'escursione si trova in un parco noto, aggiungi: <li><strong>Parco Nazionale:</strong> Nome parco</li>
+              NON inventare dati: usa solo le informazioni disponibili dal titolo, dalla descrizione e dal contesto fornito.
+            - Aggiungi un attributo id su ogni <h2> e <h3>, derivato dal testo dell'heading in formato slug
+              (es: <h2 id="escursione-monte-forato-da-cardoso">Escursione al Monte Forato da Cardoso</h2>)
+              Questo permette a Google di generare jump links nei risultati di ricerca
             - Il testo deve rispondere alle domande reali degli utenti:
               Quanto è difficile? Quanto ci vuole? Da dove si parte? Cosa si vede?
             - NON includere <html>, <head>, <body>, <style>, <script>

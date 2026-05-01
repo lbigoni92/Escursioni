@@ -7,26 +7,30 @@ VALUES (
   113368838,
   'La Culla -Monte Gabberi - Monte Lieto - Sant''Anna di Stazzema - Con Friends In trekking',
   'Siamo partiti dal paese "La Culla" (c''è poco parcheggio) da li abbiamo intrapreso il sentiero per arrivare al Monte Gabberi. Il sentiero presenta un buon dislivello ma si fa agilmente, in un tratto si trova anche un pennato inciso sulle rocce. Il monte Gabberi è il monte più panoramico delle apuane sulla costa, e possibile vedere da Piombino a la Spezia, e si intravede il foro del monte forato. Il tratto dopo fino a FOCE DI FARNOCCHIA è un tratto EE (poco esposto) ma vi è la variante facile; che passa sotto la cresta. Da FOCE DI FARNOCCHIA a Monte Lieto è molto tranquillo, un po in salita ma niente di mai troppo eccessivo. Anche da qua è possibile ammirare un panorama mozzafiato! il tratto che prosegue fino a Sant''anna di Stazzema è molto semplice e prevalentemente in discesa. Sant''anna di Stazzema abbiamo visitato il monumento ai caduti e il museo della città dopo di che siamo ripartiti in direzione "LaCulla" Sentiero non da tutti visto il dislivell , ma mooolto mooooooolto bello con un ottima compagnia!',
-  '<h2 >La Culla - Monte Gabberi - Monte Lieto - Sant''Anna di Stazzema - Trekking in Toscana</h2>
+  '<h2 id="escursione-la-culla-monte-gabberi-monte-lieto-sant-anna-di-stazzema">Escursione a La Culla, Monte Gabberi, Monte Lieto e Sant''Anna di Stazzema con Friends In trekking</h2>
 
-<h3 >Il Percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong>, organizzato da <strong>Con Friends In trekking</strong>, vi condurrà attraverso un paesaggio mozzafiato lungo la costa toscana. Partiremo da <strong>La Culla</strong>, un piccolo paese con limitato parcheggio, e ci inoltreremo nel cuore delle <strong>Apuane</strong> per un''<strong>escursione</strong> indimenticabile. Il percorso è progettato per essere un''avventura <strong>trekking</strong>  sulla <strong>montagna</strong>, con un buon dislivello ma facilmente percorribile.  Ammirerete panorami spettacolari che spaziano da <strong>Piombino</strong> a <strong>La Spezia</strong>, con la possibilità di osservare il suggestivo <strong>foro del monte forato</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza è il piccolo paese di <strong id="punto-di-partenza">La Culla</strong>, nel comune di Culla, in provincia di Toscana.  È consigliabile arrivare in auto, ma attenzione perché il parcheggio è piuttosto limitato. Da qui inizia il sentiero che ci porterà alla cima!</p>
 
-<h3 >Cosa Aspettarsi</h3>
-<p>Preparatevi a un''<strong>escursione</strong> di <strong>trekking</strong> attraverso la natura incontaminata delle <strong>Apuane</strong>. Il <strong>sentiero</strong> presenta un dislivello significativo, ma la sua agilità e la compagnia di altri appassionati di <strong>trekking</strong> renderanno l''esperienza ancora più piacevole. Potrete ammirare un <strong>pendio inciso sulle rocce</strong>, un dettaglio unico che arricchirà il vostro viaggio alla scoperta della <strong>montagna</strong>.  Il tratto a <strong>Foce di Farnocchia</strong> è particolarmente interessante, con la possibilità di scegliere una <strong>variante facile</strong> che evita le zone più esposte. Il <strong>sentiero</strong> si snoda poi con calma fino al <strong>Monte Lieto</strong>, offrendo viste panoramiche mozzafiato. L''ultimo tratto, fino a <strong>Sant''Anna di Stazzema</strong>, è prevalentemente in discesa e offre un''esperienza di <strong>trekking</strong> facile e accessibile a tutti.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Iniziamo da La Culla e subito ci imbattiamo in un sentiero con un bel dislivello, ma ben aggredibile. Percorreremo il sentiero fino al <strong id="monte-gabberi">Monte Gabberi</strong>, il punto panoramico più bello delle Apuanes sulla costa.  Ammireremo il panorama che si estende da Piombino a La Spezia, e se il tempo lo permette, potremo scorgere il famoso <strong id="foro-monte-forato">foro del Monte Forato</strong>. Proseguiremo verso <strong id="focce-di-farnocchia">Foce di Farnocchia</strong>, dove troveremo una variante più facile che ci permette di evitare un tratto un po'' esposto.  Dall''altra parte del passo, il sentiero si fa più tranquillo, con qualche tratto in salita, ma niente di particolarmente impegnativo. Arriveremo a <strong id="sant-anna-di-stazzema">Sant''Anna di Stazzema</strong>, dove potremo visitare il monumento ai caduti e il museo della città. Il tratto finale è prevalentemente in discesa e ci riporterà a La Culla, per un''escursione davvero memorabile!</p>
 
-<h3 >Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa <strong id="difficoltà">escursione di tipo anello</strong> di 13.93 km con un <strong id="dislivello">dislivello di 1115 metri</strong> è considerata di difficoltà <strong id="difficoltà-2">media</strong>. Richiede una buona preparazione fisica, soprattutto per affrontare i tratti più ripidi.  L''ambiente è suggestivo e offre panorami mozzafiato, ma è importante rispettare la natura e seguire attentamente il sentiero.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>La traccia GPS di questo percorso è disponibile a [inserire link alla traccia GPS].</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Difficoltà:</strong> Media - Richiede una buona preparazione fisica</li>
-    <li><strong>Distanza Totale:</strong> Circa 15-20 km (a seconda del percorso scelto)</li>
-    <li><strong>Dislivello:</strong> Circa 800-1000 metri</li>
-    <li><strong>Punto di Partenza:</strong> <strong>La Culla</strong> (parcheggio limitato)</li>
-    <li><strong>Punto di Arrivo:</strong> <strong>Sant''Anna di Stazzema</strong></li>
-    <li><strong>Tempi Previsti:</strong> 6-8 ore (a seconda del ritmo)</li>
-    <li><strong>Attrezzatura Consigliata:</strong> Scarponi da <strong>trekking</strong>, zaino, acqua, cibo, cappello, crema solare</li>
-</ul>
-
-<p>Questo <strong>sentiero per trekking</strong> nelle <strong>Apuane</strong> è una fantastica opportunità per immergervi nella natura e godervi un''esperienza unica.  Riscoprite la bellezza dei <strong>sentieri</strong> e della <strong>montagna</strong> con <strong>Con Friends In trekking</strong>!  Organizza la tua prossima <strong>escursione</strong> e vivi l''emozione del <strong>trekking</strong> in <strong>Italia</strong>!</p>',
+  <li><strong id="distanza">Distanza:</strong> Circa 13.93 km (anello)</li>
+  <li><strong id="dislivello-2">Dislivello:</strong> Circa 1115 metri</li>
+  <li><strong id="difficoltà-2">Difficoltà:</strong> Medio</li>
+  <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="punto-di-partenza">Punto di partenza:</strong> La Culla (accessibile in auto/a piedi)</li>
+  <li><strong id="comune">Comune:</strong> Culla, Toscana, Italia</li>
+  <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   13.93,
   1115,

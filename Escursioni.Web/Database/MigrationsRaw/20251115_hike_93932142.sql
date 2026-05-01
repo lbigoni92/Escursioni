@@ -7,30 +7,38 @@ VALUES (
   93932142,
   'Pizzorne - Monte Scarpiglione',
   'il percorso è facile da seguire e prevalentemente ben segnato, vi sono molti cartelli che indicano i sentieri da prendere. All''inizio abbiamo parcheggiato al parcheggio di un ristorante, ma vi è parcheggio anche poco più su, dove troviamo il cimitero. Il primo tratto l''abbiamo fatto su strada (non è trafficata) e si gode di un panorama unico su tutta la piana Lucchese. al km 1.2 inizia il vero sentiero e sarà molto facile fino al km 6.3 dove ci sarà 700metri di pettatina. Abbaiamo fatto una tappa al km7.8 al punto in cui ci si più lanciare col parapendio... un altro punto unico e fantastico. Proseguito fino al paesino di Pizzorne in maniera tranquilla il paese è tristemente deserto... ma carino da vedere La strada del ritorno è facile... ma molo carina, forse qua si toccano i tratti più carini del percorso. Punto più bello? Il monte Scarpiglione dove possiamo trovare una croce. Portate acqua (vi sono fontane ma portatela) scarpe adatte alla stagione e divertitevi',
-  '<h2>Pizzorne - Monte Scarpiglione: Trekking e Escursioni in Montagna</h2>
+  '<h2 id="pizzorne-monte-scarpiglione">Escursione al Monte Scarpiglione da Pizzorne</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa bella escursione è a Pizzorne, un tranquillo paese in provincia di San Pietro a Marcigliano.  Partirete da dove il sentiero inizia, facilmente raggiungibile in auto.  È consigliabile parcheggiare al ristorante vicino al punto di partenza, oppure poco più in alto dove si trova anche un cimitero.  Da lì, l''avventura comincia!</p>
 
-<p>Preparatevi per un''entusiasmante <strong>escursione a Pizzorne - Monte Scarpiglione</strong>, un sentiero perfetto per amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>montagna</strong>. Questo percorso di facile difficoltà, ideale per famiglie e principianti, vi condurrà attraverso paesaggi mozzafiato della <strong>Piana Lucchese</strong>, offrendo viste panoramiche uniche. L''<strong>itinerario</strong> inizia da un parcheggio vicino a un ristorante, oppure da un punto di ristoro leggermente più in alto, dove si trova anche un cimitero. Il primo tratto si snoda lungo una strada tranquilla, consentendovi di godere immediatamente di un panorama spettacolare.  A partire dal km 1.2, il sentiero si consolida, diventando un percorso ben definito e agevole fino al km 6.3, dove si trova una breve "pettatina" di circa 700 metri.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questa escursione di tipo anello è perfetta per chi cerca un''esperienza piacevole in montagna. Inizierai con un tratto su strada, non trafficata, che ti regala un panorama mozzafiato sulla pianura lucchese.  Dopo circa 1.2 km, il sentiero diventa più marcato e facile da seguire, nonostante i cartelli che indicano i diversi percorsi. Percorrerai circa 6.3 km, con un dislivello di circa 700 metri, fino a raggiungere il punto del "pettolone". Da qui, potrai provare l''emozione di lanciare il parapendio (un punto unico e fantastico!), proseguendo poi fino al paese di Pizzorne, un borgo desolato ma affascinante. Il ritorno sarà lungo una strada facile, ma panoramica, e ti permetterà di scoprire tratti del percorso particolarmente belli. Il punto culminante è l''ascensione al Monte Scarpiglione, dove potrai ammirare una vecchia croce.</p>
 
-<p>Un momento particolare del <strong>sentiero</strong> è il punto di accesso al parapendio a km 7.8, un luogo suggestivo e insolito, perfetto per catturare un''immagine indimenticabile.  La discesa si conclude nel pittoresco paese di <strong>Pizzorne</strong>, un luogo tranquillo e un po'' desolato, ma ricco di fascino. Il ritorno è altrettanto piacevole, con tratti panoramici che vi faranno apprezzare appieno la bellezza della zona.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>L''escursione al Monte Scarpiglione da Pizzorne è di difficoltà media.  Il sentiero è ben segnalato, ma richiede comunque un minimo di allenamento. La distanza totale è di circa 18.15 km con un dislivello positivo di 921 metri.  Dovrai portare con te acqua e scarpe adatte alla stagione, data la presenza di fontane, portatene comunque una buona scorta. Prepara l''attrezzatura adeguata in base alle tue esigenze e divertiti!</p>
 
-<h3>Cosa Aspettarsi</h3>
-
-<ul>
-  <li><strong>Difficoltà:</strong> Facile – Adatto a tutti i livelli.</li>
-  <li><strong>Distanza:</strong> Circa 12 km (possibile variazione a seconda del punto di partenza).</li>
-  <li><strong>Dislivello:</strong> Circa 300 metri.</li>
-  <li><strong>Tempi di percorrenza:</strong> Circa 3-4 ore.</li>
-  <li><strong>Paesaggi:</strong> Vista panoramica sulla Piana Lucchese, boschi, sentieri montani.</li>
-  <li><strong>Punti di interesse:</strong>  Accesso al parapendio, croce sul <strong>Monte Scarpiglione</strong>, il paese abbandonato di Pizzorne.</li>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class="traccia-gps">
+    <li><b>Distanza:</b> Circa 18.15 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 921 metri</li>
+    <li><b>Difficoltà:</b> Media</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Pizzorne, accessibile in auto</li>
+    <li><b>Comune:</b> San Pietro a Marcigliano, Toscana</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
 </ul>
 
-<p>Non dimenticate di portare con voi acqua e scarpe da trekking adatte alla stagione, per godervi appieno questa meravigliosa <strong>escursione in Italia</strong>. Approfittate delle fontane lungo il percorso per rinfrescarsi, ma considerate di portare sempre con voi una fonte d''acqua extra.</p>
-
-<h3>Informazioni Utili</h3>
-
-<p>Il sentiero <strong>Pizzorne - Monte Scarpiglione</strong> offre un''esperienza di <strong>trekking</strong> autentica e coinvolgente.  È un''occasione perfetta per immergervi nella natura, respirare l''aria fresca di montagna e ammirare panorami mozzafiato.  Questa <strong>escursione</strong> a <strong>sentiero</strong> è ideale per chi cerca un''attività all''aria aperta, lontano dal caos cittadino. Esplorate la splendida <strong>montagna</strong> e il piccolo borgo di Pizzorne per una giornata indimenticabile.  La combinazione di facile accessibilità e bellezza naturale lo rende un punto di riferimento per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> in <strong>Italia</strong>.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul class="informazioni-utili">
+    <li><b>Distanza:</b> Circa 18.15 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 921 metri</li>
+    <li><b>Difficoltà:</b> Medio</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Pizzorne, accessibile in auto</li>
+    <li><b>Comune:</b> San Pietro a Marcigliano, Toscana</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   18.15,
   921,

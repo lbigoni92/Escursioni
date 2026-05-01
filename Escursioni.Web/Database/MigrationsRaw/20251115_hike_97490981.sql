@@ -7,29 +7,31 @@ VALUES (
   97490981,
   'Montenero - Ciano',
   'Il percorso è molto semplice da fare, secondo me con un allungata al vecchio faro li vicino, oppure proseguendo verso il Castellaccio. Qua visitiamo il santuario di Montenero è il monumento a Ciano, dietro il monumento parte un sentiero secondario immerso nella natura, pieno di asparagi.',
-  '<h2>Montenero - Ciano: Trekking e Escursioni nella Montagna Toscana</h2>
+  '<h2 id="montenero-ciano">Escursione a Montenero da Ciano: Un Anello Facile tra Storia e Natura</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bella escursione è a Ciano, un caratteristico borgo nel cuore della Val d''Arbia. Raggiungibile in auto tramite strade secondarie, Ciano offre un facile parcheggio nei pressi del centro. Da qui, il sentiero inizia direttamente dal paese, seguendo un percorso ben segnalato.</p>
 
-<p>Preparati per un''incredibile <strong>escursione trekking</strong> lungo il <strong>sentiero</strong> che collega <strong>Montenero</strong> a <strong>Ciano</strong>, un''esperienza immersa nel cuore della <strong>montagna toscana</strong>. Questo percorso, considerato molto semplice, offre un''ottima opportunità per un''<strong>escursione a piedi</strong> di facile fruizione, perfetto per famiglie e principianti. Il sentiero si snoda attraverso paesaggi mozzafiato, offrendo scorci panoramici sulla campagna circostante e sulla maestosa catena montuosa. Potrai ammirare la bellezza della <strong>natura italiana</strong> e respirare l''aria fresca di montagna.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo anello escursionistico di circa 2,7 km è perfetto per una giornata all''aria aperta. Iniziando da Ciano, il sentiero sale gradualmente attraverso un boschetto di faggi, offrendo già un primo splendido panorama sulla Val d''Arbia. Proseguendo, si raggiunge il Santuario di Montenero, un luogo di grande importanza storica e religiosa. Da qui, si può scegliere di allungare il giro visitando il vecchio faro, oppure proseguire verso il Castellaccio, immergendosi in un sentiero secondario che si snoda tra la natura, ricco di asparagi e altri tesori vegetali. Un''escursione davvero varia e suggestiva!</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è classificata come **Facile**, adatta a famiglie, bambini e a chiunque cerchi un percorso piacevole e senza particolari difficoltà. Il dislivello di circa 143 metri è contenuto, rendendo il sentiero accessibile anche a chi non ha molta esperienza di trekking.</p>
 
-<p>Durante la tua <strong>trekking</strong> a <strong>Montenero - Ciano</strong>, potrai aspettarti un percorso ben tracciato, adatto anche a chi non ha molta esperienza in <strong>escursionismo</strong>. Il sentiero è immerso nella natura, offrendo l''opportunità di ammirare la flora e la fauna locale.  La dislivello è contenuto, rendendo l''<strong>escursione</strong> accessibile a tutti. Potrai inoltre, con un''aggiunta di sforzo,  visitare il <strong>vecchio faro</strong> e proseguire verso il <strong>Castellaccio</strong>.  Un''ulteriore scoperta è rappresentata dal sentiero secondario che parte dal monumento a <strong>Ciano</strong>, offrendo un''immersione totale nella <strong>natura toscana</strong> e la possibilità di avvistare gli <strong>asparagus</strong> (se di stagione).</p>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per orientarsi meglio durante l''escursione, ti consiglio di scaricare una traccia GPS disponibile online. In alternativa, segui attentamente le segnaletiche presenti lungo il sentiero.  L''escursione offre ampie possibilità di allungo e permette di personalizzare il percorso in base ai propri interessi e capacità.</p>
 
-<h3>Informazioni Utili</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-  <li><strong>Distanza:</strong> Circa 6-8 km (a seconda del percorso scelto)</li>
-  <li><strong>Difficoltà:</strong> Facile - Media</li>
-  <li><strong>Dislivello:</strong> Circa 300-400 metri</li>
-  <li><strong>Periodo Consigliato:</strong> Primavera, Estate, Autunno</li>
-  <li><strong>Punto di Partenza:</strong> Montenero (Parco Naturale della Maremma Toscana)</li>
-  <li><strong>Punto di Arrivo:</strong> Ciano (Comune di Ciano)</li>
-  <li><strong>Attrezzatura Consigliata:</strong> Scarpe da trekking, abbigliamento a strati, acqua, snack, mappa, bussola/GPS</li>
-</ul>
-
-<p>Scopri di più sulle <strong>escursioni in Italia</strong> e approfitta di questa splendida occasione per un''<strong>escursione a Montenero e Ciano</strong>. Un''esperienza indimenticabile tra <strong>sentieri di trekking</strong> e panorami mozzafiato!</p>',
+    <li><strong>Distanza:</strong> Circa 2.69 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 143 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Ciano, accessibile in auto</li>
+    <li><strong>Comune:</strong> Montenero, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+    <li><strong>Parco Nazionale:</strong> Non applicabile</li>
+</ul>',
   'Tutte le Attività e Paesi',
   2.69,
   143,

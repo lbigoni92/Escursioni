@@ -7,23 +7,31 @@ VALUES (
   87617278,
   'Calambrone - Passeggiata',
   'Il percorso è molto carino e dura appena un pio d''ore non vi sono dislivelli e i sentieri sono ben segnati e semplici da seguire. Staremo in mezzo a sentieri taglia fuoco e la presenza d''animali è assicurata ho spesso incontrato oche volpi e lepri. Siamo nel parco di San Rossore quindi mi raccomando non cogliete bacche come more o funghi senza permesso. I sentieri sono puliti e ve è possibile anche andarci a correre.',
-  '<h2>Calambrone - Passeggiata: Trekking nel Parco di San Rossore</h2>
+  '<h2 id="escursione-calambrone-passeggiata">Escursione al Calambrone: Passeggiata Facile nel Parco di San Rossore</h2>
 
-<h3>Il percorso</h3>
-<p>Immergetevi in una splendida <strong>passeggiata lungo il sentiero del Calambrone</strong>, un’escursione perfetta per chi cerca un''esperienza di <strong>trekking</strong> facile e accessibile nel cuore del <strong>Parco di San Rossore</strong>. Questo percorso, ideale per una giornata di <strong>escursione</strong>, vi condurrà attraverso paesaggi mozzafiato, tra sentieri tagliafuoco e aree naturali protette. La <strong>passeggiata</strong> è progettata per essere semplice e piacevole, con poche dislivelli e sentieri ben segnati, facendola perfetta anche per famiglie e principianti.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bella escursione si trova a Calambrone, un piccolo comune della provincia di Toscana. È facilmente raggiungibile in auto, seguendo le indicazioni stradali per Calambrone. Una volta arrivati nel paese, dovrete trovare il parcheggio più vicino al punto di inizio del sentiero. Da lì, il percorso è ben segnalato e facilmente raggiungibile a piedi.</p>
 
-<h3>Cosa aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questa escursione al Calambrone è un''ottima passeggiata adatta a tutti, anche a chi non ha molta esperienza nel trekking. Si tratta di un anello di circa 8.89 km che non presenta dislivelli e segue sentieri ben segnati. Percorrerete sentieri "taglia fuoco" e potrete avvistare una grande varietà di fauna selvatica, come oche, volpi e lepri. È un''occasione unica per immergersi nella natura del Parco di San Rossore, quindi ricordatevi di rispettare l''ambiente e di non raccogliere bacche o funghi senza l''autorizzazione appropriata.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>La difficoltà di questa escursione è **Facile**. Non ci sono dislivelli significativi, il percorso è ben segnalato e adatto a persone di tutte le età e livelli di preparazione fisica. È perfetta per una giornata in montagna con la famiglia o con gli amici, un''escursione rilassante e piacevole.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Potete scaricare una traccia GPS di questo percorso per seguirla durante l''escursione. Ricordate di avere con voi acqua, snack, scarpe da trekking adatte e un cappello per proteggervi dal sole. Il sentiero è anche perfetto per una corsa mattutina!</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Sentieri ben segnati</strong>: Seguiremo sentieri facilmente individuabili, per un’escursione sicura e senza preoccupazioni.</li>
-    <li><strong>Paesaggi Naturali:</strong> Ammirate la bellezza della <strong>natura</strong> del Parco di San Rossore, con la sua flora e fauna uniche.</li>
-    <li><strong>Osservazione della fauna:</strong> Avvistate con successo oche, volpi e lepri, frequentanti la zona.</li>
-    <li><strong>Sentieri tagliafuoco:</strong> Percorsi immersi nella macchia mediterranea per un''esperienza autentica.</li>
-    <li><strong>Possibilità di corsa:</strong> Perfetto per una corsa all''aria aperta!</li>
-</ul>
-
-<h3>Informazioni utili</h3>
-<p>La <strong>Calambrone - Passeggiata</strong> è un''escursione di circa 4 chilometri, con una durata stimata di 1 ora e 30 minuti. La difficoltà è bassa, adatta a tutti i livelli. Ricordatevi, siamo nel <strong>Parco di San Rossore</strong>, quindi è importante rispettare l’ambiente e la fauna.  <strong>Non raccogliete bacche o funghi</strong> senza il permesso delle autorità competenti.  La <strong>trekking</strong> in questa zona è un''esperienza indimenticabile tra le bellezze del territorio italiano.  Preparatevi per una giornata di <strong>escursionismo</strong> alla scoperta di questo incantevole angolo dell''Italia!</p>
-<p>Per un''<strong>escursione</strong> sicura, indossate scarpe da trekking adatte e portate con voi acqua e snack.  Approfittate di questa opportunità per un''<strong>escursione</strong> nella <strong>montagna</strong> e respirare l''aria fresca del <strong>Parco di San Rossore</strong>.</p>',
+    <li><strong>Distanza:</strong> Circa 8.89 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 0 m</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Calambrone, accessibile in auto</li>
+    <li><strong>Comune:</strong> Calambrone, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+    <li><strong>Parco Nazionale:</strong> Parco di San Rossore</li>
+</ul>',
   'Tutte le Attività e Paesi',
   8.89,
   0,

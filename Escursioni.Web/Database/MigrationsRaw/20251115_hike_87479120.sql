@@ -7,37 +7,47 @@ VALUES (
   87479120,
   'San Giuliano Terme - Villa del polacco',
   'Il percorso è molto bello e fattibile sia in notturna, sia in diurna. Si passa da Passo di dante dove vi è una targa che lo commemora, il percorso è ben segnato e non vi sono problemi tecnici. L''unico punto più impegnativo è la salita al monte dopo il Passo di Dannte, in seguito raggiungiamo "il Castagno", da li poco dopo giriamo sulla sinistra. Non ci sono fontanelle. Di notte usate la torcia e scarpe adeguate. Molto carino al livello storico, lo consiglio',
-  '<h2>San Giuliano Terme - Villa del Polacco: Trekking Esplorativo nella Montagna</h2>
+  '<h2 id="san-giuliano-terme-villa-del-polacco">Escursione a Villa del Polacco da San Giuliano Terme</h2>
 
-<h3>Il Percorso</h3>
+<p>
+  Volevo condividere questa bellissima escursione adatta a tutti, perfetta per una giornata all''aria aperta. Il sentiero che collega San Giuliano Terme a Villa del Polacco è un anello ben segnalato e, se siete amanti dei silenzi, lo consiglio anche di notte! 
+</p>
 
-<p>Immergiti in un’esperienza di trekking indimenticabile lungo il sentiero che collega <strong>San Giuliano Terme</strong> a <strong>Villa del Polacco</strong>. Questo percorso escursionistico offre panorami mozzafiato e la possibilità di scoprire la bellezza selvaggia della <strong>montagna</strong>. Il sentiero, adatto sia in notturna che diurna, è ben segnalato e presenta un dislivello moderato, rendendolo accessibile a escursionisti di diversi livelli di esperienza. L''escursione si snoda attraverso un paesaggio suggestivo, ideale per gli amanti del trekking e della <strong>natura</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<p>Il percorso inizia da <strong>Passo di Dante</strong>, dove potrai ammirare una targa commemorativa. Da qui, la discesa è piacevole e agevole, proseguendo attraverso sentieri naturali, un''opportunità unica per un''<strong>escursione</strong> immersa nella tranquillità della <strong>montagna italiana</strong>. Il sentiero è caratterizzato da una facile percorribilità, minimizzando le difficoltà tecniche, pur offrendo panorami spettacolari.</p>
+<p>
+  Il punto di partenza dell''escursione è facilmente raggiungibile. Potete arrivare a San Giuliano Terme in auto e da lì, seguendo le indicazioni stradali, vi troverete all''inizio del sentiero. Ci sono parcheggi disponibili nelle vicinanze.
+</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
 
-<ul>
-    <li>Percorso ben segnalato, ideale per trekking e escursioni.</li>
-    <li>Dislivello moderato, adatto a escursionisti di diversi livelli.</li>
-    <li>Possibilità di trekking notturno (consigliata torcia e scarpe adeguate).</li>
-    <li>Bellezza naturale e panorami mozzafiato sulla <strong>montagna</strong>.</li>
-    <li>Un''esperienza di trekking in un ambiente suggestivo, perfetto per gli amanti della <strong>natura</strong>.</li>
-</ul>
+<p>
+  Il percorso inizia con una salita dolce, passando per il suggestivo <strong id="passo-di-dante">Passo di Dante</strong>, dove potrete ammirare la targa che commemora questo luogo. Dopo il passo, la salita diventa leggermente più ripida, ma il sentiero rimane ben visibile. Raggiungerete il punto chiamato "Il Castagno", da lì proseguirete il giro con una discesa graduale che vi porterà a raggiungere <strong id="villa-del-polacco">Villa del Polacco</strong>.  Un percorso semplice e piacevole, ideale per una giornata di trekking.
+</p>
 
-<p>La salita al <strong>Monte</strong> dopo il Passo di Dante rappresenta l''unico punto più impegnativo del percorso, ma la ricompensa è un panorama unico.  Dopo aver superato questa breve salita, si raggiunge "Il Castagno", da lì il sentiero prosegue facilmente, offrendo una facile e piacevole discesa. Ricorda di prepararti adeguatamente per l''<strong>escursione</strong>, con scarpe adeguate e l''attrezzatura necessaria.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
 
-<h3>Informazioni Utili</h3>
+<p>
+  Questa escursione è classificata come <strong id="difficoltà-facile">Facile</strong>, adatta a persone di tutte le età e livelli di esperienza. La distanza totale è di circa 8,17 km con un dislivello positivo di 269 metri. Il sentiero è ben tenuto e segnalato, ma è importante indossare scarpe da trekking e abbigliamento adeguato alle condizioni atmosferiche.
+</p>
 
-<ul>
-    <li><strong>Distanza:</strong> Circa 6 km</li>
-    <li><strong>Difficoltà:</strong> Facile/Media</li>
-    <li><strong>Dislivello:</strong> Circa 400 metri</li>
-    <li><strong>Punti di Interesse:</strong> Passo di Dante, "Il Castagno"</li>
-    <li><strong>Note Importanti:</strong> Non ci sono fontanelle lungo il percorso. È consigliabile portare con sé acqua e cibo a sufficienza, soprattutto durante le <strong>escursioni</strong> notturne.  L''escursione richiede un''adeguata preparazione fisica ed equipaggiamento.</li>
-</ul>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
 
-<p>Scopri la bellezza del territorio di <strong>San Giuliano Terme</strong> con questa splendida <strong>trekking</strong>. Un''occasione unica per un''<strong>escursione</strong> nella natura, adatta sia ai principianti che agli escursionisti esperti.  Vivi un’esperienza indimenticabile in questo affascinante sentiero, perfetto per un''<strong>escursione</strong> domenicale o per una giornata all''aria aperta. Approfitta di questa opportunità per immergerti nella tranquillità della <strong>montagna italiana</strong>.</p>',
+<p>
+  (Inserire qui la traccia GPS dell''escursione - esempio: [link alla traccia GPS])
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong id="distanza">Distanza:</strong> Circa 8,17 km (anello)</li>
+  <li><strong id="dislivello">Dislivello:</strong> Circa 269 metri</li>
+  <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+  <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong id="punto-di-partenza">Punto di partenza:</strong> San Giuliano Terme, inizio sentiero</li>
+  <li><strong id="comune">Comune:</strong> San Giuliano Terme, Toscana, Italia</li>
+  <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   8.17,
   269,
@@ -66,7 +76,7 @@ VALUES (
   'f390729c10e0b7a4018c325dc7670a37d2ca6c863b096fc9704320b81035988e',
   'Escursione San Giuliano Terme - Villa del Polacco: Anello facile 8.17km, +348m nei Castelli Romagnoli. Percorso storico ben segnalato, adatto anche di notte....',
   'Villa del Polacco: Escursione facile da San Giuliano Term...',
-  'Monti Pisani', 
+  'Monti Pisani',
   NOW(),
   NOW()
 )

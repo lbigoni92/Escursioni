@@ -7,27 +7,30 @@ VALUES (
   123884538,
   'Cascatelle dell''infernaccio - Poggio corbolone - Villa Cristina',
   'Escursione mattutina molto bella specialmente per le cascate dell''infernaccio che erano belle rigogliose dopo delle piogge.Il percorso era abbastanza umido anche perché aveva piovuto i giorni precedenti, l''unica salita che sia degna di questo nome è quella a Poggio Corbolone dal quale è possibile avere una vista unica su Livorno.Un altro punto di particolare interesse è il punto panoramico sopra villa Cristiana, dal quale si ha una vita unica sui monti pisani e apuane.Il percorso è corto ed è adatto a una mezza giornata.Raccomando vivamente Scarponi viste le zone iniziali che sono umide specialmente dopo delle pioggie.',
-  '<h2>Cascatelle dell''Infernaccio – Poggio Corbolone – Villa Cristina: Escursione Trekking in Montagna</h2>
+  '<h2 id="escursione-cascatelle-dellinferno-poggio-corbolone-villa-cristina">Escursione alle Cascatelle dell''Inferno a Poggio Corbolone e Villa Cristina</h2>
 
-<h3>Il Percorso</h3>
-<p>Questa <strong>escursione trekking</strong> alla <strong>Cascatelle dell''Infernaccio</strong>, passando per <strong>Poggio Corbolone</strong> e raggiungendo <strong>Villa Cristina</strong>, offre un''esperienza indimenticabile nel cuore della natura toscana. Il sentiero è progettato per una <strong>mezza giornata di trekking</strong>, permettendo di ammirare paesaggi mozzafiato e godersi la tranquillità della <strong>montagna pisana</strong>. L''itinerario è prevalentemente in salita, con una sezione impegnativa verso <strong>Poggio Corbolone</strong>, ma le ricompense ne valgono ampiamente la pena. La <strong>sentiero</strong> permette di raggiungere punti panoramici unici e di immergersi nella bellezza selvaggia della regione.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bella escursione si trova a <strong>Campo al Melo</strong>, in provincia di <strong>Toscana</strong>.  È facilmente raggiungibile in auto lungo le strade che portano alla frazione di <strong>Poggio Corbolone</strong>.  Dalla frazione, l''inizio del sentiero è ben segnalato e si trova in prossimità del complesso di <strong>Villa Cristina</strong>.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparatevi a un''<strong>escursione in natura</strong> ricca di sorprese. Il sentiero vi condurrà attraverso boschi lussureggianti, cascate impetuose, e panorami spettacolari. L''umidità del terreno, dovuta alle recenti piogge, rende il percorso interessante e stimolante.  Non mancheranno le opportunità per ammirare la flora e la fauna locali, rendendo questa <strong>trekking</strong> un''esperienza educativa e rilassante. La vista da <strong>Poggio Corbolone</strong> e dal punto panoramico sopra <strong>Villa Cristina</strong> è semplicemente impagabile. È consigliabile prepararsi ad affrontare un''escursione in condizioni di umidità, soprattutto dopo piogge.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questa escursione di circa <strong>7.99 km</strong> con un dislivello di <strong>+325 metri</strong> è un anello perfetto per una giornata. Inizierai da Poggio Corbolone, godrai di una piacevole salita fino al punto panoramico. Da qui, il sentiero si snoda attraverso un terreno umido, reso ancora più interessante dalle piogge recenti, fino alle maestose <strong>Cascatelle dell''Inferno</strong>.  Il sentiero poi si prosegue verso il punto panoramico sopra <strong>Villa Cristina</strong>, da cui potrai ammirare un panorama mozzafiato sui monti pisani e apuani.  È un percorso facile e piacevole, ideale per una mezza giornata di escursioni.</p>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><strong>Difficoltà:</strong> Medio</li>
-    <li><strong>Distanza:</strong> Circa 8-10 km</li>
-    <li><strong>Dislivello:</strong> Circa 400-500 metri</li>
-    <li><strong>Durata:</strong> Mezza giornata (4-5 ore)</li>
-    <li><strong>Periodo Consigliato:</strong> Primavera, Estate, Autunno</li>
-    <li><strong>Equipaggiamento Consigliato:</strong> Scarponi da trekking, bastoncini da trekking, abbigliamento a strati, acqua, cibo, cappello, crema solare</li>
-    <li><strong>Punto di Partenza:</strong>  A seconda del punto di partenza scelto, si raggiunge il sentiero attraverso diversi tratti, consultare mappe escursionistiche locali.</li>
-    <li><strong>Informazioni aggiuntive:</strong> È consigliabile verificare le condizioni meteo prima di partire e informarsi sulle eventuali restrizioni o chiusure del sentiero.  La <strong>sentiero escursionistica</strong> è un''ottima opportunità per praticare <strong>trekking</strong> in <strong>Italia</strong>.</li>
-</ul>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>La difficoltà di questa escursione è <strong>Facile</strong>, rendendola adatta anche a escursionisti meno esperti. Tuttavia, il terreno umido, soprattutto nelle zone iniziali e dopo le piogge, richiede attenzione e scarponi adeguati.</p>
 
-<p>Questa <strong>escursione sentiero</strong> è ideale per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>, offrendo un''esperienza autentica nella <strong>natura italiana</strong>. Non perdetevi la bellezza delle <strong>cascate dell''Infernaccio</strong> e i panorami mozzafiato sulla <strong>Montagna Pisana</strong> e sugli <strong>Apuani</strong>. Ricordate di rispettare l''ambiente e di lasciare i sentieri puliti.  La <strong>trekking</strong> è un ottimo modo per esplorare la <strong>Montagna</strong> e godersi un''esperienza unica. </p>',
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Il sentiero è ben segnalato, ma per una maggiore sicurezza e per avere sempre la rotta sotto controllo, ti consiglio di scaricare una traccia GPS.  Potrai trovare la traccia su piattaforme online di escursionismo e la importerai nella tua app preferita.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li ><strong>Distanza:</strong> Circa 7.99 km (anello)</li>
+  <li ><strong>Dislivello:</strong> Circa 325 metri</li>
+  <li ><strong>Difficoltà:</strong> Facile</li>
+  <li ><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li ><strong>Punto di partenza:</strong> Poggio Corbolone, accessibile in auto</li>
+  <li ><strong>Comune:</strong> Campo al Melo, Toscana</li>
+  <li ><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.99,
   325,

@@ -7,29 +7,38 @@ VALUES (
   87617105,
   'Careggine - Col di Favilla - Isola santa - Rifugio Robbio',
   'Uno dei percorsi più belli mai fatti siamo partiti da Careggine (abbiamo parcheggiato al parcheggio di un ristorante c''è poco posto) Il percorso passa da 3 paesi fantasma in uno di essi c''era una chiesina che normalmente è visitabile mas sfortuna vuole che quando ci sono passato era chiusa per restauro. Molto bellina è Col di favilla paesino molto caratteristico dove consiglio di fermarsi anche solo per godere un pò di quel posto. Al km 6.6 vi è un bivio segnato male PRENDETE IL SENTIERO SULLA DESTRA quello sulla sinistra (che è in salita è errato) Noi abbiamo pranzato al rifugio Robbio dove siamo stati accolti bene, come in ogni rifugio, si mangia quel che si trova, ma lo consiglio vivamente, fecero anche alternative vegetariane (SU RICHIESTA). la strada per il ritorno è semplice e si passa per una ex Cava abbandonata Tempo stimato 5 ore + una per il pranzo. Ci vuole un minimo d''allenamento, non lo consiglio a chi è alle uno che stà sempre sul divano! Non ci sono fontane, almeno non ne ricordo, portatevi l''acqua e usate le scarpe adeguate! Mi raccomando. Per il resto lasciate un commento e buon trek!',
-  '<h2>Careggine – Col di Favilla – Isola Santa – Rifugio Robbio: Trekking e Escursioni in Montagna</h2>
+  '<h2 id="escursione-careggine-col-di-favilla-isola-santa-rifugio-robbio">Escursione a Careggine, Col di Favilla, Isola Santa e Rifugio Robbio</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo <strong>trekking</strong> in <strong>Italia</strong> vi porterà attraverso un percorso spettacolare, perfetto per gli <strong>amanti del trekking</strong> e dell''<strong>escursionismo</strong>. Partiremo da <strong>Careggine</strong>, un punto di partenza strategico con parcheggio limitato, e ci avvieremo verso il <strong>Col di Favilla</strong>, un pittoresco borgo montano. Il <strong>sentiero</strong> ci guiderà attraverso paesaggi mozzafiato, passando per antichi paesi fantasma e ammirando la bellezza del <strong>Col di Favilla</strong>. Il percorso si snoda per circa 14km, con un dislivello di circa 700 metri, ideale per un''<strong>escursione</strong> di una giornata.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa bella escursione è a Careggine, in provincia di Toscana. Parcheggiate al ristorante vicino al parcheggio (attenzione, lo spazio è limitato!). Da qui, il sentiero vi porterà in un''avventura tra paesini abbandonati e panorami mozzafiato.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparatevi a un''<strong>escursione</strong> in <strong>montagna</strong> di livello medio, che richiede un minimo di allenamento. Il <strong>sentiero</strong> è in gran parte ben segnalato, ma è importante portare con sé una mappa e una bussola, soprattutto se non si ha familiarità con la zona.  Potrete ammirare panorami mozzafiato, la flora e la fauna locale e la suggestiva presenza dei paesi fantasma.  Rimarrete colpiti dalla bellezza del <strong>Col di Favilla</strong> e dall''atmosfera accogliente del <strong>Rifugio Robbio</strong>.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Iniziando a Careggine, il sentiero vi condurrà attraverso diversi paesi fantasma, un''esperienza unica. Percorrerete un tratto lungo un sentiero ben definito, fino ad arrivare al caratteristico paese di Col di Favilla, dove consiglio una breve sosta per ammirare il paesaggio. Proseguendo, raggiungerete il km 6.6, dove dovrete fare attenzione a un bivio poco segnalato: **seguite il sentiero sulla destra** (quello in salita è sbagliato!). Dopo circa 8 km, arriverete al Rifugio Robbio, dove potrete pranzare e riposare.</p>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><b>Difficoltà:</b> Media</li>
-    <li><b>Distanza:</b> Circa 14 km</li>
-    <li><b>Dislivello:</b> Circa 700 metri</li>
-    <li><b>Tempo Stimato:</b> 5 ore + 1 ora per il pranzo</li>
-    <li><b>Punto di Partenza:</b> Careggine (parcheggio ristorante)</li>
-    <li><b>Punto di Arrivo:</b> Rifugio Robbio</li>
-    <li><b>Caratteristiche del Sentiero:</b> Sentiero ben segnalato, tratti in salita, alcuni passaggi a stretto raggio.</li>
-    <li><b>Importante:</b> Portare acqua, scarpe da trekking adeguate, pranzo al sacco e un kit di primo soccorso.</li>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione è di **difficoltà media**, adatta a escursionisti con un minimo di allenamento. Il dislivello è di circa 529 metri, quindi è richiesta una buona condizione fisica. Il percorso richiede un minimo di preparazione e non è consigliato a chi è alle prime armi o a chi non è abituato a camminare.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class="lista-generata">
+  <li><strong>Distanza:</strong> Circa 13.94 km (solo andata)</li>
+  <li><strong>Dislivello:</strong> Circa 529 metri</li>
+  <li><strong>Difficoltà:</strong> Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Careggine, Toscana</li>
+  <li><strong>Comune:</strong> Isola Santa, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Il <strong>sentiero</strong> offre un''opportunità unica per immergersi nella natura selvaggia della <strong>montagna italiana</strong>. Non dimenticate di rispettare l''ambiente circostante e di lasciare i luoghi che visitate come li avete trovati.  Godetevi questa fantastica <strong>escursione</strong> e scoprite la bellezza del <strong>sentiero</strong> <strong>Careggine – Col di Favilla – Isola Santa – Rifugio Robbio</strong>!  Questo <strong>trekking</strong> in <strong>Italia</strong> è perfetto per un''indimenticabile giornata all''aria aperta. </p>
-
-<p>Consigliamo di prenotare in anticipo il pranzo al <strong>Rifugio Robbio</strong> per assicurarvi un posto.  La strada di ritorno è semplice, ma tenete presente che non ci sono fontane lungo il percorso, quindi portate con voi una quantità sufficiente di acqua.  Un''<strong>escursione</strong> indimenticabile vi aspetta!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong >Distanza:</strong> Circa 13.94 km (solo andata)</li>
+  <li><strong >Dislivello:</strong> Circa 529 metri</li>
+  <li><strong >Difficoltà:</strong> Media</li>
+  <li><strong >Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong >Punto di partenza:</strong> Careggine, Toscana</li>
+  <li><strong >Comune:</strong> Isola Santa, Toscana</li>
+  <li><strong >Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   13.94,
   529,

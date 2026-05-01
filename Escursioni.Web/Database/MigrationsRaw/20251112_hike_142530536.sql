@@ -7,26 +7,38 @@ VALUES (
   142530536,
   'Asciano - Passo di Dante - Monte Castellare - Villa Bosniaski',
   'Escursione ad anello nel tardo pomeriggio/sera con partenza d''Asciano. Abbiamo iniziato dirigendoci verso il Passo di Dante per poi raggiungere il Monte Castellare, in seguito ci siamo diretti a Villa Bosniaski dove abbiamo cenato e in seguito siamo tornati alle Auto. Passo di Dante -> passo inserito da Dante nel 33° canto della Divina Commedia vv 28-30 e fa riferimento al dialogo che Dante, accompagnato dall’immancabile Virgilio, ha con Ugolino di Guelfo della Gherardesca, Conte di Donoratico, nel cerchio dei traditori. Villa Bosniaski -> La Villa detta del Polacco o Bosniaski è ormai un rudere, ma con un fascino incredibile perché si riesce ancora a percepire il lusso e lo sfarzo che ne hanno fatto da padroni prima che i Tedeschi durante la seconda guerra mondiale la requisissero per usarla come polveriera, esplosa aimè. Il Monte Castellare -> area naturale protetta di interesse locale italiana istituita nel 1997, situata nei pressi di San Giuliano Terme, in provincia di Pisa. Il Monte Castellare è un piccolo rilievo montuoso di 253 m sito nella parte sud occidentale della formazione montuosa del Monte Pisano.',
-  '<h2>Asciano - Passo di Dante - Monte Castellare - Villa Bosniaski: Trekking e Escursioni in Montagna</h2>
+  '<h2 id="escursione-asciano-passo-di-dante-monte-castellare-villa-bosniaski">Escursione ad Asciano: Passo di Dante, Monte Castellare e Villa Bosniaski</h2>
 
-<h3>Il percorso</h3>
-<p>
-Immergiti in un''indimenticabile <strong>escursione ad anello</strong> lungo i sentieri della **Montagna Pisana**. Questo trekking, ideale per amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>, ti condurrà attraverso paesaggi mozzafiato, partendo da <strong>Asciano</strong> e raggiungendo il suggestivo <strong>Passo di Dante</strong>, punto di riferimento letterario e storico. L''itinerario prosegue verso il <strong>Monte Castellare</strong>, un’area naturale protetta dove potrai ammirare la bellezza della **natura** pisana e, infine, si conclude con una visita alla <strong>Villa Bosniaski</strong>, un luogo ricco di storia e fascino.  Preparati per un’<strong>escursione in montagna</strong> di circa 15km con un dislivello di 600 metri, un''esperienza da non perdere per chi cerca un''avventura in Italia.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>L''escursione parte da <strong>Asciano</strong>, un borgo medievale nella <strong>Toscana</strong>. Raggiungere Asciano è abbastanza semplice: via strada statale o autostrada, seguendo le indicazioni per Asciano. Il punto di partenza è facilmente raggiungibile a piedi dal centro del paese, un percorso breve e panoramico che vi darà il benvenuto in questa splendida escursione.</p>
 
-<h3>Cosa aspettarsi</h3>
-<ul>
-    <li>Un percorso ad anello di circa 15 km con un dislivello di 600 metri.</li>
-    <li>Possibilità di ammirare panorami mozzafiato sulla **Montagna Pisana**.</li>
-    <li>Visita al <strong>Passo di Dante</strong>, un luogo di grande interesse storico e letterario.</li>
-    <li>Esplorazione del <strong>Monte Castellare</strong>, un''area naturale protetta ricca di biodiversità.</li>
-    <li>Una passeggiata alla scoperta della <strong>Villa Bosniaski</strong>, con le sue vestigia di un passato sfarzoso.</li>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Partiremo da <strong>Asciano</strong>, seguendo un sentiero che ci porterà gradualmente verso l''alto. Il primo tratto è caratterizzato da una dolce salita, immersi nella natura e nel profumo della macchia mediterranea. Arriviamo al <strong>Passo di Dante</strong>, un luogo storico legato alla Divina Commedia di Dante Alighieri, dove, secondo la tradizione, Dante ebbe un dialogo con Ugolino. Da qui, la salita continua fino al <strong>Monte Castellare</strong>, dove potrete ammirare un panorama mozzafiato sulla campagna circostante e sulla Val di Lima. Dopo aver raggiunto la vetta, ci dirigeremo verso la suggestiva <strong>Villa Bosniaski</strong>, un rudere con un fascino innegabile, e infine ritroveremo Asciano, completando così il nostro <strong>anello</strong>.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa <strong>escursione</strong> è di <strong>facile</strong> difficoltà, adatta anche a famiglie e a chi non ha molta esperienza nel trekking. La distanza totale è di circa <strong>8.21 km</strong> con un <strong>dislivello positivo di 384 metri</strong>. Il percorso è ben segnalato e presenta alcuni tratti in salita, ma niente di particolarmente impegnativo. Vi consiglio di indossare scarpe da trekking, portare con voi acqua e snack, e godervi questa splendida giornata in montagna.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class="list">
+    <li><strong>Distanza:</strong> Circa 8.21 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 384 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Asciano (accessibile in auto / a piedi)</li>
+    <li><strong>Comune:</strong> Asciano, <strong>Toscana</strong></li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni utili</h3>
-<p>
-Questa <strong>trekking</strong> da <strong>Asciano</strong> è adatta a escursionisti esperti, ma anche a coloro che cercano un''<strong>escursione</strong> impegnativa ma gratificante. Il percorso presenta alcune salite ripide, ma è ben segnalato e offre viste panoramiche incredibili.  E'' importante indossare scarpe da <strong>trekking</strong> adatte e portare con sé acqua, cibo e abbigliamento adeguato alle condizioni meteorologiche. Ricorda che il <strong>Passo di Dante</strong> è legato alla Divina Commedia di Dante Alighieri e alla figura di Ugolino di Donoratico, un''esperienza unica per gli appassionati di <strong>sentieri Italia</strong> e della letteratura.  La <strong>Villa Bosniaski</strong> rappresenta un testimonianza della storia locale, con le sue tracce della Seconda Guerra Mondiale. Considera di pianificare l''<strong>escursione</strong> per il tardo pomeriggio o la sera per godere della luce dorata e dei panorami serali. Se cerchi un''<strong>escursione</strong> nella **Montagna Pisana**, questo è il sentiero perfetto per te.
-</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul class="list">
+    <li><strong>Distanza:</strong> Circa 8.21 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 384 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Asciano (accessibile in auto / a piedi)</li>
+    <li><strong>Comune:</strong> Asciano, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   8.21,
   384,
@@ -55,7 +67,7 @@ Questa <strong>trekking</strong> da <strong>Asciano</strong> è adatta a escursi
   '1e9a9aef61105bae2681a8f9f0f3c41e027024ad9691075af029fcd9b247c566',
   'Escursione Asciano - Monte Castellare: Anello Toscana, 8.2km, +384m. Trekking facile da Asciano a Villa Bosniaski. Scopri il Passo di Dante e il Monte Castel...',
   'Asciano - Monte Castellare: Escursione Anello Toscana',
-  'Monti Pisani', 
+  'Monti Pisani',
   NOW(),
   NOW()
 )

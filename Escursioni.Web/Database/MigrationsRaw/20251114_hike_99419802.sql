@@ -7,31 +7,30 @@ VALUES (
   99419802,
   'Rifugio Alto Matanna - Procinto',
   'Siamo partiti dal rifugio dell''Alto matanna e in seguito andati in direzione Procino. Il sentiero è semplice, proseguire fino al Callare del Matanna(dove se si è fortunati si vedono i cavalli) e in seguito si prosegue fino all''attacco del Procino, questa parte(anello compreso è fattibile senza Attrezzatura). Una volta arrivati all''attacco mi raccomando l''obbligo dell''attrezzatura per salire, il percoso è bello anche se abbiamo trovato pioggia e nebbia.',
-  '<h2>Rifugio Alto Matanna - Procinto: Escursione Trekking in Montagna in Italia</h2>
+  '<h2 id="rifugio-alto-matanna-procinto">Escursione al Rifugio Alto Matanna - Procinto</h2>
 
-<h3>Il Percorso: Un''Escursione Panoramica al Rifugio Procinto</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Partiamo dal rifugio dell''Alto Matanna, facilmente raggiungibile in auto. Il rifugio è situato a Palagnana, in provincia di Toscana, Italia. Dal rifugio, seguiamo il sentiero che ci porta verso Procinto. La strada iniziale è semplice e adatta a tutti, anche a chi non ha molta esperienza di escursionismo.</p>
 
-<p>Partite dal suggestivo <strong>Rifugio Alto Matanna</strong> e intraprendete un''entusiasmante <strong>escursione trekking</strong> verso il pittoresco paese di <strong>Procino</strong>. Questo sentiero, di difficoltà semplice, vi condurrà attraverso paesaggi mozzafiato, immersi nella natura selvaggia della <strong>montagna italiana</strong>. L''<strong>escursione</strong> è ideale per appassionati di <strong>trekking</strong> e <strong>sentieri</strong> alla ricerca di un''avventura all''aria aperta in un ambiente incontaminato.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Dopo aver lasciato il rifugio, il sentiero sale gradualmente, offrendo un bellissimo panorama sulla valle. Proseguiamo fino al Callare del Matanna, dove a volte si possono avvistare i cavalli. Da qui, il percorso si fa più impegnativo, diventando un anello fattibile anche senza attrezzatura, ma solo se siete in buona forma fisica. Una volta arrivati all''attacco del Procino, è obbligatorio l''utilizzo di attrezzatura tecnica per affrontare la salita vera e propria. Il sentiero è tecnico e ben frequentato.</p>
 
-<p>Il percorso inizia con una salita graduale fino al <strong>Callare del Matanna</strong>, un punto di osservazione dove, con un po'' di fortuna, potrete ammirare i cavalli locali. Da qui, proseguite verso l''<strong>attacco del Procino</strong>, una parte dell''anello che può essere affrontata anche senza attrezzatura specifica, offrendo un''esperienza di <strong>trekking</strong> accessibile a tutti.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è di difficoltà media. La distanza totale è di circa 7.67 km con un dislivello di 810 metri. Preparatevi a un anello, quindi a un percorso di andata e ritorno. Il sentiero può essere umido e scivoloso, soprattutto dopo la pioggia, e a volte nebbioso. È fondamentale indossare scarpe da trekking adatte e portare con sé acqua, snack e abbigliamento a strati.</p>
 
-<h3>Cosa Aspettarsi: Natura, Panorami e Sfide</h3>
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Questo sentiero è un''ottima opportunità per ammirare la natura e godere di un panorama mozzafiato.  È un''escursione adatta per escursionisti esperti con una buona condizione fisica, ma anche per chi si sente pronto a sfidarsi. La traccia GPS vi aiuterà a orientarvi lungo il percorso.</p>
 
-<p>Preparatevi a un''esperienza immersiva nella natura. L''<strong>escursione</strong> offre viste panoramiche mozzafiato sulla campagna circostante e sulle cime circostanti. Tuttavia, il percorso presenta alcune pendenze e tratti rocciosi, soprattutto all''<strong>attacco del Procino</strong>, dove è indispensabile l''equipaggiamento adeguato. La possibilità di incontrare pioggia e nebbia rende importante essere preparati ad affrontare condizioni atmosferiche variabili. Questa <strong>escursione in montagna</strong> è un''ottima opportunità per apprezzare la bellezza del paesaggio e sfidare le proprie capacità di <strong>trekking</strong>.</p>
-
-<h3>Informazioni Utili: Dettagli per un Trekking di Successo</h3>
-
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Difficoltà:</b> Facile - Media (richiede attrezzatura adeguata all''attacco del Procino)</li>
-    <li><b>Distanza:</b> Circa 8 km (andata e ritorno)</li>
-    <li><b>Dislivello:</b> Circa 600 metri</li>
-    <li><b>Tempo di percorrenza:</b> 3-4 ore (a seconda del ritmo e delle soste)</li>
-    <li><b>Punto di partenza:</b> Rifugio Alto Matanna</li>
-    <li><b>Punto di arrivo:</b> Attacco del Procino</li>
-    <li><b>Consigli:</b> Indossare scarpe da trekking robuste, portare con sé acqua e cibo, controllare le previsioni del tempo e informarsi sulle condizioni del sentiero prima di partire.  Questa <strong>escursione sentiero Italia</strong> è perfetta per gli amanti del <strong>trekking</strong>!</li>
-</ul>
-
-<p>Ricordatevi sempre di rispettare l''ambiente naturale e di seguire le indicazioni del sentiero. Un''<strong>escursione</strong> responsabile contribuisce a preservare la bellezza di questi luoghi per le future generazioni. Godetevi questa splendida <strong>escursione trekking</strong>!</p>',
+  <li><strong>Distanza:</strong> Circa 7.67 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 810 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Rifugio Alto Matanna, Palagnana, Toscana, Italia</li>
+  <li><strong>Comune:</strong> Palagnana, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.67,
   810,

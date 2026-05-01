@@ -7,31 +7,51 @@ VALUES (
   187225802,
   'Pomaia e Poggi',
   'Pomaia: Escursione tra le Colline Pisane I sentieri in questa zona delle colline pisane non sono mantenuti al meglio. Se volete raggiungere i poggi più panoramici, dovrete immergervi in un territorio selvaggio. Sebbene non si tratti di veri e propri sentieri da trekking, sono comunque percorribili grazie ai sentieri dei cacciatori, anche se dovrete fare i conti con rovi e alberi. Tra i monti da esplorare, quelli dell''andata sono i più panoramici. Vi consiglio di visitare il Monte Vasino con il suo suggestivo balcone panoramico, e anche il Termine delle Roccacce. Dopo questo punto, i sentieri diventano più tranquilli e simili a strade tra i campi. Evitate invece di andare verso il Monte Vaso, poiché l''accesso è bloccato da un recinto. Il ritorno è stato piuttosto semplice, eccetto per un paio di poggi su cui avrei voluto salire, ma i sentieri erano ormai inglobati dalla vegetazione. Molto bella la parte finale che attraversa il fiume.',
-  '<h2>Pomaia e Poggi: Escursione Trekking nelle Colline Pisane</h2>
+  '<h2 id="escursione-pomaia-e-poggi">Escursione a Pomaia e Poggi</h2>
 
-<h3>Il Percorso</h3>
 <p>
-Immergiti in un''escursione indimenticabile attraverso le <strong>Colline Pisane</strong>, un''opportunità unica per l''<strong>trekking</strong> e l''<strong>escursionismo</strong> in un territorio selvaggio e autentico. Questo sentiero, che si snoda tra <strong>sentieri</strong> di caccia e rovi, offre un''esperienza di <strong>natura</strong> incontaminata. Il percorso, principalmente lungo i sentieri dei cacciatori, ti porterà ad esplorare il <strong>Monte Vasino</strong>, noto per il suo suggestivo balcone panoramico, e il Termine delle Roccacce. La prima parte dell''escursione è particolarmente selvaggia, con una forte presenza di vegetazione, mentre la seconda si sviluppa tra campi e strade rurali, culminando con un attraversamento di un affluente del fiume. Sebbene non sia un vero e proprio sentiero da <strong>trekking</strong>, la sua percorribilità lo rende ideale per chi cerca un''avventura nella <strong>montagna</strong>.
+    Oggi vi racconto un''escursione tra le colline pisane, un''avventura che richiede un po'' di spirito e una buona dose di rispetto per la natura selvaggia. Se siete alla ricerca di panorami mozzafiato e sentieri non battuti, questa potrebbe essere la vostra prossima sfida!
 </p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+
 <p>
-Preparati per un''esperienza di <strong>trekking</strong> impegnativa ma ricca di emozioni, che ti condurrà attraverso un territorio non sempre ben mantenuto. Dovrai affrontare rovi, alberi e tratti di sentiero poco battuti. La difficoltà del percorso è medio-alta, e richiede un buon livello di preparazione fisica e una buona dose di spirito d''avventura.  Le viste panoramiche dal <strong>Monte Vasino</strong> compensano ampiamente gli sforzi richiesti.  La flora e la fauna locali, sebbene non particolarmente spettacolari, offrono un''esperienza autentica di contatto con la <strong>natura</strong>.  Questa <strong>escursione</strong> è perfetta per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong> che desiderano scoprire i segreti delle <strong>Colline Pisane</strong>.  Ricorda, l''accesso al <strong>Monte Vaso</strong> è bloccato da un recinto.
+    Il punto di partenza è a Pomaia, un piccolo comune nella provincia di Pisa, in Toscana. Dallo stesso comune, seguendo le indicazioni per i sentieri naturalistici, si raggiunge il punto di partenza dell''escursione.
 </p>
 
-<h3>Informazioni Utili</h3>
-<ul>
-    <li><b>Distanza Totale:</b> Circa 8-10 km (escursione non regolamentata)</li>
-    <li><b>Difficoltà:</b> Medio-Alta</li>
-    <li><b>Dislivello:</b> Circa 300-400 metri</li>
-    <li><b>Periodo Consigliato:</b> Primavera - Autunno</li>
-    <li><b>Attrezzatura Consigliata:</b> Scarpe da trekking, zaino, acqua, snack, abbigliamento adeguato alle condizioni meteo, mappa e bussola/GPS.</li>
-    <li><b>Punti di Interesse:</b> <strong>Monte Vasino</strong> (balcone panoramico), Termine delle Roccacce, attraversamento del fiume.</li>
-</ul>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
 
 <p>
-Scopri le meraviglie del territorio pisano con questa <strong>escursione</strong>. Ricorda di rispettare l''ambiente e di seguire le indicazioni locali.  Un''avventura indimenticabile ti aspetta tra le <strong>Colline Pisane</strong>!
-</p>',
+    L''escursione inizia con un tratto in salita attraverso un territorio selvaggio, ricco di rovi e alberi. Il sentiero non è tracciato, ma percorribile grazie ai sentieri dei cacciatori. Il percorso si snoda tra i monti, offrendo ampie vedute sulle colline circostanti.
+</p>
+
+<p>
+    Il punto più suggestivo è il Monte Vasino, con il suo balcone panoramico. Dopo il Termine delle Roccacce, i sentieri diventano più tranquilli, simili a strade tra i campi. La parte finale dell''escursione attraversa un fiume, un finale fresco e rigenerante.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>
+    Questa escursione presenta una difficoltà media. Il sentiero non è sempre ben definito e può essere faticoso, soprattutto a causa del dislivello di 577 metri. Aspettatevi di muovervi in un ambiente naturale selvaggio, con rovi, alberi e qualche tratto scosceso.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>
+    Per facilitare la vostra escursione, vi lascio una traccia GPS e alcune informazioni utili. Ricordatevi di portare con voi acqua, snack, scarpe da trekking adeguate e un buon abbigliamento.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong>Distanza:</strong> Circa 14.27 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 577 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Pomaia, Toscana</li>
+  <li><strong>Comune:</strong> Pomaia, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   14.27,
   577,

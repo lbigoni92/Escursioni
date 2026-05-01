@@ -7,25 +7,31 @@ VALUES (
   163375758,
   'Casetta dei pastori e Lago Nero da Fontana Vaccaia',
   'Percorso ad anello con partenza da "Le Regie" e direzione "Lago Nero". Prima Ciaspolata ce sono andato a praticare premetto che la lunghezza e dislivello riportati, sono Errati, il percorso è lungo 12/13km con un dislivello di 600-700 mt. Il percorso con le ciaspole non c''ha mai presentato problemi se non qualche vescica dovuta a quest''ultime, il primo tratto è sempre in salita che si presenta sempre dolce tranne in un paio di tratti, Arrivati al Lago nero abbiamo pranzato e fatto foto, li abbiamo potuto mangiare anche del buonissimo pane e formaggio con vino e grappa più il nostro cibo. Punti d''interesse: - Casetta dei pastori (8.4 km) - Lago Nero (11.8 km) L fontanelle erano tutte congelate tranne un paio nel tratto iniziale.',
-  '<h2>Casetta dei Pastori e Lago Nero da Fontana Vaccaia: Trekking in Montagna e Escursione nel Parco</h2>
+  '<h2 id="casetta-dei-pastori-e-lago-nero-da-fontana-vaccaia">Casetta dei pastori e Lago Nero da Fontana Vaccaia</h2>
 
-<h3>Il percorso: Un Anello di Trekking Indimenticabile</h3>
-<p>Preparati per un’escursione di trekking epica e indimenticabile! Questo percorso ad anello, parte da “Le Regie” e conduce al magnifico <strong>Lago Nero</strong>, offrendo una giornata di immersione nella <strong>natura selvaggia delle montagne</strong>. L''escursione di trekking è di circa 12/13 km con un impegnativo dislivello di 600-700 metri, ideale per escursionisti esperti e amanti del trekking in <strong>montagna</strong>.  Un’ottima opportunità per un’escursione in un ambiente naturale unico, perfetto per chi cerca un''esperienza di <strong>trekking</strong> in Italia.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa splendida escursione è a "Le Regie", facilmente raggiungibile in auto. Da lì, si inizia un anello che vi condurrà alla scoperta del Lago Nero e della Casetta dei pastori.  È un''escursione ben colta, ideale per chi ama i panorami mozzafiato e le sfide moderate.</p>
 
-<h3>Cosa aspettarsi: Un''Avventura tra Natura e Paesaggi mozzafiato</h3>
-<p>Questo sentiero di trekking ti porterà attraverso un paesaggio variegato, ricco di flora e fauna. Preparati a salite impegnative, ma anche a viste spettacolari sul <strong>Lago Nero</strong> e sulle valli circostanti. Il percorso, lungo circa 13 km con un dislivello di 650 metri, è progettato per offrire un''esperienza completa di <strong>trekking</strong> e permette di ammirare la bellezza della <strong>natura italiana</strong>.  Potrai gustare un meritato pranzo al <strong>Lago Nero</strong>, ammirando il paesaggio e godendo di un momento di relax nella natura. Un''escursione adatta a chi cerca una vera sfida di trekking, ma anche a chi desidera semplicemente godersi la bellezza del panorama.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione inizia da "Le Regie" con una salita dolce che vi porterà alla prima Ciaspolata. Il percorso è lungo circa 12/13 km con un dislivello di 600-700 metri, quindi un trekking impegnativo ma fattibile. Dopo la Ciaspolata, il sentiero si snoda attraverso il paesaggio, raggiungendo il suggestivo Lago Nero. Lungo il percorso avrete la possibilità di ammirare la Casetta dei pastori, un punto di sosta ideale per ammirare il panorama. Il tratto finale è un piacevole ritorno verso il punto di partenza.</p>
 
-<h3>Informazioni utili: Dettagli per un Trekking Sicuro e Divertente</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>Questa escursione presenta una difficoltà di **Media**. È consigliabile indossare scarpe da trekking adatte e portare con sé acqua, cibo e abbigliamento adeguato alle condizioni meteorologiche. Le ciaspole potrebbero essere utili per affrontare alcuni tratti più scivolosi, ma non sono indispensabili.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Potete scaricare la <strong href="#">traccia GPS</strong> di questo percorso per seguirla durante l''escursione. Ricordatevi di controllare sempre le previsioni del tempo prima di partire.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Distanza:</strong> Circa 12/13 km</li>
-    <li><strong>Dislivello:</strong> 600-700 metri</li>
-    <li><strong>Difficoltà:</strong> Impegnativa - Adatta a escursionisti esperti</li>
-    <li><strong>Punti di interesse:</strong> <strong>Casetta dei pastori</strong> (8.4 km), <strong>Lago Nero</strong> (11.8 km)</li>
-    <li><strong>Punti di ristoro:</strong> Possibilità di picnic e pranzo al <strong>Lago Nero</strong> con prodotti tipici locali.</li>
-    <li><strong>Consigli:</strong> Indossa scarponi da trekking adeguati, porta con te acqua e cibo a sufficienza, e rispetta l’ambiente circostante.</li>
-</ul>
-
-<p>Non perdere l''opportunità di vivere un''indimenticabile <strong>escursione nel Parco</strong>, ricco di sentieri da trekking e panorami mozzafiato.  Questo percorso di trekking è perfetto per un''avventura in <strong>montagna</strong> tra la natura e il relax.  Scopri i segreti di questo sentiero e crea ricordi indimenticabili durante la tua <strong>trekking</strong>.</p>',
+    <li><strong>Distanza:</strong> Circa 20.19 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1527 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Le Regie (accessibile in auto)</li>
+    <li><strong>Comune:</strong> Fontana Vaccaia, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+    <li><strong>Parco Nazionale:</strong> Non applicabile</li>
+</ul>',
   'Tutte le Attività e Paesi',
   20.19,
   1527,

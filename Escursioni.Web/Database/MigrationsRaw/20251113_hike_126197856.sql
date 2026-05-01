@@ -7,28 +7,59 @@ VALUES (
   126197856,
   'Asciano - Mirteto - Faeta - Buca delle fate (Sughereta)',
   'Bel giro a partire da Asciano con una bella salita fino al Fateta con una tappa al Mirteto, Fino al Faeta è una bella salita, ma la vista, se non c''è nebbia ripaga gli sforzi. In seguito ci siamo diretti a Campo di Croce e Foce di Caci... per poi proseguire verso la Buca delle fate con rientro ad Asciano. Il Mirteto è un borgo monastico situato sui Monti Pisani in Toscana, Italia. Si trova nel comune di San Giuliano Terme, ad un''altitudine di circa 282 m s.l.m. sopra il paese di Asciano. Il complesso comprende una chiesa romanica del XII secolo, dedicata a Santa Maria di Mirteto, e altri edifici come abitazioni, forni e cantine. Il complesso è in stato di degrado e pericolante e l''accesso è vietato. Il toponimo "Mirteto" deriva dalla presenza di piante di mirto nell''area, almeno durante il periodo in cui il monastero era ancora abitato. La chiesa era dipendente dalla Badia di San Michele alla Verruca, ma fu danneggiata durante una guerra locale nel 1432. I monaci si trasferirono altrove e l''edificio religioso divenne un oratorio privato nel 1712. Il complesso fu abbandonato nel corso del XX secolo.',
-  '<h2>Asciano - Mirteto - Faeta - Buca delle fate (Sughereta) Trekking in Toscana</h2>
+  '<h2 id="escursione-asciano-mirteto-faeta-buca-fate-sughereta">Escursione da Asciano a Mirteto, Faeta e Buca delle Fate</h2>
 
-<h3>Il percorso: Escursione trekking tra Monti Pisani</h3>
-<p>Immergiti in un’escursione indimenticabile lungo il sentiero Asciano - Mirteto - Faeta - Buca delle fate (Sughereta), un''avventura di <strong>trekking</strong> in <strong>Toscana</strong> che ti condurrà tra le vette dei <strong>Monti Pisani</strong>. Questo <strong>sentiero</strong> offre un percorso vario e stimolante, perfetto per <strong>escursionisti</strong> esperti e amanti della <strong>natura</strong> alla ricerca di nuove sfide e panorami mozzafiato.  Scopri un’esperienza di <strong>trekking</strong> autentica con un tour guidato o esplora il territorio da solo, godendoti la bellezza incontaminata della <strong>montagna</strong> toscana.</p>
+<p>
+Avventurati con me in questo fantastico giro da Asciano, un''escursione di trekking che ti porterà alla scoperta di borghi medievali, panorami mozzafiato e la suggestiva Buca delle Fate!  Questo anello di 16.73 km con un dislivello di 1106 metri è perfetto per chi cerca una sfida in montagna, ma senza eccessivi ostacoli.
+</p>
 
-<h3>Cosa aspettarsi: Un''escursione con panorami unici</h3>
-<p>Preparati a una <strong>escursione</strong> che inizia con una salita impegnativa fino al <strong>Faeta</strong>, ma che ti ricompenserà con viste spettacolari, soprattutto se la nebbia non ostacola la tua vista. Il percorso ti guiderà attraverso boschi di sughera, prati fioriti e panorami sulla Val di Chiana.  Sarà un''esperienza di <strong>trekking</strong> che ti farà sentire parte integrante della <strong>natura</strong>, con la possibilità di ammirare la flora e la fauna locale. L''itinerario è adatto a <strong>escursionisti** che amano le sfide, ma anche a famiglie e gruppi di amici in cerca di un''attività all''aria aperta. </p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Informazioni utili: Dettagli del sentiero</h3>
+<p>
+Il punto di partenza è a Asciano, un piccolo borgo medievale situato nella Val di Chiana.  Raggiungibile in auto dall''autostrada A11 (Firenze-Roma), prendendo l''uscita di Chiusi-Cortona e seguendo le indicazioni per Asciano.  In alternativa, si può arrivare a piedi o in bicicletta, godendo dei paesaggi toscani.
+</p>
+
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>
+Partiremo da Asciano e inizieremo la salita verso il Mirteto, un affascinante borgo monastico. Il sentiero si snoda attraverso la fitta macchia mediterranea, offrendo scorci panoramici sulla Val di Chiana.  Proseguiremo fino al Faeta, un''altra cima impervia ma con una vista impareggiabile. Dal Faeta, ci diriggeremo verso la Buca delle Fate, un''area naturale protetta con grotte e formazioni carsiche. Il rientro ad Asciano sarà attraverso sentieri più agevoli, ammirando il paesaggio circostante.  Il percorso è un mix di saliscendi e tratti pianeggianti, ideale per un''escursione di mezza giornata.
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>
+Questo trekking è classificato come di difficoltà <strong>Media</strong>. Richiede un minimo di allenamento e una buona preparazione fisica. Il dislivello di 1106 metri presenta alcune pendenze ripide, ma il percorso è ben segnalato e il paesaggio compensa lo sforzo.  È consigliabile indossare scarpe da trekking, portare con sé acqua, cibo e abbigliamento adeguato.  La vista dal Faeta è spettacolare, se il cielo è sereno.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>
+<strong id="traccia-gps">Traccia GPS:</strong> (Qui inserirebbe la traccia GPS del percorso - esempio: [link a traccia GPS])
+</p>
+<p>
+<strong id="informazioni-pratiche">Informazioni pratiche:</strong>
 <ul>
-    <li><strong>Percorso:</strong> Asciano - Mirteto - Faeta - Buca delle fate (Sughereta)</li>
-    <li><strong>Località:</strong> Monti Pisani, Toscana</li>
-    <li><strong>Difficoltà:</strong> Media - Richiede una buona preparazione fisica</li>
-    <li><strong>Distanza:</strong> Circa 15-20 km (indicativo, varia in base al percorso scelto)</li>
-    <li><strong>Dislivello:</strong> Circa 800-1000 metri (indicativo, varia in base al percorso scelto)</li>
-    <li><strong>Punto di partenza:</strong> Asciano</li>
-    <li><strong>Punto di arrivo:</strong> Asciano</li>
-    <li><strong>Periodo consigliato:</strong> Primavera - Autunno (per evitare il caldo estivo)</li>
-    <li><strong>Importante:</strong> Ricorda di indossare scarpe da <strong>trekking</strong> adatte, portare acqua e cibo a sufficienza e informarti sulle condizioni del sentiero prima di partire. Il borgo monastico di <strong>Mirteto</strong> è attualmente in stato di degrado e l''accesso è vietato.</li>
+    <li><strong>Distanza:</strong> Circa 16.73 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 1106 m</li>
+    <li><strong>Difficoltà:</strong> Medio</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Asciano, accessibile in auto</li>
+    <li><strong>Comune:</strong> Il Prato, Provincia di Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
+</p>
 
-<p>Scopri di più sui sentieri di <strong>trekking</strong> in <strong>Italia</strong> e pianifica la tua prossima avventura!  Un''opportunità unica per un''<strong>escursione</strong> a piedi tra le bellezze naturali della <strong>Toscana</strong>.  Vivi l''emozione del <strong>trekking</strong> in un contesto unico.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+    <li><strong id="distanza">Distanza:</strong> Circa 16.73 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 1106 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Medio</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Asciano, accessibile in auto</li>
+    <li><strong id="comune">Comune:</strong> Il Prato, Regione Toscana</li>
+    <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   16.73,
   1106,

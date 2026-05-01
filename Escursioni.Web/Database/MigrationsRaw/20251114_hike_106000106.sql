@@ -7,25 +7,40 @@ VALUES (
   106000106,
   'Livorno - Sambuca - Valle Benedetta - Lucciole',
   'La partenza stata dal parcheggio a fianco della "via del radar" ove via un''enorme parcheggio gratuito. Il percorso è iniziato alle 19 del pomeriggio dove abbiamo fatto la prima parte con il sole, quando siamo arrivati a 1/3 del percorso, abbiamo potuto vedere un punto panoramico stupendo; da qua avevamo la possibilità di vedere dai Monte serra, fino alle Apuane. Abbiamo proseguito il percorso al cala sole, fino ad arrivare all''incrocio chiamato “il Crocione”, da qua siamo tornati indietro verso il Molino e abbiamo immediatamente girato a sinistra e abbiamo cominciato questo sentiero in notturna,; com''è calato il sole le lucciole hanno preso a illuminare il percorso, è stata un''esperienza unica e grazie alla luna piena riuscivamo a vedere queste chiaramente il sentiero anche di notte; sentiero che abbiamo proseguito fino ad arrivare all''Eremo della Sambuca, dove abbiamo cenato verso le 21:00. Dall''eremo abbiamo proseguito fino a un enorme pratone dove ci siamo stesi a vedere le stelle e la visuale era stupenda... le foto non rendono bene quel che abbiamo visto, e dopo un po’ di riposo abbiamo proseguito sulla strada fino a tornare alle macchine.',
-  '<h2>Livorno - Sambuca - Valle Benedetta - Lucciole: Trekking Notturno tra Montagna e Natura</h2>
+  '<h2 id="escursione-livorno-sambuca-valle-benedetta-lucciole">Escursione a Livorno, Sambuca e Valle Benedetta: Un''Avventura tra Lucciole e Stelle</h2>
 
-<h3>Il Percorso</h3>
-<p>Questo fantastico <strong>sentiero di trekking</strong> a <strong>Livorno</strong> offre un''esperienza indimenticabile, un''escursione notturna attraverso paesaggi mozzafiato. Il percorso inizia da un comodo <strong>parcheggio gratuito</strong>, vicino alla “via del radar”, e si snoda attraverso la splendida <strong>Valle Benedetta</strong> fino al punto di riferimento delle <strong>lucciole</strong>. L''escursione, di circa 8 km, è adatta a escursionisti esperti che amano il <strong>trekking in montagna</strong> e l''esplorazione della <strong>natura</strong>.</p>
-<p>Il percorso include una prima parte sotto il sole, con una spettacolare vista sui <strong>Monte Serra</strong> e le <strong>Apuane</strong>, un punto panoramico a circa 1/3 del cammino. Successivamente, si prosegue al calar della sera, sfruttando la magia delle <strong>lucciole</strong> che illuminano il <strong>sentiero</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>La partenza per questa splendida escursione è dal parcheggio gratuito situato lungo la "via del radar" vicino a Livorno. È facilmente raggiungibile in auto e offre un punto di partenza comodo per iniziare il tuo trekking.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Inizieremo con un percorso di circa 1/3 del tragitto al tramonto, godendoci il sole e ammirando il panorama mozzafiato che si apre sui Monte Serra e sulle Apuane. Proseguiremo verso il "Crocione", un incrocio chiave del sentiero. Da qui, ci diremo indietro verso il Molino, e inizieremo un tratto più impegnativo in notturna, guidati dalla magia delle lucciole.  Quando il sole sarà calato, le lucciole inizieranno a illuminare il sentiero, creando un''esperienza magica e indimenticabile.  Il sentiero ci porterà all''Eremo della Sambuca, dove potremo fare una piccola sosta per la cena verso le 21:00. Dopo la cena, prosegueremo su un ampio pratone per ammirare le stelle, con una visuale spettacolare.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è di **facile** difficoltà, adatta a escursionisti di tutti i livelli. La distanza totale è di circa 9,89 km con un dislivello di 329 metri. La maggior parte del percorso è su sentiero, ma ci sono brevi tratti su strada.  È consigliata la presenza di scarpe da trekking e un abbigliamento adeguato alle condizioni meteo.  La parte notturna, illuminata dalle lucciole, rende l''esperienza unica e suggestiva.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>
+    <strong id="distanza">Distanza:</strong> Circa 9,89 km (anello)
+    <strong id="dislivello">Dislivello:</strong> Circa 329 metri
+    <strong id="difficoltà">Difficoltà:</strong> Facile
+</p>
 <ul>
-    <li>Un''escursione notturna immersa nella <strong>natura</strong> e nell''oscurità.</li>
-    <li>L''opportunità di ammirare le splendide <strong>lucciole</strong>, un''esperienza magica e unica.</li>
-    <li>Viste panoramiche mozzafiato sui <strong>Monti Serra</strong> e sulle <strong>Apuane</strong>.</li>
-    <li>Un <strong>sentiero</strong> ben definito, adatto a <strong>trekking</strong> e <strong>escursioni</strong>.</li>
-    <li>Un''escursione di circa 8 km, adatta a escursionisti esperti.</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Parcheggio "via del radar" a Livorno</li>
+    <li><strong id="comune">Comune:</strong> Valle Benedetta, Toscana, Italia</li>
+    <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni Utili</h3>
-<p>Il <strong>sentiero</strong> da <strong>Livorno</strong> a <strong>Sambuca</strong> e <strong>Valle Benedetta</strong> e <strong>Lucciole</strong> è un''eccellente opzione per chi cerca un''avventura notturna e un contatto diretto con la <strong>natura</strong>. La difficoltà del <strong>sentiero</strong> è media, richiede un buon livello di preparazione fisica e una scarpa da <strong>trekking</strong> adeguata. Il percorso termina in un ampio pratone dove è possibile ammirare le stelle e godere della vista.</p>
-<p>Partenza dal <strong>parcheggio</strong> a fianco della “via del radar”. Il punto di partenza è facilmente raggiungibile in auto.  La durata dell''escursione è di circa 4-5 ore, a seconda del ritmo e delle soste. È consigliabile informarsi sulle condizioni meteorologiche prima di intraprendere il <strong>sentiero</strong>.</p>
-<p>Per ulteriori informazioni e dettagli sul <strong>trekking</strong> in <strong>Italia</strong>, consulta le nostre guide per l''esplorazione dei <strong>sentieri</strong> e delle <strong>montagne</strong>.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong id="distanza">Distanza:</strong> Circa 9.89 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 329 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Facile</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Parcheggio a fianco della "via del radar"</li>
+    <li><strong id="comune">Comune:</strong> Valle Benedetta, Toscana</li>
+    <li><strong id="tipo-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   9.89,
   329,

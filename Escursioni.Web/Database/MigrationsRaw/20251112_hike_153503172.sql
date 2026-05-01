@@ -7,26 +7,42 @@ VALUES (
   153503172,
   'Ferrata di Buti - Ferrata di Sant''Antone',
   'Completata anche la ferrata di Sant''Antone di Buti(una delle più impegnative della Toscana) in tutte e tre le sue parti! Se fate la ferrata una recensione o un commento per farmi sapere la vostra opinione, Grazie! Tutto quello che riporto qua è frutto di una mia esperienza personale e SOGGETTIVO, non sottovalutate la ferrata, e ricordate che è obbligatoria l''attrezzatura: Imbraco, Casco, Kit da ferrata, Scarponi. Mi aspettavo che la ferrata fosse più faticosa, anche se in alcuni tratti ho trovato dei passaggi faticosi per la difficoltà tecnica, la ritengo fattibile per persone che hanno esperienza con ferrate e una buona muscolatura ma non è MAI da sottovalutare, specialmente per esposizione e fatica, ci sono dei passaggi veramente tosti dove si deve star attenti a quello che si fa, molto più difficile rispetto a quelle del Forato e del Procinto e del Sumbra anche se ovviamente meno panoramica. Noi c''abbiamo messo 2 ore e 30 a percorrerla con un nostro amico che era molto affaticato e fermandoci a fare molte foto (dove possibile), sicuramente fattibile in un ora e mezzo/ due. La Ferrata : Unica Via Ferrata dei monti pisani chiamata di Sant’Antone, si sviluppa in senso longitudinale da Sud-Est a Nord-Ovest ad una quota bassa da 410 mt a 536mt. La ferrata impegnativa con passaggi tecnici, particolarmente esposta e sin da subito molto faticosa, si deve avere un buon allenamento fisco e non avere problemi con il vuoto, ogni chiodo infisso nella roccia è numerato. Il parcheggio: è situato 300-400 metri prima della ferrata salendo da buti sulla destra, molto ampio c''entrano una decina d''auto. Accesso alla ferrata: Dalla strada è presente un cartello molto chiaro , seguendolo dopo circa 2-300 metri si potrà trovare l’attacco della ferrata. Descrizione percorso della ferrata La ferrata si divide in tre sezioni Tutte collegate tra di loro da brevissimi tratti nel bosco dove si deve stare attenti a non bagnarsi le suole (in caso di piogge recenti) per non perdere aderenza con la roccia. Prima parte dal chiodo 1 al 64: Il primo tratto si presenta subito abbastanza muscolare e fa capire immediatamente la difficoltà del percorso con un tratto verticale che ha subito una certa difficoltà, dove possiamo aiutarci con delle staffe nella roccia, già in questo tratto saremo subito altamente esposti e il cambio dei moschettoni in alcuni scambi sarà faticoso e non immediato. In questo tratto troveremo una scaletta il cui attacco prevede una certa forza e tecnica, in seguito ci saranno alcuni tratti verticali abbastanza fattibili fino ad arrivare alla madonnina della ferrata, in questo tratto c''è un passaggio su roccia che nasconde degli appoggi per i piedi in basso che aiutano molto l''attraversamento. Seconda parte dal chiodo 65 al 105 Personalmente delle tre parti è quella che ho trovato più semplice e meno faticosa, questo tratto presenta qualche passaggio impegnativo dove c''è necessità di porre più attenzione ma niente che non si sia già affrontato nel primo tratto, il panorama ci regala emozioni uniche e i vari punti stabili ci permettono di fare diverse foto, molto bello come tratto e molto panoramico. Terza parte dal chiodo 106 al 165 La terza parte subito con un bel tratto impegnativo di una decina di chiodi con una parte verticale che offre una buona trazione ai piedi, ma si deve fare affidamento prevalentemente alle mani, tranne per delle parti si è abbastanza tranquilli tranne per qualche parete verticale una discesa impegnativa, la parte finale del 3° tratto è il segmento più difficile di tutta la ferrata, qua si dovrà usare molto i muscoli delle braccia come mai prima e soprattutto si deve prestare molta attenzione. Al chiodo 165 (prima del ponte tibetano) la ferrata presenta un bivio: andando a sinistra si affronta un mini ponte tibetano che ci porta da un lato all’altro di un “camino” dal quale usciremo in verticale e con difficoltà dalla ferrata(tratto molto tosto). Se invece, al bivio sopraddetto, saliremo in verticale verso destra usciremo dalla ferrata senza grandi difficoltà.',
-  '<h2>Ferrata di Buti - Ferrata di Sant''Antone: Escursioni e Sentieri in Toscana</h2>
+  '<h2 id="ferrata-di-buti-sant-antone">Ferrata di Buti - Ferrata di Sant''Antone</h2>
 
-<h3>Il percorso</h3>
-<p>Scopri la <strong>Ferrata di Sant''Antone</strong>, una delle più impegnative della Toscana, un''esperienza unica per gli amanti del <strong>trekking</strong> e dell''escursionismo in <strong>montagna</strong>. Questo <strong>sentiero</strong>, situato nei Monti Pisani, offre panorami mozzafiato e sfide tecniche per escursionisti esperti. Perfetta per chi cerca <strong>trekking</strong> e <strong>escursioni</strong> in ambienti naturali e selvaggi. Imparare a fare <strong>trekking</strong> in questa zona è un''ottima occasione per esplorare la bellezza della natura.</p>
-<p>La <strong>Ferrata</strong> di Sant''Antone si sviluppa in senso longitudinale da Sud-Est a Nord-Ovest ad una quota bassa da 410 mt a 536mt.  Un''avventura indimenticabile per chi ama le <strong>escursioni</strong> e le <strong>ferrate tecniche</strong>.  Questa zona è un paradiso per gli amanti del <strong>trekking</strong>, del <strong>sentiero</strong> e della <strong>montagna</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per la ferrata di Sant''Antone si trova a Buti, in Toscana.  È raggiungibile in auto da Firenze o Pisa seguendo le indicazioni per Buti.  Dalla strada, si parcheggia circa 300-400 metri prima della ferrata sulla destra, dove è presente un ampio parcheggio.  Dal parcheggio, segui un cartello ben visibile che indica l''attacco della ferrata.  Il percorso a piedi dall''auto all''attacco dura circa 2-300 metri.</p>
 
-<h3>Cosa aspettarsi</h3>
-<p>Preparati ad un''escursione impegnativa, adatta a persone con esperienza in <strong>ferrate</strong> e buona muscolatura. La <strong>Ferrata di Sant''Antone</strong> presenta passaggi tecnici, particolarmente esposti e sin da subito molto faticosa.  Saranno necessari un buon allenamento fisico e una buona gestione della paura del vuoto.  È fondamentale prestare attenzione durante il percorso, specialmente nei passaggi più difficili.  Questa <strong>escursione</strong> è un''occasione per testare la tua resistenza e il tuo coraggio.  La <strong>Ferrata</strong>: Unica Via Ferrata dei monti pisani chiamata di Sant’Antone, si sviluppa in senso longitudinale da Sud-Est a Nord-Ovest ad una quota bassa da 410 mt a 536mt.  </p>
-<p>Il percorso è diviso in tre sezioni, con tratti nel bosco che richiedono attenzione all''aderenza.  La <strong>Ferrata</strong> è caratterizzata da passaggi verticali, tratti esposti e necessità di utilizzare staffe e moschettoni.  Questo rende l''<strong>escursione</strong> una sfida completa per ogni escursionista.</p>
-
-<h3>Informazioni utili</h3>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>La ferrata di Sant''Antone si sviluppa in senso longitudinale da Sud-Est a Nord-Ovest, da una quota bassa di 410 mt a 536mt. La ferrata è divisa in tre sezioni collegate tra di loro da brevi tratti nel bosco.  Ecco i punti salienti del percorso:</p>
 <ul>
-    <li><strong>Difficoltà:</strong> Impegnativa - Richiede esperienza in <strong>ferrate</strong>.</li>
-    <li><strong>Distanza:</strong> Circa 800 metri.</li>
-    <li><strong>Dislivello:</strong> Circa 300 metri.</li>
-    <li><strong>Durata:</strong> 2 ore e 30 minuti (circa, a seconda del ritmo e delle soste).</li>
-    <li><strong>Attrezzatura Obbligatoria:</strong> Imbraco, Casco, Kit da <strong>ferrata</strong>, Scarponi da <strong>trekking</strong>.</li>
-    <li><strong>Parcheggio:</strong> Ampio parcheggio situato a 300-400 metri dalla <strong>ferrata</strong>, sulla destra dell''inizio del percorso.</li>
+  <li><b>Sezione 1 (Chiodo 1 - 64):</b> Inizia subito con un tratto muscolare e verticale, già molto esposto. Include una scaletta impegnativa e tratti verticali dove bisogna fare attenzione.</li>
+  <li><b>Sezione 2 (Chiodo 65 - 105):</b>  La parte più semplice della ferrata, con alcuni passaggi impegnativi ma panoramici.  Offre diversi punti stabili per foto e apprezzamento del panorama.</li>
+  <li><b>Sezione 3 (Chiodo 106 - 165):</b> Inizia con un tratto impegnativo di circa 10 chiodi con una parte verticale che richiede forza nelle braccia e attenzione.  Segue una discesa impegnativa e culmina con un bivio: a sinistra si affronta un mini ponte tibetano, a destra si esce dalla ferrata.</li>
 </ul>
-<p>Non sottovalutare la <strong>Ferrata di Sant''Antone</strong>, anche se meno panoramica rispetto ad altre <strong>ferrate</strong> del Forato e del Procinto.  Il percorso è fattibile in 1 ora e mezzo/2 ore per escursionisti esperti, ma richiede attenzione e prudenza. Ricorda che l''attrezzatura è obbligatoria per garantire la tua sicurezza durante l''<strong>escursione</strong>.  </p>',
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>La ferrata di Sant''Antone è considerata una ferrata impegnativa, adatta a <b>persone con esperienza con ferrate</b> e una buona muscolatura.  La sua esposizione e la difficoltà tecnica richiedono attenzione e preparazione.  È obbligatorio l''uso di <b>Imbraco, Casco, Kit da ferrata</b> e <b>Scarponi</b> adeguati.  Si stima che il percorso possa essere completato in circa 1 ora e mezzo/2 ore per i più allenati, ma con pause per foto e ammirare il panorama, il tempo potrebbe allungarsi.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Sarà disponibile presto la traccia GPS per questa ferrata. Nel frattempo, ecco alcune informazioni pratiche:</p>
+<ul>
+  <li><b>Distanza:</b> Circa 7.2 km (anello)</li>
+  <li><b>Dislivello:</b> Circa +598 m</li>
+  <li><b>Difficoltà:</b> Per esperti</li>
+  <li><b>Punto di partenza:</b> Buti, Toscana</li>
+  <li><b>Comune:</b> Buti, <b>Provincia:</b> Toscana, <b>Regione:</b> Italia</li>
+</ul>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+  <li><strong>Distanza:</strong> Circa 7.2 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 598 metri</li>
+  <li><strong>Difficoltà:</strong> Per esperti</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Buti, raggiungibile in auto dal parcheggio situato a 300-400 metri prima della ferrata</li>
+  <li><strong>Comune:</strong> Buti, **Provincia:** Toscana, **Regione:** Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Ferrata</li>
+</ul>',
   'Tutte le Attività e Paesi',
   7.2,
   598,

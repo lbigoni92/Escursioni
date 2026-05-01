@@ -7,31 +7,39 @@ VALUES (
   101049220,
   'Pian di Rota, il crocione, Poggio Corbolone, cascate dell''Infernaccio',
   'Abbiamo affrontato il percorso dopo giorni di pioggia, trovando quindi diversi tratti fangosi che in condizioni normali sarebbero invece asciutti. Il tracciato non è particolarmente difficile, ma la lunghezza lo rende impegnativo: non lo consiglio a chi non è abituato a camminare a lungo. I punti più suggestivi sono senza dubbio a Poggio Corbolone, non tanto per la vetta in sé quanto per il tratto che passa sopra la cava, davvero panoramico. Subito dopo, una menzione speciale va alle cascate dell’Infernaccio, spettacolari grazie alla recente pioggia che le rendeva ancora più imponenti. Il percorso non dispone di fontanelle, nemmeno all’inizio, quindi è importante partire con una buona scorta d’acqua.',
-  '<h2>Pian di Rota, il crocione, Poggio Corbolone, cascate dell''Infernaccio – Trekking in Montagna in Toscana</h2>
+  '<h2 id="pian-di-rota-crocifisso-poggio-corbolone-cascate-inferno">Escursione al Pian di Rota: Crocifisso, Poggio Corbolone e le Cascate dell’Infernaccio</h2>
 
-<h3>Il percorso di escursione</h3>
-<p>
-Questo <strong>sentiero di trekking</strong> nel <strong>Pian di Rota</strong>, in Toscana, vi porterà a scoprire panorami mozzafiato e alcune delle attrazioni più suggestive della regione. L''<strong>escursione</strong> di difficoltà media, ideale per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>, si snoda attraverso la <strong>montagna</strong>, offrendo un''esperienza indimenticabile immersi nella <strong>natura</strong> italiana. La lunghezza del <strong>sentiero</strong> è significativa, quindi preparatevi a un''<strong>escursione</strong> impegnativa ma gratificante.
-</p>
-<p>
-La discesa a <strong>Poggio Corbolone</strong> è un punto culminante del percorso, con un tratto particolarmente panoramico che supera una cava abbandonata, offrendo viste spettacolari. Successivamente, l''itinerario vi guiderà verso le <strong>cascate dell’Infernaccio</strong>, un vero spettacolo naturale reso ancora più impressionante dalla recente pioggia che ha aumentato l''imponenza delle cascate. Questo <strong>sentiero di trekking</strong> è perfetto per chi cerca un''avventura in <strong>montagna</strong> nella <strong>natura</strong> italiana.
-</p>
+<h3 id="come-arrivare-punto-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza di questa escursione è facilmente raggiungibile in auto.  Da Pian di Rota, seguendo le indicazioni per il crocefisso, si parcheggia l''auto in un ampio parcheggio provvisorio. Da qui, il sentiero è ben segnalato e pronto ad accoglierti.</p>
 
-<h3>Cosa aspettarsi durante l''escursione</h3>
+<h3 id="il-percorso-passo-passo">Il Percorso Passo per Passo</h3>
+<p>Inizieremo il nostro trekking da Pian di Rota, con un tratto iniziale che ci porterà verso il famoso Crocifisso, punto di riferimento del percorso.  Dopo averlo ammirato, ci inoltreremo verso Poggio Corbolone, un''area panoramica con un tratto davvero suggestivo che passa sopra una vecchia cava.  Il sentiero si snoda poi verso le cascate dell’Infernaccio, un''oasi di freschezza e un luogo spettacolare, reso ancora più imponente dalla recente pioggia.  Il ritorno avverrà seguendo lo stesso sentiero, godendo della vista sempre più ampia.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è considerata di difficoltà **Facile**, ma la sua lunghezza di 14.69 km e il dislivello di 441 metri la rendono impegnativa per chi non è abituato a camminare a lungo.  È importante essere in buona forma fisica e avere scarpe da trekking adatte.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Ecco i dettagli per seguire il percorso con la traccia GPS e alcune informazioni utili per la tua escursione.</p>
 <ul>
-    <li>Percorso di <strong>trekking</strong> di media difficoltà.</li>
-    <li>Distanza: Circa 15-18 km (a seconda del percorso esatto).</li>
-    <li>Dislivello: Circa 600-800 metri (a seconda del percorso esatto).</li>
-    <li>Tratti fangosi: In condizioni di pioggia recente, alcuni tratti potrebbero essere scivolosi e fangosi.</li>
-    <li>Punti panoramici: Viste mozzafiato sul <strong>Pian di Rota</strong> e sulla campagna circostante.</li>
-    <li>Attrazioni: <strong>Poggio Corbolone</strong>, le <strong>cascate dell’Infernaccio</strong>, antica cava.</li>
+    <li><strong>Distanza:</strong> 14.69 km (anello)</li>
+    <li><strong>Dislivello:</strong> 441 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio provvisorio di Pian di Rota</li>
+    <li><strong>Comune:</strong> Pian di Rota, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni utili per l''escursione di trekking</h3>
-<p>
-Questo <strong>sentiero</strong> è particolarmente adatto a escursionisti esperti e a chi ha una buona preparazione fisica. È fondamentale partire con una buona scorta d''acqua, poiché lungo il percorso non sono presenti fontanelle, nemmeno all''inizio dell''<strong>escursione</strong>. Indossate scarpe da <strong>trekking</strong> adatte e vestiti a strati per affrontare eventuali cambiamenti climatici. L’<strong>escursione</strong>  in <strong>Pian di Rota</strong>  è un''opportunità per apprezzare il vero spirito del <strong>trekking</strong> in <strong>Italia</strong>.  Valutate attentamente la vostra preparazione prima di affrontare questo impegnativo <strong>sentiero</strong>.</p>
-<p>
-Ricordatevi di controllare le previsioni del tempo prima di partire e di informarsi sulle condizioni del <strong>sentiero</strong>.  Godetevi questa splendida <strong>escursione</strong> e l''affascinante bellezza del <strong>Pian di Rota</strong>. </p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul id="informazioni-utili">
+    <li><strong>Distanza:</strong> Circa 14.69 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 441 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Parcheggio provvisorio di Pian di Rota, accessibile in auto</li>
+    <li><strong>Comune:</strong> Pian di Rota, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   14.69,
   441,

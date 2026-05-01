@@ -7,23 +7,29 @@ VALUES (
   147996685,
   'Monte Sagro - Monte Faggiola - Monte Borla - Monte Ballerino - Cima di Bozzarello - Campo Cecina -Rifugio Carrara',
   'Escursione sul M.Sagro, una delle vette più panoramiche delle Alpi Apuane soprannominato il monte dei Carrarini. Escursione molto semplice partendo da Campoceciana, escursione molto bella dove abbiamo toccato 5 cime con anche se 3 delle quali con la nebbia, le avventure non sono mancate come i panorami sul Borla e su Ballerino. Campocecina : Si tratta di un''area che non ha confini e limiti ben precisi, ma orientativamente comprende la zona delimitata a sud dalla strada che unisce il piazzale dell''Uccelliera alla Foce di Pianza, ad est dal monte Borla, a nord dalla valle de I Pozzi e a ovest dal piazzale dell''Acquasparta. Spesso però, in senso stretto, con l''espressione Campocecina si intende la vasta piana centrale con i suoi prati ed i suoi boschi. I boschi sono costituiti prevalentemente da faggete e da pinete a pino nero, quest''ultimo frutto di un''opera di rimboschimento avviata a partire dagli anni ''50. Il Sagro è una delle vette più panoramiche delle Alpi Apuane ed è molto frequentata essendone abbastanza semplice l’ascesa. È detto il monte dei Carrarini, nonostante sia situato in parte nel territorio del comune di Fivizzano e in parte in quello di Massa (la vetta si trova lungo il confine tra i due comuni), solo le estreme propaggini sud sono in territorio carrarese. Il massiccio del monte Sagro è in posizione isolata rispetto alla dorsale principale della catena apuana, domina la parte occidentale della catena stessa e può essere considerato come una grossolana piramide a base triangolare. Il monte Faggiola è un monte dell''Appennino tosco-romagnolo di 1.031 metri d''altitudine. È situato sul crinale di separazione fra l''Appennino imolese e l''Appennino faentino. Amministrativamente, il monte è compreso nel comune di Palazzuolo sul Senio, in provincia di Firenze. La vetta è situata a circa 4 km dal confine con la regione Emilia-Romagna. Il monte Borla è un rilievo montuoso italiano di 1.470 m s.l.m.[1] appartenente alla catena delle Alpi Apuane.La montagna si trova nella parte settentrionale della catena in posizione distaccata dallo spartiacque principale Mar Ligure/Garfagnana tra Campocecina e la Foce di Pianza (1.269 m), un valico che lo divide dal Monte Sagro. Sulla vetta del Monte Borla, alta 1.470 metri s.l.m., passa il confine tra il comune di Carrara ed il comune di Fivizzano. Non lontano dalla cima si trova anche una costruzione in muratura detta Casa Martignoni, costruita nel 1923 dall''imprenditore Cesare Martignoni ed oggi di proprietà comunale.',
-  '<h2>Monte Sagro - Monte Faggiola - Monte Borla - Monte Ballerino - Cima di Bozzarello - Campo Cecina - Rifugio Carrara: Trekking Panoramico nelle Alpi Apuane</h2>
+  '<h2 id="escursione-monte-sagro-monte-faggiola-monte-borla-monte-ballerino-cima-di-bozzarello-campo-cecina-rifugio-carrara">Escursione al Monte Sagro - Monte Faggiola - Monte Borla - Monte Ballerino - Cima di Bozzarello - Campo Cecina - Rifugio Carrara</h2>
 
-<h3>Il percorso</h3>
-<p>Questo entusiasmante trekking attraverso le Alpi Apuane vi porterà a esplorare alcuni dei suoi punti più iconici. L''escursione, di difficoltà semplice, parte da <strong>Campo Cecina</strong> e culmina al <strong>Rifugio Carrara</strong>, offrendo panorami mozzafiato e un''esperienza indimenticabile tra natura e montagna. Percorreremo cinque cime, alcune delle quali avvolte dalla nebbia, ma la ricompensa sarà fatta di emozioni e scoperte. Preparatevi a un''avventura nel cuore della natura, con momenti di difficoltà compensati da panorami spettacolari sul <strong>Monte Borla</strong> e sul <strong>Monte Ballerino</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>L''escursione parte da <strong>Campo Cecina</strong>, un piccolo borgo situato in provincia di <strong>Toscana</strong>. Raggiungere Campo Cecina è abbastanza semplice, si può arrivare in auto tramite la strada provinciale SP11 di Campocecina o, per gli amanti del trekking, seguendo sentieri che partono da diverse località limitrofe. Il borgo è ben collegato alle principali autostrade, rendendo l''arrivo agevole.</p>
 
-<h3>Cosa aspettarsi</h3>
-<p>Preparatevi per un''escursione di trekking di circa 16 km con un dislivello complessivo di circa 900 metri.  L''escursione è adatta a escursionisti esperti, ma anche a chi cerca una giornata facile ma ricca di bellezza.  Il sentiero si snoda attraverso boschi di <em>faggete</em> e <em>pinete a pino nero</em>, offrendo un''immersione completa nella flora e fauna del territorio.  Tuttavia, la presenza di nebbia può rendere la visibilità limitata, quindi è consigliabile indossare abbigliamento adeguato e controllare le previsioni meteo.  Non mancheranno brevi tratti più impegnativi, ma il percorso è ben segnalato e panoramico in ogni sua fase.  Questo trekking nelle <strong>Alpi Apuane</strong> è una vera sfida per gli amanti della natura e del trekking.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo trekking di circa <strong>12.13 km</strong> con un dislivello di <strong>908 metri</strong> vi porterà attraverso panorami mozzafiato! L''escursione inizia da Campo Cecina e sale gradualmente verso il <strong>Monte Sagro</strong>, uno dei punti più panoramici delle Alpi Apuane. Il sentiero vi guiderà attraverso il massiccio del Sagro, toccando il <strong>Monte Faggiola</strong> e il <strong>Monte Borla</strong>, il tutto con la compagnia del <strong>Monte Ballerino</strong> e della <strong>Cima di Bozzarello</strong>. Il percorso culmina con l''arrivo al <strong>Rifugio Carrara</strong>, un luogo ideale per riposare e ammirare la vista.  L''escursione è prevalentemente anello, per completare il giro.</p>
 
-<h3>Informazioni utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p>La difficoltà di questa <strong>escursione</strong> è classificata come <strong>Media</strong>. Il sentiero è ben segnalato, ma richiede una buona preparazione fisica, soprattutto per affrontare il dislivello di 908 metri. È consigliabile indossare scarpe da trekking adatte e portare con sé acqua, cibo e abbigliamento adeguato alle condizioni meteorologiche.  In alcune zone, la nebbia può rendere la visibilità limitata, ma i panorami che si apriranno sono comunque incredibili. Preparati a percorrere un sentiero che richiede un minimo di esperienza.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Per seguire il percorso, ti consigliamo di scaricare una <strong>traccia GPS</strong> (disponibile su piattaforme dedicate) o di utilizzare un''app di navigazione outdoor.  L''escursione è un''ottima occasione per godersi la natura e la bellezza delle Alpi Apuane.  Ricorda di rispettare l''ambiente e di seguire le indicazioni dei sentieri.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><b>Difficoltà:</b> Facile/Media</li>
-    <li><b>Distanza:</b> Circa 16 km</li>
-    <li><b>Dislivello:</b> Circa 900 metri</li>
-    <li><b>Punti di interesse:</b>  Vetta del <strong>Monte Sagro</strong> (Monte dei Carrarini), panorami sul <strong>Monte Borla</strong>, <strong>Monte Ballerino</strong>,  casa storica della <strong>Casa Martignoni</strong>.</li>
-    <li><b>Area di interesse:</b> La zona comprende l''area di <strong>Campo Cecina</strong>, caratterizzata da prati e boschi di <em>faggete</em> e <em>pinete a pino nero</em>, situata tra le valli de I Pozzi e dell''Acquasparta.</li>
-    <li><b>Comuni attraversati:</b> Massa, Fivizzano, Palazzuolo sul Senio</li>
-    <li><b>Informazioni aggiuntive:</b>  L''escursione è una fantastica opportunità per un''escursione a piedi nelle <strong>Alpi Apuane</strong>, un''esperienza di trekking che vi lascerà senza fiato.</li>
+    <li><strong>Distanza:</strong> Circa 12.13 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 908 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Campo Cecina (accessibile in auto)</li>
+    <li><strong>Comune:</strong> Torano, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>',
   'Tutte le Attività e Paesi',
   12.13,

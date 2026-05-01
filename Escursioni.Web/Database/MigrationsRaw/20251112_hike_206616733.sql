@@ -7,23 +7,37 @@ VALUES (
   206616733,
   'Fontana di Pegaso da Former Roman Catholic Diocese of Bomarzo',
   'Il percorso è semplice facile da seguire anche se forse il biglietto (13€) è un pò caro. - Percorso nel Parco dei Mostri di Bomarzo Il Sentiero del Sacro Bosco di Bomarzo, noto anche come Parco dei Mostri, è un percorso immerso nella natura che si snoda per circa 2 km tra gigantesche sculture in pietra scolpite nel XVI secolo. Il sentiero è ben segnalato e adatto a tutti, con alcuni tratti leggermente in pendenza, ma facilmente percorribili. - Storia del Parco dei Mostri Il Parco dei Mostri di Bomarzo fu commissionato nel 1552 dal principe Pier Francesco Orsini, detto Vicino Orsini, in memoria della sua amata moglie Giulia Farnese. L''architetto Pirro Ligorio, noto per aver completato la Basilica di San Pietro dopo la morte di Michelangelo, fu incaricato della realizzazione del parco. L''intento del Parco non era creare un classico giardino rinascimentale, ma un luogo misterioso e surreale, popolato da figure mitologiche e scene allegoriche, che suscitassero stupore e riflessione. Le sculture in pietra, spesso accompagnate da enigmatiche iscrizioni, sembrano voler trasportare il visitatore in un mondo di sogni e incubi. Dopo la morte di Vicino Orsini, il parco cadde nell’oblio per secoli, fino a essere riscoperto e restaurato nel XX secolo, diventando una delle mete più affascinanti del Lazio. - Le Statue del Parco Il Parco è famoso per le sue sculture enigmatiche in basalto, che raffigurano creature mitologiche, divinità e animali fantastici. Ecco le principali statue che si possono incontrare lungo il percorso: L’Orco: uno dei simboli più famosi del parco, una gigantesca testa mostruosa con la bocca spalancata, dentro cui si può entrare. All’interno è incisa la frase "Ogni pensiero vola". L’Elefante da guerra: ispirato agli elefanti utilizzati da Annibale nelle battaglie, questa scultura raffigura un elefante che porta una torre sul dorso e stritola un soldato con la proboscide. La Casa Pendente: una costruzione volutamente inclinata per dare una sensazione di instabilità e disorientamento, simbolo delle incertezze della vita. Il Drago in lotta con i leoni: una scena di combattimento tra un drago e due leoni, rappresentazione della lotta tra il bene e il male. Nettuno: una grande statua del dio del mare, con una posizione dominante su una vasca d’acqua. Proserpina e Plutone: raffigurazione della leggenda della dea rapita dal dio degli inferi. Cerbero: il cane a tre teste, guardiano degli Inferi nella mitologia greca. Pegaso: il cavallo alato della mitologia greca, simbolo di libertà e ispirazione. Echidna: una figura mitologica metà donna e metà serpente. Il Gigante che squarta il pastore: rappresentazione della forza brutale e del destino ineluttabile. Il Tempio: una struttura più recente rispetto alle altre, costruita per Vignola, moglie di Vicino Orsini.',
-  '<h2>Fontana di Pegaso da Former Roman Catholic Diocese of Bomarzo – Trekking nel Parco dei Mostri</h2>
+  '<h2 id="escursione-fontana-di-pegaso-da-former-roman-catholic-diocese-of-bomarzo">Escursione alla Fontana di Pegaso da Former Roman Catholic Diocese of Bomarzo</h2>
 
-<h3>Il percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong> nel <strong>Parco dei Mostri di Bomarzo</strong>, noto anche come Sentiero del Sacro Bosco, offre un''esperienza unica immersa nella <strong>natura</strong> e nella storia. Il <strong>percorso</strong> di circa 2 km è progettato per essere facile da seguire, adatto a tutti i livelli, e offre la possibilità di ammirare da vicino le gigantesche sculture in pietra del XVI secolo.  Si tratta di un''escursione di <strong>trekking</strong> ideale per chi cerca un''esperienza in <strong>montagna</strong>, un''occasione per immergersi in un''atmosfera magica e misteriosa, lontano dal caos cittadino.  Il sentiero è ben segnalato e presenta alcuni tratti leggermente in pendenza, ma il suo percorso è facilmente percorribile, rendendolo perfetto per un''<strong>escursione</strong> di una giornata.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza per questa affascinante escursione si trova direttamente all''interno del Parco dei Mostri di Bomarzo. È facilmente raggiungibile in auto seguendo le indicazioni per il Parco, oppure si può arrivare a piedi da paesi limitrofi. Il parcheggio è disponibile nelle vicinanze dell''ingresso del parco, da dove inizia il sentiero.</p>
 
-<h3>Cosa aspettarsi</h3>
-<p>Preparatevi a un''esperienza immersiva in un luogo unico al mondo, il Parco dei Mostri.  Questo <strong>sentiero di trekking</strong> vi condurrà attraverso un labirinto di sculture enigmatiche, ognuna con la sua storia e il suo significato.  Potrete ammirare opere d''arte incredibili, come la testa mostruosa dell''Orco, l''Elefante da guerra, la Casa Pendente e le rappresentazioni mitologiche di Pegaso, Nettuno e Proserpina.  L''atmosfera surreale del parco vi trasporterà in un mondo di sogni e incubi, stimolando la vostra immaginazione e la vostra riflessione.  Questo <strong>sentiero</strong> è perfetto per gli amanti del <strong>trekking</strong> e per chi cerca un''esperienza culturale e naturalistica indimenticabile.  Un''escursione di questo tipo è un''opportunità per scoprire la bellezza del <strong>Lazio</strong> e per immergersi nella storia dell''arte.</p>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>Questo sentiero di 1.96 km ad anello vi condurrà attraverso le meraviglie del Parco dei Mostri. Il percorso è generalmente facile da seguire grazie alla segnaletica presente. Inizierete dal punto di accesso al parco e poi seguirete il sentiero che vi porterà a scoprire le sculture più iconiche del parco, come l''Orco, l''Elefante da guerra e il Drago in lotta con i leoni. Il sentiero presenta alcuni tratti leggermente in pendenza, ma sono facilmente percorribili. Ammirerete la Casa Pendente, il Tempio e le altre sculture enigmatiche che compongono questo luogo unico al mondo. La visita dura circa 1.5 - 2 ore, a seconda del ritmo e del tempo dedicato ad ammirare le opere.</p>
 
-<h3>Informazioni utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p><strong>Difficoltà:</strong> Media. Questo sentiero è adatto a escursionisti di livello intermedio, con sentieri ben segnalati e un dislivello di soli +24 metri. Alcuni tratti presentano leggere pendenze.<strong>Cosa aspettarsi:</strong> Un''escursione immersa nella storia e nella magia del Parco dei Mostri, un luogo surreale e affascinante, con sculture in pietra di grandi dimensioni che raccontano storie di miti e leggende. Preparatevi a rimanere a bocca aperta di fronte alla creatività e all''ingegnosità degli artisti che hanno creato questo parco unico al mondo.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<ul class>
+  <li><strong>Distanza:</strong> Circa 1.96 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 24 metri</li>
+  <li><strong>Difficoltà:</strong> Facile / Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Parco dei Mostri di Bomarzo (accessibile in auto / a piedi)</li>
+  <li><strong>Comune:</strong> Former Roman Catholic Diocese of Bomarzo, Lazio</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-    <li><strong>Distanza:</strong> Circa 2 km</li>
-    <li><strong>Difficoltà:</strong> Facile</li>
-    <li><strong>Tipo di attività:</strong> Trekking, Escursione, Sentiero</li>
-    <li><strong>Località:</strong> Parco dei Mostri di Bomarzo, Lazio</li>
-    <li><strong>Cosa aspettarsi:</strong>  Ammirare sculture in pietra di artisti rinascimentali, esplorare un parco con un''atmosfera surreale, fare <strong>trekking</strong> in <strong>natura</strong>, immergersi nella storia del principe Vicino Orsini.</li>
-    <li><strong>Prezzo biglietto:</strong> 13€ (controllare condizioni aggiornate prima della visita)</li>
-    <li><strong>Consigli:</strong> Indossare scarpe da <strong>trekking</strong> adatte, portare acqua e snack, e rispettare l’ambiente e le opere d’arte del parco.</li>
+  <li><strong>Distanza:</strong> Circa 1.96 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 24 metri</li>
+  <li><strong>Difficoltà:</strong> Facile / Media</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Parco dei Mostri di Bomarzo (accessibile in auto / a piedi)</li>
+  <li><strong>Comune:</strong> Former Roman Catholic Diocese of Bomarzo, Lazio</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>',
   'Tutte le Attività e Paesi',
   1.96,

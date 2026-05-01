@@ -7,29 +7,50 @@ VALUES (
   87479024,
   'Vecchiano-Nodica',
   'Percorso molto carino sul monte legnaiolo fatto in diurna, tecnicamente per nulla impegnativo, lo consiglio anche a famiglie. Un tratto è ciottoloso ma niente di complicato, scarpe da trekking o scarpe chiuse vanno BENISSIMO, Usate scarpe adeguate. C''è QUALCHE CARTELLO sul percorso, ma non avrete la necessità d''usarli è a prova di persona senza senso d''orientamento. Fattibile anche in notturno.',
-  '<h2>Escursione Vecchiano-Nodica: Trekking in Diurna sul Monte Legnaiolo</h2>
+  '<h2 id="vecchiano-nodica">Escursione a Vecchiano-Nodica: Un Anello Facile nel Monte Legnaiolo</h2>
 
-<h3>Il Percorso</h3>
+<p>
+Avete voglia di un''escursione facile e divertente? L''anello a Vecchiano-Nodica è perfetto per voi! Questo sentiero, situato nel cuore del monte legnaiolo, offre un panorama incantevole e un''esperienza all''insegna della natura, adatta anche alle famiglie.  Non è richiesta alcuna esperienza specifica, il percorso è stato progettato per essere accessibile a tutti. Preparatevi per una giornata di trekking rilassante e scoprire i segreti di questa splendida zona.
+</p>
 
-<p>Preparatevi per un’<em>escursione</em> indimenticabile lungo il sentiero <strong>Vecchiano-Nodica</strong>, un percorso di <em>trekking</em> particolarmente apprezzato per la sua facilità e bellezza paesaggistica. Questo <em>sentiero</em> si snoda attraverso la diurna del monte Legnaiolo, offrendo un’esperienza di <em>natura</em> incontaminata adatta a tutti. Il percorso, tecnicamente semplice, è ideale per famiglie e per chi cerca un’<em>escursione</em> piacevole e senza particolari ostacoli.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<p>La maggior parte del percorso è costituita da un terreno compatto, con alcune sezioni ciottolose che aggiungono un tocco di sfida. Tuttavia, la difficoltà è minima, rendendo questo <em>sentiero</em> accessibile anche a chi non ha molta esperienza.  È un’ottima opportunità per un’<em>escursione</em> in <em>montagna</em> e per godere dei panorami mozzafiato. Si consiglia vivamente l''utilizzo di <em>scarpe da trekking</em> o <em>scarpe chiuse</em> per affrontare il terreno, per una maggiore sicurezza e comfort durante l''<em>escursione</em>.</p>
+<p>
+Il punto di partenza per l''escursione a Vecchiano-Nodica si trova a Vecchiano, in Toscana. Raggiungere il punto di partenza è semplice: potete accedere in auto oppure a piedi.  Dettagli precisi sul punto esatto di partenza sono disponibili tramite Google Maps (inserire "Vecchiano" e cercare il punto indicativo "inizio sentiero Vecchiano-Nodica").
+</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
 
-<ul>
-  <li>Un percorso di circa <strong>6 km</strong> di lunghezza.</li>
-  <li>Un dislivello di <strong>350 metri</strong>, con salite e discese dolci.</li>
-  <li>Un’<em>escursione</em> di circa <strong>3-4 ore</strong>, a seconda del ritmo.</li>
-  <li>Un’esperienza di <em>trekking</em> immersa nella <em>natura</em> e nel silenzio della <em>montagna</em>.</li>
-  <li>Possibilità di praticare <em>trekking</em> e <em>escursioni</em> in totale sicurezza.</li>
+<p>
+Il sentiero di Vecchiano-Nodica è un anello di circa 10.89 km che si snoda attraverso il monte legnaiolo. Il percorso è caratterizzato da un tratto ciottoloso, ma il resto è completamente percorribile e non presenta ostacoli significativi. L''escursione è tecnicamente per nulla impegnativa, quindi è ideale anche per chi pratica trekking per la prima volta o per le famiglie.  Godetevi il panorama mozzafiato e la tranquillità della natura!
+</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>
+Questa escursione è classificata come **Facile**. Il dislivello è di circa 309 metri, quindi è una camminata accessibile a persone di tutte le età e livelli di preparazione fisica.  Non ci sono tratti particolarmente tecnici, il che la rende una scelta eccellente per chi preferisce un''escursione rilassante.  Vi consigliamo di indossare scarpe da trekking o scarpe chiuse per una maggiore stabilità e comfort.
+</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>
+Per aiutarvi durante l''escursione, ecco la traccia GPS del percorso (la inserirete nella vostra app di navigazione escursionistica).  Ricordatevi di controllare le previsioni meteo prima di partire e di indossare abbigliamento adeguato.  Un piccolo zaino con acqua, snack e crema solare sono sempre consigliati.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong>Distanza:</strong> Circa 10.89 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 309 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Vecchiano, Toscana</li>
+  <li><strong>Comune:</strong> Vecchiano, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Nonostante l''assenza di cartelli ufficiali lungo il percorso, il <strong>sentiero Vecchiano-Nodica</strong> è facile da seguire grazie alla sua natura intuitiva.  L''<em>escursione</em> è adatta anche a chi non ha un grande senso dell''orientamento, il che la rende una scelta eccellente per un’<em>escursione</em> in famiglia.</p>
-
-<h3>Informazioni Utili</h3>
-
-<p>Questo <em>sentiero</em> è fattibile anche in notturno, offrendo un''esperienza unica e suggestiva.  Ricordatevi di informarsi sulle condizioni meteorologiche prima di partire e di indossare abbigliamento adeguato.  L''<em>escursione</em> è perfetta per chi cerca un’<em>escursione</em> semplice, ma con un bel panorama e la possibilità di immergersi nella <em>natura</em>. Per un''<em>escursione</em> a piedi in <em>montagna</em>, il <strong>Vecchiano-Nodica</strong> è una scelta valida per tutti.  Godetevi l’<em>escursione</em> lungo questo bellissimo <em>sentiero</em> in <em>montagna</em>!</p>',
+<h3 id="parco-nazionale">Parco Nazionale:</h3>
+<p>Non applicabile</p>',
   'Tutte le Attività e Paesi',
   10.89,
   309,

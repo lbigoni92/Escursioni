@@ -7,23 +7,41 @@ VALUES (
   184187251,
   'Monumento a los zapatos, Basílica de San Esteban e Gran Sinagoga da Gellérthegy',
   'Percorso ad anello da Gellérthegy passando per: - Monumento a los zapatos (3.3 km) - Halastó (7.8 km) - Basílica de San Esteban (13.8 km) - Gran Sinagoga (24.1 km) Tra il 1854 e il 1859, venne costruita, nella città di Pest, una grande sinagoga per gli ebrei riformati. La costruzione è opera di Ludwig Förster, già autore del fortunato progetto del viennese Leopoldstädter Tempel. La sinagoga venne inaugurata il 6 settembre 1859. Nel 1860, per interessamento del giornalista, fondatore del sionismo, Theodor Herzl, fu aperto un museo adiacente, dedicato alla comunità ebraica di Budapest. Nel 1929 il museo venne ristrutturato e, nel 1931, alla sinistra della sinagoga grande, ne venne costruita una più piccola, in ricordo degli ebrei caduti durante la prima guerra mondiale. Il 3 febbraio 1939 il Partito delle Croci Frecciate lanciò delle bombe a mano che danneggiarono l''edificio, requisito ed adibito a sede della radio per comunicare con la Germania durante la seconda guerra mondiale. La sinagoga subì ingenti danni anche durante la battaglia di Budapest, il 29 dicembre 1944. In seguito, durante la Repubblica Popolare d''Ungheria, la sinagoga venne in parte risanata e riaperta al culto. Tra il 1991 e il 1998, è stata oggetto di un importante intervento di restauro, che le ha restituito le caratteristiche originali e ha permesso un totale ripristino delle strutture.',
-  '<h2>Sentiero Gellérthegy: Monumento a los Zapatos, Basílica de San Esteban e Gran Sinagoga</h2>
+  '<h2 id="escursione-monumento-a-los-zapatos-basilica-de-san-esteban-y-gran-sinagoga-de-gellertegy">Escursione al Monumento a los Zapatos, Basílica di San Esteban e Gran Sinagoga da Gellérthegy</h2>
 
-<h3>Il Percorso: Un Anello di Storia e Natura</h3>
-<p>Questo affascinante sentiero escursionistico ad anello a Gellérthegy offre un''esperienza unica, combinando la visita a importanti siti storici con la bellezza incontaminata della **montagna** e della **natura** ungherese. L''escursione inizia nel quartiere di Gellérthegy e conduce attraverso una serie di panorami mozzafiato, includendo il **Monumento a los Zapatos**, la **Basílica de San Esteban** e la **Gran Sinagoga** di Budapest. Un''occasione imperdibile per ammirare il patrimonio culturale e naturale dell''Ungheria durante una impegnativa ma gratificante **escursione**.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
 
-<h3>Cosa Aspettarsi: Un''Escursione Ricca di Scoperte</h3>
-<p>Preparati a un''avventura di trekking di circa 24.1 km, con un dislivello complessivo significativo, che ti porterà attraverso sentieri ben curati, offrendo viste panoramiche sulla città di Budapest e sulle colline circostanti. Questo **sentiero** è ideale per appassionati di **trekking** e **escursionismo** che desiderano esplorare la regione di Gellérthegy. Sarai immerso nella natura, ammirando la flora e la fauna locali, e potrai scoprire scorci di storia e architettura unici. La difficoltà del percorso è impegnativa, quindi è consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack.  È un''ottima opportunità per un''**escursione** fuori porta.</p>
+<p>Il punto di partenza per questa interessante escursione si trova a <strong>Gellérthegy</strong>, un comune della regione di <strong>Budapest</strong>, in <strong>Ungheria</strong>.  Per raggiungere Gellérthegy, potete arrivare in auto lungo le strade locali oppure, per un''esperienza più immersiva, potete percorrere a piedi un tratto del sentiero, godendovi il paesaggio circostante.  La sinagoga di Gellérthegy è facilmente accessibile anche con i mezzi pubblici, raggiungibile dalla stazione della metropolitana M1 (Hasan Pasha). Una volta in cima a Gellérthegy, seguite le indicazioni per il punto di partenza del sentiero.</p>
 
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+
+<p>Questo è un percorso ad anello di circa <strong>26.36 km</strong> che vi porterà attraverso diverse attrazioni storiche e culturali.  Iniziate da <strong>Gellérthegy</strong>, il punto di partenza del vostro trekking. Il sentiero vi condurrà attraverso un percorso che include un passaggio al <strong>Monumento a los Zapatos</strong>, una toccante commemorazione delle vittime del nazismo, proseguendo verso la **Basílica di San Esteban**,  poi alla **Gran Sinagoga**, un luogo di culto importante. Il percorso è ben segnalato, ma è consigliabile indossare scarpe da trekking adatte e portare con sé acqua e snack.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+
+<p>Questa escursione è di livello <strong>medio</strong>, con un dislivello di circa <strong>806 metri</strong>.  Il sentiero presenta alcune salite e discese, quindi è importante avere un buon livello di preparazione fisica.  Ci si aspetta un''escursione di circa 6-8 ore, a seconda del ritmo e delle soste.  Il percorso è adatto a escursionisti esperti e a gruppi di amici.  Ricordate di controllare le previsioni del tempo prima di partire e di vestire adeguatamente.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+
+<p>Per facilitare la vostra escursione, vi forniamo le informazioni utili: questa escursione è un giro ad anello di circa 26,36 km con un dislivello di 806 metri.  Il percorso è considerato di difficoltà medio, adatto a escursionisti con un minimo di esperienza.  Ecco alcuni consigli utili: </p>
 <ul>
-    <li>Visita al **Monumento a los Zapatos** (3.3 km dal punto di partenza) - Un toccante monumento commemorativo.</li>
-    <li>Esplora Halastó (7.8 km) - Un pittoresco villaggio con una tranquilla atmosfera.</li>
-    <li>Ammira la **Basílica de San Esteban** (13.8 km) - Un capolavoro architettonico di Budapest.</li>
-    <li>Scopri la **Gran Sinagoga** (24.1 km) - Un simbolo della storia ebraica di Budapest, con un''importante eredità storica.</li>
+    <li>Portate con voi acqua, snack, crema solare e un cappello.</li>
+    <li>Indossate scarpe da trekking robuste e comode.</li>
+    <li>Verificate le condizioni meteorologiche prima di partire.</li>
+    <li>Informate qualcuno del vostro itinerario e dell''orario previsto per il rientro.</li>
 </ul>
 
-<h3>Informazioni Utili: Dettagli per la Tua Escursione</h3>
-<p>La lunghezza totale del percorso è di circa 24.1 km, con un dislivello di circa 600 metri. La durata stimata dell''escursione varia da 6 a 8 ore, a seconda del ritmo e delle soste. Il sentiero è generalmente ben segnalato, ma è consigliabile avere con sé una mappa e una bussola o utilizzare un''applicazione di navigazione per smartphone.  La difficoltà del sentiero è considerata **impegnativa**, adatta a escursionisti esperti. Ricorda di controllare le previsioni del tempo prima di partire e di indossare abbigliamento e calzature adatte.  Per un''**escursione** sicura e piacevole, prepara con cura il tuo equipaggiamento.  Considera di fare un''**escursione** a piedi a Budapest.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul id="informazioni-utili">
+    <li><strong id="distanza">Distanza:</strong> Circa 26.36 km (anello)</li>
+    <li><strong id="dislivello">Dislivello:</strong> Circa 806 metri</li>
+    <li><strong id="difficoltà">Difficoltà:</strong> Medio</li>
+    <li><strong id="periodo-consigliato">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="punto-di-partenza">Punto di partenza:</strong> Gellérthegy, accessibile in auto/a piedi</li>
+    <li><strong id="comune">Comune:</strong> Gellérthegy, Budapest, Ungheria</li>
+    <li><strong id="tipo-di-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   26.36,
   806,

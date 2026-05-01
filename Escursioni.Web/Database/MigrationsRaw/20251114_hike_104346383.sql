@@ -7,29 +7,39 @@ VALUES (
   104346383,
   'Talamone',
   'Talamone',
-  '<h2>Trekking al Talamone: Escursione in Montagna e Natura Selvaggia</h2>
+  '<h2 id="escursione-talamone">Escursione a Talamone: Un Anello di Storia e Panorama</h2>
 
-<h3>Il Percorso</h3>
-<p>Immergiti nel cuore della **Talamone**, un''escursione indimenticabile che ti condurrà attraverso paesaggi mozzafiato. Questo sentiero di <strong>trekking** ti farà scoprire la vera anima della **montagna** e della **natura** selvaggia della **Valle d''Arbia**. Il percorso, di circa 8 chilometri, è pensato per escursionisti esperti che amano l''adrenalina e l''immersione nella **natura**.</p>
-<p>La discesa è impegnativa, con pendenze ripide e tratti rocciosi, quindi è consigliabile indossare scarpe da trekking adatte e prepararsi fisicamente.  Questo <strong>sentiero** offre un''opportunità unica per l''<strong>escursione** in **Italia**, avvicinandoti alla cultura e alla tradizione di questo borgo medievale.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Per raggiungere il punto di partenza dell''escursione a Talamone, dovrete dirigervi verso il centro storico del paese. Parcheggiate l''auto nelle aree predisposte, facilmente raggiungibili in auto. Da qui, seguirete le indicazioni per il sentiero che conduce alla cima della collina, dove inizia l''anello.</p>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Preparati a un''esperienza intensa e ricca di emozioni. Durante il <strong>trekking** potrai ammirare panorami spettacolari, attraversare boschi rigogliosi e raggiungere punti di osservazione privilegiati sulla **Valle d''Arbia**.  L''aria fresca di **montagna** ti rinvigorerà e la bellezza del paesaggio ti lascerà senza parole.  Quest''<strong>escursione** è perfetta per chi cerca un''avventura autentica e un contatto diretto con la **natura**.</p>
-<p>Avrai la possibilità di osservare la fauna locale, come la volpe e il cervo, e la flora tipica della macchia mediterranea. La **Talamone**  è un luogo ricco di storia e tradizioni, e questo <strong>sentiero** ti permetterà di scoprire i suoi segreti e la sua autenticità.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo anello di 13,57 km vi condurrà attraverso un paesaggio variegato, ricco di storia e panorami mozzafiato. Inizialmente, il sentiero si snoda attraverso le pendici della **montagna** , offrendo una vista suggestiva sulla valle sottostante e sul borgo di **Talamone**. Il percorso è ben segnalato e presenta alcuni tratti in salita, ma niente di particolarmente impegnativo. Seguirete sentieri che si insinueranno tra la macchia mediterranea e i resti di antichi abitati, ammirando le rovine di un castello medievale. L''anello si chiude tornando al punto di partenza, offrendo un ultimo sguardo sulla maestosa **Talamone**. Questo è un’ottima **escursione** per godersi la natura e la storia.</p>
 
-<h3>Informazioni Utili</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>L''escursione a Talamone presenta una **difficoltà** media. La **distanza** di 13,57 km e il **dislivello** di 546 metri richiedono una buona preparazione fisica.  È consigliabile indossare scarpe da trekking adatte e portare con sé acqua, cibo e un cappello. Aspettatevi un percorso in salita costante, ma non ripido, con alcuni tratti su terreno leggermente scosceso. L’**escursione** è ideale per chi cerca un’attività all’aria aperta ma non vuole affrontare percorsi troppo impegnativi. </p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per facilitare il vostro percorso, vi allego una <strong >traccia GPS</strong> che potrete scaricare sul vostro dispositivo. Vi consiglio di consultare sempre la mappa escursionistica della zona e di verificare le condizioni del sentiero prima di partire.  Ecco alcune informazioni pratiche:</p>
 <ul>
-  <li><strong>Difficoltà:</strong> Impegnativa</li>
-  <li><strong>Distanza:</strong> 8 km</li>
-  <li><strong>Dislivello:</strong> 400 metri</li>
-  <li><strong>Tempo di percorrenza:</strong> 3-4 ore</li>
-  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
-  <li><strong>Attrezzatura consigliata:</strong> Scarpe da trekking, bastoncini da trekking, acqua, snack, cappello, crema solare, mappa.</li>
-  <li><strong>Punto di partenza:</strong>  (Indicare il punto esatto)</li>
-  <li><strong>Accesso:</strong> Facile, raggiungibile con mezzi pubblici o auto privata.</li>
+    <li><b>Distanza:</b> Circa 13.57 km (anello)</li>
+    <li><b>Dislivello:</b> Circa 546 metri</li>
+    <li><b>Difficoltà:</b> Media</li>
+    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>
+    <li><b>Punto di partenza:</b> Centro storico di Talamone, accessibile in auto</li>
+    <li><b>Comune:</b> Talamone, **Toscana**</li>
+    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>
 </ul>
 
-<p>Non perdere l''occasione di vivere un''indimenticabile <strong>trekking** in **Talamone**!</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong >Distanza:</strong> Circa 13.57 km (anello)</li>
+    <li><strong >Dislivello:</strong> Circa 546 metri</li>
+    <li><strong >Difficoltà:</strong> Media</li>
+    <li><strong >Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong >Punto di partenza:</strong> Centro storico di Talamone, accessibile in auto</li>
+    <li><strong >Comune:</strong> Talamone, **Toscana**</li>
+    <li><strong >Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   13.57,
   546,

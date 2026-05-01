@@ -9,28 +9,43 @@ VALUES (
   'Il percorso non presenta difficoltà se non qualche Pietro e o qualche albero caduto, ad oggi è segnato molto bene. È un sentiero ad anello molto facile alla portata di chiunque abbia una minima dimestichezza coi monti. Non ci sono fontanelle,vi consiglio e scarpe da trekking. Passiamo vicino a dei punti panoramici subito a inizio percorso, in seguito proseguiamo per via della Sambuca e arriviamo a un bel prato e, dove abbiamo improvvisato un pik Nick, dopo pochi minuti arriviamo alla a buca. Alla Sambuca troviamo dei tavolini dove pranzare. Siamo proseguiti su un sentiero sulla sinistra del ponte, fino ad arrivare a un guado in secca e da li, abbiamo preso il sentiero d''Achille per 5km. Dopo il prato e abbiamo improvvisato un piccolo fuori pista, se seguite il sentiero, continuate sul sentiero principale.
 
 ',
-  '<h2>Valle Benedetta - Eremo Sambuca - Sentiero d''Achille: Trekking e Escursioni in Montagna</h2>
+  '<h2 id="valle-benedetta-eremo-sambuca-sentiero-dachille">Escursione alla Valle Benedetta, Eremo di Sambuca e Sentiero d''Achille</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<p>Questo <strong>sentiero d''escursione</strong> in <strong>Valle Benedetta</strong>, nella zona dell''<strong>Eremo Sambuca</strong>, offre un''esperienza unica per gli amanti del <strong>trekking</strong> e della <strong>natura</strong>. Il percorso ad anello, di difficoltà <strong>facile</strong>, è perfetto per chiunque abbia una minima dimestichezza con i <strong>monti</strong> e desideri un''<strong>escursione</strong> in un ambiente naturale incontaminato. Il <strong>sentiero</strong> è ben segnalato, ma è consigliabile indossare scarpe da <strong>trekking</strong> adatte, soprattutto per superare eventuali <strong>pietre</strong> o alberi caduti. Il percorso inizia con alcuni punti panoramici, proseguendo attraverso la <strong>Sambuca</strong> fino a un bel prato, dove è possibile pranzare ai tavolini predisposti. La discesa avviene lungo un sentiero sulla sinistra del ponte e prosegue fino al <strong>sentiero d''Achille</strong>, un''immersione nel cuore della <strong>montagna</strong> italiana.</p>
+<p>Il punto di partenza per questa fantastica escursione è a <strong>Valle Benedetta</strong>, in provincia di <strong>Toscana</strong>. Per raggiungerlo, è consigliabile arrivare in auto fino al parcheggio segnalato all''inizio del sentiero. Da lì, si inizia il percorso a piedi, seguendo il sentiero ben tracciato che sale dolcemente verso le cime.</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+
+<p>Questa escursione ad anello è perfetta per chi cerca un''esperienza facile e piacevole. Inizialmente, il sentiero è ben segnalato e presenta solo qualche piccolo inconveniente, come un paio di pietre o qualche albero caduto.  Non appena iniziate, sarete accolti da splendidi punti panoramici. Proseguendo, passerete accanto all''<strong>Eremo di Sambuca</strong>, un luogo suggestivo con un prato dove è possibile fare un picnic.  Da qui, proseguirete lungo il <strong>Sentiero d''Achille</strong>, un percorso di circa 5 km che vi condurrà attraverso boschi e panorami mozzafiato. La discesa si effettua lungo il sentiero principale e il guado in secca.  È un''escursione adatta a tutti, anche a chi ha poca esperienza in montagna.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>Questa escursione è di difficoltà <strong>Facile</strong>. La distanza totale è di circa <strong>10.57 km</strong> con un dislivello di <strong>+592 metri</strong>.  L''anello può essere completato in circa 4-5 ore, a seconda del ritmo e delle soste.  È importante indossare scarpe da trekking e portare con sé acqua e snack. Ricorda che il sentiero è adatto a chiunque abbia una minima dimestichezza con i monti.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
 
 <ul>
-  <li>Un <strong>sentiero ad anello</strong> di circa 12 km (con l''aggiunta del sentiero d''Achille).</li>
-  <li>Difficoltà: <strong>Facile</strong> – Adatto a principianti e famiglie.</li>
-  <li>Distanza: Circa 12 km (in totale, inclusa l''estensione con il sentiero d''Achille).</li>
-  <li>Tempi di percorrenza: Circa 4-5 ore (a seconda del ritmo e delle soste).</li>
-  <li>Paesaggi mozzafiato: Viste panoramiche sulla <strong>Valle Benedetta</strong>, la <strong>Sambuca</strong> e la <strong>montagna</strong> circostante.</li>
-  <li>Punti di interesse: <strong>Eremo Sambuca</strong>, bel prato, <strong>punto panoramico</strong> iniziale, <strong>guado</strong> e il suggestivo <strong>sentiero d''Achille</strong>.</li>
+    <li><strong>Distanza:</strong> Circa 10.57 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 592 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Valle Benedetta, Toscana, Italia</li>
+    <li><strong>Comune:</strong> Valle Benedetta, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Preparatevi ad un''<strong>escursione</strong> immersiva nella natura, con la possibilità di ammirare la flora e la fauna locali. Ricordate di portare con voi acqua, snack e un buon paio di scarpe da <strong>trekking</strong> per godervi appieno questa splendida <strong>escursione</strong>.</p>
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 
-<h3>Informazioni Utili</h3>
-
-<p>Il <strong>sentiero</strong> si trova in <strong>Valle Benedetta</strong>, in una zona facilmente raggiungibile.  È consigliabile informarsi sulle condizioni del <strong>sentiero</strong> prima di intraprendere l''<strong>escursione</strong>, soprattutto in caso di maltempo.  La segnaletica è presente ma è sempre consigliabile avere con sé una mappa e una bussola o un GPS per orientarsi correttamente durante l''<strong>trekking</strong>.  Questo <strong>sentiero</strong> rappresenta una fantastica opportunità per un''<strong>escursione</strong> in <strong>Italia</strong>, immersi nella bellezza della <strong>natura</strong>. Se cercate un''<strong>escursione facile</strong> e panoramica, il <strong>sentiero</strong> Valle Benedetta – Eremo Sambuca – sentiero d’Achille è la scelta ideale per il vostro prossimo <strong>trekking</strong>.</p>',
+<ul >
+    <li><strong>Distanza:</strong> Circa 10.57 km (andata e ritorno / anello)</li>
+    <li><strong>Dislivello:</strong> Circa 592 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Valle Benedetta, Toscana, Italia</li>
+    <li><strong>Comune:</strong> Valle Benedetta, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.57,
   592,

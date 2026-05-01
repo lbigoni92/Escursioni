@@ -7,28 +7,39 @@ VALUES (
   91571972,
   'Salivoli - Punta Falcone',
   'In questa passeggiata ho visitato la località chiamata Punta Falcone, a Salivoli. Sentieri sono semplici da percorrere e i sentieri sono quasi obligati, non ci si può perdere... Interessanti sono i punti che possiamo visitare : - Osservatorio astronomico - Vari Bunker della 2° guerra mondiale (museo all''aperto) - Calette Varie (dove abbiamo pranzato). Possiamo osservare numerose piante sulle quali vi è apposta una targhetta per riconoscere che pianta sia. Per altre informazioni chiedetemi e Seguitemi!',
-  '<h2>Salivoli - Punta Falcone: Escursione Trekking in Montagna e Sentiero Naturalistico</h2>
+  '<h2 id="salivoli-punta-falcone">Escursione a Salivoli - Punta Falcone</h2>
 
-<h3>Il Percorso di Trekking alla Punta Falcone</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa bellissima escursione a Salivoli si trova facilmente raggiungibile in auto. Da Salivoli, segui le indicazioni per la "Punta Falcone". Il parcheggio è disponibile in prossimità del sentiero di partenza.  È un''escursione adatta anche ai bambini!</p>
 
-<p>Immergetevi nel cuore della **montagna** con questa fantastica <strong>escursione trekking</strong> alla <strong>Punta Falcone</strong> a <strong>Salivoli</strong>. Il sentiero, di facile percorrenza, vi condurrà attraverso un paesaggio mozzafiato, ideale per un''<strong>escursione in giornata</strong> o un''attività di <strong>trekking</strong> fuoriporta.  Questo <strong>sentiero** è quasi obbligato, garantendo una vista panoramica impareggiabile e una profonda immersione nella <strong>natura** italiana. Perfetto per famiglie e appassionati di <strong>trekking**!</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Questo anello di circa 1.38 km ti condurrà attraverso sentieri semplici, quasi obbligati, per esplorare la zona di Salivoli. Il percorso è perfettamente accessibile a tutti, con brevi saliscendi e panorami incantevoli. Inizierai dalla località Punta Falcone, dove potrai ammirare l''Osservatorio Astronomico, i Bunker della Seconda Guerra Mondiale (un interessante museo all''aperto) e le varie calette dove potrai anche pranzare.  Durante il trekking, noterai numerose piante etichettate, per apprezzare la ricca flora locale.</p>
 
-<h3>Cosa Aspettarsi Durante l''Escursione</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è di difficoltà FACILE, ideale per famiglie e per chi cerca un''attività all''aria aperta senza impegnativi dislivelli.  Il sentiero è ben tenuto e facilmente percorribile.  L''escursione dura circa 1-1.5 ore, a seconda del ritmo.</p>
 
-<p>Preparatevi a un''esperienza indimenticabile in questa <strong>escursione**! Percorrerete un <strong>sentiero** ben tracciato, attraversando boschi lussureggianti e godendo di panorami spettacolari. L''<strong>escursione** vi permetterà di ammirare la flora locale, con numerose piante identificate da <em>targhette informative</em>, e di scoprire le ricchezze naturali della zona.  Potrete anche visitare punti di interesse storici e culturali, come i <em>bunker della Seconda Guerra Mondiale</em> e l''<em>osservatorio astronomico</em>.</p>
-
-<h3>Informazioni Utili per il Trekking</h3>
-
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>Per aiutarti a pianificare la tua escursione, ecco le informazioni pratiche e la traccia GPS:</p>
 <ul>
-    <li><strong>Distanza Totale:</strong> Circa 6 km</li>
-    <li><strong>Dislivello:</strong> 300 metri</li>
-    <li><strong>Difficoltà:</strong> Facile - Adatto a tutti i livelli di esperienza</li>
-    <li><strong>Tipo di Sentiero:</strong> Sentiero Naturalistico - Quasi Obligatorio</li>
-    <li><strong>Punti di Interesse:</strong> <em>Osservatorio Astronomico, Bunker della Seconda Guerra Mondiale (Museo all''aperto), Calette, Flora e Fauna locale</em></li>
-    <li><strong>Adatto per:</strong>  <strong>Trekking</strong>, <strong>Escursioni**, Famiglie, Appassionati di <strong>Natura**</li>
+    <li><strong>Distanza:</strong> Circa 1.38 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 102 metri</li>
+    <li><strong>Difficoltà:</strong> Facile</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Località Punta Falcone, Salivoli, accessibile in auto</li>
+    <li><strong>Comune:</strong> Salivoli, Toscana, Italia</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Non perdetevi questa splendida <strong>escursione trekking** lungo i <strong>sentieri** di <strong>Salivoli**!**</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong>Distanza:</strong> Circa 1.38 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 102 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Località Punta Falcone, accessibile in auto</li>
+  <li><strong>Comune:</strong> Salivoli, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   1.38,
   102,

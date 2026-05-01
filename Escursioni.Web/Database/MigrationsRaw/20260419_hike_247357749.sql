@@ -7,30 +7,32 @@ VALUES (
   247357749,
   'Sequoie, Sequoia gemella e Castello di Sammezzano da Leccio',
   'Sequoie (Sequoia Gemella) + Castello di Sammezzano (da Leccio) – Anello Escursione ad anello molto piacevole e varia, perfetta per una mezza giornata nella natura tra boschi, strade sterrate comode, sequoie monumentali e la tappa finale al suggestivo Castello di Sammezzano, uno dei luoghi più affascinanti della zona anche solo da ammirare dall’esterno. Partenza e parcheggio Si parte dalla zona di Leccio (Reggello) dove sono presenti diversi parcheggi. Noi abbiamo scelto quello più comodo per l’accesso al percorso: da qui si imbocca subito un sentiero largo e ben battuto, ideale anche per camminare in gruppo. Lungo il percorso Le prime sequoie e la “Sequoia Gemella” Dopo poco si incontrano le prime sequoie: già da qui ci si rende conto delle dimensioni impressionanti. Tra queste spicca una particolare sequoia gemella, cioè un esemplare “doppio”, formato da due tronchi fusi insieme: un punto molto scenografico per foto. Il grande gruppo di sequoie monumentali Proseguendo lungo la strada sterrata si raggiunge un’area con molte sequoie: vale la pena fermarsi e osservare con calma alcuni esemplari, fino ad arrivare a quella più grande e famosa del percorso. Qui trovi anche un cartello informativo: l’albero più imponente supera i 40 metri di altezza, con una circonferenza di circa 845 cm e un’età stimata intorno ai 120 anni. "Castello” di Bonsi (fattoria didattica) Continuando l’anello si arriva in direzione del Castello di Bonsi: in realtà non è un castello visitabile come ci si aspetterebbe, ma un complesso storico oggi riconvertito e utilizzato come fattoria didattica/tenuta agricola. Non è possibile entrare, ma si può vedere bene dall’esterno ed è comunque una tappa interessante. Il tratto fino a qui è semplice, a parte un punto con una piccola frana segnalata: nulla di difficile, ma serve attenzione. Laghetto, frana e variante di attraversamento Più avanti si arriva a un laghetto dove il sentiero presenta un tratto franato e un passaggio improvvisato. Noi abbiamo preferito non attraversarlo e continuare lungo strada per poi effettuare il guado in un punto più sicuro. In questa zona può capitare qualche rovo: utile avere pantaloni lunghi (e volendo anche una piccola cesoia nello zaino). Cascatine e zona Millenafonte Da qui in poi il percorso torna scorrevole e rilassante: si incontrano anche alcune cascatine (in parte artificiali) fino ad arrivare nella zona di Millenafonte, dove puoi scegliere se proseguire dritto o deviare in base alla traccia. Castello di Sammezzano (esterno) La tappa più attesa è il Castello di Sammezzano, un edificio unico nel suo genere, famoso per lo stile moresco/orientale e per l’aspetto fiabesco. Attualmente non è visitabile all’interno, ma dall’esterno si riescono a vedere diversi scorci molto belli e l’area è perfetta per una pausa pranzo. Dopo la sosta si scende e si rientra verso il punto di partenza, chiudendo l’anello. Statistiche del percorso Distanza: 12,76 km Dislivello positivo: 333 m Dislivello negativo: 333 m Altitudine max: 351 m Altitudine min: 133 m Difficoltà tecnica: Media Tipo percorso: Anello Consigli utili Scarpe da trekking consigliate (sterrato + possibili tratti smossi/frane) Attenzione nella zona laghetto/guado In estate: repellente per insetti e acqua abbondante Se vuoi fare foto belle: la zona sequoie è il top, soprattutto con luce del mattino',
-  '<h2>Sequoie, Sequoia gemella e Castello di Sammezzano da Leccio – Escursione Anello Trekking Italia</h2>
+  '<h2 id="escursione-sequoie-sammezzano-leccio">Escursione al Castello di Sammezzano da Leccio e Sequoia Gemella</h2>
 
-<h3>Il percorso</h3>
-<p>Immergiti in un''escursione indimenticabile ad anello che ti porterà alla scoperta di meraviglie naturali e architettoniche. Questo percorso, ideale per una mezza giornata di trekking, ti condurrà attraverso boschi, strade sterrate e ti permetterà di ammirare la maestosità delle sequoie e l''unicità del Castello di Sammezzano. Partiremo dalla zona di Leccio (Reggello), dove troverai diversi parcheggi, e inizieremo ad affrontare un sentiero largo e ben battuto, perfetto anche per famiglie e gruppi. Il percorso è pensato per offrire un''esperienza varia e piacevole, con brevi tratti in salita e discesa, e una buona quantità di natura da ammirare.</p>
-<p>Il tratto iniziale ti condurrà tra le prime sequoie, dove potrai ammirare la "Sequoia Gemella", un esemplare unico formato da due tronchi fusi insieme, un punto perfetto per scattare foto indimenticabili. Proseguendo lungo la strada sterrata, raggiungerai un''area con un gruppo di sequoie monumentali, tra cui il più imponente, che supera i 40 metri di altezza e ha una circonferenza di circa 845 cm. Non dimenticare di consultare il cartello informativo per conoscere l''età stimata di questo gigante della foresta.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come arrivare al punto di partenza</h3>
+<p>Il punto di partenza di questa bellissima escursione è a Leccio, in Toscana. Partenza dalla zona di Leccio dove sono presenti diversi parcheggi. Noi abbiamo scelto il parcheggio più comodo per l’accesso al percorso, facilmente raggiungibile in auto. Da qui, si imbocca subito un sentiero largo e ben battuto, ideale anche per camminare in gruppo.</p>
 
-<h3>Cosa aspettarsi</h3>
-<ul>
-    <li>Ammirare le sequoie monumentali, tra cui la Sequoia Gemella, un esempio unico di albero fuso.</li>
-    <li>Esplorare la fattoria didattica/tenuta agricola di Bonsi (Castello di Bonsi), un luogo affascinante da ammirare dall''esterno.</li>
-    <li>Percorrere un tratto di sentiero con un piccolo frana, superabile con attenzione.</li>
-    <li>Godere di una vista panoramica sul paesaggio circostante.</li>
-    <li>Rilassarsi all''ombra degli alberi durante la pausa pranzo.</li>
+<h3 id="il-percorso-passo-per-passo">Il percorso passo per passo</h3>
+<p>L''escursione è un anello che ti porterà alla scoperta di un paesaggio variegato. Iniziando dal parcheggio, seguirai un sentiero largo e ben battuto fino a raggiungere le prime sequoie. Ammira la "Sequoia Gemella", un esemplare unico formato da due tronchi fusi insieme, un vero punto di riferimento per le foto. Proseguendo lungo la strada sterrata, raggiungerai un''area con un gruppo di sequoie monumentali, tra cui una particolarmente imponente che supera i 40 metri di altezza. Continuerai verso il Castello di Bonsi (fatica didattica), ammirandolo dall''esterno. Lungo il percorso, l''anello si snoda attraverso boschi, e in alcuni tratti presenta piccole frane, quindi fai attenzione. Raggiungerai un laghetto dove il sentiero presenta un tratto franato e un passaggio improvvisato. Puoi scegliere di attraversare il tratto franato o procedere lungo la strada per poi effettuare il guado in un punto più sicuro. Successivamente, il percorso torna scorrevole e rilassante, con la possibilità di ammirare alcune cascatine (in parte artificiali) e di visitare Millenafonte. La tappa finale è il Castello di Sammezzano, uno dei luoghi più affascinanti della zona, seppur non visitabile all’interno. Ammira l''esterno dell''edificio e goditi una pausa pranzo nell''area circostante.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e cosa aspettarsi</h3>
+<p><strong>Difficoltà:</strong> Media. L''escursione presenta alcuni tratti sterrati e un breve tratto franato, ma in generale è un percorso accessibile alla maggior parte degli escursionisti. <strong>Distanza:</strong> Circa 12,76 km (anello). <strong>Dislivello:</strong> Circa 333 metri.  È una mezza giornata di escursione perfetta per chi cerca un''esperienza varia e immersiva nella natura. </p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
+<p>Potrai scaricare la traccia GPS completa di questa escursione per seguire il percorso con precisione. </p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong>Distanza:</strong> Circa 12,76 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 333 metri</li>
+    <li><strong>Difficoltà:</strong> Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Zona di Leccio, Reggello, Toscana</li>
+    <li><strong>Comune:</strong> Leccio, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<h3>Informazioni utili</h3>
-<p>Questo percorso di trekking ad anello è di circa 12,76 km con un dislivello positivo di 333 metri e un dislivello negativo di 333 metri. La difficoltà tecnica è media, quindi è consigliato avere scarpe da trekking adatte, soprattutto per i tratti sterrati e per le possibili frane. Porta con te acqua, repellente per insetti e, se desideri, una piccola cesoia per pot eventuali rovi.</p>
-<p>La zona laghetto/guado richiede attenzione e prudenza. In estate, è fondamentale portare con sé acqua e repellente per insetti. La zona sequoie è il luogo ideale per scattare foto spettacolari, soprattutto all''alba o al tramonto. Non dimenticare di informarti sulle condizioni del sentiero prima di partire e di seguire le indicazioni.</p>
-<p><em>Consigli utili:</em></p>
-<ul>
-    <li>Scarpe da trekking consigliate (sterrato + possibili tratti smossi/frane)</li>
-    <li>Attenzione nella zona laghetto/guado</li>
-    <li>In estate: repellente per insetti e acqua abbondante</li>
-</ul>',
+<p><strong>Parco Nazionale:</strong> Non applicabile</p>',
   'Tutte le Attività e Paesi',
   12.76,
   333,

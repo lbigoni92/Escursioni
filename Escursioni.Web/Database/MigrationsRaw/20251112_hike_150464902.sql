@@ -7,31 +7,37 @@ VALUES (
   150464902,
   'Giro a caso',
   'Giro a caso',
-  '<h2>Giro a Caso – Escursione Trekking in Montagna a Valbruna</h2>
+  '<h2 id="giro-a-caso">Giro a Caso a Querce</h2>
 
-<h3>Il Percorso</h3>
-<p>Il <strong>Giro a Caso</strong> è un’escursione di trekking fantastica adatta sia a escursionisti esperti che a famiglie che desiderano scoprire la bellezza della <strong>montagna italiana</strong>. Questo <strong>sentiero</strong> si snoda attraverso paesaggi mozzafiato, offrendo viste panoramiche sulle valli circostanti e sulle cime maestose della **Valbruna**. L’<strong>escursione a piedi</strong>, ideale per un’esperienza di <strong>trekking</strong> immersiva nella <strong>natura</strong>, è caratterizzata da un dislivello moderato, rendendola accessibile a molti.</p>
-<p>Il percorso inizia da <strong>Borgo Traigoi</strong> e si sviluppa per circa 8 chilometri, seguendo un sentiero ben segnalato che permette di godere appieno della bellezza del territorio circostante.  L’<strong>escursione in montagna</strong> offre la possibilità di ammirare la flora e la fauna locali, arricchendo l’esperienza di <strong>trekking</strong>.</p>
+<p>Ragazzi, vi racconto un''escursione che mi ha davvero sorpreso! Il <strong>Giro a Caso</strong> a <strong>Querce</strong>, in provincia di <strong>Toscana</strong>, è un anello che vi regala un sacco di emozioni, con un bel panorama e senza eccessivi impegnativi.</p>
 
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
 
-<h3>Cosa Aspettarsi</h3>
-<p>Durante il <strong>Giro a Caso</strong> potrete ammirare panorami spettacolari, attraversare boschi rigogliosi e raggiungere punti panoramici da cui godere di una vista a 360 gradi sulla <strong>Valbruna</strong>.  La difficoltà dell’escursione è media, adatta a chi pratica <strong>trekking</strong> con una certa frequenza.  L''ambiente circostante è perfettamente conservato, un vero gioiello della <strong>natura italiana</strong>.  Potrete ammirare la varietà di piante e animali che popolano la zona.</p>
-<p>Questo <strong>sentiero di trekking</strong> è perfetto per chi cerca un’esperienza autentica nella <strong>montagna</strong>, lontano dal caos cittadino. L’<strong>escursione a piedi</strong> è un ottimo modo per rinfrescarsi e rigenerarsi, godendo della tranquillità e della bellezza della <strong>natura</strong>.</p>
+<p>Il punto di partenza è facilmente raggiungibile in auto. Cercate ''Cascina del Lupo'', a Querce. Dallo spiaziale antistante, iniziate il sentiero. In alternativa, potete raggiungere il punto di partenza a piedi da Querce, godendovi un piacevole tratto di campagna.</p>
 
+<h3 id="il-percorso-passo-passo">Il Percorso Passo per Passo</h3>
 
-<h3>Informazioni Utili</h3>
-<ul>
-  <li><strong>Difficoltà:</strong> Media</li>
-  <li><strong>Distanza:</strong> 8 km</li>
-  <li><strong>Dislivello:</strong> 400 metri</li>
-  <li><strong>Tempo di percorrenza:</strong> 3-4 ore</li>
+<p>Il sentiero si snoda inizialmente attraverso un bosco di faggi, poi si apre su prati e ciottoli. La salita è costante ma non particolarmente ripida. Il tratto più suggestivo è quello che offre un panorama aperto sulla vallata di Querce.  Il <strong>sentiero</strong> è ben segnalato e il dislivello di  <strong>+283 m</strong> vi ripagherà con una vista mozzafiato. Questa <strong>escursione</strong> di tipo <strong>anello</strong> vi restituirà al punto di partenza dopo circa 3,84 km.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+
+<p>La difficoltà di questo giro è definita <strong>media</strong>. È un''escursione adatta a persone con un minimo di allenamento, ma anche a famiglie con bambini che amano l''aria aperta.  È importante indossare scarpe da trekking adatte e portare con sé acqua e uno spuntino. </p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+
+<p>Per seguire il percorso, consiglio di utilizzare una traccia GPS.  Potrete trovare numerose tracce online.  La distanza dell''escursione è di circa 3,84 km con un dislivello positivo di 283 metri.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong>Distanza:</strong> Circa 3.84 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 283 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
   <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
-  <li><strong>Equipaggiamento consigliato:</strong> Scarpe da trekking, zaino, acqua, snack, cappello, crema solare, abbigliamento a strati.</li>
-  <li><strong>Punto di partenza:</strong> Borgo Traigoi (Valbruna)</li>
-  <li><strong>Sentiero n. :</strong> CAI-GR 2128</li>
-</ul>
-
-<p>Preparatevi per una splendida <strong>escursione trekking</strong> nel cuore della **Valbruna**!  Il <strong>Giro a Caso</strong> vi regalerà momenti indimenticabili nella <strong>montagna italiana</strong>, un’esperienza di <strong>trekking</strong> immersiva nella <strong>natura</strong> che vi lascerà senza parole.  Non perdete l''occasione di scoprire questo meraviglioso <strong>sentiero</strong>!</p>',
+  <li><strong>Punto di partenza:</strong> Cascina del Lupo, Querce, Toscana</li>
+  <li><strong>Comune:</strong> Querce, Italia</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   3.84,
   283,

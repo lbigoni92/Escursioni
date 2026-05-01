@@ -7,27 +7,48 @@ VALUES (
   87320187,
   'Agnano - Grotta - Buca delle fate',
   'Il percorso è alla portata di tutti, molto carino, panoramico e rilassante, ottimo per passeggiate di famiglia domenicali. La grotta si è formata grazie al “fenomeno carsico” cioè l’azione che l’acqua piovana esercita su delle rocce calcaree. Il calcare è una roccia formata quasi esclusivamente di carbonato di calcio, perciò detta anche roccia carbonatica, che si è formata grazie ad un lento processo di sedimentazione sul fondo di un antico mare per milioni di anni, di piccoli organismi, resti di molluschi e resti di altri microrganismi. Lungo il percorso è possibile notare i segni del moto ondoso, triassici "Reale matks" La sentieristica è semplice, per scendere nella grotta consiglio scarpe adatte, torcia frontale e la non paura di ragni e pipistrelli, è un pò scivoloso anche se ci si può aiutare con corde. Lungo il percorso è possibile notare vari resti fossili',
-  '<h2>Sentiero Trekking Agnano - Grotta - Buca delle Fate: Esplora la Grotta Carsica in Puglia</h2>
+  '<h2 id="escursione-agnano-grotta-buca-fate">Escursione a Agnano: Grotta, Buca delle Fate e Fenomeno Carsico</h2>
 
-<p>Immergiti nella natura incontaminata della <strong>Puglia</strong> con questa splendida <strong>escursione trekking</strong> che ti condurrà alla maestosa <strong>Grotta di Agnano</strong> e alla suggestiva <strong>Buca delle Fate</strong>. Un percorso adatto a tutti, perfetto per una <strong>passeggiata domenicale in famiglia</strong> o un''iniziazione al <strong>trekking</strong> nella <strong>montagna</strong>, ricco di panorami mozzafiato e di un''esperienza unica nel cuore della <strong>natura italiana</strong>.</p>
+<p>
+   Ho sempre amato le escursioni tranquille e ricche di bellezza, e questa a Agnano, in Toscana, è stata esattamente quello che cercavo. Il sentiero, perfetto per una giornata domenicale in famiglia, mi ha condotto attraverso un paesaggio affascinante, ricco di storia naturale e panorami mozzafiato. Se siete alla ricerca di un''escursione facile e rilassante, questa è sicuramente una scelta valida!
+</p>
 
-<h3>Il Percorso</h3>
+<h3>Come arrivare al punto di partenza</h3>
 
-<p>Questo sentiero di trekking ti guiderà attraverso un ambiente carsico affascinante, caratterizzato da formazioni geologiche uniche e dalla bellezza selvaggia della <strong>sentieristica</strong>. Il percorso è progettato per essere accessibile a tutti i livelli, offrendo una <strong>escursione</strong> rilassante e panoramica, ideale per chi desidera scoprire i segreti della <strong>grotta carsica</strong> e le sue peculiarità. La discesa alla <strong>grotta</strong> richiede un''attenta preparazione e l''utilizzo di scarpe adatte, una torcia frontale e un po'' di coraggio per affrontare eventuali incontri con ragni e pipistrelli. Il sentiero presenta alcune zone scivolose, dove è consigliabile l''utilizzo di corde per una discesa più sicura.</p>
+<p>
+   Il punto di partenza è facilmente raggiungibile in auto da Agnano. Una volta arrivati al paese, seguite le indicazioni per il sentiero che conduce alla Grotta e alla Buca delle Fate. Il parcheggio è limitato, quindi giocate all''avvertimento.
+</p>
 
-<h3>Cosa Aspettarsi</h3>
+<h3>Il percorso passo per passo</h3>
 
-<ul>
-  <li>Un''immersione nel cuore del <strong>fenomeno carsico</strong>, formato dall''azione dell''acqua piovana su rocce calcaree.</li>
-  <li>La possibilità di ammirare le intricate formazioni di <strong>calcare</strong>, risultato di milioni di anni di sedimentazione e processi geologici.</li>
-  <li>La scoperta di <strong>resti fossili</strong>, testimonianza della storia geologica della regione.</li>
-  <li>Un''<strong>escursione trekking</strong> panoramica con viste mozzafiato sulla campagna circostante.</li>
-  <li>Un''esperienza unica alla <strong>Buca delle Fate</strong>, un luogo magico e suggestivo.</li>
-</ul>
+<p>
+   Il sentiero è ben segnalato e segue un percorso semplice e lineare. Iniziate da Agnano e proseguite attraverso la campagna toscana, ammirando i panorami e i segni del moto ondoso triassico, testimonianza di un antico mare. Il sentiero si inoltra nel bosco, dove potrete osservare i resti fossili e la grotta si apre, un magnifico esempio del fenomeno carsico. Scendere nella grotta richiede attenzione, soprattutto perché il terreno è scivoloso e l''ambiente può essere umido e buio.
+</p>
 
-<h3>Informazioni Utili</h3>
+<h3>Difficoltà e cosa aspettarsi</h3>
 
-<p>La <strong>Grotta di Agnano</strong> è accessibile attraverso un sentiero di <strong>trekking</strong> relativamente semplice, ma presenta alcune difficoltà dovute al terreno irregolare e alla discesa scivolosa. L''altezza della <strong>grotta</strong> è di circa 15 metri. La distanza del <strong>sentiero</strong> è di circa 2 km (andata e ritorno).  L''escursione richiede circa 2-3 ore.  Si consigliano scarpe da trekking adatte, una torcia frontale, acqua e un piccolo snack.  È importante prestare attenzione al terreno e seguire attentamente le indicazioni del sentiero.  Ricorda di rispettare l''ambiente e di non lasciare tracce del tuo passaggio.  Questa <strong>escursione trekking</strong> nella <strong>montagna della Puglia</strong> è un''occasione unica per scoprire la bellezza della <strong>natura italiana</strong>.</p>',
+<p>
+   Questa escursione è classificata come <strong>Facile</strong>, adatta anche ai bambini e ai principianti. Il percorso è lungo <strong>9,55 km</strong> con un <strong>dislivello di +375 metri</strong>. Preparatevi a camminare su un sentiero naturale, con alcune pendenze e tratti un po'' scivolosi. Non dimenticate scarpe da trekking adatte, una torcia frontale e, perché no, un po'' di spirito di avventura!
+</p>
+
+<h3>Traccia GPS e informazioni pratiche</h3>
+
+<p>
+   Per seguire il percorso, vi consiglio di utilizzare una traccia GPS disponibile online. In alternativa, potete scaricare la mappa del sentiero e seguirla con attenzione.
+</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+
+<ul >
+  <li><strong>Distanza:</strong> Circa 9,55 km (solo andata)</li>
+  <li><strong>Dislivello:</strong> Circa 375 metri</li>
+  <li><strong>Difficoltà:</strong> Facile</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Agnano, Toscana</li>
+  <li><strong>Comune:</strong> Agnano, Italia</li>
+  <li><strong>Regione:</strong> Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   9.55,
   375,

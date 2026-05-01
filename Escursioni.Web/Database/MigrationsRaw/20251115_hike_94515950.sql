@@ -7,31 +7,38 @@ VALUES (
   94515950,
   'Passo di Dante - Eremo della Spelonca - Monte Penna',
   'Il percorso parte da Santa Maria del giudice abbiamo parcheggiato davanti a una chiesa ma voi parcheggiate al parco pubblico, c''è più parcheggio (dista 200mt dalla chiesa), da li siamo arrivati a Passo di Dante.(Il suo appellativo è dovuto al fatto che è menzionato da Dante nel 33° canto della Divina Commedia vv 28-30“Questi pareva a me maestro e donno, cacciando il lupo e lupicini al monte per che i Pisan veder Lucca non ponno.”) Inseguito abbiamo proseguito prima in direzione di alcune ex cave e in seguito all'' Eremo della Spelonca(''eremo di San Giorgio o della Spelonca, è una chiesetta ad aula unica di origine medievale rirtrutturata più volte fino al XIX secolo. Il romitorio fu fondato nel 1190 dagli "eremiti neri" che non erano veri eremiti, ma piuttosto monaci che vivevano in comune come gli apostoli, in povertà, in luoghi piuttosto isolati, talvolta in contrasto con le istituzioni ecclesiastiche, dedicandosi all’assistenza religiosa della popolazione che viveva in questi luoghi e che aveva difficoltà a raggiungere le chiese.) Da li abbiamo fatto vari monti fino ad arrivare al moriglione di Penna dove abbiamo pranzato. In seguito abbiamo proseguito (su un sentiero non alla portata di tutti, fino al monte Penna). In fine abbiamo fatto il 116 per tornare alle macchine Non ci sono fontanelle Portate scarpe adeguate',
-  '<h2>Passo di Dante - Eremo della Spelonca - Monte Penna Trekking</h2>
+  '<h2 id="escursione-passo-di-dante-eremo-della-spelonca-monte-penna">Escursione al Passo di Dante, Eremo della Spelonca e Monte Penna</h2>
 
-<h3>Il Percorso</h3>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa fantastica escursione è a Santa Maria del giudice, in provincia di San Cerbone, Toscana.  Il parcheggio più comodo è quello del parco pubblico, situato a circa 200 metri dalla chiesa. Da lì, seguiamo il sentiero per iniziare la nostra avventura!</p>
 
-<p>Immergetevi in una straordinaria <strong>escursione in montagna</strong> lungo il <strong>Passo di Dante - Eremo della Spelonca - Monte Penna</strong>, un percorso iconico nel cuore dell''Abruzzo. Questa <strong>trekking</strong> inizia da Santa Maria del giudice, con un facile accesso tramite il parcheggio del parco pubblico, a circa 200 metri dalla chiesa. Il sentiero vi condurrà attraverso paesaggi mozzafiato, un''autentica immersione nella <strong>natura italiana</strong> e nella sua ricca storia. La difficoltà di questo <strong>sentiero escursionistico</strong> è elevata, rendendolo ideale per escursionisti esperti che desiderano una vera sfida.</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Partiamo da Santa Maria del giudice e raggiungiamo il Passo di Dante, un luogo noto per la sua menzione nella Divina Commedia di Dante Alighieri!  Proseguiamo verso le ex cave, ammirando il paesaggio, e poi ci addentriamo verso l''Eremo della Spelonca, un''antica chiesetta medievale dove potremo riflettere e godere della tranquillità.  Il percorso prosegue attraverso diversi sentieri, con un tratto più impegnativo che ci porta fino al moriglione di Penna, dove ci godiamo un meritato pranzo.  Infine, percorriamo un sentiero finale per tornare al punto di partenza, sfruttando il sentiero 116, per un totale di circa 15.21 km.</p>
 
-<p>Il viaggio inizia con una salita al <strong>Passo di Dante</strong>, un punto di riferimento storico legato a Dante Alighieri, dove il suo nome è legato alla sua opera "La Divina Commedia". Dopo il passo, il sentiero si snoda tra ex cave e conduce all''<em>Eremo della Spelonca</em>, un luogo di culto medievale che offre un''occasione per riflettere sulla fede e sulla spiritualità.</p>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è di livello Facile/Medio. Il dislivello di circa 856 metri richiede una buona preparazione fisica, ma il percorso è ben tracciato e adatto a escursionisti con un''esperienza intermedia.  È fondamentale indossare scarpe da trekking adeguate e portare con sé acqua e snack. </p>
 
-<h3>Cosa Aspettarsi</h3>
-
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
 <ul>
-  <li>Un’<strong>escursione di trekking</strong> di lunga durata, che richiede una buona preparazione fisica.</li>
-  <li>Paesaggi montani spettacolari con viste panoramiche sull''Abruzzo.</li>
-  <li>La possibilità di visitare l''<em>Eremo della Spelonca</em>, un sito storico di grande valore.</li>
-  <li>Un''immersione nella storia e nella cultura locale, legata alla figura di Dante Alighieri.</li>
-  <li>Un’opportunità di praticare <strong>trekking</strong> in <strong>montagna</strong> e di godere della <strong>natura italiana</strong>.</li>
+    <li><strong>Distanza:</strong> Circa 15.21 km (anello)</li>
+    <li><strong>Dislivello:</strong> Circa 856 metri</li>
+    <li><strong>Difficoltà:</strong> Facile / Media</li>
+    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</strong> Santa Maria del giudice, Parco Pubblico</li>
+    <li><strong>Comune:</strong> San Cerbone, Toscana</li>
+    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
 
-<p>Preparatevi a percorrere un <strong>sentiero</strong> impegnativo, con alcuni tratti non alla portata di tutti, che culmina in una discesa al <strong>Monte Penna</strong>. Il pranzo al <strong>moriglione di Penna</strong> rappresenta una pausa rilassante e un''occasione per ammirare il panorama circostante. L''intero percorso, con il ritorno alle macchine, è di circa 11.6 km.</p>
-
-<h3>Informazioni Utili</h3>
-
-<p>È fondamentale indossare <strong>scarpe da trekking</strong> adeguate per affrontare il terreno accidentato. Ricordate di portare con voi acqua e cibo a sufficienza, soprattutto durante le escursioni in <strong>montagna</strong>.  Questo <strong>sentiero escursionistico</strong> è ideale per gli amanti del <strong>trekking</strong> e della <strong>natura</strong>, offrendo un''esperienza indimenticabile nel cuore dell''Abruzzo.</p>
-
-<p>Mancano le fontanelle lungo il percorso, quindi è essenziale pianificare adeguatamente le scorte idriche.  Approfittate di questa splendida <strong>escursione</strong> per scoprire la bellezza dei paesaggi montani e la ricchezza della cultura locale, un''occasione unica per praticare il <strong>trekking</strong> in Italia.</p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+    <li><strong id="dettaglio-distanza">Distanza:</strong> Circa 15.21 km (anello)</li>
+    <li><strong id="dettaglio-dislivello">Dislivello:</strong> Circa 856 metri</li>
+    <li><strong id="dettaglio-difficoltà">Difficoltà:</strong> Facile / Media</li>
+    <li><strong id="dettaglio-periodo">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+    <li><strong id="dettaglio-punto-partenza">Punto di partenza:</strong> Santa Maria del giudice, Parco Pubblico, accessibile in auto</li>
+    <li><strong id="dettaglio-comune">Comune:</strong> San Cerbone, Toscana</li>
+    <li><strong id="dettaglio-sentiero">Tipo di sentiero:</strong> Sentiero escursionistico</li>
+</ul>',
   'Tutte le Attività e Paesi',
   15.21,
   856,
@@ -60,7 +67,7 @@ VALUES (
   '9ec098e27ae5a4e84078ebbc0100661244d3cad64a32d2855abdd83e92252cbd',
   'Escursione Passo di Dante - Monte Penna Toscana: Anello facile 15.2km, +856m. Eremo della Spelonca e pranzo al moriglione! Perfetto per principianti.',
   'Monte Penna: escursione da Santa Maria del Giudice (anell...',
-  'Monti Pisani', 
+  'Monti Pisani',
   NOW(),
   NOW()
 )

@@ -7,23 +7,38 @@ VALUES (
   229597917,
   'Vetta Monte Alto dalla cresta sud e Grotte bianche da Volegno',
   'Salita verso la cresta Siamo partiti nei pressi di Volegno e ci siamo incamminati lungo la traccia che passa dalle Grotte Bianche. Al km 0.7 fate attenzione: c’è un bivio che può trarre in inganno. Noi l’abbiamo imboccato in modo errato, mentre la direzione corretta è tenersi sulla destra, passando così dalle Case Bianche. Il sentiero prosegue con tratti abbastanza semplici, segnati da puntini rossi, ma con il terreno reso insidioso dall’umidità. Dopo poco si raggiunge una cava: è un punto chiave, da cui bisogna deviare a destra (verso nord) per puntare alla cresta. Dalla cava la traccia si fa più impegnativa, con un po’ di arrampicata tra paleo e roccette, ma niente di realmente difficile. Qui avete due possibilità: Fermarvi ad ammirare la cava stessa, che oggi si presenta come un vero e proprio museo a cielo aperto, con una caratteristica casina all’interno. Oppure continuare la salita verso la cresta: attenzione però, da qui in avanti la discesa sarà più tecnica. Per salire si può scegliere: Sinistra: più difficoltosa, con una palla metallica bagnata e mal posizionata → sconsigliata. Destra: più ripida ed esposta, ma complessivamente più fattibile (1°arrampicata). Tratto di cresta e torione La cresta è faticosa ma gestibile, con qualche tratto esposto e punti panoramici a picco sul burrone. La vera difficoltà si incontra intorno al km 4.2, dove l’esposizione aumenta e bisogna muoversi con più cautela (1°+arrampicata). Poco oltre ci si trova davanti a un torione roccioso. È aggirabile sia a sinistra sia a destra, ma noi abbiamo trovato passaggio solo a sinistra, che si è rivelato più semplice del previsto. Attenzione sempre all’esposizione. Superato il torione, la parte più difficile è alle spalle: si prosegue senza grandi problemi fino a raggiungere la vetta del Monte Alto. Discesa verso le cave La discesa richiede prudenza: il terreno è ripido e un po’ scivoloso, può essere utile aiutarsi con le mani. Davanti a voi vedrete un torione roccioso che non va affrontato direttamente: bisogna aggirarlo sulla sinistra. Poco più avanti si gira a destra e si punta verso l’area della buca del microspeleo (che noi non siamo riusciti a individuare). Il sentiero è molto suggestivo: si scende passando tra antiche cave abbandonate, che sembrano un vero e proprio parco minerario a cielo aperto. Al km 5.7 attenzione a non sbagliare direzione: Non a destra, verso le cave alte (porta sopra un dirupo invalicabile). Andate a sinistra, entrando nel bosco. Da qui, con calma e attenzione, si scende fino a ritrovare la via SAV, che riporta comodamente al punto di partenza e quindi alla macchina.',
-  '<h2>Vetta Monte Alto dalla cresta sud e Grotte bianche da Volegno: Trekking in Montagna in Italia</h2>
+  '<h2 id="escursione-vetta-monte-alto-cresta-sud-grotte-bianche">Escursione alla Vetta del Monte Alto dalla Cresta Sud e Grotte Bianche</h2>
 
-<h3>Il percorso</h3>
-<p>Questo <strong>sentiero di trekking</strong> in <strong>Montagna</strong>, situato in <strong>Italia</strong>, offre un''esperienza indimenticabile per gli amanti del <strong>trekking</strong> e dell''<strong>escursionismo</strong>. L''escursione parte nei pressi di <strong>Volegno</strong> e conduce alla maestosa <strong>Vetta del Monte Alto</strong> attraverso la <strong>cresta sud</strong>, oltre a permettere di esplorare le affascinanti <strong>Grotte Bianche</strong>. Il percorso è adatto a escursionisti esperti, con un''altimetria impegnativa ma ricompensa con panorami mozzafiato. La <strong>escursione</strong> si snoda attraverso un terreno variegato, con tratti facili e altri più tecnici, offrendo una sfida stimolante per i <strong>sentieri</strong>.</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa escursione è nei pressi di Volegno, nel comune di Volegno, in provincia di Toscana, Italia. È facilmente raggiungibile in auto o tramite mezzi pubblici, con parcheggio disponibile nelle vicinanze.</p>
 
-<h3>Cosa aspettarsi</h3>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Partiamo da Volegno e ci incamminiamo lungo un sentiero che ci porta attraverso le Grotte Bianche. Dopo circa 0.7 km, un bivio può trarre in inganno: attenzione a non imboccare la direzione sbagliata. La direzione corretta è proseguire sulla destra, passando dalle Case Bianche. Il sentiero prosegue con tratti semplici, segnati da puntini rossi, ma il terreno è reso insidioso dall''umidità. Raggiungiamo una cava, da cui deviamo a destra (verso nord) per puntare alla cresta. La traccia diventa più impegnativa, con tratti di arrampicata tra paleo e roccette. Dalla cresta, la discesa è più tecnica, con possibili difficoltà (1°+arrampicata). Superata la cresta, la salita continua fino alla vetta del Monte Alto.  La discesa richiede prudenza, con terreno ripido e scivoloso. Si aggirano torioni rocciosi e si segue il sentiero che scende tra antiche cave abbandonate, per ritrovare la via SAV e tornare al punto di partenza.</p>
+
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa escursione è di <strong>Difficoltà Molto Difficile</strong>. La <strong>Distanza</strong> è di circa 8.64 km per un <strong>Anello</strong>. Il <strong>Dislivello</strong> è di 643 metri. Ci sono tratti esposti e alcuni passaggi di arrampicata, quindi è necessaria una buona preparazione fisica e l''uso di attrezzatura adeguata. La <strong>Facilità</strong> è bassa, il percorso richiede esperienza.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
 <ul>
-    <li>Salita impegnativa verso la <strong>cresta del Monte Alto</strong>, con alcuni tratti esposti.</li>
-    <li>Opportunità di ammirare una <strong>cava</strong>, un punto chiave con una caratteristica casina all''interno, che rappresenta un vero e proprio <strong>museo a cielo aperto</strong>.</li>
-    <li>Arrampicate tecniche su paleo e roccette, con difficoltà variabili (1°+arrampicata).</li>
-    <li>Tratti di <strong>cresta</strong> e torioni rocciosi, offrendo punti panoramici spettacolari.</li>
-    <li>Discesa ripida e scivolosa, che richiede attenzione e prudenza.</li>
-    <li>Esplorazione di antiche <strong>cave abbandonate</strong>, trasformate in un suggestivo <strong>parco minerario a cielo aperto</strong>.</li>
+    <li><strong>Distanza:</l> 8.64 km (Anello)</li>
+    <li><strong>Dislivello:</l> 643 metri</li>
+    <li><strong>Difficoltà:</l> Molto Difficile</li>
+    <li><strong>Periodo consigliato:</l> Primavera, Estate, Autunno</li>
+    <li><strong>Punto di partenza:</l> Volegno, Toscana, Italia</li>
+    <li><strong>Comune:</l> Volegno, Toscana</li>
+    <li><strong>Tipo di sentiero:</l> Sentiero escursionistico, tratti con arrampicata</li>
 </ul>
 
-<h3>Informazioni utili</h3>
-<p>La <strong>distanza totale del sentiero</strong> è di circa 8 km con un dislivello di 800 metri, rendendolo un''<strong>escursione</strong> impegnativa che richiede una buona preparazione fisica. Il <strong>sentiero</strong> è segnato da puntini rossi, ma è importante fare attenzione alla difficoltà del terreno, soprattutto durante le ore più calde. La <strong>difficoltà del sentiero</strong> è considerata alta, a causa degli strappi esposti e delle arrampicate.  È fondamentale indossare scarpe da trekking adatte, portare con sé acqua, cibo e kit di emergenza.  Considerate che la discesa è più tecnica e richiede particolare cautela.  La <strong>trekking</strong> in questa zona è un''occasione per immergersi nella natura incontaminata e godere della bellezza delle <strong>montagne italiane</strong>. Questo <strong>sentiero escursionistico</strong> offre un''esperienza unica per chi cerca avventura e panorami mozzafiato.  Ricordate di rispettare l''ambiente e di seguire i sentieri segnalati per garantire la sicurezza vostra e degli altri escursionisti. </p>',
+<h3 id="informazioni-utili">Informazioni Utili</h3>
+<ul >
+  <li><strong>Distanza:</l> Circa 8.64 km (anello)</li>
+  <li><strong>Dislivello:</l> Circa 643 metri</li>
+  <li><strong>Difficoltà:</l> Molto Difficile</li>
+  <li><strong>Periodo consigliato:</l> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</l> Volegno, accessibile in auto/a piedi</li>
+  <li><strong>Comune:</l> Volegno, Toscana</li>
+  <li><strong>Tipo di sentiero:</l> Sentiero escursionistico / Mulattiera / tratti con arrampicata</li>
+</ul>',
   'Tutte le Attività e Paesi',
   8.64,
   643,

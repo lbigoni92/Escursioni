@@ -7,32 +7,33 @@ VALUES (
   243140021,
   'Chiesa Di San Rocco, Grotta all''onda e Grotta di penna buia da Casoli',
   'Escursione ad anello con partenza da Casoli (Camaiore, LU), conosciuto come il “paese dei graffiti”. Il percorso attraversa i boschi del versante meridionale del Monte Matanna, toccando punti di grande interesse naturalistico e storico come Grotta all’Onda, il Prato del Pallone e i resti di un appostamento partigiano della Seconda Guerra Mondiale. Grotta all’Onda è una grande cavità carsica a circa 710 m di quota, formata alla base di una parete calcarea da cui sgorga acqua perenne, creando cascatelle all’esterno. Gli scavi archeologici hanno restituito reperti dal Paleolitico all’Età del Bronzo, segno di un’antichissima presenza umana. Il ritorno segue un sentiero panoramico che costeggia ruscelli e tratti d’acquedotto, con possibilità di deviazione verso la Grotta Buia, di dimensioni più ridotte ma ugualmente suggestiva. Itinerario consigliato a chi ama unire escursionismo e scoperta culturale. Terreno misto, con tratti umidi e qualche breve salita. Panorami, boschi, archeologia e un pizzico di avventura: tutto racchiuso in un unico giro nel cuore delle Apuane.',
-  '<h2>Chiesa Di San Rocco, Grotta all''onda e Grotta di penna buia da Casoli – Trekking in Apuane</h2>
+  '<h2 id="escursione-chiesa-di-san-rocco-grotta-allonda-grotta-penna-buia-da-casoli">Escursione alla Chiesa di San Rocco, Grotta all’Onda e Grotta di Penna Buia da Casoli</h2>
 
-<h3>Il percorso – Escursione di trekking nel cuore delle Apuane</h3>
-<p>
-Immergiti nella bellezza selvaggia delle Apuane con questa <b>escursione di trekking</b> ad anello, partendo dal caratteristico <strong>Casoli</strong> (Camaiore, LU), conosciuto come il "paese dei graffiti".  Questo sentiero offre un''esperienza unica, combinando la scoperta della <strong>natura incontaminata</strong> con la ricca storia e l''archeologia di questa zona. L’<strong>itinerario di trekking</strong> ti guiderà attraverso boschi rigogliosi del versante meridionale del <strong>Monte Matanna</strong>, un''opportunità fantastica per un''<strong>escursione in montagna</strong> e un''immersione profonda nella <strong>natura italiana</strong>.
-</p>
+<h3 id="come-arrivare-al-punto-di-partenza">Come Arrivare al Punto di Partenza</h3>
+<p>Il punto di partenza per questa fantastica escursione è il paese di <strong>Casoli</strong>, situato nel comune di Camaiore, in provincia di Lucca, in Toscana. Casoli è facilmente raggiungibile in auto, seguendo le indicazioni stradali principali per Camaiore e poi per Casoli. In alternativa, è possibile raggiungere Casoli a piedi da altre località del territorio, godendo già di un piacevole scorcio della campagna toscana.</p>
 
-<h3>Cosa aspettarsi – Un''esperienza completa di trekking e scoperta</h3>
-<p>
-Preparati a un''<b>escursione</b> che ti sorprenderà ad ogni passo. Il <strong>sentiero</strong> ti condurrà attraverso un terreno misto, con tratti umidi, brevi salite e discese, offrendoti sfide adatte a tutti i livelli di <strong>trekking</strong>. Ammira panorami mozzafiato, la ricca flora e fauna del Monte Matanna, e immergiti nella storia di questo luogo, un tempo testimone di antiche civiltà e di eventi cruciali della Seconda Guerra Mondiale. La possibilità di visitare le <strong>Grotte all''Onda</strong> e la <strong>Grotta Buia</strong> arricchisce ulteriormente questa <strong>escursione in montagna</strong>, offrendo un''esperienza completa di scoperta e avventura. Questo <strong>sentiero di trekking</strong> è ideale per chi cerca un''esperienza di <strong>trekking</strong> che unisca natura, cultura e un pizzico di avventura.
-</p>
+<h3 id="il-percorso-passo-per-passo">Il Percorso Passo per Passo</h3>
+<p>Partendo da Casoli, il sentiero si inoltra subito nel cuore del Parco delle Apuane, attraversando boschi di grande bellezza. Il percorso vi porterà alla <strong>Chiesa di San Rocco</strong>, un piccolo gioiello di architettura religiosa. Da qui, proseguendo, raggiungerete la suggestiva <strong>Grotta all’Onda</strong>, una grande cavità carsica con cascatelle alimentate dall''acqua perenne. Continuerete poi verso il <strong>Prato del Pallone</strong>, un ampio spazio aperto con una vista mozzafiato, e infine risalirete verso il punto di partenza, sfruttando un sentiero panoramico che costeggia ruscelli e tratti di acquedotto. Un''altra deviazione vi porterà alla affascinante <strong>Grotta Buia</strong>, più piccola ma altrettanto suggestiva. Questa escursione è un perfetto mix di natura, storia e cultura!</p>
 
-<h3>Informazioni utili – Dettagli per la tua escursione</h3>
+<h3 id="difficoltà-e-cosa-aspettarsi">Difficoltà e Cosa Aspettarsi</h3>
+<p>Questa è un''escursione di <strong>difficoltà media</strong>, adatta a escursionisti con un minimo di allenamento. Il terreno è misto, con tratti umidi, qualche breve salita e discesa, e alcuni tratti che potrebbero richiedere l''uso di bastoncini da trekking. La distanza totale del percorso è di circa <strong>10.48 km</strong>, con un <strong>dislivello positivo di 683 metri</strong>. Preparatevi a camminare per diverse ore, ammirando panorami spettacolari e scoprendo luoghi di grande interesse storico e naturalistico.</p>
+
+<h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e Informazioni Pratiche</h3>
+<p>La traccia GPS di questa escursione è disponibile su piattaforme dedicate (non fornita qui). È consigliabile scaricare la traccia sul proprio dispositivo GPS o su un''app di navigazione per smartphone prima di partire.  Ricordate di portare con voi acqua, cibo, scarpe da trekking adeguate, cappello e crema solare.</p>
+
+<h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
-  <li><b>Distanza:</b> Circa 12-15 km (a seconda del percorso scelto)</li>
-  <li><b>Difficoltà:</b> Media – Adatto a escursionisti esperti e amanti del trekking</li>
-  <li><b>Dislivello:</b> Circa 400-500 metri</li>
-  <li><b>Punti di interesse:</b> Grotta all''Onda, Prato del Pallone, Resti appostamento partigiano, Grotta Buia, Chiesa Di San Rocco</li>
-  <li><b>Terreno:</b> Misto (boschi, sentieri, tratti umidi)</li>
-  <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno – Verifica le condizioni meteorologiche prima di partire.</li>
-  <li><b>Equipaggiamento consigliato:</b> Scarponi da trekking, abbigliamento a strati, acqua, snack, cappello, crema solare, mappa del sentiero.</li>
+  <li><strong>Distanza:</strong> Circa 10.48 km (anello)</li>
+  <li><strong>Dislivello:</strong> Circa 683 metri</li>
+  <li><strong>Difficoltà:</strong> Medio</li>
+  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>
+  <li><strong>Punto di partenza:</strong> Casoli, Camaiore, LU</li>
+  <li><strong>Comune:</strong> Casoli, Toscana</li>
+  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>
 </ul>
-
-<p>
-Scopri le meraviglie del "paese dei graffiti" e vivi un''indimenticabile <strong>escursione in sentiero</strong> nelle <strong>montagne italiane</strong>. Un''ottima opzione per gli amanti del <strong>trekking</strong> e della scoperta di luoghi suggestivi.
-</p>',
+<ul>
+    <li><strong>Parco Nazionale:</strong> Parco Nazionale delle Apuane</li>
+</ul>',
   'Tutte le Attività e Paesi',
   10.48,
   683,
