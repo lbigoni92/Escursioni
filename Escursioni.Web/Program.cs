@@ -30,6 +30,7 @@ builder.Services.AddScoped<IHikeRepository, HikeRepository>();
 builder.Services.AddScoped<ISearchService, SearchService>();
 builder.Services.AddScoped<SeoService>();
 builder.Services.AddSingleton<DatabaseBootstrapService>();
+builder.Services.AddSingleton<ImageVariantGenerator>();
 builder.Services.AddHostedService<ImagePrewarmService>();
 
 

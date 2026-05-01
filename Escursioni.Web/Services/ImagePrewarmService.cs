@@ -1,31 +1,23 @@
-using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.Formats.Webp;
-using SixLabors.ImageSharp.Processing;
-
 namespace Escursioni.Web.Services;
 
 /// <summary>
 /// Servizio in background che all'avvio scansiona tutte le immagini in wwwroot/media/images
-/// e genera le varianti WebP mancanti (.thumb.webp, .gallery.webp) usando ImageSharp.
-/// Sostituisce lo stage Node.js nel Dockerfile.
+/// e genera le varianti WebP mancanti (.thumb.webp, .gallery.webp) usando ImageVariantGenerator
+/// (stesso singleton usato dal middleware, con lock condiviso).
 /// </summary>
 public sealed class ImagePrewarmService : BackgroundService
 {
     private readonly IWebHostEnvironment _env;
+    private readonly ImageVariantGenerator _generator;
     private readonly ILogger<ImagePrewarmService> _logger;
 
-    private static readonly string[] SourceExtensions = [".jpg", ".jpeg", ".png"];
-
-    private record VariantSpec(string Suffix, int Width, int Quality);
-    private static readonly VariantSpec[] Variants =
-    [
-        new(".thumb.webp", 400, 80),
-        new(".gallery.webp", 800, 82),
-    ];
-
-    public ImagePrewarmService(IWebHostEnvironment env, ILogger<ImagePrewarmService> logger)
+    public ImagePrewarmService(
+        IWebHostEnvironment env,
+        ImageVariantGenerator generator,
+        ILogger<ImagePrewarmService> logger)
     {
         _env = env;
+        _generator = generator;
         _logger = logger;
     }
 
@@ -41,61 +33,68 @@ public sealed class ImagePrewarmService : BackgroundService
             return;
         }
 
-        _logger.LogInformation("[ImagePrewarm] Avvio scansione immagini in {Path}", imagesRoot);
+        // Prima passata: raccogli tutti i file sorgente
+        var sourceFiles = Directory.GetDirectories(imagesRoot)
+            .SelectMany(folder => Directory.GetFiles(folder)
+                .Where(f => ImageVariantGenerator.SourceExtensions.Contains(
+                                Path.GetExtension(f).ToLowerInvariant())
+                            && !f.Contains(".thumb.") && !f.Contains(".gallery.")))
+            .ToList();
+
+        var totalVariants = sourceFiles.Count * ImageVariantGenerator.Variants.Length;
+        _logger.LogInformation(
+            "[ImagePrewarm] Trovate {Sources} immagini sorgente → {Total} varianti da controllare",
+            sourceFiles.Count, totalVariants);
+
+        if (totalVariants == 0) return;
 
         var generated = 0;
         var skipped = 0;
         var errors = 0;
+        var processed = 0;
+        var lastLoggedPercent = -1;
 
-        var folders = Directory.GetDirectories(imagesRoot);
-
-        foreach (var folder in folders)
+        foreach (var sourceFile in sourceFiles)
         {
             if (stoppingToken.IsCancellationRequested) break;
 
-            var sourceFiles = Directory.GetFiles(folder)
-                .Where(f => SourceExtensions.Contains(Path.GetExtension(f).ToLowerInvariant())
-                            && !f.Contains(".thumb.") && !f.Contains(".gallery."))
-                .ToList();
+            var folder = Path.GetDirectoryName(sourceFile)!;
+            var baseName = Path.Combine(folder, Path.GetFileNameWithoutExtension(sourceFile));
 
-            foreach (var sourceFile in sourceFiles)
+            foreach (var variant in ImageVariantGenerator.Variants)
             {
                 if (stoppingToken.IsCancellationRequested) break;
 
-                var baseName = Path.Combine(folder, Path.GetFileNameWithoutExtension(sourceFile));
-
-                foreach (var variant in Variants)
+                var outPath = baseName + variant.Suffix;
+                try
                 {
-                    var outPath = baseName + variant.Suffix;
-                    if (File.Exists(outPath))
-                    {
-                        skipped++;
-                        continue;
-                    }
+                    var wasGenerated = await _generator.GenerateIfMissingAsync(
+                        sourceFile, outPath, variant, stoppingToken);
 
-                    try
-                    {
-                        using var image = await Image.LoadAsync(sourceFile, stoppingToken);
-                        image.Mutate(x => x.Resize(new ResizeOptions
-                        {
-                            Mode = ResizeMode.Max,
-                            Size = new Size(variant.Width, 0),
-                        }));
-                        var encoder = new WebpEncoder { Quality = variant.Quality };
-                        await image.SaveAsync(outPath, encoder, stoppingToken);
-                        generated++;
-                    }
-                    catch (Exception ex) when (ex is not OperationCanceledException)
-                    {
-                        _logger.LogWarning(ex, "[ImagePrewarm] Errore generazione {Path}", outPath);
-                        errors++;
-                    }
+                    if (wasGenerated) generated++;
+                    else skipped++;
+                }
+                catch (Exception ex) when (ex is not OperationCanceledException)
+                {
+                    _logger.LogWarning(ex, "[ImagePrewarm] Errore generazione {Path}", outPath);
+                    errors++;
+                }
+
+                processed++;
+                var percent = processed * 100 / totalVariants;
+                if (percent / 10 > lastLoggedPercent / 10)
+                {
+                    lastLoggedPercent = percent;
+                    _logger.LogInformation(
+                        "[ImagePrewarm] {Percent}% ({Processed}/{Total}) — generate: {Generated}, già presenti: {Skipped}",
+                        percent, processed, totalVariants, generated, skipped);
                 }
             }
         }
 
+        var finalPercent = totalVariants > 0 ? (generated + skipped) * 100 / totalVariants : 100;
         _logger.LogInformation(
-            "[ImagePrewarm] Completato: {Generated} generate, {Skipped} già presenti, {Errors} errori",
-            generated, skipped, errors);
+            "[ImagePrewarm] Completato: {FinalPercent}% ottimizzate — {Generated} generate, {Skipped} già presenti, {Errors} errori",
+            finalPercent, generated, skipped, errors);
     }
 }
