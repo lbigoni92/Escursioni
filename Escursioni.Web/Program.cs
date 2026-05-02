@@ -83,11 +83,21 @@ app.UseHttpsRedirection();
 app.Use(async (context, next) =>
 {
     var host = context.Request.Host.Host;
+    var path = context.Request.Path.Value ?? string.Empty;
+    // Do not canonicalize host for sitemap or robots to avoid redirect loops from proxies
+    if (path.Equals("/sitemap.xml", StringComparison.OrdinalIgnoreCase)
+        || path.Equals("/robots.txt", StringComparison.OrdinalIgnoreCase)
+        || path.StartsWith("/.well-known", StringComparison.OrdinalIgnoreCase))
+    {
+        await next();
+        return;
+    }
     if (!host.StartsWith("www.", StringComparison.OrdinalIgnoreCase)
         && !host.Equals("localhost", StringComparison.OrdinalIgnoreCase)
         && !System.Net.IPAddress.TryParse(host, out _))
     {
-        var redirectUrl = $"{context.Request.Scheme}://www.{host}{context.Request.PathBase}{context.Request.Path}{context.Request.QueryString}";
+        // Force https in canonical redirects to avoid http<->https redirect loops when behind proxies
+        var redirectUrl = $"https://www.{host}{context.Request.PathBase}{context.Request.Path}{context.Request.QueryString}";
         context.Response.StatusCode = 301;
         context.Response.Headers["Location"] = redirectUrl;
         return;
@@ -145,9 +155,12 @@ app.Use(async (context, next) =>
     var path = context.Request.Path.Value;
     if (path != null && path.Length > 1 && path.EndsWith('/'))
     {
+        // Use absolute https URL to avoid proxy/scheme issues
+        var hostValue = context.Request.Host.Value ?? context.Request.Host.Host;
+        var target = path.TrimEnd('/');
+        var absolute = $"https://{hostValue}{context.Request.PathBase}{target}{context.Request.QueryString}";
         context.Response.StatusCode = 301;
-        context.Response.Headers["Location"] =
-            path.TrimEnd('/') + context.Request.QueryString;
+        context.Response.Headers["Location"] = absolute;
         return;
     }
     await next();
@@ -160,8 +173,10 @@ app.Use(async (context, next) =>
     var match = System.Text.RegularExpressions.Regex.Match(path, @"^/escursioni/\d+/(.+)$");
     if (match.Success)
     {
+        var hostValue = context.Request.Host.Value ?? context.Request.Host.Host;
+        var absolute = $"https://{hostValue}/escursioni/{match.Groups[1].Value}{context.Request.QueryString}";
         context.Response.StatusCode = 301;
-        context.Response.Headers["Location"] = $"/escursioni/{match.Groups[1].Value}{context.Request.QueryString}";
+        context.Response.Headers["Location"] = absolute;
         return;
     }
     await next();
