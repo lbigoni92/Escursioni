@@ -1,9 +1,11 @@
 using Escursioni.Web.Models;
 using Escursioni.Web.Services;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.OutputCaching;
 
 namespace Escursioni.Web.Pages;
 
+[OutputCache(PolicyName = "Pages")]
 public class IndexModel : PageModel
 {
     private readonly IHikeRepository _repo;

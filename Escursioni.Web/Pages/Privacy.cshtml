@@ -1,8 +1,12 @@
 @page "/privacy"
+@inject IConfiguration Configuration
 @{
-    ViewData["Title"] = "Privacy";
-    ViewData["Description"] = "Informativa sulla privacy di Escursioni Luca Bigoni.";
+    var _baseUrl = (Configuration["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
+    ViewData["Title"] = "Privacy Policy | Escursioni Luca Bigoni";
     ViewData["MetaDescription"] = "Informativa sulla privacy, trattamento dati personali, cookie e diritti degli utenti di Escursioni Luca Bigoni.";
+    ViewData["CanonicalUrl"] = $"{_baseUrl}/privacy";
+    ViewData["OgImage"] = _baseUrl + "/images/og-home.jpg";
+    ViewData["RobotsDirective"] = "noindex, follow";
 }
 
 <h1>Informativa sulla Privacy</h1>

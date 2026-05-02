@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.OutputCaching;
 
 namespace Escursioni.Web.Pages;
 
+[OutputCache(PolicyName = "PagesSlow")]
 public class AboutModel : PageModel
 {
     private readonly IConfiguration _config;

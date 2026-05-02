@@ -1,6 +1,15 @@
 @page "/mappa"
 @model Escursioni.Web.Pages.Map.IndexModel
 
+@inject IConfiguration Configuration
+@{
+    var baseUrl = (Configuration["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
+    ViewData["Title"] = "Mappa escursioni – Escursioni Luca Bigoni";
+    ViewData["MetaDescription"] = "Mappa interattiva delle escursioni: trova percorsi in Toscana, visualizza tracce GPS e accedi alle schede dettagliate con foto e descrizioni.";
+    ViewData["CanonicalUrl"] = baseUrl + "/mappa";
+    ViewData["OgImage"] = baseUrl + "/images/og-home.jpg";
+}
+
 @section Scripts {
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
             integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="

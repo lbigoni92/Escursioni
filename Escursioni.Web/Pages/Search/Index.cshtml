@@ -1,6 +1,19 @@
 ﻿@page "/ricerca"
 @model Escursioni.Web.Pages.Search.IndexModel
 
+@section Head {
+    <link rel="stylesheet" href="~/css/form.css" />
+}
+
+@inject IConfiguration Configuration
+@{
+    var baseUrl = (Configuration["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
+    ViewData["Title"] = "Ricerca escursioni – Escursioni Luca Bigoni";
+    ViewData["MetaDescription"] = "Cerca escursioni per località o testo libero: tracce GPS, foto e descrizioni per trovare il percorso giusto in Toscana.";
+    ViewData["CanonicalUrl"] = baseUrl + "/ricerca";
+    ViewData["OgImage"] = baseUrl + "/images/og-home.jpg";
+}
+
 <section>
     <h1 class="page-title">Ricerca nel sito</h1>
     <p class="page-subtitle">

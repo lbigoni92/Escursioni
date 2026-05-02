@@ -2,9 +2,11 @@ using Escursioni.Web.Models;
 using Escursioni.Web.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.OutputCaching;
 
 namespace Escursioni.Web.Pages.Escursioni;
 
+[OutputCache(PolicyName = "HikeDetail")]
 public class DettaglioModel : PageModel
 {
     private readonly IHikeRepository _repo;

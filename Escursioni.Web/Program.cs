@@ -12,6 +12,24 @@ var builder = WebApplication.CreateBuilder(args);
 // Razor Pages
 builder.Services.AddRazorPages();
 
+// Output cache — HTML delle pagine statiche viene servito da cache in-memory
+builder.Services.AddOutputCache(options =>
+{
+    options.AddBasePolicy(policy => policy.NoCache()); // default: nessun cache
+    // Imposta tutte le policy a 30 giorni
+    options.AddPolicy("Pages", policy =>
+        policy.Expire(TimeSpan.FromDays(30))
+              .SetVaryByQuery([]));            // ignora querystring (canonical senza params)
+    options.AddPolicy("PagesSlow", policy =>
+        policy.Expire(TimeSpan.FromDays(30)));
+    options.AddPolicy("HikeDetail", policy =>
+        policy.Expire(TimeSpan.FromDays(30))
+              .SetVaryByRouteValue(["slug"]));
+    options.AddPolicy("TagPage", policy =>
+        policy.Expire(TimeSpan.FromDays(30))
+              .SetVaryByRouteValue(["slug"]));
+});
+
 // Response compression (GZIP)
 builder.Services.AddResponseCompression(options =>
 {
@@ -60,6 +78,23 @@ using (var scope = app.Services.CreateScope())
 
 Console.WriteLine("[LOG] Configurazione middleware...");
 app.UseHttpsRedirection();
+
+// 301 redirect da non-www a www (canonical enforcement)
+app.Use(async (context, next) =>
+{
+    var host = context.Request.Host.Host;
+    if (!host.StartsWith("www.", StringComparison.OrdinalIgnoreCase)
+        && !host.Equals("localhost", StringComparison.OrdinalIgnoreCase)
+        && !System.Net.IPAddress.TryParse(host, out _))
+    {
+        var redirectUrl = $"{context.Request.Scheme}://www.{host}{context.Request.PathBase}{context.Request.Path}{context.Request.QueryString}";
+        context.Response.StatusCode = 301;
+        context.Response.Headers["Location"] = redirectUrl;
+        return;
+    }
+    await next();
+});
+
 app.UseResponseCompression();
 
 // Genera varianti WebP ottimizzate on-demand alla prima richiesta
@@ -75,8 +110,25 @@ app.UseStaticFiles(new StaticFileOptions
     ServeUnknownFileTypes = true,
     OnPrepareResponse = ctx =>
     {
-        // Cache static assets for 30 days
-        ctx.Context.Response.Headers["Cache-Control"] = "public, max-age=2592000";
+        // Cache static assets for 30 days; add immutable for hashed assets
+        var requestPath = ctx.Context.Request.Path.Value ?? string.Empty;
+        var fileName = System.IO.Path.GetFileName(requestPath);
+        var ext = System.IO.Path.GetExtension(fileName).ToLowerInvariant();
+        var maxAge = 2592000; // 30 days in seconds
+        var cacheControl = $"public, max-age={maxAge}";
+
+        // Detect filenames containing an 8+ hex hash (e.g. app.abcdef12.js)
+        var hasHash = System.Text.RegularExpressions.Regex.IsMatch(
+            fileName ?? string.Empty,
+            @"[-\.][a-f0-9]{8,}",
+            System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+
+        if (hasHash && (ext == ".js" || ext == ".css" || ext == ".png" || ext == ".jpg" || ext == ".jpeg" || ext == ".webp" || ext == ".svg" || ext == ".woff2" || ext == ".woff" || ext == ".ico"))
+        {
+            cacheControl += ", immutable";
+        }
+
+        ctx.Context.Response.Headers["Cache-Control"] = cacheControl;
     }
 });
 
@@ -84,6 +136,22 @@ Console.WriteLine("[LOG] Static files configurati.");
 
 app.UseRouting();
 app.UseAuthorization();
+app.UseOutputCache();
+
+// 301 redirect: rimuove lo slash finale per evitare duplicate content
+// es. /escursioni/ → /escursioni (non tocca la home page "/")
+app.Use(async (context, next) =>
+{
+    var path = context.Request.Path.Value;
+    if (path != null && path.Length > 1 && path.EndsWith('/'))
+    {
+        context.Response.StatusCode = 301;
+        context.Response.Headers["Location"] =
+            path.TrimEnd('/') + context.Request.QueryString;
+        return;
+    }
+    await next();
+});
 
 // 301 redirect from old /escursioni/{id}/{slug} to new /escursioni/{slug}
 app.Use(async (context, next) =>

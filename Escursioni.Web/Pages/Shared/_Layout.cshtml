@@ -9,16 +9,26 @@
     {
         <meta name="description" content="@md" />
     }
-    @if (ViewData["RobotsDirective"] is string robotsDir && !string.IsNullOrWhiteSpace(robotsDir))
-    {
-        <meta name="robots" content="@robotsDir" />
+    <meta name="robots" content="@(ViewData["RobotsDirective"] is string robotsDir && !string.IsNullOrWhiteSpace(robotsDir) ? robotsDir : "index, follow")" />
+    @inject IConfiguration Configuration
+    @{
+        var baseUrl = (Configuration["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
+        var reqPath = Context.Request.Path.HasValue ? Context.Request.Path.Value : "/";
+        if (string.IsNullOrEmpty(reqPath)) reqPath = "/";
+        // ensure path starts with '/'
+        if (!reqPath.StartsWith('/')) reqPath = "/" + reqPath;
+        var computedCanonical = (ViewData["CanonicalUrl"] as string);
+        if (string.IsNullOrWhiteSpace(computedCanonical)) {
+            computedCanonical = baseUrl + (reqPath == "/" ? "/" : reqPath.TrimEnd('/'));
+        }
+        var computedOgImage = (ViewData["OgImage"] as string);
+        if (string.IsNullOrWhiteSpace(computedOgImage)) {
+            computedOgImage = baseUrl + "/images/og-home.jpg";
+        }
     }
-    @if (ViewData["CanonicalUrl"] is string canonical && !string.IsNullOrWhiteSpace(canonical))
-    {
-        <link rel="canonical" href="@canonical" />
-        <link rel="alternate" hreflang="it" href="@canonical" />
-        <link rel="alternate" hreflang="x-default" href="@canonical" />
-    }
+    <link rel="canonical" href="@computedCanonical" />
+    <link rel="alternate" hreflang="it" href="@computedCanonical" />
+    <link rel="alternate" hreflang="x-default" href="@computedCanonical" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="@(ViewData["OgType"] ?? "website")" />
@@ -27,14 +37,8 @@
     {
         <meta property="og:description" content="@ogDesc" />
     }
-    @if (ViewData["OgImage"] is string ogImg && !string.IsNullOrWhiteSpace(ogImg))
-    {
-        <meta property="og:image" content="@ogImg" />
-    }
-    @if (ViewData["CanonicalUrl"] is string ogUrl && !string.IsNullOrWhiteSpace(ogUrl))
-    {
-        <meta property="og:url" content="@ogUrl" />
-    }
+    <meta property="og:image" content="@computedOgImage" />
+    <meta property="og:url" content="@computedCanonical" />
     <meta property="og:locale" content="it_IT" />
     <meta property="og:site_name" content="Escursioni Luca Bigoni – Trekking in Toscana" />
 
@@ -45,12 +49,8 @@
     {
         <meta name="twitter:description" content="@twDesc" />
     }
-    @if (ViewData["OgImage"] is string twImg && !string.IsNullOrWhiteSpace(twImg))
-    {
-        <meta name="twitter:image" content="@twImg" />
-    }
+    <meta name="twitter:image" content="@computedOgImage" />
 
-    <link rel="icon" type="image/png" href="~/favicon-32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="~/favicon-48.png" sizes="48x48" />
     <link rel="icon" type="image/png" href="~/favicon-192.png" sizes="192x192" />
     <link rel="icon" type="image/svg+xml" href="~/favicon.svg" />
@@ -73,7 +73,7 @@
         })();
     </script>
     <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="stylesheet" href="~/css/form.css" />
+    @RenderSection("Head", required: false)
 </head>
 <body>
     <a href="#main-content" class="skip-link" title="Vai al contenuto principale">Vai al contenuto principale</a>
