@@ -1,6 +1,7 @@
 using Escursioni.Web.Data;
 using Escursioni.Web.Services;
 using Microsoft.AspNetCore.ResponseCompression;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,15 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Razor Pages
 builder.Services.AddRazorPages();
+
+// When running behind a proxy (Render.com, Nginx, etc.) honor X-Forwarded-* headers
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+{
+    options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+    // Clear the defaults so forwarded headers are accepted from the proxy
+    options.KnownNetworks.Clear();
+    options.KnownProxies.Clear();
+});
 
 // Output cache — HTML delle pagine statiche viene servito da cache in-memory
 builder.Services.AddOutputCache(options =>
@@ -77,6 +87,9 @@ using (var scope = app.Services.CreateScope())
 
 
 Console.WriteLine("[LOG] Configurazione middleware...");
+// Process X-Forwarded headers before any middleware that uses scheme/host
+app.UseForwardedHeaders();
+
 app.UseHttpsRedirection();
 
 // 301 redirect da non-www a www (canonical enforcement)
