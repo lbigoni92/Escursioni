@@ -35,7 +35,7 @@ public class TagModel : PageModel
         TagDescription = TagHelper.GetDescription(tag);
         Escursioni = await _repo.GetByTagAsync(tag);
 
-        var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
+        var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
         var canonical = $"{baseUrl}/escursioni/zona/{Slug}";
         ViewData["Title"] = $"Escursioni {tag} | Luca Bigoni";
         ViewData["MetaDescription"] = $"Tutte le escursioni nella zona {tag}: tracce GPS, foto, dislivelli e descrizioni dettagliate dei sentieri. {TagDescription}";

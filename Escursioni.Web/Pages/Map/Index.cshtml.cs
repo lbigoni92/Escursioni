@@ -26,7 +26,7 @@ public class IndexModel : PageModel
         var metaDesc = $"Mappa escursioni - {desc}";
         if (metaDesc.Length > 180) metaDesc = metaDesc[..180] + "...";
         ViewData["MetaDescription"] = metaDesc;
-        var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
+        var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/mappa";
         ViewData["FullWidth"] = true;
         Escursioni = await _repo.GetWithCoordinatesAsync();

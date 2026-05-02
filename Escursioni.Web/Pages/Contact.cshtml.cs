@@ -43,7 +43,7 @@ public class ContactModel : PageModel
         var metaDesc = $"Contatti - {desc}";
         if (metaDesc.Length > 180) metaDesc = metaDesc[..180] + "...";
         ViewData["MetaDescription"] = metaDesc;
-        var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
+        var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/contatti";
         ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";
         ContactEmail = _config["Site:ContactEmail"] ?? "info@example.com";

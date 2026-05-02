@@ -27,7 +27,7 @@ public class IndexModel : PageModel
     {
         ViewData["Title"] = "Escursioni per zona – Trekking in Toscana e Italia | Luca Bigoni";
         ViewData["MetaDescription"] = "Esplora tutte le escursioni organizzate per zona: Alpi Apuane, Garfagnana, Versilia, Appennino e molto altro. Tracce GPS, foto e descrizioni dettagliate.";
-        var baseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
+        var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/escursioni";
         ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";
 

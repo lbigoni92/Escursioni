@@ -3,7 +3,7 @@
 
 @inject IConfiguration Configuration
 @{
-    var baseUrl = (Configuration["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
+    var baseUrl = (Configuration["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
     ViewData["Title"] = "Mappa escursioni – Escursioni Luca Bigoni";
     ViewData["MetaDescription"] = "Mappa interattiva delle escursioni: esplora percorsi in Toscana, visualizza tracce GPS e apri schede con foto, descrizioni e download GPX.";
     ViewData["CanonicalUrl"] = baseUrl + "/mappa";

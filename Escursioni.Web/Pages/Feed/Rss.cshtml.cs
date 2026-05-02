@@ -20,7 +20,7 @@ public class RssModel : PageModel
     public async Task<IActionResult> OnGet()
     {
         Response.Headers["Cache-Control"] = "public, max-age=3600, s-maxage=86400";
-        var baseUrl = _config["Site:BaseUrl"]?.TrimEnd('/') ?? "https://www.example.com";
+        var baseUrl = _config["Site:BaseUrl"]?.TrimEnd('/') ?? "https://escursionilucabigoni.it";
         var hikes = await _repo.GetForRssAsync(500);
 
         var channel = new XElement("channel",

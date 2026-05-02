@@ -19,7 +19,7 @@ VALUES (
 <p>Questa escursione è di <strong id="difficoltà">Facile</strong> difficoltà, adatta a escursionisti principianti e famiglie. La distanza totale è di circa 17,7 km con un dislivello di 443 metri.  Il sentiero è prevalentemente in mezzo al bosco, quindi preparati a sudare un po''. Ricorda che il sentiero è un po'' selvaggio in alcuni tratti, quindi indossa scarpe da trekking adatte e porta con te acqua e snack.</p>
 
 <h3 id="traccia-gps-e-informazioni-pratiche">Traccia GPS e informazioni pratiche</h3>
-<p>Per scaricare la traccia GPS di questa escursione, visita <a href="https://www.escursionilucabigoni.it/traccia-gps-buca-dei-banditi-val-di-chioma/" target="_blank">questa pagina</a>. Ti consiglio di scaricare la traccia in un''app di navigazione per smartphone per seguirla durante l''escursione.</p>
+<p>Per scaricare la traccia GPS di questa escursione, visita <a href="https://escursionilucabigoni.it/traccia-gps-buca-dei-banditi-val-di-chioma/" target="_blank">questa pagina</a>. Ti consiglio di scaricare la traccia in un''app di navigazione per smartphone per seguirla durante l''escursione.</p>
 
 <h3 id="informazioni-utili">Informazioni Utili</h3>
 <ul>
