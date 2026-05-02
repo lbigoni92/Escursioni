@@ -91,14 +91,18 @@ Console.WriteLine("[LOG] Configurazione middleware...");
 // Process X-Forwarded headers before any middleware that uses scheme/host
 app.UseForwardedHeaders();
 
-app.UseHttpsRedirection();
+// NOTE: behind a proxy that terminates TLS (Render/NGINX/Cloudflare), keep HTTPS redirection
+// at proxy level to avoid redirect loops between proxy and Kestrel. Disable in-app redirect.
+// app.UseHttpsRedirection();
 
 // 301 redirect da non-www a www (canonical enforcement)
+// Use only Request.Host (populated by UseForwardedHeaders) as single source of truth.
 app.Use(async (context, next) =>
 {
     var host = context.Request.Host.Host;
     var path = context.Request.Path.Value ?? string.Empty;
-    // Do not canonicalize host for sitemap or robots to avoid redirect loops from proxies
+
+    // skip special files
     if (path.Equals("/sitemap.xml", StringComparison.OrdinalIgnoreCase)
         || path.Equals("/robots.txt", StringComparison.OrdinalIgnoreCase)
         || path.StartsWith("/.well-known", StringComparison.OrdinalIgnoreCase))
@@ -106,19 +110,42 @@ app.Use(async (context, next) =>
         await next();
         return;
     }
-    if (!host.StartsWith("www.", StringComparison.OrdinalIgnoreCase)
-        && !host.Equals("localhost", StringComparison.OrdinalIgnoreCase)
-        && !System.Net.IPAddress.TryParse(host, out _))
+
+    var needsWww = !host.StartsWith("www.", StringComparison.OrdinalIgnoreCase)
+                   && !host.Equals("localhost", StringComparison.OrdinalIgnoreCase)
+                   && !System.Net.IPAddress.TryParse(host, out _);
+
+    var needsSlashFix = path.Length > 1 && path.EndsWith('/');
+
+    if (!needsWww && !needsSlashFix)
     {
-        // Build redirect using the forwarded scheme/host (preserves port when present)
-        var scheme = context.Request.Scheme ?? "https";
-        var hostName = context.Request.Host.Host; // host without port
-        var port = context.Request.Host.Port;
-        var newHost = "www." + hostName;
-        var authority = port.HasValue ? $"{newHost}:{port.Value}" : newHost;
-        var redirectUrl = $"{scheme}://{authority}{context.Request.PathBase}{context.Request.Path}{context.Request.QueryString}";
-        context.Response.StatusCode = 301;
-        context.Response.Headers["Location"] = redirectUrl;
+        await next();
+        return;
+    }
+
+    var scheme = "https";
+    var newHost = needsWww ? "www." + host : host;
+    var newPath = needsSlashFix ? path.TrimEnd('/') : path;
+    var redirectUrl = $"{scheme}://{newHost}{context.Request.PathBase}{newPath}{context.Request.QueryString}";
+
+    context.Response.StatusCode = StatusCodes.Status301MovedPermanently;
+    context.Response.Headers.Location = redirectUrl;
+    return;
+});
+
+// Legacy redirect for old /escursioni/{id}/{slug} → /escursioni/{slug}
+// Place this BEFORE OutputCache to avoid caching redirect responses.
+app.Use(async (context, next) =>
+{
+    var path = context.Request.Path.Value ?? "";
+    var match = System.Text.RegularExpressions.Regex.Match(path, @"^/escursioni/\d+/(.+)$");
+    if (match.Success)
+    {
+        var scheme = "https";
+        var hostValue = context.Request.Host.Value ?? context.Request.Host.Host;
+        var absolute = $"{scheme}://{hostValue}{context.Request.PathBase}/escursioni/{match.Groups[1].Value}{context.Request.QueryString}";
+        context.Response.StatusCode = StatusCodes.Status301MovedPermanently;
+        context.Response.Headers.Location = absolute;
         return;
     }
     await next();
@@ -166,40 +193,6 @@ Console.WriteLine("[LOG] Static files configurati.");
 app.UseRouting();
 app.UseAuthorization();
 app.UseOutputCache();
-
-// 301 redirect: rimuove lo slash finale per evitare duplicate content
-// es. /escursioni/ → /escursioni (non tocca la home page "/")
-app.Use(async (context, next) =>
-{
-    var path = context.Request.Path.Value;
-    if (path != null && path.Length > 1 && path.EndsWith('/'))
-    {
-        // Use absolute https URL to avoid proxy/scheme issues
-        var hostValue = context.Request.Host.Value ?? context.Request.Host.Host;
-        var target = path.TrimEnd('/');
-        var absolute = $"https://{hostValue}{context.Request.PathBase}{target}{context.Request.QueryString}";
-        context.Response.StatusCode = 301;
-        context.Response.Headers["Location"] = absolute;
-        return;
-    }
-    await next();
-});
-
-// 301 redirect from old /escursioni/{id}/{slug} to new /escursioni/{slug}
-app.Use(async (context, next) =>
-{
-    var path = context.Request.Path.Value ?? "";
-    var match = System.Text.RegularExpressions.Regex.Match(path, @"^/escursioni/\d+/(.+)$");
-    if (match.Success)
-    {
-        var hostValue = context.Request.Host.Value ?? context.Request.Host.Host;
-        var absolute = $"https://{hostValue}/escursioni/{match.Groups[1].Value}{context.Request.QueryString}";
-        context.Response.StatusCode = 301;
-        context.Response.Headers["Location"] = absolute;
-        return;
-    }
-    await next();
-});
 
 app.MapRazorPages();
 
