@@ -22,7 +22,20 @@ public class SitemapModel : PageModel
 
     public async Task OnGet()
     {
-        BaseUrl = (_config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
+        // Read configured base URL, fallback to non-www. Normalize to ensure non-www host.
+        var rawBase = (_config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
+        try
+        {
+            var uri = new Uri(rawBase);
+            var host = uri.Host.StartsWith("www.", StringComparison.OrdinalIgnoreCase)
+                ? uri.Host.Substring(4)
+                : uri.Host;
+            BaseUrl = $"{uri.Scheme}://{host}".TrimEnd('/');
+        }
+        catch
+        {
+            BaseUrl = rawBase; // fallback as-is
+        }
         Hikes = await _repo.GetAllAsync(null, null);
         var tagSummary = await _repo.GetTagSummaryAsync();
         ActiveTagSlugs = tagSummary
