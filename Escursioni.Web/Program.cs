@@ -16,8 +16,9 @@ builder.Services.AddRazorPages();
 // When running behind a proxy (Render.com, Nginx, etc.) honor X-Forwarded-* headers
 builder.Services.Configure<ForwardedHeadersOptions>(options =>
 {
-    options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
-    // Clear the defaults so forwarded headers are accepted from the proxy
+    // include host so Request.Host reflects the original Host header forwarded by proxies
+    options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto | ForwardedHeaders.XForwardedHost;
+    // Clear the defaults so forwarded headers are accepted from the proxy platform (render, ngnix, etc.)
     options.KnownNetworks.Clear();
     options.KnownProxies.Clear();
 });
@@ -109,8 +110,13 @@ app.Use(async (context, next) =>
         && !host.Equals("localhost", StringComparison.OrdinalIgnoreCase)
         && !System.Net.IPAddress.TryParse(host, out _))
     {
-        // Force https in canonical redirects to avoid http<->https redirect loops when behind proxies
-        var redirectUrl = $"https://www.{host}{context.Request.PathBase}{context.Request.Path}{context.Request.QueryString}";
+        // Build redirect using the forwarded scheme/host (preserves port when present)
+        var scheme = context.Request.Scheme ?? "https";
+        var hostName = context.Request.Host.Host; // host without port
+        var port = context.Request.Host.Port;
+        var newHost = "www." + hostName;
+        var authority = port.HasValue ? $"{newHost}:{port.Value}" : newHost;
+        var redirectUrl = $"{scheme}://{authority}{context.Request.PathBase}{context.Request.Path}{context.Request.QueryString}";
         context.Response.StatusCode = 301;
         context.Response.Headers["Location"] = redirectUrl;
         return;
