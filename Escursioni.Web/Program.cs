@@ -91,47 +91,7 @@ Console.WriteLine("[LOG] Configurazione middleware...");
 // Process X-Forwarded headers before any middleware that uses scheme/host
 app.UseForwardedHeaders();
 
-// NOTE: behind a proxy that terminates TLS (Render/NGINX/Cloudflare), keep HTTPS redirection
-// at proxy level to avoid redirect loops between proxy and Kestrel. Disable in-app redirect.
-// app.UseHttpsRedirection();
 
-// 301 redirect da non-www a www (canonical enforcement)
-// Use only Request.Host (populated by UseForwardedHeaders) as single source of truth.
-app.Use(async (context, next) =>
-{
-    var host = context.Request.Host.Host;
-    var path = context.Request.Path.Value ?? string.Empty;
-
-    // skip special files
-    if (path.Equals("/sitemap.xml", StringComparison.OrdinalIgnoreCase)
-        || path.Equals("/robots.txt", StringComparison.OrdinalIgnoreCase)
-        || path.StartsWith("/.well-known", StringComparison.OrdinalIgnoreCase))
-    {
-        await next();
-        return;
-    }
-
-    var needsWww = !host.StartsWith("www.", StringComparison.OrdinalIgnoreCase)
-                   && !host.Equals("localhost", StringComparison.OrdinalIgnoreCase)
-                   && !System.Net.IPAddress.TryParse(host, out _);
-
-    var needsSlashFix = path.Length > 1 && path.EndsWith('/');
-
-    if (!needsWww && !needsSlashFix)
-    {
-        await next();
-        return;
-    }
-
-    var scheme = "https";
-    var newHost = needsWww ? "www." + host : host;
-    var newPath = needsSlashFix ? path.TrimEnd('/') : path;
-    var redirectUrl = $"{scheme}://{newHost}{context.Request.PathBase}{newPath}{context.Request.QueryString}";
-
-    context.Response.StatusCode = StatusCodes.Status301MovedPermanently;
-    context.Response.Headers.Location = redirectUrl;
-    return;
-});
 
 // Legacy redirect for old /escursioni/{id}/{slug} → /escursioni/{slug}
 // Place this BEFORE OutputCache to avoid caching redirect responses.

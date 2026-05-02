@@ -22,7 +22,7 @@ public class SitemapModel : PageModel
 
     public async Task OnGet()
     {
-        BaseUrl = (_config["Site:BaseUrl"] ?? "https://www.escursionilucabigoni.it").TrimEnd('/');
+        BaseUrl = (_config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
         Hikes = await _repo.GetAllAsync(null, null);
         var tagSummary = await _repo.GetTagSummaryAsync();
         ActiveTagSlugs = tagSummary
