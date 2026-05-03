@@ -21,14 +21,39 @@ public class IndexModel : PageModel
 
     public async Task OnGet()
     {
-        ViewData["Title"] = "Mappa escursioni in Toscana e Italia | Luca Bigoni";
-        var desc = "Mappa interattiva di tutte le escursioni e trekking con tracce GPS in Toscana, Alpi Apuane, Garfagnana e oltre. Esplora i percorsi e trova la tua prossima avventura.";
-        var metaDesc = $"Mappa escursioni - {desc}";
+        ViewData["Title"] = "Mappa escursioni in Toscana – Trekking con tracce GPS | Luca Bigoni";
+        var metaDesc = "Esplora la mappa delle escursioni in Toscana: trekking, itinerari e percorsi con tracce GPS scaricabili. Scopri sentieri in Alpi Apuane, Garfagnana e Appennino.";
         if (metaDesc.Length > 180) metaDesc = metaDesc[..180] + "...";
         ViewData["MetaDescription"] = metaDesc;
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/mappa";
+        ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";
         ViewData["FullWidth"] = true;
+
         Escursioni = await _repo.GetWithCoordinatesAsync();
+
+        // Build ItemList JSON-LD for first 50 hikes to help indexing
+        try
+        {
+            var items = Escursioni.Take(50)
+                .Select((h, i) => new {
+                    @type = "ListItem",
+                    position = i + 1,
+                    url = baseUrl + "/escursioni/" + global::Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)
+                }).ToArray();
+
+            var itemList = new {
+                @context = "https://schema.org",
+                @type = "ItemList",
+                name = "Escursioni in Toscana",
+                itemListElement = items
+            };
+
+            ViewData["ItemListJsonLd"] = System.Text.Json.JsonSerializer.Serialize(itemList);
+        }
+        catch
+        {
+            ViewData["ItemListJsonLd"] = null;
+        }
     }
 }

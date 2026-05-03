@@ -4,17 +4,13 @@
 @inject IConfiguration Configuration
 @{
     var baseUrl = (Configuration["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
-    ViewData["Title"] = "Mappa escursioni – Escursioni Luca Bigoni";
-    ViewData["MetaDescription"] = "Mappa interattiva delle escursioni: esplora percorsi in Toscana, visualizza tracce GPS e apri schede con foto, descrizioni e download GPX.";
-    ViewData["CanonicalUrl"] = baseUrl + "/mappa";
-    ViewData["OgImage"] = baseUrl + "/images/og-home.jpg";
 }
 
 @section Scripts {
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
             integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
             crossorigin=""></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js" crossorigin="anonymous"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js" crossorigin="anonymous"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             var map = L.map('map').setView([42.5, 12.5], 6);
@@ -87,7 +83,7 @@
 
 <section>
 
-    <h1 class="page-title">Mappa delle escursioni</h1>
+    <h1 class="page-title">Mappa escursioni in Toscana e Italia – trekking con tracce GPS</h1>
 
     <div class="seo-text" style="margin-bottom:1.2rem;font-size:1.08em;line-height:1.7;max-width:700px;">
         <strong>Scopri tutte le escursioni e i trekking in Toscana, Alpi Apuane, Garfagnana, Appennino Tosco-Emiliano e oltre</strong> grazie a questa mappa interattiva. Ogni punto rappresenta un percorso reale, completo di traccia GPS, foto e descrizione dettagliata. Esplora sentieri panoramici, itinerari per famiglie, trekking impegnativi e passeggiate nella natura. Clicca sui marker per accedere direttamente alla scheda dell'escursione, visualizzare il percorso sulla mappa e scaricare la traccia GPX. Ideale per chi cerca idee per il weekend, avventure outdoor o semplicemente vuole conoscere nuovi sentieri in Italia centrale e settentrionale.
@@ -99,4 +95,44 @@
     </p>
 
     <div id="map" class="map-frame"></div>
+
+    <section class="seo-expanded" style="margin-top:2rem;max-width:900px;">
+        <h2>Escursioni in Toscana sulla mappa</h2>
+        <p>
+            Questa mappa raccoglie numerosi percorsi escursionistici in Toscana e oltre, fornendo tracce GPS, tempi di percorrenza stimati, dislivelli e punti di interesse. Utilizza i marker per individuare rapidamente un itinerario, oppure consulta la lista sottostante per un accesso diretto alle schede dettagliate. La mappa è pensata per chi cerca trekking giornalieri, escursioni con famiglie o percorsi più impegnativi nelle Alpi Apuane e sull'Appennino.
+        </p>
+
+        <h2>Trekking nelle Alpi Apuane e Garfagnana</h2>
+        <p>
+            Le Alpi Apuane offrono scenari di calcare affiorante e panorami mozzafiato; la Garfagnana è ricca di vallate e sentieri meno battuti, ideali per chi cerca tranquillità. Su questa mappa troverai numerosi percorsi consigliati per entrambe le aree, con link diretti alle tracce GPS e dettagli su difficoltà e punti di partenza.
+        </p>
+
+        <h2>Come usare la mappa escursioni</h2>
+        <p>
+            Per usare la mappa: zooma sull'area d'interesse, clicca su un marker per aprire la scheda dell'escursione, o usa la lista sottostante per navigare direttamente alle pagine. Le tracce GPX sono disponibili per il download dalla scheda di dettaglio; porta sempre con te una copia offline se affronti percorsi isolati.
+        </p>
+
+        <h2>Escursioni disponibili</h2>
+        <ul>
+            @if (Model.Escursioni != null && Model.Escursioni.Any())
+            {
+                foreach (var h in Model.Escursioni.Take(100))
+                {
+                    var title = !string.IsNullOrWhiteSpace(h.TitoloSeo) ? h.TitoloSeo : h.Titolo;
+                    var slug = Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo);
+                    <li><a href="@($"/escursioni/{slug}")">@title</a> @if(!string.IsNullOrWhiteSpace(h.Comune)) { <span>— @h.Comune</span> }</li>
+                }
+            }
+            else
+            {
+                <li>Nessuna escursione trovata.</li>
+            }
+        </ul>
+    </section>
+
+    @* ItemList JSON-LD for crawlers *@
+    @if (ViewData["ItemListJsonLd"] != null)
+    {
+        <script type="application/ld+json">@Html.Raw(ViewData["ItemListJsonLd"])</script>
+    }
 </section>

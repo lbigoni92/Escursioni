@@ -19,7 +19,7 @@ builder.Services.Configure<ForwardedHeadersOptions>(options =>
     // include host so Request.Host reflects the original Host header forwarded by proxies
     options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto | ForwardedHeaders.XForwardedHost;
     // Clear the defaults so forwarded headers are accepted from the proxy platform (render, ngnix, etc.)
-    options.KnownNetworks.Clear();
+    options.KnownIPNetworks.Clear();
     options.KnownProxies.Clear();
 });
 
