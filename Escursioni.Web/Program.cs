@@ -55,11 +55,17 @@ var csb = new NpgsqlConnectionStringBuilder(connectionString)
 {
     SslMode = SslMode.Require
 };
-// Disabilita channel binding (incompatibile con Alpine OpenSSL + Render PG)
-csb.ConnectionString = csb.ConnectionString.TrimEnd(';') + ";Channel Binding=Disable";
 Console.WriteLine($"[LOG] DB Host: {csb.Host}");
+
+var dataSourceBuilder = new NpgsqlDataSourceBuilder(csb.ConnectionString);
+dataSourceBuilder.UseSslClientAuthenticationOptionsCallback(options =>
+{
+    options.RemoteCertificateValidationCallback = (sender, cert, chain, errors) => true;
+});
+var dataSource = dataSourceBuilder.Build();
+
 builder.Services.AddDbContext<EscursioniDbContext>(options =>
-    options.UseNpgsql(csb.ConnectionString));
+    options.UseNpgsql(dataSource));
 
 // Servizi / repository (accesso DB solo tramite interfacce)
 builder.Services.AddHttpClient<GeocodingService>();

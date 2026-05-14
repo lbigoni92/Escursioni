@@ -1,5 +1,7 @@
 ﻿using Npgsql;
+using System.Net.Security;
 using System.Net.Sockets;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Escursioni.Web.Services
 {
@@ -33,7 +35,6 @@ namespace Escursioni.Web.Services
             {
                 SslMode = SslMode.Require
             };
-            csb.ConnectionString = csb.ConnectionString.TrimEnd(';') + ";Channel Binding=Disable";
 
             _logger.LogInformation("[DB] Parametri connessione:");
             _logger.LogInformation("[DB]   Host: {Host}", csb.Host);
@@ -71,12 +72,24 @@ namespace Escursioni.Web.Services
                 throw;
             }
 
-            // 4. Connessione Npgsql
+            // 4. Connessione Npgsql via DataSourceBuilder (Npgsql 10)
             try
             {
-                _logger.LogInformation("[DB] Apertura connessione Npgsql (SSL + Auth)...");
-                await using var conn = new NpgsqlConnection(csb.ConnectionString);
-                await conn.OpenAsync();
+                var dsBuilder = new NpgsqlDataSourceBuilder(csb.ConnectionString);
+                // Accetta qualsiasi certificato server (Render usa cert interni)
+                dsBuilder.UseSslClientAuthenticationOptionsCallback(options =>
+                {
+                    options.RemoteCertificateValidationCallback = (sender, cert, chain, errors) =>
+                    {
+                        _logger.LogInformation("[DB] SSL callback - Errors: {Errors}, Cert: {Cert}",
+                            errors, cert?.Subject ?? "(nessuno)");
+                        return true;
+                    };
+                });
+
+                await using var dataSource = dsBuilder.Build();
+                _logger.LogInformation("[DB] DataSource creato, apertura connessione...");
+                await using var conn = await dataSource.OpenConnectionAsync();
                 _logger.LogInformation("[DB] Connessione Npgsql OK! ServerVersion={Ver}", conn.ServerVersion);
             var ensureSchemaSql = "CREATE SCHEMA IF NOT EXISTS escursioni;";
             await using (var cmd = new NpgsqlCommand(ensureSchemaSql, conn))
