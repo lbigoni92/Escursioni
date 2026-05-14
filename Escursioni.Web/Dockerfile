@@ -1,5 +1,5 @@
-# Dockerfile per produzione, minimale, sicuro, basato su Alpine
-FROM mcr.microsoft.com/dotnet/sdk:10.0-alpine AS build
+# Dockerfile per produzione, minimale, sicuro
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 
 # Copia csproj e ripristina dipendenze
@@ -13,15 +13,12 @@ COPY . .
 WORKDIR "/src/Escursioni.Web"
 RUN dotnet publish "Escursioni.Web.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
-# Stage finale runtime, utente non privilegiato
-FROM mcr.microsoft.com/dotnet/aspnet:10.0-alpine AS runtime
-
-# Libreria Kerberos richiesta da Npgsql per connessioni SSL a PostgreSQL
-RUN apk add --no-cache krb5-libs
+# Stage finale runtime (Debian bookworm-slim: SSL/TLS compatibile con Render PostgreSQL)
+FROM mcr.microsoft.com/dotnet/aspnet:10.0-bookworm-slim AS runtime
 
 # Crea utente non root
-RUN addgroup -g 12301 -S lucagroup && \
-    adduser -u 12301 -S lucauser -G lucagroup
+RUN groupadd -g 12301 lucagroup && \
+    useradd -u 12301 -g lucagroup -s /bin/false lucauser
 
 WORKDIR /app
 COPY --from=build --chown=lucauser:lucagroup /app/publish .
