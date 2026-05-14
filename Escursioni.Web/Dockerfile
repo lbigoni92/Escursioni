@@ -16,6 +16,9 @@ RUN dotnet publish "Escursioni.Web.csproj" -c Release -o /app/publish /p:UseAppH
 # Stage finale runtime, utente non privilegiato
 FROM mcr.microsoft.com/dotnet/aspnet:10.0-alpine AS runtime
 
+# Libreria Kerberos richiesta da Npgsql per connessioni SSL a PostgreSQL
+RUN apk add --no-cache krb5-libs
+
 # Crea utente non root
 RUN addgroup -g 12301 -S lucagroup && \
     adduser -u 12301 -S lucauser -G lucagroup
