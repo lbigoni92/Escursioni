@@ -1,5 +1,5 @@
-# Dockerfile per produzione, minimale, sicuro
-FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+# Dockerfile per produzione, minimale, sicuro (Alpine)
+FROM mcr.microsoft.com/dotnet/sdk:10.0-alpine AS build
 WORKDIR /src
 
 # Copia csproj e ripristina dipendenze
@@ -13,12 +13,15 @@ COPY . .
 WORKDIR "/src/Escursioni.Web"
 RUN dotnet publish "Escursioni.Web.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
-# Stage finale runtime (Debian-based: SSL/TLS compatibile con Render PostgreSQL)
-FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
+# Stage finale runtime (Alpine: ~100MB, con librerie per Npgsql/PostgreSQL)
+FROM mcr.microsoft.com/dotnet/aspnet:10.0-alpine AS runtime
+
+# Librerie necessarie per Npgsql (Kerberos/GSSAPI + ICU per globalizzazione)
+RUN apk add --no-cache krb5-libs icu-libs
 
 # Crea utente non root
-RUN groupadd -g 12301 lucagroup && \
-    useradd -u 12301 -g lucagroup -s /bin/false lucauser
+RUN addgroup -g 12301 lucagroup && \
+    adduser -u 12301 -G lucagroup -s /sbin/nologin -D lucauser
 
 WORKDIR /app
 COPY --from=build --chown=lucauser:lucagroup /app/publish .
