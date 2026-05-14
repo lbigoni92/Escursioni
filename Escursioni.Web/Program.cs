@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
+using Npgsql;
 
 Console.WriteLine("[LOG] STARTING APP...");
 
@@ -50,8 +51,11 @@ builder.Services.AddResponseCompression(options =>
 
 // DbContext PostgreSQL
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+// Rimuovi virgolette letterali se presenti (errore comune su Render)
+connectionString = connectionString?.Trim('"', ' ');
 if (!string.IsNullOrEmpty(connectionString) && !connectionString.Contains("Trust Server Certificate", StringComparison.OrdinalIgnoreCase))
     connectionString += ";Trust Server Certificate=true";
+Console.WriteLine($"[LOG] DB Host: {new NpgsqlConnectionStringBuilder(connectionString).Host}");
 builder.Services.AddDbContext<EscursioniDbContext>(options =>
     options.UseNpgsql(connectionString));
 

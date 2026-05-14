@@ -21,8 +21,16 @@ namespace Escursioni.Web.Services
         public async Task RunAsync()
         {
             var connString = _config.GetConnectionString("DefaultConnection");
+            // Rimuovi virgolette letterali se presenti (errore comune su Render)
+            connString = connString?.Trim('"', ' ');
             if (!string.IsNullOrEmpty(connString) && !connString.Contains("Trust Server Certificate", StringComparison.OrdinalIgnoreCase))
                 connString += ";Trust Server Certificate=true";
+
+            // Log diagnostico (senza password)
+            var safeLog = connString != null
+                ? System.Text.RegularExpressions.Regex.Replace(connString, @"Password=[^;]*", "Password=***")
+                : "(null)";
+            _logger.LogInformation("[DB] Connection string: {ConnString}", safeLog);
 
             await using var conn = new NpgsqlConnection(connString);
             await conn.OpenAsync();
