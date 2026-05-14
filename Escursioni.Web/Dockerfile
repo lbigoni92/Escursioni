@@ -13,8 +13,8 @@ COPY . .
 WORKDIR "/src/Escursioni.Web"
 RUN dotnet publish "Escursioni.Web.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
-# Stage finale runtime (Debian bookworm-slim: SSL/TLS compatibile con Render PostgreSQL)
-FROM mcr.microsoft.com/dotnet/aspnet:10.0-bookworm-slim AS runtime
+# Stage finale runtime (Debian-based: SSL/TLS compatibile con Render PostgreSQL)
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 
 # Crea utente non root
 RUN groupadd -g 12301 lucagroup && \
