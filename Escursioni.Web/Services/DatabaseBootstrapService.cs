@@ -21,6 +21,8 @@ namespace Escursioni.Web.Services
         public async Task RunAsync()
         {
             var connString = _config.GetConnectionString("DefaultConnection");
+            if (!string.IsNullOrEmpty(connString) && !connString.Contains("Trust Server Certificate", StringComparison.OrdinalIgnoreCase))
+                connString += ";Trust Server Certificate=true";
 
             await using var conn = new NpgsqlConnection(connString);
             await conn.OpenAsync();

@@ -49,8 +49,11 @@ builder.Services.AddResponseCompression(options =>
 });
 
 // DbContext PostgreSQL
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+if (!string.IsNullOrEmpty(connectionString) && !connectionString.Contains("Trust Server Certificate", StringComparison.OrdinalIgnoreCase))
+    connectionString += ";Trust Server Certificate=true";
 builder.Services.AddDbContext<EscursioniDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(connectionString));
 
 // Servizi / repository (accesso DB solo tramite interfacce)
 builder.Services.AddHttpClient<GeocodingService>();
