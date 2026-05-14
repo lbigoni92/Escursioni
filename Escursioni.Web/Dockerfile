@@ -16,8 +16,8 @@ RUN dotnet publish "Escursioni.Web.csproj" -c Release -o /app/publish /p:UseAppH
 # Stage finale runtime (Alpine: ~100MB, con librerie per Npgsql/PostgreSQL)
 FROM mcr.microsoft.com/dotnet/aspnet:10.0-alpine AS runtime
 
-# Librerie necessarie per Npgsql (Kerberos/GSSAPI + ICU per globalizzazione)
-RUN apk add --no-cache krb5-libs icu-libs
+# Librerie necessarie per Npgsql (SSL, Kerberos/GSSAPI, ICU)
+RUN apk add --no-cache ca-certificates krb5-libs icu-libs
 
 # Crea utente non root
 RUN addgroup -g 12301 lucagroup && \
