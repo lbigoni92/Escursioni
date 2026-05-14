@@ -1,4 +1,5 @@
 ﻿using Npgsql;
+using System.Net.Sockets;
 
 namespace Escursioni.Web.Services
 {
@@ -20,20 +21,63 @@ namespace Escursioni.Web.Services
 
         public async Task RunAsync()
         {
-            var connString = _config.GetConnectionString("DefaultConnection");
-            // Rimuovi virgolette letterali se presenti (errore comune su Render)
-            connString = connString?.Trim('"', ' ');
-            if (!string.IsNullOrEmpty(connString) && !connString.Contains("Trust Server Certificate", StringComparison.OrdinalIgnoreCase))
-                connString += ";Trust Server Certificate=true";
+            _logger.LogInformation("[DB] === Inizio DatabaseBootstrapService ===");
 
-            // Log diagnostico (senza password)
-            var safeLog = connString != null
-                ? System.Text.RegularExpressions.Regex.Replace(connString, @"Password=[^;]*", "Password=***")
-                : "(null)";
-            _logger.LogInformation("[DB] Connection string: {ConnString}", safeLog);
+            // 1. Lettura connection string
+            var rawConnString = _config.GetConnectionString("DefaultConnection");
+            _logger.LogInformation("[DB] Connection string raw (null={IsNull}, length={Len})",
+                rawConnString == null, rawConnString?.Length ?? 0);
 
-            await using var conn = new NpgsqlConnection(connString);
-            await conn.OpenAsync();
+            var connString = rawConnString?.Trim('"', ' ');
+            var csb = new NpgsqlConnectionStringBuilder(connString)
+            {
+                SslMode = SslMode.Require
+            };
+            csb.ConnectionString = csb.ConnectionString.TrimEnd(';') + ";Channel Binding=Disable";
+
+            _logger.LogInformation("[DB] Parametri connessione:");
+            _logger.LogInformation("[DB]   Host: {Host}", csb.Host);
+            _logger.LogInformation("[DB]   Port: {Port}", csb.Port);
+            _logger.LogInformation("[DB]   Database: {Db}", csb.Database);
+            _logger.LogInformation("[DB]   Username: {User}", csb.Username);
+            _logger.LogInformation("[DB]   SslMode: {Ssl}", csb.SslMode);
+            _logger.LogInformation("[DB]   Timeout: {Timeout}s", csb.Timeout);
+
+            // 2. Test DNS
+            try
+            {
+                _logger.LogInformation("[DB] Risoluzione DNS per {Host}...", csb.Host);
+                var addresses = await System.Net.Dns.GetHostAddressesAsync(csb.Host!);
+                _logger.LogInformation("[DB] DNS OK - IP: {Ips}", string.Join(", ", addresses.Select(a => a.ToString())));
+            }
+            catch (Exception dnsEx)
+            {
+                _logger.LogError(dnsEx, "[DB] DNS FALLITO per {Host}", csb.Host);
+                throw;
+            }
+
+            // 3. Test TCP
+            try
+            {
+                _logger.LogInformation("[DB] Test TCP verso {Host}:{Port}...", csb.Host, csb.Port);
+                using var tcp = new TcpClient();
+                await tcp.ConnectAsync(csb.Host!, csb.Port);
+                _logger.LogInformation("[DB] TCP OK - connessione stabilita");
+                tcp.Close();
+            }
+            catch (Exception tcpEx)
+            {
+                _logger.LogError(tcpEx, "[DB] TCP FALLITO verso {Host}:{Port}", csb.Host, csb.Port);
+                throw;
+            }
+
+            // 4. Connessione Npgsql
+            try
+            {
+                _logger.LogInformation("[DB] Apertura connessione Npgsql (SSL + Auth)...");
+                await using var conn = new NpgsqlConnection(csb.ConnectionString);
+                await conn.OpenAsync();
+                _logger.LogInformation("[DB] Connessione Npgsql OK! ServerVersion={Ver}", conn.ServerVersion);
             var ensureSchemaSql = "CREATE SCHEMA IF NOT EXISTS escursioni;";
             await using (var cmd = new NpgsqlCommand(ensureSchemaSql, conn))
                 await cmd.ExecuteNonQueryAsync();
@@ -92,6 +136,26 @@ namespace Escursioni.Web.Services
                     cmd.Parameters.AddWithValue("f", filename);
                     await cmd.ExecuteNonQueryAsync();
                 }
+            }
+            }
+            catch (NpgsqlException ex)
+            {
+                _logger.LogError("[DB] === ERRORE NPGSQL ===");
+                _logger.LogError("[DB] Messaggio: {Msg}", ex.Message);
+                _logger.LogError("[DB] InnerException: {Inner}", ex.InnerException?.Message);
+                _logger.LogError("[DB] InnerInner: {InnerInner}", ex.InnerException?.InnerException?.Message);
+                _logger.LogError("[DB] SqlState: {State}", ex.SqlState);
+                _logger.LogError("[DB] IsTransient: {Trans}", ex.IsTransient);
+                _logger.LogError(ex, "[DB] StackTrace completo");
+                throw;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("[DB] === ERRORE GENERICO ===");
+                _logger.LogError("[DB] Tipo: {Type}", ex.GetType().FullName);
+                _logger.LogError("[DB] Messaggio: {Msg}", ex.Message);
+                _logger.LogError(ex, "[DB] StackTrace completo");
+                throw;
             }
         }
     }

@@ -50,14 +50,16 @@ builder.Services.AddResponseCompression(options =>
 });
 
 // DbContext PostgreSQL
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-// Rimuovi virgolette letterali se presenti (errore comune su Render)
-connectionString = connectionString?.Trim('"', ' ');
-if (!string.IsNullOrEmpty(connectionString) && !connectionString.Contains("Trust Server Certificate", StringComparison.OrdinalIgnoreCase))
-    connectionString += ";Trust Server Certificate=true";
-Console.WriteLine($"[LOG] DB Host: {new NpgsqlConnectionStringBuilder(connectionString).Host}");
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")?.Trim('"', ' ');
+var csb = new NpgsqlConnectionStringBuilder(connectionString)
+{
+    SslMode = SslMode.Require
+};
+// Disabilita channel binding (incompatibile con Alpine OpenSSL + Render PG)
+csb.ConnectionString = csb.ConnectionString.TrimEnd(';') + ";Channel Binding=Disable";
+Console.WriteLine($"[LOG] DB Host: {csb.Host}");
 builder.Services.AddDbContext<EscursioniDbContext>(options =>
-    options.UseNpgsql(connectionString));
+    options.UseNpgsql(csb.ConnectionString));
 
 // Servizi / repository (accesso DB solo tramite interfacce)
 builder.Services.AddHttpClient<GeocodingService>();
