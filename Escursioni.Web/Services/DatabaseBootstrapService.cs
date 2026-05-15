@@ -32,11 +32,8 @@ namespace Escursioni.Web.Services
 
             var connString = rawConnString?.Trim('"', ' ');
             var csb = new NpgsqlConnectionStringBuilder(connString);
-            // Connessione interna Render (-a hostname): rete privata, no SSL
-            if (csb.Host?.Contains("-a.") == true)
-                csb.SslMode = SslMode.Disable;
-            else
-                csb.SslMode = SslMode.Require;
+            csb.SslMode = SslMode.Require;
+            csb.ChannelBinding = ChannelBinding.Disable;
 
             _logger.LogInformation("[DB] Parametri connessione:");
             _logger.LogInformation("[DB]   Host: {Host}", csb.Host);
@@ -44,7 +41,7 @@ namespace Escursioni.Web.Services
             _logger.LogInformation("[DB]   Database: {Db}", csb.Database);
             _logger.LogInformation("[DB]   Username: {User}", csb.Username);
             _logger.LogInformation("[DB]   SslMode: {Ssl}", csb.SslMode);
-            _logger.LogInformation("[DB]   Timeout: {Timeout}s", csb.Timeout);
+            _logger.LogInformation("[DB]   ChannelBinding: {Cb}", csb.ChannelBinding);
 
             // 2. Test DNS
             try
@@ -74,47 +71,26 @@ namespace Escursioni.Web.Services
                 throw;
             }
 
-            // 4. Connessione Npgsql - prova diverse modalità SSL
+            // 4. Connessione Npgsql
             NpgsqlConnection? conn = null;
-            var sslModes = new[] { csb.SslMode, SslMode.Prefer, SslMode.Disable, SslMode.Require };
-            foreach (var mode in sslModes.Distinct())
+            try
             {
-                try
-                {
-                    csb.SslMode = mode;
-                    _logger.LogInformation("[DB] Tentativo connessione con SslMode={Mode}...", mode);
+                _logger.LogInformation("[DB] Tentativo connessione con SslMode=Require, ChannelBinding=Disable...");
 
-                    var dsBuilder = new NpgsqlDataSourceBuilder(csb.ConnectionString);
-                    if (mode != SslMode.Disable)
-                    {
-                        dsBuilder.UseSslClientAuthenticationOptionsCallback(options =>
-                        {
-                            options.RemoteCertificateValidationCallback = (sender, cert, chain, errors) =>
-                            {
-                                _logger.LogInformation("[DB] SSL callback - Errors: {Errors}, Cert: {Cert}",
-                                    errors, cert?.Subject ?? "(nessuno)");
-                                return true;
-                            };
-                        });
-                    }
-
-                    var dataSource = dsBuilder.Build();
-                    conn = await dataSource.OpenConnectionAsync();
-                    _logger.LogInformation("[DB] Connessione OK con SslMode={Mode}! ServerVersion={Ver}", mode, conn.ServerVersion);
-                    break; // connessione riuscita
-                }
-                catch (Exception ex)
+                var dsBuilder = new NpgsqlDataSourceBuilder(csb.ConnectionString);
+                dsBuilder.UseSslClientAuthenticationOptionsCallback(options =>
                 {
-                    _logger.LogWarning("[DB] SslMode={Mode} FALLITO: {Msg} | Inner: {Inner}",
-                        mode, ex.Message, ex.InnerException?.Message);
-                    conn = null;
-                }
+                    options.RemoteCertificateValidationCallback = (sender, cert, chain, errors) => true;
+                });
+
+                var dataSource = dsBuilder.Build();
+                conn = await dataSource.OpenConnectionAsync();
+                _logger.LogInformation("[DB] Connessione OK! ServerVersion={Ver}", conn.ServerVersion);
             }
-
-            if (conn == null)
+            catch (Exception ex)
             {
-                _logger.LogError("[DB] TUTTE le modalità SSL fallite. Impossibile connettersi al database.");
-                throw new InvalidOperationException("Impossibile connettersi al database con nessuna modalità SSL.");
+                _logger.LogError(ex, "[DB] Connessione FALLITA: {Msg}", ex.Message);
+                throw;
             }
 
             try

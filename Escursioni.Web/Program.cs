@@ -6,9 +6,6 @@ using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 using Npgsql;
 
-// Disabilita SCRAM channel binding (incompatibile con PgBouncer di Render)
-AppContext.SetSwitch("Npgsql.EnableChannelBinding", false);
-
 Console.WriteLine("[LOG] STARTING APP...");
 
 Console.WriteLine("[LOG] Creazione builder...");
@@ -55,22 +52,15 @@ builder.Services.AddResponseCompression(options =>
 // DbContext PostgreSQL
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")?.Trim('"', ' ');
 var csb = new NpgsqlConnectionStringBuilder(connectionString);
-// Connessione interna Render (-a hostname): rete privata, SSL non necessario
-// Disabilitare SSL evita il problema SCRAM channel binding con PgBouncer
-if (csb.Host?.Contains("-a.") == true)
-    csb.SslMode = SslMode.Disable;
-else
-    csb.SslMode = SslMode.Require;
-Console.WriteLine($"[LOG] DB Host: {csb.Host}, SslMode: {csb.SslMode}");
+csb.SslMode = SslMode.Require;
+csb.ChannelBinding = ChannelBinding.Disable; // PgBouncer di Render non supporta channel binding
+Console.WriteLine($"[LOG] DB Host: {csb.Host}, SslMode: {csb.SslMode}, ChannelBinding: {csb.ChannelBinding}");
 
 var dataSourceBuilder = new NpgsqlDataSourceBuilder(csb.ConnectionString);
-if (csb.SslMode != SslMode.Disable)
+dataSourceBuilder.UseSslClientAuthenticationOptionsCallback(options =>
 {
-    dataSourceBuilder.UseSslClientAuthenticationOptionsCallback(options =>
-    {
-        options.RemoteCertificateValidationCallback = (sender, cert, chain, errors) => true;
-    });
-}
+    options.RemoteCertificateValidationCallback = (sender, cert, chain, errors) => true;
+});
 var dataSource = dataSourceBuilder.Build();
 
 builder.Services.AddDbContext<EscursioniDbContext>(options =>
