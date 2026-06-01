@@ -19,6 +19,7 @@ public class MetaDescriptionGenerator
     private readonly HttpClient _http;
     private readonly string _model;
     private readonly string _baseUrl;
+    private bool _modelPulled;
 
     public MetaDescriptionGenerator(HttpClient http, IConfiguration config)
     {
@@ -369,11 +370,13 @@ Descrizione: {descrizione}
 
     private async Task EnsureModelAsync()
     {
+        if (_modelPulled) return;
         try
         {
             var body = JsonSerializer.Serialize(new { model = _model });
             var content = new StringContent(body, Encoding.UTF8, "application/json");
             await _http.PostAsync($"{_baseUrl}/api/pull", content);
+            _modelPulled = true;
         }
         catch
         {

@@ -52,15 +52,21 @@ builder.Services.AddResponseCompression(options =>
 // DbContext PostgreSQL
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")?.Trim('"', ' ');
 var csb = new NpgsqlConnectionStringBuilder(connectionString);
-csb.SslMode = SslMode.Require;
-csb.ChannelBinding = ChannelBinding.Disable; // PgBouncer di Render non supporta channel binding
+if (!builder.Environment.IsDevelopment())
+{
+    csb.SslMode = SslMode.Require;
+    csb.ChannelBinding = ChannelBinding.Disable; // PgBouncer di Render non supporta channel binding
+}
 Console.WriteLine($"[LOG] DB Host: {csb.Host}, SslMode: {csb.SslMode}, ChannelBinding: {csb.ChannelBinding}");
 
 var dataSourceBuilder = new NpgsqlDataSourceBuilder(csb.ConnectionString);
-dataSourceBuilder.UseSslClientAuthenticationOptionsCallback(options =>
+if (!builder.Environment.IsDevelopment())
 {
-    options.RemoteCertificateValidationCallback = (sender, cert, chain, errors) => true;
-});
+    dataSourceBuilder.UseSslClientAuthenticationOptionsCallback(options =>
+    {
+        options.RemoteCertificateValidationCallback = (sender, cert, chain, errors) => true;
+    });
+}
 var dataSource = dataSourceBuilder.Build();
 
 builder.Services.AddDbContext<EscursioniDbContext>(options =>

@@ -1,3 +1,5 @@
+using Microsoft.Extensions.Logging;
+
 namespace Escursioni.MigrationEditor.Services;
 
 public enum BulkMode { All, SeoOnly, TitleSeoOnly, MetaDescOnly, MetaDescMissingOnly, HtmlOnly, TagOnly, GpxStatsOnly }
@@ -7,6 +9,7 @@ public class BulkGenerationService
     private readonly MigrationParserService _parser;
     private readonly MetaDescriptionGenerator _metaGen;
     private readonly GpxStatsService _gpxStats;
+    private readonly ILogger<BulkGenerationService> _logger;
     private readonly object _lock = new();
 
     public bool IsRunning { get; private set; }
@@ -17,12 +20,14 @@ public class BulkGenerationService
     public string? CurrentFileName { get; private set; }
     public string? CurrentStep { get; private set; }
     public BulkMode Mode { get; private set; }
+    public List<string> ErrorDetails { get; private set; } = new();
 
-    public BulkGenerationService(MigrationParserService parser, MetaDescriptionGenerator metaGen, GpxStatsService gpxStats)
+    public BulkGenerationService(MigrationParserService parser, MetaDescriptionGenerator metaGen, GpxStatsService gpxStats, ILogger<BulkGenerationService> logger)
     {
         _parser = parser;
         _metaGen = metaGen;
         _gpxStats = gpxStats;
+        _logger = logger;
     }
 
     public bool TryStart(BulkMode mode = BulkMode.All)
@@ -38,6 +43,7 @@ public class BulkGenerationService
             Total = 0;
             CurrentFileName = null;
             CurrentStep = null;
+            ErrorDetails = new();
             return true;
         }
     }
@@ -120,6 +126,8 @@ public class BulkGenerationService
             Total = toProcess.Count;
             Current = 0;
 
+            _logger.LogInformation("[Bulk:{Mode}] Avvio elaborazione: {Total} migrazioni da processare", Mode, Total);
+
             if (Total == 0)
             {
                 Message = "Nessuna migrazione con titolo o descrizione da elaborare.";
@@ -133,6 +141,7 @@ public class BulkGenerationService
             foreach (var m in toProcess)
             {
                 Current++;
+                var sw = System.Diagnostics.Stopwatch.StartNew();
 
                 try
                 {
@@ -223,17 +232,27 @@ public class BulkGenerationService
                     }
 
                     _parser.Save(mf);
+                    sw.Stop();
+                    _logger.LogInformation("[Bulk:{Mode}] {Current}/{Total} OK: {FileName} ({Elapsed}ms)",
+                        Mode, Current, Total, m.FileName, sw.ElapsedMilliseconds);
                     generated++;
                 }
-                catch
+                catch (Exception ex)
                 {
+                    sw.Stop();
+                    _logger.LogWarning(ex, "[Bulk:{Mode}] {Current}/{Total} ERRORE: {FileName} ({Elapsed}ms)",
+                        Mode, Current, Total, m.FileName, sw.ElapsedMilliseconds);
                     errors++;
+                    ErrorDetails.Add($"{m.FileName}: {ex.Message}");
                 }
             }
 
             Message = $"Completato: {generated}/{Total} rigenerati";
             if (errors > 0)
                 Error = $"{errors} errori";
+
+            _logger.LogInformation("[Bulk:{Mode}] Completato: {Generated}/{Total} OK, {Errors} errori",
+                Mode, generated, Total, errors);
         }
         catch (Exception ex)
         {
