@@ -32,8 +32,16 @@ namespace Escursioni.Web.Services
 
             var connString = rawConnString?.Trim('"', ' ');
             var csb = new NpgsqlConnectionStringBuilder(connString);
-            csb.SslMode = SslMode.Require;
-            csb.ChannelBinding = ChannelBinding.Disable;
+
+            // In sviluppo rispetta la connection string (es. SslMode=Prefer/Disable).
+            // In produzione forza SSL e disabilita channel binding per compatibilita con PgBouncer.
+            var isDevelopment = string.Equals(_env.EnvironmentName, "Development", StringComparison.OrdinalIgnoreCase);
+            _logger.LogInformation("[DB] EnvironmentName: {Env}, isDevelopment: {IsDev}", _env.EnvironmentName, isDevelopment);
+            if (!isDevelopment)
+            {
+                csb.SslMode = SslMode.Require;
+                csb.ChannelBinding = ChannelBinding.Disable;
+            }
 
             _logger.LogInformation("[DB] Parametri connessione:");
             _logger.LogInformation("[DB]   Host: {Host}", csb.Host);
@@ -75,13 +83,17 @@ namespace Escursioni.Web.Services
             NpgsqlConnection? conn = null;
             try
             {
-                _logger.LogInformation("[DB] Tentativo connessione con SslMode=Require, ChannelBinding=Disable...");
+                _logger.LogInformation("[DB] Tentativo connessione con SslMode={SslMode}, ChannelBinding={ChannelBinding}...",
+                    csb.SslMode, csb.ChannelBinding);
 
                 var dsBuilder = new NpgsqlDataSourceBuilder(csb.ConnectionString);
-                dsBuilder.UseSslClientAuthenticationOptionsCallback(options =>
+                if (!isDevelopment)
                 {
-                    options.RemoteCertificateValidationCallback = (sender, cert, chain, errors) => true;
-                });
+                    dsBuilder.UseSslClientAuthenticationOptionsCallback(options =>
+                    {
+                        options.RemoteCertificateValidationCallback = (sender, cert, chain, errors) => true;
+                    });
+                }
 
                 var dataSource = dsBuilder.Build();
                 conn = await dataSource.OpenConnectionAsync();

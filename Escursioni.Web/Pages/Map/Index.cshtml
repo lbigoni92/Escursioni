@@ -18,6 +18,9 @@
                 maxZoom: 18
             }).addTo(map);
 
+            var showVisibleTracksBtn = document.getElementById('show-visible-tracks-btn');
+            var visibleTracksStatus = document.getElementById('visible-tracks-status');
+
             var hikes = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(
                 Model.Escursioni.Select(h => new {
                     id = h.Id,
@@ -32,29 +35,39 @@
             var gpxCache = {};
             var gpxLayers = {};
 
-            hikes.forEach(function (h) {
-                if (!h.lat || !h.lon) return;
-                var marker = L.marker([h.lat, h.lon]).addTo(map);
-                var url = '/escursioni/' +
-                    h.title.toLowerCase()
-                        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-                        .replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
-                marker.bindPopup('<a href="' + url + '" title="' + h.title + '">' + h.title + '</a>');
+            function slugifyTitle(title) {
+                return title.toLowerCase()
+                    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                    .replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+            }
 
-                marker.on('click', function () {
-                    var gpxUrl = '/media/gpx/' + h.wikilocId + '.gpx';
-                    // Se layer già presente sulla mappa, rimuovi
-                    if (gpxLayers[h.wikilocId]) {
-                        map.removeLayer(gpxLayers[h.wikilocId]);
-                        delete gpxLayers[h.wikilocId];
+            function setStatus(message) {
+                if (!visibleTracksStatus) return;
+                visibleTracksStatus.textContent = message;
+            }
+
+            function addGpxTrack(h, options) {
+                options = options || {};
+                var fitOnLoad = options.fitOnLoad === true;
+
+                return new Promise(function (resolve) {
+                    if (!h.wikilocId) {
+                        resolve({ status: 'missing-id', hike: h });
                         return;
                     }
-                    // Se già in cache, aggiungi
+
+                    if (gpxLayers[h.wikilocId]) {
+                        resolve({ status: 'already-visible', hike: h });
+                        return;
+                    }
+
                     if (gpxCache[h.wikilocId]) {
                         gpxLayers[h.wikilocId] = gpxCache[h.wikilocId].addTo(map);
+                        resolve({ status: 'from-cache', hike: h });
                         return;
                     }
-                    // Altrimenti carica e aggiungi
+
+                    var gpxUrl = '/media/gpx/' + h.wikilocId + '.gpx';
                     var gpxLayer = new L.GPX(gpxUrl, {
                         async: true,
                         marker_options: {
@@ -64,14 +77,84 @@
                             wptIconUrls: { '': null }
                         }
                     });
-                    gpxLayer.on('loaded', function(e) {
-                        map.fitBounds(e.target.getBounds(), { maxZoom: 13 });
+
+                    gpxLayer.on('loaded', function (e) {
+                        if (fitOnLoad) {
+                            map.fitBounds(e.target.getBounds(), { maxZoom: 13 });
+                        }
+                        resolve({ status: 'loaded', hike: h });
                     });
+
+                    gpxLayer.on('error', function () {
+                        if (gpxLayers[h.wikilocId] === gpxLayer) {
+                            delete gpxLayers[h.wikilocId];
+                        }
+                        resolve({ status: 'error', hike: h });
+                    });
+
                     gpxLayer.addTo(map);
                     gpxCache[h.wikilocId] = gpxLayer;
                     gpxLayers[h.wikilocId] = gpxLayer;
                 });
+            }
+
+            hikes.forEach(function (h) {
+                if (!h.lat || !h.lon) return;
+                var marker = L.marker([h.lat, h.lon]).addTo(map);
+                var url = '/escursioni/' + slugifyTitle(h.title);
+                marker.bindPopup('<a href="' + url + '" title="' + h.title + '">' + h.title + '</a>');
+
+                marker.on('click', function () {
+                    // Se layer già presente sulla mappa, rimuovi
+                    if (gpxLayers[h.wikilocId]) {
+                        map.removeLayer(gpxLayers[h.wikilocId]);
+                        delete gpxLayers[h.wikilocId];
+                        return;
+                    }
+
+                    addGpxTrack(h, { fitOnLoad: true });
+                });
             });
+
+            if (showVisibleTracksBtn) {
+                showVisibleTracksBtn.addEventListener('click', function () {
+                    var bounds = map.getBounds();
+                    var visibleHikes = hikes.filter(function (h) {
+                        return h.lat && h.lon && h.wikilocId && bounds.contains([h.lat, h.lon]);
+                    });
+
+                    if (visibleHikes.length === 0) {
+                        setStatus('Nessun marker visibile nell\'area corrente.');
+                        return;
+                    }
+
+                    setStatus('Caricamento tracce visibili in corso...');
+
+                    Promise.all(visibleHikes.map(function (h) {
+                        return addGpxTrack(h, { fitOnLoad: false });
+                    })).then(function (results) {
+                        var loadedCount = results.filter(function (r) {
+                            return r.status === 'loaded' || r.status === 'from-cache';
+                        }).length;
+                        var alreadyVisibleCount = results.filter(function (r) {
+                            return r.status === 'already-visible';
+                        }).length;
+                        var errorCount = results.filter(function (r) {
+                            return r.status === 'error';
+                        }).length;
+
+                        var message = 'Tracce aggiunte: ' + loadedCount;
+                        if (alreadyVisibleCount > 0) {
+                            message += ' | Gia visibili: ' + alreadyVisibleCount;
+                        }
+                        if (errorCount > 0) {
+                            message += ' | Errori: ' + errorCount;
+                        }
+
+                        setStatus(message);
+                    });
+                });
+            }
         });
     </script>
 }
@@ -93,6 +176,13 @@
         Ogni marker rappresenta un'escursione esportata da Wikiloc.
         Clicca sul punto per aprire il dettaglio.
     </p>
+
+    <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap;margin-bottom:0.9rem;">
+        <button id="show-visible-tracks-btn" type="button" class="btn btn-secondary">
+            Mostra tutte le tracce nell'area visibile
+        </button>
+        <span id="visible-tracks-status" style="font-size:0.95rem;color:#334155;"></span>
+    </div>
 
     <div id="map" class="map-frame"></div>
 

@@ -10,21 +10,36 @@ public sealed class ImagePrewarmService : BackgroundService
     private readonly IWebHostEnvironment _env;
     private readonly ImageVariantGenerator _generator;
     private readonly ILogger<ImagePrewarmService> _logger;
+    private readonly bool _enabled;
+    private readonly int _startupDelaySeconds;
+    private readonly int _maxWorkers;
 
     public ImagePrewarmService(
         IWebHostEnvironment env,
         ImageVariantGenerator generator,
-        ILogger<ImagePrewarmService> logger)
+        ILogger<ImagePrewarmService> logger,
+        IConfiguration config)
     {
         _env = env;
         _generator = generator;
         _logger = logger;
+        _enabled = config.GetValue("Images:Prewarm:Enabled", true);
+        _startupDelaySeconds = Math.Max(0, config.GetValue("Images:Prewarm:StartupDelaySeconds", 0));
+
+        var suggestedWorkers = Math.Min(Math.Max(1, Environment.ProcessorCount), 4);
+        _maxWorkers = Math.Clamp(config.GetValue("Images:Prewarm:MaxWorkers", suggestedWorkers), 1, 8);
     }
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        // Piccola pausa per non appesantire l'avvio a freddo
-        await Task.Delay(TimeSpan.FromSeconds(3), stoppingToken);
+        if (!_enabled)
+        {
+            _logger.LogInformation("[ImagePrewarm] Disabilitato da configurazione (Images:Prewarm:Enabled=false)");
+            return;
+        }
+
+        if (_startupDelaySeconds > 0)
+            await Task.Delay(TimeSpan.FromSeconds(_startupDelaySeconds), stoppingToken);
 
         var imagesRoot = Path.Combine(_env.WebRootPath, "media", "images");
         if (!Directory.Exists(imagesRoot))
@@ -60,11 +75,10 @@ public sealed class ImagePrewarmService : BackgroundService
         var lastLoggedPercent = -1;
 
         // Controlled worker pool using a ConcurrentQueue to avoid creating a Task per file
-        var maxWorkers = Math.Min(Math.Max(1, Environment.ProcessorCount), 4);
         var queue = new System.Collections.Concurrent.ConcurrentQueue<string>(sourceFiles);
-        var workers = new List<Task>(maxWorkers);
+        var workers = new List<Task>(_maxWorkers);
 
-        for (var i = 0; i < maxWorkers; i++)
+        for (var i = 0; i < _maxWorkers; i++)
         {
             workers.Add(Task.Run(async () =>
             {
