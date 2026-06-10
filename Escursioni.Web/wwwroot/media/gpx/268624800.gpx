@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Wikiloc - https://www.wikiloc.com" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Wikiloc - Mondsee</name>
+    <author>
+      <name>luca bigoni</name>
+      <link href="https://www.wikiloc.com/wikiloc/user.do?id=6736771">
+        <text>luca bigoni on Wikiloc</text>
+      </link>
+    </author>
+    <link href="https://www.wikiloc.com/hiking-trails/mondsee-268624800">
+      <text>Mondsee on Wikiloc</text>
+    </link>
+    <time>2026-06-09T19:34:21.478Z</time>
+  </metadata>
+  <trk>
+    <name>Mondsee - Wikiloc</name>
+    <cmt>Facile percorso ad anello sulle sponde del lago, ideale per una camminata rilassante senza dislivelli significativi, con partenza da un comodo parcheggio gratuito nei pressi del centro abitato. 
+L’itinerario costeggia il suggestivo Mondsee, uno dei laghi più scenografici della regione del Salzkammergut, caratterizzato da acque limpide, scorci alpini e piccoli punti balneabili lungo la riva. 
+Il sentiero segue prevalentemente la linea del lago, alternando tratti su passeggiata, banchine naturali e brevi passaggi su strade secondarie a basso traffico. Lungo il percorso si incontrano aree verdi, punti panoramici e zone tranquille ideali per soste o picnic. 
+Il giro è adatto a tutti: famiglie, camminatori occasionali e chi cerca un’attività leggera immersa nella natura. L’assenza di dislivelli importanti e la facilità di orientamento lo rendono un percorso perfetto anche nelle giornate calde o come tappa di relax durante un viaggio in Austria. 
+Un’esperienza semplice ma molto gratificante, con continui scorci sul lago e sulle montagne circostanti, facilmente accessibile grazie ai parcheggi gratuiti presenti nelle vicinanze.</cmt>
+    <desc>Facile percorso ad anello sulle sponde del lago, ideale per una camminata rilassante senza dislivelli significativi, con partenza da un comodo parcheggio gratuito nei pressi del centro abitato. 
+L’itinerario costeggia il suggestivo Mondsee, uno dei laghi più scenografici della regione del Salzkammergut, caratterizzato da acque limpide, scorci alpini e piccoli punti balneabili lungo la riva. 
+Il sentiero segue prevalentemente la linea del lago, alternando tratti su passeggiata, banchine naturali e brevi passaggi su strade secondarie a basso traffico. Lungo il percorso si incontrano aree verdi, punti panoramici e zone tranquille ideali per soste o picnic. 
+Il giro è adatto a tutti: famiglie, camminatori occasionali e chi cerca un’attività leggera immersa nella natura. L’assenza di dislivelli importanti e la facilità di orientamento lo rendono un percorso perfetto anche nelle giornate calde o come tappa di relax durante un viaggio in Austria. 
+Un’esperienza semplice ma molto gratificante, con continui scorci sul lago e sulle montagne circostanti, facilmente accessibile grazie ai parcheggi gratuiti presenti nelle vicinanze.</desc>
+    <trkseg>
+      <trkpt lat="47.852632" lon="13.345899">
+        <ele>484.166</ele>
+        <time>2026-06-09T19:55:01.175044328Z</time>
+      </trkpt>
+      <trkpt lat="47.852782" lon="13.345806">
+        <ele>484.529</ele>
+        <time>2026-06-09T19:55:41.175060238Z</time>
+      </trkpt>
+      <trkpt lat="47.852730" lon="13.345605">
+        <ele>484.621</ele>
+        <time>2026-06-09T19:56:21.175069054Z</time>
+      </trkpt>
+      <trkpt lat="47.852906" lon="13.345759">
+        <ele>484.809</ele>
+        <time>2026-06-09T19:57:01.175077350Z</time>
+      </trkpt>
+      <trkpt lat="47.852799" lon="13.345914">
+        <ele>484.548</ele>
+        <time>2026-06-09T19:57:41.175085335Z</time>
+      </trkpt>
+      <trkpt lat="47.852625" lon="13.345954">
+        <ele>484.042</ele>
+        <time>2026-06-09T19:58:21.175092568Z</time>
+      </trkpt>
+      <trkpt lat="47.852479" lon="13.346200">
+        <ele>483.554</ele>
+        <time>2026-06-09T19:59:01.175099852Z</time>
+      </trkpt>
+      <trkpt lat="47.852485" lon="13.346349">
+        <ele>483.492</ele>
+        <time>2026-06-09T19:59:41.175106875Z</time>
+      </trkpt>
+      <trkpt lat="47.853199" lon="13.347352">
+        <ele>484.998</ele>
+        <time>2026-06-09T20:00:21.175114029Z</time>
+      </trkpt>
+      <trkpt lat="47.853349" lon="13.348127">
+        <ele>485.180</ele>
+        <time>2026-06-09T20:01:01.175121072Z</time>
+      </trkpt>
+      <trkpt lat="47.853329" lon="13.348346">
+        <ele>485.214</ele>
+        <time>2026-06-09T20:01:41.175128115Z</time>
+      </trkpt>
+      <trkpt lat="47.853183" lon="13.348504">
+        <ele>485.086</ele>
+        <time>2026-06-09T20:02:21.175135258Z</time>
+      </trkpt>
+      <trkpt lat="47.852920" lon="13.348574">
+        <ele>484.696</ele>
+        <time>2026-06-09T20:03:01.175142332Z</time>
+      </trkpt>
+      <trkpt lat="47.852525" lon="13.348940">
+        <ele>484.827</ele>
+        <time>2026-06-09T20:03:41.175150116Z</time>
+      </trkpt>
+      <trkpt lat="47.852235" lon="13.348924">
+        <ele>484.668</ele>
+        <time>2026-06-09T20:04:21.175157340Z</time>
+      </trkpt>
+      <trkpt lat="47.852169" lon="13.349129">
+        <ele>484.014</ele>
+        <time>2026-06-09T20:05:01.175164383Z</time>
+      </trkpt>
+      <trkpt lat="47.851988" lon="13.349162">
+        <ele>482.909</ele>
+        <time>2026-06-09T20:05:41.175171416Z</time>
+      </trkpt>
+      <trkpt lat="47.851829" lon="13.349327">
+        <ele>482.974</ele>
+        <time>2026-06-09T20:06:21.175178439Z</time>
+      </trkpt>
+      <trkpt lat="47.851569" lon="13.349410">
+        <ele>482.648</ele>
+        <time>2026-06-09T20:07:01.175185572Z</time>
+      </trkpt>
+      <trkpt lat="47.851594" lon="13.349466">
+        <ele>482.770</ele>
+        <time>2026-06-09T20:07:41.175192706Z</time>
+      </trkpt>
+      <trkpt lat="47.851041" lon="13.349375">
+        <ele>481.398</ele>
+        <time>2026-06-09T20:08:21.175199819Z</time>
+      </trkpt>
+      <trkpt lat="47.851184" lon="13.349497">
+        <ele>481.564</ele>
+        <time>2026-06-09T20:09:01.175206812Z</time>
+      </trkpt>
+      <trkpt lat="47.851172" lon="13.350089">
+        <ele>481.916</ele>
+        <time>2026-06-09T20:09:41.175213785Z</time>
+      </trkpt>
+      <trkpt lat="47.851136" lon="13.350326">
+        <ele>481.680</ele>
+        <time>2026-06-09T20:10:21.175220798Z</time>
+      </trkpt>
+      <trkpt lat="47.850831" lon="13.350840">
+        <ele>481.462</ele>
+        <time>2026-06-09T20:11:01.175227912Z</time>
+      </trkpt>
+      <trkpt lat="47.850852" lon="13.351137">
+        <ele>481.472</ele>
+        <time>2026-06-09T20:11:41.175235035Z</time>
+      </trkpt>
+      <trkpt lat="47.850794" lon="13.351326">
+        <ele>481.485</ele>
+        <time>2026-06-09T20:12:21.175242078Z</time>
+      </trkpt>
+      <trkpt lat="47.850839" lon="13.351549">
+        <ele>481.689</ele>
+        <time>2026-06-09T20:13:01.175249332Z</time>
+      </trkpt>
+      <trkpt lat="47.850963" lon="13.351644">
+        <ele>481.317</ele>
+        <time>2026-06-09T20:13:41.175256315Z</time>
+      </trkpt>
+      <trkpt lat="47.851498" lon="13.351697">
+        <ele>481.409</ele>
+        <time>2026-06-09T20:14:21.175263338Z</time>
+      </trkpt>
+      <trkpt lat="47.851898" lon="13.352007">
+        <ele>481.550</ele>
+        <time>2026-06-09T20:15:01.175270331Z</time>
+      </trkpt>
+      <trkpt lat="47.851872" lon="13.352134">
+        <ele>481.284</ele>
+        <time>2026-06-09T20:15:41.175277294Z</time>
+      </trkpt>
+      <trkpt lat="47.852000" lon="13.352246">
+        <ele>481.576</ele>
+        <time>2026-06-09T20:16:21.175284287Z</time>
+      </trkpt>
+      <trkpt lat="47.852149" lon="13.352943">
+        <ele>481.594</ele>
+        <time>2026-06-09T20:17:01.175291260Z</time>
+      </trkpt>
+      <trkpt lat="47.852118" lon="13.353298">
+        <ele>481.390</ele>
+        <time>2026-06-09T20:17:41.175298273Z</time>
+      </trkpt>
+      <trkpt lat="47.851911" lon="13.353636">
+        <ele>480.932</ele>
+        <time>2026-06-09T20:18:21.175305256Z</time>
+      </trkpt>
+      <trkpt lat="47.852244" lon="13.353993">
+        <ele>481.136</ele>
+        <time>2026-06-09T20:19:01.175332137Z</time>
+      </trkpt>
+      <trkpt lat="47.852522" lon="13.354592">
+        <ele>481.228</ele>
+        <time>2026-06-09T20:19:41.175339861Z</time>
+      </trkpt>
+      <trkpt lat="47.852590" lon="13.355004">
+        <ele>481.028</ele>
+        <time>2026-06-09T20:20:21.175346945Z</time>
+      </trkpt>
+      <trkpt lat="47.852738" lon="13.355153">
+        <ele>481.537</ele>
+        <time>2026-06-09T20:21:01.175354028Z</time>
+      </trkpt>
+      <trkpt lat="47.852829" lon="13.355093">
+        <ele>482.349</ele>
+        <time>2026-06-09T20:21:41.175361171Z</time>
+      </trkpt>
+      <trkpt lat="47.852660" lon="13.354468">
+        <ele>481.713</ele>
+        <time>2026-06-09T20:22:21.175368264Z</time>
+      </trkpt>
+      <trkpt lat="47.852524" lon="13.353425">
+        <ele>482.309</ele>
+        <time>2026-06-09T20:23:01.175375298Z</time>
+      </trkpt>
+      <trkpt lat="47.852786" lon="13.352258">
+        <ele>483.765</ele>
+        <time>2026-06-09T20:23:41.175382361Z</time>
+      </trkpt>
+      <trkpt lat="47.854695" lon="13.350627">
+        <ele>487.539</ele>
+        <time>2026-06-09T20:24:21.175389294Z</time>
+      </trkpt>
+      <trkpt lat="47.854443" lon="13.349719">
+        <ele>487.481</ele>
+        <time>2026-06-09T20:25:01.175396387Z</time>
+      </trkpt>
+      <trkpt lat="47.854556" lon="13.349511">
+        <ele>487.929</ele>
+        <time>2026-06-09T20:25:41.175403430Z</time>
+      </trkpt>
+      <trkpt lat="47.854517" lon="13.349203">
+        <ele>488.045</ele>
+        <time>2026-06-09T20:26:21.175410453Z</time>
+      </trkpt>
+      <trkpt lat="47.854308" lon="13.348675">
+        <ele>487.357</ele>
+        <time>2026-06-09T20:27:01.175417426Z</time>
+      </trkpt>
+      <trkpt lat="47.854248" lon="13.348210">
+        <ele>487.621</ele>
+        <time>2026-06-09T20:27:41.175424430Z</time>
+      </trkpt>
+      <trkpt lat="47.853405" lon="13.348489">
+        <ele>485.413</ele>
+        <time>2026-06-09T20:28:21.175433727Z</time>
+      </trkpt>
+      <trkpt lat="47.853168" lon="13.347414">
+        <ele>484.673</ele>
+        <time>2026-06-09T20:29:01.175440800Z</time>
+      </trkpt>
+      <trkpt lat="47.852502" lon="13.346483">
+        <ele>483.563</ele>
+        <time>2026-06-09T20:29:41.175447873Z</time>
+      </trkpt>
+      <trkpt lat="47.852441" lon="13.346195">
+        <ele>483.444</ele>
+        <time>2026-06-09T20:30:21.175454947Z</time>
+      </trkpt>
+      <trkpt lat="47.852605" lon="13.345973">
+        <ele>484.018</ele>
+        <time>2026-06-09T20:31:01.175462010Z</time>
+      </trkpt>
+      <trkpt lat="47.852431" lon="13.346157">
+        <ele>483.509</ele>
+        <time>2026-06-09T20:31:41.175469173Z</time>
+      </trkpt>
+      <trkpt lat="47.852430" lon="13.346313">
+        <ele>483.438</ele>
+        <time>2026-06-09T20:32:21.175476227Z</time>
+      </trkpt>
+      <trkpt lat="47.852541" lon="13.346351">
+        <ele>483.692</ele>
+        <time>2026-06-09T20:33:01.175483450Z</time>
+      </trkpt>
+      <trkpt lat="47.852870" lon="13.346093">
+        <ele>484.644</ele>
+        <time>2026-06-09T20:33:41.175490593Z</time>
+      </trkpt>
+      <trkpt lat="47.852827" lon="13.345678">
+        <ele>484.762</ele>
+        <time>2026-06-09T20:34:21.175497607Z</time>
+      </trkpt>
+      <trkpt lat="47.852470" lon="13.345092">
+        <ele>485.948</ele>
+        <time>2026-06-09T20:35:01.175504620Z</time>
+      </trkpt>
+      <trkpt lat="47.852525" lon="13.344666">
+        <ele>487.610</ele>
+        <time>2026-06-09T20:35:41.175511703Z</time>
+      </trkpt>
+      <trkpt lat="47.852368" lon="13.345708">
+        <ele>483.914</ele>
+        <time>2026-06-09T20:36:21.175518746Z</time>
+      </trkpt>
+    </trkseg>
+  </trk></gpx>
