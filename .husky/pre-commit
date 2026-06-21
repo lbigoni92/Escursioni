@@ -1,0 +1,18 @@
+# Pre-commit: genera WebP thumbnail per le immagini JPG/PNG in staging.
+# I file .thumb.webp e .gallery.webp vengono committati insieme alle immagini originali
+# così il server non deve generarli al primo avvio.
+
+if ! command -v node &> /dev/null; then
+  echo "[pre-commit] node non trovato, skip ottimizzazione immagini."
+  exit 0
+fi
+
+if [ ! -d "node_modules" ]; then
+  echo "[pre-commit] node_modules non trovata, esegui 'npm install' per attivare il hook."
+  exit 0
+fi
+
+node scripts/optimize-images.js --staged
+
+# Aggiungi al commit i WebP appena generati
+git add Escursioni.Web/wwwroot/media/images/

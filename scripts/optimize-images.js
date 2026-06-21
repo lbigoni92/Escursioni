@@ -5,6 +5,7 @@
  * Utilizzo:
  *   node scripts/optimize-images.js            # genera solo i mancanti
  *   node scripts/optimize-images.js --force     # rigenera tutto
+ *   node scripts/optimize-images.js --staged    # processa solo i file JPG/PNG in git staging area
  *
  * Output per ogni immagine sorgente (es. cover.jpg):
  *   cover.thumb.webp   – 400px wide, qualità 80 (per card)
@@ -13,11 +14,34 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 const sharp = require('sharp');
 
 const IMAGES_DIR = process.env.IMAGES_DIR
     || path.resolve(__dirname, '..', 'Escursioni.Web', 'wwwroot', 'media', 'images');
 const FORCE = process.argv.includes('--force');
+const STAGED_ONLY = process.argv.includes('--staged');
+
+/**
+ * Ritorna la lista assoluta dei file JPG/PNG presenti nella staging area di git
+ * che si trovano sotto IMAGES_DIR. Se non ce ne sono, ritorna [].
+ */
+function getStagedImagePaths() {
+    try {
+        const output = execSync('git diff --cached --name-only --diff-filter=ACM', {
+            encoding: 'utf8',
+            cwd: path.resolve(__dirname, '..'),
+        });
+        return output
+            .split('\n')
+            .map(f => f.trim())
+            .filter(f => /\.(jpe?g|png)$/i.test(f))
+            .map(f => path.resolve(__dirname, '..', f))
+            .filter(f => f.startsWith(IMAGES_DIR + path.sep) || f.startsWith(IMAGES_DIR + '/'));
+    } catch {
+        return [];
+    }
+}
 
 const VARIANTS = [
     { suffix: '.thumb.webp', width: 400, quality: 80 },
@@ -50,6 +74,24 @@ async function main() {
     if (!fs.existsSync(IMAGES_DIR)) {
         console.error('Directory immagini non trovata:', IMAGES_DIR);
         process.exit(1);
+    }
+
+    if (STAGED_ONLY) {
+        const stagedImages = getStagedImagePaths();
+        if (stagedImages.length === 0) {
+            console.log('Nessuna immagine JPG/PNG in staging. Skip.');
+            return;
+        }
+        console.log(`Trovate ${stagedImages.length} immagine/i staged.`);
+        let totalGenerated = 0;
+        let totalSkipped = 0;
+        for (const imgPath of stagedImages) {
+            const gen = await processImage(imgPath);
+            totalGenerated += gen;
+            totalSkipped += VARIANTS.length - gen;
+        }
+        console.log(`\nCompletato: ${totalGenerated} thumbnail generati, ${totalSkipped} già esistenti.`);
+        return;
     }
 
     const folders = fs.readdirSync(IMAGES_DIR, { withFileTypes: true })
