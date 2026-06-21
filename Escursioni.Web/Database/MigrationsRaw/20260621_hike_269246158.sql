@@ -54,7 +54,7 @@ Questa escursione è classificata come Difficile, per via del dislivello di 719 
   218,
   '3:38',
   1427,
-  'Difficile',
+  'Medio',
   'Anello',
   NULL,
   'Italia',
@@ -121,7 +121,7 @@ WHERE hike_id = (SELECT id FROM escursioni.hike WHERE wikiloc_id = 269246158);
 
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'cover', 'media/images/269246158/cover.jpg', 0,
+SELECT id, 'foto', 'media/images/269246158/cover.jpg', 0,
        NULL,
        NULL,
        NULL,
@@ -153,7 +153,7 @@ SELECT id, 'foto', 'media/images/269246158/photo_03.jpg', 3,
 FROM escursioni.hike WHERE wikiloc_id = 269246158;
 
 INSERT INTO escursioni.hike_media (hike_id, tipo, path_relativo, ordine, larghezza, altezza, sha256, filesize_bytes)
-SELECT id, 'foto', 'media/images/269246158/photo_04.jpg', 4,
+SELECT id, 'cover', 'media/images/269246158/photo_04.jpg', 4,
        NULL,
        NULL,
        NULL,
