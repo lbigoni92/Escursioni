@@ -12,5 +12,5 @@ Escursioni.UiTests
 Escursioni.MigrationEditor
 docker-compose*.yml
 *.md
-# Foto/GPX (~1.8GB): montate come volume in docker-compose.yml, non copiate nell'immagine
-Escursioni.Web/wwwroot/media
+# Foto e GPX (wwwroot/media) devono restare: il sito su Render li serve dall'immagine.
+# In locale docker-compose li monta anche come volume (le varianti .webp generate restano sul disco).
