@@ -20,10 +20,11 @@ public class IndexModel : PageModel
 
     /// <summary>Vette raggiunte, dalla più alta (Data/luoghi.json).</summary>
     public IReadOnlyList<Place> Vette => _places.OfType(PlaceType.Vetta);
-    /// <summary>Quanti luoghi per tipo (vette, rifugi, passi, laghi), solo i tipi presenti.</summary>
-    public List<(PlaceType Type, int Count)> Luoghi => PlaceType.All
-        .Select(t => (t, _places.OfType(t).Count))
-        .Where(x => x.Item2 > 0)
+    /// <summary>Quanti luoghi per tipo (vette, rifugi, passi, laghi) e il più alto, solo i tipi presenti.</summary>
+    public List<(PlaceType Type, int Count, Place Top)> Luoghi => PlaceType.All
+        .Select(t => _places.OfType(t))
+        .Where(list => list.Count > 0)
+        .Select(list => (list[0].Type, list.Count, list[0]))
         .ToList();
 
     public int TotaleDislivello { get; set; }

@@ -184,20 +184,18 @@ public class PageTests(SiteFactory site)
     }
 
     [Fact]
-    public async Task HomePage_ShowsTotalsRecordsAndPlaces()
+    public async Task HomePage_ShowsTotalsAndPlaces()
     {
         var html = await GetHtml("/");
         var all = site.Repository.All;
 
+        // I record personali sono nascosti per ora (commentati in Index.cshtml): qui solo totali e luoghi
         var gain = HikeDisplay.Number(all.Sum(h => h.DislivelloM ?? 0));
         Assert.Contains($"<strong>{gain}</strong> m di dislivello", html);
-        Assert.Contains($"href=\"/escursioni/{all.MaxBy(h => h.DistanzaKm ?? 0)!.Slug}\"", html);
-        Assert.Contains($"href=\"/escursioni/{all.MaxBy(h => h.DislivelloM ?? 0)!.Slug}\"", html);
-        Assert.Contains($"href=\"/escursioni/{all.MaxBy(h => h.QuotaMaxM ?? 0)!.Slug}\"", html);
 
         var places = site.Services.GetRequiredService<PlaceRepository>();
         foreach (var type in PlaceType.All.Where(t => places.OfType(t).Count > 0))
-            Assert.Contains($"<strong>{places.OfType(type).Count}</strong> {type.Titolo.ToLowerInvariant()}", html);
+            Assert.Matches($@"<a href=""/{type.Slug}""[^>]*>\s*<strong class=""place-card-count"">{places.OfType(type).Count}</strong>", html);
     }
 
     [Theory]

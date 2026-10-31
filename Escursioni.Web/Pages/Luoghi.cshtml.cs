@@ -50,6 +50,8 @@ public class LuoghiModel : PageModel
 
     public PlaceType Type { get; private set; } = PlaceType.Vetta;
     public IReadOnlyList<Place> Luoghi { get; private set; } = [];
+    /// <summary>Tutti i tipi con il loro numero di luoghi, per le schede in cima alla pagina.</summary>
+    public IReadOnlyList<(PlaceType Type, int Count)> Tipi => PlaceType.All.Select(t => (t, _places.OfType(t).Count)).ToList();
     public string H1 { get; private set; } = "";
     public string Subtitle { get; private set; } = "";
 

@@ -11,10 +11,11 @@
     }
     <h1 class="page-title">@Model.H1</h1>
     <p class="page-subtitle">@Model.Subtitle</p>
-    <nav class="place-tabs" aria-label="Altri luoghi raggiunti">
-        @foreach (var t in Escursioni.Web.Models.PlaceType.All.Where(t => t != Model.Type))
+    @* Sempre tutti e quattro i tipi, quello della pagina evidenziato *@
+    <nav class="place-tabs" aria-label="Luoghi raggiunti">
+        @foreach (var (t, count) in Model.Tipi)
         {
-            <a href="/@t.Slug" title="@t.Titolo raggiunti dalle mie escursioni">@t.Titolo</a>
+            <a href="/@t.Slug" title="@t.Titolo raggiunti dalle mie escursioni" aria-current="@(t == Model.Type ? "page" : null)">@t.Titolo <span class="place-tab-count">@count</span></a>
         }
     </nav>
 </header>

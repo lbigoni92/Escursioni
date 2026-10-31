@@ -1,5 +1,6 @@
 @inject IConfiguration Configuration
 @inject IHikeRepository Repo
+@inject PlaceRepository Places
 @{
     // Dichiarate fuori da <head>/<body>: i tag helper ne fanno degli scope separati
     var baseUrl = (Configuration["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
@@ -129,6 +130,23 @@
                 }
             </ul>
         </nav>
+
+        @if (Places.All.Count > 0)
+        {
+            <nav class="zone-nav" aria-label="Luoghi raggiunti">
+                <p class="nav-heading">Luoghi raggiunti</p>
+                <ul class="nav-list">
+                    @foreach (var type in Escursioni.Web.Models.PlaceType.All)
+                    {
+                        <li>
+                            <a class="zone-link" href="/@type.Slug" title="@type.Titolo raggiunti dalle mie escursioni" aria-current="@Current("/" + type.Slug)">
+                                <span>@type.Titolo</span><span class="zone-count">@Places.OfType(type).Count</span>
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </nav>
+        }
 
         @if (zones.Count > 0)
         {

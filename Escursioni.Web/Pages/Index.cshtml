@@ -24,10 +24,6 @@
             <li><strong>@Model.Zone.Count</strong> zone</li>
             <li><strong>@HikeDisplay.Number(Model.TotaleKm)</strong> km percorsi</li>
             <li title="Circa @(Model.TotaleDislivello / Escursioni.Web.Pages.IndexModel.EverestM) volte l'altezza dell'Everest"><strong>@HikeDisplay.Number(Model.TotaleDislivello)</strong> m di dislivello</li>
-            @if (Model.Vette.Count > 0)
-            {
-                <li><a href="/vette" title="Le vette raggiunte, dalla più alta"><strong>@Model.Vette.Count</strong> vette</a></li>
-            }
         </ul>
     </div>
     @if (heroHikes.Count == 3)
@@ -55,6 +51,44 @@
             }
         </ul>
     }
+</section>
+
+<section aria-labelledby="numeri">
+    <div class="section-head">
+        <h2 id="numeri">I numeri delle mie escursioni</h2>
+    </div>
+    @if (Model.Luoghi.Count > 0)
+    {
+        <ul class="place-cards" aria-label="Luoghi raggiunti">
+            @foreach (var (type, count, top) in Model.Luoghi)
+            {
+                <li>
+                    <a href="/@type.Slug" title="@type.Titolo raggiunti dalle mie escursioni">
+                        <strong class="place-card-count">@count</strong>
+                        <span class="place-card-label">@type.Titolo.ToLowerInvariant()</span>
+                        <span class="place-card-top">Quota massima: @top.Nome@(top.QuotaM is int q ? $", {HikeDisplay.Meters(q)}" : "")</span>
+                        <span class="place-card-go">Vedi l'elenco <span aria-hidden="true">→</span></span>
+                    </a>
+                </li>
+            }
+        </ul>
+    }
+    @* Nascosti per ora: dislivello totale con l'Everest e record personali (IndexModel.Record li calcola ancora)
+    <p class="stats-intro">
+        <strong>@HikeDisplay.Number(Model.TotaleDislivello) m</strong> di dislivello in salita: circa
+        <strong>@(Model.TotaleDislivello / Escursioni.Web.Pages.IndexModel.EverestM) volte l'altezza dell'Everest</strong>.
+    </p>
+    <ul class="record-grid" aria-label="Record personali">
+        @foreach (var (label, value, hike) in Model.Record)
+        {
+            <li>
+                <span class="record-label">@label</span>
+                <strong class="record-value">@value</strong>
+                <a href="/escursioni/@hike.Slug" title="@HikeDisplay.Title(hike)">@HikeDisplay.Title(hike)</a>
+            </li>
+        }
+    </ul>
+    *@
 </section>
 
 <section aria-labelledby="ultime">
@@ -98,35 +132,6 @@
         </ol>
     </section>
 }
-
-<section aria-labelledby="numeri">
-    <div class="section-head">
-        <h2 id="numeri">I numeri delle mie escursioni</h2>
-    </div>
-    <p class="stats-intro">
-        <strong>@HikeDisplay.Number(Model.TotaleDislivello) m</strong> di dislivello in salita: circa
-        <strong>@(Model.TotaleDislivello / Escursioni.Web.Pages.IndexModel.EverestM) volte l'altezza dell'Everest</strong>.
-    </p>
-    <ul class="record-grid" aria-label="Record personali">
-        @foreach (var (label, value, hike) in Model.Record)
-        {
-            <li>
-                <span class="record-label">@label</span>
-                <strong class="record-value">@value</strong>
-                <a href="/escursioni/@hike.Slug" title="@HikeDisplay.Title(hike)">@HikeDisplay.Title(hike)</a>
-            </li>
-        }
-    </ul>
-    @if (Model.Luoghi.Count > 0)
-    {
-        <ul class="place-counts" aria-label="Luoghi raggiunti">
-            @foreach (var (type, count) in Model.Luoghi)
-            {
-                <li><a href="/@type.Slug" title="@type.Titolo raggiunti dalle mie escursioni"><strong>@count</strong> @type.Titolo.ToLowerInvariant()</a></li>
-            }
-        </ul>
-    }
-</section>
 
 <div class="about-warning">
     <div>
