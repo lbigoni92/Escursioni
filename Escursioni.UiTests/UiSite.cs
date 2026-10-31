@@ -15,7 +15,7 @@ namespace Escursioni.UiTests;
 
 /// <summary>
 /// Avvia il sito su Kestrel con le escursioni di prova (Fixtures/hikes) e un Chromium headless.
-/// Le richieste esterne non deterministiche (tile della mappa, Nominatim, Web3Forms) sono simulate;
+/// Le richieste esterne non deterministiche (tile della mappa, Nominatim) sono simulate;
 /// Leaflet viene ancora scaricato da unpkg/cdnjs come sul sito vero.
 /// </summary>
 public sealed class UiSite : IAsyncLifetime
@@ -41,7 +41,6 @@ public sealed class UiSite : IAsyncLifetime
             b.UseEnvironment("Production");
             b.UseSetting("Images:Prewarm:Enabled", "false");
             b.UseSetting("Data:HikesPath", FixtureHikesDir);
-            b.UseSetting("Contact:Web3FormsAccessKey", "chiave-di-test");
         });
         _factory.UseKestrel(port);
         _factory.StartServer();
@@ -97,7 +96,6 @@ public sealed class UiSite : IAsyncLifetime
             ContentType = "application/json",
             Body = $$"""[{"lat":"{{GeocodedLat.ToString(System.Globalization.CultureInfo.InvariantCulture)}}","lon":"{{GeocodedLon.ToString(System.Globalization.CultureInfo.InvariantCulture)}}"}]""",
         }));
-        await context.RouteAsync("https://api.web3forms.com/**", r => r.FulfillAsync(new() { ContentType = "application/json", Body = """{"success":true,"message":"ok"}""" }));
 
         return await context.NewPageAsync();
     }

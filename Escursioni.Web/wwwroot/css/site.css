@@ -1948,27 +1948,6 @@ a.eyebrow:hover {
     flex: 3 1 240px;
 }
 
-.form-field--checkbox {
-    flex-direction: row;
-    align-items: center;
-    gap: 0.6rem;
-}
-
-.form-field--checkbox input[type="checkbox"] {
-    width: 1.15rem;
-    height: 1.15rem;
-    margin: 0;
-    accent-color: var(--primary);
-}
-
-.form-field--checkbox label {
-    font-size: 0.95rem;
-    font-weight: 400;
-    text-transform: none;
-    letter-spacing: 0;
-    color: var(--text);
-}
-
 .form-field label {
     font-size: 0.78rem;
     font-weight: 700;
@@ -1989,11 +1968,6 @@ a.eyebrow:hover {
     font: inherit;
     font-size: 0.95rem;
     transition: border-color 0.15s, box-shadow 0.15s;
-}
-
-textarea.input-text {
-    min-height: 140px;
-    resize: vertical;
 }
 
 .input-text::placeholder {
@@ -2064,10 +2038,8 @@ textarea.input-text {
     color: var(--text-muted);
 }
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.1rem;
+/* Contatti: nessun modulo, solo il link email */
+.contact-card {
     max-width: 620px;
     padding: 1.5rem;
     border: 1px solid var(--border);
@@ -2075,25 +2047,14 @@ textarea.input-text {
     background: var(--surface);
 }
 
-.contact-form .form-field {
-    flex: none;
+.contact-card p {
+    margin: 0 0 1rem;
 }
 
-.form-success,
-.form-error {
-    padding: 0.8rem 1rem;
-    border-radius: var(--radius-sm);
-    font-weight: 500;
-}
-
-.form-success {
-    background: var(--primary-soft);
-    color: var(--primary);
-}
-
-.form-error {
-    background: var(--danger-soft);
-    color: var(--danger);
+.contact-card .contact-note {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
 }
 
 .privacy-info {

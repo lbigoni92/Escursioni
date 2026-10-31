@@ -9,6 +9,11 @@ on:
   push:
     branches: [master]
   workflow_dispatch:
+    inputs:
+      tutte:
+        description: "Ricalcola vette, rifugi, passi e laghi di tutte le escursioni (es. dopo aver cambiato dei GPX)"
+        type: boolean
+        default: false
 
 concurrency:
   group: deploy
@@ -17,7 +22,7 @@ concurrency:
 jobs:
   luoghi:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     permissions:
       contents: write
     steps:
@@ -29,11 +34,12 @@ jobs:
         with:
           dotnet-version: 10.0.x
 
-      # OpenStreetMap (Overpass): se non risponde il workflow prosegue e le escursioni
-      # mancanti vengono ricontrollate al push successivo.
+      # OpenStreetMap (Overpass): se non risponde o il tempo finisce si salva quello che c'è
+      # e le escursioni mancanti vengono ricontrollate al push successivo.
       - name: Aggiorna luoghi delle escursioni nuove
         continue-on-error: true
-        run: dotnet run --project Escursioni.Web -c Release --no-launch-profile -- --luoghi
+        timeout-minutes: 25
+        run: dotnet run --project Escursioni.Web -c Release --no-launch-profile -- --luoghi --minuti 15 ${{ inputs.tutte && '--tutte' || '' }}
 
       - name: Salva luoghi nel repository
         run: |
@@ -65,8 +71,6 @@ jobs:
         run: dotnet test Escursioni.Tests -c Release
 
       - name: Genera sito statico
-        env:
-          Contact__Web3FormsAccessKey: ${{ vars.WEB3FORMS_ACCESS_KEY }}
         run: dotnet run --project Escursioni.Web -c Release --no-launch-profile -- --export ../dist
 
       - name: Pubblica su Cloudflare Pages

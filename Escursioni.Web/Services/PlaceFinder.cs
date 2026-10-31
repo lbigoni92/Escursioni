@@ -27,11 +27,19 @@ public static class PlaceFinder
     /// <summary>Luogo letto da Overpass. Shore: vertici della riva (solo laghi).</summary>
     private record OsmPlace(string Osm, string Tipo, string Name, double Lat, double Lon, int? Ele, List<double[]>? Shore);
 
-    public static async Task<int> RunAsync(HikeRepository repo, string contentRoot, bool all)
+    /// <param name="maxTime">
+    /// Tempo massimo per i download (--minuti N): allo scadere si salva quello che c'è e il resto
+    /// si completa al giro successivo. Serve su GitHub Actions, che interrompe il job senza salvare.
+    /// </param>
+    public static async Task<int> RunAsync(HikeRepository repo, string contentRoot, bool all, TimeSpan? maxTime = null)
     {
+        var deadline = maxTime is TimeSpan t ? DateTime.UtcNow + t : DateTime.MaxValue;
         var dataPath = Path.Combine(contentRoot, "Data", "luoghi.json");
-        var file = all ? new PlaceFile() : PlaceRepository.ReadFile(dataPath);
+        var previous = PlaceRepository.ReadFile(dataPath);
+        var file = all ? new PlaceFile() : previous;
         var places = file.Luoghi.ToDictionary(p => p.Osm);
+        // Anche con --tutte i parchi già trovati si riusano: cercarli è la parte più lenta
+        var knownParks = previous.Luoghi.Where(p => p.Parco != null).ToDictionary(p => p.Osm, p => p.Parco);
 
         using var http = new HttpClient { Timeout = TimeSpan.FromSeconds(180) };
         http.DefaultRequestHeaders.UserAgent.ParseAdd("EscursioniLucaBigoni/1.0 (+https://escursionilucabigoni.it)");
@@ -56,6 +64,11 @@ public static class PlaceFinder
         var tilePlaces = new Dictionary<(int, int), List<OsmPlace>>();
         foreach (var tile in tiles)
         {
+            if (DateTime.UtcNow > deadline)
+            {
+                Console.WriteLine("[Luoghi] tempo esaurito: i riquadri mancanti si scaricano al prossimo giro");
+                break;
+            }
             try
             {
                 tilePlaces[tile] = await QueryTileAsync(http, tile);
@@ -79,6 +92,7 @@ public static class PlaceFinder
             }
 
             var found = new List<string>();
+            var foundPlaces = new List<OsmPlace>();
             foreach (var c in hikeTiles.SelectMany(t => tilePlaces[t]).DistinctBy(c => c.Osm))
             {
                 var (distance, ele) = c.Shore == null
@@ -86,6 +100,10 @@ public static class PlaceFinder
                     : DistanceToShore(track, c.Shore);
                 if (distance > PlaceType.Get(c.Tipo).MaxDistanceM)
                     continue;
+                // Stesso luogo mappato due volte su OSM (es. lago come way e come relazione): uno solo
+                if (foundPlaces.Any(f => f.Tipo == c.Tipo && f.Name == c.Name && DistanceM(f.Lat, f.Lon, c.Lat, c.Lon) < 1000))
+                    continue;
+                foundPlaces.Add(c);
                 found.Add(c.Osm);
                 // Luogo già trovato da un'altra traccia: resta com'è (con il parco già cercato)
                 places.TryAdd(c.Osm, new Place
@@ -96,6 +114,7 @@ public static class PlaceFinder
                     QuotaM = c.Ele ?? (ele is double e ? (int)Math.Round(e) : null),
                     Lat = Math.Round((decimal)c.Lat, 6),
                     Lon = Math.Round((decimal)c.Lon, 6),
+                    Parco = knownParks.GetValueOrDefault(c.Osm),
                 });
             }
             file.Escursioni[key] = found;
@@ -109,7 +128,7 @@ public static class PlaceFinder
         {
             try
             {
-                await FindParksAsync(http, withoutPark);
+                await FindParksAsync(http, withoutPark, deadline);
             }
             catch (Exception ex)
             {
@@ -175,7 +194,8 @@ public static class PlaceFinder
     /// </summary>
     private static async Task<List<OsmPlace>> QueryTileAsync(HttpClient http, (int Y, int X) tile)
     {
-        var cache = Path.Combine(Path.GetTempPath(), "escursioni-luoghi", $"{tile.Y}_{tile.X}.json");
+        // Cambiare la versione della cartella quando cambia cosa si legge da Overpass (v2: name:it)
+        var cache = Path.Combine(Path.GetTempPath(), "escursioni-luoghi-v2", $"{tile.Y}_{tile.X}.json");
         if (File.Exists(cache) && File.GetLastWriteTimeUtc(cache) > DateTime.UtcNow.AddDays(-30))
             return JsonSerializer.Deserialize<List<OsmPlace>>(await File.ReadAllTextAsync(cache))!;
         var result = await DownloadTileAsync(http, tile);
@@ -221,7 +241,8 @@ public static class PlaceFinder
                 continue;
 
             var osm = $"{e.GetProperty("type").GetString()}/{e.GetProperty("id").GetInt64()}";
-            var name = Tag("name")!.Trim();
+            // In Alto Adige e Dolomiti "name" è plurilingue ("Jouf de Pordoi - Passo Pordoi - Pordoijoch"): meglio quello italiano
+            var name = (Tag("name:it") ?? Tag("name"))!.Trim();
             var ele = ParseEle(Tag("ele"));
             if (tipo == "lago")
             {
@@ -257,10 +278,15 @@ public static class PlaceFinder
     /// Parco o riserva che contiene ogni luogo (is_in di Overpass sulle coordinate, 50 luoghi per richiesta).
     /// Si scartano i siti Natura 2000 (ZSC, ZPS...), che sono aree protette ma non parchi.
     /// </summary>
-    private static async Task FindParksAsync(HttpClient http, List<Place> places)
+    private static async Task FindParksAsync(HttpClient http, List<Place> places, DateTime deadline)
     {
         foreach (var chunk in places.Chunk(50))
         {
+            if (DateTime.UtcNow > deadline)
+            {
+                Console.WriteLine("[Luoghi] tempo esaurito: i parchi mancanti si cercano al prossimo giro");
+                return;
+            }
             // Ogni luogo: un elemento "luogo" come separatore, poi le aree che lo contengono
             var query = new StringBuilder("[out:json][timeout:180];\n");
             foreach (var p in chunk)
@@ -337,6 +363,14 @@ public static class PlaceFinder
                 ? m.Groups[3].Value
                 : "." + m.Groups[3].Value;
         return (int)Math.Round(double.Parse(number, CultureInfo.InvariantCulture));
+    }
+
+    /// <summary>Distanza approssimata in metri tra due punti vicini.</summary>
+    private static double DistanceM(double lat1, double lon1, double lat2, double lon2)
+    {
+        var dy = (lat2 - lat1) * 111_320;
+        var dx = (lon2 - lon1) * 111_320 * Math.Cos(lat1 * Math.PI / 180);
+        return Math.Sqrt(dx * dx + dy * dy);
     }
 
     /// <summary>Distanza minima tra la riva del lago e la traccia, con la quota GPX di quel punto.</summary>

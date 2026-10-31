@@ -45,11 +45,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 async: true,
                 polyline_options: { color: trackColor, weight: 4, opacity: 0.9 },
                 marker_options: {
-                    startIconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-green.png',
-                    endIconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-red.png',
-                    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
+                    startIconUrl: '/images/markers/marker-icon-green.png',
+                    endIconUrl: '/images/markers/marker-icon-red.png',
+                    shadowUrl: '/images/markers/marker-shadow.png',
                     wptIconUrls: {
-                        '': 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-blue.png'
+                        '': '/images/markers/marker-icon-blue.png'
                     }
                 }
             }).on('loaded', function(e) {

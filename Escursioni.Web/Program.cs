@@ -41,8 +41,13 @@ var hikeRepository = HikeRepository.LoadFromDirectory(hikesDir);
 Console.WriteLine($"[LOG] Caricate {hikeRepository.All.Count} escursioni da {hikesDir}");
 
 // Vette, rifugi, passi e laghi (Data/luoghi.json). `dotnet run -- --luoghi` li ricava dalle tracce GPX e termina
+// Opzioni: --tutte (ricalcola tutto), --minuti N (tempo massimo, poi salva e riprende al giro dopo)
 if (args.Contains("--luoghi"))
-    return await PlaceFinder.RunAsync(hikeRepository, builder.Environment.ContentRootPath, all: args.Contains("--tutte"));
+{
+    var minuti = Array.IndexOf(args, "--minuti") is var i and >= 0 && i + 1 < args.Length && int.TryParse(args[i + 1], out var m) ? m : (int?)null;
+    return await PlaceFinder.RunAsync(hikeRepository, builder.Environment.ContentRootPath, all: args.Contains("--tutte"),
+        maxTime: minuti is int n ? TimeSpan.FromMinutes(n) : null);
+}
 var placeRepository = PlaceRepository.Load(Path.Combine(builder.Environment.ContentRootPath, "Data", "luoghi.json"), hikeRepository);
 if (placeRepository.Unchecked > 0)
     Console.WriteLine($"[LOG] {placeRepository.Unchecked} escursioni senza vette/rifugi/passi/laghi: esegui dotnet run --project Escursioni.Web -- --luoghi");

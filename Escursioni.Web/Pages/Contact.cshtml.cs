@@ -2,10 +2,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Escursioni.Web.Pages;
 
-/// <summary>
-/// Pagina statica: il form invia direttamente a Web3Forms (https://web3forms.com)
-/// che inoltra il messaggio via email. La access key è pubblica per design.
-/// </summary>
+/// <summary>Pagina statica: nessun modulo, solo il link email (Site:ContactEmail).</summary>
 public class ContactModel : PageModel
 {
     private readonly IConfiguration _config;
@@ -16,7 +13,6 @@ public class ContactModel : PageModel
     }
 
     public string ContactEmail { get; set; } = "";
-    public string? Web3FormsAccessKey { get; set; }
 
     public void OnGet()
     {
@@ -30,8 +26,6 @@ public class ContactModel : PageModel
         ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";
         ViewData["Breadcrumbs"] = new List<(string Label, string Url)> { ("Contatti", "") };
         ContactEmail = _config["Site:ContactEmail"] ?? "luca.bigoni@live.it";
-        Web3FormsAccessKey = _config["Contact:Web3FormsAccessKey"];
-
         // JSON-LD ContactPage
         ViewData["JsonLd"] = $@"{{
   ""@context"": ""https://schema.org"",

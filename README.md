@@ -39,13 +39,13 @@ dist/  (HTML + sitemap.xml + feed/rss + _redirects + _headers + media)
 - **Dati**: un file JSON per escursione in `Escursioni.Web/Data/hikes/`. Le chiavi sono quelle delle vecchie colonne del DB (`titolo`, `titolo_seo`, `meta_descrizione`, `tag`, `media`, ...). All'avvio il sito li carica tutti in memoria.
 - **Generazione**: `--export` avvia il sito in memoria (TestServer), richiede ogni URL e salva l'HTML. Gli URL restano identici (`/escursioni/{slug}`, `/escursioni/zona/{slug}`, `/mappa`, ...), senza `.html` né slash finale.
 - **Ricerca**: `/ricerca` (noindex) filtra nel browser `data/search-index.json` con gli stessi parametri di prima (`?Q=`, `?Comune=`, `RaggioKm`, `OrdinaPer`, `PageNumber`). La località viene geocodificata con Nominatim (OpenStreetMap).
-- **Contatti**: il form invia a [Web3Forms](https://web3forms.com) (gratis fino a 250 messaggi/mese). Senza chiave configurata la pagina mostra il link email.
+- **Contatti**: nessun modulo, solo il link email (`Site:ContactEmail` in `appsettings.json`).
 - **Vette, rifugi, passi e laghi**: `/vette`, `/rifugi`, `/passi`, `/laghi`, la home e il riquadro "Sul percorso" delle schede elencano i luoghi di OpenStreetMap (con nome) vicini a una traccia GPX: vette e passi entro 50 m, rifugi e bivacchi entro 75 m, laghi entro 100 m dalla riva (soglie in `PlaceType`). Per ogni luogo: quota, zona (la più frequente tra le sue escursioni) e parco.
-  - Sono calcolati da `dotnet run --project Escursioni.Web -- --luoghi` e salvati in `Escursioni.Web/Data/luoghi.json`. Il comando controlla solo le escursioni nuove; `-- --luoghi --tutte` ricalcola tutto (es. dopo aver cambiato un GPX).
+  - Sono calcolati da `dotnet run --project Escursioni.Web -- --luoghi` e salvati in `Escursioni.Web/Data/luoghi.json`. Il comando controlla solo le escursioni nuove; `-- --luoghi --tutte` ricalcola tutto (es. dopo aver cambiato un GPX), riusando i parchi già trovati. Lo stesso da GitHub: **Actions → Deploy sito statico → Run workflow** con "tutte" spuntato (lì Overpass risponde molto più in fretta). Dove OpenStreetMap ha il nome italiano (`name:it`) si usa quello.
   - **GitHub Actions lo esegue da solo** a ogni push su `master` e committa `luoghi.json` se è cambiato; quel commit fa ripartire l'auto-deploy di Render. Aggiungendo un'escursione non serve fare nulla: dopo qualche minuto il sito si aggiorna una seconda volta con i nuovi luoghi. Se Overpass non risponde l'escursione viene ricontrollata al push successivo.
   - In locale le cime scaricate restano in cache 30 giorni (`%TEMP%/escursioni-luoghi`).
 - **Numeri in home**: km, dislivello totale (con il confronto con l'Everest) e record (escursione più lunga, con più dislivello, più alta) sono calcolati a ogni generazione dai JSON delle escursioni.
-- **Pagine legali**: `/privacy` e `/note-legali` (noindex, linkate nel footer). La voce Web3Forms nella privacy compare solo con la chiave configurata. Cloudflare Web Analytics (snippet nel `_Layout.cshtml`, incluso solo in ambiente Production: l'export del deploy usa `--no-launch-profile`) è citato sempre: se lo disattivi, toglilo dalla privacy. Se aggiungi un servizio esterno (embed, font, CDN) va citato nella privacy.
+- **Pagine legali**: `/privacy` e `/note-legali` (noindex, linkate nel footer). Cloudflare Web Analytics (snippet nel `_Layout.cshtml`, incluso solo in ambiente Production: l'export del deploy usa `--no-launch-profile`) è citato sempre: se lo disattivi, toglilo dalla privacy. Se aggiungi un servizio esterno (embed, font, CDN) va citato nella privacy.
 - **Slug**: le lettere accentate vengono eliminate (`più` → `pi`), come faceva il vecchio server in produzione. Sono gli URL indicizzati: non cambiare `MakeSlug` senza aggiungere redirect 301.
 - **Titoli uguali**: se un'escursione ha lo stesso titolo di una precedente (in ordine di `created_at`), il suo slug riceve mese e anno (`calambrone-marzo-2019`), poi il `wikiloc_id`. Gli URL già pubblicati non cambiano.
 
@@ -85,9 +85,7 @@ Configurazione una tantum:
 2. Crea un API token con permesso **Cloudflare Pages: Edit** e copia l'Account ID.
 3. Su GitHub, in **Settings → Secrets and variables → Actions**:
    - secret `CLOUDFLARE_API_TOKEN`, secret `CLOUDFLARE_ACCOUNT_ID`
-   - variabile `CF_PAGES_PROJECT` = nome del progetto (finché manca, il workflow non parte)
-   - variabile `WEB3FORMS_ACCESS_KEY` = chiave Web3Forms per il form contatti
-4. Lancia il workflow **Deploy sito statico** (o fai un push) e controlla il sito sull'URL `*.pages.dev`.
+   - variabile `CF_PAGES_PROJECT` = nome del progetto (finché manca, il workflow non parte)4. Lancia il workflow **Deploy sito statico** (o fai un push) e controlla il sito sull'URL `*.pages.dev`.
 5. Collega il dominio `escursionilucabigoni.it` al progetto (Custom domains) e aggiungi una regola di redirect `www` → senza `www`.
 6. Quando il sito su Cloudflare risponde correttamente, spegni il servizio web e il database PostgreSQL su Render e il monitor UptimeRobot.
 

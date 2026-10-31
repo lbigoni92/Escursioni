@@ -9,84 +9,15 @@
         </p>
     </header>
 
-    @if (!string.IsNullOrWhiteSpace(Model.Web3FormsAccessKey))
-    {
-        <form method="post" action="https://api.web3forms.com/submit" class="contact-form" id="contact-form" autocomplete="off" asp-antiforgery="false">
-            <input type="hidden" name="access_key" value="@Model.Web3FormsAccessKey" />
-            <input type="hidden" name="subject" value="Nuovo messaggio dal sito Escursioni" />
-            <input type="hidden" name="from_name" value="Sito Escursioni Luca Bigoni" />
-            <!-- Honeypot anti-spam: deve restare vuoto -->
-            <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off" />
-
-            <div class="form-field">
-                <label for="Name">Nome</label>
-                <input id="Name" name="name" class="input-text" placeholder="Il tuo nome" required />
-            </div>
-            <div class="form-field">
-                <label for="Email">Email</label>
-                <input id="Email" name="email" type="email" class="input-text" placeholder="La tua email" required />
-            </div>
-            <div class="form-field">
-                <label for="Message">Messaggio</label>
-                <textarea id="Message" name="message" class="input-text" rows="5" maxlength="2000" placeholder="Scrivi qui il tuo messaggio..." required></textarea>
-            </div>
-            <div class="form-field form-field--checkbox">
-                <input type="checkbox" id="privacyconsent" required />
-                <label for="privacyconsent">Ho letto l'<a href="/privacy" target="_blank" title="Privacy policy">informativa privacy</a></label>
-            </div>
-            <div class="form-field form-field--buttons">
-                <button class="btn" type="submit">Invia messaggio</button>
-            </div>
-            <div class="form-success" id="contact-success" hidden>Messaggio inviato con successo! Ti risponderò appena possibile.</div>
-            <div class="form-error" id="contact-error" hidden></div>
-        </form>
-    }
-    else
-    {
-        <p>Scrivimi a <a href="mailto:@Model.ContactEmail" title="Scrivi una email">@Model.ContactEmail</a>.</p>
-    }
+    <div class="contact-card">
+        <p>Il modo più semplice per contattarmi è scrivermi un'email:</p>
+        <p><a class="btn" href="mailto:@Model.ContactEmail" title="Scrivi una email a Luca Bigoni">@Model.ContactEmail</a></p>
+        <p class="contact-note">Se segnali un problema su un sentiero, indica il nome dell'escursione o il link alla sua pagina.</p>
+    </div>
 
     <div class="privacy-info">
         <small>
-            I dati inviati saranno utilizzati solo per rispondere alla tua richiesta, secondo la normativa privacy (GDPR). Per dettagli consulta la <a href="/privacy" title="Pagina Privacy">pagina Privacy</a>.
+            I dati che mi invii via email saranno utilizzati solo per rispondere alla tua richiesta, secondo la normativa privacy (GDPR). Per dettagli consulta la <a href="/privacy" title="Pagina Privacy">pagina Privacy</a>.
         </small>
     </div>
 </section>
-
-@section Scripts {
-<script>
-(function () {
-    var form = document.getElementById('contact-form');
-    if (!form) return;
-    var ok = document.getElementById('contact-success');
-    var err = document.getElementById('contact-error');
-    form.addEventListener('submit', function (e) {
-        e.preventDefault();
-        ok.hidden = true;
-        err.hidden = true;
-        var btn = form.querySelector('button[type="submit"]');
-        btn.disabled = true;
-        fetch(form.action, {
-            method: 'POST',
-            headers: { 'Accept': 'application/json' },
-            body: new FormData(form)
-        })
-            .then(function (r) { return r.json(); })
-            .then(function (data) {
-                if (data.success) {
-                    form.reset();
-                    ok.hidden = false;
-                } else {
-                    err.textContent = 'Errore nell\'invio del messaggio: ' + (data.message || 'riprova più tardi.');
-                    err.hidden = false;
-                }
-            })
-            .catch(function () {
-                err.textContent = 'Errore nell\'invio del messaggio. Riprova più tardi.';
-                err.hidden = false;
-            })
-            .finally(function () { btn.disabled = false; });
-    });
-})();
-</script>
-}

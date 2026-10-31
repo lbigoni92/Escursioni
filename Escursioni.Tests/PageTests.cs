@@ -219,22 +219,10 @@ public class PageTests(SiteFactory site)
     }
 
     [Fact]
-    public async Task ContactPage_WithoutKey_ShowsEmailLink()
+    public async Task ContactPage_ShowsEmailLink_WithoutForm()
     {
         var html = await GetHtml("/contatti");
-        Assert.Contains("mailto:", html);
+        Assert.Contains("href=\"mailto:luca.bigoni@live.it\"", html);
         Assert.DoesNotContain("api.web3forms.com", html);
-    }
-
-    [Fact]
-    public async Task ContactPage_WithKey_PostsToWeb3Forms_WithoutAntiforgery()
-    {
-        using var withKey = site.WithWebHostBuilder(b => b.UseSetting("Contact:Web3FormsAccessKey", "test-key-123"));
-        var html = await withKey.CreateClient().GetStringAsync("/contatti");
-
-        Assert.Contains("action=\"https://api.web3forms.com/submit\"", html);
-        Assert.Contains("name=\"access_key\" value=\"test-key-123\"", html);
-        Assert.Contains("name=\"botcheck\"", html);
-        Assert.DoesNotContain("__RequestVerificationToken", html);
     }
 }

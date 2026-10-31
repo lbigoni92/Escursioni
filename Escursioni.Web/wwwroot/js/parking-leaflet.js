@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }).addTo(map);
 
     var defaultIcon = L.icon({
-        iconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-blue.png',
-        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
+        iconUrl: '/images/markers/marker-icon-blue.png',
+        shadowUrl: '/images/markers/marker-shadow.png',
         iconSize: [25, 41],
         iconAnchor: [12, 41],
         popupAnchor: [1, -34],

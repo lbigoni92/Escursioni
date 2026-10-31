@@ -205,22 +205,4 @@ public class BrowserTests(UiSite site) : IAsyncLifetime
         foreach (var href in new[] { "/escursioni", "/mappa", "/ricerca", "/chi-sono", "/contatti" })
             Assert.True(await page.Locator($"#main-nav a[href='{href}']").IsVisibleAsync(), $"voce di menu {href} non visibile");
     }
-
-    [Fact]
-    public async Task ContactForm_SendsToWeb3Forms_AndShowsConfirmation()
-    {
-        var page = await site.NewPageAsync();
-        string? sentKey = null;
-        page.Request += (_, req) => { if (req.Url.StartsWith("https://api.web3forms.com/")) sentKey = req.PostData; };
-
-        await page.GotoAsync("/contatti");
-        await page.FillAsync("#Name", "Mario Rossi");
-        await page.FillAsync("#Email", "mario@example.com");
-        await page.FillAsync("#Message", "Messaggio di prova");
-        await page.CheckAsync("#privacyconsent");
-        await page.ClickAsync("#contact-form [type=submit]");
-
-        await page.Locator("#contact-success").WaitForAsync(new() { State = WaitForSelectorState.Visible });
-        Assert.Contains("chiave-di-test", sentKey);
-    }
 }

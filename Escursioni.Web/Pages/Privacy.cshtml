@@ -3,8 +3,6 @@
 @{
     var _baseUrl = (Configuration["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
     var _email = Configuration["Site:ContactEmail"] ?? "luca.bigoni@live.it";
-    // Come in Contatti: senza chiave il modulo non c'è e si scrive direttamente via email
-    var _hasForm = !string.IsNullOrWhiteSpace(Configuration["Contact:Web3FormsAccessKey"]);
     ViewData["Title"] = "Privacy Policy | Escursioni Luca Bigoni";
     ViewData["MetaDescription"] = "Informativa sulla privacy, trattamento dati personali, cookie e diritti degli utenti di Escursioni Luca Bigoni.";
     ViewData["CanonicalUrl"] = $"{_baseUrl}/privacy";
@@ -23,7 +21,7 @@
 
 <h2>Tipi di dati trattati</h2>
 <ul>
-    <li><strong>Dati forniti volontariamente:</strong> nome, email e messaggio inseriti nel modulo di contatto, oppure i dati contenuti nelle email inviate al titolare.</li>
+    <li><strong>Dati forniti volontariamente:</strong> indirizzo email, nome e contenuto delle email inviate al titolare.</li>
     <li><strong>Dati di navigazione:</strong> indirizzo IP, orario della richiesta, browser e pagine visitate vengono registrati automaticamente dai fornitori tecnici indicati sotto, per motivi di sicurezza e di funzionamento.</li>
     <li><strong>Statistiche di visita:</strong> pagine viste, provenienza, tipo di dispositivo e tempi di caricamento, raccolti in forma aggregata da Cloudflare Web Analytics senza identificare i singoli visitatori.</li>
     <li><strong>Località cercata:</strong> se usi la ricerca per località, il nome inserito viene inviato al servizio di geocodifica Nominatim (OpenStreetMap) per ottenere le coordinate.</li>
@@ -39,25 +37,18 @@
 
 <h2>Modalità e durata della conservazione</h2>
 <p>I messaggi sono conservati nella casella email del titolare per il tempo necessario a gestire la richiesta e comunque non oltre 12 mesi dalla ricezione, salvo obblighi di legge o richiesta di cancellazione anticipata. I dati di navigazione sono conservati dai fornitori tecnici secondo le rispettive policy.</p>
-@if (_hasForm)
-{
-    <p>Web3Forms conserva una copia dei messaggi inviati dal modulo per un massimo di 3 anni, salvo cancellazione anticipata da parte del titolare.</p>
-}
 
 <h2>Fornitori tecnici e trasferimento dati</h2>
 <p>Per far funzionare il sito vengono usati i seguenti servizi, che possono ricevere il tuo indirizzo IP e i dati tecnici della richiesta:</p>
 <ul>
-    <li><strong>Cloudflare, Inc.</strong> (Stati Uniti) – hosting del sito (Cloudflare Pages), statistiche aggregate (Cloudflare Web Analytics) e distribuzione delle librerie tramite cdnjs. <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Privacy policy</a></li>
-    @if (_hasForm)
-    {
-        <li><strong>Web3Forms</strong> (Web3Creative, India; server su Amazon Web Services) – riceve i dati del modulo di contatto e li inoltra via email al titolare. Per bloccare lo spam, indirizzo IP ed email possono essere verificati dal servizio CleanTalk. <a href="https://web3forms.com/privacy" target="_blank" rel="noopener">Privacy policy</a></li>
-    }
+    <li><strong>Render Services, Inc.</strong> (Stati Uniti) – hosting del sito, su server situati a Francoforte (Germania). <a href="https://render.com/privacy" target="_blank" rel="noopener">Privacy policy</a></li>
+    <li><strong>Cloudflare, Inc.</strong> (Stati Uniti) – statistiche aggregate (Cloudflare Web Analytics) e distribuzione delle librerie delle mappe tramite cdnjs. <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Privacy policy</a></li>
     <li><strong>Microsoft</strong> (Outlook) – casella email del titolare in cui arrivano i messaggi.</li>
     <li><strong>OpenStreetMap Foundation</strong> (Regno Unito) – sfondi delle mappe e geocodifica Nominatim. <a href="https://osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">Privacy policy</a></li>
     <li><strong>unpkg.com</strong> – distribuzione della libreria delle mappe (Leaflet) nelle pagine con mappa.</li>
 </ul>
 <p><strong>Cloudflare Web Analytics</strong> è lo strumento statistico fornito da Cloudflare, Inc. (Stati Uniti). Non usa cookie né localStorage e non raccoglie identificativi personali: i dati sono aggregati e usati solo per le statistiche di visita del sito. Il trasferimento dei dati fuori dall’Unione Europea avviene sulla base delle Clausole Contrattuali Standard approvate dalla Commissione Europea. <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Privacy policy di Cloudflare</a></p>
-<p>Alcuni di questi fornitori hanno sede o server fuori dall’Unione Europea. I trasferimenti avvengono sulla base di una decisione di adeguatezza della Commissione Europea (ad esempio Regno Unito, o EU-US Data Privacy Framework per i fornitori statunitensi certificati) oppure delle Clausole Contrattuali Standard approvate dalla Commissione Europea@(_hasForm ? " (per Web3Forms, incluse nel suo accordo sul trattamento dei dati)" : "").</p>
+<p>Alcuni di questi fornitori hanno sede o server fuori dall’Unione Europea. I trasferimenti avvengono sulla base di una decisione di adeguatezza della Commissione Europea (ad esempio Regno Unito, o EU-US Data Privacy Framework per i fornitori statunitensi certificati) oppure delle Clausole Contrattuali Standard approvate dalla Commissione Europea.</p>
 
 <h2>Diritti degli interessati</h2>
 <p>Puoi esercitare in qualsiasi momento i diritti previsti dagli artt. 15-22 GDPR: accesso ai tuoi dati, rettifica, cancellazione, limitazione del trattamento, portabilità e opposizione al trattamento, scrivendo a <a href="mailto:@_email">@_email</a>.</p>
