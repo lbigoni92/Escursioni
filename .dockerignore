@@ -13,4 +13,4 @@ Escursioni.MigrationEditor
 docker-compose*.yml
 *.md
 # Foto e GPX (wwwroot/media) devono restare: il sito su Render li serve dall'immagine.
-# In locale docker-compose li monta anche come volume (le varianti .webp generate restano sul disco).
+# In locale docker-compose usa Dockerfile.dev, con il suo Dockerfile.dev.dockerignore che li esclude.

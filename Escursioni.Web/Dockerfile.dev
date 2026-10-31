@@ -1,24 +1,27 @@
-# Dockerfile per sviluppo (dev)
-FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+# Dockerfile per docker-compose in locale: identico a Dockerfile (Render), ma foto e GPX
+# restano fuori dall'immagine (Dockerfile.dev.dockerignore) perché docker-compose li monta
+# come volume. Senza, la build carica ~1,9 GB a ogni avvio. Tenere allineato con Dockerfile.
+FROM mcr.microsoft.com/dotnet/sdk:10.0-alpine AS build
 WORKDIR /src
 
-# Copy csproj and restore
 COPY Escursioni.Web/Escursioni.Web.csproj Escursioni.Web/
-COPY Escursioni.Tests/Escursioni.Tests.csproj Escursioni.Tests/
 COPY Escursioni.sln ./
 RUN dotnet restore "Escursioni.Web/Escursioni.Web.csproj"
 
-# Copy the rest of the source
 COPY . .
 
 WORKDIR "/src/Escursioni.Web"
 RUN dotnet publish "Escursioni.Web.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
-FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
+FROM mcr.microsoft.com/dotnet/aspnet:10.0-alpine AS runtime
+
+RUN addgroup -g 12301 lucagroup && \
+    adduser -u 12301 -G lucagroup -s /sbin/nologin -D lucauser
+
 WORKDIR /app
+COPY --from=build --chown=lucauser:lucagroup /app/publish .
 
-COPY --from=build /app/publish .
-
+USER lucauser:lucagroup
 ENV ASPNETCORE_URLS=http://+:8080
 EXPOSE 8080
 

@@ -8,14 +8,15 @@ services:
   web-dev:
     build:
       context: .
-      dockerfile: Escursioni.Web/Dockerfile
+      # Dockerfile.dev: come quello di Render ma senza foto e GPX nell'immagine (sono nel volume sotto)
+      dockerfile: Escursioni.Web/Dockerfile.dev
     container_name: escursioni_web_dev
 
     environment:
       ASPNETCORE_ENVIRONMENT: "Development"
       ASPNETCORE_URLS: "http://+:8080"
 
-    # Media esclusi dal build context (.dockerignore): montati qui.
+    # Media esclusi dal build context (Escursioni.Web/Dockerfile.dev.dockerignore): montati qui.
     # Scrivibile perché ImagePrewarmService genera le varianti .webp nella cartella.
     volumes:
       - ./Escursioni.Web/wwwroot/media:/app/wwwroot/media

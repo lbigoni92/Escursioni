@@ -1,0 +1,16 @@
+# Usato al posto di .dockerignore quando si builda Escursioni.Web/Dockerfile.dev (docker-compose).
+# Stesse regole di .dockerignore, più i media: in locale sono montati come volume.
+.git
+.github
+**/bin
+**/obj
+**/TestResults
+dist
+node_modules
+openspec
+Escursioni.Tests
+Escursioni.UiTests
+Escursioni.MigrationEditor
+docker-compose*.yml
+*.md
+Escursioni.Web/wwwroot/media
