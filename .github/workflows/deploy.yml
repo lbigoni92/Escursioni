@@ -1,0 +1,42 @@
+# Genera il sito statico e lo pubblica su Cloudflare Pages.
+# Si attiva solo quando la variabile di repository CF_PAGES_PROJECT è impostata
+# (Settings → Secrets and variables → Actions). Configurazione: vedi README.
+name: Deploy sito statico
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: ${{ vars.CF_PAGES_PROJECT != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Test
+        run: dotnet test Escursioni.Tests -c Release
+
+      - name: Genera sito statico
+        env:
+          Contact__Web3FormsAccessKey: ${{ vars.WEB3FORMS_ACCESS_KEY }}
+        run: dotnet run --project Escursioni.Web -c Release --no-launch-profile -- --export ../dist
+
+      - name: Pubblica su Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=${{ vars.CF_PAGES_PROJECT }} --branch=master --commit-dirty=true

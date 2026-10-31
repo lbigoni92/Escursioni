@@ -1,39 +1,14 @@
 services:
 
-  db:
-    image: postgres:16
-    container_name: escursioni_db
-    restart: unless-stopped
-    environment:
-      POSTGRES_DB: escursioni
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-    ports:
-      - "5432:5432"
-    volumes:
-      - ./docker/postgres-data:/var/lib/postgresql/data
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-
   web-dev:
     image: mcr.microsoft.com/dotnet/sdk:10.0
     container_name: escursioni_web_dev
-    depends_on:
-      db:
-        condition: service_healthy
 
     working_dir: /src/Escursioni.Web
 
     environment:
       ASPNETCORE_ENVIRONMENT: "Development"
       ASPNETCORE_URLS: "http://+:8080"
-      ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=escursioni;Username=postgres;Password=postgres;SslMode=Prefer"
-      SMTP_USER: "apikey"
-      SMTP_PASS: "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"
-      SMTP_FROM: "BigoniEscursioni@outlook.com"
     volumes:
       - ./:/src
       - ./Escursioni.Web/wwwroot:/src/Escursioni.Web/wwwroot

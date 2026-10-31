@@ -8,8 +8,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function showFallback(msg) {
         el.style.height = 'auto';
-        el.innerHTML = '<p style="color:#9ca3af;font-size:0.9rem;">' + msg + '</p>';
+        el.innerHTML = '<p class="panel-note">' + msg + '</p>';
     }
+
+    // Colore della traccia preso dalla palette del sito (--primary del tema attivo)
+    var trackColor = getComputedStyle(document.body).getPropertyValue('--primary').trim() || '#2a7a51';
 
     // Pre-validate: fetch the GPX to make sure it exists and is XML
     // before handing it to L.GPX (which crashes on null responseXML).
@@ -40,6 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             new L.GPX(window.gpxMapConfig.gpxUrl, {
                 async: true,
+                polyline_options: { color: trackColor, weight: 4, opacity: 0.9 },
                 marker_options: {
                     startIconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-green.png',
                     endIconUrl: 'https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-red.png',

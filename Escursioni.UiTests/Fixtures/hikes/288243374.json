@@ -1,0 +1,120 @@
+{
+  "wikiloc_id": 288243374,
+  "titolo": "Passo del Forato, Foce di Petrosciana e Fonte Moscoso da Orzale",
+  "titolo_seo": "Passo del Forato e Petrosciana: anello da Orzale",
+  "meta_descrizione": "Anello in Alpi Apuane da Orzale al Passo del Forato, Foce di Petrosciana e Fonte Moscoso: 12 km, 967 m di dislivello.",
+  "tag": "Alpi Apuane",
+  "descrizione": "Percorso ad anello da Orzale passando per:- Passo del Forato (4.7 km)- Foce di Petrosciana (6.2 km)- Fonte Moscoso (8.4 km)",
+  "descrizione_html": "Percorso ad anello da Orzale passando per:<br>- Passo del Forato (4.7 km)<br>- Foce di Petrosciana (6.2 km)<br>- Fonte Moscoso (8.4 km)",
+  "attivita": "Tutte le Attività e Paesi",
+  "distanza_km": 12.03,
+  "dislivello_m": 967,
+  "quota_min_m": 268,
+  "quota_max_m": 1210,
+  "tempo_min": 284,
+  "tempo_hhmm": "04:44",
+  "tempo_mov_min": 284,
+  "tempo_mov_hhmm": "04:44",
+  "coordinate_count": 8668,
+  "difficolta": "Difficile",
+  "tipo_giro": "Anello",
+  "superficie": null,
+  "regione": "Italia",
+  "provincia": "Toscana",
+  "comune": "Orzale",
+  "data_escursione": "2026-09-01",
+  "data_registrato": "2026-09-01",
+  "data_caricato": "2026-09-27T00:00:00",
+  "data_pubblicazione": "2026-09-27T00:00:00",
+  "url": "https://it.wikiloc.com/percorsi-escursionismo/passo-del-forato-foce-di-petrosciana-e-fonte-moscoso-da-orzale-288243374",
+  "bbox": null,
+  "centroid_lat": 44.007694,
+  "centroid_lon": 10.318016,
+  "geom": "POINT(10.318016 44.007694)",
+  "sha256_payload": "27b8df84edace7e95c6aa2069081c03092e00774c929f86ba0985116ee20a1a0",
+  "created_at": "2026-10-31T13:28:34",
+  "updated_at": "2026-10-31T13:47:31",
+  "media": [
+    {
+      "tipo": "cover",
+      "path_relativo": "media/images/288243374/cover.jpg",
+      "ordine": 0,
+      "larghezza": null,
+      "altezza": null,
+      "sha256": null,
+      "filesize_bytes": null
+    },
+    {
+      "tipo": "foto",
+      "path_relativo": "media/images/288243374/photo_01.jpg",
+      "ordine": 1,
+      "larghezza": null,
+      "altezza": null,
+      "sha256": null,
+      "filesize_bytes": null
+    },
+    {
+      "tipo": "foto",
+      "path_relativo": "media/images/288243374/photo_02.jpg",
+      "ordine": 2,
+      "larghezza": null,
+      "altezza": null,
+      "sha256": null,
+      "filesize_bytes": null
+    },
+    {
+      "tipo": "foto",
+      "path_relativo": "media/images/288243374/photo_03.jpg",
+      "ordine": 3,
+      "larghezza": null,
+      "altezza": null,
+      "sha256": null,
+      "filesize_bytes": null
+    },
+    {
+      "tipo": "foto",
+      "path_relativo": "media/images/288243374/photo_04.jpg",
+      "ordine": 4,
+      "larghezza": null,
+      "altezza": null,
+      "sha256": null,
+      "filesize_bytes": null
+    },
+    {
+      "tipo": "foto",
+      "path_relativo": "media/images/288243374/photo_05.jpg",
+      "ordine": 5,
+      "larghezza": null,
+      "altezza": null,
+      "sha256": null,
+      "filesize_bytes": null
+    },
+    {
+      "tipo": "foto",
+      "path_relativo": "media/images/288243374/photo_06.jpg",
+      "ordine": 6,
+      "larghezza": null,
+      "altezza": null,
+      "sha256": null,
+      "filesize_bytes": null
+    },
+    {
+      "tipo": "foto",
+      "path_relativo": "media/images/288243374/photo_07.jpg",
+      "ordine": 7,
+      "larghezza": null,
+      "altezza": null,
+      "sha256": null,
+      "filesize_bytes": null
+    },
+    {
+      "tipo": "foto",
+      "path_relativo": "media/images/288243374/photo_08.jpg",
+      "ordine": 8,
+      "larghezza": null,
+      "altezza": null,
+      "sha256": null,
+      "filesize_bytes": null
+    }
+  ]
+}

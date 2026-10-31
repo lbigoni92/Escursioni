@@ -10,12 +10,13 @@
         <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
             integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
             crossorigin=""></script>
-        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js" crossorigin="anonymous"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js" integrity="sha512-BsUtn1Ar2O78Q8YkY1f2pkioHOs8H43KUlP3PHus8lyAMODNq1CmemnU435dFk/SU37OGG+ooxvmEhAcNTEBFQ==" crossorigin="anonymous"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             var map = L.map('map').setView([42.5, 12.5], 6);
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                maxZoom: 18
+                maxZoom: 18,
+                attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
 
             var showVisibleTracksBtn = document.getElementById('show-visible-tracks-btn');
@@ -26,20 +27,26 @@
                     id = h.Id,
                     wikilocId = h.WikilocId,
                     title = h.Titolo,
+                    slug = h.Slug,
+                    luogo = Escursioni.Web.Services.HikeDisplay.Location(h),
                     lat = h.CentroidLat,
                     lon = h.CentroidLon
                 })
             ));
 
+            // Marker nei colori del sito (.map-pin in site.css)
+            var pinIcon = L.divIcon({ className: 'map-pin', iconSize: [14, 14], iconAnchor: [7, 7], popupAnchor: [0, -8] });
+            var trackColor = getComputedStyle(document.body).getPropertyValue('--accent').trim() || '#b8650f';
+
+            function esc(s) {
+                var d = document.createElement('div');
+                d.appendChild(document.createTextNode(s == null ? '' : String(s)));
+                return d.innerHTML;
+            }
+
             // Cache per layer GPX
             var gpxCache = {};
             var gpxLayers = {};
-
-            function slugifyTitle(title) {
-                return title.toLowerCase()
-                    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-                    .replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
-            }
 
             function setStatus(message) {
                 if (!visibleTracksStatus) return;
@@ -70,6 +77,7 @@
                     var gpxUrl = '/media/gpx/' + h.wikilocId + '.gpx';
                     var gpxLayer = new L.GPX(gpxUrl, {
                         async: true,
+                        polyline_options: { color: trackColor, weight: 4, opacity: 0.9 },
                         marker_options: {
                             startIconUrl: null,
                             endIconUrl: null,
@@ -100,9 +108,10 @@
 
             hikes.forEach(function (h) {
                 if (!h.lat || !h.lon) return;
-                var marker = L.marker([h.lat, h.lon]).addTo(map);
-                var url = '/escursioni/' + slugifyTitle(h.title);
-                marker.bindPopup('<a href="' + url + '" title="' + h.title + '">' + h.title + '</a>');
+                var marker = L.marker([h.lat, h.lon], { icon: pinIcon, title: h.title }).addTo(map);
+                var url = '/escursioni/' + h.slug;
+                marker.bindPopup('<a href="' + url + '">' + esc(h.title) + '</a>' +
+                    (h.luogo ? '<small>' + esc(h.luogo) + '</small>' : ''));
 
                 marker.on('click', function () {
                     // Se layer già presente sulla mappa, rimuovi
@@ -158,36 +167,37 @@
         });
     </script>
 }
-<link rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-      crossorigin="anonymous" />
-
+@section Head {
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin="anonymous" />
+}
 
 <section>
+    <header class="page-header">
+        <h1 class="page-title">Mappa escursioni in Toscana e Italia – trekking con tracce GPS</h1>
+        <p class="page-subtitle">
+            Ogni punto è un percorso reale con traccia GPS, foto e descrizione. Clicca su un punto per vedere
+            la traccia e aprire la scheda dell'escursione.
+        </p>
+    </header>
 
-    <h1 class="page-title">Mappa escursioni in Toscana e Italia – trekking con tracce GPS</h1>
-
-    <div class="seo-text" style="margin-bottom:1.2rem;font-size:1.08em;line-height:1.7;max-width:700px;">
-        <strong>Scopri tutte le escursioni e i trekking in Toscana, Alpi Apuane, Garfagnana, Appennino Tosco-Emiliano e oltre</strong> grazie a questa mappa interattiva. Ogni punto rappresenta un percorso reale, completo di traccia GPS, foto e descrizione dettagliata. Esplora sentieri panoramici, itinerari per famiglie, trekking impegnativi e passeggiate nella natura. Clicca sui marker per accedere direttamente alla scheda dell'escursione, visualizzare il percorso sulla mappa e scaricare la traccia GPX. Ideale per chi cerca idee per il weekend, avventure outdoor o semplicemente vuole conoscere nuovi sentieri in Italia centrale e settentrionale.
-    </div>
-
-    <p class="page-subtitle">
-        Ogni marker rappresenta un'escursione esportata da Wikiloc.
-        Clicca sul punto per aprire il dettaglio.
-    </p>
-
-    <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap;margin-bottom:0.9rem;">
-        <button id="show-visible-tracks-btn" type="button" class="btn btn-secondary">
-            Mostra tutte le tracce nell'area visibile
+    <div class="map-toolbar">
+        <button id="show-visible-tracks-btn" type="button" class="btn-secondary">
+            Mostra le tracce nell'area visibile
         </button>
-        <span id="visible-tracks-status" style="font-size:0.95rem;color:#334155;"></span>
+        <span id="visible-tracks-status" class="map-status" aria-live="polite"></span>
     </div>
 
-    <div id="map" class="map-frame"></div>
+    <div id="map" class="map-frame" role="region" aria-label="Mappa interattiva delle escursioni"></div>
 
-    <section class="seo-expanded" style="margin-top:2rem;max-width:900px;">
+    <section class="prose prose--wide">
         <h2>Escursioni in Toscana sulla mappa</h2>
+        <p>
+            Scopri tutte le escursioni e i trekking in Toscana, Alpi Apuane, Garfagnana, Appennino Tosco-Emiliano e oltre grazie a questa mappa interattiva. Esplora sentieri panoramici, itinerari per famiglie, trekking impegnativi e passeggiate nella natura: clicca sui punti per vedere il percorso e scaricare la traccia GPX dalla scheda.
+        </p>
         <p>
             Questa mappa raccoglie numerosi percorsi escursionistici in Toscana e oltre, fornendo tracce GPS, tempi di percorrenza stimati, dislivelli e punti di interesse. Utilizza i marker per individuare rapidamente un itinerario, oppure consulta la lista sottostante per un accesso diretto alle schede dettagliate. La mappa è pensata per chi cerca trekking giornalieri, escursioni con famiglie o percorsi più impegnativi nelle Alpi Apuane e sull'Appennino.
         </p>
@@ -202,15 +212,13 @@
             Per usare la mappa: zooma sull'area d'interesse, clicca su un marker per aprire la scheda dell'escursione, o usa la lista sottostante per navigare direttamente alle pagine. Le tracce GPX sono disponibili per il download dalla scheda di dettaglio; porta sempre con te una copia offline se affronti percorsi isolati.
         </p>
 
-        <h2>Escursioni disponibili</h2>
-        <ul>
+        <h2>Tutte le escursioni sulla mappa</h2>
+        <ul class="map-list">
             @if (Model.Escursioni != null && Model.Escursioni.Any())
             {
-                foreach (var h in Model.Escursioni.Take(100))
+                foreach (var h in Model.Escursioni)
                 {
-                    var title = !string.IsNullOrWhiteSpace(h.TitoloSeo) ? h.TitoloSeo : h.Titolo;
-                    var slug = Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo);
-                    <li><a href="@($"/escursioni/{slug}")">@title</a> @if(!string.IsNullOrWhiteSpace(h.Comune)) { <span>— @h.Comune</span> }</li>
+                    <li><a href="/escursioni/@h.Slug">@Escursioni.Web.Services.HikeDisplay.Title(h)</a> @if(!string.IsNullOrWhiteSpace(h.Comune)) { <span>— @h.Comune</span> }</li>
                 }
             }
             else

@@ -1,65 +1,53 @@
 @page "/escursioni"
 @model Escursioni.Web.Pages.Escursioni.IndexModel
-@using Escursioni.Web.Services
 
-<section>
+<header class="page-header">
+    <span class="eyebrow">@Model.TotalHikes escursioni · @Model.Zones.Count zone</span>
     <h1 class="page-title">Escursioni per zona</h1>
     <p class="page-subtitle">
-        <strong>@Model.TotalHikes escursioni</strong> organizzate per area geografica.
-        Scegli la zona che ti interessa per scoprire tutti i sentieri, le tracce GPS e le descrizioni dettagliate.
+        Tutte le escursioni organizzate per area geografica. Scegli la zona che ti interessa per scoprire
+        sentieri, tracce GPS e descrizioni dettagliate.
     </p>
+</header>
 
-    <section class="seo-landing">
-        <h2>Escursioni in Toscana: guida completa</h2>
-        <p>
-            La Toscana è una terra sorprendente per chi ama camminare: dalle cime calcaree delle Alpi Apuane ai boschi dell'Appennino, passando per valli e coste panoramiche. In questa guida troverai informazioni pratiche, suggerimenti sui percorsi principali, indicazioni su difficoltà e dislivelli, e link diretti alle singole escursioni per aiutarti a pianificare la tua giornata outdoor.
-        </p>
-        <p>
-            Che tu cerchi un'escursione di mezza giornata o un trekking di più giorni, la Toscana offre sentieri per ogni livello. Le Alpi Apuane regalano pareti e panorami spettacolari; la Garfagnana è ricca di valli, boschi e sentieri meno battuti; la Versilia e le zone costiere uniscono mare e colline per percorsi suggestivi. Qui troverai tracce GPS, dislivelli, tempi di percorrenza stimati e consigli su quando affrontare ogni itinerario.
-        </p>
-        <p>
-            Usa questa pagina come hub: oltre alla panoramica per zone, sotto troverai sezioni dedicate a ciascuna area con una breve descrizione, link alle pagine zonali e ad alcune escursioni consigliate. Inseriremo anche informazioni pratiche come punti di partenza, parcheggi e consigli stagionali, per aiutarti a scegliere il percorso più adatto.
-        </p>
-        <p>
-            Pianificare bene significa godersi il paesaggio: porta sempre acqua, abbigliamento a strati, scarpe adeguate e la traccia GPS fornita nella pagina di dettaglio. Se desideri approfondire una zona, clicca sul relativo link per vedere tutte le escursioni disponibili e leggere le descrizioni dettagliate.
-        </p>
-        <p>
-            Per iniziare, esplora le sezioni qui sotto: troverai testi pensati per chi arriva da lontano e per chi cerca nuove idee vicino a casa. Buone camminate e rispetta l'ambiente: lascia solo impronte.
-        </p>
-    </section>
-    <div class="tag-grid">
-        @foreach (var (tag, count) in Model.TagSummary)
-        {
-            var slug = TagHelper.ToSlug(tag);
-            var desc = TagHelper.GetDescription(tag);
-            <div class="tag-card">
-                <a href="/escursioni/zona/@slug" class="tag-card-link" title="Escursioni @tag">
-                    <h2 class="tag-card-title">@tag</h2>
-                </a>
-                <p class="tag-card-desc">@desc</p>
-                <span class="tag-card-count">@count escursioni</span>
-
-                <div class="tag-card-details">
-                    <p>Scopri tutte le <a href="/escursioni/zona/@slug">escursioni @tag</a> o leggi alcune delle proposte più apprezzate:</p>
-                    @if (Model.TagSamples != null && Model.TagSamples.TryGetValue(tag, out var samples) && samples.Any())
-                    {
-                        <ul>
-                            @foreach (var s in samples)
-                            {
-                                var displayTitle = !string.IsNullOrWhiteSpace(s.TitoloSeo) ? s.TitoloSeo : s.Titolo;
-                                <li>
-                                    <a asp-page="/Escursioni/Dettaglio" asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(s.Titolo)">@displayTitle</a>
-                                    @if (!string.IsNullOrWhiteSpace(s.Comune)) { <span> — @s.Comune</span> }
-                                </li>
-                            }
-                        </ul>
-                    }
-                    else
-                    {
-                        <p><a href="/escursioni/zona/@slug">Vedi tutte le escursioni @tag</a></p>
-                    }
-                </div>
+<div class="tag-grid">
+    @foreach (var z in Model.Zones)
+    {
+        <section class="tag-card" aria-labelledby="zona-@z.Slug">
+            <partial name="_ZoneTile" model="z" view-data="@(new ViewDataDictionary(ViewData) { ["ZoneTileDecorative"] = true })" />
+            <div class="tag-card-body">
+                <h2 class="tag-card-title" id="zona-@z.Slug"><a href="/escursioni/zona/@z.Slug" title="Tutte le escursioni @z.Tag">Escursioni @z.Tag</a></h2>
+                <p class="tag-card-desc">@z.Description</p>
+                @if (z.Hikes.Count > 0)
+                {
+                    <ul class="tag-card-samples" aria-label="Escursioni recenti in @z.Tag">
+                        @foreach (var s in z.Hikes.Take(3))
+                        {
+                            <li>
+                                <a href="/escursioni/@s.Slug">@HikeDisplay.Title(s)</a>
+                                @if (!string.IsNullOrWhiteSpace(s.Comune)) { <span> — @s.Comune</span> }
+                            </li>
+                        }
+                    </ul>
+                }
+                <a class="section-link" href="/escursioni/zona/@z.Slug" title="Tutte le escursioni @z.Tag">Tutte le @z.Count escursioni @z.Tag →</a>
             </div>
-        }
-    </div>
+        </section>
+    }
+</div>
+
+<section class="prose section" aria-labelledby="guida">
+    <h2 id="guida">Escursioni in Toscana: guida completa</h2>
+    <p>
+        La Toscana è una terra sorprendente per chi ama camminare: dalle cime calcaree delle Alpi Apuane ai boschi dell'Appennino, passando per valli e coste panoramiche. In questa guida troverai informazioni pratiche, suggerimenti sui percorsi principali, indicazioni su difficoltà e dislivelli, e link diretti alle singole escursioni per aiutarti a pianificare la tua giornata outdoor.
+    </p>
+    <p>
+        Che tu cerchi un'escursione di mezza giornata o un trekking di più giorni, la Toscana offre sentieri per ogni livello. Le Alpi Apuane regalano pareti e panorami spettacolari; la Garfagnana è ricca di valli, boschi e sentieri meno battuti; la Versilia e le zone costiere uniscono mare e colline per percorsi suggestivi. Qui troverai tracce GPS, dislivelli, tempi di percorrenza stimati e consigli su quando affrontare ogni itinerario.
+    </p>
+    <p>
+        Usa questa pagina come hub: per ogni zona trovi una breve descrizione, il link alla pagina dedicata e alcune escursioni recenti. Se preferisci partire da un luogo preciso usa la <a href="/mappa" title="Mappa delle escursioni">mappa delle escursioni</a> o la <a href="/ricerca" title="Ricerca escursioni">ricerca per località</a>.
+    </p>
+    <p>
+        Pianificare bene significa godersi il paesaggio: porta sempre acqua, abbigliamento a strati, scarpe adeguate e la traccia GPS fornita nella pagina di dettaglio. Buone camminate e rispetta l'ambiente: lascia solo impronte.
+    </p>
 </section>

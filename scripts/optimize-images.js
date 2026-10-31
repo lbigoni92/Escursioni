@@ -8,8 +8,8 @@
  *   node scripts/optimize-images.js --staged    # processa solo i file JPG/PNG in git staging area
  *
  * Output per ogni immagine sorgente (es. cover.jpg):
- *   cover.thumb.webp   – 400px wide, qualità 80 (per card)
- *   cover.gallery.webp – 800px wide, qualità 82 (per carousel)
+ *   cover.thumb.webp   – 400px wide, qualità 75 (per card)
+ *   cover.gallery.webp – 800px wide, qualità 75 (per carousel)
  */
 
 const fs = require('fs');
@@ -44,8 +44,8 @@ function getStagedImagePaths() {
 }
 
 const VARIANTS = [
-    { suffix: '.thumb.webp', width: 400, quality: 80 },
-    { suffix: '.gallery.webp', width: 800, quality: 82 },
+    { suffix: '.thumb.webp', width: 400, quality: 75 },
+    { suffix: '.gallery.webp', width: 800, quality: 75 },
 ];
 
 async function processImage(filePath) {
@@ -60,7 +60,7 @@ async function processImage(filePath) {
         try {
             await sharp(filePath)
                 .resize({ width: variant.width, withoutEnlargement: true })
-                .webp({ quality: variant.quality })
+                .webp({ quality: variant.quality, effort: 6 })
                 .toFile(outPath);
             generated++;
         } catch (err) {

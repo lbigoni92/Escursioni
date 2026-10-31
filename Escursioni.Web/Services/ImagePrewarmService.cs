@@ -41,6 +41,14 @@ public sealed class ImagePrewarmService : BackgroundService
         if (_startupDelaySeconds > 0)
             await Task.Delay(TimeSpan.FromSeconds(_startupDelaySeconds), stoppingToken);
 
+        await PrewarmAllAsync(stoppingToken);
+    }
+
+    /// <summary>
+    /// Genera tutte le varianti mancanti. Usato all'avvio del server e dall'export statico.
+    /// </summary>
+    public async Task PrewarmAllAsync(CancellationToken stoppingToken)
+    {
         var imagesRoot = Path.Combine(_env.WebRootPath, "media", "images");
         if (!Directory.Exists(imagesRoot))
         {

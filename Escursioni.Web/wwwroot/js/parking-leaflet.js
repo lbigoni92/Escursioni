@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function showFallback(msg) {
         el.style.height = 'auto';
-        el.innerHTML = '<p style="color:#9ca3af;font-size:0.9rem;">' + msg + '</p>';
+        el.innerHTML = '<p class="panel-note">' + msg + '</p>';
     }
 
     var map = L.map(window.parkingMapConfig.elementId);

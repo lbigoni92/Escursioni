@@ -13,11 +13,9 @@ COPY . .
 WORKDIR "/src/Escursioni.Web"
 RUN dotnet publish "Escursioni.Web.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
-# Stage finale runtime (Alpine: ~100MB, con librerie per Npgsql/PostgreSQL)
+# Stage finale runtime (Alpine: ~100MB). Opzionale: il sito di produzione è statico
+# (vedi README), questa immagine serve solo per far girare il sito come server.
 FROM mcr.microsoft.com/dotnet/aspnet:10.0-alpine AS runtime
-
-# Librerie necessarie per Npgsql (SSL, Kerberos/GSSAPI, ICU)
-RUN apk add --no-cache ca-certificates krb5-libs icu-libs
 
 # Crea utente non root
 RUN addgroup -g 12301 lucagroup && \

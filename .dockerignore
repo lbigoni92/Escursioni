@@ -1,0 +1,16 @@
+# Contesto della build Docker: solo il codice serve (il Dockerfile fa COPY . .)
+.git
+.github
+**/bin
+**/obj
+**/TestResults
+dist
+node_modules
+openspec
+Escursioni.Tests
+Escursioni.UiTests
+Escursioni.MigrationEditor
+docker-compose*.yml
+*.md
+# Foto/GPX (~1.8GB): montate come volume in docker-compose.yml, non copiate nell'immagine
+Escursioni.Web/wwwroot/media

@@ -1,0 +1,26 @@
+@model ZoneSummary
+@*
+    Riquadro zona con foto. ViewData["ZoneTileDecorative"] = true quando la card che lo contiene
+    ha già un titolo con link (pagina /escursioni): niente nome ripetuto né secondo punto di tabulazione.
+*@
+@{
+    var thumb = ImageHelper.ThumbPath(Model.Cover);
+    var decorative = ViewData["ZoneTileDecorative"] is true;
+}
+<a class="zone-tile" href="/escursioni/zona/@Model.Slug" title="Escursioni @Model.Tag: @Model.Description" tabindex="@(decorative ? "-1" : null)" aria-hidden="@(decorative ? "true" : null)">
+    @if (!string.IsNullOrWhiteSpace(Model.Cover))
+    {
+        <picture>
+            @if (thumb != null)
+            {
+                <source srcset="~/@thumb" type="image/webp" />
+            }
+            <img src="~/@Model.Cover" alt="" loading="lazy" decoding="async" width="400" height="225" />
+        </picture>
+    }
+    @if (!decorative)
+    {
+        <span class="zone-tile-name">Escursioni @Model.Tag</span>
+    }
+    <span class="zone-tile-count">@Model.Count escursioni</span>
+</a>

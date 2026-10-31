@@ -1,11 +1,9 @@
 using Escursioni.Web.Models;
 using Escursioni.Web.Services;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.OutputCaching;
 
 namespace Escursioni.Web.Pages;
 
-[OutputCache(PolicyName = "Pages")]
 public class IndexModel : PageModel
 {
     private readonly IHikeRepository _repo;
@@ -19,6 +17,11 @@ public class IndexModel : PageModel
     }
 
     public List<Hike> UltimeEscursioni { get; set; } = new();
+    /// <summary>Foto dell'hero: per ciascuna delle zone principali l'escursione con foto che arriva più in alto.</summary>
+    public List<Hike> InEvidenza { get; set; } = new();
+    public List<ZoneSummary> Zone { get; set; } = new();
+    public int TotaleEscursioni { get; set; }
+    public decimal TotaleKm { get; set; }
 
     public async Task OnGet()
     {
@@ -28,6 +31,19 @@ public class IndexModel : PageModel
         ViewData["CanonicalUrl"] = $"{baseUrl}/";
         ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";
         UltimeEscursioni = await _repo.GetLatestAsync(8);
+        Zone = await HikeDisplay.GetZonesAsync(_repo);
+        // Diverse dalle "Ultime escursioni" mostrate subito sotto
+        InEvidenza = Zone
+            .Select(z => z.Hikes
+                .Where(h => !UltimeEscursioni.Contains(h) && !string.IsNullOrWhiteSpace(CoverPath(h)))
+                .OrderByDescending(h => h.QuotaMaxM ?? 0)
+                .FirstOrDefault())
+            .OfType<Hike>()
+            .Take(3)
+            .ToList();
+        var all = await _repo.GetAllAsync(null, null);
+        TotaleEscursioni = all.Count;
+        TotaleKm = all.Sum(h => h.DistanzaKm ?? 0);
 
         // JSON-LD CollectionPage
         ViewData["JsonLd"] = $@"{{

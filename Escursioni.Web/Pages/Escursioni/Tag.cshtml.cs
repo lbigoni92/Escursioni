@@ -2,11 +2,9 @@ using Escursioni.Web.Models;
 using Escursioni.Web.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.OutputCaching;
 
 namespace Escursioni.Web.Pages.Escursioni;
 
-[OutputCache(PolicyName = "TagPage")]
 public class TagModel : PageModel
 {
     private readonly IHikeRepository _repo;
@@ -24,6 +22,7 @@ public class TagModel : PageModel
     public string TagName { get; set; } = "";
     public string TagDescription { get; set; } = "";
     public List<Hike> Escursioni { get; set; } = new();
+    public List<(string Tag, int Count)> AltreZone { get; set; } = new();
 
     public async Task<IActionResult> OnGet()
     {
@@ -34,11 +33,14 @@ public class TagModel : PageModel
         TagName = tag;
         TagDescription = TagHelper.GetDescription(tag);
         Escursioni = await _repo.GetByTagAsync(tag);
+        AltreZone = (await _repo.GetTagSummaryAsync()).Where(z => z.Tag != tag).ToList();
+        ViewData["CurrentZone"] = tag;
 
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
         var canonical = $"{baseUrl}/escursioni/zona/{Slug}";
         ViewData["Title"] = $"Escursioni {tag} | Luca Bigoni";
-        ViewData["MetaDescription"] = $"Tutte le escursioni nella zona {tag}: tracce GPS, foto, dislivelli e descrizioni dettagliate dei sentieri. {TagDescription}";
+        // Sotto i ~155 caratteri che Google mostra nei risultati
+        ViewData["MetaDescription"] = $"Escursioni {tag} con tracce GPS e foto. {TagDescription}".TrimEnd();
         ViewData["CanonicalUrl"] = canonical;
         ViewData["OgType"] = "website";
         ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";

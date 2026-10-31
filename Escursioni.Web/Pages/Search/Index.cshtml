@@ -1,10 +1,6 @@
 ﻿@page "/ricerca"
 @model Escursioni.Web.Pages.Search.IndexModel
 
-@section Head {
-    <link rel="stylesheet" href="~/css/form.css" />
-}
-
 @inject IConfiguration Configuration
 @{
     var baseUrl = (Configuration["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
@@ -12,23 +8,26 @@
     ViewData["MetaDescription"] = "Cerca escursioni in Toscana per località o testo: trova tracce GPS, foto, descrizioni e itinerari ideali per escursioni, trekking e passeggiate.";
     ViewData["CanonicalUrl"] = baseUrl + "/ricerca";
     ViewData["OgImage"] = baseUrl + "/images/og-home.jpg";
+    ViewData["Breadcrumbs"] = new List<(string Label, string Url)> { ("Ricerca", "") };
 }
 
 <section>
-    <h1 class="page-title">Ricerca nel sito</h1>
-    <p class="page-subtitle">
-        Cerca per località oppure per testo libero.
-    </p>
+    <header class="page-header">
+        <h1 class="page-title">Cerca un'escursione</h1>
+        <p class="page-subtitle">
+            Trova i sentieri vicino a una località oppure cerca per nome, cima o parola chiave.
+            Preferisci sfogliare? Guarda le <a href="/escursioni" title="Escursioni per zona">escursioni per zona</a> o la <a href="/mappa" title="Mappa escursioni">mappa</a>.
+        </p>
+    </header>
 
     <form method="get" id="search-form">
+      <div class="search-panel">
 
         <!-- ═══ MODALITÀ 1: PER LOCALITÀ ═══ -->
-        <div class="search-mode @(string.IsNullOrWhiteSpace(Model.Q) && string.IsNullOrWhiteSpace(Model.Difficolta) ? "search-mode--active" : "")"
-             id="mode-localita">
+        <div class="search-mode search-mode--active" id="mode-localita">
             <div class="search-mode-header">
                 <label class="search-mode-radio">
-                    <input type="radio" name="SearchMode" value="localita"
-                           @(string.IsNullOrWhiteSpace(Model.Q) && string.IsNullOrWhiteSpace(Model.Difficolta) ? "checked" : "") />
+                    <input type="radio" name="SearchMode" value="localita" checked />
                     <span>Cerca per località</span>
                 </label>
             </div>
@@ -40,7 +39,6 @@
                             <input id="comune"
                                    name="Comune"
                                    class="input-text"
-                                   value="@Model.Comune"
                                    placeholder="Digita una località (es. Livorno, Levigliani)..."
                                    autocomplete="off" />
                             <ul id="comune-suggestions" class="autocomplete-list"></ul>
@@ -51,11 +49,11 @@
                         <select id="raggio"
                                 name="RaggioKm"
                                 class="input-select">
-                            <option value="10" selected="@(Model.RaggioKm == 10 ? "selected" : null)">10 km</option>
-                            <option value="20" selected="@(Model.RaggioKm == 20 || Model.RaggioKm == 0 ? "selected" : null)">20 km</option>
-                            <option value="30" selected="@(Model.RaggioKm == 30 ? "selected" : null)">30 km</option>
-                            <option value="50" selected="@(Model.RaggioKm == 50 ? "selected" : null)">50 km</option>
-                            <option value="100" selected="@(Model.RaggioKm == 100 ? "selected" : null)">100 km</option>
+                            <option value="10">10 km</option>
+                            <option value="20" selected>20 km</option>
+                            <option value="30">30 km</option>
+                            <option value="50">50 km</option>
+                            <option value="100">100 km</option>
                         </select>
                     </div>
                 </div>
@@ -63,12 +61,10 @@
         </div>
 
         <!-- ═══ MODALITÀ 2: TESTO LIBERO ═══ -->
-        <div class="search-mode @(!string.IsNullOrWhiteSpace(Model.Q) || !string.IsNullOrWhiteSpace(Model.Difficolta) ? "search-mode--active" : "")"
-             id="mode-testo">
+        <div class="search-mode" id="mode-testo">
             <div class="search-mode-header">
                 <label class="search-mode-radio">
-                    <input type="radio" name="SearchMode" value="testo"
-                           @(!string.IsNullOrWhiteSpace(Model.Q) || !string.IsNullOrWhiteSpace(Model.Difficolta) ? "checked" : "") />
+                    <input type="radio" name="SearchMode" value="testo" />
                     <span>Cerca per testo libero</span>
                 </label>
             </div>
@@ -80,7 +76,6 @@
                                class="input-text"
                                type="text"
                                name="Q"
-                               value="@Model.Q"
                                placeholder="Cerca cima, luogo, sentiero..." />
                     </div>
                     <div class="form-field">
@@ -91,9 +86,7 @@
                             <option value="">Tutte</option>
                             @foreach (var d in Model.DifficoltaDisponibili)
                             {
-                                <option value="@d" selected="@(d == Model.Difficolta ? "selected" : null)">
-                                    @d
-                                </option>
+                                <option value="@d">@d</option>
                             }
                         </select>
                     </div>
@@ -102,181 +95,47 @@
                         <select id="ordina"
                                 name="OrdinaPer"
                                 class="input-select">
-                            <option value="data_desc" selected="@(string.IsNullOrEmpty(Model.OrdinaPer) || Model.OrdinaPer == "data_desc" ? "selected" : null)">
-                                Più recenti
-                            </option>
-                            <option value="data_asc" selected="@(Model.OrdinaPer == "data_asc" ? "selected" : null)">
-                                Più vecchie
-                            </option>
-                            <option value="nome_asc" selected="@(Model.OrdinaPer == "nome_asc" ? "selected" : null)">
-                                Nome (A → Z)
-                            </option>
-                            <option value="nome_desc" selected="@(Model.OrdinaPer == "nome_desc" ? "selected" : null)">
-                                Nome (Z → A)
-                            </option>
-                            <option value="comune_asc" selected="@(Model.OrdinaPer == "comune_asc" ? "selected" : null)">
-                                Comune (A → Z)
-                            </option>
-                            <option value="dislivello_desc" selected="@(Model.OrdinaPer == "dislivello_desc" ? "selected" : null)">
-                                Dislivello maggiore
-                            </option>
-                            <option value="distanza_desc" selected="@(Model.OrdinaPer == "distanza_desc" ? "selected" : null)">
-                                Distanza maggiore
-                            </option>
+                            <option value="data_desc" selected>Più recenti</option>
+                            <option value="data_asc">Più vecchie</option>
+                            <option value="nome_asc">Nome (A → Z)</option>
+                            <option value="nome_desc">Nome (Z → A)</option>
+                            <option value="comune_asc">Comune (A → Z)</option>
+                            <option value="dislivello_desc">Dislivello maggiore</option>
+                            <option value="distanza_desc">Distanza maggiore</option>
                         </select>
                     </div>
                 </div>
             </div>
         </div>
 
+      </div>
+
         <input type="hidden" name="PageNumber" value="1" />
 
-        <div class="form-field form-field--buttons" style="margin-top:1.25rem;">
-            <button class="btn" type="submit">🔍 Cerca</button>
+        <div class="search-actions">
+            <button class="btn" type="submit">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4" /></svg>
+                Cerca
+            </button>
+            <a class="section-link" href="/ricerca" title="Azzera i filtri e mostra tutte le escursioni">Azzera filtri</a>
         </div>
 
     </form>
 
-    @if (Model.TotalCount > 0)
-    {
-        <p class="search-summary">
-            Trovate @Model.TotalCount escursioni.
-            @if (!string.IsNullOrWhiteSpace(Model.Comune))
-            {
-                <span> Località: <strong>@Model.Comune</strong></span>
-                @if (Model.RaggioKm > 0)
-                {
-                    <span> (entro @Model.RaggioKm km)</span>
-                }
-                <span>.</span>
-            }
-            @if (!string.IsNullOrWhiteSpace(Model.Difficolta))
-            {
-                <span> Difficoltà: <strong>@Model.Difficolta</strong>.</span>
-            }
-        </p>
-    }
-    else if (!string.IsNullOrWhiteSpace(Model.Q)
-    || !string.IsNullOrWhiteSpace(Model.Comune)
-    || !string.IsNullOrWhiteSpace(Model.Difficolta))
-    {
-        <p class="search-summary">
-            Nessun risultato per i filtri selezionati.
-        </p>
-    }
+    <p class="search-summary" id="search-summary" aria-live="polite"></p>
 
-    <div class="card-grid">
-        @foreach (var h in Model.Results)
-        {
-            var cover = Escursioni.Web.Pages.IndexModel.CoverPath(h);
-            var coverThumb = ImageHelper.ThumbPath(cover);
-            <article class="hike-card">
-                @if (!string.IsNullOrWhiteSpace(cover))
-                {
-                    <a asp-page="/Escursioni/Dettaglio"
-                       asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)"
-                       title="@(!string.IsNullOrWhiteSpace(h.TitoloSeo) ? h.TitoloSeo : h.Titolo)">
-                        <picture>
-                            @if (coverThumb != null)
-                            {
-                                <source srcset="~/@coverThumb" type="image/webp" />
-                            }
-                            <img src="~/@cover" alt="@(!string.IsNullOrWhiteSpace(h.TitoloSeo) ? h.TitoloSeo : h.Titolo)" loading="lazy" decoding="async" width="400" height="160" />
-                        </picture>
-                    </a>
-                }
-                <div class="hike-card-body">
-                    <h2 class="hike-card-title">
-                        <a asp-page="/Escursioni/Dettaglio"
-                           asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)"
-                           title="@(!string.IsNullOrWhiteSpace(h.TitoloSeo) ? h.TitoloSeo : h.Titolo)">
-                            @h.Titolo
-                        </a>
-                    </h2>
-                    <div class="hike-card-meta">
-                        @if (!string.IsNullOrWhiteSpace(h.Comune))
-                        {
-                            @($"{h.Comune}, {h.Provincia}")
-                        }
-                        else if (!string.IsNullOrWhiteSpace(h.Regione))
-                        {
-                            @h.Regione
-                        }
-                        @if (!string.IsNullOrWhiteSpace(h.Difficolta))
-                        {
-                            <span> · @h.Difficolta</span>
-                        }
-                        @if (h.DataEscursione.HasValue)
-                        {
-                            <span> · @h.DataEscursione.Value.ToString("dd/MM/yyyy")</span>
-                        }
-                    </div>
-                    <div class="hike-card-desc">
-                        @{
-                            var txt = h.Descrizione ?? "";
-                            if (txt.Length > 140) txt = txt[..140] + "...";
-                        }
-                        @txt
-                    </div>
-                </div>
-                <div class="hike-card-footer">
-                    <span>
-                        @if (h.DistanzaKm.HasValue)
-                        {
-                            <span>@h.DistanzaKm.Value.ToString("0.0") km</span>
-                        }
-                        @if (h.DislivelloM.HasValue)
-                        {
-                            <span> · +@h.DislivelloM.Value m</span>
-                        }
-                    </span>
-                    <span>
-                        @if (!string.IsNullOrWhiteSpace(h.Difficolta))
-                        {
-                            <span class="badge">@h.Difficolta</span>
-                        }
-                    </span>
-                </div>          
-            </article>
-        }
-    </div>
+    <div class="card-grid" id="search-results"></div>
 
-    @if (Model.TotalPages > 1)
-    {
-        <nav class="pagination">
-            @if (Model.PageNumber > 1)
-            {
-                <a class="pagination-link" asp-page="./Index"
-                   asp-route-PageNumber="@(Model.PageNumber - 1)"
-                   asp-route-Q="@Model.Q"
-                   asp-route-Comune="@Model.Comune"
-                   asp-route-Difficolta="@Model.Difficolta"
-                   asp-route-OrdinaPer="@Model.OrdinaPer"
-                   asp-route-RaggioKm="@Model.RaggioKm"
-                   title="Pagina precedente">« Pagina precedente</a>
-            }
+    <nav class="pagination" id="search-pagination" hidden></nav>
 
-            <span class="pagination-info">
-                Pagina @Model.PageNumber di @Model.TotalPages
-            </span>
-
-            @if (Model.PageNumber < Model.TotalPages)
-            {
-                <a class="pagination-link" asp-page="./Index"
-                   asp-route-PageNumber="@(Model.PageNumber + 1)"
-                   asp-route-Q="@Model.Q"
-                   asp-route-Comune="@Model.Comune"
-                   asp-route-Difficolta="@Model.Difficolta"
-                   asp-route-OrdinaPer="@Model.OrdinaPer"
-                   asp-route-RaggioKm="@Model.RaggioKm"
-                   title="Pagina successiva">Pagina successiva »</a>
-            }
-        </nav>
-    }
+    <noscript>
+        <p class="search-summary">La ricerca richiede JavaScript. Puoi sfogliare le <a href="/escursioni" title="Escursioni per zona">escursioni per zona</a> o la <a href="/mappa" title="Mappa escursioni">mappa</a>.</p>
+    </noscript>
 
 </section>
 
 @section Scripts {
+<script src="~/js/search.js" asp-append-version="true" defer></script>
 <script>
 (function () {
     // === SEARCH MODE LOGIC ===
@@ -288,6 +147,23 @@
     var qInput = document.getElementById('q');
     var difficoltaSelect = document.getElementById('difficolta');
     var ordinaSelect = document.getElementById('ordina');
+
+    // === PRECOMPILA IL FORM DALL'URL (la pagina è statica) ===
+    var params = new URLSearchParams(window.location.search);
+    function setSelect(sel, value) {
+        if (!value) return;
+        for (var i = 0; i < sel.options.length; i++) {
+            if (sel.options[i].value === value) { sel.value = value; return; }
+        }
+    }
+    comuneInput.value = params.get('Comune') || '';
+    qInput.value = params.get('Q') || '';
+    setSelect(raggioSelect, params.get('RaggioKm'));
+    setSelect(difficoltaSelect, params.get('Difficolta'));
+    setSelect(ordinaSelect, params.get('OrdinaPer'));
+    if (!comuneInput.value && (qInput.value || difficoltaSelect.value)) {
+        document.querySelector('input[name="SearchMode"][value="testo"]').checked = true;
+    }
 
     function activateMode(mode) {
         if (mode === 'localita') {

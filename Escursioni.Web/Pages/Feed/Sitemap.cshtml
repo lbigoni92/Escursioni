@@ -16,11 +16,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>@baseUrl/ricerca</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
         <loc>@baseUrl/mappa</loc>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
@@ -50,7 +45,7 @@
     }
     @foreach (var h in Model.Hikes)
     {
-        var slug = IndexModel.MakeSlug(h.Titolo);
+        var slug = h.Slug;
         var lastmod = h.UpdatedAt.ToString("yyyy-MM-dd");
         var cover = (h.Media.FirstOrDefault(m => m.Tipo == "cover") ?? h.Media.OrderBy(m => m.Ordine).FirstOrDefault())?.PathRelativo;
     <url>

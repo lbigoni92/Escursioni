@@ -49,6 +49,9 @@ public static class TagHelper
     public static string? FromSlug(string slug) =>
         SlugToTag.TryGetValue(slug, out var tag) ? tag : null;
 
+    /// <summary>True se il tag ha una pagina zona (/escursioni/zona/{slug}).</summary>
+    public static bool IsKnown(string tag) => TagToSlug.ContainsKey(tag);
+
     public static string GetDescription(string tag) =>
         TagDescriptions.TryGetValue(tag, out var desc) ? desc : "";
 }

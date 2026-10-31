@@ -13,11 +13,13 @@ public sealed class ImageVariantGenerator
 {
     public static readonly string[] SourceExtensions = [".jpg", ".jpeg", ".png"];
 
+    // Qualità 75 con compressione massima (Level6): circa -25% di peso rispetto a 82,
+    // senza differenze visibili. Stessi valori in WikilocExporter (Utils/WebpVariants.cs).
     public record VariantSpec(string Suffix, int Width, int Quality);
     public static readonly VariantSpec[] Variants =
     [
-        new(".thumb.webp", 400, 80),
-        new(".gallery.webp", 800, 82),
+        new(".thumb.webp", 400, 75),
+        new(".gallery.webp", 800, 75),
     ];
 
     // Lock per-file condiviso tra middleware e prewarm
@@ -61,7 +63,7 @@ public sealed class ImageVariantGenerator
                     Mode = ResizeMode.Max,
                     Size = new Size(variant.Width, 0),
                 }));
-                var encoder = new WebpEncoder { Quality = variant.Quality };
+                var encoder = new WebpEncoder { Quality = variant.Quality, Method = WebpEncodingMethod.Level6 };
                 await image.SaveAsync(tmpPath, encoder, cancellationToken);
                 File.Move(tmpPath, variantPhysicalPath, overwrite: true);
             }

@@ -1,94 +1,86 @@
 @page
 @model Escursioni.Web.Pages.IndexModel
 
+@{
+    var heroHikes = Model.InEvidenza;
+}
+<section class="hero @(heroHikes.Count == 3 ? "hero--with-media" : "")" aria-labelledby="home-title">
+    <div class="hero-text">
+        <span class="eyebrow">Trekking in Toscana e non solo</span>
+        <h1 id="home-title">Escursioni in Toscana – Trekking, sentieri e tracce GPS</h1>
+        <p>
+            Sono <strong>Luca Bigoni</strong>, escursionista appassionato. Qui trovi le mie
+            <strong>escursioni in Toscana</strong>: <strong>trekking sulle Alpi Apuane</strong>, sentieri in
+            <strong>Garfagnana</strong>, percorsi vicino a <strong>Lucca</strong> e molto altro, ognuno con
+            traccia GPS scaricabile, foto e descrizione dettagliata.
+        </p>
+        <div class="btn-row">
+            <a class="btn" href="/escursioni" title="Tutte le escursioni divise per zona">Esplora le zone</a>
+            <a class="btn-secondary" href="/mappa" title="Mappa interattiva delle escursioni">Apri la mappa</a>
+            <a class="btn-secondary" href="/ricerca" title="Cerca un'escursione per località o parola chiave">Cerca un sentiero</a>
+        </div>
+        <ul class="hero-stats">
+            <li><strong>@Model.TotaleEscursioni</strong> escursioni</li>
+            <li><strong>@Model.Zone.Count</strong> zone</li>
+            <li><strong>@Model.TotaleKm.ToString("N0", System.Globalization.CultureInfo.InvariantCulture).Replace(',', '.')</strong> km percorsi</li>
+        </ul>
+    </div>
+    @if (heroHikes.Count == 3)
+    {
+        <ul class="hero-media" aria-label="Escursioni in evidenza">
+            @for (var i = 0; i < heroHikes.Count; i++)
+            {
+                var hh = heroHikes[i];
+                var cover = Escursioni.Web.Pages.IndexModel.CoverPath(hh)!;
+                // La prima foto è grande: variante gallery (800px), le altre thumb (400px)
+                var webp = i == 0 ? ImageHelper.GalleryPath(cover) : ImageHelper.ThumbPath(cover);
+                var title = HikeDisplay.Title(hh);
+                <li>
+                    <a href="/escursioni/@hh.Slug" title="@title">
+                        <picture>
+                            @if (webp != null)
+                            {
+                                <source srcset="~/@webp" type="image/webp" />
+                            }
+                            <img src="~/@cover" alt="" decoding="async" width="@(i == 0 ? 800 : 400)" height="@(i == 0 ? 600 : 300)" />
+                        </picture>
+                        <span>@title</span>
+                    </a>
+                </li>
+            }
+        </ul>
+    }
+</section>
 
-<section>
-    <h1 class="page-title">Escursioni in Toscana – Trekking, sentieri e tracce GPS</h1>
+<section aria-labelledby="ultime">
+    <div class="section-head">
+        <h2 id="ultime">Ultime escursioni</h2>
+        <a class="section-link" href="/ricerca" title="Tutte le escursioni dalla più recente">Vedi tutte →</a>
+    </div>
+    <div class="card-grid">
+        @foreach (var h in Model.UltimeEscursioni)
+        {
+            <partial name="_HikeCard" model="h" />
+        }
+    </div>
+</section>
 
-    <p class="page-subtitle">
-        Benvenuto su <strong>escursionilucabigoni.it</strong>! Sono <strong>Luca Bigoni</strong>, escursionista appassionato.
-        Qui trovi le mie <strong>escursioni in Toscana</strong>: <strong>trekking sulle Alpi Apuane</strong>,
-        sentieri in <strong>Garfagnana</strong>, percorsi vicino a <strong>Lucca</strong> e molto altro.
-        Ogni escursione include tracce GPS scaricabili, foto e descrizioni dettagliate.
-    </p>
-   <div class="about-warning">
+<section aria-labelledby="zone">
+    <div class="section-head">
+        <h2 id="zone">Escursioni per zona</h2>
+        <a class="section-link" href="/escursioni" title="Guida alle zone escursionistiche">Guida alle zone →</a>
+    </div>
+    <div class="zone-grid">
+        @foreach (var z in Model.Zone)
+        {
+            <partial name="_ZoneTile" model="z" />
+        }
+    </div>
+</section>
+
+<div class="about-warning">
+    <div>
         <strong>Tutte le escursioni presenti su questo sito nascono da esperienza diretta sul campo.</strong><br />
         <span>La difficoltà riportata è soggettiva e può variare in base alla preparazione e alle condizioni del momento: <strong>valuta sempre con attenzione e responsabilità ogni uscita</strong>.</span>
     </div>
-
-    <section class="section">
-        <h2 style="font-size:1.2rem;margin-bottom:0.5rem;">Ultime escursioni</h2>
-        <div class="card-grid">
-            @foreach (var h in Model.UltimeEscursioni)
-            {
-                var cover = Escursioni.Web.Pages.IndexModel.CoverPath(h);
-                var coverThumb = ImageHelper.ThumbPath(cover);
-                var displayTitle = !string.IsNullOrWhiteSpace(h.TitoloSeo) ? h.TitoloSeo : h.Titolo;
-                <article class="hike-card">
-                    @if (!string.IsNullOrWhiteSpace(cover))
-                    {
-                        <a asp-page="/Escursioni/Dettaglio"
-                           asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)"
-                           title="@displayTitle">
-                            <picture>
-                                @if (coverThumb != null)
-                                {
-                                    <source srcset="~/@coverThumb" type="image/webp" />
-                                }
-                                <img src="~/@cover" alt="@displayTitle" loading="lazy" decoding="async" width="400" height="160" />
-                            </picture>
-                        </a>
-                    }
-                    <div class="hike-card-body">
-                        <h2 class="hike-card-title">
-                            <a asp-page="/Escursioni/Dettaglio"
-                               asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)"
-                               title="@displayTitle">
-                                @displayTitle
-                            </a>
-                        </h2>
-                        <div class="hike-card-meta">
-                            @if (!string.IsNullOrWhiteSpace(h.Comune))
-                            {
-                                @($"{h.Comune}, {h.Provincia}")
-                            }
-                            else if (!string.IsNullOrWhiteSpace(h.Regione))
-                            {
-                                @h.Regione
-                            }
-                            @if (h.DataEscursione.HasValue)
-                            {
-                                <span> · @h.DataEscursione.Value.ToString("dd/MM/yyyy")</span>
-                            }
-                        </div>
-                        <div class="hike-card-desc">
-                            @{
-                                var txt = h.Descrizione ?? "";
-                                if (txt.Length > 140) txt = txt[..140] + "...";
-                            }
-                            @txt
-                        </div>
-                    </div>
-                    <div class="hike-card-footer">
-                        <span>
-                            @if (h.DistanzaKm.HasValue)
-                            {
-                                <span>@h.DistanzaKm.Value.ToString("0.0") km</span>
-                            }
-                            @if (h.DislivelloM.HasValue)
-                            {
-                                <span> · +@h.DislivelloM.Value m</span>
-                            }
-                        </span>
-                        <span>
-                            @if (!string.IsNullOrWhiteSpace(h.Difficolta))
-                            {
-                                <span class="badge ">@h.Difficolta</span>
-                            }
-                        </span>
-                    </div>
-                </article>
-            }
-        </div>
-    </section>
-</section>
+</div>

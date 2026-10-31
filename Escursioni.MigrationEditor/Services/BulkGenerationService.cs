@@ -126,11 +126,11 @@ public class BulkGenerationService
             Total = toProcess.Count;
             Current = 0;
 
-            _logger.LogInformation("[Bulk:{Mode}] Avvio elaborazione: {Total} migrazioni da processare", Mode, Total);
+            _logger.LogInformation("[Bulk:{Mode}] Avvio elaborazione: {Total} escursioni da processare", Mode, Total);
 
             if (Total == 0)
             {
-                Message = "Nessuna migrazione con titolo o descrizione da elaborare.";
+                Message = "Nessuna escursione con titolo o descrizione da elaborare.";
                 IsRunning = false;
                 return;
             }

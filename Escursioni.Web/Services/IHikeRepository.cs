@@ -4,17 +4,6 @@ namespace Escursioni.Web.Services;
 
 public interface IHikeRepository
 {
-
-    Task<PagedResult<Hike>> SearchAsync(
-        string? q,
-        string? comune,
-        string? difficolta,
-        string? orderBy,
-        int page,
-        int pageSize,
-        int raggioKm = 0);
-
-    Task<IReadOnlyList<string>> GetDistinctComuniAsync();
     Task<IReadOnlyList<string>> GetDistinctDifficoltaAsync();
     Task<List<Hike>> GetLatestAsync(int count);
     Task<List<Hike>> GetAllAsync(string? regione, string? difficolta);

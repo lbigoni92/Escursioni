@@ -1,3 +1,41 @@
+@inject IConfiguration Configuration
+@inject IHikeRepository Repo
+@{
+    // Dichiarate fuori da <head>/<body>: i tag helper ne fanno degli scope separati
+    var baseUrl = (Configuration["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
+    var reqPath = Context.Request.Path.HasValue ? Context.Request.Path.Value : "/";
+    if (string.IsNullOrEmpty(reqPath)) reqPath = "/";
+    // ensure path starts with '/'
+    if (!reqPath.StartsWith('/')) reqPath = "/" + reqPath;
+    var computedCanonical = (ViewData["CanonicalUrl"] as string);
+    if (string.IsNullOrWhiteSpace(computedCanonical)) {
+        computedCanonical = baseUrl + (reqPath == "/" ? "/" : reqPath.TrimEnd('/'));
+    }
+    var computedOgImage = (ViewData["OgImage"] as string);
+    if (string.IsNullOrWhiteSpace(computedOgImage)) {
+        computedOgImage = baseUrl + "/images/og-home.jpg";
+    }
+
+    var zones = await Repo.GetTagSummaryAsync();
+    var currentZone = ViewData["CurrentZone"] as string;
+    var crumbs = ViewData["Breadcrumbs"] as List<(string Label, string Url)>;
+
+    // Voce di menu attiva: /escursioni copre anche zone e schede escursione
+    string? Current(string href) =>
+        (href == "/" ? reqPath == "/" : href == "/escursioni" ? reqPath.StartsWith("/escursioni") : reqPath.TrimEnd('/') == href)
+            ? "page" : null;
+
+    // Icone (24x24, solo tratto): un solo path per icona
+    var navItems = new (string Href, string Label, string Title, string Icon)[]
+    {
+        ("/", "Home", "Escursioni in Toscana – Home", "M3 10.5 12 3l9 7.5V21h-6v-6H9v6H3z"),
+        ("/escursioni", "Escursioni per zona", "Tutte le escursioni divise per zona", "M2 20 9 7l4.5 7.5L16 11l6 9z"),
+        ("/mappa", "Mappa", "Mappa interattiva delle escursioni con tracce GPS", "M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2zM9 4v14M15 6v14"),
+        ("/ricerca", "Ricerca", "Cerca escursioni per località o parola chiave", "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4"),
+        ("/chi-sono", "Chi sono", "Chi è Luca Bigoni", "M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0"),
+        ("/contatti", "Contatti", "Scrivi a Luca Bigoni", "M3 5h18v14H3zM3 6l9 7 9-7"),
+    };
+}
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -10,25 +48,12 @@
         <meta name="description" content="@md" />
     }
     <meta name="robots" content="@(ViewData["RobotsDirective"] is string robotsDir && !string.IsNullOrWhiteSpace(robotsDir) ? robotsDir : "index, follow")" />
-    @inject IConfiguration Configuration
-    @{
-        var baseUrl = (Configuration["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
-        var reqPath = Context.Request.Path.HasValue ? Context.Request.Path.Value : "/";
-        if (string.IsNullOrEmpty(reqPath)) reqPath = "/";
-        // ensure path starts with '/'
-        if (!reqPath.StartsWith('/')) reqPath = "/" + reqPath;
-        var computedCanonical = (ViewData["CanonicalUrl"] as string);
-        if (string.IsNullOrWhiteSpace(computedCanonical)) {
-            computedCanonical = baseUrl + (reqPath == "/" ? "/" : reqPath.TrimEnd('/'));
-        }
-        var computedOgImage = (ViewData["OgImage"] as string);
-        if (string.IsNullOrWhiteSpace(computedOgImage)) {
-            computedOgImage = baseUrl + "/images/og-home.jpg";
-        }
-    }
+    <meta name="author" content="Luca Bigoni" />
+    <meta name="theme-color" content="#0f1a15" />
     <link rel="canonical" href="@computedCanonical" />
     <link rel="alternate" hreflang="it" href="@computedCanonical" />
     <link rel="alternate" hreflang="x-default" href="@computedCanonical" />
+    <link rel="alternate" type="application/rss+xml" title="Escursioni Luca Bigoni – Feed RSS" href="/feed/rss" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="@(ViewData["OgType"] ?? "website")" />
@@ -57,90 +82,154 @@
     <link rel="icon" type="image/x-icon" href="~/favicon.ico" sizes="any" />
     <link rel="apple-touch-icon" href="~/favicon-192.png" />
     <link rel="manifest" href="~/manifest.json" />
-    <link rel="preconnect" href="https://unpkg.com" crossorigin />
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
-    <link rel="dns-prefetch" href="https://unpkg.com" />
-    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
     <script>
         // Applica subito il tema light-mode se salvato in localStorage
         (function() {
             try {
+                // Qui il <body> non esiste ancora: la classe gli viene copiata subito dopo l'apertura
                 if (localStorage.getItem('theme') === 'light') {
                     document.documentElement.classList.add('light-mode');
-                    document.body.classList.add('light-mode');
                 }
             } catch (e) {}
         })();
     </script>
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     @RenderSection("Head", required: false)
 </head>
 <body>
-    <a href="#main-content" class="skip-link" title="Vai al contenuto principale">Vai al contenuto principale</a>
+    <script>if (document.documentElement.classList.contains('light-mode')) document.body.classList.add('light-mode');</script>
+    <a href="#main-content" class="skip-link">Vai al contenuto principale</a>
 
-    <header class="top-bar">
-        <div class="top-bar-inner">
-            <a class="brand" asp-page="/Index" title="Escursioni Luca Bigoni – Home">Escursioni Luca Bigoni</a>
-            <button class="hamburger" id="hamburger-btn" aria-label="Apri menu" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
-            <nav class="main-nav" id="main-nav" aria-label="Navigazione principale">
-                <a asp-page="/Index" title="Home">Home</a>
-                <a asp-page="/Escursioni/Index" title="Escursioni per zona">Escursioni</a>
-                <a asp-page="/Map/Index" title="Mappa escursioni">Mappa</a>
-                <a asp-page="/Search/Index" title="Ricerca escursioni">Ricerca</a>
-                <a asp-page="/About" title="Chi sono – Luca Bigoni">Chi sono</a>
-                <a asp-page="/Contact" title="Contatti">Contatti</a>
-                <button id="toggle-darkmode" style="margin-left:1.2rem;padding:0.3rem 0.8rem;border-radius:999px;border:1px solid #4b5563;background:var(--bg);color:var(--text-main);cursor:pointer;">🌓</button>
-            </nav>
-        </div>
+    <header class="mobile-bar">
+        <a class="brand" href="/" title="Escursioni Luca Bigoni – Home">
+            <svg class="brand-logo" viewBox="0 0 32 32" aria-hidden="true"><circle cx="23" cy="9" r="4" class="brand-sun" /><path d="M2 27 12 11l6 9 3-4 9 11z" class="brand-mountain" /></svg>
+            <span class="brand-text">Escursioni <strong>Luca Bigoni</strong></span>
+        </a>
+        <button class="hamburger" id="hamburger-btn" type="button" aria-label="Apri menu" aria-expanded="false" aria-controls="sidebar">
+            <span></span><span></span><span></span>
+        </button>
     </header>
 
-    <div class="breadcrumb" aria-label="Breadcrumb">
-        @if (ViewData["Breadcrumbs"] is List<(string Label, string Url)> crumbs && crumbs.Count > 0)
+    <aside class="sidebar" id="sidebar" aria-label="Menu del sito">
+        <a class="brand sidebar-brand" href="/" title="Escursioni Luca Bigoni – Home">
+            <svg class="brand-logo" viewBox="0 0 32 32" aria-hidden="true"><circle cx="23" cy="9" r="4" class="brand-sun" /><path d="M2 27 12 11l6 9 3-4 9 11z" class="brand-mountain" /></svg>
+            <span class="brand-text">Escursioni <strong>Luca Bigoni</strong><small>Trekking in Toscana</small></span>
+        </a>
+
+        <nav class="main-nav" id="main-nav" aria-label="Navigazione principale">
+            <ul class="nav-list">
+                @foreach (var item in navItems)
+                {
+                    <li>
+                        <a class="nav-link" href="@item.Href" title="@item.Title" aria-current="@Current(item.Href)">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="@item.Icon" /></svg>
+                            <span>@item.Label</span>
+                        </a>
+                    </li>
+                }
+            </ul>
+        </nav>
+
+        @if (zones.Count > 0)
         {
-            <nav aria-label="Breadcrumb">
-                <ol style="list-style:none;display:flex;flex-wrap:wrap;gap:0.3rem;padding:0;margin:0;font-size:0.85rem;">
+            <nav class="zone-nav" aria-label="Escursioni per zona">
+                <p class="nav-heading">Zone</p>
+                <ul class="nav-list">
+                    @foreach (var (tag, count) in zones)
+                    {
+                        var zoneHref = "/escursioni/zona/" + TagHelper.ToSlug(tag);
+                        var isZone = reqPath == zoneHref || string.Equals(currentZone, tag, StringComparison.OrdinalIgnoreCase);
+                        <li>
+                            <a class="zone-link" href="@zoneHref" title="Escursioni @tag" aria-current="@(isZone ? "page" : null)">
+                                <span>@tag</span><span class="zone-count">@count<span class="visually-hidden"> escursioni</span></span>
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </nav>
+        }
+
+        <div class="sidebar-foot">
+            <button id="toggle-darkmode" class="theme-toggle" type="button" aria-label="Cambia tema chiaro/scuro">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path class="icon-moon" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" /><path class="icon-sun" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" /></svg>
+                <span class="theme-label-dark">Tema chiaro</span><span class="theme-label-light">Tema scuro</span>
+            </button>
+        </div>
+    </aside>
+    <div class="sidebar-backdrop" id="sidebar-backdrop" hidden></div>
+
+    <div class="site-content">
+        @if (crumbs is { Count: > 0 })
+        {
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <ol>
                     <li><a href="/" title="Home">Home</a></li>
                     @foreach (var (label, url) in crumbs)
                     {
-                        <li style="display:flex;align-items:center;"><span style="margin:0 0.3rem;">›</span>
+                        <li>
                             @if (!string.IsNullOrEmpty(url))
                             {
                                 <a href="@url" title="@label">@label</a>
                             }
                             else
                             {
-                                <span>@label</span>
+                                <span aria-current="page">@label</span>
                             }
                         </li>
                     }
                 </ol>
             </nav>
         }
-    </div>
 
+        <main id="main-content" class="page-container @(ViewData["FullWidth"] is true ? "page-container--full" : "")">
+            @RenderBody()
+        </main>
 
-    <main id="main-content" class="page-container @(ViewData["FullWidth"] is true ? "page-container--full" : "")" role="main">
-        @RenderBody()
-    </main>
-
-    <footer class="footer">
-        <div class="footer-inner">
-            <div class="footer-copyright">© @DateTime.Now.Year - Escursioni Luca Bigoni | Trekking in Toscana</div>
-            <div class="footer-sep">·</div>
-            <div class="footer-rss"><a href="/feed/rss" title="Feed RSS">Feed RSS</a></div>
-            <div class="footer-sep">·</div>
-            <div class="footer-privacy"><a href="/privacy" title="Privacy policy">Privacy</a></div>
-            <div class="footer-sep">·</div>
-            <div class="footer-social">
-                <a href="https://www.linkedin.com/in/luca-bigoni/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">in</a>
-                <a href="https://www.instagram.com/lbigoni/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">ig</a>
-                <a href="https://www.facebook.com/luca.bigoni1/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">fb</a>
+        <footer class="footer">
+            <div class="footer-grid">
+                <section class="footer-about">
+                    <a class="brand" href="/" title="Escursioni Luca Bigoni – Home">
+                        <svg class="brand-logo" viewBox="0 0 32 32" aria-hidden="true"><circle cx="23" cy="9" r="4" class="brand-sun" /><path d="M2 27 12 11l6 9 3-4 9 11z" class="brand-mountain" /></svg>
+                        <span class="brand-text">Escursioni <strong>Luca Bigoni</strong></span>
+                    </a>
+                    <p>Escursioni e trekking in Toscana raccontati da un escursionista amatoriale: tracce GPS, foto e descrizioni dei sentieri di Alpi Apuane, Garfagnana, Versilia e Appennino.</p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/luca-bigoni/" target="_blank" rel="noopener noreferrer me" title="Luca Bigoni su LinkedIn">LinkedIn</a>
+                        <a href="https://www.instagram.com/lbigoni/" target="_blank" rel="noopener noreferrer me" title="Luca Bigoni su Instagram">Instagram</a>
+                        <a href="https://www.facebook.com/luca.bigoni1/" target="_blank" rel="noopener noreferrer me" title="Luca Bigoni su Facebook">Facebook</a>
+                    </div>
+                </section>
+                <nav aria-label="Pagine del sito">
+                    <p class="footer-heading">Esplora</p>
+                    <ul>
+                        @foreach (var item in navItems.Skip(1))
+                        {
+                            <li><a href="@item.Href" title="@item.Title">@item.Label</a></li>
+                        }
+                    </ul>
+                </nav>
+                <nav aria-label="Zone più visitate">
+                    <p class="footer-heading">Zone principali</p>
+                    <ul>
+                        @foreach (var (tag, _) in zones.Take(6))
+                        {
+                            <li><a href="/escursioni/zona/@TagHelper.ToSlug(tag)" title="Escursioni @tag">Escursioni @tag</a></li>
+                        }
+                    </ul>
+                </nav>
+                <nav aria-label="Informazioni">
+                    <p class="footer-heading">Info</p>
+                    <ul>
+                        <li><a href="/feed/rss" title="Feed RSS delle ultime escursioni">Feed RSS</a></li>
+                        <li><a href="/sitemap.xml" title="Mappa del sito in XML">Sitemap</a></li>
+                        <li><a href="/privacy" title="Informativa privacy">Privacy</a></li>
+                        <li><a href="/note-legali" title="Note legali e condizioni d'uso">Note legali</a></li>
+                    </ul>
+                </nav>
             </div>
-        </div>
-    </footer>
-
+            <p class="footer-bottom">© @DateTime.Now.Year Escursioni Luca Bigoni · Trekking in Toscana</p>
+        </footer>
+    </div>
 
     @RenderSection("Scripts", required: false)
 
@@ -150,7 +239,7 @@
 </script>
 
 <script type="application/ld+json">
-{"@@context":"https://schema.org","@@type":"Person","name":"Luca Bigoni","url":"https://escursionilucabigoni.it/","jobTitle":"Escursionista amatoriale","knowsAbout":["Escursioni in Toscana","Trekking Alpi Apuane","Sentieri Garfagnana"],"address":{"@@type":"PostalAddress","addressRegion":"Toscana","addressCountry":"IT"},"sameAs":["https://www.linkedin.com/in/luca-bigoni/","https://www.instagram.com/lbigoni/","https://www.facebook.com/luca.bigoni1/"]}
+{"@@context":"https://schema.org","@@type":"Person","@@id":"https://escursionilucabigoni.it/#luca-bigoni","name":"Luca Bigoni","url":"https://escursionilucabigoni.it/chi-sono","jobTitle":"Escursionista amatoriale","knowsAbout":["Escursioni in Toscana","Trekking Alpi Apuane","Sentieri Garfagnana"],"address":{"@@type":"PostalAddress","addressRegion":"Toscana","addressCountry":"IT"},"sameAs":["https://www.linkedin.com/in/luca-bigoni/","https://www.instagram.com/lbigoni/","https://www.facebook.com/luca.bigoni1/"]}
 </script>
     @if (ViewData["JsonLd"] is string jsonLd && !string.IsNullOrWhiteSpace(jsonLd))
     {
@@ -160,30 +249,58 @@
     {
         <script type="application/ld+json">@Html.Raw(jsonLd2)</script>
     }
-    @if (ViewData["BreadcrumbJsonLd"] is string breadcrumbLd && !string.IsNullOrWhiteSpace(breadcrumbLd))
+    @{
+        // BreadcrumbList generato dalle briciole visibili quando la pagina non ne fornisce uno proprio
+        var breadcrumbLd = ViewData["BreadcrumbJsonLd"] as string;
+        if (string.IsNullOrWhiteSpace(breadcrumbLd) && crumbs is { Count: > 0 })
+        {
+            var items = new List<object> { new Dictionary<string, object> { ["@type"] = "ListItem", ["position"] = 1, ["name"] = "Home", ["item"] = baseUrl + "/" } };
+            foreach (var (label, url) in crumbs)
+            {
+                var item = new Dictionary<string, object> { ["@type"] = "ListItem", ["position"] = items.Count + 1, ["name"] = label };
+                item["item"] = string.IsNullOrEmpty(url) ? computedCanonical : url.StartsWith('/') ? baseUrl + url : url;
+                items.Add(item);
+            }
+            breadcrumbLd = System.Text.Json.JsonSerializer.Serialize(new Dictionary<string, object>
+            {
+                ["@context"] = "https://schema.org",
+                ["@type"] = "BreadcrumbList",
+                ["itemListElement"] = items,
+            });
+        }
+    }
+    @if (!string.IsNullOrWhiteSpace(breadcrumbLd))
     {
         <script type="application/ld+json">@Html.Raw(breadcrumbLd)</script>
     }
 
     <script>
-        // Dark mode toggle + Hamburger menu — non-blocking
+        // Tema chiaro/scuro + menu laterale (drawer su mobile) — non-blocking
         requestAnimationFrame(function() {
             var btn = document.getElementById('toggle-darkmode');
             if (btn) {
                 btn.addEventListener('click', function() {
                     document.body.classList.toggle('light-mode');
                     document.documentElement.classList.toggle('light-mode');
-                    localStorage.setItem('theme', document.body.classList.contains('light-mode') ? 'light' : 'dark');
+                    try { localStorage.setItem('theme', document.body.classList.contains('light-mode') ? 'light' : 'dark'); } catch (e) {}
                 });
             }
             var hamburger = document.getElementById('hamburger-btn');
-            var mainNav = document.getElementById('main-nav');
-            if (hamburger && mainNav) {
-                hamburger.addEventListener('click', function() {
-                    var open = !mainNav.classList.contains('is-open');
-                    mainNav.classList.toggle('is-open');
-                    hamburger.classList.toggle('is-open');
+            var sidebar = document.getElementById('sidebar');
+            var backdrop = document.getElementById('sidebar-backdrop');
+            if (hamburger && sidebar) {
+                function setOpen(open) {
+                    sidebar.classList.toggle('is-open', open);
+                    hamburger.classList.toggle('is-open', open);
                     hamburger.setAttribute('aria-expanded', open);
+                    hamburger.setAttribute('aria-label', open ? 'Chiudi menu' : 'Apri menu');
+                    document.body.classList.toggle('nav-open', open);
+                    if (backdrop) backdrop.hidden = !open;
+                }
+                hamburger.addEventListener('click', function() { setOpen(!sidebar.classList.contains('is-open')); });
+                if (backdrop) backdrop.addEventListener('click', function() { setOpen(false); });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape' && sidebar.classList.contains('is-open')) { setOpen(false); hamburger.focus(); }
                 });
             }
         });

@@ -2,11 +2,9 @@ using Escursioni.Web.Models;
 using Escursioni.Web.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.OutputCaching;
 
 namespace Escursioni.Web.Pages.Escursioni;
 
-[OutputCache(PolicyName = "HikeDetail")]
 public class DettaglioModel : PageModel
 {
     private readonly IHikeRepository _repo;
@@ -23,6 +21,11 @@ public class DettaglioModel : PageModel
     public Hike? Hike { get; set; }
     public bool GpxValid { get; set; }
     public List<Hike> RelatedHikes { get; set; } = new();
+    /// <summary>Zona con pagina dedicata, se presente.</summary>
+    public string? Zone { get; set; }
+    /// <summary>Escursioni adiacenti nella stessa zona (ordine per data): navigazione precedente/successiva.</summary>
+    public Hike? Precedente { get; set; }
+    public Hike? Successiva { get; set; }
 
     public async Task<IActionResult> OnGetAsync(string slug)
     {
@@ -46,6 +49,20 @@ public class DettaglioModel : PageModel
         }
 
         RelatedHikes = await _repo.GetRelatedAsync(Hike.Id, Hike.Comune, Hike.Provincia, Hike.CentroidLat, Hike.CentroidLon);
+
+        Zone = HikeDisplay.Zone(Hike);
+        if (Zone != null)
+        {
+            ViewData["CurrentZone"] = Zone;
+            // GetByTagAsync ordina dalla più recente: "precedente" è quella fatta prima
+            var zoneHikes = await _repo.GetByTagAsync(Zone);
+            var index = zoneHikes.FindIndex(h => h.Id == Hike.Id);
+            if (index >= 0)
+            {
+                Successiva = index > 0 ? zoneHikes[index - 1] : null;
+                Precedente = index < zoneHikes.Count - 1 ? zoneHikes[index + 1] : null;
+            }
+        }
 
         return Page();
     }

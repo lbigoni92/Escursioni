@@ -3,11 +3,11 @@ using Escursioni.MigrationEditor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Resolve the MigrationsRaw folder relative to the solution root
+// Cartella dei file JSON delle escursioni, relativa alla root della solution
 var solutionRoot = Path.GetFullPath(Path.Combine(builder.Environment.ContentRootPath, ".."));
-var migrationsDir = Path.Combine(solutionRoot, "Escursioni.Web", "Database", "MigrationsRaw");
+var hikesDir = Path.Combine(solutionRoot, "Escursioni.Web", "Data", "hikes");
 
-builder.Services.AddSingleton(new MigrationParserService(migrationsDir));
+builder.Services.AddSingleton(new MigrationParserService(hikesDir));
 var gpxDir = Path.Combine(solutionRoot, "Escursioni.Web", "wwwroot", "media", "gpx");
 builder.Services.AddSingleton(new GpxStatsService(gpxDir));
 builder.Services.AddHttpClient<MetaDescriptionGenerator>(client =>

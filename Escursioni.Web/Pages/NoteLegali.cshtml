@@ -1,0 +1,61 @@
+@page "/note-legali"
+@inject IConfiguration Configuration
+@{
+    var _baseUrl = (Configuration["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
+    var _email = Configuration["Site:ContactEmail"] ?? "luca.bigoni@live.it";
+    ViewData["Title"] = "Note legali e condizioni d'uso | Escursioni Luca Bigoni";
+    ViewData["MetaDescription"] = "Note legali e condizioni d'uso di Escursioni Luca Bigoni: responsabilità, sicurezza in montagna, uso di tracce GPS, foto e testi.";
+    ViewData["CanonicalUrl"] = $"{_baseUrl}/note-legali";
+    ViewData["OgImage"] = _baseUrl + "/images/og-home.jpg";
+    ViewData["RobotsDirective"] = "noindex, follow";
+    ViewData["Breadcrumbs"] = new List<(string Label, string Url)> { ("Note legali", "") };
+}
+
+<div class="prose">
+<h1 class="page-title">Note legali e condizioni d'uso</h1>
+
+<p>Usando il sito escursionilucabigoni.it accetti le condizioni descritte in questa pagina. Se non le condividi, ti chiedo di non usare i contenuti del sito.</p>
+
+<h2>Chi gestisce il sito</h2>
+<p>Il sito è gestito da Luca Bigoni a titolo personale e senza scopo di lucro (contatti: <a href="mailto:@_email">@_email</a>). Non vende prodotti o servizi, non ospita pubblicità e non organizza né accompagna escursioni. Viene aggiornato senza una periodicità fissa, quindi non è una testata giornalistica ai sensi della legge 62/2001.</p>
+
+<h2>Natura dei contenuti</h2>
+<p>Le escursioni descritte sono esperienze personali di un escursionista amatoriale, non di una guida alpina o di un accompagnatore professionista. Descrizioni, difficoltà, tempi, distanze, dislivelli e tracce GPS:</p>
+<ul>
+    <li>si riferiscono al giorno in cui ho percorso il sentiero e possono non essere più attuali;</li>
+    <li>possono contenere errori o imprecisioni, anche dovuti al GPS;</li>
+    <li>riflettono una valutazione soggettiva della difficoltà, che dipende da preparazione, attrezzatura e condizioni del momento;</li>
+    <li>non sostituiscono la cartografia ufficiale, la segnaletica sul posto né le informazioni di CAI, enti parco, rifugi e amministrazioni locali.</li>
+</ul>
+
+<h2>Sicurezza in montagna</h2>
+<p>L’escursionismo comporta rischi. Prima di partire controlla meteo, stato dei sentieri, eventuali chiusure o ordinanze, e valuta con onestà la tua preparazione. Porta attrezzatura adeguata, informa qualcuno del tuo itinerario e rinuncia se le condizioni non sono sicure. In caso di emergenza chiama il <strong>112</strong>.</p>
+
+<h2>Limitazione di responsabilità</h2>
+<p>Chi decide di percorrere un itinerario descritto sul sito lo fa sotto la propria responsabilità. Nei limiti consentiti dalla legge, il gestore del sito non risponde di incidenti, danni, smarrimenti o altre conseguenze derivanti dall’uso delle informazioni e delle tracce pubblicate. Il gestore si impegna a mantenere i contenuti corretti, ma non ne garantisce completezza, accuratezza o aggiornamento.</p>
+
+<h2>Foto, testi e tracce GPS</h2>
+<p>Testi, fotografie e tracce GPS pubblicati sul sito sono di Luca Bigoni, salvo dove indicato diversamente, e sono protetti dalla legge sul diritto d’autore (legge 633/1941). Tutti i diritti sono riservati.</p>
+<ul>
+    <li><strong>Consentito:</strong> scaricare le tracce GPX e consultare i contenuti per uso personale e non commerciale, ad esempio per preparare o seguire un’escursione; condividere il link alle pagine; citare brevi estratti indicando la fonte con un link alla pagina originale.</li>
+    <li><strong>Non consentito senza autorizzazione scritta:</strong> ripubblicare foto, testi o tracce su altri siti, app, social network o pubblicazioni; usarli per scopi commerciali; modificarli o presentarli come propri.</li>
+</ul>
+<p>Per richieste di utilizzo scrivi a <a href="mailto:@_email">@_email</a>.</p>
+
+<h2>Mappe</h2>
+<p>Le mappe usano dati © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>, disponibili con licenza Open Database License (ODbL). La libreria delle mappe è <a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a>.</p>
+
+<h2>Link esterni</h2>
+<p>Il sito contiene link a siti di terzi (ad esempio Wikiloc, Google Maps e social network). Il gestore non controlla questi siti e non è responsabile dei loro contenuti né del modo in cui trattano i dati personali.</p>
+
+<h2>Segnalazioni</h2>
+<p>Se trovi un errore, un sentiero non più percorribile o un contenuto che ritieni violi i tuoi diritti, scrivi a <a href="mailto:@_email">@_email</a>: verificherò e correggerò o rimuoverò il contenuto il prima possibile.</p>
+
+<h2>Privacy</h2>
+<p>Il trattamento dei dati personali è descritto nell’<a href="/privacy" title="Informativa privacy">informativa privacy</a>.</p>
+
+<h2>Legge applicabile</h2>
+<p>Queste condizioni sono regolate dalla legge italiana.</p>
+
+<p>Ultimo aggiornamento: ottobre 2026</p>
+</div>

@@ -30,7 +30,7 @@ public class RssModel : PageModel
             hikes.Select(h =>
             {
                 var url = baseUrl + "/escursioni/" +
-                            Pages.Escursioni.IndexModel.MakeSlug(h.Titolo);
+                            h.Slug;
 
                 var desc = h.Descrizione ?? "";
                 if (desc.Length > 300) desc = desc[..300] + "...";

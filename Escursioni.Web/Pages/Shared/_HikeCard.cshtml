@@ -1,0 +1,75 @@
+@model Hike
+@*
+    Card escursione usata da home, zone, dettaglio (correlate). La stessa struttura è
+    replicata in wwwroot/js/search.js per i risultati della ricerca: tenerle allineate.
+    ViewData["CardHeading"]: livello del titolo (default h3).
+*@
+@{
+    var h = Model;
+    var title = HikeDisplay.Title(h);
+    var cover = Escursioni.Web.Pages.IndexModel.CoverPath(h);
+    var thumb = ImageHelper.ThumbPath(cover);
+    var zone = HikeDisplay.Zone(h);
+    var location = HikeDisplay.Location(h);
+    var heading = ViewData["CardHeading"] as string ?? "h3";
+}
+<article class="hike-card">
+    <div class="hike-card-media">
+        @if (!string.IsNullOrWhiteSpace(cover))
+        {
+            <picture>
+                @if (thumb != null)
+                {
+                    <source srcset="~/@thumb" type="image/webp" />
+                }
+                <img src="~/@cover" alt="@title" loading="lazy" decoding="async" width="400" height="225" />
+            </picture>
+        }
+        else
+        {
+            <div class="hike-card-placeholder" role="img" aria-label="Foto non disponibile per @title">
+                <svg viewBox="0 0 120 60" aria-hidden="true"><path d="M0 60 L32 22 L48 38 L70 12 L120 60 Z" /><circle cx="94" cy="16" r="6" /></svg>
+                <span>Foto in arrivo</span>
+            </div>
+        }
+        @if (zone != null)
+        {
+            <span class="hike-card-zone">@zone</span>
+        }
+    </div>
+    <div class="hike-card-body">
+        @if (heading == "h2")
+        {
+            <h2 class="hike-card-title"><a href="/escursioni/@h.Slug" class="stretched-link">@title</a></h2>
+        }
+        else
+        {
+            <h3 class="hike-card-title"><a href="/escursioni/@h.Slug" class="stretched-link">@title</a></h3>
+        }
+        <p class="hike-card-meta">
+            @if (location != null)
+            {
+                <span>@location</span>
+            }
+            @if (h.DataEscursione.HasValue)
+            {
+                <time datetime="@h.DataEscursione.Value.ToString("yyyy-MM-dd")">@h.DataEscursione.Value.ToString("dd/MM/yyyy")</time>
+            }
+        </p>
+        <p class="hike-card-desc">@HikeDisplay.Excerpt(h.Descrizione)</p>
+    </div>
+    <ul class="hike-card-stats" aria-label="Dati principali">
+        @if (h.DistanzaKm.HasValue)
+        {
+            <li><span class="stat-label">Distanza</span> @h.DistanzaKm.Value.ToString("0.0") km</li>
+        }
+        @if (h.DislivelloM.HasValue)
+        {
+            <li><span class="stat-label">Dislivello</span> +@h.DislivelloM.Value m</li>
+        }
+        @if (!string.IsNullOrWhiteSpace(h.Difficolta))
+        {
+            <li class="badge @HikeDisplay.DifficultyClass(h.Difficolta)"><span class="stat-label">Difficoltà</span> @h.Difficolta</li>
+        }
+    </ul>
+</article>

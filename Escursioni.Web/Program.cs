@@ -1,20 +1,24 @@
-using Escursioni.Web.Data;
 using Escursioni.Web.Services;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.StaticFiles;
-using Microsoft.EntityFrameworkCore;
-using Npgsql;
+using Microsoft.AspNetCore.TestHost;
 
 Console.WriteLine("[LOG] STARTING APP...");
 
 Console.WriteLine("[LOG] Creazione builder...");
 var builder = WebApplication.CreateBuilder(args);
 
+// Modalità export statico: dotnet run -- --export <cartella>
+// L'app gira su TestServer (nessuna porta) e ogni pagina viene salvata come file HTML.
+var exportDir = builder.Configuration["export"];
+if (exportDir != null)
+    builder.WebHost.UseTestServer();
+
 // Razor Pages
 builder.Services.AddRazorPages();
 
-// When running behind a proxy (Render.com, Nginx, etc.) honor X-Forwarded-* headers
+// When running behind a proxy (Nginx, Docker, etc.) honor X-Forwarded-* headers
 builder.Services.Configure<ForwardedHeadersOptions>(options =>
 {
     // include host so Request.Host reflects the original Host header forwarded by proxies
@@ -24,24 +28,6 @@ builder.Services.Configure<ForwardedHeadersOptions>(options =>
     options.KnownProxies.Clear();
 });
 
-// Output cache — HTML delle pagine statiche viene servito da cache in-memory
-builder.Services.AddOutputCache(options =>
-{
-    options.AddBasePolicy(policy => policy.NoCache()); // default: nessun cache
-    // Imposta tutte le policy a 30 giorni
-    options.AddPolicy("Pages", policy =>
-        policy.Expire(TimeSpan.FromDays(30))
-              .SetVaryByQuery([]));            // ignora querystring (canonical senza params)
-    options.AddPolicy("PagesSlow", policy =>
-        policy.Expire(TimeSpan.FromDays(30)));
-    options.AddPolicy("HikeDetail", policy =>
-        policy.Expire(TimeSpan.FromDays(30))
-              .SetVaryByRouteValue(["slug"]));
-    options.AddPolicy("TagPage", policy =>
-        policy.Expire(TimeSpan.FromDays(30))
-              .SetVaryByRouteValue(["slug"]));
-});
-
 // Response compression (GZIP)
 builder.Services.AddResponseCompression(options =>
 {
@@ -49,38 +35,19 @@ builder.Services.AddResponseCompression(options =>
     options.Providers.Add<GzipCompressionProvider>();
 });
 
-// DbContext PostgreSQL
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")?.Trim('"', ' ');
-var csb = new NpgsqlConnectionStringBuilder(connectionString);
-if (!builder.Environment.IsDevelopment())
-{
-    csb.SslMode = SslMode.Require;
-    csb.ChannelBinding = ChannelBinding.Disable; // PgBouncer di Render non supporta channel binding
-}
-Console.WriteLine($"[LOG] DB Host: {csb.Host}, SslMode: {csb.SslMode}, ChannelBinding: {csb.ChannelBinding}");
+// Dati escursioni: un file JSON per escursione, caricati in memoria all'avvio (nessun database)
+var hikesDir = Path.Combine(builder.Environment.ContentRootPath, builder.Configuration["Data:HikesPath"] ?? "Data/hikes");
+var hikeRepository = HikeRepository.LoadFromDirectory(hikesDir);
+Console.WriteLine($"[LOG] Caricate {hikeRepository.All.Count} escursioni da {hikesDir}");
 
-var dataSourceBuilder = new NpgsqlDataSourceBuilder(csb.ConnectionString);
-if (!builder.Environment.IsDevelopment())
-{
-    dataSourceBuilder.UseSslClientAuthenticationOptionsCallback(options =>
-    {
-        options.RemoteCertificateValidationCallback = (sender, cert, chain, errors) => true;
-    });
-}
-var dataSource = dataSourceBuilder.Build();
-
-builder.Services.AddDbContext<EscursioniDbContext>(options =>
-    options.UseNpgsql(dataSource));
-
-// Servizi / repository (accesso DB solo tramite interfacce)
-builder.Services.AddHttpClient<GeocodingService>();
-builder.Services.AddSingleton<GeocodingService>();
-builder.Services.AddScoped<IHikeRepository, HikeRepository>();
-builder.Services.AddScoped<ISearchService, SearchService>();
+builder.Services.AddSingleton(hikeRepository);
+builder.Services.AddSingleton<IHikeRepository>(hikeRepository);
+var siteRedirects = SiteRedirects.Load(Path.Combine(builder.Environment.ContentRootPath, "Data", "redirects.json"));
+builder.Services.AddSingleton(siteRedirects);
 builder.Services.AddScoped<SeoService>();
-builder.Services.AddSingleton<DatabaseBootstrapService>();
 builder.Services.AddSingleton<ImageVariantGenerator>();
-builder.Services.AddHostedService<ImagePrewarmService>();
+if (exportDir == null)
+    builder.Services.AddHostedService<ImagePrewarmService>();
 
 
 Console.WriteLine("[LOG] Build dell'app...");
@@ -98,14 +65,6 @@ else
     Console.WriteLine("[LOG] Ambiente sviluppo");
 }
 
-using (var scope = app.Services.CreateScope())
-{
-    Console.WriteLine("[LOG] Avvio DatabaseBootstrapService...");
-    var bootstrap = scope.ServiceProvider.GetRequiredService<DatabaseBootstrapService>();
-    await bootstrap.RunAsync();
-    Console.WriteLine("[LOG] Migrazioni DB completate.");
-}
-
 
 Console.WriteLine("[LOG] Configurazione middleware...");
 // Process X-Forwarded headers before any middleware that uses scheme/host
@@ -114,10 +73,19 @@ app.UseForwardedHeaders();
 
 
 // Legacy redirect for old /escursioni/{id}/{slug} → /escursioni/{slug}
-// Place this BEFORE OutputCache to avoid caching redirect responses.
+// (nel sito statico lo stesso redirect è nel file _redirects)
 app.Use(async (context, next) =>
 {
     var path = context.Request.Path.Value ?? "";
+
+    // Pagine tolte dal sito (Data/redirects.json)
+    if (siteRedirects.TryGetTarget(path, out var target))
+    {
+        context.Response.StatusCode = StatusCodes.Status301MovedPermanently;
+        context.Response.Headers.Location = $"{context.Request.PathBase}{target}{context.Request.QueryString}";
+        return;
+    }
+
     var match = System.Text.RegularExpressions.Regex.Match(path, @"^/escursioni/\d+/(.+)$");
     if (match.Success)
     {
@@ -133,12 +101,14 @@ app.Use(async (context, next) =>
 
 app.UseResponseCompression();
 
+// URL inesistenti: stessa pagina /404 che Cloudflare serve dal file 404.html del sito statico
+app.UseStatusCodePagesWithReExecute("/404");
+
 // Genera varianti WebP ottimizzate on-demand alla prima richiesta
 app.UseMiddleware<ImageOptimizationMiddleware>();
 
 var provider = new FileExtensionContentTypeProvider();
 provider.Mappings[".gpx"] = "application/gpx+xml";
-provider.Mappings[".kml"] = "application/vnd.google-earth.kml+xml";
 
 app.UseStaticFiles(new StaticFileOptions
 {
@@ -172,9 +142,21 @@ Console.WriteLine("[LOG] Static files configurati.");
 
 app.UseRouting();
 app.UseAuthorization();
-app.UseOutputCache();
 
 app.MapRazorPages();
 
+// Indice per la ricerca lato browser (nel sito statico diventa il file data/search-index.json)
+app.MapGet("/data/search-index.json", (HikeRepository repo) => Results.Json(repo.BuildSearchIndex()));
+
+if (exportDir != null)
+{
+    await app.StartAsync();
+    var exporter = ActivatorUtilities.CreateInstance<StaticSiteExporter>(app.Services);
+    var exitCode = await exporter.ExportAsync(app.GetTestClient(), exportDir);
+    await app.StopAsync();
+    return exitCode;
+}
+
 Console.WriteLine("[LOG] Applicazione avviata. In ascolto sulle porte configurate.");
 app.Run();
+return 0;

@@ -1,19 +1,20 @@
 @page "/chi-sono"
 @model Escursioni.Web.Pages.AboutModel
-<link rel="stylesheet" href="~/css/about.css" />
 
 <section>
-    <h1 class="page-title">Chi sono – Luca Bigoni, escursionista amatoriale in Toscana</h1>
-    <p class="page-subtitle">
-        Ciao! Sono <strong>Luca Bigoni</strong>, escursionista amatoriale e amante della montagna.
-        Non sono una guida professionista: sono semplicemente un appassionato che ama esplorare sentieri,
-        vette e cammini nel tempo libero. Vivo in <strong>Toscana</strong> e da anni percorro i sentieri
-        delle <strong>Alpi Apuane</strong>, della <strong>Garfagnana</strong>, della <strong>Versilia</strong>
-        e di tutta la regione.
-    </p>
+    <header class="page-header">
+        <h1 class="page-title">Chi sono – Luca Bigoni, escursionista amatoriale in Toscana</h1>
+        <p class="page-subtitle">
+            Ciao! Sono <strong>Luca Bigoni</strong>, escursionista amatoriale e amante della montagna.
+            Non sono una guida professionista: sono semplicemente un appassionato che ama esplorare sentieri,
+            vette e cammini nel tempo libero. Vivo in <strong>Toscana</strong> e da anni percorro i sentieri
+            delle <strong>Alpi Apuane</strong>, della <strong>Garfagnana</strong>, della <strong>Versilia</strong>
+            e di tutta la regione.
+        </p>
+    </header>
 
     <div class="about-flex">
-        <div class="about-text-col">
+        <div class="about-text-col prose">
             <h2>La mia passione: escursioni e trekking in Toscana</h2>
             <p>
                 Sono nato e cresciuto in Toscana, tra le colline lucchesi e le vette delle Apuane.
@@ -60,30 +61,32 @@
 
             <h2>Le mie zone preferite</h2>
             <ul>
-                <li><strong>Alpi Apuane</strong> – trekking impegnativi e panorami mozzafiato, dal Sumbra alla Bagola Bianca</li>
-                <li><strong>Garfagnana</strong> – sentieri nel verde tra borghi e foreste, perfetti per escursioni di mezza giornata</li>
-                <li><strong>Versilia e costa toscana</strong> – percorsi tra mare e montagna, ideali tutto l'anno</li>
-                <li><strong>Lucchesia e colline toscane</strong> – cammini facili e panoramici, adatti a tutti</li>
-                <li><strong>Appennino Tosco-Emiliano</strong> – trekking d'alta quota e crinali spettacolari</li>
-                <li><strong>Trentino</strong> – escursioni durante le mie ferie estive nella meravigliosa terra del Trentino</li>
-                <li><strong>Estero</strong> – escursioni durante le mie ferie in luoghi internazionali mozzafiato</li>
+                <li><a href="/escursioni/zona/alpi-apuane" title="Escursioni Alpi Apuane"><strong>Alpi Apuane</strong></a> – trekking impegnativi e panorami mozzafiato, dal Sumbra alla Bagola Bianca</li>
+                <li><a href="/escursioni/zona/garfagnana" title="Escursioni Garfagnana"><strong>Garfagnana</strong></a> –sentieri nel verde tra borghi e foreste, perfetti per escursioni di mezza giornata</li>
+                <li><a href="/escursioni/zona/versilia-e-massarosa" title="Escursioni Versilia e Massarosa"><strong>Versilia</strong></a> e <a href="/escursioni/zona/livorno-e-costa-toscana" title="Escursioni Livorno e costa toscana"><strong>costa toscana</strong></a> – percorsi tra mare e montagna, ideali tutto l'anno</li>
+                <li><a href="/escursioni/zona/lucchesia-e-colline-toscane" title="Escursioni Lucchesia e colline toscane"><strong>Lucchesia e colline toscane</strong></a> – cammini facili e panoramici, adatti a tutti</li>
+                <li><a href="/escursioni/zona/appennino-tosco-emiliano" title="Escursioni Appennino Tosco-Emiliano"><strong>Appennino Tosco-Emiliano</strong></a> – trekking d'alta quota e crinali spettacolari</li>
+                <li><a href="/escursioni/zona/trentino-e-veneto" title="Escursioni Trentino e Veneto"><strong>Trentino</strong></a> – escursioni durante le mie ferie estive nella meravigliosa terra del Trentino</li>
+                <li><a href="/escursioni/zona/estero" title="Escursioni all'estero"><strong>Estero</strong></a> – escursioni durante le mie ferie in luoghi internazionali mozzafiato</li>
             </ul>
         </div>
-        <div class="about-img-col">
+        <figure class="about-img-col">
             <img src="~/media/images/ME/NordAltissimo.png" alt="Luca Bigoni in vetta al Monte Altissimo, Alpi Apuane, Toscana" width="220" height="330" />
-            <div class="about-img-caption">In vetta al Monte Altissimo (Alpi Apuane, Toscana)</div>
-        </div>
+            <figcaption class="about-img-caption">In vetta al Monte Altissimo (Alpi Apuane, Toscana)</figcaption>
+        </figure>
     </div>
 
     <div class="about-warning">
-        <strong>Tutte le escursioni presenti su questo sito nascono da esperienza diretta sul campo.</strong><br />
-        <span>La difficoltà riportata è soggettiva e può variare in base alla preparazione e alle condizioni del momento: <strong>valuta sempre con attenzione e responsabilità ogni uscita</strong>.</span>
+        <div>
+            <strong>Tutte le escursioni presenti su questo sito nascono da esperienza diretta sul campo.</strong><br />
+            <span>La difficoltà riportata è soggettiva e può variare in base alla preparazione e alle condizioni del momento: <strong>valuta sempre con attenzione e responsabilità ogni uscita</strong>.</span>
+        </div>
     </div>
 
     <div class="about-cta">
         <h2>Cosa puoi fare su questo sito</h2>
         <div class="about-cta-links">
-            <a href="/" class="about-cta-card" title="Esplora le escursioni">
+            <a href="/escursioni" class="about-cta-card" title="Escursioni per zona">
                 <span class="about-cta-icon">🥾</span>
                 <span><strong>Esplora le escursioni</strong><br />Scopri tutti i sentieri con tracce GPS, foto e descrizioni dettagliate.</span>
             </a>

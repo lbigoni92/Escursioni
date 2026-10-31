@@ -1,22 +1,19 @@
 namespace Escursioni.MigrationEditor.Services;
 
 /// <summary>
-/// Represents a parsed migration SQL file with its hike data.
+/// Un file Data/hikes/{wikiloc_id}.json con i dati di una escursione.
 /// </summary>
 public class MigrationFile
 {
     public string FileName { get; set; } = string.Empty;
     public string FullPath { get; set; } = string.Empty;
 
-    // Hike fields extracted from the INSERT INTO escursioni.hike VALUES(...)
+    // Campi escursione (chiavi = nomi snake_case del JSON)
     public Dictionary<string, string?> HikeValues { get; set; } = new();
 
-    // Media rows: each is a dict of column -> value
+    // Media: ogni riga è un dizionario colonna -> valore
     public List<Dictionary<string, string?>> MediaRows { get; set; } = new();
 
-    // Tags
-    public List<string> Tags { get; set; } = new();
-
-    // Raw SQL (for display / fallback)
-    public string RawSql { get; set; } = string.Empty;
+    // JSON originale del file (per anteprima)
+    public string RawJson { get; set; } = string.Empty;
 }

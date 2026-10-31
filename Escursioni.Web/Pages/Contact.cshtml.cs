@@ -1,40 +1,22 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Escursioni.Web.Models;
-using Escursioni.Web.Services;
 
 namespace Escursioni.Web.Pages;
 
+/// <summary>
+/// Pagina statica: il form invia direttamente a Web3Forms (https://web3forms.com)
+/// che inoltra il messaggio via email. La access key è pubblica per design.
+/// </summary>
 public class ContactModel : PageModel
 {
     private readonly IConfiguration _config;
-    private readonly EmailSender _emailSender;
 
     public ContactModel(IConfiguration config)
     {
         _config = config;
-        // Leggi direttamente dalle variabili di ambiente
-        var smtpHost = config["Smtp:Host"] ?? Environment.GetEnvironmentVariable("SMTP_HOST") ?? "smtp.sendgrid.net";
-        var smtpPort = config["Smtp:Port"] ?? Environment.GetEnvironmentVariable("SMTP_PORT") ?? "587";
-        var smtpUser = Environment.GetEnvironmentVariable("SMTP_USER") ?? config["Smtp:User"];
-        var smtpPass = Environment.GetEnvironmentVariable("SMTP_PASS") ?? config["Smtp:Pass"];
-        var smtpFrom = Environment.GetEnvironmentVariable("SMTP_FROM") ?? config["Smtp:From"];
-
-        _emailSender = new EmailSender(
-            smtpHost!,
-            int.Parse(smtpPort!),
-            smtpUser!,
-            smtpPass!,
-            smtpFrom!
-        );
     }
 
-    [BindProperty]
-    public ContactFormModel Form { get; set; } = new();
-
-    public string? SuccessMessage { get; set; }
-    public string? ErrorMessage { get; set; }
     public string ContactEmail { get; set; } = "";
+    public string? Web3FormsAccessKey { get; set; }
 
     public void OnGet()
     {
@@ -46,7 +28,9 @@ public class ContactModel : PageModel
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/contatti";
         ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";
-        ContactEmail = _config["Site:ContactEmail"] ?? "info@example.com";
+        ViewData["Breadcrumbs"] = new List<(string Label, string Url)> { ("Contatti", "") };
+        ContactEmail = _config["Site:ContactEmail"] ?? "luca.bigoni@live.it";
+        Web3FormsAccessKey = _config["Contact:Web3FormsAccessKey"];
 
         // JSON-LD ContactPage
         ViewData["JsonLd"] = $@"{{
@@ -57,37 +41,5 @@ public class ContactModel : PageModel
   ""url"": ""{baseUrl}/contatti"",
   ""author"": {{ ""@type"": ""Person"", ""name"": ""Luca Bigoni"", ""url"": ""{baseUrl}/chi-sono"" }}
 }}";
-    }
-
-    public async Task<IActionResult> OnPostAsync()
-    {
-        ViewData["Title"] = "Contatti";
-        ContactEmail = _config["Site:ContactEmail"] ?? "info@example.com";
-        if (!ModelState.IsValid)
-        {
-            ErrorMessage = "Per favore, correggi i campi evidenziati.";
-            return Page();
-        }
-
-        try
-        {
-            var subject = $"Nuovo messaggio dal sito Escursioni da {Form.Name}";
-            var body = $"Nome: {Form.Name}\nEmail: {Form.Email}\nMessaggio:\n{Form.Message}";
-
-            // Log indirizzi email e parametri SMTP
-            Console.WriteLine($"[Contact] Invio email. FROM: {_config["Smtp:From"]} | TO: luca.bigoni@live.it | SMTP_USER: {_config["Smtp:User"]}");
-            Console.WriteLine($"[Contact] Form.Email: {Form.Email}");
-
-            await _emailSender.SendAsync("luca.bigoni@live.it", subject, body);
-            SuccessMessage = "Messaggio inviato con successo! Ti risponderò appena possibile.";
-            ModelState.Clear();
-            Form = new();
-        }
-        catch (Exception ex)
-        {
-            ErrorMessage = $"Errore nell'invio del messaggio: {ex.Message}";
-            Console.WriteLine($"[Contact] ERRORE invio email: {ex}");
-        }
-        return Page();
     }
 }

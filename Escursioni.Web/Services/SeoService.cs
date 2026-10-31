@@ -34,19 +34,22 @@ public class SeoService
         var metaDesc = !string.IsNullOrWhiteSpace(hike.MetaDescrizione)
             ? hike.MetaDescrizione
             : $"{hike.Titolo} - {desc}".Trim();
+        // Molte meta descrizioni contengono a capo (\r\n): nel meta tag diventano spazi
+        metaDesc = System.Text.RegularExpressions.Regex.Replace(metaDesc, @"\s+", " ").Trim();
         if (metaDesc.Length > 130)
             metaDesc = metaDesc[..127] + "...";
 
         page.ViewData["MetaDescription"] = metaDesc;
 
         // Canonical URL
-        var slug = Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(hike.Titolo);
+        var slug = hike.Slug;
         var canonical = $"{baseUrl}/escursioni/{slug}";
         page.ViewData["CanonicalUrl"] = canonical;
 
         // Open Graph
         page.ViewData["OgType"] = "article";
-        var cover = hike.Media.OrderBy(m => m.Ordine).FirstOrDefault()?.PathRelativo;
+        // Stessa copertina di schede e sitemap: la foto "cover", altrimenti la prima
+        var cover = (hike.Media.FirstOrDefault(m => m.Tipo == "cover") ?? hike.Media.OrderBy(m => m.Ordine).FirstOrDefault())?.PathRelativo;
         if (!string.IsNullOrWhiteSpace(cover))
         {
             page.ViewData["OgImage"] = $"{baseUrl}/{cover}";
@@ -165,8 +168,8 @@ public class SeoService
   ""description"": ""{safeDesc}"",
   ""inLanguage"": ""it-IT"",
   ""keywords"": ""{safeKeywords}"",
-  ""author"": {{ ""@type"": ""Person"", ""name"": ""Luca Bigoni"", ""url"": ""{baseUrl}/chi-sono"" }},
-  ""publisher"": {{ ""@type"": ""Organization"", ""name"": ""Escursioni Luca Bigoni"", ""url"": ""{baseUrl}/"" }},
+  ""author"": {{ ""@type"": ""Person"", ""@id"": ""{baseUrl}/#luca-bigoni"", ""name"": ""Luca Bigoni"", ""url"": ""{baseUrl}/chi-sono"" }},
+  ""publisher"": {{ ""@type"": ""Person"", ""@id"": ""{baseUrl}/#luca-bigoni"", ""name"": ""Luca Bigoni"" }},
   ""mainEntityOfPage"": {{ ""@type"": ""WebPage"", ""@id"": ""{canonical}"" }},
   ""datePublished"": ""{pubDate}"",
   ""dateModified"": ""{modDate}"",
@@ -183,25 +186,13 @@ public class SeoService
         page.ViewData["JsonLd"] = tripLd;
         page.ViewData["JsonLd2"] = articleLd;
 
-        // Breadcrumbs
-        var breadcrumbs = new List<(string Label, string Url)>
-        {
-            ("Escursioni", $"{baseUrl}/escursioni"),
-            (hike.Titolo, "")
-        };
+        // Breadcrumbs: Home › Escursioni per zona › Zona › Escursione (il JSON-LD lo genera il layout)
+        var breadcrumbs = new List<(string Label, string Url)> { ("Escursioni per zona", "/escursioni") };
+        var zone = HikeDisplay.Zone(hike);
+        if (zone != null)
+            breadcrumbs.Add((zone, $"/escursioni/zona/{TagHelper.ToSlug(zone)}"));
+        breadcrumbs.Add((hike.Titolo, ""));
         page.ViewData["Breadcrumbs"] = breadcrumbs;
-
-        var safeTitle2 = System.Text.Json.JsonEncodedText.Encode(hike.Titolo).ToString();
-        var breadcrumbJsonLd = $@"{{
-  ""@context"": ""https://schema.org"",
-  ""@type"": ""BreadcrumbList"",
-  ""itemListElement"": [
-    {{""@type"": ""ListItem"", ""position"": 1, ""name"": ""Home"", ""item"": ""{baseUrl}/""}},
-    {{""@type"": ""ListItem"", ""position"": 2, ""name"": ""Escursioni"", ""item"": ""{baseUrl}/escursioni""}},
-    {{""@type"": ""ListItem"", ""position"": 3, ""name"": ""{safeTitle2}"", ""item"": ""{canonical}""}}
-  ]
-}}";
-        page.ViewData["BreadcrumbJsonLd"] = breadcrumbJsonLd;
     }
 
     private static string TruncateTitle(string title, int maxLength)

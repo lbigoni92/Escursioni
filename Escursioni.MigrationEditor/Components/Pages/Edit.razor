@@ -280,7 +280,7 @@
 
             </div>
 
-            @* ─── RIGHT: map + media + SQL ─── *@
+            @* ─── RIGHT: map + media + JSON ─── *@
             <div style="flex:1;min-width:300px;overflow-y:auto;">
 
                 @* Mappa GPX *@
@@ -441,9 +441,9 @@
                     </div>
                 </fieldset>
 
-                @* SQL collapsible *@
+                @* JSON collapsible *@
                 <details style="border:1px solid #dee2e6;border-radius:4px;padding:0.25rem 0.4rem;">
-                    <summary style="font-weight:bold;font-size:0.7rem;cursor:pointer;">Anteprima SQL</summary>
+                    <summary style="font-weight:bold;font-size:0.7rem;cursor:pointer;">Anteprima JSON</summary>
                     <pre style="background:#f5f5f5;padding:0.3rem;overflow:auto;max-height:200px;font-size:0.65rem;border:1px solid #ddd;border-radius:2px;margin:0.2rem 0 0;">@_preview</pre>
                 </details>
             </div>
@@ -535,14 +535,28 @@
     private void UpdatePreview()
     {
         if (_mf == null) return;
-        _preview = Parser.GenerateSql(_mf);
+        try
+        {
+            _preview = Parser.GenerateJson(_mf);
+        }
+        catch (FormatException ex)
+        {
+            _preview = "⚠ " + ex.Message;
+        }
     }
 
     private void Save()
     {
         if (_mf == null) return;
-        Parser.Save(_mf);
-        _message = $"Salvato alle {DateTime.Now:HH:mm:ss}";
+        try
+        {
+            Parser.Save(_mf);
+            _message = $"Salvato alle {DateTime.Now:HH:mm:ss}";
+        }
+        catch (FormatException ex)
+        {
+            _message = $"Non salvato: {ex.Message}";
+        }
         UpdatePreview();
     }
 

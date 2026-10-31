@@ -106,7 +106,15 @@ public class MetaDescriptionGenerator
 
         var text = await CallOllamaAsync(prompt);
         text = text.Trim().Trim('"', '«', '»');
-        if (text.Length > 60) text = text[..57] + "...";
+        // Il sito mostra al massimo 57 caratteri (+ " | Escursioni"): taglia all'ultima parola intera,
+        // senza "...", che nei risultati di ricerca sembra un titolo rotto
+        if (text.Length > 57)
+        {
+            text = text[..57];
+            var lastSpace = text.LastIndexOf(' ');
+            if (lastSpace > 30) text = text[..lastSpace];
+            text = text.TrimEnd(' ', ',', '-', '–', ':', '(', '&');
+        }
         return text;
     }
 
@@ -189,18 +197,19 @@ OBIETTIVO:
 Assegna ESATTAMENTE UNO dei seguenti tag:
 
 1. Alpi Apuane
-2. Livorno e costa toscana
-3. Versilia e Massarosa
-4. Lucchesia e colline toscane
-5. Firenze e provincia
-6. Appennino Tosco-Emiliano
-7. Trentino e Veneto
-8. Grosseto e Maremma
-9. Lunigiana
-10. Monti Pisani
-11. Altre zone dell'italia
-12. Estero
-13. Non assegnabile (se manca delle info necessarie per classificare)
+2. Garfagnana
+3. Livorno e costa toscana
+4. Versilia e Massarosa
+5. Lucchesia e colline toscane
+6. Firenze e provincia
+7. Appennino Tosco-Emiliano
+8. Trentino e Veneto
+9. Grosseto e Maremma
+10. Lunigiana
+11. Monti Pisani
+12. Altre zone dell'italia
+13. Estero
+14. Non assegnabile (se manca delle info necessarie per classificare)
 
 -----------------------
 DEFINIZIONI GEOGRAFICHE
@@ -208,10 +217,16 @@ DEFINIZIONI GEOGRAFICHE
 
 Alpi Apuane:
 - Monti: Altissimo, Forato, Procinto, Pizzo d'Uccello, Tambura, Sumbra, Sagro, Corchia, Pania della Croce, Pania Secca, Matanna, Nona, Freddone, Croce, Sella, Grondilice, Contrario, Fiocca
-- Province: Lucca (solo Garfagnana e Apuane), Massa-Carrara
-- Comuni: Stazzema, Levigliani, Cardoso, Pruno, Volegno, Fornovolasco, Isola Santa, Vagli di Sotto, Gorfigliano, Gramolazzo, Campocatino, Equi Terme, Resceto, Campagrina, Metato, Arni, Colonnata, Vinca, Careggine, Molazzana, Gallicano, Castelnuovo di Garfagnana, Piazza al Serchio, Castiglione di Garfagnana, Minucciano
-- Frazioni/Località: Passo del Vestito, Passo della Focolaccia, Rifugio Rossi, Rifugio Del Freo, Rifugio Orto di Donna, Foce di Mosceta, Foce di Petrosciana, Col di Favilla
-- ESCLUDE: costa, Versilia, pianura lucchese
+- Province: Lucca (versante apuano), Massa-Carrara
+- Comuni: Stazzema, Levigliani, Cardoso, Pruno, Volegno, Equi Terme, Resceto, Campagrina, Metato, Arni, Colonnata, Vinca
+- Frazioni/Località: Passo del Vestito, Passo della Focolaccia, Rifugio Del Freo, Rifugio Orto di Donna, Foce di Mosceta, Foce di Petrosciana
+- ESCLUDE: costa, Versilia, pianura lucchese, partenze dai comuni della Garfagnana (categoria separata)
+
+Garfagnana:
+- Valle del Serchio a nord di Gallicano, provincia di Lucca
+- Comuni: Careggine, Molazzana, Fabbriche di Vergemoli, Vagli Sotto, Castelnuovo di Garfagnana, Castiglione di Garfagnana, Villa Collemandina, Camporgiano, Piazza al Serchio, Minucciano, Gallicano, San Romano in Garfagnana, Pieve Fosciana, Fosciandora, Sillano Giuncugnano
+- Frazioni/Località: Isola Santa, Capanne di Careggine, Fornovolasco, Vergemoli, Cornola, Alpe di Sant'Antonio, Piglionico, Rifugio Rossi, Vagli Sopra, Lago di Vagli, Col di Favilla, Gorfigliano, Gramolazzo, Campocatino, Corfino, Sulcina, Orecchiella, San Pellegrino in Alpe
+- Include: anche le cime apuane e appenniniche quando la partenza è in uno di questi comuni
 
 Livorno e costa toscana:
 - Province: Livorno (zona costiera)
@@ -231,7 +246,7 @@ Lucchesia e colline toscane:
 - Comuni: Lucca, Capannori, Porcari, Altopascio, Montecarlo, Pescia, Montecatini Terme, Monsummano, Volterra, Pomarance, Castelnuovo di Val di Cecina, Riparbella, Castellina Marittima
 - Frazioni/Località: Valle Benedetta, Colognole, Parrana, Castell'Anselmo, Montemagno, Guamo, Ponte a Moriano
 - Include: colline livornesi entroterra, Valdinievole, Val di Cecina interna, Piana di Lucca, Cerbaie
-- ESCLUDE: Monti Pisani (categoria separata), Garfagnana, Apuane
+- ESCLUDE: Monti Pisani (categoria separata), Garfagnana (categoria separata), Apuane
 
 Firenze e provincia:
 - Provincia: Firenze
@@ -293,17 +308,18 @@ REGOLE DI PRIORITÀ (OBBLIGATORIE)
 
 1. Se fuori Italia → Estero
 2. Se Regione = Trentino-Alto Adige o Veneto → Trentino e Veneto
-3. Se monte/cima Apuana o comune in Garfagnana/versante apuano → Alpi Apuane
-4. Se Provincia = Grosseto o Maremma/Monte Amiata → Grosseto e Maremma
-5. Se Provincia = Firenze (incluso Mugello, Chianti fiorentino) → Firenze e provincia
-6. Se comune in Lunigiana (val di Magra, Massa-Carrara entroterra) → Lunigiana
-7. Se comune in Versilia o Massarosa/Lago Massaciuccoli → Versilia e Massarosa
-8. Se costa livornese (Livorno–Piombino) → Livorno e costa toscana
-9. Se crinale appenninico o Emilia-Romagna montana → Appennino Tosco-Emiliano
-10. Se Monte Serra/Monti Pisani (Calci, Buti, Vicopisano) → Monti Pisani
-11. Se provincia Lucca/Pisa/Livorno entroterra (colline, pianura) → Lucchesia e colline toscane
-12. Se in Italia ma non nelle categorie sopra → Altre zone dell'italia
-13. Se mancano dati sufficienti → Non assegnabile
+3. Se partenza in un comune o frazione della Garfagnana → Garfagnana
+4. Se monte/cima Apuana o comune del versante apuano → Alpi Apuane
+5. Se Provincia = Grosseto o Maremma/Monte Amiata → Grosseto e Maremma
+6. Se Provincia = Firenze (incluso Mugello, Chianti fiorentino) → Firenze e provincia
+7. Se comune in Lunigiana (val di Magra, Massa-Carrara entroterra) → Lunigiana
+8. Se comune in Versilia o Massarosa/Lago Massaciuccoli → Versilia e Massarosa
+9. Se costa livornese (Livorno–Piombino) → Livorno e costa toscana
+10. Se crinale appenninico o Emilia-Romagna montana → Appennino Tosco-Emiliano
+11. Se Monte Serra/Monti Pisani (Calci, Buti, Vicopisano) → Monti Pisani
+12. Se provincia Lucca/Pisa/Livorno entroterra (colline, pianura) → Lucchesia e colline toscane
+13. Se in Italia ma non nelle categorie sopra → Altre zone dell'italia
+14. Se mancano dati sufficienti → Non assegnabile
 
 -----------------------
 FORMATO RISPOSTA
@@ -330,7 +346,7 @@ Descrizione: {descrizione}
 
         // Validate against allowed tags
         string[] allowedTags = [
-            "Alpi Apuane", "Livorno e costa toscana",
+            "Alpi Apuane", "Garfagnana", "Livorno e costa toscana",
             "Versilia e Massarosa", "Lucchesia e colline toscane",
             "Firenze e provincia", "Appennino Tosco-Emiliano",
             "Trentino e Veneto", "Grosseto e Maremma", "Lunigiana",

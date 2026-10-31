@@ -1,0 +1,20 @@
+@page "/404"
+@{
+    // Esportata come 404.html: Cloudflare Pages la serve per ogni URL inesistente
+    Response.StatusCode = 404;
+    ViewData["Title"] = "Pagina non trovata";
+    ViewData["RobotsDirective"] = "noindex, follow";
+}
+
+<section>
+    <h1 class="page-title">Pagina non trovata</h1>
+    <p class="page-subtitle">
+        La pagina che cerchi non esiste o è stata spostata.
+    </p>
+    <p>Prova da qui:</p>
+    <p class="btn-row">
+        <a href="/escursioni" class="btn" title="Escursioni per zona">Escursioni per zona</a>
+        <a href="/mappa" class="btn-secondary" title="Mappa escursioni">Mappa delle escursioni</a>
+        <a href="/ricerca" class="btn-secondary" title="Ricerca escursioni">Cerca un'escursione</a>
+    </p>
+</section>

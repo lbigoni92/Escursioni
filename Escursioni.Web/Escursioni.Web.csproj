@@ -11,21 +11,18 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.5" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.5">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.5" />
-    <PackageReference Include="Npgsql" Version="10.0.2" />
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="10.0.5" />
     <PackageReference Include="SixLabors.ImageSharp" Version="3.1.12" />
   </ItemGroup>
+
 <ItemGroup>
-  <Content Include="Database\MigrationsRaw\**\*.sql">
+  <!-- Dati escursioni: un JSON per escursione, letti all'avvio -->
+  <Content Update="Data\hikes\*.json;Data\redirects.json">
     <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     <CopyToPublishDirectory>Always</CopyToPublishDirectory>
   </Content>
+  <!-- Escursioni tolte dal sito: conservate solo come archivio, non servono all'app -->
+  <Content Remove="Data\hikes-escluse\**" />
 </ItemGroup>
 
 <ItemGroup>
@@ -34,5 +31,10 @@
        causando un conflitto di chiavi duplicate nel PollingDirectoryWatcher. -->
   <Watch Remove="wwwroot\media\**\*" />
 </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Escursioni.Tests" />
+    <InternalsVisibleTo Include="Escursioni.UiTests" />
+  </ItemGroup>
 
 </Project>

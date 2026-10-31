@@ -1,11 +1,9 @@
 using Escursioni.Web.Models;
 using Escursioni.Web.Services;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.OutputCaching;
 
 namespace Escursioni.Web.Pages.Map;
 
-[OutputCache(PolicyName = "PagesSlow")]
 public class IndexModel : PageModel
 {
     private readonly IHikeRepository _repo;
@@ -29,6 +27,7 @@ public class IndexModel : PageModel
         ViewData["CanonicalUrl"] = $"{baseUrl}/mappa";
         ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";
         ViewData["FullWidth"] = true;
+        ViewData["Breadcrumbs"] = new List<(string Label, string Url)> { ("Mappa", "") };
 
         Escursioni = await _repo.GetWithCoordinatesAsync();
 
@@ -39,7 +38,7 @@ public class IndexModel : PageModel
                 .Select((h, i) => new {
                     @type = "ListItem",
                     position = i + 1,
-                    url = baseUrl + "/escursioni/" + global::Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)
+                    url = baseUrl + "/escursioni/" + h.Slug
                 }).ToArray();
 
             var itemList = new {

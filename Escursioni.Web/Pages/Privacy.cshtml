@@ -2,47 +2,72 @@
 @inject IConfiguration Configuration
 @{
     var _baseUrl = (Configuration["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
+    var _email = Configuration["Site:ContactEmail"] ?? "luca.bigoni@live.it";
+    // Come in Contatti: senza chiave il modulo non c'è e si scrive direttamente via email
+    var _hasForm = !string.IsNullOrWhiteSpace(Configuration["Contact:Web3FormsAccessKey"]);
     ViewData["Title"] = "Privacy Policy | Escursioni Luca Bigoni";
     ViewData["MetaDescription"] = "Informativa sulla privacy, trattamento dati personali, cookie e diritti degli utenti di Escursioni Luca Bigoni.";
     ViewData["CanonicalUrl"] = $"{_baseUrl}/privacy";
     ViewData["OgImage"] = _baseUrl + "/images/og-home.jpg";
     ViewData["RobotsDirective"] = "noindex, follow";
+    ViewData["Breadcrumbs"] = new List<(string Label, string Url)> { ("Privacy", "") };
 }
 
-<h1>Informativa sulla Privacy</h1>
+<div class="prose">
+<h1 class="page-title">Informativa sulla Privacy</h1>
 
-<p>Questa pagina spiega come vengono trattati i dati personali inviati tramite il modulo di contatto del sito escursionilucabigoni.it.</p>
+<p>Questa pagina spiega, ai sensi degli artt. 13 e 14 del Regolamento UE 2016/679 (GDPR), come vengono trattati i dati personali di chi visita il sito escursionilucabigoni.it o scrive al titolare dalla pagina Contatti.</p>
 
 <h2>Titolare del trattamento</h2>
-<p>Il titolare del trattamento è Luca Bigoni. Per qualsiasi richiesta relativa alla privacy puoi scrivere a: <a href="mailto:lucabigoni@live.it">lucabigoni@live.it</a></p>
+<p>Il titolare del trattamento è Luca Bigoni. Per qualsiasi richiesta relativa alla privacy puoi scrivere a: <a href="mailto:@_email">@_email</a></p>
 
 <h2>Tipi di dati trattati</h2>
 <ul>
-    <li><strong>Dati forniti volontariamente:</strong> Nome, email e messaggio inseriti nel modulo di contatto.</li>
-    <li><strong>Dati tecnici:</strong> Alcuni dati (es. indirizzo IP, orario della richiesta) vengono registrati automaticamente dai sistemi informatici per motivi tecnici e di sicurezza.</li>
+    <li><strong>Dati forniti volontariamente:</strong> nome, email e messaggio inseriti nel modulo di contatto, oppure i dati contenuti nelle email inviate al titolare.</li>
+    <li><strong>Dati di navigazione:</strong> indirizzo IP, orario della richiesta, browser e pagine visitate vengono registrati automaticamente dai fornitori tecnici indicati sotto, per motivi di sicurezza e di funzionamento.</li>
+    <li><strong>Statistiche di visita:</strong> pagine viste, provenienza, tipo di dispositivo e tempi di caricamento, raccolti in forma aggregata da Cloudflare Web Analytics senza identificare i singoli visitatori.</li>
+    <li><strong>Località cercata:</strong> se usi la ricerca per località, il nome inserito viene inviato al servizio di geocodifica Nominatim (OpenStreetMap) per ottenere le coordinate.</li>
 </ul>
 
 <h2>Finalità e base giuridica</h2>
-<p>I dati sono trattati per rispondere alle richieste dell’utente (art. 6, par. 1, lett. b GDPR – misure precontrattuali). Eventuali ulteriori trattamenti avverranno sulla base del consenso.</p>
+<ul>
+    <li><strong>Rispondere ai messaggi:</strong> art. 6, par. 1, lett. b GDPR (misure adottate su richiesta dell’interessato).</li>
+    <li><strong>Sicurezza e funzionamento del sito:</strong> art. 6, par. 1, lett. f GDPR (legittimo interesse del titolare).</li>
+    <li><strong>Statistiche aggregate sull’uso del sito:</strong> art. 6, par. 1, lett. f GDPR (legittimo interesse a capire quali contenuti sono utili e a migliorare le prestazioni).</li>
+</ul>
+<p>Inviare i propri dati è facoltativo, ma senza un indirizzo email e un messaggio non è possibile rispondere.</p>
 
 <h2>Modalità e durata della conservazione</h2>
-<p>I dati sono conservati nella casella email del titolare per il tempo necessario a gestire la richiesta e comunque non oltre 12 mesi dalla loro ricezione, salvo ulteriori obblighi di legge o richiesta di cancellazione anticipata.</p>
-<h2>Hosting</h2>
-<p>Il sito è ospitato presso Render.com (Regione: Frankfurt, EU Central), che può trattare dati tecnici (es. indirizzo IP) per finalità di sicurezza e funzionamento.</p>
+<p>I messaggi sono conservati nella casella email del titolare per il tempo necessario a gestire la richiesta e comunque non oltre 12 mesi dalla ricezione, salvo obblighi di legge o richiesta di cancellazione anticipata. I dati di navigazione sono conservati dai fornitori tecnici secondo le rispettive policy.</p>
+@if (_hasForm)
+{
+    <p>Web3Forms conserva una copia dei messaggi inviati dal modulo per un massimo di 3 anni, salvo cancellazione anticipata da parte del titolare.</p>
+}
 
 <h2>Fornitori tecnici e trasferimento dati</h2>
-<p>I dati potranno essere trattati tramite servizi di posta elettronica e invio email forniti da terze parti (ad esempio SendGrid, Gmail), nel rispetto della normativa GDPR. Se i dati vengono trasferiti verso paesi extra-UE (ad esempio tramite SendGrid, con server negli Stati Uniti), il trasferimento avviene sulla base delle Clausole Contrattuali Standard approvate dalla Commissione Europea.</p>
-
+<p>Per far funzionare il sito vengono usati i seguenti servizi, che possono ricevere il tuo indirizzo IP e i dati tecnici della richiesta:</p>
+<ul>
+    <li><strong>Cloudflare, Inc.</strong> (Stati Uniti) – hosting del sito (Cloudflare Pages), statistiche aggregate (Cloudflare Web Analytics) e distribuzione delle librerie tramite cdnjs. <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Privacy policy</a></li>
+    @if (_hasForm)
+    {
+        <li><strong>Web3Forms</strong> (Web3Creative, India; server su Amazon Web Services) – riceve i dati del modulo di contatto e li inoltra via email al titolare. Per bloccare lo spam, indirizzo IP ed email possono essere verificati dal servizio CleanTalk. <a href="https://web3forms.com/privacy" target="_blank" rel="noopener">Privacy policy</a></li>
+    }
+    <li><strong>Microsoft</strong> (Outlook) – casella email del titolare in cui arrivano i messaggi.</li>
+    <li><strong>OpenStreetMap Foundation</strong> (Regno Unito) – sfondi delle mappe e geocodifica Nominatim. <a href="https://osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">Privacy policy</a></li>
+    <li><strong>unpkg.com</strong> – distribuzione della libreria delle mappe (Leaflet) nelle pagine con mappa.</li>
+</ul>
+<p>Alcuni di questi fornitori hanno sede o server fuori dall’Unione Europea. I trasferimenti avvengono sulla base di una decisione di adeguatezza della Commissione Europea (ad esempio Regno Unito, o EU-US Data Privacy Framework per i fornitori statunitensi certificati) oppure delle Clausole Contrattuali Standard approvate dalla Commissione Europea@(_hasForm ? " (per Web3Forms, incluse nel suo accordo sul trattamento dei dati)" : "").</p>
 
 <h2>Diritti degli interessati</h2>
-<p>Puoi richiedere in qualsiasi momento l’accesso ai tuoi dati, la loro rettifica, cancellazione o limitazione del trattamento, nonché opporti al trattamento stesso, scrivendo a <a href="mailto:lucabigoni@live.it">lucabigoni@live.it</a>.</p>
+<p>Puoi esercitare in qualsiasi momento i diritti previsti dagli artt. 15-22 GDPR: accesso ai tuoi dati, rettifica, cancellazione, limitazione del trattamento, portabilità e opposizione al trattamento, scrivendo a <a href="mailto:@_email">@_email</a>.</p>
 
 <h2>Diritto di reclamo</h2>
-<p>Hai il diritto di proporre reclamo al Garante per la protezione dei dati personali (<a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">www.garanteprivacy.it</a>) qualora ritieni che il trattamento dei tuoi dati violi la normativa vigente.</p>
+<p>Hai il diritto di proporre reclamo al Garante per la protezione dei dati personali (<a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">www.garanteprivacy.it</a>) se ritieni che il trattamento dei tuoi dati violi la normativa vigente.</p>
 
-<h2>Cookie</h2>
-<p>Questo sito utilizza esclusivamente cookie tecnici necessari al funzionamento e non utilizza cookie di profilazione. Alcune funzionalità, come le mappe interattive (Leaflet/OpenStreetMap) o contenuti caricati da CDN esterne, potrebbero impostare cookie tecnici o di servizio e comportare il trasferimento di dati tecnici (es. indirizzo IP) verso terze parti. Non viene utilizzato Google Analytics né sistemi di tracciamento statistico.</p>
+<h2>Cookie e archiviazione locale</h2>
+<p>Questo sito non usa cookie di profilazione, pubblicità né Google Analytics, per questo non mostra un banner cookie. Le statistiche di visita sono raccolte con Cloudflare Web Analytics, che secondo Cloudflare non usa cookie né altri identificativi salvati nel browser, non traccia i visitatori tra siti diversi e mostra al titolare solo dati aggregati. L’unico dato salvato nel tuo browser dal sito (localStorage) è la preferenza tra tema chiaro e scuro, che non lascia il tuo dispositivo. I fornitori tecnici indicati sopra possono usare cookie tecnici strettamente necessari alla sicurezza del servizio.</p>
 
-<p><strong>Nota sui social network:</strong> Questo sito include link a social network esterni (LinkedIn, Instagram, Facebook). L’interazione con questi servizi avviene secondo le rispettive privacy policy dei fornitori.</p>
+<p><strong>Link esterni e social network:</strong> il sito contiene link e pulsanti di condivisione verso servizi esterni (Wikiloc, Google Maps, Facebook, Instagram, LinkedIn, WhatsApp, Telegram, X). Sono semplici link: nessun dato viene inviato a questi servizi finché non li apri. Da quel momento si applicano le rispettive privacy policy.</p>
 
-<p>Ultimo aggiornamento: aprile 2026</p>
+<p>Ultimo aggiornamento: ottobre 2026</p>
+</div>

@@ -1,9 +1,7 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.OutputCaching;
 
 namespace Escursioni.Web.Pages;
 
-[OutputCache(PolicyName = "PagesSlow")]
 public class AboutModel : PageModel
 {
     private readonly IConfiguration _config;
@@ -20,17 +18,15 @@ public class AboutModel : PageModel
         var baseUrl = (_config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
         ViewData["CanonicalUrl"] = $"{baseUrl}/chi-sono";
         ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";
+        ViewData["Breadcrumbs"] = new List<(string Label, string Url)> { ("Chi sono", "") };
 
-        // Structured data for the About/Person page
+        // ProfilePage: la Person completa è già nel layout, qui basta il riferimento al suo @id
         ViewData["JsonLd"] = @"{
   ""@context"": ""https://schema.org"",
-  ""@type"": ""Person"",
-  ""name"": ""Luca Bigoni"",
+  ""@type"": ""ProfilePage"",
   ""url"": """ + baseUrl + @"/chi-sono"",
-  ""jobTitle"": ""Escursionista appassionato"",
-  ""knowsAbout"": [""Escursioni Toscana"", ""Trekking Alpi Apuane"", ""Sentieri Garfagnana"", ""Escursioni  Lucca""],
-  ""address"": {""@type"": ""PostalAddress"", ""addressRegion"": ""Toscana"", ""addressCountry"": ""IT""},
-  ""sameAs"": [""https://www.linkedin.com/in/luca-bigoni/"", ""https://www.instagram.com/lbigoni/"", ""https://www.facebook.com/luca.bigoni1/""]
+  ""inLanguage"": ""it-IT"",
+  ""mainEntity"": { ""@id"": """ + baseUrl + @"/#luca-bigoni"" }
 }";
     }
 }

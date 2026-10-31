@@ -1,92 +1,35 @@
 @page "/escursioni/zona/{slug}"
 @model Escursioni.Web.Pages.Escursioni.TagModel
-@using Escursioni.Web.Services
 
-<section>
+<header class="page-header">
+    <a class="eyebrow" href="/escursioni" title="Tutte le zone escursionistiche">Escursioni per zona</a>
     <h1 class="page-title">Escursioni @Model.TagName</h1>
     <p class="page-subtitle">
         @Model.TagDescription
-        <strong>@Model.Escursioni.Count escursioni</strong> in questa zona.
+        <strong>@Model.Escursioni.Count escursioni</strong> in questa zona, dalla più recente.
     </p>
+</header>
 
-    <div class="card-grid">
-        @foreach (var h in Model.Escursioni)
-        {
-            var cover = Escursioni.Web.Pages.Escursioni.IndexModel.CoverPath(h);
-            var coverThumb = ImageHelper.ThumbPath(cover);
-            var displayTitle = !string.IsNullOrWhiteSpace(h.TitoloSeo) ? h.TitoloSeo : h.Titolo;
-            <article class="hike-card">
-                @if (!string.IsNullOrWhiteSpace(cover))
-                {
-                    <a asp-page="/Escursioni/Dettaglio"
-                       asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)"
-                       title="@displayTitle">
-                        <picture>
-                            @if (coverThumb != null)
-                            {
-                                <source srcset="~/@coverThumb" type="image/webp" />
-                            }
-                            <img src="~/@cover" alt="@displayTitle" loading="lazy" decoding="async" width="400" height="160" />
-                        </picture>
-                    </a>
-                }
-                <div class="hike-card-body">
-                    <h2 class="hike-card-title">
-                        <a asp-page="/Escursioni/Dettaglio"
-                           asp-route-slug="@Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(h.Titolo)"
-                           title="@displayTitle">
-                            @displayTitle
-                        </a>
-                    </h2>
-                    <div class="hike-card-meta">
-                        @if (!string.IsNullOrWhiteSpace(h.Comune))
-                        {
-                            @($"{h.Comune}, {h.Provincia}")
-                        }
-                        else if (!string.IsNullOrWhiteSpace(h.Regione))
-                        {
-                            @h.Regione
-                        }
-                        @if (h.DataEscursione.HasValue)
-                        {
-                            <span> · @h.DataEscursione.Value.ToString("dd/MM/yyyy")</span>
-                        }
-                    </div>
-                    <div class="hike-card-desc">
-                        @{
-                            var txt = h.Descrizione ?? "";
-                            if (txt.Length > 140) txt = txt[..140] + "...";
-                        }
-                        @txt
-                    </div>
-                </div>
-                <div class="hike-card-footer">
-                    <span>
-                        @if (h.DistanzaKm.HasValue)
-                        {
-                            <span>@h.DistanzaKm.Value.ToString("0.0") km</span>
-                        }
-                        @if (h.DislivelloM.HasValue)
-                        {
-                            <span> · +@h.DislivelloM.Value m</span>
-                        }
-                        @if (!string.IsNullOrWhiteSpace(h.Difficolta))
-                        {
-                            <span> · @h.Difficolta</span>
-                        }
-                    </span>
-                    <span>
-                        @if (!string.IsNullOrWhiteSpace(h.TipoGiro))
-                        {
-                            <span class="badge badge-soft">@h.TipoGiro</span>
-                        }
-                    </span>
-                </div>
-            </article>
-        }
-    </div>
+@{ ViewData["CardHeading"] = "h2"; }
+<div class="card-grid">
+    @foreach (var h in Model.Escursioni)
+    {
+        <partial name="_HikeCard" model="h" />
+    }
+</div>
 
-    <div style="margin-top:2rem;">
-        <a href="/escursioni" class="btn">← Tutte le zone</a>
-    </div>
-</section>
+@if (Model.AltreZone.Count > 0)
+{
+    <section aria-labelledby="altre-zone">
+        <div class="section-head">
+            <h2 id="altre-zone">Altre zone</h2>
+            <a class="section-link" href="/mappa" title="Mappa di tutte le escursioni">Vedi sulla mappa →</a>
+        </div>
+        <ul class="chip-list">
+            @foreach (var (tag, count) in Model.AltreZone)
+            {
+                <li><a class="chip" href="/escursioni/zona/@Escursioni.Web.Services.TagHelper.ToSlug(tag)" title="Escursioni @tag">Escursioni @tag <small>@count</small></a></li>
+            }
+        </ul>
+    </section>
+}
