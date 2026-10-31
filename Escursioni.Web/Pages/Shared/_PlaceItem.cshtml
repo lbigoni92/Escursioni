@@ -1,0 +1,29 @@
+@model Escursioni.Web.Models.Place
+@* Un luogo in un elenco <ol class="peak-list">: quota, nome, zona/parco ed escursioni che ci passano *@
+<li id="@Model.Anchor">
+    <span class="peak-quota">@(Model.QuotaM is int q ? HikeDisplay.Meters(q) : "–")</span>
+    <div>
+        <strong class="peak-name">@Model.Nome</strong>
+        @if (Model.Zona != null || !string.IsNullOrEmpty(Model.Parco))
+        {
+            <span class="peak-place">
+                @if (Model.Zona != null)
+                {
+                    <a href="/escursioni/zona/@TagHelper.ToSlug(Model.Zona)" title="Escursioni @Model.Zona">@Model.Zona</a>
+                }
+                @if (Model.Zona != null && !string.IsNullOrEmpty(Model.Parco))
+                {
+                    @(" · ")
+                }
+                @Model.Parco
+            </span>
+        }
+        <span class="peak-hikes">
+            @for (var i = 0; i < Model.Hikes.Count; i++)
+            {
+                var h = Model.Hikes[i];
+                <a href="/escursioni/@h.Slug" title="@HikeDisplay.Title(h)">@HikeDisplay.Title(h)</a>@(i < Model.Hikes.Count - 1 ? " · " : "")
+            }
+        </span>
+    </div>
+</li>

@@ -1,6 +1,8 @@
-# Genera il sito statico e lo pubblica su Cloudflare Pages.
-# Si attiva solo quando la variabile di repository CF_PAGES_PROJECT è impostata
-# (Settings → Secrets and variables → Actions). Configurazione: vedi README.
+# A ogni push su master:
+# 1. luoghi: calcola vette, rifugi, passi e laghi delle escursioni nuove e committa Data/luoghi.json
+#    (il commit fa ripartire l'auto-deploy di Render; un push fatto dal workflow non riavvia questo workflow).
+# 2. deploy: genera il sito statico e lo pubblica su Cloudflare Pages, solo se la variabile di
+#    repository CF_PAGES_PROJECT è impostata (Settings → Secrets and variables → Actions). Vedi README.
 name: Deploy sito statico
 
 on:
@@ -13,13 +15,46 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  luoghi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      # OpenStreetMap (Overpass): se non risponde il workflow prosegue e le escursioni
+      # mancanti vengono ricontrollate al push successivo.
+      - name: Aggiorna luoghi delle escursioni nuove
+        continue-on-error: true
+        run: dotnet run --project Escursioni.Web -c Release --no-launch-profile -- --luoghi
+
+      - name: Salva luoghi nel repository
+        run: |
+          if [ -n "$(git status --porcelain -- Escursioni.Web/Data/luoghi.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add Escursioni.Web/Data/luoghi.json
+            git commit -m "Aggiorna vette, rifugi, passi e laghi delle escursioni nuove"
+            git push || echo "::warning::luoghi.json non salvato (push concorrente): verrà ricalcolato al prossimo push"
+          fi
+
   deploy:
+    needs: luoghi
     if: ${{ vars.CF_PAGES_PROJECT != '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
+      # master aggiornato, compreso l'eventuale commit di luoghi.json del job precedente
       - uses: actions/checkout@v4
         with:
+          ref: master
           fetch-depth: 1
 
       - uses: actions/setup-dotnet@v4

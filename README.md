@@ -40,7 +40,12 @@ dist/  (HTML + sitemap.xml + feed/rss + _redirects + _headers + media)
 - **Generazione**: `--export` avvia il sito in memoria (TestServer), richiede ogni URL e salva l'HTML. Gli URL restano identici (`/escursioni/{slug}`, `/escursioni/zona/{slug}`, `/mappa`, ...), senza `.html` né slash finale.
 - **Ricerca**: `/ricerca` (noindex) filtra nel browser `data/search-index.json` con gli stessi parametri di prima (`?Q=`, `?Comune=`, `RaggioKm`, `OrdinaPer`, `PageNumber`). La località viene geocodificata con Nominatim (OpenStreetMap).
 - **Contatti**: il form invia a [Web3Forms](https://web3forms.com) (gratis fino a 250 messaggi/mese). Senza chiave configurata la pagina mostra il link email.
-- **Pagine legali**: `/privacy` e `/note-legali` (noindex, linkate nel footer). La voce Web3Forms nella privacy compare solo con la chiave configurata. Cloudflare Web Analytics (attivato dal pannello di Cloudflare Pages) è citato sempre: se lo disattivi, toglilo dalla privacy. Se aggiungi un servizio esterno (embed, font, CDN) va citato nella privacy.
+- **Vette, rifugi, passi e laghi**: `/vette`, `/rifugi`, `/passi`, `/laghi`, la home e il riquadro "Sul percorso" delle schede elencano i luoghi di OpenStreetMap (con nome) vicini a una traccia GPX: vette e passi entro 50 m, rifugi e bivacchi entro 75 m, laghi entro 100 m dalla riva (soglie in `PlaceType`). Per ogni luogo: quota, zona (la più frequente tra le sue escursioni) e parco.
+  - Sono calcolati da `dotnet run --project Escursioni.Web -- --luoghi` e salvati in `Escursioni.Web/Data/luoghi.json`. Il comando controlla solo le escursioni nuove; `-- --luoghi --tutte` ricalcola tutto (es. dopo aver cambiato un GPX).
+  - **GitHub Actions lo esegue da solo** a ogni push su `master` e committa `luoghi.json` se è cambiato; quel commit fa ripartire l'auto-deploy di Render. Aggiungendo un'escursione non serve fare nulla: dopo qualche minuto il sito si aggiorna una seconda volta con i nuovi luoghi. Se Overpass non risponde l'escursione viene ricontrollata al push successivo.
+  - In locale le cime scaricate restano in cache 30 giorni (`%TEMP%/escursioni-luoghi`).
+- **Numeri in home**: km, dislivello totale (con il confronto con l'Everest) e record (escursione più lunga, con più dislivello, più alta) sono calcolati a ogni generazione dai JSON delle escursioni.
+- **Pagine legali**: `/privacy` e `/note-legali` (noindex, linkate nel footer). La voce Web3Forms nella privacy compare solo con la chiave configurata. Cloudflare Web Analytics (snippet nel `_Layout.cshtml`, incluso solo in ambiente Production: l'export del deploy usa `--no-launch-profile`) è citato sempre: se lo disattivi, toglilo dalla privacy. Se aggiungi un servizio esterno (embed, font, CDN) va citato nella privacy.
 - **Slug**: le lettere accentate vengono eliminate (`più` → `pi`), come faceva il vecchio server in produzione. Sono gli URL indicizzati: non cambiare `MakeSlug` senza aggiungere redirect 301.
 - **Titoli uguali**: se un'escursione ha lo stesso titolo di una precedente (in ordine di `created_at`), il suo slug riceve mese e anno (`calambrone-marzo-2019`), poi il `wikiloc_id`. Gli URL già pubblicati non cambiano.
 
@@ -55,7 +60,7 @@ dist/  (HTML + sitemap.xml + feed/rss + _redirects + _headers + media)
    - Se su Wikiloc non è cambiato nulla, il JSON non viene toccato (quindi `updated_at` e la data nella sitemap restano uguali).
    - `titolo_seo`, `meta_descrizione`, `tag` e `created_at` già presenti vengono mantenuti.
 2. (Opzionale) rifinisci SEO e descrizioni con il MigrationEditor.
-3. `git commit` + `git push` su `master`: GitHub Actions esegue i test, genera il sito e lo pubblica.
+3. `git commit` + `git push` su `master`: Render ripubblica il sito; GitHub Actions aggiorna vette/rifugi/passi/laghi delle escursioni nuove e il loro commit fa ripartire Render.
 
 ### Anteprima locale
 - Come server (ricarica le pagine a ogni modifica): `dotnet run --project Escursioni.Web`

@@ -4,6 +4,9 @@ using System.Net.Http;
 using System.Text.Json;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Escursioni.Web.Models;
+using Escursioni.Web.Services;
+using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 
 namespace Escursioni.Tests;
@@ -34,6 +37,10 @@ public class PageTests(SiteFactory site)
     [InlineData("/mappa", "/mappa")]
     [InlineData("/chi-sono", "/chi-sono")]
     [InlineData("/contatti", "/contatti")]
+    [InlineData("/vette", "/vette")]
+    [InlineData("/rifugi", "/rifugi")]
+    [InlineData("/passi", "/passi")]
+    [InlineData("/laghi", "/laghi")]
     public async Task IndexablePages_HaveTitleDescriptionCanonical(string path, string canonicalPath)
     {
         var html = await GetHtml(path);
@@ -141,6 +148,67 @@ public class PageTests(SiteFactory site)
         foreach (var hike in await site.Repository.GetLatestAsync(3))
             Assert.Contains($"/escursioni/{hike.Slug}\"", html);
     }
+
+    [Theory]
+    [InlineData("vette")]
+    [InlineData("rifugi")]
+    [InlineData("passi")]
+    [InlineData("laghi")]
+    public async Task PlacePages_ListEveryPlaceByAltitude_WithItsHikes(string slug)
+    {
+        var places = site.Services.GetRequiredService<PlaceRepository>().OfType(PlaceType.FromSlug(slug)!);
+        var html = await GetHtml("/" + slug);
+
+        Assert.Equal(places.Count, Regex.Matches(html, @"class=""peak-name""").Count);
+        Assert.True(places.Zip(places.Skip(1)).All(p => (p.First.QuotaM ?? 0) >= (p.Second.QuotaM ?? 0)), "luoghi non ordinati per quota");
+        foreach (var p in places)
+        {
+            Assert.Contains($"id=\"{p.Anchor}\"", html);
+            foreach (var hike in p.Hikes)
+                Assert.Contains($"href=\"/escursioni/{hike.Slug}\"", html);
+        }
+        foreach (Match ld in Regex.Matches(html, @"<script type=""application/ld\+json"">(.*?)</script>", RegexOptions.Singleline))
+            JsonDocument.Parse(ld.Groups[1].Value).Dispose();
+    }
+
+    [Fact]
+    public async Task HikePage_LinksThePlacesOnItsRoute()
+    {
+        var places = site.Services.GetRequiredService<PlaceRepository>();
+        var hike = site.Repository.All.FirstOrDefault(h => places.ForHike(h).Count > 0);
+        if (hike == null)
+            return;
+        var html = await GetHtml("/escursioni/" + hike.Slug);
+        foreach (var p in places.ForHike(hike))
+            Assert.Contains($"href=\"/{p.Type.Slug}#{p.Anchor}\"", html);
+    }
+
+    [Fact]
+    public async Task HomePage_ShowsTotalsRecordsAndPlaces()
+    {
+        var html = await GetHtml("/");
+        var all = site.Repository.All;
+
+        var gain = HikeDisplay.Number(all.Sum(h => h.DislivelloM ?? 0));
+        Assert.Contains($"<strong>{gain}</strong> m di dislivello", html);
+        Assert.Contains($"href=\"/escursioni/{all.MaxBy(h => h.DistanzaKm ?? 0)!.Slug}\"", html);
+        Assert.Contains($"href=\"/escursioni/{all.MaxBy(h => h.DislivelloM ?? 0)!.Slug}\"", html);
+        Assert.Contains($"href=\"/escursioni/{all.MaxBy(h => h.QuotaMaxM ?? 0)!.Slug}\"", html);
+
+        var places = site.Services.GetRequiredService<PlaceRepository>();
+        foreach (var type in PlaceType.All.Where(t => places.OfType(t).Count > 0))
+            Assert.Contains($"<strong>{places.OfType(type).Count}</strong> {type.Titolo.ToLowerInvariant()}", html);
+    }
+
+    [Theory]
+    [InlineData("1859", 1859)]
+    [InlineData("1859 m", 1859)]
+    [InlineData("1859.6", 1860)]
+    [InlineData("1.859", 1859)]
+    [InlineData("1859;1855", 1859)]
+    [InlineData("circa", null)]
+    public void Elevation_IsParsedFromOsmTag(string value, int? expected)
+        => Assert.Equal(expected, PlaceFinder.ParseEle(value));
 
     [Fact]
     public async Task MapPage_ContainsEveryHikeWithCoordinates()

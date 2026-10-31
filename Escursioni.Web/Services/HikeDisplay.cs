@@ -17,6 +17,18 @@ public static class HikeDisplay
         return string.IsNullOrWhiteSpace(h.Regione) ? null : h.Regione;
     }
 
+    // Niente CultureInfo("it-IT"): nel container Docker .NET gira in modalità globalization-invariant
+    private static readonly System.Globalization.CultureInfo Invariant = System.Globalization.CultureInfo.InvariantCulture;
+
+    /// <summary>Numero con il punto delle migliaia: "3.322".</summary>
+    public static string Number(decimal value) => value.ToString("N0", Invariant).Replace(',', '.');
+
+    /// <summary>Numero con un decimale e la virgola: "12,5".</summary>
+    public static string Decimal1(decimal value) => value.ToString("0.0", Invariant).Replace('.', ',');
+
+    /// <summary>Quota o dislivello: "1.859 m".</summary>
+    public static string Meters(int value) => Number(value) + " m";
+
     /// <summary>Zona con pagina dedicata (/escursioni/zona/{slug}), oppure null.</summary>
     public static string? Zone(Hike h)
         => !string.IsNullOrWhiteSpace(h.Tag) && TagHelper.IsKnown(h.Tag) ? h.Tag : null;

@@ -118,6 +118,21 @@ public class DataIntegrityTests
     }
 
     [Fact]
+    public void PlaceFile_IsConsistent()
+    {
+        var file = PlaceRepository.ReadFile(Path.Combine(WebDir, "Data", "luoghi.json"));
+        var ids = file.Luoghi.Select(p => p.Osm).ToHashSet();
+        var failures = file.Luoghi
+            .Where(p => string.IsNullOrWhiteSpace(p.Nome) || p.QuotaM is not (> -500 and < 9000)
+                || !Escursioni.Web.Models.PlaceType.All.Any(t => t.Tipo == p.Tipo))
+            .Select(p => $"{p.Osm}: tipo \"{p.Tipo}\", nome \"{p.Nome}\" o quota {p.QuotaM} non validi")
+            .ToList();
+        failures.AddRange(file.Escursioni
+            .SelectMany(e => e.Value.Where(id => !ids.Contains(id)).Select(id => $"{e.Key}: luogo {id} assente in luoghi.json")));
+        AssertNoFailures(failures);
+    }
+
+    [Fact]
     public void FileName_MatchesWikilocId()
     {
         var ids = Repo.All.Select(h => h.WikilocId.ToString()).ToHashSet();

@@ -1,0 +1,39 @@
+@page "/{tipo:regex(^(vette|rifugi|passi|laghi)$)}"
+@model Escursioni.Web.Pages.LuoghiModel
+@{
+    var luoghi = Model.Luoghi;
+}
+
+<header class="page-header">
+    @if (luoghi.Count > 0)
+    {
+        <span class="eyebrow">@luoghi.Count @Model.Type.Slug@(luoghi[0].QuotaM is int max ? $" · quota massima {HikeDisplay.Meters(max)}" : "")</span>
+    }
+    <h1 class="page-title">@Model.H1</h1>
+    <p class="page-subtitle">@Model.Subtitle</p>
+    <nav class="place-tabs" aria-label="Altri luoghi raggiunti">
+        @foreach (var t in Escursioni.Web.Models.PlaceType.All.Where(t => t != Model.Type))
+        {
+            <a href="/@t.Slug" title="@t.Titolo raggiunti dalle mie escursioni">@t.Titolo</a>
+        }
+    </nav>
+</header>
+
+@if (luoghi.Count == 0)
+{
+    <p>L'elenco non è ancora disponibile.</p>
+}
+else
+{
+    <ol class="peak-list">
+        @foreach (var p in luoghi)
+        {
+            <partial name="_PlaceItem" model="p" />
+        }
+    </ol>
+}
+
+<p class="peak-note">
+    L'elenco è ricavato dalle tracce GPS: un luogo conta quando la traccia passa a meno di @Model.Type.MaxDistanceM m@(Model.Type == Escursioni.Web.Models.PlaceType.Lago ? " dalla riva" : "").
+    Nomi, quote e parchi: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.
+</p>

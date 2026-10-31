@@ -206,6 +206,10 @@
                         {
                             <li><a href="@item.Href" title="@item.Title">@item.Label</a></li>
                         }
+                        @foreach (var type in Escursioni.Web.Models.PlaceType.All)
+                        {
+                            <li><a href="/@type.Slug" title="@type.Titolo raggiunti dalle mie escursioni">@type.Titolo</a></li>
+                        }
                     </ul>
                 </nav>
                 <nav aria-label="Zone più visitate">
@@ -305,5 +309,10 @@
             }
         });
     </script>
+
+    @* Solo in Production: l'export del deploy gira con --no-launch-profile, quindi in Production *@
+    <environment include="Production">
+        <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2309a86f1783458fb7988e0b7a4e7353"}'></script><!-- End Cloudflare Web Analytics -->
+    </environment>
 </body>
 </html>

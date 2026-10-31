@@ -9,12 +9,29 @@ public class IndexModel : PageModel
     private readonly IHikeRepository _repo;
 
     private readonly IConfiguration _config;
+    private readonly PlaceRepository _places;
 
-    public IndexModel(IHikeRepository repo, IConfiguration config)
+    public IndexModel(IHikeRepository repo, IConfiguration config, PlaceRepository places)
     {
         _repo = repo;
         _config = config;
+        _places = places;
     }
+
+    /// <summary>Vette raggiunte, dalla più alta (Data/luoghi.json).</summary>
+    public IReadOnlyList<Place> Vette => _places.OfType(PlaceType.Vetta);
+    /// <summary>Quanti luoghi per tipo (vette, rifugi, passi, laghi), solo i tipi presenti.</summary>
+    public List<(PlaceType Type, int Count)> Luoghi => PlaceType.All
+        .Select(t => (t, _places.OfType(t).Count))
+        .Where(x => x.Item2 > 0)
+        .ToList();
+
+    public int TotaleDislivello { get; set; }
+    /// <summary>Record personali: titolo, valore e escursione (si aggiornano da soli con le escursioni nuove).</summary>
+    public List<(string Label, string Value, Hike Hike)> Record { get; set; } = new();
+
+    /// <summary>Everest: 8.849 m, per dare un'idea del dislivello totale.</summary>
+    public const int EverestM = 8849;
 
     public List<Hike> UltimeEscursioni { get; set; } = new();
     /// <summary>Foto dell'hero: per ciascuna delle zone principali l'escursione con foto che arriva più in alto.</summary>
@@ -44,6 +61,13 @@ public class IndexModel : PageModel
         var all = await _repo.GetAllAsync(null, null);
         TotaleEscursioni = all.Count;
         TotaleKm = all.Sum(h => h.DistanzaKm ?? 0);
+        TotaleDislivello = all.Sum(h => h.DislivelloM ?? 0);
+        if (all.MaxBy(h => h.DistanzaKm ?? 0) is { DistanzaKm: decimal km } longest)
+            Record.Add(("La più lunga", HikeDisplay.Decimal1(km) + " km", longest));
+        if (all.MaxBy(h => h.DislivelloM ?? 0) is { DislivelloM: int gain } steepest)
+            Record.Add(("Più dislivello", "+" + HikeDisplay.Meters(gain), steepest));
+        if (all.MaxBy(h => h.QuotaMaxM ?? 0) is { QuotaMaxM: int top } highest)
+            Record.Add(("Quota più alta", HikeDisplay.Meters(top), highest));
 
         // JSON-LD CollectionPage
         ViewData["JsonLd"] = $@"{{

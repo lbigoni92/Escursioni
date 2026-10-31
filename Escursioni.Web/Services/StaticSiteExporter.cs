@@ -82,7 +82,7 @@ public sealed class StaticSiteExporter
     {
         var paths = new List<string>
         {
-            "/", "/escursioni", "/mappa", "/ricerca", "/chi-sono", "/contatti", "/privacy", "/note-legali",
+            "/", "/escursioni", "/mappa", "/vette", "/rifugi", "/passi", "/laghi", "/ricerca", "/chi-sono", "/contatti", "/privacy", "/note-legali",
             "/sitemap.xml", "/feed/rss", "/404",
         };
 

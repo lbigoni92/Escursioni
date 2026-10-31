@@ -22,7 +22,12 @@
         <ul class="hero-stats">
             <li><strong>@Model.TotaleEscursioni</strong> escursioni</li>
             <li><strong>@Model.Zone.Count</strong> zone</li>
-            <li><strong>@Model.TotaleKm.ToString("N0", System.Globalization.CultureInfo.InvariantCulture).Replace(',', '.')</strong> km percorsi</li>
+            <li><strong>@HikeDisplay.Number(Model.TotaleKm)</strong> km percorsi</li>
+            <li title="Circa @(Model.TotaleDislivello / Escursioni.Web.Pages.IndexModel.EverestM) volte l'altezza dell'Everest"><strong>@HikeDisplay.Number(Model.TotaleDislivello)</strong> m di dislivello</li>
+            @if (Model.Vette.Count > 0)
+            {
+                <li><a href="/vette" title="Le vette raggiunte, dalla più alta"><strong>@Model.Vette.Count</strong> vette</a></li>
+            }
         </ul>
     </div>
     @if (heroHikes.Count == 3)
@@ -76,6 +81,51 @@
             <partial name="_ZoneTile" model="z" />
         }
     </div>
+</section>
+
+@if (Model.Vette.Count > 0)
+{
+    <section aria-labelledby="vette">
+        <div class="section-head">
+            <h2 id="vette">Le vette più alte</h2>
+            <a class="section-link" href="/vette" title="Tutte le vette raggiunte, dalla più alta">Tutte le @Model.Vette.Count vette →</a>
+        </div>
+        <ol class="peak-list">
+            @foreach (var p in Model.Vette.Take(6))
+            {
+                <partial name="_PlaceItem" model="p" />
+            }
+        </ol>
+    </section>
+}
+
+<section aria-labelledby="numeri">
+    <div class="section-head">
+        <h2 id="numeri">I numeri delle mie escursioni</h2>
+    </div>
+    <p class="stats-intro">
+        <strong>@HikeDisplay.Number(Model.TotaleDislivello) m</strong> di dislivello in salita: circa
+        <strong>@(Model.TotaleDislivello / Escursioni.Web.Pages.IndexModel.EverestM) volte l'altezza dell'Everest</strong>.
+    </p>
+    <ul class="record-grid" aria-label="Record personali">
+        @foreach (var (label, value, hike) in Model.Record)
+        {
+            <li>
+                <span class="record-label">@label</span>
+                <strong class="record-value">@value</strong>
+                <a href="/escursioni/@hike.Slug" title="@HikeDisplay.Title(hike)">@HikeDisplay.Title(hike)</a>
+            </li>
+        }
+    </ul>
+    @if (Model.Luoghi.Count > 0)
+    {
+        <ul class="place-counts" aria-label="Luoghi raggiunti">
+            @foreach (var (type, count) in Model.Luoghi)
+            {
+                <li><a href="/@type.Slug" title="@type.Titolo raggiunti dalle mie escursioni"><strong>@count</strong> @type.Titolo.ToLowerInvariant()</a></li>
+            }
+        </ul>
+    }
 </section>
 
 <div class="about-warning">

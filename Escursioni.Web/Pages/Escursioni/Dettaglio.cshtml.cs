@@ -10,13 +10,18 @@ public class DettaglioModel : PageModel
     private readonly IHikeRepository _repo;
     private readonly SeoService _seo;
     private readonly IWebHostEnvironment _env;
+    private readonly PlaceRepository _places;
 
-    public DettaglioModel(IHikeRepository repo, SeoService seo, IWebHostEnvironment env)
+    public DettaglioModel(IHikeRepository repo, SeoService seo, IWebHostEnvironment env, PlaceRepository places)
     {
         _repo = repo;
         _seo = seo;
         _env = env;
+        _places = places;
     }
+
+    /// <summary>Vette, rifugi, passi e laghi toccati dalla traccia, dal più alto.</summary>
+    public IReadOnlyList<Place> Luoghi => Hike == null ? [] : _places.ForHike(Hike);
 
     public Hike? Hike { get; set; }
     public bool GpxValid { get; set; }

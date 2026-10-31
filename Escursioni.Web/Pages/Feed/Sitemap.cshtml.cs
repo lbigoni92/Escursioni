@@ -9,13 +9,18 @@ public class SitemapModel : PageModel
     private readonly IHikeRepository _repo;
     private readonly IConfiguration _config;
 
-    public SitemapModel(IHikeRepository repo, IConfiguration config)
+    private readonly PlaceRepository _places;
+
+    public SitemapModel(IHikeRepository repo, IConfiguration config, PlaceRepository places)
     {
         _repo = repo;
         _config = config;
+        _places = places;
     }
 
     public string BaseUrl { get; set; } = "";
+    /// <summary>/vette, /rifugi, /passi, /laghi: solo gli elenchi non vuoti.</summary>
+    public IEnumerable<PlaceType> PlaceTypes => PlaceType.All.Where(t => _places.OfType(t).Count > 0);
     public List<Hike> Hikes { get; set; } = new();
     /// <summary>Only tags that actually have hikes (slug → count).</summary>
     public List<string> ActiveTagSlugs { get; set; } = new();

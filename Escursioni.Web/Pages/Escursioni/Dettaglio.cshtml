@@ -191,6 +191,26 @@
                 </dl>
             </section>
 
+            @if (Model.Luoghi.Count > 0)
+            {
+                <section class="panel" aria-labelledby="sul-percorso">
+                    <h2 id="sul-percorso">Sul percorso</h2>
+                    <ul class="route-places">
+                        @foreach (var p in Model.Luoghi)
+                        {
+                            <li>
+                                <span class="route-place-type">@p.Type.Singolare</span>
+                                <a href="/@p.Type.Slug#@p.Anchor" title="@p.Type.Titolo raggiunti dalle mie escursioni">@p.Nome</a>
+                                @if (p.QuotaM is int q)
+                                {
+                                    <span class="route-place-quota">@HikeDisplay.Meters(q)</span>
+                                }
+                            </li>
+                        }
+                    </ul>
+                </section>
+            }
+
             <section class="panel" aria-labelledby="parcheggio">
                 <h2 id="parcheggio">Parcheggio e partenza</h2>
                 @if (Model.GpxValid)

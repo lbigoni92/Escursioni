@@ -978,6 +978,191 @@ a.eyebrow:hover {
     color: #ffffff;
 }
 
+/* Statistica cliccabile (vette → /vette): stesso aspetto delle altre */
+.hero-stats a {
+    display: flex;
+    flex-direction: column;
+    color: inherit;
+    text-decoration: none;
+}
+
+.hero-stats a:hover strong {
+    text-decoration: underline;
+}
+
+/* Elenco vette (home e /vette): quota a sinistra, nome ed escursioni a destra */
+.peak-list {
+    list-style: none;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+    gap: 0.75rem;
+}
+
+.peak-list li {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+    padding: 0.85rem 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+}
+
+.peak-quota {
+    flex: 0 0 4.75rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: var(--accent);
+    white-space: nowrap;
+}
+
+.peak-name {
+    display: block;
+}
+
+.peak-place {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.peak-place a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.peak-place a:hover {
+    text-decoration: underline;
+}
+
+.peak-hikes {
+    display: block;
+    margin-top: 0.2rem;
+    font-size: 0.88rem;
+    color: var(--text-muted);
+}
+
+.peak-note {
+    max-width: 75ch;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* Link agli altri elenchi di luoghi (/vette, /rifugi, /passi, /laghi) */
+.place-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.place-tabs a,
+.place-counts a {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.35rem;
+    padding: 0.35rem 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.place-tabs a:hover,
+.place-counts a:hover {
+    border-color: var(--primary);
+    background: var(--primary-soft);
+}
+
+/* Home: dislivello totale, record personali e conteggio dei luoghi */
+.stats-intro {
+    max-width: 75ch;
+    margin: 0 0 1rem;
+}
+
+.record-grid {
+    list-style: none;
+    margin: 0 0 1rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+    gap: 0.75rem;
+}
+
+.record-grid li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 0.85rem 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+}
+
+.record-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.record-value {
+    font-size: 1.4rem;
+    color: var(--accent);
+}
+
+.record-grid a {
+    font-size: 0.9rem;
+}
+
+.place-counts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.place-counts strong {
+    color: var(--accent);
+}
+
+/* Scheda escursione: vette, rifugi, passi e laghi toccati dalla traccia */
+.route-places {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.45rem;
+}
+
+.route-places li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.25rem 0.5rem;
+}
+
+.route-place-type {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.route-place-quota {
+    margin-left: auto;
+    font-size: 0.88rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--accent);
+}
+
 /* Mosaico foto delle ultime escursioni: a destra del testo su schermi larghi, sotto altrimenti */
 .hero--with-media {
     display: grid;
