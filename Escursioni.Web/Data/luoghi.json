@@ -134,6 +134,17 @@
       "node/854694550",
       "node/3151624311"
     ],
+    "117780402": [
+      "node/1585749463",
+      "node/1585749746",
+      "node/2131163392",
+      "node/2604974909",
+      "node/3064406716",
+      "node/664561798",
+      "node/3064406715",
+      "way/112961845",
+      "way/52254764"
+    ],
     "121406300": [
       "node/1624305766",
       "node/8004097550"
@@ -143,6 +154,9 @@
     "123884538": [
       "node/346359651",
       "node/9088935124"
+    ],
+    "124574099": [
+      "node/1696184576"
     ],
     "125727727": [
       "node/604359571",
@@ -262,6 +276,13 @@
     ],
     "150464902": [],
     "153503172": [],
+    "154832738": [
+      "node/571394863",
+      "node/571394866",
+      "node/571394868",
+      "node/2811028189",
+      "way/32388887"
+    ],
     "156445141": [
       "node/2711561919",
       "node/2928711931"
@@ -473,7 +494,10 @@
       "node/1792306734",
       "node/1792306738"
     ],
+    "183593408": [],
+    "183697270": [],
     "183770204": [],
+    "183876035": [],
     "184187251": [
       "relation/390317",
       "relation/14683628"
@@ -543,13 +567,18 @@
     "191352625": [
       "node/860700016"
     ],
+    "192547578": [],
     "193377883": [],
     "196918402": [
       "node/3070690589",
       "node/3652886525",
       "way/265187456"
     ],
+    "197643085": [],
     "198605304": [],
+    "199207459": [
+      "node/3042008940"
+    ],
     "200144675": [
       "node/1712720620",
       "node/1712720631"
@@ -791,6 +820,9 @@
       "node/4140525327",
       "node/2523470455"
     ],
+    "235810484": [
+      "node/727646824"
+    ],
     "236859999": [
       "node/535943231",
       "node/1285068290",
@@ -802,6 +834,7 @@
       "node/5659391829",
       "way/450122109"
     ],
+    "241205825": [],
     "243140021": [],
     "244396363": [
       "node/535911563",
@@ -910,6 +943,7 @@
       "node/6373086710"
     ],
     "272655129": [],
+    "272857678": [],
     "273913446": [
       "node/367989969",
       "node/1289264175",
@@ -929,6 +963,13 @@
       "node/2159929062",
       "node/2159929063",
       "node/2178391221"
+    ],
+    "281657470": [
+      "node/1780176158",
+      "node/2331843056",
+      "way/45433558",
+      "node/577677431",
+      "node/577763720"
     ],
     "285160578": [],
     "285365105": [
@@ -1167,6 +1208,7 @@
       "node/1733141315",
       "node/7885378341"
     ],
+    "95117629": [],
     "95854305": [
       "node/3941695129",
       "node/4603418164"
@@ -1254,6 +1296,15 @@
       "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
+      "osm": "node/3064406716",
+      "tipo": "vetta",
+      "nome": "Monte Prado",
+      "quota_m": 2054,
+      "lat": 44.249325,
+      "lon": 10.407503,
+      "parco": ""
+    },
+    {
       "osm": "node/26862480",
       "tipo": "vetta",
       "nome": "Alpe di Succiso",
@@ -1270,6 +1321,15 @@
       "lat": 44.130863,
       "lon": 10.577896,
       "parco": ""
+    },
+    {
+      "osm": "node/2131163392",
+      "tipo": "vetta",
+      "nome": "Monte Vecchio",
+      "quota_m": 1982,
+      "lat": 44.235341,
+      "lon": 10.413738,
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/2457289093",
@@ -1405,6 +1465,15 @@
       "lat": 44.125016,
       "lon": 10.641219,
       "parco": ""
+    },
+    {
+      "osm": "node/1780176158",
+      "tipo": "vetta",
+      "nome": "Monte La Nuda",
+      "quota_m": 1895,
+      "lat": 44.281351,
+      "lon": 10.237358,
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/535301160",
@@ -1674,6 +1743,15 @@
       "quota_m": 1817,
       "lat": 44.372086,
       "lon": 10.054418,
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
+    },
+    {
+      "osm": "node/577763720",
+      "tipo": "vetta",
+      "nome": "Cima Belfiore",
+      "quota_m": 1810,
+      "lat": 44.269872,
+      "lon": 10.251338,
       "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
@@ -2460,6 +2538,15 @@
       "parco": ""
     },
     {
+      "osm": "node/727646824",
+      "tipo": "vetta",
+      "nome": "Pietra Di Bismantova",
+      "quota_m": 1041,
+      "lat": 44.421155,
+      "lon": 10.414128,
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
+    },
+    {
       "osm": "node/3839324977",
       "tipo": "vetta",
       "nome": "Piccolo Procinto",
@@ -2712,6 +2799,15 @@
       "parco": ""
     },
     {
+      "osm": "node/571394868",
+      "tipo": "vetta",
+      "nome": "Monte Cantagrilli",
+      "quota_m": 818,
+      "lat": 43.916811,
+      "lon": 11.167759,
+      "parco": ""
+    },
+    {
       "osm": "node/687572303",
       "tipo": "vetta",
       "nome": "Monte Scarpiglione",
@@ -2739,6 +2835,15 @@
       "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
+      "osm": "node/571394866",
+      "tipo": "vetta",
+      "nome": "Poggio Cocolla",
+      "quota_m": 807,
+      "lat": 43.913314,
+      "lon": 11.150674,
+      "parco": ""
+    },
+    {
       "osm": "node/4397604059",
       "tipo": "vetta",
       "nome": "Colle Campacci",
@@ -2757,12 +2862,30 @@
       "parco": ""
     },
     {
+      "osm": "node/571394863",
+      "tipo": "vetta",
+      "nome": "La Retaia",
+      "quota_m": 772,
+      "lat": 43.907508,
+      "lon": 11.142096,
+      "parco": ""
+    },
+    {
       "osm": "node/2856942930",
       "tipo": "vetta",
       "nome": "Monte Agliale",
       "quota_m": 757,
       "lat": 43.995251,
       "lon": 10.51468,
+      "parco": ""
+    },
+    {
+      "osm": "node/1696184576",
+      "tipo": "vetta",
+      "nome": "Il Monte",
+      "quota_m": 755,
+      "lat": 43.159462,
+      "lon": 10.854513,
       "parco": ""
     },
     {
@@ -3027,6 +3150,15 @@
       "parco": ""
     },
     {
+      "osm": "node/3042008940",
+      "tipo": "vetta",
+      "nome": "Poggio della Marruca",
+      "quota_m": 489,
+      "lat": 43.255736,
+      "lon": 10.880195,
+      "parco": ""
+    },
+    {
       "osm": "node/1733141315",
       "tipo": "vetta",
       "nome": "Monte Penna",
@@ -3141,7 +3273,7 @@
       "quota_m": 433,
       "lat": 43.433980,
       "lon": 10.913159,
-      "parco": null
+      "parco": "Riserva naturale Montenero"
     },
     {
       "osm": "node/5351773888",
@@ -3186,7 +3318,7 @@
       "quota_m": 399,
       "lat": 43.437672,
       "lon": 10.914478,
-      "parco": null
+      "parco": "Riserva naturale Montenero"
     },
     {
       "osm": "node/1766604517",
@@ -3621,6 +3753,15 @@
       "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
+      "osm": "way/112961845",
+      "tipo": "rifugio",
+      "nome": "Rifugio Cesare Battisti",
+      "quota_m": 1761,
+      "lat": 44.261794,
+      "lon": 10.412693,
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
+    },
+    {
       "osm": "node/367989969",
       "tipo": "rifugio",
       "nome": "Lago Nero",
@@ -3637,6 +3778,15 @@
       "lat": 44.140400,
       "lon": 10.638593,
       "parco": ""
+    },
+    {
+      "osm": "node/2331843056",
+      "tipo": "rifugio",
+      "nome": "Bivacco Rosario",
+      "quota_m": 1613,
+      "lat": 44.283286,
+      "lon": 10.231432,
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "way/252694007",
@@ -3906,7 +4056,7 @@
       "quota_m": 976,
       "lat": 44.053456,
       "lon": 10.294850,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "way/341913944",
@@ -3915,7 +4065,7 @@
       "quota_m": 920,
       "lat": 43.961177,
       "lon": 10.359661,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "way/379962317",
@@ -3924,7 +4074,7 @@
       "quota_m": 920,
       "lat": 44.052166,
       "lon": 10.295695,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "way/259894225",
@@ -3933,7 +4083,7 @@
       "quota_m": 909,
       "lat": 44.022192,
       "lon": 10.315936,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "way/317248998",
@@ -3942,7 +4092,7 @@
       "quota_m": 894,
       "lat": 43.997048,
       "lon": 10.330113,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "way/278376428",
@@ -3951,7 +4101,7 @@
       "quota_m": 865,
       "lat": 43.956759,
       "lon": 10.363279,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "way/71653398",
@@ -3960,7 +4110,7 @@
       "quota_m": 865,
       "lat": 43.992924,
       "lon": 10.336229,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "way/617495148",
@@ -3969,7 +4119,16 @@
       "quota_m": 791,
       "lat": 43.758596,
       "lon": 10.516499,
-      "parco": null
+      "parco": ""
+    },
+    {
+      "osm": "way/32388887",
+      "tipo": "rifugio",
+      "nome": "Casa Bastone",
+      "quota_m": 482,
+      "lat": 43.902420,
+      "lon": 11.131737,
+      "parco": ""
     },
     {
       "osm": "node/9757219362",
@@ -3978,7 +4137,7 @@
       "quota_m": 453,
       "lat": 43.728366,
       "lon": 10.562236,
-      "parco": null
+      "parco": "Riserva naturale provinciale Monte Serra di Sotto"
     },
     {
       "osm": "way/704967898",
@@ -3987,7 +4146,7 @@
       "quota_m": 83,
       "lat": 43.749922,
       "lon": 10.476425,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/7881107039",
@@ -3996,7 +4155,7 @@
       "quota_m": 3110,
       "lat": 46.510041,
       "lon": 11.827736,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/271961227",
@@ -4005,7 +4164,7 @@
       "quota_m": 2848,
       "lat": 46.501765,
       "lon": 11.812326,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/1404655287",
@@ -4014,7 +4173,7 @@
       "quota_m": 2516,
       "lat": 46.476170,
       "lon": 11.669572,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/2423927189",
@@ -4023,7 +4182,7 @@
       "quota_m": 2338,
       "lat": 46.422702,
       "lon": 11.791322,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/272316209",
@@ -4032,7 +4191,7 @@
       "quota_m": 2297,
       "lat": 46.504720,
       "lon": 11.700691,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/482857764",
@@ -4041,7 +4200,7 @@
       "quota_m": 2282,
       "lat": 46.482847,
       "lon": 11.673895,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/3564946399",
@@ -4050,7 +4209,7 @@
       "quota_m": 2239,
       "lat": 46.487552,
       "lon": 11.812194,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/2596026312",
@@ -4059,7 +4218,7 @@
       "quota_m": 2057,
       "lat": 46.464024,
       "lon": 11.862590,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/265678665",
@@ -4068,7 +4227,7 @@
       "quota_m": 2054,
       "lat": 46.453547,
       "lon": 11.889716,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/1584706919",
@@ -4077,7 +4236,25 @@
       "quota_m": 1946,
       "lat": 44.331065,
       "lon": 10.204295,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
+    },
+    {
+      "osm": "node/1585749746",
+      "tipo": "passo",
+      "nome": "Passo di Monte Vecchio",
+      "quota_m": 1934,
+      "lat": 44.242282,
+      "lon": 10.410851,
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
+    },
+    {
+      "osm": "node/2604974909",
+      "tipo": "passo",
+      "nome": "Passo degli Scaloni",
+      "quota_m": 1928,
+      "lat": 44.234686,
+      "lon": 10.416016,
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/2612991341",
@@ -4086,7 +4263,16 @@
       "quota_m": 1918,
       "lat": 46.378358,
       "lon": 11.791720,
-      "parco": null
+      "parco": ""
+    },
+    {
+      "osm": "node/3064406715",
+      "tipo": "passo",
+      "nome": "Sella del Monte Prado",
+      "quota_m": 1903,
+      "lat": 44.252697,
+      "lon": 10.399912,
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/3678039546",
@@ -4095,7 +4281,7 @@
       "quota_m": 1877,
       "lat": 44.123501,
       "lon": 10.582436,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "node/1651050360",
@@ -4104,7 +4290,7 @@
       "quota_m": 1850,
       "lat": 44.116851,
       "lon": 10.589654,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "node/482926506",
@@ -4113,7 +4299,7 @@
       "quota_m": 1847,
       "lat": 44.115772,
       "lon": 10.828775,
-      "parco": null
+      "parco": "IT4050002 - SIC-ZPS - Parco Regionale Corno alle Scale"
     },
     {
       "osm": "node/2965855592",
@@ -4122,7 +4308,7 @@
       "quota_m": 1843,
       "lat": 44.036776,
       "lon": 10.323188,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/5659391829",
@@ -4131,7 +4317,16 @@
       "quota_m": 1819,
       "lat": 44.118488,
       "lon": 10.214885,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
+    },
+    {
+      "osm": "node/1585749463",
+      "tipo": "passo",
+      "nome": "Bocca di Massa",
+      "quota_m": 1818,
+      "lat": 44.228479,
+      "lon": 10.428356,
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/2178391221",
@@ -4140,7 +4335,7 @@
       "quota_m": 1817,
       "lat": 44.176724,
       "lon": 10.703651,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "node/388404897",
@@ -4149,7 +4344,7 @@
       "quota_m": 1794,
       "lat": 44.360389,
       "lon": 10.073001,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/633746356",
@@ -4158,7 +4353,7 @@
       "quota_m": 1794,
       "lat": 44.122316,
       "lon": 10.623204,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "node/1502728646",
@@ -4167,7 +4362,7 @@
       "quota_m": 1785,
       "lat": 44.107878,
       "lon": 10.651722,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/2171928364",
@@ -4176,7 +4371,16 @@
       "quota_m": 1782,
       "lat": 44.119306,
       "lon": 10.635678,
-      "parco": null
+      "parco": ""
+    },
+    {
+      "osm": "node/664561798",
+      "tipo": "passo",
+      "nome": "Passo di Lama Lite",
+      "quota_m": 1781,
+      "lat": 44.258788,
+      "lon": 10.414086,
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/2172247313",
@@ -4185,7 +4389,7 @@
       "quota_m": 1779,
       "lat": 44.115404,
       "lon": 10.814784,
-      "parco": null
+      "parco": "IT4050002 - SIC-ZPS - Parco Regionale Corno alle Scale"
     },
     {
       "osm": "node/1148877258",
@@ -4194,7 +4398,7 @@
       "quota_m": 1770,
       "lat": 44.122669,
       "lon": 10.638606,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/1584717653",
@@ -4203,7 +4407,7 @@
       "quota_m": 1770,
       "lat": 44.323386,
       "lon": 10.190259,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/388404976",
@@ -4212,7 +4416,7 @@
       "quota_m": 1762,
       "lat": 44.354979,
       "lon": 10.086034,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/2178669890",
@@ -4221,7 +4425,7 @@
       "quota_m": 1752,
       "lat": 44.110865,
       "lon": 10.639706,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/1285817787",
@@ -4230,7 +4434,7 @@
       "quota_m": 1746,
       "lat": 44.112989,
       "lon": 10.217832,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/575778934",
@@ -4239,7 +4443,7 @@
       "quota_m": 1737,
       "lat": 44.123133,
       "lon": 10.800341,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/388404397",
@@ -4248,7 +4452,7 @@
       "quota_m": 1731,
       "lat": 44.394512,
       "lon": 10.001639,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/5982898514",
@@ -4257,7 +4461,7 @@
       "quota_m": 1730,
       "lat": 44.130888,
       "lon": 10.215358,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/579335167",
@@ -4266,7 +4470,7 @@
       "quota_m": 1714,
       "lat": 44.140620,
       "lon": 10.561465,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/388404327",
@@ -4275,7 +4479,7 @@
       "quota_m": 1702,
       "lat": 44.40118,
       "lon": 9.994305,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/579335039",
@@ -4284,7 +4488,7 @@
       "quota_m": 1702,
       "lat": 44.1474,
       "lon": 10.54788,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/1158328406",
@@ -4293,7 +4497,7 @@
       "quota_m": 1700,
       "lat": 44.390715,
       "lon": 10.007937,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/1720645470",
@@ -4302,7 +4506,7 @@
       "quota_m": 1700,
       "lat": 44.128324,
       "lon": 10.832298,
-      "parco": null
+      "parco": "IT4050002 - SIC-ZPS - Parco Regionale Corno alle Scale"
     },
     {
       "osm": "node/388404621",
@@ -4311,7 +4515,7 @@
       "quota_m": 1686,
       "lat": 44.377959,
       "lon": 10.037439,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/388404497",
@@ -4320,7 +4524,7 @@
       "quota_m": 1681,
       "lat": 44.386512,
       "lon": 10.016753,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/5259995624",
@@ -4329,7 +4533,7 @@
       "quota_m": 1680,
       "lat": 44.151909,
       "lon": 10.583685,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "node/3105678807",
@@ -4338,7 +4542,7 @@
       "quota_m": 1670,
       "lat": 44.033923,
       "lon": 10.32889,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/576091967",
@@ -4347,7 +4551,16 @@
       "quota_m": 1669,
       "lat": 44.132120,
       "lon": 10.777840,
-      "parco": null
+      "parco": ""
+    },
+    {
+      "osm": "node/577677431",
+      "tipo": "passo",
+      "nome": "Passo Belfiore",
+      "quota_m": 1669,
+      "lat": 44.269611,
+      "lon": 10.259692,
+      "parco": ""
     },
     {
       "osm": "node/1415786600",
@@ -4356,7 +4569,7 @@
       "quota_m": 1668,
       "lat": 44.142347,
       "lon": 10.765745,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "node/946985978",
@@ -4365,7 +4578,7 @@
       "quota_m": 1667,
       "lat": 44.379467,
       "lon": 10.042480,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/2178302683",
@@ -4374,7 +4587,7 @@
       "quota_m": 1665,
       "lat": 44.133846,
       "lon": 10.624186,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "node/633731335",
@@ -4383,7 +4596,7 @@
       "quota_m": 1664,
       "lat": 44.118278,
       "lon": 10.609554,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "node/3091114845",
@@ -4392,7 +4605,7 @@
       "quota_m": 1653,
       "lat": 44.113331,
       "lon": 10.241930,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/1285817783",
@@ -4401,7 +4614,7 @@
       "quota_m": 1642,
       "lat": 44.113068,
       "lon": 10.221251,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/3117988515",
@@ -4410,7 +4623,7 @@
       "quota_m": 1642,
       "lat": 44.122184,
       "lon": 10.214383,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/1415786636",
@@ -4419,7 +4632,7 @@
       "quota_m": 1631,
       "lat": 44.151536,
       "lon": 10.759060,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/1242089872",
@@ -4428,7 +4641,7 @@
       "quota_m": 1630,
       "lat": 44.110135,
       "lon": 10.839823,
-      "parco": null
+      "parco": "IT4050002 - SIC-ZPS - Parco Regionale Corno alle Scale"
     },
     {
       "osm": "node/4418767472",
@@ -4437,7 +4650,7 @@
       "quota_m": 1628,
       "lat": 44.154641,
       "lon": 10.532884,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/577790592",
@@ -4446,7 +4659,7 @@
       "quota_m": 1622,
       "lat": 44.101314,
       "lon": 10.234133,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/388350316",
@@ -4455,7 +4668,7 @@
       "quota_m": 1613,
       "lat": 44.380585,
       "lon": 10.057959,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/2377821573",
@@ -4464,7 +4677,7 @@
       "quota_m": 1611,
       "lat": 44.036823,
       "lon": 10.329237,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/4804477583",
@@ -4473,7 +4686,7 @@
       "quota_m": 1611,
       "lat": 44.118970,
       "lon": 10.203142,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/634517358",
@@ -4482,7 +4695,7 @@
       "quota_m": 1588,
       "lat": 44.214790,
       "lon": 10.718934,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/579335280",
@@ -4491,7 +4704,7 @@
       "quota_m": 1584,
       "lat": 44.144281,
       "lon": 10.580969,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "node/1348645919",
@@ -4500,7 +4713,7 @@
       "quota_m": 1580,
       "lat": 44.163762,
       "lon": 10.520829,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "node/2178668650",
@@ -4509,7 +4722,7 @@
       "quota_m": 1580,
       "lat": 44.105749,
       "lon": 10.677850,
-      "parco": null
+      "parco": "Riserva naturale Piano degli Ontani"
     },
     {
       "osm": "node/856649162",
@@ -4518,7 +4731,7 @@
       "quota_m": 1554,
       "lat": 44.077807,
       "lon": 10.268698,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/11654601494",
@@ -4527,7 +4740,7 @@
       "quota_m": 1507,
       "lat": 44.1351,
       "lon": 10.185928,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/3338528012",
@@ -4536,7 +4749,7 @@
       "quota_m": 1498,
       "lat": 44.084453,
       "lon": 10.247014,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/634517466",
@@ -4545,7 +4758,7 @@
       "quota_m": 1483,
       "lat": 44.218866,
       "lon": 10.736285,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/1310411677",
@@ -4554,7 +4767,7 @@
       "quota_m": 1460,
       "lat": 44.074381,
       "lon": 10.269302,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/2476383992",
@@ -4563,7 +4776,7 @@
       "quota_m": 1460,
       "lat": 44.049287,
       "lon": 10.236806,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/1446375770",
@@ -4572,7 +4785,7 @@
       "quota_m": 1455,
       "lat": 44.389041,
       "lon": 10.06198,
-      "parco": null
+      "parco": "Parco Regionale delle Valli del Parma e del Cedra (Parco dei Cento Laghi)"
     },
     {
       "osm": "node/576115719",
@@ -4581,7 +4794,7 @@
       "quota_m": 1454,
       "lat": 44.145561,
       "lon": 10.806476,
-      "parco": null
+      "parco": "IT4050002 - SIC-ZPS - Parco Regionale Corno alle Scale"
     },
     {
       "osm": "node/2373104596",
@@ -4590,7 +4803,7 @@
       "quota_m": 1452,
       "lat": 44.108851,
       "lon": 10.154430,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/856651110",
@@ -4599,7 +4812,7 @@
       "quota_m": 1430,
       "lat": 44.078677,
       "lon": 10.297843,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/2373104881",
@@ -4608,7 +4821,7 @@
       "quota_m": 1427,
       "lat": 44.119688,
       "lon": 10.154198,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/1626335607",
@@ -4617,7 +4830,7 @@
       "quota_m": 1425,
       "lat": 44.069517,
       "lon": 10.264001,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/9270097324",
@@ -4626,7 +4839,7 @@
       "quota_m": 1411,
       "lat": 42.786562,
       "lon": 13.169017,
-      "parco": null
+      "parco": "Parco Nazionale dei Monti Sibillini"
     },
     {
       "osm": "node/489946161",
@@ -4635,7 +4848,7 @@
       "quota_m": 1404,
       "lat": 44.097190,
       "lon": 10.230294,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/2516511198",
@@ -4644,7 +4857,7 @@
       "quota_m": 1397,
       "lat": 44.143893,
       "lon": 10.188145,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/3070690589",
@@ -4653,7 +4866,7 @@
       "quota_m": 1388,
       "lat": 44.145636,
       "lon": 10.664959,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/689260926",
@@ -4662,7 +4875,7 @@
       "quota_m": 1381,
       "lat": 44.048859,
       "lon": 10.239958,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/2623980492",
@@ -4671,7 +4884,7 @@
       "quota_m": 1380,
       "lat": 44.052357,
       "lon": 10.226478,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/842089095",
@@ -4680,7 +4893,7 @@
       "quota_m": 1370,
       "lat": 44.049586,
       "lon": 10.242784,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/2511310432",
@@ -4689,7 +4902,7 @@
       "quota_m": 1360,
       "lat": 44.125284,
       "lon": 10.238426,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/2373104874",
@@ -4698,7 +4911,7 @@
       "quota_m": 1337,
       "lat": 44.119342,
       "lon": 10.164269,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/1401277779",
@@ -4707,7 +4920,7 @@
       "quota_m": 1332,
       "lat": 44.050744,
       "lon": 10.28425,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/773906631",
@@ -4716,7 +4929,7 @@
       "quota_m": 1332,
       "lat": 44.116434,
       "lon": 10.168543,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/689260235",
@@ -4725,7 +4938,7 @@
       "quota_m": 1327,
       "lat": 44.057923,
       "lon": 10.22273,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/6500523864",
@@ -4734,7 +4947,7 @@
       "quota_m": 1287,
       "lat": 44.089856,
       "lon": 10.635594,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/2344451236",
@@ -4743,7 +4956,7 @@
       "quota_m": 1282,
       "lat": 44.043854,
       "lon": 10.284313,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/2401879788",
@@ -4752,7 +4965,7 @@
       "quota_m": 1272,
       "lat": 44.115363,
       "lon": 10.141340,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/575728664",
@@ -4761,7 +4974,7 @@
       "quota_m": 1271,
       "lat": 44.310744,
       "lon": 10.202548,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/1637485514",
@@ -4770,7 +4983,7 @@
       "quota_m": 1257,
       "lat": 44.027035,
       "lon": 10.328838,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/262464234",
@@ -4779,7 +4992,7 @@
       "quota_m": 1243,
       "lat": 44.304084,
       "lon": 10.217130,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "node/4857729790",
@@ -4788,7 +5001,7 @@
       "quota_m": 1210,
       "lat": 44.050801,
       "lon": 10.222971,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/581343403",
@@ -4797,7 +5010,7 @@
       "quota_m": 1189,
       "lat": 44.032729,
       "lon": 10.308329,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/3151624311",
@@ -4806,7 +5019,7 @@
       "quota_m": 1170,
       "lat": 44.015567,
       "lon": 10.335615,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/582524910",
@@ -4815,7 +5028,7 @@
       "quota_m": 1159,
       "lat": 43.968852,
       "lon": 10.376583,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/2037937921",
@@ -4824,7 +5037,7 @@
       "quota_m": 1147,
       "lat": 44.034449,
       "lon": 10.272607,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/1966334540",
@@ -4833,7 +5046,7 @@
       "quota_m": 1138,
       "lat": 43.988762,
       "lon": 10.340474,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/1502719071",
@@ -4842,7 +5055,7 @@
       "quota_m": 1128,
       "lat": 44.056909,
       "lon": 10.617916,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/854682614",
@@ -4851,7 +5064,7 @@
       "quota_m": 1121,
       "lat": 44.007194,
       "lon": 10.368061,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/566827138",
@@ -4860,7 +5073,7 @@
       "quota_m": 1120,
       "lat": 44.052598,
       "lon": 10.342544,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/2439719859",
@@ -4869,7 +5082,7 @@
       "quota_m": 1090,
       "lat": 43.979572,
       "lon": 10.347893,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/601468017",
@@ -4878,7 +5091,7 @@
       "quota_m": 1080,
       "lat": 44.025405,
       "lon": 10.303424,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/861253781",
@@ -4887,7 +5100,7 @@
       "quota_m": 1079,
       "lat": 44.027084,
       "lon": 10.432938,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/2331212297",
@@ -4896,7 +5109,7 @@
       "quota_m": 1059,
       "lat": 44.045591,
       "lon": 10.213455,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/3786359454",
@@ -4905,7 +5118,7 @@
       "quota_m": 1046,
       "lat": 44.028032,
       "lon": 10.700991,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/601467996",
@@ -4914,7 +5127,7 @@
       "quota_m": 1040,
       "lat": 44.022433,
       "lon": 10.301527,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/1476455906",
@@ -4923,7 +5136,7 @@
       "quota_m": 1039,
       "lat": 44.037008,
       "lon": 10.203199,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/2623503832",
@@ -4932,7 +5145,7 @@
       "quota_m": 1033,
       "lat": 44.102045,
       "lon": 10.165962,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/852073708",
@@ -4941,7 +5154,7 @@
       "quota_m": 1000,
       "lat": 43.996422,
       "lon": 10.335852,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/854694550",
@@ -4950,7 +5163,7 @@
       "quota_m": 982,
       "lat": 44.000955,
       "lon": 10.342388,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/1646030615",
@@ -4959,7 +5172,7 @@
       "quota_m": 970,
       "lat": 43.975272,
       "lon": 10.355661,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/854682586",
@@ -4968,7 +5181,7 @@
       "quota_m": 961,
       "lat": 44.008781,
       "lon": 10.341498,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/6125515722",
@@ -4977,7 +5190,7 @@
       "quota_m": 950,
       "lat": 43.997260,
       "lon": 10.332528,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/849038427",
@@ -4986,7 +5199,7 @@
       "quota_m": 943,
       "lat": 43.969119,
       "lon": 10.304952,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/5520824408",
@@ -4995,7 +5208,7 @@
       "quota_m": 927,
       "lat": 44.018721,
       "lon": 10.296919,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/1793486388",
@@ -5004,7 +5217,7 @@
       "quota_m": 918,
       "lat": 43.958442,
       "lon": 10.357137,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/2012309587",
@@ -5013,7 +5226,7 @@
       "quota_m": 873,
       "lat": 43.973901,
       "lon": 10.291301,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/10731453608",
@@ -5022,7 +5235,7 @@
       "quota_m": 857,
       "lat": 44.073293,
       "lon": 10.148916,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/854457890",
@@ -5031,7 +5244,7 @@
       "quota_m": 856,
       "lat": 43.974058,
       "lon": 10.327804,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/3192061869",
@@ -5040,7 +5253,7 @@
       "quota_m": 831,
       "lat": 43.980973,
       "lon": 10.275005,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/1484704410",
@@ -5049,7 +5262,7 @@
       "quota_m": 825,
       "lat": 44.034633,
       "lon": 10.192962,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/861253259",
@@ -5058,7 +5271,7 @@
       "quota_m": 800,
       "lat": 44.030237,
       "lon": 10.463628,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/613390597",
@@ -5067,7 +5280,7 @@
       "quota_m": 723,
       "lat": 43.758039,
       "lon": 10.534810,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/5239111853",
@@ -5076,7 +5289,7 @@
       "quota_m": 719,
       "lat": 44.086604,
       "lon": 10.167528,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/882410989",
@@ -5085,7 +5298,7 @@
       "quota_m": 682,
       "lat": 43.975536,
       "lon": 10.26975,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/3483753184",
@@ -5094,7 +5307,16 @@
       "quota_m": 637,
       "lat": 43.736640,
       "lon": 10.549211,
-      "parco": null
+      "parco": "Riserva naturale provinciale Monte Serra di Sotto"
+    },
+    {
+      "osm": "node/2811028189",
+      "tipo": "passo",
+      "nome": "Il Crocicchio",
+      "quota_m": 622,
+      "lat": 43.927845,
+      "lon": 11.162995,
+      "parco": ""
     },
     {
       "osm": "node/4329601264",
@@ -5103,7 +5325,7 @@
       "quota_m": 621,
       "lat": 43.773511,
       "lon": 10.534344,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/1646854407",
@@ -5112,7 +5334,7 @@
       "quota_m": 617,
       "lat": 43.726449,
       "lon": 10.556810,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/1798411637",
@@ -5121,7 +5343,7 @@
       "quota_m": 612,
       "lat": 43.755783,
       "lon": 10.506671,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/529973195",
@@ -5130,7 +5352,7 @@
       "quota_m": 558,
       "lat": 43.936485,
       "lon": 10.382174,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "node/10585077433",
@@ -5139,7 +5361,7 @@
       "quota_m": 535,
       "lat": 43.987460,
       "lon": 10.240667,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/14139642545",
@@ -5148,7 +5370,7 @@
       "quota_m": 512,
       "lat": 43.420891,
       "lon": 10.605224,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/613390389",
@@ -5157,7 +5379,7 @@
       "quota_m": 504,
       "lat": 43.751910,
       "lon": 10.492617,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/613390473",
@@ -5166,7 +5388,7 @@
       "quota_m": 484,
       "lat": 43.745965,
       "lon": 10.503729,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/10617529954",
@@ -5175,7 +5397,7 @@
       "quota_m": 450,
       "lat": 43.957579,
       "lon": 10.328466,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/5545704719",
@@ -5184,7 +5406,7 @@
       "quota_m": 438,
       "lat": 43.708354,
       "lon": 10.539622,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/7885378341",
@@ -5193,7 +5415,7 @@
       "quota_m": 359,
       "lat": 43.800280,
       "lon": 10.451585,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/392951179",
@@ -5202,7 +5424,7 @@
       "quota_m": 248,
       "lat": 43.700932,
       "lon": 10.525823,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/1127793854",
@@ -5211,7 +5433,7 @@
       "quota_m": 219,
       "lat": 43.775401,
       "lon": 10.445262,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/366666672",
@@ -5220,7 +5442,7 @@
       "quota_m": 215,
       "lat": 43.770615,
       "lon": 10.450742,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "node/366686019",
@@ -5229,7 +5451,7 @@
       "quota_m": 194,
       "lat": 43.766174,
       "lon": 10.459737,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "way/27559959",
@@ -5238,7 +5460,7 @@
       "quota_m": 2498,
       "lat": 46.477853,
       "lon": 11.660202,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "way/129530097",
@@ -5247,7 +5469,7 @@
       "quota_m": 2101,
       "lat": 46.360331,
       "lon": 11.816717,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "way/15452009",
@@ -5256,7 +5478,7 @@
       "quota_m": 2064,
       "lat": 46.459020,
       "lon": 11.871738,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "way/164155668",
@@ -5265,7 +5487,7 @@
       "quota_m": 1823,
       "lat": 44.118892,
       "lon": 10.630596,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "way/924823706",
@@ -5274,7 +5496,7 @@
       "quota_m": 1796,
       "lat": 44.109542,
       "lon": 10.642654,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "way/39611430",
@@ -5283,7 +5505,7 @@
       "quota_m": 1793,
       "lat": 44.118614,
       "lon": 10.807742,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "way/711260159",
@@ -5292,7 +5514,16 @@
       "quota_m": 1776,
       "lat": 44.119963,
       "lon": 10.803905,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
+    },
+    {
+      "osm": "way/52254764",
+      "tipo": "lago",
+      "nome": "Lago Bargetana",
+      "quota_m": 1772,
+      "lat": 44.255567,
+      "lon": 10.404021,
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "way/48876049",
@@ -5301,7 +5532,7 @@
       "quota_m": 1727,
       "lat": 44.115677,
       "lon": 10.636768,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "way/44893837",
@@ -5310,7 +5541,7 @@
       "quota_m": 1714,
       "lat": 44.356631,
       "lon": 10.084955,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "way/131620925",
@@ -5319,7 +5550,7 @@
       "quota_m": 1632,
       "lat": 44.390055,
       "lon": 10.013564,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "way/161082800",
@@ -5328,7 +5559,7 @@
       "quota_m": 1613,
       "lat": 44.120393,
       "lon": 10.599051,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "way/25688689",
@@ -5337,7 +5568,7 @@
       "quota_m": 1560,
       "lat": 44.129687,
       "lon": 10.588674,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "way/25610029",
@@ -5346,7 +5577,7 @@
       "quota_m": 1558,
       "lat": 44.402351,
       "lon": 10.007388,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "way/25626362",
@@ -5355,7 +5586,7 @@
       "quota_m": 1555,
       "lat": 44.381845,
       "lon": 10.045733,
-      "parco": null
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "way/265187456",
@@ -5364,7 +5595,7 @@
       "quota_m": 1549,
       "lat": 44.159350,
       "lon": 10.693939,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "relation/18054420",
@@ -5373,7 +5604,7 @@
       "quota_m": 1543,
       "lat": 46.409310,
       "lon": 11.575202,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "way/25625861",
@@ -5382,7 +5613,7 @@
       "quota_m": 1542,
       "lat": 44.362273,
       "lon": 10.090213,
-      "parco": null
+      "parco": "Parco Regionale delle Valli del Parma e del Cedra (Parco dei Cento Laghi)"
     },
     {
       "osm": "way/60442732",
@@ -5391,7 +5622,7 @@
       "quota_m": 1503,
       "lat": 44.210991,
       "lon": 10.724948,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "way/25688687",
@@ -5400,7 +5631,7 @@
       "quota_m": 1501,
       "lat": 44.137229,
       "lon": 10.585113,
-      "parco": null
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
     },
     {
       "osm": "way/182598726",
@@ -5409,7 +5640,16 @@
       "quota_m": 1431,
       "lat": 44.133091,
       "lon": 10.821632,
-      "parco": null
+      "parco": "IT4050002 - SIC-ZPS - Parco Regionale Corno alle Scale"
+    },
+    {
+      "osm": "way/45433558",
+      "tipo": "lago",
+      "nome": "Lago Cerretano",
+      "quota_m": 1346,
+      "lat": 44.296997,
+      "lon": 10.244329,
+      "parco": "Parco Nazionale dell\u0027Appennino Tosco-Emiliano"
     },
     {
       "osm": "way/614379025",
@@ -5418,7 +5658,7 @@
       "quota_m": 1265,
       "lat": 44.127609,
       "lon": 10.686865,
-      "parco": null
+      "parco": "Riserva naturale Abetone"
     },
     {
       "osm": "relation/2989153",
@@ -5427,7 +5667,7 @@
       "quota_m": 614,
       "lat": 44.114681,
       "lon": 10.297183,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "way/71377683",
@@ -5436,7 +5676,7 @@
       "quota_m": 607,
       "lat": 43.960771,
       "lon": 10.313427,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "way/45591975",
@@ -5445,7 +5685,7 @@
       "quota_m": 561,
       "lat": 44.063767,
       "lon": 10.312341,
-      "parco": null
+      "parco": "Parco naturale regionale delle Alpi Apuane"
     },
     {
       "osm": "way/143865475",
@@ -5454,7 +5694,7 @@
       "quota_m": 500,
       "lat": 43.862432,
       "lon": 11.303750,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "way/3868930",
@@ -5463,7 +5703,7 @@
       "quota_m": 481,
       "lat": 47.825538,
       "lon": 13.395622,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "relation/17371312",
@@ -5472,7 +5712,7 @@
       "quota_m": 245,
       "lat": 43.712116,
       "lon": 11.147049,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "relation/390317",
@@ -5481,7 +5721,7 @@
       "quota_m": 111,
       "lat": 47.515921,
       "lon": 19.080967,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "relation/14683628",
@@ -5490,7 +5730,7 @@
       "quota_m": 108,
       "lat": 47.515274,
       "lon": 19.080723,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "relation/1763127",
@@ -5499,7 +5739,7 @@
       "quota_m": 52,
       "lat": 43.446159,
       "lon": 10.515128,
-      "parco": null
+      "parco": "Riserva naturale provinciale Lago di Santa Luce"
     },
     {
       "osm": "way/179486478",
@@ -5508,7 +5748,7 @@
       "quota_m": 38,
       "lat": 43.779098,
       "lon": 10.614495,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "way/157440486",
@@ -5517,7 +5757,7 @@
       "quota_m": 18,
       "lat": 43.866234,
       "lon": 10.553370,
-      "parco": null
+      "parco": ""
     },
     {
       "osm": "relation/2562525",
@@ -5526,7 +5766,7 @@
       "quota_m": -1,
       "lat": 43.833174,
       "lon": 10.329698,
-      "parco": null
+      "parco": "Parco Naturale di Migliarino San Rossore Massaciuccoli"
     }
   ]
 }
