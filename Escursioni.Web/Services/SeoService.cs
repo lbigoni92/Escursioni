@@ -36,8 +36,10 @@ public class SeoService
             : $"{hike.Titolo} - {desc}".Trim();
         // Molte meta descrizioni contengono a capo (\r\n): nel meta tag diventano spazi
         metaDesc = System.Text.RegularExpressions.Regex.Replace(metaDesc, @"\s+", " ").Trim();
-        if (metaDesc.Length > 130)
-            metaDesc = metaDesc[..127] + "...";
+        // Google mostra circa 160 caratteri: le meta_descrizione stanno sotto, si taglia solo il ripiego dalla descrizione
+        const int maxMetaLength = 160;
+        if (metaDesc.Length > maxMetaLength)
+            metaDesc = TruncateTitle(metaDesc, maxMetaLength - 1) + "…";
 
         page.ViewData["MetaDescription"] = metaDesc;
 

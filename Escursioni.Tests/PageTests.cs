@@ -99,8 +99,11 @@ public class PageTests(SiteFactory site)
             Assert.Contains($"/media/gpx/{hike.WikilocId}.gpx", html);
 
             var description = Attr(html, @"<meta name=""description"" content=""([^""]+)""") ?? "";
-            Assert.InRange(description.Length, 50, 130);
+            Assert.InRange(description.Length, 50, 160);
             Assert.DoesNotMatch(@"[\r\n]", description);
+            // Le meta_descrizione scritte a mano restano entro i 160 caratteri: arrivano intere, senza "…"
+            if (!string.IsNullOrWhiteSpace(hike.MetaDescrizione))
+                Assert.Equal(hike.MetaDescrizione, System.Net.WebUtility.HtmlDecode(description));
 
             // Tutti i blocchi JSON-LD devono essere JSON valido
             foreach (Match ld in Regex.Matches(html, @"<script type=""application/ld\+json"">(.*?)</script>", RegexOptions.Singleline))
