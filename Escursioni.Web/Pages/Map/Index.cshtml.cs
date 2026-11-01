@@ -19,7 +19,7 @@ public class IndexModel : PageModel
 
     public async Task OnGet()
     {
-        ViewData["Title"] = "Mappa escursioni in Toscana – Trekking con tracce GPS | Luca Bigoni";
+        ViewData["Title"] = "Mappa dei sentieri in Toscana con tracce GPS";
         var metaDesc = "Esplora la mappa delle escursioni in Toscana: trekking, itinerari e percorsi con tracce GPS scaricabili. Scopri sentieri in Alpi Apuane, Garfagnana e Appennino.";
         if (metaDesc.Length > 180) metaDesc = metaDesc[..180] + "...";
         ViewData["MetaDescription"] = metaDesc;

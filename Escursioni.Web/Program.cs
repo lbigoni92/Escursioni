@@ -28,6 +28,8 @@ builder.Services.Configure<ForwardedHeadersOptions>(options =>
     options.KnownProxies.Clear();
 });
 
+builder.Services.AddHsts(options => options.MaxAge = SecurityHeaders.HstsMaxAge);
+
 // Response compression (GZIP)
 builder.Services.AddResponseCompression(options =>
 {
@@ -67,6 +69,12 @@ Console.WriteLine("[LOG] Build dell'app...");
 var app = builder.Build();
 
 
+Console.WriteLine("[LOG] Configurazione middleware...");
+// Process X-Forwarded headers before any middleware that uses scheme/host.
+// Deve stare prima di UseHsts: dietro il proxy di Render la richiesta arriva in HTTP e senza
+// X-Forwarded-Proto UseHsts la crede non sicura e non manda Strict-Transport-Security.
+app.UseForwardedHeaders();
+
 if (!app.Environment.IsDevelopment())
 {
     Console.WriteLine("[LOG] Ambiente produzione: handler errori e HSTS");
@@ -78,11 +86,13 @@ else
     Console.WriteLine("[LOG] Ambiente sviluppo");
 }
 
-
-Console.WriteLine("[LOG] Configurazione middleware...");
-// Process X-Forwarded headers before any middleware that uses scheme/host
-app.UseForwardedHeaders();
-
+// Header di sicurezza su ogni risposta (nel sito statico sono nel file _headers)
+app.Use((context, next) =>
+{
+    foreach (var (name, value) in SecurityHeaders.All)
+        context.Response.Headers[name] = value;
+    return next(context);
+});
 
 
 // Legacy redirect for old /escursioni/{id}/{slug} → /escursioni/{slug}
@@ -125,6 +135,8 @@ provider.Mappings[".gpx"] = "application/gpx+xml";
 
 app.UseStaticFiles(new StaticFileOptions
 {
+    // CSS minificato (in sviluppo resta leggibile); null = file di wwwroot così come sono
+    FileProvider = app.Environment.IsDevelopment() ? null : new MinifiedCssFileProvider(app.Environment.WebRootFileProvider),
     ContentTypeProvider = provider,
     ServeUnknownFileTypes = true,
     OnPrepareResponse = ctx =>
@@ -160,6 +172,9 @@ app.MapRazorPages();
 
 // Indice per la ricerca lato browser (nel sito statico diventa il file data/search-index.json)
 app.MapGet("/data/search-index.json", (HikeRepository repo) => Results.Json(repo.BuildSearchIndex()));
+app.MapGet("/llms.txt", async (IHikeRepository repo, IConfiguration config) =>
+    Results.Text(LlmsTxt.Build(await HikeDisplay.GetZonesAsync(repo), (config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/')),
+        "text/plain; charset=utf-8"));
 
 if (exportDir != null)
 {

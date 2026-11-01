@@ -1017,13 +1017,14 @@ a.eyebrow:hover {
     color: var(--text-muted);
 }
 
+/* Sottolineato: in mezzo al testo il solo colore non basta a riconoscerlo come link (accessibilità) */
 .peak-place a {
     color: var(--primary);
-    text-decoration: none;
+    text-decoration-thickness: 1px;
 }
 
 .peak-place a:hover {
-    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 .peak-hikes {

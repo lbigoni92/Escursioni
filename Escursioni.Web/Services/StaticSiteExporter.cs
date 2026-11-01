@@ -42,6 +42,13 @@ public sealed class StaticSiteExporter
         var copied = CopyDirectory(_env.WebRootPath, outDir);
         _logger.LogInformation("[Export] wwwroot copiata ({Copied} file nuovi o modificati)", copied);
 
+        // Fogli di stile minificati (sul server lo fa MinifiedCssFileProvider)
+        foreach (var css in Directory.EnumerateFiles(Path.Combine(_env.WebRootPath, CssMinifier.Folder), "*.css"))
+        {
+            var target = Path.Combine(outDir, CssMinifier.Folder, Path.GetFileName(css));
+            await File.WriteAllTextAsync(target, CssMinifier.Minify(await File.ReadAllTextAsync(css, ct)), new UTF8Encoding(false), ct);
+        }
+
         // 3. Pagine
         var errors = 0;
         var pages = GetPagePaths();
@@ -83,7 +90,7 @@ public sealed class StaticSiteExporter
         var paths = new List<string>
         {
             "/", "/escursioni", "/mappa", "/vette", "/rifugi", "/passi", "/laghi", "/ricerca", "/chi-sono", "/contatti", "/privacy", "/note-legali",
-            "/sitemap.xml", "/feed/rss", "/404",
+            "/sitemap.xml", "/feed/rss", "/llms.txt", "/404",
         };
 
         paths.AddRange(KnownTagSlugs().Select(slug => "/escursioni/zona/" + slug));
@@ -108,7 +115,7 @@ public sealed class StaticSiteExporter
     {
         "/" => "index.html",
         "/404" => "404.html",
-        "/sitemap.xml" or "/feed/rss" => path.TrimStart('/'),
+        "/sitemap.xml" or "/feed/rss" or "/llms.txt" => path.TrimStart('/'),
         _ => path.TrimStart('/') + ".html",
     };
 
@@ -155,19 +162,20 @@ public sealed class StaticSiteExporter
         return sb.ToString();
     }
 
-    private const string Headers = """
+    private static readonly string Headers = $$"""
         /*
-          X-Content-Type-Options: nosniff
-          X-Frame-Options: SAMEORIGIN
-          Referrer-Policy: strict-origin-when-cross-origin
-          Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
-          Strict-Transport-Security: max-age=31536000
+        {{string.Join("\n", SecurityHeaders.All.Select(h => $"  {h.Key}: {h.Value}"))}}
+          Strict-Transport-Security: max-age={{(int)SecurityHeaders.HstsMaxAge.TotalSeconds}}
 
         /feed/rss
           Content-Type: application/rss+xml; charset=utf-8
           Cache-Control: public, max-age=3600
 
         /sitemap.xml
+          Cache-Control: public, max-age=3600
+
+        /llms.txt
+          Content-Type: text/plain; charset=utf-8
           Cache-Control: public, max-age=3600
 
         /data/search-index.json
