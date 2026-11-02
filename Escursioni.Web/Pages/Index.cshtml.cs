@@ -61,8 +61,9 @@ public class IndexModel : PageModel
             .ToList();
         var all = await _repo.GetAllAsync(null, null);
         TotaleEscursioni = all.Count;
-        TotaleKm = all.Sum(h => h.DistanzaKm ?? 0);
-        TotaleDislivello = all.Sum(h => h.DislivelloM ?? 0);
+        // Km e dislivello contano anche le altre volte delle escursioni ripetute: sono strada fatta davvero
+        TotaleKm = all.Concat(_repo.Varianti).Sum(h => h.DistanzaKm ?? 0);
+        TotaleDislivello = all.Concat(_repo.Varianti).Sum(h => h.DislivelloM ?? 0);
         if (all.MaxBy(h => h.DistanzaKm ?? 0) is { DistanzaKm: decimal km } longest)
             Record.Add(("La più lunga", HikeDisplay.Decimal1(km) + " km", longest));
         if (all.MaxBy(h => h.DislivelloM ?? 0) is { DislivelloM: int gain } steepest)

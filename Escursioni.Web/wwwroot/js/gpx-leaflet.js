@@ -41,6 +41,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 attribution: '\u00a9 OpenStreetMap contributors'
             }).addTo(map);
 
+            // Altre volte in cui ho fatto l'escursione: sotto la principale, senza marker
+            var bounds = null;
+            function extend(b) {
+                if (!b || !b.isValid()) return;
+                bounds = bounds ? bounds.extend(b) : L.latLngBounds(b.getSouthWest(), b.getNorthEast());
+                map.fitBounds(bounds);
+            }
+            (window.gpxMapConfig.extraTracks || []).forEach(function(t) {
+                new L.GPX(t.url, {
+                    async: true,
+                    gpx_options: { parseElements: ['track', 'route'] },
+                    polyline_options: { color: t.color, weight: 3, opacity: 0.85 },
+                    marker_options: { startIconUrl: null, endIconUrl: null, shadowUrl: null }
+                }).on('loaded', function(e) {
+                    extend(e.target.getBounds());
+                }).addTo(map);
+            });
+
             new L.GPX(window.gpxMapConfig.gpxUrl, {
                 async: true,
                 polyline_options: { color: trackColor, weight: 4, opacity: 0.9 },
@@ -53,7 +71,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 }
             }).on('loaded', function(e) {
-                map.fitBounds(e.target.getBounds());
+                extend(e.target.getBounds());
+                e.target.bringToFront();
             }).on('error', function() {
                 map.remove();
                 showFallback('Traccia GPX non disponibile.');

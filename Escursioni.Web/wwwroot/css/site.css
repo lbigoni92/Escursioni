@@ -1639,6 +1639,85 @@ a.eyebrow:hover {
     margin: 0;
 }
 
+/* Le volte che ho fatto un'escursione (varianti) */
+.section-intro {
+    max-width: 75ch;
+    margin: 0 0 0.9rem;
+    color: var(--text-muted);
+}
+
+.table-scroll {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+}
+
+.times-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.times-table th,
+.times-table td {
+    padding: 0.55rem 0.8rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+.times-table th {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: var(--surface-2);
+}
+
+.times-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.times-table tr.is-current td {
+    background: var(--primary-soft);
+}
+
+.times-table td a + a {
+    margin-left: 0.6rem;
+}
+
+.track-swatch {
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-right: 0.45rem;
+    border-radius: 50%;
+    vertical-align: -0.05rem;
+}
+
+.times-label {
+    margin-left: 0.35rem;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+}
+
+/* Fonti di cenni storici e pagine luogo */
+.sources-title {
+    margin: 0.75rem 0 0.35rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.sources {
+    margin: 0;
+    padding-left: 1.2rem;
+    font-size: 0.85rem;
+}
+
+.sources li + li {
+    margin-top: 0.25rem;
+}
+
 /* Carosello foto */
 .detail-gallery {
     margin-bottom: 2rem;

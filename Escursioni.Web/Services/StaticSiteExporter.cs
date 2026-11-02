@@ -126,9 +126,14 @@ public sealed class StaticSiteExporter
         sb.AppendLine();
         if (_redirects.Map.Count > 0)
         {
-            sb.AppendLine("# Pagine tolte dal sito (Data/redirects.json)");
+            sb.AppendLine("# Pagine tolte dal sito (Data/redirects.json), varianti e slug scelti a mano");
             foreach (var (from, to) in _redirects.Map.OrderBy(r => r.Key))
                 sb.AppendLine($"{from} {to} 301");
+            sb.AppendLine();
+            // Prima della regola generica /escursioni/:id/:slug, che farebbe un secondo salto
+            sb.AppendLine("# Vecchi URL /escursioni/{id}/{slug} delle stesse pagine: direttamente all'URL finale");
+            foreach (var (from, to) in _redirects.Map.Where(r => r.Key.StartsWith("/escursioni/")).OrderBy(r => r.Key))
+                sb.AppendLine($"/escursioni/:id/{from["/escursioni/".Length..]} {to} 301");
             sb.AppendLine();
         }
         sb.AppendLine("# /escursioni/{slug-zona} → pagina della zona (come faceva Dettaglio)");

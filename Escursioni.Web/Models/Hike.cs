@@ -54,4 +54,37 @@ public class Hike
     public DateTime UpdatedAt { get; set; }
 
     public List<HikeMedia> Media { get; set; } = new();
+
+    /// <summary>Slug scelto a mano (campo "slug"): se presente vince su quello calcolato dal titolo.</summary>
+    [JsonPropertyName("slug")]
+    public string? SlugFisso { get; set; }
+
+    /// <summary>wikiloc_id delle altre volte in cui l'ho fatta: i loro JSON stanno in Data/hikes-varianti.</summary>
+    public List<long> Varianti { get; set; } = new();
+
+    /// <summary>Le altre volte caricate da Data/hikes-varianti, dalla più recente (assegnate da HikeRepository).</summary>
+    [JsonIgnore]
+    public List<Hike> AltreVolte { get; set; } = new();
+
+    /// <summary>Per una variante: l'escursione principale nella cui pagina è mostrata.</summary>
+    [JsonIgnore]
+    public Hike? Principale { get; set; }
+
+    /// <summary>HTML della sezione "Come arrivare e parcheggio" (paese, strada, parcheggio).</summary>
+    public string? ComeArrivare { get; set; }
+
+    /// <summary>1-2 fatti storici sul luogo, al massimo 100 parole, con le fonti in <see cref="Fonti"/>.</summary>
+    public string? CennoStorico { get; set; }
+
+    public List<Fonte> Fonti { get; set; } = new();
+
+    /// <summary>Descrizione riscritta a mano: il WikilocExporter non sovrascrive descrizione_html.</summary>
+    public bool DescrizioneRivista { get; set; }
+}
+
+/// <summary>Fonte citata da un cenno storico o da una pagina luogo.</summary>
+public class Fonte
+{
+    public string Titolo { get; set; } = string.Empty;
+    public string Url { get; set; } = string.Empty;
 }

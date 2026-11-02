@@ -17,8 +17,8 @@
   </ItemGroup>
 
 <ItemGroup>
-  <!-- Dati escursioni: un JSON per escursione, letti all'avvio -->
-  <Content Update="Data\hikes\*.json;Data\redirects.json">
+  <!-- Dati escursioni: un JSON per escursione (più varianti e schede dei luoghi), letti all'avvio -->
+  <Content Update="Data\hikes\*.json;Data\hikes-varianti\*.json;Data\luoghi-schede\*.json;Data\redirects.json">
     <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     <CopyToPublishDirectory>Always</CopyToPublishDirectory>
   </Content>

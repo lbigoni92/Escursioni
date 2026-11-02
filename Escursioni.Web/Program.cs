@@ -57,7 +57,7 @@ if (placeRepository.Unchecked > 0)
 builder.Services.AddSingleton(hikeRepository);
 builder.Services.AddSingleton<IHikeRepository>(hikeRepository);
 builder.Services.AddSingleton(placeRepository);
-var siteRedirects = SiteRedirects.Load(Path.Combine(builder.Environment.ContentRootPath, "Data", "redirects.json"));
+var siteRedirects = SiteRedirects.Load(Path.Combine(builder.Environment.ContentRootPath, "Data", "redirects.json"), hikeRepository.Redirects);
 builder.Services.AddSingleton(siteRedirects);
 builder.Services.AddScoped<SeoService>();
 builder.Services.AddSingleton<ImageVariantGenerator>();
@@ -101,7 +101,7 @@ app.Use(async (context, next) =>
 {
     var path = context.Request.Path.Value ?? "";
 
-    // Pagine tolte dal sito (Data/redirects.json)
+    // Pagine tolte dal sito (Data/redirects.json), varianti e slug scelti a mano
     if (siteRedirects.TryGetTarget(path, out var target))
     {
         context.Response.StatusCode = StatusCodes.Status301MovedPermanently;
@@ -114,7 +114,11 @@ app.Use(async (context, next) =>
     {
         var scheme = "https";
         var hostValue = context.Request.Host.Value ?? context.Request.Host.Host;
-        var absolute = $"{scheme}://{hostValue}{context.Request.PathBase}/escursioni/{match.Groups[1].Value}{context.Request.QueryString}";
+        // Se anche lo slug reindirizza (variante) si va subito all'URL finale, senza catena
+        var newPath = $"/escursioni/{match.Groups[1].Value}";
+        if (siteRedirects.TryGetTarget(newPath, out var finalPath))
+            newPath = finalPath;
+        var absolute = $"{scheme}://{hostValue}{context.Request.PathBase}{newPath}{context.Request.QueryString}";
         context.Response.StatusCode = StatusCodes.Status301MovedPermanently;
         context.Response.Headers.Location = absolute;
         return;

@@ -14,4 +14,6 @@ public interface IHikeRepository
     Task<List<Hike>> GetRelatedAsync(int hikeId, string? comune, string? provincia, decimal? lat, decimal? lon, int count = 4);
     Task<List<(string Tag, int Count)>> GetTagSummaryAsync();
     Task<List<Hike>> GetByTagAsync(string tag);
+    /// <summary>Altre volte delle escursioni ripetute (Data/hikes-varianti): contano nei totali ma non hanno pagina.</summary>
+    IReadOnlyList<Hike> Varianti { get; }
 }

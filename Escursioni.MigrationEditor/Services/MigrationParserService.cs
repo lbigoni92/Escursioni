@@ -139,6 +139,15 @@ public class MigrationParserService
         foreach (var col in HikeColumns)
             obj[col] = ToNode(col, mf.HikeValues.GetValueOrDefault(col));
 
+        // Campi che l'editor non gestisce (varianti, slug, come_arrivare, cenno_storico, fonti, ...):
+        // restano come sono nel file
+        if (!string.IsNullOrWhiteSpace(mf.RawJson) && JsonNode.Parse(mf.RawJson) is JsonObject original)
+        {
+            foreach (var (key, value) in original)
+                if (key != "media" && !obj.ContainsKey(key))
+                    obj[key] = value?.DeepClone();
+        }
+
         var media = new JsonArray();
         foreach (var row in mf.MediaRows)
         {

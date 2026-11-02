@@ -18,10 +18,16 @@ public class HikeRepository : IHikeRepository
     };
 
     private readonly List<Hike> _hikes;
+    private readonly List<Hike> _varianti;
     private readonly Dictionary<string, Hike> _bySlug;
+    // Slug già assegnati, varianti comprese: un titolo duplicato prende lo stesso slug di prima
+    private readonly HashSet<string> _usedSlugs = new(StringComparer.Ordinal);
+    private readonly Dictionary<string, string> _redirects = new(StringComparer.OrdinalIgnoreCase);
 
-    public HikeRepository(IEnumerable<Hike> hikes)
+    /// <param name="varianti">Escursioni di Data/hikes-varianti, mostrate nella pagina della principale.</param>
+    public HikeRepository(IEnumerable<Hike> hikes, IEnumerable<Hike>? varianti = null)
     {
+        var variantList = (varianti ?? []).ToList();
         // Id progressivo stabile: ordine di inserimento (created_at), poi wikiloc_id
         _hikes = hikes
             .OrderBy(h => h.CreatedAt)
@@ -30,13 +36,54 @@ public class HikeRepository : IHikeRepository
         for (var i = 0; i < _hikes.Count; i++)
             _hikes[i].Id = i + 1;
 
+        // Gli slug si calcolano su principali e varianti insieme, nello stesso ordine di quando
+        // erano tutte in Data/hikes: così gli URL già pubblicati non cambiano
         _bySlug = new Dictionary<string, Hike>(StringComparer.Ordinal);
-        foreach (var h in _hikes)
+        var principali = _hikes.ToHashSet();
+        foreach (var h in _hikes.Concat(variantList).OrderBy(h => h.CreatedAt).ThenBy(h => h.WikilocId))
         {
-            h.Slug = UniqueSlug(h);
+            var slug = UniqueSlug(h);
+            _usedSlugs.Add(slug);
+            h.Slug = slug;
+            if (!principali.Contains(h))
+                continue;
+            if (!string.IsNullOrWhiteSpace(h.SlugFisso) && h.SlugFisso != slug)
+            {
+                h.Slug = h.SlugFisso;
+                _usedSlugs.Add(h.Slug);
+                _redirects[$"/escursioni/{slug}"] = $"/escursioni/{h.Slug}";
+            }
             _bySlug[h.Slug] = h;
         }
+
+        var variantById = variantList.ToDictionary(v => v.WikilocId);
+        foreach (var h in _hikes.Where(h => h.Varianti.Count > 0))
+        {
+            foreach (var id in h.Varianti)
+            {
+                if (!variantById.TryGetValue(id, out var v))
+                    throw new InvalidDataException($"{h.WikilocId}.json: la variante {id} non è in Data/hikes-varianti");
+                if (v.Principale != null)
+                    throw new InvalidDataException($"La variante {id} è citata sia da {v.Principale.WikilocId} sia da {h.WikilocId}");
+                v.Principale = h;
+                h.AltreVolte.Add(v);
+            }
+            h.AltreVolte = h.AltreVolte.OrderByDescending(SortDate).ThenByDescending(v => v.WikilocId).ToList();
+        }
+        _varianti = variantList.Where(v => v.Principale != null).ToList();
+        foreach (var v in _varianti)
+            _redirects[$"/escursioni/{v.Slug}"] = $"/escursioni/{v.Principale!.Slug}";
+        VariantiOrfane = variantList.Where(v => v.Principale == null).Select(v => v.WikilocId).ToList();
     }
+
+    /// <summary>Varianti agganciate a una principale (non hanno una pagina propria).</summary>
+    public IReadOnlyList<Hike> Varianti => _varianti;
+
+    /// <summary>wikiloc_id dei file in Data/hikes-varianti che nessuna principale cita.</summary>
+    public IReadOnlyList<long> VariantiOrfane { get; }
+
+    /// <summary>301 generati dai dati: vecchi URL delle varianti e slug calcolati sostituiti da "slug".</summary>
+    public IReadOnlyDictionary<string, string> Redirects => _redirects;
 
     private static readonly string[] Mesi =
         ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"];
@@ -49,12 +96,12 @@ public class HikeRepository : IHikeRepository
     private string UniqueSlug(Hike h)
     {
         var slug = Pages.Escursioni.IndexModel.MakeSlug(h.Titolo);
-        if (!_bySlug.ContainsKey(slug))
+        if (!_usedSlugs.Contains(slug))
             return slug;
         if (h.DataEscursione is DateTime d)
         {
             var withDate = $"{slug}-{Mesi[d.Month - 1]}-{d.Year}";
-            if (!_bySlug.ContainsKey(withDate))
+            if (!_usedSlugs.Contains(withDate))
                 return withDate;
         }
         return $"{slug}-{h.WikilocId}";
@@ -62,11 +109,21 @@ public class HikeRepository : IHikeRepository
 
     public IReadOnlyList<Hike> All => _hikes;
 
+    /// <summary>
+    /// Legge Data/hikes e, se c'è, la cartella accanto hikes-varianti (escursioni ripetute,
+    /// mostrate nella pagina della principale che le elenca in "varianti").
+    /// </summary>
     public static HikeRepository LoadFromDirectory(string directory)
     {
         if (!Directory.Exists(directory))
             throw new DirectoryNotFoundException($"Cartella dati escursioni non trovata: {directory}");
 
+        var variantiDir = Path.Combine(directory, "..", "hikes-varianti");
+        return new HikeRepository(ReadAll(directory), Directory.Exists(variantiDir) ? ReadAll(variantiDir) : []);
+    }
+
+    private static List<Hike> ReadAll(string directory)
+    {
         var hikes = new List<Hike>();
         foreach (var file in Directory.EnumerateFiles(directory, "*.json"))
         {
@@ -82,10 +139,10 @@ public class HikeRepository : IHikeRepository
                 throw new InvalidDataException($"JSON non valido in {Path.GetFileName(file)}: {ex.Message}", ex);
             }
         }
-        return new HikeRepository(hikes);
+        return hikes;
     }
 
-    private static DateTime SortDate(Hike h)
+    public static DateTime SortDate(Hike h)
         => h.DataEscursione ?? h.DataPubblicazione ?? h.DataCaricato ?? h.CreatedAt;
 
     public Task<IReadOnlyList<string>> GetDistinctDifficoltaAsync()

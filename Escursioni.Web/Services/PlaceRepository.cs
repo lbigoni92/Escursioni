@@ -14,7 +14,9 @@ public class PlaceRepository
 
     public PlaceRepository(PlaceFile file, HikeRepository hikes)
     {
-        var byWikilocId = hikes.All.ToDictionary(h => h.WikilocId.ToString());
+        // Le tracce delle varianti contano per la pagina della loro escursione principale
+        var byWikilocId = hikes.All.Concat(hikes.Varianti)
+            .ToDictionary(h => h.WikilocId.ToString(), h => h.Principale ?? h);
         var places = file.Luoghi
             .Where(p => PlaceType.All.Any(t => t.Tipo == p.Tipo))
             .ToDictionary(p => p.Osm);
@@ -24,9 +26,9 @@ public class PlaceRepository
             // Escursioni tolte dal sito dopo l'ultimo --luoghi: si ignorano
             if (!byWikilocId.TryGetValue(wikilocId, out var hike))
                 continue;
-            Checked.Add(hike.WikilocId);
+            Checked.Add(long.Parse(wikilocId));
             foreach (var id in osmIds)
-                if (places.TryGetValue(id, out var place))
+                if (places.TryGetValue(id, out var place) && !place.Hikes.Contains(hike))
                     place.Hikes.Add(hike);
         }
 

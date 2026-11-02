@@ -8,10 +8,16 @@
     var location = HikeDisplay.Location(h);
     var zoneSlug = Model.Zone != null ? TagHelper.ToSlug(Model.Zone) : null;
     var gpxUrl = Url.Content($"~/media/gpx/{h.WikilocId}.gpx");
+    // Le foto delle altre volte vengono dopo quelle di questa
     var galleryMedia = h.Media
         .OrderBy(m => m.Tipo == "cover" ? 0 : 1)
         .ThenBy(m => m.Ordine)
+        .Concat(Model.Volte.Where(v => v.Hike != h).SelectMany(v => v.Hike.Media.OrderBy(m => m.Ordine)))
         .ToList();
+    var partenza = Model.Partenza is { } start0
+        ? (Coords: $"{start0.Lat.ToString(System.Globalization.CultureInfo.InvariantCulture)}, {start0.Lon.ToString(System.Globalization.CultureInfo.InvariantCulture)}",
+           MapsUrl: $"https://www.google.com/maps?q={start0.Lat.ToString(System.Globalization.CultureInfo.InvariantCulture)},{start0.Lon.ToString(System.Globalization.CultureInfo.InvariantCulture)}")
+        : default((string Coords, string MapsUrl)?);
 }
 
 @section Head {
@@ -125,6 +131,93 @@
                 </div>
             </section>
 
+            @if (Model.Volte.Count > 0)
+            {
+                <section class="section" aria-labelledby="volte">
+                    <h2 id="volte">Le volte che l'ho fatta</h2>
+                    <p class="section-intro">Ho percorso questa escursione @Model.Volte.Count volte, con qualche variante: tutte le tracce sono sulla mappa qui sotto.</p>
+                    <div class="table-scroll">
+                        <table class="times-table">
+                            <thead>
+                                <tr><th scope="col">Data</th><th scope="col">Distanza</th><th scope="col">Dislivello</th><th scope="col">Percorso</th><th scope="col">Tempo</th><th scope="col">Traccia</th></tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var v in Model.Volte)
+                                {
+                                    <tr class="@(v.Hike == h ? "is-current" : null)">
+                                        <td>
+                                            @if (v.Colore != null)
+                                            {
+                                                <span class="track-swatch" style="background:@v.Colore" aria-hidden="true"></span>
+                                            }
+                                            @if (v.Hike.DataEscursione is DateTime d)
+                                            {
+                                                <time datetime="@d.ToString("yyyy-MM-dd")">@d.ToString("MMMM yyyy", System.Globalization.CultureInfo.GetCultureInfo("it-IT"))</time>
+                                            }
+                                            @if (v.Etichetta != null)
+                                            {
+                                                <span class="times-label">@v.Etichetta</span>
+                                            }
+                                        </td>
+                                        <td>@(v.Hike.DistanzaKm is decimal km ? HikeDisplay.Decimal1(km) + " km" : "-")</td>
+                                        <td>@(v.Hike.DislivelloM is int gain ? "+" + HikeDisplay.Meters(gain) : "-")</td>
+                                        <td>@(v.Hike.TipoGiro ?? "-")</td>
+                                        <td>@(v.Hike.TempoHHMM ?? "-")</td>
+                                        <td>
+                                            @if (v.GpxUrl != null)
+                                            {
+                                                <a href="@v.GpxUrl" download title="Scarica la traccia GPX del @(v.Hike.DataEscursione?.ToString("dd/MM/yyyy"))">GPX</a>
+                                            }
+                                            <a href="@v.Hike.Url" target="_blank" rel="noopener" title="Apri questa traccia su Wikiloc">Wikiloc ↗</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            }
+
+            <section class="section" aria-labelledby="come-arrivare">
+                <h2 id="come-arrivare">Come arrivare e parcheggio</h2>
+                @if (!string.IsNullOrWhiteSpace(h.ComeArrivare))
+                {
+                    <div class="prose">@Html.Raw(h.ComeArrivare)</div>
+                }
+                @if (partenza is { } start)
+                {
+                    <div id="leaflet-parking-map" class="map-box map-box--small"></div>
+                    <p class="panel-note">Punto di partenza (primo punto della traccia GPX): <strong>@start.Coords</strong></p>
+                    <p class="panel-note">
+                        <a id="parking-google-maps-link" class="btn-secondary" href="@start.MapsUrl" target="_blank" rel="noopener" title="Apri il punto di partenza su Google Maps">Apri su Google Maps</a>
+                    </p>
+                }
+                else
+                {
+                    <p class="panel-note">Coordinate del punto di partenza non disponibili.</p>
+                }
+            </section>
+
+            @if (!string.IsNullOrWhiteSpace(h.CennoStorico))
+            {
+                <section class="section" aria-labelledby="cenno-storico">
+                    <h2 id="cenno-storico">Cenno storico</h2>
+                    <div class="prose">
+                        <p>@h.CennoStorico</p>
+                    </div>
+                    @if (h.Fonti.Count > 0)
+                    {
+                        <p class="sources-title">Fonti</p>
+                        <ul class="sources">
+                            @foreach (var f in h.Fonti)
+                            {
+                                <li><a href="@f.Url" target="_blank" rel="noopener">@f.Titolo</a></li>
+                            }
+                        </ul>
+                    }
+                </section>
+            }
+
             <section class="section" aria-labelledby="traccia">
                 <h2 id="traccia">Traccia GPS sulla mappa</h2>
                 @if (Model.GpxValid)
@@ -211,22 +304,6 @@
                 </section>
             }
 
-            <section class="panel" aria-labelledby="parcheggio">
-                <h2 id="parcheggio">Parcheggio e partenza</h2>
-                @if (Model.GpxValid)
-                {
-                    <div id="leaflet-parking-map" class="map-box map-box--small"></div>
-                    <p class="panel-note">La posizione è il primo punto della traccia GPX.</p>
-                    <p class="panel-note">
-                        <a id="parking-google-maps-link" class="btn-secondary" href="#" target="_blank" rel="noopener" style="display:none;" title="Apri il punto di partenza su Google Maps">Apri su Google Maps</a>
-                    </p>
-                }
-                else
-                {
-                    <p class="panel-note">Coordinate non disponibili.</p>
-                }
-            </section>
-
             @if (Model.Zone != null)
             {
                 <section class="panel" aria-labelledby="zona-escursione">
@@ -286,7 +363,13 @@
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js" integrity="sha512-BsUtn1Ar2O78Q8YkY1f2pkioHOs8H43KUlP3PHus8lyAMODNq1CmemnU435dFk/SU37OGG+ooxvmEhAcNTEBFQ==" crossorigin="anonymous"></script>
         <script>
-            window.gpxMapConfig = { gpxUrl: '@gpxUrl', elementId: 'leaflet-gpx-map' };
+            window.gpxMapConfig = {
+                gpxUrl: '@gpxUrl', elementId: 'leaflet-gpx-map',
+                // Altre volte in cui ho fatto l'escursione: tracce colorate sotto quella principale
+                extraTracks: [@Html.Raw(string.Join(", ", Model.Volte
+                    .Where(v => v.Hike != h && v.GpxUrl != null)
+                    .Select(v => $"{{ url: '{v.GpxUrl}', color: '{v.Colore}' }}")))]
+            };
             window.parkingMapConfig = { gpxUrl: '@gpxUrl', elementId: 'leaflet-parking-map', linkElementId: 'parking-google-maps-link' };
         </script>
         <script src="~/js/gpx-leaflet.js" asp-append-version="true" defer></script>

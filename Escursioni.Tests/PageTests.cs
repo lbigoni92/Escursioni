@@ -97,6 +97,9 @@ public class PageTests(SiteFactory site)
             Assert.Equal(hike.TitoloSeo ?? hike.Titolo, Attr(html, @"<h1[^>]*>\s*([^<]+?)\s*</h1>"));
             Assert.StartsWith(BaseUrl + "/", Attr(html, @"<meta property=""og:image"" content=""([^""]+)""") ?? "");
             Assert.Contains($"/media/gpx/{hike.WikilocId}.gpx", html);
+            // Punto di partenza già nell'HTML, non riempito dal JavaScript
+            Assert.Contains("Come arrivare e parcheggio", html);
+            Assert.Matches(@"id=""parking-google-maps-link""[^>]*href=""https://www\.google\.com/maps\?q=-?\d+\.\d+,-?\d+\.\d+""", html);
 
             var description = Attr(html, @"<meta name=""description"" content=""([^""]+)""") ?? "";
             Assert.InRange(description.Length, 50, 160);
@@ -114,7 +117,8 @@ public class PageTests(SiteFactory site)
     [Fact]
     public async Task HikeWithPhotos_HasCarouselWithWebpSources()
     {
-        var hike = site.Repository.All.First(h => h.Media.Count > 3);
+        // Senza varianti: le loro foto si aggiungono alla galleria
+        var hike = site.Repository.All.First(h => h.Media.Count > 3 && h.AltreVolte.Count == 0);
         var html = await GetHtml("/escursioni/" + hike.Slug);
 
         Assert.Equal(hike.Media.Count, Regex.Matches(html, "data-carousel-slide").Count);
@@ -193,7 +197,8 @@ public class PageTests(SiteFactory site)
         var all = site.Repository.All;
 
         // I record personali sono nascosti per ora (commentati in Index.cshtml): qui solo totali e luoghi
-        var gain = HikeDisplay.Number(all.Sum(h => h.DislivelloM ?? 0));
+        // Il dislivello conta anche le altre volte delle escursioni ripetute
+        var gain = HikeDisplay.Number(all.Concat(site.Repository.Varianti).Sum(h => h.DislivelloM ?? 0));
         Assert.Contains($"<strong>{gain}</strong> m di dislivello", html);
 
         var places = site.Services.GetRequiredService<PlaceRepository>();

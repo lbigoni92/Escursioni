@@ -46,7 +46,7 @@ public static class PlaceFinder
 
         var errors = 0;
         var todo = new List<(Hike Hike, List<TrackPoint> Track)>();
-        foreach (var hike in repo.All.Where(h => !file.Escursioni.ContainsKey(h.WikilocId.ToString())))
+        foreach (var hike in repo.All.Concat(repo.Varianti).Where(h => !file.Escursioni.ContainsKey(h.WikilocId.ToString())))
         {
             var track = ReadTrack(Path.Combine(contentRoot, "wwwroot", "media", "gpx", $"{hike.WikilocId}.gpx"));
             if (track.Count < 2)
@@ -146,7 +146,7 @@ public static class PlaceFinder
     private static void Save(string path, PlaceFile file, Dictionary<string, Place> places, HikeRepository repo)
     {
         // Solo escursioni ancora presenti e luoghi ancora toccati da almeno una traccia
-        var ids = repo.All.Select(h => h.WikilocId.ToString()).ToHashSet();
+        var ids = repo.All.Concat(repo.Varianti).Select(h => h.WikilocId.ToString()).ToHashSet();
         file.Escursioni = file.Escursioni
             .Where(e => ids.Contains(e.Key))
             .OrderBy(e => e.Key, StringComparer.Ordinal)

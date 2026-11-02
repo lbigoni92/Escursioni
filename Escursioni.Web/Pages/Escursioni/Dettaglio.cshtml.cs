@@ -32,6 +32,18 @@ public class DettaglioModel : PageModel
     public Hike? Precedente { get; set; }
     public Hike? Successiva { get; set; }
 
+    /// <summary>Una delle volte in cui ho fatto l'escursione: la traccia ha un colore sulla mappa (null se il GPX manca).</summary>
+    public record Volta(Hike Hike, string? Etichetta, string? GpxUrl, string? Colore);
+
+    /// <summary>Tutte le volte (questa compresa), dalla più recente. Vuota se l'escursione non ha varianti.</summary>
+    public List<Volta> Volte { get; set; } = new();
+
+    /// <summary>Punto di partenza: primo waypoint del GPX, altrimenti primo punto della traccia.</summary>
+    public (decimal Lat, decimal Lon)? Partenza { get; set; }
+
+    // La principale usa --primary del tema; le altre volte questi colori, leggibili su entrambi i temi
+    private static readonly string[] ColoriVarianti = ["#e07a2f", "#8b7cf6", "#2f8fd8", "#d65a9a", "#b59a1e"];
+
     public async Task<IActionResult> OnGetAsync(string slug)
     {
         Hike = await _repo.GetBySlugAsync(slug);
@@ -49,8 +61,24 @@ public class DettaglioModel : PageModel
 
         if (Hike.WikilocId > 0)
         {
-            var gpxPath = Path.Combine(_env.WebRootPath, "media", "gpx", $"{Hike.WikilocId}.gpx");
-            GpxValid = System.IO.File.Exists(gpxPath) && IsValidGpx(gpxPath);
+            GpxValid = GpxExists(Hike);
+            if (GpxValid)
+                Partenza = ReadStart(GpxPath(Hike));
+        }
+
+        if (Hike.AltreVolte.Count > 0)
+        {
+            var colore = 0;
+            Volte = Hike.AltreVolte.Append(Hike)
+                .OrderByDescending(HikeRepository.SortDate)
+                .ThenBy(v => Etichetta(v) == "ritorno" ? 1 : 0)
+                .Select(v =>
+                {
+                    var gpx = GpxExists(v) ? Url.Content($"~/media/gpx/{v.WikilocId}.gpx") : null;
+                    var color = gpx == null ? null : v == Hike ? "var(--primary)" : ColoriVarianti[colore++ % ColoriVarianti.Length];
+                    return new Volta(v, Etichetta(v), gpx, color);
+                })
+                .ToList();
         }
 
         RelatedHikes = await _repo.GetRelatedAsync(Hike.Id, Hike.Comune, Hike.Provincia, Hike.CentroidLat, Hike.CentroidLon);
@@ -70,6 +98,35 @@ public class DettaglioModel : PageModel
         }
 
         return Page();
+    }
+
+    /// <summary>"andata" o "ritorno" quando il titolo Wikiloc lo dice (escursioni registrate in due tracce).</summary>
+    private static string? Etichetta(Hike h)
+        => h.Titolo.Contains("andata", StringComparison.OrdinalIgnoreCase) ? "andata"
+         : h.Titolo.Contains("ritorno", StringComparison.OrdinalIgnoreCase) ? "ritorno"
+         : null;
+
+    private string GpxPath(Hike h) => Path.Combine(_env.WebRootPath, "media", "gpx", $"{h.WikilocId}.gpx");
+
+    private bool GpxExists(Hike h) => h.WikilocId > 0 && System.IO.File.Exists(GpxPath(h)) && IsValidGpx(GpxPath(h));
+
+    /// <summary>Come parking-leaflet.js: primo waypoint (di solito "Parcheggio"), altrimenti primo punto della traccia.</summary>
+    private static (decimal Lat, decimal Lon)? ReadStart(string path)
+    {
+        try
+        {
+            var doc = System.Xml.Linq.XDocument.Load(path);
+            var point = doc.Descendants().FirstOrDefault(e => e.Name.LocalName == "wpt")
+                ?? doc.Descendants().FirstOrDefault(e => e.Name.LocalName is "trkpt" or "rtept");
+            if (point != null
+                && decimal.TryParse((string?)point.Attribute("lat"), System.Globalization.CultureInfo.InvariantCulture, out var lat)
+                && decimal.TryParse((string?)point.Attribute("lon"), System.Globalization.CultureInfo.InvariantCulture, out var lon))
+                return (Math.Round(lat, 6), Math.Round(lon, 6));
+        }
+        catch (System.Xml.XmlException)
+        {
+        }
+        return null;
     }
 
     private static bool IsValidGpx(string path)

@@ -141,6 +141,51 @@ public class DataIntegrityTests
             .Where(name => !ids.Contains(name))
             .Select(name => $"{name}.json: il nome non corrisponde a nessun wikiloc_id")
             .ToList();
+        var variantIds = Repo.Varianti.Select(h => h.WikilocId.ToString()).ToHashSet();
+        var variantiDir = Path.Combine(WebDir, "Data", "hikes-varianti");
+        if (Directory.Exists(variantiDir))
+            failures.AddRange(Directory.GetFiles(variantiDir, "*.json")
+                .Select(f => Path.GetFileNameWithoutExtension(f))
+                .Where(name => !variantIds.Contains(name))
+                .Select(name => $"hikes-varianti/{name}.json: nessuna escursione la elenca in \"varianti\" o il nome non è il wikiloc_id"));
+        AssertNoFailures(failures);
+    }
+
+    /// <summary>Cenno storico breve e verificabile: almeno una fonte https, al massimo 100 parole.</summary>
+    [Fact]
+    public void HistoricalNotes_AreShort_AndHaveSources()
+    {
+        var failures = new List<string>();
+        foreach (var h in Repo.All)
+        {
+            if (h.Fonti.Any(f => string.IsNullOrWhiteSpace(f.Titolo) || !f.Url.StartsWith("https://")))
+                failures.Add($"{h.WikilocId}: fonte senza titolo o non https");
+            if (string.IsNullOrWhiteSpace(h.CennoStorico))
+                continue;
+            if (h.Fonti.Count == 0)
+                failures.Add($"{h.WikilocId}: cenno storico senza fonti");
+            var words = h.CennoStorico.Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries).Length;
+            if (words > 100)
+                failures.Add($"{h.WikilocId}: cenno storico di {words} parole (max 100)");
+        }
+        AssertNoFailures(failures);
+    }
+
+    /// <summary>Le schede riscritte a mano non usano più le intestazioni uguali per tutte.</summary>
+    [Fact]
+    public void RevisedDescriptions_DoNotUseStandardHeadings()
+    {
+        string[] standard =
+        [
+            "Come arrivare al punto di partenza", "Il percorso passo per passo",
+            "Difficoltà e cosa aspettarsi", "Traccia GPS e informazioni pratiche",
+        ];
+        var failures = Repo.All
+            .Where(h => h.DescrizioneRivista)
+            .SelectMany(h => standard
+                .Where(s => (h.DescrizioneHtml ?? "").Contains(s, StringComparison.OrdinalIgnoreCase))
+                .Select(s => $"{h.WikilocId}: descrizione rivista con l'intestazione standard \"{s}\""))
+            .ToList();
         AssertNoFailures(failures);
     }
 }
