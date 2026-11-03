@@ -37,7 +37,7 @@
 
 - [x] 5.1 Blocco 1, pagine con impressioni (7 schede)
 - [x] 5.2 Blocco 2: le altre 4 pagine principali dei gruppi di varianti
-- [ ] 5.3 Blocchi successivi: circa 20 schede per zona, partendo dalle zone con più impressioni. **Fatto il blocco 3 (20 schede Alpi Apuane: Corchia, Pania, Tambura, Pisanino, Altissimo, Forato, Procinto, Matanna)**; **fatto il blocco 4 (20 schede invernali: ciaspolate in Appennino e classici bassi di Livorno, Lucchesia, Monti Pisani, Costa degli Etruschi, Sammezzano)**; restano circa 213 schede
+- [ ] 5.3 Blocchi successivi: circa 20 schede per zona, partendo dalle zone con più impressioni. **Fatto il blocco 3 (20 schede Alpi Apuane: Corchia, Pania, Tambura, Pisanino, Altissimo, Forato, Procinto, Matanna)**; **fatto il blocco 4 (20 schede invernali: ciaspolate in Appennino e classici bassi di Livorno, Lucchesia, Monti Pisani, Costa degli Etruschi, Sammezzano)**; **fatto il blocco 5 (20 schede invernali: costa livornese, Monti Pisani, Lucchesia, Val di Cecina, Firenze)**; restano circa 193 schede
 - [x] 5.4 Regole per ogni scheda applicate ai blocchi 1 e 2 (Buti senza cenno: nessuna fonte verificabile)
 
 ## 6. Pagine luogo

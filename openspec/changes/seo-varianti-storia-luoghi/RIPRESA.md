@@ -8,7 +8,7 @@ Stato al 3 novembre 2026, sera. Ultimo commit su `dev`: vedi `git log`. Il lavor
   - varianti con 301 e correzione del WikilocExporter;
   - sezioni "Come arrivare" e "Cenno storico";
   - pagina del Rifugio del Freo;
-  - testi riscritti per 51 schede (blocchi 1-4);
+  - testi riscritti per 71 schede (blocchi 1-5);
   - README;
   - introduzione di `/escursioni` generata dai dati;
   - nuovi campi modificabili dal MigrationEditor.
@@ -59,8 +59,15 @@ dotnet test Escursioni.Tests
      - Livorno: Terrazza Mascagni 92602331, Quattro Mori 92547592, Castellaccio 87372464, Sentiero del Pellegrino 87478911, Infernaccio 123884538 (senza cenno: nessuna fonte storica).
      - Costa degli Etruschi: Populonia 122247783 e 91657229, Castagneto 125727727, San Silvestro 190572766.
      - Entroterra: Sasso Pisano 124574099, San Vivaldo 197643085, Sammezzano 247357749.
-   - Totale: 51 schede riviste, 47 con cenno storico, nessun cenno duplicato.
-   - Restano circa 213 schede (38 Apuane più le altre zone), sempre a blocchi di circa 20. Regole: fatti solo con fonte, campo vuoto se non si trova niente, H3 specifiche, `descrizione_rivista: true`, un cenno diverso per ogni scheda.
+   - Fatto il blocco 5: altre 20 schede invernali.
+     - Costa livornese: Ardenza 92778135, Tombolo 160859471, Tomboli di Cecina 157143664, Punta Falcone 91571972, Sambuca 121406300, Collesalvetti 161846411.
+     - Monti Pisani: Passo di Dante 252374519, Spelonca 94515950, Mirteto 126197856, Faeta da Vorno 90605819, Monte Serra e Vega 10 158070505.
+     - Lucchesia e Vecchiano: Santa Maria in Castello 156445141, Legnaio in notturna 87617243, Pizzorne 93932142.
+     - Val di Cecina e colline: Grotta dei Banditi 95854305, Pozzo della Campana 199207459, Strolla 200144675, Pietracassia 161387879, Parco Caselli 123535150.
+     - Firenze 95117629.
+   - Senza cenno storico, perché non ho trovato fonti: Collesalvetti, Faeta da Vorno, Legnaio in notturna, Grotta dei Banditi, Pozzo della Campana.
+   - Totale: 71 schede riviste, 62 con cenno storico, nessun cenno duplicato.
+   - Restano circa 193 schede (38 Apuane più le altre zone), sempre a blocchi di circa 20. Regole: fatti solo con fonte, campo vuoto se non si trova niente, H3 specifiche, `descrizione_rivista: true`, un cenno diverso per ogni scheda.
 3. **7.8 – UiTests**: erano già fuori sincrono prima di questo lavoro.
    - Baseline mobile a 450 px contro un viewport di 390.
    - Il test "dettaglio senza foto" usa uno slug non più presente nei dati di prova.
