@@ -5,7 +5,7 @@
   "meta_descrizione": "Ciaspolata ad anello da Fontana Vaccaia (Le Regie) al Lago Nero e alla Casetta dei Pastori, sopra Abetone: circa 12-13 km e 600-700 m di dislivello reali.",
   "tag": "Appennino Tosco-Emiliano",
   "descrizione": "Percorso ad anello con partenza da \"Le Regie\" e direzione \"Lago Nero\". Prima Ciaspolata ce sono andato a praticare premetto che la lunghezza e dislivello riportati, sono Errati, il percorso è lungo 12/13km con un dislivello di 600-700 mt. Il percorso con le ciaspole non c'ha mai presentato problemi se non qualche vescica dovuta a quest'ultime, il primo tratto è sempre in salita che si presenta sempre dolce tranne in un paio di tratti, Arrivati al Lago nero abbiamo pranzato e fatto foto, li abbiamo potuto mangiare anche del buonissimo pane e formaggio con vino e grappa più il nostro cibo. Punti d'interesse: - Casetta dei pastori (8.4 km) - Lago Nero (11.8 km) L fontanelle erano tutte congelate tranne un paio nel tratto iniziale.",
-  "descrizione_html": "<h2 id=\"casetta-dei-pastori-e-lago-nero-da-fontana-vaccaia\">Casetta dei pastori e Lago Nero da Fontana Vaccaia</h2>\r\n\r\n<h3 id=\"come-arrivare-al-punto-di-partenza\">Come arrivare al punto di partenza</h3>\r\n<p>Il punto di partenza di questa splendida escursione è a \"Le Regie\", facilmente raggiungibile in auto. Da lì, si inizia un anello che vi condurrà alla scoperta del Lago Nero e della Casetta dei pastori.  È un'escursione ben colta, ideale per chi ama i panorami mozzafiato e le sfide moderate.</p>\r\n\r\n<h3 id=\"il-percorso-passo-per-passo\">Il percorso passo per passo</h3>\r\n<p>L'escursione inizia da \"Le Regie\" con una salita dolce che vi porterà alla prima Ciaspolata. Il percorso è lungo circa 12/13 km con un dislivello di 600-700 metri, quindi un trekking impegnativo ma fattibile. Dopo la Ciaspolata, il sentiero si snoda attraverso il paesaggio, raggiungendo il suggestivo Lago Nero. Lungo il percorso avrete la possibilità di ammirare la Casetta dei pastori, un punto di sosta ideale per ammirare il panorama. Il tratto finale è un piacevole ritorno verso il punto di partenza.</p>\r\n\r\n<h3 id=\"difficoltà-e-cosa-aspettarsi\">Difficoltà e cosa aspettarsi</h3>\r\n<p>Questa escursione presenta una difficoltà di <strong>Media</strong>. È consigliabile indossare scarpe da trekking adatte e portare con sé acqua, cibo e abbigliamento adeguato alle condizioni meteorologiche. Le ciaspole potrebbero essere utili per affrontare alcuni tratti più scivolosi, ma non sono indispensabili.</p>\r\n\r\n<h3 id=\"traccia-gps-e-informazioni-pratiche\">Traccia GPS e informazioni pratiche</h3>\r\n<p>Potete scaricare la <strong>traccia GPS</strong> di questo percorso con il pulsante «Scarica traccia GPX» per seguirla durante l'escursione. Ricordatevi di controllare sempre le previsioni del tempo prima di partire.</p>\r\n\r\n<h3 id=\"informazioni-utili\">Informazioni Utili</h3>\r\n<ul>\r\n    <li><strong>Distanza:</strong> Circa 12.5 km (anello)</li>\r\n    <li><strong>Dislivello:</strong> Circa 650 metri</li>\r\n    <li><strong>Difficoltà:</strong> Media</li>\r\n    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>\r\n    <li><strong>Punto di partenza:</strong> Le Regie (accessibile in auto)</li>\r\n    <li><strong>Comune:</strong> Fontana Vaccaia, Toscana, Italia</li>\r\n    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>\r\n    <li><strong>Parco Nazionale:</strong> Non applicabile</li>\r\n</ul>",
+  "descrizione_html": "<p>Un anello con le ciaspole da «Le Regie», sopra l'Abetone, alla Casetta dei Pastori e al <strong>Lago Nero</strong>. È stata la mia prima ciaspolata. Attenzione ai dati: lunghezza e dislivello registrati sono sbagliati, il giro reale è di 12-13 km con 600-700 metri di dislivello.</p>\n<h3>La salita</h3>\n<p>Il primo tratto è sempre in salita, quasi sempre dolce tranne un paio di punti. Con le ciaspole non abbiamo avuto problemi, a parte qualche vescica.</p>\n<h3>La Casetta dei Pastori e il Lago Nero</h3>\n<p>Si passa dalla Casetta dei Pastori (km 8,4) e si arriva al Lago Nero (km 11,8), dove abbiamo pranzato e fatto foto. Lì abbiamo trovato anche ottimo pane e formaggio, con vino e grappa, oltre al nostro pranzo.</p>\n<h3>Acqua</h3>\n<p>Le fontanelle erano tutte ghiacciate, tranne un paio nel primo tratto: porta l'acqua che ti serve.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 12.5,
   "dislivello_m": 650,
@@ -34,6 +34,19 @@
   "sha256_payload": "6e3cabed83825fc5880b74c795528cb7ba0638140ed73dd985638ccd830a5f62",
   "created_at": "2025-11-12T00:00:00",
   "updated_at": "2026-05-01T15:58:15",
+  "come_arrivare": "<p>Si parte dalla località <strong>Le Regie</strong>, sopra l'Abetone (Abetone Cutigliano, PT), nel punto indicato dalle coordinate qui sotto.</p>",
+  "cenno_storico": "Il Lago Nero, a circa 1.730 metri nel comune di Abetone Cutigliano, è un piccolo lago di circa 8 ettari che risale all'era glaciale. Il nome viene dal colore scuro delle sue acque.",
+  "fonti": [
+    {
+      "titolo": "Lago Nero (Pistoia) – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lago_Nero_(Pistoia)"
+    },
+    {
+      "titolo": "Escursione al Lago Nero – Visit Pistoia",
+      "url": "https://www.visitpistoia.eu/en/offerte/hike-to-lago-nero-in-the-tuscan-emilian-apennines/"
+    }
+  ],
+  "descrizione_rivista": true,
   "media": [
     {
       "tipo": "cover",

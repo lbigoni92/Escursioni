@@ -8,7 +8,7 @@ Stato al 3 novembre 2026, sera. Ultimo commit su `dev`: vedi `git log`. Il lavor
   - varianti con 301 e correzione del WikilocExporter;
   - sezioni "Come arrivare" e "Cenno storico";
   - pagina del Rifugio del Freo;
-  - testi riscritti per 11 schede;
+  - testi riscritti per 51 schede (blocchi 1-4);
   - README;
   - introduzione di `/escursioni` generata dai dati;
   - nuovi campi modificabili dal MigrationEditor.
@@ -52,7 +52,15 @@ dotnet test Escursioni.Tests
      - Procinto: 115763698, 99419802, 232577182.
      - Matanna: 208649249, 164988284, 87371489.
    - Due schede del Matanna (208649249, 87371489) non hanno cenno storico: non ho trovato un fatto solido e diverso da quelli già usati.
-   - Restano 38 schede Apuane e le altre zone, sempre a blocchi di circa 20. Regole: fatti solo con fonte, campo vuoto se non si trova niente, H3 specifiche, `descrizione_rivista: true`, un cenno diverso per ogni scheda.
+   - Fatto il blocco 4: 20 schede da fare d'inverno.
+     - Ciaspolate: Lago Santo Modenese 249084065, Casetta di Lapo 196918402, Lago Scaffaiolo 204197595, Lago Nero 163375758.
+     - Lucchesia: Camelieto 162278392, Parole d'oro 92978992, Quercia delle Streghe 93383878.
+     - Monti Pisani: Certosa di Calci 245402608.
+     - Livorno: Terrazza Mascagni 92602331, Quattro Mori 92547592, Castellaccio 87372464, Sentiero del Pellegrino 87478911, Infernaccio 123884538 (senza cenno: nessuna fonte storica).
+     - Costa degli Etruschi: Populonia 122247783 e 91657229, Castagneto 125727727, San Silvestro 190572766.
+     - Entroterra: Sasso Pisano 124574099, San Vivaldo 197643085, Sammezzano 247357749.
+   - Totale: 51 schede riviste, 47 con cenno storico, nessun cenno duplicato.
+   - Restano circa 213 schede (38 Apuane più le altre zone), sempre a blocchi di circa 20. Regole: fatti solo con fonte, campo vuoto se non si trova niente, H3 specifiche, `descrizione_rivista: true`, un cenno diverso per ogni scheda.
 3. **7.8 – UiTests**: erano già fuori sincrono prima di questo lavoro.
    - Baseline mobile a 450 px contro un viewport di 390.
    - Il test "dettaglio senza foto" usa uno slug non più presente nei dati di prova.

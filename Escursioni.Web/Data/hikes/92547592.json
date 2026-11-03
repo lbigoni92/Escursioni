@@ -5,7 +5,7 @@
   "meta_descrizione": "Camminata facile di 7,2 km nel centro di Livorno: Fortezza Nuova, Fortezza Vecchia, Bottini dell'Olio, Monumento dei Quattro Mori e Mercato Centrale.",
   "tag": "Livorno e costa toscana",
   "descrizione": "Camminata molto semplice per la mia città, per riprendermi da un infortunio al ginocchio. La camminata, prevede di passare da alcuni dei luoghi storici più importanti del centro città: Fortezza Nuova Fortezza Vecchia Bottini dell'olio Monumento 4 mori Mercato centrale Porta stoica ex cantiere Luigi Orlando E' adatta a tutte le persone, di tutte l'età, a famiglie, turisti ecc... ovviamente essendo in città ed essendo pochi chilometri non avete bisogno d'attrezzature, lungo il percorso ci sono diverse fontanelle, bar e ristoranti.",
-  "descrizione_html": "<h2 id=\"trekking-cittadino-livorno-centro\">Trekking Cittadino - Livorno - Centro</h2>\r\n\r\n<p>\r\nHo deciso di intraprendere un'escursione un po' diversa, per me. Dopo un infortunio al ginocchio, ho bisogno di muovermi e questo trekking cittadino a Livorno mi ha permesso di fare un bel po' di chilometri, riprendendomi gradualmente. Un'escursione semplice e accessibile a tutti!\r\n</p>\r\n\r\n<h3 id=\"come-arrivare-al-punto-di-partenza\">Come Arrivare al Punto di Partenza</h3>\r\n\r\n<p>\r\nIl punto di partenza per questa bella escursione è il centro storico di Livorno. Possiamo partire dal Mercato Centrale e dirigereci verso Porta Stoica, da lì inizia il sentiero. Facile da raggiungere in auto o con i mezzi pubblici.\r\n</p>\r\n\r\n<h3 id=\"il-percorso-passo-per-passo\">Il Percorso Passo per Passo</h3>\r\n\r\n<p>\r\nIl sentiero è ben segnalato e si snoda attraverso le principali attrazioni di Livorno. Inizieremo dalla vivace atmosfera del Mercato Centrale, poi ci perderemo tra le mura della Fortezza Nuova e Vecchia, ammireremo i Bottini dell'olio, il Monumento 4 Mori, e ci perderemo nel cuore del centro. Un anello di circa 7 km, perfetto per una giornata all'insegna del benessere e della scoperta.\r\n</p>\r\n\r\n<h3 id=\"difficoltà-e-cosa-aspettarsi\">Difficoltà e Cosa Aspettarsi</h3>\r\n\r\n<p>\r\nQuesta escursione è di <strong>Facile</strong> difficoltà, adatta a persone di tutte le età e livelli di preparazione fisica. Il dislivello è contenuto, solo <strong>+27 metri</strong>, quindi non ci sono ostacoli significativi. Lungo il percorso troverai diverse fontanelle e punti di ristoro, dove rinfrescarti e pranzare. Un'escursione ideale per famiglie, turisti e chiunque voglia semplicemente passeggiare e godersi la città.\r\n</p>\r\n\r\n<h3 id=\"traccia-gps-e-informazioni-pratiche\">Traccia GPS e Informazioni Pratiche</h3>\r\n\r\n<p>\r\nPer facilitare la tua escursione, ti lascio la traccia GPS: si scarica con il pulsante «Scarica traccia GPX». Ricorda di controllare sempre le condizioni meteorologiche prima di partire e di indossare scarpe comode.\r\n</p>\r\n\r\n<h3 id=\"informazioni-utili\">Informazioni Utili</h3>\r\n\r\n<ul >\r\n    <li><strong id=\"distanza\">Distanza:</strong> Circa 7.19 km (anello)</li>\r\n    <li><strong id=\"dislivello\">Dislivello:</strong> Circa 27 metri</li>\r\n    <li><strong id=\"difficoltà\">Difficoltà:</strong> Facile</li>\r\n    <li><strong id=\"periodo-consigliato\">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>\r\n    <li><strong id=\"punto-di-partenza\">Punto di partenza:</strong> Mercato Centrale, Livorno, Bagni</li>\r\n    <li><strong id=\"comune\">Comune:</strong> Fiume, Bagni, Toscana, Italia</li>\r\n    <li><strong id=\"tipo-di-sentiero\">Tipo di sentiero:</strong> Sentiero escursionistico</li>\r\n</ul>",
+  "descrizione_html": "<p>Un giro a piedi di 7 km nel centro di <strong>Livorno</strong>, tra fortezze, fossi e porto, che ho fatto per riprendermi da un infortunio al ginocchio. Adatto a tutti, di ogni età.</p>\n<h3>Le tappe</h3>\n<p>Si passa dalla Fortezza Nuova e dalla Fortezza Vecchia, dai Bottini dell'olio, dal <strong>Monumento dei Quattro Mori</strong>, dal Mercato centrale e dall'ex cantiere Luigi Orlando.</p>\n<h3>Cosa serve</h3>\n<p>Nessuna attrezzatura: si cammina in città, con fontanelle, bar e ristoranti lungo il percorso.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 7.19,
   "dislivello_m": 27,
@@ -34,6 +34,19 @@
   "sha256_payload": "503369d892d9c9fbd976f5d6e516e42b22ea7f2ea45d03855efe8ff7c584ae53",
   "created_at": "2025-11-15T00:00:00",
   "updated_at": "2026-05-01T15:58:15",
+  "come_arrivare": "<p>Si parte dal centro di <strong>Livorno</strong>, nel punto indicato dalle coordinate qui sotto.</p>",
+  "cenno_storico": "Il Monumento dei Quattro Mori celebra il granduca Ferdinando I de' Medici, raffigurato in marmo con l'uniforme di Gran Maestro dei Cavalieri di Santo Stefano, l'ordine fondato dal padre Cosimo I contro i pirati. Nel 1617 Cosimo II affidò a Pietro Tacca le quattro figure di prigionieri in bronzo ai piedi della statua, che secondo la tradizione furono modellate su veri prigionieri; il monumento completo fu collocato nel 1626.",
+  "fonti": [
+    {
+      "titolo": "Monumento dei Quattro Mori – Visit Tuscany",
+      "url": "https://www.visittuscany.com/it/attrazioni/monumento-dei-quattro-mori/"
+    },
+    {
+      "titolo": "Monument of the Four Moors – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monument_of_the_Four_Moors"
+    }
+  ],
+  "descrizione_rivista": true,
   "media": [
     {
       "tipo": "foto",

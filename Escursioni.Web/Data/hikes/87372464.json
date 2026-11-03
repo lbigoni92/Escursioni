@@ -5,7 +5,7 @@
   "meta_descrizione": "Anello di 10,6 km e +300 m sopra Livorno: Castellaccio, Romito e Maroccone. Alla portata di tutti, ma il tratto finale è pericoloso quando piove.",
   "tag": "Livorno e costa toscana",
   "descrizione": "FACILE ALLA PORTATA DI TUTTI La discesa dal Castellaccio è semplice e ben segnata, il tratto finale se piove è pericoloso, altrimenti non vi sono problemi di nessun tipo. Prestare attenzione sulla strada Tratto in salita facile, ben segnalato ma occhio a i cinghiali ne abbiamo trovato uno.",
-  "descrizione_html": "<h2 id=\"annello-castellaccio-romito-maroccone\">Annello: Castellaccio - Romito - Maroccone</h2>\r\n\r\n<h3 id=\"come-arrivare-al-punto-di-partenza\">Come arrivare al punto di partenza</h3>\r\n<p>Il punto di partenza per questa bellissima escursione è all'inizio del paese di Castellaccio, in Toscana. È facilmente raggiungibile in auto, seguendo le indicazioni per il paese. Il parcheggio più comodo è vicino alla chiesa del paese, da cui si parte subito sul sentiero.</p>\r\n\r\n<h3 id=\"il-percorso-passo-per-passo\">Il percorso passo per passo</h3>\r\n<p>L'escursione inizia con una discesa dal <strong>Castellaccio</strong>, un sentiero ben tracciato e facile, perfetto anche per i principianti.  La discesa è semplice e ben segnata, ma attenzione perché il tratto finale, soprattutto in caso di pioggia, può diventare scivoloso.  Proseguendo, si entra nel <strong>Romito</strong>, un ambiente naturale selvaggio e affascinante, con un tratto in salita facile ma ben segnalato.  Durante l'escursione, tenete gli occhi aperti: ne abbiamo avvistato uno! Un breve tratto si svolge lungo la strada, con una salita moderata. Infine, si raggiunge il <strong>Maroccone</strong>, offrendo un panorama mozzafiato sulla valle e sulla <strong>montagna</strong> circostante. Questo è un vero e proprio anello di <strong>escursione</strong> che vi permetterà di ammirare i panorami.</p>\r\n\r\n<h3 id=\"difficoltà-e-cosa-aspettarsi\">Difficoltà e cosa aspettarsi</h3>\r\n<p>Questa <strong>escursione</strong> è classificata come <strong>Media</strong>, adatta a escursionisti con un livello di preparazione intermedio.  La distanza totale è di circa 10,56 km con un <strong>dislivello</strong> di +300 metri.  Preparatevi a camminare per diverse ore e ad affrontare salite e discese.  È consigliabile indossare scarpe da trekking e portare con sé acqua, snack e un kit di pronto soccorso.</p>\r\n\r\n<h3 id=\"traccia-gps-e-informazioni-pratiche\">Traccia GPS e informazioni pratiche</h3>\r\n<p>Potete scaricare una <strong >traccia GPS</strong> per questa <strong>escursione</strong> per guidarvi durante il percorso.  Ricordate di consultare sempre le previsioni del tempo prima di partire e di informare qualcuno del vostro itinerario.</p>\r\n\r\n<h3 id=\"informazioni-utili\">Informazioni Utili</h3>\r\n<ul >\r\n  <li><strong >Distanza:</strong> Circa 10.56 km (anello)</li>\r\n  <li><strong >Dislivello:</strong> Circa 300 metri</li>\r\n  <li><strong >Difficoltà:</strong> Media</li>\r\n  <li><strong >Periodo consigliato:</strong> Primavera, Estate, Autunno</li>\r\n  <li><strong >Punto di partenza:</strong> Inizio paese di Castellaccio, Toscana</li>\r\n  <li><strong >Comune:</strong> Castellaccio, Toscana</li>\r\n  <li><strong >Regione:</strong> Italia</li>\r\n  <li><strong >Tipo di sentiero:</strong> Sentiero escursionistico</li>\r\n</ul>",
+  "descrizione_html": "<p>Un anello di 10,6 km e circa 300 metri di dislivello dal Castellaccio, sulle colline di Livorno, verso il Romito e il Maroccone. Facile, alla portata di tutti.</p>\n<h3>La salita</h3>\n<p>Il tratto in salita è facile e ben segnalato. Occhio ai cinghiali: noi ne abbiamo incontrato uno.</p>\n<h3>La discesa dal Castellaccio</h3>\n<p>La discesa dal Castellaccio è semplice e ben segnata; solo il tratto finale è pericoloso se piove. Fai attenzione nei tratti su strada.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 10.56,
   "dislivello_m": 300,
@@ -34,6 +34,15 @@
   "sha256_payload": "01b75bd9b28a9f3fe04f6069211d6be9ab54ce611da654de87fde174839e4f51",
   "created_at": "2025-11-15T00:00:00",
   "updated_at": "2026-05-01T15:58:15",
+  "come_arrivare": "<p>Si parte dal <strong>Castellaccio</strong>, sulle colline di Livorno sopra Montenero, nel punto indicato dalle coordinate qui sotto.</p>",
+  "cenno_storico": "Sul mare sotto queste colline, al Romito, c'è il castello che fu del barone Sidney Sonnino. All'origine era una torre di avvistamento costruita tra il 1545 e il 1548, sotto Cosimo I de' Medici, per difendere la costa dai pirati barbareschi e turchi. Si chiamava Torre del Romito o Torre di San Salvadore, dal nome di una chiesa del Castellaccio a cui la collegava una strada.",
+  "fonti": [
+    {
+      "titolo": "Castel Sonnino – FAI",
+      "url": "https://fondoambiente.it/luoghi/castel-sonnino-livorno-5925"
+    }
+  ],
+  "descrizione_rivista": true,
   "media": [
     {
       "tipo": "cover",

@@ -5,7 +5,7 @@
   "meta_descrizione": "Anello facile di 13,2 km e +279 m sopra Livorno sul Sentiero del Pellegrino fino al Castellaccio. Dal Calasole, tramonto sulla città; tavolo da picnic in cima.",
   "tag": "Livorno e costa toscana",
   "descrizione": "Il sentiero è di facile percorrenza, se si fa la salita al calasole i noterà un paesaggio bellissimo e potremo vedere d'estate il sole tramontare sulla città. Alla fine della salita vi è un tavolo da Pick nik dove poterci ristorare. Potete fare il sentiero con ogni tipologia di scarpe... ma per l'amor di dio, mettete scarpe chiuse. NON vi sono fontanelle Ambiamo trovato 2 fagiani :)",
-  "descrizione_html": "<h2 id=\"sentiero-pellegrino-castellaccio\">Escursione al Sentiero del Pellegrino - Castellaccio</h2>\r\n\r\n<h3 id=\"come-arrivare-al-punto-di-partenza\">Come arrivare al punto di partenza</h3>\r\n<p>Per raggiungere il punto di partenza del sentiero del Pellegrino a Castellaccio, puoi prendere l'autostrada A12 e uscire a Grosseto. Da lì, segui le indicazioni per Castellaccio. Il comune è facilmente raggiungibile in auto, e una volta arrivati, il punto di partenza è ben segnalato.  Ricorda che puoi anche arrivare a piedi se sei un amante del trekking!</p>\r\n\r\n<h3 id=\"il-percorso-passo-per-passo\">Il percorso passo per passo</h3>\r\n<p>Questo sentiero di anello è perfetto per una giornata all'aria aperta! Inizi da un punto facilmente accessibile e la salita è graduale, quindi adatta a tutti i livelli.  Superato un tratto più impegnativo, la ricompensa è un panorama mozzafiato sulla città.  Alla fine del percorso, potrete pranzare al tavolo da picnic predisposto, godendovi un meritato riposo e ammirando il panorama.  Il sentiero è ben segnalato, ma è sempre consigliabile avere una mappa e una buona bussola.</p>\r\n\r\n<h3 id=\"difficoltà-e-cosa-aspettarsi\">Difficoltà e cosa aspettarsi</h3>\r\n<p>Questa escursione è classificata come <strong>Facile</strong>, il che significa che è adatta anche a chi non ha molta esperienza nel trekking. Il dislivello di <strong>+279 metri</strong> è gestibile per tutti, ma è importante indossare scarpe da trekking e, soprattutto, <strong>scarpe chiuse</strong>.  È un'escursione di circa <strong>13.2 km</strong> ad anello.  Durante l'escursione, potrete ammirare un bellissimo paesaggio, magari avvistando anche qualche fagiano!</p>\r\n\r\n<h3 id=\"traccia-gps-e-informazioni-pratiche\">Traccia GPS e informazioni pratiche</h3>\r\n<p>Per facilitare il vostro percorso, vi forniamo una <strong>traccia GPS</strong> (da scaricare e utilizzare con un'applicazione di navigazione). L'escursione è di tipo <strong>Anello</strong>.  Si consiglia di partire in primavera, estate o autunno per godere appieno delle bellezze naturali della zona.</p>\r\n\r\n<h3 id=\"informazioni-utili\">Informazioni Utili</h3>\r\n<ul id=\"informazioni-utili\">\r\n    <li><strong id=\"dista-1\">Distanza:</strong> Circa 13.2 km (anello)</li>\r\n    <li><strong id=\"disl-1\">Dislivello:</strong> Circa 279 metri</li>\r\n    <li><strong id=\"diff-1\">Difficoltà:</strong> Facile</li>\r\n    <li><strong id=\"perd-1\">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>\r\n    <li><strong id=\"part-1\">Punto di partenza:</strong> Punto di partenza sentiero del Pellegrino, Castellaccio, Toscana, Italia</li>\r\n    <li><strong id=\"com-1\">Comune:</strong> Castellaccio, Toscana</li>\r\n    <li><strong id=\"tipo-1\">Tipo di sentiero:</strong> Sentiero escursionistico</li>\r\n</ul>",
+  "descrizione_html": "<p>Un anello facile di 13,2 km sul <strong>Sentiero del Pellegrino</strong>, che sale da Livorno al Castellaccio.</p>\n<h3>La salita al Calasole</h3>\n<p>Se si fa la salita al Calasole il paesaggio è bellissimo e d'estate si vede il sole tramontare sulla città. In cima c'è un tavolo da picnic dove fermarsi.</p>\n<h3>Cosa portare</h3>\n<p>Va bene qualsiasi tipo di scarpa, purché chiusa. Non ci sono fontanelle. Noi abbiamo incontrato due fagiani.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 13.2,
   "dislivello_m": 279,
@@ -34,6 +34,19 @@
   "sha256_payload": "658f88e6e6307488b2c9fadb4015e14afb760a7c076be5b025d5ff261e601c81",
   "created_at": "2025-11-15T00:00:00",
   "updated_at": "2026-05-01T15:58:15",
+  "come_arrivare": "<p>Si parte dal <strong>Castellaccio</strong>, sulle colline di Livorno sopra Montenero, nel punto indicato dalle coordinate qui sotto.</p>",
+  "cenno_storico": "Il Castellaccio sta sopra il Santuario di Montenero. Secondo la tradizione, nella Pentecoste del 1345 un pastore storpio trovò un'immagine miracolosa della Vergine e la portò sul colle; già nel 1380 cominciarono i lavori per ampliare la cappella. Dal 1792 il santuario è custodito dai monaci vallombrosani. Gli studiosi attribuiscono l'icona al pittore Iacopo di Michele, detto Gera.",
+  "fonti": [
+    {
+      "titolo": "Il Santuario di Montenero – Visit Tuscany",
+      "url": "https://www.visittuscany.com/it/attrazioni/il-santuario-di-montenero/"
+    },
+    {
+      "titolo": "Montenero (Livorno) – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Montenero_(Livorno)"
+    }
+  ],
+  "descrizione_rivista": true,
   "media": [
     {
       "tipo": "cover",

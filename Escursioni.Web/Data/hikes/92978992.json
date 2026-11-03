@@ -5,7 +5,7 @@
   "meta_descrizione": "Percorso di 12,1 km e +640 m dalle Parole d'oro, l'acquedotto del Nottolini, al Monte Zano con la sua croce, sopra Guamo. Difficoltà media.",
   "tag": "Monti Pisani",
   "descrizione": "Parole d'oro - Sono un acquedotto molto caratteristico del panorama Lucchese l'opera fu deliberata dalla duchessa di Lucca Maria Luisa Borbone, l'opera fu realizzata dal regio architetto Lorenzo Nottolini a cavallo fra il 1823 ed 1858, contestualmente al lungo acquedotto ad archi che collega questa località (tempietto di Guamo) con San Concordio (tempietto di San Concordio). Alle Parole d'Oro, meta di frequenti passeggiate dei Lucchesi, è tutt'ora visibile ed in perfetto stato di conservazione un monumentale e bellissimo insieme di opere che servono a captare quanta più acqua possibile nel migliore modo possibile. Monte Zano Ha una delle poche croci presenti sul monte pisano ed è visibile di notte da lucca. Sul sentiero non ci sono fontanlle, è molto poetica la parte iniziale dell'acquedotto.",
-  "descrizione_html": "<h2 id=\"dalle-parole-doro-al-monte-zano\">Escursione Dalle Parole d'Oro al Monte Zano</h2>\r\n\r\n<h3 id=\"come-arrivare-al-punto-di-partenza\">Come Arrivare al Punto di Partenza</h3>\r\n<p>Per raggiungere il punto di partenza dell'escursione alle <strong>Parole d'Oro</strong>, si consiglia di arrivare a <strong>Guamo</strong> in auto. Da qui, il sentiero parte direttamente dal parcheggio vicino all'acquedotto. È un percorso facilmente accessibile, adatto anche a chi non ha molta esperienza di trekking.</p>\r\n\r\n<h3 id=\"il-percorso-passo-per-passo\">Il Percorso Passo per Passo</h3>\r\n<p>L'escursione segue il sentiero che costeggia l'affascinante acquedotto delle <strong>Parole d'Oro</strong>. Inizialmente, il sentiero si snoda lungo il tratto più caratteristico, ammirando le opere originali e i canali che sfruttano l'acqua. Il sentiero prosegue verso il <strong>Monte Zano</strong>, dove potrai ammirare la storica croce e godere di un panorama mozzafiato sulla campagna lucchese e sulla città. L'ultimo tratto del sentiero è più impervio, ma offre scorci unici sulla natura circostante. Questa è un'ottima <strong>escursione</strong> in Toscana.</p>\r\n\r\n<h3 id=\"difficoltà-e-cosa-aspettarsi\">Difficoltà e Cosa Aspettarsi</h3>\r\n<p>L'escursione alle <strong>Parole d'Oro</strong> e al <strong>Monte Zano</strong> è di <strong>difficoltà media</strong>. Il sentiero è ben segnalato, ma richiede una buona condizione fisica e un minimo di esperienza in <strong>trekking</strong> in montagna. Il dislivello è di circa 640 metri, quindi è consigliabile indossare scarpe da trekking adatte e portare con sé acqua e cibo.</p>\r\n\r\n<h3 id=\"traccia-gps-e-informazioni-pratiche\">Traccia GPS e Informazioni Pratiche</h3>\r\n<p>Questo sentiero offre un'esperienza di <strong>escursione</strong> unica, con la possibilità di ammirare un capolavoro dell'ingegneria storica e di godere di panorami mozzafiato. Ti consigliamo di scaricare una <strong >traccia GPS</strong> per il percorso e di verificare le previsioni meteorologiche prima di partire.</p>\r\n\r\n<h3 id=\"informazioni-utili\">Informazioni Utili</h3>\r\n<ul >\r\n  <li><strong >Distanza:</strong> Circa 12.09 km (solo andata)</li>\r\n  <li><strong >Dislivello:</strong> Circa 640 metri</li>\r\n  <li><strong >Difficoltà:</strong> Medio</li>\r\n  <li><strong >Periodo consigliato:</strong> Primavera, Estate, Autunno</li>\r\n  <li><strong >Punto di partenza:</strong> Acquedotto delle Parole d'Oro, Guamo</li>\r\n  <li><strong >Comune:</strong> Guamo, Toscana</li>\r\n  <li><strong >Tipo di sentiero:</strong> Sentiero escursionistico</li>\r\n</ul>",
+  "descrizione_html": "<p>Dalle <strong>Parole d'oro</strong>, all'inizio dell'acquedotto del Nottolini, al <strong>Monte Zano</strong> sul Monte Pisano: 12,1 km e circa 640 metri di dislivello.</p>\n<h3>L'acquedotto</h3>\n<p>Il tratto iniziale lungo l'acquedotto è il più poetico del giro. Alle Parole d'oro, meta di tante passeggiate dei lucchesi, si vede ancora in ottimo stato l'insieme delle opere costruite per raccogliere più acqua possibile.</p>\n<h3>Il Monte Zano</h3>\n<p>Sulla cima del Monte Zano c'è una delle poche croci del Monte Pisano, che di notte si vede da Lucca.</p>\n<h3>Acqua</h3>\n<p>Sul sentiero non ci sono fontanelle.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 12.09,
   "dislivello_m": 640,
@@ -34,6 +34,19 @@
   "sha256_payload": "5d394b583aa140f9b98b61f69cde4545aa283bdf8d2f8574e2f316be1de5b33b",
   "created_at": "2025-11-15T00:00:00",
   "updated_at": "2026-05-01T15:58:15",
+  "come_arrivare": "<p>Si parte da <strong>Guamo</strong> (Capannori, LU), vicino all'acquedotto del Nottolini, nel punto indicato dalle coordinate qui sotto.</p>",
+  "cenno_storico": "Nel 1822 Maria Luisa di Borbone, duchessa di Lucca, deliberò la costruzione dell'acquedotto e la affidò all'architetto Lorenzo Nottolini. I lavori durarono, con alcune interruzioni, fino al 1833: 460 archi in mattoni e muratura portano l'acqua per 3,2 km verso Lucca. Il nome Parole d'oro viene dai contadini, che scambiarono per oro le lettere di ottone che coprivano alcune iscrizioni dell'acquedotto.",
+  "fonti": [
+    {
+      "titolo": "Acquedotto del Nottolini – Wikipedia",
+      "url": "https://it.wikipedia.org/wiki/Acquedotto_del_Nottolini"
+    },
+    {
+      "titolo": "Trekking lungo la Via degli Acquedotti – Visit Tuscany",
+      "url": "https://www.visittuscany.com/it/itinerari/trekking-lungo-la-via-degli-acquedotti/"
+    }
+  ],
+  "descrizione_rivista": true,
   "media": [
     {
       "tipo": "cover",
