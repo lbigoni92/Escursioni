@@ -1,6 +1,6 @@
 # Ripresa lavori – seo-varianti-storia-luoghi
 
-Stato al 3 novembre 2026.
+Stato al 3 novembre 2026, sera. Ultimo commit su `dev`: vedi `git log`. Il lavoro si fa su `dev`; viene pubblicato solo ciò che va su `master`.
 
 ## In breve
 
@@ -42,8 +42,17 @@ dotnet test Escursioni.Tests
    - 145307121 Calambrone
    - 87479081 Colognole
    - 253262610 Ferrata di Buti
-2. **Commit e push**: un commit nel repository Escursioni, uno nel WikilocExporter.
-3. **5.3 – Altre schede**, a blocchi di circa 20 per zona, con le stesse regole: fatti solo con fonte, campo vuoto se non si trova niente, H3 specifiche, `descrizione_rivista: true`.
+3. **5.3 – Altre schede.**
+   - Fatto il blocco 3: 20 schede delle Alpi Apuane.
+     - Corchia: 88152083, 182508862, 263440573.
+     - Pania: 214180956, 216388114.
+     - Tambura 139430408, Pisanino 172151891.
+     - Altissimo: 258778198, 233734502, 137118829.
+     - Forato: 288243374, 255309309, 87478884, 212184454.
+     - Procinto: 115763698, 99419802, 232577182.
+     - Matanna: 208649249, 164988284, 87371489.
+   - Due schede del Matanna (208649249, 87371489) non hanno cenno storico: non ho trovato un fatto solido e diverso da quelli già usati.
+   - Restano 38 schede Apuane e le altre zone, sempre a blocchi di circa 20. Regole: fatti solo con fonte, campo vuoto se non si trova niente, H3 specifiche, `descrizione_rivista: true`, un cenno diverso per ogni scheda.
 4. **7.8 – UiTests**: erano già fuori sincrono prima di questo lavoro.
    - Baseline mobile a 450 px contro un viewport di 390.
    - Il test "dettaglio senza foto" usa uno slug non più presente nei dati di prova.

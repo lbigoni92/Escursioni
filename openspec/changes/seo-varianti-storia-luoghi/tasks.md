@@ -37,7 +37,7 @@
 
 - [x] 5.1 Blocco 1, pagine con impressioni (7 schede)
 - [x] 5.2 Blocco 2: le altre 4 pagine principali dei gruppi di varianti
-- [ ] 5.3 Blocchi successivi: circa 20 schede per zona, partendo dalle zone con più impressioni
+- [ ] 5.3 Blocchi successivi: circa 20 schede per zona, partendo dalle zone con più impressioni. **Fatto il blocco 3 (20 schede Alpi Apuane: Corchia, Pania, Tambura, Pisanino, Altissimo, Forato, Procinto, Matanna)**; restano 38 schede Apuane e le altre zone
 - [x] 5.4 Regole per ogni scheda applicate ai blocchi 1 e 2 (Buti senza cenno: nessuna fonte verificabile)
 
 ## 6. Pagine luogo

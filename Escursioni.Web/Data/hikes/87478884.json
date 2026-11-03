@@ -5,7 +5,7 @@
   "meta_descrizione": "Percorso di 14,5 km da Stazzema al Monte Forato, tra le cappelle del pellegrinaggio fino a Foce di Petrosciana, poi sul sentiero 110. Parcheggio a 3 €.",
   "tag": "Alpi Apuane",
   "descrizione": "Partenza da Stazzema - al parcheggio (costo 3 euro) Il sentiero è bello e si passa vicino a delle cappelle poste per il pellegrinaggio. Si segue il sentiero fino a foce di petrosciana; da li s'imbocca il sentiero 110 e s'arriva al monte forato, un paio di punti possono dare problemi a chi ha problemi con l'altezze, ma niente di complesso. Abbiamo pranzato sul Forato e vista la croce, in seguito siamo scesi sul 12 e tornati a Stazzema. Sentiero molto bello lo consiglio ma portatevi scarpe adeguate",
-  "descrizione_html": "<h2 id=\"escursione-forato-da-stazzema\">Escursione al Monte Forato da Stazzema</h2>\r\n\r\n<h3 id=\"come-arrivare-al-punto-di-partenza\">Come Arrivare al Punto di Partenza</h3>\r\n<p>Il punto di partenza per questa bella escursione è il comune di Stazzema. Troverete un parcheggio dove è previsto un costo di 3 euro. Da qui, iniziate a seguire il sentiero che si snoda verso il monte Forato.  È un ottimo punto di partenza per un'escursione in montagna!</p>\r\n\r\n<h3 id=\"il-percorso-passo-per-passo\">Il Percorso Passo per Passo</h3>\r\n<p>L'escursione inizia con una facile salita attraverso il sentiero che costeggia la foce della Petrosciana. Il sentiero è ben tenuto e offre un panorama sempre più ampio.  Proseguite fino al monte Forato, dove potrete ammirare la croce e, in giornate limpide, un panorama mozzafiato.  Ricordatevi che alcuni punti di elevazione potrebbero essere impegnativi per chi soffre di vertigini, ma il percorso in sé non presenta ostacoli complessi.</p>\r\n\r\n<h3 id=\"difficoltà-e-cosa-aspettarsi\">Difficoltà e Cosa Aspettarsi</h3>\r\n<p>Questa escursione è classificata come <b>Facile</b>. La distanza totale è di circa 14.53 km con un dislivello di 554 metri.  Adatta a famiglie e a chi cerca una piacevole passeggiata in montagna, ma considerate di portare scarpe adeguate per affrontare il sentiero.</p>\r\n\r\n<h3 id=\"traccia-gps-e-informazioni-pratiche\">Traccia GPS e Informazioni Pratiche</h3>\r\n<p>La traccia GPS di questa escursione vi aiuterà a orientarvi lungo il sentiero. È un'ottima idea per pianificare l'escursione e per condividere l'esperienza con amici e parenti.  Consigliamo di controllare le previsioni meteo prima di partire e di indossare abbigliamento e calzature adatte.</p>\r\n\r\n<h3 id=\"informazioni-utili\">Informazioni Utili</h3>\r\n<ul>\r\n  <li><strong>Distanza:</strong> Circa 14.53 km (solo andata)</li>\r\n  <li><strong>Dislivello:</strong> Circa 554 metri</li>\r\n  <li><strong>Difficoltà:</strong> Facile</li>\r\n  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>\r\n  <li><strong>Punto di partenza:</strong> Parcheggio a Stazzema</li>\r\n  <li><strong>Comune:</strong> Orzale, Toscana, Italia</li>\r\n  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>\r\n</ul>",
+  "descrizione_html": "<p>Da Stazzema al <strong>Monte Forato</strong> per la Foce di Petrosciana: 14,5 km e circa 550 metri di dislivello, un sentiero molto bello che consiglio.</p>\n<h3>Verso la Foce di Petrosciana</h3>\n<p>Il sentiero passa vicino ad alcune cappelle poste lungo il percorso di pellegrinaggio e arriva alla Foce di Petrosciana.</p>\n<h3>Sul Forato</h3>\n<p>Dalla foce si prende il sentiero 110 fino al Monte Forato. Un paio di punti possono dare problemi a chi soffre l'altezza, ma niente di complesso. Abbiamo pranzato sul Forato, accanto alla croce.</p>\n<h3>Il ritorno</h3>\n<p>Siamo scesi per il sentiero 12 e tornati a Stazzema. Servono scarpe adeguate.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 14.53,
   "dislivello_m": 554,
@@ -34,6 +34,15 @@
   "sha256_payload": "4fe490347dc8126b2b6084a76882bf09befdc9c05f951c9d5abc83b352876ba8",
   "created_at": "2025-11-15T00:00:00",
   "updated_at": "2026-05-01T15:58:15",
+  "come_arrivare": "<p>Si parte da <strong>Stazzema</strong> (LU): nel 2021 il parcheggio costava 3 euro. Il punto esatto della partenza è nelle coordinate qui sotto.</p>",
+  "cenno_storico": "A Stazzema, punto di partenza del giro, c'è la pieve di Santa Maria Assunta, costruita probabilmente all'inizio del XII secolo e poi più volte rimaneggiata. La facciata è interamente in marmo bardiglio della zona; il campanile, di fine Duecento, è tra i più antichi della zona.",
+  "fonti": [
+    {
+      "titolo": "Pieve di Santa Maria Assunta a Stazzema – Visit Tuscany",
+      "url": "https://www.visittuscany.com/it/attrazioni/santa-maria-assunta-stazzema/"
+    }
+  ],
+  "descrizione_rivista": true,
   "media": [
     {
       "tipo": "cover",
