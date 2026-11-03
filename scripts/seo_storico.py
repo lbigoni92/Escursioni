@@ -366,6 +366,33 @@ RIGHE_EXPORT = [
 ]
 
 
+INTENTI_PRATICI = ("come arrivare", "distanza", "parcheggio", "mappa", "maps", "quanto", "dove", "orari", "sentiero")
+
+
+def sezione_query(cartella):
+    """Query dell'ultimo export su cui lavorare: quasi in prima pagina e domande pratiche."""
+    query = []
+    for q in righe(file(cartella, "google-prestazioni", "query")):
+        impr = numero(q.get("impressioni", q.get("impressions")))
+        clic = numero(q.get("clic", q.get("clicks")))
+        pos = numero(q.get("posizione", q.get("position")))
+        query.append((q["chiave"], int(impr), int(clic), pos))
+    if not query:
+        return []
+    r = ["", f"## Query su cui lavorare (export {os.path.basename(cartella)})", "",
+         "### Quasi in prima pagina", "",
+         "Posizione media tra 4 e 20 e almeno 3 impressioni: un titolo o un testo migliore può portarle più su.", "",
+         "| Query | Impressioni | Clic | Posizione |", "|---|---|---|---|"]
+    vicine = sorted((q for q in query if 4 <= q[3] <= 20 and q[1] >= 3), key=lambda q: -q[1])
+    r += [f"| {q[0]} | {q[1]} | {q[2]} | {q[3]:.1f} |" for q in vicine] or ["| nessuna | | | |"]
+    r += ["", "### Domande pratiche", "",
+          "Query con «come arrivare», «distanza», «mappa» e simili: chiedono una risposta precisa.", "",
+          "| Query | Impressioni | Clic | Posizione |", "|---|---|---|---|"]
+    pratiche = sorted((q for q in query if any(i in q[0].lower() for i in INTENTI_PRATICI)), key=lambda q: -q[1])
+    r += [f"| {q[0]} | {q[1]} | {q[2]} | {q[3]:.1f} |" for q in pratiche] or ["| nessuna | | | |"]
+    return r
+
+
 def cmd_storico(args):
     r = ["# Storico SEO del sito", "",
          "File generato da `python scripts/seo_storico.py storico`: non modificarlo a mano.",
@@ -422,6 +449,7 @@ def cmd_storico(args):
                 if d:
                     r.append(f"| {u.replace('https://escursionilucabigoni.it', '')} | {int(pa.get(u, 0))} "
                              f"| {int(pb.get(u, 0))} | {int(d):+d} |")
+        r += sezione_query(cartelle[-1])
     else:
         r.append("Nessun export: salvali in `docs/seo/search-console/AAAA-MM-GG/` (vedi README).")
 
