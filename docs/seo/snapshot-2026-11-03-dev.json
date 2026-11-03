@@ -1,0 +1,63 @@
+{
+  "schede_principali": 254,
+  "varianti_unite": 24,
+  "schede_con_varianti": 14,
+  "escluse": 1,
+  "schede_riviste": 254,
+  "con_cenno_storico": 129,
+  "con_come_arrivare": 254,
+  "con_fonti": 130,
+  "fonti_totali": 151,
+  "pagine_luogo": 1,
+  "redirect_manuali": 4,
+  "parole_descrizione": {
+    "mediana": 122.0,
+    "p25": 91,
+    "min": 20,
+    "sotto_100": 80
+  },
+  "parole_scheda": {
+    "mediana": 179.0,
+    "p25": 136,
+    "min": 43,
+    "sotto_100": 30
+  },
+  "meta_descrizione_mediana_caratteri": 154.0,
+  "h3_piu_ripetuti": [
+    [
+      "il percorso",
+      18
+    ],
+    [
+      "acqua",
+      15
+    ],
+    [
+      "i sentieri",
+      13
+    ],
+    [
+      "le tappe",
+      13
+    ],
+    [
+      "il ritorno",
+      10
+    ]
+  ],
+  "schede_per_zona": {
+    "Alpi Apuane": 58,
+    "Livorno e costa toscana": 46,
+    "Appennino Tosco-Emiliano": 31,
+    "Lucchesia e colline toscane": 26,
+    "Monti Pisani": 21,
+    "Garfagnana": 16,
+    "Estero": 11,
+    "Trentino e Veneto": 11,
+    "Grosseto e Maremma": 10,
+    "Versilia e Massarosa": 8,
+    "Altre zone dell'italia": 7,
+    "Lunigiana": 5,
+    "Firenze e provincia": 4
+  }
+}
