@@ -5,7 +5,7 @@
   "meta_descrizione": "Anello facile di 8,2 km e +269 m da San Giuliano Terme al Passo di Dante, con la sua targa, e alla Villa del Polacco. Ben segnato, fattibile anche di notte.",
   "tag": "Monti Pisani",
   "descrizione": "Il percorso è molto bello e fattibile sia in notturna, sia in diurna. Si passa da Passo di dante dove vi è una targa che lo commemora, il percorso è ben segnato e non vi sono problemi tecnici. L'unico punto più impegnativo è la salita al monte dopo il Passo di Dannte, in seguito raggiungiamo \"il Castagno\", da li poco dopo giriamo sulla sinistra. Non ci sono fontanelle. Di notte usate la torcia e scarpe adeguate. Molto carino al livello storico, lo consiglio",
-  "descrizione_html": "<h2 id=\"san-giuliano-terme-villa-del-polacco\">Escursione a Villa del Polacco da San Giuliano Terme</h2>\r\n\r\n<p>\r\n  Volevo condividere questa bellissima escursione adatta a tutti, perfetta per una giornata all'aria aperta. Il sentiero che collega San Giuliano Terme a Villa del Polacco è un anello ben segnalato e, se siete amanti dei silenzi, lo consiglio anche di notte! \r\n</p>\r\n\r\n<h3 id=\"come-arrivare-al-punto-di-partenza\">Come arrivare al punto di partenza</h3>\r\n\r\n<p>\r\n  Il punto di partenza dell'escursione è facilmente raggiungibile. Potete arrivare a San Giuliano Terme in auto e da lì, seguendo le indicazioni stradali, vi troverete all'inizio del sentiero. Ci sono parcheggi disponibili nelle vicinanze.\r\n</p>\r\n\r\n<h3 id=\"il-percorso-passo-per-passo\">Il percorso passo per passo</h3>\r\n\r\n<p>\r\n  Il percorso inizia con una salita dolce, passando per il suggestivo <strong id=\"passo-di-dante\">Passo di Dante</strong>, dove potrete ammirare la targa che commemora questo luogo. Dopo il passo, la salita diventa leggermente più ripida, ma il sentiero rimane ben visibile. Raggiungerete il punto chiamato \"Il Castagno\", da lì proseguirete il giro con una discesa graduale che vi porterà a raggiungere <strong id=\"villa-del-polacco\">Villa del Polacco</strong>.  Un percorso semplice e piacevole, ideale per una giornata di trekking.\r\n</p>\r\n\r\n<h3 id=\"difficoltà-e-cosa-aspettarsi\">Difficoltà e cosa aspettarsi</h3>\r\n\r\n<p>\r\n  Questa escursione è classificata come <strong id=\"difficoltà-facile\">Facile</strong>, adatta a persone di tutte le età e livelli di esperienza. La distanza totale è di circa 8,17 km con un dislivello positivo di 269 metri. Il sentiero è ben tenuto e segnalato, ma è importante indossare scarpe da trekking e abbigliamento adeguato alle condizioni atmosferiche.\r\n</p>\r\n\r\n<h3 id=\"traccia-gps-e-informazioni-pratiche\">Traccia GPS e informazioni pratiche</h3>\r\n\r\n<p>\r\n  La traccia GPS si scarica da questa pagina con il pulsante «Scarica traccia GPX».\r\n</p>\r\n\r\n<h3 id=\"informazioni-utili\">Informazioni Utili</h3>\r\n\r\n<ul >\r\n  <li><strong id=\"distanza\">Distanza:</strong> Circa 8,17 km (anello)</li>\r\n  <li><strong id=\"dislivello\">Dislivello:</strong> Circa 269 metri</li>\r\n  <li><strong id=\"difficoltà\">Difficoltà:</strong> Facile</li>\r\n  <li><strong id=\"periodo-consigliato\">Periodo consigliato:</strong> Primavera, Estate, Autunno</li>\r\n  <li><strong id=\"punto-di-partenza\">Punto di partenza:</strong> San Giuliano Terme, inizio sentiero</li>\r\n  <li><strong id=\"comune\">Comune:</strong> San Giuliano Terme, Toscana, Italia</li>\r\n  <li><strong id=\"tipo-sentiero\">Tipo di sentiero:</strong> Sentiero escursionistico</li>\r\n</ul>",
+  "descrizione_html": "<p>Un anello facile di 8,2 km da San Giuliano Terme al <strong>Passo di Dante</strong> e alla <strong>Villa del Polacco</strong>, fattibile sia di giorno sia di notte. Molto carino dal punto di vista storico.</p>\n<h3>Il Passo di Dante</h3>\n<p>Si passa dal Passo di Dante, dove una targa ricorda i versi della Commedia. Il percorso è ben segnato e senza problemi tecnici.</p>\n<h3>La salita e il Castagno</h3>\n<p>L'unico tratto più impegnativo è la salita dopo il Passo di Dante; poi si arriva al «Castagno» e poco dopo si gira a sinistra.</p>\n<h3>Di notte</h3>\n<p>Non ci sono fontanelle. Di notte servono torcia e scarpe adeguate.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 8.17,
   "dislivello_m": 269,
@@ -34,6 +34,18 @@
   "sha256_payload": "f390729c10e0b7a4018c325dc7670a37d2ca6c863b096fc9704320b81035988e",
   "created_at": "2025-11-15T00:00:00",
   "updated_at": "2026-05-01T15:58:15",
+  "varianti": [
+    87617225
+  ],
+  "come_arrivare": "<p>Si parte da <strong>San Giuliano Terme</strong> (PI), nel punto indicato dalle coordinate qui sotto.</p>",
+  "cenno_storico": "La Villa del Polacco, o Villa Bosniaski, sul Monte Castellare sopra San Giuliano Terme, fu costruita nel 1881 dal polacco Sigismondo De Bosniaski per la moglie, la contessa russa Elisa di Rulikowski. Nei sotterranei De Bosniaski aveva un museo privato di fossili vegetali del Carbonifero. Alla sua morte la villa fu abbandonata e nella Seconda guerra mondiale i tedeschi la usarono come posto di osservazione.",
+  "fonti": [
+    {
+      "titolo": "Villa Bosniaski – Wikipedia",
+      "url": "https://it.wikipedia.org/wiki/Villa_Bosniaski"
+    }
+  ],
+  "descrizione_rivista": true,
   "media": [
     {
       "tipo": "cover",

@@ -8,7 +8,7 @@ Stato al 3 novembre 2026, sera. Ultimo commit su `dev`: vedi `git log`. Il lavor
   - varianti con 301 e correzione del WikilocExporter;
   - sezioni "Come arrivare" e "Cenno storico";
   - pagina del Rifugio del Freo;
-  - testi riscritti per 71 schede (blocchi 1-5);
+  - testi riscritti per 107 schede (blocchi 1-7);
   - README;
   - introduzione di `/escursioni` generata dai dati;
   - nuovi campi modificabili dal MigrationEditor.
@@ -17,7 +17,7 @@ Stato al 3 novembre 2026, sera. Ultimo commit su `dev`: vedi `git log`. Il lavor
   - una scheda normale (negli UiTests).
   - Corretti dopo il controllo: la tabella che usciva dal riquadro, la traccia principale che finiva sotto le varianti, il breadcrumb "…Andata".
 - **Sito pubblico**: è servito da Render ed è ancora alla versione precedente. Il commit `130dfdf9`, che aveva l'errore 500, non risulta online: `/escursioni/calambrone2` risponde 200 e il nuovo URL di Sestola dà 404. **Render pubblica a ogni push senza eseguire i test**: prima di pushare va lanciato `dotnet test Escursioni.Tests`.
-- **Non ancora committato.** Repository Escursioni: tutto quello che segue `130dfdf9`. Repository WikilocExporter: le modifiche sono in stage.
+- **Committato e pushato su `dev`** blocco per blocco (non su `master`).
 
 ## Come compilare e testare
 
@@ -66,8 +66,16 @@ dotnet test Escursioni.Tests
      - Val di Cecina e colline: Grotta dei Banditi 95854305, Pozzo della Campana 199207459, Strolla 200144675, Pietracassia 161387879, Parco Caselli 123535150.
      - Firenze 95117629.
    - Senza cenno storico, perché non ho trovato fonti: Collesalvetti, Faeta da Vorno, Legnaio in notturna, Grotta dei Banditi, Pozzo della Campana.
-   - Totale: 71 schede riviste, 62 con cenno storico, nessun cenno duplicato.
-   - Restano circa 193 schede (38 Apuane più le altre zone), sempre a blocchi di circa 20. Regole: fatti solo con fonte, campo vuoto se non si trova niente, H3 specifiche, `descrizione_rivista: true`, un cenno diverso per ogni scheda.
+   - Fatto il blocco 6: 18 schede invernali.
+     - Versilia, Massaciuccoli e San Rossore: 150085806, 175848151 (unita alla Via delle Erbe: varianti 219150059 e 271597191), 87478832, 100360380, 89812063, 133785834, 89289628, 150464902.
+     - Maremma: 104293519, 136252249, 104410604, 136419434, 87617094, 104346383, 104216997.
+     - Firenze e dintorni: 192547578, 97381391, 132731789.
+   - Fatto il blocco 7: 18 schede invernali.
+     - Monti Pisani: 87479120, 139784387, 142530536, 87320187, 87371988, 137174146, 153503172, 173951737, 173718340, 88745714.
+     - Lucchesia e colline: 100430333, 101451357, 261295859, 241205825, 104200262, 138768881, 228267858, 87378618.
+     - Unite come varianti, con 301 automatico: 87617225 → 87479120 (stesso caricamento), 135150055 → 173951737 (Caprona), 87376066 → 138768881 (Masso delle Fanciulle), 87479024 → 87617243 (Legnaio, stessi dati).
+   - Totale: 107 schede riviste, 86 con cenno storico, nessun cenno duplicato.
+   - Restano 151 schede su 258 principali: 6 della Lucchesia (104143205, 110932035, 188186962, 187225802, 186625004, 136075119), circa 32 di Livorno, poi le 38 delle Apuane e le altre zone. Sempre a blocchi di circa 20. Regole: fatti solo con fonte, campo vuoto se non si trova niente, H3 specifiche, `descrizione_rivista: true`, un cenno diverso per ogni scheda.
 3. **7.8 – UiTests**: erano già fuori sincrono prima di questo lavoro.
    - Baseline mobile a 450 px contro un viewport di 390.
    - Il test "dettaglio senza foto" usa uno slug non più presente nei dati di prova.

@@ -5,7 +5,7 @@
   "meta_descrizione": "Anello di 9,1 km e +501 m da Agnano alla Foce di Calci e alla Cima Stiparecca, su sentieri semplici e ben segnati, con cartelli sulla geologia dei Monti Pisani.",
   "tag": "Monti Pisani",
   "descrizione": "Percorso ad anello da Agnano passando per: - Foce Di Calci (5.2 km) Il percorso è interamente su sentieri semplici, e ben segnalati tane per il tratto che porta alla Cima stiparecca. Sul sentiero bel vedere sono presenti dei cartelli che parlano delle conformazioni roccioce. prestare attenzione al km 6.9 che il sentiero è un pò franabile ma niente di che",
-  "descrizione_html": "<h2 id=\"agno-foce-di-calci-fiume-bagni\">Escursione a Agnano - Foce Di Calci - Fiume, Bagni</h2>\r\n\r\n<h3 id=\"come-arrivare-al-punto-di-partenza\">Come Arrivare al Punto di Partenza</h3>\r\n<p>Il punto di partenza per questa bella escursione si trova ad Agnano, facilmente raggiungibile in auto. Da qui, seguire le indicazioni per i sentieri escursionistici.  È consigliabile arrivare con un mezzo per poi proseguire a piedi, per godervi appieno il percorso.</p>\r\n\r\n<h3 id=\"il-percorso-passo-per-passo\">Il Percorso Passo per Passo</h3>\r\n<p>Questo giro ad anello di 9.06 km vi porterà attraverso paesaggi mozzafiato, partendo da Agnano e arrivando fino alla foce di Calci, dove potrete ammirare il fiume e i bagni naturali. Il sentiero è prevalentemente semplice e ben segnalato, ma ci sono alcuni tratti, soprattutto nel tratto che porta alla Cima stiparecca, dove il sentiero è un po' franabile.  Avrete la possibilità di ammirare cartelli che descrivono le conformazioni rocciose della zona. Preparatevi a un'escursione di circa 3-4 ore, con un bel dislivello di 501 metri. È un'ottima escursione per chi cerca un'esperienza di trekking in montagna con panorami unici.</p>\r\n\r\n<h3 id=\"difficoltà-e-cosa-aspettarsi\">Difficoltà e Cosa Aspettarsi</h3>\r\n<p>La difficoltà di questa escursione è classificata come Media.  Richiede una buona condizione fisica e una certa familiarità con il trekking in montagna.  Il dislivello di 501 metri e alcuni tratti franabili potrebbero rappresentare una sfida per i principianti.  Tuttavia, il sentiero è ben segnalato e il panorama è più che compensare lo sforzo.</p>\r\n\r\n<h3 id=\"traccia-gps-e-informazioni-pratiche\">Traccia GPS e Informazioni Pratiche</h3>\r\n<p>Potete scaricare una traccia GPS per questa escursione per seguirla comodamente con il vostro smartphone o navigatore.  Ricordatevi di portare con voi acqua, snack, scarpe da trekking adeguate e un cappello.  Informatevi sulle condizioni meteo prima di partire.</p>\r\n\r\n<h3 id=\"informazioni-utili\">Informazioni Utili</h3>\r\n<ul>\r\n    <li><b>Distanza:</b> Circa 9.06 km (anello)</li>\r\n    <li><b>Dislivello:</b> Circa 501 metri</li>\r\n    <li><b>Difficoltà:</b> Medio</li>\r\n    <li><b>Periodo consigliato:</b> Primavera, Estate, Autunno</li>\r\n    <li><b>Punto di partenza:</b> Agnano</li>\r\n    <li><b>Comune:</b> Agnano, Toscana</li>\r\n    <li><b>Regione:</b> Italia</li>\r\n    <li><b>Tipo di sentiero:</b> Sentiero escursionistico</li>\r\n</ul>",
+  "descrizione_html": "<p>Un anello di 9 km e circa 500 metri di dislivello da Agnano alla <strong>Foce di Calci</strong>, sul Monte Pisano. Sentieri semplici e ben segnalati, tranne il tratto che porta alla Cima Stiparecca.</p>\n<h3>Il sentiero delle rocce</h3>\n<p>Sul sentiero belvedere ci sono cartelli che spiegano le formazioni rocciose del monte.</p>\n<h3>Attenzione</h3>\n<p>Al km 6,9 il sentiero è un po' franoso, niente di grave.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 9.06,
   "dislivello_m": 501,
@@ -34,6 +34,15 @@
   "sha256_payload": "029416ec89913dfeb16b0db6f899988bd318bd97e119cabc62b7d4083eff4e6d",
   "created_at": "2025-11-12T00:00:00",
   "updated_at": "2026-05-01T15:58:15",
+  "come_arrivare": "<p>Si parte da <strong>Agnano</strong> (San Giuliano Terme, PI), nel punto indicato dalle coordinate qui sotto.</p>",
+  "cenno_storico": "Le rocce del Monte Pisano hanno dato il nome a un termine della geologia: il «Verrucano», usato dal 1832 a partire dal lavoro di Paolo Savi, prende il nome dalla Rocca della Verruca. Il Monte Pisano ne è l'area tipo, cioè il luogo di riferimento per descrivere questa formazione.",
+  "fonti": [
+    {
+      "titolo": "Verrucano – Lessico stratigrafico svizzero",
+      "url": "https://www.strati.ch/en/stratigraphic/verrucano"
+    }
+  ],
+  "descrizione_rivista": true,
   "media": [
     {
       "tipo": "cover",

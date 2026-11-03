@@ -5,7 +5,7 @@
   "meta_descrizione": "Anello di 13,7 km e +397 m sul fiume Farma: Masso delle Fanciulle, Masso degli Specchi e Castello dei Vescovi. Guado facile; seconda metà tutta al sole.",
   "tag": "Lucchesia e colline toscane",
   "descrizione": "Giro molto carino dal parcheggio al primo guado ci sono circa 700mt e il guado è facile da superare all'andate il primo tratto di sentiero è prevalentemente boschivo, mentre il 2° è completamente esposto al sole. Arrivati al castello dei vescovi, c'è un bel fresco e una geocache per chi volesse cercarla, da li siamo tornati in dietro sul solito percorso fino al fiume dove abbiamo fatto uno splendido tuffo! Il Castello si trova su di una collinetta di 231 metri di altezza alla confluenza fra il Torrente Sellate ed il Botro al Rio all’interno dell’attuale foresta di Berignone. Fu fondato nel medioevo da parte dei vescovi di Volterra che ne rimasero i proprietari per secoli. E’ conosciuto fin dal 990 quando si trovava al centro di un’area intensamente popolata. Fu a lungo un centro importante per il controllo del territorio ed anche una residenza dei vescovi volterrani.",
-  "descrizione_html": "<h2 id=\"escursione-masso-delle-fanciulle-masso-degli-specchi-castello-dei-vescovi\">Escursione al Masso delle Fanciulle, Masso degli Specchi e al Castello dei Vescovi</h2>\r\n\r\n<h3 id=\"come-arrivare-al-punto-di-partenza\">Come Arrivare al Punto di Partenza</h3>\r\n\r\n<p>Il punto di partenza per questa fantastica escursione è il parcheggio a casa Montacuto, facilmente raggiungibile in auto. Da lì, seguiamo il sentiero che inizia subito dopo il parcheggio, pronto per un’avventura in montagna!</p>\r\n\r\n<h3 id=\"il-percorso-passo-per-passo\">Il Percorso Passo per Passo</h3>\r\n\r\n<p>Il sentiero inizia con un tratto boschivo che ci porta gradualmente verso l'alto. Superato il primo guado, il sentiero diventa più esposto al sole, regalando panorami spettacolari. Arrivati al Castello dei Vescovi, la temperatura si abbassa notevolmente, perfetto per una pausa. Dopo la visita al castello, ripercorriamo il sentiero fino al fiume dove ci concediamo un tuffo rinfrescante! Il percorso è un anello che ci riporta al punto di partenza.</p>\r\n\r\n<h3 id=\"difficoltà-e-cosa-aspettarsi\">Difficoltà e Cosa Aspettarsi</h3>\r\n\r\n<p>Questa escursione è di difficoltà <strong>media</strong>. Il dislivello totale è di circa 397 metri, quindi è necessario essere in buona forma fisica. Il sentiero è ben battuto, ma alcuni tratti sono esposti al sole, quindi è consigliabile portare acqua e protezione solare.  Preparatevi a circa 13.68 km di distanza.</p>\r\n\r\n<h3 id=\"traccia-gps-e-informazioni-pratiche\">Traccia GPS e Informazioni Pratiche</h3>\r\n\r\n<p>Per seguire il percorso, vi consiglio di utilizzare una traccia GPS.  Sarà un'escursione indimenticabile!</p>\r\n\r\n<h3 id=\"informazioni-utili\">Informazioni Utili</h3>\r\n\r\n<ul >\r\n  <li><strong>Distanza:</strong> Circa 13.68 km (anello)</li>\r\n  <li><strong>Dislivello:</strong> Circa 397 metri</li>\r\n  <li><strong>Difficoltà:</strong> Media</li>\r\n  <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>\r\n  <li><strong>Punto di partenza:</strong> Parcheggio a Casa Montacuto, accessibile in auto</li>\r\n  <li><strong>Comune:</strong> Casa Montacuto, Toscana</li>\r\n  <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>\r\n</ul>",
+  "descrizione_html": "<p>Un anello di 13,7 km e circa 400 metri di dislivello dal <strong>Masso delle Fanciulle</strong> sul fiume Cecina al <strong>Castello dei Vescovi</strong>, nella foresta di Berignone. L'ho fatto due volte, nel 2021 e nel 2023: trovi le tracce nella tabella.</p>\n<h3>Il guado e il bosco</h3>\n<p>Dal parcheggio al primo guado ci sono circa 700 metri; il guado è facile. Il primo tratto di sentiero è nel bosco, il secondo tutto al sole. A tratti si passa tra i vigneti e si vedono volpi e fagiani.</p>\n<h3>Il Castello dei Vescovi</h3>\n<p>Al castello si sta al fresco, e c'è una geocache per chi vuole cercarla. Il castello sta su una collinetta di 231 metri alla confluenza tra il torrente Sellate e il Botro al Rio.</p>\n<h3>Il tuffo al ritorno</h3>\n<p>Si torna sullo stesso percorso fino al fiume, dove l'acqua è sempre fresca: un tuffo splendido, e nel fiume ci sono tante trote. Lo sconsiglio in piena estate per il sole del secondo tratto: meglio primavera o autunno.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 13.68,
   "dislivello_m": 397,
@@ -34,6 +34,18 @@
   "sha256_payload": "66c89c8e7aced26e39b67e6f941690f5de4321a6bcc3527d58197ef7aa44ff52",
   "created_at": "2025-11-12T00:00:00",
   "updated_at": "2026-05-01T15:58:15",
+  "varianti": [
+    87376066
+  ],
+  "come_arrivare": "<p>Si parte dal parcheggio sul fiume Cecina, vicino al <strong>Masso delle Fanciulle</strong> (Pomarance, PI), nel punto indicato dalle coordinate qui sotto.</p>",
+  "cenno_storico": "Il Castello dei Vescovi, detto anche Torraccia, compare per la prima volta nell'896, quando Adalberto marchese di Toscana lo donò ad Alboino, vescovo di Volterra. Fu fortezza e residenza dei vescovi, che qui amministravano la giustizia e battevano moneta. Nel 1361 Berignone si ribellò a Volterra, nel 1399 fu occupato dai senesi e da allora cominciò il declino: oggi ne restano solo le rovine.",
+  "fonti": [
+    {
+      "titolo": "Berignone, Rocca dei Vescovi – Castelli Toscani",
+      "url": "https://www.castellitoscani.com/berignone.htm"
+    }
+  ],
+  "descrizione_rivista": true,
   "media": [
     {
       "tipo": "cover",
