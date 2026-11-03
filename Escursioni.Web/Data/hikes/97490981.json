@@ -5,7 +5,7 @@
   "meta_descrizione": "Giro breve di 2,7 km a Montenero: santuario e monumento a Ciano, con un sentiero nel bosco. Si allunga facilmente fino al vecchio faro o al Castellaccio.",
   "tag": "Livorno e costa toscana",
   "descrizione": "Il percorso è molto semplice da fare, secondo me con un allungata al vecchio faro li vicino, oppure proseguendo verso il Castellaccio. Qua visitiamo il santuario di Montenero è il monumento a Ciano, dietro il monumento parte un sentiero secondario immerso nella natura, pieno di asparagi.",
-  "descrizione_html": "<h2 id=\"montenero-ciano\">Escursione a Montenero da Ciano: Un Anello Facile tra Storia e Natura</h2>\r\n\r\n<h3 id=\"come-arrivare-al-punto-di-partenza\">Come Arrivare al Punto di Partenza</h3>\r\n<p>Il punto di partenza per questa bella escursione è a Ciano, un caratteristico borgo nel cuore della Val d'Arbia. Raggiungibile in auto tramite strade secondarie, Ciano offre un facile parcheggio nei pressi del centro. Da qui, il sentiero inizia direttamente dal paese, seguendo un percorso ben segnalato.</p>\r\n\r\n<h3 id=\"il-percorso-passo-per-passo\">Il Percorso Passo per Passo</h3>\r\n<p>Questo anello escursionistico di circa 2,7 km è perfetto per una giornata all'aria aperta. Iniziando da Ciano, il sentiero sale gradualmente attraverso un boschetto di faggi, offrendo già un primo splendido panorama sulla Val d'Arbia. Proseguendo, si raggiunge il Santuario di Montenero, un luogo di grande importanza storica e religiosa. Da qui, si può scegliere di allungare il giro visitando il vecchio faro, oppure proseguire verso il Castellaccio, immergendosi in un sentiero secondario che si snoda tra la natura, ricco di asparagi e altri tesori vegetali. Un'escursione davvero varia e suggestiva!</p>\r\n\r\n<h3 id=\"difficoltà-e-cosa-aspettarsi\">Difficoltà e Cosa Aspettarsi</h3>\r\n<p>Questa escursione è classificata come <strong>Facile</strong>, adatta a famiglie, bambini e a chiunque cerchi un percorso piacevole e senza particolari difficoltà. Il dislivello di circa 143 metri è contenuto, rendendo il sentiero accessibile anche a chi non ha molta esperienza di trekking.</p>\r\n\r\n<h3 id=\"traccia-gps-e-informazioni-pratiche\">Traccia GPS e Informazioni Pratiche</h3>\r\n<p>Per orientarsi meglio durante l'escursione, ti consiglio di scaricare una traccia GPS disponibile online. In alternativa, segui attentamente le segnaletiche presenti lungo il sentiero.  L'escursione offre ampie possibilità di allungo e permette di personalizzare il percorso in base ai propri interessi e capacità.</p>\r\n\r\n<h3 id=\"informazioni-utili\">Informazioni Utili</h3>\r\n<ul>\r\n    <li><strong>Distanza:</strong> Circa 2.69 km (anello)</li>\r\n    <li><strong>Dislivello:</strong> Circa 143 metri</li>\r\n    <li><strong>Difficoltà:</strong> Facile</li>\r\n    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>\r\n    <li><strong>Punto di partenza:</strong> Ciano, accessibile in auto</li>\r\n    <li><strong>Comune:</strong> Montenero, Toscana</li>\r\n    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>\r\n    <li><strong>Parco Nazionale:</strong> Non applicabile</li>\r\n</ul>",
+  "descrizione_html": "<p>Un anello facile di 2,7 km a <strong>Montenero</strong>, tra il Santuario e il <strong>monumento a Ciano</strong>. Si può allungare fino al vecchio faro lì vicino o proseguire verso il Castellaccio.</p>\n<h3>Il santuario e il monumento</h3>\n<p>Si visitano il Santuario di Montenero e il monumento a Ciano. Dietro il monumento parte un sentiero secondario nel bosco, pieno di asparagi.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 2.69,
   "dislivello_m": 143,
@@ -34,6 +34,15 @@
   "sha256_payload": "12608bd332d3ed5ebca4fc5f9e3cacb97b6903450ea4a468d5fb219298fdfd75",
   "created_at": "2025-11-15T00:00:00",
   "updated_at": "2026-05-01T15:58:15",
+  "come_arrivare": "<p>Si parte da <strong>Montenero</strong> (Livorno), nel punto indicato dalle coordinate qui sotto. Al santuario si arriva anche con la funicolare.</p>",
+  "cenno_storico": "Il «monumento a Ciano» è il mausoleo incompiuto di Costanzo Ciano, gerarca fascista livornese morto nel 1939, sul Monte Burrone. Il progetto era dello scultore Arturo Dazzi con l'architetto Gaetano Rapisardi: una statua di Ciano alta 12 metri e un faro di 54. Il cantiere, partito nel 1941, fu fermato dopo il 25 luglio 1943; prima di andarsene i tedeschi fecero saltare il moncone del faro.",
+  "fonti": [
+    {
+      "titolo": "Il mausoleo incompiuto di Costanzo Ciano a Livorno – Finestre sull'Arte",
+      "url": "https://www.finestresullarte.info/viaggi/tra-le-rovine-del-fascismo-il-mausoleo-incompiuto-di-costanzo-ciano-a-livorno"
+    }
+  ],
+  "descrizione_rivista": true,
   "media": [
     {
       "tipo": "cover",

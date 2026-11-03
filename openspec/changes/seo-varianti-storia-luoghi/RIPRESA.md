@@ -8,7 +8,7 @@ Stato al 3 novembre 2026, sera. Ultimo commit su `dev`: vedi `git log`. Il lavor
   - varianti con 301 e correzione del WikilocExporter;
   - sezioni "Come arrivare" e "Cenno storico";
   - pagina del Rifugio del Freo;
-  - testi riscritti per 107 schede (blocchi 1-7);
+  - testi riscritti per 127 schede (blocchi 1-8);
   - README;
   - introduzione di `/escursioni` generata dai dati;
   - nuovi campi modificabili dal MigrationEditor.
@@ -74,8 +74,13 @@ dotnet test Escursioni.Tests
      - Monti Pisani: 87479120, 139784387, 142530536, 87320187, 87371988, 137174146, 153503172, 173951737, 173718340, 88745714.
      - Lucchesia e colline: 100430333, 101451357, 261295859, 241205825, 104200262, 138768881, 228267858, 87378618.
      - Unite come varianti, con 301 automatico: 87617225 → 87479120 (stesso caricamento), 135150055 → 173951737 (Caprona), 87376066 → 138768881 (Masso delle Fanciulle), 87479024 → 87617243 (Legnaio, stessi dati).
-   - Totale: 107 schede riviste, 86 con cenno storico, nessun cenno duplicato.
-   - Restano 151 schede su 258 principali: 6 della Lucchesia (104143205, 110932035, 188186962, 187225802, 186625004, 136075119), circa 32 di Livorno, poi le 38 delle Apuane e le altre zone. Sempre a blocchi di circa 20. Regole: fatti solo con fonte, campo vuoto se non si trova niente, H3 specifiche, `descrizione_rivista: true`, un cenno diverso per ogni scheda.
+   - Fatto il blocco 8: 20 schede invernali.
+     - Lucchesia e colline: Monte Acuto 104143205, Gusciane 186625004, Pomaia 187225802, cascate di Santa Luce 188186962, Croce di Brancoli 136075119, Scesta 110932035.
+     - Isole e costa sud: Volterraio 289135430, Capraia 87616854, Suvereto 164830675, Monte Pelato 167204875 e 88260398.
+     - Monti Livornesi: 87377309, Monte Carvoli 135432935, Calignaia 102949526, Castellaccio–Quercianella 87617083, Gabbro 109999488, Buca dei Banditi 87616811 e 87371842, Montenero 97490981 e 97480494.
+     - Unite come varianti: 88150266 → 87377309 (stessa uscita caricata due volte) e 87377819 → 87478668 (Sambuca, stessa uscita; la scheda va ancora riscritta).
+   - Totale: 127 schede riviste, 95 con cenno storico, nessun cenno duplicato.
+   - Restano 129 schede su 256 principali: 16 di Livorno (Valle Benedetta, Sambuca, Val di Chioma, Botro del Diavolo, Pian di Rota, Marina di Pisa…), poi le 38 delle Apuane e le altre zone. Sempre a blocchi di circa 20. Regole: fatti solo con fonte, campo vuoto se non si trova niente, H3 specifiche, `descrizione_rivista: true`, un cenno diverso per ogni scheda.
 3. **7.8 – UiTests**: erano già fuori sincrono prima di questo lavoro.
    - Baseline mobile a 450 px contro un viewport di 390.
    - Il test "dettaglio senza foto" usa uno slug non più presente nei dati di prova.

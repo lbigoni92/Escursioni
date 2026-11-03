@@ -5,7 +5,7 @@
   "meta_descrizione": "Anello facile di 6,3 km e +311 m dal parcheggio di Gabbro al Poggio d'Arco, fatto la sera prima della sagra del cinghiale. Facile da seguire, poca erba alta.",
   "tag": "Livorno e costa toscana",
   "descrizione": "Siamo partiti dal parcheggio Gabbro e da li abbiamo iniziato un anello improvvisato prima della sagra del Cinghiale. Il giro si è rivelato molto carino e facile da seguire, in un paio di punti c'era un po di erba alta, ma niente di che. Ci sono diversi punti dov'è possibile godere di un panorama Unico nel suo genere. Dopo il giro, Siamo andati alla sagra nel paese a cena, se passate da quelle parti possate anche sul monte Pelato. c'è un grandissimo parcheggio dove lasciare l'auto... e subito a inizio percorso c'è una fontanella, potete andare anche con le scarpe da tennis .",
-  "descrizione_html": "<h2 id=\"gabbro-anello-serale-poggio-darco\">Escursione al Gabbro: Anello Serale a Poggio D'Arco</h2>\r\n\r\n<h3 id=\"come-arrivare-al-punto-di-partenza\">Come Arrivare al Punto di Partenza</h3>\r\n<p>Il punto di partenza di questa bella escursione è il parcheggio \"Gabbro\", situato nel comune di Gabbro, in provincia di Toscana. L'accessibile in auto e, per i più avventurosi, anche a piedi. Particolare attenzione c'è una fontanella subito all'inizio del sentiero per rinfrescarsi.</p>\r\n\r\n<h3 id=\"il-percorso-passo-per-passo\">Il Percorso Passo per Passo</h3>\r\n<p>Abbiamo intrapreso un anello improvvisato partendo dal parcheggio Gabbro. Il sentiero è facile da seguire, anche se in alcuni punti l'erba alta potrebbe rendere il percorso un po' impegnativo. L'escursione è un'ottima opportunità per godere di panorami unici. Il giro è stato un'esperienza piacevole e rilassante, perfetta per una serata in montagna. La sagra del Cinghiale, tenutasi nel paese, ci ha offerto una cena gustosa.</p>\r\n\r\n<h3 id=\"difficoltà-e-cosa-aspettarsi\">Difficoltà e Cosa Aspettarsi</h3>\r\n<p>Questa escursione è di <strong>facile</strong> difficoltà, adatta a tutti, anche a chi non ha molta esperienza. Il dislivello è di circa 311 metri, rendendo il percorso accessibile a persone di diverse età e condizioni fisiche. La distanza dell'anello è di 6.3 km.</p>\r\n\r\n<h3 id=\"traccia-gps-e-informazioni-pratiche\">Traccia GPS e Informazioni Pratiche</h3>\r\n<p>Sarà disponibile presto una traccia GPS per facilitare l'escursione. Ti consigliamo di indossare scarpe da trekking adatte e di portare con te acqua e snack. Ricorda di rispettare l'ambiente e di lasciare i sentieri puliti.</p>\r\n\r\n<h3 id=\"informazioni-utili\">Informazioni Utili</h3>\r\n<ul>\r\n    <li><strong>Distanza:</strong> Circa 6.3 km (anello)</li>\r\n    <li><strong>Dislivello:</strong> Circa 311 metri</li>\r\n    <li><strong>Difficoltà:</strong> Facile</li>\r\n    <li><strong>Periodo consigliato:</strong> Primavera, Estate, Autunno</li>\r\n    <li><strong>Punto di partenza:</strong> Parcheggio Gabbro, Gabbro, Toscana</li>\r\n    <li><strong>Comune:</strong> Gabbro, Toscana</li>\r\n    <li><strong>Tipo di sentiero:</strong> Sentiero escursionistico</li>\r\n</ul>",
+  "descrizione_html": "<p>Un anello serale facile di 6,3 km dal <strong>Gabbro</strong> al <strong>Poggio d'Arco</strong>, improvvisato prima della sagra del cinghiale.</p>\n<h3>Il giro</h3>\n<p>Molto carino e facile da seguire; in un paio di punti c'era un po' d'erba alta. Ci sono diversi punti con un panorama unico. Si può fare anche con le scarpe da ginnastica.</p>\n<h3>Parcheggio e acqua</h3>\n<p>Al Gabbro c'è un parcheggio grandissimo, e all'inizio del percorso c'è una fontanella. Se passi da quelle parti, vale la pena salire anche sul Monte Pelato.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 6.3,
   "dislivello_m": 311,
@@ -34,6 +34,15 @@
   "sha256_payload": "125ea1d4b5611ba4a99c0d8a9fafedcdb17372d19eb6ca447fce28794a7e03eb",
   "created_at": "2025-11-14T00:00:00",
   "updated_at": "2026-05-01T15:58:15",
+  "come_arrivare": "<p>Si parte dal parcheggio del <strong>Gabbro</strong> (Rosignano Marittimo, LI), nel punto indicato dalle coordinate qui sotto.</p>",
+  "cenno_storico": "Il gabbro, una roccia magmatica scura usata dai geologi di tutto il mondo, prende il nome proprio da questo paese. Il termine si usava già negli anni Sessanta del Settecento per alcune rocce delle ofioliti dell'Appennino; nel 1809 il geologo tedesco Leopold von Buch lo adottò in modo più preciso per queste rocce italiane.",
+  "fonti": [
+    {
+      "titolo": "Gabbro – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gabbro"
+    }
+  ],
+  "descrizione_rivista": true,
   "media": [
     {
       "tipo": "foto",
