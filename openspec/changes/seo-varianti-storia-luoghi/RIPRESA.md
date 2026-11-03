@@ -112,4 +112,4 @@ Sono nella sezione "Modifiche in corso d'opera" di `design.md`.
 
 ## Monitoraggio fino al rilascio
 
-Il rilascio su `master` è previsto per la prima settimana di dicembre 2026. Fino ad allora niente su `master`. Fotografia di partenza, export di Search Console da fare e registro delle modifiche: [docs/seo/MONITORAGGIO.md](../../../docs/seo/MONITORAGGIO.md).
+Il rilascio su `master` è previsto per la prima settimana di dicembre 2026. Fino ad allora niente su `master`. Fotografia di partenza, export di Search Console da fare e registro delle modifiche: [docs/seo/README.md](../../../docs/seo/README.md) (procedura) e [docs/seo/STORICO.md](../../../docs/seo/STORICO.md) (andamento).
