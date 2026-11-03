@@ -3,7 +3,14 @@
 <li id="@Model.Anchor">
     <span class="peak-quota">@(Model.QuotaM is int q ? HikeDisplay.Meters(q) : "–")</span>
     <div>
-        <strong class="peak-name">@Model.Nome</strong>
+        @if (Model.Scheda != null)
+        {
+            <strong class="peak-name"><a href="@Model.Url" title="@Model.Scheda.Nome: storia, sentieri ed escursioni">@Model.Nome</a></strong>
+        }
+        else
+        {
+            <strong class="peak-name">@Model.Nome</strong>
+        }
         @if (Model.Zona != null || !string.IsNullOrEmpty(Model.Parco))
         {
             <span class="peak-place">

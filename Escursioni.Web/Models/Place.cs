@@ -31,6 +31,36 @@ public class Place
     /// <summary>Id dell'elemento nella pagina dell'elenco: /vette#node-123456.</summary>
     [JsonIgnore]
     public string Anchor => Osm.Replace('/', '-');
+
+    /// <summary>Scheda scritta a mano (Data/luoghi-schede), se il luogo ha una pagina propria.</summary>
+    [JsonIgnore]
+    public PlaceSheet? Scheda { get; set; }
+
+    /// <summary>Pagina del luogo se ha una scheda, altrimenti la sua riga nell'elenco del tipo.</summary>
+    [JsonIgnore]
+    public string Url => Scheda != null ? $"/{Type.Slug}/{Scheda.Slug}" : $"/{Type.Slug}#{Anchor}";
+}
+
+/// <summary>
+/// Pagina di un luogo importante, da Data/luoghi-schede/{slug}.json: testo con dati stabili
+/// (quota, storia, sentieri di accesso) presi online e sempre con le fonti. Orari e contatti
+/// non si copiano: si linka chi li tiene aggiornati.
+/// </summary>
+public class PlaceSheet
+{
+    /// <summary>Nome del file senza .json: URL /{tipo}/{slug}.</summary>
+    [JsonIgnore]
+    public string Slug { get; set; } = string.Empty;
+    /// <summary>Elemento OSM del luogo in luoghi.json, es. "way/259894228".</summary>
+    public string Osm { get; set; } = string.Empty;
+    /// <summary>Nome completo per H1 e title (OSM a volte ha solo il cognome: "Giuseppe Del Freo").</summary>
+    public string Nome { get; set; } = string.Empty;
+    public string TitoloSeo { get; set; } = string.Empty;
+    public string MetaDescrizione { get; set; } = string.Empty;
+    public string TestoHtml { get; set; } = string.Empty;
+    public List<Fonte> Fonti { get; set; } = new();
+    /// <summary>Dove trovare orari, aperture e telefono aggiornati (sito ufficiale o elenco del CAI).</summary>
+    public Fonte? Contatti { get; set; }
 }
 
 /// <summary>

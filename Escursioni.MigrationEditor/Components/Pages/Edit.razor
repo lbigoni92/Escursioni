@@ -235,6 +235,31 @@
                     }
                 </fieldset>
 
+                @* Come arrivare, cenno storico e fonti (sezioni della scheda sul sito) *@
+                @{ var colArrivo = "come_arrivare"; var colStoria = "cenno_storico"; var paroleStoria = WordCount(GetVal(colStoria)); }
+                <fieldset style="border:1px solid #dee2e6;border-radius:4px;padding:0.25rem 0.4rem;margin-bottom:0.4rem;">
+                    <legend style="font-weight:bold;font-size:0.7rem;padding:0 0.2rem;">Come arrivare e cenno storico</legend>
+                    <div style="display:flex;gap:0.4rem;">
+                        <div style="flex:1;">
+                            <label style="display:block;font-size:0.65rem;color:#888;">@MigrationParserService.ColumnLabel(colArrivo): paese, strada, parcheggio. Le coordinate le aggiunge il sito dal GPX.</label>
+                            <textarea rows="3" style="width:100%;padding:2px 4px;border:1px solid #ccc;border-radius:2px;font-family:monospace;font-size:0.75rem;"
+                                      value="@GetVal(colArrivo)" @onchange="(e => SetValue(colArrivo, e.Value?.ToString()))">@GetVal(colArrivo)</textarea>
+                        </div>
+                        <div style="flex:1;">
+                            <label style="display:block;font-size:0.65rem;color:@(paroleStoria > 100 ? "#dc3545" : "#888");">@MigrationParserService.ColumnLabel(colStoria): solo fatti con fonte, max 100 parole (@paroleStoria)</label>
+                            <textarea rows="3" style="width:100%;padding:2px 4px;border:1px solid #ccc;border-radius:2px;font-size:0.8rem;"
+                                      value="@GetVal(colStoria)" @onchange="(e => SetValue(colStoria, e.Value?.ToString()))">@GetVal(colStoria)</textarea>
+                        </div>
+                    </div>
+                    <label style="display:block;font-size:0.65rem;color:#888;">Fonti, una per riga: Titolo | https://...</label>
+                    <textarea rows="2" style="width:100%;padding:2px 4px;border:1px solid #ccc;border-radius:2px;font-size:0.75rem;"
+                              value="@_mf.FontiText" @onchange="(e => SetFonti(e.Value?.ToString()))">@_mf.FontiText</textarea>
+                    <label style="font-size:0.7rem;">
+                        <input type="checkbox" checked="@IsRivista" @onchange="SetRivista" />
+                        @MigrationParserService.ColumnLabel("descrizione_rivista"): il WikilocExporter non sovrascrive la descrizione HTML
+                    </label>
+                </fieldset>
+
                 @* Date + Coordinate + ReadOnly in una riga *@
                 <div style="display:flex;gap:0.4rem;margin-bottom:0.4rem;">
                     <fieldset style="flex:1;border:1px solid #dee2e6;border-radius:4px;padding:0.25rem 0.4rem;">
@@ -531,6 +556,19 @@
         _mf.HikeValues[col] = string.IsNullOrWhiteSpace(val) ? null : val;
         UpdatePreview();
     }
+
+    private void SetFonti(string? text)
+    {
+        if (_mf == null) return;
+        _mf.FontiText = text ?? "";
+        UpdatePreview();
+    }
+
+    private static int WordCount(string text) => text.Split(' ', '\n', '\r', '\t').Count(w => w.Length > 0);
+
+    private bool IsRivista => GetVal("descrizione_rivista") == "true";
+
+    private void SetRivista(ChangeEventArgs e) => SetValue("descrizione_rivista", e.Value is true ? "true" : null);
 
     private void UpdatePreview()
     {

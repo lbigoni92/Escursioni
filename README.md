@@ -48,6 +48,11 @@ dist/  (HTML + sitemap.xml + feed/rss + _redirects + _headers + media)
 - **Pagine legali**: `/privacy` e `/note-legali` (noindex, linkate nel footer). Cloudflare Web Analytics (snippet nel `_Layout.cshtml`, incluso solo in ambiente Production: l'export del deploy usa `--no-launch-profile`) è citato sempre: se lo disattivi, toglilo dalla privacy. Se aggiungi un servizio esterno (embed, font, CDN) va citato nella privacy.
 - **Slug**: le lettere accentate vengono eliminate (`più` → `pi`), come faceva il vecchio server in produzione. Sono gli URL indicizzati: non cambiare `MakeSlug` senza aggiungere redirect 301.
 - **Titoli uguali**: se un'escursione ha lo stesso titolo di una precedente (in ordine di `created_at`), il suo slug riceve mese e anno (`calambrone-marzo-2019`), poi il `wikiloc_id`. Gli URL già pubblicati non cambiano.
+- **Escursioni ripetute (varianti)**: un'escursione fatta più volte ha una sola pagina. La principale elenca le altre volte in `"varianti": [wikiloc_id, ...]` e i JSON di quelle volte stanno in `Data/hikes-varianti/`. La pagina mostra "Le volte che l'ho fatta" (tabella e tracce colorate sulla mappa), i vecchi URL delle varianti fanno 301 alla principale (generati da `HikeRepository.Redirects`, senza toccare `redirects.json`) e le varianti non compaiono in sitemap, ricerca, RSS ed elenchi. Km e dislivello in home le contano; la stessa traccia caricata due volte su Wikiloc (stessa data e stessi km) conta una volta sola.
+  - Per unire un'escursione: sposta il JSON della ripetizione in `hikes-varianti` e aggiungi il suo id a `varianti` della principale. Gli slug si calcolano su principali e varianti insieme, quindi gli URL esistenti restano quelli.
+  - `"slug": "..."` nel JSON sceglie l'URL a mano; il vecchio slug calcolato fa 301 al nuovo.
+- **Come arrivare e cenno storico**: campi facoltativi del JSON. `come_arrivare` (HTML) va nella sezione "Come arrivare e parcheggio", insieme alle coordinate del punto di partenza lette dal GPX. `cenno_storico` (testo, massimo 100 parole) compare solo se c'è e richiede almeno una fonte in `fonti: [{ "titolo", "url" }]`, con URL https. Con `"descrizione_rivista": true` la descrizione è considerata riscritta a mano: niente intestazioni standard ("Il percorso passo per passo", ...) e l'exporter non la sovrascrive. I test controllano queste regole.
+- **Pagine luogo**: un luogo di `luoghi.json` può avere una pagina propria (`/rifugi/rifugio-del-freo`) con una scheda in `Data/luoghi-schede/{slug}.json`: `osm` (lo stesso id di `luoghi.json`), `nome`, `titolo_seo`, `meta_descrizione`, `testo_html`, `fonti` e `contatti` (dove trovare orari e telefono aggiornati, invece di copiarli). La pagina elenca tutte le escursioni che passano dal luogo ed è linkata dall'elenco del tipo e dal riquadro "Sul percorso". Solo dati stabili presi da fonti verificabili, sempre citate.
 
 ### Aggiungere o aggiornare un'escursione
 1. Esegui WikilocExporter dalla sua cartella (`dotnet run`). Con `SiteDir` impostato scrive direttamente in `Escursioni.Web/Data/hikes/` e `Escursioni.Web/wwwroot/media/`, e genera le varianti `.thumb.webp`/`.gallery.webp`.
@@ -58,9 +63,10 @@ dist/  (HTML + sitemap.xml + feed/rss + _redirects + _headers + media)
    - Il download dei GPX su Wikiloc è protetto da Cloudflare Turnstile: se l'exporter non riesce a scaricarlo, scaricalo a mano dal browser e salvalo in `Escursioni.Web/wwwroot/media/gpx/{wikiloc_id}.gpx` (il log indica link e percorso). I GPX già presenti non vengono riscaricati.
    - Cookie e user agent vanno in `WikilocExporter/appsconfig.local.json` (escluso da git), non in `appsconfig.json`.
    - Se su Wikiloc non è cambiato nulla, il JSON non viene toccato (quindi `updated_at` e la data nella sitemap restano uguali).
-   - `titolo_seo`, `meta_descrizione`, `tag` e `created_at` già presenti vengono mantenuti.
-2. (Opzionale) rifinisci SEO e descrizioni con il MigrationEditor.
-3. `git commit` + `git push` su `master`: Render ripubblica il sito; GitHub Actions aggiorna vette/rifugi/passi/laghi delle escursioni nuove e il loro commit fa ripartire Render.
+   - `titolo_seo`, `meta_descrizione`, `tag` e `created_at` già presenti vengono mantenuti, come `slug`, `varianti`, `come_arrivare`, `cenno_storico` e `fonti`. Con `descrizione_rivista: true` resta anche `descrizione_html`.
+   - Le escursioni in `Data/hikes-escluse` non vengono mai riscaricate, nemmeno con `"SkipExistingHikes": false`. Quelle in `Data/hikes-varianti` neppure, tranne con `--url=`: in quel caso il JSON si aggiorna lì, senza ricomparire in `Data/hikes`.
+2. (Opzionale) rifinisci SEO e descrizioni con il MigrationEditor. Il salvataggio conserva i campi che l'editor non mostra (varianti, come arrivare, cenno storico, fonti).
+3. `git commit` + `git push` su `master`: Render ripubblica il sito; GitHub Actions aggiorna vette/rifugi/passi/laghi delle escursioni nuove e il loro commit fa ripartire Render. **Render non esegue i test**: prima del push lancia `dotnet test Escursioni.Tests`.
 
 ### Anteprima locale
 - Come server (ricarica le pagine a ogni modifica): `dotnet run --project Escursioni.Web`

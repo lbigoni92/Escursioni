@@ -193,7 +193,8 @@ public class SeoService
         var zone = HikeDisplay.Zone(hike);
         if (zone != null)
             breadcrumbs.Add((zone, $"/escursioni/zona/{TagHelper.ToSlug(zone)}"));
-        breadcrumbs.Add((hike.Titolo, ""));
+        // Con le varianti il titolo Wikiloc descrive una sola delle volte ("... - Andata"): meglio quello della pagina
+        breadcrumbs.Add((hike.AltreVolte.Count > 0 ? HikeDisplay.Title(hike) : hike.Titolo, ""));
         page.ViewData["Breadcrumbs"] = breadcrumbs;
     }
 

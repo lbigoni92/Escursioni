@@ -20,15 +20,15 @@ Per ogni file in `Data/luoghi-schede/` il sistema DEVE generare la pagina `/{tip
 - **THEN** un test fallisce indicando la scheda
 
 ### Requirement: Le pagine luogo DEVONO citare le fonti
-Ogni pagina luogo DEVE terminare con l'elenco delle fonti usate per il testo e, se presente, con il link al sito ufficiale per orari e contatti.
+Ogni pagina luogo DEVE terminare con l'elenco delle fonti usate per il testo e, se presente, con il link a chi tiene aggiornati orari e contatti.
 
 #### Scenario: Fonti
 - **WHEN** viene generata una pagina luogo
 - **THEN** in fondo c'è "Fonti" con almeno un link esterno; un test fallisce se `fonti` è vuoto
 
-#### Scenario: Sito ufficiale
-- **WHEN** la scheda contiene `sito_ufficiale`
-- **THEN** la pagina mostra "Orari e contatti aggiornati sul sito ufficiale" con il link, e non riporta orari o telefoni nel testo
+#### Scenario: Contatti
+- **WHEN** la scheda contiene `contatti` (titolo e URL di chi tiene aggiornati orari e telefono)
+- **THEN** la pagina mostra "Orari e contatti" con il link, e non riporta orari o telefoni nel testo
 
 ### Requirement: Le pagine luogo DEVONO essere raggiungibili e in sitemap
 Il sistema DEVE linkare ogni pagina luogo dall'elenco del suo tipo e dal riquadro "Sul percorso" delle schede, e includerla nella sitemap.

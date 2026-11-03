@@ -1,0 +1,61 @@
+{
+  "wikiloc_id": 87617166,
+  "titolo": "Sestola - Lago della ninfa - Andata",
+  "titolo_seo": "Lago della Ninfa da Sestola: percorso e parcheggio",
+  "meta_descrizione": "Da Sestola al Lago della Ninfa a piedi: 8,7 km in salita (+687 m) e 8,6 km di ritorno su sentieri segnati, con panorami sul Cimone. Partenza e consigli.",
+  "tag": "Appennino Tosco-Emiliano",
+  "descrizione": "Ritorno - https://www.wikiloc.com/hiking-trails/sestola-lago-della-ninfa-ritorno-87617115 Percorso molto panoramico, lo consiglio difficoltà media, si passa da sentieri ben segnati anche se in alcuni punti tosti, lo consiglio anche solamente per i bellissimi punti panoramici. Usate scarpe adeguate non è fattibile con scarpe da tennis, l'arrivo al lago della Ninfa è molto caratteristico con un paesaggio unico, noi abbiamo pranzato al rifugio della Ninfa siamo stati bene, potete vedere una foto del rifuggo in descrizione. Il ritorno è stato semplice. Vi sono qualche fontane lungo la via anche se non tutte esano aperte e distribuivano acqua nonostante fosse molto umido. Raccomando un vestiario adeguato e non troppo pesante, non è fattibile d'inverno.",
+  "descrizione_html": "<p>Da Sestola sono salito al <strong>Lago della Ninfa</strong>, sulle pendici del Monte Cimone a circa 1.500 metri: 8,7 km e quasi 700 metri di dislivello all'andata, 8,6 km quasi tutti in discesa al ritorno. Ho registrato le due metà in due tracce separate: le trovi entrambe qui sotto, nella tabella e sulla mappa.</p>\n<h3>La salita da Sestola, tra boschi e punti panoramici</h3>\n<p>I sentieri sono ben segnati, ma in alcuni punti la salita è tosta: servono scarpe da escursionismo, con le scarpe da tennis non è fattibile. Anche solo per i punti panoramici lungo la strada vale la pena farla.</p>\n<h3>Il lago e la sosta al rifugio</h3>\n<p>L'arrivo al lago è molto caratteristico, con un paesaggio unico. Noi abbiamo pranzato al rifugio sulla riva e ci siamo trovati bene.</p>\n<h3>Il ritorno a Sestola</h3>\n<p>Il ritorno è semplice, quasi tutto in discesa. Lungo la via ci sono alcune fontane, ma quando siamo passati noi non tutte davano acqua.</p>\n<h3>Quando andarci</h3>\n<p>L'ho fatta a settembre, con un'umidità molto alta: meglio un abbigliamento a strati, non troppo pesante. Non è un giro da fare d'inverno.</p>",
+  "attivita": "Tutte le Attività e Paesi",
+  "distanza_km": 8.72,
+  "dislivello_m": 687,
+  "quota_min_m": 1037,
+  "quota_max_m": 1537,
+  "tempo_min": 225,
+  "tempo_hhmm": "4:01",
+  "tempo_mov_min": 210,
+  "tempo_mov_hhmm": "3:30",
+  "coordinate_count": 2546,
+  "difficolta": "Medio",
+  "tipo_giro": "Solo andata",
+  "superficie": null,
+  "regione": "Italia",
+  "provincia": "Emilia-Romagna",
+  "comune": "Sestola",
+  "data_escursione": "2019-09-01",
+  "data_registrato": "2019-09-01",
+  "data_caricato": "2021-10-29T00:00:00",
+  "data_pubblicazione": "2021-10-29T00:00:00",
+  "url": "https://it.wikiloc.com/percorsi-escursionismo/sestola-lago-della-ninfa-andata-87617166",
+  "bbox": null,
+  "centroid_lat": 44.229946,
+  "centroid_lon": 10.770786,
+  "geom": "POINT(10.770786 44.229946)",
+  "sha256_payload": "c24746e9352febded74755413fa5cc4158f9b69485329e5118a78678fe9875a7",
+  "created_at": "2025-11-15T00:00:00",
+  "updated_at": "2026-05-01T15:58:15",
+  "slug": "lago-della-ninfa-da-sestola",
+  "varianti": [
+    87617115
+  ],
+  "come_arrivare": "<p>La traccia parte dal paese di <strong>Sestola</strong> (MO), sull'Appennino modenese: il punto esatto è nelle coordinate qui sotto. Il ritorno, nella seconda traccia, parte dal lago e riporta a Sestola.</p>",
+  "cenno_storico": "Il Lago della Ninfa, a circa 1.500 metri sulle pendici nordorientali del Monte Cimone, un tempo si chiamava Lago dei Budaloni. Il nome attuale viene dal rifugio costruito sulla riva nel 1928, che a sua volta richiamava una leggenda locale: nel lago sarebbe vissuta una ninfa bella e malvagia, che attirava cacciatori, pastori e viandanti per annegarli nei suoi gorghi.",
+  "fonti": [
+    {
+      "titolo": "A cavallo sui laghi dell'Appennino modenese – Cavallo Magazine",
+      "url": "https://cavallomagazine.it/notizie/a-cavallo-sui-laghi-dell-appennino-modenese-1-2398849"
+    }
+  ],
+  "descrizione_rivista": true,
+  "media": [
+    {
+      "tipo": "cover",
+      "path_relativo": "media/images/87617166/cover.jpg",
+      "ordine": 0,
+      "larghezza": null,
+      "altezza": null,
+      "sha256": null,
+      "filesize_bytes": null
+    }
+  ]
+}

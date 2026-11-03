@@ -61,9 +61,11 @@ public class IndexModel : PageModel
             .ToList();
         var all = await _repo.GetAllAsync(null, null);
         TotaleEscursioni = all.Count;
-        // Km e dislivello contano anche le altre volte delle escursioni ripetute: sono strada fatta davvero
-        TotaleKm = all.Concat(_repo.Varianti).Sum(h => h.DistanzaKm ?? 0);
-        TotaleDislivello = all.Concat(_repo.Varianti).Sum(h => h.DislivelloM ?? 0);
+        // Km e dislivello contano anche le altre volte delle escursioni ripetute (sono strada fatta davvero),
+        // ma una traccia caricata due volte su Wikiloc conta una volta sola
+        var uscite = all.Concat(_repo.Varianti).DistinctBy(h => (h.Principale ?? h, HikeRepository.OutingKey(h))).ToList();
+        TotaleKm = uscite.Sum(h => h.DistanzaKm ?? 0);
+        TotaleDislivello = uscite.Sum(h => h.DislivelloM ?? 0);
         if (all.MaxBy(h => h.DistanzaKm ?? 0) is { DistanzaKm: decimal km } longest)
             Record.Add(("La più lunga", HikeDisplay.Decimal1(km) + " km", longest));
         if (all.MaxBy(h => h.DislivelloM ?? 0) is { DislivelloM: int gain } steepest)

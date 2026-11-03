@@ -87,8 +87,10 @@ public class VariantTests(SiteFactory site)
 
             Assert.Contains("Le volte che l'ho fatta", html);
             var table = Regex.Match(html, @"<table class=""times-table"">.*?</table>", RegexOptions.Singleline).Value;
-            Assert.Equal(hike.AltreVolte.Count + 1, Regex.Matches(table, "<tr").Count - 1);
-            foreach (var v in hike.AltreVolte)
+            // Una riga per uscita: la stessa traccia caricata due volte su Wikiloc compare una volta sola
+            var uscite = hike.AltreVolte.Prepend(hike).DistinctBy(HikeRepository.OutingKey).ToList();
+            Assert.Equal(uscite.Count, Regex.Matches(table, "<tr").Count - 1);
+            foreach (var v in uscite)
             {
                 Assert.Contains(v.Url, table);
                 Assert.Contains($"/media/gpx/{v.WikilocId}.gpx", html);

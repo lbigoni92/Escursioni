@@ -164,7 +164,7 @@ public class DataIntegrityTests
                 continue;
             if (h.Fonti.Count == 0)
                 failures.Add($"{h.WikilocId}: cenno storico senza fonti");
-            var words = h.CennoStorico.Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries).Length;
+            var words = h.CennoStorico.Split(' ', '\n', '\r', '\t').Count(w => w.Length > 0);
             if (words > 100)
                 failures.Add($"{h.WikilocId}: cenno storico di {words} parole (max 100)");
         }

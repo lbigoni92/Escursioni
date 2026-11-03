@@ -107,3 +107,14 @@ I fatti storici e le info pratiche vengono cercati online (fonti preferite: siti
 - **[Lavoro manuale lungo per 278 schede]** → blocchi in ordine di impatto; il sito è coerente anche a metà lavoro perché i campi nuovi sono opzionali.
 - **[Descrizioni riviste bloccate rispetto a Wikiloc]** → `descrizione_rivista` è un flag esplicito; togliendolo si torna alla sincronizzazione.
 - **[Statistiche della home cambiano]** → il conteggio delle escursioni scende di 13; km e dislivello totali restano uguali.
+
+## Modifiche in corso d'opera
+
+Decisioni cambiate durante l'implementazione (novembre 2026):
+
+- **Redirect delle varianti generati dai dati** (`HikeRepository.Redirects`), non scritti in `redirects.json` (sostituisce la decisione 4). Gli slug si calcolano su principali e varianti insieme, nello stesso ordine di quando erano tutte in `Data/hikes`, quindi lo slug di una variante è esattamente il suo vecchio URL. `SiteRedirects` unisce questi redirect a quelli di `redirects.json` e risolve le catene. Anche il formato legacy `/escursioni/{id}/{slug}` porta direttamente all'URL finale.
+- **Sestola**: la principale è `87617166` (andata, parte da Sestola) invece di `87617115`, perché "Come arrivare" usa il primo punto del GPX della principale. L'URL è comunque quello scelto con `slug`.
+- **Uscite doppie**: alcune varianti sono la stessa traccia caricata due volte su Wikiloc (Colognole v1 = "Livorno Escursionismo", Colognole v2 = principale, Calambrone `88152101` = `87617278`). Restano varianti per i 301, ma `HikeRepository.OutingKey` (stessa data e stessi km) le fa contare una volta sola nella tabella e nei totali della home. Il testo "L'ho percorsa N volte" conta le date diverse, così andata e ritorno valgono come un'uscita.
+- **Pagina luogo**: al posto di `sito_ufficiale` c'è `contatti` (titolo e URL), perché per il Freo non esiste un sito ufficiale. Il link punta all'elenco rifugi del CAI Lucca, che ha i telefoni.
+- **Breadcrumb**: nelle schede con varianti mostra il titolo della pagina invece del titolo Wikiloc, che descrive una sola delle volte.
+- **MigrationEditor**: modifica `come_arrivare`, `cenno_storico`, `fonti` (una per riga, "Titolo | https://...") e `descrizione_rivista`; conserva gli altri campi che non mostra.

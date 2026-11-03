@@ -14,6 +14,9 @@ public class MigrationFile
     // Media: ogni riga è un dizionario colonna -> valore
     public List<Dictionary<string, string?>> MediaRows { get; set; } = new();
 
+    // Fonti del cenno storico, una per riga: "Titolo | https://..."
+    public string FontiText { get; set; } = string.Empty;
+
     // JSON originale del file (per anteprima)
     public string RawJson { get; set; } = string.Empty;
 }

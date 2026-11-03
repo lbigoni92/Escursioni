@@ -28,8 +28,13 @@ public class MigrationParserService
         "data_escursione", "data_registrato", "data_caricato", "data_pubblicazione",
         "url", "bbox", "centroid_lat", "centroid_lon", "geom",
         "sha256_payload",
-        "created_at", "updated_at"
+        "created_at", "updated_at",
+        "come_arrivare", "cenno_storico", "descrizione_rivista"
     ];
+
+    // Campi facoltativi: se vuoti (o false) non vengono scritti nel file
+    private static readonly HashSet<string> OptionalColumns = ["come_arrivare", "cenno_storico", "descrizione_rivista"];
+    private static readonly HashSet<string> BoolColumns = ["descrizione_rivista"];
 
     public static readonly string[] MediaColumns =
         ["tipo", "path_relativo", "ordine", "larghezza", "altezza", "sha256", "filesize_bytes"];
@@ -117,7 +122,32 @@ public class MigrationParserService
             }
         }
 
+        mf.FontiText = FontiToText(obj["fonti"] as JsonArray);
         return mf;
+    }
+
+    /// <summary>Fonti del cenno storico come testo da modificare: una per riga, "Titolo | https://...".</summary>
+    public static string FontiToText(JsonArray? fonti)
+        => string.Join("\n", (fonti ?? []).OfType<JsonObject>()
+            .Select(f => $"{NodeToString(f["titolo"])} | {NodeToString(f["url"])}"));
+
+    /// <summary>Il contrario di <see cref="FontiToText"/>; FormatException se una riga non ha un URL https.</summary>
+    public static JsonArray? TextToFonti(string? text)
+    {
+        var lines = (text ?? "").Split('\n', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+        if (lines.Length == 0)
+            return null;
+        var fonti = new JsonArray();
+        foreach (var line in lines)
+        {
+            var sep = line.LastIndexOf('|');
+            var titolo = sep > 0 ? line[..sep].Trim() : "";
+            var url = sep > 0 ? line[(sep + 1)..].Trim() : line;
+            if (titolo.Length == 0 || !url.StartsWith("https://"))
+                throw new FormatException($"Fonte \"{line}\": scrivi \"Titolo | https://...\"");
+            fonti.Add((JsonNode)new JsonObject { ["titolo"] = titolo, ["url"] = url });
+        }
+        return fonti;
     }
 
     private static string? NodeToString(JsonNode? node)
@@ -137,14 +167,20 @@ public class MigrationParserService
     {
         var obj = new JsonObject();
         foreach (var col in HikeColumns)
-            obj[col] = ToNode(col, mf.HikeValues.GetValueOrDefault(col));
+        {
+            var node = ToNode(col, mf.HikeValues.GetValueOrDefault(col));
+            if (OptionalColumns.Contains(col) && (node == null || node.GetValueKind() == JsonValueKind.False))
+                continue;
+            obj[col] = node;
+        }
+        if (TextToFonti(mf.FontiText) is { } fonti)
+            obj["fonti"] = fonti;
 
-        // Campi che l'editor non gestisce (varianti, slug, come_arrivare, cenno_storico, fonti, ...):
-        // restano come sono nel file
+        // Campi che l'editor non gestisce (varianti, slug, ...): restano come sono nel file
         if (!string.IsNullOrWhiteSpace(mf.RawJson) && JsonNode.Parse(mf.RawJson) is JsonObject original)
         {
             foreach (var (key, value) in original)
-                if (key != "media" && !obj.ContainsKey(key))
+                if (key != "media" && key != "fonti" && !HikeColumns.Contains(key))
                     obj[key] = value?.DeepClone();
         }
 
@@ -182,6 +218,9 @@ public class MigrationParserService
     {
         if (string.IsNullOrWhiteSpace(value))
             return null;
+
+        if (BoolColumns.Contains(column))
+            return JsonValue.Create(string.Equals(value.Trim(), "true", StringComparison.OrdinalIgnoreCase));
 
         if (IntegerColumns.Contains(column))
         {
@@ -252,6 +291,9 @@ public class MigrationParserService
         "titolo_seo" => "Titolo SEO",
         "created_at" => "Creato il",
         "updated_at" => "Aggiornato il",
+        "come_arrivare" => "Come arrivare (HTML)",
+        "cenno_storico" => "Cenno storico",
+        "descrizione_rivista" => "Descrizione riscritta a mano",
         _ => col
     };
 

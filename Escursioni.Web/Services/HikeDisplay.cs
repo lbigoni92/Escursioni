@@ -29,6 +29,12 @@ public static class HikeDisplay
     /// <summary>Quota o dislivello: "1.859 m".</summary>
     public static string Meters(int value) => Number(value) + " m";
 
+    public static readonly string[] Mesi =
+        ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"];
+
+    /// <summary>Mese e anno: "marzo 2019" (Wikiloc dà la data dell'escursione solo al mese).</summary>
+    public static string MonthYear(DateTime d) => $"{Mesi[d.Month - 1]} {d.Year}";
+
     /// <summary>Zona con pagina dedicata (/escursioni/zona/{slug}), oppure null.</summary>
     public static string? Zone(Hike h)
         => !string.IsNullOrWhiteSpace(h.Tag) && TagHelper.IsKnown(h.Tag) ? h.Tag : null;

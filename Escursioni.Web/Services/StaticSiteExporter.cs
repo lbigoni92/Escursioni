@@ -99,6 +99,9 @@ public sealed class StaticSiteExporter
             .Select(h => "/escursioni/" + h.Slug)
             .Distinct());
 
+        // Luoghi con una pagina propria (/rifugi/rifugio-del-freo): file rifugi/rifugio-del-freo.html accanto a rifugi.html
+        paths.AddRange(_services.GetRequiredService<PlaceRepository>().WithSheets.Select(p => p.Url));
+
         return paths;
     }
 
@@ -153,16 +156,19 @@ public sealed class StaticSiteExporter
         sb.AppendLine();
         // Le descrizioni Wikiloc linkano ancora pagine del vecchio sito (/traccia-gps-{slug}/)
         sb.AppendLine("# Vecchio sito: /traccia-gps-{slug}/ citati nelle descrizioni Wikiloc");
-        var oldPaths = _repo.All
-            .SelectMany(h => Regex.Matches(h.DescrizioneHtml ?? "", @"escursionilucabigoni\.it/traccia-gps-([a-z0-9-]+)/?"))
+        // Testo originale e HTML, varianti comprese: lo slug di una variante porta alla sua principale
+        var slugTarget = _repo.All.Concat(_repo.Varianti).ToDictionary(h => h.Slug, h => (h.Principale ?? h).Slug);
+        var oldPaths = _repo.All.Concat(_repo.Varianti)
+            .SelectMany(h => Regex.Matches((h.Descrizione ?? "") + " " + (h.DescrizioneHtml ?? ""), @"escursionilucabigoni\.it/traccia-gps-([a-z0-9-]+)/?"))
             .Select(m => m.Groups[1].Value)
-            .Where(hikeSlugs.Contains)
+            .Where(slugTarget.ContainsKey)
+            .Where(slug => !_redirects.Map.ContainsKey($"/traccia-gps-{slug}"))
             .Distinct()
             .Order();
         foreach (var slug in oldPaths)
         {
-            sb.AppendLine($"/traccia-gps-{slug} /escursioni/{slug} 301");
-            sb.AppendLine($"/traccia-gps-{slug}/ /escursioni/{slug} 301");
+            sb.AppendLine($"/traccia-gps-{slug} /escursioni/{slugTarget[slug]} 301");
+            sb.AppendLine($"/traccia-gps-{slug}/ /escursioni/{slugTarget[slug]} 301");
         }
         return sb.ToString();
     }

@@ -41,7 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 attribution: '\u00a9 OpenStreetMap contributors'
             }).addTo(map);
 
-            // Altre volte in cui ho fatto l'escursione: sotto la principale, senza marker
+            // Altre volte in cui ho fatto l'escursione: sotto la principale, senza marker.
+            // Le tracce arrivano in ordine sparso: a ogni caricamento la principale torna in primo piano.
+            var main = null;
             var bounds = null;
             function extend(b) {
                 if (!b || !b.isValid()) return;
@@ -56,10 +58,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     marker_options: { startIconUrl: null, endIconUrl: null, shadowUrl: null }
                 }).on('loaded', function(e) {
                     extend(e.target.getBounds());
+                    if (main) main.bringToFront();
                 }).addTo(map);
             });
 
-            new L.GPX(window.gpxMapConfig.gpxUrl, {
+            main = new L.GPX(window.gpxMapConfig.gpxUrl, {
                 async: true,
                 polyline_options: { color: trackColor, weight: 4, opacity: 0.9 },
                 marker_options: {

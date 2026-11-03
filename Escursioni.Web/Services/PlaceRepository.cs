@@ -12,7 +12,8 @@ public class PlaceRepository
     private readonly Dictionary<string, List<Place>> _byType;
     private readonly Dictionary<long, List<Place>> _byHike = new();
 
-    public PlaceRepository(PlaceFile file, HikeRepository hikes)
+    /// <param name="schede">Pagine dei luoghi importanti (Data/luoghi-schede), agganciate via "osm".</param>
+    public PlaceRepository(PlaceFile file, HikeRepository hikes, IEnumerable<PlaceSheet>? schede = null)
     {
         // Le tracce delle varianti contano per la pagina della loro escursione principale
         var byWikilocId = hikes.All.Concat(hikes.Varianti)
@@ -56,7 +57,26 @@ public class PlaceRepository
         }
         _byType = PlaceType.All.ToDictionary(t => t.Tipo, t => All.Where(p => p.Tipo == t.Tipo).ToList());
         Unchecked = hikes.All.Count(h => !Checked.Contains(h.WikilocId));
+
+        var byOsm = All.ToDictionary(p => p.Osm);
+        foreach (var sheet in schede ?? [])
+        {
+            if (byOsm.TryGetValue(sheet.Osm, out var place))
+                place.Scheda = sheet;
+            else
+                SchedeOrfane.Add(sheet.Slug);
+        }
     }
+
+    /// <summary>Luogo con una pagina propria (Data/luoghi-schede), dal suo URL /{tipo}/{slug}.</summary>
+    public Place? WithSheet(PlaceType type, string slug)
+        => OfType(type).FirstOrDefault(p => p.Scheda?.Slug == slug);
+
+    /// <summary>Luoghi con una pagina propria.</summary>
+    public IEnumerable<Place> WithSheets => All.Where(p => p.Scheda != null);
+
+    /// <summary>Schede il cui "osm" non è (più) in luoghi.json: nessuna pagina.</summary>
+    public List<string> SchedeOrfane { get; } = new();
 
     /// <summary>Tutti i luoghi, dal più alto al più basso.</summary>
     public IReadOnlyList<Place> All { get; }
@@ -81,5 +101,23 @@ public class PlaceRepository
         return JsonSerializer.Deserialize<PlaceFile>(stream, HikeRepository.JsonOptions) ?? new PlaceFile();
     }
 
-    public static PlaceRepository Load(string path, HikeRepository hikes) => new(ReadFile(path), hikes);
+    /// <summary>luoghi.json più le schede della cartella luoghi-schede accanto.</summary>
+    public static PlaceRepository Load(string path, HikeRepository hikes)
+        => new(ReadFile(path), hikes, ReadSheets(Path.Combine(Path.GetDirectoryName(path)!, "luoghi-schede")));
+
+    public static List<PlaceSheet> ReadSheets(string directory)
+    {
+        if (!Directory.Exists(directory))
+            return [];
+        return Directory.EnumerateFiles(directory, "*.json")
+            .Select(file =>
+            {
+                using var stream = File.OpenRead(file);
+                var sheet = JsonSerializer.Deserialize<PlaceSheet>(stream, HikeRepository.JsonOptions)
+                    ?? throw new InvalidDataException($"Scheda luogo vuota: {Path.GetFileName(file)}");
+                sheet.Slug = Path.GetFileNameWithoutExtension(file);
+                return sheet;
+            })
+            .ToList();
+    }
 }

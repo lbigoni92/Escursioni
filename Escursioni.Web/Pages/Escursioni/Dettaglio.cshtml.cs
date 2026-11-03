@@ -38,6 +38,9 @@ public class DettaglioModel : PageModel
     /// <summary>Tutte le volte (questa compresa), dalla più recente. Vuota se l'escursione non ha varianti.</summary>
     public List<Volta> Volte { get; set; } = new();
 
+    /// <summary>Uscite diverse: andata e ritorno registrate a parte contano come una sola.</summary>
+    public int Uscite => Volte.Select(v => v.Hike.DataEscursione).Distinct().Count();
+
     /// <summary>Punto di partenza: primo waypoint del GPX, altrimenti primo punto della traccia.</summary>
     public (decimal Lat, decimal Lon)? Partenza { get; set; }
 
@@ -69,7 +72,9 @@ public class DettaglioModel : PageModel
         if (Hike.AltreVolte.Count > 0)
         {
             var colore = 0;
-            Volte = Hike.AltreVolte.Append(Hike)
+            // Stessa traccia caricata due volte su Wikiloc: una riga sola (vince la principale)
+            Volte = Hike.AltreVolte.Prepend(Hike)
+                .DistinctBy(HikeRepository.OutingKey)
                 .OrderByDescending(HikeRepository.SortDate)
                 .ThenBy(v => Etichetta(v) == "ritorno" ? 1 : 0)
                 .Select(v =>

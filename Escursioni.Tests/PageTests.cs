@@ -187,7 +187,36 @@ public class PageTests(SiteFactory site)
             return;
         var html = await GetHtml("/escursioni/" + hike.Slug);
         foreach (var p in places.ForHike(hike))
-            Assert.Contains($"href=\"/{p.Type.Slug}#{p.Anchor}\"", html);
+            Assert.Contains($"href=\"{p.Url}\"", html);
+    }
+
+    [Fact]
+    public async Task PlaceSheets_HavePageWithSourcesAndHikes_LinkedFromListAndHikes()
+    {
+        var places = site.Services.GetRequiredService<PlaceRepository>();
+        Assert.Empty(places.SchedeOrfane);
+        var sitemap = await site.CreateNoRedirectClient().GetStringAsync("/sitemap.xml");
+
+        foreach (var p in places.WithSheets)
+        {
+            var html = await GetHtml(p.Url);
+            Assert.Equal($"{BaseUrl}{p.Url}", Attr(html, @"<link rel=""canonical"" href=""([^""]+)"""));
+            Assert.Equal(p.Scheda!.Nome, Attr(html, @"<h1[^>]*>\s*([^<]+?)\s*</h1>"));
+            Assert.NotEmpty(p.Scheda.Fonti);
+            Assert.All(p.Scheda.Fonti, f => Assert.StartsWith("https://", f.Url));
+            foreach (var f in p.Scheda.Fonti)
+                Assert.Contains($"href=\"{f.Url}\"", html);
+            foreach (var h in p.Hikes)
+                Assert.Contains($"href=\"/escursioni/{h.Slug}\"", html);
+            foreach (Match ld in Regex.Matches(html, @"<script type=""application/ld\+json"">(.*?)</script>", RegexOptions.Singleline))
+                JsonDocument.Parse(ld.Groups[1].Value).Dispose();
+
+            Assert.Contains($"<loc>{BaseUrl}{p.Url}</loc>", sitemap);
+            Assert.Contains($"href=\"{p.Url}\"", await GetHtml("/" + p.Type.Slug));
+            Assert.Contains($"href=\"{p.Url}\"", await GetHtml("/escursioni/" + p.Hikes[0].Slug));
+        }
+
+        await GetHtml("/rifugi/inesistente", HttpStatusCode.NotFound);
     }
 
     [Fact]
@@ -197,8 +226,10 @@ public class PageTests(SiteFactory site)
         var all = site.Repository.All;
 
         // I record personali sono nascosti per ora (commentati in Index.cshtml): qui solo totali e luoghi
-        // Il dislivello conta anche le altre volte delle escursioni ripetute
-        var gain = HikeDisplay.Number(all.Concat(site.Repository.Varianti).Sum(h => h.DislivelloM ?? 0));
+        // Il dislivello conta anche le altre volte delle escursioni ripetute, una volta sola per uscita
+        var gain = HikeDisplay.Number(all.Concat(site.Repository.Varianti)
+            .DistinctBy(h => (h.Principale ?? h, HikeRepository.OutingKey(h)))
+            .Sum(h => h.DislivelloM ?? 0));
         Assert.Contains($"<strong>{gain}</strong> m di dislivello", html);
 
         var places = site.Services.GetRequiredService<PlaceRepository>();

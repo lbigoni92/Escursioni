@@ -1,0 +1,111 @@
+@page "/{tipo:regex(^(vette|rifugi|passi|laghi)$)}/{slug}"
+@model Escursioni.Web.Pages.LuogoModel
+@{
+    var p = Model.Place;
+    var s = Model.Scheda;
+    var inv = System.Globalization.CultureInfo.InvariantCulture;
+}
+
+@section Head {
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous" />
+}
+
+<article>
+    <header class="detail-header">
+        <a class="eyebrow" href="/@p.Type.Slug" title="@p.Type.Titolo raggiunti dalle mie escursioni">@p.Type.Titolo</a>
+        <h1 class="page-title">@s.Nome</h1>
+        <dl class="stat-strip">
+            @if (p.QuotaM is int q)
+            {
+                <div><dt>Quota</dt><dd>@HikeDisplay.Meters(q)</dd></div>
+            }
+            @if (p.Zona != null)
+            {
+                <div><dt>Zona</dt><dd><a href="/escursioni/zona/@TagHelper.ToSlug(p.Zona)" title="Escursioni @p.Zona">@p.Zona</a></dd></div>
+            }
+            @if (!string.IsNullOrEmpty(p.Parco))
+            {
+                <div><dt>Parco</dt><dd>@p.Parco</dd></div>
+            }
+            <div><dt>Le mie escursioni</dt><dd>@p.Hikes.Count</dd></div>
+        </dl>
+    </header>
+
+    <div class="detail-layout">
+        <div class="detail-main">
+            <section class="section prose">
+                @Html.Raw(s.TestoHtml)
+            </section>
+
+            @if (s.Fonti.Count > 0)
+            {
+                <section class="section" aria-labelledby="fonti">
+                    <h2 id="fonti">Fonti</h2>
+                    <ul class="sources">
+                        @foreach (var f in s.Fonti)
+                        {
+                            <li><a href="@f.Url" target="_blank" rel="noopener">@f.Titolo</a></li>
+                        }
+                    </ul>
+                </section>
+            }
+        </div>
+
+        <aside class="detail-aside">
+            <section class="panel" aria-labelledby="dove">
+                <h2 id="dove">Dove si trova</h2>
+                <div id="leaflet-place-map" class="map-box map-box--small"></div>
+                <p class="panel-note">Coordinate: <strong>@p.Lat.ToString(inv), @p.Lon.ToString(inv)</strong></p>
+                <p class="panel-note">
+                    <a class="btn-secondary" href="https://www.google.com/maps?q=@p.Lat.ToString(inv),@p.Lon.ToString(inv)" target="_blank" rel="noopener" title="Apri @s.Nome su Google Maps">Apri su Google Maps</a>
+                </p>
+            </section>
+            @if (s.Contatti != null)
+            {
+                <section class="panel" aria-labelledby="contatti">
+                    <h2 id="contatti">Orari e contatti</h2>
+                    <p class="panel-note">Aperture, posti e telefono cambiano: controllali qui prima di partire.</p>
+                    <p class="panel-note"><a href="@s.Contatti.Url" target="_blank" rel="noopener">@s.Contatti.Titolo ↗</a></p>
+                </section>
+            }
+        </aside>
+    </div>
+</article>
+
+<section aria-labelledby="escursioni-luogo">
+    <div class="section-head">
+        <h2 id="escursioni-luogo">Le mie escursioni che passano da qui</h2>
+        <a class="section-link" href="/@p.Type.Slug" title="@p.Type.Titolo raggiunti dalle mie escursioni">@p.Type.Titolo: elenco completo →</a>
+    </div>
+    <div class="card-grid">
+        @foreach (var h in p.Hikes)
+        {
+            <partial name="_HikeCard" model="h" />
+        }
+    </div>
+</section>
+
+<p class="peak-note">
+    Nome, quota e parco: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.
+</p>
+
+@section Scripts {
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var latlng = [@p.Lat.ToString(inv), @p.Lon.ToString(inv)];
+            var map = L.map('leaflet-place-map').setView(latlng, 14);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 18,
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+            L.marker(latlng, {
+                icon: L.icon({
+                    iconUrl: '/images/markers/marker-icon-blue.png',
+                    shadowUrl: '/images/markers/marker-shadow.png',
+                    iconSize: [25, 41], iconAnchor: [12, 41], shadowSize: [41, 41]
+                })
+            }).addTo(map);
+        });
+    </script>
+}

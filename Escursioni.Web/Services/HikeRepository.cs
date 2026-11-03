@@ -85,9 +85,6 @@ public class HikeRepository : IHikeRepository
     /// <summary>301 generati dai dati: vecchi URL delle varianti e slug calcolati sostituiti da "slug".</summary>
     public IReadOnlyDictionary<string, string> Redirects => _redirects;
 
-    private static readonly string[] Mesi =
-        ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"];
-
     /// <summary>
     /// Slug dal titolo. Se un'escursione precedente (in ordine di created_at) ha già lo stesso
     /// titolo, si aggiunge mese e anno dell'escursione ("calambrone-marzo-2019"), poi il wikiloc_id.
@@ -100,7 +97,7 @@ public class HikeRepository : IHikeRepository
             return slug;
         if (h.DataEscursione is DateTime d)
         {
-            var withDate = $"{slug}-{Mesi[d.Month - 1]}-{d.Year}";
+            var withDate = $"{slug}-{HikeDisplay.Mesi[d.Month - 1]}-{d.Year}";
             if (!_usedSlugs.Contains(withDate))
                 return withDate;
         }
@@ -144,6 +141,12 @@ public class HikeRepository : IHikeRepository
 
     public static DateTime SortDate(Hike h)
         => h.DataEscursione ?? h.DataPubblicazione ?? h.DataCaricato ?? h.CreatedAt;
+
+    /// <summary>
+    /// Stessa uscita: stessa data e stessa distanza. Su Wikiloc alcune tracce sono state caricate due volte
+    /// (es. Colognole v2 e "Valle Benedetta - Acquedotto di Colognole"): contano una volta sola.
+    /// </summary>
+    public static (DateTime?, decimal?) OutingKey(Hike h) => (h.DataEscursione, h.DistanzaKm);
 
     public Task<IReadOnlyList<string>> GetDistinctDifficoltaAsync()
     {
