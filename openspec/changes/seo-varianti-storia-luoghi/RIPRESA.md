@@ -8,7 +8,7 @@ Stato al 3 novembre 2026, sera. Ultimo commit su `dev`: vedi `git log`. Il lavor
   - varianti con 301 e correzione del WikilocExporter;
   - sezioni "Come arrivare" e "Cenno storico";
   - pagina del Rifugio del Freo;
-  - testi riscritti per 236 schede (blocchi 1-14);
+  - testi riscritti per tutte le 254 schede (blocchi 1-15);
   - README;
   - introduzione di `/escursioni` generata dai dati;
   - nuovi campi modificabili dal MigrationEditor.
@@ -91,12 +91,13 @@ dotnet test Escursioni.Tests
    - Fatto il blocco 12 (priorità 1): 19 schede di Garfagnana, Panie, Forato, Abetone e Corno alle Scale. Le coppie Forato (87372356/103545524) e Pania (87371098/110604678) sono giri diversi: collegate tra loro, non unite.
    - Fatto il blocco 13 (priorità 2): 22 schede di Appennino Tosco-Emiliano e Garfagnana. Libro Aperto (227114660/176614518) e Rondinaio (107015230/99028295) non sono giri ripetuti: collegati tra loro, non uniti.
    - Fatto il blocco 14 (priorità 3): 15 schede di Lunigiana, Trentino e Veneto. Unita come variante: 181305955 → 144365959 (Stretti di Giaredo, fatti due volte). Treschietto 226767789 e Passo San Pellegrino 231290009 hanno un testo originale quasi vuoto: descritte solo con i dati della traccia.
-   - Totale: 236 schede riviste, 123 con cenno storico, nessun cenno duplicato.
+   - Fatto il blocco 15 (priorità 4): 18 schede di altre zone d'Italia ed estero. Budapest 2 (184369146) aveva solo il titolo: descritta con i dati della traccia.
+   - **Totale: tutte le 254 schede principali riviste, 129 con cenno storico, nessun cenno duplicato. Il punto 5.3 è chiuso.**
    - Ordine per le restanti 56:
      - Priorità 2: resto dell'Appennino e della Garfagnana (circa 22). Libro Aperto 227114660/176614518 e Rondinaio 107015230/99028295 sono da controllare per un'eventuale unione.
      - Priorità 3: Lunigiana (6) e Trentino-Veneto (10).
      - Priorità 4: altre zone d'Italia (7) ed Estero (11). Per i testi quasi vuoti (Budapest 2, Sulcina, Treschietto, San Pellegrino) valutare il noindex.
-   - Restano 18 schede su 254 principali (priorità 1, 2 e 3 fatte): 25 Appennino Tosco-Emiliano, 16 Garfagnana, 11 Estero, 10 Trentino e Veneto, 7 altre zone d'Italia, 6 Lunigiana. Sempre a blocchi di circa 20. Regole: fatti solo con fonte, campo vuoto se non si trova niente, H3 specifiche, `descrizione_rivista: true`, un cenno diverso per ogni scheda.
+   - Da rileggere: le schede con testo originale quasi vuoto (Sulcina 112720981, Treschietto 226767789, Passo San Pellegrino 231290009, Budapest 2 184369146) e i cenni sulle stragi (Sant'Anna, Forno, Bergiola).
 3. **7.8 – UiTests**: erano già fuori sincrono prima di questo lavoro.
    - Baseline mobile a 450 px contro un viewport di 390.
    - Il test "dettaglio senza foto" usa uno slug non più presente nei dati di prova.
