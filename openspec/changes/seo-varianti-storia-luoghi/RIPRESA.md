@@ -42,7 +42,7 @@ dotnet test Escursioni.Tests
    - 145307121 Calambrone
    - 87479081 Colognole
    - 253262610 Ferrata di Buti
-3. **5.3 – Altre schede.**
+2. **5.3 – Altre schede.**
    - Fatto il blocco 3: 20 schede delle Alpi Apuane.
      - Corchia: 88152083, 182508862, 263440573.
      - Pania: 214180956, 216388114.
@@ -53,13 +53,13 @@ dotnet test Escursioni.Tests
      - Matanna: 208649249, 164988284, 87371489.
    - Due schede del Matanna (208649249, 87371489) non hanno cenno storico: non ho trovato un fatto solido e diverso da quelli già usati.
    - Restano 38 schede Apuane e le altre zone, sempre a blocchi di circa 20. Regole: fatti solo con fonte, campo vuoto se non si trova niente, H3 specifiche, `descrizione_rivista: true`, un cenno diverso per ogni scheda.
-4. **7.8 – UiTests**: erano già fuori sincrono prima di questo lavoro.
+3. **7.8 – UiTests**: erano già fuori sincrono prima di questo lavoro.
    - Baseline mobile a 450 px contro un viewport di 390.
    - Il test "dettaglio senza foto" usa uno slug non più presente nei dati di prova.
    - Errori CORS di Cloudflare Analytics in locale.
    - Da sistemare prima di rigenerare le baseline.
-5. **7.7 – Test dell'exporter**: il repository WikilocExporter non ha un progetto di test.
-6. **8.x – Passi manuali**: Search Console e controllo del redirect da www.
+4. **7.7 – Test dell'exporter**: il repository WikilocExporter non ha un progetto di test.
+5. **8.x – Passi manuali**: Search Console e controllo del redirect da www.
 
 ## Differenze rispetto al piano
 
