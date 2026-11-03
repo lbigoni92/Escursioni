@@ -8,7 +8,7 @@ Stato al 3 novembre 2026, sera. Ultimo commit su `dev`: vedi `git log`. Il lavor
   - varianti con 301 e correzione del WikilocExporter;
   - sezioni "Come arrivare" e "Cenno storico";
   - pagina del Rifugio del Freo;
-  - testi riscritti per 163 schede (blocchi 1-10);
+  - testi riscritti per 180 schede (blocchi 1-11);
   - README;
   - introduzione di `/escursioni` generata dai dati;
   - nuovi campi modificabili dal MigrationEditor.
@@ -87,8 +87,9 @@ dotnet test Escursioni.Tests
      - Camaiore: Moriglione di Penna 97809994, Fibialla 135962013, Prana 88398726, Lucese 115177865, Prana dal Lucese 145994168, Candalla 110858919, Roccia dei Pennati 244396363, Montecastrese 168910075, Gabberi e Sant'Anna 113368838, Grotta all'Onda 243140021, Piglione 101606088, Gevoli 169560138.
      - Media Valle e Versilia: eremi di Borgo a Mozzano 188998672, Monte Costa 168612652, Cavallo d'Azzano 191352625, Monte Alto 229597917, Cardoso–San Leonardo 198605304, Malbacco 87378212, Folgorito 172845616, Palodina 173359682.
      - Unita come variante: 190245735 → 145994168 (Monte Prana dal Lucese, rifatto nel 2024).
-   - Totale: 163 schede riviste, 105 con cenno storico, nessun cenno duplicato.
-   - Restano 92 schede su 255 principali: 17 Alpi Apuane settentrionali (le prossime), 25 Appennino Tosco-Emiliano, 16 Garfagnana, 11 Estero, 10 Trentino e Veneto, 7 altre zone d'Italia, 6 Lunigiana. Sempre a blocchi di circa 20. Regole: fatti solo con fonte, campo vuoto se non si trova niente, H3 specifiche, `descrizione_rivista: true`, un cenno diverso per ogni scheda.
+   - Fatto il blocco 11: le ultime 17 schede delle Apuane (Lucchio, Prato Fiorito, Freddone x2, Brugiana-Bergiola, Macina-Sella x2, Renara, Forno x2, Colonnata, Sagro x3, Contrario, Cavallo, Pizzo d'Uccello). Le Apuane sono finite.
+   - Totale: 180 schede riviste, 110 con cenno storico, nessun cenno duplicato.
+   - Restano 75 schede su 255 principali (Apuane e invernali finite): 25 Appennino Tosco-Emiliano, 16 Garfagnana, 11 Estero, 10 Trentino e Veneto, 7 altre zone d'Italia, 6 Lunigiana. Sempre a blocchi di circa 20. Regole: fatti solo con fonte, campo vuoto se non si trova niente, H3 specifiche, `descrizione_rivista: true`, un cenno diverso per ogni scheda.
 3. **7.8 – UiTests**: erano già fuori sincrono prima di questo lavoro.
    - Baseline mobile a 450 px contro un viewport di 390.
    - Il test "dettaglio senza foto" usa uno slug non più presente nei dati di prova.
