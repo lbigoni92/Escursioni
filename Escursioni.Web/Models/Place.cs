@@ -2,12 +2,12 @@ using System.Text.Json.Serialization;
 
 namespace Escursioni.Web.Models;
 
-/// <summary>Luogo di OpenStreetMap (vetta, rifugio, passo, lago) toccato da almeno una traccia GPX. Vedi PlaceFinder.</summary>
+/// <summary>Luogo di OpenStreetMap (vetta, rifugio, passo, lago, cascata) toccato da almeno una traccia GPX. Vedi PlaceFinder.</summary>
 public class Place
 {
     /// <summary>Tipo e id dell'elemento OSM, es. "node/123456" (openstreetmap.org/node/123456).</summary>
     public string Osm { get; set; } = string.Empty;
-    /// <summary>Uno dei <see cref="PlaceType"/>: vetta, rifugio, passo, lago.</summary>
+    /// <summary>Uno dei <see cref="PlaceType"/>: vetta, rifugio, passo, lago, cascata.</summary>
     public string Tipo { get; set; } = string.Empty;
     public string Nome { get; set; } = string.Empty;
     /// <summary>Tag ele di OpenStreetMap; se manca, la quota GPX del punto della traccia più vicino.</summary>
@@ -32,13 +32,21 @@ public class Place
     [JsonIgnore]
     public string Anchor => Osm.Replace('/', '-');
 
-    /// <summary>Scheda scritta a mano (Data/luoghi-schede), se il luogo ha una pagina propria.</summary>
+    /// <summary>Scheda scritta a mano (Data/luoghi-schede): descrizione, storia e fonti. Senza scheda la pagina è noindex.</summary>
     [JsonIgnore]
     public PlaceSheet? Scheda { get; set; }
 
-    /// <summary>Pagina del luogo se ha una scheda, altrimenti la sua riga nell'elenco del tipo.</summary>
+    /// <summary>Slug della pagina: quello della scheda o, senza scheda, il nome (assegnato da PlaceRepository).</summary>
     [JsonIgnore]
-    public string Url => Scheda != null ? $"/{Type.Slug}/{Scheda.Slug}" : $"/{Type.Slug}#{Anchor}";
+    public string Slug { get; set; } = string.Empty;
+
+    /// <summary>Nome per titoli e H1: quello della scheda (OSM a volte ha solo il cognome: "Giuseppe Del Freo").</summary>
+    [JsonIgnore]
+    public string NomeCompleto => Scheda?.Nome ?? Nome;
+
+    /// <summary>Pagina del luogo, es. /vette/monte-forato.</summary>
+    [JsonIgnore]
+    public string Url => $"/{Type.Slug}/{Slug}";
 }
 
 /// <summary>
@@ -73,8 +81,10 @@ public record PlaceType(string Tipo, string Slug, string Singolare, string Titol
     public static readonly PlaceType Rifugio = new("rifugio", "rifugi", "Rifugio", "Rifugi e bivacchi", 75);
     public static readonly PlaceType Passo = new("passo", "passi", "Passo", "Passi e valichi", 50);
     public static readonly PlaceType Lago = new("lago", "laghi", "Lago", "Laghi", 100);
+    // Le cascate si guardano spesso dal sentiero o dalla pozza sotto, non dal punto esatto su OSM
+    public static readonly PlaceType Cascata = new("cascata", "cascate", "Cascata", "Cascate", 100);
 
-    public static readonly IReadOnlyList<PlaceType> All = [Vetta, Rifugio, Passo, Lago];
+    public static readonly IReadOnlyList<PlaceType> All = [Vetta, Rifugio, Passo, Lago, Cascata];
 
     public static PlaceType Get(string tipo) => All.First(t => t.Tipo == tipo);
     public static PlaceType? FromSlug(string? slug) => All.FirstOrDefault(t => t.Slug == slug);
@@ -83,6 +93,16 @@ public record PlaceType(string Tipo, string Slug, string Singolare, string Titol
 /// <summary>Contenuto di Data/luoghi.json, scritto da `dotnet run -- --luoghi`.</summary>
 public class PlaceFile
 {
+    /// <summary>
+    /// Versione delle regole con cui è stato calcolato (<see cref="Services.PlaceFinder.Versione"/>).
+    /// Se il codice ha una versione più nuova, `--luoghi` ricontrolla da solo tutte le escursioni.
+    /// </summary>
+    public int Versione { get; set; }
+    /// <summary>
+    /// Escursioni ancora da ricontrollare con la versione nuova: il ricalcolo può durare più giri
+    /// (limite di tempo su GitHub Actions). Vuoto quando il file è aggiornato.
+    /// </summary>
+    public List<string> DaRicontrollare { get; set; } = new();
     /// <summary>wikiloc_id → luoghi toccati ("node/123"). Un'escursione presente con lista vuota è già stata controllata.</summary>
     public Dictionary<string, List<string>> Escursioni { get; set; } = new();
     public List<Place> Luoghi { get; set; } = new();

@@ -1,5 +1,5 @@
 # A ogni push su master:
-# 1. luoghi: calcola vette, rifugi, passi e laghi delle escursioni nuove e committa Data/luoghi.json
+# 1. luoghi: calcola vette, rifugi, passi, laghi e cascate delle escursioni nuove e committa Data/luoghi.json
 #    (il commit fa ripartire l'auto-deploy di Render; un push fatto dal workflow non riavvia questo workflow).
 # 2. deploy: genera il sito statico e lo pubblica su Cloudflare Pages, solo se la variabile di
 #    repository CF_PAGES_PROJECT è impostata (Settings → Secrets and variables → Actions). Vedi README.
@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       tutte:
-        description: "Ricalcola vette, rifugi, passi e laghi di tutte le escursioni (es. dopo aver cambiato dei GPX)"
+        description: "Ricalcola vette, rifugi, passi, laghi e cascate di tutte le escursioni (es. dopo aver cambiato dei GPX; se cambiano le regole di estrazione, PlaceFinder.Versione, il ricalcolo parte da solo)"
         type: boolean
         default: false
 
@@ -47,7 +47,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add Escursioni.Web/Data/luoghi.json
-            git commit -m "Aggiorna vette, rifugi, passi e laghi delle escursioni nuove"
+            git commit -m "Aggiorna vette, rifugi, passi, laghi e cascate delle escursioni nuove"
             git push || echo "::warning::luoghi.json non salvato (push concorrente): verrà ricalcolato al prossimo push"
           fi
 

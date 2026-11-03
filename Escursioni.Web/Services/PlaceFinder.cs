@@ -9,12 +9,21 @@ namespace Escursioni.Web.Services;
 
 /// <summary>
 /// Comando `dotnet run -- --luoghi [--tutte]`: per ogni escursione cerca su OpenStreetMap (Overpass)
-/// vette, rifugi, passi e laghi con nome vicini alla traccia GPX (soglie in <see cref="PlaceType"/>)
+/// vette, rifugi, passi, laghi e cascate con nome vicini alla traccia GPX (soglie in <see cref="PlaceType"/>)
 /// e il parco che li contiene. Il risultato va in Data/luoghi.json, da committare.
-/// Senza --tutte controlla solo le escursioni che non sono ancora nel file: è veloce e gira anche nel deploy.
+/// Senza --tutte controlla solo le escursioni che non sono ancora nel file, più tutte le altre se le regole
+/// sono cambiate (<see cref="Versione"/>): è veloce e gira anche nel deploy.
 /// </summary>
 public static class PlaceFinder
 {
+    /// <summary>
+    /// Versione delle regole di estrazione: aumentala quando cambia cosa si legge da Overpass (tipi di luogo,
+    /// tag) o come si decide che un luogo è raggiunto (soglie in <see cref="PlaceType"/>). Al primo `--luoghi`
+    /// con la versione nuova, anche quello di GitHub Actions, tutte le escursioni vengono ricontrollate.
+    /// Storia: 2 = name:it, 3 = cascate.
+    /// </summary>
+    public const int Versione = 3;
+
     // Il server principale a volte rifiuta la connessione: si prova il mirror
     private static readonly List<string> OverpassServers =
     [
@@ -36,7 +45,15 @@ public static class PlaceFinder
         var deadline = maxTime is TimeSpan t ? DateTime.UtcNow + t : DateTime.MaxValue;
         var dataPath = Path.Combine(contentRoot, "Data", "luoghi.json");
         var previous = PlaceRepository.ReadFile(dataPath);
-        var file = all ? new PlaceFile() : previous;
+        var file = all ? new PlaceFile { Versione = Versione } : previous;
+        // Regole cambiate dall'ultimo calcolo: si ricontrollano tutte le escursioni già nel file, anche in più giri.
+        // Intanto restano i loro luoghi vecchi, ancora validi per i tipi che c'erano già.
+        if (file.Versione < Versione && file.DaRicontrollare.Count == 0)
+        {
+            file.DaRicontrollare = file.Escursioni.Keys.Order(StringComparer.Ordinal).ToList();
+            Console.WriteLine($"[Luoghi] regole cambiate (versione {file.Versione} → {Versione}): ricontrollo {file.DaRicontrollare.Count} escursioni");
+        }
+        var recheck = file.DaRicontrollare.ToHashSet();
         var places = file.Luoghi.ToDictionary(p => p.Osm);
         // Anche con --tutte i parchi già trovati si riusano: cercarli è la parte più lenta
         var knownParks = previous.Luoghi.Where(p => p.Parco != null).ToDictionary(p => p.Osm, p => p.Parco);
@@ -46,7 +63,8 @@ public static class PlaceFinder
 
         var errors = 0;
         var todo = new List<(Hike Hike, List<TrackPoint> Track)>();
-        foreach (var hike in repo.All.Concat(repo.Varianti).Where(h => !file.Escursioni.ContainsKey(h.WikilocId.ToString())))
+        foreach (var hike in repo.All.Concat(repo.Varianti)
+            .Where(h => !file.Escursioni.ContainsKey(h.WikilocId.ToString()) || recheck.Contains(h.WikilocId.ToString())))
         {
             var track = ReadTrack(Path.Combine(contentRoot, "wwwroot", "media", "gpx", $"{hike.WikilocId}.gpx"));
             if (track.Count < 2)
@@ -118,6 +136,7 @@ public static class PlaceFinder
                 });
             }
             file.Escursioni[key] = found;
+            file.DaRicontrollare.Remove(key);
             Console.WriteLine($"[Luoghi] {key} {hike.Titolo}: {(found.Count == 0 ? "nessuno" : string.Join(", ", found.Select(id => places[id].Nome)))}");
         }
 
@@ -147,6 +166,10 @@ public static class PlaceFinder
     {
         // Solo escursioni ancora presenti e luoghi ancora toccati da almeno una traccia
         var ids = repo.All.Concat(repo.Varianti).Select(h => h.WikilocId.ToString()).ToHashSet();
+        // Escursioni tolte dal sito durante un ricalcolo: non c'è più niente da ricontrollare
+        file.DaRicontrollare = file.DaRicontrollare.Where(ids.Contains).ToList();
+        if (file.DaRicontrollare.Count == 0)
+            file.Versione = Versione;
         file.Escursioni = file.Escursioni
             .Where(e => ids.Contains(e.Key))
             .OrderBy(e => e.Key, StringComparer.Ordinal)
@@ -194,8 +217,8 @@ public static class PlaceFinder
     /// </summary>
     private static async Task<List<OsmPlace>> QueryTileAsync(HttpClient http, (int Y, int X) tile)
     {
-        // Cambiare la versione della cartella quando cambia cosa si legge da Overpass (v2: name:it)
-        var cache = Path.Combine(Path.GetTempPath(), "escursioni-luoghi-v2", $"{tile.Y}_{tile.X}.json");
+        // Una cartella per versione delle regole: con regole nuove i riquadri si riscaricano
+        var cache = Path.Combine(Path.GetTempPath(), $"escursioni-luoghi-v{Versione}", $"{tile.Y}_{tile.X}.json");
         if (File.Exists(cache) && File.GetLastWriteTimeUtc(cache) > DateTime.UtcNow.AddDays(-30))
             return JsonSerializer.Deserialize<List<OsmPlace>>(await File.ReadAllTextAsync(cache))!;
         var result = await DownloadTileAsync(http, tile);
@@ -210,7 +233,7 @@ public static class PlaceFinder
         var bbox = string.Join(",",
             new[] { tile.Y * TileDeg, tile.X * TileDeg, (tile.Y + 1) * TileDeg, (tile.X + 1) * TileDeg }
                 .Select(v => v.ToString("0.###", CultureInfo.InvariantCulture)));
-        // Punti (vette, rifugi, passi) con il centro; laghi (anche bacini artificiali) con la riva
+        // Punti (vette, rifugi, passi, cascate) con il centro; laghi (anche bacini artificiali) con la riva
         var query = $"""
             [out:json][timeout:180];
             (
@@ -218,6 +241,7 @@ public static class PlaceFinder
               nwr["tourism"~"^(alpine_hut|wilderness_hut)$"]["name"]({bbox});
               node["mountain_pass"="yes"]["name"]({bbox});
               node["natural"="saddle"]["name"]({bbox});
+              node["waterway"="waterfall"]["name"]({bbox});
             );
             out center;
             (
@@ -236,6 +260,7 @@ public static class PlaceFinder
                 : Tag("tourism") is "alpine_hut" or "wilderness_hut" ? "rifugio"
                 : Tag("mountain_pass") == "yes" || Tag("natural") == "saddle" ? "passo"
                 : Tag("natural") == "water" ? "lago"
+                : Tag("waterway") == "waterfall" ? "cascata"
                 : null;
             if (tipo == null)
                 continue;

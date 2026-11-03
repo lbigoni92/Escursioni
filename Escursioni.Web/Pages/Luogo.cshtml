@@ -1,8 +1,9 @@
-@page "/{tipo:regex(^(vette|rifugi|passi|laghi)$)}/{slug}"
+@page "/{tipo:regex(^(vette|rifugi|passi|laghi|cascate)$)}/{slug}"
 @model Escursioni.Web.Pages.LuogoModel
 @{
     var p = Model.Place;
     var s = Model.Scheda;
+    var nome = p.NomeCompleto;
     var inv = System.Globalization.CultureInfo.InvariantCulture;
 }
 
@@ -13,7 +14,7 @@
 <article>
     <header class="detail-header">
         <a class="eyebrow" href="/@p.Type.Slug" title="@p.Type.Titolo raggiunti dalle mie escursioni">@p.Type.Titolo</a>
-        <h1 class="page-title">@s.Nome</h1>
+        <h1 class="page-title">@nome</h1>
         <dl class="stat-strip">
             @if (p.QuotaM is int q)
             {
@@ -34,10 +35,38 @@
     <div class="detail-layout">
         <div class="detail-main">
             <section class="section prose">
-                @Html.Raw(s.TestoHtml)
+                @if (s != null)
+                {
+                    @Html.Raw(s.TestoHtml)
+                }
+                else
+                {
+                    <p>@Model.DescrizioneAutomatica</p>
+                    <p>La descrizione, la storia e le fonti di questo luogo non sono ancora pronte: per ora trovi da dove sono partito e tutte le mie escursioni che ci passano.</p>
+                }
             </section>
 
-            @if (s.Fonti.Count > 0)
+            @if (Model.Partenze.Count > 0)
+            {
+                <section class="section" aria-labelledby="partenze">
+                    <h2 id="partenze">Da dove sono partito</h2>
+                    <p class="section-intro">Le partenze delle mie escursioni che passano da @nome. Nella scheda di ogni escursione trovi come arrivare e le coordinate esatte.</p>
+                    <ul>
+                        @foreach (var (partenza, hikes) in Model.Partenze)
+                        {
+                            <li>
+                                <strong>@partenza</strong>:
+                                @for (var i = 0; i < hikes.Count; i++)
+                                {
+                                    <a href="/escursioni/@hikes[i].Slug" title="@HikeDisplay.Title(hikes[i])">@HikeDisplay.Title(hikes[i])</a>@(i < hikes.Count - 1 ? " · " : "")
+                                }
+                            </li>
+                        }
+                    </ul>
+                </section>
+            }
+
+            @if (s != null && s.Fonti.Count > 0)
             {
                 <section class="section" aria-labelledby="fonti">
                     <h2 id="fonti">Fonti</h2>
@@ -57,10 +86,10 @@
                 <div id="leaflet-place-map" class="map-box map-box--small"></div>
                 <p class="panel-note">Coordinate: <strong>@p.Lat.ToString(inv), @p.Lon.ToString(inv)</strong></p>
                 <p class="panel-note">
-                    <a class="btn-secondary" href="https://www.google.com/maps?q=@p.Lat.ToString(inv),@p.Lon.ToString(inv)" target="_blank" rel="noopener" title="Apri @s.Nome su Google Maps">Apri su Google Maps</a>
+                    <a class="btn-secondary" href="https://www.google.com/maps?q=@p.Lat.ToString(inv),@p.Lon.ToString(inv)" target="_blank" rel="noopener" title="Apri @nome su Google Maps">Apri su Google Maps</a>
                 </p>
             </section>
-            @if (s.Contatti != null)
+            @if (s?.Contatti != null)
             {
                 <section class="panel" aria-labelledby="contatti">
                     <h2 id="contatti">Orari e contatti</h2>

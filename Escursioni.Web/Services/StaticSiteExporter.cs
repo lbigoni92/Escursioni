@@ -89,7 +89,7 @@ public sealed class StaticSiteExporter
     {
         var paths = new List<string>
         {
-            "/", "/escursioni", "/mappa", "/vette", "/rifugi", "/passi", "/laghi", "/ricerca", "/chi-sono", "/contatti", "/privacy", "/note-legali",
+            "/", "/escursioni", "/mappa", "/ricerca", "/chi-sono", "/contatti", "/privacy", "/note-legali",
             "/sitemap.xml", "/feed/rss", "/llms.txt", "/404",
         };
 
@@ -99,8 +99,10 @@ public sealed class StaticSiteExporter
             .Select(h => "/escursioni/" + h.Slug)
             .Distinct());
 
-        // Luoghi con una pagina propria (/rifugi/rifugio-del-freo): file rifugi/rifugio-del-freo.html accanto a rifugi.html
-        paths.AddRange(_services.GetRequiredService<PlaceRepository>().WithSheets.Select(p => p.Url));
+        // Elenchi per tipo (/vette, /cascate...) e la pagina di ogni luogo: file rifugi/rifugio-del-freo.html accanto a rifugi.html
+        var places = _services.GetRequiredService<PlaceRepository>();
+        paths.AddRange(Models.PlaceType.All.Select(t => "/" + t.Slug));
+        paths.AddRange(places.All.Select(p => p.Url));
 
         return paths;
     }

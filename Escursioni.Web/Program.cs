@@ -42,7 +42,7 @@ var hikesDir = Path.Combine(builder.Environment.ContentRootPath, builder.Configu
 var hikeRepository = HikeRepository.LoadFromDirectory(hikesDir);
 Console.WriteLine($"[LOG] Caricate {hikeRepository.All.Count} escursioni da {hikesDir}");
 
-// Vette, rifugi, passi e laghi (Data/luoghi.json). `dotnet run -- --luoghi` li ricava dalle tracce GPX e termina
+// Vette, rifugi, passi, laghi e cascate (Data/luoghi.json). `dotnet run -- --luoghi` li ricava dalle tracce GPX e termina
 // Opzioni: --tutte (ricalcola tutto), --minuti N (tempo massimo, poi salva e riprende al giro dopo)
 if (args.Contains("--luoghi"))
 {
@@ -52,12 +52,13 @@ if (args.Contains("--luoghi"))
 }
 var placeRepository = PlaceRepository.Load(Path.Combine(builder.Environment.ContentRootPath, "Data", "luoghi.json"), hikeRepository);
 if (placeRepository.Unchecked > 0)
-    Console.WriteLine($"[LOG] {placeRepository.Unchecked} escursioni senza vette/rifugi/passi/laghi: esegui dotnet run --project Escursioni.Web -- --luoghi");
+    Console.WriteLine($"[LOG] {placeRepository.Unchecked} escursioni senza vette/rifugi/passi/laghi/cascate: esegui dotnet run --project Escursioni.Web -- --luoghi");
 
 builder.Services.AddSingleton(hikeRepository);
 builder.Services.AddSingleton<IHikeRepository>(hikeRepository);
 builder.Services.AddSingleton(placeRepository);
-var siteRedirects = SiteRedirects.Load(Path.Combine(builder.Environment.ContentRootPath, "Data", "redirects.json"), hikeRepository.Redirects);
+var siteRedirects = SiteRedirects.Load(Path.Combine(builder.Environment.ContentRootPath, "Data", "redirects.json"),
+    hikeRepository.Redirects.Concat(placeRepository.Redirects).ToDictionary(r => r.Key, r => r.Value));
 builder.Services.AddSingleton(siteRedirects);
 builder.Services.AddScoped<SeoService>();
 builder.Services.AddSingleton<ImageVariantGenerator>();

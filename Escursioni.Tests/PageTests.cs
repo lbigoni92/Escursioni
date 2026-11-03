@@ -220,6 +220,39 @@ public class PageTests(SiteFactory site)
     }
 
     [Fact]
+    public async Task EveryPlace_HasPage_NoindexUntilItHasASheet()
+    {
+        var places = site.Services.GetRequiredService<PlaceRepository>();
+        var sitemap = await site.CreateNoRedirectClient().GetStringAsync("/sitemap.xml");
+        Assert.Equal(places.All.Count, places.All.Select(p => p.Url).Distinct().Count());
+
+        foreach (var p in places.All)
+        {
+            var html = await GetHtml(p.Url);
+            Assert.Equal(p.NomeCompleto, WebUtility.HtmlDecode(Attr(html, @"<h1[^>]*>\s*([^<]+?)\s*</h1>")));
+            foreach (var h in p.Hikes)
+                Assert.Contains($"href=\"/escursioni/{h.Slug}\"", html);
+            var robots = Attr(html, @"<meta name=""robots"" content=""([^""]+)""");
+            if (p.Scheda == null)
+            {
+                Assert.Equal("noindex, follow", robots);
+                Assert.DoesNotContain($"<loc>{BaseUrl}{p.Url}</loc>", sitemap);
+            }
+            else
+                Assert.Equal("index, follow", robots);
+        }
+
+        // Il nome di una scheda con slug diverso porta alla scheda, senza passaggi intermedi
+        var client = site.CreateNoRedirectClient();
+        foreach (var (from, to) in places.Redirects)
+        {
+            using var response = await client.GetAsync(from);
+            Assert.Equal(HttpStatusCode.MovedPermanently, response.StatusCode);
+            Assert.Equal(to, response.Headers.Location?.OriginalString);
+        }
+    }
+
+    [Fact]
     public async Task HomePage_ShowsTotalsAndPlaces()
     {
         var html = await GetHtml("/");

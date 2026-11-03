@@ -4,7 +4,7 @@ using Escursioni.Web.Models;
 namespace Escursioni.Web.Services;
 
 /// <summary>
-/// Vette, rifugi, passi e laghi raggiunti, letti da Data/luoghi.json all'avvio. Il file è generato
+/// Vette, rifugi, passi, laghi e cascate raggiunti, letti da Data/luoghi.json all'avvio. Il file è generato
 /// da PlaceFinder (`dotnet run -- --luoghi`); se manca il sito funziona lo stesso, senza luoghi.
 /// </summary>
 public class PlaceRepository
@@ -66,13 +66,50 @@ public class PlaceRepository
             else
                 SchedeOrfane.Add(sheet.Slug);
         }
+        AssignSlugs();
     }
 
-    /// <summary>Luogo con una pagina propria (Data/luoghi-schede), dal suo URL /{tipo}/{slug}.</summary>
-    public Place? WithSheet(PlaceType type, string slug)
-        => OfType(type).FirstOrDefault(p => p.Scheda?.Slug == slug);
+    /// <summary>
+    /// Ogni luogo ha una pagina /{tipo}/{slug}: lo slug della scheda o, senza scheda, il nome.
+    /// Nomi uguali nello stesso tipo (due "Monte Rondinaio") prendono la quota, poi l'id OSM.
+    /// Se la scheda ha uno slug diverso dal nome, l'URL dal nome fa 301 verso quello della scheda,
+    /// così la pagina automatica pubblicata prima della scheda non si perde.
+    /// </summary>
+    private void AssignSlugs()
+    {
+        foreach (var type in PlaceType.All)
+        {
+            var places = OfType(type);
+            var used = places.Where(p => p.Scheda != null).Select(p => p.Scheda!.Slug).ToHashSet();
+            foreach (var p in places.Where(p => p.Scheda != null))
+                p.Slug = p.Scheda!.Slug;
+            // Prima i luoghi con più escursioni: in caso di omonimi prendono lo slug più semplice
+            foreach (var p in places.Where(p => p.Scheda == null).OrderByDescending(p => p.Hikes.Count).ThenBy(p => p.Osm))
+            {
+                var name = Pages.Escursioni.IndexModel.MakeSlug(p.Nome);
+                var slug = new[] { name, $"{name}-{p.QuotaM}", $"{name}-{p.Anchor}" }.First(s => !used.Contains(s));
+                used.Add(slug);
+                p.Slug = slug;
+            }
+            foreach (var p in places.Where(p => p.Scheda != null))
+            {
+                var name = Pages.Escursioni.IndexModel.MakeSlug(p.Nome);
+                if (name != p.Slug && !used.Contains(name))
+                    _redirects[$"/{type.Slug}/{name}"] = p.Url;
+            }
+        }
+    }
 
-    /// <summary>Luoghi con una pagina propria.</summary>
+    private readonly Dictionary<string, string> _redirects = new();
+
+    /// <summary>301 dagli URL ricavati dal nome a quelli delle schede scritte a mano.</summary>
+    public IReadOnlyDictionary<string, string> Redirects => _redirects;
+
+    /// <summary>Luogo dal suo URL /{tipo}/{slug}.</summary>
+    public Place? BySlug(PlaceType type, string slug)
+        => OfType(type).FirstOrDefault(p => p.Slug == slug);
+
+    /// <summary>Luoghi con una scheda scritta a mano: le uniche pagine indicizzate e in sitemap.</summary>
     public IEnumerable<Place> WithSheets => All.Where(p => p.Scheda != null);
 
     /// <summary>Schede il cui "osm" non è (più) in luoghi.json: nessuna pagina.</summary>

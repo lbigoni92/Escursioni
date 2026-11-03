@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Escursioni.Web.Pages;
 
-/// <summary>Elenchi /vette, /rifugi, /passi, /laghi: i luoghi toccati dalle tracce GPX, dal più alto.</summary>
+/// <summary>Elenchi /vette, /rifugi, /passi, /laghi, /cascate: i luoghi toccati dalle tracce GPX, dal più alto.</summary>
 public class LuoghiModel : PageModel
 {
     private readonly PlaceRepository _places;
@@ -46,6 +46,12 @@ public class LuoghiModel : PageModel
             "Laghi",
             "I laghi raggiunti o costeggiati dalle mie escursioni, dal più alto al più basso, compresi i bacini artificiali.",
             "LakeBodyOfWater"),
+        ["cascata"] = new(
+            "Cascate lungo le mie escursioni | Escursioni Luca Bigoni",
+            "Le cascate che ho raggiunto nelle mie escursioni, in ordine di quota, con zona, parco, tracce GPS e partenze dei percorsi.",
+            "Cascate",
+            "Le cascate raggiunte dalle mie escursioni, dalla più alta alla più bassa. Danno il meglio dopo le piogge: in estate molte sono quasi in secca.",
+            "Waterfall"),
     };
 
     public PlaceType Type { get; private set; } = PlaceType.Vetta;
@@ -88,7 +94,7 @@ public class LuoghiModel : PageModel
                 {
                     ["@type"] = text.SchemaType,
                     ["name"] = p.Nome,
-                    ["url"] = $"{baseUrl}/{type.Slug}#{p.Anchor}",
+                    ["url"] = baseUrl + p.Url,
                     ["geo"] = new Dictionary<string, object?>
                     {
                         ["@type"] = "GeoCoordinates",
