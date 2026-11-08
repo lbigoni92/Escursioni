@@ -1,10 +1,18 @@
 {
+  "versione": 0,
+  "da_ricontrollare": [
+    "192547578",
+    "197643085",
+    "241205825",
+    "272655129"
+  ],
   "escursioni": {
     "100232757": [],
     "100360380": [],
     "100430333": [],
     "101049220": [
-      "node/346359651"
+      "node/346359651",
+      "node/1315327267"
     ],
     "101451357": [
       "way/157440486"
@@ -69,6 +77,7 @@
       "way/164689882",
       "way/164693939",
       "way/60442732",
+      "node/1777764253",
       "node/11828747040"
     ],
     "108074408": [
@@ -100,7 +109,9 @@
     "110719430": [
       "relation/2989153"
     ],
-    "110858919": [],
+    "110858919": [
+      "node/841829013"
+    ],
     "110932035": [],
     "112720981": [
       "node/1792306738"
@@ -150,9 +161,12 @@
       "node/8004097550"
     ],
     "122247783": [],
-    "123535150": [],
+    "123535150": [
+      "node/10712540393"
+    ],
     "123884538": [
       "node/346359651",
+      "node/1315327267",
       "node/9088935124"
     ],
     "124574099": [
@@ -341,12 +355,14 @@
     ],
     "167204875": [
       "node/607967534",
+      "node/3741142463",
       "node/6234314800"
     ],
     "168160296": [
       "node/581343403",
       "node/601467996",
       "node/601468017",
+      "node/2662936231",
       "node/5520824186",
       "node/5520824408",
       "way/259894225",
@@ -359,6 +375,7 @@
       "node/10747769829"
     ],
     "168910075": [
+      "node/841829013",
       "node/6201783189",
       "node/10617529954",
       "node/10681603017"
@@ -479,8 +496,12 @@
       "node/2451701585",
       "node/4418767472"
     ],
-    "181130960": [],
-    "181150828": [],
+    "181130960": [
+      "node/7384945078"
+    ],
+    "181150828": [
+      "node/7384936659"
+    ],
     "181293349": [],
     "181305955": [],
     "182508862": [
@@ -499,6 +520,7 @@
     "183770204": [],
     "183876035": [],
     "184187251": [
+      "node/8822124700",
       "relation/390317",
       "relation/14683628"
     ],
@@ -525,6 +547,7 @@
       "node/1877599430",
       "node/2411555127",
       "node/7944525902",
+      "node/10992205237",
       "node/14139642545"
     ],
     "187225802": [
@@ -548,7 +571,10 @@
       "node/1738570004",
       "node/1738570011",
       "node/1738570013",
-      "node/1738570015"
+      "node/1738570015",
+      "node/2150325328",
+      "node/6227305706",
+      "node/11666842942"
     ],
     "188998672": [
       "node/2856942930",
@@ -575,9 +601,12 @@
       "way/265187456"
     ],
     "197643085": [],
-    "198605304": [],
+    "198605304": [
+      "node/2662936231"
+    ],
     "199207459": [
-      "node/3042008940"
+      "node/3042008940",
+      "node/5754248220"
     ],
     "200144675": [
       "node/1712720620",
@@ -722,6 +751,7 @@
       "node/576115719",
       "node/1415786600",
       "node/1415786636",
+      "node/1438144974",
       "node/1641566893",
       "node/1641566903",
       "node/1720645470",
@@ -730,12 +760,16 @@
       "node/2172247313",
       "node/2449260731",
       "node/12863967043",
+      "node/13046603501",
       "way/162061092",
       "way/162061684",
       "way/39611430",
       "way/711260159"
     ],
-    "226767789": [],
+    "226767789": [
+      "node/9899530227",
+      "node/9904850448"
+    ],
     "227114660": [
       "node/587057383",
       "node/1728028250",
@@ -746,6 +780,8 @@
       "way/265187456"
     ],
     "227287941": [
+      "node/1438144974",
+      "node/13046603501",
       "way/157005496",
       "way/182598726"
     ],
@@ -755,7 +791,9 @@
     "229597917": [
       "node/2523473345"
     ],
-    "230008261": [],
+    "230008261": [
+      "node/1668845396"
+    ],
     "230239496": [
       "relation/18054420"
     ],
@@ -936,7 +974,13 @@
       "way/447926081"
     ],
     "270356974": [
-      "node/975348977"
+      "node/975348977",
+      "node/1607924897",
+      "node/11065866525",
+      "node/11067241719",
+      "node/11067241741",
+      "node/11067241751",
+      "node/11067241765"
     ],
     "271597191": [],
     "272489618": [
@@ -971,7 +1015,10 @@
       "node/577677431",
       "node/577763720"
     ],
-    "285160578": [],
+    "285160578": [
+      "node/521375864",
+      "node/2281940964"
+    ],
     "285365105": [
       "node/2467643928",
       "node/9270097324"
@@ -1044,7 +1091,9 @@
       "node/7252334639"
     ],
     "87377819": [],
-    "87378212": [],
+    "87378212": [
+      "node/4357350856"
+    ],
     "87378618": [
       "node/1766604517",
       "node/1766604536",
@@ -5767,6 +5816,258 @@
       "lat": 43.833174,
       "lon": 10.329698,
       "parco": "Parco Naturale di Migliarino San Rossore Massaciuccoli"
+    },
+    {
+      "osm": "node/11067241741",
+      "tipo": "cascata",
+      "nome": "cascata del Terzino",
+      "quota_m": 1323,
+      "lat": 44.162650,
+      "lon": 10.541618,
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
+    },
+    {
+      "osm": "node/1438144974",
+      "tipo": "cascata",
+      "nome": "Cascata Dardagna",
+      "quota_m": 1259,
+      "lat": 44.136538,
+      "lon": 10.811877,
+      "parco": "IT4050002 - SIC-ZPS - Parco Regionale Corno alle Scale"
+    },
+    {
+      "osm": "node/11067241751",
+      "tipo": "cascata",
+      "nome": "cascata di Sassorso",
+      "quota_m": 1234,
+      "lat": 44.165608,
+      "lon": 10.538818,
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
+    },
+    {
+      "osm": "node/13046603501",
+      "tipo": "cascata",
+      "nome": "Cascata del Dardagna",
+      "quota_m": 1227,
+      "lat": 44.137122,
+      "lon": 10.812706,
+      "parco": "IT4050002 - SIC-ZPS - Parco Regionale Corno alle Scale"
+    },
+    {
+      "osm": "node/1607924897",
+      "tipo": "cascata",
+      "nome": "Cascata della Bandita",
+      "quota_m": 1175,
+      "lat": 44.171172,
+      "lon": 10.543666,
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
+    },
+    {
+      "osm": "node/1777764253",
+      "tipo": "cascata",
+      "nome": "Cascata del Doccione",
+      "quota_m": 1155,
+      "lat": 44.227523,
+      "lon": 10.757145,
+      "parco": ""
+    },
+    {
+      "osm": "node/11067241765",
+      "tipo": "cascata",
+      "nome": "Cascata dei Rioo",
+      "quota_m": 1111,
+      "lat": 44.176546,
+      "lon": 10.551609,
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
+    },
+    {
+      "osm": "node/11065866525",
+      "tipo": "cascata",
+      "nome": "Cascata Cascadoora",
+      "quota_m": 1073,
+      "lat": 44.178394,
+      "lon": 10.556756,
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
+    },
+    {
+      "osm": "node/11067241719",
+      "tipo": "cascata",
+      "nome": "Pozza del Pisano",
+      "quota_m": 1061,
+      "lat": 44.176844,
+      "lon": 10.560992,
+      "parco": "Parco regionale dell\u0027Alto Appennino Modenese"
+    },
+    {
+      "osm": "node/7384945078",
+      "tipo": "cascata",
+      "nome": "Piscio di Pracchiola",
+      "quota_m": 731,
+      "lat": 44.434345,
+      "lon": 9.972658,
+      "parco": ""
+    },
+    {
+      "osm": "node/2662936231",
+      "tipo": "cascata",
+      "nome": "Cascata dell\u0027Acquapendente",
+      "quota_m": 543,
+      "lat": 44.018836,
+      "lon": 10.312620,
+      "parco": "Parco naturale regionale delle Alpi Apuane"
+    },
+    {
+      "osm": "node/9904850448",
+      "tipo": "cascata",
+      "nome": "Il Pisciaron del Pungitopo",
+      "quota_m": 500,
+      "lat": 44.353201,
+      "lon": 9.994993,
+      "parco": ""
+    },
+    {
+      "osm": "node/10992205237",
+      "tipo": "cascata",
+      "nome": "Cascata delle Gusciane",
+      "quota_m": 476,
+      "lat": 43.404619,
+      "lon": 10.607905,
+      "parco": ""
+    },
+    {
+      "osm": "node/1668845396",
+      "tipo": "cascata",
+      "nome": "Doppio Covolo",
+      "quota_m": 453,
+      "lat": 45.609208,
+      "lon": 10.919113,
+      "parco": "Parco delle Cascate di Molina"
+    },
+    {
+      "osm": "node/9899530227",
+      "tipo": "cascata",
+      "nome": "Cascata Redivalle",
+      "quota_m": 446,
+      "lat": 44.349797,
+      "lon": 9.993502,
+      "parco": ""
+    },
+    {
+      "osm": "node/7384936659",
+      "tipo": "cascata",
+      "nome": "Pallino",
+      "quota_m": 434,
+      "lat": 44.421129,
+      "lon": 9.937430,
+      "parco": ""
+    },
+    {
+      "osm": "node/521375864",
+      "tipo": "cascata",
+      "nome": "Cascata delle Marmore",
+      "quota_m": 360,
+      "lat": 42.551162,
+      "lon": 12.715248,
+      "parco": "Parco Fluviale del Nera"
+    },
+    {
+      "osm": "node/2150325328",
+      "tipo": "cascata",
+      "nome": "Cascata torrente La Fine",
+      "quota_m": 344,
+      "lat": 43.490251,
+      "lon": 10.612712,
+      "parco": ""
+    },
+    {
+      "osm": "node/11666842942",
+      "tipo": "cascata",
+      "nome": "Chiusa del Torrente La Fine",
+      "quota_m": 327,
+      "lat": 43.491946,
+      "lon": 10.612049,
+      "parco": ""
+    },
+    {
+      "osm": "node/5754248220",
+      "tipo": "cascata",
+      "nome": "Pozzo della campana",
+      "quota_m": 312,
+      "lat": 43.265253,
+      "lon": 10.87681,
+      "parco": ""
+    },
+    {
+      "osm": "node/4357350856",
+      "tipo": "cascata",
+      "nome": "Polle di Malbacco",
+      "quota_m": 279,
+      "lat": 44.034816,
+      "lon": 10.225653,
+      "parco": "Parco naturale regionale delle Alpi Apuane"
+    },
+    {
+      "osm": "node/2281940964",
+      "tipo": "cascata",
+      "nome": "Marmore terzo salto",
+      "quota_m": 246,
+      "lat": 42.552795,
+      "lon": 12.714634,
+      "parco": "Parco Fluviale del Nera"
+    },
+    {
+      "osm": "node/6227305706",
+      "tipo": "cascata",
+      "nome": "Cascata sul Sabbiena",
+      "quota_m": 204,
+      "lat": 43.471869,
+      "lon": 10.571449,
+      "parco": ""
+    },
+    {
+      "osm": "node/10712540393",
+      "tipo": "cascata",
+      "nome": "Cascata di Caselli",
+      "quota_m": 179,
+      "lat": 43.212581,
+      "lon": 10.696193,
+      "parco": "Riserva naturale di Monterufoli-Caselli"
+    },
+    {
+      "osm": "node/841829013",
+      "tipo": "cascata",
+      "nome": "Candalla",
+      "quota_m": 173,
+      "lat": 43.957387,
+      "lon": 10.323937,
+      "parco": ""
+    },
+    {
+      "osm": "node/3741142463",
+      "tipo": "cascata",
+      "nome": "Cascata della Mua",
+      "quota_m": 143,
+      "lat": 43.424415,
+      "lon": 10.432368,
+      "parco": ""
+    },
+    {
+      "osm": "node/8822124700",
+      "tipo": "cascata",
+      "nome": "Margitszigeti v\u00EDzes\u00E9s",
+      "quota_m": 113,
+      "lat": 47.534469,
+      "lon": 19.051622,
+      "parco": ""
+    },
+    {
+      "osm": "node/1315327267",
+      "tipo": "cascata",
+      "nome": "Cascatella dell\u0027Infernaccio sul Torrente Ugione",
+      "quota_m": 63,
+      "lat": 43.558747,
+      "lon": 10.402314,
+      "parco": ""
     }
   ]
 }
