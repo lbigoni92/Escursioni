@@ -9,7 +9,7 @@ namespace Escursioni.Web.Services;
 /// </summary>
 public static class LlmsTxt
 {
-    public static string Build(IEnumerable<ZoneSummary> zones, string baseUrl, IEnumerable<Place>? placesWithSheets = null)
+    public static string Build(IEnumerable<ZoneSummary> zones, string baseUrl, IEnumerable<Place>? placesWithSheets = null, IEnumerable<ThemeGuide>? guides = null)
     {
         var sb = new StringBuilder();
         sb.AppendLine("# Escursioni Luca Bigoni");
@@ -27,6 +27,8 @@ public static class LlmsTxt
         sb.AppendLine($"- [Passi e valichi]({baseUrl}/passi)");
         sb.AppendLine($"- [Laghi]({baseUrl}/laghi)");
         sb.AppendLine($"- [Cascate]({baseUrl}/cascate)");
+        foreach (var g in guides ?? [])
+            sb.AppendLine($"- [{g.Titolo}]({baseUrl}{g.Url}): {g.MetaDescrizione}");
         sb.AppendLine($"- [Chi sono]({baseUrl}/chi-sono)");
         sb.AppendLine($"- [Contatti]({baseUrl}/contatti)");
 

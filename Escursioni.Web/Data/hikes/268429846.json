@@ -33,7 +33,7 @@
   "geom": "POINT(13.021891 47.797079)",
   "sha256_payload": "ea5fade0edab981b6e436371356a58c80861611fe70cf20d2bb8acdaeb22d2ef",
   "created_at": "2026-06-09T00:00:00",
-  "updated_at": "2026-11-03T21:08:45",
+  "updated_at": "2026-11-09T16:30:00",
   "come_arrivare": "<p>Si parte dal quartiere di <strong>Maxglan</strong>, a Salisburgo (Austria), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -207,6 +207,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Duomo di Salisburgo fu ricostruito tra il 1614 e il 1628 su progetto di Santino Solari e consacrato nel settembre 1628, con otto giorni di festa. Qui, il 28 gennaio 1756, fu battezzato Wolfgang Amadeus Mozart, nel fonte battesimale medievale che si vede ancora. Nel 1944 una bomba danneggiò la cupola.",
+  "fonti": [
+    {
+      "titolo": "Salzburg Cathedral – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Salzburg_Cathedral"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "wikiloc_id": 106910190,
   "titolo": "Orrido di Botri",
-  "titolo_seo": "Orrido di Botri: escursione nella gola",
-  "meta_descrizione": "Escursione all'Orrido di Botri, la gola calcarea vicino a Bagni di Lucca: circa 8 km facili, con tratti nel torrente. La traccia GPS include il rientro in auto.",
+  "titolo_seo": "Orrido di Botri: quando è aperto e come si visita",
+  "meta_descrizione": "Orrido di Botri, il canyon vicino a Bagni di Lucca: apertura estiva, casco e prenotazione, partenza da Ponte a Gaio e il mio percorso di 8 km nel torrente.",
   "tag": "Appennino Tosco-Emiliano",
   "descrizione": "Percorso molto bello, la traccia.. m'ero scordato di chiuderla e quindi bhe... ha registrato fino a metà tragitto per casa, il percorso per il suo totale sono 8 KM. Molto facile lo consiglio a chiunque abbia una buona mobilitazione. La. Senzazione più bella mi è stata data dal fatto che l'ho fatto di Luglio, c'erano 18 gradi e il fresco dell' acqua ai piedi faceva tornare in forze. Il percorso è lungo un fiume e ci si bagna i piedi fino ai polpacci o fino alla vita dipende da quanto è in piena il fiume, quando sono andato io era abbastanza in secca. E' possibile farlo con visite guidate(22 a testa) o in autonomia (GRATUITO ma prenotate). Lo consiglio anche se ora hanno interrotto l'ultimo tratto \"la piscina\"",
-  "descrizione_html": "<p>Un percorso di 8 km nella gola dell'<strong>Orrido di Botri</strong>, camminando nel torrente. Facile per chi si muove bene, e perfetto d'estate: a luglio dentro c'erano 18 gradi.</p>\n<h3>Nel torrente</h3>\n<p>Si cammina lungo il fiume bagnandosi fino ai polpacci, o fino alla vita se il torrente è più carico. Quando ci sono andato io era abbastanza in secca. L'ultimo tratto, «la piscina», era stato chiuso.</p>\n<h3>Visita guidata o da soli</h3>\n<p>Si può fare con le guide (allora 22 euro a testa) o in autonomia, gratis ma con prenotazione: controlla le regole della stagione prima di andare.</p>\n<h3>La traccia</h3>\n<p>Mi ero scordato di fermare la registrazione, quindi la traccia continua per un pezzo verso casa: il percorso vero è di 8 km.</p>",
+  "descrizione_html": "<p>Un percorso di 8 km nella gola dell'<strong>Orrido di Botri</strong>, camminando nel torrente. Facile per chi si muove bene, e perfetto d'estate: a luglio dentro c'erano 18 gradi.</p>\n<h3>Nel torrente</h3>\n<p>Si cammina lungo il fiume bagnandosi fino ai polpacci, o fino alla vita se il torrente è più carico. Quando ci sono andato io era abbastanza in secca. L'ultimo tratto, «la piscina», era stato chiuso.</p>\n<h3>Visita guidata o da soli</h3>\n<p>Si può fare con le guide o in autonomia, con prenotazione: tariffe e regole della stagione sono sul sito ufficiale della riserva.</p>\n<h3>La traccia</h3>\n<p>Mi ero scordato di fermare la registrazione, quindi la traccia continua per un pezzo verso casa: il percorso vero è di 8 km.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 8,
   "dislivello_m": 285,
@@ -33,13 +33,21 @@
   "geom": "POINT(10.601293 44.083557)",
   "sha256_payload": "e778b1857cdd616a8f02edc29fac5f22ce4baff6e06d7e738f6078b06adecf7c",
   "created_at": "2025-11-14T00:00:00",
-  "updated_at": "2026-11-03T20:21:47",
-  "come_arrivare": "<p>Si parte da <strong>Ponte a Gaio</strong>, sotto Pracchi (Bagni di Lucca, LU), all'ingresso della riserva, nel punto indicato dalle coordinate qui sotto.</p>",
+  "updated_at": "2026-11-09T11:00:00",
+  "come_arrivare": "<p>Si parte da <strong>Ponte a Gaio</strong>, sotto Pracchi (Bagni di Lucca, LU), all'ingresso della riserva, nel punto indicato dalle coordinate qui sotto.</p>\n<h3>Quando è aperto e come si entra</h3>\n<ul>\n<li><strong>Stagione:</strong> la riserva apre solo d'estate, di solito da metà giugno a metà settembre, più o meno dalle 9 alle 18. In autunno e in inverno la gola è chiusa.</li>\n<li><strong>Prenotazione:</strong> si prenota sul sito ufficiale della riserva, sia per entrare da soli sia per le visite guidate.</li>\n<li><strong>Casco:</strong> è obbligatorio e si noleggia all'ingresso di Ponte a Gaio, l'unico accesso alla gola.</li>\n<li><strong>Meteo:</strong> con l'allerta gialla o superiore la riserva resta chiusa.</li>\n</ul>\n<p>Dal 2025 l'ingresso è gestito dall'associazione CanyoNatura Toscana per conto dei Carabinieri forestali. Orari, prezzi e regole cambiano ogni stagione: controllali prima di partire.</p>",
   "cenno_storico": "L'Orrido di Botri è riserva naturale dal 1971. La gola è stata scavata nel calcare dal Rio Pelago, e le sue pareti arrivano a circa 200 metri d'altezza. Nelle fessure delle rocce nidifica l'aquila reale, simbolo della riserva.",
   "fonti": [
     {
       "titolo": "Riserva naturale Orrido di Botri – Italian Botanical Heritage",
       "url": "https://luoghi.italianbotanicalheritage.com/en/?p=33765"
+    },
+    {
+      "titolo": "L'Orrido di Botri – Visit Tuscany",
+      "url": "https://www.visittuscany.com/it/attrazioni/lorrido-di-botri/"
+    },
+    {
+      "titolo": "Riserva Orrido di Botri, depliant – Reparto Carabinieri Biodiversità",
+      "url": "https://rgpbio.it/wp-content/uploads/2021/07/Depliant-OB-2.0-2_Optimizer.pdf"
     }
   ],
   "descrizione_rivista": true,

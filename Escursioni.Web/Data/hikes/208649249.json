@@ -33,7 +33,7 @@
   "geom": "POINT(10.345225 43.987862)",
   "sha256_payload": "eaa9ac782c3a183440e65607a4d80406ca16b7c75c8bd4c05fe1f6d9a1874081",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-11-08T20:00:00",
+  "updated_at": "2026-11-09T16:00:00",
   "come_arrivare": "<p>Si parte dal <strong>Rifugio Alto Matanna</strong> (circa 1.040 m), sopra Palagnana nel comune di Stazzema (LU), dove si può lasciare l'auto. Il punto esatto della mia partenza è nelle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -227,11 +227,11 @@
       "filesize_bytes": null
     }
   ],
-  "cenno_storico": "Già alla fine dell'Ottocento Palagnana era una meta di villeggiatura: una guida del 1896 la segnala come stazione climatica, con un albergo e una succursale a Pian d'Òrsina aperta d'estate, da cui partivano le gite al Matanna e al Nona.",
+  "cenno_storico": "Il Procinto fu salito per la prima volta da boscaioli nel 1848. Il percorso attrezzato, progettato dall'ingegnere Aristide Bruni, fu finito nel 1893 con i fondi dei soci del CAI di Firenze e della Stazione alpina di Lucca: è considerato la prima via ferrata d'Italia.",
   "fonti": [
     {
-      "titolo": "Le dimore estive dell'Appennino toscano (1896): Versilia – Wikisource",
-      "url": "https://it.wikisource.org/wiki/Le_dimore_estive_dell%27Appennino_toscano/Versilia/I"
+      "titolo": "Monte Procinto – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monte_Procinto"
     }
   ]
 }

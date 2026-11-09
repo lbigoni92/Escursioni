@@ -5,7 +5,7 @@
   "meta_descrizione": "Anello di 5,6 km e +106 m da Vagli di Sotto intorno al Lago di Vagli, passando sul ponte sospeso. Alla portata di tutti e facile da parcheggiare in paese.",
   "tag": "Garfagnana",
   "descrizione": "Percorso molto bello e alla portata di tutti, si passa da due punti e sopra il lago di Vagli e dal 2023 ci sarà la possibilità di utilizzare anche la zip line. Il percorso inizia da Vagli di Sotto, paese nel quale è facile trovare parcheggio, io ho lasciato la macchina accanto alla fonte del Popolo punto. Ho iniziato il sentiero dopo una due giorni impegnativa ed è stato molto rilassante per le mie gambe lo consiglio a chiunque abbia una mezz'oretta da dedicare a un percorso e non voglia fare niente di troppo complesso. Il lago di Vagli si trova nel comune di Vagli Sotto in provincia di Lucca nelle Alpi Apuane e si è formato artificialmente con lo sbarramento del Torrente Edron nel 1947 da parte della SELT Valdarno (oggi Enel s.p.a.) e la costruzione di una diga idroelettrica sul disegno del Conte Ing. Ignazio Prinetti Castelletti come ricordato da un'iscrizione fissata alla parete tra le scalinate sulla sponda ovest. Diga idroelettrica del Lago di Vagli (Italia, prov. di Lucca). Lapide commemorativa della costruzione fissata alla parete tra le scalinate sulla sponda ovest. Nel 1948 sono stati portati a termine i lavori della diga con il susseguente innalzamento a 92 metri. Le acque del lago salendo hanno sommerso alcuni borghi tra i quali il principale era Fabbriche di Careggine, piccolo borgo di fabbri ferrai bresciani, fondato nel XIII secolo, che riemerge a ogni svuotamento del lago. Il lago contiene circa 35 milioni di metri cubi d'acqua e viene svuotato eccezionalmente nel caso sia necessario un intervento di manutenzione. È avvenuto quattro volte: nel 1958, nel 1974, nel 1983 e nel 1994",
-  "descrizione_html": "<p>Un giro facile di 5,6 km da Vagli di Sotto intorno al <strong>Lago di Vagli</strong>, con il ponte sospeso. Rilassante: l'ho fatto per sciogliere le gambe dopo una due giorni impegnativa.</p>\n<h3>Parcheggio</h3>\n<p>A Vagli di Sotto si parcheggia facilmente; io ho lasciato l'auto vicino alla fonte del Popolo.</p>\n<h3>Il lago e il ponte</h3>\n<p>Il giro passa in due punti sopra il lago, compreso il ponte sospeso. Dal 2023 c'è anche la zip line.</p>",
+  "descrizione_html": "<p>Un giro facile di 5,6 km da Vagli di Sotto intorno al <strong>Lago di Vagli</strong>, con il ponte sospeso. Rilassante: l'ho fatto per sciogliere le gambe dopo una due giorni impegnativa.</p>\n<h3>Parcheggio</h3>\n<p>A Vagli di Sotto si parcheggia facilmente; io ho lasciato l'auto vicino alla fonte del Popolo.</p>\n<h3>Il lago e il ponte</h3>\n<p>Il giro passa in due punti sopra il lago, compreso il ponte sospeso. Dal 2023 c'è anche la zip line.</p>\n<h3>Quando viene svuotato il lago?</h3>\n<p>Il lago viene svuotato solo di rado, per la manutenzione della diga: l'ultima volta è stato nel 1994. Uno svuotamento era stato annunciato per il 2021, ma non si è fatto. Oggi si parla del 2027 o del 2028, senza date ufficiali: quando ci saranno, le annunceranno il Comune di Vagli Sotto ed Enel, che gestisce la diga.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 5.62,
   "dislivello_m": 106,
@@ -33,13 +33,17 @@
   "geom": "POINT(10.287842 44.108668)",
   "sha256_payload": "22264a64c7d1aae238a0ea84dd1fd32d70be90e82704b9f31feeae623825b859",
   "created_at": "2025-11-13T00:00:00",
-  "updated_at": "2026-11-03T20:21:47",
+  "updated_at": "2026-11-09T12:00:00",
   "come_arrivare": "<p>Si parte da <strong>Vagli di Sotto</strong> (Vagli Sotto, LU), vicino alla fonte del Popolo, nel punto indicato dalle coordinate qui sotto.</p>",
   "cenno_storico": "Sotto il lago c'è Fabbriche di Careggine, paese fondato nel Medioevo da fabbri ferrai venuti dal Bresciano, che producevano armi e attrezzi. Nel 1941 la Selt-Valdarno sbarrò il torrente Edron per alimentare la centrale di Torrite: il lago, 34 milioni di metri cubi dietro una diga di 92 metri, sommerse il paese, e i suoi 146 abitanti si trasferirono a Careggine e Vagli Sotto. Riemerse negli svuotamenti del 1958, 1974, 1983 e 1994.",
   "fonti": [
     {
       "titolo": "Forse potremo di nuovo visitare questo paese sommerso – Il Post",
       "url": "https://www.ilpost.it/2023/07/04/comparsa-lago-fabbriche-careggine/"
+    },
+    {
+      "titolo": "Lago di Vagli – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lago_di_Vagli"
     }
   ],
   "descrizione_rivista": true,

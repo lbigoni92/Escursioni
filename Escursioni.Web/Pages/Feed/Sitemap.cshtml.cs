@@ -11,12 +11,16 @@ public class SitemapModel : PageModel
 
     private readonly PlaceRepository _places;
 
-    public SitemapModel(IHikeRepository repo, IConfiguration config, PlaceRepository places)
+    public SitemapModel(IHikeRepository repo, IConfiguration config, PlaceRepository places, IReadOnlyList<ThemeGuide> guides)
     {
         _repo = repo;
         _config = config;
         _places = places;
+        Guides = guides;
     }
+
+    /// <summary>Guide tematiche /guide/{slug}.</summary>
+    public IReadOnlyList<ThemeGuide> Guides { get; }
 
     public string BaseUrl { get; set; } = "";
     /// <summary>/vette, /rifugi, /passi, /laghi: solo gli elenchi non vuoti.</summary>

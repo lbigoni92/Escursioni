@@ -2,7 +2,7 @@
   "wikiloc_id": 87371098,
   "titolo": "Due giorni - Pania della croce",
   "titolo_seo": "Pania della Croce in due giorni da Piglionico",
-  "meta_descrizione": "Due giorni sulla Pania della Croce: 9,7 km e +1.000 m da Piglionico, notte in tenda al Rifugio Rossi e alba in vetta. Parcheggio a pagamento, 3 € al giorno.",
+  "meta_descrizione": "Due giorni sulla Pania della Croce: 9,7 km e +1.000 m da Piglionico, notte in tenda al Rifugio Rossi e alba in vetta. Parcheggio a pagamento.",
   "tag": "Garfagnana",
   "descrizione": "partenza dalla Cappella votiva del C.A.I. 55020 Molazzana LU parcheggio a pagamento 3 euro tutto il giorno. Abbiamo preso il sentiero dove siamo arrivati al rifugio rossi e piantato le tende, in seguito abbiamo proseguito fino alla vetta dove abbiamo visto il tramonto, in seguito siamo scesi con le ultime luci. Consiglio di portare una torcia frontale bello il punto sulla salita dov'è possibile vedere della neve perenne. La mattina seguente abbiamo visto sorgere il sole in ima all' Uomo Morto, spettacolo stupendo",
   "descrizione_html": "<p>Un anello di 9,7 km e 1.000 metri di dislivello da Piglionico alla <strong>Pania della Croce</strong>, in due giorni con la notte in tenda al Rifugio Rossi, il tramonto in vetta e l'alba sull'<strong>Uomo Morto</strong>. Il giro dell'anno dopo, per la cresta est e con la Pania Secca, è nella scheda <a href=\"/escursioni/pania-della-croce-uomo-morto-pania-secca\">Pania della Croce e Pania Secca</a>.</p>\n<h3>La salita</h3>\n<p>Dalla cappella votiva del CAI di Piglionico si sale al Rifugio Rossi; montate le tende, siamo andati in vetta per il tramonto. Lungo la salita c'è un punto dove si vede neve perenne.</p>\n<h3>La discesa e l'alba</h3>\n<p>Siamo scesi con le ultime luci: porta una frontale. La mattina dopo abbiamo visto sorgere il sole in cima all'Uomo Morto: uno spettacolo.</p>",
@@ -33,8 +33,8 @@
   "geom": "POINT(10.34422 44.05273)",
   "sha256_payload": "69801e84c6e3baa56f94d97aea14f951f8d7ac637f10f0e8417b2768a4fde866",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-11-08T20:00:00",
-  "come_arrivare": "<p>Si parte dal parcheggio della cappella votiva del CAI a <strong>Piglionico</strong> (Molazzana, LU), a pagamento (allora 3 euro al giorno), nel punto indicato dalle coordinate qui sotto.</p>",
+  "updated_at": "2026-11-09T16:00:00",
+  "come_arrivare": "<p>Si parte dal parcheggio della cappella votiva del CAI a <strong>Piglionico</strong> (Molazzana, LU), a pagamento, nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
     {
@@ -47,11 +47,11 @@
       "filesize_bytes": null
     }
   ],
-  "cenno_storico": "Visto da lontano, il crinale tra la Pania della Croce e la Pania Secca sembra il profilo di un uomo sdraiato: è l'Uomo Morto. Secondo un racconto popolare era un giovane pastore che si sdraiò tra le due Panie e lì rimase immobile per amore.",
+  "cenno_storico": "Un tempo la Pania della Croce si chiamava Pietrapana, dalle «Petrae Apuanae», i monti degli Apuani. Con questo nome compare nel canto XXXII dell'Inferno: Dante scrive che il ghiaccio del Cocito è così spesso che, se ci cadesse sopra Pietrapana, non scricchiolerebbe nemmeno sull'orlo.",
   "fonti": [
     {
-      "titolo": "La Pania della Croce e l'Altopiano della Vetricia – Visit Tuscany",
-      "url": "https://www.visittuscany.com/it/offerte/la-pania-della-croce-e-laltopiano-della-vetricia/"
+      "titolo": "Pania della Croce – Wikipedia",
+      "url": "https://it.wikipedia.org/wiki/Pania_della_Croce"
     }
   ]
 }

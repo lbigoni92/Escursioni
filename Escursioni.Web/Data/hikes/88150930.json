@@ -33,7 +33,7 @@
   "geom": "POINT(10.441417 43.537354)",
   "sha256_payload": "3c2d7d1f753c9e155397348ea77f3bc6fad531121f958989438e6ed425d8ab88",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-11-08T20:00:00",
+  "updated_at": "2026-11-09T16:00:00",
   "come_arrivare": "<p>Si parte da <strong>Parrana San Martino</strong> (Collesalvetti, LI), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -47,15 +47,11 @@
       "filesize_bytes": null
     }
   ],
-  "cenno_storico": "L'acquedotto di Colognole, detto Leopoldino, porta a Livorno l'acqua delle sorgenti di Colognole per circa 18 chilometri. Sotto la direzione dell'architetto Pasquale Poccianti l'acqua arrivò in città il 30 maggio 1816, e fu la fonte principale di Livorno fino al 1912.",
+  "cenno_storico": "L'acquedotto di Colognole fu progettato in gran parte dall'architetto Pasquale Poccianti, che lo diresse dal 1809; dopo la sua morte, nel 1858, i lavori furono completati dal suo allievo Angiolo della Valle.",
   "fonti": [
     {
       "titolo": "Acquedotto Leopoldino – Museo Galileo",
       "url": "https://brunelleschi.imss.fi.it/itineraries/place/LeopoldinoAqueduct.html"
-    },
-    {
-      "titolo": "Aqueduct of Colognole – Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Aqueduct_of_Colognole"
     }
   ]
 }

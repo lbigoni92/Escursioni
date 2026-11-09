@@ -28,6 +28,14 @@
         <priority>0.6</priority>
     </url>
     }
+    @foreach (var guide in Model.Guides)
+    {
+    <url>
+        <loc>@baseUrl@guide.Url</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    }
     @foreach (var place in Model.PlacePages)
     {
     <url>

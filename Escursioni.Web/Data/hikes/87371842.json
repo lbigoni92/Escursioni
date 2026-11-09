@@ -33,7 +33,7 @@
   "geom": "POINT(10.35976 43.49502)",
   "sha256_payload": "5f10081a7eed7b9c0eebd9509967174cd3fec26877803197c7a7b6efabbb2373",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-11-08T20:00:00",
+  "updated_at": "2026-11-09T16:00:00",
   "come_arrivare": "<p>Si parte dal <strong>Castellaccio</strong>, sopra Montenero (Livorno), nel punto indicato dalle coordinate qui sotto. È un percorso di sola andata: serve un'auto all'arrivo.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -47,11 +47,11 @@
       "filesize_bytes": null
     }
   ],
-  "cenno_storico": "Al Castellaccio, in cima alle colline livornesi, nel Medioevo c'era il Castello delle Formiche, ricordato già nel 1284. Oggi accanto a dove sorgeva c'è una torre neomedievale, vicino a Villa Gower.",
+  "cenno_storico": "La collina di Montenero era chiamata anticamente «Monte del Diavolo»: il nome di oggi viene dal bosco fitto e scuro che faceva paura ai viandanti, e dove si nascondevano i briganti.",
   "fonti": [
     {
-      "titolo": "Terre di Livorno – Wikivoyage",
-      "url": "https://it.wikivoyage.org/wiki/Terre_di_Livorno"
+      "titolo": "Montenero (Livorno) – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Montenero_(Livorno)"
     }
   ]
 }

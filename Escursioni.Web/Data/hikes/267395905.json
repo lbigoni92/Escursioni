@@ -33,7 +33,7 @@
   "geom": "POINT(12.888749 46.245895)",
   "sha256_payload": "5ae618fcfb070d4b93415db3aa2cf0c14c185ffb588328b9e245f671ad3cb2ca",
   "created_at": "2026-06-09T00:00:00",
-  "updated_at": "2026-11-03T21:08:45",
+  "updated_at": "2026-11-09T16:30:00",
   "come_arrivare": "<p>Si parte dall'ingresso delle <strong>Grotte di Pradis</strong> (Clauzetto, PN), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -144,6 +144,17 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Le Grotte di Pradis si aprono lungo la forra scavata dal torrente Cosa nel calcare. Erano frequentate già nel Paleolitico medio, come rifugio per l'uomo e per l'orso delle caverne. Nella grande Grotta della Madonna c'è una statua della Vergine; la forra fu resa visitabile negli anni Venti dal parroco di Pradis, don Giacomo Bianchini.",
+  "fonti": [
+    {
+      "titolo": "Grotte Verdi di Pradis – ISPRA",
+      "url": "https://www.isprambiente.gov.it/it/attivita/museo/regioni/musei/grotte-verdi-di-pradis"
+    },
+    {
+      "titolo": "The Pradis Caves – Pordenone with love",
+      "url": "https://www.pordenonewithlove.it/en/node/102585"
     }
   ]
 }

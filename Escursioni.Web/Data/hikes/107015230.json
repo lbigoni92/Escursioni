@@ -33,7 +33,7 @@
   "geom": "POINT(10.54142 44.130803)",
   "sha256_payload": "f9ace742f643cdea1ae7e7c470914f14e18f81d1b77e6932fa75300fdbb3c645",
   "created_at": "2025-11-14T00:00:00",
-  "updated_at": "2026-11-08T20:00:00",
+  "updated_at": "2026-11-09T16:00:00",
   "come_arrivare": "<p>Si parte dal <strong>Rifugio Santi</strong>, sopra Renaio (Barga, LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -326,11 +326,11 @@
       "filesize_bytes": null
     }
   ],
-  "cenno_storico": "La storia del Lago Santo Modenese comincia in epoca longobarda e passa da Matilde di Canossa; più tardi il lago fu una postazione fortificata sulla vecchia via tra la pianura padana e la Toscana.",
+  "cenno_storico": "Il Lago Santo Modenese per secoli fece parte della comunità di Barga, e quindi del Granducato di Toscana: passò al Ducato di Modena solo con il Trattato di Firenze del 1844. Il Comune di Barga conserva ancora diritti di uso civico su quei terreni.",
   "fonti": [
     {
-      "titolo": "Sui monti Giovo e Rondinaio con grandi visuali sul Lago Santo Modenese – Montagna.tv",
-      "url": "https://www.montagna.tv/262100/sui-monti-giovo-e-rondinaio-con-grandi-visuali-sul-lago-santo-modenese/"
+      "titolo": "Lago Santo modenese – Wikipedia",
+      "url": "https://it.wikipedia.org/wiki/Lago_Santo_modenese"
     }
   ]
 }

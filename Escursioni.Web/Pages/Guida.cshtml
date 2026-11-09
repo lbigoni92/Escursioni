@@ -1,0 +1,38 @@
+@page "/guide/{slug}"
+@model Escursioni.Web.Pages.GuidaModel
+
+<article>
+    <header class="page-header">
+        <a class="eyebrow" href="/escursioni" title="Tutte le escursioni per zona">Guide</a>
+        <h1 class="page-title">@Model.Guida.Titolo</h1>
+    </header>
+
+    <section class="section prose theme-guide">
+        @Html.Raw(Model.Guida.TestoHtml)
+    </section>
+
+    @if (Model.Escursioni.Count > 0)
+    {
+        <h2>Le mie escursioni</h2>
+        ViewData["CardHeading"] = "h3";
+        <div class="card-grid">
+            @foreach (var h in Model.Escursioni)
+            {
+                <partial name="_HikeCard" model="h" />
+            }
+        </div>
+    }
+
+    @if (Model.Guida.Fonti.Count > 0)
+    {
+        <section class="section" aria-labelledby="fonti-guida">
+            <h2 id="fonti-guida">Fonti</h2>
+            <ul class="sources">
+                @foreach (var f in Model.Guida.Fonti)
+                {
+                    <li><a href="@f.Url" target="_blank" rel="noopener">@f.Titolo</a></li>
+                }
+            </ul>
+        </section>
+    }
+</article>

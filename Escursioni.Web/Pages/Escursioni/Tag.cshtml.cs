@@ -10,11 +10,17 @@ public class TagModel : PageModel
     private readonly IHikeRepository _repo;
     private readonly IConfiguration _config;
 
-    public TagModel(IHikeRepository repo, IConfiguration config)
+    private readonly IWebHostEnvironment _env;
+
+    public TagModel(IHikeRepository repo, IConfiguration config, IWebHostEnvironment env)
     {
         _repo = repo;
         _config = config;
+        _env = env;
     }
+
+    /// <summary>Testo guida della zona (Data/zone-guide), se scritto.</summary>
+    public ZoneGuide? Guida { get; private set; }
 
     [BindProperty(SupportsGet = true)]
     public string Slug { get; set; } = "";
@@ -41,6 +47,12 @@ public class TagModel : PageModel
         ViewData["Title"] = $"Escursioni {tag} | Luca Bigoni";
         // Sotto i ~155 caratteri che Google mostra nei risultati
         ViewData["MetaDescription"] = $"Escursioni {tag} con tracce GPS e foto. {TagDescription}".TrimEnd();
+        Guida = ZoneGuide.Load(_env.ContentRootPath, Slug);
+        if (Guida != null)
+        {
+            ViewData["Title"] = Guida.TitoloSeo;
+            ViewData["MetaDescription"] = Guida.MetaDescrizione;
+        }
         ViewData["CanonicalUrl"] = canonical;
         ViewData["OgType"] = "website";
         ViewData["OgImage"] = $"{baseUrl}/images/og-home.jpg";
@@ -52,7 +64,11 @@ public class TagModel : PageModel
 
         // JSON-LD CollectionPage per la zona
         var safeTag = System.Text.Json.JsonEncodedText.Encode(tag).ToString();
-        var safeDesc = System.Text.Json.JsonEncodedText.Encode(TagDescription).ToString();
+        var safeDesc = System.Text.Json.JsonEncodedText.Encode(Guida?.MetaDescrizione ?? TagDescription).ToString();
+        var citation = Guida is { Fonti.Count: > 0 }
+            ? ",\n  \"citation\": [" + string.Join(", ", Guida.Fonti.Select(f =>
+                $@"{{ ""@type"": ""CreativeWork"", ""name"": ""{System.Text.Json.JsonEncodedText.Encode(f.Titolo)}"", ""url"": ""{System.Text.Json.JsonEncodedText.Encode(f.Url)}"" }}")) + "]"
+            : "";
         ViewData["JsonLd"] = $@"{{
   ""@context"": ""https://schema.org"",
   ""@type"": ""CollectionPage"",
@@ -61,7 +77,7 @@ public class TagModel : PageModel
   ""url"": ""{canonical}"",
   ""author"": {{ ""@type"": ""Person"", ""name"": ""Luca Bigoni"", ""url"": ""{baseUrl}/chi-sono"" }},
   ""inLanguage"": ""it-IT"",
-  ""numberOfItems"": {Escursioni.Count}
+  ""numberOfItems"": {Escursioni.Count}{citation}
 }}";
 
         // Breadcrumb JSON-LD

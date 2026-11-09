@@ -25,6 +25,37 @@ public class PageTests(SiteFactory site)
         return await response.Content.ReadAsStringAsync();
     }
 
+    [Fact]
+    public async Task ZoneGuides_LinksWork_SourcesShown()
+    {
+        var html = await GetHtml("/escursioni/zona/garfagnana");
+        Assert.Equal("Trekking in Garfagnana: escursioni tra Apuane e Appennino | Escursioni", Attr(html, @"<title>\s*([^<]+?)\s*</title>"));
+        var guide = Regex.Match(html, @"<section class=""section prose zone-guide"">(.*?)</section>", RegexOptions.Singleline);
+        Assert.True(guide.Success);
+        var links = Regex.Matches(guide.Groups[1].Value, @"href=""(/[^""]+)""").Select(m => m.Groups[1].Value).Distinct().ToList();
+        Assert.NotEmpty(links);
+        foreach (var link in links)
+            await GetHtml(link);
+        Assert.Contains("id=\"fonti-zona\"", html);
+    }
+
+    [Fact]
+    public async Task ThemeGuides_LinksWork_InSitemapAndLlms()
+    {
+        var html = await GetHtml("/guide/ciaspole-abetone");
+        Assert.Equal("Ciaspole all'Abetone: percorsi e consigli | Escursioni", WebUtility.HtmlDecode(Attr(html, @"<title>\s*([^<]+?)\s*</title>") ?? ""));
+        var guide = Regex.Match(html, @"<section class=""section prose theme-guide"">(.*?)</section>", RegexOptions.Singleline);
+        Assert.True(guide.Success);
+        foreach (var link in Regex.Matches(guide.Groups[1].Value, @"href=""(/[^""]+)""").Select(m => m.Groups[1].Value).Distinct())
+            await GetHtml(link);
+        var cards = Regex.Match(html, @"<h2>Le mie escursioni</h2>(.*?)id=""fonti-guida""", RegexOptions.Singleline).Groups[1].Value;
+        Assert.Equal(4, Regex.Matches(cards, @"href=""/escursioni/[^""]+""").Select(m => m.Value).Distinct().Count());
+        await GetHtml("/guide/inesistente", HttpStatusCode.NotFound);
+        var client = site.CreateNoRedirectClient();
+        Assert.Contains("/guide/ciaspole-abetone</loc>", await client.GetStringAsync("/sitemap.xml"));
+        Assert.Contains("/guide/ciaspole-abetone", await client.GetStringAsync("/llms.txt"));
+    }
+
     private static string? Attr(string html, string pattern)
     {
         var m = Regex.Match(html, pattern, RegexOptions.IgnoreCase);

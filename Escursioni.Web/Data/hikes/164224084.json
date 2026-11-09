@@ -33,7 +33,7 @@
   "geom": "POINT(10.478635 43.588558)",
   "sha256_payload": "02093ce8469d0515747cde4bce4175ac9ed529c788d7a8243092542701c9cd9b",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-11-08T20:00:00",
+  "updated_at": "2026-11-09T16:00:00",
   "come_arrivare": "<p>Si parte da <strong>Collesalvetti</strong> (LI), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -92,15 +92,11 @@
       "filesize_bytes": null
     }
   ],
-  "cenno_storico": "Il nome compare per la prima volta nel 1272 come «Collis Salvecti», il colle di Salvetto, in un atto di vendita di terreni. Il paese crebbe attorno a una fattoria dei Medici: la villa, probabilmente del primo Quattrocento, fu comprata da Lorenzo e Giuliano de' Medici nel 1476.",
+  "cenno_storico": "Il territorio di Collesalvetti era attraversato dalla via Aemilia Scauri, una delle grandi strade romane. Il paese crebbe attorno a una fattoria dei Medici, che esiste ancora oggi.",
   "fonti": [
     {
       "titolo": "Collesalvetti – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Collesalvetti"
-    },
-    {
-      "titolo": "Collesalvetti – Visit Tuscany",
-      "url": "https://www.visittuscany.com/en/towns-and-villages/collesalvetti/"
     }
   ]
 }

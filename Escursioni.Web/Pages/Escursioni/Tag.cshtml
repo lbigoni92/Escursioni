@@ -10,13 +10,34 @@
     </p>
 </header>
 
-@{ ViewData["CardHeading"] = "h2"; }
+@if (Model.Guida != null)
+{
+    <section class="section prose zone-guide">
+        @Html.Raw(Model.Guida.TestoHtml)
+    </section>
+    <h2>Tutte le mie escursioni @Model.TagName</h2>
+}
+
+@{ ViewData["CardHeading"] = Model.Guida != null ? "h3" : "h2"; }
 <div class="card-grid">
     @foreach (var h in Model.Escursioni)
     {
         <partial name="_HikeCard" model="h" />
     }
 </div>
+
+@if (Model.Guida is { Fonti.Count: > 0 })
+{
+    <section class="section" aria-labelledby="fonti-zona">
+        <h2 id="fonti-zona">Fonti</h2>
+        <ul class="sources">
+            @foreach (var f in Model.Guida.Fonti)
+            {
+                <li><a href="@f.Url" target="_blank" rel="noopener">@f.Titolo</a></li>
+            }
+        </ul>
+    </section>
+}
 
 @if (Model.AltreZone.Count > 0)
 {

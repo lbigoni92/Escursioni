@@ -1,3 +1,4 @@
+using Escursioni.Web.Models;
 using Escursioni.Web.Services;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -57,6 +58,8 @@ if (placeRepository.Unchecked > 0)
 builder.Services.AddSingleton(hikeRepository);
 builder.Services.AddSingleton<IHikeRepository>(hikeRepository);
 builder.Services.AddSingleton(placeRepository);
+// Guide tematiche (Data/guide): /guide/{slug}
+builder.Services.AddSingleton<IReadOnlyList<ThemeGuide>>(ThemeGuide.LoadAll(builder.Environment.ContentRootPath));
 var siteRedirects = SiteRedirects.Load(Path.Combine(builder.Environment.ContentRootPath, "Data", "redirects.json"),
     hikeRepository.Redirects.Concat(placeRepository.Redirects).ToDictionary(r => r.Key, r => r.Value));
 builder.Services.AddSingleton(siteRedirects);
@@ -177,8 +180,8 @@ app.MapRazorPages();
 
 // Indice per la ricerca lato browser (nel sito statico diventa il file data/search-index.json)
 app.MapGet("/data/search-index.json", (HikeRepository repo) => Results.Json(repo.BuildSearchIndex()));
-app.MapGet("/llms.txt", async (IHikeRepository repo, PlaceRepository places, IConfiguration config) =>
-    Results.Text(LlmsTxt.Build(await HikeDisplay.GetZonesAsync(repo), (config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/'), places.WithSheets),
+app.MapGet("/llms.txt", async (IHikeRepository repo, PlaceRepository places, IReadOnlyList<ThemeGuide> guides, IConfiguration config) =>
+    Results.Text(LlmsTxt.Build(await HikeDisplay.GetZonesAsync(repo), (config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/'), places.WithSheets, guides),
         "text/plain; charset=utf-8"));
 
 if (exportDir != null)

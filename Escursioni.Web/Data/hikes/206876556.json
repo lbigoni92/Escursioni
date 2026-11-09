@@ -33,7 +33,7 @@
   "geom": "POINT(12.142827 42.562428)",
   "sha256_payload": "10e4dac8b94c7fea848304e3993f1fd857041df009e9ce4f685e2ada75163ef8",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-11-03T21:08:45",
+  "updated_at": "2026-11-09T16:30:00",
   "come_arrivare": "<p>Si parcheggia vicino al cimitero di <strong>Celleno</strong> (VT), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -144,6 +144,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Celleno vecchio sorge su uno sperone di tufo: nel Novecento terremoti e frane convinsero gli abitanti a trasferirsi nel paese nuovo, più in basso, e il borgo fu abbandonato. Dal 1527 al 1580 fu degli Orsini, che gli lasciarono il castello circondato dal fossato. Oggi è tutelato dal FAI e negli anni Settanta il pittore Enrico Castellani ne iniziò il recupero.",
+  "fonti": [
+    {
+      "titolo": "Celleno, il borgo fantasma tutelato dal FAI – SiViaggia",
+      "url": "https://siviaggia.it/borghi/celleno-borgo-fantasma-tutelato-fai/214052/"
     }
   ]
 }

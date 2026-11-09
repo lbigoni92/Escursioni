@@ -103,6 +103,7 @@ public sealed class StaticSiteExporter
         var places = _services.GetRequiredService<PlaceRepository>();
         paths.AddRange(Models.PlaceType.All.Select(t => "/" + t.Slug));
         paths.AddRange(places.All.Select(p => p.Url));
+        paths.AddRange(_services.GetRequiredService<IReadOnlyList<Models.ThemeGuide>>().Select(g => g.Url));
 
         return paths;
     }
