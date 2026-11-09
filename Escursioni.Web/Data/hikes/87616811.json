@@ -33,7 +33,7 @@
   "geom": "POINT(10.36382 43.487804)",
   "sha256_payload": "f23451a2037dba7b71e27a047e345c8c3ebc1d56a1e64b3e5dc35b9f5738d501",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dal <strong>Castellaccio</strong>, sopra Montenero (Livorno), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -45,6 +45,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Al Castellaccio, in cima alle colline livornesi, nel Medioevo c'era il Castello delle Formiche, ricordato già nel 1284. Oggi accanto a dove sorgeva c'è una torre neomedievale, vicino a Villa Gower.",
+  "fonti": [
+    {
+      "titolo": "Terre di Livorno – Wikivoyage",
+      "url": "https://it.wikivoyage.org/wiki/Terre_di_Livorno"
     }
   ]
 }

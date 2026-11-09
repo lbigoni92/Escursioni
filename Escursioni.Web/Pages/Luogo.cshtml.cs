@@ -80,7 +80,12 @@ public class LuogoModel : PageModel
                 ["elevation"] = place.QuotaM,
             },
             ["containedInPlace"] = string.IsNullOrEmpty(place.Parco) ? null : new Dictionary<string, object> { ["@type"] = "Park", ["name"] = place.Parco },
-        });
+            ["image"] = cover != null ? $"{baseUrl}/{cover}" : null,
+            // Fonti della scheda: da dove vengono i fatti storici citati nel testo
+            ["citation"] = place.Scheda is { Fonti.Count: > 0 } s
+                ? s.Fonti.Select(f => new Dictionary<string, object> { ["@type"] = "CreativeWork", ["name"] = string.IsNullOrWhiteSpace(f.Titolo) ? f.Url : f.Titolo, ["url"] = f.Url }).ToList()
+                : null,
+        }, new JsonSerializerOptions { DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull });
         return Page();
     }
 

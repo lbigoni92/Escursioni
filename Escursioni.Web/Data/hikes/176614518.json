@@ -33,7 +33,7 @@
   "geom": "POINT(10.673218 44.169352)",
   "sha256_payload": "4e5d0157fdb4516dfef89222c3d619c949572bb0d791efa4c3867aca5973307b",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte da <strong>Bellagamba</strong>, località Il Troccolo, sul versante modenese del Libro Aperto, nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -396,6 +396,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Libro Aperto ha due cime, il Monte Rotondo e il Monte Belvedere: dalla valle della Lima ha la forma di un libro aperto, da cui il nome.",
+  "fonti": [
+    {
+      "titolo": "Libro Aperto – Visit Pistoia",
+      "url": "https://www.visitpistoia.eu/?p=54112"
     }
   ]
 }

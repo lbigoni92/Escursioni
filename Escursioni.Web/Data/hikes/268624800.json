@@ -33,7 +33,7 @@
   "geom": "POINT(13.345899 47.852632)",
   "sha256_payload": "aa9862f82e549cc626ea2ec9763701106f2a81fff1b83dd515d7f6d3020b9095",
   "created_at": "2026-06-09T00:00:00",
-  "updated_at": "2026-06-21T11:07:42",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte da un parcheggio gratuito vicino al centro di <strong>Mondsee</strong> (Austria), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -45,6 +45,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il paese è nato attorno all'abbazia di Mondsee, di origine altomedievale. La chiesa abbaziale, la basilica di San Michele, è tardogotica; nel 1964 fu il set del matrimonio di Maria e del capitano von Trapp nel film «Tutti insieme appassionatamente».",
+  "fonti": [
+    {
+      "titolo": "Basilica St. Michael Mondsee – Salzkammergut",
+      "url": "https://www.salzkammergut.at/en/oesterreich-poi/detail/401362/wedding-church-basilica-st-michael-mondsee.html"
     }
   ]
 }

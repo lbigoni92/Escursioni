@@ -33,7 +33,7 @@
   "geom": "POINT(10.420917 43.422953)",
   "sha256_payload": "d8cbc5d2440e59e1a11f9fd76c941d13db0193a846253acd67eed4b1d4dbbbfc",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte sopra <strong>Castiglioncello</strong> (Rosignano Marittimo, LI), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -153,6 +153,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Monte Pelato è la collina più alta di Castiglioncello; sui suoi versanti restano le tracce delle vecchie miniere di magnesite.",
+  "fonti": [
+    {
+      "titolo": "Castiglioncello – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Castiglioncello"
     }
   ]
 }

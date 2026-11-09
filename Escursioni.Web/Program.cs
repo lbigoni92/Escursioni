@@ -177,8 +177,8 @@ app.MapRazorPages();
 
 // Indice per la ricerca lato browser (nel sito statico diventa il file data/search-index.json)
 app.MapGet("/data/search-index.json", (HikeRepository repo) => Results.Json(repo.BuildSearchIndex()));
-app.MapGet("/llms.txt", async (IHikeRepository repo, IConfiguration config) =>
-    Results.Text(LlmsTxt.Build(await HikeDisplay.GetZonesAsync(repo), (config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/')),
+app.MapGet("/llms.txt", async (IHikeRepository repo, PlaceRepository places, IConfiguration config) =>
+    Results.Text(LlmsTxt.Build(await HikeDisplay.GetZonesAsync(repo), (config["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/'), places.WithSheets),
         "text/plain; charset=utf-8"));
 
 if (exportDir != null)

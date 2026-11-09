@@ -33,7 +33,7 @@
   "geom": "POINT(10.257041 44.119747)",
   "sha256_payload": "c98a2b271ea92ace44a204db881e90a30896cd3bd22c52e7e96bd14cba451e77",
   "created_at": "2026-06-01T00:00:00",
-  "updated_at": "2026-06-01T12:24:04",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte da <strong>Campocatino</strong>, sopra Vagli Sopra (Vagli Sotto, LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -234,6 +234,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Passo della Tambura è il punto più alto della Via Vandelli, la strada tra Modena e Massa costruita tra il 1738 e il 1751 dall'abate Domenico Vandelli, ingegnere del duca di Modena.",
+  "fonti": [
+    {
+      "titolo": "Lungo la Via Vandelli – Montagna.tv",
+      "url": "https://www.montagna.tv/262533/lungo-la-via-vandelli-con-meridiani-montagne/"
     }
   ]
 }

@@ -33,7 +33,7 @@
   "geom": "POINT(10.341718 44.051867)",
   "sha256_payload": "62781e63f0d52cea04d0b0bd36bb3bbf4d3afe70fe822c6a3f92335d8ac3b8ea",
   "created_at": "2025-11-14T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte da <strong>Piglionico</strong> (Molazzana, LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -252,6 +252,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Visto da lontano, il crinale tra la Pania della Croce e la Pania Secca sembra il profilo di un uomo sdraiato: è l'Uomo Morto. Secondo un racconto popolare era un giovane pastore che si sdraiò tra le due Panie e lì rimase immobile per amore.",
+  "fonti": [
+    {
+      "titolo": "La Pania della Croce e l'Altopiano della Vetricia – Visit Tuscany",
+      "url": "https://www.visittuscany.com/it/offerte/la-pania-della-croce-e-laltopiano-della-vetricia/"
     }
   ]
 }

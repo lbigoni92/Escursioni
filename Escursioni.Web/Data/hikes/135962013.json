@@ -33,7 +33,7 @@
   "geom": "POINT(10.3778 43.8856)",
   "sha256_payload": "b8a4a8056c6275611e3980d6f432013d5e1b86716dc1e767be47f7ffd61514b4",
   "created_at": "2025-11-13T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte vicino a <strong>Stabbiano</strong>, sotto Fibialla (LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -90,6 +90,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Sopra Fibbialla restano le tracce di un castello fondato dai canonici di San Martino di Lucca e attestato tra il 1123 e il 1313; oggi ne rimane solo una cisterna sulla cima del colle.",
+  "fonti": [
+    {
+      "titolo": "Ruderi del castello di Fibbialla – Comune di Camaiore",
+      "url": "https://www.comune.camaiore.lu.it/en/sezioni-turismo-e-cultura-en/347-storia-di-camaiore/i-castelli/2568-ruderi-del-castello-di-fibbialla-2"
     }
   ]
 }

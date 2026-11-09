@@ -33,7 +33,7 @@
   "geom": "POINT(10.613804 44.100865)",
   "sha256_payload": "e215667560147f451b7cbfbe09ff4e1e85651c8b06d87aa502f39e82379c116a",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte vicino a <strong>Foce a Giovo</strong>, sul crinale sopra Pracchi (LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -180,6 +180,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "La storia del Lago Santo Modenese comincia in epoca longobarda e passa da Matilde di Canossa; più tardi il lago fu una postazione fortificata sulla vecchia via tra la pianura padana e la Toscana.",
+  "fonti": [
+    {
+      "titolo": "Sui monti Giovo e Rondinaio con grandi visuali sul Lago Santo Modenese – Montagna.tv",
+      "url": "https://www.montagna.tv/262100/sui-monti-giovo-e-rondinaio-con-grandi-visuali-sul-lago-santo-modenese/"
     }
   ]
 }

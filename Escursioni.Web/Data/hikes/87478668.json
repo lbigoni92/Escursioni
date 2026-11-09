@@ -33,7 +33,7 @@
   "geom": "POINT(10.412709 43.526069)",
   "sha256_payload": "ada1a42fcbdc0a7d5b344c7a89ea090b38ba6cac7523489993367096eecb44aa",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "varianti": [
     87377819
   ],
@@ -48,6 +48,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Nel Cinquecento la Valle Benedetta era chiamata «Valle d'Inferno». Nel 1694 il mercante Giovanni Antonio Huygens fece costruire la strada che la collega a Livorno. Nel bosco c'è l'Eremo della Sambuca, monumento nazionale dal 1912.",
+  "fonti": [
+    {
+      "titolo": "Valle Benedetta – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Valle_Benedetta"
     }
   ]
 }

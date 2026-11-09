@@ -33,7 +33,7 @@
   "geom": "POINT(19.054237 47.489827)",
   "sha256_payload": "0033515138bf937e3bee372eb1e0d39f1a5f3af8df2d37da0d7d6c7e3fae0bdf",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dalla zona della collina di <strong>Gellért</strong>, a Budapest (Ungheria), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -324,6 +324,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Gellért prende il nome dal vescovo Gerardo, che secondo la tradizione fu ucciso qui nel 1046 durante una rivolta pagana. In cima c'è la Cittadella, costruita dagli Asburgo dopo la rivoluzione del 1848 per controllare la città. La collina fa parte delle rive del Danubio, Patrimonio dell'Umanità UNESCO.",
+  "fonti": [
+    {
+      "titolo": "Gellért Hill – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gell%C3%A9rt_Hill"
     }
   ]
 }

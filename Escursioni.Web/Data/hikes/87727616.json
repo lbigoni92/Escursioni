@@ -33,7 +33,7 @@
   "geom": "POINT(10.304442 43.548205)",
   "sha256_payload": "8e9b41c54d53d961b8f76709cb3f37431dddef5c58a8c3dff1c7b938183a6227",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte da <strong>Livorno</strong>, zona Bagni Fiume, nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -117,6 +117,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Anticamente la collina di Montenero si chiamava «Monte del Diavolo», per il bosco fitto che faceva paura ai viandanti. Secondo la tradizione, nel 1345 la Madonna apparve a un pastore: da lì nacque il santuario, affidato dal 1792 ai monaci vallombrosani.",
+  "fonti": [
+    {
+      "titolo": "Montenero (Livorno) – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Montenero_(Livorno)"
     }
   ]
 }

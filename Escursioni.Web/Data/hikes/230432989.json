@@ -33,7 +33,7 @@
   "geom": "POINT(11.757603 46.509097)",
   "sha256_payload": "2ada78e4abc29740a5fd5eef513577209ea4adeade9ac75c7a0334d591edc1ff",
   "created_at": "2025-11-11T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dal <strong>Passo Sella</strong> (tra Val di Fassa e Val Gardena), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -252,6 +252,17 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Rifugio Friedrich August porta il nome di Federico Augusto di Sassonia (1865-1932), che fece costruire il sentiero lungo il quale sorge. Il Rifugio Comici ricorda Emilio Comici, l'alpinista triestino che nel 1940 aprì sul Sassolungo la sua ultima via nuova.",
+  "fonti": [
+    {
+      "titolo": "Rifugio Friedrich August – Val di Fassa",
+      "url": "https://www.fassa.com/it/servizi/rifugio-friedrich-august"
+    },
+    {
+      "titolo": "Emilio Comici – Montagna.tv",
+      "url": "https://www.montagna.tv/156278/emilio-comici/"
     }
   ]
 }

@@ -33,7 +33,7 @@
   "geom": "POINT(10.512348 43.785107)",
   "sha256_payload": "2ccd5a138f125fe2b4ad8311d927af18349c9fae22f46e3e42a15bc0cc76769e",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte da <strong>Vorno</strong> (Capannori, LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -180,6 +180,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Nel 2019 il Monte Pisano ha vinto il censimento «I Luoghi del Cuore» del FAI, dopo i grandi incendi che lo avevano colpito; il Monte Faeta è uno dei luoghi segnalati.",
+  "fonti": [
+    {
+      "titolo": "Monte Faeta – FAI I Luoghi del Cuore",
+      "url": "https://fondoambiente.it/luoghi/monte-faeta"
     }
   ]
 }

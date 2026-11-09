@@ -33,7 +33,7 @@
   "geom": "POINT(10.419123 43.511588)",
   "sha256_payload": "f6dcc75b43037f383c657d958a35568af5a6165c6160ca8bdecd3d1a4135bd75",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dalla <strong>Valle Benedetta</strong> (Livorno), nel punto indicato dalle coordinate qui sotto. È un percorso di sola andata: serve un'auto all'arrivo.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -171,6 +171,17 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "L'acquedotto di Colognole, detto Leopoldino, porta a Livorno l'acqua delle sorgenti di Colognole per circa 18 chilometri. I lavori cominciarono alla fine del Settecento; sotto la direzione dell'architetto Pasquale Poccianti l'acqua arrivò in città il 30 maggio 1816, e fu la fonte principale di Livorno fino al 1912.",
+  "fonti": [
+    {
+      "titolo": "Acquedotto Leopoldino – Museo Galileo",
+      "url": "https://brunelleschi.imss.fi.it/itineraries/place/LeopoldinoAqueduct.html"
+    },
+    {
+      "titolo": "Aqueduct of Colognole – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aqueduct_of_Colognole"
     }
   ]
 }

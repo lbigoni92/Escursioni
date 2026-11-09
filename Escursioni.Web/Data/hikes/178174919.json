@@ -33,7 +33,7 @@
   "geom": "POINT(10.216782 44.30407)",
   "sha256_payload": "c045fe218856e0d56c7019ec258fc1ed208067d82b046e3d3d26e0b3a8ea5c37",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dal <strong>Passo del Cerreto</strong>, vicino a Cerreto Laghi (Ventasso, RE), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -270,6 +270,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Passo del Cerreto unisce la Lunigiana e l'Appennino reggiano lungo la statale 63, da Aulla a Reggio Emilia; la strada ha preso questo numero nel 1863, poco dopo l'Unità d'Italia.",
+  "fonti": [
+    {
+      "titolo": "Il mitico Passo del Cerreto – InSella",
+      "url": "https://www.insella.it/da-sapere/strade-percorsi/il-mitico-passo-del-cerreto-dove-sono-curve-migliori-cosa-vedere-46001"
     }
   ]
 }

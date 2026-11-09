@@ -33,7 +33,7 @@
   "geom": "POINT(10.266597 44.055214)",
   "sha256_payload": "2ed47c75986698e411bbe8ccd9a0528d3d68a2993eb4608555ba01f161a2bc6a",
   "created_at": "2026-04-19T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dal parcheggio in località <strong>Tre Fiumi</strong>, sopra Campagrina (Stazzema, LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -108,6 +108,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Al Passo di Fociomboli c'è una torbiera, un geosito nato da un antico ghiacciaio apuano. Il sentiero passa anche dal Puntato, un borgo d'alpeggio oggi abbandonato.",
+  "fonti": [
+    {
+      "titolo": "Scopriamo nuovi sentieri: Fociomboli – CAI",
+      "url": "https://archivio.cai.it/wp-content/uploads/2020/08/50_scopriamo_nuovi_sentieri_toscana-fociomboli.pdf"
     }
   ]
 }

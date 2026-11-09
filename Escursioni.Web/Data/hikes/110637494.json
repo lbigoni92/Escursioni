@@ -33,7 +33,7 @@
   "geom": "POINT(10.350692 44.049697)",
   "sha256_payload": "e8d694a4e97a90c56cc4147be0d6e8eeb8ea9e5e7d432d5dd3f084ed4a98cc81",
   "created_at": "2025-11-14T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte sopra <strong>Fornovolasco</strong> (Fabbriche di Vergemoli, LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -108,6 +108,17 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Fornovolasco è un paese di origine medievale che viveva dell'estrazione e della lavorazione del ferro: già nel 1369 i documenti ricordano il suo ferro venduto a Stazzema, oltre la Foce di Petrosciana.",
+  "fonti": [
+    {
+      "titolo": "Fornovolasco – InTheNet",
+      "url": "https://www.inthenet.eu/2026/04/17/qualsiasi-stagione-vale-una-gita-a-fornovolasco/"
+    },
+    {
+      "titolo": "L'anello del Monte Forato – Visit Tuscany",
+      "url": "https://www.visittuscany.com/it/itinerari/lanello-del-monte-forato/"
     }
   ]
 }

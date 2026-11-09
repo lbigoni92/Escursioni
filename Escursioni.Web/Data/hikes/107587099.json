@@ -33,7 +33,7 @@
   "geom": "POINT(10.769558 44.229118)",
   "sha256_payload": "444a6858e6ab299c8d7995b20c4c3b62b4461fcc707b8e9f3180961543b76f09",
   "created_at": "2025-11-14T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte da un parcheggio gratuito di <strong>Sestola</strong> (MO), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -315,6 +315,17 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Nel 1655 i gesuiti Riccioli e Grimaldi salirono sul Cimone per misurarne l'altezza. Alla fine dell'Ottocento sulla vetta fu costruito un osservatorio e dal 1937 c'è la stazione meteorologica dell'Aeronautica Militare; oggi c'è anche il laboratorio del CNR che studia l'atmosfera.",
+  "fonti": [
+    {
+      "titolo": "Centro Aeronautica Militare di Montagna – Aeronautica Militare",
+      "url": "https://www.meteoam.it/it/centro-aeronautica-militare-montagna"
+    },
+    {
+      "titolo": "Osservatorio Monte Cimone – CNR ISAC",
+      "url": "https://cimone.isac.cnr.it/node/6"
     }
   ]
 }

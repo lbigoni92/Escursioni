@@ -33,7 +33,7 @@
   "geom": "POINT(10.354203 43.848377)",
   "sha256_payload": "1c8cd1e869a76456b7e25d37023a43266a0e59d1404e9e53415d30bc88e2da23",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "varianti": [
     219150059,
     271597191
@@ -175,6 +175,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Nel 1891 Giacomo Puccini scelse Torre del Lago, sul Lago di Massaciuccoli, come suo rifugio: la villa oggi è un museo e ospita la sua tomba. Sul lato di Massaciuccoli ci sono i resti di una villa romana e delle terme dei Venulei.",
+  "fonti": [
+    {
+      "titolo": "Viaggio a Massaciuccoli fra storia e natura – Visit Tuscany",
+      "url": "https://www.visittuscany.com/it/itinerari/viaggio-a-massaciuccoli-fra-storia-e-natura/"
     }
   ]
 }

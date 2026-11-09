@@ -33,7 +33,7 @@
   "geom": "POINT(10.367171 43.462525)",
   "sha256_payload": "8e9a1648fcef75197005ff1426369673edcaf9f6f94df21e3cdc2eede55720df",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "varianti": [
     88150266
   ],
@@ -48,6 +48,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Anticamente la collina di Montenero si chiamava «Monte del Diavolo», per il bosco fitto che faceva paura ai viandanti. Secondo la tradizione, nel 1345 la Madonna apparve a un pastore: da lì nacque il santuario, affidato dal 1792 ai monaci vallombrosani.",
+  "fonti": [
+    {
+      "titolo": "Montenero (Livorno) – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Montenero_(Livorno)"
     }
   ]
 }

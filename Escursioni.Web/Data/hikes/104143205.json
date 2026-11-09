@@ -33,7 +33,7 @@
   "geom": "POINT(11.289103 43.055643)",
   "sha256_payload": "84ac1872784378dd8ee203034a3e290bd39cad9716107d438e15239bde8550aa",
   "created_at": "2025-11-14T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dal borgo di <strong>Pari</strong> (Civitella Paganico, GR), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -180,6 +180,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Casale di Pari, frazione di Civitella Paganico, ha la chiesa di San Donato del Quattrocento, rifatta nel Settecento, e un palazzo vescovile del 1573. Qui nacque Aurelio Galleppini, il disegnatore che diede il volto a Tex Willer.",
+  "fonti": [
+    {
+      "titolo": "Casale di Pari – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Casale_di_Pari"
     }
   ]
 }

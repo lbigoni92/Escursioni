@@ -33,7 +33,7 @@
   "geom": "POINT(10.194235 44.138263)",
   "sha256_payload": "720cc9d4b78398e809aaddb2a49da4ccd23a05531b00519c21afffb1d9143321",
   "created_at": "2025-11-11T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dal <strong>Rifugio Donegani</strong>, in Val Serenaia (Minucciano, LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -414,6 +414,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Rifugio Donegani, a Orto di Donna, era in origine un edificio dei cavatori; quando perse quell'uso, l'ingegner Guido Donegani lo trasformò in rifugio e ne affidò la gestione al CAI di Lucca.",
+  "fonti": [
+    {
+      "titolo": "Rifugio Donegani – Komoot",
+      "url": "https://www.komoot.com/highlight/2551981"
     }
   ]
 }

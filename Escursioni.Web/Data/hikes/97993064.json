@@ -33,7 +33,7 @@
   "geom": "POINT(10.310497 44.063728)",
   "sha256_payload": "2c99a825b0b9be9bf4e7e1fad9feabd3309b34385902d6c2cdd65b8efcb6db9b",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte da <strong>Isola Santa</strong> (Careggine, LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -234,6 +234,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Isola Santa nacque attorno a un antico ospitale per i viandanti che attraversavano le Apuane. Alla fine degli anni Quaranta una diga sul torrente Turrite Secca formò il lago e sommerse parte del borgo; sulla riva resta la chiesa di San Jacopo, oggi sconsacrata.",
+  "fonti": [
+    {
+      "titolo": "Isola Santa – Visit Tuscany",
+      "url": "https://www.visittuscany.com/it/attrazioni/isola-santa/"
     }
   ]
 }

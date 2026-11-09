@@ -33,7 +33,7 @@
   "geom": "POINT(10.629575 44.129803)",
   "sha256_payload": "6d881e615554a2152cf162e58cbf57e2d8acea208540dcabae25460109c60230",
   "created_at": "2025-11-11T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dalla <strong>Val di Luce</strong> (Abetone Cutigliano, PT), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -486,6 +486,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "L'Alpe Tre Potenze deve il nome ai tre stati che vi si incontravano: il Granducato di Toscana e i Ducati di Modena e di Lucca.",
+  "fonti": [
+    {
+      "titolo": "Alpe Tre Potenze da Le Regine per la Val Sestaione – Gulliver",
+      "url": "https://www.gulliver.it/itinerari/tre-potenze-alpe-da-le-regine-per-la-val-sestaione/2014/11/29/227108/"
     }
   ]
 }

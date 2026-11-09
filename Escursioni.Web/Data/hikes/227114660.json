@@ -33,7 +33,7 @@
   "geom": "POINT(10.664956 44.144817)",
   "sha256_payload": "71c79503e7533c7f9575cc8e4d0f6247496ef3dc2a82b856c88b33a78acfcb4b",
   "created_at": "2025-11-11T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dal parcheggio del <strong>Lavitone</strong>, all'Abetone (Abetone Cutigliano, PT), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -180,6 +180,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Passo dell'Abetone fu aperto con la strada tra Firenze e Modena, finita nel 1778 per volere di Pietro Leopoldo di Toscana e di Francesco III d'Este. Le due piramidi di pietra al passo segnavano il confine tra il Granducato e il Ducato di Modena.",
+  "fonti": [
+    {
+      "titolo": "Le piramidi dell'Abetone – Visit Tuscany",
+      "url": "https://www.visittuscany.com/it/attrazioni/piramidi-abetone/"
     }
   ]
 }

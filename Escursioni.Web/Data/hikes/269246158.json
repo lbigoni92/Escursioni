@@ -33,7 +33,7 @@
   "geom": "POINT(10.343842 44.052593)",
   "sha256_payload": "3ec05bd7000811e7538466573bcc2d1ad92b88b02df5b36603b72de5dc09bf2e",
   "created_at": "2026-06-21T00:00:00",
-  "updated_at": "2026-06-21T11:21:43",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dalla chiesina di <strong>Piglionico</strong> (Molazzana, LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -189,6 +189,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Rifugio Enrico Rossi, sotto la Pania, fu costruito negli anni Venti per volontà del CAI di Lucca, che di recente ne ha festeggiato il centenario.",
+  "fonti": [
+    {
+      "titolo": "Il Rifugio Enrico Rossi celebra il centenario – La Nazione",
+      "url": "https://www.lanazione.it/lucca/cronaca/festa-a-molazzana-il-rifugio-enrico-rossi-celebra-il-centenario-ad5b2a46"
     }
   ]
 }

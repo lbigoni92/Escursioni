@@ -183,6 +183,17 @@ public class SeoService
   ""image"": ""{baseUrl}/{cover}""";
         }
 
+        // Fonti dei cenni storici: dicono a Google e agli assistenti AI da dove vengono i fatti citati
+        if (hike.Fonti.Count > 0)
+        {
+            var citations = hike.Fonti.Select(f =>
+                $@"    {{ ""@type"": ""CreativeWork"", ""name"": ""{System.Text.Json.JsonEncodedText.Encode(string.IsNullOrWhiteSpace(f.Titolo) ? f.Url : f.Titolo)}"", ""url"": ""{System.Text.Json.JsonEncodedText.Encode(f.Url)}"" }}");
+            articleLd += $@",
+  ""citation"": [
+{string.Join(",\n", citations)}
+  ]";
+        }
+
         articleLd += "\n}";
 
         page.ViewData["JsonLd"] = tripLd;

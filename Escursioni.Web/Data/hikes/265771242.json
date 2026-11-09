@@ -33,7 +33,7 @@
   "geom": "POINT(10.187937 44.098983)",
   "sha256_payload": "5d4f2e3f91854e19ce662c9b57ee2a5f9da79b533cc29690c627da80c5dd7680",
   "created_at": "2026-06-01T00:00:00",
-  "updated_at": "2026-06-01T12:24:04",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dal parcheggio del <strong>Biforco</strong>, sopra Forno (Massa, MS), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -108,6 +108,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il 13 giugno 1944, festa del patrono Sant'Antonio, reparti tedeschi e della X MAS attaccarono Forno, dove pochi giorni prima si erano insediati i partigiani. Nel rastrellamento furono uccise 68 persone, quasi tutte fucilate.",
+  "fonti": [
+    {
+      "titolo": "Forno, Massa, 13.06.1944 – Atlante delle stragi naziste e fasciste in Italia",
+      "url": "https://www.straginazifasciste.it/wp-content/uploads/schede/FORNO%20MASSA%2013.06.1944.pdf"
     }
   ]
 }

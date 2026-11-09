@@ -44,6 +44,10 @@
             {
                 <span>Percorsa il <time datetime="@h.DataEscursione.Value.ToString("yyyy-MM-dd")">@h.DataEscursione.Value.ToString("dd/MM/yyyy")</time></span>
             }
+            @if (h.UpdatedAt.Date > (h.DataEscursione ?? DateTime.MinValue).Date)
+            {
+                <span>Scheda aggiornata il <time datetime="@h.UpdatedAt.ToString("yyyy-MM-dd")">@h.UpdatedAt.ToString("dd/MM/yyyy")</time></span>
+            }
             @if (!string.IsNullOrWhiteSpace(h.TipoGiro))
             {
                 <span>@h.TipoGiro</span>
@@ -89,7 +93,7 @@
                                 {
                                     <source srcset="~/@galleryWebp" type="image/webp" />
                                 }
-                                <img src="~/@media.PathRelativo" alt="@displayTitle – foto @(index + 1) di @galleryMedia.Count" loading="@(index == 0 ? "eager" : "lazy")" decoding="async" width="800" height="440" />
+                                <img src="~/@media.PathRelativo" alt="@displayTitle@(location != null ? $" ({location})" : "") – foto @(index + 1) di @galleryMedia.Count" loading="@(index == 0 ? "eager" : "lazy")" decoding="async" width="800" height="440" />
                             </picture>
                         </div>
                     }

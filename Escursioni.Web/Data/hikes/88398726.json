@@ -33,7 +33,7 @@
   "geom": "POINT(10.363922 43.924668)",
   "sha256_payload": "6bb8d64c3d5261d4cc24e081acde235ea83aa8a2eb6841128f756c1e63d0c68a",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte da <strong>Torcigliano</strong> (Camaiore, LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -207,6 +207,17 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Passo del Lucese sta sulla vecchia strada tra la Versilia e la valle del Serchio. Sopra il passo, a Campo all'Orzo, restano i ruderi di una piccola chiesa accanto alla Baita Verde.",
+  "fonti": [
+    {
+      "titolo": "Camaiore – Fiano – Liberation Route Italia",
+      "url": "https://italy.liberationroute.com/themed-routes/188/camaiore-fiano"
+    },
+    {
+      "titolo": "Monte Pedone e Prana – CAI Firenze",
+      "url": "https://caifirenze.it/wp-content/uploads/2026/01/GEEO-2026-01-25-Monte-Pedone-e-Prana.pdf"
     }
   ]
 }

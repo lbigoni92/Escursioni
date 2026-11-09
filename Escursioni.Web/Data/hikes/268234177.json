@@ -33,7 +33,7 @@
   "geom": "POINT(14.286443 48.302249)",
   "sha256_payload": "251bfbfeca8d1061d1cb37817bdfb7b623cead22d21def4d4f9ce4f35e798e46",
   "created_at": "2026-06-09T00:00:00",
-  "updated_at": "2026-06-10T09:46:58",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dal centro di <strong>Linz</strong> (Austria), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -99,6 +99,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "L'Innere Stadt è il primo distretto di Vienna, il nucleo antico della città. Le mura che la circondavano furono abbattute dopo il 1857, per ordine dell'imperatore Francesco Giuseppe, e al loro posto nacque il Ring con i suoi palazzi. Dal 2001 il centro storico è Patrimonio dell'Umanità UNESCO.",
+  "fonti": [
+    {
+      "titolo": "Innere Stadt – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Innere_Stadt"
     }
   ]
 }

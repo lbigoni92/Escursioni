@@ -33,7 +33,7 @@
   "geom": "POINT(11.793003 46.457277)",
   "sha256_payload": "1e669cb466f0a8b1b3fea0453f7d5120ee316f14306f45fc0f5c4ff6f794f0ec",
   "created_at": "2025-11-11T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte da <strong>Alba di Canazei</strong>, verso Penia (Canazei, TN), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -207,6 +207,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Rifugio Contrin fu inaugurato nel 1897 dall'Alpenverein di Norimberga. Nella Grande Guerra era sulla linea del fronte, sede del comando austriaco, e nel 1915 fu quasi distrutto; ricostruito, oggi è dell'Associazione Nazionale Alpini, che ogni anno vi tiene il suo raduno nazionale.",
+  "fonti": [
+    {
+      "titolo": "Rifugio Contrin – Dolomiti.it",
+      "url": "https://www.dolomiti.it/it/canazei/rifugi/rifugio-contrin/"
     }
   ]
 }

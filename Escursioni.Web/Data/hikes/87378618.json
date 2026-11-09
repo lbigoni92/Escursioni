@@ -33,7 +33,7 @@
   "geom": "POINT(11.135846 43.743743)",
   "sha256_payload": "503f2a08fd7ae9d2972ba55862d1f78b911ab159339242003e5abf9d9d5eab8d",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte da <strong>Vigliano</strong> (Scandicci, FI), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -45,6 +45,17 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Mulinaccio nacque nel 1634 come diga sul borro di Masseto, per creare un laghetto; entro il 1653 fu trasformato in un mulino a tre piani. Nel catasto del 1832 compare già come «mulino rovinato», da cui il nome. Oggi è un rudere e se ne discute da anni il restauro.",
+  "fonti": [
+    {
+      "titolo": "Mulinaccio di Scandicci – Outdoor Project",
+      "url": "https://www.outdoorproject.com/node/12673"
+    },
+    {
+      "titolo": "Mulinaccio da salvare – La Nazione",
+      "url": "https://www.lanazione.it/firenze/cronaca/mulinaccio-da-salvare-aumenta-il-rischio-crolli-b975c4a7"
     }
   ]
 }

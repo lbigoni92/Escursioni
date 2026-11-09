@@ -33,7 +33,7 @@
   "geom": "POINT(10.776257 44.121643)",
   "sha256_payload": "4c1d823b6e65e82e08d99fbe30bc76e80cef1dff5e79a72154468ae7b27a97ab",
   "created_at": "2025-11-11T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dalla <strong>Doganaccia</strong> (Abetone Cutigliano, PT), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -423,6 +423,17 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "La Croce Arcana era uno degli antichi passaggi tra la Toscana e la pianura padana; sul passo c'è un memoriale della Seconda guerra mondiale. Più in basso, il torrente Dardagna scende in sette salti, le Cascate del Dardagna.",
+  "fonti": [
+    {
+      "titolo": "Passo della Croce Arcana – Dangerous Roads",
+      "url": "https://www.dangerousroads.org/europe/italy/5557-passo-della-croce-arcana.html"
+    },
+    {
+      "titolo": "Cascate del Dardagna – Bologna Welcome",
+      "url": "https://www.bolognawelcome.com/it/luoghi/parchi-e-giardini/cascate-del-dardagna"
     }
   ]
 }

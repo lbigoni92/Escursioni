@@ -33,7 +33,7 @@
   "geom": "POINT(10.54142 44.130803)",
   "sha256_payload": "f9ace742f643cdea1ae7e7c470914f14e18f81d1b77e6932fa75300fdbb3c645",
   "created_at": "2025-11-14T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dal <strong>Rifugio Santi</strong>, sopra Renaio (Barga, LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -324,6 +324,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "La storia del Lago Santo Modenese comincia in epoca longobarda e passa da Matilde di Canossa; più tardi il lago fu una postazione fortificata sulla vecchia via tra la pianura padana e la Toscana.",
+  "fonti": [
+    {
+      "titolo": "Sui monti Giovo e Rondinaio con grandi visuali sul Lago Santo Modenese – Montagna.tv",
+      "url": "https://www.montagna.tv/262100/sui-monti-giovo-e-rondinaio-con-grandi-visuali-sul-lago-santo-modenese/"
     }
   ]
 }

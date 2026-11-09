@@ -33,7 +33,7 @@
   "geom": "POINT(11.813776 46.486861)",
   "sha256_payload": "dd0e513e59351d2f0e36d0255d376e5adf8a3724f480e143a9de3ff035c0f9ad",
   "created_at": "2025-11-11T00:00:00",
-  "updated_at": "2026-05-01T15:58:15",
+  "updated_at": "2026-11-08T20:00:00",
   "come_arrivare": "<p>Si parte dal <strong>Passo Pordoi</strong> (Canazei, TN), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -225,6 +225,17 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Sulle montagne del Pordoi si combatté nella Prima guerra mondiale: poco sotto il passo c'è il sacrario germanico, inaugurato nel 1959, con i resti di oltre ottomila soldati tedeschi e austro-ungarici. Il Rifugio Boè, sull'altopiano del Sella, risale al 1898.",
+  "fonti": [
+    {
+      "titolo": "Passo Pordoi – Val di Fassa",
+      "url": "https://www.fassa.com/it/scopri-la-val-di-fassa/passi-dolomitici/passo-pordoi"
+    },
+    {
+      "titolo": "La storia del Rifugio Boè",
+      "url": "https://www.rifugioboe.it/la-storia-del-rifugio?lang=en"
     }
   ]
 }

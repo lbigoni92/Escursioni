@@ -9,7 +9,7 @@ namespace Escursioni.Web.Services;
 /// </summary>
 public static class LlmsTxt
 {
-    public static string Build(IEnumerable<ZoneSummary> zones, string baseUrl)
+    public static string Build(IEnumerable<ZoneSummary> zones, string baseUrl, IEnumerable<Place>? placesWithSheets = null)
     {
         var sb = new StringBuilder();
         sb.AppendLine("# Escursioni Luca Bigoni");
@@ -26,6 +26,7 @@ public static class LlmsTxt
         sb.AppendLine($"- [Rifugi e bivacchi]({baseUrl}/rifugi)");
         sb.AppendLine($"- [Passi e valichi]({baseUrl}/passi)");
         sb.AppendLine($"- [Laghi]({baseUrl}/laghi)");
+        sb.AppendLine($"- [Cascate]({baseUrl}/cascate)");
         sb.AppendLine($"- [Chi sono]({baseUrl}/chi-sono)");
         sb.AppendLine($"- [Contatti]({baseUrl}/contatti)");
 
@@ -47,6 +48,15 @@ public static class LlmsTxt
                 }.Where(s => !string.IsNullOrWhiteSpace(s));
                 sb.AppendLine($"- [{HikeDisplay.Title(h)}]({baseUrl}/escursioni/{h.Slug}): {string.Join(", ", details)}");
             }
+        }
+        // Schede dei luoghi: descrizione, come arrivare e storia con fonti
+        foreach (var group in (placesWithSheets ?? []).GroupBy(p => p.Type.Titolo))
+        {
+            sb.AppendLine();
+            sb.AppendLine($"## {group.Key}: schede con storia e fonti");
+            sb.AppendLine();
+            foreach (var p in group.OrderBy(p => p.NomeCompleto))
+                sb.AppendLine($"- [{p.NomeCompleto}]({baseUrl}{p.Url}): {p.Scheda!.MetaDescrizione}");
         }
         return sb.ToString();
     }
