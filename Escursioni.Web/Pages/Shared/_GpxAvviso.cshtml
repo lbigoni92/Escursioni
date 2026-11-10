@@ -1,0 +1,24 @@
+@* Finestra di conferma prima di scaricare una traccia GPX (gestita da wwwroot/js/gpx-avviso.js) *@
+<dialog id="gpx-avviso" class="gpx-avviso" aria-labelledby="gpx-avviso-titolo" aria-describedby="gpx-avviso-testo">
+    <form method="dialog">
+        <h2 id="gpx-avviso-titolo">Prima di scaricare la traccia</h2>
+        <div id="gpx-avviso-testo">
+            <p>La traccia è quella registrata con il GPS durante la mia uscita, in quel giorno e con quelle condizioni. <strong>Può contenere errori</strong> e non è un percorso ufficiale né verificato.</p>
+            <ul>
+                <li><strong>Controlla il meteo</strong> e gli eventuali bollettini (temporali, neve, valanghe) prima di partire e durante l'escursione.</li>
+                <li><strong>Verifica lo stato dei sentieri</strong>: frane, chiusure, segnaletica e tratti attrezzati cambiano nel tempo. Informati presso il CAI, il Parco o il Comune.</li>
+                <li><strong>Valuta le tue capacità</strong>, il tuo allenamento e la tua attrezzatura, e torna indietro se qualcosa non ti convince.</li>
+                <li><strong>Non affidarti solo al telefono</strong>: porta una mappa, una batteria di scorta e lascia detto a qualcuno dove vai. In emergenza chiama il <strong>112</strong>.</li>
+            </ul>
+            <p>Percorri l'itinerario <strong>sotto la tua esclusiva responsabilità</strong>: nei limiti consentiti dalla legge, il gestore del sito non risponde di incidenti, danni, smarrimenti o altre conseguenze derivanti dall'uso della traccia e delle informazioni pubblicate. <a href="/note-legali" target="_blank" rel="noopener">Note legali e condizioni d'uso</a></p>
+        </div>
+        <label class="gpx-avviso-check">
+            <input type="checkbox" id="gpx-avviso-ok">
+            Ho letto e accetto: uso la traccia sotto la mia responsabilità.
+        </label>
+        <div class="gpx-avviso-azioni">
+            <button type="submit" value="annulla" class="btn-secondary">Annulla</button>
+            <button type="submit" value="scarica" class="btn" id="gpx-avviso-scarica" disabled>Scarica la traccia</button>
+        </div>
+    </form>
+</dialog>

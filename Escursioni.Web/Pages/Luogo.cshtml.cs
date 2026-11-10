@@ -52,6 +52,9 @@ public class LuogoModel : PageModel
         {
             ViewData["Title"] = Scheda.TitoloSeo;
             ViewData["MetaDescription"] = Scheda.MetaDescrizione;
+            // Scheda ancora troppo corta: resta navigabile ma fuori dall'indice finché non viene arricchita
+            if (Scheda.Breve)
+                ViewData["RobotsDirective"] = "noindex, follow";
         }
         else
         {

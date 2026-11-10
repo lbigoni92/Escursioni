@@ -69,6 +69,17 @@ public class PlaceSheet
     public List<Fonte> Fonti { get; set; } = new();
     /// <summary>Dove trovare orari, aperture e telefono aggiornati (sito ufficiale o elenco del CAI).</summary>
     public Fonte? Contatti { get; set; }
+
+    /// <summary>Sotto questa soglia di parole la scheda resta visibile sul sito ma è noindex e fuori da sitemap e llms.txt.</summary>
+    public const int ParoleMinime = 60;
+
+    [JsonIgnore]
+    public int Parole => System.Text.RegularExpressions.Regex.Replace(TestoHtml, "<[^>]+>", " ")
+        .Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries).Length;
+
+    /// <summary>Scheda troppo corta per Google: da arricchire prima di indicizzarla.</summary>
+    [JsonIgnore]
+    public bool Breve => Parole < ParoleMinime;
 }
 
 /// <summary>

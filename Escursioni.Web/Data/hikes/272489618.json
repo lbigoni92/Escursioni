@@ -33,7 +33,7 @@
   "geom": "POINT(10.950822 46.047814)",
   "sha256_payload": "aa20438f35a4094b9b027359e1a6cb7da9a39bec3c8594d43f2b2b109eb8446e",
   "created_at": "2026-07-07T00:00:00",
-  "updated_at": "2026-11-03T21:04:56",
+  "updated_at": "2026-11-10T12:00:00",
   "come_arrivare": "<p>Si parte dal parcheggio della scuola elementare di <strong>Sarche</strong> (Madruzzo, TN), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -153,6 +153,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "La ferrata, sulla parete sud-est del Dain Picol sopra Sarche, fu aperta nel 1982 e dedicata all'alpinista Rino Pisetta. È considerata la più impegnativa della Valle del Sarca e una delle più difficili delle Alpi.",
+  "fonti": [
+    {
+      "titolo": "Via ferrata Rino Pisetta – Garda Trentino",
+      "url": "https://www.gardatrentino.it/en/activity/via-ferrata-rino-pisetta-dain-piccolo_8193"
     }
   ]
 }

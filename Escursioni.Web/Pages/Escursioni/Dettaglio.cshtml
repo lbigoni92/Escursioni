@@ -315,6 +315,19 @@
                 </section>
             }
 
+            @if (Model.Guide.Count > 0)
+            {
+                <section class="panel" aria-labelledby="guide-escursione">
+                    <h2 id="guide-escursione">Nelle mie guide</h2>
+                    <ul class="route-places">
+                        @foreach (var g in Model.Guide)
+                        {
+                            <li><a href="@g.Url" title="@g.TitoloSeo">@g.Titolo</a></li>
+                        }
+                    </ul>
+                </section>
+            }
+
             @if (Model.Zone != null)
             {
                 <section class="panel" aria-labelledby="zona-escursione">
@@ -368,6 +381,8 @@
     </section>
 }
 
+<partial name="_GpxAvviso" />
+
 @section Scripts {
     @if (Model.GpxValid)
     {
@@ -387,6 +402,7 @@
         <script src="~/js/parking-leaflet.js" asp-append-version="true" defer></script>
     }
     <script src="~/js/carousel.js" asp-append-version="true" defer></script>
+    <script src="~/js/gpx-avviso.js" asp-append-version="true" defer></script>
     <script>
         document.querySelectorAll('[data-copy-url]').forEach(function (b) {
             b.addEventListener('click', function () {

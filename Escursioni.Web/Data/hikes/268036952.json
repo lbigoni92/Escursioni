@@ -33,7 +33,7 @@
   "geom": "POINT(16.328974 48.197003)",
   "sha256_payload": "423e12a94bcf79d4a84fed5fd866d772cb9a0171de1d1b657aaffb6aa87b43db",
   "created_at": "2026-06-09T00:00:00",
-  "updated_at": "2026-11-03T21:08:45",
+  "updated_at": "2026-11-10T12:00:00",
   "come_arrivare": "<p>Si parte dal quartiere di <strong>Fünfhaus</strong>, a Vienna (Austria), nel punto indicato dalle coordinate qui sotto. L'arrivo è a Leopoldstadt.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -135,6 +135,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Danubio che si vede oggi a Vienna è in gran parte opera dell'uomo: dopo le grandi alluvioni del 1830 e del 1862, tra il 1870 e il 1875 il fiume fu raddrizzato in un nuovo letto scavato a nord della città, e il Donaukanal fu fissato nella forma attuale. Ci lavorò un migliaio di operai, con macchine arrivate dal canale di Suez.",
+  "fonti": [
+    {
+      "titolo": "Vienna Danube regulation – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vienna_Danube_regulation"
     }
   ]
 }

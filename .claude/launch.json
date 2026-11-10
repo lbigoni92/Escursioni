@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "escursioni",
+      "runtimeExecutable": "C:/Users/Admin/AppData/Local/Microsoft/dotnet/dotnet.exe",
+      "runtimeArgs": ["run", "--project", "Escursioni.Web", "--urls", "http://localhost:5200"],
+      "port": 5200
+    }
+  ]
+}

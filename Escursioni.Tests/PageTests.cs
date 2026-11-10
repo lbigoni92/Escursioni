@@ -54,6 +54,19 @@ public class PageTests(SiteFactory site)
         var client = site.CreateNoRedirectClient();
         Assert.Contains("/guide/ciaspole-abetone</loc>", await client.GetStringAsync("/sitemap.xml"));
         Assert.Contains("/guide/ciaspole-abetone", await client.GetStringAsync("/llms.txt"));
+
+        // Ogni guida: link interni validi, ogni escursione nelle card e la scheda escursione che rimanda alla guida
+        foreach (var g in site.Services.GetRequiredService<System.Collections.Generic.IReadOnlyList<ThemeGuide>>())
+        {
+            var page = await GetHtml(g.Url);
+            var body = Regex.Match(page, @"<section class=""section prose theme-guide"">(.*?)</section>", RegexOptions.Singleline).Groups[1].Value;
+            foreach (var link in Regex.Matches(body, @"href=""(/[^""]+)""").Select(m => m.Groups[1].Value).Distinct())
+                await GetHtml(link);
+            var hikes = site.Services.GetRequiredService<HikeRepository>().All.Where(h => g.Escursioni.Contains(h.WikilocId)).ToList();
+            Assert.Equal(g.Escursioni.Count, hikes.Count);
+            foreach (var h in hikes)
+                Assert.Contains($"href=\"{g.Url}\"", await GetHtml("/escursioni/" + h.Slug));
+        }
     }
 
     private static string? Attr(string html, string pattern)
@@ -128,6 +141,10 @@ public class PageTests(SiteFactory site)
             Assert.Equal(hike.TitoloSeo ?? hike.Titolo, Attr(html, @"<h1[^>]*>\s*([^<]+?)\s*</h1>"));
             Assert.StartsWith(BaseUrl + "/", Attr(html, @"<meta property=""og:image"" content=""([^""]+)""") ?? "");
             Assert.Contains($"/media/gpx/{hike.WikilocId}.gpx", html);
+            // Prima del download: finestra di conferma con le avvertenze e il rimando alle note legali
+            Assert.Contains("id=\"gpx-avviso\"", html);
+            Assert.Contains("/js/gpx-avviso.js", html);
+            Assert.Contains("sotto la tua esclusiva responsabilità", html);
             // Punto di partenza già nell'HTML, non riempito dal JavaScript
             Assert.Contains("Come arrivare e parcheggio", html);
             Assert.Matches(@"id=""parking-google-maps-link""[^>]*href=""https://www\.google\.com/maps\?q=-?\d+\.\d+,-?\d+\.\d+""", html);
@@ -242,7 +259,10 @@ public class PageTests(SiteFactory site)
             foreach (Match ld in Regex.Matches(html, @"<script type=""application/ld\+json"">(.*?)</script>", RegexOptions.Singleline))
                 JsonDocument.Parse(ld.Groups[1].Value).Dispose();
 
-            Assert.Contains($"<loc>{BaseUrl}{p.Url}</loc>", sitemap);
+            if (p.Scheda.Breve)
+                Assert.DoesNotContain($"<loc>{BaseUrl}{p.Url}</loc>", sitemap);
+            else
+                Assert.Contains($"<loc>{BaseUrl}{p.Url}</loc>", sitemap);
             Assert.Contains($"href=\"{p.Url}\"", await GetHtml("/" + p.Type.Slug));
             Assert.Contains($"href=\"{p.Url}\"", await GetHtml("/escursioni/" + p.Hikes[0].Slug));
         }
@@ -270,7 +290,7 @@ public class PageTests(SiteFactory site)
                 Assert.DoesNotContain($"<loc>{BaseUrl}{p.Url}</loc>", sitemap);
             }
             else
-                Assert.Equal("index, follow", robots);
+                Assert.Equal(p.Scheda.Breve ? "noindex, follow" : "index, follow", robots);
         }
 
         // Il nome di una scheda con slug diverso porta alla scheda, senza passaggi intermedi

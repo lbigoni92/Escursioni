@@ -112,6 +112,9 @@ public class PlaceRepository
     /// <summary>Luoghi con una scheda scritta a mano: le uniche pagine indicizzate e in sitemap.</summary>
     public IEnumerable<Place> WithSheets => All.Where(p => p.Scheda != null);
 
+    /// <summary>Luoghi con una scheda abbastanza ricca da essere indicizzata (sitemap, llms.txt).</summary>
+    public IEnumerable<Place> Indicizzabili => WithSheets.Where(p => !p.Scheda!.Breve);
+
     /// <summary>Schede il cui "osm" non è (più) in luoghi.json: nessuna pagina.</summary>
     public List<string> SchedeOrfane { get; } = new();
 

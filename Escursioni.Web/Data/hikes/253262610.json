@@ -33,7 +33,7 @@
   "geom": "POINT(10.560046 43.734902)",
   "sha256_payload": "1b8c26c0819e6aee15ebad876da70821b8a2955675e24504d9b1f8c0f68be61e",
   "created_at": "2026-04-19T00:00:00",
-  "updated_at": "2026-11-03T08:25:16",
+  "updated_at": "2026-11-10T12:00:00",
   "varianti": [
     218691561,
     210756323
@@ -47,6 +47,14 @@
     {
       "titolo": "Via ferrata di Sant'Antone: avviso di chiusura (2026) – via-ferrata.de",
       "url": "https://www.via-ferrata.de/klettersteige/topo/via-ferrata-di-santantone/reviews"
+    },
+    {
+      "titolo": "Buti – Terre di Pisa",
+      "url": "https://www.terredipisa.it/en/attrazione/page/20/"
+    },
+    {
+      "titolo": "Il borgo medievale tra gli olivi – La Nazione",
+      "url": "https://www.lanazione.it/viareggio/cronaca/il-borgo-medievale-tra-olivi-6d70315b"
     }
   ],
   "descrizione_rivista": true,
@@ -105,5 +113,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "cenno_storico": "La ferrata di Sant'Antone sale lungo le rocce del Monte Serra, il punto più alto dei Monti Pisani con i suoi 917 metri. Il nome richiama Sant'Antonio Abate, il patrono di Buti, a cui è dedicato il Palio che il paese corre ogni gennaio, uno dei più antichi della Toscana."
 }

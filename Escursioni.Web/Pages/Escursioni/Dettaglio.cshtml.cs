@@ -11,9 +11,11 @@ public class DettaglioModel : PageModel
     private readonly SeoService _seo;
     private readonly IWebHostEnvironment _env;
     private readonly PlaceRepository _places;
+    private readonly IReadOnlyList<ThemeGuide> _guides;
 
-    public DettaglioModel(IHikeRepository repo, SeoService seo, IWebHostEnvironment env, PlaceRepository places)
+    public DettaglioModel(IHikeRepository repo, SeoService seo, IWebHostEnvironment env, PlaceRepository places, IReadOnlyList<ThemeGuide> guides)
     {
+        _guides = guides;
         _repo = repo;
         _seo = seo;
         _env = env;
@@ -21,6 +23,8 @@ public class DettaglioModel : PageModel
     }
 
     /// <summary>Vette, rifugi, passi e laghi toccati dalla traccia, dal più alto.</summary>
+    public IReadOnlyList<ThemeGuide> Guide => Hike == null ? [] : _guides.Where(g => g.Escursioni.Contains(Hike.WikilocId)).ToList();
+
     public IReadOnlyList<Place> Luoghi => Hike == null ? [] : _places.ForHike(Hike);
 
     public Hike? Hike { get; set; }

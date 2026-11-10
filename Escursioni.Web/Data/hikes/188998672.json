@@ -33,7 +33,7 @@
   "geom": "POINT(10.543602 43.977795)",
   "sha256_payload": "8197cb2c6818b0a97884e90a1def8b5a69c928503991b4fb20459de3391a7968",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-11-03T09:50:50",
+  "updated_at": "2026-11-10T12:00:00",
   "come_arrivare": "<p>Si parte da <strong>Borgo a Mozzano</strong> (LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -279,6 +279,17 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "La chiesetta di San Bartolomeo, detta anche Romitorio, sorge poco fuori Cune, sopra Borgo a Mozzano: è una piccola chiesa romanica a una navata con abside, del XII secolo, simile a tante costruite allora nella diocesi di Lucca. Fu la prima chiesa parrocchiale di Cune, prima che il ruolo passasse alla chiesa nuova del paese.",
+  "fonti": [
+    {
+      "titolo": "San Bartolomeo – Catalogo generale dei Beni Culturali",
+      "url": "https://catalogo.cultura.gov.it/detail/HistoricOrArtisticProperty/0900388965"
+    },
+    {
+      "titolo": "San Bartolomeo – Puccini Lands",
+      "url": "https://www.puccinilands.it/schede/saint-bartolomeo/?lang=en"
     }
   ]
 }

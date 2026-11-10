@@ -26,7 +26,7 @@ public class SitemapModel : PageModel
     /// <summary>/vette, /rifugi, /passi, /laghi: solo gli elenchi non vuoti.</summary>
     public IEnumerable<PlaceType> PlaceTypes => PlaceType.All.Where(t => _places.OfType(t).Count > 0);
     /// <summary>Luoghi con una pagina propria (/rifugi/rifugio-del-freo, ...).</summary>
-    public IEnumerable<Place> PlacePages => _places.WithSheets;
+    public IEnumerable<Place> PlacePages => _places.Indicizzabili;
     public List<Hike> Hikes { get; set; } = new();
     /// <summary>Only tags that actually have hikes (slug → count).</summary>
     public List<string> ActiveTagSlugs { get; set; } = new();

@@ -33,7 +33,7 @@
   "geom": "POINT(14.427544 50.091482)",
   "sha256_payload": "dbe74beee612d156cf3c297eee7234e3d802479c4585522a18ee8458f4fc69eb",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-11-03T21:08:45",
+  "updated_at": "2026-11-10T12:00:00",
   "come_arrivare": "<p>Si parte da <strong>Nové Město</strong>, a Praga (Repubblica Ceca), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -270,6 +270,13 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il Ponte Carlo fu iniziato nel 1357 per volere di Carlo IV, dopo che un'alluvione aveva distrutto il ponte di pietra precedente, e fu completato nel 1402; i lavori furono guidati da Peter Parler, l'architetto della cattedrale di San Vito. Fino al 1841 fu l'unico ponte sulla Moldava a Praga, e il nome «Ponte Carlo» gli fu dato solo alla fine dell'Ottocento.",
+  "fonti": [
+    {
+      "titolo": "Ponte Carlo e torri del ponte – VisitCzechia",
+      "url": "https://www.visitczechia.com/it-it/things-to-do/places/landmarks/urban-architecture/c-prague-charles-bridge-and-bridge-towers"
     }
   ]
 }

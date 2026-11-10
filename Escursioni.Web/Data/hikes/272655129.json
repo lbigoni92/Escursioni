@@ -33,7 +33,7 @@
   "geom": "POINT(11.363209 45.885268)",
   "sha256_payload": "345b2c99297f9d702ede8bd39a17154583e844d589f54c76284b13a9d68b7d92",
   "created_at": "2026-07-07T00:00:00",
-  "updated_at": "2026-11-03T21:04:56",
+  "updated_at": "2026-11-10T13:00:00",
   "come_arrivare": "<p>Si parte dal paese, in <strong>Valdastico</strong> (VI), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -171,6 +171,17 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Il parco prende il nome dalle anguane, le figure delle leggende del Triveneto legate alle acque: una sorta di fate che, secondo la tradizione, seducevano i viandanti e aiutavano le donne ad avere figli. Sul Sojo di Mezzogiorno si diceva vivessero proprio loro, e alcuni dei sentieri del parco ricalcano antiche mulattiere tra le proprietà della valle.",
+  "fonti": [
+    {
+      "titolo": "Via ferrata Anelli delle Anguane – Planetmountain",
+      "url": "https://www.planetmountain.com/it/itinerari/via-ferrata-anelli-delle-anguane-sojo-di-mezzogiorno.html"
+    },
+    {
+      "titolo": "Anguane – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anguane"
     }
   ]
 }

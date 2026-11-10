@@ -33,7 +33,7 @@
   "geom": "POINT(10.567497 43.734488)",
   "sha256_payload": "528647c769db86a1eb3251e169c3f17bf3351c51b69c87e2a5f246713ebeccb8",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-11-03T09:36:29",
+  "updated_at": "2026-11-10T12:00:00",
   "come_arrivare": "<p>Da <strong>Buti</strong> (PI) si sale sulla strada provinciale del Monte Serra; il punto di partenza della mia traccia è nelle coordinate qui sotto.</p><p><strong>Prima di andare controlla che sia aperta.</strong> Ad aprile 2026 il CAI di Pontedera, che gestisce la ferrata, ha comunicato la chiusura per la scadenza della concessione sul demanio regionale, fino al rilascio di una nuova. Informazioni: info@caipontedera.it, 347 1840341.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -198,6 +198,17 @@
       "altezza": null,
       "sha256": null,
       "filesize_bytes": null
+    }
+  ],
+  "cenno_storico": "Buti è documentata dall'anno Mille come centro circondato da piccole fortificazioni. Il suo castello fu conteso per secoli tra Lucca e Pisa e danneggiato dai Fiorentini; nel Seicento accanto sorse la villa medicea. Il paese è famoso anche per il Palio di Sant'Antonio, che si corre ogni gennaio.",
+  "fonti": [
+    {
+      "titolo": "Il borgo medievale tra gli olivi – La Nazione",
+      "url": "https://www.lanazione.it/viareggio/cronaca/il-borgo-medievale-tra-olivi-6d70315b"
+    },
+    {
+      "titolo": "Buti – Toscana.info",
+      "url": "https://www.toscana.info/en/pisa/pisa-province/buti/"
     }
   ]
 }
