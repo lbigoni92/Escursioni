@@ -4,6 +4,8 @@
         var slides = track ? track.querySelectorAll('[data-carousel-slide]') : [];
         var dotsContainer = carousel.parentElement.querySelector('[data-carousel-dots]');
         var dots = dotsContainer ? dotsContainer.querySelectorAll('[data-carousel-dot]') : [];
+        // Con molte foto al posto dei pallini c'è un contatore "3 / 22"
+        var counter = carousel.parentElement.querySelector('[data-carousel-count]');
         var prevBtn = carousel.querySelector('[data-carousel-prev]');
         var nextBtn = carousel.querySelector('[data-carousel-next]');
         var current = 0;
@@ -18,6 +20,7 @@
             current = index;
             slides[current].classList.add('is-active');
             if (dots.length > current) dots[current].classList.add('is-active');
+            if (counter) counter.textContent = (current + 1) + ' / ' + slides.length;
         }
 
         if (prevBtn) prevBtn.addEventListener('click', function () { goTo(current - 1); });

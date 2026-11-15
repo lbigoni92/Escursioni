@@ -33,7 +33,7 @@
   "geom": "POINT(10.315348 44.007078)",
   "sha256_payload": "77cbce096c31b3acec263fc169d9bc71e77d8a96bc7cb3a1e59de7a5e42abc87",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-11-08T20:00:00",
+  "updated_at": "2026-11-14T22:00:00",
   "come_arrivare": "<p>Si parte da <strong>Cardoso</strong> (Stazzema, LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -281,11 +281,11 @@
       "filesize_bytes": null
     }
   ],
-  "cenno_storico": "Il 19 giugno 1996 un'alluvione colpì l'Alta Versilia: la piena del torrente Vezza travolse Cardoso e nel comune di Stazzema ci furono 14 morti.",
+  "cenno_storico": "La cascata dell'Acquapendente fa un salto di circa 50 metri nella valle sopra Cardoso e dà il meglio dopo periodi di pioggia, quando il torrente è in piena.",
   "fonti": [
     {
-      "titolo": "L'alluvione in Versilia del 19 giugno 1996 – 3B Meteo",
-      "url": "https://www.3bmeteo.com/giornale-meteo/meteostoria--la-tragica-alluvione-in-versilia-del-19-giugno-1996--video--196226"
+      "titolo": "Cascata dell'Acquapendente da Pruno – CAI Firenze (marzo 2026)",
+      "url": "https://caifirenze.it/wp-content/uploads/2026/03/Apuane-Cascate-dellAcquapendente-22-3-26-v.1.pdf"
     }
   ]
 }

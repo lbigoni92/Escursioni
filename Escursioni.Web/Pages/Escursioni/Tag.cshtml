@@ -19,7 +19,39 @@
 }
 
 @{ ViewData["CardHeading"] = Model.Guida != null ? "h3" : "h2"; }
-<div class="card-grid">
+@* Filtri rapidi: compaiono solo con JavaScript attivo, senza JS si vede l'elenco completo *@
+<form class="hike-filters" id="hike-filters" aria-label="Filtra le escursioni" hidden>
+    <fieldset class="filter-group">
+        <legend>Difficoltà</legend>
+        <label><input type="checkbox" name="diff" value="facile" /> Facile</label>
+        <label><input type="checkbox" name="diff" value="medio" /> Media</label>
+        <label><input type="checkbox" name="diff" value="difficile" /> Difficile</label>
+    </fieldset>
+    <fieldset class="filter-group">
+        <legend>Lunghezza</legend>
+        <label><input type="radio" name="len" value="" checked /> Tutte</label>
+        <label><input type="radio" name="len" value="0-8" /> Fino a 8 km</label>
+        <label><input type="radio" name="len" value="8-15" /> 8–15 km</label>
+        <label><input type="radio" name="len" value="15-999" /> Oltre 15 km</label>
+    </fieldset>
+    <fieldset class="filter-group">
+        <legend>Percorso</legend>
+        <label><input type="checkbox" name="loop" value="1" /> Solo anelli</label>
+    </fieldset>
+    <div class="filter-group filter-sort">
+        <label for="hike-sort">Ordina</label>
+        <select id="hike-sort" name="sort">
+            <option value="date">Più recenti</option>
+            <option value="km-asc">Più corte</option>
+            <option value="km-desc">Più lunghe</option>
+            <option value="gain-asc">Meno dislivello</option>
+        </select>
+    </div>
+    <p class="filter-count" id="hike-filter-count" aria-live="polite"></p>
+    <button type="reset" class="filter-reset">Azzera filtri</button>
+</form>
+<p class="filter-empty" id="hike-filter-empty" hidden>Nessuna escursione con questi filtri. <button type="button" class="filter-reset" data-filter-reset>Azzera filtri</button></p>
+<div class="card-grid" id="hike-grid">
     @foreach (var h in Model.Escursioni)
     {
         <partial name="_HikeCard" model="h" />
@@ -53,4 +85,8 @@
             }
         </ul>
     </section>
+}
+
+@section Scripts {
+    <script src="~/js/zone-filters.js" asp-append-version="true" defer></script>
 }

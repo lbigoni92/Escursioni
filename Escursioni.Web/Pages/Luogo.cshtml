@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous" />
 }
 
-<article>
+<article class="place-detail">
     <header class="detail-header">
         <a class="eyebrow" href="/@p.Type.Slug" title="@p.Type.Titolo raggiunti dalle mie escursioni">@p.Type.Titolo</a>
         <h1 class="page-title">@nome</h1>
@@ -24,80 +24,77 @@
             {
                 <div><dt>Zona</dt><dd><a href="/escursioni/zona/@TagHelper.ToSlug(p.Zona)" title="Escursioni @p.Zona">@p.Zona</a></dd></div>
             }
+            <div><dt>Le mie escursioni</dt><dd>@p.Hikes.Count</dd></div>
             @if (!string.IsNullOrEmpty(p.Parco))
             {
-                <div><dt>Parco</dt><dd>@p.Parco</dd></div>
+                <div class="@(p.Parco.Length > 18 ? "stat-wide" : null)"><dt>Parco</dt><dd class="@(p.Parco.Length > 18 ? "stat-long" : null)">@p.Parco</dd></div>
             }
-            <div><dt>Le mie escursioni</dt><dd>@p.Hikes.Count</dd></div>
         </dl>
     </header>
 
-    <div class="detail-layout">
-        <div class="detail-main">
-            <section class="section prose">
-                @if (s != null)
-                {
-                    @Html.Raw(s.TestoHtml)
-                }
-                else
-                {
-                    <p>@Model.DescrizioneAutomatica</p>
-                    <p>La descrizione, la storia e le fonti di questo luogo non sono ancora pronte: per ora trovi da dove sono partito e tutte le mie escursioni che ci passano.</p>
-                }
-            </section>
-
-            @if (Model.Partenze.Count > 0)
-            {
-                <section class="section" aria-labelledby="partenze">
-                    <h2 id="partenze">Da dove sono partito</h2>
-                    <p class="section-intro">Le partenze delle mie escursioni che passano da @nome. Nella scheda di ogni escursione trovi come arrivare e le coordinate esatte.</p>
-                    <ul>
-                        @foreach (var (partenza, hikes) in Model.Partenze)
-                        {
-                            <li>
-                                <strong>@partenza</strong>:
-                                @for (var i = 0; i < hikes.Count; i++)
-                                {
-                                    <a href="/escursioni/@hikes[i].Slug" title="@HikeDisplay.Title(hikes[i])">@HikeDisplay.Title(hikes[i])</a>@(i < hikes.Count - 1 ? " · " : "")
-                                }
-                            </li>
-                        }
-                    </ul>
-                </section>
-            }
-
-            @if (s != null && s.Fonti.Count > 0)
-            {
-                <section class="section" aria-labelledby="fonti">
-                    <h2 id="fonti">Fonti</h2>
-                    <ul class="sources">
-                        @foreach (var f in s.Fonti)
-                        {
-                            <li><a href="@f.Url" target="_blank" rel="noopener">@f.Titolo</a></li>
-                        }
-                    </ul>
-                </section>
-            }
+    @* Dove si trova: è la prima cosa che si cerca di un luogo *@
+    <section class="place-map" aria-labelledby="dove">
+        <h2 id="dove" class="visually-hidden">Dove si trova</h2>
+        <div id="leaflet-place-map" class="map-box"></div>
+        <div class="start-box">
+            <p class="start-box-coords">Coordinate: <strong>@p.Lat.ToString(inv), @p.Lon.ToString(inv)</strong></p>
+            <a class="btn-secondary" href="https://www.google.com/maps?q=@p.Lat.ToString(inv),@p.Lon.ToString(inv)" target="_blank" rel="noopener" title="Apri @nome su Google Maps">Apri su Google Maps</a>
         </div>
+    </section>
 
-        <aside class="detail-aside">
-            <section class="panel" aria-labelledby="dove">
-                <h2 id="dove">Dove si trova</h2>
-                <div id="leaflet-place-map" class="map-box map-box--small"></div>
-                <p class="panel-note">Coordinate: <strong>@p.Lat.ToString(inv), @p.Lon.ToString(inv)</strong></p>
-                <p class="panel-note">
-                    <a class="btn-secondary" href="https://www.google.com/maps?q=@p.Lat.ToString(inv),@p.Lon.ToString(inv)" target="_blank" rel="noopener" title="Apri @nome su Google Maps">Apri su Google Maps</a>
-                </p>
-            </section>
-            @if (s?.Contatti != null)
+    <div class="detail-body">
+        <section class="section prose">
+            @if (s != null)
             {
-                <section class="panel" aria-labelledby="contatti">
-                    <h2 id="contatti">Orari e contatti</h2>
-                    <p class="panel-note">Aperture, posti e telefono cambiano: controllali qui prima di partire.</p>
-                    <p class="panel-note"><a href="@s.Contatti.Url" target="_blank" rel="noopener">@s.Contatti.Titolo ↗</a></p>
-                </section>
+                @Html.Raw(s.TestoHtml)
             }
-        </aside>
+            else
+            {
+                <p>@Model.DescrizioneAutomatica</p>
+                <p>La descrizione, la storia e le fonti di questo luogo non sono ancora pronte: per ora trovi da dove sono partito e tutte le mie escursioni che ci passano.</p>
+            }
+        </section>
+
+        @if (Model.Partenze.Count > 0)
+        {
+            <section class="section" aria-labelledby="partenze">
+                <h2 id="partenze">Da dove sono partito</h2>
+                <p class="section-intro">Le partenze delle mie escursioni che passano da @nome. Nella scheda di ogni escursione trovi come arrivare e le coordinate esatte.</p>
+                <ul>
+                    @foreach (var (partenza, hikes) in Model.Partenze)
+                    {
+                        <li>
+                            <strong>@partenza</strong>:
+                            @for (var i = 0; i < hikes.Count; i++)
+                            {
+                                <a href="/escursioni/@hikes[i].Slug" title="@HikeDisplay.Title(hikes[i])">@HikeDisplay.Title(hikes[i])</a>@(i < hikes.Count - 1 ? " · " : "")
+                            }
+                        </li>
+                    }
+                </ul>
+            </section>
+        }
+
+        @if (s != null && s.Fonti.Count > 0)
+        {
+            <section class="section" aria-labelledby="fonti">
+                <h2 id="fonti">Fonti</h2>
+                <ul class="sources">
+                    @foreach (var f in s.Fonti)
+                    {
+                        <li><a href="@f.Url" target="_blank" rel="noopener">@f.Titolo</a></li>
+                    }
+                </ul>
+            </section>
+        }
+        @if (s?.Contatti != null)
+        {
+            <section class="panel" aria-labelledby="contatti">
+                <h2 id="contatti">Orari e contatti</h2>
+                <p class="panel-note">Aperture, posti e telefono cambiano: controllali qui prima di partire.</p>
+                <p class="panel-note"><a href="@s.Contatti.Url" target="_blank" rel="noopener">@s.Contatti.Titolo ↗</a></p>
+            </section>
+        }
     </div>
 </article>
 

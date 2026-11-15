@@ -33,7 +33,7 @@
   "geom": "POINT(10.354714 44.026425)",
   "sha256_payload": "1a2e3a718f68b1d937fe353e398dedf0c90a6b0a889b3ea8b5ca9df80060e515",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-11-08T20:00:00",
+  "updated_at": "2026-11-14T22:00:00",
   "come_arrivare": "<p>Si parte da <strong>Fornovolasco</strong> (Fabbriche di Vergemoli, LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -47,15 +47,15 @@
       "filesize_bytes": null
     }
   ],
-  "cenno_storico": "Fornovolasco è un paese di origine medievale che viveva dell'estrazione e della lavorazione del ferro: già nel 1369 i documenti ricordano il suo ferro venduto a Stazzema, oltre la Foce di Petrosciana.",
+  "cenno_storico": "Sotto Fornovolasco si apre la Grotta del Vento: prima di essere esplorata, alla fine dell'Ottocento, era nota agli abitanti per la corrente d'aria fresca che usavano per conservare i cibi. Oggi si visita con percorsi guidati di diversa lunghezza.",
   "fonti": [
     {
-      "titolo": "Fornovolasco – InTheNet",
-      "url": "https://www.inthenet.eu/2026/04/17/qualsiasi-stagione-vale-una-gita-a-fornovolasco/"
+      "titolo": "Grotta del Vento – Visit Tuscany",
+      "url": "https://www.visittuscany.com/en/attractions/the-great-grotta-del-vento/"
     },
     {
-      "titolo": "L'anello del Monte Forato – Visit Tuscany",
-      "url": "https://www.visittuscany.com/it/itinerari/lanello-del-monte-forato/"
+      "titolo": "Grotta del Vento – Showcaves",
+      "url": "https://www.showcaves.com/english/it/showcaves/Vento.html"
     }
   ]
 }

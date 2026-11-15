@@ -15,111 +15,68 @@
     <header class="page-header">
         <h1 class="page-title">Cerca un'escursione</h1>
         <p class="page-subtitle">
-            Trova i sentieri vicino a una località oppure cerca per nome, cima o parola chiave.
+            Scrivi una cima, un lago o una parola, oppure scegli una località per vedere le escursioni nei dintorni. I risultati si aggiornano mentre scrivi.
             Preferisci sfogliare? Guarda le <a href="/escursioni" title="Escursioni per zona">escursioni per zona</a> o la <a href="/mappa" title="Mappa escursioni">mappa</a>.
         </p>
     </header>
 
-    <form method="get" id="search-form">
-      <div class="search-panel">
-
-        <!-- ═══ MODALITÀ 1: PER LOCALITÀ ═══ -->
-        <div class="search-mode search-mode--active" id="mode-localita">
-            <div class="search-mode-header">
-                <label class="search-mode-radio">
-                    <input type="radio" name="SearchMode" value="localita" checked />
-                    <span>Cerca per località</span>
-                </label>
-            </div>
-            <div class="search-mode-body">
-                <div class="form-row form-row--wrap">
-                    <div class="form-field form-field--wide">
-                        <label for="comune">Località</label>
-                        <div class="autocomplete-wrap">
-                            <input id="comune"
-                                   name="Comune"
-                                   class="input-text"
-                                   placeholder="Digita una località (es. Livorno, Levigliani)..."
-                                   autocomplete="off" />
-                            <ul id="comune-suggestions" class="autocomplete-list"></ul>
-                        </div>
-                    </div>
-                    <div class="form-field">
-                        <label for="raggio">Raggio</label>
-                        <select id="raggio"
-                                name="RaggioKm"
-                                class="input-select">
-                            <option value="10">10 km</option>
-                            <option value="20" selected>20 km</option>
-                            <option value="30">30 km</option>
-                            <option value="50">50 km</option>
-                            <option value="100">100 km</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
+    <form method="get" id="search-form" class="search-box" role="search">
+        @* Un solo campo: si scrive un posto, una cima o una parola; i suggerimenti propongono località ed escursioni *@
+        <div class="search-field">
+            <label for="q" class="visually-hidden">Cerca un'escursione</label>
+            <svg class="search-field-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4" /></svg>
+            <input id="q" name="Q" type="search" class="input-text search-input"
+                   placeholder="Cima, lago o località"
+                   autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="search-suggestions" />
+            <button class="btn search-submit" type="submit">Cerca</button>
+            <ul id="search-suggestions" class="autocomplete-list search-suggestions" role="listbox" hidden></ul>
         </div>
 
-        <!-- ═══ MODALITÀ 2: TESTO LIBERO ═══ -->
-        <div class="search-mode" id="mode-testo">
-            <div class="search-mode-header">
-                <label class="search-mode-radio">
-                    <input type="radio" name="SearchMode" value="testo" />
-                    <span>Cerca per testo libero</span>
-                </label>
-            </div>
-            <div class="search-mode-body">
-                <div class="form-row form-row--wrap">
-                    <div class="form-field form-field--wide">
-                        <label for="q">Testo libero</label>
-                        <input id="q"
-                               class="input-text"
-                               type="text"
-                               name="Q"
-                               placeholder="Cerca cima, luogo, sentiero..." />
-                    </div>
-                    <div class="form-field">
-                        <label for="difficolta">Difficoltà</label>
-                        <select id="difficolta"
-                                name="Difficolta"
-                                class="input-select">
-                            <option value="">Tutte</option>
-                            @foreach (var d in Model.DifficoltaDisponibili)
-                            {
-                                <option value="@d">@d</option>
-                            }
-                        </select>
-                    </div>
-                    <div class="form-field">
-                        <label for="ordina">Ordina per</label>
-                        <select id="ordina"
-                                name="OrdinaPer"
-                                class="input-select">
-                            <option value="data_desc" selected>Più recenti</option>
-                            <option value="data_asc">Più vecchie</option>
-                            <option value="nome_asc">Nome (A → Z)</option>
-                            <option value="nome_desc">Nome (Z → A)</option>
-                            <option value="comune_asc">Comune (A → Z)</option>
-                            <option value="dislivello_desc">Dislivello maggiore</option>
-                            <option value="distanza_desc">Distanza maggiore</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
+        <div class="search-place-row">
+            <span class="place-chip" id="place-chip" hidden>
+                <span>Vicino a <strong id="place-chip-name"></strong></span>
+                <button type="button" id="place-chip-remove" aria-label="Togli la località">×</button>
+            </span>
+            <label class="search-radius">
+                <span>entro</span>
+                <select id="raggio" name="RaggioKm" class="input-select">
+                    <option value="10">10 km</option>
+                    <option value="20" selected>20 km</option>
+                    <option value="30">30 km</option>
+                    <option value="50">50 km</option>
+                    <option value="100">100 km</option>
+                </select>
+            </label>
+            <button type="button" class="btn-secondary search-geo" id="use-position" hidden>Vicino a me</button>
         </div>
 
-      </div>
+        <input type="hidden" id="comune" name="Comune" />
+        <input type="hidden" id="lat" name="Lat" />
+        <input type="hidden" id="lon" name="Lon" />
+        <input type="hidden" id="page-number" name="PageNumber" value="1" />
 
-        <input type="hidden" name="PageNumber" value="1" />
-
-        <div class="search-actions">
-            <button class="btn" type="submit">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4" /></svg>
-                Cerca
-            </button>
-            <a class="section-link" href="/ricerca" title="Azzera i filtri e mostra tutte le escursioni">Azzera filtri</a>
+        <div class="hike-filters search-filters">
+            <fieldset class="filter-group">
+                <legend>Difficoltà</legend>
+                <label><input type="radio" name="Difficolta" value="" checked /> Tutte</label>
+                @foreach (var d in Model.DifficoltaDisponibili)
+                {
+                    <label><input type="radio" name="Difficolta" value="@d" /> @d</label>
+                }
+            </fieldset>
+            <div class="filter-group filter-sort">
+                <label for="ordina">Ordina</label>
+                <select id="ordina" name="OrdinaPer">
+                    <option value="data_desc" selected>Più recenti (o più vicine)</option>
+                    <option value="distanza_asc">Più corte</option>
+                    <option value="distanza_desc">Più lunghe</option>
+                    <option value="dislivello_asc">Meno dislivello</option>
+                    <option value="dislivello_desc">Più dislivello</option>
+                    <option value="nome_asc">Nome (A → Z)</option>
+                    <option value="data_asc">Più vecchie</option>
+                </select>
+            </div>
         </div>
-
     </form>
 
     <p class="search-summary" id="search-summary" aria-live="polite"></p>
@@ -136,193 +93,4 @@
 
 @section Scripts {
 <script src="~/js/search.js" asp-append-version="true" defer></script>
-<script>
-(function () {
-    // === SEARCH MODE LOGIC ===
-    var radios = document.querySelectorAll('input[name="SearchMode"]');
-    var modeLocalita = document.getElementById('mode-localita');
-    var modeTesto = document.getElementById('mode-testo');
-    var comuneInput = document.getElementById('comune');
-    var raggioSelect = document.getElementById('raggio');
-    var qInput = document.getElementById('q');
-    var difficoltaSelect = document.getElementById('difficolta');
-    var ordinaSelect = document.getElementById('ordina');
-
-    // === PRECOMPILA IL FORM DALL'URL (la pagina è statica) ===
-    var params = new URLSearchParams(window.location.search);
-    function setSelect(sel, value) {
-        if (!value) return;
-        for (var i = 0; i < sel.options.length; i++) {
-            if (sel.options[i].value === value) { sel.value = value; return; }
-        }
-    }
-    comuneInput.value = params.get('Comune') || '';
-    qInput.value = params.get('Q') || '';
-    setSelect(raggioSelect, params.get('RaggioKm'));
-    setSelect(difficoltaSelect, params.get('Difficolta'));
-    setSelect(ordinaSelect, params.get('OrdinaPer'));
-    if (!comuneInput.value && (qInput.value || difficoltaSelect.value)) {
-        document.querySelector('input[name="SearchMode"][value="testo"]').checked = true;
-    }
-
-    function activateMode(mode) {
-        if (mode === 'localita') {
-            modeLocalita.classList.add('search-mode--active');
-            modeTesto.classList.remove('search-mode--active');
-            qInput.value = '';
-            difficoltaSelect.value = '';
-            ordinaSelect.value = 'data_desc';
-            comuneInput.disabled = false;
-            raggioSelect.disabled = false;
-            qInput.disabled = true;
-            difficoltaSelect.disabled = true;
-            ordinaSelect.disabled = true;
-        } else {
-            modeTesto.classList.add('search-mode--active');
-            modeLocalita.classList.remove('search-mode--active');
-            comuneInput.value = '';
-            raggioSelect.value = '20';
-            qInput.disabled = false;
-            difficoltaSelect.disabled = false;
-            ordinaSelect.disabled = false;
-            comuneInput.disabled = true;
-            raggioSelect.disabled = true;
-            closeSuggestions();
-        }
-    }
-
-    radios.forEach(function (r) {
-        r.addEventListener('change', function () { activateMode(this.value); });
-    });
-
-    var checked = document.querySelector('input[name="SearchMode"]:checked');
-    if (checked) {
-        activateMode(checked.value);
-    } else {
-        document.querySelector('input[name="SearchMode"][value="localita"]').checked = true;
-        activateMode('localita');
-    }
-
-    [comuneInput, raggioSelect].forEach(function (el) {
-        el.addEventListener('focus', function () {
-            document.querySelector('input[name="SearchMode"][value="localita"]').checked = true;
-            activateMode('localita');
-        });
-    });
-    [qInput, difficoltaSelect, ordinaSelect].forEach(function (el) {
-        el.addEventListener('focus', function () {
-            document.querySelector('input[name="SearchMode"][value="testo"]').checked = true;
-            activateMode('testo');
-        });
-    });
-
-    // === AUTOCOMPLETE COMUNI ===
-    var comuni = null;
-    var highlightIdx = -1;
-
-    function getSugList() {
-        return document.getElementById('comune-suggestions');
-    }
-
-    function loadComuni(cb) {
-        if (comuni) return cb();
-        fetch('/data/comuni-italiani.json')
-            .then(function (r) { return r.json(); })
-            .then(function (data) { comuni = data; cb(); })
-            .catch(function () { comuni = []; cb(); });
-    }
-
-    function closeSuggestions() {
-        var sugList = getSugList();
-        if (!sugList) return;
-        sugList.innerHTML = '';
-        sugList.style.display = 'none';
-        highlightIdx = -1;
-    }
-
-    function renderSuggestions(matches) {
-        var sugList = getSugList();
-        if (!sugList) return;
-        sugList.innerHTML = '';
-        highlightIdx = -1;
-        if (!matches.length) { sugList.style.display = 'none'; return; }
-        matches.forEach(function (m, i) {
-            var li = document.createElement('li');
-            li.className = 'autocomplete-item';
-            li.setAttribute('data-value', m.n);
-            li.innerHTML = '<strong>' + escHtml(m.n) + '</strong> <span class="autocomplete-prov">(' + escHtml(m.s) + ') ' + escHtml(m.p) + '</span>';
-            li.addEventListener('mousedown', function (e) {
-                e.preventDefault();
-                comuneInput.value = m.n;
-                closeSuggestions();
-            });
-            sugList.appendChild(li);
-        });
-        sugList.style.cssText = 'display:block; position:absolute; top:100%; left:0; right:0; z-index:200;';
-    }
-
-    function escHtml(s) {
-        var d = document.createElement('div');
-        d.appendChild(document.createTextNode(s));
-        return d.innerHTML;
-    }
-
-    var debounceTimer;
-    comuneInput.addEventListener('input', function () {
-        var val = comuneInput.value.trim().toLowerCase();
-        clearTimeout(debounceTimer);
-        if (val.length < 2) { closeSuggestions(); return; }
-        debounceTimer = setTimeout(function () {
-            loadComuni(function () {
-                var matches = [];
-                // Prima i comuni che iniziano con il testo, poi quelli che lo contengono
-                var starts = [], contains = [];
-                for (var i = 0; i < comuni.length; i++) {
-                    var nl = comuni[i].n.toLowerCase();
-                    if (nl.indexOf(val) === 0) starts.push(comuni[i]);
-                    else if (nl.indexOf(val) > 0) contains.push(comuni[i]);
-                    if (starts.length + contains.length >= 15) break;
-                }
-                matches = starts.concat(contains).slice(0, 15);
-                renderSuggestions(matches);
-            });
-        }, 150);
-    });
-
-    comuneInput.addEventListener('keydown', function (e) {
-        var sugList = getSugList();
-        if (!sugList) return;
-        var items = sugList.querySelectorAll('.autocomplete-item');
-        if (!items.length) return;
-        if (e.key === 'ArrowDown') {
-            e.preventDefault();
-            highlightIdx = Math.min(highlightIdx + 1, items.length - 1);
-            updateHighlight(items);
-        } else if (e.key === 'ArrowUp') {
-            e.preventDefault();
-            highlightIdx = Math.max(highlightIdx - 1, 0);
-            updateHighlight(items);
-        } else if (e.key === 'Enter' && highlightIdx >= 0) {
-            e.preventDefault();
-            comuneInput.value = items[highlightIdx].getAttribute('data-value');
-            closeSuggestions();
-        } else if (e.key === 'Escape') {
-            closeSuggestions();
-        }
-    });
-
-    function updateHighlight(items) {
-        items.forEach(function (it, i) {
-            it.classList.toggle('autocomplete-item--active', i === highlightIdx);
-        });
-        if (highlightIdx >= 0 && items[highlightIdx]) {
-            items[highlightIdx].scrollIntoView({ block: 'nearest' });
-        }
-    }
-
-    comuneInput.addEventListener('blur', function () {
-        setTimeout(closeSuggestions, 200);
-    });
-})();
-</script>
 }

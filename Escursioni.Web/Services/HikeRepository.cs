@@ -285,6 +285,7 @@ public class HikeRepository : IHikeRepository
                     zona = HikeDisplay.Zone(h),
                     luogo = HikeDisplay.Location(h),
                     descrizione = desc,
+                    riassunto = h.MetaDescrizione,
                     comune = h.Comune,
                     provincia = h.Provincia,
                     regione = h.Regione,

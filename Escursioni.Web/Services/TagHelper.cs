@@ -6,6 +6,7 @@ public static class TagHelper
     {
         ["Alpi Apuane"] = "alpi-apuane",
         ["Garfagnana"] = "garfagnana",
+        ["Val di Lima"] = "val-di-lima",
         ["Livorno e costa toscana"] = "livorno-e-costa-toscana",
         ["Versilia e Massarosa"] = "versilia-e-massarosa",
         ["Versilia e costa toscana"] = "versilia-e-costa-toscana",
@@ -28,6 +29,7 @@ public static class TagHelper
     {
         ["Alpi Apuane"] = "Trekking impegnativi e panorami mozzafiato tra le vette di marmo delle Alpi Apuane.",
         ["Garfagnana"] = "Sentieri nel verde tra borghi medievali e foreste, perfetti per escursioni di mezza giornata.",
+        ["Val di Lima"] = "Escursioni nella valle del Lima sopra Bagni di Lucca, tra borghi di pietra, castagneti, torrenti e i crinali di Prato Fiorito.",
         ["Livorno e costa toscana"] = "Sentieri panoramici lungo la costa livornese da Montenero a Piombino.",
         ["Versilia e Massarosa"] = "Passeggiate tra costa versiliese, colline e Lago di Massaciuccoli.",
         ["Versilia e costa toscana"] = "Percorsi tra mare e montagna lungo la costa toscana, ideali tutto l'anno.",

@@ -28,7 +28,8 @@
     }
 }
 
-<article>
+<article class="hike-detail">
+    @* 1. Intestazione: cosa è, dove, numeri chiave e azioni principali (quello che si cerca appena si entra) *@
     <header class="detail-header">
         @if (Model.Zone != null)
         {
@@ -48,12 +49,12 @@
             {
                 <span>Scheda aggiornata il <time datetime="@h.UpdatedAt.ToString("yyyy-MM-dd")">@h.UpdatedAt.ToString("dd/MM/yyyy")</time></span>
             }
-            @if (!string.IsNullOrWhiteSpace(h.TipoGiro))
-            {
-                <span>@h.TipoGiro</span>
-            }
         </p>
         <dl class="stat-strip">
+            @if (!string.IsNullOrWhiteSpace(h.Difficolta))
+            {
+                <div><dt>Difficoltà</dt><dd class="badge @HikeDisplay.DifficultyClass(h.Difficolta)">@h.Difficolta</dd></div>
+            }
             @if (h.DistanzaKm.HasValue)
             {
                 <div><dt>Distanza</dt><dd>@h.DistanzaKm.Value.ToString("0.0") km</dd></div>
@@ -68,15 +69,49 @@
             }
             @if (h.QuotaMaxM.HasValue)
             {
-                <div><dt>Quota max</dt><dd>@h.QuotaMaxM.Value m</dd></div>
+                <div><dt>Quota</dt><dd>@(h.QuotaMinM.HasValue ? h.QuotaMinM.Value + "–" : "")@h.QuotaMaxM.Value m</dd></div>
             }
-            @if (!string.IsNullOrWhiteSpace(h.Difficolta))
+            @if (!string.IsNullOrWhiteSpace(h.TipoGiro))
             {
-                <div><dt>Difficoltà</dt><dd class="badge @HikeDisplay.DifficultyClass(h.Difficolta)">@h.Difficolta</dd></div>
+                <div><dt>Percorso</dt><dd>@h.TipoGiro</dd></div>
             }
         </dl>
+        <div class="detail-actions">
+            @if (Model.GpxValid)
+            {
+                <a href="@gpxUrl" class="btn" download title="Scarica la traccia GPX di @displayTitle">Scarica traccia GPX</a>
+            }
+            @if (partenza is { } startTop)
+            {
+                <a class="btn-secondary" href="@startTop.MapsUrl" target="_blank" rel="noopener" title="Indicazioni stradali per il punto di partenza su Google Maps">Indicazioni stradali</a>
+            }
+            @if (Model.GpxValid)
+            {
+                <a class="btn-secondary" href="#traccia">Vedi la mappa</a>
+            }
+        </div>
     </header>
 
+    @* 2. Indice della pagina: salta subito alla sezione che interessa *@
+    <nav class="detail-toc" aria-label="Sezioni della scheda">
+        <a href="#traccia">Mappa</a>
+        <a href="#descrizione">Percorso</a>
+        <a href="#come-arrivare">Come arrivare</a>
+        @if (!string.IsNullOrWhiteSpace(h.CennoStorico))
+        {
+            <a href="#cenno-storico">Storia</a>
+        }
+        @if (Model.Volte.Count > 0)
+        {
+            <a href="#volte">Le mie uscite</a>
+        }
+        @if (Model.RelatedHikes.Count > 0)
+        {
+            <a href="#vicine">Nei dintorni</a>
+        }
+    </nav>
+
+    @* 3. Foto *@
     @if (galleryMedia.Count > 0)
     {
         <div class="detail-gallery">
@@ -100,7 +135,11 @@
                 </div>
                 <button type="button" class="detail-carousel-nav detail-carousel-nav--next" data-carousel-next aria-label="Immagine successiva">&rsaquo;</button>
             </div>
-            @if (galleryMedia.Count > 1)
+            @if (galleryMedia.Count > 10)
+            {
+                <p class="detail-carousel-count" data-carousel-count aria-live="polite">1 / @galleryMedia.Count</p>
+            }
+            else if (galleryMedia.Count > 1)
             {
                 <div class="detail-carousel-dots" data-carousel-dots>
                     @for (var index = 0; index < galleryMedia.Count; index++)
@@ -112,143 +151,189 @@
         </div>
     }
 
-    <div class="detail-layout">
-        <div class="detail-main">
-            <section class="section" aria-labelledby="descrizione">
-                <h2 id="descrizione">Descrizione del percorso</h2>
-                <div class="prose">
-                    @if (!string.IsNullOrWhiteSpace(h.DescrizioneHtml))
-                    {
-                        @* Strip first <h2> from generated HTML to avoid duplicate with page H1 *@
-                        var htmlContent = System.Text.RegularExpressions.Regex.Replace(
-                            h.DescrizioneHtml, @"<h2[^>]*>.*?</h2>", "", System.Text.RegularExpressions.RegexOptions.IgnoreCase, TimeSpan.FromSeconds(1));
-                        @Html.Raw(htmlContent)
-                    }
-                    else if (!string.IsNullOrWhiteSpace(h.Descrizione))
-                    {
-                        <p>@h.Descrizione</p>
-                    }
-                    else
-                    {
-                        <p>Nessuna descrizione dettagliata disponibile.</p>
-                    }
-                </div>
-            </section>
-
-            @if (Model.Volte.Count > 0)
+    <div class="detail-body">
+        @* 4. Mappa e traccia, con i luoghi toccati subito sotto *@
+        <section class="section" aria-labelledby="traccia">
+            <h2 id="traccia">Mappa e traccia GPS</h2>
+            @if (Model.GpxValid)
             {
-                <section class="section" aria-labelledby="volte">
-                    <h2 id="volte">Le volte che l'ho fatta</h2>
-                    @if (Model.Uscite > 1)
-                    {
-                        <p class="section-intro">L'ho percorsa @Model.Uscite volte, con qualche variante: tutte le tracce sono sulla mappa qui sotto.</p>
-                    }
-                    else
-                    {
-                        <p class="section-intro">L'ho registrata in @Model.Volte.Count tracce: le trovi tutte sulla mappa qui sotto.</p>
-                    }
-                    <div class="table-scroll">
-                        <table class="times-table">
-                            <thead>
-                                <tr><th scope="col">Data</th><th scope="col">Distanza</th><th scope="col">Dislivello</th><th scope="col">Percorso</th><th scope="col">Tempo</th><th scope="col">Traccia</th></tr>
-                            </thead>
-                            <tbody>
-                                @foreach (var v in Model.Volte)
-                                {
-                                    <tr class="@(v.Hike == h ? "is-current" : null)">
-                                        <td>
-                                            @if (v.Colore != null)
-                                            {
-                                                <span class="track-swatch" style="background:@v.Colore" aria-hidden="true"></span>
-                                            }
-                                            @if (v.Hike.DataEscursione is DateTime d)
-                                            {
-                                                <time datetime="@d.ToString("yyyy-MM-dd")">@HikeDisplay.MonthYear(d)</time>
-                                            }
-                                            @if (v.Etichetta != null)
-                                            {
-                                                <span class="times-label">@v.Etichetta</span>
-                                            }
-                                        </td>
-                                        <td>@(v.Hike.DistanzaKm is decimal km ? HikeDisplay.Decimal1(km) + " km" : "-")</td>
-                                        <td>@(v.Hike.DislivelloM is int gain ? "+" + HikeDisplay.Meters(gain) : "-")</td>
-                                        <td>@(v.Hike.TipoGiro ?? "-")</td>
-                                        <td>@(v.Hike.TempoHHMM ?? "-")</td>
-                                        <td>
-                                            @if (v.GpxUrl != null)
-                                            {
-                                                <a href="@v.GpxUrl" download title="Scarica la traccia GPX del @(v.Hike.DataEscursione?.ToString("dd/MM/yyyy"))">GPX</a>
-                                            }
-                                            <a href="@v.Hike.Url" target="_blank" rel="noopener" title="Apri questa traccia su Wikiloc">Wikiloc</a>
-                                        </td>
-                                    </tr>
-                                }
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
+                <div id="leaflet-gpx-map" class="map-box"></div>
             }
-
-            <section class="section" aria-labelledby="come-arrivare">
-                <h2 id="come-arrivare">Come arrivare e parcheggio</h2>
-                @if (!string.IsNullOrWhiteSpace(h.ComeArrivare))
+            <div class="track-downloads">
+                @if (Model.GpxValid)
                 {
-                    <div class="prose">@Html.Raw(h.ComeArrivare)</div>
+                    <a href="@gpxUrl" class="btn" download title="Scarica la traccia GPX di @displayTitle">Scarica traccia GPX</a>
                 }
-                @if (partenza is { } start)
+                <a href="@h.Url" target="_blank" rel="noopener" title="Apri la traccia originale su Wikiloc">Traccia originale su Wikiloc ↗</a>
+            </div>
+            <div class="about-warning track-warning">
+                <p>Traccia e dati sono quelli registrati durante la mia uscita: possono contenere errori e sentieri, meteo e segnaletica cambiano. Usali come riferimento, informati prima di partire e valuta sempre le tue capacità. <a href="/note-legali" title="Note legali e condizioni d'uso">Condizioni d'uso</a></p>
+            </div>
+            @if (Model.Luoghi.Count > 0)
+            {
+                <h3 id="sul-percorso" class="detail-subtitle">Sul percorso</h3>
+                <ul class="place-chips">
+                    @foreach (var p in Model.Luoghi)
+                    {
+                        <li>
+                            <a href="@p.Url" title="@(p.Scheda?.Nome ?? p.Type.Titolo + " raggiunti dalle mie escursioni")">
+                                <span class="place-chip-type">@p.Type.Singolare</span>
+                                <span class="place-chip-name">@(p.Scheda?.Nome ?? p.Nome)</span>
+                                @if (p.QuotaM is int q)
+                                {
+                                    <span class="place-chip-quota">@HikeDisplay.Meters(q)</span>
+                                }
+                            </a>
+                        </li>
+                    }
+                </ul>
+            }
+        </section>
+
+        @* 5. Il racconto del percorso *@
+        <section class="section" aria-labelledby="descrizione">
+            <h2 id="descrizione">Descrizione del percorso</h2>
+            <div class="prose">
+                @if (!string.IsNullOrWhiteSpace(h.DescrizioneHtml))
                 {
-                    <div id="leaflet-parking-map" class="map-box map-box--small"></div>
-                    <p class="panel-note">Punto di partenza (primo punto della traccia GPX): <strong>@start.Coords</strong></p>
-                    <p class="panel-note">
-                        <a id="parking-google-maps-link" class="btn-secondary" href="@start.MapsUrl" target="_blank" rel="noopener" title="Apri il punto di partenza su Google Maps">Apri su Google Maps</a>
-                    </p>
+                    @* Strip first <h2> from generated HTML to avoid duplicate with page H1 *@
+                    var htmlContent = System.Text.RegularExpressions.Regex.Replace(
+                        h.DescrizioneHtml, @"<h2[^>]*>.*?</h2>", "", System.Text.RegularExpressions.RegexOptions.IgnoreCase, TimeSpan.FromSeconds(1));
+                    @Html.Raw(htmlContent)
+                }
+                else if (!string.IsNullOrWhiteSpace(h.Descrizione))
+                {
+                    <p>@h.Descrizione</p>
                 }
                 else
                 {
-                    <p class="panel-note">Coordinate del punto di partenza non disponibili.</p>
+                    <p>Nessuna descrizione dettagliata disponibile.</p>
+                }
+            </div>
+        </section>
+
+        @* 6. Logistica *@
+        <section class="section" aria-labelledby="come-arrivare">
+            <h2 id="come-arrivare">Come arrivare e parcheggio</h2>
+            @if (!string.IsNullOrWhiteSpace(h.ComeArrivare))
+            {
+                <div class="prose">@Html.Raw(h.ComeArrivare)</div>
+            }
+            @if (partenza is { } start)
+            {
+                <div class="start-box">
+                    <p class="start-box-coords">Punto di partenza: <strong>@start.Coords</strong></p>
+                    <a id="parking-google-maps-link" class="btn-secondary" href="@start.MapsUrl" target="_blank" rel="noopener" title="Apri il punto di partenza su Google Maps">Apri su Google Maps</a>
+                </div>
+            }
+            else
+            {
+                <p class="panel-note">Coordinate del punto di partenza non disponibili.</p>
+            }
+        </section>
+
+        @* 7. Approfondimento *@
+        @if (!string.IsNullOrWhiteSpace(h.CennoStorico))
+        {
+            <section class="section" aria-labelledby="cenno-storico">
+                <h2 id="cenno-storico">Cenno storico</h2>
+                <div class="prose">
+                    <p>@h.CennoStorico</p>
+                </div>
+                @if (h.Fonti.Count > 0)
+                {
+                    <p class="sources-title">Fonti</p>
+                    <ul class="sources">
+                        @foreach (var f in h.Fonti)
+                        {
+                            <li><a href="@f.Url" target="_blank" rel="noopener">@f.Titolo</a></li>
+                        }
+                    </ul>
                 }
             </section>
+        }
 
-            @if (!string.IsNullOrWhiteSpace(h.CennoStorico))
-            {
-                <section class="section" aria-labelledby="cenno-storico">
-                    <h2 id="cenno-storico">Cenno storico</h2>
-                    <div class="prose">
-                        <p>@h.CennoStorico</p>
-                    </div>
-                    @if (h.Fonti.Count > 0)
-                    {
-                        <p class="sources-title">Fonti</p>
-                        <ul class="sources">
-                            @foreach (var f in h.Fonti)
+        @* 8. Le altre uscite *@
+        @if (Model.Volte.Count > 0)
+        {
+            <section class="section" aria-labelledby="volte">
+                <h2 id="volte">Le volte che l'ho fatta</h2>
+                @if (Model.Uscite > 1)
+                {
+                    <p class="section-intro">L'ho percorsa @Model.Uscite volte, con qualche variante: tutte le tracce sono sulla mappa qui sopra.</p>
+                }
+                else
+                {
+                    <p class="section-intro">L'ho registrata in @Model.Volte.Count tracce: le trovi tutte sulla mappa qui sopra.</p>
+                }
+                <div class="table-scroll">
+                    <table class="times-table">
+                        <thead>
+                            <tr><th scope="col">Data</th><th scope="col">Distanza</th><th scope="col">Dislivello</th><th scope="col">Percorso</th><th scope="col">Tempo</th><th scope="col">Traccia</th></tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var v in Model.Volte)
                             {
-                                <li><a href="@f.Url" target="_blank" rel="noopener">@f.Titolo</a></li>
+                                <tr class="@(v.Hike == h ? "is-current" : null)">
+                                    <td>
+                                        @if (v.Colore != null)
+                                        {
+                                            <span class="track-swatch" style="background:@v.Colore" aria-hidden="true"></span>
+                                        }
+                                        @if (v.Hike.DataEscursione is DateTime d)
+                                        {
+                                            <time datetime="@d.ToString("yyyy-MM-dd")">@HikeDisplay.MonthYear(d)</time>
+                                        }
+                                        @if (v.Etichetta != null)
+                                        {
+                                            <span class="times-label">@v.Etichetta</span>
+                                        }
+                                    </td>
+                                    <td>@(v.Hike.DistanzaKm is decimal km ? HikeDisplay.Decimal1(km) + " km" : "-")</td>
+                                    <td>@(v.Hike.DislivelloM is int gain ? "+" + HikeDisplay.Meters(gain) : "-")</td>
+                                    <td>@(v.Hike.TipoGiro ?? "-")</td>
+                                    <td>@(v.Hike.TempoHHMM ?? "-")</td>
+                                    <td>
+                                        @if (v.GpxUrl != null)
+                                        {
+                                            <a href="@v.GpxUrl" download title="Scarica la traccia GPX del @(v.Hike.DataEscursione?.ToString("dd/MM/yyyy"))">GPX</a>
+                                        }
+                                        <a href="@v.Hike.Url" target="_blank" rel="noopener" title="Apri questa traccia su Wikiloc">Wikiloc</a>
+                                    </td>
+                                </tr>
                             }
-                        </ul>
-                    }
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        }
+
+        @* 9. Per continuare: guide, zona, condivisione *@
+        <div class="detail-more">
+            @if (Model.Guide.Count > 0)
+            {
+                <section class="panel" aria-labelledby="guide-escursione">
+                    <h2 id="guide-escursione">Nelle mie guide</h2>
+                    <ul class="route-places">
+                        @foreach (var g in Model.Guide)
+                        {
+                            <li><a href="@g.Url" title="@g.TitoloSeo">@g.Titolo</a></li>
+                        }
+                    </ul>
                 </section>
             }
-
-            <section class="section" aria-labelledby="traccia">
-                <h2 id="traccia">Traccia GPS sulla mappa</h2>
-                @if (Model.GpxValid)
-                {
-                    <div id="leaflet-gpx-map" class="map-box"></div>
-                }
-                <div class="track-downloads">
-                    @if (Model.GpxValid)
-                    {
-                        <a href="@gpxUrl" class="btn" download title="Scarica la traccia GPX di @displayTitle">Scarica traccia GPX</a>
-                    }
-                    <a href="@h.Url" target="_blank" rel="noopener" title="Apri la traccia originale su Wikiloc">Traccia originale su Wikiloc ↗</a>
-                </div>
-                <div class="about-warning track-warning">
-                    <p>Traccia e dati sono quelli registrati durante la mia uscita: possono contenere errori e sentieri, meteo e segnaletica cambiano. Usali come riferimento, informati prima di partire e valuta sempre le tue capacità. <a href="/note-legali" title="Note legali e condizioni d'uso">Condizioni d'uso</a></p>
-                </div>
-            </section>
-
-            <section class="section" aria-labelledby="condividi">
-                <h2 id="condividi">Condividi questa escursione</h2>
+            @if (Model.Zone != null)
+            {
+                <section class="panel" aria-labelledby="zona-escursione">
+                    <h2 id="zona-escursione">Zona: @Model.Zone</h2>
+                    <p class="panel-note">@TagHelper.GetDescription(Model.Zone)</p>
+                    <p class="panel-note">
+                        <a class="btn-secondary" href="/escursioni/zona/@zoneSlug" title="Tutte le escursioni nella zona @Model.Zone">Tutte le escursioni @Model.Zone</a>
+                    </p>
+                </section>
+            }
+            <section class="panel" aria-labelledby="condividi">
+                <h2 id="condividi">Condividi</h2>
                 @{
                     var canonicalUrl = ViewData["CanonicalUrl"] as string ?? $"https://escursionilucabigoni.it/escursioni/{h.Slug}";
                     var shareTextRaw = displayTitle + " - Escursioni Luca Bigoni";
@@ -279,66 +364,6 @@
                 </div>
             </section>
         </div>
-
-        <aside class="detail-aside">
-            <section class="panel" aria-labelledby="dati-tecnici">
-                <h2 id="dati-tecnici">Dati tecnici</h2>
-                <dl class="detail-meta">
-                    <div><dt>Distanza</dt><dd>@(h.DistanzaKm.HasValue ? h.DistanzaKm.Value.ToString("0.0") + " km" : "-")</dd></div>
-                    <div><dt>Dislivello</dt><dd>@(h.DislivelloM.HasValue ? "+" + h.DislivelloM.Value + " m" : "-")</dd></div>
-                    <div><dt>Quota min</dt><dd>@(h.QuotaMinM.HasValue ? h.QuotaMinM.Value + " m" : "-")</dd></div>
-                    <div><dt>Quota max</dt><dd>@(h.QuotaMaxM.HasValue ? h.QuotaMaxM.Value + " m" : "-")</dd></div>
-                    <div><dt>Tempo totale</dt><dd>@(h.TempoHHMM ?? "-")</dd></div>
-                    <div><dt>Difficoltà</dt><dd>@(string.IsNullOrWhiteSpace(h.Difficolta) ? "-" : h.Difficolta)</dd></div>
-                    <div><dt>Tipo di percorso</dt><dd>@(string.IsNullOrWhiteSpace(h.TipoGiro) ? "-" : h.TipoGiro)</dd></div>
-                    <div><dt>Attività</dt><dd>@(string.IsNullOrWhiteSpace(h.Attivita) ? "-" : h.Attivita)</dd></div>
-                </dl>
-            </section>
-
-            @if (Model.Luoghi.Count > 0)
-            {
-                <section class="panel" aria-labelledby="sul-percorso">
-                    <h2 id="sul-percorso">Sul percorso</h2>
-                    <ul class="route-places">
-                        @foreach (var p in Model.Luoghi)
-                        {
-                            <li>
-                                <span class="route-place-type">@p.Type.Singolare</span>
-                                <a href="@p.Url" title="@(p.Scheda?.Nome ?? p.Type.Titolo + " raggiunti dalle mie escursioni")">@p.Nome</a>
-                                @if (p.QuotaM is int q)
-                                {
-                                    <span class="route-place-quota">@HikeDisplay.Meters(q)</span>
-                                }
-                            </li>
-                        }
-                    </ul>
-                </section>
-            }
-
-            @if (Model.Guide.Count > 0)
-            {
-                <section class="panel" aria-labelledby="guide-escursione">
-                    <h2 id="guide-escursione">Nelle mie guide</h2>
-                    <ul class="route-places">
-                        @foreach (var g in Model.Guide)
-                        {
-                            <li><a href="@g.Url" title="@g.TitoloSeo">@g.Titolo</a></li>
-                        }
-                    </ul>
-                </section>
-            }
-
-            @if (Model.Zone != null)
-            {
-                <section class="panel" aria-labelledby="zona-escursione">
-                    <h2 id="zona-escursione">Zona: @Model.Zone</h2>
-                    <p class="panel-note">@TagHelper.GetDescription(Model.Zone)</p>
-                    <p class="panel-note">
-                        <a class="btn-secondary" href="/escursioni/zona/@zoneSlug" title="Tutte le escursioni nella zona @Model.Zone">Tutte le escursioni @Model.Zone</a>
-                    </p>
-                </section>
-            }
-        </aside>
     </div>
 
     @if (Model.Precedente != null || Model.Successiva != null)
@@ -396,10 +421,8 @@
                     .Where(v => v.Hike != h && v.GpxUrl != null)
                     .Select(v => $"{{ url: '{v.GpxUrl}', color: '{v.Colore}' }}")))]
             };
-            window.parkingMapConfig = { gpxUrl: '@gpxUrl', elementId: 'leaflet-parking-map', linkElementId: 'parking-google-maps-link' };
         </script>
         <script src="~/js/gpx-leaflet.js" asp-append-version="true" defer></script>
-        <script src="~/js/parking-leaflet.js" asp-append-version="true" defer></script>
     }
     <script src="~/js/carousel.js" asp-append-version="true" defer></script>
     <script src="~/js/gpx-avviso.js" asp-append-version="true" defer></script>

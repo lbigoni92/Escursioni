@@ -1,11 +1,11 @@
 {
   "wikiloc_id": 112720981,
   "titolo": "Orechiella Sulcina",
-  "titolo_seo": "Orecchiella: anello di Sulcina",
-  "meta_descrizione": "Anello di 5,8 km e +282 m da Sulcina nel Parco dell'Orecchiella, in Garfagnana, tra boschi a oltre 1.200 m di quota. Difficoltà media, traccia GPS scaricabile.",
+  "titolo_seo": "Parco dell'Orecchiella: anello da Sulcina e Rifugio Isera",
+  "meta_descrizione": "Anello di 5,8 km e +282 m da Sulcina nel Parco dell'Orecchiella, in Garfagnana, passando dal Rifugio Isera a circa 1.200 m. Difficoltà media.",
   "tag": "Garfagnana",
   "descrizione": "Orechiella Sulcina",
-  "descrizione_html": "<p>Un anello breve di 5,8 km da <strong>Sulcina</strong>, nel Parco dell'Orecchiella, con circa 280 metri di dislivello tra 1.200 e 1.300 metri di quota.</p>\n<h3>Il giro</h3>\n<p>Il giro si svolge nei boschi dell'Orecchiella. Per un giro più impegnativo dalla stessa zona c'è la scheda della <a href=\"/escursioni/pania-di-corfino\">Pania di Corfino dal Rifugio Isera</a>.</p>",
+  "descrizione_html": "<p>Un anello breve di 5,8 km da <strong>Sulcina</strong>, nel Parco dell'Orecchiella, con circa 280 metri di dislivello tra 1.200 e 1.300 metri di quota.</p>\n<h3>Il giro</h3>\n<p>Il giro si svolge nei boschi dell'Orecchiella. Per un giro più impegnativo dalla stessa zona c'è la scheda della <a href=\"/escursioni/pania-di-corfino\">Pania di Corfino dal Rifugio Isera</a>.</p>\n<h3>Il Parco dell'Orecchiella</h3>\n<p>L'Orecchiella è una riserva naturale dello Stato sull'Appennino della Garfagnana, gestita dai Carabinieri Forestali. Il giro passa dal <a href=\"/rifugi/rifugio-isera\">Rifugio Isera</a>, a circa 1.200 metri. A San Romano in Garfagnana c'è il Centro Visitatori del parco, con il Museo Naturalistico e il Museo dei Rapaci: per aperture e visite guarda il sito ufficiale prima di partire.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 5.81,
   "dislivello_m": 282,
@@ -33,7 +33,7 @@
   "geom": "POINT(10.35809 44.204102)",
   "sha256_payload": "1b3a3b3660867f0d61e48fdda93ed8e879b5894112c0dbea5b9a4d0bb04dfeee",
   "created_at": "2025-11-13T00:00:00",
-  "updated_at": "2026-11-08T20:00:00",
+  "updated_at": "2026-11-13T15:00:00",
   "come_arrivare": "<p>Si parte da <strong>Sulcina</strong>, nel Parco dell'Orecchiella (LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -119,6 +119,10 @@
     {
       "titolo": "Il Parco dell'Orecchiella – Visit Tuscany",
       "url": "https://www.visittuscany.com/it/attrazioni/il-parco-dellorecchiella/"
+    },
+    {
+      "titolo": "Centro Visitatori Parco dell'Orecchiella – Lucca Terre",
+      "url": "https://www.luccaterre.it/en/dettaglio/2883/Centro-Visitatori-Parco-dell-Orecchiella.html"
     }
   ]
 }

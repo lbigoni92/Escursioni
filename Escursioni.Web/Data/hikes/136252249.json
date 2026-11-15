@@ -1,11 +1,11 @@
 {
   "wikiloc_id": 136252249,
   "titolo": "Castello di Vulci e parco archeologico",
-  "titolo_seo": "Castello e parco archeologico di Vulci",
-  "meta_descrizione": "Anello di 9 km e +169 m nel parco archeologico di Vulci, con partenza dal castello dove c'è un grande parcheggio. D'estate fa caldo, ma ci sono fontanelle.",
+  "titolo_seo": "Vulci: castello, Ponte dell'Abbadia e parco archeologico",
+  "meta_descrizione": "Anello di 9 km e +169 m nel parco archeologico di Vulci: Castello dell'Abbadia con il museo, ponte sul Fiora e resti della città etrusca.",
   "tag": "Grosseto e Maremma",
   "descrizione": "Il percorso è molto semplice da seguire, se lo fate in estate state attenti al caldo anche se sono presenti delle fontanelle all'interno del parco archologico. Consiglio di parcheggiare al castello che ha un grande spazio per il parcheggio. Il biglietto per il parco invece è di 10 euro a testa. Il castello ospita dal 1975 il Museo nazionale archeologico di Vulci, dove sono esposti reperti provenienti dagli scavi archeologici di Vulci. Antica città etrusca, Vulci sorge nel territorio della Tuscia viterbese, tra i comuni di Canino e Montalto di Castro. La città si estende per circa 120 ettari e sorge sulle rive del Fiume Fiora. Vulci fu una delle più importanti città-stato dell’Etruria, ed ebbe un significativo ruolo nei commerci con la Grecia e le altre regioni orientali del Mediterraneo. Dell’antica città rimangono oggi imponenti ruderi, la cinta muraria, le porte urbane, l’acqedotto romano, l’area del foto, il tempio grande, le terme, la Domus. Particolarmente interessanti le Necropoli, tra le più celebri quelle di Cavalupo, Poledrara, Campo Maggio, Tomba François, Tomba dei Tori. Il parco naturalistico è di rara bellezza, sentieri e percorsi di trekking per scoprire la bellezza del territorio della Maremma Laziale.",
-  "descrizione_html": "<p>Un anello di 9 km dal <strong>Castello dell'Abbadia</strong> al Parco archeologico di <strong>Vulci</strong>, la città etrusca sul fiume Fiora.</p>\n<h3>Il parco archeologico</h3>\n<p>Il percorso è molto semplice da seguire. L'ingresso al parco è a pagamento: tariffe e orari sul sito ufficiale. Della città restano mura, porte, l'acquedotto romano, il foro, il grande tempio, le terme e la domus; famose anche le necropoli, come la Tomba François.</p>\n<h3>Caldo e acqua</h3>\n<p>D'estate attenzione al caldo; dentro il parco ci sono fontanelle.</p>",
+  "descrizione_html": "<p>Un anello di 9 km dal <strong>Castello dell'Abbadia</strong> al Parco archeologico di <strong>Vulci</strong>, la città etrusca sul fiume Fiora.</p>\n<h3>Il parco archeologico</h3>\n<p>Il percorso è molto semplice da seguire. L'ingresso al parco è a pagamento: tariffe e orari sul sito ufficiale. Della città restano mura, porte, l'acquedotto romano, il foro, il grande tempio, le terme e la domus; famose anche le necropoli, come la Tomba François.</p>\n<h3>Caldo e acqua</h3>\n<p>D'estate attenzione al caldo; dentro il parco ci sono fontanelle.</p>\n<h3>Cosa vedere nel parco di Vulci</h3>\n<ul>\n<li><strong>Il Castello dell'Abbadia</strong>, che ospita il Museo Archeologico Nazionale di Vulci con reperti etruschi e romani.</li>\n<li><strong>Il Ponte dell'Abbadia</strong>, detto anche del Diavolo, alto circa 30 metri sul fiume Fiora.</li>\n<li><strong>L'area della città etrusco-romana</strong>, su un pianoro affacciato sulla forra del Fiora.</li>\n<li><strong>Il Tumulo della Cuccumella</strong>, il più grande tumulo dell'Etruria meridionale.</li>\n</ul>\n<p>Orari e biglietti del parco e del museo cambiano con le stagioni: controllali sui siti ufficiali.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 9.04,
   "dislivello_m": 169,
@@ -33,13 +33,21 @@
   "geom": "POINT(11.633135 42.429908)",
   "sha256_payload": "9b92ac5c71be7efaf48943b68d0b7432e2be0f02780139b549bd71c74a8f520a",
   "created_at": "2025-11-13T00:00:00",
-  "updated_at": "2026-11-09T11:00:00",
+  "updated_at": "2026-11-13T15:00:00",
   "come_arrivare": "<p>Consiglio di parcheggiare al <strong>Castello dell'Abbadia</strong>, a Vulci (Canino e Montalto di Castro, VT), dove c'è molto spazio. Il punto esatto è nelle coordinate qui sotto.</p>",
   "cenno_storico": "Il Castello della Badia, una fortezza trapezoidale del XII secolo con sei torri sul fiume Fiora, fu ampliato nel Cinquecento dai Farnese e nel Seicento fu dogana dello Stato pontificio. Nel 1808 lo comprò Luciano Bonaparte, nel 1856 i Torlonia e nel 1960 lo Stato. Dal 1975 ospita il Museo archeologico di Vulci, riallestito nel 2016.",
   "fonti": [
     {
       "titolo": "Museo archeologico di Vulci – Direzione regionale Musei nazionali Lazio",
       "url": "https://direzioneregionalemuseilazio.cultura.gov.it/en/luoghi/museo-archeologico-di-vulci/"
+    },
+    {
+      "titolo": "Museo archeologico nazionale di Vulci – Ministero della Cultura",
+      "url": "https://cultura.gov.it/luogo/museo-archeologico-nazionale-di-vulci"
+    },
+    {
+      "titolo": "Area della città etrusco-romana di Vulci – Ministero della Cultura",
+      "url": "https://cultura.gov.it/luogo/area-della-citta-etrusco-romana-di-vulci"
     }
   ],
   "descrizione_rivista": true,

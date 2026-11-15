@@ -33,7 +33,7 @@
   "geom": "POINT(10.187937 44.098983)",
   "sha256_payload": "5d4f2e3f91854e19ce662c9b57ee2a5f9da79b533cc29690c627da80c5dd7680",
   "created_at": "2026-06-01T00:00:00",
-  "updated_at": "2026-11-08T20:00:00",
+  "updated_at": "2026-11-14T22:00:00",
   "come_arrivare": "<p>Si parte dal parcheggio del <strong>Biforco</strong>, sopra Forno (Massa, MS), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -110,11 +110,15 @@
       "filesize_bytes": null
     }
   ],
-  "cenno_storico": "Il 13 giugno 1944, festa del patrono Sant'Antonio, reparti tedeschi e della X MAS attaccarono Forno, dove pochi giorni prima si erano insediati i partigiani. Nel rastrellamento furono uccise 68 persone, quasi tutte fucilate.",
+  "cenno_storico": "All'ingresso di Forno c'è la grande Filanda, un cotonificio costruito alla fine dell'Ottocento e chiamato «la fabbrica delle donne» per le tante operaie del paese. Chiuse nel 1942 e il 29 luglio 1944 fu minata e incendiata dalle truppe tedesche.",
   "fonti": [
     {
-      "titolo": "Forno, Massa, 13.06.1944 – Atlante delle stragi naziste e fasciste in Italia",
-      "url": "https://www.straginazifasciste.it/wp-content/uploads/schede/FORNO%20MASSA%2013.06.1944.pdf"
+      "titolo": "Filanda di Forno – Museo Galileo",
+      "url": "https://brunelleschi.imss.fi.it/itineraries/place/FilandaFornoExCotonificioLigure.html"
+    },
+    {
+      "titolo": "La fabbrica delle donne – La Nazione",
+      "url": "https://www.lanazione.it/speciali/vivere-massa/la-fabbrica-delle-donne-lantica-6630ef58"
     }
   ]
 }

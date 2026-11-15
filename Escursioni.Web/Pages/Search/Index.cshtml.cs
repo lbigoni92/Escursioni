@@ -21,6 +21,10 @@ public class IndexModel : PageModel
     public async Task OnGet()
     {
         ViewData["RobotsDirective"] = "noindex, follow";
-        DifficoltaDisponibili = (await _repo.GetDistinctDifficoltaAsync()).ToList();
+        // Dalla più facile alla più impegnativa, non in ordine alfabetico
+        string[] ordine = ["Facile", "Medio", "Difficile", "Molto difficile", "Per esperti"];
+        DifficoltaDisponibili = (await _repo.GetDistinctDifficoltaAsync())
+            .OrderBy(d => Array.FindIndex(ordine, o => string.Equals(o, d, StringComparison.OrdinalIgnoreCase)) is var i and >= 0 ? i : 99)
+            .ToList();
     }
 }

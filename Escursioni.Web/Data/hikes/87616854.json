@@ -5,7 +5,7 @@
   "meta_descrizione": "Passeggiata di 4,6 km e +229 m sull'Isola di Capraia, dal paese all'ex penitenziario, oggi allevamento di capre. Interrotta per scarpe rotte: controlla le tue.",
   "tag": "Livorno e costa toscana",
   "descrizione": "Percorso bello, fatto d'estate, molto caratteristico il primo tratto in mezzo alle vecchie abitazioni, fino al km 1.9. Al km2.6 s'arriva al ex penitenziario dell'Isola consiglio di fermarsi in quanto adesso è un allevamento di caprette. In seguito abbiamo proseguito ma appena imboccato il vero sentiero un mia amico ha avuto la sfortuna che gli si scollassero le scarpe e siamo tornati in dieto, ma il percorso è semplice bastava proseguire fino alla baia che distava appena 2/3km. Percorso molto bello ma che sconsiglio d'estate non ci sono alberi, fa caldo e non ci sono fontanelle. Noi finimmo il percorso andando a fare il tuffo a una spiaggia vicino ai traghetti, mare stupendo e bei posti! fatemi sapere la vostra esperienza.",
-  "descrizione_html": "<p>Un percorso facile di 4,6 km sull'<strong>isola di Capraia</strong>, dal porto verso l'ex penitenziario. L'abbiamo fatto d'estate e interrotto per un incidente di scarpe: la baia era a soli 2-3 km.</p>\n<h3>Tra le vecchie case</h3>\n<p>Il primo tratto, fino al km 1,9, passa tra le vecchie abitazioni ed è molto caratteristico. Al km 2,6 si arriva all'ex penitenziario, dove oggi c'è un allevamento di capre.</p>\n<h3>D'estate</h3>\n<p>Lo sconsiglio d'estate: non ci sono alberi, fa molto caldo e non ci sono fontanelle. Noi abbiamo chiuso con un tuffo in una spiaggia vicino ai traghetti: mare stupendo.</p>",
+  "descrizione_html": "<p>Un percorso facile di 4,6 km sull'<strong>isola di Capraia</strong>, dal porto verso l'ex penitenziario. L'abbiamo fatto d'estate e interrotto per un incidente di scarpe: la baia era a soli 2-3 km.</p>\n<h3>Tra le vecchie case</h3>\n<p>Il primo tratto, fino al km 1,9, passa tra le vecchie abitazioni ed è molto caratteristico. Al km 2,6 si arriva all'ex penitenziario, dove oggi c'è un allevamento di capre.</p>\n<h3>D'estate</h3>\n<p>Lo sconsiglio d'estate: non ci sono alberi, fa molto caldo e non ci sono fontanelle. Noi abbiamo chiuso con un tuffo in una spiaggia vicino ai traghetti: mare stupendo.</p>\n<h3>Isola di Capraia: dove si trova e come arrivare</h3>\n<p>Capraia è un'isola dell'Arcipelago Toscano. Ci si arriva solo in traghetto: il collegamento tutto l'anno parte dal porto di Livorno, e d'estate ci sono anche corse da altri porti. Orari e prenotazioni sul sito ufficiale della compagnia di navigazione.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 4.62,
   "dislivello_m": 229,
@@ -33,13 +33,17 @@
   "geom": "POINT(9.835979 43.051089)",
   "sha256_payload": "93b41048ca243c5cdcd9a851c8b211fb0eef3cc652c9d08af2a5c023a93390e1",
   "created_at": "2025-11-15T00:00:00",
-  "updated_at": "2026-11-03T09:42:32",
+  "updated_at": "2026-11-13T15:00:00",
   "come_arrivare": "<p>Si parte dal <strong>porto di Capraia Isola</strong> (LI), raggiungibile solo in traghetto da Livorno, nel punto indicato dalle coordinate qui sotto.</p>",
   "cenno_storico": "Nel 1873 sull'isola fu aperta una Colonia Penale Agricola, poi chiamata Casa di Lavoro all'aperto e infine Casa di Reclusione di Capraia Isola. I detenuti lavoravano nei campi, nell'allevamento, nella pastorizia e nella pesca, e costruirono i muretti a secco che si vedono ancora sulle alture. Il carcere fu chiuso nel 1986 e gran parte degli edifici oggi è abbandonata.",
   "fonti": [
     {
       "titolo": "Carcere di Capraia – FAI, I Luoghi del Cuore",
       "url": "https://fondoambiente.it/luoghi/carcere-di-capraia"
+    },
+    {
+      "titolo": "Traghetti Livorno–Capraia – Ferryhopper",
+      "url": "https://www.ferryhopper.com/it/ferry-routes/direct/livorno-capraia"
     }
   ],
   "descrizione_rivista": true,

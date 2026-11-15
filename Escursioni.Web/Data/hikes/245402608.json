@@ -1,11 +1,11 @@
 {
   "wikiloc_id": 245402608,
   "titolo": "Tra borghi e panorami: da Calci a Montemagno tra natura e convivialità",
-  "titolo_seo": "Da Calci a Montemagno passando per la Certosa",
-  "meta_descrizione": "Anello di 10,2 km e +369 m da Calci alla Certosa e a Montemagno, sui Monti Pisani, tra boschi e borghi. Facile da seguire, con pranzo in compagnia a Montemagno.",
+  "titolo_seo": "Certosa di Calci e Montemagno: anello da Calci",
+  "meta_descrizione": "Anello di 10,2 km e +369 m da Calci alla Certosa monumentale e a Montemagno, sui Monti Pisani, tra boschi e borghi. Facile da seguire.",
   "tag": "Monti Pisani",
   "descrizione": "Il giro parte da Calci e conduce verso la Certosa di Calci (antico complesso monastico certosino fondato nel XIV secolo, oggi sede anche di musei, immerso in un contesto naturale di grande pregio).\r\n\r\nDa qui il percorso prosegue entrando gradualmente nel bosco, dopo un breve tratto su strada di campagna, regalando subito una sensazione di immersione nella natura.\r\n\r\nSi raggiunge quindi Montemagno (caratteristico borgo collinare di origine medievale, noto per la sua posizione panoramica e l’atmosfera autentica), da cui si prosegue lungo diversi sentieri CAI.\r\n\r\nIl tragitto offre scorci davvero notevoli sulla vallata sottostante: nelle giornate limpide si riesce a distinguere chiaramente anche la Torre di Pisa, oltre a un ampio panorama che abbraccia tutta la piana pisana.\r\n\r\nSi arriva poi alla Chiesa dei Santi Jacopo e Verano, da cui il percorso inizia gradualmente la discesa.\r\n\r\nL’obiettivo del giro, più che la performance sportiva, è stato quello di ritagliarsi un momento conviviale: una pausa semplice per un piccolo picnic tra amici, condividendo cibo e tempo insieme immersi nella tranquillità del paesaggio.\r\n",
-  "descrizione_html": "<p>Un anello di 10,2 km e circa 370 metri di dislivello da Calci alla <strong>Certosa</strong> e a <strong>Montemagno</strong>, con panorami su tutta la piana pisana. Più che un giro sportivo, una giornata per stare insieme con un picnic tra amici.</p>\n<h3>Dalla Certosa al bosco</h3>\n<p>Da Calci si va verso la Certosa e, dopo un breve tratto su strada di campagna, si entra gradualmente nel bosco.</p>\n<h3>Montemagno e il panorama</h3>\n<p>Si arriva a Montemagno, piccolo borgo collinare di origine medievale, e si prosegue su diversi sentieri CAI. I panorami sulla vallata sono notevoli: nelle giornate limpide si distingue anche la Torre di Pisa.</p>\n<h3>La discesa</h3>\n<p>Dalla chiesa dei Santi Jacopo e Verano comincia la discesa che riporta a Calci.</p>",
+  "descrizione_html": "<p>Un anello di 10,2 km e circa 370 metri di dislivello da Calci alla <strong>Certosa</strong> e a <strong>Montemagno</strong>, con panorami su tutta la piana pisana. Più che un giro sportivo, una giornata per stare insieme con un picnic tra amici.</p>\n<h3>Dalla Certosa al bosco</h3>\n<p>Da Calci si va verso la Certosa e, dopo un breve tratto su strada di campagna, si entra gradualmente nel bosco.</p>\n<h3>Montemagno e il panorama</h3>\n<p>Si arriva a Montemagno, piccolo borgo collinare di origine medievale, e si prosegue su diversi sentieri CAI. I panorami sulla vallata sono notevoli: nelle giornate limpide si distingue anche la Torre di Pisa.</p>\n<h3>La discesa</h3>\n<p>Dalla chiesa dei Santi Jacopo e Verano comincia la discesa che riporta a Calci.</p>\n<h3>La Certosa di Calci</h3>\n<p>La Certosa fu fondata nel 1366 grazie al sostegno di famiglie pisane. Oggi ospita due musei: il Museo Nazionale della Certosa Monumentale e, nell'ala ovest, il Museo di Storia Naturale dell'Università di Pisa. Orari e modalità di visita cambiano durante l'anno: controllali sui siti ufficiali prima di andare.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 10.19,
   "dislivello_m": 369,
@@ -33,13 +33,21 @@
   "geom": "POINT(10.522055 43.722882)",
   "sha256_payload": "43fd17452b71a92238471d9d17fc10e7949ce9af8dc71ae2511a96c69a5613a9",
   "created_at": "2026-04-19T00:00:00",
-  "updated_at": "2026-11-03T08:50:28",
+  "updated_at": "2026-11-13T15:00:00",
   "come_arrivare": "<p>Si parte dal paese di <strong>Calci</strong> (PI), nel punto indicato dalle coordinate qui sotto.</p>",
   "cenno_storico": "La Certosa di Calci fu fondata nel 1366 e custodisce la Bibbia di Calci del 1168, un codice di grande formato riccamente decorato. Dal 1972 è sede di un Museo nazionale; nel 1979 la parte occidentale del complesso è stata concessa in uso perpetuo e gratuito all'Università di Pisa, che vi ospita il suo Museo di storia naturale.",
   "fonti": [
     {
       "titolo": "La Certosa di Calci – Visit Tuscany",
       "url": "https://www.visittuscany.com/it/attrazioni/la-certosa-di-calci/"
+    },
+    {
+      "titolo": "Certosa monumentale di Calci – Ministero della Cultura",
+      "url": "https://www.beniculturali.it/luogo/certosa-monumentale-di-calci"
+    },
+    {
+      "titolo": "Museo di Storia Naturale dell'Università di Pisa – La Certosa",
+      "url": "https://www.msn.unipi.it/en/la-certosa"
     }
   ],
   "descrizione_rivista": true,

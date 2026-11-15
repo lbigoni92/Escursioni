@@ -15,11 +15,18 @@ public class BrowserTests(UiSite site) : IAsyncLifetime
 
     private IReadOnlyList<Hike> Hikes => site.Hikes.All;
 
-    // Stessa logica di searchByText in search.js
+    // Stessa logica di matchesText in search.js: ogni parola deve comparire, senza badare a maiuscole e accenti
+    private static string Norm(string? s) => new string((s ?? "").ToLowerInvariant().Normalize(System.Text.NormalizationForm.FormD)
+        .Where(c => System.Globalization.CharUnicodeInfo.GetUnicodeCategory(c) != System.Globalization.UnicodeCategory.NonSpacingMark).ToArray());
+
     private List<Hike> ExpectedTextSearch(string q, string? difficolta = null) => Hikes
         .Where(h => difficolta == null || h.Difficolta == difficolta)
-        .Where(h => new[] { h.Titolo, h.Descrizione, h.Comune, h.Provincia, h.Regione }
-            .Any(f => (f ?? "").Contains(q, StringComparison.OrdinalIgnoreCase)))
+        .Where(h =>
+        {
+            var hay = Norm(string.Join(" ", h.Titolo, h.TitoloSeo, h.Descrizione, h.Comune, h.Provincia, h.Regione,
+                Escursioni.Web.Services.HikeDisplay.Zone(h), Escursioni.Web.Services.HikeDisplay.Location(h)));
+            return Norm(q).Split(' ', StringSplitOptions.RemoveEmptyEntries).All(hay.Contains);
+        })
         .ToList();
 
     private static async Task<int> WaitForResults(IPage page)
@@ -68,18 +75,17 @@ public class BrowserTests(UiSite site) : IAsyncLifetime
     }
 
     [Fact]
-    public async Task Search_FormSubmit_UpdatesUrlAndResults()
+    public async Task Search_TypingUpdatesUrlAndResults_WithoutReload()
     {
         var page = await site.NewPageAsync();
         await page.GotoAsync("/ricerca");
-        // Di default è attiva la ricerca per località: il campo di testo si abilita scegliendo "testo"
-        Assert.True(await page.Locator("input[name=Q]").IsDisabledAsync());
-        await page.CheckAsync("input[name=SearchMode][value=testo]");
+        await WaitForResults(page);
+        // Un solo campo: i risultati si aggiornano mentre si scrive
         await page.FillAsync("input[name=Q]", "calambrone");
-        await page.Locator("input[name=Q]").PressAsync("Enter");
         await page.WaitForURLAsync(new Regex("Q=calambrone"));
+        await page.WaitForFunctionAsync("() => document.getElementById('search-summary').textContent.startsWith('Trovate " + ExpectedTextSearch("calambrone").Count + " ')");
 
-        Assert.Equal(ExpectedTextSearch("calambrone").Count, await WaitForResults(page));
+        Assert.Equal(ExpectedTextSearch("calambrone").Count, await page.Locator("#search-results .hike-card").CountAsync());
         // I due "Calambrone" hanno slug distinti
         Assert.Equal(1, await page.Locator("#search-results a[href='/escursioni/calambrone']").First.CountAsync());
         Assert.Equal(1, await page.Locator("#search-results a[href='/escursioni/calambrone-marzo-2019']").First.CountAsync());
@@ -143,7 +149,15 @@ public class BrowserTests(UiSite site) : IAsyncLifetime
         Assert.Contains("is-active", await slides.Nth(1).GetAttributeAsync("class"));
         Assert.DoesNotContain("is-active", await slides.Nth(0).GetAttributeAsync("class"));
 
-        await page.Locator("[data-carousel-dot]").Nth(3).ClickAsync();
+        // Con più di 10 foto al posto dei pallini c'è il contatore "4 / N"
+        if (await page.Locator("[data-carousel-dot]").CountAsync() > 0)
+            await page.Locator("[data-carousel-dot]").Nth(3).ClickAsync();
+        else
+        {
+            await page.ClickAsync("[data-carousel-next]");
+            await page.ClickAsync("[data-carousel-next]");
+            Assert.StartsWith("4 / ", await page.TextContentAsync("[data-carousel-count]"));
+        }
         Assert.Contains("is-active", await slides.Nth(3).GetAttributeAsync("class"));
 
         await page.ClickAsync("[data-carousel-prev]");

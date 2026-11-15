@@ -13,7 +13,12 @@
     var location = HikeDisplay.Location(h);
     var heading = ViewData["CardHeading"] as string ?? "h3";
 }
-<article class="hike-card">
+@{
+    // Dati per i filtri della pagina zona (wwwroot/js/zone-filters.js)
+    var diffKey = (h.Difficolta ?? "").ToLowerInvariant() switch { "facile" => "facile", "medio" => "medio", "" => "", _ => "difficile" };
+    var inv = System.Globalization.CultureInfo.InvariantCulture;
+}
+<article class="hike-card" data-km="@(h.DistanzaKm?.ToString(inv) ?? "")" data-gain="@(h.DislivelloM?.ToString(inv) ?? "")" data-diff="@diffKey" data-loop="@(h.TipoGiro == "Anello" ? "1" : "0")" data-date="@(h.DataEscursione?.ToString("yyyy-MM-dd") ?? "")">
     <div class="hike-card-media">
         @if (!string.IsNullOrWhiteSpace(cover))
         {
@@ -56,7 +61,7 @@
                 <time datetime="@h.DataEscursione.Value.ToString("yyyy-MM-dd")">@h.DataEscursione.Value.ToString("dd/MM/yyyy")</time>
             }
         </p>
-        <p class="hike-card-desc">@HikeDisplay.Excerpt(h.Descrizione)</p>
+        <p class="hike-card-desc">@HikeDisplay.Excerpt(h.MetaDescrizione ?? h.Descrizione)</p>
     </div>
     <ul class="hike-card-stats" aria-label="Dati principali">
         @if (h.DistanzaKm.HasValue)
