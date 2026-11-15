@@ -11,7 +11,7 @@ public static class SecurityHeaders
         new("X-Content-Type-Options", "nosniff"),
         new("X-Frame-Options", "SAMEORIGIN"),
         new("Referrer-Policy", "strict-origin-when-cross-origin"),
-        new("Permissions-Policy", "camera=(), microphone=(), geolocation=(), payment=()"),
+        new("Permissions-Policy", "camera=(), microphone=(), geolocation=(self), payment=()"),
     ];
 
     /// <summary>Strict-Transport-Security: sul server lo aggiunge UseHsts, solo alle richieste HTTPS.</summary>

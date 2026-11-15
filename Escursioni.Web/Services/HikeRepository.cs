@@ -276,7 +276,9 @@ public class HikeRepository : IHikeRepository
             .Select(h =>
             {
                 var cover = Pages.IndexModel.CoverPath(h);
-                var desc = h.Descrizione ?? "";
+                // Per la ricerca servono solo le parole della descrizione (una volta sola ciascuna): l'indice pesa meno della metà
+                var desc = string.Join(" ", System.Text.RegularExpressions.Regex.Split(HikeDisplay.PlainText(h.Descrizione).ToLowerInvariant(), @"[^\p{L}\p{N}]+")
+                    .Where(w => w.Length >= 3).Distinct());
                 return new
                 {
                     slug = h.Slug,
@@ -285,7 +287,7 @@ public class HikeRepository : IHikeRepository
                     zona = HikeDisplay.Zone(h),
                     luogo = HikeDisplay.Location(h),
                     descrizione = desc,
-                    riassunto = h.MetaDescrizione,
+                    riassunto = h.MetaDescrizione ?? HikeDisplay.Excerpt(h.Descrizione),
                     comune = h.Comune,
                     provincia = h.Provincia,
                     regione = h.Regione,

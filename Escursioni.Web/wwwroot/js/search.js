@@ -205,7 +205,7 @@
         if (h.zona) html += '<span class="hike-card-zone">' + esc(h.zona) + '</span>';
         html += '</div>';
         var meta = (h.luogo ? '<span>' + esc(h.luogo) + '</span>' : '') + (h.dataEscursione ? '<time>' + esc(h.dataEscursione) + '</time>' : '');
-        var desc = plainText(h.riassunto || h.descrizione);
+        var desc = plainText(h.riassunto || '');
         if (desc.length > 140) desc = desc.substring(0, 140).trim() + '…';
         var stats = '';
         if (h.km != null) stats += '<li><span class="stat-label">Distanza</span> ' + Number(h.km).toFixed(1) + ' km</li>';

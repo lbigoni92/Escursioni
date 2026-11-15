@@ -86,6 +86,8 @@
     <script>
         // Applica subito il tema light-mode se salvato in localStorage
         (function() {
+            // Con JavaScript attivo: i controlli che ne hanno bisogno (filtri) si mostrano subito, senza spostare la pagina
+            document.documentElement.classList.add('js');
             try {
                 // Qui il <body> non esiste ancora: la classe gli viene copiata subito dopo l'apertura
                 if (localStorage.getItem('theme') === 'light') {
@@ -326,6 +328,20 @@
                 });
             }
         });
+    </script>
+
+    @* Avviso quando manca la connessione: la pagina è la copia salvata dal service worker *@
+    <div class="offline-banner" id="offline-banner" role="status" hidden>Sei offline: stai vedendo la copia salvata di questa pagina.</div>
+    <script>
+        (function () {
+            // Schede consultabili anche senza campo (wwwroot/sw.js)
+            if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(function () { });
+            var banner = document.getElementById('offline-banner');
+            function update() { banner.hidden = navigator.onLine; }
+            window.addEventListener('online', update);
+            window.addEventListener('offline', update);
+            update();
+        })();
     </script>
 
     @* Solo in Production: l'export del deploy gira con --no-launch-profile, quindi in Production *@

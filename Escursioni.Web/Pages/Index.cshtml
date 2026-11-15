@@ -33,15 +33,17 @@
             {
                 var hh = heroHikes[i];
                 var cover = Escursioni.Web.Pages.IndexModel.CoverPath(hh)!;
-                // La prima foto è grande: variante gallery (800px), le altre thumb (400px)
-                var webp = i == 0 ? ImageHelper.GalleryPath(cover) : ImageHelper.ThumbPath(cover);
+                // Due misure (400 e 800 px): il browser sceglie quella adatta al riquadro e allo schermo
+                var thumb = ImageHelper.ThumbPath(cover);
+                var gallery = ImageHelper.GalleryPath(cover);
+                var srcset = string.Join(", ", new[] { thumb != null ? $"/{thumb} 400w" : null, gallery != null ? $"/{gallery} 800w" : null }.Where(x => x != null));
                 var title = HikeDisplay.Title(hh);
                 <li>
                     <a href="/escursioni/@hh.Slug" title="@title">
                         <picture>
-                            @if (webp != null)
+                            @if (srcset.Length > 0)
                             {
-                                <source srcset="~/@webp" type="image/webp" />
+                                <source srcset="@srcset" sizes="@(i == 0 ? "(min-width: 1200px) 40vw, 30vw" : "(min-width: 1200px) 20vw, 30vw")" type="image/webp" />
                             }
                             <img src="~/@cover" alt="" decoding="async" width="@(i == 0 ? 800 : 400)" height="@(i == 0 ? 600 : 300)" />
                         </picture>

@@ -23,8 +23,10 @@ public class Hike
     public int? QuotaMinM { get; set; }
     public int? QuotaMaxM { get; set; }
     public int? TempoMin { get; set; }
+    /// <summary>Tempo totale "h:mm": lo zero davanti alle ore viene tolto ("04:13" → "4:13") così tutte le schede sono uguali.</summary>
     [JsonPropertyName("tempo_hhmm")]
-    public string? TempoHHMM { get; set; }
+    public string? TempoHHMM { get => _tempo; set => _tempo = value is { Length: > 2 } v && v[0] == '0' && v[1] != ':' ? v[1..] : value; }
+    private string? _tempo;
     public int? TempoMovMin { get; set; }
     [JsonPropertyName("tempo_mov_hhmm")]
     public string? TempoMovHHMM { get; set; }

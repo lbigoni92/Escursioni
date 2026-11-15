@@ -20,7 +20,9 @@
 
 @{ ViewData["CardHeading"] = Model.Guida != null ? "h3" : "h2"; }
 @* Filtri rapidi: compaiono solo con JavaScript attivo, senza JS si vede l'elenco completo *@
-<form class="hike-filters" id="hike-filters" aria-label="Filtra le escursioni" hidden>
+@if (Model.Escursioni.Count >= 6)
+{
+<form class="hike-filters zone-filters" id="hike-filters" aria-label="Filtra le escursioni">
     <fieldset class="filter-group">
         <legend>Difficoltà</legend>
         <label><input type="checkbox" name="diff" value="facile" /> Facile</label>
@@ -50,6 +52,7 @@
     <p class="filter-count" id="hike-filter-count" aria-live="polite"></p>
     <button type="reset" class="filter-reset">Azzera filtri</button>
 </form>
+}
 <p class="filter-empty" id="hike-filter-empty" hidden>Nessuna escursione con questi filtri. <button type="button" class="filter-reset" data-filter-reset>Azzera filtri</button></p>
 <div class="card-grid" id="hike-grid">
     @foreach (var h in Model.Escursioni)

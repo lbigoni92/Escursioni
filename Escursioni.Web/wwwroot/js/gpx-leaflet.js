@@ -62,15 +62,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 }).addTo(map);
             });
 
-            main = new L.GPX(window.gpxMapConfig.gpxUrl, {
+            // Il GPX è già stato scaricato per controllarlo: si passa il testo, senza riscaricarlo
+            main = new L.GPX(gpxText, {
                 async: true,
                 polyline_options: { color: trackColor, weight: 4, opacity: 0.9 },
                 marker_options: {
                     startIconUrl: '/images/markers/marker-icon-green.png',
                     endIconUrl: '/images/markers/marker-icon-red.png',
                     shadowUrl: '/images/markers/marker-shadow.png',
-                    wptIconUrls: {
-                        '': '/images/markers/marker-icon-blue.png'
+                    // Punti foto e note: piccoli pallini, per non coprire la traccia
+                    wptIcons: {
+                        '': L.divIcon({ className: 'gpx-wpt', iconSize: [12, 12] })
                     }
                 }
             }).on('loaded', function(e) {

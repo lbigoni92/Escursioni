@@ -167,6 +167,14 @@ app.UseStaticFiles(new StaticFileOptions
             cacheControl += ", immutable";
         }
 
+        // CSS e JS linkati con asp-append-version (?v=hash): l'URL cambia a ogni modifica, il browser li tiene un anno
+        if (requestPath == "/sw.js")
+            cacheControl = "no-cache"; // il service worker va sempre ricontrollato
+        else if (ctx.Context.Request.Query.ContainsKey("v") && (ext == ".css" || ext == ".js"))
+            cacheControl = "public, max-age=31536000, immutable";
+        else if (requestPath.StartsWith("/media/", StringComparison.OrdinalIgnoreCase))
+            cacheControl += ", stale-while-revalidate=604800";
+
         ctx.Context.Response.Headers["Cache-Control"] = cacheControl;
     }
 });

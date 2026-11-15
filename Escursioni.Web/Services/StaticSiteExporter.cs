@@ -195,23 +195,26 @@ public sealed class StaticSiteExporter
         /data/search-index.json
           Cache-Control: public, max-age=3600
 
+        /sw.js
+          Cache-Control: no-cache
+
         /media/*
-          Cache-Control: public, max-age=2592000
+          Cache-Control: public, max-age=2592000, stale-while-revalidate=604800
 
         /media/gpx/*
           Content-Type: application/gpx+xml
 
         /css/*
-          Cache-Control: public, max-age=2592000
+          Cache-Control: public, max-age=31536000, immutable
 
         /js/*
-          Cache-Control: public, max-age=2592000
+          Cache-Control: public, max-age=31536000, immutable
 
         /lib/*
           Cache-Control: public, max-age=2592000
 
         /images/*
-          Cache-Control: public, max-age=2592000
+          Cache-Control: public, max-age=2592000, stale-while-revalidate=604800
 
         """;
 

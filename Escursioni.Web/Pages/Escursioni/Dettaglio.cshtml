@@ -23,7 +23,9 @@
 @section Head {
     @if (Model.GpxValid)
     {
+        <link rel="preconnect" href="https://unpkg.com" crossorigin />
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+        <link rel="preconnect" href="https://a.tile.openstreetmap.org" crossorigin />
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous" />
     }
 }
@@ -128,7 +130,7 @@
                                 {
                                     <source srcset="~/@galleryWebp" type="image/webp" />
                                 }
-                                <img src="~/@media.PathRelativo" alt="@displayTitle@(location != null ? $" ({location})" : "") – foto @(index + 1) di @galleryMedia.Count" loading="@(index == 0 ? "eager" : "lazy")" decoding="async" width="800" height="440" />
+                                <img src="~/@media.PathRelativo" alt="@displayTitle@(location != null ? $" ({location})" : "") – foto @(index + 1) di @galleryMedia.Count" loading="@(index == 0 ? "eager" : "lazy")" fetchpriority="@(index == 0 ? "high" : "auto")" decoding="@(index == 0 ? "sync" : "async")" width="800" height="440" />
                             </picture>
                         </div>
                     }
