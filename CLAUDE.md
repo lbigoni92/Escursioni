@@ -4,6 +4,8 @@ Sito di escursioni di Luca Bigoni (escursionilucabigoni.it): ASP.NET Razor Pages
 
 ## Comunicazione e git
 
+- **Il repository è pubblico**: niente segreti, cookie, token o dati personali nei file e nei commit. Lo strumento di importazione resta in un repository privato separato. Codice con licenza MIT, contenuti (foto, tracce, testi) © Luca Bigoni.
+
 - **Scrivere sempre in italiano**: risposte, riepiloghi, box di fine turno, messaggi di commit.
 - **Mai commit, merge, push o tag di propria iniziativa**, e non proporli. Si fanno solo quando Luca lo chiede esplicitamente, ogni volta. A fine lavoro dire cosa è cambiato e cosa resta non committato.
 - I commit vanno su `dev`. **Niente su `master` fino al rilascio della prima settimana di dicembre 2026** (procedura in `docs/seo/README.md`: nota di rilascio, fotografie, export Search Console).
@@ -23,9 +25,9 @@ Sito di escursioni di Luca Bigoni (escursionilucabigoni.it): ASP.NET Razor Pages
 
 ## Aggiungere un'escursione da Wikiloc
 
-1. `cd ../WikilocExporter` e `DOTNET_ROLL_FORWARD=Major dotnet run --no-build -- --url=<link wikiloc>` (l'exporter è .NET 8, gira sul runtime 10).
-2. Se il GPX è bloccato da Cloudflare, Luca lo scarica dal browser: copiarlo in `Escursioni.Web/wwwroot/media/gpx/{id}.gpx` e rilanciare.
-3. Completare il JSON: `titolo_seo`, `meta_descrizione`, `tag`, `comune`, `descrizione_html` in sezioni, `come_arrivare`, eventuale `cenno_storico` con fonti. Wikiloc dà solo il mese: se Luca dice il giorno, metterlo in `data_escursione`.
+1. Importare la traccia con lo strumento di importazione privato nella cartella accanto al repository (`../WikilocExporter`, repository separato e privato: non va mai copiato qui), opzione `--url=<link wikiloc>`; è .NET 8, si avvia con `DOTNET_ROLL_FORWARD=Major dotnet run --no-build`.
+2. Se l'importazione non porta il GPX, Luca lo scarica dal browser: copiarlo in `Escursioni.Web/wwwroot/media/gpx/{id}.gpx` e rilanciare.
+3. Completare il JSON: `titolo_seo`, `meta_descrizione`, `tag`, `comune`, `descrizione_html` in sezioni, `come_arrivare`, eventuale `cenno_storico` con fonti. Wikiloc dà solo il mese: se Luca dice il giorno, metterlo in `data_escursione`. Attenzione: se si rilancia l'exporter su quella traccia, `data_escursione` torna al primo del mese e va rimessa a mano.
 4. Luoghi toccati: `dotnet run --project Escursioni.Web --no-build -- --luoghi --minuti 5`.
 5. Aggiungere la traccia a `docs/seo/wikiloc-link.csv` (la pagina va in produzione col rilascio successivo).
 6. `python -I scripts/audit_coerenza.py` e i test.

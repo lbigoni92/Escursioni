@@ -5,7 +5,7 @@
   "meta_descrizione": "Anello facile di 10 km e +364 m dal parcheggio del cimitero di Suvereto a Prata e al Belvedere, con visita al centro storico del borgo, molto curato.",
   "tag": "Livorno e costa toscana",
   "descrizione": "La partenza avviene dal parcheggio del cimitero di Suvereto. Prima di iniziare il vero e proprio percorso, abbiamo fatto una breve visita al paese, che non avevamo mai visto prima. Il centro storico è molto bello, ben curato, ma la rocca non è stata altrettanto impressionante. Successivamente, ci siamo diretti al parcheggio dei pullman, da dove parte il sentiero n°1 in direzione dell'antico borgo cinquecentesco di Prata. Dopo un breve tratto asfaltato, il sentiero vero e proprio inizia subito e ci porta verso Prata. Abbiamo fatto una breve sosta al parco pubblico per mangiare qualcosa e poi abbiamo proseguito seguendo il sentiero numero 5 in direzione del Belvedere. Anche qui, il percorso è stato piuttosto semplice. Il paese di Belvedere è estremamente piccolo, forse il più minuscolo che abbia mai visto, con appena 50/60 abitanti. Successivamente, abbiamo proseguito lungo il sentiero per tornare all'auto. Nel sentiero, è possibile ammirare numerosi bellissimi fiori e nel primo tratto si costeggia un fiume che si attraversa tramite un ponticello in legno. Lungo il percorso, ci sono delle fontanelle. Il tempo stimato per completare il percorso è di circa 3 ore.",
-  "descrizione_html": "<p>Un anello facile di 10 km da <strong>Suvereto</strong> all'antico borgo cinquecentesco di <strong>Prata</strong> e al minuscolo <strong>Belvedere</strong>, in circa 3 ore.</p>\n<h3>Suvereto</h3>\n<p>Prima di partire abbiamo fatto un giro nel paese: il centro storico è molto bello e curato.</p>\n<h3>Verso Prata</h3>\n<p>Dal parcheggio dei pullman parte il sentiero n. 1: dopo un breve tratto d'asfalto si entra subito nel sentiero, che porta a Prata. Noi ci siamo fermati a mangiare nel parco pubblico.</p>\n<h3>Belvedere e il ritorno</h3>\n<p>Con il sentiero n. 5 si arriva a Belvedere, forse il paese più piccolo che abbia mai visto, con 50-60 abitanti. Lungo il giro ci sono tantissimi fiori, un fiume che si attraversa su un ponticello di legno e alcune fontanelle.</p>",
+  "descrizione_html": "<p>Un anello facile di 10 km da <strong>Suvereto</strong> all'antico borgo cinquecentesco di <strong>Prata</strong> e al minuscolo <strong>Belvedere</strong>, in circa 3 ore.</p>\n<h3>Suvereto</h3>\n<p>Prima di partire abbiamo fatto un giro nel paese: il centro storico è molto bello e curato.</p>\n<h3>Verso Prata</h3>\n<p>Dal parcheggio dei pullman parte il sentiero n. 1: dopo un breve tratto d'asfalto si entra subito nel sentiero, che porta a Prata. Noi ci siamo fermati a mangiare nel parco pubblico.</p>\n<h3>Belvedere e il ritorno</h3>\n<p>Con il sentiero n. 5 si arriva a Belvedere, forse il paese più piccolo che abbia mai visto, con 50-60 abitanti. Lungo il giro ci sono tantissimi fiori, un fiume che si attraversa su un ponticello di legno e alcune fontanelle.</p>\n<h3>Dove si trova Suvereto</h3>\n<p>Suvereto è un borgo medievale ancora cinto dalle mura, su un colle al centro della <strong>Val di Cornia</strong>, nel sud della provincia di Livorno, non lontano da Venturina Terme, San Vincenzo e Piombino. Ha la Bandiera Arancione del Touring Club Italiano e fa parte dei Borghi più belli d'Italia.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 10,
   "dislivello_m": 364,
@@ -33,13 +33,21 @@
   "geom": "POINT(10.679907 43.081443)",
   "sha256_payload": "54307388cb8061422e81cbaf09b9d4e4b1000992af20c2758314848ffd105e28",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-11-03T09:42:32",
+  "updated_at": "2026-11-15T20:00:00",
   "come_arrivare": "<p>Si parcheggia al cimitero di <strong>Suvereto</strong> (LI), nel punto indicato dalle coordinate qui sotto.</p>",
   "cenno_storico": "Sulla cima del promontorio sopra Suvereto c'è la Rocca Aldobrandesca, costruita a partire dal XIII secolo dalla famiglia Aldobrandeschi sui resti di fortificazioni più antiche. Rimaneggiata più volte, fu abbandonata nell'Ottocento. Il restauro dei primi anni Duemila l'ha restituita al paese: oggi è dentro un parco pubblico e ospita un museo sulla storia del borgo.",
   "fonti": [
     {
       "titolo": "Rocca Aldobrandesca – Italia.it",
       "url": "https://www.italia.it/it/toscana/livorno/rocca-aldobrandesca"
+    },
+    {
+      "titolo": "Suvereto – Italia.it",
+      "url": "https://www.italia.it/it/toscana/livorno/suvereto"
+    },
+    {
+      "titolo": "Suvereto – Touring Club Italiano",
+      "url": "https://www.touringclub.it/destinazioni/suvereto"
     }
   ],
   "descrizione_rivista": true,

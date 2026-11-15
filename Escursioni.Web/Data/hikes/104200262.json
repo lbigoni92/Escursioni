@@ -1,11 +1,11 @@
 {
   "wikiloc_id": 104200262,
   "titolo": "Sovana - Etrusche - Vie Cave",
-  "titolo_seo": "Sovana: vie cave e necropoli etrusche",
-  "meta_descrizione": "Anello facile di 7,9 km e +319 m a Sovana, tra le vie cave scavate dagli Etruschi nel tufo e le necropoli della zona. Traccia GPS, foto e descrizione.",
+  "titolo_seo": "Sovana: vie cave, necropoli etrusche e cosa vedere",
+  "meta_descrizione": "Anello facile di 7,9 km e +319 m a Sovana tra vie cave e necropoli etrusche, con cosa vedere nel borgo: Duomo, Rocca Aldobrandesca e Tomba Ildebranda.",
   "tag": "Grosseto e Maremma",
   "descrizione": "Le Vie Cave, chiamate anche “tagliate”, sono una creazione ancora poco conosciuta degli Etruschi. Questi affascinanti percorsi viari scavati a cielo aperto nelle colline di tufo non hanno raffronti in altre civiltà del mondo antico. Per questo sono sono state fatte numerose ipotesi sulla loro reale funzione: canali per convogliare le acque piovane dai pianori alle valli, semplici vie di comunicazione, passaggi strategici studiati contro i nemici, sentieri cerimoniali e così via… In primis abbiamo visitato il paese, molto carino e pieno di gatti bellissimi in seguiti siamo scesi per la via che costeggia il cimitero arrivando al primo percorso, dove abbiamo vito, quelle che sono le vie cave più belle con alcune tombe che meritano davvero d'essere viste. In secondo luogo abbiamo visitato il parco archeologico luogo tenuto d'incanto che consiglio per il biglietto pagato la modica ci fra di 5 euro... la più bella ? sempre e indiscutibilmente la prima Via Cava di San Sebastiano. Se quella del Cavone è la più larga tra le Vie Cave, quella di San Sebastiano è la più profonda (fino a venticinque metri) e questo la rende particolarmente suggestiva. Si entra all’improvviso in un ambiente buio tra due pareti strette e verticali di roccia, da cui si intravede solo una striscia di cielo parzialmente coperto dagli alberi.",
-  "descrizione_html": "<p>Un anello facile di 7,9 km da <strong>Sovana</strong> tra le vie cave e le necropoli etrusche.</p>\n<h3>Le vie cave</h3>\n<p>Le vie cave, dette anche «tagliate», sono percorsi scavati a cielo aperto nelle colline di tufo. Sulla loro funzione ci sono molte ipotesi: canali per l'acqua piovana, vie di comunicazione, passaggi difensivi, sentieri cerimoniali. Dal paese, pieno di gatti bellissimi, si scende lungo il cimitero fino alle vie cave più belle, con alcune tombe che meritano davvero. La mia preferita resta la via cava di San Sebastiano.</p>\n<h3>Il parco archeologico</h3>\n<p>Il parco archeologico è tenuto benissimo e lo consiglio; l'ingresso è a pagamento, con le tariffe sul sito ufficiale.</p>",
+  "descrizione_html": "<p>Un anello facile di 7,9 km da <strong>Sovana</strong> tra le vie cave e le necropoli etrusche.</p>\n<h3>Le vie cave</h3>\n<p>Le vie cave, dette anche «tagliate», sono percorsi scavati a cielo aperto nelle colline di tufo. Sulla loro funzione ci sono molte ipotesi: canali per l'acqua piovana, vie di comunicazione, passaggi difensivi, sentieri cerimoniali. Dal paese, pieno di gatti bellissimi, si scende lungo il cimitero fino alle vie cave più belle, con alcune tombe che meritano davvero. La mia preferita resta la via cava di San Sebastiano.</p>\n<h3>Il parco archeologico</h3>\n<p>Il parco archeologico è tenuto benissimo e lo consiglio; l'ingresso è a pagamento, con le tariffe sul sito ufficiale.</p>\n<h3>Cosa vedere a Sovana</h3>\n<ul>\n<li><strong>Il Duomo</strong>, uno degli edifici religiosi più importanti della Maremma, a lungo sede vescovile: nella cripta ci sono i resti di San Mamiliano.</li>\n<li><strong>La Rocca Aldobrandesca</strong>, i cui ruderi chiudono il paese sul lato più accessibile dello sperone di tufo.</li>\n<li><strong>La piazza del paese</strong>, con il Palazzo Pretorio e la chiesa di Santa Maria Maggiore, e la casa che la tradizione indica come quella natale di papa Gregorio VII.</li>\n<li><strong>La necropoli</strong>, con la Tomba Ildebranda e la Tomba dei Demoni Alati, oltre alle vie cave del giro.</li>\n</ul>\n<p>Orari e modalità di visita del parco archeologico e dei musei sono sui siti ufficiali.</p>",
   "attivita": "Tutte le Attività e Paesi",
   "distanza_km": 7.91,
   "dislivello_m": 319,
@@ -33,13 +33,21 @@
   "geom": "POINT(11.645977 42.657643)",
   "sha256_payload": "85c054b25ebc1c1a0f06740eaa5e96f68d1246e03c47f0a02e4180c4638d5443",
   "created_at": "2025-11-14T00:00:00",
-  "updated_at": "2026-11-09T11:00:00",
+  "updated_at": "2026-11-15T20:00:00",
   "come_arrivare": "<p>Si parte dal paese di <strong>Sovana</strong> (Sorano, GR), nel punto indicato dalle coordinate qui sotto.</p>",
   "cenno_storico": "Nella necropoli di Sovana c'è la Tomba Ildebranda, del III-II secolo a.C., costruita come un tempio greco e tra i monumenti più importanti dell'Etruria. Fu scoperta nel 1924. Il nome non ha legami con papa Gregorio VII, Ildebrando di Sovana: gli scopritori, non sapendo nulla del committente, la dedicarono al cittadino più illustre del paese.",
   "fonti": [
     {
       "titolo": "Tomba Ildebranda – Visit Tuscany",
       "url": "https://www.visittuscany.com/it/attrazioni/tomba-ildebranda/"
+    },
+    {
+      "titolo": "Sovana – Visit Tuscany",
+      "url": "https://www.visittuscany.com/en/towns-and-villages/sovana/"
+    },
+    {
+      "titolo": "Duomo di Sovana – Visit Tuscany",
+      "url": "https://www.visittuscany.com/it/attrazioni/duomo-di-sovana/"
     }
   ],
   "descrizione_rivista": true,

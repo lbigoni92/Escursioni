@@ -53,6 +53,8 @@ public class BrowserTests(UiSite site) : IAsyncLifetime
         page.RequestFailed += (_, req) => errors.Add($"richiesta fallita: {req.Url} {req.Failure}");
         page.Response += (_, res) => { if (res.Status >= 400) errors.Add($"HTTP {res.Status}: {res.Url}"); };
 
+        // Cloudflare Web Analytics funziona solo sul dominio vero: nei test risponde vuoto, così non conta come errore
+        await page.RouteAsync("**/*cloudflareinsights.com/**", r => r.FulfillAsync(new() { Status = 200, ContentType = "application/javascript", Body = "" }));
         await page.GotoAsync(path);
         await Snapshot.SettleAsync(page);
 

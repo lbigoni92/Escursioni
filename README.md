@@ -17,12 +17,17 @@ Questo è il repository del sito ufficiale di Luca Bigoni dedicato a escursioni,
 
 Per informazioni o collaborazioni: luca.bigoni@live.it
 
+## Licenza
+
+- **Codice** (cartelle `Escursioni.Web`, `Escursioni.Tests`, `Escursioni.UiTests`, `Escursioni.MigrationEditor`, `scripts`): licenza MIT, vedi [LICENSE](LICENSE).
+- **Contenuti**: foto, tracce GPS, descrizioni, cenni storici, schede dei luoghi e guide (`Escursioni.Web/Data`, `Escursioni.Web/wwwroot/media` e testi del sito) sono © Luca Bigoni, **tutti i diritti riservati**. Non possono essere copiati, ripubblicati o usati per altri siti o app senza autorizzazione scritta. Per richieste: luca.bigoni@live.it.
+
 ---
 
 ## Come funziona
 
 ```
-WikilocExporter (SiteDir = ../Escursioni/Escursioni.Web)
+Strumento di importazione privato (non incluso)
                          │ scrive direttamente nel sito
                          ▼
 Escursioni.Web/Data/hikes/{wikiloc_id}.json   ◄── MigrationEditor (SEO, tag, descrizioni)
@@ -55,16 +60,10 @@ dist/  (HTML + sitemap.xml + feed/rss + _redirects + _headers + media)
 - **Pagine luogo**: un luogo di `luoghi.json` può avere una pagina propria (`/rifugi/rifugio-del-freo`) con una scheda in `Data/luoghi-schede/{slug}.json`: `osm` (lo stesso id di `luoghi.json`), `nome`, `titolo_seo`, `meta_descrizione`, `testo_html`, `fonti` e `contatti` (dove trovare orari e telefono aggiornati, invece di copiarli). La pagina elenca tutte le escursioni che passano dal luogo ed è linkata dall'elenco del tipo e dal riquadro "Sul percorso". Solo dati stabili presi da fonti verificabili, sempre citate.
 
 ### Aggiungere o aggiornare un'escursione
-1. Esegui WikilocExporter dalla sua cartella (`dotnet run`). Con `SiteDir` impostato scrive direttamente in `Escursioni.Web/Data/hikes/` e `Escursioni.Web/wwwroot/media/`, e genera le varianti `.thumb.webp`/`.gallery.webp`.
-   - Con `"SkipExistingHikes": true` scarica solo le escursioni nuove; mettilo a `false` per riallineare anche quelle esistenti (molto più lento).
-   - Per riallineare solo un'escursione modificata su Wikiloc: `dotnet run -- --url=<link wikiloc>` (ripetibile). Foto e GPX già presenti non vengono riscaricati: se li hai cambiati, cancellali prima.
-   - Le descrizioni scritte su Wikiloc in Markdown (`# titolo`, `### sottotitolo`, `**grassetto**`, righe vuote tra i paragrafi) vengono convertite in HTML.
-   - Le foto già presenti non vengono riscaricate. Se Wikiloc risponde con una pagina di blocco invece del file, l'escursione viene saltata e ritentata al giro successivo.
-   - Il download dei GPX su Wikiloc è protetto da Cloudflare Turnstile: se l'exporter non riesce a scaricarlo, scaricalo a mano dal browser e salvalo in `Escursioni.Web/wwwroot/media/gpx/{wikiloc_id}.gpx` (il log indica link e percorso). I GPX già presenti non vengono riscaricati.
-   - Cookie e user agent vanno in `WikilocExporter/appsconfig.local.json` (escluso da git), non in `appsconfig.json`.
-   - Se su Wikiloc non è cambiato nulla, il JSON non viene toccato (quindi `updated_at` e la data nella sitemap restano uguali).
+1. Importa l'escursione dalle mie tracce con lo strumento di importazione (privato, non incluso in questo repository). Scrive il JSON in `Escursioni.Web/Data/hikes/` e foto e GPX in `Escursioni.Web/wwwroot/media/`, con le varianti `.thumb.webp`/`.gallery.webp`.
    - `titolo_seo`, `meta_descrizione`, `tag` e `created_at` già presenti vengono mantenuti, come `slug`, `varianti`, `come_arrivare`, `cenno_storico` e `fonti`. Con `descrizione_rivista: true` resta anche `descrizione_html`.
-   - Le escursioni in `Data/hikes-escluse` non vengono mai riscaricate, nemmeno con `"SkipExistingHikes": false`. Quelle in `Data/hikes-varianti` neppure, tranne con `--url=`: in quel caso il JSON si aggiorna lì, senza ricomparire in `Data/hikes`.
+   - Le escursioni in `Data/hikes-escluse` non vengono reimportate; quelle in `Data/hikes-varianti` restano lì.
+   - Se l'importazione non porta con sé il GPX, va salvato a mano in `Escursioni.Web/wwwroot/media/gpx/{wikiloc_id}.gpx`.
 2. (Opzionale) rifinisci SEO e descrizioni con il MigrationEditor. Il salvataggio conserva i campi che l'editor non mostra (varianti, come arrivare, cenno storico, fonti).
 3. `git commit` + `git push` su `master`: Render ripubblica il sito; GitHub Actions aggiorna vette/rifugi/passi/laghi delle escursioni nuove e il loro commit fa ripartire Render. **Render non esegue i test**: prima del push lancia `dotnet test Escursioni.Tests`.
 
@@ -111,7 +110,7 @@ Limiti del piano gratuito da tenere d'occhio: 20.000 file per deploy (oggi ~12.9
 ### Performance
 - **CDN**: Cloudflare (compressione automatica)
 - **Cache statici**: 30 giorni (`dist/_headers`)
-- **Immagini**: varianti `.thumb.webp` (400px) e `.gallery.webp` (800px), qualità 75, generate da WikilocExporter o, se mancano, durante l'export
+- **Immagini**: varianti `.thumb.webp` (400px) e `.gallery.webp` (800px), qualità 75, generate durante l'importazione o, se mancano, durante l'export
 
 ### Manutenzione
 - **Aggiornare regolarmente le escursioni**
