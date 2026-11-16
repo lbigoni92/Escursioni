@@ -1,8 +1,8 @@
 # A ogni push su master:
 # 1. luoghi: calcola vette, rifugi, passi, laghi e cascate delle escursioni nuove e committa Data/luoghi.json
-#    (il commit fa ripartire l'auto-deploy di Render; un push fatto dal workflow non riavvia questo workflow).
-# 2. deploy: genera il sito statico e lo pubblica su Cloudflare Pages, solo se la variabile di
-#    repository CF_PAGES_PROJECT è impostata (Settings → Secrets and variables → Actions). Vedi README.
+#    (il commit fa ripartire la build di Cloudflare Pages; un push fatto dal workflow non riavvia questo workflow).
+# 2. deploy: alternativa con wrangler, spenta (CF_PAGES_PROJECT non impostata): il sito lo compila e
+#    pubblica Cloudflare Pages, collegato direttamente al repository. Vedi README.
 name: Deploy sito statico
 
 on:

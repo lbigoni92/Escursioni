@@ -47,7 +47,7 @@ dist/  (HTML + sitemap.xml + feed/rss + _redirects + _headers + media)
 - **Contatti**: nessun modulo, solo il link email (`Site:ContactEmail` in `appsettings.json`).
 - **Vette, rifugi, passi e laghi**: `/vette`, `/rifugi`, `/passi`, `/laghi`, la home e il riquadro "Sul percorso" delle schede elencano i luoghi di OpenStreetMap (con nome) vicini a una traccia GPX: vette e passi entro 50 m, rifugi e bivacchi entro 75 m, laghi entro 100 m dalla riva (soglie in `PlaceType`). Per ogni luogo: quota, zona (la più frequente tra le sue escursioni) e parco.
   - Sono calcolati da `dotnet run --project Escursioni.Web -- --luoghi` e salvati in `Escursioni.Web/Data/luoghi.json`. Il comando controlla solo le escursioni nuove; `-- --luoghi --tutte` ricalcola tutto (es. dopo aver cambiato un GPX), riusando i parchi già trovati. Lo stesso da GitHub: **Actions → Deploy sito statico → Run workflow** con "tutte" spuntato (lì Overpass risponde molto più in fretta). Dove OpenStreetMap ha il nome italiano (`name:it`) si usa quello.
-  - **GitHub Actions lo esegue da solo** a ogni push su `master` e committa `luoghi.json` se è cambiato; quel commit fa ripartire l'auto-deploy di Render. Aggiungendo un'escursione non serve fare nulla: dopo qualche minuto il sito si aggiorna una seconda volta con i nuovi luoghi. Se Overpass non risponde l'escursione viene ricontrollata al push successivo.
+  - **GitHub Actions lo esegue da solo** a ogni push su `master` e committa `luoghi.json` se è cambiato; quel commit fa ripartire la build di Cloudflare Pages. Aggiungendo un'escursione non serve fare nulla: dopo qualche minuto il sito si aggiorna una seconda volta con i nuovi luoghi. Se Overpass non risponde l'escursione viene ricontrollata al push successivo.
   - In locale le cime scaricate restano in cache 30 giorni (`%TEMP%/escursioni-luoghi`).
 - **Numeri in home**: km, dislivello totale (con il confronto con l'Everest) e record (escursione più lunga, con più dislivello, più alta) sono calcolati a ogni generazione dai JSON delle escursioni.
 - **Pagine legali**: `/privacy` e `/note-legali` (noindex, linkate nel footer). Cloudflare Web Analytics (snippet nel `_Layout.cshtml`, incluso solo in ambiente Production: l'export del deploy usa `--no-launch-profile`) è citato sempre: se lo disattivi, toglilo dalla privacy. Se aggiungi un servizio esterno (embed, font, CDN) va citato nella privacy.
@@ -65,7 +65,7 @@ dist/  (HTML + sitemap.xml + feed/rss + _redirects + _headers + media)
    - Le escursioni in `Data/hikes-escluse` non vengono reimportate; quelle in `Data/hikes-varianti` restano lì.
    - Se l'importazione non porta con sé il GPX, va salvato a mano in `Escursioni.Web/wwwroot/media/gpx/{wikiloc_id}.gpx`.
 2. (Opzionale) rifinisci SEO e descrizioni con il MigrationEditor. Il salvataggio conserva i campi che l'editor non mostra (varianti, come arrivare, cenno storico, fonti).
-3. `git commit` + `git push` su `master`: Render ripubblica il sito; GitHub Actions aggiorna vette/rifugi/passi/laghi delle escursioni nuove e il loro commit fa ripartire Render. **Render non esegue i test**: prima del push lancia `dotnet test Escursioni.Tests`.
+3. `git commit` + `git push` su `master`: Cloudflare Pages ricompila e ripubblica il sito; GitHub Actions aggiorna vette/rifugi/passi/laghi delle escursioni nuove e il loro commit fa ripartire la build. **La build di Cloudflare non esegue i test**: prima del push lancia `dotnet test Escursioni.Tests` e `dotnet build Escursioni.Web -c Release`.
 
 ### Anteprima locale
 - Come server (ricarica le pagine a ogni modifica): `dotnet run --project Escursioni.Web`
@@ -85,14 +85,10 @@ dist/  (HTML + sitemap.xml + feed/rss + _redirects + _headers + media)
   - Non girano nel deploy perché il rendering dei font cambia tra Windows e Linux.
 
 ### Hosting & Deploy (Cloudflare Pages, gratuito)
-Configurazione una tantum:
-1. Su Cloudflare: **Workers & Pages → Create → Pages → Direct Upload**, crea un progetto (es. `escursioni-lucabigoni`).
-2. Crea un API token con permesso **Cloudflare Pages: Edit** e copia l'Account ID.
-3. Su GitHub, in **Settings → Secrets and variables → Actions**:
-   - secret `CLOUDFLARE_API_TOKEN`, secret `CLOUDFLARE_ACCOUNT_ID`
-   - variabile `CF_PAGES_PROJECT` = nome del progetto (finché manca, il workflow non parte)4. Lancia il workflow **Deploy sito statico** (o fai un push) e controlla il sito sull'URL `*.pages.dev`.
-5. Collega il dominio `escursionilucabigoni.it` al progetto (Custom domains) e aggiungi una regola di redirect `www` → senza `www`.
-6. Quando il sito su Cloudflare risponde correttamente, spegni il servizio web e il database PostgreSQL su Render e il monitor UptimeRobot.
+Dal 16 novembre 2026 il sito è su **Cloudflare Pages**, progetto `escursioni` (https://escursioni.pages.dev), collegato al repository GitHub tramite l'app Cloudflare Workers and Pages:
+- a ogni push su `master` Cloudflare installa .NET 10 ed esegue `dotnet run --project Escursioni.Web -c Release --no-launch-profile -- --export ../dist`, poi pubblica la cartella `dist` (con `_redirects` e `_headers` generati dall'export);
+- il dominio `escursionilucabigoni.it` è registrato su Register.it, ma i nameserver sono quelli di Cloudflare (`roan`/`romina.ns.cloudflare.com`): DNS, record della posta e verifica di Google si gestiscono dalla dashboard di Cloudflare;
+- il job `deploy` del workflow GitHub (pubblicazione con wrangler) resta spento finché la variabile `CF_PAGES_PROJECT` non è impostata: non serve, la build la fa Cloudflare.
 
 Limiti del piano gratuito da tenere d'occhio: 20.000 file per deploy (oggi ~12.900, ~46 file per escursione) e 25 MB per file.
 

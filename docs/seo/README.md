@@ -13,7 +13,7 @@ Lo script che fa tutto è [scripts/seo_storico.py](../../scripts/seo_storico.py)
 
 ## Regola d'oro
 
-Su `master` si va **solo con un rilascio**, cioè seguendo la procedura qui sotto. Render pubblica ogni push su `master`, quindi una modifica fuori procedura si mescola ai numeri e rende i confronti inaffidabili.
+Su `master` si va **solo con un rilascio**, cioè seguendo la procedura qui sotto. Cloudflare Pages pubblica ogni push su `master`, quindi una modifica fuori procedura si mescola ai numeri e rende i confronti inaffidabili.
 
 ## Procedura per ogni rilascio
 
@@ -42,7 +42,7 @@ Nella nota compila a mano "Cosa rilasciamo e perché" e "Cosa ci aspettiamo": do
    git tag R2-AAAA-MM && git push origin R2-AAAA-MM
    ```
 5. **Fotografia dopo il rilascio:** `python scripts/seo_storico.py foto --ref master --etichetta master-rilasciato`
-6. In Search Console invia di nuovo la sitemap e chiedi l'indicizzazione delle pagine principali.
+6. In Search Console e in Bing Webmaster Tools invia di nuovo la sitemap, chiedi a Google l'indicizzazione delle pagine principali e lancia `python -I scripts/indexnow.py` (IndexNow: Bing e gli altri motori che lo usano).
 7. `python scripts/seo_storico.py storico`, poi commit di tutto su `dev`.
 
 ### Dopo il rilascio
