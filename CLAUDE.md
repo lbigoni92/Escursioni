@@ -38,6 +38,7 @@ Sito di escursioni di Luca Bigoni (escursionilucabigoni.it): ASP.NET Razor Pages
 - **Test nel browser**: `dotnet test Escursioni.UiTests`. I controlli "nessun errore JavaScript" falliscono per Cloudflare Analytics nell'ambiente di test (noto). Le immagini di riferimento dei test visivi si rigenerano con `UPDATE_SNAPSHOTS=1` **solo dopo aver guardato le differenze** e solo se la modifica è voluta.
 - **Coerenza dei dati**: `python -I scripts/audit_coerenza.py` (testi contro numeri della traccia, zone contro coordinate, campi mancanti, prezzi, cenni duplicati, link). `python -I scripts/gpx_stats.py <id>` per distanza, dislivello, quote e tempi ricavati dal GPX (utile per tracce con il GPS rimasto acceso).
 - L'estrazione dei luoghi e un server in esecuzione bloccano la DLL: fermarli prima di ricompilare.
+- **ImageSharp resta alla 3.1.x**: dalla 4 la compilazione Release (deploy) fallisce senza licenza Six Labors. Le vulnerabilità note della 3.1.12 riguardano immagini malevole: il sito elabora solo le foto di Luca. Prima di aggiornare librerie, provare sempre `dotnet build Escursioni.Web -c Release`.
 - Python: usare `-I`; per l'output con accenti `sys.stdout.reconfigure(encoding='utf-8')`; i JSON delle escursioni sono CRLF, indent 2, `ensure_ascii=False`: conservare fine riga e newline finale. Nei comandi bash evitare heredoc con apostrofi lunghi: scrivere gli script in un file.
 
 ## Grafica, usabilità, prestazioni
