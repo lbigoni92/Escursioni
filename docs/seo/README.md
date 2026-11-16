@@ -22,7 +22,7 @@ Su `master` si va **solo con un rilascio**, cioè seguendo la procedura qui sott
 Aggiorna ogni tanto la nota del prossimo rilascio. Lo script riscrive solo la parte generata (commit, schede toccate, metriche) e lascia intatte le parti scritte a mano:
 
 ```bash
-python scripts/seo_storico.py nota R1-2026-12 --da master --a dev
+python scripts/seo_storico.py nota R2-AAAA-MM --da master --a dev
 ```
 
 Nella nota compila a mano "Cosa rilasciamo e perché" e "Cosa ci aspettiamo": dopo, servono a capire se il rilascio ha funzionato.
@@ -33,13 +33,13 @@ Nella nota compila a mano "Cosa rilasciamo e perché" e "Cosa ci aspettiamo": do
 2. **Fotografia di ciò che è online prima del rilascio:**
    `python scripts/seo_storico.py foto --ref master`
 3. **Nota aggiornata per l'ultima volta:**
-   `python scripts/seo_storico.py nota R1-2026-12 --da master --a dev`
+   `python scripts/seo_storico.py nota R2-AAAA-MM --da master --a dev`
    Compila anche la data del rilascio.
 4. **Test, poi merge e tag:**
    ```bash
    dotnet test Escursioni.Tests
    git checkout master && git merge dev && git push origin master
-   git tag R1-2026-12 && git push origin R1-2026-12
+   git tag R2-AAAA-MM && git push origin R2-AAAA-MM
    ```
 5. **Fotografia dopo il rilascio:** `python scripts/seo_storico.py foto --ref master --etichetta master-rilasciato`
 6. In Search Console invia di nuovo la sitemap e chiedi l'indicizzazione delle pagine principali.
