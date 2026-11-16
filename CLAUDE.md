@@ -25,8 +25,8 @@ Sito di escursioni di Luca Bigoni (escursionilucabigoni.it): ASP.NET Razor Pages
 
 ## Aggiungere un'escursione da Wikiloc
 
-1. Importare la traccia con lo strumento di importazione privato nella cartella accanto al repository (`../WikilocExporter`, repository separato e privato: non va mai copiato qui), opzione `--url=<link wikiloc>`; è .NET 8, si avvia con `DOTNET_ROLL_FORWARD=Major dotnet run --no-build`.
-2. Se l'importazione non porta il GPX, Luca lo scarica dal browser: copiarlo in `Escursioni.Web/wwwroot/media/gpx/{id}.gpx` e rilanciare.
+1. Importare la traccia con lo strumento di importazione privato nella cartella accanto al repository (`../WikilocExporter`, repository separato e privato: non va mai copiato qui), è .NET 8, si avvia con `DOTNET_ROLL_FORWARD=Major dotnet run --no-build`. Senza opzioni importa **solo le tracce nuove** (l'elenco del profilo si ferma alla prima pagina già tutta importata); `--url=<link wikiloc>` per una traccia precisa, `--tutte` per rileggere tutto il profilo.
+2. GPX: il download di Wikiloc ha un controllo Cloudflare, quindi si fa dal browser vero di Luca. Quando l'importazione lo chiede, Claude apre da Brave (Claude in Chrome) `https://it.wikiloc.com/wikiloc/download.do?id={id}`, scheda File, formato **Originale**, Scarica: il file viene preso da solo dalla cartella Download (riconosciuto dall'ID nel GPX; vale anche un GPX scaricato prima). Se compare la casella di verifica di Cloudflare la clicca Luca: mai aggirarla o completarla.
 3. Completare il JSON: `titolo_seo`, `meta_descrizione`, `tag`, `comune`, `descrizione_html` in sezioni, `come_arrivare`, eventuale `cenno_storico` con fonti. Wikiloc dà solo il mese: se Luca dice il giorno, metterlo in `data_escursione`. Attenzione: se si rilancia l'exporter su quella traccia, `data_escursione` torna al primo del mese e va rimessa a mano.
 4. Luoghi toccati: `dotnet run --project Escursioni.Web --no-build -- --luoghi --minuti 5`.
 5. Aggiungere la traccia a `docs/seo/wikiloc-link.csv` (la pagina va in produzione col rilascio successivo).
