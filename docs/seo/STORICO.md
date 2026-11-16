@@ -1,26 +1,26 @@
 # Storico SEO del sito
 
 File generato da `python scripts/seo_storico.py storico`: non modificarlo a mano.
-Ultimo aggiornamento: 2026-11-03.
+Ultimo aggiornamento: 2026-11-16.
 
 ## Rilasci
 
 - [R0 – Stato online al 3 novembre 2026](rilasci/R0-2026-11-03-stato-online.md) – già online al 3 novembre 2026 (`master`, commit `a1a1b982`)
-- [R1-2026-12](rilasci/R1-2026-12.md) – prima settimana di dicembre 2026 (da confermare al merge di `dev` su `master`)
+- [R1-2026-11](rilasci/R1-2026-11.md) – 16 novembre 2026 (anticipato rispetto alla prima settimana di dicembre, su decisione di Luca)
 
 ## Contenuti nel tempo
 
-| Metrica | 2026-11-03 `master` | 2026-11-03 `dev` |
-|---|---|---|
-| Schede con una propria pagina | 278 | 254 |
-| Uscite unite come varianti | 0 | 24 |
-| Schede riscritte | 0 | 254 |
-| Schede con cenno storico | 0 | 129 |
-| Fonti citate | 0 | 151 |
-| Pagine luogo | 0 | 1 |
-| Redirect manuali | 2 | 4 |
-| Parole per scheda (mediana) | 320.5 | 179.0 |
-| Schede sotto le 100 parole | 0 | 30 |
+| Metrica | 2026-11-03 `master` | 2026-11-03 `dev` | 2026-11-16 `master` | 2026-11-16 `master` |
+|---|---|---|---|---|
+| Schede con una propria pagina | 278 | 254 | 256 | 278 |
+| Uscite unite come varianti | 0 | 24 | 24 | 0 |
+| Schede riscritte | 0 | 254 | 256 | 0 |
+| Schede con cenno storico | 0 | 129 | 231 | 0 |
+| Fonti citate | 0 | 151 | 301 | 0 |
+| Pagine luogo | 0 | 1 | 263 | 0 |
+| Redirect manuali | 2 | 4 | 4 | 2 |
+| Parole per scheda (mediana) | 320.5 | 179.0 | 195.0 | 320.5 |
+| Schede sotto le 100 parole | 0 | 30 | 9 | 0 |
 
 ## Motori di ricerca nel tempo
 
