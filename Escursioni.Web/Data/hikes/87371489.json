@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Palagnana",
-  "data_escursione": "2021-10-01",
+  "data_escursione": "2021-10-12",
   "data_registrato": "2021-10-01",
   "data_caricato": "2021-10-25T00:00:00",
   "data_pubblicazione": "2021-10-25T00:00:00",
@@ -53,5 +53,6 @@
       "titolo": "Le dimore estive dell'Appennino toscano (1896): Versilia – Wikisource",
       "url": "https://it.wikisource.org/wiki/Le_dimore_estive_dell%27Appennino_toscano/Versilia/I"
     }
-  ]
+  ],
+  "data_esatta": true
 }

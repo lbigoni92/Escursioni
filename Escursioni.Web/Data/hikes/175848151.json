@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Al Sasso",
-  "data_escursione": "2024-06-01",
+  "data_escursione": "2024-06-30",
   "data_registrato": "2024-06-01",
   "data_caricato": "2024-06-30T00:00:00",
   "data_pubblicazione": "2024-06-30T00:00:00",
@@ -183,5 +183,6 @@
       "titolo": "Viaggio a Massaciuccoli fra storia e natura – Visit Tuscany",
       "url": "https://www.visittuscany.com/it/itinerari/viaggio-a-massaciuccoli-fra-storia-e-natura/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

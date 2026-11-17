@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Trentino-Alto Adige",
   "comune": "Sarche di Calavino",
-  "data_escursione": "2026-07-01",
+  "data_escursione": "2026-07-04",
   "data_registrato": "2026-07-01",
   "data_caricato": "2026-07-04T00:00:00",
   "data_pubblicazione": "2026-07-04T00:00:00",
@@ -161,5 +161,6 @@
       "titolo": "Via ferrata Rino Pisetta – Garda Trentino",
       "url": "https://www.gardatrentino.it/en/activity/via-ferrata-rino-pisetta-dain-piccolo_8193"
     }
-  ]
+  ],
+  "data_esatta": true
 }

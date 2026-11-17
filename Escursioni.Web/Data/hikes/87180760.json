@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Pracchi",
-  "data_escursione": "2021-10-01",
+  "data_escursione": "2021-10-23",
   "data_registrato": "2021-10-01",
   "data_caricato": "2021-10-23T00:00:00",
   "data_pubblicazione": "2021-10-23T00:00:00",
@@ -188,5 +188,6 @@
       "titolo": "Sui monti Giovo e Rondinaio con grandi visuali sul Lago Santo Modenese – Montagna.tv",
       "url": "https://www.montagna.tv/262100/sui-monti-giovo-e-rondinaio-con-grandi-visuali-sul-lago-santo-modenese/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

@@ -170,6 +170,15 @@ for wid, h in hikes.items():
         p("difficoltà incoerente (da verificare)", f"{name}: la descrizione dice '{said}', il dato è '{h.get('difficolta')}'")
     if ml.startswith("anello") and h.get("tipo_giro") and h.get("tipo_giro") != "Anello":
         p("tipo di giro incoerente", f"{name}: la descrizione dice anello, il dato è '{h.get('tipo_giro')}'")
+
+    # "Facile" con numeri da escursione media: i giri simili (16-23 km, 700-1100 m) sono quasi tutti Medio
+    if diff == "facile" and gain is not None and km and "bici" not in (t + h.get("titolo", "")).lower():
+        if gain >= 650 or (float(km) >= 18 and gain >= 400):
+            p("difficoltà da verificare", f"{name}: Facile con {km} km e +{gain} m")
+
+    # Wikiloc dà solo il mese: senza data_esatta il sito mostra "settembre 2026"
+    if h.get("data_escursione") and not h.get("data_esatta"):
+        p("date solo al mese", f"{name}: {h['data_escursione'][:7]} (giorno non ricavato dal GPX)")
     if h.get("cenno_storico"):
         cenni[h["cenno_storico"].strip()].append(wid)
 

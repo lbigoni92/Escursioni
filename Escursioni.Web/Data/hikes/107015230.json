@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Renaio",
-  "data_escursione": "2022-07-01",
+  "data_escursione": "2022-07-03",
   "data_registrato": "2022-07-01",
   "data_caricato": "2022-07-03T00:00:00",
   "data_pubblicazione": "2022-07-03T00:00:00",
@@ -332,5 +332,6 @@
       "titolo": "Lago Santo modenese – Wikipedia",
       "url": "https://it.wikipedia.org/wiki/Lago_Santo_modenese"
     }
-  ]
+  ],
+  "data_esatta": true
 }

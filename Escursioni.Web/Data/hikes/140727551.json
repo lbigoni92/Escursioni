@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Emilia-Romagna",
   "comune": "Valditacca",
-  "data_escursione": "2023-07-01",
+  "data_escursione": "2023-07-15",
   "data_registrato": "2023-07-01",
   "data_caricato": "2023-07-16T00:00:00",
   "data_pubblicazione": "2023-07-16T00:00:00",
@@ -305,5 +305,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

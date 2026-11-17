@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Vinca",
-  "data_escursione": "2025-06-01",
+  "data_escursione": "2025-06-15",
   "data_registrato": "2025-06-01",
   "data_caricato": "2025-06-16T00:00:00",
   "data_pubblicazione": "2025-06-16T00:00:00",
@@ -422,5 +422,6 @@
       "titolo": "Rifugio Donegani – Komoot",
       "url": "https://www.komoot.com/highlight/2551981"
     }
-  ]
+  ],
+  "data_esatta": true
 }

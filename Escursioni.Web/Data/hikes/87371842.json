@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Castellaccio",
-  "data_escursione": "2021-09-01",
+  "data_escursione": "2021-09-21",
   "data_registrato": "2021-09-01",
   "data_caricato": "2021-10-25T00:00:00",
   "data_pubblicazione": "2021-10-25T00:00:00",
@@ -53,5 +53,6 @@
       "titolo": "Montenero (Livorno) – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Montenero_(Livorno)"
     }
-  ]
+  ],
+  "data_esatta": true
 }

@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Veneto",
   "comune": "Passo Pordoi",
-  "data_escursione": "2025-09-01",
+  "data_escursione": "2025-09-08",
   "data_registrato": "2025-09-01",
   "data_caricato": "2025-09-08T00:00:00",
   "data_pubblicazione": "2025-09-08T00:00:00",
@@ -237,5 +237,6 @@
       "titolo": "La storia del Rifugio Boè",
       "url": "https://www.rifugioboe.it/la-storia-del-rifugio?lang=en"
     }
-  ]
+  ],
+  "data_esatta": true
 }

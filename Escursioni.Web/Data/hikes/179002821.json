@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Pracchi",
-  "data_escursione": "2024-07-01",
+  "data_escursione": "2024-07-28",
   "data_registrato": "2024-07-01",
   "data_caricato": "2024-07-28T00:00:00",
   "data_pubblicazione": "2024-07-28T00:00:00",
@@ -341,5 +341,6 @@
       "titolo": "Cammino della Linea Gotica, tappa Rifugio Casentini – Pian di Novello",
       "url": "https://www.camminolineagotica.it/wp-content/uploads/2016/04/9-Rif-Casentini-Pian-di-Novello.pdf"
     }
-  ]
+  ],
+  "data_esatta": true
 }

@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Valle Benedetta",
-  "data_escursione": "2024-11-01",
+  "data_escursione": "2024-11-30",
   "data_registrato": "2024-11-01",
   "data_caricato": "2024-11-30T00:00:00",
   "data_pubblicazione": "2024-11-30T00:00:00",
@@ -318,5 +318,6 @@
       "titolo": "Aqueduct of Colognole – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Aqueduct_of_Colognole"
     }
-  ]
+  ],
+  "data_esatta": true
 }

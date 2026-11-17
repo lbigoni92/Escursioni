@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Trentino-Alto Adige",
   "comune": "San Pellegrino",
-  "data_escursione": "2025-09-01",
+  "data_escursione": "2025-09-12",
   "data_registrato": "2025-09-01",
   "data_caricato": "2025-09-12T00:00:00",
   "data_pubblicazione": "2025-09-12T00:00:00",
@@ -120,5 +120,6 @@
       "titolo": "San Pellegrino Pass – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/San_Pellegrino_Pass"
     }
-  ]
+  ],
+  "data_esatta": true
 }

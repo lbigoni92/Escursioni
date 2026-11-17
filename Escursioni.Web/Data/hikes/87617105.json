@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Isola Santa",
-  "data_escursione": "2019-04-01",
+  "data_escursione": "2019-04-06",
   "data_registrato": "2019-04-01",
   "data_caricato": "2021-10-29T00:00:00",
   "data_pubblicazione": "2021-10-29T00:00:00",
@@ -53,5 +53,6 @@
       "titolo": "Isola Santa, cosa vedere – Finestre sull'Arte",
       "url": "https://www.finestresullarte.info/viaggi/isola-santa-cosa-vedere-borgo-garfagnana"
     }
-  ]
+  ],
+  "data_esatta": true
 }

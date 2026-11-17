@@ -71,7 +71,7 @@
             @for (var i = 0; i < Model.Luoghi.Count; i++)
             {
                 var (t, count) = Model.Luoghi[i];
-                <a href="/@t.Slug" title="@t.Titolo raggiunti dalle mie escursioni">@count @t.Titolo.ToLowerInvariant()</a>@(i < Model.Luoghi.Count - 2 ? ", " : i == Model.Luoghi.Count - 2 ? " e " : ".")
+                <a href="/@t.Slug" title="@t.TitoloLink">@count @t.Titolo.ToLowerInvariant()</a>@(i < Model.Luoghi.Count - 2 ? ", " : i == Model.Luoghi.Count - 2 ? " e " : ".")
             }
             @if (Model.LuoghiConPagina.Count > 0)
             {

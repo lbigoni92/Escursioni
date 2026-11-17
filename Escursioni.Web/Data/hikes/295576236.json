@@ -42,7 +42,8 @@
       "larghezza": null,
       "altezza": null,
       "sha256": null,
-      "filesize_bytes": null
+      "filesize_bytes": null,
+      "alt": "Il gruppo sul ponte dell'acquedotto del Nottolini alle Parole d'oro, a Guamo"
     },
     {
       "tipo": "foto",
@@ -161,5 +162,6 @@
       "titolo": "L'acquedotto di Lorenzo Nottolini – Capannori Terra di Toscana",
       "url": "https://www.capannori-terraditoscana.org/en/poi/acquedotto-di-lorenzo-nottolini/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

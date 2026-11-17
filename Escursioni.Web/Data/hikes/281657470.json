@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Emilia-Romagna",
   "comune": "Cerreto Laghi",
-  "data_escursione": "2026-08-01",
+  "data_escursione": "2026-08-23",
   "data_registrato": "2026-08-01",
   "data_caricato": "2026-08-23T00:00:00",
   "data_pubblicazione": "2026-08-23T00:00:00",
@@ -183,5 +183,6 @@
       "titolo": "I laghi glaciali dell'Appennino reggiano – Emilia Romagna Turismo",
       "url": "https://emiliaromagnaturismo.it/en/itineraries/glacial-lakes-of-the-reggio-apennines"
     }
-  ]
+  ],
+  "data_esatta": true
 }

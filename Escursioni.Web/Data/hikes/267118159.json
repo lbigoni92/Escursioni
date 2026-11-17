@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Vagli Sopra",
-  "data_escursione": "2026-05-01",
+  "data_escursione": "2026-05-31",
   "data_registrato": "2026-05-01",
   "data_caricato": "2026-05-31T00:00:00",
   "data_pubblicazione": "2026-05-31T00:00:00",
@@ -242,5 +242,6 @@
       "titolo": "Lungo la Via Vandelli – Montagna.tv",
       "url": "https://www.montagna.tv/262533/lungo-la-via-vandelli-con-meridiani-montagne/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

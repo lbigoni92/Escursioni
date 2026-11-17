@@ -38,7 +38,7 @@ public class RssModel : PageModel
                 var pub = (h.DataEscursione ?? h.CreatedAt).ToUniversalTime();
 
                 return new XElement("item",
-                    new XElement("title", h.Titolo),
+                    new XElement("title", HikeDisplay.Title(h)),
                     new XElement("link", url),
                     new XElement("guid", url),
                     new XElement("description", desc),

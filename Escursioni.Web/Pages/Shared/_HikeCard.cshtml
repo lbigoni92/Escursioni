@@ -58,7 +58,7 @@
             }
             @if (h.DataEscursione.HasValue)
             {
-                <time datetime="@h.DataEscursione.Value.ToString("yyyy-MM-dd")">@h.DataEscursione.Value.ToString("dd/MM/yyyy")</time>
+                <time datetime="@h.DataEscursione.Value.ToString(h.DataEsatta ? "yyyy-MM-dd" : "yyyy-MM")">@Escursioni.Web.Services.HikeDisplay.OutingDate(h)</time>
             }
         </p>
         <p class="hike-card-desc">@HikeDisplay.Excerpt(h.MetaDescrizione ?? h.Descrizione)</p>

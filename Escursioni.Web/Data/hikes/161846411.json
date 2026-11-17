@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Collesalvetti",
-  "data_escursione": "2024-02-01",
+  "data_escursione": "2024-02-21",
   "data_registrato": "2024-02-01",
   "data_caricato": "2024-02-21T00:00:00",
   "data_pubblicazione": "2024-02-21T00:00:00",
@@ -147,5 +147,6 @@
       "titolo": "Collesalvetti – Visit Tuscany",
       "url": "https://www.visittuscany.com/en/towns-and-villages/collesalvetti/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

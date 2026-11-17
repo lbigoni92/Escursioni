@@ -22,7 +22,7 @@
   "regione": "Ungheria",
   "provincia": "Budapest",
   "comune": "Gellérthegy",
-  "data_escursione": "2024-09-01",
+  "data_escursione": "2024-09-10",
   "data_registrato": "2024-09-01",
   "data_caricato": "2024-09-10T00:00:00",
   "data_pubblicazione": "2024-09-10T00:00:00",
@@ -332,5 +332,6 @@
       "titolo": "Gellért Hill – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Gell%C3%A9rt_Hill"
     }
-  ]
+  ],
+  "data_esatta": true
 }

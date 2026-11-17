@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Treschietto",
-  "data_escursione": "2025-08-01",
+  "data_escursione": "2025-08-14",
   "data_registrato": "2025-08-01",
   "data_caricato": "2025-08-14T00:00:00",
   "data_pubblicazione": "2025-08-14T00:00:00",
@@ -125,5 +125,6 @@
       "titolo": "Castello di Treschietto – Castelli Toscani",
       "url": "https://www.castellitoscani.com/treschietto.htm"
     }
-  ]
+  ],
+  "data_esatta": true
 }

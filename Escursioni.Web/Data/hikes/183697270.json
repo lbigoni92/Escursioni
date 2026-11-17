@@ -22,7 +22,7 @@
   "regione": "Repubblica Ceca",
   "provincia": "Hlavní Mesto Praha",
   "comune": "Praha-Nové Město",
-  "data_escursione": "2024-09-01",
+  "data_escursione": "2024-09-04",
   "data_registrato": "2024-09-01",
   "data_caricato": "2024-09-04T00:00:00",
   "data_pubblicazione": "2024-09-04T00:00:00",
@@ -278,5 +278,6 @@
       "titolo": "Ponte Carlo e torri del ponte – VisitCzechia",
       "url": "https://www.visitczechia.com/it-it/things-to-do/places/landmarks/urban-architecture/c-prague-charles-bridge-and-bridge-towers"
     }
-  ]
+  ],
+  "data_esatta": true
 }

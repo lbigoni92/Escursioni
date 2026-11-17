@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Azzano",
-  "data_escursione": "2021-07-01",
+  "data_escursione": "2021-07-04",
   "data_registrato": "2021-07-01",
   "data_caricato": "2021-10-25T00:00:00",
   "data_pubblicazione": "2021-10-25T00:00:00",
@@ -46,5 +46,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

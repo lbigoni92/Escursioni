@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Santa Luce",
-  "data_escursione": "2024-10-01",
+  "data_escursione": "2024-10-13",
   "data_registrato": "2024-10-01",
   "data_caricato": "2024-10-13T00:00:00",
   "data_pubblicazione": "2024-10-13T00:00:00",
@@ -255,5 +255,6 @@
       "titolo": "Santa Luce – Terre di Pisa",
       "url": "https://www.terredipisa.it/en/territory/santa-luce/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

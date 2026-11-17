@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Valle Benedetta",
-  "data_escursione": "2022-03-01",
+  "data_escursione": "2022-03-26",
   "data_registrato": "2022-03-01",
   "data_caricato": "2022-03-26T00:00:00",
   "data_pubblicazione": "2022-03-26T00:00:00",
@@ -152,5 +152,6 @@
       "titolo": "Valle Benedetta – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Valle_Benedetta"
     }
-  ]
+  ],
+  "data_esatta": true
 }

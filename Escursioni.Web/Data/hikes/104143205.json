@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Casale di Pari",
-  "data_escursione": "2022-05-01",
+  "data_escursione": "2022-05-29",
   "data_registrato": "2022-05-01",
   "data_caricato": "2022-05-29T00:00:00",
   "data_pubblicazione": "2022-05-29T00:00:00",
@@ -188,5 +188,6 @@
       "titolo": "Casale di Pari – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Casale_di_Pari"
     }
-  ]
+  ],
+  "data_esatta": true
 }

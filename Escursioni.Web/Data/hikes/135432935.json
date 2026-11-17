@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Nibbiaia",
-  "data_escursione": "2023-05-01",
+  "data_escursione": "2023-05-21",
   "data_registrato": "2023-05-01",
   "data_caricato": "2023-05-21T00:00:00",
   "data_pubblicazione": "2023-05-21T00:00:00",
@@ -89,5 +89,6 @@
       "titolo": "Gabbro, Rosignano Marittimo – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Gabbro,_Rosignano_Marittimo"
     }
-  ]
+  ],
+  "data_esatta": true
 }

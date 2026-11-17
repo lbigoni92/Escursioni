@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Torano",
-  "data_escursione": "2026-09-01",
+  "data_escursione": "2026-09-19",
   "data_registrato": "2026-09-01",
   "data_caricato": "2026-09-19T00:00:00",
   "data_pubblicazione": "2026-09-19T00:00:00",
@@ -170,5 +170,6 @@
       "titolo": "Carrara, cosa vedere – Finestre sull'Arte",
       "url": "https://www.finestresullarte.info/viaggi/carrara-cosa-vedere-10-luoghi-da-non-perdere"
     }
-  ]
+  ],
+  "data_esatta": true
 }

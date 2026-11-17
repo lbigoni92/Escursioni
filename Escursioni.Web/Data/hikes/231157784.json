@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Trentino-Alto Adige",
   "comune": "Penia",
-  "data_escursione": "2025-09-01",
+  "data_escursione": "2025-09-11",
   "data_registrato": "2025-09-01",
   "data_caricato": "2025-09-11T00:00:00",
   "data_pubblicazione": "2025-09-11T00:00:00",
@@ -215,5 +215,6 @@
       "titolo": "Rifugio Contrin – Dolomiti.it",
       "url": "https://www.dolomiti.it/it/canazei/rifugi/rifugio-contrin/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

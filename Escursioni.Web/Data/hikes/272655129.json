@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Veneto",
   "comune": "Valdastico",
-  "data_escursione": "2026-07-01",
+  "data_escursione": "2026-07-05",
   "data_registrato": "2026-07-01",
   "data_caricato": "2026-07-05T00:00:00",
   "data_pubblicazione": "2026-07-05T00:00:00",
@@ -183,5 +183,6 @@
       "titolo": "Anguane – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Anguane"
     }
-  ]
+  ],
+  "data_esatta": true
 }

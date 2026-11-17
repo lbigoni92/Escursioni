@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Greppolungo",
-  "data_escursione": "2025-12-01",
+  "data_escursione": "2025-12-21",
   "data_registrato": "2025-12-01",
   "data_caricato": "2025-12-21T00:00:00",
   "data_pubblicazione": "2025-12-21T00:00:00",
@@ -206,5 +206,6 @@
       "titolo": "Sant'Anna di Stazzema – ANPI",
       "url": "https://www.anpi.it/sites/default/files/article-attachments/2024-02/Sant%27Anna.pdf"
     }
-  ]
+  ],
+  "data_esatta": true
 }

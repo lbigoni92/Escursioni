@@ -22,7 +22,7 @@
   "regione": "Austria",
   "provincia": null,
   "comune": "Mondsee",
-  "data_escursione": "2026-06-01",
+  "data_escursione": "2026-06-09",
   "data_registrato": "2026-06-01",
   "data_caricato": "2026-06-09T00:00:00",
   "data_pubblicazione": "2026-06-09T00:00:00",
@@ -53,5 +53,6 @@
       "titolo": "Basilica St. Michael Mondsee – Salzkammergut",
       "url": "https://www.salzkammergut.at/en/oesterreich-poi/detail/401362/wedding-church-basilica-st-michael-mondsee.html"
     }
-  ]
+  ],
+  "data_esatta": true
 }

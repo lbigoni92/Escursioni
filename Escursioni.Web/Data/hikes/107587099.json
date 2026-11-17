@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Emilia-Romagna",
   "comune": "Sestola",
-  "data_escursione": "2022-07-01",
+  "data_escursione": "2022-07-09",
   "data_registrato": "2022-07-01",
   "data_caricato": "2022-07-10T00:00:00",
   "data_pubblicazione": "2022-07-10T00:00:00",
@@ -327,5 +327,6 @@
       "titolo": "Osservatorio Monte Cimone – CNR ISAC",
       "url": "https://cimone.isac.cnr.it/node/6"
     }
-  ]
+  ],
+  "data_esatta": true
 }

@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Forno",
-  "data_escursione": "2021-05-01",
+  "data_escursione": "2021-05-23",
   "data_registrato": "2021-05-01",
   "data_caricato": "2021-10-27T00:00:00",
   "data_pubblicazione": "2021-10-27T00:00:00",
@@ -43,5 +43,6 @@
       "titolo": "Forno, Massa, 13.06.1944 – Atlante delle stragi naziste e fasciste in Italia",
       "url": "https://www.straginazifasciste.it/wp-content/uploads/schede/FORNO%20MASSA%2013.06.1944.pdf"
     }
-  ]
+  ],
+  "data_esatta": true
 }

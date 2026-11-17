@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Evangelisti",
-  "data_escursione": "2022-02-01",
+  "data_escursione": "2022-02-20",
   "data_registrato": "2022-02-01",
   "data_caricato": "2022-02-20T00:00:00",
   "data_pubblicazione": "2022-02-20T00:00:00",
@@ -136,5 +136,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

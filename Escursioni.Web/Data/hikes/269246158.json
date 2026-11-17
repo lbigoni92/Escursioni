@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Cornola",
-  "data_escursione": "2026-06-01",
+  "data_escursione": "2026-06-13",
   "data_registrato": "2026-06-01",
   "data_caricato": "2026-06-13T00:00:00",
   "data_pubblicazione": "2026-06-13T00:00:00",
@@ -197,5 +197,6 @@
       "titolo": "Il Rifugio Enrico Rossi celebra il centenario – La Nazione",
       "url": "https://www.lanazione.it/lucca/cronaca/festa-a-molazzana-il-rifugio-enrico-rossi-celebra-il-centenario-ad5b2a46"
     }
-  ]
+  ],
+  "data_esatta": true
 }

@@ -1,6 +1,6 @@
 {
   "wikiloc_id": 162278392,
-  "titolo": "Parole d'oro - San Giusto - Sant'Angrea di compito - Camelieto - Sasso Balloccioro",
+  "titolo": "Parole d'oro - San Giusto - Sant'Andrea di Compito - Camelieto - Sasso Balloccioro",
   "titolo_seo": "Parole d'oro, Sant'Andrea di Compito e Camelieto",
   "meta_descrizione": "Anello di 19,9 km e +886 m da San Quirico di Guamo: Parole d'oro, San Giusto, Sant'Andrea di Compito, il Camelieto e il Sasso Balloccioro, sui Monti Pisani.",
   "tag": "Monti Pisani",
@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Guamo",
-  "data_escursione": "2024-02-01",
+  "data_escursione": "2024-02-25",
   "data_registrato": "2024-02-01",
   "data_caricato": "2024-02-25T00:00:00",
   "data_pubblicazione": "2024-02-25T00:00:00",
@@ -33,7 +33,7 @@
   "geom": "POINT(10.523095 43.80911)",
   "sha256_payload": "d0ff9f0a83e92bf4165ad4315634621d654c93f61bf9f190a0b2deae697d650b",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-11-16T12:00:00",
+  "updated_at": "2026-11-17T12:00:00",
   "come_arrivare": "<p>Si parte da <strong>San Quirico di Guamo</strong> (Capannori, LU): abbiamo parcheggiato vicino a un bar sulla strada, adatto a qualsiasi auto non troppo bassa. Il punto esatto è nelle coordinate qui sotto.</p>",
   "cenno_storico": "Le camelie arrivarono in Lucchesia alla fine del Settecento; il primo a diffonderle fu il dottor Angelo Borrini, oculista del duca Carlo Lodovico di Borbone, che le piantò nei giardini di molte residenze importanti. Nel 2002 la comunità di Sant'Andrea e Pieve di Compito e il Comune di Capannori hanno creato il Camellietum, un giardino pubblico di sole camelie con oltre mille varietà, che nei fine settimana di marzo ospita la mostra delle Antiche Camelie della Lucchesia.",
   "fonti": [
@@ -368,5 +368,7 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true,
+  "slug": "parole-d-oro-san-giusto-sant-angrea-di-compito-camelieto-sasso-balloccioro"
 }

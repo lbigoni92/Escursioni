@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Quercianella",
-  "data_escursione": "2021-06-01",
+  "data_escursione": "2021-06-06",
   "data_registrato": "2021-06-01",
   "data_caricato": "2021-10-25T00:00:00",
   "data_pubblicazione": "2021-10-25T00:00:00",
@@ -60,5 +60,6 @@
       "titolo": "Santuario di Montenero – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Sanctuary_of_Montenero"
     }
-  ]
+  ],
+  "data_esatta": true
 }

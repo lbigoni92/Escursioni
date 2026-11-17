@@ -22,7 +22,7 @@
   "regione": "Austria",
   "provincia": "Salzburg",
   "comune": "Maxglan",
-  "data_escursione": "2026-06-01",
+  "data_escursione": "2026-06-08",
   "data_registrato": "2026-06-01",
   "data_caricato": "2026-06-08T00:00:00",
   "data_pubblicazione": "2026-06-08T00:00:00",
@@ -215,5 +215,6 @@
       "titolo": "Salzburg Cathedral – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Salzburg_Cathedral"
     }
-  ]
+  ],
+  "data_esatta": true
 }

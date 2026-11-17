@@ -65,7 +65,7 @@
             @foreach (var (type, count, top) in Model.Luoghi)
             {
                 <li>
-                    <a href="/@type.Slug" title="@type.Titolo raggiunti dalle mie escursioni">
+                    <a href="/@type.Slug" title="@type.TitoloLink">
                         <strong class="place-card-count">@count</strong>
                         <span class="place-card-label">@type.Titolo.ToLowerInvariant()</span>
                         <span class="place-card-top">Quota massima: @top.Nome@(top.QuotaM is int q ? $", {HikeDisplay.Meters(q)}" : "")</span>

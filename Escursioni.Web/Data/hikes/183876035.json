@@ -22,7 +22,7 @@
   "regione": "Repubblica Ceca",
   "provincia": "Hlavní Mesto Praha",
   "comune": "Praha-Nové Město",
-  "data_escursione": "2024-09-01",
+  "data_escursione": "2024-09-06",
   "data_registrato": "2024-09-01",
   "data_caricato": "2024-09-06T00:00:00",
   "data_pubblicazione": "2024-09-06T00:00:00",
@@ -161,5 +161,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

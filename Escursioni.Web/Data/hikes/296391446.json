@@ -44,7 +44,8 @@
       "larghezza": null,
       "altezza": null,
       "sha256": null,
-      "filesize_bytes": null
+      "filesize_bytes": null,
+      "alt": "Le montagne delle Apuane viste dal sentiero sopra Pruno"
     },
     {
       "tipo": "foto",
@@ -235,5 +236,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

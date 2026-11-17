@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "San Vivaldo",
-  "data_escursione": "2025-01-01",
+  "data_escursione": "2025-01-11",
   "data_registrato": "2025-01-01",
   "data_caricato": "2025-01-11T00:00:00",
   "data_pubblicazione": "2025-01-11T00:00:00",
@@ -332,5 +332,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

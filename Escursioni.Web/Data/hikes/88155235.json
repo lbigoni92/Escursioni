@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Spignana",
-  "data_escursione": "2021-11-01",
+  "data_escursione": "2021-11-05",
   "data_registrato": "2021-11-01",
   "data_caricato": "2021-11-05T00:00:00",
   "data_pubblicazione": "2021-11-05T00:00:00",
@@ -57,5 +57,6 @@
       "titolo": "Lago Scaffaiolo e Passo dei Tre Termini – Komoot",
       "url": "https://blog.komoot.nl/smarttour/e993259689/rifugio-montanaro-duca-degli-abruzzi-lago-scaffaiolo-e-passo-tre-termini-round-trip"
     }
-  ]
+  ],
+  "data_esatta": true
 }

@@ -38,6 +38,8 @@ public class Hike
     public string? Provincia { get; set; }
     public string? Comune { get; set; }
     public DateTime? DataEscursione { get; set; }
+    /// <summary>true se il giorno di DataEscursione è quello vero (dal GPX o scritto a mano): Wikiloc dà solo il mese.</summary>
+    public bool DataEsatta { get; set; }
     public DateTime? DataRegistrato { get; set; }
     public DateTime? DataCaricato { get; set; }
     public DateTime? DataPubblicazione { get; set; }

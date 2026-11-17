@@ -1,6 +1,6 @@
 {
   "wikiloc_id": 253262610,
-  "titolo": "Ferrata di buti",
+  "titolo": "Ferrata di Sant'Antone a Buti",
   "titolo_seo": "Ferrata di Sant'Antone a Buti: le mie salite",
   "meta_descrizione": "La ferrata di Sant'Antone a Buti, sul Monte Serra, fatta tre volte tra il 2025 e il 2026: tutte e tre le sezioni e il tratto breve, in solitaria. Difficile.",
   "tag": "Monti Pisani",
@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Buti",
-  "data_escursione": "2026-03-01",
+  "data_escursione": "2026-03-07",
   "data_registrato": "2026-03-01",
   "data_caricato": "2026-03-07T00:00:00",
   "data_pubblicazione": "2026-03-07T00:00:00",
@@ -33,7 +33,7 @@
   "geom": "POINT(10.560046 43.734902)",
   "sha256_payload": "1b8c26c0819e6aee15ebad876da70821b8a2955675e24504d9b1f8c0f68be61e",
   "created_at": "2026-04-19T00:00:00",
-  "updated_at": "2026-11-10T12:00:00",
+  "updated_at": "2026-11-17T12:00:00",
   "varianti": [
     218691561,
     210756323
@@ -114,5 +114,7 @@
       "filesize_bytes": null
     }
   ],
-  "cenno_storico": "La ferrata di Sant'Antone sale lungo le rocce del Monte Serra, il punto più alto dei Monti Pisani con i suoi 917 metri. Il nome richiama Sant'Antonio Abate, il patrono di Buti, a cui è dedicato il Palio che il paese corre ogni gennaio, uno dei più antichi della Toscana."
+  "cenno_storico": "La ferrata di Sant'Antone sale lungo le rocce del Monte Serra, il punto più alto dei Monti Pisani con i suoi 917 metri. Il nome richiama Sant'Antonio Abate, il patrono di Buti, a cui è dedicato il Palio che il paese corre ogni gennaio, uno dei più antichi della Toscana.",
+  "data_esatta": true,
+  "slug": "ferrata-di-buti"
 }

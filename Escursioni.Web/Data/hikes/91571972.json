@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Salivoli",
-  "data_escursione": "2021-12-01",
+  "data_escursione": "2021-12-29",
   "data_registrato": "2021-12-01",
   "data_caricato": "2021-12-29T00:00:00",
   "data_pubblicazione": "2021-12-29T00:00:00",
@@ -89,5 +89,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

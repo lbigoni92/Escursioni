@@ -150,7 +150,7 @@ public class SeoService
         }
 
         // about — main Place subject
-        var safeTitolo = System.Text.Json.JsonEncodedText.Encode(hike.Titolo).ToString();
+        var safeTitolo = System.Text.Json.JsonEncodedText.Encode(HikeDisplay.Title(hike)).ToString();
         tripLd += $@",
   ""about"": {{ ""@type"": ""Place"", ""name"": ""{safeTitolo}"" }}";
 
@@ -204,8 +204,8 @@ public class SeoService
         var zone = HikeDisplay.Zone(hike);
         if (zone != null)
             breadcrumbs.Add((zone, $"/escursioni/zona/{TagHelper.ToSlug(zone)}"));
-        // Con le varianti il titolo Wikiloc descrive una sola delle volte ("... - Andata"): meglio quello della pagina
-        breadcrumbs.Add((hike.AltreVolte.Count > 0 ? HikeDisplay.Title(hike) : hike.Titolo, ""));
+        // Il titolo della pagina, non quello grezzo di Wikiloc (es. "Passo Fedaia - Passo Fedaia")
+        breadcrumbs.Add((HikeDisplay.Title(hike), ""));
         page.ViewData["Breadcrumbs"] = breadcrumbs;
     }
 

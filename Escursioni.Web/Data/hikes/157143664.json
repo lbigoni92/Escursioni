@@ -16,7 +16,7 @@
   "tempo_mov_min": 224,
   "tempo_mov_hhmm": "3:44",
   "coordinate_count": 2200,
-  "difficolta": "Medio",
+  "difficolta": "Facile",
   "tipo_giro": "Anello",
   "superficie": null,
   "regione": "Italia",
@@ -33,7 +33,7 @@
   "geom": "POINT(10.49388 43.302738)",
   "sha256_payload": "4bc44e53ad12519ff821983b4760220f0d1fa99cc2663dc0d9c5e5d2032b3289",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-11-03T09:14:14",
+  "updated_at": "2026-11-17T12:00:00",
   "come_arrivare": "<p>Si parte da <strong>Marina di Cecina</strong> (LI), al margine della pineta, nel punto indicato dalle coordinate qui sotto.</p>",
   "cenno_storico": "I «tomboli» sono le fasce di dune e pineta volute dal granduca Leopoldo II per difendere i campi dell'interno dall'aria salmastra e dal vento del mare. Oggi lungo la costa tra Vada e Marina di Bibbona c'è la Riserva naturale biogenetica dei Tomboli di Cecina, istituita con decreto ministeriale il 13 luglio 1997, con un arboreto a Marina di Cecina.",
   "fonti": [
@@ -98,5 +98,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

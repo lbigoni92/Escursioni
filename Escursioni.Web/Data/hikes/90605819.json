@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Vorno",
-  "data_escursione": "2021-12-01",
+  "data_escursione": "2021-12-11",
   "data_registrato": "2021-12-01",
   "data_caricato": "2021-12-11T00:00:00",
   "data_pubblicazione": "2021-12-11T00:00:00",
@@ -188,5 +188,6 @@
       "titolo": "Monte Faeta – FAI I Luoghi del Cuore",
       "url": "https://fondoambiente.it/luoghi/monte-faeta"
     }
-  ]
+  ],
+  "data_esatta": true
 }

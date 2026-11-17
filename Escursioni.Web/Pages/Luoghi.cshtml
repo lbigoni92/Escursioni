@@ -15,7 +15,7 @@
     <nav class="place-tabs" aria-label="Luoghi raggiunti">
         @foreach (var (t, count) in Model.Tipi)
         {
-            <a href="/@t.Slug" title="@t.Titolo raggiunti dalle mie escursioni" aria-current="@(t == Model.Type ? "page" : null)">@t.Titolo <span class="place-tab-count">@count</span></a>
+            <a href="/@t.Slug" title="@t.TitoloLink" aria-current="@(t == Model.Type ? "page" : null)">@t.Titolo <span class="place-tab-count">@count</span></a>
         }
     </nav>
 </header>

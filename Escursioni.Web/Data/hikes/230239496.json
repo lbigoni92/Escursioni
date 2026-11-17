@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Trentino-Alto Adige",
   "comune": "Carezza al Lago",
-  "data_escursione": "2025-09-01",
+  "data_escursione": "2025-09-05",
   "data_registrato": "2025-09-01",
   "data_caricato": "2025-09-05T00:00:00",
   "data_pubblicazione": "2025-09-05T00:00:00",
@@ -116,5 +116,6 @@
       "titolo": "La ninfa e i mille colori del Lago di Carezza – Montagna.tv",
       "url": "https://www.montagna.tv/38118/la-ninfa-e-i-mille-colori-del-lago-di-carezza/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Sambuca",
-  "data_escursione": "2022-03-01",
+  "data_escursione": "2022-03-12",
   "data_registrato": "2022-03-01",
   "data_caricato": "2022-03-12T00:00:00",
   "data_pubblicazione": "2022-03-12T00:00:00",
@@ -269,5 +269,6 @@
       "titolo": "Sambuca Val di Pesa, riapertura del ponte romano – Gonews",
       "url": "https://www.gonews.it/?p=999852"
     }
-  ]
+  ],
+  "data_esatta": true
 }

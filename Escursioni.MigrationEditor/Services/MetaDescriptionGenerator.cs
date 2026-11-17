@@ -207,7 +207,7 @@ Assegna ESATTAMENTE UNO dei seguenti tag:
 9. Grosseto e Maremma
 10. Lunigiana
 11. Monti Pisani
-12. Altre zone dell'italia
+12. Altre zone dell'Italia
 13. Estero
 14. Non assegnabile (se manca delle info necessarie per classificare)
 
@@ -290,7 +290,7 @@ Monti Pisani:
 - Monti: Monte Serra, Monte Pisano, Monte Castellare, Monte Croce, Monte Magno, Monte Faeta, Monte Verruca
 - ESCLUDE: costa, pianura circostante, centro Pisa/Lucca
 
-Altre zone dell'italia:
+Altre zone dell'Italia:
 - Qualsiasi località in Italia NON coperta dalle categorie precedenti
 - Include: Sardegna, Sicilia, Lazio, Umbria, Liguria, Piemonte, Lombardia, Campania, Puglia, Calabria, Marche, Abruzzo, Molise, Basilicata, Friuli-Venezia Giulia, Valle d'Aosta, ecc.
 - ESCLUDE: tutte le zone specificate nelle categorie sopra
@@ -318,7 +318,7 @@ REGOLE DI PRIORITÀ (OBBLIGATORIE)
 10. Se crinale appenninico o Emilia-Romagna montana → Appennino Tosco-Emiliano
 11. Se Monte Serra/Monti Pisani (Calci, Buti, Vicopisano) → Monti Pisani
 12. Se provincia Lucca/Pisa/Livorno entroterra (colline, pianura) → Lucchesia e colline toscane
-13. Se in Italia ma non nelle categorie sopra → Altre zone dell'italia
+13. Se in Italia ma non nelle categorie sopra → Altre zone dell'Italia
 14. Se mancano dati sufficienti → Non assegnabile
 
 -----------------------
@@ -350,7 +350,7 @@ Descrizione: {descrizione}
             "Versilia e Massarosa", "Lucchesia e colline toscane",
             "Firenze e provincia", "Appennino Tosco-Emiliano",
             "Trentino e Veneto", "Grosseto e Maremma", "Lunigiana",
-            "Monti Pisani", "Altre zone dell'italia", "Estero",
+            "Monti Pisani", "Altre zone dell'Italia", "Estero",
             "Non assegnabile"
         ];
 

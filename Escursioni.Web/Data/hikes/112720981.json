@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Sulcina",
-  "data_escursione": "2022-09-01",
+  "data_escursione": "2022-09-04",
   "data_registrato": "2022-09-01",
   "data_caricato": "2022-09-04T00:00:00",
   "data_pubblicazione": "2022-09-04T00:00:00",
@@ -124,5 +124,6 @@
       "titolo": "Centro Visitatori Parco dell'Orecchiella – Lucca Terre",
       "url": "https://www.luccaterre.it/en/dettaglio/2883/Centro-Visitatori-Parco-dell-Orecchiella.html"
     }
-  ]
+  ],
+  "data_esatta": true
 }

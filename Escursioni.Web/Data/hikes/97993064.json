@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Isola Santa",
-  "data_escursione": "2022-03-01",
+  "data_escursione": "2022-03-20",
   "data_registrato": "2022-03-01",
   "data_caricato": "2022-03-20T00:00:00",
   "data_pubblicazione": "2022-03-20T00:00:00",
@@ -242,5 +242,6 @@
       "titolo": "Isola Santa – Visit Tuscany",
       "url": "https://www.visittuscany.com/it/attrazioni/isola-santa/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

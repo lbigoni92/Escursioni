@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Santa Lucia",
-  "data_escursione": "2023-12-01",
+  "data_escursione": "2023-12-03",
   "data_registrato": "2023-12-01",
   "data_caricato": "2023-12-03T00:00:00",
   "data_pubblicazione": "2023-12-03T00:00:00",
@@ -255,5 +255,6 @@
       "titolo": "Monti della Calvana – Visit Tuscany",
       "url": "https://www.visittuscany.com/fr/attractions/monti-calvana"
     }
-  ]
+  ],
+  "data_esatta": true
 }

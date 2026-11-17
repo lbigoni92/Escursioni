@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Campo al Melo",
-  "data_escursione": "2023-01-01",
+  "data_escursione": "2023-01-21",
   "data_registrato": "2023-01-01",
   "data_caricato": "2023-01-21T00:00:00",
   "data_pubblicazione": "2023-01-21T00:00:00",
@@ -161,5 +161,6 @@
       "titolo": "Valle Benedetta – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Valle_Benedetta"
     }
-  ]
+  ],
+  "data_esatta": true
 }

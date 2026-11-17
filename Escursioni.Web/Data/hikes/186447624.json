@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "San Cassiano",
-  "data_escursione": "2024-09-01",
+  "data_escursione": "2024-09-28",
   "data_registrato": "2024-09-01",
   "data_caricato": "2024-09-28T00:00:00",
   "data_pubblicazione": "2024-09-28T00:00:00",
@@ -242,5 +242,6 @@
       "titolo": "Paesi della Controneria – FAI",
       "url": "https://fondoambiente.it/luoghi/paesi-della-controneria"
     }
-  ]
+  ],
+  "data_esatta": true
 }

@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Emilia-Romagna",
   "comune": "Civago",
-  "data_escursione": "2026-07-01",
+  "data_escursione": "2026-07-06",
   "data_registrato": "2026-07-01",
   "data_caricato": "2026-07-06T00:00:00",
   "data_pubblicazione": "2026-07-06T00:00:00",
@@ -100,5 +100,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

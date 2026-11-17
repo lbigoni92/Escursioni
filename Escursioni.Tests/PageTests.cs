@@ -43,7 +43,7 @@ public class PageTests(SiteFactory site)
     public async Task ThemeGuides_LinksWork_InSitemapAndLlms()
     {
         var html = await GetHtml("/guide/ciaspole-abetone");
-        Assert.Equal("Ciaspole all'Abetone: percorsi e consigli | Escursioni", WebUtility.HtmlDecode(Attr(html, @"<title>\s*([^<]+?)\s*</title>") ?? ""));
+        Assert.Equal("Ciaspole all'Abetone: percorsi e consigli | Escursioni Luca Bigoni", WebUtility.HtmlDecode(Attr(html, @"<title>\s*([^<]+?)\s*</title>") ?? ""));
         var guide = Regex.Match(html, @"<section class=""section prose theme-guide"">(.*?)</section>", RegexOptions.Singleline);
         Assert.True(guide.Success);
         foreach (var link in Regex.Matches(guide.Groups[1].Value, @"href=""(/[^""]+)""").Select(m => m.Groups[1].Value).Distinct())

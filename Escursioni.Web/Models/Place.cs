@@ -98,6 +98,12 @@ public record PlaceType(string Tipo, string Slug, string Singolare, string Titol
     public static readonly IReadOnlyList<PlaceType> All = [Vetta, Rifugio, Passo, Lago, Cascata];
 
     public static PlaceType Get(string tipo) => All.First(t => t.Tipo == tipo);
+
+    /// <summary>"Vette raggiunte", "Rifugi e bivacchi raggiunti": il participio concorda con il titolo.</summary>
+    public string Raggiunti => Tipo is "vetta" or "cascata" ? "raggiunte" : "raggiunti";
+
+    /// <summary>Titolo dei link alle pagine elenco, es. "Vette raggiunte dalle mie escursioni".</summary>
+    public string TitoloLink => $"{Titolo} {Raggiunti} dalle mie escursioni";
     public static PlaceType? FromSlug(string? slug) => All.FirstOrDefault(t => t.Slug == slug);
 }
 

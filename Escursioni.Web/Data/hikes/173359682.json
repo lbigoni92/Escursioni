@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Cardoso",
-  "data_escursione": "2024-06-01",
+  "data_escursione": "2024-06-07",
   "data_registrato": "2024-06-01",
   "data_caricato": "2024-06-07T00:00:00",
   "data_pubblicazione": "2024-06-07T00:00:00",
@@ -251,5 +251,6 @@
       "titolo": "L'alluvione in Versilia del 19 giugno 1996 – 3B Meteo",
       "url": "https://www.3bmeteo.com/giornale-meteo/meteostoria--la-tragica-alluvione-in-versilia-del-19-giugno-1996--video--196226"
     }
-  ]
+  ],
+  "data_esatta": true
 }

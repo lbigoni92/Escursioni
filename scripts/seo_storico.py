@@ -449,7 +449,12 @@ def cmd_storico(args):
                 if d:
                     r.append(f"| {u.replace('https://escursionilucabigoni.it', '')} | {int(pa.get(u, 0))} "
                              f"| {int(pb.get(u, 0))} | {int(d):+d} |")
-        r += sezione_query(cartelle[-1])
+        # L'ultimo export con le query di Google: un export con la sola copertura non le ha
+        for cartella in reversed(cartelle):
+            sezione = sezione_query(cartella)
+            if sezione:
+                r += sezione
+                break
     else:
         r.append("Nessun export: salvali in `docs/seo/search-console/AAAA-MM-GG/` (vedi README).")
 

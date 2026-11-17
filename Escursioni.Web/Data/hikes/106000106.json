@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Valle Benedetta",
-  "data_escursione": null,
+  "data_escursione": "2025-11-14",
   "data_registrato": null,
   "data_caricato": "2022-06-21T00:00:00",
   "data_pubblicazione": "2022-06-21T00:00:00",
@@ -44,7 +44,8 @@
       "larghezza": null,
       "altezza": null,
       "sha256": null,
-      "filesize_bytes": null
+      "filesize_bytes": null,
+      "alt": "Escursionisti con le frontali davanti a un vecchio casolare di Valle Benedetta, la sera delle lucciole"
     },
     {
       "tipo": "foto",
@@ -98,5 +99,6 @@
       "titolo": "Valle Benedetta – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Valle_Benedetta"
     }
-  ]
+  ],
+  "data_esatta": true
 }

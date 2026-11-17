@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Trentino-Alto Adige",
   "comune": "Fossel",
-  "data_escursione": "2025-09-01",
+  "data_escursione": "2025-09-06",
   "data_registrato": "2025-09-01",
   "data_caricato": "2025-09-06T00:00:00",
   "data_pubblicazione": "2025-09-06T00:00:00",
@@ -264,5 +264,6 @@
       "titolo": "Emilio Comici – Montagna.tv",
       "url": "https://www.montagna.tv/156278/emilio-comici/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

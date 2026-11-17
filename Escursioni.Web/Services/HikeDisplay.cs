@@ -35,6 +35,11 @@ public static class HikeDisplay
     /// <summary>Mese e anno: "marzo 2019" (Wikiloc dà la data dell'escursione solo al mese).</summary>
     public static string MonthYear(DateTime d) => $"{Mesi[d.Month - 1]} {d.Year}";
 
+    /// <summary>Data dell'escursione: "08/11/2026" se il giorno è noto, altrimenti "novembre 2026".</summary>
+    public static string? OutingDate(Hike h)
+        => h.DataEscursione is not DateTime d ? null
+         : h.DataEsatta ? d.ToString("dd/MM/yyyy", Invariant) : MonthYear(d);
+
     /// <summary>Zona con pagina dedicata (/escursioni/zona/{slug}), oppure null.</summary>
     public static string? Zone(Hike h)
         => !string.IsNullOrWhiteSpace(h.Tag) && TagHelper.IsKnown(h.Tag) ? h.Tag : null;

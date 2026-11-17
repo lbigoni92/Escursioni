@@ -22,7 +22,7 @@
   "regione": "Austria",
   "provincia": "Wien",
   "comune": "Fünfhaus",
-  "data_escursione": "2026-06-01",
+  "data_escursione": "2026-06-06",
   "data_registrato": "2026-06-01",
   "data_caricato": "2026-06-06T00:00:00",
   "data_pubblicazione": "2026-06-06T00:00:00",
@@ -143,5 +143,6 @@
       "titolo": "Vienna Danube regulation – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Vienna_Danube_regulation"
     }
-  ]
+  ],
+  "data_esatta": true
 }

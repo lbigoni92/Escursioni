@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Campagrina",
-  "data_escursione": "2023-08-01",
+  "data_escursione": "2023-08-12",
   "data_registrato": "2023-08-01",
   "data_caricato": "2023-08-13T00:00:00",
   "data_pubblicazione": "2023-08-13T00:00:00",
@@ -314,5 +314,6 @@
       "titolo": "Scopriamo nuovi sentieri: Fociomboli – CAI",
       "url": "https://archivio.cai.it/wp-content/uploads/2020/08/50_scopriamo_nuovi_sentieri_toscana-fociomboli.pdf"
     }
-  ]
+  ],
+  "data_esatta": true
 }

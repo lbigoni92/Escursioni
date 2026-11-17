@@ -2,7 +2,7 @@
   "wikiloc_id": 186625004,
   "titolo": "Castellina Marittima ~ Pietra Gosta ~ Poggi ~ Cascata delle Gusciane ~ Sassi bianchi ~ Masso di Montalone",
   "titolo_seo": "Cascata delle Gusciane e Masso di Montalone",
-  "meta_descrizione": "Anello facile ma lungo di 19,4 km e +889 m da Castellina Marittima: Pietra Gosta, Cascata delle Gusciane, Sassi Bianchi e Masso di Montalone.",
+  "meta_descrizione": "Anello medio e lungo di 19,4 km e +889 m da Castellina Marittima: Pietra Gosta, Cascata delle Gusciane, Sassi Bianchi e Masso di Montalone.",
   "tag": "Lucchesia e colline toscane",
   "descrizione": "Era un giro che volevo fare da qualche anno, molto bello anche se un po' lungo. Merita sicuramente di essere fatto. Il percorso, in generale, non è quasi mai difficile, eccetto un paio di tratti che potrebbero essere migliorati, magari ripulendo un po' di vegetazione troppo fitta. Partiamo subito verso la piccola vetta panoramica di Pietragosta, che regala una splendida vista su tutta la valle. Proseguiamo poi attraversando un paio di poggi: il primo non è granché, molto ricoperto di vegetazione, ma dal secondo si può godere di un bel panorama. Le cascate, invece, ti consiglio di visitarle dopo una pioggia recente. Quando ci sono stato io, erano un po' in secca, ma si può vedere dal letto del torrente quanto maestose possano diventare in altre condizioni. Proseguendo, si arriva all'unico tratto davvero impegnativo del giro, quello che porta alla Pala Eolica. Qui il terreno è più roccioso e si è esposti al sole, quindi meglio prenderlo con calma. I punti panoramici vicino alle pale eoliche non sono eccezionali, ma il secondo è sicuramente più bello del primo. Vale la pena allungare il percorso di pochi minuti per raggiungerlo. Da qui, si può proseguire come ho fatto io verso quello che credo sia il punto più bello di tutto il giro: il Masso di Montalone. Per salire su questo masso, bisogna arrampicarsi un po' su una roccia alta circa 10 metri. Attenzione alla discesa, che può risultare più difficile della salita! Qualcuno ha lasciato una corda in ottime condizioni, ma controllatela prima di usarla. Una volta in cima, il panorama è mozzafiato, il migliore di tutta l’escursione. Sulla via del ritorno, vi segnalo un tratto con vegetazione molto fitta, quindi consiglio di indossare pantaloni lunghi e prestare attenzione, anche se non c'è nulla di particolarmente difficile. Si passa anche per un teatro allestito in una cava e poi sul Monte dei Sistri Bianchi, anch'esso molto bello, con un panorama interessante. Vi suggerisco di terminare il giro come ho fatto io, passando per la Punta di Silvia. C’è una salita un po' impegnativa, ma la vista alla fine ripaga ampiamente lo sforzo. In conclusione, è un giro che consiglio vivamente, uno dei migliori che si possano fare partendo da Castellina. Regolate l’itinerario in base alle vostre capacità e non esitate a fermarvi se non ve la sentite di proseguire. La montagna è meravigliosa, ma la prudenza viene prima di tutto.",
   "descrizione_html": "<p>Un anello lungo, 19,4 km e quasi 900 metri di dislivello, da Castellina Marittima a <strong>Pietragosta</strong>, alle <strong>cascate delle Gusciane</strong> e al <strong>Masso di Montalone</strong>. Era un giro che volevo fare da anni: uno dei migliori che si possano fare partendo da Castellina.</p>\n<h3>Pietragosta e i poggi</h3>\n<p>Si parte subito verso la piccola vetta di Pietragosta, con una splendida vista sulla valle. Seguono un paio di poggi: il primo è molto coperto dalla vegetazione, dal secondo il panorama è bello.</p>\n<h3>Le cascate</h3>\n<p>Meglio visitarle dopo una pioggia: io le ho trovate quasi in secca, ma dal letto del torrente si capisce quanto possano diventare imponenti.</p>\n<h3>Le pale eoliche e il Masso di Montalone</h3>\n<p>Il tratto più impegnativo è la salita alla pala eolica: terreno roccioso e tutto al sole, da prendere con calma. Dei due punti panoramici vicino alle pale, il secondo è il migliore. Poi si arriva al Masso di Montalone, il punto più bello del giro: si sale arrampicandosi su una roccia di circa 10 metri, e la discesa è più difficile della salita. C'era una corda in buone condizioni, ma controllala prima di usarla.</p>\n<h3>Il ritorno</h3>\n<p>Al ritorno c'è un tratto di vegetazione fitta (servono pantaloni lunghi). Si passa da un teatro ricavato in una cava e dal Monte dei Sistri Bianchi; consiglio di chiudere dalla Punta di Silvia, con una salita impegnativa ma una bella vista.</p>",
@@ -16,13 +16,13 @@
   "tempo_mov_min": 409,
   "tempo_mov_hhmm": "6:49",
   "coordinate_count": 2960,
-  "difficolta": "Facile",
+  "difficolta": "Medio",
   "tipo_giro": "Anello",
   "superficie": null,
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Castellina Marittima",
-  "data_escursione": "2024-09-01",
+  "data_escursione": "2024-09-29",
   "data_registrato": "2024-09-01",
   "data_caricato": "2024-09-29T00:00:00",
   "data_pubblicazione": "2024-09-29T00:00:00",
@@ -33,7 +33,7 @@
   "geom": "POINT(10.577282 43.409798)",
   "sha256_payload": "640661cafb07b4a753c5561d5466470ddf673000a85789572af2930ad88db748",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-11-03T09:42:32",
+  "updated_at": "2026-11-17T12:00:00",
   "come_arrivare": "<p>Si parte da <strong>Castellina Marittima</strong> (PI), nel punto indicato dalle coordinate qui sotto.</p>",
   "cenno_storico": "La storia di Castellina Marittima è legata all'alabastro: dalle sue cave viene il cosiddetto «Bianco di Castellina», e alcuni storici legano proprio a queste miniere un'origine etrusca del paese, che le cronache citano dal XIII secolo. Oggi l'Ecomuseo dell'Alabastro unisce Castellina, Santa Luce e Volterra; a Castellina ha sede il punto museale con i documenti sull'estrazione.",
   "fonti": [
@@ -296,5 +296,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

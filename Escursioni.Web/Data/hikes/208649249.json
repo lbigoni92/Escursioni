@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Palagnana",
-  "data_escursione": "2025-04-01",
+  "data_escursione": "2025-04-12",
   "data_registrato": "2025-04-01",
   "data_caricato": "2025-04-12T00:00:00",
   "data_pubblicazione": "2025-04-12T00:00:00",
@@ -233,5 +233,6 @@
       "titolo": "Monte Procinto – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Monte_Procinto"
     }
-  ]
+  ],
+  "data_esatta": true
 }

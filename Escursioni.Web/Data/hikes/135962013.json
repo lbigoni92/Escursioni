@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Stabbiano",
-  "data_escursione": "2023-05-01",
+  "data_escursione": "2023-05-27",
   "data_registrato": "2023-05-01",
   "data_caricato": "2023-05-27T00:00:00",
   "data_pubblicazione": "2023-05-27T00:00:00",
@@ -98,5 +98,6 @@
       "titolo": "Ruderi del castello di Fibbialla – Comune di Camaiore",
       "url": "https://www.comune.camaiore.lu.it/en/sezioni-turismo-e-cultura-en/347-storia-di-camaiore/i-castelli/2568-ruderi-del-castello-di-fibbialla-2"
     }
-  ]
+  ],
+  "data_esatta": true
 }

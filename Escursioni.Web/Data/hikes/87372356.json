@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Fornovolasco",
-  "data_escursione": "2021-09-01",
+  "data_escursione": "2021-09-06",
   "data_registrato": "2021-09-01",
   "data_caricato": "2021-10-25T00:00:00",
   "data_pubblicazione": "2021-10-25T00:00:00",
@@ -57,5 +57,6 @@
       "titolo": "Grotta del Vento – Showcaves",
       "url": "https://www.showcaves.com/english/it/showcaves/Vento.html"
     }
-  ]
+  ],
+  "data_esatta": true
 }

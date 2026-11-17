@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Marina di Pisa",
-  "data_escursione": "2022-04-01",
+  "data_escursione": "2022-04-16",
   "data_registrato": "2022-04-01",
   "data_caricato": "2022-04-16T00:00:00",
   "data_pubblicazione": "2022-04-16T00:00:00",
@@ -111,5 +111,6 @@
       "titolo": "Marina di Pisa – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Marina_di_Pisa"
     }
-  ]
+  ],
+  "data_esatta": true
 }

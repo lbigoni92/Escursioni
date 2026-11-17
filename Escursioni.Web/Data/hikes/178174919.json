@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Emilia-Romagna",
   "comune": "Cerreto Laghi",
-  "data_escursione": "2024-07-01",
+  "data_escursione": "2024-07-21",
   "data_registrato": "2024-07-01",
   "data_caricato": "2024-07-21T00:00:00",
   "data_pubblicazione": "2024-07-21T00:00:00",
@@ -278,5 +278,6 @@
       "titolo": "Il mitico Passo del Cerreto – InSella",
       "url": "https://www.insella.it/da-sapere/strade-percorsi/il-mitico-passo-del-cerreto-dove-sono-curve-migliori-cosa-vedere-46001"
     }
-  ]
+  ],
+  "data_esatta": true
 }

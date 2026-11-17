@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Forno",
-  "data_escursione": "2025-04-01",
+  "data_escursione": "2025-04-05",
   "data_registrato": "2025-04-01",
   "data_caricato": "2025-04-05T00:00:00",
   "data_pubblicazione": "2025-04-05T00:00:00",
@@ -305,5 +305,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

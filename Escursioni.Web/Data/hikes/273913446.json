@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Pian di Novello",
-  "data_escursione": "2026-07-01",
+  "data_escursione": "2026-07-11",
   "data_registrato": "2026-07-01",
   "data_caricato": "2026-07-13T00:00:00",
   "data_pubblicazione": "2026-07-13T00:00:00",
@@ -215,5 +215,6 @@
       "titolo": "Abetone Cutigliano – Touring Club Italiano",
       "url": "https://www.touringclub.it/destinazioni/abetone-cutigliano"
     }
-  ]
+  ],
+  "data_esatta": true
 }

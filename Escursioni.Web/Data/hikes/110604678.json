@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Isola Santa",
-  "data_escursione": "2022-08-01",
+  "data_escursione": "2022-08-13",
   "data_registrato": "2022-08-01",
   "data_caricato": "2022-08-14T00:00:00",
   "data_pubblicazione": "2022-08-14T00:00:00",
@@ -260,5 +260,6 @@
       "titolo": "La Pania della Croce e l'Altopiano della Vetricia – Visit Tuscany",
       "url": "https://www.visittuscany.com/it/offerte/la-pania-della-croce-e-laltopiano-della-vetricia/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

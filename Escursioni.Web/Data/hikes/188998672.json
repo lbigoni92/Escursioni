@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Borgo a Mozzano",
-  "data_escursione": "2024-10-01",
+  "data_escursione": "2024-10-20",
   "data_registrato": "2024-10-01",
   "data_caricato": "2024-10-20T00:00:00",
   "data_pubblicazione": "2024-10-20T00:00:00",
@@ -291,5 +291,6 @@
       "titolo": "San Bartolomeo – Puccini Lands",
       "url": "https://www.puccinilands.it/schede/saint-bartolomeo/?lang=en"
     }
-  ]
+  ],
+  "data_esatta": true
 }

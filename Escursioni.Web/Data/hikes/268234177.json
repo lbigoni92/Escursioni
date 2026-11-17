@@ -22,7 +22,7 @@
   "regione": "Austria",
   "provincia": "Bundesland Oberösterreich",
   "comune": "Innere Stadt",
-  "data_escursione": "2026-06-01",
+  "data_escursione": "2026-06-07",
   "data_registrato": "2026-06-01",
   "data_caricato": "2026-06-07T00:00:00",
   "data_pubblicazione": "2026-06-07T00:00:00",
@@ -107,5 +107,6 @@
       "titolo": "Innere Stadt – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Innere_Stadt"
     }
-  ]
+  ],
+  "data_esatta": true
 }

@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Emilia-Romagna",
   "comune": "Casa Gallo",
-  "data_escursione": "2025-07-01",
+  "data_escursione": "2025-07-05",
   "data_registrato": "2025-07-01",
   "data_caricato": "2025-07-05T00:00:00",
   "data_pubblicazione": "2025-07-05T00:00:00",
@@ -494,5 +494,6 @@
       "titolo": "Alpe Tre Potenze da Le Regine per la Val Sestaione – Gulliver",
       "url": "https://www.gulliver.it/itinerari/tre-potenze-alpe-da-le-regine-per-la-val-sestaione/2014/11/29/227108/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

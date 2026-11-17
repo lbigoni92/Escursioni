@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Casoli",
-  "data_escursione": "2024-05-01",
+  "data_escursione": "2024-05-04",
   "data_registrato": "2024-05-01",
   "data_caricato": "2024-05-04T00:00:00",
   "data_pubblicazione": "2024-05-04T00:00:00",
@@ -179,5 +179,6 @@
       "titolo": "Sant'Anna di Stazzema – ANPI",
       "url": "https://www.anpi.it/sites/default/files/article-attachments/2024-02/Sant%27Anna.pdf"
     }
-  ]
+  ],
+  "data_esatta": true
 }

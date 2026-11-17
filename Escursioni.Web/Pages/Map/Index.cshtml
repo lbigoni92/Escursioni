@@ -26,7 +26,7 @@
                 Model.Escursioni.Select(h => new {
                     id = h.Id,
                     wikilocId = h.WikilocId,
-                    title = h.Titolo,
+                    title = Escursioni.Web.Services.HikeDisplay.Title(h),
                     slug = h.Slug,
                     luogo = Escursioni.Web.Services.HikeDisplay.Location(h),
                     lat = h.CentroidLat,

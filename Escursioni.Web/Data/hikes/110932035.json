@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Cocciglia",
-  "data_escursione": "2022-08-01",
+  "data_escursione": "2022-08-17",
   "data_registrato": "2022-08-01",
   "data_caricato": "2022-08-17T00:00:00",
   "data_pubblicazione": "2022-08-17T00:00:00",
@@ -199,5 +199,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

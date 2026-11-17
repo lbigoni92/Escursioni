@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Abetone",
-  "data_escursione": "2025-08-01",
+  "data_escursione": "2025-08-16",
   "data_registrato": "2025-08-01",
   "data_caricato": "2025-08-16T00:00:00",
   "data_pubblicazione": "2025-08-16T00:00:00",
@@ -188,5 +188,6 @@
       "titolo": "Le piramidi dell'Abetone – Visit Tuscany",
       "url": "https://www.visittuscany.com/it/attrazioni/piramidi-abetone/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

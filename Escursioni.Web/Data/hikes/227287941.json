@@ -21,8 +21,8 @@
   "superficie": null,
   "regione": "Italia",
   "provincia": "Emilia-Romagna",
-  "comune": "Poggiolforato",
-  "data_escursione": "2025-08-01",
+  "comune": "Lizzano in Belvedere",
+  "data_escursione": "2025-08-17",
   "data_registrato": "2025-08-01",
   "data_caricato": "2025-08-17T00:00:00",
   "data_pubblicazione": "2025-08-17T00:00:00",
@@ -33,7 +33,7 @@
   "geom": "POINT(10.819411 44.144222)",
   "sha256_payload": "0da196bf1203b74e84c97a0376f927d269b5429f5e0c86cc1c9feb07b229bb3d",
   "created_at": "2025-11-11T00:00:00",
-  "updated_at": "2026-11-03T08:25:16",
+  "updated_at": "2026-11-17T12:00:00",
   "come_arrivare": "<p>Si parte dal <strong>Santuario della Madonna dell'Acero</strong>, a circa 1.195 metri nel comune di Lizzano in Belvedere (BO), sopra Poggiolforato. Si parcheggia al santuario; se è pieno si può lasciare l'auto lungo la strada, ma poi servono brevi deviazioni per riprendere il sentiero. Il punto esatto della mia partenza è nelle coordinate qui sotto.</p>",
   "cenno_storico": "Il santuario fu costruito nel 1535 e ampliato fino al Settecento nel luogo dove, secondo la tradizione, la Madonna apparve a due giovani pastori, salvandoli da una tempesta di neve in piena estate e guarendo uno dei due, muto dalla nascita. Il culto nacque da un'immagine posta sull'acero dell'apparizione, da cui il nome del santuario. La festa si celebra ancora ogni 5 agosto.",
   "fonti": [
@@ -59,7 +59,8 @@
       "larghezza": null,
       "altezza": null,
       "sha256": null,
-      "filesize_bytes": null
+      "filesize_bytes": null,
+      "alt": "Il sentiero nel bosco di abeti verso le cascate del Dardagna"
     },
     {
       "tipo": "foto",
@@ -151,5 +152,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

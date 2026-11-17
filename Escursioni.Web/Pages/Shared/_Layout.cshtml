@@ -17,6 +17,12 @@
         computedOgImage = baseUrl + "/images/og-home.jpg";
     }
 
+    // Suffisso del <title>: il nome completo del sito quando ci sta (70 caratteri), altrimenti la forma breve
+    var pageTitle = ViewData["Title"]?.ToString() ?? "";
+    var titleSuffix = pageTitle.Contains("Escursioni") ? ""
+        : pageTitle.Length + " | Escursioni Luca Bigoni".Length <= 70 ? " | Escursioni Luca Bigoni"
+        : " | Escursioni";
+
     var zones = await Repo.GetTagSummaryAsync();
     var currentZone = ViewData["CurrentZone"] as string;
     var crumbs = ViewData["Breadcrumbs"] as List<(string Label, string Url)>;
@@ -41,7 +47,7 @@
 <html lang="it">
 <head>
     <meta charset="utf-8" />
-    <title>@ViewData["Title"]@(ViewData["Title"]?.ToString()?.Contains("Escursioni") == true ? "" : " | Escursioni")</title>
+    <title>@pageTitle@titleSuffix</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="msvalidate.01" content="2F3FB46C5CFC143B9FCA6B962AEF2FB5" />
     @if (ViewData["MetaDescription"] is string md && !string.IsNullOrWhiteSpace(md))
@@ -141,7 +147,7 @@
                     @foreach (var type in Escursioni.Web.Models.PlaceType.All)
                     {
                         <li>
-                            <a class="zone-link" href="/@type.Slug" title="@type.Titolo raggiunti dalle mie escursioni" aria-current="@Current("/" + type.Slug)">
+                            <a class="zone-link" href="/@type.Slug" title="@type.TitoloLink" aria-current="@Current("/" + type.Slug)">
                                 <span>@type.Titolo</span><span class="zone-count">@Places.OfType(type).Count</span>
                             </a>
                         </li>
@@ -229,7 +235,7 @@
                         }
                         @foreach (var type in Escursioni.Web.Models.PlaceType.All)
                         {
-                            <li><a href="/@type.Slug" title="@type.Titolo raggiunti dalle mie escursioni">@type.Titolo</a></li>
+                            <li><a href="/@type.Slug" title="@type.TitoloLink">@type.Titolo</a></li>
                         }
                     </ul>
                 </nav>
@@ -332,13 +338,17 @@
     </script>
 
     @* Avviso quando manca la connessione: la pagina è la copia salvata dal service worker *@
-    <div class="offline-banner" id="offline-banner" role="status" hidden>Sei offline: stai vedendo la copia salvata di questa pagina.</div>
+    @* Il testo si scrive solo quando la connessione manca davvero: così non finisce nel testo letto dai motori di ricerca *@
+    <div class="offline-banner" id="offline-banner" role="status" hidden></div>
     <script>
         (function () {
             // Schede consultabili anche senza campo (wwwroot/sw.js)
             if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(function () { });
             var banner = document.getElementById('offline-banner');
-            function update() { banner.hidden = navigator.onLine; }
+            function update() {
+                banner.textContent = navigator.onLine ? '' : 'Sei offline: stai vedendo la copia salvata di questa pagina.';
+                banner.hidden = navigator.onLine;
+            }
             window.addEventListener('online', update);
             window.addEventListener('offline', update);
             update();

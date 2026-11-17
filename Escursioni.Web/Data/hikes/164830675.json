@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Suvereto",
-  "data_escursione": "2024-03-01",
+  "data_escursione": "2024-03-23",
   "data_registrato": "2024-03-01",
   "data_caricato": "2024-03-23T00:00:00",
   "data_pubblicazione": "2024-03-23T00:00:00",
@@ -205,5 +205,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

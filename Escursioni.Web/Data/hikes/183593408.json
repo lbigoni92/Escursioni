@@ -22,7 +22,7 @@
   "regione": "Repubblica Ceca",
   "provincia": "Hlavní Mesto Praha",
   "comune": "Praha-Nové Město",
-  "data_escursione": "2024-09-01",
+  "data_escursione": "2024-09-03",
   "data_registrato": "2024-09-01",
   "data_caricato": "2024-09-03T00:00:00",
   "data_pubblicazione": "2024-09-03T00:00:00",
@@ -188,5 +188,6 @@
       "titolo": "New Town, Prague – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/New_Town,_Prague"
     }
-  ]
+  ],
+  "data_esatta": true
 }

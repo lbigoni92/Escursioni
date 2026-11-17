@@ -1,6 +1,6 @@
 {
   "wikiloc_id": 230866244,
-  "titolo": "Rifugio Marmolada - Passo Fedaia - Passo Fedaia - Ciamp dello Stanzon",
+  "titolo": "Rifugio Marmolada, Passo Fedaia e Ciamp dello Stanzon",
   "titolo_seo": "Lago di Fedaia ai piedi della Marmolada",
   "meta_descrizione": "Passeggiata facile di 5,8 km quasi in piano sulle rive del Lago di Fedaia, dal Rifugio Marmolada al Ciamp dello Stanzon, con la parete della Marmolada davanti.",
   "tag": "Trentino e Veneto",
@@ -16,13 +16,13 @@
   "tempo_mov_min": 87,
   "tempo_mov_hhmm": "1:27",
   "coordinate_count": 436,
-  "difficolta": "Medio",
+  "difficolta": "Facile",
   "tipo_giro": "Solo andata",
   "superficie": null,
   "regione": "Italia",
   "provincia": "Veneto",
   "comune": "Ciamp dello Stanzon",
-  "data_escursione": "2025-09-01",
+  "data_escursione": "2025-09-09",
   "data_registrato": "2025-09-01",
   "data_caricato": "2025-09-09T00:00:00",
   "data_pubblicazione": "2025-09-09T00:00:00",
@@ -33,7 +33,7 @@
   "geom": "POINT(11.861516 46.463962)",
   "sha256_payload": "33c7f18f732955e2461cffffeea89f6e287a733900efefbbebd7ce6750569162",
   "created_at": "2025-11-11T00:00:00",
-  "updated_at": "2026-11-03T21:04:56",
+  "updated_at": "2026-11-17T12:00:00",
   "come_arrivare": "<p>Si parte dal <strong>Rifugio Marmolada</strong>, al Passo Fedaia (Canazei, TN), nel punto indicato dalle coordinate qui sotto.</p>",
   "cenno_storico": "Il 3 luglio 2022, nel primo pomeriggio, un enorme seracco si staccò dal ghiacciaio della Marmolada vicino a Punta Rocca, lungo la via normale alla vetta. La valanga di ghiaccio, neve e roccia travolse diverse cordate: morirono undici persone.",
   "fonti": [
@@ -53,5 +53,7 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true,
+  "slug": "rifugio-marmolada-passo-fedaia-passo-fedaia-ciamp-dello-stanzon"
 }

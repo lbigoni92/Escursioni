@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Montecerboli",
-  "data_escursione": "2025-01-01",
+  "data_escursione": "2025-01-25",
   "data_registrato": "2025-01-01",
   "data_caricato": "2025-01-25T00:00:00",
   "data_pubblicazione": "2025-01-25T00:00:00",
@@ -305,5 +305,6 @@
       "titolo": "Bagni di San Michele alle Formiche – Terre di Pisa",
       "url": "https://www.terredipisa.it/en/attrazione/baths-san-michele-formiche/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

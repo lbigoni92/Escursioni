@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Castiglioncello",
-  "data_escursione": "2021-11-01",
+  "data_escursione": "2021-11-06",
   "data_registrato": "2021-11-01",
   "data_caricato": "2021-11-06T00:00:00",
   "data_pubblicazione": "2021-11-06T00:00:00",
@@ -44,7 +44,8 @@
       "larghezza": null,
       "altezza": null,
       "sha256": null,
-      "filesize_bytes": null
+      "filesize_bytes": null,
+      "alt": "Panca di legno e bacheche in cima al Monte Pelato"
     },
     {
       "tipo": "foto",
@@ -125,5 +126,6 @@
       "titolo": "Castiglioncello – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Castiglioncello"
     }
-  ]
+  ],
+  "data_esatta": true
 }

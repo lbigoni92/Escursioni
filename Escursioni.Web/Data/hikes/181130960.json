@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Pracchiola",
-  "data_escursione": "2024-08-01",
+  "data_escursione": "2024-08-15",
   "data_registrato": "2024-08-01",
   "data_caricato": "2024-08-15T00:00:00",
   "data_pubblicazione": "2024-08-15T00:00:00",
@@ -224,5 +224,6 @@
       "titolo": "Cascate, piscine e laghi: dove fare il bagno nel fiume Magra – SiViaggia",
       "url": "https://siviaggia.it/vacanze-natura/dove-fare-bagno-nel-fiume-magra-piscine-naturali/475169/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

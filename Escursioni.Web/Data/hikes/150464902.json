@@ -1,6 +1,6 @@
 {
   "wikiloc_id": 150464902,
-  "titolo": "Giro a caso",
+  "titolo": "Giro breve da Querce, sopra Massarosa",
   "titolo_seo": "Giro breve da Querce, sopra Massarosa",
   "meta_descrizione": "Anello breve di 3,8 km e +283 m da Querce, sulle colline della zona di Massarosa, fatto senza un programma preciso. Traccia GPS e foto del percorso.",
   "tag": "Versilia e Massarosa",
@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Querce",
-  "data_escursione": "2023-10-01",
+  "data_escursione": "2023-10-15",
   "data_registrato": "2023-10-01",
   "data_caricato": "2023-10-15T00:00:00",
   "data_pubblicazione": "2023-10-15T00:00:00",
@@ -33,7 +33,7 @@
   "geom": "POINT(10.46801 43.91097)",
   "sha256_payload": "531714924847775f550a5a57305ee2e2a07d35c19e81b1c5d4d20fc93baea9de",
   "created_at": "2025-11-12T00:00:00",
-  "updated_at": "2026-11-03T09:26:34",
+  "updated_at": "2026-11-17T12:00:00",
   "come_arrivare": "<p>Si parte da <strong>Querce</strong> (Massarosa, LU), nel punto indicato dalle coordinate qui sotto.</p>",
   "descrizione_rivista": true,
   "media": [
@@ -64,5 +64,7 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true,
+  "slug": "giro-a-caso"
 }

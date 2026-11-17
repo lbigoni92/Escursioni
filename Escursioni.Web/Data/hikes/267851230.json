@@ -22,7 +22,7 @@
   "regione": "Austria",
   "provincia": "Wien",
   "comune": "Fünfhaus",
-  "data_escursione": "2026-06-01",
+  "data_escursione": "2026-06-05",
   "data_registrato": "2026-06-01",
   "data_caricato": "2026-06-05T00:00:00",
   "data_pubblicazione": "2026-06-05T00:00:00",
@@ -179,5 +179,6 @@
       "titolo": "Innere Stadt – Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Innere_Stadt"
     }
-  ]
+  ],
+  "data_esatta": true
 }

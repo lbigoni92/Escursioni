@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Emilia-Romagna",
   "comune": "Il Troccolo",
-  "data_escursione": "2024-07-01",
+  "data_escursione": "2024-07-07",
   "data_registrato": "2024-07-01",
   "data_caricato": "2024-07-07T00:00:00",
   "data_pubblicazione": "2024-07-07T00:00:00",
@@ -404,5 +404,6 @@
       "titolo": "Libro Aperto – Visit Pistoia",
       "url": "https://www.visitpistoia.eu/?p=54112"
     }
-  ]
+  ],
+  "data_esatta": true
 }

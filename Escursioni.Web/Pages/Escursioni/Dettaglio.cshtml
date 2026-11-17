@@ -45,7 +45,7 @@
             }
             @if (h.DataEscursione.HasValue)
             {
-                <span>Percorsa il <time datetime="@h.DataEscursione.Value.ToString("yyyy-MM-dd")">@h.DataEscursione.Value.ToString("dd/MM/yyyy")</time></span>
+                <span>Percorsa @(h.DataEsatta ? "il" : "a") <time datetime="@h.DataEscursione.Value.ToString(h.DataEsatta ? "yyyy-MM-dd" : "yyyy-MM")">@HikeDisplay.OutingDate(h)</time></span>
             }
             @if (h.UpdatedAt.Date > (h.DataEscursione ?? DateTime.MinValue).Date)
             {
@@ -130,7 +130,7 @@
                                 {
                                     <source srcset="~/@galleryWebp" type="image/webp" />
                                 }
-                                <img src="~/@media.PathRelativo" alt="@displayTitle@(location != null ? $" ({location})" : "") – foto @(index + 1) di @galleryMedia.Count" loading="@(index == 0 ? "eager" : "lazy")" fetchpriority="@(index == 0 ? "high" : "auto")" decoding="@(index == 0 ? "sync" : "async")" width="800" height="440" />
+                                <img src="~/@media.PathRelativo" alt="@(!string.IsNullOrWhiteSpace(media.Alt) ? media.Alt : index == 0 ? (location != null ? $"{displayTitle}, {location}" : displayTitle) : $"{displayTitle}: foto {index + 1} di {galleryMedia.Count}")" loading="@(index == 0 ? "eager" : "lazy")" fetchpriority="@(index == 0 ? "high" : "auto")" decoding="@(index == 0 ? "sync" : "async")" width="800" height="440" />
                             </picture>
                         </div>
                     }
@@ -178,7 +178,7 @@
                     @foreach (var p in Model.Luoghi)
                     {
                         <li>
-                            <a href="@p.Url" title="@(p.Scheda?.Nome ?? p.Type.Titolo + " raggiunti dalle mie escursioni")">
+                            <a href="@p.Url" title="@(p.Scheda?.Nome ?? p.Type.TitoloLink)">
                                 <span class="place-chip-type">@p.Type.Singolare</span>
                                 <span class="place-chip-name">@(p.Scheda?.Nome ?? p.Nome)</span>
                                 @if (p.QuotaM is int q)
@@ -284,7 +284,7 @@
                                         }
                                         @if (v.Hike.DataEscursione is DateTime d)
                                         {
-                                            <time datetime="@d.ToString("yyyy-MM-dd")">@HikeDisplay.MonthYear(d)</time>
+                                            <time datetime="@d.ToString(v.Hike.DataEsatta ? "yyyy-MM-dd" : "yyyy-MM")">@HikeDisplay.OutingDate(v.Hike)</time>
                                         }
                                         @if (v.Etichetta != null)
                                         {
@@ -298,7 +298,7 @@
                                     <td>
                                         @if (v.GpxUrl != null)
                                         {
-                                            <a href="@v.GpxUrl" download title="Scarica la traccia GPX del @(v.Hike.DataEscursione?.ToString("dd/MM/yyyy"))">GPX</a>
+                                            <a href="@v.GpxUrl" download title="Scarica la traccia GPX del @HikeDisplay.OutingDate(v.Hike)">GPX</a>
                                         }
                                         <a href="@v.Hike.Url" target="_blank" rel="noopener" title="Apri questa traccia su Wikiloc">Wikiloc</a>
                                     </td>

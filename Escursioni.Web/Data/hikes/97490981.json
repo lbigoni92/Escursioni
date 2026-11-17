@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Montenero",
-  "data_escursione": "2022-03-01",
+  "data_escursione": "2022-03-13",
   "data_registrato": "2022-03-01",
   "data_caricato": "2022-03-13T00:00:00",
   "data_pubblicazione": "2022-03-13T00:00:00",
@@ -98,5 +98,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

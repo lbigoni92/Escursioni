@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Fornovolasco",
-  "data_escursione": "2022-08-01",
+  "data_escursione": "2022-08-14",
   "data_registrato": "2022-08-01",
   "data_caricato": "2022-08-14T00:00:00",
   "data_pubblicazione": "2022-08-14T00:00:00",
@@ -120,5 +120,6 @@
       "titolo": "L'anello del Monte Forato – Visit Tuscany",
       "url": "https://www.visittuscany.com/it/itinerari/lanello-del-monte-forato/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

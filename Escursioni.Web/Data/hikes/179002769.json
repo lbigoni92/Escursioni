@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Pracchi",
-  "data_escursione": "2024-07-01",
+  "data_escursione": "2024-07-27",
   "data_registrato": "2024-07-01",
   "data_caricato": "2024-07-28T00:00:00",
   "data_pubblicazione": "2024-07-28T00:00:00",
@@ -323,5 +323,6 @@
       "titolo": "Riserva naturale Orrido di Botri – Italian Botanical Heritage",
       "url": "https://luoghi.italianbotanicalheritage.com/en/?p=33765"
     }
-  ]
+  ],
+  "data_esatta": true
 }

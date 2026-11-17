@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Parrana San Martino",
-  "data_escursione": "2021-05-01",
+  "data_escursione": "2021-05-02",
   "data_registrato": "2021-05-01",
   "data_caricato": "2021-11-05T00:00:00",
   "data_pubblicazione": "2021-11-05T00:00:00",
@@ -53,5 +53,6 @@
       "titolo": "Acquedotto Leopoldino – Museo Galileo",
       "url": "https://brunelleschi.imss.fi.it/itineraries/place/LeopoldinoAqueduct.html"
     }
-  ]
+  ],
+  "data_esatta": true
 }

@@ -18,7 +18,7 @@ public static class TagHelper
         ["Grosseto e Maremma"] = "grosseto-e-maremma",
         ["Lunigiana"] = "lunigiana",
         ["Monti Pisani"] = "monti-pisani",
-        ["Altre zone dell'italia"] = "altre-zone-dell-italia",
+        ["Altre zone dell'Italia"] = "altre-zone-dell-italia",
         ["Estero"] = "estero",
     };
 
@@ -33,15 +33,15 @@ public static class TagHelper
         ["Livorno e costa toscana"] = "Sentieri panoramici lungo la costa livornese da Montenero a Piombino.",
         ["Versilia e Massarosa"] = "Passeggiate tra costa versiliese, colline e Lago di Massaciuccoli.",
         ["Versilia e costa toscana"] = "Percorsi tra mare e montagna lungo la costa toscana, ideali tutto l'anno.",
-        ["Lucchesia e colline toscane"] = "Cammini facili e panoramici tra le dolci colline della Toscana.",
+        ["Lucchesia e colline toscane"] = "Cammini panoramici tra la Piana di Lucca e le colline pisane, volterrane e della Val di Cecina.",
         ["Firenze e provincia"] = "Escursioni tra colline, borghi e boschi nella provincia di Firenze.",
         ["Appennino Tosco-Emiliano"] = "Trekking d'alta quota e crinali spettacolari sull'Appennino.",
         ["Trentino"] = "Escursioni tra le Dolomiti e le montagne del Trentino-Alto Adige.",
         ["Trentino e Veneto"] = "Escursioni tra Dolomiti, Lessinia, Monte Grappa e le montagne del Triveneto.",
         ["Grosseto e Maremma"] = "Sentieri nella Maremma toscana tra Vie Cave etrusche, costa e colline metallifere.",
         ["Lunigiana"] = "Escursioni tra borghi e castelli nella valle storica della Lunigiana.",
-        ["Monti Pisani"] = "Sentieri tra Pisa e Lucca sul Monte Serra e le colline pisane.",
-        ["Altre zone dell'italia"] = "Escursioni in altre regioni italiane fuori dalla Toscana.",
+        ["Monti Pisani"] = "Sentieri tra Pisa e Lucca sul Monte Pisano: Monte Serra, Verruca, Monte Faeta e le valli intorno.",
+        ["Altre zone dell'Italia"] = "Escursioni in altre regioni italiane fuori dalla Toscana.",
         ["Estero"] = "Avventure ed escursioni fuori dall'Italia.",
     };
 

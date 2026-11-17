@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Buti",
-  "data_escursione": "2023-11-01",
+  "data_escursione": "2023-11-18",
   "data_registrato": "2023-11-01",
   "data_caricato": "2023-11-18T00:00:00",
   "data_pubblicazione": "2023-11-18T00:00:00",
@@ -210,5 +210,6 @@
       "titolo": "Buti – Toscana.info",
       "url": "https://www.toscana.info/en/pisa/pisa-province/buti/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

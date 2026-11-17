@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Orzale",
-  "data_escursione": "2026-03-01",
+  "data_escursione": "2026-03-21",
   "data_registrato": "2026-03-01",
   "data_caricato": "2026-03-21T00:00:00",
   "data_pubblicazione": "2026-03-21T00:00:00",
@@ -233,5 +233,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

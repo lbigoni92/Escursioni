@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Veneto",
   "comune": "Sottoguda-Palue",
-  "data_escursione": "2025-09-01",
+  "data_escursione": "2025-09-09",
   "data_registrato": "2025-09-01",
   "data_caricato": "2025-09-09T00:00:00",
   "data_pubblicazione": "2025-09-09T00:00:00",
@@ -59,7 +59,8 @@
       "larghezza": null,
       "altezza": null,
       "sha256": null,
-      "filesize_bytes": null
+      "filesize_bytes": null,
+      "alt": "La passerella nella forra dei Serrai di Sottoguda, sopra il greto del torrente"
     },
     {
       "tipo": "foto",
@@ -106,5 +107,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

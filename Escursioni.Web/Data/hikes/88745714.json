@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Pieve di Compito",
-  "data_escursione": "2021-11-01",
+  "data_escursione": "2021-11-13",
   "data_registrato": "2021-11-01",
   "data_caricato": "2021-11-13T00:00:00",
   "data_pubblicazione": "2021-11-13T00:00:00",
@@ -246,5 +246,6 @@
       "titolo": "Il borgo delle camelie – SiViaggia",
       "url": "https://siviaggia.it/borghi/borgo-camelie-visitare-inverno/423519/"
     }
-  ]
+  ],
+  "data_esatta": true
 }

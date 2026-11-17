@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Levigliani",
-  "data_escursione": "2021-10-01",
+  "data_escursione": "2021-10-03",
   "data_registrato": "2021-10-01",
   "data_caricato": "2021-11-05T00:00:00",
   "data_pubblicazione": "2021-11-05T00:00:00",
@@ -57,5 +57,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

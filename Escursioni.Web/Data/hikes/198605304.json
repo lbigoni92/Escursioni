@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Cardoso",
-  "data_escursione": "2025-01-01",
+  "data_escursione": "2025-01-19",
   "data_registrato": "2025-01-01",
   "data_caricato": "2025-01-19T00:00:00",
   "data_pubblicazione": "2025-01-19T00:00:00",
@@ -287,5 +287,6 @@
       "titolo": "Cascata dell'Acquapendente da Pruno – CAI Firenze (marzo 2026)",
       "url": "https://caifirenze.it/wp-content/uploads/2026/03/Apuane-Cascate-dellAcquapendente-22-3-26-v.1.pdf"
     }
-  ]
+  ],
+  "data_esatta": true
 }

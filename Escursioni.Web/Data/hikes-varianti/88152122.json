@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Calambrone",
-  "data_escursione": "2018-05-01",
+  "data_escursione": "2018-05-10",
   "data_registrato": "2018-05-01",
   "data_caricato": "2021-11-05T00:00:00",
   "data_pubblicazione": "2021-11-05T00:00:00",
@@ -44,5 +44,6 @@
       "sha256": null,
       "filesize_bytes": null
     }
-  ]
+  ],
+  "data_esatta": true
 }

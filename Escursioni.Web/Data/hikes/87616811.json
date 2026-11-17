@@ -22,7 +22,7 @@
   "regione": "Italia",
   "provincia": "Toscana",
   "comune": "Castellaccio",
-  "data_escursione": "2020-07-01",
+  "data_escursione": "2020-07-25",
   "data_registrato": "2020-07-01",
   "data_caricato": "2021-10-29T00:00:00",
   "data_pubblicazione": "2021-10-29T00:00:00",
@@ -53,5 +53,6 @@
       "titolo": "Il Parco dei Monti Livornesi – Visit Tuscany",
       "url": "https://www.visittuscany.com/it/attrazioni/il-parco-dei-monti-livornesi/"
     }
-  ]
+  ],
+  "data_esatta": true
 }
