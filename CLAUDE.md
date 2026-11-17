@@ -8,7 +8,7 @@ Sito di escursioni di Luca Bigoni (escursionilucabigoni.it): ASP.NET Razor Pages
 
 - **Scrivere sempre in italiano**: risposte, riepiloghi, box di fine turno, messaggi di commit.
 - **Mai commit, merge, push o tag di propria iniziativa**, e non proporli. Si fanno solo quando Luca lo chiede esplicitamente, ogni volta. A fine lavoro dire cosa è cambiato e cosa resta non committato.
-- I commit vanno su `dev`. **Su `master` si va solo con un rilascio chiesto da Luca**, seguendo la procedura in `docs/seo/README.md` (nota di rilascio, fotografie, export Search Console). Ultimo rilascio: `R1-2026-11` il 16 novembre 2026; misure a +4 settimane (14 dicembre) e +8 settimane (11 gennaio).
+- I commit vanno su `dev`. **Su `master` si va solo con un rilascio chiesto da Luca**, seguendo la procedura in `docs/seo/README.md` (nota di rilascio, fotografie, export Search Console). Ultimi rilasci: `R1-2026-11` il 16 novembre e `R2-2026-11` il 17 novembre 2026; misure a +4 settimane (14 dicembre) e +8 settimane (11 gennaio).
 - Mai inviare messaggi, email o post a nome di Luca senza la sua conferma: si preparano bozze.
 
 ## Contenuti delle schede
