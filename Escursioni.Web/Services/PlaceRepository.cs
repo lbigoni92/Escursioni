@@ -86,19 +86,45 @@ public class PlaceRepository
             // Prima i luoghi con più escursioni: in caso di omonimi prendono lo slug più semplice
             foreach (var p in places.Where(p => p.Scheda == null).OrderByDescending(p => p.Hikes.Count).ThenBy(p => p.Osm))
             {
-                var name = Pages.Escursioni.IndexModel.MakeSlug(p.Nome);
+                var name = MakeSlug(p.Nome);
                 var slug = new[] { name, $"{name}-{p.QuotaM}", $"{name}-{p.Anchor}" }.First(s => !used.Contains(s));
                 used.Add(slug);
                 p.Slug = slug;
             }
-            foreach (var p in places.Where(p => p.Scheda != null))
+            foreach (var p in places)
             {
-                var name = Pages.Escursioni.IndexModel.MakeSlug(p.Nome);
-                if (name != p.Slug && !used.Contains(name))
-                    _redirects[$"/{type.Slug}/{name}"] = p.Url;
+                // Nome traslitterato (scheda con slug diverso) e vecchio slug che toglieva gli accenti
+                // ("Karolinenhöhe" → "karolinenh-he"): 301 verso la pagina attuale
+                foreach (var name in new[] { MakeSlug(p.Nome), Pages.Escursioni.IndexModel.MakeSlug(p.Nome) }.Distinct())
+                    if (name != p.Slug && !used.Contains(name))
+                        _redirects[$"/{type.Slug}/{name}"] = p.Url;
             }
         }
     }
+
+    /// <summary>
+    /// Slug di un luogo: a differenza di quello delle escursioni (che deve restare com'era)
+    /// le lettere accentate diventano la lettera semplice ("Mönchsberg" → "monchsberg").
+    /// Tabella esplicita: non dipende da Normalize, che senza ICU non scompone gli accenti.
+    /// </summary>
+    public static string MakeSlug(string text)
+    {
+        if (string.IsNullOrWhiteSpace(text)) return string.Empty;
+        var sb = new System.Text.StringBuilder(text.Length);
+        foreach (var c in text.ToLowerInvariant())
+        {
+            var i = AccentFrom.IndexOf(c);
+            if (i >= 0) sb.Append(AccentTo[i]);
+            else if (c == 'ß') sb.Append("ss");
+            else if (c == 'æ') sb.Append("ae");
+            else if (c == 'œ') sb.Append("oe");
+            else sb.Append(c);
+        }
+        return Pages.Escursioni.IndexModel.MakeSlug(sb.ToString());
+    }
+
+    private const string AccentFrom = "àáâãäåāăąçćčďđèéêëēėęěìíîïīįıłñńňòóôõöøōőŕřśšşţťùúûüūůűųýÿźżž";
+    private const string AccentTo   = "aaaaaaaaa" + "ccc" + "dd" + "eeeeeeee" + "iiiiiii" + "l" + "nnn" + "oooooooo" + "rr" + "sss" + "tt" + "uuuuuuuu" + "yy" + "zzz";
 
     private readonly Dictionary<string, string> _redirects = new();
 

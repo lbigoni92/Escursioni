@@ -16,6 +16,36 @@ public class FeedAndRedirectTests(SiteFactory site)
 {
     private const string BaseUrl = "https://escursionilucabigoni.it";
 
+    [Theory]
+    [InlineData("Karolinenhöhe", "karolinenhohe")]
+    [InlineData("Mönchsberg Nord", "monchsberg-nord")]
+    [InlineData("Városligeti tó", "varosligeti-to")]
+    [InlineData("Rifugio Città di Massa", "rifugio-citta-di-massa")]
+    [InlineData("Großglockner", "grossglockner")]
+    public void PlaceSlug_TransliteratesAccents(string name, string slug)
+        => Assert.Equal(slug, PlaceRepository.MakeSlug(name));
+
+    [Theory]
+    [InlineData("/vette/piz-bo", "/vette/piz-boe")]
+    [InlineData("/vette/karolinenh-he", "/vette/karolinenhohe")]
+    public async Task PlaceWithAccentedName_OldSlugRedirectsPermanently(string from, string to)
+    {
+        var response = await site.CreateNoRedirectClient().GetAsync(from);
+        Assert.Equal(HttpStatusCode.MovedPermanently, response.StatusCode);
+        Assert.EndsWith(to, response.Headers.Location!.ToString());
+    }
+
+    [Fact]
+    public void PlaceSheets_FileNameMatchesTransliteratedName()
+    {
+        // Le schede nuove vanno salvate con lo slug traslitterato, non con quello che toglie gli accenti
+        var places = site.Services.GetRequiredService<PlaceRepository>();
+        var wrong = places.WithSheets
+            .Where(p => p.Slug == Escursioni.Web.Pages.Escursioni.IndexModel.MakeSlug(p.Nome) && p.Slug != PlaceRepository.MakeSlug(p.Nome))
+            .Select(p => p.Slug).ToList();
+        Assert.Empty(wrong);
+    }
+
     [Fact]
     public async Task Sitemap_ListsEveryHikeAndZone_OnlyOnce_AndEveryUrlWorks()
     {
