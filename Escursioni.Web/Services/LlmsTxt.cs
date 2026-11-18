@@ -31,6 +31,7 @@ public static class LlmsTxt
             sb.AppendLine($"- [{g.Titolo}]({baseUrl}{g.Url}): {g.MetaDescrizione}");
         sb.AppendLine($"- [Chi sono]({baseUrl}/chi-sono)");
         sb.AppendLine($"- [Contatti]({baseUrl}/contatti)");
+        sb.AppendLine($"- [Link utili]({baseUrl}/link-utili)");
 
         foreach (var zone in zones)
         {

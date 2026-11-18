@@ -1,0 +1,41 @@
+@page "/link-utili"
+@inject IConfiguration Configuration
+@{
+    var _baseUrl = (Configuration["Site:BaseUrl"] ?? "https://escursionilucabigoni.it").TrimEnd('/');
+    ViewData["Title"] = "Link utili per escursioni in Toscana";
+    ViewData["MetaDescription"] = "Siti che consulto prima di partire: blog di escursionismo sulle Apuane e in Appennino, associazioni locali, parco, soccorso alpino e meteo.";
+    ViewData["CanonicalUrl"] = $"{_baseUrl}/link-utili";
+    ViewData["OgImage"] = _baseUrl + "/images/og-home.jpg";
+    ViewData["Breadcrumbs"] = new List<(string Label, string Url)> { ("Link utili", "") };
+}
+
+<div class="prose">
+<h1 class="page-title">Link utili</h1>
+
+<p>Questi sono i siti che leggo quando preparo un'escursione o che mi piace consigliare. Non ci sono accordi commerciali: li trovi qui perché li trovo utili. Se hai un sito di escursioni in Toscana e pensi che possa stare in questa pagina, <a href="/contatti" title="Scrivi a Luca Bigoni">scrivimi</a>.</p>
+
+<h2>Blog e siti di escursionismo</h2>
+<ul>
+    <li><a href="https://www.sentieriincammino.it/">Sentieri in Cammino</a>: relazioni dettagliate di escursioni tra Alpi Apuane e Appennino settentrionale, con schede su rifugi e bivacchi della Toscana.</li>
+    <li><a href="https://escursionismo360.blogspot.com/">Escursionismo a 360°</a>: escursioni, vie ferrate e salite in montagna, con una pagina dedicata alle Alpi Apuane.</li>
+    <li><a href="https://www.bagaglioleggero.it/">Bagaglio Leggero</a>: centinaia di escursioni raccontate, soprattutto sulle Apuane, in Garfagnana e sull'Appennino tosco-emiliano.</li>
+    <li><a href="https://sentieridicioccolata.it/">Sentieri di Cioccolata</a>: camminate in famiglia e con i bambini, tra Emilia-Romagna, Toscana e Apuane.</li>
+</ul>
+
+<h2>Guide e territorio</h2>
+<ul>
+    <li><a href="https://maxguidapuana.it/">Max Dimensione Montagna</a>: escursioni e trekking accompagnati sulle Apuane con una guida ambientale escursionistica.</li>
+    <li><a href="https://www.prolocoseravezza.it/">Pro Loco Seravezza</a>: informazioni turistiche ed escursioni in Alta Versilia, tra Seravezza e Stazzema.</li>
+    <li><a href="https://associazionevallebenedetta.wordpress.com/">Associazione Valle Benedetta</a>: l'associazione degli abitanti della Valle Benedetta, sui Monti Livornesi, da dove partono molte delle mie escursioni.</li>
+</ul>
+
+<h2>Enti, sicurezza e meteo</h2>
+<ul>
+    <li><a href="https://www.parcapuane.it/">Parco Regionale delle Alpi Apuane</a>: il sito ufficiale del parco.</li>
+    <li><a href="https://www.cai.it/">Club Alpino Italiano</a>: sentieri, rifugi e sezioni locali.</li>
+    <li><a href="https://www.sast.it/">Soccorso Alpino e Speleologico Toscano</a>: consigli per andare in montagna in sicurezza. In emergenza chiama il <strong>112</strong>.</li>
+    <li><a href="https://www.lamma.toscana.it/">LaMMA</a>: le previsioni meteo ufficiali della Regione Toscana.</li>
+</ul>
+
+<p>I siti elencati sono di terzi: non li gestisco e non rispondo dei loro contenuti (vedi le <a href="/note-legali" title="Note legali e condizioni d'uso">note legali</a>).</p>
+</div>
