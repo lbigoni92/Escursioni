@@ -1,27 +1,29 @@
 # Storico SEO del sito
 
 File generato da `python scripts/seo_storico.py storico`: non modificarlo a mano.
-Ultimo aggiornamento: 2026-11-17.
+Ultimo aggiornamento: 2026-11-18.
 
 ## Rilasci
 
 - [R0 – Stato online al 3 novembre 2026](rilasci/R0-2026-11-03-stato-online.md) – già online al 3 novembre 2026 (`master`, commit `a1a1b982`)
 - [R1-2026-11](rilasci/R1-2026-11.md) – 16 novembre 2026 (anticipato rispetto alla prima settimana di dicembre, su decisione di Luca)
 - [R2-2026-11](rilasci/R2-2026-11.md) – 17 novembre 2026, il giorno dopo R1 (stesso periodo di misura: export del 16 novembre come punto di partenza)
+- [R3-2026-11](rilasci/R3-2026-11.md) – 18 novembre 2026
+- [R4-2026-11](rilasci/R4-2026-11.md) – 18 novembre 2026
 
 ## Contenuti nel tempo
 
-| Metrica | 2026-11-03 `master` | 2026-11-03 `dev` | 2026-11-16 `master` | 2026-11-16 `master` | 2026-11-17 `master` | 2026-11-17 `master` |
-|---|---|---|---|---|---|---|
-| Schede con una propria pagina | 278 | 254 | 256 | 278 | 256 | 256 |
-| Uscite unite come varianti | 0 | 24 | 24 | 0 | 24 | 24 |
-| Schede riscritte | 0 | 254 | 256 | 0 | 256 | 256 |
-| Schede con cenno storico | 0 | 129 | 231 | 0 | 231 | 231 |
-| Fonti citate | 0 | 151 | 301 | 0 | 301 | 301 |
-| Pagine luogo | 0 | 1 | 263 | 0 | 530 | 263 |
-| Redirect manuali | 2 | 4 | 4 | 2 | 4 | 4 |
-| Parole per scheda (mediana) | 320.5 | 179.0 | 195.0 | 320.5 | 195.0 | 195.0 |
-| Schede sotto le 100 parole | 0 | 30 | 9 | 0 | 9 | 9 |
+| Metrica | 2026-11-03 `master` | 2026-11-03 `dev` | 2026-11-16 `master` | 2026-11-16 `master` | 2026-11-17 `master` | 2026-11-17 `master` | 2026-11-18 `master` | 2026-11-18 `master` |
+|---|---|---|---|---|---|---|---|---|
+| Schede con una propria pagina | 278 | 254 | 256 | 278 | 256 | 256 | 256 | 256 |
+| Uscite unite come varianti | 0 | 24 | 24 | 0 | 24 | 24 | 24 | 24 |
+| Schede riscritte | 0 | 254 | 256 | 0 | 256 | 256 | 256 | 256 |
+| Schede con cenno storico | 0 | 129 | 231 | 0 | 231 | 231 | 230 | 231 |
+| Fonti citate | 0 | 151 | 301 | 0 | 301 | 301 | 298 | 301 |
+| Pagine luogo | 0 | 1 | 263 | 0 | 530 | 263 | 530 | 530 |
+| Redirect manuali | 2 | 4 | 4 | 2 | 4 | 4 | 4 | 4 |
+| Parole per scheda (mediana) | 320.5 | 179.0 | 195.0 | 320.5 | 195.0 | 195.0 | 195.0 | 195.0 |
+| Schede sotto le 100 parole | 0 | 30 | 9 | 0 | 9 | 9 | 10 | 9 |
 
 ## Motori di ricerca nel tempo
 
